@@ -2,19 +2,35 @@
   <div class="war-card">
     <div class="war-card__wrapper">
       <img
-        src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg"
+        :src="imgSrc"
         class="war-card__cover-image"
       />
     </div>
-    <h1>Chaos</h1>
+    <h1>{{logoCaption}}</h1>
     <img
-      src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp"
+      :src="characterSrc"
       class="war-card__character"
     />
   </div>
 </template>
 <script>
-export default {};
+export default {
+  props: {
+    logoCaption: {
+      type: String,
+      default: "Chaos"
+    },
+    imgSrc: {
+      type: String,
+      default: "https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg"
+
+    },
+    characterSrc: {
+      type: String,
+      default: "https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp"
+    },
+  },
+};
 </script>
 <style>
 .war-card {

@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <div>
-      <WarCard />
-    </div>
+  <div class="app-container">
+
   </div>
 </template>

@@ -11,6 +11,8 @@
       :src="characterSrc"
       class="war-card__character"
     />
+
+    
   </div>
 </template>
 <script>
@@ -27,7 +29,7 @@ export default {
     },
     characterSrc: {
       type: String,
-      default: "https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp"
+      default: "/tyranid.png"
     },
   },
 };

@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     'vuetify/lib/styles/main.sass',
     '@mdi/font/css/materialdesignicons.min.css',
     '~/assets/css/main.css',
+    '~/assets/css/transition.css'
   ],
 
   postcss: {

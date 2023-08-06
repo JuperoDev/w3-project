@@ -1,8 +1,8 @@
 <template lang="">
   <div>
-    <v-btn>
-      wololo
-    </v-btn>
+    <div v-for="armyName in data.army" :key="armyName" class="m-5">
+      <v-btn>{{ armyName }}</v-btn>
+    </div>
   </div>
 </template>
 <script setup>

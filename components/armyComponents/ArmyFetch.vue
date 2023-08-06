@@ -2,13 +2,14 @@
   <div>
     <div v-if="data && data.army">
       <div v-for="armyName in data.army" class="m-5">
-        <v-btn>{{ armyName }}</v-btn>
+        <v-btn @click="navigateToArmyPage(armyName)">{{ armyName }}</v-btn>
       </div>
     </div>
   </div>
 </template>
 <script setup>
 import { ref, onMounted } from "vue";
+import { useRouter } from 'vue-router';
 
 const data = ref(null);
 
@@ -21,5 +22,10 @@ onMounted(async () => {
     console.error("Fetch Error: ", error);
   }
 });
+
+function navigateToArmyPage(armyName) {
+  router.push({ path: `/_army/${encodeURIComponent(armyName)}` });
+}
 </script>
+
 <style lang=""></style>

@@ -1,4 +1,5 @@
-<template lang="">
+<template>
+   <router-view></router-view> 
   <div>
     <div v-if="data && data.army">
       <div v-for="armyName in data.army" class="m-5">

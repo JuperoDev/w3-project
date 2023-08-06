@@ -10,6 +10,7 @@
 <script>
 import ArmyFetch from '@/components/armyComponents/ArmyFetch.vue';
 
+
 export default {
   components: {
     ArmyFetch

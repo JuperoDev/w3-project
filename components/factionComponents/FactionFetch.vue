@@ -1,16 +1,17 @@
 <template>
-
   <div>
     <div v-if="data && data.faction">
-      <div v-for="factionName in data.faction" class="m-5">
-        <v-btn>{{ factionName }}</v-btn>
+      <div v-for="factionName in data.faction" :key="factionName" class="m-5">
+        <nuxt-link :to="`/${factionName}`">
+          <v-btn>{{ factionName }}</v-btn>
+        </nuxt-link>
       </div>
     </div>
   </div>
 </template>
+
 <script setup>
 import { ref, onMounted } from "vue";
-import { useRouter } from 'vue-router';
 
 const data = ref(null);
 
@@ -23,8 +24,6 @@ onMounted(async () => {
     console.error("Fetch Error: ", error);
   }
 });
-
-
 </script>
 
 <style lang=""></style>

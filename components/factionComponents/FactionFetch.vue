@@ -1,9 +1,9 @@
 <template>
-   <router-view></router-view> 
+
   <div>
-    <div v-if="data && data.army">
-      <div v-for="armyName in data.army" class="m-5">
-        <v-btn @click="navigateToArmyPage(armyName)">{{ armyName }}</v-btn>
+    <div v-if="data && data.faction">
+      <div v-for="factionName in data.faction" class="m-5">
+        <v-btn>{{ factionName }}</v-btn>
       </div>
     </div>
   </div>
@@ -16,7 +16,7 @@ const data = ref(null);
 
 onMounted(async () => {
   try {
-    const res = await fetch("/army.json");
+    const res = await fetch("/faction.json");
     data.value = await res.json();
     console.log("Fetched Data: ", data.value);
   } catch (error) {
@@ -24,9 +24,7 @@ onMounted(async () => {
   }
 });
 
-function navigateToArmyPage(armyName) {
-  router.push({ path: `/_army/${encodeURIComponent(armyName)}` });
-}
+
 </script>
 
 <style lang=""></style>

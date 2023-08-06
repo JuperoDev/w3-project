@@ -1,19 +1,19 @@
 <template>
   <div class="app">
-    <div class="app-army-container">
+    <div class="app-faction-container">
       hola
-      <ArmyFetch />
+      <FactionFetch />
     </div>
   </div>
 </template>
 
 <script>
-import ArmyFetch from '@/components/armyComponents/ArmyFetch.vue';
+import FactionFetch from '@/components/factionComponents/FactionFetch.vue';
 
 
 export default {
   components: {
-    ArmyFetch
+    FactionFetch
   }
 }
 </script>

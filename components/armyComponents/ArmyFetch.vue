@@ -1,7 +1,9 @@
 <template lang="">
   <div>
-    <div v-for="armyName in data.army" :key="armyName" class="m-5">
-      <v-btn>{{ armyName }}</v-btn>
+    <div v-if="data && data.army">
+      <div v-for="armyName in data.army" class="m-5">
+        <v-btn>{{ armyName }}</v-btn>
+      </div>
     </div>
   </div>
 </template>

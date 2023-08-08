@@ -20,7 +20,7 @@ onMounted(async () => {
   try {
     const res = await fetch("/faction.json");
     data.value = await res.json();
-    console.log("Fetched Data: ", data.value);
+    // console.log("Fetched Data: ", data.value);
   } catch (error) {
     console.error("Fetch Error: ", error);
   }

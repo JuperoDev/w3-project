@@ -1,14 +1,9 @@
 <template>
     <div>
-      {{faction}}
-     
-  
-      <div v-if="factionData && factionData.army">
-        <div v-for="armyName in factionData.army" :key="armyName" class="m-5">
-         
-          <nuxt-link :to="`/${faction}/${armyName}`">
-            <v-btn>{{ armyName }}</v-btn>
-          </nuxt-link>
+      <h1>{{ faction }} - {{ army }}</h1>
+      <div v-if="armyData">
+        <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
+          <p>{{ armyName }}</p>
         </div>
       </div>
     </div>
@@ -18,25 +13,21 @@
   import { ref, onMounted } from "vue";
   import { useRoute } from "vue-router";
   
-  const factionData = ref(null);
-  const {faction} = useRoute().params;
-  const testUrl = useRoute().params.faction
-  
+  const armyData = ref([]);
+  const { faction, army } = useRoute().params;
   
   onMounted(async () => {
     try {
-      const factionParam = useRoute().params.faction;
-      const armyParam = useRoute().params.army;
-      const res = await fetch(`/faction/${factionParam}/${armyParam}/collection.json`);
-      factionData.value = await res.json();
-      console.log("Fetched Faction Data: ", factionData.value);
+      const res = await fetch(`/faction/${faction}/${army}/collection.json`);
+      armyData.value = await res.json();
+      console.log("Fetched Army Data: ", armyData.value);
     } catch (error) {
       console.error("Fetch Error: ", error);
     }
   });
   
   onMounted(() => {
-    console.log('Faction mounted');
+    console.log("Army mounted");
   });
   </script>
   

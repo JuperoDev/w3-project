@@ -1,11 +1,13 @@
 <template>
   <div>
     {{faction}}
-    this is faction url 
-    {{ testUrl }}
+
     <div v-if="factionData && factionData.army">
       <div v-for="armyName in factionData.army" :key="armyName" class="m-5">
-        {{ armyName }}
+       
+        <nuxt-link :to="`/${faction}/${armyName}`">
+          <v-btn>{{ armyName }}</v-btn>
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -17,7 +19,7 @@ import { useRoute } from "vue-router";
 
 const factionData = ref(null);
 const {faction} = useRoute().params;
-const testUrl = useRoute().params.faction
+
 
 
 onMounted(async () => {

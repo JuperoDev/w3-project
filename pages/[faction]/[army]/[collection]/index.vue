@@ -1,13 +1,11 @@
-<template lang="">
+<template>
     <div>
-        
+      parent unit
+
     </div>
-</template>
-<script>
-export default {
-    
-}
-</script>
-<style lang="">
-    
-</style>
+  </template>
+  
+  <script>
+
+  </script>
+  

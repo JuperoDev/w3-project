@@ -3,9 +3,11 @@
     <h1>{{ faction }} - {{ army }}</h1>
     <div v-if="armyData">
       <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
-        <v-btn>
-          <p>{{ armyName }}</p>
-        </v-btn>
+        <nuxt-link :to="`/${faction}/${army}/${armyName}`">
+          <v-btn>
+            <p>{{ armyName }}</p>
+          </v-btn>
+        </nuxt-link>
       </div>
     </div>
   </div>

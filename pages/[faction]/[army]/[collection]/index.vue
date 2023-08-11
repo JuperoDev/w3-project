@@ -1,7 +1,12 @@
 <template>
   <div>
-    <h1>{{ unitName }}</h1>
+    <h1>{{ armyUnit }}</h1>
+    <br/>
     <p>{{ lore }}</p>
+    <br/>
+    <p>{{ army }}</p>
+    <p>----</p>
+    <p>{{ tuputamadre }}</p>  
   </div>
 </template>
 
@@ -12,14 +17,15 @@ import { useRoute } from "vue-router";
 const lore = ref("");
 const route = useRoute(); // Move useRoute into the setup function
 
-const unitName = "termagants";
-// route.params.armyName 
 const faction = route.params.faction;
 const army = route.params.army;
+ const armyUnit = 'termagants' ;
+ const tuputamadre = route.params.faction;
+//  const armyUnit = route.params.armyName ;
 
 onMounted(async () => {
   try {
-    const res = await fetch(`/faction/${faction}/${army}/collection/${unitName}.json`);
+    const res = await fetch(`/faction/${faction}/${army}/collection/${armyUnit}.json`);
     const unitData = await res.json();
     lore.value = unitData.lore;
   } catch (error) {

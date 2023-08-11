@@ -6,7 +6,7 @@
     <br/>
     <p>{{ army }}</p>
     <p>----</p>
-    <p>{{ tuputamadre }}</p>  
+
   </div>
 </template>
 
@@ -19,9 +19,8 @@ const route = useRoute(); // Move useRoute into the setup function
 
 const faction = route.params.faction;
 const army = route.params.army;
- const armyUnit = 'termagants' ;
- const tuputamadre = route.params.faction;
-//  const armyUnit = route.params.armyName ;
+ const armyUnit = route.params.collection ;
+
 
 onMounted(async () => {
   try {

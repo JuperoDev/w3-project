@@ -9,12 +9,13 @@
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
-const route = useRoute();
-const unitName = route.params.armyName;
+const lore = ref("");
+const route = useRoute(); // Move useRoute into the setup function
+
+const unitName = "termagants";
+// route.params.armyName 
 const faction = route.params.faction;
 const army = route.params.army;
-
-const lore = ref("");
 
 onMounted(async () => {
   try {

@@ -1,6 +1,10 @@
 <template>
   <div>
-    {{attributes}}
+
+
+    <div class="datasheet__header py-5"  v-for="attribute in attributes">
+        <h1>{{ attribute.name }}</h1>
+    
 
     <!-- boxes -->
     <div class="datasheet__header--stats grid grid-cols-6 place-items-center">
@@ -14,7 +18,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            <!-- {{ attribute.movement }} " -->
+            {{ attribute.movement }} "
           </div>
         </div>
       </div>
@@ -29,7 +33,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            <!-- {{ attribute.toughness }} -->
+            {{ attribute.toughness }}
           </div>
         </div>
       </div>
@@ -44,7 +48,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            <!-- {{ attribute.save }} + -->
+            {{ attribute.save }} +
           </div>
         </div>
       </div>
@@ -59,7 +63,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            <!-- {{ attribute.wounds }} -->
+            {{ attribute.wounds }}
           </div>
         </div>
       </div>
@@ -74,7 +78,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            <!-- {{ attribute.leadership }} -->
+            {{ attribute.leadership }}
           </div>
         </div>
       </div>
@@ -89,12 +93,14 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-             {{ attributes[0].objetiveControl }} 
+             {{ attribute.objetiveControl }} 
           </div>
         </div>
       </div>
     </div>
+    
     <!-- end boxes  -->
+</div>
   </div>
 </template>
 

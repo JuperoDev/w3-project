@@ -1,0 +1,122 @@
+<template>
+  <div>
+    {{attributes}}
+
+    <!-- boxes -->
+    <div class="datasheet__header--stats grid grid-cols-6 place-items-center">
+      <!-- Single box -->
+
+      <div class="datasheet__header--stats-single grid place-items-center">
+        M
+        <div
+          class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"
+        >
+          <div
+            class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
+          >
+            <!-- {{ attribute.movement }} " -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Single box -->
+
+      <div class="datasheet__header--stats-single grid place-items-center">
+        T
+        <div
+          class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900 grid place-items-center"
+        >
+          <div
+            class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
+          >
+            <!-- {{ attribute.toughness }} -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Single box -->
+
+      <div class="datasheet__header--stats-single grid place-items-center">
+        S
+        <div
+          class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900 grid place-items-center"
+        >
+          <div
+            class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
+          >
+            <!-- {{ attribute.save }} + -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Single box -->
+
+      <div class="datasheet__header--stats-single grid place-items-center">
+        W
+        <div
+          class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900 grid place-items-center"
+        >
+          <div
+            class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
+          >
+            <!-- {{ attribute.wounds }} -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Single box -->
+
+      <div class="datasheet__header--stats-single grid place-items-center">
+        L
+        <div
+          class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900 grid place-items-center"
+        >
+          <div
+            class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
+          >
+            <!-- {{ attribute.leadership }} -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Single box -->
+
+      <div class="datasheet__header--stats-single grid place-items-center">
+        OC
+        <div
+          class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900 grid place-items-center"
+        >
+          <div
+            class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
+          >
+             {{ attributes[0].objetiveControl }} 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end boxes  -->
+  </div>
+</template>
+
+<script setup>
+import { defineProps } from "vue";
+
+const props = defineProps({
+  attributes: Array
+});
+</script>
+
+<style>
+.datasheet__header--stats-single-box {
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0 100%,
+    0% 20%
+  );
+}
+</style>

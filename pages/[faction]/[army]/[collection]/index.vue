@@ -9,6 +9,8 @@
     <br />
     <p>{{ army }}</p>
     <p>----</p>
+    <Attributes :attributes="attributes"/>
+    <Lore :lore="lore"/>
   </div>
 </template>
 
@@ -38,6 +40,7 @@ onMounted(async () => {
       `/faction/${faction}/${army}/collection/${armyUnit}.json`
     );
     const unitData = await res.json();
+    attributes.value = unitData.attributes;
     lore.value = unitData.lore;
     parentUnit.value = unitData.parentUnit;
     leader.value = unitData.leader; 

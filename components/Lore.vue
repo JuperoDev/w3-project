@@ -8,8 +8,6 @@
         <div class="italic mt-5 " v-if="isCollapsed">
           <p>
             {{ lore }}
-
-            aasdasdads
           </p>
         </div>
       </div>

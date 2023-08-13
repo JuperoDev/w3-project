@@ -1,15 +1,9 @@
 <template>
   <div>
     <h1>{{ armyUnit }}</h1>
-    <br />
-    <p>parent unit: {{ parentUnit }}</p>
-    <p v-if="leader.length > 0 ">leader : <span v-for="lead in leader">{{ lead }}</span> </p>
-    <br/>
-    <p>{{ lore }}</p>
-    <br />
-    <p>{{ army }}</p>
-    <p>----</p>
+{{ lore }}
     <Attributes :attributes="attributes"/>
+    <Weapons :rangedWeapons="rangedWeapons"/>
     <Lore :lore="lore"/>
   </div>
 </template>
@@ -21,19 +15,19 @@ import { useRoute } from "vue-router";
 
 
 // params
-const route = useRoute(); // Move useRoute into the setup function
+const route = useRoute(); 
 const faction = route.params.faction;
 const army = route.params.army;
 const armyUnit = route.params.collection;
 
-// json data
+// json data storage
 const attributes= ref([]);
 const parentUnit = ref ("");
 const lore = ref("");
 const leader = ref ("");
+const rangedWeapons = ref ([3,3]);
 
-
-
+// json fetcher
 onMounted(async () => {
   try {
     const res = await fetch(
@@ -44,6 +38,7 @@ onMounted(async () => {
     lore.value = unitData.lore;
     parentUnit.value = unitData.parentUnit;
     leader.value = unitData.leader; 
+   rangedWeapons.value = unitData.rangedWeapons;
   } catch (error) {
     console.error("Fetch Error: ", error);
   }

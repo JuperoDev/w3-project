@@ -26,7 +26,7 @@
           class="newStats"
         >
           <div
-            class="weaponName bg-zinc-900 text-slate-50 m-2 p-3 rounded-lg font-semibold"
+            class="weaponName uppercase bg-zinc-900 text-slate-50 m-2 p-3 rounded-lg font-semibold"
           >
             <h2>{{ weapon.name }}</h2>
           </div>
@@ -86,7 +86,7 @@ const props = defineProps({
   rangedWeapons: Array
 });
 
-const isCollapsed = ref(true);
+const isCollapsed = ref(false);
 
 const toggleCollapse = () => {
   isCollapsed.value = !isCollapsed.value;

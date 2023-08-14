@@ -11,7 +11,7 @@
     
 
      <div v-for="weapon in meleeWeapons" :key="weapon.name">
-        <div class="weaponName bg-zinc-900 text-slate-50 m-2 p-3 rounded-lg font-semibold">
+        <div class="weaponName uppercase bg-zinc-900 text-slate-50 m-2 p-3 rounded-lg font-semibold">
           <h2>{{weapon.name}}</h2>
         </div>
 

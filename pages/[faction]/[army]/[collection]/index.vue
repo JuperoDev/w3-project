@@ -6,10 +6,11 @@
 
    
 
-    <Lore :lore="lore" />
+    
  
     <v-expansion-panels>
 
+      <!-- Ranged weapons -->
       <v-expansion-panel>
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Ranged weapons</div>
@@ -34,7 +35,7 @@
       </v-expansion-panel>
     </v-expansion-panels>
 
-
+    <Lore :lore="lore" />
 
   </div>
 </template>

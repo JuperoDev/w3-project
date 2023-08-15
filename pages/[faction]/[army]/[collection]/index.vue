@@ -15,6 +15,22 @@
     :meleeWeapons="meleeWeapons"
     />
     <Lore :lore="lore" />
+
+    <v-expansion-panels>
+      <v-expansion-panel>
+      <v-expansion-panel-title>
+       <div class="uppercase font-semibold">Melee Weapons</div> 
+      </v-expansion-panel-title>
+      <v-expansion-panel-text>
+        <div>
+          <MeleeWeapons
+    :meleeWeapons="meleeWeapons"
+    />
+        </div>
+      </v-expansion-panel-text>
+    </v-expansion-panel>
+  </v-expansion-panels>
+
   </div>
 </template>
 

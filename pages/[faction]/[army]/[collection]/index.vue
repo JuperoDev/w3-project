@@ -3,33 +3,38 @@
     <h1>{{ armyUnit }}</h1>
     {{ lore }}
     <Attributes :attributes="attributes" />
-    <Weapons
-      :rangedWeapons="rangedWeapons"
-      weaponLabel="ranged weapons"
-      ranged="true"
-    />
-    <RangedWeapons
-      :rangedWeapons="rangedWeapons"
-    />
-    <MeleeWeapons
-    :meleeWeapons="meleeWeapons"
-    />
-    <Lore :lore="lore" />
 
+   
+
+    <Lore :lore="lore" />
+ 
     <v-expansion-panels>
+
       <v-expansion-panel>
-      <v-expansion-panel-title>
-       <div class="uppercase font-semibold">Melee Weapons</div> 
-      </v-expansion-panel-title>
-      <v-expansion-panel-text>
-        <div>
-          <MeleeWeapons
-    :meleeWeapons="meleeWeapons"
-    />
-        </div>
-      </v-expansion-panel-text>
-    </v-expansion-panel>
-  </v-expansion-panels>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Ranged weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <RangedWeapons :rangedWeapons="rangedWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Melee weapons  -->
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Melee Weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MeleeWeapons :meleeWeapons="meleeWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+    </v-expansion-panels>
+
+
 
   </div>
 </template>
@@ -52,7 +57,6 @@ const leader = ref("");
 const rangedWeapons = ref([]);
 const meleeWeapons = ref([]);
 
-
 // json fetcher
 onMounted(async () => {
   try {
@@ -66,7 +70,6 @@ onMounted(async () => {
     leader.value = unitData.leader;
     rangedWeapons.value = unitData.rangedWeapons;
     meleeWeapons.value = unitData.meleeWeapons;
-
   } catch (error) {
     console.error("Fetch Error: ", error);
   }

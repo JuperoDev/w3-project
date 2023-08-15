@@ -1,23 +1,7 @@
 <template>
   <div>
    
-      <!--  -->
-      <!-- placeholder -->
-      <!--  -->
-      <div
       
-        @click="toggleCollapse"
-        class="toggleButton h-10 p-1 bg-slate-300 grid grid-cols-6 border-t-4 border-slate-50 font-semibold px-3"
-      >
-        <div class="collapse1 col-span-5 uppercase">ranged weapons</div>
-        <div class="collapse2">
-          <!-- here goes the dropdown button  -->
-        </div>
-      </div>
-      <!--  -->
-      <!-- end placeholder -->
-      <!--  -->
-      <div v-if="isCollapsed">
         <!-- Content inside the collapsible div -->
 
         <div
@@ -75,7 +59,7 @@
             </div>
           </div>
         </div>
-      </div>
+     
     
   </div>
 </template>
@@ -86,9 +70,5 @@ const props = defineProps({
   rangedWeapons: Array
 });
 
-const isCollapsed = ref(false);
 
-const toggleCollapse = () => {
-  isCollapsed.value = !isCollapsed.value;
-};
 </script>

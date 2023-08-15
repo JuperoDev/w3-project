@@ -1,12 +1,7 @@
 <template>
   <div>
-    <div @click="toggleCollapse" class="toggleButton h-10 p-1 bg-slate-300 grid grid-cols-6 border-t-4 border-slate-50 font-semibold px-3">
-      <div class="collapse1 col-span-5 uppercase">melee weapons</div>
-      <div class="collapse2">
-        <!-- here goes the dropdown button  -->
-      </div>
-    </div>
-    <div v-if="isCollapsed">
+  
+   
       <!-- Content inside the collapsible div -->
     
 
@@ -33,7 +28,7 @@
 
       </div>
 
-    </div>
+   
   </div>
 </template>
 <script setup>
@@ -43,9 +38,4 @@ const props = defineProps({
   meleeWeapons: Array
 });
 
-const isCollapsed = ref(false);
-
-const toggleCollapse = () => {
-  isCollapsed.value = !isCollapsed.value;
-};
 </script>

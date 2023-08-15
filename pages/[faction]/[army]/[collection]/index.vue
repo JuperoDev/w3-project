@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ armyUnit }}</h1>
-    {{ lore }}
+
     <Attributes :attributes="attributes" />
 
    

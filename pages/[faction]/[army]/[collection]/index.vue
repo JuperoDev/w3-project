@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-slate-200 bg-slate-900">
+    <div class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900">
       <h1 >{{ armyUnit }}</h1>
     </div>
     

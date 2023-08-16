@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>{{ armyUnit }}</h1>
+    <div class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-slate-200 bg-slate-900">
+      <h1 >{{ armyUnit }}</h1>
+    </div>
+    
 
     <Attributes :attributes="attributes" />
 
@@ -135,3 +138,8 @@ onMounted(async () => {
   }
 });
 </script>
+<style scoped>
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+</style>

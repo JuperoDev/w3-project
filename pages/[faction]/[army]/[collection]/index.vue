@@ -54,13 +54,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <Wargear :wargear="wargear"/>
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -118,6 +112,7 @@ const rangedWeapons = ref([]);
 const meleeWeapons = ref([]);
 const keywords = ref([]);
 const factionKeyword = ref([]);
+const wargear = ref ([]);
 
 // json fetcher
 onMounted(async () => {
@@ -134,6 +129,7 @@ onMounted(async () => {
     meleeWeapons.value = unitData.meleeWeapons;
     keywords.value = unitData.keywords;
     factionKeyword.value = unitData.factionKeyword;
+    wargear.value = unitData.wargear;
   } catch (error) {
     console.error("Fetch Error: ", error);
   }

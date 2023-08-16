@@ -3,7 +3,7 @@
         {{wargear}}
         <div v-if="wargear">
         <!-- Display wargear options -->
-
+e
         <div v-for="(wargearSet, index) in wargear" :key="index">
           <p>{{ wargearSet.description }}</p>
           <ul>
@@ -22,7 +22,7 @@
 </template>
 <script setup>
 const props = defineProps({
-  wargear: Array
+  wargear: Object
 });
 
 </script>

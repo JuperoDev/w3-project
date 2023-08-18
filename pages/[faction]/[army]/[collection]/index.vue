@@ -1,9 +1,10 @@
 <template>
   <div>
-    <div class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900">
-      <h1 >{{ armyUnit }}</h1>
+    <div
+      class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
+    >
+      <h1>{{ armyUnit }}</h1>
     </div>
-    
 
     <Attributes :attributes="attributes" />
 
@@ -39,7 +40,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-           <Abilities :abilities="abilities"/>
+            <Abilities :abilities="abilities" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -51,7 +52,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <Wargear :wargear="wargear"/>
+            <Wargear :wargear="wargear" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -62,13 +63,12 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            
+            <UnitComposition
+              :options="options"
+              :unitComposition="unitComposition"
+              :equipment="equipment"
+            />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -111,6 +111,9 @@ const keywords = ref([]);
 const factionKeyword = ref([]);
 const wargear = ref ([]);
 const abilities = ref ({});
+const unitComposition= ref ([]);
+const equipment= ref ([]);
+const options= ref ([]);
 
 // json fetcher
 onMounted(async () => {
@@ -129,6 +132,9 @@ onMounted(async () => {
     factionKeyword.value = unitData.factionKeyword;
     wargear.value = unitData.wargear;
     abilities.value = unitData.abilities;
+    unitComposition.value = unitData.unitComposition;
+    equipment.value = unitData.equipment;
+    options.value = unitData.options;
   } catch (error) {
     console.error("Fetch Error: ", error);
   }
@@ -136,6 +142,6 @@ onMounted(async () => {
 </script>
 <style scoped>
 .font-bebas {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 </style>

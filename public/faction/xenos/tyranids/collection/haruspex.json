@@ -19,5 +19,25 @@
         "great devourer",
         "haruspex"
     ],
-    "wargear": false
+    "wargear": false,
+    "meleeWeapons": [
+        {
+            "name": "Ravenous maw",
+            "attacks": 14,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Shovelling claws",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 14,
+            "armor-penetration": 2,
+            "damage": "d6+1",
+            "modifiers": ["extra attacks"]
+        }
+    ]
 }

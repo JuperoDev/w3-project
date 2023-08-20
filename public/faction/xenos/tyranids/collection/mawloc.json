@@ -19,5 +19,25 @@
         "great devourer",
         "mawloc"
     ],
-    "wargear": false
+    "wargear": false,
+    "meleeWeapons": [
+        {
+            "name": "distensible jaw",
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 3,
+            "modifiers": ["anti-infantry 4+", "extra attacks", "devastating wounds"]
+        },
+        {
+            "name": "mawloc scything talons",
+            "attacks": 16,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

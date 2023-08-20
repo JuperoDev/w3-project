@@ -21,5 +21,25 @@
         "character",
         "parasite of mortrex"
     ],
-    "wargear": false
+    "wargear": false,
+    "meleeWeapons": [
+        {
+            "name": "barbed ovipositor",
+            "attacks": 1,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": ["anti-infantry 3+", "extra attacks"]
+        },
+        {
+            "name": "clawed limbs",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ]
 }

@@ -1,14 +1,16 @@
 {
     "parentUnit": "tyrant guard",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 8,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Incredibly well armoured and resilient, Tyrant Guard form a mobile bulwark around their assigned synapse organism. So extreme is their bio-adaptation, they do not even possess weak spots such as eyes. Instead, they are guided as extensions of their charge’s synaptic will, acting as living weapons and shields.  ",
     "factionKeyword": [
@@ -18,5 +20,40 @@
         "infantry",
         "great devourer",
         "tyrant guard"
+    ],
+    "meleeWeapons": [
+        {
+            "name": "bone cleaver, lash whip and rending claws",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [
+                "twin-linked"
+            ]
+        },
+        {
+            "name": "Crushing claws and rending claws",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                
+            ]
+        },
+        {
+            "name": "Scything talons and rending claws ",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+               
+            ]
+        }
     ]
 }

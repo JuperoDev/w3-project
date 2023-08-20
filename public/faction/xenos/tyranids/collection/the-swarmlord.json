@@ -1,15 +1,19 @@
 {
     "parentUnit": "the swarmlord",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 10,
-        "save": 2,
-        "wounds": 10,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 4
-    }],
-    "leader": ["tyrant guard"],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "tyrant guard"
+    ],
     "lore": "The Swarmlord is the herald of the Hive Mind and may be as old as the Tyranid race itself. Upon death, the beast is always absorbed through the synaptic link and spawned anew. It has presided over the annihilation of countless civilisations, and with every incarnation it only becomes more deadly. ",
     "factionKeyword": [
         "tyranids"
@@ -22,5 +26,16 @@
         "synapse",
         "the swarmlord"
     ],
-    "wargear": false
+    "wargear": false,
+    "meleeWeapons": [{
+        "name": "Bone sabres",
+        "attacks": 8,
+        "weapons-skills": 2,
+        "strength": 9,
+        "armor-penetration": 2,
+        "damage": 3,
+        "modifiers": [
+            "twin-linked"
+        ]
+    }]
 }

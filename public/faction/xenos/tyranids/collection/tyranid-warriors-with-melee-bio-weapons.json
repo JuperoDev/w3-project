@@ -1,14 +1,16 @@
 {
     "parentUnit": "tyranid warriors with melee bio-weapons",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Strong, swift, independently intelligent and amongst the Hive Mind’s most adaptable bioforms, Tyranid Warriors are the backbone of many Tyranid invasions. Their synaptic link imbues them with advanced martial abilities, and also allows them to serve as synaptic linchpins within the wider swarms during battle. ",
     "factionKeyword": [
@@ -19,5 +21,16 @@
         "synapse",
         "tyranid warrior with melee bio-weapons"
     ],
-    "wargear": false
+    "wargear": false,
+    "meleeWeapons": [
+        {
+            "name": "bio-weapons",
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": ["twin-linked"]
+        }
+    ]
 }

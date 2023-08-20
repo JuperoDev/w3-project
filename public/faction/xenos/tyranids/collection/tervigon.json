@@ -1,14 +1,16 @@
 {
     "parentUnit": "tervigon",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 11,
-        "save": 2,
-        "wounds": 16,
-        "leadership": 7,
-        "objetiveControl": 5,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 7,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Beyond simply being large and powerful synapse beasts, Tervigons are also able to spawn skittering masses of Termagant warrior organisms from within their bulging abdomens. These dripping spawn instinctively protect their broodmother with their lives, their numbers growing all the time until they overwhelm the prey. ",
     "factionKeyword": [
@@ -21,5 +23,34 @@
         "great devourer",
         "synapse",
         "tervigon"
+    ],
+    "meleeWeapons": [
+        {
+            "name": "massive crushing claws",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": []
+        },
+        {
+            "name": "massive scything talons - strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "modifiers": []
+        },
+        {
+            "name": "massive scything talons - sweep",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
 }

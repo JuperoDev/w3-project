@@ -1,16 +1,17 @@
 {
     "parentUnit": "barbgaunts",
-    "attributes": [{
-        "name": "barbgaunt",
-        "movement": 6,
-        "toughness": 4,
-        "save": 4,
-        "wounds": 1,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
-    
+    "attributes": [
+        {
+            "name": "barbgaunt",
+            "movement": 6,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "rangedWeapons": [
         {
             "name": "bio-cannon",
@@ -21,11 +22,22 @@
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": [
-                "blast","heavy"
+                "blast",
+                "heavy"
             ]
         }
     ],
     "wargear": false,
     "leader": [],
-    "lore": "Barbgaunts are little more than living weapons, their bodies and bio-cannons slaved to the will of a pulsating ganglio-parasite that piggybacks them into battle. There, they unleash volleys of chitinous barbs that detonate with the fury of violent muscle-spasms and transfix nearby victims with hails of jagged projectiles."
+    "lore": "Barbgaunts are little more than living weapons, their bodies and bio-cannons slaved to the will of a pulsating ganglio-parasite that piggybacks them into battle. There, they unleash volleys of chitinous barbs that detonate with the fury of violent muscle-spasms and transfix nearby victims with hails of jagged projectiles.",
+    "factionKeyword": [
+        "tyranids"
+    ],
+    "keywords": [
+        "infantry",
+        "battleline",
+        "great devourer",
+        "endless multitude",
+        "termagants"
+    ]
 }

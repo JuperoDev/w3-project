@@ -7,8 +7,7 @@
             {{ ability }}
         </div>
         <div v-for="(miscAbility, index) in abilities.misc" :key="'misc-' + index">
-            <div>{{ miscAbility.name }}</div>
-            <div>{{ miscAbility.description }}</div>
+            <span class="font-semibold">{{ miscAbility.name }} : </span> <span>{{ miscAbility.description }}</span>
         </div>
     </div>
 </template>

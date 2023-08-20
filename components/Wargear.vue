@@ -1,20 +1,22 @@
 <template lang="">
     <div>
-        <div v-if="wargear">
+        <div v-if="wargear" class="px-5 py-2">
         <!-- Display wargear options -->
 
-        <div v-for="(wargearSet, index) in wargear" :key="index">
+        <div v-for="(wargearSet, index) in wargear" :key="index" >
           <p>{{ wargearSet.description }}</p>
-          <ul>
+          <ul class="pt-2">
             <li v-for="(item, itemIndex) in wargearSet.items" :key="itemIndex">
               {{ item }}
             </li>
           </ul>
         </div>
       </div>
-      <div v-else>
+      <div v-else class="px-5 py-2 ">
         <!-- If wargear is false, display "none" -->
-        none
+        <ul>
+          <li>None</li> 
+        </ul>
       </div>
     </div>
 </template>

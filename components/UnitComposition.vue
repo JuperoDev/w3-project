@@ -17,8 +17,8 @@
     </div>
 
     <br />
-    <p>Every model is equipped with:</p>
-    <div v-for="equip in equipment" class="px-3">
+    <p class="py-2">Every model is equipped with:</p>
+    <div v-for="equip in equipment" class="px-5 capitalize">
       <ul>
         <li>
           

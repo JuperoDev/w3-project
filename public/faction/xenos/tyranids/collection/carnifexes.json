@@ -18,5 +18,43 @@
         "monster",
         "great devourer",
         "carnifexes"
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Carnifex crushing claws",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": []
+        },
+        {
+            "name": "Carnifex extra scything talons",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": ["extra attacks"]
+        },
+        {
+            "name": "Carnifex scything talons",
+            "attacks": 6,
+            "weapons-skills": 9,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": []
+        },
+        {
+            "name": "Xenos claws and teeth",
+            "attacks": 4,
+            "weapons-skills": 6,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
 }

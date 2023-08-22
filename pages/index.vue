@@ -1,6 +1,8 @@
 <template>
     <div>
       <FactionFetch />
+      <nuxt-link to="/simulator">Simulator</nuxt-link>
+      <SimulatorPick/>
     </div>
   </template>
   

@@ -1,6 +1,12 @@
-<template lang="">
+<template>
     <div>
         math hammer
-        <SimulatorPick/>
+        <SimulatorPick :attackRole="true"/>
+        <br/>
+        <SimulatorPick :attackRole="false"/>
     </div>
 </template>
+<script setup>
+
+
+</script>

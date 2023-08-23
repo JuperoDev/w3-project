@@ -1,37 +1,37 @@
 <template>
   <div>
-    Attack Role: 
-    {{ attackRole }}
-    <br/>
+    Attack Role: {{ attackRole }}
+    <br />
     <div class="simulator-pick-preset grid grid-cols-3">
       <v-select
-      label="Select Faction"
-      :items="factions"
-      v-model="selectedFaction"
-    ></v-select>
+        label="Select Faction"
+        :items="factions"
+        v-model="selectedFaction"
+      ></v-select>
 
-    <v-select
-      label="Select Army"
-      :items="selectedFactionData?.army || []"
-      v-model="selectedArmy"
-      :disabled="!selectedFaction"
-    ></v-select>
+      <v-select
+        label="Select Army"
+        :items="selectedFactionData?.army || []"
+        v-model="selectedArmy"
+        :disabled="!selectedFaction"
+      ></v-select>
 
-    <v-select
-      label="Select Unit"
-      :items="selectedArmyData?.units || []"
-      v-model="selectedCollection"
-      :disabled="!selectedArmy"
-    ></v-select>
-
+      <v-select
+        label="Select Unit"
+        :items="selectedArmyData?.units || []"
+        v-model="selectedCollection"
+        :disabled="!selectedArmy"
+      ></v-select>
     </div>
-   
 
+    <div class="unit-attributes">
+      <pre>{{ JSON.stringify(selectedUnitAttributes, null, 2) }}</pre>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from "vue";
+import { ref, onMounted, watch, defineProps } from "vue";
 
 const props = defineProps({
   attackRole: Boolean,
@@ -39,10 +39,11 @@ const props = defineProps({
 
 const factions = ref([]);
 const selectedFaction = ref("");
-const selectedFactionData = ref(null);
+const selectedFactionData = ref("");
 const selectedArmy = ref("");
-const selectedArmyData = ref(null);
+const selectedArmyData = ref("");
 const selectedCollection = ref("");
+const selectedUnitAttributes = ref(null);
 
 // Fetch the data from the JSON file based on the selected faction
 const fetchFactionData = async () => {
@@ -63,9 +64,20 @@ const fetchArmyData = async () => {
     );
     selectedArmyData.value = await response.json();
     selectedCollection.value = ""; // Reset selected collection when army changes
-    console.log("Fetched Army Data:", selectedArmyData.value);
   } catch (error) {
     console.error("Error fetching army data:", error);
+  }
+};
+
+// Fetch the attributes of the selected unit based on its name
+const fetchUnitAttributes = async () => {
+  if (selectedCollection) {
+    try {
+      const response = await fetch(`/faction/${selectedFaction.value}/${selectedArmy.value}/collection/${selectedCollection.value}.json`);
+      selectedUnitAttributes.value = await response.json();
+    } catch (error) {
+      console.error("Error fetching unit attributes:", error);
+    }
   }
 };
 
@@ -85,4 +97,16 @@ watch(selectedFaction, fetchFactionData);
 
 // Watch for changes in the selected army and fetch corresponding data
 watch(selectedArmy, fetchArmyData);
+
+// Watch for changes in the selected collection and fetch corresponding unit attributes
+watch(selectedCollection, fetchUnitAttributes);
 </script>
+
+<style>
+.unit-attributes {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+</style>

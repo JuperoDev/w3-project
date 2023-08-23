@@ -1,6 +1,6 @@
 <template>
-    <div>
-        math hammer
+    <div class="p-5">
+        
         <SimulatorPick :attackRole="true"/>
         <br/>
         <SimulatorPick :attackRole="false"/>

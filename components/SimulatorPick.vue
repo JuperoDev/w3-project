@@ -23,6 +23,16 @@
         :disabled="!selectedArmy"
       ></v-select>
     </div>
+<div class="checkBoolean" v-if ="attackRole">
+
+
+    <v-switch
+      :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
+      v-model="isMeleeAttack"
+      :disabled="!selectedCollection"
+    ></v-switch>
+
+  </div>
 
     <div class="unit-attributes">
       <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
@@ -41,8 +51,8 @@
       </p>
     </div>
     
-    <div class="melee-weapons">
-      <h3>Melee Weapons:</h3>
+    <div class="melee-weapons" v-if="attackRole">
+      <h3>{{ isMeleeAttack ? 'Melee Weapons:' : 'Ranged Weapons:' }}</h3>
       <div v-if="selectedUnitAttributes && selectedUnitAttributes.meleeWeapons">
         <div v-for="(weapon, index) in selectedUnitAttributes.meleeWeapons" :key="index">
           <p><strong>Weapon: {{ weapon.name }}</strong></p>
@@ -54,6 +64,9 @@
         </div>
       </div>
     </div>
+
+
+
   </div>
 </template>
 
@@ -71,6 +84,7 @@ const selectedArmy = ref("");
 const selectedArmyData = ref("");
 const selectedCollection = ref("");
 const selectedUnitAttributes = ref(null);
+const isMeleeAttack = ref(true); // Default to melee attack
 
 // Fetch functions...
 
@@ -120,8 +134,10 @@ watch(selectedFaction, fetchFactionData);
 // Watch for changes in the selected army and fetch corresponding data
 watch(selectedArmy, fetchArmyData);
 
-// Watch for changes in the selected collection and fetch corresponding unit attributes
-watch(selectedCollection, fetchUnitAttributes);
+// Watch for changes in the selected collection and attack type, and fetch corresponding unit attributes
+watch([selectedCollection, isMeleeAttack], () => {
+  fetchUnitAttributes();
+});
 
 // Fetch the faction list data when the component is mounted
 onMounted(async () => {
@@ -147,5 +163,9 @@ onMounted(async () => {
   margin-top: 20px;
   border: 1px solid #ccc;
   padding: 10px;
+}
+
+.custom-switch .v-input--selection-controls__ripple {
+  background-color: transparent !important;
 }
 </style>

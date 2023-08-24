@@ -25,21 +25,20 @@
     </div>
 
     <div class="unit-attributes">
-      <!-- <pre>{{
-        selectedUnitAttributes
-          ? JSON.stringify(selectedUnitAttributes, null, 2)
-          : "            "
-      }}</pre> KEEP IT FOR LATER-->
-
-      <div class="unit-attributes">
-  <p>Movement: {{ selectedUnitAttributes?.attributes[0]?.movement }}</p>
-  <p>Toughness: {{ selectedUnitAttributes?.attributes[0]?.toughness }}</p>
-  <p>Save: {{ selectedUnitAttributes?.attributes[0]?.save }}</p>
-  <p>Wounds: {{ selectedUnitAttributes?.attributes[0]?.wounds }}</p>
-  <p>Leadership: {{ selectedUnitAttributes?.attributes[0]?.leadership }}</p>
-  <p>Objective Control: {{ selectedUnitAttributes?.attributes[0]?.objetiveControl }}</p>
-  <p>Invulnerable Save: {{ selectedUnitAttributes?.attributes[0]?.invulnerableSave }}</p>
-</div>
+      <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
+      <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">
+        <span>Parent Unit: {{ selectedUnitAttributes.parentUnit }}</span>
+        <br />
+        <span>Toughness: {{ selectedUnitAttributes.attributes[0].toughness }}</span>
+        <br />
+        <span>Save: {{ selectedUnitAttributes.attributes[0].save }}</span>
+        <br />
+        <span>Wounds: {{ selectedUnitAttributes.attributes[0].wounds }}</span>
+        <br />
+        <span v-if="selectedUnitAttributes.attributes[0].invulnerableSave !== 0">
+          Invulnerable Save: {{ selectedUnitAttributes.attributes[0].invulnerableSave }}
+        </span>
+      </p>
     </div>
   </div>
 </template>
@@ -59,7 +58,8 @@ const selectedArmyData = ref("");
 const selectedCollection = ref("");
 const selectedUnitAttributes = ref(null);
 
-// Fetch the data from the JSON file based on the selected faction
+// Fetch functions...
+
 const fetchFactionData = async () => {
   try {
     const response = await fetch(`/faction/${selectedFaction.value}/army.json`);
@@ -70,7 +70,6 @@ const fetchFactionData = async () => {
   }
 };
 
-// Fetch the data from the JSON file based on the selected army
 const fetchArmyData = async () => {
   try {
     const response = await fetch(
@@ -83,7 +82,6 @@ const fetchArmyData = async () => {
   }
 };
 
-// Fetch the attributes of the selected unit based on its name
 const fetchUnitAttributes = async () => {
   if (selectedCollection) {
     try {

@@ -25,11 +25,21 @@
     </div>
 
     <div class="unit-attributes">
-      <pre>{{
+      <!-- <pre>{{
         selectedUnitAttributes
           ? JSON.stringify(selectedUnitAttributes, null, 2)
           : "            "
-      }}</pre>
+      }}</pre> KEEP IT FOR LATER-->
+
+      <div class="unit-attributes">
+  <p>Movement: {{ selectedUnitAttributes?.attributes[0]?.movement }}</p>
+  <p>Toughness: {{ selectedUnitAttributes?.attributes[0]?.toughness }}</p>
+  <p>Save: {{ selectedUnitAttributes?.attributes[0]?.save }}</p>
+  <p>Wounds: {{ selectedUnitAttributes?.attributes[0]?.wounds }}</p>
+  <p>Leadership: {{ selectedUnitAttributes?.attributes[0]?.leadership }}</p>
+  <p>Objective Control: {{ selectedUnitAttributes?.attributes[0]?.objetiveControl }}</p>
+  <p>Invulnerable Save: {{ selectedUnitAttributes?.attributes[0]?.invulnerableSave }}</p>
+</div>
     </div>
   </div>
 </template>

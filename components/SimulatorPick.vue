@@ -40,6 +40,20 @@
         </span>
       </p>
     </div>
+    
+    <div class="melee-weapons">
+      <h3>Melee Weapons:</h3>
+      <div v-if="selectedUnitAttributes && selectedUnitAttributes.meleeWeapons">
+        <div v-for="(weapon, index) in selectedUnitAttributes.meleeWeapons" :key="index">
+          <p><strong>Weapon: {{ weapon.name }}</strong></p>
+          <p>Attacks: {{ weapon.attacks }}</p>
+          <p>Weapon Skill: {{ weapon['weapons-skills'] }}</p>
+          <p>Strength: {{ weapon.strength }}</p>
+          <p>Armor Penetration: {{ weapon['armor-penetration'] }}</p>
+          <p>Damage: {{ weapon.damage }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -60,6 +74,7 @@ const selectedUnitAttributes = ref(null);
 
 // Fetch functions...
 
+// Fetch the data from the JSON file based on the selected faction
 const fetchFactionData = async () => {
   try {
     const response = await fetch(`/faction/${selectedFaction.value}/army.json`);
@@ -70,6 +85,7 @@ const fetchFactionData = async () => {
   }
 };
 
+// Fetch the data from the JSON file based on the selected army
 const fetchArmyData = async () => {
   try {
     const response = await fetch(
@@ -82,6 +98,7 @@ const fetchArmyData = async () => {
   }
 };
 
+// Fetch the attributes of the selected unit based on its name
 const fetchUnitAttributes = async () => {
   if (selectedCollection) {
     try {
@@ -95,6 +112,17 @@ const fetchUnitAttributes = async () => {
   }
 };
 
+// Watch functions...
+
+// Watch for changes in the selected faction and fetch corresponding data
+watch(selectedFaction, fetchFactionData);
+
+// Watch for changes in the selected army and fetch corresponding data
+watch(selectedArmy, fetchArmyData);
+
+// Watch for changes in the selected collection and fetch corresponding unit attributes
+watch(selectedCollection, fetchUnitAttributes);
+
 // Fetch the faction list data when the component is mounted
 onMounted(async () => {
   try {
@@ -105,15 +133,6 @@ onMounted(async () => {
     console.error("Error fetching faction list:", error);
   }
 });
-
-// Watch for changes in the selected faction and fetch corresponding data
-watch(selectedFaction, fetchFactionData);
-
-// Watch for changes in the selected army and fetch corresponding data
-watch(selectedArmy, fetchArmyData);
-
-// Watch for changes in the selected collection and fetch corresponding unit attributes
-watch(selectedCollection, fetchUnitAttributes);
 </script>
 
 <style>
@@ -122,5 +141,11 @@ watch(selectedCollection, fetchUnitAttributes);
   border: 1px solid #ccc;
   padding: 10px;
   white-space: pre-wrap;
+}
+
+.melee-weapons {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
 }
 </style>

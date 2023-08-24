@@ -25,7 +25,11 @@
     </div>
 
     <div class="unit-attributes">
-      <pre>{{ JSON.stringify(selectedUnitAttributes, null, 2) }}</pre>
+      <pre>{{
+        selectedUnitAttributes
+          ? JSON.stringify(selectedUnitAttributes, null, 2)
+          : "            "
+      }}</pre>
     </div>
   </div>
 </template>
@@ -73,7 +77,9 @@ const fetchArmyData = async () => {
 const fetchUnitAttributes = async () => {
   if (selectedCollection) {
     try {
-      const response = await fetch(`/faction/${selectedFaction.value}/${selectedArmy.value}/collection/${selectedCollection.value}.json`);
+      const response = await fetch(
+        `/faction/${selectedFaction.value}/${selectedArmy.value}/collection/${selectedCollection.value}.json`
+      );
       selectedUnitAttributes.value = await response.json();
     } catch (error) {
       console.error("Error fetching unit attributes:", error);

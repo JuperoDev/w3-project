@@ -23,50 +23,61 @@
         :disabled="!selectedArmy"
       ></v-select>
     </div>
-<div class="checkBoolean" v-if ="attackRole">
 
 
-    <v-switch
-      :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
-      v-model="isMeleeAttack"
-      :disabled="!selectedCollection"
-    ></v-switch>
+    <SimulatorOdds/>
 
-  </div>
+    <div class="checkBoolean" v-if="attackRole">
+      <v-switch
+        :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
+        v-model="isMeleeAttack"
+        :disabled="!selectedCollection"
+      ></v-switch>
+    </div>
+
 
     <div class="unit-attributes">
       <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
       <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">
         <span>Parent Unit: {{ selectedUnitAttributes.parentUnit }}</span>
         <br />
-        <span>Toughness: {{ selectedUnitAttributes.attributes[0].toughness }}</span>
+        <span
+          >Toughness: {{ selectedUnitAttributes.attributes[0].toughness }}</span
+        >
         <br />
         <span>Save: {{ selectedUnitAttributes.attributes[0].save }}</span>
         <br />
         <span>Wounds: {{ selectedUnitAttributes.attributes[0].wounds }}</span>
         <br />
-        <span v-if="selectedUnitAttributes.attributes[0].invulnerableSave !== 0">
-          Invulnerable Save: {{ selectedUnitAttributes.attributes[0].invulnerableSave }}
+        <span
+          v-if="selectedUnitAttributes.attributes[0].invulnerableSave !== 0"
+        >
+          Invulnerable Save:
+          {{ selectedUnitAttributes.attributes[0].invulnerableSave }}
         </span>
       </p>
     </div>
-    
+
     <div class="melee-weapons" v-if="attackRole">
-      <h3>{{ isMeleeAttack ? 'Melee Weapons:' : 'Ranged Weapons:' }}</h3>
+      <h3>{{ isMeleeAttack ? "Melee Weapons:" : "Ranged Weapons:" }}</h3>
       <div v-if="selectedUnitAttributes && selectedUnitAttributes.meleeWeapons">
-        <div v-for="(weapon, index) in selectedUnitAttributes.meleeWeapons" :key="index">
-          <p><strong>Weapon: {{ weapon.name }}</strong></p>
+        <div
+          v-for="(weapon, index) in selectedUnitAttributes.meleeWeapons"
+          :key="index"
+        >
+          <p>
+            <strong>Weapon: {{ weapon.name }}</strong>
+          </p>
           <p>Attacks: {{ weapon.attacks }}</p>
-          <p>Weapon Skill: {{ weapon['weapons-skills'] }}</p>
+          <p>Weapon Skill: {{ weapon["weapons-skills"] }}</p>
           <p>Strength: {{ weapon.strength }}</p>
-          <p>Armor Penetration: {{ weapon['armor-penetration'] }}</p>
+          <p>Armor Penetration: {{ weapon["armor-penetration"] }}</p>
           <p>Damage: {{ weapon.damage }}</p>
         </div>
       </div>
     </div>
 
-
-
+ 
   </div>
 </template>
 

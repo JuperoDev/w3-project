@@ -1,5 +1,6 @@
 <template>
     <div>
-        <Odds/>
+        <SimulatorPick :attack-role="true"/>
+
     </div>
 </template>

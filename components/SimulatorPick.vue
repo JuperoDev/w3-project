@@ -33,7 +33,7 @@
     >
     <p class="-mt-14 bg-zinc-100 px-5 w-24 text-zinc-600">Attacker</p>
     <div class=" px-4">
-        <p class="capitalize">{{ selectedUnitAttributes.parentUnit  }}</p>
+        Parent unit: <p class="capitalize">{{ selectedUnitAttributes.parentUnit  }}</p>
         <p>Number of miniatures</p>
         <p>Number of simumations</p>
         <p>Global modifiers</p>

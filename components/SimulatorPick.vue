@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-10">
     Attack Role: {{ attackRole }}
     <br />
     <div class="simulator-pick-preset grid grid-cols-3">
@@ -25,8 +25,29 @@
     </div>
 
 
-    <SimulatorOdds/>
 
+    <!-- ---------------------------  -->
+    <div class= "py-5">
+    <div
+      class="  bg-zinc-100 border-zinc-200 hover:border-zinc-400 border-solid border-2 transition duration-300 p-10"
+    >
+    <p class="-mt-14 bg-zinc-100 px-5 w-24 text-zinc-600">Attacker</p>
+    <div class=" px-4">
+        <p class="capitalize">{{ selectedUnitAttributes.parentUnit  }}</p>
+        <p>Number of miniatures</p>
+        <p>Number of simumations</p>
+        <p>Global modifiers</p>
+        <div class="flex">
+        <v-checkbox label="Attacker remained Stationary"></v-checkbox>
+        <v-checkbox label="Defender in cover"></v-checkbox>
+        <v-checkbox label="Within half range"></v-checkbox>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ----------------------- -->
     <div class="checkBoolean" v-if="attackRole">
       <v-switch
         :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
@@ -82,7 +103,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, defineProps } from "vue";
+import { ref, onMounted, watch } from "vue";
 
 const props = defineProps({
   attackRole: Boolean,
@@ -94,7 +115,7 @@ const selectedFactionData = ref("");
 const selectedArmy = ref("");
 const selectedArmyData = ref("");
 const selectedCollection = ref("");
-const selectedUnitAttributes = ref(null);
+const selectedUnitAttributes = ref("");
 const isMeleeAttack = ref(true); // Default to melee attack
 
 // Fetch functions...

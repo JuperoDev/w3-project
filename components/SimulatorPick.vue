@@ -35,6 +35,7 @@
     <div class=" px-4">
         Parent unit: <p class="capitalize">{{ selectedUnitAttributes.parentUnit  }}</p>
         <p>Number of miniatures</p>
+       <input type="number"><input> 
         <p>Number of simumations</p>
         <p>Global modifiers</p>
         <div class="flex">

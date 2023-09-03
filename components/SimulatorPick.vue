@@ -30,7 +30,7 @@
       <div
         class="bg-zinc-100 border-zinc-200 hover:border-zinc-400 border-solid border-2 transition duration-300 p-10"
       >
-        <p class="-mt-14 bg-zinc-100 px-5 w-24 text-zinc-600">Attacker</p>
+        <p class="attakerLabel -mt-14 px-5 w-24 text-zinc-600">Attacker</p>
         <div class="px-4">
           <p>Parent unit:</p>
           <p class="capitalize">{{ selectedUnitAttributes.parentUnit }}</p>
@@ -54,12 +54,7 @@
             <v-checkbox label="Within half range"></v-checkbox>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- ----------------------- -->
-
-    <div class="simulator-pick--stats grid grid-cols-2 gap-4">
+        <div class="simulator-pick--stats grid grid-cols-2 gap-4">
       <div class="unit-attributes">
         <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
         <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">
@@ -111,6 +106,12 @@
         </div>
       </div>
     </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- -->
+
+
   </div>
 </template>
 
@@ -195,7 +196,11 @@ onMounted(async () => {
 });
 </script>
 
-<style>
+<style scoped>
+.attakerLabel{
+  background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(244,244,245,1) 40%);
+}
+
 .unit-attributes {
   margin-top: 20px;
   border: 1px solid #ccc;

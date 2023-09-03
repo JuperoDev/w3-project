@@ -71,8 +71,7 @@
           <br />
           <span
             v-if="selectedUnitAttributes.attributes[0].invulnerableSave !== 0"
-          >
-            Invulnerable Save:
+          >Invulnerable Save:
             {{ selectedUnitAttributes.attributes[0].invulnerableSave }}
           </span>
         </p>

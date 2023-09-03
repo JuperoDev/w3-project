@@ -25,88 +25,92 @@
       ></v-select>
     </div>
 
-
-
     <!-- ---------------------------  -->
-    <div class= "py-5">
-    <div
-      class="  bg-zinc-100 border-zinc-200 hover:border-zinc-400 border-solid border-2 transition duration-300 p-10"
-    >
-    <p class="-mt-14 bg-zinc-100 px-5 w-24 text-zinc-600">Attacker</p>
-    <div class=" px-4">
-         <p>Parent unit:</p> <p class="capitalize">{{ selectedUnitAttributes.parentUnit  }}</p>
-        <p>Number of miniatures</p>
-        <input class=" border  py-2 px-3 text-gray-700  focus:outline-none focus:shadow-outline " type="number" placeholder="10">
-    
-        <p>Number of simulations</p>
-        <input class=" border  py-2 px-3 text-gray-700  focus:outline-none focus:shadow-outline " type="number" placeholder="10">
-        <p>Global modifiers:</p>
-        <div class="flex">
-        <v-checkbox label="Attacker remained Stationary"></v-checkbox>
-        <v-checkbox label="Defender in cover"></v-checkbox>
-        <v-checkbox label="Within half range"></v-checkbox>
-      </div>
-      </div>
-    </div>
+    <div class="py-5">
+      <div
+        class="bg-zinc-100 border-zinc-200 hover:border-zinc-400 border-solid border-2 transition duration-300 p-10"
+      >
+        <p class="-mt-14 bg-zinc-100 px-5 w-24 text-zinc-600">Attacker</p>
+        <div class="px-4">
+          <p>Parent unit:</p>
+          <p class="capitalize">{{ selectedUnitAttributes.parentUnit }}</p>
+          <p>Number of miniatures</p>
+          <input
+            class="border py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+            type="number"
+            placeholder="10"
+          />
 
-  </div>
-
-  <!-- ----------------------- -->
-
-<div class="simulator-pick--stats grid grid-cols-2 gap-4">
-  <div class="unit-attributes">
-      <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
-      <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">
-        <span>Parent Unit: {{ selectedUnitAttributes.parentUnit }}</span>
-        <br />
-        <span
-          >Toughness: {{ selectedUnitAttributes.attributes[0].toughness }}</span
-        >
-        <br />
-        <span>Save: {{ selectedUnitAttributes.attributes[0].save }}</span>
-        <br />
-        <span>Wounds: {{ selectedUnitAttributes.attributes[0].wounds }}</span>
-        <br />
-        <span
-          v-if="selectedUnitAttributes.attributes[0].invulnerableSave !== 0"
-        >
-          Invulnerable Save:
-          {{ selectedUnitAttributes.attributes[0].invulnerableSave }}
-        </span>
-      </p>
-    </div>
-    <div class="melee-weapons" v-if="attackRole">
-      <div v-if="selectedUnitAttributes && selectedUnitAttributes.meleeWeapons">
-        <div class="checkBoolean" v-if="attackRole">
-      <v-switch
-        :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
-        v-model="isMeleeAttack"
-        :disabled="!selectedCollection"
-      ></v-switch>
-    </div>
-
-        <h3>{{ isMeleeAttack ? "Melee Weapons:" : "Ranged Weapons:" }}</h3>
-        <div
-          v-for="(weapon, index) in selectedUnitAttributes.meleeWeapons"
-          :key="index"
-        >
-          <p>
-            <strong>Weapon: {{ weapon.name }}</strong>
-          </p>
-          <p>Attacks: {{ weapon.attacks }}</p>
-          <p>Weapon Skill: {{ weapon["weapons-skills"] }}</p>
-          <p>Strength: {{ weapon.strength }}</p>
-          <p>Armor Penetration: {{ weapon["armor-penetration"] }}</p>
-          <p>Damage: {{ weapon.damage }}</p>
+          <p>Number of simulations</p>
+          <input
+            class="border py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+            type="number"
+            placeholder="10"
+          />
+          <p>Global modifiers:</p>
+          <div class="flex">
+            <v-checkbox label="Attacker remained Stationary"></v-checkbox>
+            <v-checkbox label="Defender in cover"></v-checkbox>
+            <v-checkbox label="Within half range"></v-checkbox>
+          </div>
         </div>
       </div>
     </div>
-</div>
-  
 
- 
+    <!-- ----------------------- -->
 
- 
+    <div class="simulator-pick--stats grid grid-cols-2 gap-4">
+      <div class="unit-attributes">
+        <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
+        <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">
+          <span>Parent Unit: {{ selectedUnitAttributes.parentUnit }}</span>
+          <br />
+          <span
+            >Toughness:
+            {{ selectedUnitAttributes.attributes[0].toughness }}</span
+          >
+          <br />
+          <span>Save: {{ selectedUnitAttributes.attributes[0].save }}</span>
+          <br />
+          <span>Wounds: {{ selectedUnitAttributes.attributes[0].wounds }}</span>
+          <br />
+          <span
+            v-if="selectedUnitAttributes.attributes[0].invulnerableSave !== 0"
+          >
+            Invulnerable Save:
+            {{ selectedUnitAttributes.attributes[0].invulnerableSave }}
+          </span>
+        </p>
+      </div>
+      <div class="melee-weapons" v-if="attackRole">
+        <div
+          v-if="selectedUnitAttributes && selectedUnitAttributes.meleeWeapons"
+        >
+          <div class="checkBoolean" v-if="attackRole">
+            <v-switch
+              :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
+              v-model="isMeleeAttack"
+              :disabled="!selectedCollection"
+            ></v-switch>
+          </div>
+
+          <h3>{{ isMeleeAttack ? "Melee Weapons:" : "Ranged Weapons:" }}</h3>
+          <div
+            v-for="(weapon, index) in selectedUnitAttributes.meleeWeapons"
+            :key="index"
+          >
+            <p>
+              <strong>Weapon: {{ weapon.name }}</strong>
+            </p>
+            <p>Attacks: {{ weapon.attacks }}</p>
+            <p>Weapon Skill: {{ weapon["weapons-skills"] }}</p>
+            <p>Strength: {{ weapon.strength }}</p>
+            <p>Armor Penetration: {{ weapon["armor-penetration"] }}</p>
+            <p>Damage: {{ weapon.damage }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

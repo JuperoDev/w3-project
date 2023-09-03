@@ -1,6 +1,7 @@
 <template>
   <div class="p-10">
-    Attack Role: {{ attackRole }}
+    <span v-if="attackRole">Attacker</span>
+    <span v-else>Defender</span>
     <br />
     <div class="simulator-pick-preset grid grid-cols-3">
       <v-select
@@ -33,11 +34,13 @@
     >
     <p class="-mt-14 bg-zinc-100 px-5 w-24 text-zinc-600">Attacker</p>
     <div class=" px-4">
-        Parent unit: <p class="capitalize">{{ selectedUnitAttributes.parentUnit  }}</p>
+         <p>Parent unit:</p> <p class="capitalize">{{ selectedUnitAttributes.parentUnit  }}</p>
         <p>Number of miniatures</p>
-       <input type="number"><input> 
-        <p>Number of simumations</p>
-        <p>Global modifiers</p>
+        <input class=" border  py-2 px-3 text-gray-700  focus:outline-none focus:shadow-outline " type="number" placeholder="10">
+    
+        <p>Number of simulations</p>
+        <input class=" border  py-2 px-3 text-gray-700  focus:outline-none focus:shadow-outline " type="number" placeholder="10">
+        <p>Global modifiers:</p>
         <div class="flex">
         <v-checkbox label="Attacker remained Stationary"></v-checkbox>
         <v-checkbox label="Defender in cover"></v-checkbox>
@@ -49,16 +52,9 @@
   </div>
 
   <!-- ----------------------- -->
-    <div class="checkBoolean" v-if="attackRole">
-      <v-switch
-        :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
-        v-model="isMeleeAttack"
-        :disabled="!selectedCollection"
-      ></v-switch>
-    </div>
 
-
-    <div class="unit-attributes">
+<div class="simulator-pick--stats grid grid-cols-2 gap-4">
+  <div class="unit-attributes">
       <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
       <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">
         <span>Parent Unit: {{ selectedUnitAttributes.parentUnit }}</span>
@@ -79,10 +75,17 @@
         </span>
       </p>
     </div>
-
     <div class="melee-weapons" v-if="attackRole">
-      <h3>{{ isMeleeAttack ? "Melee Weapons:" : "Ranged Weapons:" }}</h3>
       <div v-if="selectedUnitAttributes && selectedUnitAttributes.meleeWeapons">
+        <div class="checkBoolean" v-if="attackRole">
+      <v-switch
+        :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
+        v-model="isMeleeAttack"
+        :disabled="!selectedCollection"
+      ></v-switch>
+    </div>
+
+        <h3>{{ isMeleeAttack ? "Melee Weapons:" : "Ranged Weapons:" }}</h3>
         <div
           v-for="(weapon, index) in selectedUnitAttributes.meleeWeapons"
           :key="index"
@@ -98,6 +101,10 @@
         </div>
       </div>
     </div>
+</div>
+  
+
+ 
 
  
   </div>

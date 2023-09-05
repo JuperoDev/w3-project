@@ -54,7 +54,7 @@
             <v-checkbox label="Within half range"></v-checkbox>
           </div>
         </div>
-        <div class="simulator-pick--stats grid grid-cols-2 gap-4">
+        <div class="simulator-pick--stats gap-4">
       <div class="unit-attributes">
         <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
         <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">

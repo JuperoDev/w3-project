@@ -47,12 +47,17 @@ e.g.,
 
  **"movement"**: Numeric.
  
-**"toughness"**: Numeric
-**"save"**: Numeric
- **"wounds"**: Numeric
-**"leadership"**: Numeric
- **"objectiveControl"**: Numeric
- **"invulnerableSave"**: Numeric
+**"toughness"**: Numeric.
+
+**"save"**: Numeric.
+
+ **"wounds"**: Numeric.
+**"leadership"**: Numeric.
+
+ **"objectiveControl"**: Numeric.
+ 
+ **"invulnerableSave"**: Numeric.
+
 
 e.g.,
 ```markdown

@@ -31,6 +31,8 @@ The schema below provides a detailed representation of the file structure:
 
 ## Structure
 
+### Unit Profile
+
 **"parentUnit"**: String
 _Name of the given unit_
 
@@ -182,14 +184,21 @@ e.g.,
       "singleChoice": true
     }]
 ```
+### Keywords
 
 **"keywords"**: Array.
 
 **"factionKeyword"**: Array.
 
+### Wargear Options
+
 **"wargear"**: Array.
 
+### Abilities
+
 **"abilities"**: Array.
+
+### Unit Composition
 
 # Nuxt 3 Minimal Starter
 

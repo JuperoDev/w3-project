@@ -105,7 +105,7 @@ _An array of objects, each representing a ranged weapon with the following prope
 
 > Further information for **modifiers** will be provided in the future
 >
-> **"pickOne"**: Boolean.
+ **"singleChoice"**: Boolean.
 
 e.g.,
 
@@ -120,7 +120,7 @@ e.g.,
 "armor-penetration": 2,
 "damage": 1,
 "modifiers": ["assault"],
-"pickOne": false
+"singleChoice": false
 },
 {
 "name": "flamer",
@@ -134,7 +134,7 @@ e.g.,
 "ignores cover",
 "torrent"
 ],
-"pickOne": false
+"singleChoice": false
 }]
 ```
 ### Melee Weapons.
@@ -157,7 +157,7 @@ e.g.,
 
 > Further information for **modifiers** will be provided in the future
 >
- **"pickOne"**: Boolean
+ **"singleChoice"**: Boolean
 
 ```markdown
  "meleeWeapons": [
@@ -169,7 +169,7 @@ e.g.,
       "armor-penetration": 1,
       "damage": 1,
       "modifiers": [],
-      "pickOne": true
+      "singleChoice": true
     },
     {
       "name": "combat knife",
@@ -179,7 +179,7 @@ e.g.,
       "armor-penetration": 0,
       "damage": 1,
       "modifiers": [],
-      "pickOne": true
+      "singleChoice": true
     }]
 ```
 

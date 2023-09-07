@@ -55,7 +55,8 @@
           </div>
         </div>
         <div class="simulator-pick--stats gap-4">
-      <div class="unit-attributes">
+      <div class="unit-attributes border border-zinc-300" v-if="selectedUnitAttributes">
+        
         <p v-if="selectedUnitAttributes">{{ selectedCollection }}</p>
         <p v-if="selectedUnitAttributes && selectedUnitAttributes.attributes">
           <span>Parent Unit: {{ selectedUnitAttributes.parentUnit }}</span>
@@ -79,7 +80,7 @@
       <div class="melee-weapons" v-if="attackRole">
         <div
           v-if="selectedUnitAttributes && selectedUnitAttributes.meleeWeapons"
-        >
+        class=" border border-zinc-300">
           <div class="checkBoolean" v-if="attackRole">
             <v-switch
               :label="isMeleeAttack ? 'Melee Attack' : 'Ranged Attack'"
@@ -202,14 +203,14 @@ onMounted(async () => {
 
 .unit-attributes {
   margin-top: 20px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 10px;
   white-space: pre-wrap;
 }
 
 .melee-weapons {
   margin-top: 20px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 10px;
 }
 

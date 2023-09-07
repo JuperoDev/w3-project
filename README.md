@@ -197,11 +197,13 @@ _Both properties are String Arrays_
 ### Wargear Options
 
 **"wargear"**: Array.
+
 _An array of objects, each representing different weapons composition with the following properties_
 
 ### Abilities
 
 **"abilities"**: Array.
+
 _An array of arrays, Basic, Faction and Other Abilities_
 
 ### Unit Composition

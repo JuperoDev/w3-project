@@ -126,19 +126,21 @@ e.g.,
 "attacks": 2,
 "ballistic-skills": 3,
 "strength": 4,
-"armor-penetration": 0,
+"armor-penetration": 2,
 "damage": 1,
-"modifiers": ["assault"]
+"modifiers": ["assault"],
+"pickOne": false
 },
 {
-"name": "bolt pistol",
+"name": "launcher",
 "range": 12,
-"attacks": 1,
-"ballistic-skills": 3,
+"attacks": 1d6,
+"ballistic-skills": N/A,
 "strength": 4,
 "armor-penetration": 0,
 "damage": 1,
-"modifiers": []
+"modifiers": [],
+"pickOne": false
 }]
 ```
 **"meleeWeapons"**: An array of objects, each representing a melee weapon with the following properties:

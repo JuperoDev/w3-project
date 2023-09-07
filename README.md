@@ -45,7 +45,8 @@ e.g.,
  **"name"**: String
 >Because some units can be composed with different miniatures, this is the name of a given miniature with a set of characteristics
 
- **"movement"**: Numeric 
+ **"movement"**: Numeric.
+ 
 **"toughness"**: Numeric
 **"save"**: Numeric
  **"wounds"**: Numeric

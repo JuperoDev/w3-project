@@ -82,6 +82,7 @@ e.g.,
 "invulnerableSave": 0
 }]
 ```
+### Ranged Weapons.
 
 **"rangedWeapons"**: Array
 _An array of objects, each representing a ranged weapon with the following properties_
@@ -136,6 +137,7 @@ e.g.,
 "pickOne": false
 }]
 ```
+### Melee Weapons.
 
 **"meleeWeapons"**: An array of objects, each representing a melee weapon with the following properties:
 
@@ -155,7 +157,7 @@ e.g.,
 
 > Further information for **modifiers** will be provided in the future
 >
-> **"pickOne"**: Boolean
+ **"pickOne"**: Boolean
 
 ```markdown
  "meleeWeapons": [

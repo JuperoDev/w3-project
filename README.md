@@ -46,6 +46,7 @@ e.g.,
 >Because some units can be composed with different miniatures, this is the name of a given miniature with a set of characteristics
 
  **"movement"**: Numeric 
+ <br>
 **"toughness"**: Numeric
 **"save"**: Numeric
  **"wounds"**: Numeric

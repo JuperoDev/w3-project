@@ -88,17 +88,34 @@ e.g.,
 **"rangedWeapons"**: Array
  *An array of objects, each representing a ranged weapon with the following properties*
 
-**"name"**: String
-**"range"**: Numeric
-**"attacks"**: Numeric or String (e.g., "1D6+1")
-**"ballistic-skills"**: Numeric or String  (e.g., "N/A")
-**"strength"**: Numeric
- **"armor-penetration"**: Numeric
- **"damage"**: Numeric
- **"modifiers"**: An array of strings describing modifiers (e.g., "assault")
+**"name"**: String.
+
+**"range"**: Numeric.
+
+
+**"attacks"**: Numeric or String (e.g., "1D6+1").
+
+
+**"ballistic-skills"**: Numeric or String  (e.g., "N/A").
+
+
+**"strength"**: Numeric.
+
+
+ **"armor-penetration"**: Numeric.
+
+
+ **"damage"**: Numeric.
+
+
+ **"modifiers"**: An array of strings describing modifiers (e.g., "assault").
+
+
 >Further information for  **modifiers** will be provided in the future
 >
- **"pickOne"**: Boolean
+ **"pickOne"**: Boolean.
+
+
  
  e.g.,
 ```markdown
@@ -126,22 +143,42 @@ e.g.,
 ```
 **"meleeWeapons"**: An array of objects, each representing a melee weapon with the following properties:
 
- **"name"**: String
- **"attacks"**: Numeric
- **"weapons-skills"**: Numeric
- **"strength"**: Numeric
- **"armor-penetration"**: Numeric
- **"damage"**: Numeric
+ **"name"**: String.
+
+
+ **"attacks"**: Numeric.
+
+
+ **"weapons-skills"**: Numeric.
+
+
+ **"strength"**: Numeric.
+
+
+ **"armor-penetration"**: Numeric.
+
+
+ **"damage"**: Numeric.
+
+
  **"modifiers"**: An array of strings describing modifiers (e.g., "devastating wounds")
 >Further information for  **modifiers** will be provided in the future
 >
  **"pickOne"**: Boolean
 
 
-**"keywords"**:  Array
-**"factionKeyword"**:  Array
-**"wargear"**:  Array
-**"abilities"**:  Array
+**"keywords"**:  Array.
+
+
+**"factionKeyword"**:  Array.
+
+
+**"wargear"**:  Array.
+
+
+**"abilities"**:  Array.
+
+
 
 
 

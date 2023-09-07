@@ -1,66 +1,64 @@
 # Unit JSON file
 
-
 The ensuing document outlines the blueprint for organizing and constructing data pertaining to an individual unit.
 
 To store the unit's JSON file, it should be located within the **collection** directory inside an army folder
 
 The schema below provides a detailed representation of the file structure:
 
-
 ```markdown
 ├── astartes
-│   ├── black-templars
-│   │   ├── collection
-│   │   │     ├── `castellan.json`
-│   │   │     ├── `crusader-squad.json`
-│   │   │ 
-│   │   ├── `collection.json`
-│   │ 
-│   ├── blood-angels
-│   ├── dark-angels
-│   ├── grey-knights
-│   ├── space-marines
-│   ├── space-wolves
-│   │ 
-│   ├── `army.json`
-│ 
+│ ├── black-templars
+│ │ ├── collection
+│ │ │ ├── `castellan.json`
+│ │ │ ├── `crusader-squad.json`
+│ │ │
+│ │ ├── `collection.json`
+│ │
+│ ├── blood-angels
+│ ├── dark-angels
+│ ├── grey-knights
+│ ├── space-marines
+│ ├── space-wolves
+│ │
+│ ├── `army.json`
+│
 ├── chaos
 ├── imperium
 ├── xenos
 ├── `faction.json`
-
 ```
 
 ## Structure
 
 **"parentUnit"**: String
-*Name of the given unit*
+_Name of the given unit_
 
 e.g.,
 `"parentUnit": "crusader squad"`
 
-**"attributes"**:   Array
-*An array of objects, each containing the following properties*
- **"name"**: String
->Because some units can be composed with different miniatures, this is the name of a given miniature with a set of characteristics
+**"attributes"**: Array
+_An array of objects, each containing the following properties_
+**"name"**: String
 
- **"movement"**: Numeric.
- 
+> Because some units can be composed with different miniatures, this is the name of a given miniature with a set of characteristics
+
+**"movement"**: Numeric.
+
 **"toughness"**: Numeric.
 
 **"save"**: Numeric.
 
- **"wounds"**: Numeric.
- 
+**"wounds"**: Numeric.
+
 **"leadership"**: Numeric.
 
- **"objectiveControl"**: Numeric.
- 
- **"invulnerableSave"**: Numeric.
+**"objectiveControl"**: Numeric.
 
+**"invulnerableSave"**: Numeric.
 
 e.g.,
+
 ```markdown
 "attributes": [
 {
@@ -86,38 +84,30 @@ e.g.,
 ```
 
 **"rangedWeapons"**: Array
- *An array of objects, each representing a ranged weapon with the following properties*
+_An array of objects, each representing a ranged weapon with the following properties_
 
 **"name"**: String.
 
 **"range"**: Numeric.
 
-
 **"attacks"**: Numeric or String (e.g., "1D6+1").
 
-
-**"ballistic-skills"**: Numeric or String  (e.g., "N/A").
-
+**"ballistic-skills"**: Numeric or String (e.g., "N/A").
 
 **"strength"**: Numeric.
 
+**"armor-penetration"**: Numeric.
 
- **"armor-penetration"**: Numeric.
+**"damage"**: Numeric.
 
+**"modifiers"**: An array of strings describing modifiers (e.g., "assault").
 
- **"damage"**: Numeric.
-
-
- **"modifiers"**: An array of strings describing modifiers (e.g., "assault").
-
-
->Further information for  **modifiers** will be provided in the future
+> Further information for **modifiers** will be provided in the future
 >
- **"pickOne"**: Boolean.
+> **"pickOne"**: Boolean.
 
+e.g.,
 
- 
- e.g.,
 ```markdown
 "rangedWeapons": [
 {
@@ -132,58 +122,72 @@ e.g.,
 "pickOne": false
 },
 {
-"name": "launcher",
+"name": "flamer",
 "range": 12,
-"attacks": 1d6,
-"ballistic-skills": N/A,
+"attacks": "d6",
+"ballistic-skills": "N/A",
 "strength": 4,
 "armor-penetration": 0,
 "damage": 1,
-"modifiers": [],
+"modifiers": [
+"ignores cover",
+"torrent"
+],
 "pickOne": false
 }]
 ```
+
 **"meleeWeapons"**: An array of objects, each representing a melee weapon with the following properties:
 
- **"name"**: String.
+**"name"**: String.
 
+**"attacks"**: Numeric.
 
- **"attacks"**: Numeric.
+**"weapons-skills"**: Numeric.
 
+**"strength"**: Numeric.
 
- **"weapons-skills"**: Numeric.
+**"armor-penetration"**: Numeric.
 
+**"damage"**: Numeric.
 
- **"strength"**: Numeric.
+**"modifiers"**: An array of strings describing modifiers (e.g., "devastating wounds")
 
-
- **"armor-penetration"**: Numeric.
-
-
- **"damage"**: Numeric.
-
-
- **"modifiers"**: An array of strings describing modifiers (e.g., "devastating wounds")
->Further information for  **modifiers** will be provided in the future
+> Further information for **modifiers** will be provided in the future
 >
- **"pickOne"**: Boolean
+> **"pickOne"**: Boolean
 
+```markdown
+ "meleeWeapons": [
+    {
+      "name": "astartes chainsword",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 1,
+      "modifiers": [],
+      "pickOne": true
+    },
+    {
+      "name": "combat knife",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [],
+      "pickOne": true
+    }]
+```
 
-**"keywords"**:  Array.
+**"keywords"**: Array.
 
+**"factionKeyword"**: Array.
 
-**"factionKeyword"**:  Array.
+**"wargear"**: Array.
 
-
-**"wargear"**:  Array.
-
-
-**"abilities"**:  Array.
-
-
-
-
-
+**"abilities"**: Array.
 
 # Nuxt 3 Minimal Starter
 

@@ -108,7 +108,7 @@ _An array of objects, each representing a ranged weapon with the following prope
 
 > Further information for **modifiers** will be provided in the future
 >
-> **"singleChoice"**: Boolean.
+ **"singleChoice"**: Boolean.
 
 e.g.,
 
@@ -162,8 +162,8 @@ _An array of objects, each representing a melee weapon with the following proper
 **"modifiers"**: An array of strings describing modifiers (e.g., "devastating wounds")
 
 > Further information for **modifiers** will be provided in the future
-
-> **"singleChoice"**: Boolean
+>
+ **"singleChoice"**: Boolean
 
 ```json
  "meleeWeapons": [

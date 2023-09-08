@@ -248,6 +248,7 @@ _A property string and an array of objects, they describe additional abilities t
 ### Lore
 
 **"lore"**: String.
+
 _A background story or information for a given unit_
 
 ```json

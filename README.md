@@ -162,7 +162,7 @@ _An array of objects, each representing a melee weapon with the following proper
 **"modifiers"**: An array of strings describing modifiers (e.g., "devastating wounds")
 
 > Further information for **modifiers** will be provided in the future
->
+
 > **"singleChoice"**: Boolean
 
 ```json

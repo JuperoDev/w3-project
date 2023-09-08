@@ -62,27 +62,27 @@ _An array of objects, each containing the following properties_
 e.g.,
 
 ```json
-"attributes": [
-{
-"name": "neophytes",
-"movement": 6,
-"toughness": 4,
-"save": 4,
-"wounds": 2,
-"leadership": 6,
-"objetiveControl": 2,
-"invulnerableSave": 0
-},
-{
-"name": "other units",
-"movement": 6,
-"toughness": 4,
-"save": 3,
-"wounds": 2,
-"leadership": 6,
-"objetiveControl": 2,
-"invulnerableSave": 0
-}]
+  "attributes": [
+    {
+    "name": "neophytes",
+    "movement": 6,
+    "toughness": 4,
+    "save": 4,
+    "wounds": 2,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 0
+    },
+    {
+    "name": "other units",
+    "movement": 6,
+    "toughness": 4,
+    "save": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 0
+    }]
 ```
 
 ### Ranged Weapons.
@@ -114,31 +114,31 @@ e.g.,
 
 ```json
 "rangedWeapons": [
-{
-"name": "astartes shotgun",
-"range": 18,
-"attacks": 2,
-"ballistic-skills": 3,
-"strength": 4,
-"armor-penetration": 2,
-"damage": 1,
-"modifiers": ["assault"],
-"singleChoice": false
-},
-{
-"name": "flamer",
-"range": 12,
-"attacks": "d6",
-"ballistic-skills": "N/A",
-"strength": 4,
-"armor-penetration": 0,
-"damage": 1,
-"modifiers": [
-"ignores cover",
-"torrent"
-],
-"singleChoice": false
-}]
+   {
+    "name": "astartes shotgun",
+    "range": 18,
+    "attacks": 2,
+    "ballistic-skills": 3,
+    "strength": 4,
+    "armor-penetration": 2,
+    "damage": 1,
+    "modifiers": ["assault"],
+    "singleChoice": false
+  },
+  {
+    "name": "flamer",
+    "range": 12,
+    "attacks": "d6",
+    "ballistic-skills": "N/A",
+    "strength": 4,
+    "armor-penetration": 0,
+    "damage": 1,
+    "modifiers": [
+      "ignores cover",
+      "torrent"
+      ],
+    "singleChoice": false
+  }]
 ```
 
 ### Melee Weapons.

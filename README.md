@@ -84,6 +84,7 @@ e.g.,
 "invulnerableSave": 0
 }]
 ```
+
 ### Ranged Weapons.
 
 **"rangedWeapons"**: Array
@@ -107,7 +108,7 @@ _An array of objects, each representing a ranged weapon with the following prope
 
 > Further information for **modifiers** will be provided in the future
 >
- **"singleChoice"**: Boolean.
+> **"singleChoice"**: Boolean.
 
 e.g.,
 
@@ -139,11 +140,12 @@ e.g.,
 "singleChoice": false
 }]
 ```
+
 ### Melee Weapons.
 
 **"meleeWeapons"**: Array.
 
- _An array of objects, each representing a melee weapon with the following properties:_
+_An array of objects, each representing a melee weapon with the following properties:_
 
 **"name"**: String.
 
@@ -161,7 +163,7 @@ e.g.,
 
 > Further information for **modifiers** will be provided in the future
 >
- **"singleChoice"**: Boolean
+> **"singleChoice"**: Boolean
 
 ```json
  "meleeWeapons": [
@@ -186,6 +188,7 @@ e.g.,
       "singleChoice": true
     }]
 ```
+
 ### Keywords
 
 **"keywords"**: Array.
@@ -206,5 +209,47 @@ _An array of objects, each representing different weapons composition with the f
 
 _An array of arrays, Basic, Faction and Other Abilities_
 
+### Damaged
+
 ### Unit Composition
 
+### Leader
+
+### additionalParameter
+
+**"additionalParameter"**: Array.
+
+_A property string and an array of objects, they describe additional abilities that may be present and the title of this particular set_
+
+**"title"**: String.
+
+**"abilities"**: Array.
+
+**"name"**: String.
+
+**"description"**: String.
+
+```json
+"additionalParameter": {
+  "title": "Author of the codex",
+  "abilities":
+    [
+      {
+      "name": "primarch of the xiii (aura)",
+      "description": "while a friendly adeptus astartes is withing..."
+    },
+  {
+      "name": "supreme strategist",
+      "description": "oce per turn, you can get one friendly adeptus astartes..."
+    },
+    ]}
+```
+
+### Lore
+
+**"lore"**: String.
+_A background story or information for a given unit_
+
+```json
+ "lore": "Hive Guard are spawned to protect Tyranid bio-architecture and vital spore-seeding sites. They carry a monstrous arsenal of grafted bio-weapons and are instinctively driven – or sometimes synaptically impelled – to lay down heavy hails of firepower against those prey organisms the Hive Mind wishes to see eradicated. "
+```

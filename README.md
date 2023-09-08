@@ -201,7 +201,79 @@ _Both properties are String Arrays_
 
 **"wargear"**: Array.
 
-_An array of objects, each representing different weapons composition with the following properties_
+_An array of objects, each representing different weapons composition for one or more miniatures in that unit_
+
+**"description"**: String.
+
+**"items"**: Array.
+
+```json
+"wargear": [
+    {
+      "description": "The Sword Brother’s bolt pistol and boltgun can be replaced with 1 twin lightning claws or two different weapons from the following list",
+      "items": [
+        "1 Astartes chainsword",
+        "1 bolt pistol",
+        "1 boltgun",
+        "1 combi-weapon",
+        "1 grav-pistol",
+        "1 hand flamer",
+        "1 inferno pistol",
+        "1 plasma pistol",
+        "1 power fist",
+        "1 power weapon",
+        "1 storm bolter",
+        "1 thunder hammer"
+      ]
+    },
+    {
+      "description": "Any number of Neophytes can each have their boltgun replaced with one of the following: ",
+      "items": [
+        "1 Astartes chainsword",
+        "1 bolt pistol",
+        "1 boltgun",
+        "1 combi-weapon",
+        "1 grav-pistol",
+        "1 hand flamer",
+        "1 inferno pistol",
+        "1 plasma pistol",
+        "1 power fist",
+        "1 power weapon",
+        "1 storm bolter",
+        "1 thunder hammer"
+      ]
+    },
+    {
+      "description": "Any number of Initiates can each have their boltgun replaced with 1 Astartes chainsword.",
+      "items": [
+        ""
+      ]
+    },
+    {
+      "description": "1 Initiate’s boltgun can be replaced with one of the following:",
+      "items": [
+        "1 flamer",
+        "1 plasma gun",
+        "1 meltagun",
+        "1 grav-gun"
+      ]
+    },
+    {
+      "description": "1 Initiate’s boltgun can be replaced with one of the following",
+      "items": [
+        "1 power weapon",
+        "1 power fist",
+        "1 heavy bolter",
+        "1 heavy flamer",
+        "1 grav-cannon",
+        "1 lascannon",
+        "1 missile launcher",
+        "1 multi-melta",
+        "1 plasma cannon"
+      ]
+    }
+  ]
+```
 
 ### Abilities
 

@@ -193,7 +193,26 @@ _An array of objects, each representing a melee weapon with the following proper
 
 **"keywords"**: Array.
 
+```json
+    "keywords": [
+        "infantry",
+        "psyker",
+        "great devourer",
+        "fly",
+        "synapse",
+        "zoanthropes"
+    ]
+  ```
+    
 **"factionKeyword"**: Array.
+
+
+```json
+  "factionKeyword": [
+    "Adeptus Astartes",
+    "Black Templars"
+  ]
+```
 
 _Both properties are String Arrays_
 

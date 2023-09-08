@@ -33,11 +33,15 @@ The schema below provides a detailed representation of the file structure:
 
 ### Unit Profile
 
-**"parentUnit"**: String
+**"parentUnit"**: String.
+
 _Name of the given unit_
 
 e.g.,
-`"parentUnit": "crusader squad"`
+
+```json
+"parentUnit": "crusader squad"
+```
 
 **"attributes"**: Array
 _An array of objects, each containing the following properties_

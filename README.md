@@ -61,7 +61,7 @@ _An array of objects, each containing the following properties_
 
 e.g.,
 
-```markdown
+```json
 "attributes": [
 {
 "name": "neophytes",
@@ -111,7 +111,7 @@ _An array of objects, each representing a ranged weapon with the following prope
 
 e.g.,
 
-```markdown
+```json
 "rangedWeapons": [
 {
 "name": "astartes shotgun",
@@ -163,7 +163,7 @@ e.g.,
 >
  **"singleChoice"**: Boolean
 
-```markdown
+```json
  "meleeWeapons": [
     {
       "name": "astartes chainsword",

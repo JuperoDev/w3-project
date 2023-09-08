@@ -214,7 +214,7 @@ _An array of objects, each representing a melee weapon with the following proper
   ]
 ```
 
-_Both properties are String Arrays_
+
 
 ### Wargear Options
 

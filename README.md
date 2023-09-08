@@ -215,7 +215,7 @@ _An array of arrays, Basic, Faction and Other Abilities_
 
 ### Leader
 
-### additionalParameter
+### Additional Parameters
 
 **"additionalParameter"**: Array.
 

@@ -306,6 +306,22 @@ _An array of arrays, Basic, Faction and Other Abilities_
 
 ### Damaged
 
+**"abilities"**: Object.
+
+_This object contains two parameters inside, being a number a description of those effects as a string_
+
+**"remainingWounds"**: Number.
+
+**"description"**: String.
+
+```json
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "each time this model makes an attack, subtract 1 from the Hit roll"
+     }
+     ```
+
+
 ### Unit Composition
 
 ### Leader

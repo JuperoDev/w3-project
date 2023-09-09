@@ -319,7 +319,7 @@ _This object contains two parameters inside, being a number a description of tho
         "remainingWounds": 5,
         "description": "each time this model makes an attack, subtract 1 from the Hit roll"
      }
-     ```
+```
 
 
 ### Unit Composition

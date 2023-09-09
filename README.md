@@ -324,6 +324,35 @@ _This object contains two parameters inside, being a number a description of tho
 
 ### Unit Composition
 
+```json
+ "unitComposition": [
+    {
+      "unitType": "sword brother",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    },
+    {
+      "unitType": "initiates",
+      "minQuantity": 4,
+      "maxQuantity": 9
+    },
+    {
+      "unitType": "neophytes",
+      "minQuantity": 0,
+      "maxQuantity": 10
+    }
+  ]
+```
+
+```json
+  "equipment": [
+    "power sword",
+    "bolter",
+    "fragGrenade",
+    "krakGrenade"
+  ]
+```
+
 ### Leader
 
 ### Additional Parameters

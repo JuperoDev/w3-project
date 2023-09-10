@@ -309,7 +309,27 @@ The `wargear` field can be dissabled, and it will render "none" on the unit data
 
 **"abilities"**: Array.
 
-_An array of arrays, Basic, Faction and Other Abilities_
+_An array of arrays: Basic, Faction and Other Abilities_
+
+```json
+"abilities": {
+    "core": [
+      "deep strike",
+      "leader"
+    ],
+    "faction": [
+      "synapse",
+      "shadow in the warp"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Skulking Horrors",
+        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."
+      }
+    ]
+  }
+
+  ```
 
 ### Damaged
 

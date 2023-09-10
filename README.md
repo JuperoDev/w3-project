@@ -307,9 +307,22 @@ The `wargear` field can be dissabled, and it will render "none" on the unit data
 
 ### Abilities
 
-**"abilities"**: Array.
+**"abilities"**: Object.
 
-_An array of arrays: Basic, Faction and Other Abilities_
+_An Object containing three different arrays that represent groups of abilities: Core, Faction and Other Abilities_
+
+**"core"**: Array.
+
+**"faction"**: Array.
+
+**"otherAbilities"**: Array.
+
+_This array contains objects, each object has a name and description properties. Both must be string values_
+
+**"name"**: String.
+
+**"description"**: String.
+
 
 ```json
 "abilities": {

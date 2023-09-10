@@ -486,6 +486,7 @@ _A property string and an array of objects, they describe additional abilities t
 **"title"**: String.
 
 **"abilities"**: Array.
+_An array that contains objects inside, each one containing name and description string values_
 
 **"name"**: String.
 

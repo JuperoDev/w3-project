@@ -346,7 +346,7 @@ _This array contains objects, each object has a name and description properties.
 
 ### Damaged
 
-**"abilities"**: Object.
+**"damaged"**: Object.
 
 _This object contains two parameters inside, being a number a description of those effects as a string_
 

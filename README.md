@@ -424,6 +424,14 @@ _Example for simpler unit with just one kind of miniature and two different unit
 
 ### Leader
 
+### Supreme Commander
+
+**"supremeCommander"**: Boolean.
+
+```json
+"supremeCommander": true
+```
+
 ### Additional Parameters
 
 **"additionalParameter"**: Array.
@@ -463,3 +471,5 @@ _A background story or information for a given unit_
 ```json
  "lore": "Hive Guard are spawned to protect Tyranid bio-architecture and vital spore-seeding sites. They carry a monstrous arsenal of grafted bio-weapons and are instinctively driven – or sometimes synaptically impelled – to lay down heavy hails of firepower against those prey organisms the Hive Mind wishes to see eradicated. "
 ```
+## JSON structure template
+

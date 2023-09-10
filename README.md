@@ -453,6 +453,11 @@ _Example for simpler unit with just one kind of miniature and two different unit
 
 ### Equipment
 
+**"equipment"**: Array.
+
+_Array with string values stored inside_
+
+
 ```json
   "equipment": [
     "power sword",
@@ -464,11 +469,17 @@ _Example for simpler unit with just one kind of miniature and two different unit
 
 ### Leader
 
+**"leader"**: Array.
+
+_Array with string values stored inside that indicate the units that this unit can lead_
+
 ```json
     "leader": [
         "tyrant guard"
        ],
 ```
+
+
 ### Supreme Commander
 
 **"supremeCommander"**: Boolean.

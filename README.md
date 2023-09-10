@@ -499,12 +499,13 @@ _A property string and an array of objects, they describe additional abilities t
       {
       "name": "primarch of the xiii (aura)",
       "description": "while a friendly adeptus astartes is withing..."
-    },
-  {
+      },
+      {
       "name": "supreme strategist",
       "description": "oce per turn, you can get one friendly adeptus astartes..."
-    },
-    ]}
+      },
+    ]
+  }
 ```
 
 ### Lore

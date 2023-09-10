@@ -298,6 +298,13 @@ _An array of objects, each representing different weapons composition for one or
   ]
 ```
 
+The `wargear` field can be dissabled, and it will render "none" on the unit datasheet.
+
+```json
+ "wargear": false,
+ ```
+
+
 ### Abilities
 
 **"abilities"**: Array.
@@ -424,6 +431,11 @@ _Example for simpler unit with just one kind of miniature and two different unit
 
 ### Leader
 
+```json
+    "leader": [
+        "tyrant guard"
+       ],
+```
 ### Supreme Commander
 
 **"supremeCommander"**: Boolean.

@@ -344,6 +344,75 @@ _This object contains two parameters inside, being a number a description of tho
   ]
 ```
 
+
+
+### Options
+
+**"options"**: Array.
+
+_Array that contains different unit layouts and point cost. Layout and points are stored as OBJECTS. Please remember that it must be in the same order for the containing miniatures (in case there are different miniatures in the same unit) as specified in Unit Composition_
+
+**"count"**: Number.
+
+**"points"**: Number.
+
+_Example for an unit with three different kind of miniatures and four different unit layout, with four different ranges of point cost_
+
+
+```json
+ "options": [
+    {
+      "count": [
+        1,
+        4,
+        0
+      ],
+      "points": 75
+    },
+    {
+      "count": [
+        1,
+        9,
+        0
+      ],
+      "points": 145
+    },
+    {
+      "count": [
+        1,
+        4,
+        5
+      ],
+      "points": 145
+    },
+    {
+      "count": [
+        1,
+        9,
+        10
+      ],
+      "points": 290
+    }
+  ]
+```
+
+_Example for simpler unit with just one kind of miniature and two different unit layout composition_
+
+```json
+  "options": [
+    {
+      "count": [10],
+      "points": 60
+    },
+    {
+      "count": [20],
+      "points": 120
+    }
+  ]
+```
+
+### Equipment
+
 ```json
   "equipment": [
     "power sword",

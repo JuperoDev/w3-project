@@ -1,14 +1,16 @@
 {
   "parentUnit": "winged hive tyrant",
-  "attributes": [{
-    "movement": 12,
-    "toughness": 9,
-    "save": 2,
-    "wounds": 10,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-  }],
+  "attributes": [
+    {
+      "movement": 12,
+      "toughness": 9,
+      "save": 2,
+      "wounds": 10,
+      "leadership": 7,
+      "objetiveControl": 3,
+      "invulnerableSave": 4
+    }
+  ],
   "keywords": [
     "monster",
     "character",
@@ -82,8 +84,10 @@
   "modelEquipment": [
     "fleshborer",
     "xenos claws and teeth"
-],
-  "factionKeyword": ["tyranids"],
+  ],
+  "factionKeyword": [
+    "tyranids"
+  ],
   "wargear": {
     "description": "This model's monstrous bonesword and lash whip can be replaced with one of the following",
     "items": [
@@ -97,10 +101,21 @@
   },
   "abilities": {
     "core": [],
-    "faction": ["synapse"],
-    "misc":  [["Skulking Horrors","Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."]]
-},
-  "leader": ["gargoyles", "tyranid warrios with melee bio-weapons", "tyranid warrios with ranged bio-weapons"],
+    "faction": [
+      "synapse"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Skulking Horrors",
+        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."
+      }
+    ]
+  },
+  "leader": [
+    "gargoyles",
+    "tyranid warriors with melee bio-weapons",
+    "tyranid warriors with ranged bio-weapons"
+  ],
   "unitComposition": [
     {
       "unitType": "winged hive tyrant",
@@ -111,14 +126,14 @@
   "equipment": [
     "monstrous bonesword and lash whip",
     "tyrant talons"
-
   ],
   "options": [
     {
-      "count": [1],
+      "count": [
+        1
+      ],
       "points": 195
     }
-  
   ],
   "lore": "When the Hive Mind deploys airborne swarms, it spawns Winged Hive Tyrants to direct them in battle. Wielding an array of nightmarish organic weapons, their monstrous forms singing with the synaptic might of the Hive Mind, these dread swarm-leaders spread terror and death wherever the dark shadow of their wings falls "
 }

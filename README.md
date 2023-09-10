@@ -364,6 +364,16 @@ _This object contains two parameters inside, being a number a description of tho
 
 ### Unit Composition
 
+**"unitComposition"**: Array.
+
+_Array that contains objects. The objects will show the name of the miniature and the numbers of each one within that unit_
+
+**"unitType"**: String.
+
+**"minQuantity"**: Number.
+
+**"maxQuantity"**: Number.
+
 ```json
  "unitComposition": [
     {
@@ -383,7 +393,17 @@ _This object contains two parameters inside, being a number a description of tho
     }
   ]
 ```
+_Example for simpler unit with just one kind of miniature and two different amounts of troops_
 
+```json
+  "unitComposition": [
+    {
+      "unitType": "termagants",
+      "minQuantity": 10,
+      "maxQuantity": 20
+    }
+  ]
+  ```
 
 
 ### Options

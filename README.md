@@ -552,3 +552,103 @@ _A background story or information for a given unit_
 ```
 ## JSON structure template
 
+Here is a blank template for creating unit json files. Please remember to maintain this order for reading purposes even if it does not change the behavior of the data
+
+```json
+{
+  "parentUnit": "",
+  "attributes": [
+    {
+      "movement": ,
+      "toughness": ,
+      "save": ,
+      "wounds": ,
+      "leadership": ,
+      "objetiveControl": ,
+      "invulnerableSave": 
+    }
+  ],
+  "rangedWeapons": [
+    {
+      "name": "",
+      "range": ,
+      "attacks": ,
+      "ballistic-skills": ,
+      "strength": ,
+      "armor-penetration": ,
+      "damage": ,
+      "modifiers": [
+        ""
+      ]
+    }
+    ],
+  "keywords": [
+    ""
+    ],
+  "meleeWeapons": [
+    {
+      "name": "",
+      "attacks": ,
+      "weapons-skills": ,
+      "strength": ,
+      "armor-penetration": ,
+      "damage": ,
+      "modifiers": []
+    }
+  ],
+  "factionKeyword": [
+    ""
+  ],
+  "wargear": [
+    {
+      "description": "",
+      "items": [
+        ""
+      ],
+      "appendix": [
+        "This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
+      ]
+    }
+  ],
+  "abilities": {
+    "core": [
+
+    ],
+    "faction": [
+      "synapse"
+
+    ],
+    "misc": [
+      {
+        "name": "Skulking Horrors",
+        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."
+      }
+    ]
+  },
+  "leader": [],
+  "unitComposition": [
+    {
+      "unitType": "",
+      "minQuantity": ,
+      "maxQuantity": 
+    }
+  ],
+  "equipment": [
+    ""
+
+  ],
+
+  "options": [
+    {
+      "count": [],
+      "points": 
+    },
+    {
+      "count": [],
+      "points": 
+    }
+  ],
+  "lore": ""
+}
+
+```

@@ -31,6 +31,12 @@ The schema below provides a detailed representation of the file structure:
 
 ## Structure
 
+Any field can be dissabled, and it will render no data. The same effect can be achieve if it is not written in the json file. 
+
+```json
+ "wargear": false,
+ ```
+
 ### Unit Profile
 
 **"parentUnit"**: String.
@@ -230,8 +236,13 @@ _An array of objects, each representing different weapons composition for one or
 
 **"items"**: Array.
 
+**"appendix"**: String
+
+_This String is not a part of the Wargear Array, but for information purposes it is provided in the same section. It only contains additional data for some datasheets_
+
 ```json
 "wargear": [
+  
     {
       "description": "The Sword Brother’s bolt pistol and boltgun can be replaced with 1 twin lightning claws or two different weapons from the following list",
       "items": [
@@ -294,15 +305,13 @@ _An array of objects, each representing different weapons composition for one or
         "1 multi-melta",
         "1 plasma cannon"
       ]
-    }
-  ]
+    },
+  ],
+    "appendix": 
+        "This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
 ```
 
-The `wargear` field can be dissabled, and it will render "none" on the unit datasheet.
 
-```json
- "wargear": false,
- ```
 
 
 ### Abilities
@@ -605,9 +614,9 @@ Here is a blank template for creating unit json files. Please remember to mainta
       "items": [
         ""
       ],
-      "appendix": [
+      "appendix": 
         "This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
-      ]
+      
     }
   ],
   "abilities": {

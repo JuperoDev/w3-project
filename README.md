@@ -31,11 +31,11 @@ The schema below provides a detailed representation of the file structure:
 
 ## Structure
 
-Any field can be dissabled, and it will render no data. The same effect can be achieve if it is not written in the json file. 
+Any field can be dissabled, and it will render no data. The same effect can be achieve if it is not written in the json file.
 
 ```json
  "wargear": false,
- ```
+```
 
 ### Unit Profile
 
@@ -118,7 +118,7 @@ _An array of objects, each representing a ranged weapon with the following prope
 
 > Further information for **modifiers** will be provided in the future
 >
- **"singleChoice"**: Boolean.
+> **"singleChoice"**: Boolean.
 
 e.g.,
 
@@ -173,7 +173,7 @@ _An array of objects, each representing a melee weapon with the following proper
 
 > Further information for **modifiers** will be provided in the future
 >
- **"singleChoice"**: Boolean
+> **"singleChoice"**: Boolean
 
 ```json
  "meleeWeapons": [
@@ -212,10 +212,9 @@ _An array of objects, each representing a melee weapon with the following proper
         "synapse",
         "zoanthropes"
     ]
-  ```
-    
-**"factionKeyword"**: Array.
+```
 
+**"factionKeyword"**: Array.
 
 ```json
   "factionKeyword": [
@@ -223,8 +222,6 @@ _An array of objects, each representing a melee weapon with the following proper
     "Black Templars"
   ]
 ```
-
-
 
 ### Wargear Options
 
@@ -242,7 +239,7 @@ _This String is not a part of the Wargear Array, but for information purposes it
 
 ```json
 "wargear": [
-  
+
     {
       "description": "The Sword Brother’s bolt pistol and boltgun can be replaced with 1 twin lightning claws or two different weapons from the following list",
       "items": [
@@ -307,12 +304,9 @@ _This String is not a part of the Wargear Array, but for information purposes it
       ]
     },
   ],
-    "appendix": 
+    "appendix":
         "This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
 ```
-
-
-
 
 ### Abilities
 
@@ -332,7 +326,6 @@ _This array contains objects, each object has a name and description properties.
 
 **"description"**: String.
 
-
 ```json
 "abilities": {
     "core": [
@@ -351,7 +344,7 @@ _This array contains objects, each object has a name and description properties.
     ]
   }
 
-  ```
+```
 
 ### Damaged
 
@@ -369,7 +362,6 @@ _This object contains two parameters inside, being a number a description of tho
         "description": "each time this model makes an attack, subtract 1 from the Hit roll"
      }
 ```
-
 
 ### Unit Composition
 
@@ -402,6 +394,7 @@ _Array that contains objects. The objects will show the name of the miniature an
     }
   ]
 ```
+
 _Example for simpler unit with just one kind of miniature and two different amounts of troops_
 
 ```json
@@ -412,8 +405,7 @@ _Example for simpler unit with just one kind of miniature and two different amou
       "maxQuantity": 20
     }
   ]
-  ```
-
+```
 
 ### Options
 
@@ -426,7 +418,6 @@ _Array that contains different unit layouts and point cost. Layout and points ar
 **"points"**: Number.
 
 _Example for an unit with three different kind of miniatures and four different unit layout, with four different ranges of point cost_
-
 
 ```json
  "options": [
@@ -486,7 +477,6 @@ _Example for simpler unit with just one kind of miniature and two different unit
 
 _Array with string values stored inside_
 
-
 ```json
   "equipment": [
     "power sword",
@@ -507,7 +497,6 @@ _Array with string values stored inside that indicate the units that this unit c
         "tyrant guard"
        ],
 ```
-
 
 ### Supreme Commander
 
@@ -559,6 +548,7 @@ _A background story or information for a given unit_
 ```json
  "lore": "Hive Guard are spawned to protect Tyranid bio-architecture and vital spore-seeding sites. They carry a monstrous arsenal of grafted bio-weapons and are instinctively driven – or sometimes synaptically impelled – to lay down heavy hails of firepower against those prey organisms the Hive Mind wishes to see eradicated. "
 ```
+
 ## JSON structure template
 
 Here is a blank template for creating unit json files. Please remember to maintain this order for reading purposes even if it does not change the behavior of the data
@@ -566,6 +556,7 @@ Here is a blank template for creating unit json files. Please remember to mainta
 ```json
 {
   "parentUnit": "",
+  
   "attributes": [
     {
       "movement": ,
@@ -574,9 +565,10 @@ Here is a blank template for creating unit json files. Please remember to mainta
       "wounds": ,
       "leadership": ,
       "objetiveControl": ,
-      "invulnerableSave": 
+      "invulnerableSave":
     }
   ],
+
   "rangedWeapons": [
     {
       "name": "",
@@ -586,14 +578,10 @@ Here is a blank template for creating unit json files. Please remember to mainta
       "strength": ,
       "armor-penetration": ,
       "damage": ,
-      "modifiers": [
-        ""
-      ]
+      "modifiers": [""]
     }
     ],
-  "keywords": [
-    ""
-    ],
+
   "meleeWeapons": [
     {
       "name": "",
@@ -602,62 +590,76 @@ Here is a blank template for creating unit json files. Please remember to mainta
       "strength": ,
       "armor-penetration": ,
       "damage": ,
-      "modifiers": []
+      "modifiers": [""]
     }
   ],
-  "factionKeyword": [
-    ""
-  ],
-  "wargear": [
+
+    "keywords": [""],
+
+    "factionKeyword": [""],
+
+    "wargear": [
     {
       "description": "",
-      "items": [
-        ""
-      ],
-      "appendix": 
-        "This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
-      
+      "items": [""],
     }
-  ],
+     ],
+
+    "appendix": "",
+
   "abilities": {
-    "core": [
-
-    ],
-    "faction": [
-      "synapse"
-
-    ],
-    "misc": [
+    "core": [""],
+    "faction": [""],
+    "otherAbilities": [
       {
-        "name": "Skulking Horrors",
-        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."
+        "name": "",
+        "description": ""
       }
     ]
   },
+
   "leader": [],
+
+  "supremeCommander": ,
+
+  "additionalParameter": {
+  "title": "",
+  "abilities":
+    [
+      {
+      "name": "",
+      "description": ""
+      }
+    ]
+  },
+
+  "damaged": {
+        "remainingWounds": ,
+        "description": ""
+     },
+
   "unitComposition": [
     {
       "unitType": "",
       "minQuantity": ,
-      "maxQuantity": 
+      "maxQuantity":
     }
-  ],
-  "equipment": [
-    ""
-
   ],
 
   "options": [
     {
       "count": [],
-      "points": 
+      "points":
     },
     {
       "count": [],
-      "points": 
+      "points":
     }
   ],
-  "lore": ""
+
+   "equipment": [""],
+
+   "lore": ""
 }
 
 ```

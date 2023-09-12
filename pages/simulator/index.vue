@@ -3,6 +3,7 @@
     <div>
         <SimulatorPick :attack-role="true"/>
         <SimulatorPick :attack-role="false"/>
+        
     </div>
 </div>
 </template>

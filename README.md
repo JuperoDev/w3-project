@@ -605,7 +605,7 @@ Here is a blank template for creating unit json files. Please remember to mainta
     }
      ],
 
-    "appendix": "",
+  "appendix": "",
 
   "abilities": {
     "core": [""],
@@ -616,7 +616,7 @@ Here is a blank template for creating unit json files. Please remember to mainta
         "description": ""
       }
     ]
-  },
+   },
 
   "leader": [],
 
@@ -647,10 +647,6 @@ Here is a blank template for creating unit json files. Please remember to mainta
   ],
 
   "options": [
-    {
-      "count": [],
-      "points":
-    },
     {
       "count": [],
       "points":

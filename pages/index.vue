@@ -2,7 +2,8 @@
     <div>
       <FactionFetch />
       <nuxt-link to="/simulator">Simulator</nuxt-link>
-      <DatasheetDesktop/>
+      <DesktopDatasheet/>
+      
     </div>
   </template>
   

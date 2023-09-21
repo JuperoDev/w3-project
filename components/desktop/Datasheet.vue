@@ -1,22 +1,30 @@
 <template>
-  <div class="datasheet-desktop__container">
-    <div class="datasheet-desktop__header bg-zinc-800">
-      
-      
+  <div class="datasheet-desktop__container mt-5 mx-2">
+    <div class="datasheet-desktop__header bg-zinc-800 py-5">
+      <div class="color-stripe bg-blue-300 h-20">
+        <h1 class="uppercase font-bebas text-4xl text-zinc-800 px-5 py-3">Neurotyrant</h1>
+      </div>
     </div>
-    <div class="datasheet-desktop--grid-container grid grid-cols-3">
-
+    <div class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2">
       <div class="datasheet-desktop__grid-container--left col-span-2">
-        
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3 grid grid-cols-2">
+        <div
+          class="datasheet-desktop__section-header bg-slate-400 m-3 grid grid-cols-2"
+        >
           <div class="datasheet-desktop__section-title">
             <p>Ranged Weapons</p>
           </div>
 
-          <div class="datasheet-desktop__section-stats">
+          <div
+            class="datasheet-desktop__section-stats grid grid-cols-6 text-center"
+          >
             <p>Range</p>
-          </div>
 
+            <p>A</p>
+            <p>BS</p>
+            <p>S</p>
+            <p>AP</p>
+            <p>D</p>
+          </div>
         </div>
 
         <div class="datasheet-desktop__section-header bg-slate-400 m-3">
@@ -26,7 +34,6 @@
         <div class="datasheet-desktop__section-header bg-slate-400 m-3">
           <p>Wargear Options</p>
         </div>
-       
       </div>
       <div class="datasheet-desktop__grid-container--right">
         <div class="datasheet-desktop__section-header bg-slate-400 m-3">
@@ -46,7 +53,7 @@
 export default {};
 </script>
 <style scoped>
-div {
+div p {
   border: 1px solid red;
 }
 
@@ -56,5 +63,23 @@ div {
 
 .datasheet-desktop__header {
   height: 200px;
+}
+
+.color-stripe {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 43.00%,
+    49.06% 43.00%,
+    47.3% 44.0%,
+    45.8% 49.37%,
+    44.3% 59.49%,
+    42.6% 73.42%,
+    41.27% 85.24%,
+    39.83% 93.24%,
+    38.1% 97.47%,
+    36% 100%,
+    0% 100%
+  );
 }
 </style>

@@ -24,12 +24,14 @@
         <DesktopComponentsAbilities />
 
         <DesktopComponentsUnitComposition />
-        
+
         <DesktopComponentsLeader />
       </div>
     </div>
 
-    <div class="keywords-container"></div>
+    <div class="keywords-container">
+     <DesktopComponentsKeywords/>
+    </div>
   </div>
 </template>
 <script>

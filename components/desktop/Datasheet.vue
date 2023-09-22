@@ -10,25 +10,8 @@
     </div>
     <div class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2">
       <div class="datasheet-desktop__grid-container--left col-span-2">
-        <div
-          class="datasheet-desktop__section-header bg-slate-400 m-3 grid grid-cols-2"
-        >
-          <div class="datasheet-desktop__section-title">
-            <p>Ranged Weapons</p>
-          </div>
-
-          <div
-            class="datasheet-desktop__section-stats grid grid-cols-6 text-center"
-          >
-            <p>Range</p>
-
-            <p>A</p>
-            <p>BS</p>
-            <p>S</p>
-            <p>AP</p>
-            <p>D</p>
-          </div>
-        </div>
+       
+        <DesktopComponentsRangedWeapons/>
 
         <div class="datasheet-desktop__section-header bg-slate-400 m-3">
           <p>Melee weapons</p>

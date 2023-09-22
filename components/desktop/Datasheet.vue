@@ -16,15 +16,16 @@
 
         <DesktopComponentsMeleeWeapons />
 
-        <DesktopComponentsWargear/>
+        <DesktopComponentsWargear />
       </div>
       <div
         class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
       >
- <DesktopComponentsAbilities/>
- <DesktopComponentsUnitComposition/>
- <DesktopComponentsLeader/>
-     
+        <DesktopComponentsAbilities />
+
+        <DesktopComponentsUnitComposition />
+        
+        <DesktopComponentsLeader />
       </div>
     </div>
 

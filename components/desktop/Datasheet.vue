@@ -1,6 +1,6 @@
 <template>
   <div class="datasheet-desktop__container mt-5 mx-2">
-    <div class="datasheet-desktop__header bg-zinc-800 py-5">
+    <div class="datasheet-desktop__header py-5">
       
       <div class="color-stripe bg-zinc-500 h-20 z-1">
         <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">Neurotyrant</h1>
@@ -93,5 +93,7 @@ div p {
   );
 }
 
-
+.datasheet-desktop__header{
+background-image: url("background/tzeentch_bg_desktop.png");
+}
 </style>

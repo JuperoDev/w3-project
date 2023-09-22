@@ -5,17 +5,7 @@
         <h1 class="uppercase font-bebas text-4xl text-zinc-800 px-5 py-3">Neurotyrant</h1>
 
       </div>
-              <!-- caja -->
-              <div
-          class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"
-        >
-          <div
-            class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
-          >
-            20 "
-          </div>
-        </div>
-        <!-- end caja  -->
+       <DesktopComponentsAttributes/>
     </div>
     <div class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2">
       <div class="datasheet-desktop__grid-container--left col-span-2">
@@ -102,16 +92,5 @@ div p {
   );
 }
 
-.datasheet__header--stats-single-box {
-  clip-path: polygon(
-    20% 0%,
-    80% 0%,
-    100% 0,
-    100% 80%,
-    80% 100%,
-    20% 100%,
-    0 100%,
-    0% 20%
-  );
-}
+
 </style>

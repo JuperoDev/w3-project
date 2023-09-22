@@ -1,11 +1,12 @@
 <template>
   <div class="datasheet-desktop__container mt-5 mx-2">
     <div class="datasheet-desktop__header bg-zinc-800 py-5">
-      <div class="color-stripe bg-blue-300 h-20">
-        <h1 class="uppercase font-bebas text-4xl text-zinc-800 px-5 py-3">Neurotyrant</h1>
+      
+      <div class="color-stripe bg-zinc-500 h-20 z-1">
+        <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">Neurotyrant</h1>
 
       </div>
-       <DesktopComponentsAttributes/>
+      <DesktopComponentsAttributes/>
     </div>
     <div class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2">
       <div class="datasheet-desktop__grid-container--left col-span-2">

@@ -22,12 +22,9 @@
         class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
       >
  <DesktopComponentsAbilities/>
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3">
-          <p>Unit Composition</p>
-        </div>
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3">
-          <p>Leader</p>
-        </div>
+ <DesktopComponentsUnitComposition/>
+ <DesktopComponentsLeader/>
+     
       </div>
     </div>
 

@@ -47,8 +47,8 @@
           <p>Wargear Options</p>
         </div>
       </div>
-      <div class="datasheet-desktop__grid-container--right">
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3">
+      <div class="datasheet-desktop__grid-container--right border-l-2  border-slate-700">
+        <div class="datasheet-desktop__section-header bg-slate-400 m-3 ">
           <p>Abilities</p>
         </div>
         <div class="datasheet-desktop__section-header bg-slate-400 m-3">

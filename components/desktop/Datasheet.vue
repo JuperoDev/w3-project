@@ -1,28 +1,27 @@
 <template>
   <div class="datasheet-desktop__container mt-5 mx-2">
     <div class="datasheet-desktop__header py-5">
-      
       <div class="color-stripe bg-zinc-500 h-20 z-1">
-        <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">Neurotyrant</h1>
-
+        <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">
+          Neurotyrant
+        </h1>
       </div>
-      <DesktopComponentsAttributes/>
+      <DesktopComponentsAttributes />
     </div>
-    <div class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2">
+    <div
+      class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
+    >
       <div class="datasheet-desktop__grid-container--left col-span-2">
-       
-        <DesktopComponentsRangedWeapons/>
+        <DesktopComponentsRangedWeapons />
 
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3">
-          <p>Melee weapons</p>
-        </div>
+        <DesktopComponentsMeleeWeapons />
 
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3">
-          <p>Wargear Options</p>
-        </div>
+        <DesktopComponentsWargear/>
       </div>
-      <div class="datasheet-desktop__grid-container--right border-l-2  border-slate-700">
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3 ">
+      <div
+        class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
+      >
+        <div class="datasheet-desktop__section-header bg-slate-400 m-3">
           <p>Abilities</p>
         </div>
         <div class="datasheet-desktop__section-header bg-slate-400 m-3">
@@ -34,12 +33,7 @@
       </div>
     </div>
 
-    <div class="keywords-container">
-
-
-    </div>
-
-
+    <div class="keywords-container"></div>
   </div>
 </template>
 <script>
@@ -62,9 +56,9 @@ div p {
   clip-path: polygon(
     0% 0%,
     100% 0%,
-    100% 43.00%,
-    49.06% 43.00%,
-    47.3% 44.0%,
+    100% 43%,
+    49.06% 43%,
+    47.3% 44%,
     45.8% 49.37%,
     44.3% 59.49%,
     42.6% 73.42%,
@@ -76,7 +70,7 @@ div p {
   );
 }
 
-.datasheet-desktop__header{
-background-image: url("background/tzeentch_bg_desktop.png");
+.datasheet-desktop__header {
+  background-image: url("background/tzeentch_bg_desktop.png");
 }
 </style>

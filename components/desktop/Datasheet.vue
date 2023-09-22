@@ -72,7 +72,7 @@ div p {
 }
 
 .datasheet-desktop__header {
-  height: 200px;
+  height: 180px;
 }
 
 .color-stripe {

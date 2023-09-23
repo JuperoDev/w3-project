@@ -8,7 +8,7 @@
           
         </h1>
       </div>
-      <DesktopComponentsAttributes/>
+      <DesktopComponentsAttributes :attributes="attributes"/>
     </div>
     <div
       class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
@@ -41,6 +41,7 @@
 const props = defineProps({
     armyUnit: String,
     keywords: Array,
+    attributes: Array
     
 });
 
@@ -77,6 +78,6 @@ div p {
 }
 
 .datasheet-desktop__header {
-  background-image: url("background\tzeentch_bg_desktop.png");
+  background-image: url("@/public/background/tzeentch_bg_desktop.png");
 }
 </style>

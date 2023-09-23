@@ -1,5 +1,6 @@
 <template>
   <div class ="attributes-desktop-container -mt-8 grid grid-cols-3">
+    <div class="datasheet__header"  v-for="attribute in attributes">
     <!-- boxes -->
     <div class="datasheet__header--stats grid grid-cols-6 place-items-center text-zinc-100 font-semibold ">
       <!-- Single Box -->
@@ -11,7 +12,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            8 "
+          {{ attribute.movement }} "
           </div>
         </div>
       </div>
@@ -26,7 +27,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            4
+          {{ attribute.toughness }}
           </div>
         </div>
       </div>
@@ -41,7 +42,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            3+
+          {{ attribute.save }}+
           </div>
         </div>
       </div>
@@ -56,7 +57,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            6
+          {{ attribute.wounds }}
           </div>
         </div>
       </div>
@@ -71,7 +72,7 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            6 +
+          {{ attribute.leadership }} +
           </div>
         </div>
       </div>
@@ -86,19 +87,24 @@
           <div
             class="datasheet__header--stats-single-box w-9 h-9 bg-slate-200 grid place-items-center"
           >
-            1
+          {{ attribute.objetiveControl }}
           </div>
         </div>
       </div>
       <!-- end Single Box  -->
     </div>
-
+    </div>
     <!-- end boxes  -->
 
     <div class="attributes-desktop-container--right"></div>
   </div>
 </template>
+<script setup>
 
+const props = defineProps({
+  attributes: Array
+});
+</script>
 <style scoped>
 .datasheet__header--stats-single-box {
   clip-path: polygon(

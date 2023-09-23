@@ -3,7 +3,8 @@
 
     <!--  desktop datasheet  -->
 <DesktopDatasheet :armyUnit="armyUnit"
-:keywords="keywords" />
+:keywords="keywords"
+:attributes="attributes" />
 <br/>
 <br/>
 <br/>

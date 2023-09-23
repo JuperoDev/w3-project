@@ -1,24 +1,24 @@
 <template>
  
         <div
-      class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
+      class="datasheet-desktop--grid-container grid grid-cols-12  mx-2  -mt-4 border-r-2 border-b-2 border-l-2  border-solid border-slate-700  "
     >
-      <div class="datasheet-desktop__grid-container--left col-span-2">
+
+    <!-- border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 -->
+      <div class="datasheet-desktop__grid-container--left  p-8 col-span-8 ">
         KEYWORDS: INFANTRY, CHARACTER, EPIC HERO, GREAT DEVOURER, DEATHLEAPER
       </div>
 
     
-      <div
-        class="datasheet-desktop__grid-container--right  border-slate-700 grid grid-cols-2"
-      >
-      <div class="diamond bg-slate-700 ">
+      
+      <div class="diamond bg-slate-700 col-span-1 ">
         
     </div>
-    <div class="texto">      FACTION KEYWORDS:
+    <div class="texto col-span-3 p-8 -ml-20   ">      FACTION KEYWORDS:
 TYRANIDS</div>
 
       </div>
-    </div>
+    
    
 </template>
 
@@ -29,4 +29,10 @@ TYRANIDS</div>
     width: 80px;
     margin-left: -39px ;
 }
+
+.datasheet-desktop--grid-container{
+  height: 68px;
+  
+}
+
 </style>

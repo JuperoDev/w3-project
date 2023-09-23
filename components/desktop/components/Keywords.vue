@@ -4,26 +4,23 @@
   >
     <div class="emptycolumn col-span-1"></div>
     <!-- border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 -->
-    <div class="datasheet-desktop__grid-container--left p-8 col-span-7 -m-4 ">
-      <span>Keywords:  </span>
-          <div class="flex space-x-5">
-            <p class="uppercase text-sm font-semibold" v-for="keyword in keywords"><span >{{ keyword }}  </span></p>
-          </div>
+    <div class="datasheet-desktop__grid-container--left p-8 col-span-7 -m-4">
+      <span>Keywords: </span>
+      <div class="flex space-x-5">
+        <p class="uppercase text-sm font-semibold" v-for="keyword in keywords">
+          <span>{{ keyword }} </span>
+        </p>
+      </div>
     </div>
 
     <div class="diamond bg-slate-700 col-span-1"></div>
     <div class="texto col-span-3 p-8 -ml-20">FACTION KEYWORDS: TYRANIDS</div>
-    
   </div>
 </template>
 <script setup>
-
 const props = defineProps({
-
-    keywords: Array,
-    
+  keywords: Array,
 });
-
 </script>
 <style scoped>
 .diamond {

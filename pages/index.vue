@@ -3,7 +3,7 @@
       <FactionFetch />
       <v-btn><nuxt-link to="/simulator">Simulator</nuxt-link></v-btn>
       
-      <DesktopDatasheet/>
+
       
     </div>
   </template>

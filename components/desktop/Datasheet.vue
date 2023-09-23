@@ -1,12 +1,14 @@
 <template>
   <div class="datasheet-desktop__container mt-5 mx-2">
+    
     <div class="datasheet-desktop__header py-5">
       <div class="color-stripe bg-zinc-500 h-20 z-1">
         <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">
-          Neurotyrant
+          {{ armyUnit }}
+          
         </h1>
       </div>
-      <DesktopComponentsAttributes />
+      <DesktopComponentsAttributes/>
     </div>
     <div
       class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
@@ -30,12 +32,18 @@
     </div>
 
     <div class="keywords-container">
-     <DesktopComponentsKeywords/>
+     <DesktopComponentsKeywords :keywords="keywords"/>
     </div>
   </div>
 </template>
-<script>
-export default {};
+<script setup>
+
+const props = defineProps({
+    armyUnit: String,
+    keywords: Array,
+    
+});
+
 </script>
 <style scoped>
 div p {
@@ -69,6 +77,6 @@ div p {
 }
 
 .datasheet-desktop__header {
-  background-image: url("background/tzeentch_bg_desktop.png");
+  background-image: url("background\tzeentch_bg_desktop.png");
 }
 </style>

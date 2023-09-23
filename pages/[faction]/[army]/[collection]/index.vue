@@ -1,10 +1,23 @@
 <template>
   <div>
+
+    <!--  desktop datasheet  -->
+<DesktopDatasheet :armyUnit="armyUnit"
+:keywords="keywords" />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<!-- end desktop datasheet  -->
     <div
       class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
     >
       <h1>{{ armyUnit }}</h1>
     </div>
+
+
 
     <Attributes :attributes="attributes" />
 

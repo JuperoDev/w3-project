@@ -32,7 +32,7 @@
     </div>
 
     <div class="keywords-container">
-     <DesktopComponentsKeywords :keywords="keywords"/>
+     <DesktopComponentsKeywords :keywords="keywords" :factionKeyword="factionKeyword"/>
     </div>
   </div>
 </template>
@@ -41,6 +41,7 @@
 const props = defineProps({
     armyUnit: String,
     keywords: Array,
+    factionKeyword: Array,
     attributes: Array
     
 });

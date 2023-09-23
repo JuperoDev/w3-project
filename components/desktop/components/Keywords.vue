@@ -14,12 +14,22 @@
     </div>
 
     <div class="diamond bg-slate-700 col-span-1"></div>
-    <div class="texto col-span-3 p-8 -ml-20">FACTION KEYWORDS: TYRANIDS</div>
+    <div class="texto col-span-3 p-8 -ml-20 -m-4">
+      
+      <span>Faction Keywords: </span>
+      <div class="flex space-x-5">
+        <p class="uppercase text-sm font-semibold" v-for="keyword in factionKeyword">
+          <span>{{ keyword }} </span>
+        </p>
+      </div>
+
+    </div>
   </div>
 </template>
 <script setup>
 const props = defineProps({
   keywords: Array,
+  factionKeyword: Array
 });
 </script>
 <style scoped>

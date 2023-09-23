@@ -4,6 +4,7 @@
     <!--  desktop datasheet  -->
 <DesktopDatasheet :armyUnit="armyUnit"
 :keywords="keywords"
+:factionKeyword="factionKeyword"
 :attributes="attributes" />
 <br/>
 <br/>

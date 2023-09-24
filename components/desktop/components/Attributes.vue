@@ -1,8 +1,8 @@
 <template>
   <div class ="attributes-desktop-container -mt-8 grid grid-cols-3">
-    <div class="datasheet__header"  v-for="attribute in attributes">
+    <div class="datasheet__header" >
     <!-- boxes -->
-    <div class="datasheet__header--stats grid grid-cols-6 place-items-center text-zinc-100 font-semibold ">
+    <div class="datasheet__header--stats grid grid-cols-6 place-items-center text-zinc-100 font-semibold "  v-for="attribute in attributes">
       <!-- Single Box -->
       <div class="datasheet__header--stats-single grid place-items-center z-50">
         <p>M</p>

@@ -10,6 +10,7 @@
       :attributes="attributes"
       :wargear="wargear"
       :leader="leader"
+      :abilities ="abilities"
     />
     <br />
     <br />

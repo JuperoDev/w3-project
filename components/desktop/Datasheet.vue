@@ -23,7 +23,7 @@
       <div
         class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
       >
-        <DesktopComponentsAbilities />
+        <DesktopComponentsAbilities :abilities="abilities"/>
 
         <DesktopComponentsUnitComposition />
 
@@ -40,6 +40,7 @@
 
 const props = defineProps({
     armyUnit: String,
+    abilities: Object,
     keywords: Array,
     factionKeyword: Array,
     attributes: Array,

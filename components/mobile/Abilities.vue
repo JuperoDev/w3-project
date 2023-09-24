@@ -6,8 +6,8 @@
         <div v-for="(ability, index) in abilities.faction" :key="'faction-' + index">
             {{ ability }}
         </div>
-        <div v-for="(miscAbility, index) in abilities.misc" :key="'misc-' + index">
-            <span class="font-semibold">{{ miscAbility.name }} : </span> <span>{{ miscAbility.description }}</span>
+        <div v-for="(otherAbility, index) in abilities.otherAbilities" :key="'misc-' + index">
+            <span class="font-semibold">{{ otherAbility.name }} : </span> <span>{{ otherAbility.description }}</span>
         </div>
     </div>
 </template>

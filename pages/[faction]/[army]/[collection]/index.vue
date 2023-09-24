@@ -119,7 +119,7 @@
       <!-- end panels  -->
     </v-expansion-panels>
 
-    <Lore :lore="lore" />
+    <MobileLore :lore="lore" />
   </div>
 </template>
 
@@ -137,7 +137,7 @@ const armyUnit = route.params.collection;
 const attributes = ref([]);
 const parentUnit = ref("");
 const lore = ref("");
-const leader = ref("");
+const leader = ref([""]);
 const rangedWeapons = ref([]);
 const meleeWeapons = ref([]);
 const keywords = ref([]);

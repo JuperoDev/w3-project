@@ -1,29 +1,28 @@
 <template>
   <div>
-
     <!--  desktop datasheet  -->
-<DesktopDatasheet :armyUnit="armyUnit"
-:keywords="keywords"
-:factionKeyword="factionKeyword"
-:meleeWeapons = "meleeWeapons"
-:rangedWeapons = "rangedWeapons"
-:attributes="attributes"
-:wargear="wargear"
-:leader="leader" />
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+    <DesktopDatasheet
+      :armyUnit="armyUnit"
+      :keywords="keywords"
+      :factionKeyword="factionKeyword"
+      :meleeWeapons="meleeWeapons"
+      :rangedWeapons="rangedWeapons"
+      :attributes="attributes"
+      :wargear="wargear"
+      :leader="leader"
+    />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-<!-- end desktop datasheet  -->
+    <!-- end desktop datasheet  -->
     <div
       class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
     >
       <h1>{{ armyUnit }}</h1>
     </div>
-
-
 
     <Attributes :attributes="attributes" />
 
@@ -76,17 +75,14 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
-<!-- leader  -->
-<v-expansion-panel v-if="leader.length>0">
+      <!-- leader  -->
+      <v-expansion-panel v-if="leader.length > 0">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Leader</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            
-            <MobileLeader
-              :leader="leader"
-            />
+            <MobileLeader :leader="leader" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -98,8 +94,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            
-            <UnitComposition
+            <MobileUnitComposition
               :options="options"
               :unitComposition="unitComposition"
               :equipment="equipment"
@@ -145,12 +140,11 @@ const rangedWeapons = ref([]);
 const meleeWeapons = ref([]);
 const keywords = ref([]);
 const factionKeyword = ref([]);
-const wargear = ref ([]);
-const abilities = ref ({});
-const unitComposition= ref ([]);
-const equipment= ref ([]);
-const options= ref ([]);
-
+const wargear = ref([]);
+const abilities = ref({});
+const unitComposition = ref([]);
+const equipment = ref([]);
+const options = ref([]);
 
 // json fetcher
 onMounted(async () => {

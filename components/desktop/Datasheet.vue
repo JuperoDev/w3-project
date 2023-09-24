@@ -14,11 +14,11 @@
       class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
     >
       <div class="datasheet-desktop__grid-container--left col-span-2">
-        <DesktopComponentsRangedWeapons />
+        <DesktopComponentsRangedWeapons :rangedWeapons="rangedWeapons" />
 
         <DesktopComponentsMeleeWeapons :meleeWeapons="meleeWeapons" />
 
-        <DesktopComponentsWargear  />
+        <DesktopComponentsWargear :wargear="wargear" />
       </div>
       <div
         class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
@@ -43,15 +43,15 @@ const props = defineProps({
     keywords: Array,
     factionKeyword: Array,
     attributes: Array,
-    meleeWeapons: Array
+    meleeWeapons: Array,
+    rangedWeapons: Array,
+    wargear: Array
     
 });
 
 </script>
 <style scoped>
-div p {
-  border: 1px solid red;
-}
+
 
 .datasheet-desktop__container {
   width: 1200px;

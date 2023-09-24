@@ -1,11 +1,34 @@
 <template>
     <div
-          class="datasheet-desktop__section-header bg-slate-400 m-3"
+          class="datasheet-desktop__section-header  m-3"
         >
-          <div class="datasheet-desktop__section-title">
+          <div class="datasheet-desktop__section-title bg-slate-400">
             <p>Wargear Options</p>
           </div>
 
- 
+          <div class="datasheet-desktop__leader--body my-3 pl-5 " v-if="wargear">
+            <div v-for="(wargearSet, index) in wargear" :key="index" >
+          <p >{{ wargearSet.description }}</p>
+          <ul class="pt-2">
+            <li v-for="(item, itemIndex) in wargearSet.items" :key="itemIndex" class="capitalize">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+
+</div>
+
+<div v-else class="px-5 py-2 ">
+        <!-- If wargear is false, display "none" -->
+        <ul>
+          <li>None</li> 
+        </ul>
+      </div>
         </div>
 </template>
+
+<script setup>
+const props = defineProps({
+  wargear: Array
+});
+</script>

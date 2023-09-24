@@ -20,44 +20,32 @@
       </div>
     </div>
 
+
+
     <div
-      class="ranged-weapons__weapon   border-b-2  border-dotted border-slate-400 m-3 grid grid-cols-2"
+      class="ranged-weapons__weapon m-3 grid grid-cols-2  border-b-2  border-dotted border-slate-400 "  v-for="weapon in rangedWeapons"
     >
       <div class="datasheet-desktop__section-title">
-        <p>Fires of the Abyss</p>
+        <p class="capitalize">{{ weapon.name }}</p>
       </div>
 
       <div
         class="datasheet-desktop__section-stats grid grid-cols-6 text-center"
       >
-        <p>12"</p>
-
-        <p>2D6</p>
-        <p>2+</p>
-        <p>5</p>
-        <p>-1</p>
-        <p>1</p>
-      </div>
-    </div>
-
-    <div
-      class="ranged-weapons__weapon m-3 grid grid-cols-2  border-b-2  border-dotted border-slate-400"
-    >
-      <div class="datasheet-desktop__section-title">
-        <p>Inferno bolt pistol</p>
-      </div>
-
-      <div
-        class="datasheet-desktop__section-stats grid grid-cols-6 text-center"
-      >
-        <p>12"</p>
-        <p>1</p>
-        <p>2+</p>
-        <p>4</p>
-        <p>-1</p>
-        <p>1</p>
+        <p>{{ weapon.range }}</p>
+        <p> {{ weapon.attacks }}</p>
+        <p> {{ weapon["ballistic-skills"] }}</p>
+        <p>{{ weapon.strength }}</p>
+        <p>{{ weapon["armor-penetration"] }}</p>
+        <p>{{ weapon.damage }}</p>
       </div>
     </div>
 
   </div>
 </template>
+
+<script setup>
+ const props = defineProps ({
+  rangedWeapons: Array
+ })
+</script>

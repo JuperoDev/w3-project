@@ -6,7 +6,9 @@
 :keywords="keywords"
 :factionKeyword="factionKeyword"
 :meleeWeapons = "meleeWeapons"
-:attributes="attributes" />
+:rangedWeapons = "rangedWeapons"
+:attributes="attributes"
+:wargear="wargear" />
 <br/>
 <br/>
 <br/>

@@ -8,7 +8,8 @@
 :meleeWeapons = "meleeWeapons"
 :rangedWeapons = "rangedWeapons"
 :attributes="attributes"
-:wargear="wargear" />
+:wargear="wargear"
+:leader="leader" />
 <br/>
 <br/>
 <br/>
@@ -132,6 +133,7 @@ const abilities = ref ({});
 const unitComposition= ref ([]);
 const equipment= ref ([]);
 const options= ref ([]);
+
 
 // json fetcher
 onMounted(async () => {

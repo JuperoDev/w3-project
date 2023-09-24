@@ -9,13 +9,18 @@
 
 
     <ul class="my-2 pl-5">
-      <li class="capitalize">gargoyles</li>
+      <div class="capitalize" v-for="lead in leader">
+      <li>{{ lead }}</li>
+      </div>
 
-      <li class="capitalize">tyranid warriors with melee bio-weapons</li>
-
-      <li class="capitalize">tyranid warriors with ranged bio-weapons</li>
     </ul>
 
 </div>
   </div>
 </template>
+
+<script setup>
+const props = defineProps({
+  leader: Array
+});
+</script>

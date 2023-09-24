@@ -27,7 +27,7 @@
 
         <DesktopComponentsUnitComposition />
 
-        <DesktopComponentsLeader />
+        <DesktopComponentsLeader :leader="leader" v-if="leader.length>0"/>
       </div>
     </div>
 
@@ -45,7 +45,8 @@ const props = defineProps({
     attributes: Array,
     meleeWeapons: Array,
     rangedWeapons: Array,
-    wargear: Array
+    wargear: Array,
+    leader: Array
     
 });
 

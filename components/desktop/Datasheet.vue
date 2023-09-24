@@ -1,7 +1,7 @@
 <template>
   <div class="datasheet-desktop__container mt-5 mx-2">
     
-    <div class="datasheet-desktop__header py-5">
+    <div class="datasheet-desktop__header py-5 bg-slate-950">
       <div class="color-stripe bg-zinc-500 h-20 z-1">
         <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">
           {{ armyUnit }}
@@ -60,7 +60,7 @@ const props = defineProps({
 }
 
 .datasheet-desktop__header {
-  height: 180px;
+  height: 220px;
 }
 
 .color-stripe {
@@ -81,7 +81,7 @@ const props = defineProps({
   );
 }
 
-.datasheet-desktop__header {
+/* .datasheet-desktop__header {
   background-image: url("@/public/background/tzeentch_bg_desktop.png");
-}
+} */
 </style>

@@ -1,11 +1,11 @@
 <template>
   <div>
-    {{faction}}
+    {{ faction }}
 
     <div v-if="factionData && factionData.army">
       <div v-for="armyName in factionData.army" :key="armyName" class="m-5">
-       
-        <nuxt-link :to="`/${faction}/${armyName}`">
+        <!-- Sanitize the armyName here by replacing spaces and weird characters with hyphens -->
+        <nuxt-link :to="`/${faction}/${sanitizeArmyName(armyName)}`">
           <v-btn>{{ armyName }}</v-btn>
         </nuxt-link>
       </div>
@@ -18,9 +18,12 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 const factionData = ref(null);
-const {faction} = useRoute().params;
+const { faction } = useRoute().params;
 
-
+const sanitizeArmyName = (name) => {
+  // Replace spaces and weird characters with hyphens
+  return name.replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+};
 
 onMounted(async () => {
   try {
@@ -34,6 +37,6 @@ onMounted(async () => {
 });
 
 onMounted(() => {
-  console.log('Faction mounted');
+  console.log("Faction mounted");
 });
 </script>

@@ -14,7 +14,7 @@
         <p>Range</p>
 
         <p>A</p>
-        <p>BS</p>
+        <p>WS</p>
         <p>S</p>
         <p>AP</p>
         <p>D</p>

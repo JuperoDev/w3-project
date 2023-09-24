@@ -25,7 +25,8 @@
       <h1>{{ armyUnit }}</h1>
     </div>
 
-    <Attributes :attributes="attributes" />
+    <MobileAttributes :attributes="attributes" />
+ 
 
     <v-expansion-panels>
       <!-- Ranged weapons -->

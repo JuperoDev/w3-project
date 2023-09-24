@@ -34,7 +34,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <RangedWeapons :rangedWeapons="rangedWeapons" />
+            <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -46,7 +46,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <MeleeWeapons :meleeWeapons="meleeWeapons" />
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -58,7 +58,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <Abilities :abilities="abilities" />
+            <MobileAbilities :abilities="abilities" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -70,7 +70,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <Wargear :wargear="wargear" />
+            <MobileWargear :wargear="wargear" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -110,7 +110,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <Keywords :keywords="keywords" :factionKeyword="factionKeyword" />
+            <MobileKeywords :keywords="keywords" :factionKeyword="factionKeyword" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>

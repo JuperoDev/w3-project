@@ -5,6 +5,7 @@
 <DesktopDatasheet :armyUnit="armyUnit"
 :keywords="keywords"
 :factionKeyword="factionKeyword"
+:meleeWeapons = "meleeWeapons"
 :attributes="attributes" />
 <br/>
 <br/>

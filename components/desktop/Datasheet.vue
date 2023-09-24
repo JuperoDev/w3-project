@@ -16,9 +16,9 @@
       <div class="datasheet-desktop__grid-container--left col-span-2">
         <DesktopComponentsRangedWeapons />
 
-        <DesktopComponentsMeleeWeapons />
+        <DesktopComponentsMeleeWeapons :meleeWeapons="meleeWeapons" />
 
-        <DesktopComponentsWargear />
+        <DesktopComponentsWargear  />
       </div>
       <div
         class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
@@ -42,7 +42,8 @@ const props = defineProps({
     armyUnit: String,
     keywords: Array,
     factionKeyword: Array,
-    attributes: Array
+    attributes: Array,
+    meleeWeapons: Array
     
 });
 

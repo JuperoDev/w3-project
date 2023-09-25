@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--  desktop datasheet  -->
-     <DesktopDatasheet
+    <DesktopDatasheet
       :armyUnit="armyUnit"
       :keywords="keywords"
       :factionKeyword="factionKeyword"
@@ -11,8 +11,8 @@
       :attributes="attributes"
       :wargear="wargear"
       :leader="leader"
-      :abilities ="abilities"
-    /> 
+      :abilities="abilities"
+    />
     <br />
     <br />
     <br />
@@ -27,7 +27,6 @@
     </div>
 
     <MobileAttributes :attributes="attributes" />
- 
 
     <v-expansion-panels>
       <!-- Ranged weapons -->
@@ -54,7 +53,6 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
-
       <!-- Abilities  -->
       <v-expansion-panel>
         <v-expansion-panel-title>
@@ -67,18 +65,22 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
-            <!-- Additional Parameter -->
-            <v-expansion-panel v-if="additionalParameter">
+      <!-- Additional Parameter -->
+      <v-expansion-panel v-if="additionalParameter">
         <v-expansion-panel-title>
-          <div class="uppercase font-semibold">{{additionalParameter.title}}</div>
+          <div class="uppercase font-semibold">
+            {{ additionalParameter.title }}
+          </div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <MobileAdditionalParameter :additionalParameter="additionalParameter" />
+            <MobileAdditionalParameter
+              :additionalParameter="additionalParameter"
+            />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
-      
+
       <!-- Wargear Options  -->
       <v-expansion-panel>
         <v-expansion-panel-title>
@@ -86,13 +88,13 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-             <MobileWargear :wargear="wargear" /> 
+            <MobileWargear :wargear="wargear" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
 
       <!-- leader  -->
-      <v-expansion-panel v-if="leader.length>0">
+      <v-expansion-panel v-if="leader.length > 0">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Leader</div>
         </v-expansion-panel-title>
@@ -126,7 +128,10 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <MobileKeywords :keywords="keywords" :factionKeyword="factionKeyword" />
+            <MobileKeywords
+              :keywords="keywords"
+              :factionKeyword="factionKeyword"
+            />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -154,7 +159,7 @@ const lore = ref("");
 const leader = ref([]);
 const rangedWeapons = ref(null);
 const meleeWeapons = ref([]);
-const additionalParameter = ref({})
+const additionalParameter = ref({});
 const keywords = ref([]);
 const factionKeyword = ref([]);
 const wargear = ref([]);

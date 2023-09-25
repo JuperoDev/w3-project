@@ -22,7 +22,7 @@
 </template>
 <script setup>
 const props = defineProps({
-  wargear: Array
+  wargear: Array,Boolean,
 });
 
 </script>

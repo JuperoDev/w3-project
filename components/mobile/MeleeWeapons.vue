@@ -44,7 +44,7 @@
 <script setup>
 
 const props = defineProps({
-  meleeWeapons: Array
+  meleeWeapons: Array,Boolean
 });
 
 </script>

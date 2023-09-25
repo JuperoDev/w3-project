@@ -18,6 +18,6 @@
 <script setup>
 
 const props = defineProps({
-    abilities: Object
+    abilities: Object,Boolean
 });
 </script>

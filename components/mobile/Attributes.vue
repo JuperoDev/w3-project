@@ -108,7 +108,7 @@
 <script setup>
 
 const props = defineProps({
-  attributes: Array
+  attributes: Array,Boolean
 });
 </script>
 

@@ -67,7 +67,7 @@
 
 
 const props = defineProps({
-  rangedWeapons: Array
+  rangedWeapons: Array,Boolean
 });
 
 

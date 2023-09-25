@@ -27,7 +27,7 @@
 
         <DesktopComponentsUnitComposition />
 
-        <DesktopComponentsLeader :leader="leader" v-if="leader.length>0"/>
+        <DesktopComponentsLeader :leader="leader" v-if="leader"/>
       </div>
     </div>
 
@@ -39,15 +39,15 @@
 <script setup>
 
 const props = defineProps({
-    armyUnit: String,
-    abilities: Object,
-    keywords: Array,
-    factionKeyword: Array,
-    attributes: Array,
-    meleeWeapons: Array,
-    rangedWeapons: Array,
-    wargear: Array,
-    leader: Array
+    armyUnit: String, Boolean,
+    abilities: Object,Boolean,
+    keywords: Array,Boolean,
+    factionKeyword: Array,Boolean,
+    attributes: Array,Boolean,
+    meleeWeapons: Array,Boolean,
+    rangedWeapons: Array,Boolean,
+    wargear: Array,Boolean,
+    leader: Array, Boolean
     
 });
 

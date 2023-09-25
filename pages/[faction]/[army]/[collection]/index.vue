@@ -30,7 +30,7 @@
 
     <v-expansion-panels>
       <!-- Ranged weapons -->
-      <v-expansion-panel>
+      <v-expansion-panel v-if="rangedWeapons">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Ranged weapons</div>
         </v-expansion-panel-title>
@@ -78,7 +78,7 @@
       </v-expansion-panel>
 
       <!-- leader  -->
-      <v-expansion-panel v-if="leader.length > 0">
+      <v-expansion-panel v-if="leader">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Leader</div>
         </v-expansion-panel-title>
@@ -137,8 +137,8 @@ const armyUnit = route.params.collection;
 const attributes = ref([]);
 const parentUnit = ref("");
 const lore = ref("");
-const leader = ref([""]);
-const rangedWeapons = ref([]);
+const leader = ref(null);
+const rangedWeapons = ref(null);
 const meleeWeapons = ref([]);
 const keywords = ref([]);
 const factionKeyword = ref([]);

@@ -16,8 +16,8 @@
 
 <script setup>
 const props = defineProps({
-  keywords: Array,
-  factionKeyword: Array
+  keywords: Array,Boolean,
+  factionKeyword: Array,Boolean
 });
 
 

@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <div v-if="wargear" class="px-5 py-2">
+        <div v-if="wargear.length>0" class="px-5 py-2">
         <!-- Display wargear options -->
 
         <div v-for="(wargearSet, index) in wargear" :key="index" >
@@ -22,7 +22,10 @@
 </template>
 <script setup>
 const props = defineProps({
-  wargear: Array,Boolean,
+  wargear:{
+    type: Array,
+    default: () => [],
+  } 
 });
 
 </script>

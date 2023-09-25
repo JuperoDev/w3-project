@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--  desktop datasheet  -->
-    <DesktopDatasheet
+     <DesktopDatasheet
       :armyUnit="armyUnit"
       :keywords="keywords"
       :factionKeyword="factionKeyword"
@@ -11,7 +11,7 @@
       :wargear="wargear"
       :leader="leader"
       :abilities ="abilities"
-    />
+    /> 
     <br />
     <br />
     <br />
@@ -72,7 +72,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <MobileWargear :wargear="wargear" />
+             <MobileWargear :wargear="wargear" /> 
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -84,7 +84,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <MobileLeader :leader="leader" />
+            <!-- <MobileLeader :leader="leader" /> -->
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>

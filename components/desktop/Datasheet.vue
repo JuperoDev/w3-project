@@ -14,11 +14,11 @@
       class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
     >
       <div class="datasheet-desktop__grid-container--left col-span-2">
-        <DesktopComponentsRangedWeapons :rangedWeapons="rangedWeapons" />
+        <DesktopComponentsRangedWeapons :rangedWeapons="rangedWeapons" v-if="rangedWeapons" />
 
         <DesktopComponentsMeleeWeapons :meleeWeapons="meleeWeapons" />
 
-        <DesktopComponentsWargear :wargear="wargear" />
+        <DesktopComponentsWargear :wargear="wargear" /> 
       </div>
       <div
         class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
@@ -27,7 +27,7 @@
 
         <DesktopComponentsUnitComposition />
 
-        <DesktopComponentsLeader :leader="leader" v-if="leader"/>
+        <!-- <DesktopComponentsLeader :leader="leader" v-if="leader"/> -->
       </div>
     </div>
 

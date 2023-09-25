@@ -6,7 +6,7 @@
             <p>Wargear Options</p>
           </div>
 
-          <div class="datasheet-desktop__leader--body my-3 pl-5 " v-if="wargear">
+          <div class="datasheet-desktop__leader--body my-3 pl-5 " v-if="wargear.length>0">
             <div v-for="(wargearSet, index) in wargear" :key="index" >
           <p >{{ wargearSet.description }}</p>
           <ul class="pt-2">

@@ -12,6 +12,7 @@
       :wargear="wargear"
       :leader="leader"
       :abilities="abilities"
+      :supremeCommander = "supremeCommander"
     />
     <br />
     <br />

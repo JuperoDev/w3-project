@@ -30,6 +30,8 @@
         <DesktopComponentsUnitComposition />
 
         <!-- <DesktopComponentsLeader :leader="leader" v-if="leader"/> -->
+
+        <DesktopComponentsSupremeCommander :v-if="supremeCommander"/>
       </div>
     </div>
 
@@ -51,6 +53,7 @@ const props = defineProps({
     rangedWeapons: Array,
     wargear: Array,
     leader: Array, 
+    supremeCommander: Boolean,
     
 });
 

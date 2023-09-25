@@ -79,13 +79,13 @@
       </v-expansion-panel>
 
       <!-- leader  -->
-      <v-expansion-panel v-if="leader">
+      <v-expansion-panel v-if="leader.length>0">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Leader</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <!-- <MobileLeader :leader="leader" /> -->
+            <MobileLeader :leader="leader" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -138,7 +138,7 @@ const armyUnit = route.params.collection;
 const attributes = ref([]);
 const parentUnit = ref("");
 const lore = ref("");
-const leader = ref(null);
+const leader = ref([]);
 const rangedWeapons = ref(null);
 const meleeWeapons = ref([]);
 const additionalParameter = ref({})

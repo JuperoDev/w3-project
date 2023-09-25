@@ -12,7 +12,7 @@
 </template>
 <script setup>
 const props = defineProps({
-  leader: Array,Boolean
+  leader: Array
 });
 </script>
 <style >

@@ -4,7 +4,7 @@
   >
     <div class="emptycolumn col-span-1"></div>
     <!-- border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 -->
-    <div class="datasheet-desktop__grid-container--left p-8 col-span-7 -m-4">
+    <div class="datasheet-desktop__grid-container--left p-8 col-span-7  -ml-24 -mt-4">
       <span>Keywords: </span>
       <div class="flex space-x-5">
         <p class="uppercase text-sm font-semibold" v-for="keyword in keywords">

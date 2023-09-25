@@ -81,6 +81,20 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
+            <!-- Supreme Commander -->
+            <v-expansion-panel v-if="supremeCommander">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">
+            Supreme Commander
+          </div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <p>If this model is in your army, it must be your Warlord</p>
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
       <!-- Wargear Options  -->
       <v-expansion-panel>
         <v-expansion-panel-title>
@@ -167,6 +181,7 @@ const abilities = ref({});
 const unitComposition = ref([]);
 const equipment = ref([]);
 const options = ref([]);
+const supremeCommander = ref (false);
 
 // json fetcher
 onMounted(async () => {
@@ -189,6 +204,7 @@ onMounted(async () => {
     unitComposition.value = unitData.unitComposition;
     equipment.value = unitData.equipment;
     options.value = unitData.options;
+    supremeCommander.value = unitData.supremeCommander;
   } catch (error) {
     console.error("Fetch Error: ", error);
   }

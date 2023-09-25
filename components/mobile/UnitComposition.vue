@@ -51,7 +51,7 @@
       </div>
 
       <div class="p-3 flex justify-center">
-        <p>{{ option.points }}</p>
+        <p class="-ml-4">{{ option.points }}</p>
       </div>
     </div>
   </div>

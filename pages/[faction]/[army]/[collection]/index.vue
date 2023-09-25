@@ -12,7 +12,10 @@
       :wargear="wargear"
       :leader="leader"
       :abilities="abilities"
-      :supremeCommander = "supremeCommander"
+      :supremeCommander="supremeCommander"
+      :options="options"
+      :unitComposition="unitComposition"
+      :equipment="equipment"
     />
     <br />
     <br />
@@ -82,12 +85,10 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
-            <!-- Supreme Commander -->
-            <v-expansion-panel v-if="supremeCommander">
+      <!-- Supreme Commander -->
+      <v-expansion-panel v-if="supremeCommander">
         <v-expansion-panel-title>
-          <div class="uppercase font-semibold">
-            Supreme Commander
-          </div>
+          <div class="uppercase font-semibold">Supreme Commander</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
@@ -182,7 +183,7 @@ const abilities = ref({});
 const unitComposition = ref([]);
 const equipment = ref([]);
 const options = ref([]);
-const supremeCommander = ref (false);
+const supremeCommander = ref(false);
 
 // json fetcher
 onMounted(async () => {

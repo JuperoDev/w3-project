@@ -54,6 +54,7 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
+
       <!-- Abilities  -->
       <v-expansion-panel>
         <v-expansion-panel-title>
@@ -66,6 +67,18 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
+            <!-- Additional Parameter -->
+            <v-expansion-panel v-if="additionalParameter">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">{{additionalParameter.title}}</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileAdditionalParameter :additionalParameter="additionalParameter" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+      
       <!-- Wargear Options  -->
       <v-expansion-panel>
         <v-expansion-panel-title>

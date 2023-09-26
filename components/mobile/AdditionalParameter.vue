@@ -2,9 +2,7 @@
     <div
           class="datasheet-desktop__section-header"
         >
-        <div class="datasheet-desktop__section-header bg-slate-400 m-3">
-          <p>{{additionalParameter.title}}</p>
-        </div>
+
         <div v-for="(ability, index) in additionalParameter.abilities" :key="index" class="px-5 py-2">
       <h3 class="font-semibold">{{ ability.name }}</h3>
       <p>{{ ability.description }}</p>

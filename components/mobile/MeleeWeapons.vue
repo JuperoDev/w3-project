@@ -6,7 +6,8 @@
     
 
      <div v-for="weapon in meleeWeapons" :key="weapon.name">
-        <div class="weaponName uppercase bg-zinc-900 text-slate-50 m-2 p-3 rounded-lg font-semibold">
+        <div class="weaponName uppercase bg-zinc-900 text-slate-50 m-2 p-3 rounded-lg font-semibold flex">
+          <div class="arrow bg-zinc-200 mt-1 mr-2" v-if="weapon.singleChoice"></div>
           <h2>{{weapon.name}}</h2>
         </div>
 
@@ -38,13 +39,31 @@
           </div>
       </div>
 
-   
+      <div class="downarrow flex mt-10 ml-3" v-if="showDownArrow">
+      <div class="arrow bg-zinc-900 mt-1 mr-3"></div>
+      <p class="italic">
+        Before selecting targets for this weapon, select one of its profiles to make attacks with.
+      </p>
+    </div>
   </div>
+
+  
 </template>
 <script setup>
-
+import { computed } from 'vue';
 const props = defineProps({
   meleeWeapons: Array,Boolean
 });
-
+const showDownArrow = computed(() => {
+  // Check if any of the weapons have singleChoice set to true
+  return props.meleeWeapons.some(weapon => weapon.singleChoice);
+});
 </script>
+
+<style scoped>
+.arrow {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 0%);
+  height: 15px;
+  width: 25px;
+}
+</style>

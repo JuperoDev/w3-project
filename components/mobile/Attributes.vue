@@ -99,7 +99,9 @@
         </div>
       </div>
     </div>
-    
+    <div class="invulnerable-save text-slate-900 col-span-3 italic mt-3 ml-5">
+      <p>Invulnerable save: {{ attribute.invulnerableSave }}+</p>
+    </div>
     <!-- end boxes  -->
 </div>
   </div>

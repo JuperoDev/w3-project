@@ -98,6 +98,19 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
+
+            <!-- Damaged -->
+            <v-expansion-panel v-if="damaged">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Damaged: 1 - {{ damaged.remainingWounds }} wounds remaining </div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <p>{{ damaged.description }}</p>
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
       <!-- Wargear Options  -->
       <v-expansion-panel>
         <v-expansion-panel-title>

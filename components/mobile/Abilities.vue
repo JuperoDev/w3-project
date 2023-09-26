@@ -11,7 +11,7 @@
           {{ ability }}, 
       </span>
     </div>
-      <div class="singe-ability-check" v-if="abilities.otherAbilities && abilities.core.otherAbilities > 0">
+      <div class="singe-ability-check" v-if="abilities.otherAbilities && abilities.otherAbilities.length > 0">
       <div v-for="(otherAbility, index) in abilities.otherAbilities" :key="'misc-' + index">
           <span class="font-semibold">{{ otherAbility.name }} : </span> <span>{{ otherAbility.description }}</span>
       </div>

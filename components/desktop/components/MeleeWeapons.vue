@@ -1,6 +1,5 @@
 <template>
   <div class="melee-weapons__container">
-   
     <div
       class="datasheet-desktop__section-header bg-slate-400 m-3 grid grid-cols-2"
     >
@@ -22,10 +21,12 @@
     </div>
 
     <div
-      class="ranged-weapons__weapon   border-b-2  border-dotted border-slate-400 m-3 grid grid-cols-2" v-for="weapon in meleeWeapons"
+      class="ranged-weapons__weapon border-b-2 border-dotted border-slate-400 m-3 grid grid-cols-2"
+      v-for="weapon in meleeWeapons"
     >
-      <div class="datasheet-desktop__section-title">
-        <p class="capitalize">{{weapon.name}}</p>
+      <div class="datasheet-desktop__section-title flex">
+        <div class="arrow bg-zinc-900 mt-1 mr-1"></div>
+        <p class="capitalize">{{ weapon.name }}</p>
       </div>
 
       <div
@@ -34,23 +35,32 @@
         <p>Melee</p>
 
         <p>{{ weapon.attacks }}</p>
-        <p>{{ weapon['weapons-skills'] }}</p>
+        <p>{{ weapon["weapons-skills"] }}</p>
         <p>{{ weapon.strength }}</p>
-        <p>{{ weapon['armor-penetration'] }}</p>
+        <p>{{ weapon["armor-penetration"] }}</p>
         <p>{{ weapon.damage }}</p>
       </div>
     </div>
-
-    
-
+    <div class="downarrow flex mt-10 ml-3">
+      <div class="arrow bg-zinc-900 mt-1 mr-3"></div>
+      <p class="italic">
+        Before selecting targets for this weapon, select one of its profiles to
+        make attacks with.
+      </p>
+    </div>
   </div>
 </template>
 
-
 <script setup>
-
 const props = defineProps({
-  meleeWeapons: Array
+  meleeWeapons: Array,
 });
-
 </script>
+
+<style scoped>
+.arrow {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 0%);
+  height: 15px;
+  width: 25px;
+}
+</style>

@@ -16,6 +16,7 @@
       :options="options"
       :unitComposition="unitComposition"
       :equipment="equipment"
+      :damaged="damaged"
     />
     <br />
     <br />
@@ -184,7 +185,7 @@ const unitComposition = ref([]);
 const equipment = ref([]);
 const options = ref([]);
 const supremeCommander = ref(false);
-
+const damaged = ref ({});
 // json fetcher
 onMounted(async () => {
   try {
@@ -207,6 +208,7 @@ onMounted(async () => {
     equipment.value = unitData.equipment;
     options.value = unitData.options;
     supremeCommander.value = unitData.supremeCommander;
+    damaged.value = unitData.damaged;
   } catch (error) {
     console.error("Fetch Error: ", error);
   }

@@ -30,6 +30,8 @@
       >
         <DesktopComponentsAbilities :abilities="abilities" />
 
+      <DesktopComponentsDamaged :damaged="damaged" v-if="damaged"/>
+
         <DesktopComponentsUnitComposition
           :options="options"
           :unitComposition="unitComposition"
@@ -74,7 +76,8 @@ const props = defineProps({
   options: {
     type: Array,
     default: () => [],
-  }
+  },
+  damaged: Object,
 });
 </script>
 <style scoped>

@@ -99,7 +99,7 @@
         </div>
       </div>
     </div>
-    <div class="invulnerable-save text-slate-900 col-span-3 italic mt-3 ml-5">
+    <div class="invulnerable-save text-slate-900 col-span-3 italic mt-3 ml-5" v-if="attribute.invulnerableSave">
       <p>Invulnerable save: {{ attribute.invulnerableSave }}+</p>
     </div>
     <!-- end boxes  -->

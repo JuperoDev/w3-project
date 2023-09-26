@@ -23,6 +23,36 @@
         "armor-penetration":3 ,
         "damage": "d6+1",
         "modifiers": []
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "attacks": 3,
+        "ballistic-skills": 4,
+        "strength": 12,
+        "armor-penetration":3 ,
+        "damage": "d6+1",
+        "modifiers": ["sustained hits 1", "twin-linked"]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": 12,
+        "attacks": "d6",
+        "ballistic-skills": "N/A",
+        "strength": 5,
+        "armor-penetration":1 ,
+        "damage": "1",
+        "modifiers": ["ignores cover", "torrent", "twin-linked"]
+      },
+      {
+        "name": "Volcano cannon",
+        "range": 96,
+        "attacks": "d3+1",
+        "ballistic-skills": 4,
+        "strength": 24,
+        "armor-penetration":5 ,
+        "damage": 12,
+        "modifiers": ["blast","heavy"]
       }
       ],
   

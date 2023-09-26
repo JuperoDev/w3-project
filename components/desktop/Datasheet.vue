@@ -38,9 +38,9 @@
           :equipment="equipment"
         />
 
-        <!-- <DesktopComponentsLeader :leader="leader" v-if="leader"/> -->
+         <DesktopComponentsLeader :leader="leader" v-if="leader.length>0"/> 
 
-        <DesktopComponentsSupremeCommander :v-if="supremeCommander" />
+        <DesktopComponentsSupremeCommander  v-if="supremeCommander"/>
       </div>
     </div>
 

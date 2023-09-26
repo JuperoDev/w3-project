@@ -71,7 +71,7 @@
       </v-expansion-panel>
 
       <!-- Additional Parameter -->
-      <v-expansion-panel v-if="additionalParameter">
+      <v-expansion-panel v-if="hasAdditionalParameter">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">
             {{ additionalParameter.title }}
@@ -199,6 +199,13 @@ const equipment = ref([]);
 const options = ref([]);
 const supremeCommander = ref(false);
 const damaged = ref ({});
+
+// Check if additionalParameter is not an empty object
+const hasAdditionalParameter = computed(() => {
+  
+  return Object.keys(additionalParameter.value).length > 0;
+});
+
 // json fetcher
 onMounted(async () => {
   try {

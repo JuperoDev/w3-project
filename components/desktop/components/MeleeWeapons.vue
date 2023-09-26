@@ -25,7 +25,7 @@
       v-for="weapon in meleeWeapons"
     >
       <div class="datasheet-desktop__section-title flex">
-        <div class="arrow bg-zinc-900 mt-1 mr-1"></div>
+        <div class="arrow bg-zinc-900 mt-1 mr-1" v-if="weapon.singleChoice"></div>
         <p class="capitalize">{{ weapon.name }}</p>
       </div>
 
@@ -41,19 +41,26 @@
         <p>{{ weapon.damage }}</p>
       </div>
     </div>
-    <div class="downarrow flex mt-10 ml-3">
+    
+    <div class="downarrow flex mt-10 ml-3" v-if="showDownArrow">
       <div class="arrow bg-zinc-900 mt-1 mr-3"></div>
       <p class="italic">
-        Before selecting targets for this weapon, select one of its profiles to
-        make attacks with.
+        Before selecting targets for this weapon, select one of its profiles to make attacks with.
       </p>
     </div>
   </div>
 </template>
 
 <script setup>
+import { defineProps, computed } from 'vue';
+
 const props = defineProps({
   meleeWeapons: Array,
+});
+
+const showDownArrow = computed(() => {
+  // Check if any of the weapons have singleChoice set to true
+  return props.meleeWeapons.some(weapon => weapon.singleChoice);
 });
 </script>
 

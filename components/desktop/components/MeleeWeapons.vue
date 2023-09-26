@@ -40,6 +40,15 @@
         <p>{{ weapon["armor-penetration"] }}</p>
         <p>{{ weapon.damage }}</p>
       </div>
+      <div class="flex flex-wrap">
+              <span
+                v-for="(modifier, index) in weapon.modifiers"
+                :key="index"
+                class="modifiers border-dashed border-2 mx-2 border-zinc-400 p-1 mr-2 mb-2"
+              >
+                {{ modifier }}
+              </span>
+            </div>
     </div>
     
     <div class="downarrow flex mt-10 ml-3" v-if="showDownArrow">

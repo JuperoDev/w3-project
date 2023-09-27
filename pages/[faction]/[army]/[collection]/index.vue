@@ -100,7 +100,7 @@
 
 
             <!-- Damaged -->
-            <v-expansion-panel v-if="damaged">
+            <v-expansion-panel v-if="hasDamaged">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Damaged: 1 - {{ damaged.remainingWounds }} wounds remaining </div>
         </v-expansion-panel-title>
@@ -204,6 +204,13 @@ const damaged = ref ({});
 const hasAdditionalParameter = computed(() => {
   
   return Object.keys(additionalParameter.value).length > 0;
+});
+
+// Check if damaged is not an empty object
+
+const hasDamaged = computed(() => {
+  
+  return Object.keys(damaged.value).length > 0;
 });
 
 // json fetcher

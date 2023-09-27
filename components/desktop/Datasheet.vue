@@ -45,6 +45,7 @@
     </div>
 
     <div class="keywords-container">
+     
       <DesktopComponentsKeywords
         :keywords="keywords"
         :factionKeyword="factionKeyword"
@@ -79,6 +80,9 @@ const props = defineProps({
   },
   damaged: Object,
 });
+
+// Check if damaged is not an empty object
+
 </script>
 <style scoped>
 .datasheet-desktop__container {

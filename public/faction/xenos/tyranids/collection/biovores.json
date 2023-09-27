@@ -23,6 +23,19 @@
         "biovores"
     ],
     "wargear": [],
+    "rangedWeapons": [
+        {
+            "name": "Spore Mine launcher",
+            "range": 48,
+            "attacks": "d3",
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": ["blast", "devastating wounds","heavy","indirect fire"]
+        }
+    ],
+
     "meleeWeapons": [
         {
             "name": "chitin-barbed limbs",
@@ -51,7 +64,7 @@
     "damaged": {},
     "unitComposition": [
         {
-            "unitType": "Barbgaunts",
+            "unitType": "Biovores",
             "minQuantity": 1,
             "maxQuantity": 3
         }

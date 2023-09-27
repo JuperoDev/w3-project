@@ -30,7 +30,8 @@
       >
         <DesktopComponentsAbilities :abilities="abilities" />
 
-      <DesktopComponentsDamaged :damaged="damaged" v-if="damaged"/>
+        <!-- Add a v-if directive to conditionally render the damaged component -->
+        <DesktopComponentsDamaged :damaged="damaged" v-if="!isEmptyObject(damaged)" />
 
         <DesktopComponentsUnitComposition
           :options="options"
@@ -38,14 +39,13 @@
           :equipment="equipment"
         />
 
-         <DesktopComponentsLeader :leader="leader" v-if="leader.length>0"/> 
+        <DesktopComponentsLeader :leader="leader" v-if="leader.length > 0" />
 
-        <DesktopComponentsSupremeCommander  v-if="supremeCommander"/>
+        <DesktopComponentsSupremeCommander v-if="supremeCommander" />
       </div>
     </div>
 
     <div class="keywords-container">
-     
       <DesktopComponentsKeywords
         :keywords="keywords"
         :factionKeyword="factionKeyword"
@@ -81,8 +81,10 @@ const props = defineProps({
   damaged: Object,
 });
 
-// Check if damaged is not an empty object
-
+// Define a method to check if an object is empty
+const isEmptyObject = (obj) => {
+  return Object.keys(obj).length === 0;
+};
 </script>
 <style scoped>
 .datasheet-desktop__container {
@@ -110,8 +112,4 @@ const props = defineProps({
     0% 100%
   );
 }
-
-/* .datasheet-desktop__header {
-  background-image: url("@/public/background/tzeentch_bg_desktop.png");
-} */
 </style>

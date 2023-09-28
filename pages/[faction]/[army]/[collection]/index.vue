@@ -238,6 +238,8 @@ onMounted(async () => {
     damaged.value = unitData.damaged;
   } catch (error) {
     console.error("Fetch Error: ", error);
+    supremeCommander.value = false;
+    wargear.value = [];
   }
 });
 </script>

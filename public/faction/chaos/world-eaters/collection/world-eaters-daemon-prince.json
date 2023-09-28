@@ -1,0 +1,36 @@
+{
+    "parentUnit": "world eaters daemon prince",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Hellforged weapons – strike",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 10,
+            "armor-penetration": 4,
+            "damage": "d6+2",
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Hellforged weapons – sweep",
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 4,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "parentUnit": "jackals",
+    "parentUnit": "jakhals",
     "attributes": [
         {
             "movement": 6,
@@ -11,4 +11,46 @@
             "invulnerableSave": 0
         }
     ],
+    "meleeWeapons": [
+        {
+            "name": "Jakhal chainblades",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration":0,
+            "damage": 1,
+            "modifiers": ["sustained hits 1"],
+            "singleChoice": false
+        },
+        {
+            "name": "Dishonoured chainblades",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration":0,
+            "damage": 1,
+            "modifiers": ["sustained hits 1"],
+            "singleChoice": false
+        },
+        {
+            "name": "Mauler chainblade",
+            "attacks": 2,
+            "weapons-skills": 5,
+            "strength": 5,
+            "armor-penetration":1,
+            "damage": 2,
+            "modifiers": ["sustained hits 1"],
+            "singleChoice": false
+        },
+        {
+            "name": "Skullsmasher",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration":1,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": false
+        }
+    ]
 }

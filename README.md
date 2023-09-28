@@ -34,7 +34,7 @@ The schema below provides a detailed representation of the file structure:
 Any field can be dissabled, and it will render no data. The same effect can be achieve if it is not written in the json file.
 
 ```json
- "wargear": false,
+ "wargear": [ ],
 ```
 
 ### Unit Profile

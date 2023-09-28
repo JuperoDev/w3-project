@@ -11,4 +11,26 @@
             "invulnerableSave": 5
         }
     ],
+    "meleeWeapons": [
+        {
+            "name": "Lasher tendrils",
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": ["extra attacks"],
+            "singleChoice": false
+        },
+        {
+            "name": "Maulerfiend fists",
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 14,
+            "armor-penetration": 2,
+            "damage": "d6+1",
+            "modifiers": [],
+            "singleChoice": false
+        }
+    ]
 }

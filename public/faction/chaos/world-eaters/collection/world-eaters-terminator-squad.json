@@ -11,4 +11,46 @@
             "invulnerableSave": 4
         }
     ], 
+    "meleeWeapons": [
+        {
+            "name": "Accursed weapon",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": false
+        },
+        {
+            "name": "Paired accursed weapons",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": ["twin-linked"],
+            "singleChoice": false
+        },
+        {
+            "name": "Chainfist",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": ["anti-vehicle 3+"],
+            "singleChoice": false
+        },
+        {
+            "name": "Power fist",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": false
+        }
+    ]
 }

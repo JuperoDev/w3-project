@@ -52,5 +52,36 @@
             "modifiers": [],
             "singleChoice": false
         }
-    ]
+    ],
+    "keywords": [
+        "Infantry", "Battleline", "Chaos", "Khorne", "Jakhals"
+    ],
+    "factionKeyword": [
+        "World Eaters"
+    ],
+    "wargear": [],
+    "abilities": {
+        "core": [
+          "deep strike",
+          "leader"
+        ],
+        "faction": [
+          "synapse",
+          "shadow in the warp"
+        ],
+        "otherAbilities": [
+          {
+            "name": "Skulking Horrors",
+            "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."
+          }
+        ]
+      },
+      "damaged": { },
+      "unitComposition": [
+       {
+         "unitType": "termagants",
+         "minQuantity": 10,
+         "maxQuantity": 20
+       }
+     ]
 }

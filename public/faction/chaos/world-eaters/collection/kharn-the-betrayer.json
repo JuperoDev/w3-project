@@ -1,0 +1,100 @@
+{
+    "parentUnit": "Khârn the betrayer",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1
+        }
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Khârn’s plasma pistol",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "pistol"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "gorechild",
+            "attacks": 8,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": []
+        }
+    ],
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Chaos",
+        "Khorne",
+        "Khârn the Betrayer"
+    ],
+    "factionKeyword": [
+        "World eaters"
+    ],
+    "wargear": [],
+    "appendix": "",
+    "abilities": {
+        "core": [
+            "leader"
+        ],
+        "faction": [
+            "blessings of khorne"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Legendary Killer",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            },
+            {
+                "name": "The Betrayer",
+                "description": " At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test is failed, one Bodyguard model of your choice in that unit is destroyed"
+            },
+            {
+                "name": "Berzerker Frenzy",
+                "description": "If this model is destroyed by a melee attack, if it has not fought this phase, do not remove it from play. It can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+            }
+        ]
+    },
+    "leader": [
+        "khorne berzerkers"
+    ],
+    "supremeCommander": false,
+    "additionalParameter": {},
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "Khârn the Betrayer – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "equipment": [
+        " Khârn’s plasma pistol",
+        "Gorechild"
+    ],
+    "lore": "Khârn is a raging storm of slaughter, the embodiment of the eightfold path of Khorne. As he sprints into battle, his bellowed war cries boom from the vox-grille of his helm. Khârn’s mantra – ‘Kill! Maim! Burn!’ – has become infamous across the Imperium, a terrifying harbinger of the carnage to come"
+}

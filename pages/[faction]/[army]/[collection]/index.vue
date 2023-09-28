@@ -1,6 +1,7 @@
 <template>
   <div>
     <!--  desktop datasheet  -->
+    <div class="desktop-datasheet-container  max-lg:hidden">
     <DesktopDatasheet
       :armyUnit="armyUnit"
       :keywords="keywords"
@@ -18,13 +19,12 @@
       :equipment="equipment"
       :damaged="damaged"
     />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+  </div>
+
 
     <!-- end desktop datasheet  -->
+<div class="mobile-datasheet lg:hidden">
+
     <div
       class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
     >
@@ -169,6 +169,7 @@
     </v-expansion-panels>
 
     <MobileLore :lore="lore" />
+  </div>
   </div>
 </template>
 

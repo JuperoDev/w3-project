@@ -59,5 +59,45 @@
        },
        "supremeCommander": false,
        "leader": [
+          ],
+          "rangedWeapons": [
+            {
+              "name": "Combi-bolter",
+              "range": 24,
+              "attacks": 2,
+              "ballistic-skills": 3,
+              "strength": 4,
+              "armor-penetration": 0,
+              "damage": 1,
+              "modifiers": [
+                "rapid fire 2"
+              ]
+            },
+            {
+              "name": "Combi-weapon",
+              "range": 24,
+              "attacks": 1,
+              "ballistic-skills": 4,
+              "strength": 4,
+              "armor-penetration": 0,
+              "damage": 1,
+              "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+              ]
+            },
+            {
+              "name": "havoc launcher",
+              "range": 48,
+              "attacks": "d6",
+              "ballistic-skills": 3,
+              "strength": 5,
+              "armor-penetration": 0,
+              "damage": 1,
+              "modifiers": [
+                "blast"
+              ]
+            }
           ]
 }

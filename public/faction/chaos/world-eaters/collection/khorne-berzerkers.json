@@ -71,5 +71,46 @@
         },
         "supremeCommander": false,
         "leader": [
+           ],
+           "rangedWeapons": [
+            {
+              "name": "bolt pistol",
+              "range": 12,
+              "attacks": 1,
+              "ballistic-skills": 3,
+              "strength": 4,
+              "armor-penetration": 0,
+              "damage": 1,
+              "modifiers": [
+                  "pistol"
+              ],
+              "singleChoice": false
+          },
+               {
+                   "name": "Plasma pistol",
+                   "range": 12,
+                   "attacks": 1,
+                   "ballistic-skills": 3,
+                   "strength": 7,
+                   "armor-penetration": 2,
+                   "damage": 1,
+                   "modifiers": [
+                       "pistol"
+                   ],
+                   "singleChoice": true
+               },
+               {
+                 "name": "Plasma pistol – supercharge",
+                 "range": 12,
+                 "attacks": 1,
+                 "ballistic-skills": 3,
+                 "strength": 8,
+                 "armor-penetration": 3,
+                 "damage": 2,
+                 "modifiers": [
+                     "pistol","hazarous"
+                 ],
+                 "singleChoice": true
+             }
            ]
 }

@@ -61,5 +61,31 @@
       },
       "supremeCommander": false,
       "leader": [
-         ]
+         ],
+          "rangedWeapons": [
+              {
+                  "name": "Baleflamer",
+                  "range": 12,
+                  "attacks": "d6+3",
+                  "ballistic-skills": "n/a",
+                  "strength": 6,
+                  "armor-penetration":1,
+                  "damage": 2,
+                  "modifiers": ["ignores cover",
+                  "torrent"
+                      
+                  ]
+              },
+              {
+                "name": "hades autocannon",
+                "range": 36,
+                "attacks": 6,
+                "ballistic-skills": 3,
+                "strength": 8,
+                "armor-penetration": 1,
+                "damage": 2,
+                "modifiers": [
+                ]
+            }
+          ]
 }

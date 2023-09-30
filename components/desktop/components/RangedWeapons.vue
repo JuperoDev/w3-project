@@ -1,5 +1,6 @@
 <template>
   <div class="ranged-weapons__container">
+    
     <div
       class="datasheet-desktop__section-header bg-slate-400 m-3 grid grid-cols-2"
     >
@@ -25,7 +26,9 @@
     <div
       class="ranged-weapons__weapon m-3 grid grid-cols-2  border-b-2  border-dotted border-slate-400 "  v-for="weapon in rangedWeapons"
     >
-      <div class="datasheet-desktop__section-title">
+    <div class="datasheet-desktop__section-title flex">
+        <div class="arrow bg-zinc-900 mt-1 mr-1" v-if="weapon.singleChoice"></div>
+        
         <p class="capitalize">{{ weapon.name }}</p>
       </div>
 
@@ -47,9 +50,16 @@
               >
                 {{ modifier }}
               </span>
+              
             </div>
+            
     </div>
-
+    <div class="downarrow flex mt-10 ml-3" v-if="showDownArrow">
+      <div class="arrow bg-zinc-900 mt-1 mr-3"></div>
+      <p class="italic">
+        Before selecting targets for this weapon, select one of its profiles to make attacks with.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -57,4 +67,17 @@
  const props = defineProps ({
   rangedWeapons: Array
  })
+
+ const showDownArrow = computed(() => {
+  // Check if any of the weapons have singleChoice set to true
+  return props.rangedWeapons.some(weapon => weapon.singleChoice);
+});
 </script>
+
+<style scoped>
+.arrow {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 0%);
+  height: 15px;
+  width: 25px;
+}
+</style>

@@ -1,102 +1,113 @@
 {
-    "parentUnit": "world eaters rhino",
-    "attributes": [
-        {
-            "movement": 12,
-            "toughness": 9,
-            "save": 3,
-            "wounds": 10,
-            "leadership": 6,
-            "objetiveControl": 2,
-            "invulnerableSave": 0
-        }
+  "parentUnit": "world eaters rhino",
+  "attributes": [
+    {
+      "movement": 12,
+      "toughness": 9,
+      "save": 3,
+      "wounds": 10,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 0
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armoured tracks",
+      "attacks": 3,
+      "weapons-skills": 4,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Vehicle",
+    "Transport",
+    "Dedicated Transport",
+    "Smoke",
+    "Chaos",
+    "Khorne",
+    "Rhino"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Firing Deck 2"
     ],
-    "meleeWeapons": [
-        {
-            "name": "Armoured tracks",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 6,
-            "armor-penetration": 0,
-            "damage": 1,
-            "modifiers": [],
-            "singleChoice": false
-        }
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "keywords": [
-        "Vehicle", "Transport", "Dedicated Transport", "Smoke", "Chaos", "Khorne",
-"Rhino"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Firing Deck 2"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Self Repair",
-            "description": "At the start of your Command phase, this model regains 1 lost wound."
-          }
-        ]
-      },
-      "damaged": { },
-      "unitComposition": [
-       {
-         "unitType": "World Eaters Rhino",
-         "minQuantity": 1,
-         "maxQuantity": 1
-       }
-     ],
-     "additionalParameter": {
-       },
-       "supremeCommander": false,
-       "leader": [
-          ],
-          "rangedWeapons": [
-            {
-              "name": "Combi-bolter",
-              "range": 24,
-              "attacks": 2,
-              "ballistic-skills": 3,
-              "strength": 4,
-              "armor-penetration": 0,
-              "damage": 1,
-              "modifiers": [
-                "rapid fire 2"
-              ]
-            },
-            {
-              "name": "Combi-weapon",
-              "range": 24,
-              "attacks": 1,
-              "ballistic-skills": 4,
-              "strength": 4,
-              "armor-penetration": 0,
-              "damage": 1,
-              "modifiers": [
-                "anti-infantry 4+",
-                "devastating wounds",
-                "rapid fire 1"
-              ]
-            },
-            {
-              "name": "havoc launcher",
-              "range": 48,
-              "attacks": "d6",
-              "ballistic-skills": 3,
-              "strength": 5,
-              "armor-penetration": 0,
-              "damage": 1,
-              "modifiers": [
-                "blast"
-              ]
-            }
-          ]
+    "otherAbilities": [
+      {
+        "name": "Self Repair",
+        "description": "At the start of your Command phase, this model regains 1 lost wound."
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "World Eaters Rhino",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Combi-bolter",
+      "range": 24,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "rapid fire 2"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "range": 24,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ]
+    },
+    {
+      "name": "havoc launcher",
+      "range": 48,
+      "attacks": "d6",
+      "ballistic-skills": 3,
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "blast"
+      ]
+    }
+  ]
 }

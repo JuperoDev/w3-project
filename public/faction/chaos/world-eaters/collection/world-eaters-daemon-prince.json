@@ -1,88 +1,97 @@
 {
-    "parentUnit": "world eaters daemon prince",
-    "attributes": [
-        {
-            "movement": 8,
-            "toughness": 10,
-            "save": 2,
-            "wounds": 10,
-            "leadership": 6,
-            "objetiveControl": 3,
-            "invulnerableSave": 4
-        }
+  "parentUnit": "world eaters daemon prince",
+  "attributes": [
+    {
+      "movement": 8,
+      "toughness": 10,
+      "save": 2,
+      "wounds": 10,
+      "leadership": 6,
+      "objetiveControl": 3,
+      "invulnerableSave": 4
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hellforged weapons – strike",
+      "attacks": 6,
+      "weapons-skills": 2,
+      "strength": 10,
+      "armor-penetration": 2,
+      "damage": 3,
+      "modifiers": [],
+      "singleChoice": true
+    },
+    {
+      "name": "Hellforged weapons – sweep",
+      "attacks": 14,
+      "weapons-skills": 2,
+      "strength": 8,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [],
+      "singleChoice": true
+    }
+  ],
+  "keywords": [
+    "Monster",
+    "Character",
+    "Chaos",
+    "Khorne",
+    "Daemon",
+    "Daemon Prince"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
     ],
-    "meleeWeapons": [
-        {
-            "name": "Hellforged weapons – strike",
-            "attacks": 6,
-            "weapons-skills": 2,
-            "strength": 10,
-            "armor-penetration": 2,
-            "damage": 3,
-            "modifiers": [],
-            "singleChoice": true
-        },
-        {
-            "name": "Hellforged weapons – sweep",
-            "attacks": 14,
-            "weapons-skills": 2,
-            "strength": 8,
-            "armor-penetration": 0,
-            "damage": 1,
-            "modifiers": [],
-            "singleChoice": true
-        }
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "keywords": [
-        "Monster", "Character", "Chaos", "Khorne", "Daemon", "Daemon Prince"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Infernal Fortitude (Aura)",
-            "description": "While a friendly World Eaters Infantry unit is within 6'' of this model, models in that unit have a 4+ invulnerable save."
-          },
-          {
-            "name": "Devastating Assault",
-            "description": "Each time this model makes a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability"
-          }
-        ]
+    "otherAbilities": [
+      {
+        "name": "Infernal Fortitude (Aura)",
+        "description": "While a friendly World Eaters Infantry unit is within 6'' of this model, models in that unit have a 4+ invulnerable save."
       },
-      "damaged": { },
-      "unitComposition": [
-       {
-         "unitType": "world eaters daemon prince",
-         "minQuantity": 1,
-         "maxQuantity": 1
-       }
-     ],
-     "additionalParameter": {
-       },
-       "supremeCommander": false,
-       "leader": [
-          ],
-          "rangedWeapons": [
-              {
-                  "name": "infernal cannon",
-                  "range": 24,
-                  "attacks": 3,
-                  "ballistic-skills": 2,
-                  "strength": 5,
-                  "armor-penetration": 1,
-                  "damage": 2,
-                  "modifiers": [
-                      
-                  ]
-              }
-          ]
+      {
+        "name": "Devastating Assault",
+        "description": "Each time this model makes a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability"
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "world eaters daemon prince",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "infernal cannon",
+      "range": 24,
+      "attacks": 3,
+      "ballistic-skills": 2,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": []
+    }
+  ]
 }

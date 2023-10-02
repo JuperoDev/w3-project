@@ -1,78 +1,94 @@
 {
-    "parentUnit": "world eaters master of executions",
-    "attributes": [
-        {
-            "movement": 6,
-            "toughness": 4,
-            "save": 3,
-            "wounds": 4,
-            "leadership": 6,
-            "objetiveControl": 1,
-            "invulnerableSave": 0
-        }
+  "parentUnit": "world eaters master of executions",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 4,
+      "save": 3,
+      "wounds": 4,
+      "leadership": 6,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Axe of dismemberment",
+      "attacks": 5,
+      "weapons-skills": 2,
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": [
+        "devastating wounds",
+        "precision"
+      ],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    " Infantry",
+    "Character",
+    "Chaos",
+    "Khorne",
+    "Master of Executions"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "leader"
     ],
-    "meleeWeapons": [
-        {
-            "name": "Axe of dismemberment",
-            "attacks": 5,
-            "weapons-skills": 2,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 2,
-            "modifiers": ["devastating wounds" , "precision"],
-            "singleChoice": false
-        }
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "keywords": [
-       " Infantry", "Character", "Chaos", "Khorne", "Master of Executions"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "leader"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Trophy Taker",
-            "description": "While this model is leading a unit, models in that unit have the Fights First ability"
-          },
-          {
-            "name": "Murderous Swing",
-            "description": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
-          }
-        ]
+    "otherAbilities": [
+      {
+        "name": "Trophy Taker",
+        "description": "While this model is leading a unit, models in that unit have the Fights First ability"
       },
-      "damaged": { },
-      "unitComposition": [
-       {
-         "unitType": "world eaters master of executions",
-         "minQuantity": 1,
-         "maxQuantity": 1
-       }
-     ],
-     "additionalParameter": {
-       },
-       "supremeCommander": false,
-       "leader": ["khorne berzerkers"
-          ],
-          "rangedWeapons": [
-              {
-                  "name": "bolt pistol",
-                  "range": 12,
-                  "attacks": 1,
-                  "ballistic-skills": 3,
-                  "strength": 4,
-                  "armor-penetration": 0,
-                  "damage": 1,
-                  "modifiers": [
-                      "pistol"
-                  ],
-                  "singleChoice": false
-              }]
+      {
+        "name": "Murderous Swing",
+        "description": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "world eaters master of executions",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": [
+    "khorne berzerkers"
+  ],
+  "rangedWeapons": [
+    {
+      "name": "bolt pistol",
+      "range": 12,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "pistol"
+      ],
+      "singleChoice": false
+    }
+  ]
 }

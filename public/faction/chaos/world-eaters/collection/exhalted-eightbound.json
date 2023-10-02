@@ -1,94 +1,108 @@
 {
-    "parentUnit": "exhalted eightbound",
-    "attributes": [
-        {
-            "movement": 9,
-            "toughness": 6,
-            "save": 3,
-            "wounds": 3,
-            "leadership": 6,
-            "objetiveControl": 1,
-            "invulnerableSave": 5
-        }
-    ],
-    "meleeWeapons": [
-        {
-            "name": "Eightbound chainfist",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 14,
-            "armor-penetration": 3,
-            "damage": 2,
-            "modifiers": [],
-            "singleChoice": false
-        },
-        {
-            "name": "Eightbound eviscerator",
-            "attacks": 5,
-            "weapons-skills": 2,
-            "strength": 6,
-            "armor-penetration": 2,
-            "damage": 2,
-            "modifiers": [],
-            "singleChoice": false
-        },
-        {
-            "name": "Heavy chainglaive",
-            "attacks": 8,
-            "weapons-skills": 2,
-            "strength": 8,
-            "armor-penetration": 3,
-            "damage": 2,
-            "modifiers": [],
-            "singleChoice": false
-        },
-        {
-            "name": "Paired Eightbound chainfists",
-            "attacks": 5,
-            "weapons-skills": 3,
-            "strength": 14,
-            "armor-penetration": 3,
-            "damage": 2,
-            "modifiers": ["twin-linked"],
-            "singleChoice": false
-        }
-    ],
-    "keywords": [
-         "Infantry", "Chaos", "Khorne", "Daemon", "Exalted Eightbound"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "deep strike",
-          "feel no pain 6+"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Overwhelming Wrath (Aura)",
-            "description": "Each time an enemy unit within 6'' of this unit is selected to Fall Back, that unit must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
-          }
-        ]
-      },
-      "damaged": { } ,
-      "unitComposition": [
-        {
-          "unitType": "exhalted eightbound champion",
-          "minQuantity": 1,
-          "maxQuantity": 1
-        },{
-        "unitType": "exhalted eightbound",
-          "minQuantity": 2,
-          "maxQuantity": 5}
+  "parentUnit": "exhalted eightbound",
+  "attributes": [
+    {
+      "movement": 9,
+      "toughness": 6,
+      "save": 3,
+      "wounds": 3,
+      "leadership": 6,
+      "objetiveControl": 1,
+      "invulnerableSave": 5
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Eightbound chainfist",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": 2,
+      "modifiers": [],
+      "singleChoice": false
+    },
+    {
+      "name": "Eightbound eviscerator",
+      "attacks": 5,
+      "weapons-skills": 2,
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": [],
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy chainglaive",
+      "attacks": 8,
+      "weapons-skills": 2,
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": 2,
+      "modifiers": [],
+      "singleChoice": false
+    },
+    {
+      "name": "Paired Eightbound chainfists",
+      "attacks": 5,
+      "weapons-skills": 3,
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": 2,
+      "modifiers": [
+        "twin-linked"
       ],
-      "additionalParameter": {
-        },
-        "supremeCommander": false,
-        "leader": [
-           ]
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Infantry",
+    "Chaos",
+    "Khorne",
+    "Daemon",
+    "Exalted Eightbound"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "deep strike",
+      "feel no pain 6+"
+    ],
+    "faction": [
+      "Blessings of Khorne"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Overwhelming Wrath (Aura)",
+        "description": "Each time an enemy unit within 6'' of this unit is selected to Fall Back, that unit must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "exhalted eightbound champion",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    },
+    {
+      "unitType": "exhalted eightbound",
+      "minQuantity": 2,
+      "maxQuantity": 5
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": []
 }

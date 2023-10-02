@@ -44,7 +44,11 @@
         }
     ],
     "keywords": [
-        "Infantry", "Chaos", "Khorne", "Daemon", "Eightbound"
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Eightbound"
     ],
     "factionKeyword": [
         "World Eaters"
@@ -52,75 +56,83 @@
     "wargear": [],
     "abilities": {
         "core": [
-          "scouts 6''"
+            "scouts 6''"
         ],
         "faction": [
             "Blessings of Khorne"
         ],
         "otherAbilities": [
-          {
-            "name": "Beacons of Rage (Aura)",
-            "description": "While a friendly World Eaters unit is within 6'' of this unit, each time a model in that unit makes a melee attack,re-roll a Wound roll of 1. If that attack targets a unit that is Below Half-strength, you can re-roll the Wound roll instead."
-          }
-        ]
-      },
-      "damaged": { },
-      "unitComposition": [
-        {
-          "unitType": "eightbound champion",
-          "minQuantity": 1,
-          "maxQuantity": 1
-        },{
-        "unitType": "eightbound",
-          "minQuantity": 2,
-          "maxQuantity": 5}
-      ],
-      "additionalParameter": {
-        },
-        "supremeCommander": false,
-        "leader": [
-           ],
-           "rangedWeapons": [
-               {
-                   "name": "Combi-bolter",
-                   "range": 24,
-                   "attacks": 2,
-                   "ballistic-skills": 3,
-                   "strength": 4,
-                   "armor-penetration": 0,
-                   "damage": 1,
-                   "modifiers": [
-                       "rapid fire 2"
-                   ]
-               },
-               {
-                "name": "Combi-weapon",
-                "range": 1,
-                "attacks": 4,
-                "ballistic-skills": 4,
-                "strength": 4,
-                "armor-penetration": 0,
-                "damage": 1,
-                "modifiers": [
-                    "anti-infantry 4+",
-                    "devastating wounds",
-                    "rapid fire 1"
-                ]
-            },
             {
-              "name": "Heavy flamer",
-              "range": 12,
-              "attacks": "d6",
-              "ballistic-skills": "n/a",
-              "strength": 5,
-              "armor-penetration": 1,
-              "damage": 1,
-              "modifiers": [
-                  "ignores cover",
-                  "torrent"
-              ]
-          },
-          {
+                "name": "Beacons of Rage (Aura)",
+                "description": " While a friendly World Eaters unit is within 6'' of this unit, each time a model in that unit makes a melee attack,re-roll a Wound roll of 1. If that attack targets a unit that is Below Half-strength, you can re-roll the Wound roll instead."
+            }
+        ]
+    },
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "eightbound champion",
+            "minQuantity": 1,
+            "maxQuantity": 1
+        },
+        {
+            "unitType": "eightbound",
+            "minQuantity": 2,
+            "maxQuantity": 5
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-bolter",
+            "range": 24,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "rapid fire 2"
+            ]
+        },
+        {
+            "name": "Combi-weapon",
+            "range": 1,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ]
+        },
+        {
+            "name": "Heavy flamer",
+            "range": 12,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ]
+        },
+        {
             "name": "Reaper autocannon",
             "range": 36,
             "attacks": 4,
@@ -133,6 +145,5 @@
                 "sustained hits 1"
             ]
         }
-           ]
-    
+    ]
 }

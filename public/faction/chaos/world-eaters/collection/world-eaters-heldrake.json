@@ -1,89 +1,104 @@
 {
-    "parentUnit": "world eaters heldrake",
-    "attributes": [
-        {
-            "movement": 20,
-            "toughness": 9,
-            "save": 3,
-            "wounds": 12,
-            "leadership": 6,
-            "objetiveControl": 0,
-            "invulnerableSave": 5
-        }
+  "parentUnit": "world eaters heldrake",
+  "attributes": [
+    {
+      "movement": 20,
+      "toughness": 9,
+      "save": 3,
+      "wounds": 12,
+      "leadership": 6,
+      "objetiveControl": 0,
+      "invulnerableSave": 5
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heldrake claws",
+      "attacks": 5,
+      "weapons-skills": 3,
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [
+        "anti-fly 2+",
+        "devastating wounds"
+      ],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Chaos",
+    "Khorne",
+    "Daemon",
+    "Heldrake"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Hover"
     ],
-    "meleeWeapons": [
-        {
-            "name": "Heldrake claws",
-            "attacks": 5,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration":1,
-            "damage": 2,
-            "modifiers": ["anti-fly 2+", "devastating wounds"],
-            "singleChoice": false
-        }
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "keywords": [
-        "Vehicle", "Fly", "Aircraft", "Chaos", "Khorne", "Daemon", "Heldrake"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "Deadly Demise D3", "Hover"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Swooping Predator",
-            "description": "Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6: for each 4+, that enemy unit suffers D3 mortal wounds."
-          }
-        ]
-      },
-      "damaged": {
-        "remainingWounds": 4,
-        "description": "each time this model makes an attack, subtract 1 from the Hit roll"
-     },
-     "unitComposition": [
+    "otherAbilities": [
       {
-        "unitType": "World Eaters Heldrake",
-        "minQuantity": 1,
-        "maxQuantity": 2
+        "name": "Swooping Predator",
+        "description": "Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6: for each 4+, that enemy unit suffers D3 mortal wounds."
       }
-    ],
-    "additionalParameter": {
-      },
-      "supremeCommander": false,
-      "leader": [
-         ],
-          "rangedWeapons": [
-              {
-                  "name": "Baleflamer",
-                  "range": 12,
-                  "attacks": "d6+3",
-                  "ballistic-skills": "n/a",
-                  "strength": 6,
-                  "armor-penetration":1,
-                  "damage": 2,
-                  "modifiers": ["ignores cover",
-                  "torrent"
-                      
-                  ]
-              },
-              {
-                "name": "hades autocannon",
-                "range": 36,
-                "attacks": 6,
-                "ballistic-skills": 3,
-                "strength": 8,
-                "armor-penetration": 1,
-                "damage": 2,
-                "modifiers": [
-                ]
-            }
-          ]
+    ]
+  },
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "each time this model makes an attack, subtract 1 from the Hit roll"
+  },
+  "unitComposition": [
+    {
+      "unitType": "World Eaters Heldrake",
+      "minQuantity": 1,
+      "maxQuantity": 2
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Baleflamer",
+      "range": 12,
+      "attacks": "d6+3",
+      "ballistic-skills": "n/a",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ]
+    },
+    {
+      "name": "hades autocannon",
+      "range": 36,
+      "attacks": 6,
+      "ballistic-skills": 3,
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": []
+    }
+  ]
 }

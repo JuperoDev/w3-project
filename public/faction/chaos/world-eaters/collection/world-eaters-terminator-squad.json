@@ -10,7 +10,7 @@
             "objetiveControl": 1,
             "invulnerableSave": 4
         }
-    ], 
+    ],
     "meleeWeapons": [
         {
             "name": "Accursed weapon",
@@ -29,7 +29,9 @@
             "strength": 6,
             "armor-penetration": 2,
             "damage": 1,
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "singleChoice": false
         },
         {
@@ -39,7 +41,9 @@
             "strength": 9,
             "armor-penetration": 3,
             "damage": 2,
-            "modifiers": ["anti-vehicle 3+"],
+            "modifiers": [
+                "anti-vehicle 3+"
+            ],
             "singleChoice": false
         },
         {
@@ -54,7 +58,11 @@
         }
     ],
     "keywords": [
-        "Infantry", "Chaos", "Khorne", "Terminator", "Terminator Squad"
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Terminator",
+        "Terminator Squad"
     ],
     "factionKeyword": [
         "World Eaters"
@@ -62,76 +70,83 @@
     "wargear": [],
     "abilities": {
         "core": [
-          "deep strike"
+            "deep strike"
         ],
         "faction": [
             "Blessings of Khorne"
         ],
         "otherAbilities": [
-          {
-            "name": "Bloody Fury",
-            "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
-          }
-        ]
-      },
-      "damaged": { },
-      "unitComposition": [
-        {
-          "unitType": "world eaters terminator champion",
-          "minQuantity": 1,
-          "maxQuantity": 1
-        },{
-        "unitType": "world eaters terminator",
-          "minQuantity": 2,
-          "maxQuantity": 5}
-      ],
-      "additionalParameter": {
-        },
-        "supremeCommander": false,
-        "leader": [
-            
-           ],
-           "rangedWeapons": [
-               {
-                   "name": "Combi-bolter",
-                   "range": 24,
-                   "attacks": 2,
-                   "ballistic-skills": 3,
-                   "strength": 4,
-                   "armor-penetration": 0,
-                   "damage": 1,
-                   "modifiers": [
-                       "rapid fire 2"
-                   ]
-               },
-               {
-                "name": "Combi-weapon",
-                "range":24,
-                "attacks": 1,
-                "ballistic-skills": 4,
-                "strength": 4,
-                "armor-penetration": 0,
-                "damage": 1,
-                "modifiers": [
-                    "anti-infantry 4+",
-                    "devastating wounds",
-                    "rapid fire 1"
-                ]
-            },
             {
-              "name": "Heavy flamer",
-              "range": 12,
-              "attacks": "d6",
-              "ballistic-skills": "n/a",
-              "strength": 5,
-              "armor-penetration": 1,
-              "damage": 1,
-              "modifiers": [
-                  "ignores cover",
-                  "torrent"
-              ]
-          },
-          {
+                "name": "Bloody Fury",
+                "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+            }
+        ]
+    },
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "world eaters terminator champion",
+            "minQuantity": 1,
+            "maxQuantity": 1
+        },
+        {
+            "unitType": "world eaters terminator",
+            "minQuantity": 2,
+            "maxQuantity": 5
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-bolter",
+            "range": 24,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "rapid fire 2"
+            ]
+        },
+        {
+            "name": "Combi-weapon",
+            "range": 24,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ]
+        },
+        {
+            "name": "Heavy flamer",
+            "range": 12,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ]
+        },
+        {
             "name": "Reaper autocannon",
             "range": 36,
             "attacks": 4,
@@ -144,5 +159,5 @@
                 "sustained hits 1"
             ]
         }
-           ]
+    ]
 }

@@ -1,92 +1,110 @@
 {
-    "parentUnit": "lord invocatus",
-    "attributes": [
-        {
-            "movement": 12,
-            "toughness": 6,
-            "save": 2,
-            "wounds": 8,
-            "leadership": 6,
-            "objetiveControl": 2,
-            "invulnerableSave": 4
-        }
-    ],  
-    "meleeWeapons": [
-        {
-            "name": "Coward’s Bane",
-            "attacks": 7,
-            "weapons-skills": 2,
-            "strength": 6,
-            "armor-penetration": 2,
-            "damage": 2,
-            "modifiers": ["devastating wounds"],
-            "singleChoice": false
-        },
-        {
-            "name": "Juggernaut’s bladed horn",
-            "attacks": 4,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2,
-            "modifiers": ["extra attacks" , "lance"],
-            "singleChoice": false
-        }
+  "parentUnit": "lord invocatus",
+  "attributes": [
+    {
+      "movement": 12,
+      "toughness": 6,
+      "save": 2,
+      "wounds": 8,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 4
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Coward’s Bane",
+      "attacks": 7,
+      "weapons-skills": 2,
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "singleChoice": false
+    },
+    {
+      "name": "Juggernaut’s bladed horn",
+      "attacks": 4,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [
+        "extra attacks",
+        "lance"
+      ],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Mounted",
+    "Character",
+    "Epic Hero",
+    " Grenades",
+    "Chaos",
+    "Khorne",
+    "Lord Invocatus"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "scouts 6''",
+      "leader"
     ],
-    "keywords": [ "Mounted", "Character", "Epic Hero"," Grenades", "Chaos", "Khorne",
-        "Lord Invocatus"
-        
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "scouts 6''",
-          "leader"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Counter-attacks",
-            "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-          },
-          {
-            "name": "Road of Eight Bloody Steps",
-            "description": "At the start of the battle, before  any moves are made using the Scouts ability, you can select  up to two friendly World Eaters Infantry units within 6'' of this model that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6'' ability."
-          }
-        ]
+    "otherAbilities": [
+      {
+        "name": "Counter-attacks",
+        "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
-      "damaged": { },
-      "unitComposition": [
-       {
-         "unitType": "lord invocatus",
-         "minQuantity": 1,
-         "maxQuantity": 1
-       }
-     ],
-     "additionalParameter": {
-       },
-       "supremeCommander": false,
-       "leader": ["Eightbound",
-       "Exalted Eightbound",
-       "Khorne Berzerkers"
-          ],
-          "rangedWeapons": [
-              {
-                  "name": "bolt pistol",
-                  "range": 12,
-                  "attacks": 1,
-                  "ballistic-skills": 2,
-                  "strength": 6,
-                  "armor-penetration": 0,
-                  "damage": 1,
-                  "modifiers": [
-                      "pistol"
-                  ]
-              }
-          ]
+      {
+        "name": "Road of Eight Bloody Steps",
+        "description": "At the start of the battle, before  any moves are made using the Scouts ability, you can select  up to two friendly World Eaters Infantry units within 6'' of this model that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6'' ability."
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "lord invocatus",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": [
+    "Eightbound",
+    "Exalted Eightbound",
+    "Khorne Berzerkers"
+  ],
+  "rangedWeapons": [
+    {
+      "name": "bolt pistol",
+      "range": 12,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "pistol"
+      ]
+    }
+  ]
 }

@@ -1,106 +1,121 @@
 {
-    "parentUnit": "jakhals",
-    "attributes": [
-        {
-            "movement": 6,
-            "toughness": 3,
-            "save": 6,
-            "wounds": 1,
-            "leadership": 7,
-            "objetiveControl": 1,
-            "invulnerableSave": 0
-        }
+  "parentUnit": "jakhals",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 6,
+      "wounds": 1,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Jakhal chainblades",
+      "attacks": 2,
+      "weapons-skills": 4,
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "singleChoice": false
+    },
+    {
+      "name": "Dishonoured chainblades",
+      "attacks": 3,
+      "weapons-skills": 4,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "singleChoice": false
+    },
+    {
+      "name": "Mauler chainblade",
+      "attacks": 2,
+      "weapons-skills": 5,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "singleChoice": false
+    },
+    {
+      "name": "Skullsmasher",
+      "attacks": 4,
+      "weapons-skills": 4,
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Khorne",
+    "Jakhals"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "Feel No Pain 6+"
     ],
-    "meleeWeapons": [
-        {
-            "name": "Jakhal chainblades",
-            "attacks": 2,
-            "weapons-skills": 4,
-            "strength": 3,
-            "armor-penetration":0,
-            "damage": 1,
-            "modifiers": ["sustained hits 1"],
-            "singleChoice": false
-        },
-        {
-            "name": "Dishonoured chainblades",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 4,
-            "armor-penetration":0,
-            "damage": 1,
-            "modifiers": ["sustained hits 1"],
-            "singleChoice": false
-        },
-        {
-            "name": "Mauler chainblade",
-            "attacks": 2,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration":1,
-            "damage": 2,
-            "modifiers": ["sustained hits 1"],
-            "singleChoice": false
-        },
-        {
-            "name": "Skullsmasher",
-            "attacks": 4,
-            "weapons-skills": 4,
-            "strength": 4,
-            "armor-penetration":1,
-            "damage": 2,
-            "modifiers": [],
-            "singleChoice": false
-        }
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "keywords": [
-        "Infantry", "Battleline", "Chaos", "Khorne", "Jakhals"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "Feel No Pain 6+"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Objective Ravaged",
-            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-          }
-        ]
-      },
-      "damaged": { },
-      "unitComposition": [
-       {
-         "unitType": "termagants",
-         "minQuantity": 10,
-         "maxQuantity": 20
-       }
-     ],
-     "additionalParameter": {
-       },
-       "supremeCommander": false,
-       "leader": [
-          ],
-          "rangedWeapons": [
-           {
-             "name": "autopistol",
-             "range": 12,
-             "attacks": 1,
-             "ballistic-skills": 4,
-             "strength": 3,
-             "armor-penetration": 0,
-             "damage": 1,
-             "modifiers": [
-                 "pistol"
-             ],
-             "singleChoice": false
-         }
-          ]
-          
+    "otherAbilities": [
+      {
+        "name": "Objective Ravaged",
+        "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "termagants",
+      "minQuantity": 10,
+      "maxQuantity": 20
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "autopistol",
+      "range": 12,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "pistol"
+      ],
+      "singleChoice": false
+    }
+  ]
 }

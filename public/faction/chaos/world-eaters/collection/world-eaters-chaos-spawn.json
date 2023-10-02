@@ -1,60 +1,69 @@
 {
-    "parentUnit": "world eaters chaos spawn",
-    "attributes": [
-        {
-            "movement": 8,
-            "toughness": 5,
-            "save": 4,
-            "wounds": 4,
-            "leadership": 7,
-            "objetiveControl": 1,
-            "invulnerableSave": 0
-        }
+  "parentUnit": "world eaters chaos spawn",
+  "attributes": [
+    {
+      "movement": 8,
+      "toughness": 5,
+      "save": 4,
+      "wounds": 4,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hideous mutations",
+      "attacks": "d6+2",
+      "weapons-skills": 4,
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Beast",
+    "Chaos",
+    "Khorne",
+    "Spawn"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+"
     ],
-    "meleeWeapons": [
-        {
-            "name": "Hideous mutations",
-            "attacks": "d6+2",
-            "weapons-skills": 4,
-            "strength": 6,
-            "armor-penetration":1,
-            "damage": 2,
-            "modifiers": [],
-            "singleChoice": false
-        }
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "keywords": [
-        "Beast", "Chaos", "Khorne", "Spawn"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "Feel No Pain 5+"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Regenerating Monstrosities",
-            "description": "At the start of each player’s Command phase, one model in this unit regains up to D3 lost wounds."
-          }
-        ]
-      },
-      "damaged": { },
-      "unitComposition": [
-       {
-         "unitType": "Chaos Spawns",
-         "minQuantity": 2,
-         "maxQuantity": 2
-       }
-     ],
-     "additionalParameter": {
-       },
-       "supremeCommander": false,
-       "leader": [
-          ]
+    "otherAbilities": [
+      {
+        "name": "Regenerating Monstrosities",
+        "description": "At the start of each player’s Command phase, one model in this unit regains up to D3 lost wounds."
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "Chaos Spawns",
+      "minQuantity": 2,
+      "maxQuantity": 2
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": []
 }

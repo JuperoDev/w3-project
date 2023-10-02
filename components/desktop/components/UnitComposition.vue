@@ -43,9 +43,10 @@
 
     <div class="grid grid-row grid-cols-4" v-for="option in options">
       <div class="col-span-2">
-        <div class="flex justify-center items-center capitalize p-3">
+        <div class=" items-center capitalize p-3">
           <div v-for="unit in unitComposition">
-            <p>{{ unit.unitType }}</p>
+            <p>{{ unit.unitType }} </p>
+            <br/>
           </div>
         </div>
       </div>

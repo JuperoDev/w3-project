@@ -245,7 +245,7 @@ onMounted(async () => {
 });
 </script>
 <style scoped>
-.font-bebas {
+/* .font-bebas {
   font-family: "Bebas Neue", sans-serif;
-}
+} */
 </style>

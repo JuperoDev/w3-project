@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="collection-container grid grid-cols-12 gap-1 bg-tyranids">
+    <div class="collection-container grid grid-cols-12 gap-1" :class="armyData.background">
       <div
         class="collection-container__left-column h-screen flex items-center justify-center col-span-6"
       >

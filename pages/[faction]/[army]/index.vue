@@ -1,21 +1,17 @@
 <template>
   <div class="wrapper">
-    <div class="collection-container grid grid-cols-12 gap-1">
+    <div class="collection-container grid grid-cols-12 gap-1 bg-tyranids">
       <div
         class="collection-container__left-column h-screen flex items-center justify-center col-span-6"
       >
         <div
-          class="inner-container  text-justify rounded-xl bg-zinc-950 ml-20 bg-opacity-70"
+          class="inner-container text-justify rounded-xl bg-zinc-950 ml-20 bg-opacity-70"
         >
           <h1 class="text-6xl font-bebas mb-10 mt-5 text-zinc-200 px-10 pt-5">
             {{ army }}
           </h1>
           <p class="text-xl text-zinc-300 px-10">
-            Drifting through the void come star-eclipsing shoals of immense
-            creatures whose cephalopodic forms bristle with spines and feeder
-            tendrils. Each of these living vessels is host to thousands upon
-            thousands of dormant warrior-forms, ready to wake from their slumber
-            when the hive fleet locates its next meal.
+            {{armyData.description}}
           </p>
 
           <div
@@ -29,15 +25,15 @@
             <div
               class="collection-container__right-column--detachements grid grid-cols-3"
             >
-           <div class="detachement-button-grid"  v-for="detachement in armyData.detachements">
-            <v-btn>{{detachement}}</v-btn>
-           </div>
-              
+              <div
+                class="detachement-button-grid"
+                v-for="detachement in armyData.detachements"
+              >
+                <v-btn>{{ detachement }}</v-btn>
+              </div>
             </div>
           </div>
         </div>
-
-        
       </div>
 
       <div
@@ -45,20 +41,20 @@
       ></div>
 
       <!-- ----------------------------- -->
-       <div class="STUFF">
-    
-    <div v-if="armyData">
-      <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
-        <nuxt-link :to="generateLink(faction, army, armyName)">
-          <v-btn>
-            <p>{{ armyName }}</p>
-          </v-btn>
-        </nuxt-link>
-      </div>
-    </div>
-  </div> 
+
       <!-- ------------------------- -->
     </div>
+    <div class="unit-list">
+        <div v-if="armyData">
+          <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
+            <nuxt-link :to="generateLink(faction, army, armyName)">
+              <v-btn>
+                <p>{{ armyName }}</p>
+              </v-btn>
+            </nuxt-link>
+          </div>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -106,30 +102,14 @@ onMounted(() => {
 
 <style scoped>
 /* Add transparency to the background */
-.collection-container::before {
-  content: "";
-  background-color: rgba(
-    81,
-    81,
-    81,
-    0.5
-  ); /* Adjust the alpha (0.5 for 50% transparency) */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
 
 /* Apply a blur effect to the background */
-.collection-container::after {
-  content: "";
+.collection-container {
   /* background-image: url('https://www.wargamer.com/wp-content/sites/wargamer/2023/05/warhammer-40k-10th-edition-world-eaters-art.jpg'); */
-  background-image: url("https://www.wargamer.com/wp-content/sites/wargamer/2022/09/magic-the-gathering-warhammer-40k-tyranids.jpg");
-  filter: blur(5px);
 
-  position: absolute;
+  /* filter: grayscale(100%); */
+
+
   top: 0;
   left: 0;
   width: 100%;
@@ -137,14 +117,12 @@ onMounted(() => {
   z-index: -2;
 }
 
-.wrapper {
-  filter: grayscale(100%);
-  height: 100vh;
-}
-
 .inner-container {
   height: 500px;
   width: 700px;
 }
 
+div{
+  /* border: 1px solid red; */
+}
 </style>

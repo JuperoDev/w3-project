@@ -1,17 +1,20 @@
 {
-    "config":{
-        "background": "https://www.wargamer.com/wp-content/sites/wargamer/2022/09/magic-the-gathering-warhammer-40k-tyranids.jpg"
+    "config": {
+        "background": "bg-tyranids"
     },
-    "rules":[{
-        "name": "synapse",
-        "lore": "Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind’s iron will flows, overriding the natural instincts of the swarm to direct the teeming warrior-beasts to function as a single, gestalt organism on the battlefield.",
-        "description":"If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6'' of one or more friendly SYNAPSE models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. Each time a TYRANIDS unit from your army takes a Battle-shock test, if it is within Synapse Range of your army, take that test on 3D6 instead of 2D6"
-    },
-{
-    "name": "shadow in the warp",
-    "lore": "Tyranids flood the battlefield with the psychic signature of the hive fleet - an icy, alien dread that gnaws at the minds of their prey and smothers even the most stalwart courage. When faced with such unfathomable horror, many are driven insane or suffer catastrophic neural damage.",
-    "description":"If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test." 
-}],
+    "description": "Drifting through the void come star-eclipsing shoals of immense creatures whose cephalopodic forms bristle with spines and feeder tendrils. Each of these living vessels is host to thousands upon thousands of dormant warrior-forms, ready to wake from their slumber when the hive fleet locates its next meal.",
+    "rules": [
+        {
+            "name": "synapse",
+            "lore": "Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind’s iron will flows, overriding the natural instincts of the swarm to direct the teeming warrior-beasts to function as a single, gestalt organism on the battlefield.",
+            "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6'' of one or more friendly SYNAPSE models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. Each time a TYRANIDS unit from your army takes a Battle-shock test, if it is within Synapse Range of your army, take that test on 3D6 instead of 2D6"
+        },
+        {
+            "name": "shadow in the warp",
+            "lore": "Tyranids flood the battlefield with the psychic signature of the hive fleet - an icy, alien dread that gnaws at the minds of their prey and smothers even the most stalwart courage. When faced with such unfathomable horror, many are driven insane or suffer catastrophic neural damage.",
+            "description": "If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test."
+        }
+    ],
     "detachements": [
         "invasion fleet",
         "crusher stampede",
@@ -66,5 +69,4 @@
         "winged tyranid prime",
         "zoanthropes"
     ]
-    
 }

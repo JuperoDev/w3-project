@@ -2,15 +2,15 @@
   <div class="wrapper">
     <div class="collection-container grid grid-cols-12 gap-1">
       <div
-        class="collection-container__left-column  h-screen flex items-center justify-center col-span-6"
+        class="collection-container__left-column h-screen flex items-center justify-center col-span-6"
       >
         <div
-          class="inner-container p-10 text-justify rounded-xl bg-zinc-950 ml-20  bg-opacity-70"
+          class="inner-container  text-justify rounded-xl bg-zinc-950 ml-20 bg-opacity-70"
         >
-          <h1 class="text-6xl font-bebas mb-10 mt-5 text-zinc-200">
+          <h1 class="text-6xl font-bebas mb-10 mt-5 text-zinc-200 px-10 pt-5">
             {{ army }}
           </h1>
-          <p class="text-xl text-zinc-300">
+          <p class="text-xl text-zinc-300 px-10">
             Drifting through the void come star-eclipsing shoals of immense
             creatures whose cephalopodic forms bristle with spines and feeder
             tendrils. Each of these living vessels is host to thousands upon
@@ -18,27 +18,35 @@
             when the hive fleet locates its next meal.
           </p>
 
-          <div class="collection__button-menu grid grid-cols-2 gap-20 mt-10 p-10">
+          <div
+            class="collection__button-menu grid grid-cols-2 gap-20 mt-10 mb-20 p-10"
+          >
             <v-btn><p>Datasheets</p></v-btn>
             <v-btn><p>Army rules</p></v-btn>
-            
+          </div>
+          <div class="detachement-container bg">
+            <h2 class="text-3xl text-zinc-300">Detachements</h2>
+            <div
+              class="collection-container__right-column--detachements grid grid-cols-3"
+            >
+           <div class="detachement-button-grid"  v-for="detachement in armyData.detachements">
+            <v-btn>{{detachement}}</v-btn>
+           </div>
+              
+            </div>
           </div>
         </div>
+
+        
       </div>
 
-      <div class="collection-container__right-column col-span-6">
-        <div
-          class="collection-container__right-column--detachements grid grid-cols-3"
-        >
-          <div>a</div>
-          <div>a</div>
-          <div>a</div>
-        </div>
-      </div>
+      <div
+        class="collection-container__right-column col-span-6 h-screen flex flex-col justify-end"
+      ></div>
 
       <!-- ----------------------------- -->
-      <!-- <div class="STUFF">
-    <h1>{{ faction }} - {{ army }}</h1>
+       <div class="STUFF">
+    
     <div v-if="armyData">
       <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
         <nuxt-link :to="generateLink(faction, army, armyName)">
@@ -48,7 +56,7 @@
         </nuxt-link>
       </div>
     </div>
-  </div> -->
+  </div> 
       <!-- ------------------------- -->
     </div>
   </div>
@@ -138,4 +146,5 @@ onMounted(() => {
   height: 500px;
   width: 700px;
 }
+
 </style>

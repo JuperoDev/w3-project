@@ -107,7 +107,7 @@ onMounted(() => {
 .collection-container {
   /* background-image: url('https://www.wargamer.com/wp-content/sites/wargamer/2023/05/warhammer-40k-10th-edition-world-eaters-art.jpg'); */
 
-  /* filter: grayscale(100%); */
+   filter: grayscale(100%); 
 
 
   top: 0;

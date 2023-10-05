@@ -20,16 +20,16 @@
             <v-btn><p>Datasheets</p></v-btn>
             <v-btn><p>Army rules</p></v-btn>
           </div>
-          <div class="detachement-container bg">
-            <h2 class="text-3xl text-zinc-300">Detachements</h2>
+          <div class="detachment-container bg">
+            <h2 class="text-3xl text-zinc-300">detachments</h2>
             <div
-              class="collection-container__right-column--detachements grid grid-cols-3"
+              class="collection-container__right-column--detachments grid grid-cols-3"
             >
               <div
-                class="detachement-button-grid"
-                v-for="detachement in armyData.detachements"
+                class="detachment-button-grid"
+                v-for="detachment in armyData.detachments"
               >
-                <v-btn>{{ detachement }}</v-btn>
+                <v-btn>{{ detachment }}</v-btn>
               </div>
             </div>
           </div>
@@ -65,16 +65,22 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 const armyData = ref([]);
-const { faction, army } = useRoute().params;
+const { faction, army, detachment } = useRoute().params;
 
 // Function to replace unwanted characters with hyphens
 const replaceUnwantedCharacters = (input) => {
   return input.replace(/[^a-zA-Z0-9-]/g, "-");
 };
 
-// Function to generate sanitized link
+// Function to generate sanitized link to army units
 const generateLink = (faction, army, armyName) => {
   const sanitizedArmyName = replaceUnwantedCharacters(armyName);
+  return `/${faction}/${army}/${sanitizedArmyName}`;
+};
+
+//function to generate sanitized links to detachment page
+const generateDetachment = (faction, army, detachment) => {
+  const sanitizedArmyName = replaceUnwantedCharacters(detachment);
   return `/${faction}/${army}/${sanitizedArmyName}`;
 };
 

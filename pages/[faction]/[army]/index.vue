@@ -1,6 +1,9 @@
 <template>
   <div class="wrapper">
-    <div class="collection-container grid grid-cols-12 gap-1" :class="armyData.background">
+    <div
+      class="collection-container grid grid-cols-12 gap-1"
+      :class="armyData.background"
+    >
       <div
         class="collection-container__left-column h-screen flex items-center justify-center col-span-6"
       >
@@ -11,7 +14,7 @@
             {{ army }}
           </h1>
           <p class="text-xl text-zinc-300 px-10">
-            {{armyData.description}}
+            {{ armyData.description }}
           </p>
 
           <div
@@ -28,8 +31,11 @@
               <div
                 class="detachment-button-grid"
                 v-for="detachment in armyData.detachments"
+                :key="detachment"
               >
-                <v-btn>{{ detachment }}</v-btn>
+                <nuxt-link :to="generateDetachment(faction, army, detachment)">
+                  <v-btn>{{ detachment }}</v-btn>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -44,19 +50,19 @@
 
       <!-- ------------------------- -->
     </div>
-    <DesktopArmyComponentsIntroduction/>
-    <DesktopArmyComponentsArmyRules :armyRules="armyData.rules"/>
+    <DesktopArmyComponentsIntroduction />
+    <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
     <div class="unit-list">
-        <div v-if="armyData">
-          <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
-            <nuxt-link :to="generateLink(faction, army, armyName)">
-              <v-btn>
-                <p>{{ armyName }}</p>
-              </v-btn>
-            </nuxt-link>
-          </div>
+      <div v-if="armyData">
+        <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
+          <nuxt-link :to="generateLink(faction, army, armyName)">
+            <v-btn>
+              <p>{{ armyName }}</p>
+            </v-btn>
+          </nuxt-link>
         </div>
       </div>
+    </div>
   </div>
 </template>
 
@@ -78,10 +84,13 @@ const generateLink = (faction, army, armyName) => {
   return `/${faction}/${army}/${sanitizedArmyName}`;
 };
 
-//function to generate sanitized links to detachment page
+
+// Function to generate sanitized links to detachment page
 const generateDetachment = (faction, army, detachment) => {
-  const sanitizedArmyName = replaceUnwantedCharacters(detachment);
-  return `/${faction}/${army}/${sanitizedArmyName}`;
+  const sanitizedFaction = replaceUnwantedCharacters(faction);
+  const sanitizedArmy = replaceUnwantedCharacters(army);
+  const sanitizedDetachment = replaceUnwantedCharacters(detachment);
+  return `/${sanitizedFaction}/${sanitizedArmy}/detachment/${sanitizedDetachment}`;
 };
 
 onMounted(async () => {
@@ -115,8 +124,7 @@ onMounted(() => {
 .collection-container {
   /* background-image: url('https://www.wargamer.com/wp-content/sites/wargamer/2023/05/warhammer-40k-10th-edition-world-eaters-art.jpg'); */
 
-   filter: grayscale(100%); 
-
+  filter: grayscale(100%);
 
   /* top: 0;
   left: 0;
@@ -130,7 +138,7 @@ onMounted(() => {
   width: 700px;
 }
 
-div{
+div {
   /* border: 1px solid red; */
 }
 </style>

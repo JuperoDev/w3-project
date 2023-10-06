@@ -19,7 +19,7 @@
 
         <DesktopComponentsMeleeWeapons :meleeWeapons="meleeWeapons" />
 
-        <DesktopComponentsAdditionalParameter
+        <DesktopComponentsAdditionalParameter  v-if="!isEmptyObject(additionalParameter)"
           :additionalParameter="additionalParameter"
         />
 

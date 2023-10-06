@@ -2,7 +2,7 @@
     <div
           class="datasheet-desktop__section-header  m-3"
         >
-        <div class="datasheet-desktop__section-header bg-slate-400 p-3">
+        <div class="datasheet-desktop__section-header bg-zinc-900 text-zinc-100 rounded-t-lg p-3">
           <p>Unit Composition</p>
         </div>
 

@@ -2,7 +2,7 @@
     <div
           class="datasheet-desktop__section-header  m-3"
         >
-          <div class="datasheet-desktop__section-title bg-slate-400">
+          <div class="datasheet-desktop__section-title bg-zinc-900 text-zinc-100 rounded-t-lg p-3">
             <p>Wargear Options</p>
           </div>
 

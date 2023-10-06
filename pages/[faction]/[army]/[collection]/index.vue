@@ -243,6 +243,12 @@ onMounted(async () => {
     wargear.value = [];
   }
 });
+
+//page title
+
+onMounted(() => {
+  document.title = `${armyUnit} datasheet`;
+})
 </script>
 <style scoped>
 /* .font-bebas {

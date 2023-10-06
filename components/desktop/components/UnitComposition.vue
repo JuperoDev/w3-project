@@ -6,7 +6,8 @@
           <p>Unit Composition</p>
         </div>
 
-        <div v-for="unit in unitComposition" :key="unit.unitType">
+        <div v-for="unit in unitComposition" :key="unit.unitType" class="flex m-2">
+          
       <p>
         <template v-if="unit.minQuantity == unit.maxQuantity">
           {{ unit.minQuantity }}</template
@@ -15,11 +16,13 @@
           >{{ unit.minQuantity }} - {{ unit.maxQuantity }}</template
         >
 
-        <p class="capitalize">
 
-          {{ unit.unitType }}
-        </p>
       </p>
+
+      <p class="capitalize px-2">
+
+   {{ unit.unitType }}
+</p>
     </div>
 
     <br />

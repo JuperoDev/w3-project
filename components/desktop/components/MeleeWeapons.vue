@@ -1,7 +1,7 @@
 <template>
   <div class="melee-weapons__container">
     <div
-      class="datasheet-desktop__section-header bg-slate-400 m-3 grid grid-cols-2"
+      class="datasheet-desktop__section-header  bg-zinc-900 text-zinc-100 rounded-t-lg p-3 m-3 grid grid-cols-2"
     >
       <div class="datasheet-desktop__section-title">
         <p>Melee Weapons</p>

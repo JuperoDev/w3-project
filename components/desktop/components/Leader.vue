@@ -1,6 +1,6 @@
 <template>
   <div class="datasheet-desktop__leader-container">
-    <div class="datasheet-desktop__leader--header bg-slate-400 mx-3 p-1">
+    <div class="datasheet-desktop__leader--header bg-zinc-900 text-zinc-100 rounded-t-lg p-3 mx-3 ">
       <p>Leader</p>
     </div>
 

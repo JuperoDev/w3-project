@@ -9,9 +9,9 @@
       <DesktopComponentsAttributes :attributes="attributes" />
     </div>
     <div
-      class="datasheet-desktop--grid-container grid grid-cols-3 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
+      class="datasheet-desktop--grid-container grid grid-cols-5 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
     >
-      <div class="datasheet-desktop__grid-container--left col-span-2">
+      <div class="datasheet-desktop__grid-container--left col-span-3">
         <DesktopComponentsRangedWeapons
           :rangedWeapons="rangedWeapons"
           v-if="rangedWeapons"
@@ -26,7 +26,7 @@
         <DesktopComponentsWargear :wargear="wargear" />
       </div>
       <div
-        class="datasheet-desktop__grid-container--right border-l-2 border-slate-700"
+        class="datasheet-desktop__grid-container--right border-l-2 border-slate-700 col-span-2"
       >
         <DesktopComponentsAbilities :abilities="abilities" />
 

@@ -177,6 +177,7 @@
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
+
 // params
 const route = useRoute();
 const faction = route.params.faction;
@@ -247,11 +248,18 @@ onMounted(async () => {
 //page title
 
 onMounted(() => {
-  document.title = `${armyUnit} datasheet`;
+  document.title = `${armyUnit}`;
 })
+
+// Set document title and meta description based on armyUnit
+onMounted(() => {
+  document.title = `${armyUnit} Datasheet`;
+  // Set meta description
+  
+});
 </script>
-<style scoped>
-/* .font-bebas {
-  font-family: "Bebas Neue", sans-serif;
-} */
-</style>
+
+
+
+<!-- Add a meta tag for description -->
+<meta name="description" content="Put your description here.">

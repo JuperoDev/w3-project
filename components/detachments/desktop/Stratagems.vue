@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h3>Stratagems</h3>
+      <h3 class="text-3xl">Stratagems</h3>
       
       <div v-for="stratagem in stratagems" >
         <h4>{{ stratagem.name }}</h4>

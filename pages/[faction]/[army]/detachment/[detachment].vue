@@ -24,10 +24,7 @@
       </div>
       <!-- -------------- -->
 
-      <h3>Stratagems</h3>
-      <div class="" v-for="stratagem in collectionData.stratagems">
-        {{ stratagem }}
-      </div>
+  <DetachmentsDesktopStratagems :stratagems="collectionData.stratagems"/>
       <!-- ------------ -->
     </div>
   </div>

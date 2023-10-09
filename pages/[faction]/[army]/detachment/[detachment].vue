@@ -2,9 +2,15 @@
   <div v-if="collectionData">
     <h2>{{ collectionData.detachmentName }}</h2>
     <div v-for="rule in collectionData.detachmentRule" :key="rule.name">
-      <h3>{{ rule.name }}</h3>
+
+      <h3>Detachment rule:{{ rule.name }}</h3>
       <p><strong>Lore:</strong> {{ rule.lore }}</p>
       <p><strong>Description:</strong> {{ rule.description }}</p>
+    </div>
+
+    <div class="enhacements" v-for="enhacement in collectionData.enhacements">
+{{ enhacement }}
+
     </div>
   </div>
   <div v-else>

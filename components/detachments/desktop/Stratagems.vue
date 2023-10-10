@@ -1,36 +1,65 @@
 <template>
-    <div>
-      <h3 class="text-3xl">Stratagems</h3>
-      
-      <div v-for="stratagem in stratagems" >
-        <h4>{{ stratagem.name }}</h4>
-        <p><strong>Subindex:</strong> {{ stratagem.subindex }}</p>
-        <p><strong>Lore:</strong> {{ stratagem.lore }}</p>
-        <p><strong>When:</strong> {{ stratagem.when }}</p>
-        <p><strong>Target:</strong> {{ stratagem.target }}</p>
-        <p><strong>Effect:</strong> {{ stratagem.effect }}</p>
-        <!-- Add more properties as needed -->
-  
-        <!-- If the 'icon' property is an array, you might want to loop through it as well -->
-        <div v-for="(icon, index) in stratagem.icon" :key="index">
-          <img :src="icon" alt="Stratagem Icon" />
-        </div>
-  
-        <p><strong>CP:</strong> {{ stratagem.cp }}</p>
-        <p><strong>Color:</strong> {{ stratagem.color }}</p>
-  
-        <!-- You can add styling based on the 'color' property if needed -->
-        <div :style="{ color: stratagem.color }">
-          This text has a custom color.
-        </div>
+  <div class="m-3">
+    <h3 class="text-4xl">Stratagems</h3>
+
+    <div class="grid grid-cols-2 gap-4">
+    <div v-for="stratagem in stratagems" >
+        
+      <h4 class="text-3xl uppercase" :style="{ color: stratagem.color }">
+        {{ stratagem.name }}
+      </h4>
+      <span>
+        <p :style="{ color: stratagem.color }">
+          <strong>Subindex:</strong>
+        </p>
+        {{ stratagem.subindex }}
+      </span>
+
+
+      <span
+        ><p :style="{ color: stratagem.color }">
+          <strong>Lore:</strong>
+        </p>
+        {{ stratagem.lore }}
+      </span>
+
+
+      <span
+        ><p :style="{ color: stratagem.color }">
+          <strong>When:</strong>
+        </p>
+        {{ stratagem.when }}
+      </span>
+
+      <span
+        ><p :style="{ color: stratagem.color }">
+          <strong>Target:</strong>
+        </p>
+        {{ stratagem.target }}
+      </span>
+
+      <span
+        ><p :style="{ color: stratagem.color }"><strong>Effect:</strong></p>
+        {{ stratagem.effect }}
+      </span>
+
+      <!-- If the 'icon' property is an array, you might want to loop through it as well -->
+      <div v-for="(icon, index) in stratagem.icon" :key="index">
+        <img :src="icon" alt="Stratagem Icon" />
       </div>
+
+      <p><strong>CP:</strong> {{ stratagem.cp }}</p>
+      <p><strong>Color:</strong> {{ stratagem.color }}</p>
+
+
+
     </div>
-  </template>
+    </div>
+  </div>
+</template>
 
 <script setup>
-
 const props = defineProps({
-    stratagems: Array
+  stratagems: Array,
 });
 </script>
-

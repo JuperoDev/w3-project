@@ -1,20 +1,23 @@
 <template>
   <div>
-    <div v-for="unit in unitComposition" :key="unit.unitType">
-      <p>
-        <template v-if="unit.minQuantity == unit.maxQuantity">
-          {{ unit.minQuantity }}</template
-        >
-        <template v-if="unit.minQuantity !== unit.maxQuantity"
-          >{{ unit.minQuantity }} - {{ unit.maxQuantity }}</template
-        >
-
-        <p class="capitalize">
-
-          {{ unit.unitType }}
-        </p>
-      </p>
-    </div>
+    <div v-for="unit in unitComposition" :key="unit.unitType" class="flex m-2">
+          
+          <p>
+            <template v-if="unit.minQuantity == unit.maxQuantity">
+              {{ unit.minQuantity }}</template
+            >
+            <template v-if="unit.minQuantity !== unit.maxQuantity"
+              >{{ unit.minQuantity }} - {{ unit.maxQuantity }}</template
+            >
+    
+    
+          </p>
+    
+          <p class="capitalize px-2">
+    
+       {{ unit.unitType }}
+    </p>
+        </div>
 
     <br />
     <p class="py-2">Every model is equipped with:</p>

@@ -87,19 +87,38 @@
   "damaged": {},
   "unitComposition": [
     {
-      "unitType": "termagants",
-      "minQuantity": 10,
-      "maxQuantity": 20
+      "unitType": "Jakhal Pack Leader",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    },
+    {
+      "unitType": "Dishonoured",
+      "minQuantity": 1,
+      "maxQuantity": 2
+    },
+    {
+      "unitType": "Jakhal",
+      "minQuantity": 8,
+      "maxQuantity": 17
     }
   ],
   "options": [
     {
       "count": [
-        1
+        1,1,8
       ],
-      "points": 415
+      "points": 70
+    },
+    {
+      "count": [
+        1,2,17
+      ],
+      "points": 140
     }
   ],
+  "equipment": [
+      "Dishonoured chainblades"
+    ],
   "additionalParameter": {},
   "supremeCommander": false,
   "leader": [],

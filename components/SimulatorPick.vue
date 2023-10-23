@@ -30,7 +30,7 @@
       <div
         class="bg-zinc-100 border-zinc-200 hover:border-zinc-400 border-solid border-2 transition duration-300 p-10"
       >
-        <p class="attakerLabel -mt-14 px-5 w-24 text-zinc-600">Attacker</p>
+        <p class="attakerLabel -mt-14 px-5 w-24 text-zinc-600">Unit</p>
         <div class="px-4">
           <p>Parent unit:</p>
           <p class="capitalize">{{ selectedUnitAttributes.parentUnit }}</p>
@@ -47,12 +47,12 @@
             type="number"
             placeholder="10"
           />
-          <p>Global modifiers:</p>
+          <!-- <p>Global modifiers:</p>
           <div class="flex">
             <v-checkbox label="Attacker remained Stationary"></v-checkbox>
             <v-checkbox label="Defender in cover"></v-checkbox>
             <v-checkbox label="Within half range"></v-checkbox>
-          </div>
+          </div> -->
         </div>
         <div class="simulator-pick--stats gap-4">
       <div class="unit-attributes border border-zinc-300" v-if="selectedUnitAttributes">
@@ -131,12 +131,32 @@ const selectedCollection = ref("");
 const selectedUnitAttributes = ref("");
 const isMeleeAttack = ref(true); // Default to melee attack
 
-// Fetch functions...
+const sanitizeValue = (value) => {
+  return value.replace(/\s+/g, "-").toLowerCase();
+};
+
+//    *******************
+//    **Fetch functions**
+//    *******************
+//
+
+// Fetch the faction list data when the component is mounted
+onMounted(async () => {
+  try {
+    const response = await fetch("/faction.json");
+    const jsonData = await response.json();
+    factions.value = jsonData.faction;
+  } catch (error) {
+    console.error("Error fetching faction list:", error);
+  }
+});
+
 
 // Fetch the data from the JSON file based on the selected faction
 const fetchFactionData = async () => {
   try {
-    const response = await fetch(`/faction/${selectedFaction.value}/army.json`);
+    const sanitizedFaction = sanitizeValue(selectedFaction.value);
+    const response = await fetch(`/faction/${sanitizedFaction}/army.json`);
     selectedFactionData.value = await response.json();
     selectedArmy.value = ""; // Reset selected army when faction changes
   } catch (error) {
@@ -144,11 +164,14 @@ const fetchFactionData = async () => {
   }
 };
 
+
 // Fetch the data from the JSON file based on the selected army
 const fetchArmyData = async () => {
   try {
+    const sanitizedFaction = sanitizeValue(selectedFaction.value);
+    const sanitizedArmy = sanitizeValue(selectedArmy.value);
     const response = await fetch(
-      `/faction/${selectedFaction.value}/${selectedArmy.value}/collection.json`
+      `/faction/${sanitizedFaction}/${sanitizedArmy}/collection.json`
     );
     selectedArmyData.value = await response.json();
     selectedCollection.value = ""; // Reset selected collection when army changes
@@ -171,7 +194,10 @@ const fetchUnitAttributes = async () => {
   }
 };
 
-// Watch functions...
+//    *******************
+//    **Watch functions**
+//    *******************
+//
 
 // Watch for changes in the selected faction and fetch corresponding data
 watch(selectedFaction, fetchFactionData);
@@ -184,16 +210,7 @@ watch([selectedCollection, isMeleeAttack], () => {
   fetchUnitAttributes();
 });
 
-// Fetch the faction list data when the component is mounted
-onMounted(async () => {
-  try {
-    const response = await fetch("/faction.json");
-    const jsonData = await response.json();
-    factions.value = jsonData.faction;
-  } catch (error) {
-    console.error("Error fetching faction list:", error);
-  }
-});
+
 </script>
 
 <style scoped>

@@ -2,7 +2,7 @@
     <div>
       <FactionFetch />
       <v-btn><nuxt-link to="/simulator">Simulator</nuxt-link></v-btn>
-      
+      <v-btn><nuxt-link to="/builder">Army Builder</nuxt-link></v-btn>
 
       
     </div>

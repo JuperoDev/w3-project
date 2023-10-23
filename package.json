@@ -12,7 +12,12 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.1",
-    "nuxt": "^3.6.5"
+    "electron": "^27.0.2",
+    "electron-builder": "^24.6.4",
+    "nuxt": "^3.6.5",
+    "nuxt-electron": "^0.6.0",
+    "vite-plugin-electron": "^0.14.1",
+    "vite-plugin-electron-renderer": "^0.14.5"
   },
   "dependencies": {
     "@mdi/font": "^7.2.96",
@@ -20,5 +25,10 @@
     "vite-plugin-vuetify": "^1.0.2",
     "vue-meta": "^3.0.0-alpha.10",
     "vuetify": "^3.3.11"
-  }
+    
+  },
+  "main": "electron/main.ts"
+
+    
+    
 }

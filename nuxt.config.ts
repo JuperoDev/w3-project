@@ -19,10 +19,28 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/tailwindcss"],
-
+  modules: ["@nuxtjs/tailwindcss", "nuxt-electron"],
+  
+  electron: {
+    build: [
+      {
+        // Main-Process entry file of the Electron App.
+        entry: 'electron/main.ts',
+      },
+      {
+        entry: 'electron/preload.ts',
+        onstart(options) {
+          // Notify the Renderer-Process to reload the page when the Preload-Scripts build is complete, 
+          // instead of restarting the entire Electron App.
+          options.reload()
+        },
+      },
+    ],
+    renderer: {},
+  },
+  
   build: {
-    transpile: ["vuetify"],
+    transpile: ["vuetify","nuxt-electron"],
   },
 
   vite: {

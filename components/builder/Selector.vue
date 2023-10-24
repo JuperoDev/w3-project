@@ -15,7 +15,7 @@
 
       <v-select
         label="Detachment"
-        :items="selectedArmyData?.units || []"
+        :items="selectedArmyData?.detachments || []"
         v-model="selectedCollection"
         :disabled="!selectedArmy"
       ></v-select>

@@ -37,3 +37,27 @@
 
     </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    const section16 = document.getElementById('section16');
+
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: '0px', // No margin
+      threshold: 0, // Trigger when completely in the viewport
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        // The element is now in the viewport
+        alert('You are in Section 16');
+        observer.disconnect(); // Stop observing once triggered
+      }
+    }, options);
+
+    observer.observe(section16);
+  },
+};
+</script>

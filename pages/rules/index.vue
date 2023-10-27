@@ -1,14 +1,16 @@
 <template>
-  <div class="grid grid-cols-2">
-    <div class="">
+  <div class="grid grid-cols-6">
+    <div class="col-span-1">
 
         <RulesMenu />
     </div>
-<div class="">
+<div class="rules-holder col-span-5 mr-16  ">
 
     <RulesHolder />
 </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

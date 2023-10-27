@@ -88,8 +88,7 @@
           <b>Engagement Range:</b> Within 1" horizontally and 5" vertically.
         </li>
 
-        <li>
-          Models cannot be set up or end a Normal, Advance or Fall Back move
+        <li>Models cannot be set up or end a Normal, Advance or Fall Back move
           within Engagement Range of any enemy models.
         </li>
       </ul>
@@ -97,35 +96,40 @@
 
     <div class="hight-ligt-area">
       <h4>UNIT COHERENCY</h4>
+
       <p>
-        A unit that contains more than one model must be set up and end any kind
-        of move as a single group, with all of its models within 2" horizontally
-        and 5" vertically of at least one other model from that unit. While a
-        unit has seven or more models, all of its models must instead be set up
-        and end any kind of move within 2" horizontally and 5" vertically of at
-        least two other models from that unit. This is called Unit Coherency. If
-        for any reason a model cannot be set up in Unit Coherency, that model is
-        destroyed. If a unit cannot end a move in Unit Coherency, it cannot make
-        that move and its models are returned to their previous positions. At
-        the end of every turn, each player must remove models, one at a time,
-        from any of the units from their armies that are no longer in Unit
-        Coherency, until only a single group of models from each of those units
-        remains in play and in Unit Coherency. Models removed in this way count
-        as having been destroyed, but they never trigger any rules that apply
-        when a model is destroyed.
+        A unit that contains more than one model must be set up and end any kind of move as a single group, with all of its models within 2" horizontally and 5" vertically of at least one other model from that unit. While a unit has seven or more models, all of its models must instead be set up and end any kind of move within 2" horizontally and 5" vertically of at least two other models from that unit. This is called Unit Coherency.
       </p>
+      <br/>
+      <p>
+        If for any reason a model cannot be set up in Unit Coherency, that model is destroyed. If a unit cannot end a move in Unit Coherency, it cannot make that move and its models are returned to their previous positions.
+      </p>
+      <br/>
+      <p>
+        At the end of every turn, each player must remove models, one at a time, from any of the units from their armies that are no longer in
+      </p>
+      <br/>
+      <p>
+        Unit Coherency, until only a single group of models from each of those units remains in play and in Unit Coherency. Models removed in this way count as having been destroyed, but they never trigger any rules that apply when a model is destroyed.
+      </p>
+
 
       <div class="menu-holder_highlight">
         <ul>
           <li>
-            <b>Engagement Range:</b> Within 1" horizontally and 5" vertically.
+            <b>Unit Coherency: </b> Within 2" horizontally and 5" vertically of:
+            <p>- One other model from the same unit (in units of 2-6 models).</p>
+            <p>- Two other models from the same unit (in units of 7+ models).</p>
           </li>
-
-          <li>
-            Models cannot be set up or end a Normal, Advance or Fall Back move
-            within Engagement Range of any enemy models.
+<br/>
+          <li>At the end of every turn, if a unit is not in Unit Coherency, the controlling player must remove models until that unit is in Unit Coherency again.
           </li>
         </ul>
+        <br/>
+      </div>
+      <img src="https://wahapedia.ru/wh40k10ed/img/UnitCoherency.png" alt="Unit coherency" class="menu__img-place-holder"/>
+      <div class="menu-holder__subtitles--xl flex">
+        <div class="menu-holder__subtitles--red-square"><p>A</p></div><p>Each model in this Sternguard Veterans unit of five models is within 2" of at least one other model in the unit. This unit is therefore in Unit Coherency.</p>
       </div>
     </div>
     <!-- END -->
@@ -293,11 +297,10 @@ h4 {
   background-color: rgb(237, 237, 237);
   padding: 20px;
   /* min-width: 500px; */
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
-.menu-holder_highlight ul {
+ ul {
   /* min-width: 700px; */
   list-style: none;
 }
@@ -311,6 +314,35 @@ li::before {
   margin-right: 1em;
 
   font-size: 15px;
+}
+
+.hight-ligt-area{
+background-color: rgba(255, 246, 230, 0.523);
+}
+
+.menu__img-place-holder{
+margin: 0 auto;
+}
+
+.menu-holder__subtitles--red-square{
+  height: 30px;
+  width: 40px;
+  background-color: rgb(189, 9, 9);
+  
+  margin-right: 20px;
+}
+.menu-holder__subtitles--red-square p{
+ margin-left: 8px;
+ margin-top: 2px; 
+ font-weight: 700;
+}
+
+.menu-holder__subtitles--xl{
+  background-color: rgb(45, 45, 45);
+  padding: 20px;
+  color: rgb(246, 248, 250);
+  margin: 0 auto;
+  max-width: 822px;
 }
 </style>
 <!-- 

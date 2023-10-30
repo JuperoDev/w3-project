@@ -5,7 +5,11 @@
       In order to play a game of Warhammer 40,000, you will need to muster an
       army. To do so, follow the sequence below.
     </h5>
-    <h4>SELECT BATTLE SIZE</h4>
+    <div class="section__muster-army--wrapper grid grid-cols-2">
+
+      <div class="col1 p-5">
+        <h4>SELECT BATTLE SIZE</h4>
+        <br>
     <p>
       With your opponent, select one of the battle sizes below. This will
       determine the total number of points each player can spend to build their
@@ -15,12 +19,13 @@
       in other publications, such as Codexes and the Munitorum Field Manual. You
       will need to refer to these when building your army.
     </p>
-    <div class="muster__battle-size max-w-xs">
-      <div class="muster__battle-size--header p-3 flex items-center justify-center bg-red-700 font-semibold text-slate-100	uppercase">
+    <div class="flexwrap flex items-center justify-center my-10">
+    <div class="muster__battle-size w-2/3 ">
+      <div class="muster__battle-size--header mt-2 p-3 flex items-center justify-center bg-red-700 font-semibold text-slate-100	uppercase">
         <h6>Incursion</h6>
       </div>
       <div
-        class="muster__battle-size--grid grid grid-cols-2 border-dotted border-b-2 border-b-black"
+        class="muster__battle-size--grid grid grid-cols-2 "
       >
         <div class="muster__battle-size--grid-left">
           <p>Points per Army</p>
@@ -31,28 +36,66 @@
           <p>Up to 2 hours</p>
         </div>
       </div>
-      <div class="muster__battle-size--header"><h6>Strike Force</h6></div>
-      <div class="muster__battle-size--header"><h6>Onslaught</h6></div>
+      
+      <div class="muster__battle-size--header mt-2 p-3 flex items-center justify-center bg-red-700 font-semibold text-slate-100	uppercase">
+        <h6>Strike Force</h6>
+      </div>
+      <div
+        class="muster__battle-size--grid grid grid-cols-2 "
+      >
+        <div class="muster__battle-size--grid-left ">
+          <p>Points per Army</p>
+          <p>Duration</p>
+        </div>
+        <div class="muster__battle-size--grid-right">
+          <p>2000</p>
+          <p>Up to 3 hours</p>
+        </div>
+      </div>
+      
+      <div class="muster__battle-size--header mt-2 p-3 flex items-center justify-center bg-red-700 font-semibold text-slate-100	uppercase">
+        <h6>Onslaught</h6>
+      </div>
+      <div
+        class="muster__battle-size--grid grid grid-cols-2"
+      >
+        <div class="muster__battle-size--grid-left">
+          <p>Points per Army</p>
+          <p>Duration</p>
+        </div>
+        <div class="muster__battle-size--grid-right">
+          <p>3000</p>
+          <p>Up to 4 hours</p>
+        </div>
+      </div>
     </div>
+  </div>
     <h4>START YOUR ARMY ROSTER</h4>
+    <br>
     <p>
       The details of your army must be recorded on an Army Roster. This can be
       written on a piece of paper or recorded using the Warhammer 40,000 app.
       Players must show their finished Army Roster to their opponent before
       battle commences.
     </p>
-    <p>You can use our army builder HERE</p>
-
+      </div>
+     
+      <div class="col2 p-5">
+        
     <h4>SELECT ARMY FACTION</h4>
+    <br>
     <p>Note on your Army Roster one Faction keyword to be your army faction.</p>
+    <br>
     <h4>SELECT DETACHMENT RULES</h4>
+    <br>
     <p>
       Note on your Army Roster one set of Detachment rules for your army. Some
       Detachment rules list units that you either must include or cannot include
       in your army; you must follow all such rules when building your army.
     </p>
-
+    <br>
     <h4>SELECT UNITS</h4>
+    <br>
     <p>
       Select all the units you want to include in your army. Your army must
       include at least one CHARACTER unit. Each time you include a unit in your
@@ -75,13 +118,20 @@
         unit if it is a BATTLELINE or DEDICATED TRANSPORT* unit.
       </li>
     </ul>
-
+    <br>
     <h4>SELECT WARLORD</h4>
+    <br>
     <p>
       Select one CHARACTER model from your army to be your Warlord – this will
       be the leader of your army – and make a note of this on your Army Roster.
       Your Warlord gains the WARLORD keyword.
     </p>
+      </div>
+
+     
+
+    </div>
+  
   </div>
 </template>
 <style scoped>

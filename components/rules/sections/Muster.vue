@@ -1,29 +1,8 @@
 <template>
-  <div>
-    <!-- Core concepts -->
-   <RulesSectionsCoreConcepts/>
-    
-<!-- BATTLE ROUND  -->
-   
-<RulesSectionsBattleRound/>
-
-    <!-- DATASHEET AND ABILITIES  -->
-
-    <!-- FURTHER RULES  -->
-
-    <!-- MUSTER YOUR ARMY  -->
-
-    <RulesSectionsMuster/>
-
-    <!-- MISSIONS  -->
-
-    <!-- RULES COMMENTARY  -->
-
-    <!-- END -->
-   
-  </div>
+    <div class="section__muster-army">
+        <h3 id="section1" class="menu-holder__header">Muster your army</h3>
+    </div>
 </template>
-
 <style scoped>
 h4 {
   text-transform: uppercase;
@@ -88,27 +67,3 @@ margin: 0 auto;
   margin: 10px;
 }
 </style>
-<!-- 
-<script setup>
-import { onMounted } from "vue";
-
-onMounted(() => {
-  const section16 = document.getElementById("section16");
-
-  const options = {
-    root: null, // Use the viewport as the root
-    rootMargin: "0px", // No margin
-    threshold: 0, // Trigger when completely in the viewport
-  };
-
-  const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) {
-      // The element is now in the viewport
-      alert("You are in Section 16");
-      observer.disconnect(); // Stop observing once triggered
-    }
-  }, options);
-
-  observer.observe(section16);
-});
-</script> -->

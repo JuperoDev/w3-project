@@ -108,12 +108,10 @@
     <p>You can only include a unit in your army if:</p>
 
     <ul>
-      <li>
-        That unit has the Faction keyword you chose for your army in step 3.
+      <li>That unit has the Faction keyword you chose for your army in step 3.
       </li>
       <li>You have enough points remaining.</li>
-      <li>
-        Your army does not already contain three units with the same datasheet
+      <li>Your army does not already contain three units with the same datasheet
         name as that unit – or six units with the same datasheet name as that
         unit if it is a BATTLELINE or DEDICATED TRANSPORT* unit.
       </li>

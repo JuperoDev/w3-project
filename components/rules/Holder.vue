@@ -5,7 +5,7 @@
     
 <!-- BATTLE ROUND  -->
    
-<RulesSectionsBattleRound/>
+<!-- <RulesSectionsBattleRound/> -->
 
     <!-- DATASHEET AND ABILITIES  -->
 
@@ -13,7 +13,7 @@
 
     <!-- MUSTER YOUR ARMY  -->
 
-    <RulesSectionsMuster/>
+    <!-- <RulesSectionsMuster/> -->
 
     <!-- MISSIONS  -->
 

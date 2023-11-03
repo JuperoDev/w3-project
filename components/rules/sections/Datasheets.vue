@@ -4,6 +4,18 @@
         <h5>
             Each unit has a datasheet that lists the characteristics, wargear, abilities and keywords of its models. This section presents a summary of these elements and how they relate to playing the game.
     </h5>
+
+    <img
+        src="https://wahapedia.ru/wh40k10ed/img/ExampleDatasheet1.png"
+        alt="example datasheet"
+        class="menu__img-place-holder"
+      />
+      <img
+        src="https://wahapedia.ru/wh40k10ed/img/ExampleDatasheet2.png"
+        alt="example datasheet"
+        class="menu__img-place-holder"
+      />
+
     </div>
 </template>
 

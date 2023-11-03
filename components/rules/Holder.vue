@@ -1,13 +1,14 @@
 <template>
   <div>
     <!-- Core concepts -->
-   <RulesSectionsCoreConcepts/>
+   <!-- <RulesSectionsCoreConcepts/> -->
     
 <!-- BATTLE ROUND  -->
    
 <!-- <RulesSectionsBattleRound/> -->
 
     <!-- DATASHEET AND ABILITIES  -->
+    <RulesSectionsDatasheets/>
 
     <!-- FURTHER RULES  -->
 

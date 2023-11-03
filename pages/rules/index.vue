@@ -2,7 +2,7 @@
   <div class="grid grid-cols-6">
     <div class="col-span-1">
 
-        <RulesMenu />
+        <!-- <RulesMenu /> -->
     </div>
 <div class="rules-holder col-span-5 mr-16  ">
 

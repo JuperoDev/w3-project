@@ -1,0 +1,75 @@
+{
+  "parentUnit": "Skorpius Disintegrator",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Hovering over the ruins of war on a bed of atomised gases, Skorpius Disintegrators are archaic, front-line battle tanks. They surge forward in unstoppable armoured waves and support infantry advances, maintaining blistering salvoes of fire to cripple enemy war engines and sweep aside hordes of lesser foes.",
+  "keywords": [
+    "vehicle",
+    "imperium",
+    "skitarii",
+    "skorpius disintegrator"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Belleros energy cannon",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Cognis heavy stubber",
+      "modifiers": [
+        "rapid fire 3",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Disruptor missile launcher",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Doctrina Imperatives"
+    ],
+    "otherAbilities": {
+      "Broad Spectrum Data-tether:": "Each time you select this model as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP.",
+      "Blistering Salvoes:": "Each time this model makes an attack with a belleros energy cannon that targets an INFANTRY unit, add 1 to the Hit roll . Each time this model makes an attack with a ferrumite cannon that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
+    }
+  }
+}

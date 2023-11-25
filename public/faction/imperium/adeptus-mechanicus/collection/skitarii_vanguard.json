@@ -1,0 +1,101 @@
+{
+  "parentUnit": "Skitarii Vanguard",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The hyper-irradiated shot unleashed by the Skitarii Vanguard’s carbines ensure those that would otherwise survive the injury still sicken and die. Vanguard are infused with this radiation, emitting a debilitating aura they themselves are inured to. This hardens them to fight in the most toxic war zones to defend the Tech-Priests’ interests.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "imperium",
+    "skitarii",
+    "vanguard"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Archeotech pistol",
+      "modifiers": [
+        "devastating wounds",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Arc rifle",
+      "modifiers": [
+        "anti-vehicle 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 30,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma caliver - supercharge",
+      "modifiers": [
+        "hazardous"
+      ],
+      "range": 30,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Radium carbine",
+      "modifiers": [
+        "anti-infantry 4+"
+      ],
+      "range": 18,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Transuranic arquebus",
+      "modifiers": [
+        "heavy",
+        "precision"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Doctrina Imperatives"
+    ],
+    "faction": [
+      "Rad-saturation (Aura): While an enemy unit (excluding VEHICLE units) is within 3\" of this unit",
+      "subtract 1 from the Objective Control characteristic of models in that unit."
+    ],
+    "otherAbilities": {
+      "Enhanced data-tether:": "Each time you select the bearer’s unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+    }
+  }
+}

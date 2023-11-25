@@ -1,0 +1,51 @@
+{
+  "parentUnit": "Archaeopter Fusilave",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {
+    "remainingWounds": 3,
+    "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Archaeopter Fusilave’s changeable payload of deep-bore, high explosives defines its position as a devastating bomber and ground clearance aircraft. Tech-Priests employ whole squadrons to level enemy defences and root out sheltering heretics, as well as to clear prospective sites for further investigation in the Quest for Knowledge.",
+  "keywords": [
+    "vehicle",
+    "aircraft",
+    "fly",
+    "imperium",
+    "skitarii",
+    "archaeopter fusilave"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Cognis heavy stubber array",
+      "modifiers": [
+        "rapid fire 9",
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Hover"
+    ],
+    "faction": [
+      "Doctrina Imperatives"
+    ],
+    "otherAbilities": {
+      "Bomb Rack:": "Each time this model finishes a Normal move , you can select one enemy unit it moved across and roll six D6: for each 3+, that unit suffers 1 mortal wound ."
+    }
+  }
+}

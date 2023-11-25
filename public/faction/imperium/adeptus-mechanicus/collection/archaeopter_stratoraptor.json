@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Archaeopter Stratoraptor",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {
+    "remainingWounds": 3,
+    "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Stratoraptor takes advantage of the Archaeopter’s directional thrusters and adaptable wing profile to excel in the role of ground attack gunship. Its spread of heavy weapons – with a mixture of high strength and high rate of fire – ensures the Stratoraptor poses a lethal danger to dug-in infantry and heavily armoured vehicles alike.",
+  "keywords": [
+    "vehicle",
+    "aircraft",
+    "fly",
+    "imperium",
+    "skitarii",
+    "archaeopter stratoraptor"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Cognis heavy stubber",
+      "modifiers": [
+        "rapid fire 3",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy phosphor blaster",
+      "modifiers": [
+        "ignores cover"
+      ],
+      "range": 36,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin cognis lascannon",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Hover"
+    ],
+    "faction": [
+      "Doctrina Imperatives"
+    ],
+    "otherAbilities": {
+      "Strafing Run:": "Each time this model makes a ranged attack that targets an enemy unit (excluding units that can FLY ), add 1 to the Hit roll ."
+    }
+  }
+}

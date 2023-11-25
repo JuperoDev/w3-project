@@ -1,0 +1,57 @@
+{
+  "parentUnit": "Sicarian Infiltrators",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Sicarian Infiltrators broadcast disruptive frequencies that scramble augurs and painfully disrupt enemy senses. Thus obscured, the Infiltrators perform reconnaissance and outflanking missions, intensifying their sensory barrage to crash enemy comms and attack unseen through the resultant anarchy.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "skitarii",
+    "sicarian infiltrators"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Flechette blaster",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Stubcarbine",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Stealth"
+    ],
+    "faction": [
+      "Doctrina Imperatives"
+    ],
+    "otherAbilities": {
+      "Neurostatic Interference (Aura):": "While an enemy unit is within 6\" of this unit, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from that test. While this unit is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 2 from that test instead."
+    }
+  }
+}

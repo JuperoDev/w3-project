@@ -1,0 +1,59 @@
+{
+  "parentUnit": "Pteraxii Sterylizors",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Sterylizors are eradicators of cybernetic parasite organisms within ships and manufactorums, and eagerly unleash the chemical fire of their phosphor torches upon the Machine God’s foes. They descend in flocks from the sky upon membranous wing-packs, their vicious talons primed, eager to see their enemies writhe in flames.",
+  "keywords": [
+    "infantry",
+    "fly",
+    "jump pack",
+    "imperium",
+    "skitarii",
+    "pteraxii sterylizors"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Flechette blaster",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Phosphor torch",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Doctrina Imperatives"
+    ],
+    "otherAbilities": {
+      "Searing Conflagration:": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) that was hit by one or more of this unit’s phosphor torches this phase and roll one D6, adding 3 to the result if this unit is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units. On a 4+, until the end of your opponent’s next turn, that enemy unit is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+    }
+  }
+}

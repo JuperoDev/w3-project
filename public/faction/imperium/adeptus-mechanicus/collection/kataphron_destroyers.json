@@ -1,0 +1,85 @@
+{
+  "parentUnit": "Kataphron Destroyers",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These biomechanical constructs operate as mobile heavy weapons platforms, bearing large esoteric cannons as well as close defence armaments. Their ballistic subroutines can be directed to operate independently of preprogrammed battle protocols, making them flexible tools of destruction.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "kataphron",
+    "destroyers"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Cognis flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy grav-cannon",
+      "modifiers": [
+        "anti-vehicle 2+"
+      ],
+      "range": 30,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Kataphron plasma culverin - supercharge",
+      "modifiers": [
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Phosphor blaster",
+      "modifiers": [
+        "ignores cover",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Doctrina Imperatives"
+    ],
+    "faction": [
+      "Sentinel Directives: Each time you target this unit with the Fire Overwatch Stratagem",
+      "hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "heavy grav-cannon; phosphor blaster; close combat weapon."
+    }
+  }
+}

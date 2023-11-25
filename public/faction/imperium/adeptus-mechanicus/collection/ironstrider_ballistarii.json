@@ -1,0 +1,61 @@
+{
+  "parentUnit": "Ironstrider Ballistarii",
+  "factionKeywords": [
+    "adeptus mechanicus"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Ironstrider Ballistarii are swift combat walkers piloted by veteran marksmen. They smoothly pick their way across the battlefield before invoking the fully awakened machine spirits of their weapons to acquire rapidly cogitated firing solutions. Their destructive firepower unleashed, they redeploy to hunt for fresh targets.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "smoke",
+    "imperium",
+    "skitarii",
+    "ironstrider ballistarii"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin cognis autocannon",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin cognis lascannon",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Doctrina Imperatives"
+    ],
+    "otherAbilities": {
+      "Elevated Strider:": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back , and you can re-roll Desperate Escape tests taken for models in this unit.",
+      "Broad Spectrum Data-tether:": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+    }
+  }
+}

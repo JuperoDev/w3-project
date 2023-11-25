@@ -19,5 +19,52 @@
         "leadership": 7,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "Aestred Thurga is a powerful warrior in her own right, but recognises with great humility that the ancient relic standard she carries is far more important than she can ever be. She will gladly die to protect the Auto-Tapestry of the Emperor’s Judgement, while the Sisters she fights alongside are inspired to carry out great deeds of faith in its presence – feats recorded by the Hagiolater, Agathae Dolan.",
+      "keywords": [
+        "infantry",
+        "grenades",
+        "character",
+        "epic hero",
+        "imperium",
+        "aestred thurga and agathae dolan"
+      ],
+      "leader": [
+        "battle sisters squad",
+        "celestian sacresants",
+        "dominion squad",
+        "retributor squad"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Auto-Tapestry of the Emperor’s Judgement:": "While Aestred Thurga is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+          "Recount the Deeds of the Saints:": "While Agathae Dolan is part of this unit, each time this unit performs an Act of Faith , the result of one of the Miracle dice used in that Act of Faith is first improved by 1 (to a maximum of 6)."
+        }
+      }
 }

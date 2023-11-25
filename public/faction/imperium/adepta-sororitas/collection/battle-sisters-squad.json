@@ -8,5 +8,232 @@
         "leadership": 7,
         "objetiveControl": 2,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "Battle Sisters of the Orders Militant are skilled and devout warriors. Wherever they advance, the light of the Emperor spreads like a holy dawn. Miracles manifest in their presence that turn aside the enemy’s strikes, or consume foes in fires of retribution as the Sisters cut down heretics with thundering salvoes from their boltguns.",
+      "keywords": [
+        "infantry",
+        "grenades",
+        "battleline",
+        "imperium",
+        "battle sisters squad"
+      ],
+      "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Artificer-crafted storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "ANTI-INFANTRY 4+",
+        "DEVASTATING WOUNDS",
+        "RAPID FIRE 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Condemnor boltgun",
+      "modifiers": [
+        "ANTI-PSYKER 2+",
+        "DEVASTATING WOUNDS",
+        "PRECISION",
+        "RAPID FIRE 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "heavy",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": [
+        "MELTA 2",
+        "PISTOL"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ministorum flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ministorum heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "heavy",
+        "melta 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ministorum hand flamer",
+      "modifiers": [
+        "IGNORES COVER",
+        "PISTOL",
+        "TORRENT"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "HAZARDOUS",
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Acts of Faith"
+    ],
+    "faction": [
+      "Cherub: Once per battle",
+      "after this unit has performed an Act of Faith",
+      "you gain 1 Miracle dice. Designer’s Note: Place a Cherub token next to the unit",
+      "removing it once this ability has been used.Defenders of the Faith: At the end of your Command phase",
+      "for each objective marker you control that has one or more units from your army with this ability within range of it",
+      "you gain 1 Miracle dice."
+    ],
+    "otherAbilities": {
+      "Simulacrum Imperialis:": "Each time a unit is destroyed by the bearer’s unit, you gain 1 Miracle dice ."
+    }
+  }
 }

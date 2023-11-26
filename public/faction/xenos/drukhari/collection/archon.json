@@ -1,0 +1,60 @@
+{
+  "parentUnit": "Archon",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Archons apply the same inventive malice with which they rule the fractured Kabals to their enemies on the battlefield. Leading many realspace raids, Archons arrogantly dare their enemies to face their martial expertise, their arsenal of eldritch weapons and the labyrinthine cunning that has enabled their rise to power.",
+  "keywords": [
+    "infantry",
+    "kabal",
+    "character",
+    "aeldari",
+    "archon"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Blast pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Splinter pistol",
+      "modifiers": [
+        "anti-infantry 3+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Overlord:": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is Empowered, each time a model in that unit makes an attack, you can re-roll the Wound roll instead.",
+      "Devious Mastermind:": "Once per battle, after your opponent uses a Stratagem , if this model is your Warlord and is on the battlefield, it can use this ability. If it does, until the end of the battle, increase the cost of that Stratagem to your opponent by 1CP."
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "parentUnit": "Reavers",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Reaver jetbikes streak across the battlefield with the same speed and agility they display during their lethal races around the Commorrite arenas. Whether jinking around incoming enemy fire, decapitating foes with vicious bladevanes or culling their victims with ferocious firepower, these high-speed killers are lethal in the extreme.",
+  "keywords": [
+    "mounted",
+    "wych cult",
+    "fly",
+    "aeldari",
+    "reavers"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Blaster",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Heat lance",
+      "modifiers": [
+        "assault",
+        "melta 3"
+      ],
+      "range": 18,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Splinter pistol",
+      "modifiers": [
+        "anti-infantry 3+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Splinter rifle",
+      "modifiers": [
+        "anti-infantry 3+",
+        "assault"
+      ],
+      "range": 24,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Power From Pain"
+    ],
+    "faction": [
+      "Eviscerating Fly-by: Each time this unit ends a Normal move",
+      "you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move. If you do",
+      "roll one D6 for each model in this unit: for each 4+",
+      "that enemy unit suffers 1 mortal wound."
+    ],
+    "otherAbilities": {
+      "Cluster Caltrops:": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
+    }
+  }
+}

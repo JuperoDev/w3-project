@@ -1,0 +1,61 @@
+{
+  "parentUnit": "Voidraven Bomber",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Mounting some of the most powerful guns in the Drukhari arsenal, the Voidraven Bomber’s dark scythes and void lances can crack heavily armoured targets. Yet they pale against the silent aircraft’s primary weapon – the void mine. Once this arcane payload is deployed, the resulting darklight implosion erases all caught within its blast.",
+  "keywords": [
+    "vehicle",
+    "aircraft",
+    "fly",
+    "aeldari",
+    "voidraven bomber"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Voidraven missiles - implosion missiles",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Voidraven missiles - shatterfield missiles",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Stealth"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Void Mine:": "Once per battle, after this unit ends a Normal move , you can select one enemy model it moved over during that move and roll one D6 for each enemy unit within D6\" of that enemy model: on a 4+, that enemy unit suffers D6 mortal wounds ."
+    }
+  }
+}

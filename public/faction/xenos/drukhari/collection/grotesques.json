@@ -1,0 +1,43 @@
+{
+  "parentUnit": "Grotesques",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These modified meat-hulks are pumped full of painful chemicals, growth elixirs and macro-steroids. With swollen muscles they hack their master’s foes apart, their brutal cleavers and grafted claws dripping with toxins. They are mindlessly obedient and insensible to any hurt, chasing down fleeing prey at the behest of their creator.",
+  "keywords": [
+    "infantry",
+    "haemonculus covens",
+    "aeldari",
+    "grotesques"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Liquifier gun",
+      "modifiers": [
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Mindless Killing Machines:": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
+    }
+  }
+}

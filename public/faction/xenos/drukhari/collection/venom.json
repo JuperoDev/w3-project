@@ -1,0 +1,65 @@
+{
+  "parentUnit": "Venom",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Raw speed delivers countless light Venom transports to the heart of the enemy’s defence, and sees them chase down stragglers and encircle the foe’s outriders. For the clique of warriors on board, Venoms are mobile firebases and gore-splashed chariots in one, with flickering shields that confound attempts to bring them down.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "dedicated transport",
+    "fly",
+    "aeldari",
+    "venom"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Splinter cannon",
+      "modifiers": [
+        "anti-infantry 3+",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin splinter rifle",
+      "modifiers": [
+        "anti-infantry 3+",
+        "assault",
+        "rapid fire 1",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Deep Strike",
+      "Firing Deck 6",
+      "Stealth"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Athletic Aerialists:": "At the end of the Fight phase , if there are no models currently embarked within this Transport , you can select one friendly DRUKHARI INFANTRY unit that has 6 or fewer models that is wholly within 6\" of this TRANSPORT (you cannot select a GROTESQUES unit or a unit that can FLY ). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport."
+    }
+  }
+}

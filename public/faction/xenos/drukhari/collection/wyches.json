@@ -1,0 +1,62 @@
+{
+  "parentUnit": "Wyches",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The dancers of death, Wyches are acrobatic murder-artists, exhibiting their incredible arena skills to slay with precision and élan. They wield exotic weapons – hooks, barbed chains or flensing blades – that require superior ability. These are deadly in Wyches’ hands as they dart, twist and blur around their foes’ clumsy attacks.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "wych cult",
+    "aeldari",
+    "wyches"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Blast pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Splinter pistol",
+      "modifiers": [
+        "anti-infantry 3+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Power From Pain"
+    ],
+    "faction": [
+      "No Escape: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back",
+      "models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so",
+      "if that enemy unit is also Battle-shocked by other means",
+      "subtract 1 from each of those Desperate Escape tests."
+    ],
+    "otherAbilities": {
+      "Phantasm Grenade Launcher:": "The bearer’s unit has the Grenades keyword."
+    }
+  }
+}

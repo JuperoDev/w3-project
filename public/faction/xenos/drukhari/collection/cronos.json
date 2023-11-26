@@ -1,0 +1,60 @@
+{
+  "parentUnit": "Cronos",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Like other Engines of Pain, the Cronos is a grisly amalgam of stimm-fed flesh and biomechanical implements shielded by a burnished carapace. Haemonculi create the Cronos to act as a parasite. Its esoteric syphons leech its victim’s life essence, leaving them as husks before projecting the stolen vitality to other Drukhari.",
+  "keywords": [
+    "monster",
+    "haemonculus covens",
+    "fly",
+    "aeldari",
+    "cronos"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Spirit syphon",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Spirit vortex",
+      "modifiers": [
+        "blast",
+        "ignores cover"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Feel No Pain 5+"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Pain Parasite (Aura):": "Each time a Pain token is removed from your Pain token pool to Empower a unit, if that Empowered unit is within 9\" of this unit, roll one D6: on a 4+, you gain 1 Pain token."
+    }
+  }
+}

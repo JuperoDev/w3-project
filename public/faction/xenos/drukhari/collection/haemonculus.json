@@ -1,0 +1,48 @@
+{
+  "parentUnit": "Haemonculus",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Wielding arrays of horrific implements from their personal oubliettes and laboratories, Haemonculi drift like sinister predators in battle. They direct their Covens of twisted monstrosities and pain-adepts while hungrily seeking out fresh subjects for their hideous fleshcrafting.",
+  "keywords": [
+    "infantry",
+    "haemonculus covens",
+    "character",
+    "aeldari",
+    "haemonculus"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Stinger pistol",
+      "modifiers": [
+        "anti-infantry 2+",
+        "pistol",
+        "precision"
+      ],
+      "range": 12,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+",
+      "Leader"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Master of Pain:": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability.",
+      "Fear Incarnate (Aura):": "While an enemy unit is within 6\" of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+    }
+  }
+}

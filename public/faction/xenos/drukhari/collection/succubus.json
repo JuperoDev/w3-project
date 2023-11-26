@@ -1,0 +1,60 @@
+{
+  "parentUnit": "Succubus",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Succubi are the leaders of the Wych Cults and master combatants of the arena, possessing both sublime and bloody artistry. They are versed in countless forms of death and give visceral displays of acrobatic lethality. With lightning-fast reactions and a variety of outlandish weapons, they revel in their own superiority.",
+  "keywords": [
+    "infantry",
+    "wych cult",
+    "character",
+    "aeldari",
+    "succubus"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Blast pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Splinter pistol",
+      "modifiers": [
+        "anti-infantry 3+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Storm of Blades:": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "Combat Drugs:": "If this model is Empowered in the Fight phase , then until the end of the phase, models in this model’s unit, have the Fights First ability."
+    }
+  }
+}

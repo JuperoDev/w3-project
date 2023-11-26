@@ -1,0 +1,48 @@
+{
+  "parentUnit": "Incubi",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Incubi are warrior-perfectionists of the highest order. Protected by the ornate plates of their ancient warsuits, they move swiftly in for the kill, sweeping giant klaives in practised, decapitating strikes. They carve straight through the enemy’s elite, crushing their spirit with psychic torture devices known as tormentors.",
+  "keywords": [
+    "infantry",
+    "aeldari",
+    "incubi"
+  ],
+  "attributes": [
+    {
+      "name": "incubi",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 3,
+      "wounds": 1,
+      "leadership": 6,
+      "objectiveControl": 1
+    },
+    {
+      "name": "klaivex",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 3,
+      "wounds": 2,
+      "leadership": 6,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [],
+  "abilities": {
+    "core": [
+      "FACTION: Power From Pain"
+    ],
+    "faction": [
+      "Tormentors: At the start of the Fight phase",
+      "each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "klaive."
+    }
+  }
+}

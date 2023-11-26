@@ -1,0 +1,44 @@
+{
+  "parentUnit": "Mandrakes",
+  "factionKeywords": [
+    "drukhari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Creatures of midnight horror, crawling from their shadow realm into the most secure locations, Mandrakes radiate an aura of frigid evil. Baleful runes carved into their shadowy flesh blaze with power, chilling their enemies’ souls before these faceless reapers’ icy blades and claws flense the skin from their victims.",
+  "keywords": [
+    "infantry",
+    "aeldari",
+    "mandrakes"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Baleblast",
+      "modifiers": [
+        "assault",
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Stealth"
+    ],
+    "faction": [
+      "Power From Pain"
+    ],
+    "otherAbilities": {
+      "Fade Away:": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase , set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed ."
+    }
+  }
+}

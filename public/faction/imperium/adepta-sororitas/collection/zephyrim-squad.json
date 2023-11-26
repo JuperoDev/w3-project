@@ -8,5 +8,73 @@
         "leadership": 7,
         "objetiveControl": 1,
         "invulnerableSave": 5
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "Only those who experience a direct and persistent connection with the Emperor become Zephyrim. They are divine destroyers, figures of fathomless passion and integrity. On the battlefield they strike down their foes with ruthless precision, while their angelic singing drowns out the screams of the dying.",
+      "keywords": [
+        "infantry",
+        "jump pack",
+        "fly",
+        "grenades",
+        "imperium",
+        "zephyrim squad"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Plasma pistol - standard",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 7,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Plasma pistol - supercharge",
+          "modifiers": [
+            "hazardous",
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 8,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Embodied Prophecy:": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, add 1 to the Strength characteristic of that attack."
+        }
+      }
 }

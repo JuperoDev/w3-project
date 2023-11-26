@@ -8,5 +8,191 @@
         "leadership": 7,
         "objetiveControl": 1,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "Retributors are highly experienced warriors, and amongst the finest sharpshooters in their Order. Only the most level-headed Battle Sisters join their ranks. Providing long-range fire support is a task that requires excellent target prioritisation skills, as well as the ability to optimise firing solutions and identify enemy weak points.",
+      "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "retributor squad"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Boltgun",
+          "modifiers": [
+            "rapid fire 1"
+          ],
+          "range": 24,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Combi-weapon",
+          "modifiers": [
+            "ANTI-INFANTRY 4+",
+            "DEVASTATING WOUNDS",
+            "RAPID FIRE 1"
+          ],
+          "range": 24,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Condemnor boltgun",
+          "modifiers": [
+            "ANTI-PSYKER 2+",
+            "DEVASTATING WOUNDS",
+            "PRECISION",
+            "RAPID FIRE 1"
+          ],
+          "range": 24,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Heavy bolter",
+          "modifiers": [
+            "heavy",
+            "sustained hits 1"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Inferno pistol",
+          "modifiers": [
+            "MELTA 2",
+            "PISTOL"
+          ],
+          "range": 6,
+          "strength": 8,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Ministorum hand flamer",
+          "modifiers": [
+            "IGNORES COVER",
+            "PISTOL",
+            "TORRENT"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Ministorum heavy flamer",
+          "modifiers": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": 12,
+          "strength": 6,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Multi-melta",
+          "modifiers": [
+            "heavy",
+            "melta 2"
+          ],
+          "range": 18,
+          "strength": 9,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Plasma pistol - standard",
+          "modifiers": [
+            "PISTOL"
+          ],
+          "range": 12,
+          "strength": 7,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Plasma pistol - supercharge",
+          "modifiers": [
+            "HAZARDOUS",
+            "PISTOL"
+          ],
+          "range": 12,
+          "strength": 8,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "FACTION: Acts of Faith"
+        ],
+        "faction": [
+          "Cherubs: Twice per battle",
+          "after this unit has performed an Act of Faith",
+          "you gain 1 Miracle dice. Designer’s Note: Place two Cherub tokens next to the unit",
+          "removing one each time this ability has been used.Storm of Retribution: Each time a model in this unit makes a ranged attack",
+          "re-roll a Wound roll of 1."
+        ],
+        "otherAbilities": {
+          "The Retributor Superior is equipped with:": "bolt pistol; boltgun; close combat weapon.",
+          "Each Retributor is equipped with:": "bolt pistol; heavy bolter; close combat weapon."
+        }
+      }
 }

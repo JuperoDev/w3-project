@@ -8,5 +8,60 @@
         "leadership": 7,
         "objetiveControl": 2,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "The pilot of a Mortifier is a Sister Repentia who has fled from battle. Bolted within the Mortifier’s armoured shell, they cannot move, speak or hear. Suffering endless shame and agony, they are driven by madness and pain to carve a path of mutilation and destruction through the foe.",
+      "keywords": [
+        "vehicle",
+        "walker",
+        "imperium",
+        "mortifiers"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy bolter",
+          "modifiers": [
+            "sustained hits 1"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Mortifier flamer",
+          "modifiers": [
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": 12,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Feel No Pain 5+"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Anguish of the Unredeemed:": "Each time this unit makes a Charge move , until the end of the turn, melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        }
+      }
 }

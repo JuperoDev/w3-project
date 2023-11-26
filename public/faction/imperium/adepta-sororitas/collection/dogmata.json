@@ -8,5 +8,51 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "With watchful eyes, the Sisters Dogmata seek out infractions amongst their Order. Held in as much fear as respect, with but a word they can condemn a Sister to the Repentia. With shouted prayers and great swings of their maces, they demonstrate the path of righteousness and show what the Sisters should expect if they fail in their duties.",
+      "keywords": [
+        "infantry",
+        "grenades",
+        "character",
+        "imperium",
+        "dogmata"
+      ],
+      "leader": [
+        "battle sisters squad",
+        "celestian sacresants",
+        "dominion squad",
+        "retributor squad"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Executioner of Heretics (Aura):": "While an enemy unit is within 6\" of this model, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from the test.",
+          "Unflinching Determination:": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      }
 }

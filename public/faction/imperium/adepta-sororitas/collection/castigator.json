@@ -8,5 +8,101 @@
         "leadership": 7,
         "objetiveControl": 3,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "supremeCommander": false,
+      "lore": "Castigators are powerful battle tanks of the Adepta Sororitas. They provide excellent fire support for Battle Sisters thanks to their wide array of weapons, smashing through the foe’s lines and slaughtering great swathes of enemy infantry in a matter of seconds.",
+      "keywords": [
+        "vehicle",
+        "smoke",
+        "imperium",
+        "castigator"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Castigator autocannons",
+          "modifiers": [
+            "rapid fire 4",
+            "twin-linked"
+          ],
+          "range": 48,
+          "strength": 9,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Castigator battle cannon",
+          "modifiers": [
+            "blast",
+            "ignores cover"
+          ],
+          "range": 48,
+          "strength": 10,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Heavy bolter",
+          "modifiers": [
+            "sustained hits 1"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Hunter-killer missile",
+          "modifiers": [
+            "one shot"
+          ],
+          "range": 48,
+          "strength": 14,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Storm bolter",
+          "modifiers": [
+            "rapid fire 2"
+          ],
+          "range": 24,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "CORE: Deadly Demise D3"
+        ],
+        "otherAbilities": {
+          "FACTION:": "Acts of Faith"
+        }
+      }
 }

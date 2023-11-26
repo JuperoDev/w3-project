@@ -8,5 +8,112 @@
         "leadership": 7,
         "objetiveControl": 2,
         "invulnerableSave": 4
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "A pilot must have immense faith for a Paragon Warsuit’s spirit to trust them. They must also have incredible skill to handle its control system, which allows for highly complex and fluid movements. Mastering a Paragon Warsuit makes a Sister capable of engaging the most fearsome of enemies and emerging victorious.",
+      "keywords": [
+        "vehicle",
+        "walker",
+        "grenades",
+        "imperium",
+        "paragon warsuits"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Heavy bolter",
+          "modifiers": [
+            "sustained hits 1"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Ministorum heavy flamer",
+          "modifiers": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": 12,
+          "strength": 6,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Multi-melta",
+          "modifiers": [
+            "melta 2"
+          ],
+          "range": 18,
+          "strength": 9,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Paragon grenade launchers",
+          "modifiers": [
+            "twin-linked"
+          ],
+          "range": 24,
+          "strength": 9,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Paragon storm bolters",
+          "modifiers": [
+            "rapid fire 2",
+            "twin-linked"
+          ],
+          "range": 24,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "FACTION: Acts of Faith"
+        ],
+        "faction": [
+          "Righteous Paragons: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        ],
+        "otherAbilities": {
+          "Every model is equipped with:": "bolt pistol; heavy bolter; Paragon storm bolters; Paragon war blade."
+        }
+      }
 }

@@ -8,5 +8,48 @@
         "leadership": 7,
         "objetiveControl": 2,
         "invulnerableSave": 0
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "The pilots of Penitent Engines are subjected to terrible agony, thanks to the torment amplifiers spliced into their synapses. They blaze a trail of destruction with their flamers before charging headlong into the foe, guilt and pain driving them on, heedless of danger. All they leave in their wake is utter carnage.",
+      "keywords": [
+        "vehicle",
+        "walker",
+        "imperium",
+        "penitent engines"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Penitent flamers",
+          "modifiers": [
+            "assault",
+            "ignores cover",
+            "torrent",
+            "twin-linked"
+          ],
+          "range": 12,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Feel No Pain 5+"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Endless Suffering:": "This unit is eligible to declare a charge in a turn in which it Advanced ."
+        }
+      }
 }

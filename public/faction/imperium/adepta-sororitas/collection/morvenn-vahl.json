@@ -8,5 +8,63 @@
         "leadership": 6,
         "objetiveControl": 2,
         "invulnerableSave": 4
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": true,
+      "lore": "Aggressive, brash and taciturn, Morvenn Vahl leads the Adepta Sororitas from the front. Taking to the field in an ancient Paragon Warsuit, she smites foe after foe with deafening bursts from Fidelis, devastating salvoes of missiles and pinpoint thrusts with the Lance of Illumination.",
+      "keywords": [
+        "vehicle",
+        "walker",
+        "character",
+        "epic hero",
+        "imperium",
+        "morvenn vahl"
+      ],
+      "leader": [
+        "paragon warsuits"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Fidelis",
+          "modifiers": [
+            "sustained hits 1"
+          ],
+          "range": 36,
+          "strength": 6,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Paragon missile launcher - sanctorum",
+          "modifiers": [
+            "blast"
+          ],
+          "range": 36,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Leader"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Abbess Sanctorum:": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll .",
+          "Righteous Repugnance:": "Once per battle, in your Command phase , this model can use this ability. If it does, until the start of your next Command phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumination."
+        }
+      }
 }

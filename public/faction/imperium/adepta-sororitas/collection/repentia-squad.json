@@ -19,5 +19,44 @@
         "leadership": 8,
         "objetiveControl": 1,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "Sisters Repentia charge across the battlefield howling prayers, filled with the need for atonement for past misdeeds. Overseen by a stern taskmaster in the form of a Repentia Superior who is ever vigilant for sinfulness, Repentia now exist only to slaughter the enemies of the Emperor, and so rush forward without heed for their own safety. Each seeks to redeem herself with acts of selfless bravery and violent devotion.",
+      "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "repentia squad"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Overseer of Redemption:": "While this unit contains a Repentia Superior, each time a model in this unit makes a melee attack, you can re-roll the Hit roll and, if this unit made a Charge move this turn, you can also re-roll the Wound roll ."
+        }
+      }
 }

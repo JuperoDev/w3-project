@@ -8,5 +8,101 @@
         "leadership": 7,
         "objetiveControl": 2,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "This Rhino variant has an aggressive machine spirit, and is equipped with an elaborate turret fitted with a powerful weapons system. This makes it ideal for rapid advances to clear enemy strongpoints, providing fire support for the troops it transports to battle and acting as an outrider escort for armoured columns.",
+      "keywords": [
+        "vehicle",
+        "smoke",
+        "transport",
+        "dedicated transport",
+        "imperium",
+        "immolator"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy bolter",
+          "modifiers": [
+            "sustained hits 1"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Hunter-killer missile",
+          "modifiers": [
+            "one shot"
+          ],
+          "range": 48,
+          "strength": 14,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Immolation flamers",
+          "modifiers": [
+            "ignores cover",
+            "torrent"
+          ],
+          "range": 18,
+          "strength": 6,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            "sustained hits 1",
+            "twin-linked"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Twin multi-melta",
+          "modifiers": [
+            "melta 2",
+            "twin-linked"
+          ],
+          "range": 18,
+          "strength": 9,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "CORE: Deadly Demise D3"
+        ],
+        "otherAbilities": {
+          "FACTION:": "Acts of Faith"
+        }
+      }
 }

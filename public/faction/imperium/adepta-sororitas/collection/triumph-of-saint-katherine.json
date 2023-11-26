@@ -8,5 +8,53 @@
         "leadership": 6,
         "objetiveControl": 6,
         "invulnerableSave": 4
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, the Attacks characteristics of all of its weapons are halved, and you can only select one ability when using its Relics of the Matriarchs ability, instead of up to two."
+      },
+      "supremeCommander": false,
+      "lore": "At the centre of the Triumph is the blessed bier upon which lie the mortal remains of Saint Katherine, beneath the sconce containing her fiery heart. Wherever the Triumph goes, the Emperor’s radiance goes with it. The glory of the martyred Matriarch is spread and Battle Sisters are filled with conviction to purge the foes of Mankind.",
+      "keywords": [
+        "infantry",
+        "grenades",
+        "character",
+        "epic hero",
+        "imperium",
+        "triumph of saint katherine"
+      ],
+      "leader": [
+        "battle sisters squad"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistols",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "The Fiery Heart (Aura): While a friendly ADEPTA SORORITAS unit is within 6\" of this model",
+          "if that unit is destroyed",
+          "the Miracle dice you gain as a result is automatically a 6."
+        ],
+        "otherAbilities": {
+          "Censer of the Sacred Rose (Aura):": "While a friendly ADEPTA SORORITAS unit is within 6\" of this model, improve that unit’s Leadership characteristic by 1."
+        }
+      }
 }

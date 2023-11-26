@@ -8,5 +8,90 @@
         "leadership": 7,
         "objetiveControl": 3,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "supremeCommander": false,
+      "lore": "Every flurry of notes performed by the Exorcist’s artillerist inloads targeting solutions and impact coordinates, so that volleys of thrice-blessed rockets are fired into the enemy. More than artillery tanks, Exorcists are mobile shrines to the magnificence of the Emperor that project inspirational battle canticles.",
+      "keywords": [
+        "vehicle",
+        "smoke",
+        "imperium",
+        "exorcist"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Exorcist missile launcher",
+          "modifiers": [
+            "heavy",
+            "indirect fire"
+          ],
+          "range": 36,
+          "strength": 10,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Exorcist conflagration rockets",
+          "modifiers": [
+            "blast",
+            "heavy",
+            "ignores cover",
+            "indirect fire"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Heavy bolter",
+          "modifiers": [
+            "sustained hits 1"
+          ],
+          "range": 36,
+          "strength": 5,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        },
+        {
+          "name": "Hunter-killer missile",
+          "modifiers": [
+            "one shot"
+          ],
+          "range": 48,
+          "strength": 14,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "CORE: Deadly Demise D3"
+        ],
+        "otherAbilities": {
+          "FACTION:": "Acts of Faith"
+        }
+      }
 }

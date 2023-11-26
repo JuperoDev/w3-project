@@ -8,5 +8,51 @@
         "leadership": 7,
         "objetiveControl": 1,
         "invulnerableSave": 6
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "Hospitallers are physical and spiritual healers. They are possessed of medicinal expertise as well as serving as a font of faith for those in need, whispering mantras of vigour to dull pain and intoning prayers to salve fevered minds. They move swiftly across the battlefield, working in solemn calm despite the harshest conditions.",
+      "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "hospitaller"
+      ],
+      "leader": [
+        "battle sisters squad",
+        "celestian sacresants",
+        "dominion squad",
+        "retributor squad",
+        "sisters novitiate squad"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Medicus Ministorum:": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
+          "Sacred Healing:": "At the end of your Movement phase , select one friendly ADEPTA SORORITAS INFANTRY Character unit within 3\" of this model. That unit regains up to 3 lost wounds. A unit can only be affected by this ability once per turn."
+        }
+      }
 }

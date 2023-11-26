@@ -19,5 +19,49 @@
         "leadership": 7,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    }]
+    }],
+    "factionKeywords": [
+        "adepta sororitas"
+      ],
+      "damaged": {},
+      "supremeCommander": false,
+      "lore": "Ephrael Stern, the Daemonifuge, is capable of manifesting strange powers seen by some as witchery. Yet she is a zealous defender of the Imperial Creed with unwavering devotion. Alongside her Aeldari companion, Kyganil, Stern pits her augmented strength and speed against the Emperor’s enemies.",
+      "keywords": [
+        "infantry",
+        "grenades",
+        "character",
+        "epic hero",
+        "imperium",
+        "daemonifuge"
+      ],
+      "leader": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "modifiers": [
+            "pistol"
+          ],
+          "range": 12,
+          "strength": 4,
+          "attacks": 0,
+          "ballistic-skills": 0,
+          "armor-penetration": 0,
+          "damage": 0,
+          "singleChoice": false
+        }
+      ],
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Fights First",
+          "Lone Operative"
+        ],
+        "faction": [
+          "Acts of Faith"
+        ],
+        "otherAbilities": {
+          "Holy Judgement:": "At the start of your Shooting phase , select one enemy unit within 12\" of and visible to Ephrael Stern. That unit must take a Leadership test , subtracting 2 from the result if it is a CHAOS unit. If the test is failed, that enemy unit suffers 3 mortal wounds .",
+          "Mysterious Saviours:": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        }
+      }
 }

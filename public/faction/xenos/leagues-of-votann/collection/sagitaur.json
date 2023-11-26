@@ -1,0 +1,72 @@
+{
+  "parentUnit": "Sagitaur",
+  "factionKeywords": [
+    "leagues of votann",
+    "votann"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Designed to survive the worst that hostile worlds and alien predators can throw at it, the Sagitaur is a rugged ATV ideally suited to scouting operations and swift, armoured offensives. Sagitaurs mount a remarkable amount of firepower for their size, and can even knock out enemy battle tanks.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "dedicated transport",
+    "sagitaur"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "HYLas beam cannon",
+      "modifiers": [
+        "sustained hits d3"
+      ],
+      "range": 24,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "L7 missile launcher - blast",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin bolt cannon",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Eye of the Ancestors"
+    ],
+    "otherAbilities": {
+      "Blistering Advance:": "Units can disembark from this TRANSPORT after it has Advanced . Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+    }
+  }
+}

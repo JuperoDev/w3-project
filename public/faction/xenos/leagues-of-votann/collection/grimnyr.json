@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Grimnyr",
+  "factionKeywords": [
+    "leagues of votann",
+    "votann"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Grimnyr – or Living Ancestors – are privy to the wisdom of the Votann, and as close as to priests as the secular Kin get. Equipped with barrier tech such as ward staves and energy-focusing CORVs, they are able to rouse the fury of the immaterium against their foes.",
+  "keywords": [
+    "keywords – all models: infantry",
+    "grimnyrgrimnyr model: character",
+    "psyker"
+  ],
+  "attributes": [
+    {
+      "name": "grimnyr",
+      "movement": 5,
+      "toughness": 5,
+      "salvation": 4,
+      "wounds": 4,
+      "leadership": 6,
+      "objectiveControl": 1
+    },
+    {
+      "name": "corv",
+      "movement": 5,
+      "toughness": 5,
+      "salvation": 4,
+      "wounds": 1,
+      "leadership": 6,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Ancestral Wrath - witchfire",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ancestral Wrath - focused witchfire",
+      "modifiers": [
+        "hazardous",
+        "psychic"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Eye of the Ancestors"
+    ],
+    "otherAbilities": {
+      "Fortify (Psychic):": "While this model is leading a unit, improve the Toughness characteristic of models in that unit by 1.",
+      "Grimnyr’s Regard:": "Once per battle, after this model’s unit fails a Battle-shock test , this model can use this ability. If it does, that unit is no longer Battle-shocked."
+    }
+  }
+}

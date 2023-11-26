@@ -1,0 +1,59 @@
+{
+  "parentUnit": "Einhyr Hearthguard",
+  "factionKeywords": [
+    "leagues of votann",
+    "votann"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Clad in formidable exo-armour and equipped with a fearsome array of weaponry, Einhyr Hearthguard are a force to be reckoned with. Whether forming bodyguards around their Oathband’s heroes or striking deep into the heart of enemy territory, they are unstoppable on the attack and immovable in defence.",
+  "keywords": [
+    "infantry",
+    "exo-armour",
+    "einhyr hearthguard"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Exo-armour grenade launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Volkanite disintegrator",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Eye of the Ancestors"
+    ],
+    "faction": [
+      "Oathband Bodyguard: While a CHARACTER is leading this unit",
+      "each time an attack targets this unit",
+      "if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic",
+      "subtract 1 from the Wound roll."
+    ],
+    "otherAbilities": {
+      "Teleport Crest:": "Models in the bearer’s unit have the Deep Strike ability."
+    }
+  }
+}

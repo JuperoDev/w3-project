@@ -1,0 +1,71 @@
+{
+  "parentUnit": "Brôkhyr Iron-master",
+  "factionKeywords": [
+    "leagues of votann",
+    "votann"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Iron-masters are the most accomplished Brôkhyrs of their Kindred. In battle, they take on the duty of maintaining damaged Kin war engines, often aided by Ironkin and COG repair crews. These veteran Brôkhyrs also bring their most powerful personal creations to war, taking satisfaction in unleashing them upon the foe.",
+  "keywords": [
+    "keywords – all models: infantry",
+    "brôkhyr iron-masterbrôkhyr iron-master model: character"
+  ],
+  "attributes": [
+    {
+      "name": "brôkhyr iron-master",
+      "movement": 5,
+      "toughness": 5,
+      "salvation": 4,
+      "wounds": 4,
+      "leadership": 7,
+      "objectiveControl": 1
+    },
+    {
+      "name": "ironkin assistant",
+      "movement": 5,
+      "toughness": 5,
+      "salvation": 4,
+      "wounds": 2,
+      "leadership": 7,
+      "objectiveControl": 1
+    },
+    {
+      "name": "e-cog",
+      "movement": 5,
+      "toughness": 5,
+      "salvation": 4,
+      "wounds": 1,
+      "leadership": 7,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Graviton rifle",
+      "modifiers": [
+        "anti-vehicle 2+"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Eye of the Ancestors"
+    ],
+    "otherAbilities": {
+      "Multispectral Visor:": "While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Hit roll .",
+      "Brôkhyr’s Guild:": "At the end of your Movement phase , this unit can repair one friendly LEAGUES OF VOTANN VEHICLE or EXO-FRAME model within 3\" of it. That model regains up to D3 lost wounds, or up to 3 lost wounds instead if this unit contains an Ironkyn Assistant. Each model can only be repaired once per turn."
+    }
+  }
+}

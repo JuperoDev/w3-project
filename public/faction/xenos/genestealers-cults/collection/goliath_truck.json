@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Goliath Truck",
+  "factionKeywords": [
+    "genestealer cults"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Robust and versatile, the Goliath Truck is the armoured transport of choice for the Genestealer Cults. These vehicles boast thick armour and capacious holds, and their heavy stubber and twin autocannon allow the crew to lay down a hail of supporting fire as the broodkin passengers disembark into battle.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "dedicated transport",
+    "great devourer",
+    "goliath truck"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Demolition charge cache",
+      "modifiers": [
+        "assault",
+        "blast",
+        "hazardous"
+      ],
+      "range": 6,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin autocannon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Firing Deck 12"
+    ],
+    "faction": [
+      "Fire Support: In your Shooting phase",
+      "after this model has shot",
+      "select one enemy unit it scored one or more hits against this phase. Until the end of the phase",
+      "each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit",
+      "you can re-roll the Wound roll."
+    ],
+    "otherAbilities": {
+      "This model is equipped with:": "heavy stubber; twin autocannon; demolition charge cache; Goliath wheels."
+    }
+  }
+}

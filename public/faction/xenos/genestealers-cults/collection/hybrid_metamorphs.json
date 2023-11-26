@@ -1,0 +1,59 @@
+{
+  "parentUnit": "Hybrid Metamorphs",
+  "factionKeywords": [
+    "genestealer cults"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Triggered by the approach of a hive fleet or a sudden trauma to the cult, Hybrid Metamorphs mutate from early generations of the brood cycle. Dormant gene-codes burst to life, bestowing weaponised limbs, ghastly bio-acidic glands and other so-called blessings upon these creatures, transforming them into devastating shock troops.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "great devourer",
+    "hybrid metamorphs"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Autopistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Hand flamer",
+      "modifiers": [
+        "ignores cover",
+        "pistol",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Cult Ambush"
+    ],
+    "otherAbilities": {
+      "Savage Amalgam:": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "parentUnit": "Biophagus",
+  "factionKeywords": [
+    "genestealer cults"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Biophagus is a scientist-surgeon whose injector goad can be used to enhance the unholy might of Aberrants and other favoured cultists, or to dose enemies with a mutagenic cocktail that rapidly dissolves them from within. Coupled with hurled vials of bio-acids, this arsenal renders the Biophagus a deadly agent of biological warfare.",
+  "keywords": [
+    "infantry",
+    "character",
+    "great devourer",
+    "biophagus"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Autopistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Chemical vials",
+      "modifiers": [
+        "anti-infantry 2+"
+      ],
+      "range": 6,
+      "strength": 1,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Twisted Science: While this model is leading a unit",
+      "melee weapons equipped by models in that unit have the [LETHAL HITS] ability.Biological Warfare: Once per battle",
+      "when this model’s unit is selected to fight",
+      "this model can use this ability. If it does",
+      "until the end of the phase",
+      "improve the Attacks and Damage characteristics of its injector goad by 3."
+    ],
+    "otherAbilities": {
+      "Alchemicus Familiar:": "Once per battle, when the bearer’s unit is selected to fight, the bearer can use its alchemicus familiar. If it does, until the end of the phase, melee weapons equipped by models in that unit have the [ANTI-INFANTRY 2+] ability.",
+      "Designer’s Note:": "Place an Alchemicus Familiar token next to the bearer, removing it once this ability has been used."
+    }
+  }
+}

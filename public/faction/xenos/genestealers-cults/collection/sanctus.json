@@ -1,0 +1,50 @@
+{
+  "parentUnit": "Sanctus",
+  "factionKeywords": [
+    "genestealer cults"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A Sanctus is an inescapable assassin who can track by psychic spoor and squirm through the smallest gaps. Its bio-dagger – spawned from the Patriarch’s genesis pools – unleashes the psychic might of the Broodmind with the slightest cut, while the Sanctus’ cult sniper rifle allows it to strike down prey from afar.",
+  "keywords": [
+    "infantry",
+    "character",
+    "great devourer",
+    "sanctus"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Cult sniper rifle",
+      "modifiers": [
+        "anti-psyker 2+",
+        "heavy",
+        "precision"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Infiltrators",
+      "Lone Operative",
+      "Stealth"
+    ],
+    "faction": [
+      "Psychic Spoor: At the start of the first battle round",
+      "select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey",
+      "that attack has the [IGNORES COVER] and [DEVASTATING WOUNDS] abilities.Creeping Shadow: This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    ],
+    "otherAbilities": {
+      "This model is equipped with:": "Sanctus bio-dagger."
+    }
+  }
+}

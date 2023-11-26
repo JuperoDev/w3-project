@@ -1,0 +1,74 @@
+{
+  "parentUnit": "Achilles Ridgerunners",
+  "factionKeywords": [
+    "genestealer cults"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These lightweight but rugged scout vehicles serve as the eyes and ears of the uprising, as well as coordinating lethal armoured ambushes that eliminate isolated foes or sever communication and supply lines. They can mount a versatile range of heavy weapons, allowing them to serve well whatever the Patriarch’s needs.",
+  "keywords": [
+    "vehicle",
+    "great devourer",
+    "achilles ridgerunners"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy mining laser",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy mortar",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy stubber",
+      "modifiers": [
+        "rapid fire 3",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Scouts 9\""
+    ],
+    "faction": [
+      "Crossfire: Each time this unit has shot",
+      "select one enemy unit that was hit by one or more attacks made by this unit this phase. Until the end of the phase",
+      "each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit",
+      "improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+    ],
+    "otherAbilities": {
+      "Flare Launcher:": "The bearer’s unit has the SMOKE keyword."
+    }
+  }
+}

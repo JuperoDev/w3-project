@@ -1,0 +1,79 @@
+{
+  "parentUnit": "Dire Avengers",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Furious in attack and immovable in defence, Dire Avengers wield Avenger catapults that unleash punishing bursts of monomolecular shurikens. Drawing on their faultless battle instincts, they always know when to launch lightning-fast assaults and when to fall back and draw the enemy into a kill zone.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "dire avengers"
+  ],
+  "attributes": [
+    {
+      "name": "dire avenger",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 4,
+      "wounds": 1,
+      "leadership": 6,
+      "objectiveControl": 1
+    },
+    {
+      "name": "dire avenger exarch",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 4,
+      "wounds": 2,
+      "leadership": 6,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Avenger shuriken catapult",
+      "modifiers": [
+        "assault",
+        "lethal hits"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [
+      "Defence Tactics: Each time you target this unit with the Fire Overwatch Stratagem",
+      "while resolving that Stratagem",
+      "hits are scored on unmodified Hit rolls of 5+",
+      "or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker you control."
+    ],
+    "otherAbilities": {
+      "Shimmershield:": "The bearer has a 4+ invulnerable save ."
+    }
+  }
+}

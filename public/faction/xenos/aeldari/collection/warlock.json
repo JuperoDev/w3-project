@@ -1,0 +1,75 @@
+{
+  "parentUnit": "Warlock",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Seers who have trained as Aspect Warriors find it easier to develop destructive psychic powers. These Aeldari are called Warlocks. In battle, they frequently band together in conclaves to pool their eldritch power, or else lead other Aeldari squads such as Guardians from the front. Casting the runes of battle, they wreak havoc on the foe.",
+  "keywords": [
+    "infantry",
+    "character",
+    "psyker",
+    "warlock"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Destructor",
+      "modifiers": [
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Singing spear",
+      "modifiers": [
+        "assault",
+        "psychic"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Runes of Fortune (Psychic):": "In your Command phase",
+      ", select one of the following to take effect until the start of your next Command phase:": "",
+      "Quicken:": "Each time this model’s unit Advances , do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit.",
+      "Restrain:": "Each time an enemy unit declares a charge , if this model’s unit is selected as a target of that charge, subtract 2 from the Charge roll. The same enemy unit can only be affected in this way once per phase."
+    }
+  }
+}

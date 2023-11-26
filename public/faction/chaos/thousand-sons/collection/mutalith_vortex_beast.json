@@ -1,0 +1,81 @@
+{
+  "parentUnit": "Mutalith Vortex Beast",
+  "factionKeywords": [
+    "thousand sons"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "This foul beast is an offence against sanity and all natural order. Its constantly mutating form drags in and expels empyric energy in a wild tempest that twists all about it ever further out of true. Those foes not driven insane by the monster’s mere presence are soon warped into fresh horrors by its foul energies.",
+  "keywords": [
+    "monster",
+    "daemon",
+    "chaos",
+    "tzeentch",
+    "mutalith vortex beast"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Warp vortex - blast",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Warp vortex - beam",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 18,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Warp vortex - torrent",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6",
+      "Feel No Pain 5+"
+    ],
+    "faction": [
+      "Mutating Vortex (Aura): At the end of your Movement phase",
+      "roll one D6 for each enemy unit within 6\" of this model: on a 2-3",
+      "that unit suffers 1 mortal wound; on a 4-5",
+      "that unit suffers D3 mortal wounds; on a 6",
+      "that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test.Immaterial Flare (Aura): While a friendly THOUSAND SONS PSYKER unit is within 6\" of this model",
+      "each time that unit uses a Ritual that specifies a range",
+      "you can double that range while resolving that Ritual."
+    ],
+    "otherAbilities": {
+      "This model is equipped with:": "warp vortex; betentacled maw; Mutalith claws."
+    }
+  }
+}

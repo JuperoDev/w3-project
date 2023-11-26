@@ -1,0 +1,85 @@
+{
+  "parentUnit": "Fire Prism",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The prism cannon of this vehicle is the bane of heavy battle tanks. In its firing process, a laser is discharged into a massive crystal prism that amplifies the shot’s potency. The energy is released in one of two ways – either as thin lances of light to destroy the toughest vehicles, or as a dispersed pulse to slaughter swathes of infantry.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "fire prism"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Prism cannon - dispersed pulse",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 60,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Prism cannon - focused lances",
+      "modifiers": [
+        "linked fire"
+      ],
+      "range": 60,
+      "strength": 18,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin shuriken catapult",
+      "modifiers": [
+        "assault",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "CORE: Deadly Demise D3"
+    ],
+    "otherAbilities": {
+      "FACTION:": "Strands of Fate"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "parentUnit": "Avatar Of Khaine",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Avatar of Khaine is an ancient war deity incarnate, whose mere presence incites merciless rage in the Asuryani around him. In battle, the Avatar marches through enemy fire without breaking stride, laughing cruelly as his weapon – the Wailing Doom – tastes hot flesh and spurting lifeblood with each swing and thrust.",
+  "keywords": [
+    "monster",
+    "character",
+    "epic hero",
+    "daemon",
+    "avatar of khaine"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "The Wailing Doom",
+      "modifiers": [
+        "sustained hits d3"
+      ],
+      "range": 12,
+      "strength": 16,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "The Bloody-Handed (Aura):": "While a friendly AELDARI unit is within 6\" of this model, add 1 to Advance and Charge rolls made for that unit.",
+      "Molten Form:": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+    }
+  }
+}

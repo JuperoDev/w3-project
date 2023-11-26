@@ -1,0 +1,62 @@
+{
+  "parentUnit": "Eldrad Ulthran",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "One of the most powerful Aeldari psykers ever to have lived, when Eldrad Ulthran takes to the field his enemies’ plans are already known to him. Such is Eldrad’s psychic might that he can break Titans and banish the mightiest of daemons, and over the millennia he has slain kings and champions beyond number.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "psyker",
+    "farseer",
+    "eldrad ulthran"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Mind War",
+      "modifiers": [
+        "anti-character 4+",
+        "precision",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Diviner of Futures:": "At the start of the battle, when making your first Strands of Fate roll , roll an additional three D6 (this means that roll will consist of fifteen D6).",
+      "Doom (Psychic):": "At the start of your Shooting phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 2+, until the end of the turn, each time a friendly AELDARI model makes an attack that targets that enemy unit, add 1 to the Wound roll ."
+    }
+  }
+}

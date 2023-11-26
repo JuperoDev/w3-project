@@ -1,0 +1,76 @@
+{
+  "parentUnit": "Troupe Master",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Choreographers of conflict, Troupe Masters direct their comrades’ reactions to the fates of battle and ensure their performance in the theatre of war is as perfect as it can be. They are blisteringly swift and deadly warriors, and with the consent of their peers they act as focal points of their Troupes.",
+  "keywords": [
+    "infantry",
+    "character",
+    "grenades",
+    "harlequins",
+    "troupe master"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Fusion pistol",
+      "modifiers": [
+        "assault",
+        "melta 2",
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Neuro disruptor",
+      "modifiers": [
+        "anti-infantry 2+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Cegorach’s Favour:": "Once per turn, when you use a Fate dice to substitute a Hit roll , a Wound roll or a saving throw made for this model, you can first change the result of that Fate dice to a 6.",
+      "Choreographer of War:": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+    }
+  }
+}

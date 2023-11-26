@@ -1,0 +1,47 @@
+{
+  "parentUnit": "Starweaver",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These agile and nimble anti-grav transport craft swoop and spiral effortlessly through incoming fire, their flickering holo-fields giving them polychromatic camouflage. Armed with multiple heavy weapons, they provide great volumes of supporting fire for the troops they carry, scything down the foe with withering hails of shurikens.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "dedicated transport",
+    "smoke",
+    "fly",
+    "harlequins",
+    "starweaver"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Firing Deck 6"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Rapid Embarkation:": "At the end of the Fight phase , if there are no models currently embarked within this TRANSPORT , you can select one friendly HARLEQUINS INFANTRY unit that has 6 or fewer models that is wholly within 6\" of this TRANSPORT . Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT ."
+    }
+  }
+}

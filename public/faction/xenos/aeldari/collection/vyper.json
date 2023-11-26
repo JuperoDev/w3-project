@@ -1,0 +1,69 @@
+{
+  "parentUnit": "Vyper",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These sleek skimmers offer a perfect compromise between the speed of a jetbike and the heavier armament of a grav-tank. Well-drilled Vyper squadrons move as one at breakneck speeds, evincing incredible grace as their seated gunners blast at the vulnerable rear armour of tanks, or harass the flanks of infantry squads.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "vypers"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Aeldari missile launcher - sunburst",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin shuriken catapult",
+      "modifiers": [
+        "assault",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Harassment Fire:": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover ."
+    }
+  }
+}

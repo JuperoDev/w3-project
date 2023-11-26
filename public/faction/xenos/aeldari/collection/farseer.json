@@ -1,0 +1,73 @@
+{
+  "parentUnit": "Farseer",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Asuryani look to their Farseers for leadership in battle. These psykers can uncover the foe’s intentions and calculate the effects of attacks. Their minds are their true weapons; with a thought, they can obliterate the memories of enemy commanders, hurl battle tanks into the air or summon terrifying storms of coruscating eldritch energy.",
+  "keywords": [
+    "character",
+    "infantry",
+    "psyker",
+    "farseer"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Eldritch Storm",
+      "modifiers": [
+        "blast",
+        "psychic"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Singing spear",
+      "modifiers": [
+        "assault",
+        "psychic"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Branching Fates (Psychic):": "Once per turn, when you use a Fate dice to substitute a roll made for a model or unit within 12\" of a FARSEER model from your army, one model from your army with this ability can use it. If it does, the result of that Fate dice is first changed to a 6.",
+      "Fortune (Psychic):": "In your Command phase , you can roll one D6: on a 2+, select one friendly AELDARI unit within 12\" of this PSYKER . Until the start of your next Command phase, each time an attack targets that unit, subtract 1 from the Wound roll ."
+    }
+  }
+}

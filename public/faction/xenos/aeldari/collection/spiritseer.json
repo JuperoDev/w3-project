@@ -1,0 +1,45 @@
+{
+  "parentUnit": "Spiritseer",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "It falls to the Spiritseers to commune with the souls of the dead. In this capacity, they guide ghost warriors through the inferno of battle, bringing the world around them into greater focus. Aided in this way, ghost warriors become yet more lethal, their strikes and shots ensuring the swift demise of their foes.",
+  "keywords": [
+    "character",
+    "infantry",
+    "psyker",
+    "spiritseer"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Spirit Mark:": "While this model is leading a unit, weapons in that unit have the [LETHAL HITS] ability and each time a model in that unit makes an attack, add 1 to the Hit roll .",
+      "Tears of Isha (Psychic):": "While this model is leading a unit, in your Command phase , you can return 1 destroyed Bodyguard model to that unit."
+    }
+  }
+}

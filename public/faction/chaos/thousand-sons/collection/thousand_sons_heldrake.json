@@ -1,0 +1,53 @@
+{
+  "parentUnit": "Thousand Sons Heldrake",
+  "factionKeywords": [
+    "thousand sons"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Swooping low over the battlefield upon flame-wreathed wings, Heldrakes send their enemies diving for cover. Weaving and jinking like living beasts, they unleash torrents of fire from their blazing jaw-guns, tear enemy aircraft from the skies with their vicious talons, and honour Tzeentch with every sacrificial kill.",
+  "keywords": [
+    "vehicle",
+    "aircraft",
+    "fly",
+    "daemon",
+    "chaos",
+    "tzeentch",
+    "heldrake"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Baleflamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Hover"
+    ],
+    "faction": [
+      "Flame-wreathed: Each time this model ends a Normal move",
+      "you can select one enemy unit it moved over during that move. Until the end of the turn",
+      "models in that unit cannot have the Benefit of Cover."
+    ],
+    "otherAbilities": {
+      "This model is equipped with:": "Hades autocannon; Heldrake claws."
+    }
+  }
+}

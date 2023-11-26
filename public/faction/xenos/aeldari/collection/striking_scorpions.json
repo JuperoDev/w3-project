@@ -1,0 +1,75 @@
+{
+  "parentUnit": "Striking Scorpions",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Striking Scorpions are the stealthiest Aspect, becoming one with the shadows to creep up on the enemy before falling upon them with ruthless intent. They can wait for days without motion before striking with the force of a lightning bolt, launching hails of mandiblaster fire and delivering flurries of blows with their Scorpion chainswords.",
+  "keywords": [
+    "infantry",
+    "striking scorpions"
+  ],
+  "attributes": [
+    {
+      "name": "striking scorpion",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 3,
+      "wounds": 1,
+      "leadership": 6,
+      "objectiveControl": 1
+    },
+    {
+      "name": "striking scorpion exarch",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 3,
+      "wounds": 2,
+      "leadership": 6,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Scorpion’s claw",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Mandiblasters:": "Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the MONSTER or VEHICLE keywords."
+    }
+  }
+}

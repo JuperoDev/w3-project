@@ -1,0 +1,47 @@
+{
+  "parentUnit": "Hemlock Wraithfighter",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Hemlocks blend the psychic abilities of their Spiritseer pilots with the gestalt energies of the Aeldari dead, who can pilot the craft should the seer be incapacitated. The aircraft’s mindshock pod unleashes waves of negative emotion to cause terror in the enemy, while its heavy D-scythes hurl the Hemlock’s victims into the warp.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "aircraft",
+    "psyker",
+    "wraith construct",
+    "hemlock wraithfighter"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy D-scythe",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [
+      "Mindshock Pod (Aura",
+      "Psychic): While an enemy unit is within 9\" of this model",
+      "subtract 1 from Battle-shock and Leadership tests taken for that unit."
+    ],
+    "otherAbilities": {
+      "This model is equipped with:": "2 heavy D-scythes; wraithbone hull."
+    }
+  }
+}

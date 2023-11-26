@@ -1,0 +1,74 @@
+{
+  "parentUnit": "Howling Banshees",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Howling Banshees are deadly in hand-to-hand fighting and renowned for their rapid strikes. Their Banshee masks contain psychosonic amplifiers that magnify the wearer’s keening battle screams into a mind-destroying shock wave. This aural assault inspires terror and paralysis in the foe as the Aspect Warriors move in for the kill.",
+  "keywords": [
+    "infantry",
+    "howling banshees"
+  ],
+  "attributes": [
+    {
+      "name": "howling banshee",
+      "movement": 8,
+      "toughness": 3,
+      "salvation": 4,
+      "wounds": 1,
+      "leadership": 6,
+      "objectiveControl": 1
+    },
+    {
+      "name": "howling banshee exarch",
+      "movement": 8,
+      "toughness": 3,
+      "salvation": 4,
+      "wounds": 2,
+      "leadership": 6,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Triskele",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Fights First"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Acrobatic:": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back ."
+    }
+  }
+}

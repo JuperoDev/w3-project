@@ -1,0 +1,45 @@
+{
+  "parentUnit": "Wraithguard",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Wraithguard are all but impervious to pain. This is vitally important, for their D-scythes and wraithcannons are short-ranged, and require them to advance close to the foe. These immensely powerful weapons fire arcane beams that open a momentary rift between realspace and the warp, capable of tearing any target apart.",
+  "keywords": [
+    "infantry",
+    "wraith construct",
+    "wraithguard"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Wraithcannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [
+      "War Construct: Once per battle round",
+      "when an enemy unit targets this unit",
+      "after that unit has finished making its attacks",
+      "this unit can shoot as if it were your Shooting phase."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "wraithcannon; close combat weapon."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "parentUnit": "Wraithknight",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {
+    "remainingWounds": 6,
+    "description": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Few foes can stand up to the power of a Wraithknight. Those armed with a heavy wraithcannon can throw targets straight into the hell-dimension of the warp, while the suncannon can doom masses of soldiers in plasma blasts. Wraithknights that wield a ghostglaive and scattershield are amply equipped to duel even titanic war engines.",
+  "keywords": [
+    "monster",
+    "titanic",
+    "towering",
+    "walker",
+    "wraith construct",
+    "wraithknight"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy wraithcannon",
+      "modifiers": [
+        "blast",
+        "devastating wounds"
+      ],
+      "range": 36,
+      "strength": 20,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Wraithbone Form:": "Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic.",
+      "Agile:": "Each time this model makes a Normal , Advance or Fall Back move, it can move over other models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+    }
+  }
+}

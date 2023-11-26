@@ -1,0 +1,79 @@
+{
+  "parentUnit": "Thousand Sons Sorcerer In Terminator Armour",
+  "factionKeywords": [
+    "thousand sons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Clad in hulking Terminator plate, a Sorcerer of the Thousand Sons can shrug off even the punishing fire of anti-tank weaponry. So protected, they are free to unleash their mutative magicks with impunity, leading offensives into even the most heavily defended enemy strongpoints and laying low any who bar their path.",
+  "keywords": [
+    "infantry",
+    "character",
+    "psyker",
+    "terminator",
+    "chaos",
+    "tzeentch",
+    "sorcerer"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Coruscating Flames",
+      "modifiers": [
+        "anti-monster 4+",
+        "anti-vehicle 4+",
+        "devastating wounds",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno combi-bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Cabal of Sorcerers 2"
+    ],
+    "otherAbilities": {
+      "Empyric Guidance (Psychic):": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+      "Marked by Fate (Psychic):": "In your Shooting phase , you can select one enemy unit within 18\" of and visible to this model. Until the end of the turn, each time a friendly THOUSAND SONS model makes an attack that targets that unit, re-roll a Hit roll of 1."
+    }
+  }
+}

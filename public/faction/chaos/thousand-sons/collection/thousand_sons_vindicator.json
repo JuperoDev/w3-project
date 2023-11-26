@@ -1,0 +1,91 @@
+{
+  "parentUnit": "Thousand Sons Vindicator",
+  "factionKeywords": [
+    "thousand sons"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Chaos Vindicator is a brutish siege tank whose demolisher cannon fires devastatingly destructive shells that can flatten bunkers, breach fortress walls or vaporise entire squads of foes in a single hit. The Thousand Sons delight in fielding these vehicles, which effect sudden and catastrophic change with every shot.",
+  "keywords": [
+    "vehicle",
+    "smoke",
+    "chaos",
+    "tzeentch",
+    "vindicator"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Demolisher cannon",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Havoc launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno combi-bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Siege Shield: When making ranged attacks with its demolisher cannon",
+      "this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition",
+      "when making ranged attacks",
+      "this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+    ],
+    "otherAbilities": {
+      "This model is equipped with:": "demolisher cannon; armoured tracks."
+    }
+  }
+}

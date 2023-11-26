@@ -1,0 +1,58 @@
+{
+  "parentUnit": "Windriders",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The jetbikes ridden by the Windriders can cross leagues in the space of a few heartbeats, and to master such incredible machines takes great skill. Windriders are expected to do this and more, for in battle they must be able to shred what resistance they encounter with devastating bursts of fire from their jetbikes’ attached weapons.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "windriders"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin shuriken catapult",
+      "modifiers": [
+        "assault",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [
+      "Swift Demise: Each time a model in this unit makes a ranged attack that targets the closest eligible target",
+      "re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker your opponent controls",
+      "you can re-roll the Hit roll instead."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "twin shuriken catapult; close combat weapon."
+    }
+  }
+}

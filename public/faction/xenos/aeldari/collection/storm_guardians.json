@@ -1,0 +1,98 @@
+{
+  "parentUnit": "Storm Guardians",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Storm Guardians often support Aspect Warriors in close combat, wielding their pistols and blades with all the grace and skill of their kind. Other Storm Guardians bring special weapons to bear, burning foes out of cover with bursts from their flamers or melting through armoured bunkers with their fusion guns.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "grenades",
+    "guardians",
+    "storm guardians"
+  ],
+  "attributes": [
+    {
+      "name": "storm guardian",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 4,
+      "wounds": 1,
+      "leadership": 6,
+      "objectiveControl": 2
+    },
+    {
+      "name": "serpent’s scale platform",
+      "movement": 7,
+      "toughness": 3,
+      "salvation": 4,
+      "wounds": 2,
+      "leadership": 6,
+      "objectiveControl": 0
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Aeldari flamer",
+      "modifiers": [
+        "assault",
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Guardian fusion gun",
+      "modifiers": [
+        "assault",
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [
+      "Stormblades: At the end of your Command phase",
+      "if this unit is within range of an objective marker you control",
+      "that objective marker remains under your control",
+      "even if you have no models within range of it",
+      "until your opponent controls it at the start or end of any turn.Crewed Platform: When the last Storm Guardian model in this unit is destroyed",
+      "any remaining Serpent’s Scale Platform models in this unit are also destroyed."
+    ],
+    "otherAbilities": {
+      "Serpent Shield:": "Models in the bearer’s unit have a 5+ invulnerable save ."
+    }
+  }
+}

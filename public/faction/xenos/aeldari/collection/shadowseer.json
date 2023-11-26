@@ -1,0 +1,63 @@
+{
+  "parentUnit": "Shadowseer",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Shadowseers can blind their enemies and drive them mad with their psychic powers. They shield their allies with veils of illusion, and crush bones in close combat with strikes from their miststaves – which also scramble the perceptions of those they hit.",
+  "keywords": [
+    "infantry",
+    "character",
+    "psyker",
+    "grenades",
+    "harlequins",
+    "shadowseer"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Neuro disruptor",
+      "modifiers": [
+        "anti-infantry 2+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader",
+      "Stealth"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Fog of Dreams (Psychic):": "While this model is leading a unit, models in that unit have the Stealth ability.",
+      "Twilight Pathways (Psychic):": "At the start of your Movement phase , one model from your army with this ability can use it. If it does, until the end of the turn, you can re-roll Advance rolls made for that model’s unit and that model’s unit is eligible to declare a charge in a turn in which it Advanced."
+    }
+  }
+}

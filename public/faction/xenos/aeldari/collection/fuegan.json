@@ -1,0 +1,59 @@
+{
+  "parentUnit": "Fuegan",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Fuegan has dedicated himself to the total destruction of the enemies of the Asuryani, and the trail of corpses he has left in his wake spans the galaxy. Those he sets his fiery gaze upon he either eradicates from existence with burning blasts from his firepike, Searsong, or cuts in twain with furious blows from the Fire Axe.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "phoenix lord",
+    "fuegan"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Searsong - beam",
+      "modifiers": [
+        "sustained hits d3"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Searsong - lance",
+      "modifiers": [
+        "melta 6"
+      ],
+      "range": 18,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+",
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": {
+      "Unquenchable Resolve:": "The first time this model is destroyed , roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining.",
+      "Burning Lance:": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+    }
+  }
+}

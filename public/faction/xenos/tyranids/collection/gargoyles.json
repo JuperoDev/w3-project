@@ -1,14 +1,16 @@
 {
     "parentUnit": "gargoyles",
-    "attributes": [{
-        "movement": 12,
-        "toughness": 3,
-        "save": 6,
-        "wounds": 1,
-        "leadership": 8,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Gargoyles are often the first warrior organisms hurled against a prey world. Their teeming swarms darken the skies. Their opportunistic attacks spread panic and disarray. Worst of all, the creatures can squirm through gaps that appear far too small, bursting through gun slits and vent pipes to assail horrified defenders. ",
     "factionKeyword": [
@@ -22,7 +24,7 @@
         "endless multitude",
         "gargoyles"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "blinding venom",
@@ -36,15 +38,19 @@
     ],
     "supremeCommander": false,
     "damaged": {},
-  
-    "additionalParameter": {},  "options": [
+    "additionalParameter": {},
+    "options": [
         {
-          "count": [10],
-          "points": 75
+            "count": [
+                10
+            ],
+            "points": 75
         },
         {
-            "count": [20],
+            "count": [
+                20
+            ],
             "points": 150
-          }
-      ]
+        }
+    ]
 }

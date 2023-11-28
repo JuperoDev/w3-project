@@ -1,14 +1,16 @@
 {
     "parentUnit": "tyrannocyte",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 9,
-        "save": 3,
-        "wounds": 10,
-        "leadership": 8,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Tyrannocytes are huge spores, heat-resistant to endure atmospheric re-entry and with wet, pulsing interior chambers within which broods of organisms can ride down to a world’s surface. Once its passengers spill forth into battle, the Tyrannocyte drifts skyward again and goes hunting for its own prey. ",
     "factionKeyword": [
@@ -22,7 +24,7 @@
         "transport",
         "tyrannocyte"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "flensing whips",
@@ -32,11 +34,15 @@
             "armor-penetration": 1,
             "damage": 2,
             "modifiers": []
-        }],
-        "supremeCommander": false,  "options": [
-            {
-              "count": [1],
-              "points": 105
-            }
-          ]
+        }
+    ],
+    "supremeCommander": false,
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 105
+        }
+    ]
 }

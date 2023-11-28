@@ -1,14 +1,16 @@
 {
     "parentUnit": "carnifexes",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 9,
-        "save": 2,
-        "wounds": 8,
-        "leadership": 8,
-        "objetiveControl": 3,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 8,
+            "leadership": 8,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Carnifexes have been a mainstay of the hive fleets for centuries. Rugged and adaptable organisms, they can support a great range of weapon grafts and biomorphs while retaining the raw strength, durability and armoured ferocity that has seen them smash through countless prey defence lines like living battering rams. ",
     "factionKeyword": [
@@ -19,6 +21,7 @@
         "great devourer",
         "carnifexes"
     ],
+    "rangedWeapons":[],
     "meleeWeapons": [
         {
             "name": "Carnifex crushing claws",
@@ -36,7 +39,9 @@
             "strength": 9,
             "armor-penetration": 2,
             "damage": 3,
-            "modifiers": ["extra attacks"]
+            "modifiers": [
+                "extra attacks"
+            ]
         },
         {
             "name": "Carnifex scything talons",
@@ -57,5 +62,74 @@
             "modifiers": []
         }
     ],
-    "supremeCommander": false
+    "supremeCommander": false,
+    "wargear": [
+        {
+            "description": "Any number of models can each have their Carnifex extra scything talons replaced with one of the following:",
+            "items": [
+                "1 deathspitters with slimer maggots",
+                "1 devourers with brainleech worms",
+                "1 heavy venom cannon",
+                "1 stranglethorn cannon",
+                "1 Carnifex crushing claws"
+            ]
+        },
+        {
+            "description": "any number of models can each have their Carnifex scything talons replaced with one of the following:",
+            "items": [
+                "1 deathspitters with slimer maggots",
+                "1 devourers with brainleech worms",
+                "1 Carnifex crushing claws"
+            ]
+        },
+        {
+            "description": "Any number of models can each be equipped with 1 bio-plasma."
+        },
+        {
+            "description": "Any number of models can each be equipped with 1 spine banks."
+        }
+    ],
+    "abilities": {
+      "core": [
+  "deadly Demise 1"
+      ],
+      "faction": [
+        "synapse"
+  
+      ],
+      "otherAbilities": [
+        {
+          "name": "blistering assault",
+          "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit lost one or more wounds as a result of those attacks, this unit can make a Blistering Assault move. If it does, roll one D6, adding 2 to the result: each model in this unit can be moved a distance in inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. Each unit can only make one Blistering Assault move per phase."
+        }
+      ]
+    },
+
+    "unitComposition": [
+      {
+        "unitType": "carnifexes",
+        "minQuantity": 1,
+        "maxQuantity": 2
+      }
+    ],
+    "equipment": [
+      "Carnifex scything talons",
+      "Carnifex extra scything talons",
+      "chitinous claws and teeth"
+  
+    ],
+  
+    "options": [
+      {
+        "count": [1],
+        "points": 125
+      },
+      {
+        "count": [2],
+        "points": 250
+      }
+    ],
+    "damaged": {},
+  
+    "additionalParameter": {}
 }

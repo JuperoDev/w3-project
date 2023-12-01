@@ -117,8 +117,8 @@ _An array of objects, each representing a ranged weapon with the following prope
 **"modifiers"**: An array of strings describing modifiers (e.g., "assault").
 
 > Further information for **modifiers** will be provided in the future
->
-> **"singleChoice"**: Boolean.
+
+ **"singleChoice"**: Boolean.
 
 e.g.,
 

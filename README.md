@@ -1,5 +1,7 @@
 # Unit JSON file
 
+(need to add warhear ability)
+
 The ensuing document outlines the blueprint for organizing and constructing data pertaining to an individual unit.
 
 To store the unit's JSON file, it should be located within the **collection** directory inside an army folder

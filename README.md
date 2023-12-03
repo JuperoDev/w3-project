@@ -1,6 +1,5 @@
 # Unit JSON file
 
-(need to add warhear ability)
 
 The ensuing document outlines the blueprint for organizing and constructing data pertaining to an individual unit.
 

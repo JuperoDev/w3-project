@@ -53,5 +53,23 @@
             "minQuantity": 1,
             "maxQuantity": 1
         }
-    ]
+    ],
+    "abilities": {
+        "core": [
+            "fights first", "infiltrators", "lone operative", "stealth"
+        ],
+        "faction": [
+            "synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "feeder tendrils",
+                "description": "Each time this model destroys an enemy CHARACTER model, you gain 1CP."
+            },
+            {
+                "name": "Fear of the Unseen (Aura)",
+                "description": "While an enemy unit is within 6'' of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+            }
+        ]
+    }
 }

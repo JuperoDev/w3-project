@@ -81,7 +81,25 @@
                 "minQuantity": 1,
                 "maxQuantity": 1
             }
-        ]
+        ],
+        "abilities": {
+            "core": [
+                "Deadly Demise 3", "leader"
+            ],
+            "faction": [
+                "synapse", "shadow in the warp"
+            ],
+            "otherAbilities": [
+                {
+                    "name": "Will of the Hive Mind",
+                    "description": "Once per turn, one friendly TYRANIDS unit within 12'' of one or more models with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+                },
+                {
+                    "name": "Onslaught (Aura, Psychic)",
+                    "description": "While a friendly TYRANIDS unit is within 6'' of this model, ranged weapons equipped by models in that unit have the [ASSAULT] ability."  
+                }
+            ]
+        }
       
     
 }

@@ -59,5 +59,23 @@
                 "minQuantity": 1,
                 "maxQuantity": 1
             }
-        ]
+        ],
+        "abilities": {
+            "core": [
+                "feel no pain 5+", "leader"
+            ],
+            "faction": [
+                "synapse"
+            ],
+            "otherAbilities": [
+                {
+                    "name": "Alpha Leader",
+                    "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+                },
+                {
+                    "name": "Unstoppable Monster",
+                    "description": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
+                }
+            ]
+        }
 }

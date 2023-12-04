@@ -57,18 +57,16 @@
           "maxQuantity": 10
       }
   ],
+
   "abilities": {
-      "core": [
-          "Deadly Demise 1"
-      ],
-      "faction": [
-          "synapse"
-      ],
-      "otherAbilities": [
-          {
-              "name": "Seed Spore Mines",
-              "description": " In your Shooting phase, each time this unit is selected to shoot, it can use this ability instead of making any attacks with its ranged weapons. If it does, you can add a new Spore Mines unit to your army and set it up anywhere on the battlefield that is within 48'' of this unit but more than 9'' horizontally away from all enemy units. That Spore Mines unit contains 1 model for each model in this unit."
-          }
-      ]
+    "core": [
+      "Scouts 8''"
+    ],
+    "faction": [
+      "Synapse"
+    ],
+    "otherAbilities": {
+      "Vanguard Predator:": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers , re-roll a Wound roll of 1 as well."
+    }
   }
 }

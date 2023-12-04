@@ -48,17 +48,15 @@
         }
     ],
     "abilities": {
-        "core": [
-            "Deadly Demise 1"
-        ],
-        "faction": [
-            "synapse"
-        ],
-        "otherAbilities": [
-            {
-                "name": "Seed Spore Mines",
-                "description": " In your Shooting phase, each time this unit is selected to shoot, it can use this ability instead of making any attacks with its ranged weapons. If it does, you can add a new Spore Mines unit to your army and set it up anywhere on the battlefield that is within 48'' of this unit but more than 9'' horizontally away from all enemy units. That Spore Mines unit contains 1 model for each model in this unit."
-            }
-        ]
+      "core": [
+        "Deep Strike"
+      ],
+      "faction": [
+        "Synapse"
+      ],
+      "otherAbilities": {
+        "Bio-minefield:": "Enemy units cannot start or end an Advance move within 6'' of this unit.",
+        "Floating Death:": "Each time this unit or an enemy unit ends a move, for each model in this unit that is within 3'' of one or more enemy units, select one of those enemy units. That model in this unit is destroyed , then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound ; on a 6, that enemy unit suffers D3 mortal wounds."
+      }
     }
 }

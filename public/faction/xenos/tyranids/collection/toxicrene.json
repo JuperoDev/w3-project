@@ -50,17 +50,15 @@
         }
     ],
     "abilities": {
-        "core": [
-            "Deadly Demise 1"
-        ],
-        "faction": [
-            "synapse"
-        ],
-        "otherAbilities": [
-            {
-                "name": "Seed Spore Mines",
-                "description": " In your Shooting phase, each time this unit is selected to shoot, it can use this ability instead of making any attacks with its ranged weapons. If it does, you can add a new Spore Mines unit to your army and set it up anywhere on the battlefield that is within 48'' of this unit but more than 9'' horizontally away from all enemy units. That Spore Mines unit contains 1 model for each model in this unit."
-            }
-        ]
+      "core": [
+        "Deadly Demise D3"
+      ],
+      "faction": [
+        "Synapse"
+      ],
+      "otherAbilities": {
+        "Grasping Tendrils:": "Each time an enemy unit (excluding TITANIC units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back , you can roll one D6: on a 3+, that enemy unit must Remain Stationary instead.",
+        "Hypertoxic Miasma (Aura):": "At the end of your Movement phase , roll one 06 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound ; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
+      }
     }
 }

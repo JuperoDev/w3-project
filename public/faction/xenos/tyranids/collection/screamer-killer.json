@@ -50,17 +50,14 @@
             }
         ],
         "abilities": {
-            "core": [
-                "Deadly Demise 1"
-            ],
-            "faction": [
-                "synapse"
-            ],
-            "otherAbilities": [
-                {
-                    "name": "Seed Spore Mines",
-                    "description": " In your Shooting phase, each time this unit is selected to shoot, it can use this ability instead of making any attacks with its ranged weapons. If it does, you can add a new Spore Mines unit to your army and set it up anywhere on the battlefield that is within 48'' of this unit but more than 9'' horizontally away from all enemy units. That Spore Mines unit contains 1 model for each model in this unit."
-                }
-            ]
+          "core": [
+            "Deadly Demise 1"
+          ],
+          "faction": [
+            "Synapse"
+          ],
+          "otherAbilities": {
+            "Death Scream:": "In your Shooting phase , after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test , subtracting 1 from that test."
+          }
         }
 }

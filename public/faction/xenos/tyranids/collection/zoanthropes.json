@@ -71,5 +71,26 @@
               "minQuantity": 3,
               "maxQuantity": 6
           }
-      ]
+      ],
+      "rangedWeapons": [
+          {
+              "name": "bio-cannon",
+              "range": 24,
+              "attacks": "d6",
+              "ballistic-skills": 4,
+              "strength": 5,
+              "armor-penetration": 0,
+              "damage": 1,
+              "modifiers": [
+                  "blast",
+                  "heavy"
+              ]
+          }
+      ],
+      "damaged": {
+    },
+    "equipment": ["biocannon", "xenos claws and teeth"],
+
+    "additionalParameter": {}
+    
 }

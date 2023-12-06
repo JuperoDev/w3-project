@@ -37,7 +37,19 @@
         "modifiers": [
             "twin-linked"
         ]
-    }],
+    }], "rangedWeapons": [
+        {
+            "name": "synaptic pulse",
+            "range": 18,
+            "attacks": "2d6+3",
+            "ballistic-skills": "n/a",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": ["psychic","torrent"],
+            "singleChoice": false
+        }
+    ],
     "supremeCommander": false,  "options": [
         {
           "count": [1],

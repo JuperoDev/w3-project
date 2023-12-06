@@ -24,6 +24,19 @@
         "synapse",
         "tervigon"
     ],
+    "rangedWeapons": [
+        {
+            "name": "stinger salvoes",
+            "range": 24,
+            "attacks": 8,
+            "ballistic-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": false
+        }
+    ],
     "meleeWeapons": [
         {
             "name": "massive crushing claws",
@@ -32,7 +45,8 @@
             "strength": 12,
             "armor-penetration": 3,
             "damage": "d6+1",
-            "modifiers": []
+            "modifiers": [],
+            "singleChoice": true
         },
         {
             "name": "massive scything talons - strike",
@@ -41,7 +55,8 @@
             "strength": 9,
             "armor-penetration": 2,
             "damage": "d6",
-            "modifiers": []
+            "modifiers": [],
+            "singleChoice": true
         },
         {
             "name": "massive scything talons - sweep",
@@ -53,48 +68,50 @@
             "modifiers": []
         }
     ],
-    "supremeCommander": false, 
-     "options": [
+    "supremeCommander": false,
+    "options": [
         {
-          "count": [1],
-          "points": 190
+            "count": [
+                1
+            ],
+            "points": 190
         }
-      ],
-      "wargear": [
+    ],
+    "wargear": [
         {
-          "description": "This model’s massive scything talons can be replaced with 1 massive crushing claws."
-         }
-          ],
-          "equipment": [
-            "stinger salvoes",
-            "massive scything talons"
-          ],
-          "unitComposition": [
-              {
-                  "unitType": "Tervigon",
-                  "minQuantity": 1,
-                  "maxQuantity": 1
-              }
-          ],
-          "abilities": {
-              "core": [
-                  "Deadly Demise 6"
-              ],
-              "faction": [
-                  "synapse", "shadow in the warp"
-              ],
-              "otherAbilities": [
-                  {
-                      "name": "Spawn Termagants",
-                      "description": "In your Command phase, you can select one friendly TERMAGANTS unit within 6'' of this model and return up to D3+3 destroyed models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase."
-                  },
-                  {
-                    "name": "Brood Progenitor (Aura, Psychic)",
-                    "description": "While a friendly TERMAGANTS unit is within 6'' of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
-                }
-              ]
-          },
-
-          "additionalParameter": {},
-          "damaged": {}
+            "description": "This model’s massive scything talons can be replaced with 1 massive crushing claws."
+        }
+    ],
+    "equipment": [
+        "stinger salvoes",
+        "massive scything talons"
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Tervigon",
+            "minQuantity": 1,
+            "maxQuantity": 1
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 6"
+        ],
+        "faction": [
+            "synapse",
+            "shadow in the warp"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Spawn Termagants",
+                "description": "In your Command phase, you can select one friendly TERMAGANTS unit within 6'' of this model and return up to D3+3 destroyed models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase."
+            },
+            {
+                "name": "Brood Progenitor (Aura, Psychic)",
+                "description": "While a friendly TERMAGANTS unit is within 6'' of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {}
 }

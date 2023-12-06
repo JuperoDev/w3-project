@@ -21,7 +21,74 @@
         "great devourer",
         "carnifexes"
     ],
-    "rangedWeapons":[],
+    "rangedWeapons": [
+      {
+          "name": "bio-plasma",
+          "range": 12,
+          "attacks": "d3",
+          "ballistic-skills": 4,
+          "strength": 7,
+          "armor-penetration": 2,
+          "damage": 1,
+          "modifiers": ["assault" , "blast"],
+          "singleChoice": false
+      },
+      {
+        "name": "deathspitters with slimer maggots",
+        "range": 24,
+        "attacks": 6,
+        "ballistic-skills": 4,
+        "strength": 7,
+        "armor-penetration": 2,
+        "damage": 1,
+        "modifiers": [],
+        "singleChoice": false
+    },
+    {
+      "name": "devourer with brainleech worms",
+      "range": 18,
+      "attacks": 12,
+      "ballistic-skills": 4,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [],
+      "singleChoice": false
+  },
+  {
+    "name": "heavy venom cannon",
+    "range": 36,
+    "attacks": "d3",
+    "ballistic-skills": 4,
+    "strength": 9,
+    "armor-penetration": 3,
+    "damage": 2,
+    "modifiers": ["blast"],
+    "singleChoice": false
+},
+{
+  "name": "spine banks",
+  "range": 6,
+  "attacks": 5,
+  "ballistic-skills": 4,
+  "strength": 5,
+  "armor-penetration": 0,
+  "damage": 1,
+  "modifiers": ["assault"],
+  "singleChoice": false
+},
+{
+  "name": "stranglethorn cannon",
+  "range": 4,
+  "attacks": "d6+1",
+  "ballistic-skills": 4,
+  "strength": 7,
+  "armor-penetration": 1,
+  "damage": 2,
+  "modifiers": ["blast"],
+  "singleChoice": false
+}
+  ],
     "meleeWeapons": [
         {
             "name": "Carnifex crushing claws",

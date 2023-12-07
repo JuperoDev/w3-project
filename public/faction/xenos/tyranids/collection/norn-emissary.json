@@ -47,5 +47,72 @@
      },
 
      "additionalParameter": {},
-     "damaged": {}
+     "damaged": {},
+     "meleeWeapons": [
+         {
+             "name": "monstruos sxything talons",
+             "attacks": 6,
+             "weapons-skills": 2,
+             "strength": 9,
+             "armor-penetration": 2,
+             "damage": 3
+         },
+         {
+            "name": "Monstrous rending claws",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+     ],
+     "rangedWeapons": [
+         {
+          "name": "Psychic Tendril – neuroparasite",
+          "range": 12,
+          "attacks": 2,
+          "ballistic-skills": 2,
+          "strength": 12,
+          "armor-penetration": 3,
+          "damage": "d6+1",
+          "modifiers": ["precision", "psychic"],
+          "singleChoice": true
+        },
+        {
+            "name": "Psychic Tendril – neuroblast",
+            "range": 12,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": ["blast","psychic"],
+            "singleChoice": true
+          },{
+            "name": "Psychic Tendril – neurolance",
+            "range": 12,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": ["melta 2","psychic"],
+            "singleChoice": true
+          }
+    ],
+      
+        "leader": [
+            
+        ],
+        "lore": "Each Norn Emissary is spawned for a specific purpose, be it predating on a strategically gifted commander, abducting a knowledgeable prey-being at the behest of its Norn Queen, or some other ineffable task. Melding terrifying psionic potential with speed, agility and awful strength, the Norn Emissary is more than equal to its mission.",
+        "factionKeyword": [
+            "tyranids"
+        ],
+        "keywords": [
+            "monster",
+            "great devourer",
+            "psyker",
+            "synapse",
+            "norn emissary"
+        ]
 }

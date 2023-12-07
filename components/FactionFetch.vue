@@ -27,4 +27,4 @@ onMounted(async () => {
 });
 </script>
 
-<style lang=""></style>
+<style></style>

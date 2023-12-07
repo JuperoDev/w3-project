@@ -39,6 +39,18 @@
             "damage": 1
         }
     ],
+    "rangedWeapons": [
+        {
+         "name": "psychic scream",
+         "range": 18,
+         "attacks": "2d6",
+         "ballistic-skills": "n/a",
+         "strength": 5,
+         "armor-penetration": 1,
+         "damage": 2,
+         "modifiers": ["ignores cover", "psychic", "torrent"],
+         "singleChoice": false
+       }],
     "supremeCommander": false,
     "options": [
         {

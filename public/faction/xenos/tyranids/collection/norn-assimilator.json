@@ -46,5 +46,51 @@
      },
 
      "additionalParameter": {},
-     "damaged": {}
+     "damaged": {},
+     "meleeWeapons": [
+         {
+             "name": "monstruos sxything talons",
+             "attacks": 6,
+             "weapons-skills": 2,
+             "strength": 9,
+             "armor-penetration": 2,
+             "damage": 3
+         },
+         {
+            "name": "Toxinjector Harpoon",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1"
+        }
+     ],
+     "rangedWeapons": [
+         {
+          "name": "toxicinjector harpoon",
+          "range": 12,
+          "attacks": 2,
+          "ballistic-skills": 2,
+          "strength": 12,
+          "armor-penetration": 3,
+          "damage": "d6+1",
+          "modifiers": ["harpooned"],
+          "singleChoice": false
+        }
+    ],
+      
+        "leader": [
+            
+        ],
+        "lore": "Norn Assimilators are the living and inexhaustible nemeses of their prey. Using their toxinjector harpoons, these towering monsters can impale and tear down the fortifications their quarry cower behind, drag guardian war engines into their deadly embrace, or pinion the target themselves before dragging them inexorably in to their doom. ",
+        "factionKeyword": [
+            "tyranids"
+        ],
+        "keywords": [
+            "monster",
+            "great devourer",
+            "psyker",
+            "synapse",
+            "norn assimilator"
+        ]
 }

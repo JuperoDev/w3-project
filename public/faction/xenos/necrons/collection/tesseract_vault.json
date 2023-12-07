@@ -1,0 +1,95 @@
+{
+  "parentUnit": "Tesseract Vault",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {
+    "remainingWounds": 8,
+    "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "These super-heavy war engines channel the furious might of imprisoned Transcendent C’tan Shards, unleashing one unnatural phenomenon after another upon the foe. Yet should they ever be destroyed and the C’tan inside freed, the god-shard’s wrath will be great indeed, and all should fear its rampage.",
+  "keywords": [
+    "vehicle",
+    "titanic",
+    "fly",
+    "towering",
+    "tesseract vault"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Tesla spheres",
+      "modifiers": [
+        "sustained hits 2"
+      ],
+      "range": 24,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Antimatter Meteor",
+      "modifiers": [
+        "blast",
+        "devastating wounds",
+        "indirect fire",
+        "c'tan power"
+      ],
+      "range": 24,
+      "strength": 10,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Cosmic Fire",
+      "modifiers": [
+        "ignores cover",
+        "devastating wounds",
+        "torrent",
+        "c'tan power"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Time’s Arrow",
+      "modifiers": [
+        "anti-character 4+",
+        "devastating wounds",
+        "precision",
+        "c'tan power"
+      ],
+      "range": 24,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6+3"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Powers of the C’tan:": "In your Shooting phase , when this model is selected to shoot, first select one of the C’TAN POWERS weapons (see left). Until the end of the phase, this model is equipped with that weapon in addition to its other weapons (this model cannot make attacks with any other C’tan Powers weapons you did not select in this way this phase)."
+    }
+  }
+}

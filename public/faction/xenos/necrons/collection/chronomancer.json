@@ -1,0 +1,44 @@
+{
+  "parentUnit": "Chronomancer",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Chronomancers are Crypteks who harness temporal energies, their aeonstaves slowing down or speeding up weaponised time. Their timesplinter mantles use crystallised moments to confound enemy blows, while their chronometrons hasten allies through time itself.",
+  "keywords": [
+    "infantry",
+    "character",
+    "cryptek",
+    "chronomancer"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Aeonstave",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Timesplinter Mantle:": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll .",
+      "Chronometron:": "In your Shooting phase , after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 5\" as if it were your Movement phase . If it does, until the end of the turn, that unit is not eligible to declare a charge ."
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parentUnit": "Annihilation Barge",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Slow-moving but deadly, Annihilation Barges serve as anti-infantry fire support platforms. They are often deployed to watch over important strategic locations, gliding serenely into position upon a cushion of repulsion energies before unleashing furious storms of eldritch lightning from their massive cannons.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "annihilation barge"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Gauss cannon",
+      "modifiers": [
+        "lethal hits"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Tesla cannon",
+      "modifiers": [
+        "sustained hits 2"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin tesla destructor",
+      "modifiers": [
+        "sustained hits 2",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Malevolent Arcing:": "In your Shooting phase , each time you select a target for this model’s twin tesla destructor, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 5+, the unit being rolled for is struck by arcing energies; after resolving all of this model’s attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds ."
+    }
+  }
+}

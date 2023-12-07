@@ -1,0 +1,57 @@
+{
+  "parentUnit": "Catacomb Command Barge",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Some Necron nobles ride to battle enthroned on Catacomb Command Barges. These armoured skimmers beam out carrier waves that bear a noble’s orders directly to the dynasty’s legions, while also providing them with quantum shielding, heavy gauss firepower and a fast-moving platform from which to fight.",
+  "keywords": [
+    "vehicle",
+    "character",
+    "fly",
+    "catacomb command barge"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Gauss cannon",
+      "modifiers": [
+        "lethal hits"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Tesla cannon",
+      "modifiers": [
+        "sustained hits 2"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Carrier Wave (Aura):": "While a friendly NECRONS unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit.",
+      "Advanced Quantum Shielding:": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model’s Toughness characteristic, subtract 1 from the Wound roll ."
+    }
+  }
+}

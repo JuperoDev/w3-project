@@ -1,0 +1,44 @@
+{
+  "parentUnit": "Canoptek Spyders",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Canoptek Spyders are formidable control-and-repair constructs, augmented with battlefield support systems. Whether blasting enemies with particle beamers, warding off empyric energies with gloom prisms or fabricating and unleashing fresh waves of Canoptek Scarabs, they are a force to be reckoned with.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "canoptek",
+    "spyders"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Particle beamer",
+      "modifiers": [
+        "blast",
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Canoptek Swarm:": "In your Command phase , select one friendly CANOPTEK SCARAB SWARM unit within 6\" of this unit. One destroyed model is returned to that CANOPTEK SCARAB SWARM unit for each SPYDER model in this unit."
+    }
+  }
+}

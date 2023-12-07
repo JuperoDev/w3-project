@@ -1,0 +1,60 @@
+{
+  "parentUnit": "Lokhust Heavy Destroyers",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Destroyer Cults think nothing of sacrificing their physical forms to optimise themselves for slaughter. Lokhust Heavy Destroyers skim to battle upon repulsor-sled bodies, their upper limbs bound into gauss destructors or enmitic exterminators with which they decimate their foes with devastating blasts from afar.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "lokhust heavy destroyers"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Enmitic exterminator",
+      "modifiers": [
+        "heavy",
+        "rapid fire 6",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Gauss destructor",
+      "modifiers": [
+        "heavy",
+        "lethal hits"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Reanimation Protocols"
+    ],
+    "faction": [
+      "Optimised for Slaughter: Each time a model in this unit makes an attack with an enmitic exterminator against an INFANTRY unit",
+      "re-roll a Wound roll of 1. Each time a model in this unit makes an attack with a gauss destructor against a MONSTER or VEHICLE unit",
+      "re-roll a Wound roll of 1."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "gauss destructor; close combat weapon."
+    }
+  }
+}

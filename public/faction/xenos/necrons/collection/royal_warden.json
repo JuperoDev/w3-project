@@ -1,0 +1,44 @@
+{
+  "parentUnit": "Royal Warden",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Royal Wardens ensure their lord’s will is carried out by the dynasty’s vast armies. They possess the initiative to adapt the strategies of the phalanxes under their command with engrammatic logic. While they retain independence of thought, protocols buried deep within their living metal cortices render them unquestioningly loyal.",
+  "keywords": [
+    "infantry",
+    "character",
+    "royal warden"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Relic gauss blaster",
+      "modifiers": [
+        "lethal hits",
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Adaptive Strategy:": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [HEAVY] and [ASSAULT] abilities.",
+      "Engrammatic Logic:": "Once per battle, at the start of any phase, you can select one friendly NECRONS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+    }
+  }
+}

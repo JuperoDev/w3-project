@@ -1,0 +1,77 @@
+{
+  "parentUnit": "The Silent King",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": true,
+  "lore": "The Silent King rides to war aboard his dais of dominion, flanked by the phaerons of his Triarch and orbited by crackling noctilith menhirs. He unleashes god-like powers of annihilation upon his dismayed foes, even as his absolute authority radiates out to empower the Necron legions and drive them to inevitable victory.",
+  "keywords": [
+    "vehicle",
+    "character",
+    "epic hero",
+    "fly",
+    "the silent king"
+  ],
+  "attributes": [
+    {
+      "name": "szarekh",
+      "movement": 7,
+      "toughness": 10,
+      "salvation": 2,
+      "wounds": 16,
+      "leadership": 5,
+      "objectiveControl": 6
+    },
+    {
+      "name": "triarchal menhir",
+      "movement": 7,
+      "toughness": 10,
+      "salvation": 2,
+      "wounds": 5,
+      "leadership": 5,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Sceptre of Eternal Glory",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 10,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Staff of Stars",
+      "modifiers": [
+        "indirect fire"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6+3 (Szarekh model only)"
+    ],
+    "faction": [
+      "Phaeron of the Blades (Aura): While a friendly NECRONS unit is within 6\" of this unit’s Szarekh model",
+      "you can re-roll Charge rolls made for that unit."
+    ],
+    "otherAbilities": {
+      "Bringer of Unity (Aura):": "While a friendly NECRONS unit is within 6\" of this unit’s Szarekh model, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws )."
+    }
+  }
+}

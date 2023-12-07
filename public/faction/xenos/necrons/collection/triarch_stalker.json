@@ -1,0 +1,84 @@
+{
+  "parentUnit": "Triarch Stalker",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Triarch Stalkers are agile combat walkers whose heavy firepower makes them excellent tank-hunters and anti-infantry assault units both. As though their focused blasts of energy and flame were not enough, they can also augment the targeting of nearby Necron forces to further punish the foe.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "triarch stalker"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heat ray - dispersed",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Heat ray - focused",
+      "modifiers": [
+        "melta 4"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Particle shredder",
+      "modifiers": [
+        "blast",
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy gauss cannon",
+      "modifiers": [
+        "lethal hits",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Targeting Relay:": "In your Shooting phase , each time this model is selected to shoot, after resolving its attacks, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover ."
+    }
+  }
+}

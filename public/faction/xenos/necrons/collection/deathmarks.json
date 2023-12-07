@@ -1,0 +1,42 @@
+{
+  "parentUnit": "Deathmarks",
+  "factionKeywords": [
+    "necrons"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "No target can evade the Deathmarks. Watching from dimensional oubliettes, these expert snipers track enemy movements, communications and even teleport signatures before striking. They do so in a blaze of synaptic disintegrator fire that shreds not only their victims’ bodies, but also their very minds.",
+  "keywords": [
+    "infantry",
+    "deathmarks"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Synaptic disintegrator",
+      "modifiers": [
+        "heavy",
+        "precision"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Reanimation Protocols"
+    ],
+    "otherAbilities": {
+      "Hyperspace Hunters:": "Once per turn, in the Reinforcements step of your opponent’s Movement phase , when an enemy unit is set up on the battlefield from Reserves within 18\" of and visible to this unit, this unit can shoot as if it were your Shooting phase , but must only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+    }
+  }
+}

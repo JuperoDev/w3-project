@@ -84,5 +84,69 @@
     },
 
     "additionalParameter": {},
-    "damaged": {}
+    "damaged": {},
+    "rangedWeapons": [
+        {
+         "name": "venom cannon",
+         "range": 36,
+         "attacks": "d3",
+         "ballistic-skills": 4,
+         "strength": 9,
+         "armor-penetration": 2,
+         "damage": 2,
+         "modifiers": ["blast"],
+         "singleChoice": false
+       },
+       {
+         "name": "barbed strangler",
+         "range": 36,
+         "attacks": "d6+1",
+         "ballistic-skills": 4,
+         "strength": 6,
+         "armor-penetration": 1,
+         "damage": 1,
+         "modifiers": [
+           "blast"
+           ],
+         "singleChoice": false
+       },
+       {
+        "name": "Deathspitter",
+        "range": 24,
+        "attacks": 3,
+        "ballistic-skills": 4,
+        "strength": 5,
+        "armor-penetration": 1,
+        "damage": 1,
+        "modifiers": [
+          
+          ],
+        "singleChoice": false
+      },
+      {
+        "name": "Devourer",
+        "range": 18,
+        "attacks": 5,
+        "ballistic-skills": 4,
+        "strength": 4,
+        "armor-penetration": 0,
+        "damage": 1,
+        "modifiers": [
+          
+          ],
+        "singleChoice": false
+      },
+      {
+        "name": "Spinefists",
+        "range": 12,
+        "attacks": 2,
+        "ballistic-skills": 4,
+        "strength": 4,
+        "armor-penetration": 0,
+        "damage": 1,
+        "modifiers": [
+          "assault","pistol","twin-linked"
+          ],
+        "singleChoice": false
+      }]
 }

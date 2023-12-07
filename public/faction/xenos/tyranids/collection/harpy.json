@@ -33,7 +33,37 @@
             "damage": 2,
             "modifiers": []
         }
-    ],
+    ], "rangedWeapons": [
+      {
+       "name": "Stinger salvoes",
+       "range": 24,
+       "attacks": 8,
+       "ballistic-skills": 3,
+       "strength": 5,
+       "armor-penetration": 0,
+       "damage": 1,
+       "modifiers": ["precision", "psychic"]
+     },
+     {
+         "name": "Twin heavy venom cannon",
+         "range": 36,
+         "attacks": "d3",
+         "ballistic-skills": 3,
+         "strength": 9,
+         "armor-penetration": 2,
+         "damage": 3,
+         "modifiers": ["blast","twin-linked"]
+       },{
+         "name": "Twin stranglethorn cannon",
+         "range": 36,
+         "attacks": "d6+1",
+         "ballistic-skills": 2,
+         "strength": 7,
+         "armor-penetration": 1,
+         "damage": 2,
+         "modifiers": ["blast","twin-linked"]
+       }
+ ],
     "supremeCommander": false,
     "damaged": {},
   

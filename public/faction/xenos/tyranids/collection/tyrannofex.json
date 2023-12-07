@@ -72,5 +72,57 @@
             },
 
             "additionalParameter": {},
-            "damaged": {}
+            "damaged": {},
+            
+    "rangedWeapons": [
+      {
+       "name": "Acid spray",
+       "range": 18,
+       "attacks": "d6+6",
+       "ballistic-skills": "n/a",
+       "strength": 6,
+       "armor-penetration": 2,
+       "damage": 2,
+       "modifiers": ["torrent"],
+       "singleChoice": false
+     },
+     {
+       "name": "Fleshborer hive",
+       "range": 24,
+       "attacks": 20,
+       "ballistic-skills": 3,
+       "strength": 5,
+       "armor-penetration": 0,
+       "damage": 1,
+       "modifiers": [
+         "heavy","sustained hits 1","twin-linked"
+         ],
+       "singleChoice": false
+     },
+     {
+      "name": "Rupture cannon",
+      "range": 48,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "strength": 18,
+      "armor-penetration": 4,
+      "damage": "2d6",
+      "modifiers": [
+        "heavy"
+        ],
+      "singleChoice": false
+    },
+    {
+      "name": "Stinger salvoes",
+      "range": 24,
+      "attacks": 8,
+      "ballistic-skills": 3,
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        
+        ],
+      "singleChoice": false
+    }]
 }

@@ -39,7 +39,7 @@
             "strength": 10,
             "armor-penetration": 3,
             "damage": "d6",
-            "modifiers": []
+            "modifiers": ["anti-fly 2+", "extra attacks"]
         }],
         "supremeCommander": false,
         "damaged": {},
@@ -70,5 +70,44 @@
           "otherAbilities": {
             "Airborne Predator:": "Each time this model makes a ranged attack that targets a unit that can FLY , add 1 to the Hit roll ."
           }
-        }
+        },
+        "rangedWeapons": [
+          {
+            "name": "Drool cannon",
+            "range": 12,
+            "attacks": "2d6",
+            "ballistic-skills": "n/a",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+              "torrent"
+            ]
+          },
+          {
+            "name": "stigner salvoes",
+            "range": 24,
+            "attacks": 8,
+            "ballistic-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+              
+            ]
+          },
+          {
+            "name": "Tentaclids",
+            "range": 36,
+            "attacks": 4,
+            "ballistic-skills": 3,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 2,
+            "modifiers": [
+              "anti-vehicle 4+",
+              "devastating wounds"
+            ]
+          }
+        ]
 }

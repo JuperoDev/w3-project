@@ -71,5 +71,18 @@
   },
 
   "additionalParameter": {},
-  "damaged": {}
+  "damaged": {} ,
+  "rangedWeapons": [
+    {
+      "name": "flamespurt",
+      "range": 12,
+      "attacks": "d6+1",
+      "ballistic-skills": "n/a",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 1,
+      "modifiers": [
+        "ignores cover", "torrent", "twin-linked"
+      ]}]
+    
 }

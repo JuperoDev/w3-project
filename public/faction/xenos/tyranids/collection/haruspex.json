@@ -73,5 +73,16 @@
       "otherAbilities": {
         "Grisly Spectacle:": "Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6'' of this model must take a Battle-shock test ."
       }
-    }
+    }, "rangedWeapons": [
+      {
+       "name": "grasping tongue",
+       "range": 12,
+       "attacks": 1,
+       "ballistic-skills": 3,
+       "strength": 6,
+       "armor-penetration": 2,
+       "damage": "d6+1",
+       "modifiers": ["precision"]
+     }
+ ]
 }

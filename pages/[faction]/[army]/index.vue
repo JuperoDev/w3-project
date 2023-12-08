@@ -17,11 +17,11 @@
           
           <div class=" flex items-center justify-center  font-bebas mb-10 mt-5  px-10 pt-5">
             
-            <img src="/icons/tyranid-symbol.png" alt="army logo" class="h-20 mt-3">
+            <img :src="`/icons/${armyData.symbol}.png`" alt="army logo" class="h-20 mt-3">
             
             
             <h2 class="text-6xl font-bebas  text-zinc-900 px-5 pt-5 text-center">{{ replaceHyphensWithSpaces(army) }}</h2>
-            <img src="/icons/tyranid-symbol.png" alt="army logo" class="h-20 mt-3">
+            <img :src="`/icons/${armyData.symbol}.png`" alt="army logo" class="h-20 mt-3">
           </div>
 
           <p class="text-xl text-zinc-900 px-10">

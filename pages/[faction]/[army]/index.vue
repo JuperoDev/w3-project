@@ -29,12 +29,12 @@
           </p>
           <br/>
 
-          <!-- <div
-            class="collection__button-menu grid grid-cols-2 gap-20 mt-10 mb-20 p-10"
+           <div
+            class="collection__button-menu grid  md:grid-cols-2 md:gap-20  mb-20 p-10"
           >
-            <v-btn><p>Datasheets</p></v-btn>
+            <v-btn class="mb-5"><p>Datasheets</p></v-btn>
             <v-btn><p>Army rules</p></v-btn>
-          </div> -->
+          </div> 
 
           <!-- detachment -->
 

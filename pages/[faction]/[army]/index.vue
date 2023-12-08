@@ -1,15 +1,15 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper  flex items-center justify-center">
 
 
 
 
     <div
-      class="collection-container   bg-zinc-950 "
+      class="collection-container  "
       
     >
       <div
-        class="collection-container__left-column"
+        class="collection-container__left-column "
       >
         <div
           class="inner-container text-justify rounded-sm bg-white  bg-opacity-70"
@@ -161,7 +161,7 @@ onMounted(() => {
 .collection-container {
   /* background-image: url('https://www.wargamer.com/wp-content/sites/wargamer/2023/05/warhammer-40k-10th-edition-world-eaters-art.jpg'); */
 
-  filter: grayscale(100%);
+  
 
   /* top: 0;
   left: 0;
@@ -176,10 +176,14 @@ onMounted(() => {
 }
 
 div {
-  /* border: 1px solid red; */
+  border: 1px solid red; 
 }
 
 img{
   
+}
+
+.collection-container {
+  max-width: 1000px;
 }
 </style>

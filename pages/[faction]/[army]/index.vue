@@ -43,14 +43,14 @@
           <div class="detachment-container bg">
             <h2 class="text-3xl text-zinc-300">detachments</h2> 
              <div
-              class="collection-container__right-column--detachments grid grid-cols-3"
+              class="collection-container__right-column--detachments  grid grid-cols-1 md:grid-cols-3"
             > 
 
 
             
 
                <div
-                class="detachment-button-grid"
+                class="detachment-button-grid my-3"
                 v-for="detachment in armyData.detachments"
                 :key="detachment"
               >

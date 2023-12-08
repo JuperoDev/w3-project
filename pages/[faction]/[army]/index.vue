@@ -1,34 +1,55 @@
 <template>
   <div class="wrapper">
+
+
+
+
     <div
-      class="collection-container grid grid-cols-12 gap-1"
-      :class="armyData.background"
+      class="collection-container   bg-zinc-950 "
+      
     >
       <div
-        class="collection-container__left-column h-screen flex items-center justify-center col-span-6"
+        class="collection-container__left-column"
       >
         <div
-          class="inner-container text-justify rounded-xl bg-zinc-950 ml-20 bg-opacity-70"
+          class="inner-container text-justify rounded-sm bg-white  bg-opacity-70"
         >
-          <h1 class="text-6xl font-bebas mb-10 mt-5 text-zinc-200 px-10 pt-5">
-            {{ army }}
-          </h1>
-          <p class="text-xl text-zinc-300 px-10">
+          
+          <div class=" flex items-center justify-center  font-bebas mb-10 mt-5  px-10 pt-5">
+            
+            <img src="/icons/tyranid-symbol.png" alt="army logo" class="h-20 mt-3">
+            
+            
+            <h2 class="text-6xl font-bebas  text-zinc-900 px-5 pt-5 text-center">{{ replaceHyphensWithSpaces(army) }}</h2>
+            <img src="/icons/tyranid-symbol.png" alt="army logo" class="h-20 mt-3">
+          </div>
+
+          <p class="text-xl text-zinc-900 px-10">
             {{ armyData.description }}
           </p>
+          <br/>
 
-          <div
+          <!-- <div
             class="collection__button-menu grid grid-cols-2 gap-20 mt-10 mb-20 p-10"
           >
             <v-btn><p>Datasheets</p></v-btn>
             <v-btn><p>Army rules</p></v-btn>
-          </div>
+          </div> -->
+
+          <!-- detachment -->
+
+
+          
           <div class="detachment-container bg">
-            <h2 class="text-3xl text-zinc-300">detachments</h2>
-            <div
+            <!-- <h2 class="text-3xl text-zinc-300">detachments</h2> -->
+            <!-- <div
               class="collection-container__right-column--detachments grid grid-cols-3"
-            >
-              <div
+            > -->
+
+
+            
+
+              <!-- <div
                 class="detachment-button-grid"
                 v-for="detachment in armyData.detachments"
                 :key="detachment"
@@ -36,21 +57,28 @@
                 <nuxt-link :to="generateDetachment(faction, army, detachment)">
                   <v-btn>{{ detachment }}</v-btn>
                 </nuxt-link>
-              </div>
-            </div>
+              </div> -->
+
+
+
+            <!-- </div> -->
           </div>
         </div>
       </div>
 
-      <div
-        class="collection-container__right-column col-span-6 h-screen flex flex-col justify-end"
-      ></div>
+     
 
       <!-- ----------------------------- -->
 
       <!-- ------------------------- -->
     </div>
-    <DesktopArmyComponentsIntroduction />
+
+
+
+
+
+
+    <!-- <DesktopArmyComponentsIntroduction />
     <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
     <div class="unit-list">
       <div v-if="armyData">
@@ -62,7 +90,10 @@
           </nuxt-link>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
+
   </div>
 </template>
 
@@ -76,6 +107,12 @@ const { faction, army, detachment } = useRoute().params;
 // Function to replace unwanted characters with hyphens
 const replaceUnwantedCharacters = (input) => {
   return input.replace(/[^a-zA-Z0-9-]/g, "-");
+};
+
+
+// Function to replace hyphens with spaces in the army title
+const replaceHyphensWithSpaces = (input) => {
+  return input.replace(/-/g, " ");
 };
 
 // Function to generate sanitized link to army units
@@ -134,11 +171,15 @@ onMounted(() => {
 }
 
 .inner-container {
-  height: 500px;
-  width: 700px;
+  /* height: 500px;
+  width: 700px; */
 }
 
 div {
   /* border: 1px solid red; */
+}
+
+img{
+  
 }
 </style>

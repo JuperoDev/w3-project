@@ -1,155 +1,202 @@
 <template>
-    <div class="bg-gray-100 h-screen	">
-      <!-- <FactionFetch /> -->
-      <!-- <v-btn><nuxt-link to="/simulator">Simulator</nuxt-link></v-btn>
+  <div class="bg-gray-100 h-screen">
+    <!-- <FactionFetch /> -->
+    <!-- <v-btn><nuxt-link to="/simulator">Simulator</nuxt-link></v-btn>
       <v-btn><nuxt-link to="/builder">Army Builder</nuxt-link></v-btn>
       <v-btn><nuxt-link to="/rules">Rules</nuxt-link></v-btn> -->
 
-      <!-- temporary build  -->
+    <!-- temporary build  -->
 
-      <div class=""><h2>Xenos Armies</h2></div>
-      <div class="grid grid-cols-2 lg:grid-cols-4">
+    <div class="font-bebas flex items-center justify-center"><h2>Xenos Armies</h2></div>
+    <div class="grid grid-cols-2 lg:grid-cols-4">
 
-        <div class="button__container">
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
           <nuxt-link to="/xenos/aeldari">
-        <v-btn> 
-          Aeldari
-
-          </v-btn>
-        </nuxt-link>
+            <div class="army__card_image">
+              <img
+                src="/icons/aeldari-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Aeldari</p>
+            </div>
+          </nuxt-link>
         </div>
-       
-        <div class="button__container">
-          <nuxt-link to="/xenos/drukhari">
-        <v-btn> 
-          Drukhari
-
-          </v-btn>
-        </nuxt-link>
-        </div>
-
-        <div class="button__container">
-          <nuxt-link to="/xenos/genestealer-cults">
-        <v-btn> 
-          Genestealer cults
-
-          </v-btn>
-        </nuxt-link>
-        </div>
-
-        <div class="button__container">
-          <nuxt-link to="/xenos/leagues-of-votann">
-        <v-btn> 
-          Leagues of Votann
-
-          </v-btn>
-        </nuxt-link>
-        </div>
-
-        <div class="button__container">
-          <nuxt-link to="/xenos/necrons">
-        <v-btn> 
-          Necrons
-
-          </v-btn>
-        </nuxt-link>
-        </div>
-
-        <div class="button__container">
-          <nuxt-link to="/xenos/orks">
-        <v-btn> 
-          Orks
-
-          </v-btn>
-        </nuxt-link>
-        </div>
-
-        <div class="button__container">
-          <nuxt-link to="/xenos/tau-empire">
-        <v-btn> 
-          Tau Empire
-
-          </v-btn>
-        </nuxt-link>
-        </div>
-       
-        <div class="button__container">
-          <nuxt-link to="/xenos/tyranids">
-        
-<div class="card 1">
-  <div class="card_image"> <img src="https://comicvine.gamespot.com/a/uploads/original/10/106251/9084973-gh_icon_hivemind-300x300.png" /> </div>
-  <div class="card_title title-white">
-    <p>Tyranids</p>
-  </div>
-</div>
-        </nuxt-link>
-        </div>
-
-       
-
       </div>
+
+      <div class="button__container  my-5">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/drukhari">
+            <div class="army__card_image">
+              <img
+                src="/icons/drukhari-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Drukhari</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/genestealer-cults">
+            <div class="army__card_image">
+              <img
+                src="/icons/gsc-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Genestealer Cults</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/leagues-of-votann">
+            <div class="army__card_image">
+              <img
+                src="/icons/votann-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Leagues of Votann</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/necrons">
+            <div class="army__card_image">
+              <img
+                src="/icons/necrons-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Necrons</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/orks">
+            <div class="army__card_image">
+              <img
+                src="/icons/orks-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Orks</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+      <div class="button__container my-5">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/tau-empire">
+            <div class="army__card_image">
+              <img
+                src="/icons/tau-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Tau Empire</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+      <div class="button__container my-5">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/tyranids">
+            <div class="army__card_image">
+              <img
+                src="/icons/tyranid-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Tyranids</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+
     </div>
-  </template>
-  
-<script setup>
+  </div>
+</template>
 
-
-</script>
+<script setup></script>
 
 <style scoped>
-    h2{
-      font-size: 50px;
-      font-weight: 700;
-      color: #191919;
-      text-transform: uppercase;
-    }
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #191919;
+  text-transform: uppercase;
+  
+}
 
-    
-.card {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 40px;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+.army__card {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.15),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: 0.4s;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
-.card .card_image {
-  width: inherit;
-  height: inherit;
+.army__card .army__card_image {
+  width: 130px;
+  height: 130px;
   border-radius: 40px;
+  margin: 0 auto;
 }
 
-.card .card_image img {
+.army__card .army__card_image img {
   width: inherit;
   height: inherit;
   border-radius: 40px;
   object-fit: cover;
 }
 
-.card .card_title {
+.army__card .army__card_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: -80px;
+
+  margin-top: -15px;
   height: 40px;
 }
 
-.card:hover {
-  transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-    -5px -5px 30px 15px rgba(0,0,0,0.22);
+.army__card:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  background-color: rgb(255, 255, 255);
 }
 
 .title-white {
-  color: white;
+  font-size: 20px;
+
+  color: rgb(25, 25, 25);
 }
 
 .title-black {
   color: black;
 }
+
+
 </style>

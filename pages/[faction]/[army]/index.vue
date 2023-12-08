@@ -41,15 +41,15 @@
 
           
           <div class="detachment-container bg">
-            <!-- <h2 class="text-3xl text-zinc-300">detachments</h2> -->
-            <!-- <div
+            <h2 class="text-3xl text-zinc-300">detachments</h2> 
+             <div
               class="collection-container__right-column--detachments grid grid-cols-3"
-            > -->
+            > 
 
 
             
 
-              <!-- <div
+               <div
                 class="detachment-button-grid"
                 v-for="detachment in armyData.detachments"
                 :key="detachment"
@@ -57,32 +57,20 @@
                 <nuxt-link :to="generateDetachment(faction, army, detachment)">
                   <v-btn>{{ detachment }}</v-btn>
                 </nuxt-link>
-              </div> -->
+              </div>
 
 
 
-            <!-- </div> -->
+            </div> 
           </div>
         </div>
       </div>
 
-     
-
-      <!-- ----------------------------- -->
-
-      <!-- ------------------------- -->
-    </div>
-
-
-
-
-
-
-    <!-- <DesktopArmyComponentsIntroduction />
+      <DesktopArmyComponentsIntroduction />
     <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
     <div class="unit-list">
-      <div v-if="armyData">
-        <div v-for="armyName in armyData.units" :key="armyName" class="m-5">
+      <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">
+        <div v-for="armyName in armyData.units" :key="armyName" class="m-5 ">
           <nuxt-link :to="generateLink(faction, army, armyName)">
             <v-btn>
               <p>{{ armyName }}</p>
@@ -90,7 +78,15 @@
           </nuxt-link>
         </div>
       </div>
-    </div> -->
+    </div>
+
+     
+    </div>
+
+
+
+
+
 
 
 

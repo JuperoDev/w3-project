@@ -42,7 +42,7 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-          <nuxt-link to="/xenos/genestealer-cults">
+          <nuxt-link to="/xenos/genestealers-cults">
             <div class="army__card_image">
               <img
                 src="/icons/gsc-symbol.png"

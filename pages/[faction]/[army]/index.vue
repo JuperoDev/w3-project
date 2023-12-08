@@ -40,8 +40,11 @@
 
 
           
-          <div class="detachment-container bg">
-            <h2 class="text-3xl text-zinc-300">detachments</h2> 
+          <div class="detachment-container px-10 ">
+            <div class="flex items-center justify-center">
+
+              <h2 class="text-3xl text-zinc-800 font-bebas">Detachments</h2> 
+            </div>
              <div
               class="collection-container__right-column--detachments  grid grid-cols-1 md:grid-cols-3"
             > 
@@ -50,7 +53,7 @@
             
 
                <div
-                class="detachment-button-grid my-3"
+                class="detachment-button-grid my-3 flex items-center justify-center"
                 v-for="detachment in armyData.detachments"
                 :key="detachment"
               >
@@ -98,7 +101,7 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 const armyData = ref([]);
-const { faction, army, detachment } = useRoute().params;
+const { faction, army } = useRoute().params;
 
 // Function to replace unwanted characters with hyphens
 const replaceUnwantedCharacters = (input) => {
@@ -172,7 +175,7 @@ onMounted(() => {
 }
 
 div {
-  border: 1px solid red; 
+  
 }
 
 img{

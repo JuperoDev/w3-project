@@ -32,8 +32,8 @@
            <div
             class="collection__button-menu grid  md:grid-cols-2 md:gap-20  mb-20 p-10"
           >
-            <v-btn class="mb-5"><p>Datasheets</p></v-btn>
-            <v-btn><p>Army rules</p></v-btn>
+            <v-btn class="mb-5">Datasheets</v-btn>
+            <v-btn>detachments</v-btn>
           </div> 
 
           <!-- detachment -->
@@ -167,7 +167,7 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%; */
-  z-index: -2;
+  
 }
 
 .inner-container {

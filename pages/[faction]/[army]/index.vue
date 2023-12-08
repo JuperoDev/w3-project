@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <DesktopArmyComponentsIntroduction />
+      <!-- <DesktopArmyComponentsIntroduction /> -->
     <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
     <div class="unit-list">
       <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">

@@ -1,102 +1,102 @@
 {
-    "detachmentName": "crusher stampede",
+    "detachmentName": "assimilation swarm",
     "detachmentRule": [
         {
-            "name": "enraged behemoths",
-            "lore": "In their efforts to lay the monstrous beasts of a Crusher Stampede low, the prey only succeed in further enraging the rampaging monsters. The surviving beasts are driven to fight with greater fury the more of their number that fall.",
-            "description": "Each time a TYRANIDS MONSTER model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half-strength."
+            "name": "feed the swarm",
+            "lore": "Even as the beasts of the Assimilation Swarm stalk across the battlefield they make use of the abundant biomass yielded up by the prey worlds slow demise. Warrior organisms heal even the most grievous wounds in moments, or stagger upright and return to the fight after they seemed slain. A strain of revolting vitality flows through the Tyranid broods as though leeched direct from their dismayed victims.",
+            "description": "In your Command phase, each HARVESTER unit from your army that is within range of an objective marker you control can Regenerate one friendly TYRANIDS unit that is within 6'' of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:"
         }
     ],
     "enhacements": [
         {
-            "name": "Ominous Presence",
-            "points": 15,
-            "lore": "The crushing menace of the Hive Mind rolls off this monstrous creature in waves, causing it to loom even larger in the minds of its quailing prey and lending it absolute dominance of the battlefield.",
-            "description": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic."
-        },
-        {
-            "name": "Enraged Reserves",
+            "name": "Regenerating Monstrosity",
             "points": 20,
-            "lore": "Contained deep within this organism’s body is a pulsating sac filled with a cocktail of adrenostimulant fluids linked to a ring of vascular-pneumatic sphincters, allowing them one last-ditch strike.",
-            "description": "TYRANIDS MONSTER model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. It can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+            "lore": "This nightmarish creature seems virtually unkillable, its every hurt healing in moments as it guzzles down the hunks of bubbling biomatter that were once foes.",
+            "description": "TYRANIDS model only (excluding MONSTERS models). The bearer’s unit can be regenerated up to twice per phase, instead of once."
         },
         {
-            "name": "Null Nodules",
+            "name": "Instinctive defence",
+            "points": 15,
+            "lore": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
+            "description": "TYRANIDS model only. While the bearer is within 6'' of one or more friendly HARVESTER units, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP. In addition, while the bearer is within 6'' of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability."
+        },
+        {
+            "name": "Biophagic Flow (Aura)",
             "points": 10,
-            "lore": "A contraganglion knot in this creature’s cranium channels and amplifies the smothering power of the Shadow in the Warp to nullify its prey’s psychic abilities.",
-            "description": "TYRANIDS MONSTER model only. Once per battle, when a Psychic Attack is allocated to the bearer, it can use this ability. If it does, until the end of the phase, the bearer has the Feel No Pain 5+ ability against Psychic Attacks."
+            "lore": "Parasitised biomass and revivifying fluids flow through the Assimilation Swarm like lifeblood.",
+            "description": "TYRANIDS model only. While a friendly HARVESTER model is within 12'' of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9'' of it, instead of one within 6''."
         },
         {
-            "name": "Monstrous Nemesis",
+            "name": "Parasitic Biomorphology",
             "points": 25,
-            "lore": "With its basic logic centres and instinctive drivers augmented, this warrior organism is capable of singling out and hunting down valuable prey without direct synaptic oversight.",
-            "description": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll."
+            "lore": "These warrior organisms boast additional fanged maws, jabbing probosci and haemophagic membranes that consume the fluids of their prey.",
+            "description": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6'' of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
         }
     ],
     "stratagems":[
         {
-            "name": "corrosive viscera",
+            "name": "bloodguard impulse",
+            "subindex": "epic deed stratagem",
+            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
+            "when": "Any phase.",
+            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
+            "icon" : [""],
+            "cp":1,
+            "color":"green"
+        },
+        {
+            "name": "reclaim biomass",
             "subindex": "strategic ploy stratagem",
-            "lore": "Highly acidic fluids spray from the creature’s wounds, lethal to those nearby.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after a TYRANIDS MONSTER model from your army with the Deadly Demise ability that cannot FLY is destroyed.",
-            "target": "That TYRANIDS MONSTER model. You can use this Stratagem on that model even though it was just destroyed.",
-            "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
+            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
+            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
+            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
+            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
             "icon" : [""],
             "cp":1,
             "color":"green"
         },
         {
-            "name": "rampaging monstrosities",
-            "subindex": "battle tactic stratagem",
-            "lore": "Tyranid monsters have reserves of energy that they unleash in waves of devastating fury.",
-            "when": "Fight phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
-        },
-        {
-            "name": "savage roar",
-            "subindex": "battle tactic stratagem",
-            "lore": "This monster is even more terrifying to behold than other bioforms of its kind.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
-        },
-        {
-            "name": "untrammelled ferocity",
+            "name": "tyrannoformed",
             "subindex": "strategic ploy stratagem",
-            "lore": "Encircling and entrapping such physically powerful and fearless beasts is nigh on impossible.",
+            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
+            "when": " Command phase.",
+            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
+            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "icon" : [""],
+            "cp":1,
+            "color":"green"
+        },
+        {
+            "name": "ablative carapace",
+            "subindex": "epic deed stratagem",
+            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
             "when": "Your Movement phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to move this phase.",
-            "effect": "Until the end of the phase, models in your unit can move through enemy models as if they were friendly models, and until the end of the phase any Desperate Escape tests those models must take are automatically passed.",
+            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
             "icon" : [""],
-            "cp":1,
+            "cp":2,
             "color":"blue"
         },
         {
-            "name": "swarm-guided salvoes",
-            "subindex": "battle tactic stratagem",
-            "lore": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
-            "when": "Your Shooting phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
-            "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+            "name": "secure biomass",
+            "subindex": "strategic ploy stratagem",
+            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
+            "when": "Fight phase.",
+            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
             
             "icon" : [""],
             "cp":1,
             "color":"blue"
         },
         {
-            "name": "massive impact",
-            "subindex": "epic deed stratagem",
-            "lore": "Employing their sheer bulk and vicious chitinous horns and spikes, the largest Tyranids crash headlong through the foe, often with devastating results.",
-            "when": "Your Charge phase, just after a TYRANIDS MONSTER model from your army ends a Charge move.",
-            "target": "That TYRANIDS MONSTER model.",
-            "effect": "Select one enemy unit within Engagement Range of your model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+            "name": "rapacious hunger",
+            "subindex": "battle tactic stratagem",
+            "lore": "The hunger of the Tyranids can never be satiated.",
+            "when": "Your Fight phase.",
+            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
+            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
             "icon" : [""],
             "cp":1,
             "color":"blue"

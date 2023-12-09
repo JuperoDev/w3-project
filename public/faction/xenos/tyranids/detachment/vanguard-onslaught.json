@@ -1,105 +1,110 @@
 {
-    "detachmentName": "crusher stampede",
+    "detachmentName": "vanguard onslaught",
     "detachmentRule": [
         {
-            "name": "enraged behemoths",
-            "lore": "In their efforts to lay the monstrous beasts of a Crusher Stampede low, the prey only succeed in further enraging the rampaging monsters. The surviving beasts are driven to fight with greater fury the more of their number that fall.",
-            "description": "Each time a TYRANIDS MONSTER model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half-strength."
+            "name": "questing tendrils",
+            "lore": "In the early stages of an invasion, the Hive Mind harries and unbalances its foes with lightning-fast flanking attacks, before encircling them for the final, bloody slaughter.",
+            "description": "TYRANIDS units with this ability are eligible to charge in a turn in which they Fell Back. VANGUARD INVADER units with this ability are eligible to charge in a turn in which they Advanced."
+        },
+        {
+            "name": "vanguard prime",
+            "lore": "During the earliest stages of a Tyranid invasion, the rare bioform Imperial observers have named Deathleaper has been seen fulfilling a leadership and coordination role amongst the swarms. Employing pheromone trails and goading imperatives, the creature provides guidance to other warrior organisms that is the localised equivalent of synaptic control.",
+            "description": "DEATHLEAPER loses the Hunter Organism rule and can be your WARLORD."
         }
     ],
     "enhacements": [
         {
-            "name": "Ominous Presence",
-            "points": 15,
-            "lore": "The crushing menace of the Hive Mind rolls off this monstrous creature in waves, causing it to loom even larger in the minds of its quailing prey and lending it absolute dominance of the battlefield.",
-            "description": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic."
-        },
-        {
-            "name": "Enraged Reserves",
+            "name": "Hunting Grounds",
             "points": 20,
-            "lore": "Contained deep within this organism’s body is a pulsating sac filled with a cocktail of adrenostimulant fluids linked to a ring of vascular-pneumatic sphincters, allowing them one last-ditch strike.",
-            "description": "TYRANIDS MONSTER model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. It can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+            "lore": "This warrior organism has identified installations and routes of communication and supply vital to the prey. As the Tyranid invasion commences so the beast orchestrates ambushes and terror raids against these priority targets, ensuring that those enemy reinforcements who do reach the battlefield do so in bloodied disarray.",
+            "description": "TYRANIDS model only. While the bearer is on the battlefield, each time your opponent sets up a Reserves unit on the battlefield, roll one D6: on a 2+, that unit must take a Battle-shock test."
         },
         {
-            "name": "Null Nodules",
+            "name": "Chameleonic",
+            "points": 15,
+            "lore": "Subdermal crystals in this organisms carapace capture and redirect light, helping to conceal it.",
+            "description": "VANGUARD INVADER model only. The bearer has the Stealth ability and each time a ranged attack targets the bearer’s unit, models in that unit have the Benefit of Cover against that attack."
+        },
+        {
+            "name": "Stalker",
             "points": 10,
-            "lore": "A contraganglion knot in this creature’s cranium channels and amplifies the smothering power of the Shadow in the Warp to nullify its prey’s psychic abilities.",
-            "description": "TYRANIDS MONSTER model only. Once per battle, when a Psychic Attack is allocated to the bearer, it can use this ability. If it does, until the end of the phase, the bearer has the Feel No Pain 5+ ability against Psychic Attacks."
+            "lore": "This hunter seeks vital priority prey that has been pheromonally marked for swift slaughter.",
+            "description": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
         },
         {
-            "name": "Monstrous Nemesis",
-            "points": 25,
-            "lore": "With its basic logic centres and instinctive drivers augmented, this warrior organism is capable of singling out and hunting down valuable prey without direct synaptic oversight.",
-            "description": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll."
+            "name": "Neuronode",
+            "points": 30,
+            "lore": "While no true synapse beast, this bioform has been grafted with a limited synaptic symbiote, the influence of which increases its host’s ability to formulate and enforce large-scale predatory strategies.",
+            "description": "TYRANIDS model only. After both players have deployed their armies and determined who has the first turn, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
         }
     ],
     "stratagems":[
         {
-            "name": "corrosive viscera",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Highly acidic fluids spray from the creature’s wounds, lethal to those nearby.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after a TYRANIDS MONSTER model from your army with the Deadly Demise ability that cannot FLY is destroyed.",
-            "target": "That TYRANIDS MONSTER model. You can use this Stratagem on that model even though it was just destroyed.",
-            "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
+            "name": "surprise assault",
+            "subindex": "battle tactic stratagem",
+            "lore": "Vanguard organisms strike from unexpected quarters with calculated and emotionless alien savagery that is appalling to behold.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One VANGUARD INVADER unit from your army that has not been selected to shoot or fight this phase, and one enemy unit.",
+            "effect": "That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well.",
             "icon" : [""],
             "cp":1,
             "color":"green"
         },
         {
-            "name": "rampaging monstrosities",
+            "name": "assasin beasts",
             "subindex": "battle tactic stratagem",
-            "lore": "Tyranid monsters have reserves of energy that they unleash in waves of devastating fury.",
+            "lore": "These bioforms have been adapted to strike with pinpoint precision at the pre-assessed weak points of selected prey that require elimination.",
             "when": "Fight phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+            "target": "One VANGUARD INVADER INFANTRY unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
             "icon" : [""],
             "cp":1,
             "color":"green"
         },
         {
-            "name": "savage roar",
-            "subindex": "battle tactic stratagem",
-            "lore": "This monster is even more terrifying to behold than other bioforms of its kind.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
-        },
-        {
-            "name": "untrammelled ferocity",
+            "name": "seeded broods",
             "subindex": "strategic ploy stratagem",
-            "lore": "Encircling and entrapping such physically powerful and fearless beasts is nigh on impossible.",
+            "lore": "Warrior organisms erupt from concealment straight into advanced positions.",
             "when": "Your Movement phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to move this phase.",
-            "effect": "Until the end of the phase, models in your unit can move through enemy models as if they were friendly models, and until the end of the phase any Desperate Escape tests those models must take are automatically passed.",
+            "target": "One TYRANIDS unit from your army that is in Reserves, or up to two VANGUARD INVADER units from your army that are in Reserves.",
+            "effect": "Until the end of the phase, for the purposes of setting up those selected units on the battlefield, treat the current battle round number as being one higher than it actually is.",
             "icon" : [""],
             "cp":1,
             "color":"blue"
         },
         {
-            "name": "swarm-guided salvoes",
-            "subindex": "battle tactic stratagem",
-            "lore": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
-            "when": "Your Shooting phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
-            "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+            "name": "hypersensory scillia",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Hissing clusters of scillia warn of the slightest prey movements, allowing the Tyranids to react.",
+            "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+            "target": "Up to two VANGUARD INVADER units from your army that are within 9'' of that enemy unit, or one other TYRANIDS INFANTRY unit from your army that is within 9'' of that enemy unit.",
+            "effect": "Those selected units can each make a Normal move of up to 6''.",
+            "icon" : [""],
+            "cp":1,
+            "color":"red"
+        },
+        {
+            "name": "unseen lurkers",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Hyper-attuned senses warn vanguard organisms when they are being targeted by the prey.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12'' or, if your unit has the Lone Operative ability, if the attacking model is within 6''. Your opponent can select new targets for the attacking unit’s attacks.",
             
             "icon" : [""],
             "cp":1,
-            "color":"blue"
+            "color":"red"
         },
         {
-            "name": "massive impact",
-            "subindex": "epic deed stratagem",
-            "lore": "Employing their sheer bulk and vicious chitinous horns and spikes, the largest Tyranids crash headlong through the foe, often with devastating results.",
-            "when": "Your Charge phase, just after a TYRANIDS MONSTER model from your army ends a Charge move.",
-            "target": "That TYRANIDS MONSTER model.",
-            "effect": "Select one enemy unit within Engagement Range of your model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+            "name": "invisible hunter",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Hunter-slayer organisms can melt away before the eyes of their foes, only to strike from a new direction.",
+            "when": "End of your opponent’s Fight phase.",
+            "target": "Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.",
+            "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.",
             "icon" : [""],
             "cp":1,
-            "color":"blue"
+            "color":"red"
         }
     ]
 

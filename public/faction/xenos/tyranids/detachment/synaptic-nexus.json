@@ -1,102 +1,102 @@
 {
-    "detachmentName": "crusher stampede",
+    "detachmentName": "synaptic nexus",
     "detachmentRule": [
         {
-            "name": "enraged behemoths",
-            "lore": "In their efforts to lay the monstrous beasts of a Crusher Stampede low, the prey only succeed in further enraging the rampaging monsters. The surviving beasts are driven to fight with greater fury the more of their number that fall.",
-            "description": "Each time a TYRANIDS MONSTER model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half-strength."
+            "name": "synaptic imperatives",
+            "lore": "The leader-beasts of these swarms act as conduits to the will of the Hive Mind. Irresistible imperatives lash out from them like whips that drive lesser bioforms to hurl themselves at the prey, to fight on through fatal wounds or to attack with redoubled savagery.",
+            "description": "At the start of the battle round, you can select one of the Synaptic Imperatives shown below. Until the end of the battle round, that Synaptic Imperative is active for your army and while a TYRANIDS unit from your army is within Synapse Range of your army, it will benefit from it. Each Synaptic Imperative can only be selected once per battle."
         }
     ],
     "enhacements": [
         {
-            "name": "Ominous Presence",
-            "points": 15,
-            "lore": "The crushing menace of the Hive Mind rolls off this monstrous creature in waves, causing it to loom even larger in the minds of its quailing prey and lending it absolute dominance of the battlefield.",
-            "description": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic."
-        },
-        {
-            "name": "Enraged Reserves",
-            "points": 20,
-            "lore": "Contained deep within this organism’s body is a pulsating sac filled with a cocktail of adrenostimulant fluids linked to a ring of vascular-pneumatic sphincters, allowing them one last-ditch strike.",
-            "description": "TYRANIDS MONSTER model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. It can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
-        },
-        {
-            "name": "Null Nodules",
+            "name": "Power of the Hive Mind",
             "points": 10,
-            "lore": "A contraganglion knot in this creature’s cranium channels and amplifies the smothering power of the Shadow in the Warp to nullify its prey’s psychic abilities.",
-            "description": "TYRANIDS MONSTER model only. Once per battle, when a Psychic Attack is allocated to the bearer, it can use this ability. If it does, until the end of the phase, the bearer has the Feel No Pain 5+ ability against Psychic Attacks."
+            "lore": "The Hive Mind channels lethal energy through its synaptic bioforms.",
+            "description": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristics of psychic weapons equipped by the bearer by 1."
         },
         {
-            "name": "Monstrous Nemesis",
-            "points": 25,
-            "lore": "With its basic logic centres and instinctive drivers augmented, this warrior organism is capable of singling out and hunting down valuable prey without direct synaptic oversight.",
-            "description": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll."
+            "name": "Psychostatic Disruption",
+            "points": 30,
+            "lore": "A maelstrom of psychostatic disruption boils about this bioform. It degrades artificial and biological cognition alike, causing teleport signals to fluctuate, geopositioning cogitators to spew contradictory data, and onrushing enemy warriors to reel in confusion.",
+            "description": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up within 12'' of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this Enhancement. If it does, roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn."
+        },
+        {
+            "name": "Synaptic Control",
+            "points": 20,
+            "lore": "The Hive Mind’s synaptic network is so strong that even the mangled remains of mortally wounded beasts can be compelled to fight on.",
+            "description": "TYRANIDS SYNAPSE model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+            "name": "The Dirgeheart of Kharis (Aura)",
+            "points": 15,
+            "lore": "This grotesque biomorphic symbiote buries itself in its hosts thorax and emits a droning psychic note. The longer prey are exposed to the sound, the worse their atavistic terror response becomes...",
+            "description": "TYRANIDS SYNAPSE model only. While an enemy unit is within 9'' of the bearer, worsen that units Leadership characteristic by 1."
         }
     ],
     "stratagems":[
         {
-            "name": "corrosive viscera",
+            "name": "the smothering shadow",
             "subindex": "strategic ploy stratagem",
-            "lore": "Highly acidic fluids spray from the creature’s wounds, lethal to those nearby.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after a TYRANIDS MONSTER model from your army with the Deadly Demise ability that cannot FLY is destroyed.",
-            "target": "That TYRANIDS MONSTER model. You can use this Stratagem on that model even though it was just destroyed.",
-            "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
+            "lore": "In the heart of the swarms, the Shadow in the Warp can literally kill with its smothering power.",
+            "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
+            "target": " One SYNAPSE unit from your army within 12'' of that enemy unit.",
+            "effect": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound.",
             "icon" : [""],
             "cp":1,
             "color":"green"
         },
         {
-            "name": "rampaging monstrosities",
+            "name": "synaptic channelling",
             "subindex": "battle tactic stratagem",
-            "lore": "Tyranid monsters have reserves of energy that they unleash in waves of devastating fury.",
-            "when": "Fight phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+            "lore": "Tyranids are one with the Hive Mind; individuality is a disadvantage that they surpass.",
+            "when": "Command phase.",
+            "target": "One SYNAPSE unit from your army.",
+            "effect": "Until the end of the turn, while a friendly TYRANIDS unit is within 9'' of the selected unit, that unit is within Synapse Range of your army.",
             "icon" : [""],
             "cp":1,
             "color":"green"
         },
         {
-            "name": "savage roar",
+            "name": "irrestible will",
             "subindex": "battle tactic stratagem",
-            "lore": "This monster is even more terrifying to behold than other bioforms of its kind.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well.",
+            "lore": "Whether paralysing its prey or forcing them to stumble out of cover with its force of will, or else puppeteering nearby warrior organisms, the leader-beast ensures the prey targets are struck down.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One SYNAPSE unit from your army that has not been selected to shoot or fight this phase, and one enemy unit within 24'' of and visible to the SYNAPSE unit.",
+            "effect": "Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that enemy unit, if the attacking model’s unit is within 6'' of your SYNAPSE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
             "icon" : [""],
             "cp":1,
             "color":"green"
         },
         {
-            "name": "untrammelled ferocity",
+            "name": "reinforced hive node",
+            "subindex": "battle tactic stratagem",
+            "lore": "Psionic shielding crackles around these leader-beasts, helping to ensure their survival.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One SYNAPSE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "icon" : [""],
+            "cp":1,
+            "color":"green"
+        },
+        {
+            "name": "imperative dominance",
             "subindex": "strategic ploy stratagem",
-            "lore": "Encircling and entrapping such physically powerful and fearless beasts is nigh on impossible.",
-            "when": "Your Movement phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to move this phase.",
-            "effect": "Until the end of the phase, models in your unit can move through enemy models as if they were friendly models, and until the end of the phase any Desperate Escape tests those models must take are automatically passed.",
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
-        },
-        {
-            "name": "swarm-guided salvoes",
-            "subindex": "battle tactic stratagem",
-            "lore": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
-            "when": "Your Shooting phase.",
-            "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
-            "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+            "lore": "At need, the focused will of the Tyranid leader-beasts can goad warrior organisms to exhibit strategically beneficial behaviours at the instant they are needed most.",
+            "when": "Your Command phase.",
+            "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
+            "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
             
             "icon" : [""],
             "cp":1,
             "color":"blue"
         },
         {
-            "name": "massive impact",
-            "subindex": "epic deed stratagem",
-            "lore": "Employing their sheer bulk and vicious chitinous horns and spikes, the largest Tyranids crash headlong through the foe, often with devastating results.",
-            "when": "Your Charge phase, just after a TYRANIDS MONSTER model from your army ends a Charge move.",
+            "name": "override instincts",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The seemingly omniscient Hive Mind processes the sensory input of its swarms at an impossible rate, and compels its broods to react accordingly.",
+            "when": "Your Movement phase.",
             "target": "That TYRANIDS MONSTER model.",
-            "effect": "Select one enemy unit within Engagement Range of your model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+            "effect": "Your unit is eligible to shoot and declare a charge this turn.",
             "icon" : [""],
             "cp":1,
             "color":"blue"

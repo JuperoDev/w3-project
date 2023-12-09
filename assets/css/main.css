@@ -7,6 +7,7 @@ p {
   
 }
 
+
 ul {
   list-style-type: disc; /* or 'circle', 'square', etc. */
 }
@@ -14,6 +15,26 @@ ul {
 .font-bebas {
   font-family: "Bebas Neue", sans-serif;
 }
+
+/* .max-button{
+  width: 100%
+} */
+
+.max-button {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button__normal-font {
+  font-size: 16px; /* Default font size */
+}
+
+.button__small-font {
+  font-size: 10px; /* Font size for text longer than 20 characters */
+}
+
 
 .clipped-md {
   clip-path: polygon(
@@ -34,11 +55,11 @@ ul {
 
 
 
+/* Background  */
 .bg-world-eaters{
   background-image: url("https://www.wargamer.com/wp-content/sites/wargamer/2023/05/warhammer-40k-10th-edition-world-eaters-art.jpg");
 }
 
-/* Xenos Background  */
 
 .bg-genestealer{
   

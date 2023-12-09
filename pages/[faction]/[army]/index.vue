@@ -73,10 +73,10 @@
     <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
     <div class="unit-list">
       <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">
-        <div v-for="armyName in armyData.units" :key="armyName" class="m-5 ">
-          <nuxt-link :to="generateLink(faction, army, armyName)">
-            <v-btn>
-              <p>{{ armyName }}</p>
+        <div v-for="unit in armyData.units" :key="unit" class="m-5 ">
+          <nuxt-link :to="generateLink(faction, army, unit)">
+            <v-btn class="max-button">
+              <p :class="{'button__normal-font': unit.length <= 20, 'button__small-font': unit.length > 20}">{{ unit }}</p>
             </v-btn>
           </nuxt-link>
         </div>

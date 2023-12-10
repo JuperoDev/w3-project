@@ -1,0 +1,82 @@
+{
+  "parentUnit": "Kill Rig",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Kill Rig’s stikka kannon fires rokkit-harpoons big enough to wrangle battle tanks. Its ’eavy lobba hits with ground-quaking force, and the tramplasquig that tows this land barge can flatten a fortress gate. Yet it is the Wurrboy atop his wurrtower that both the enemy and the Beast Snaggas themselves fear the most.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "psyker",
+    "beast snagga",
+    "kill rig"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "’Eavy lobba",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Stikka kannon",
+      "modifiers": [
+        "anti-monster 2+",
+        "anti-vehicle 2+",
+        "snagged"
+      ],
+      "range": 12,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Wurrtower",
+      "modifiers": [
+        "hazardous",
+        "psychic",
+        "torrent"
+      ],
+      "range": 24,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6",
+      "Feel No Pain 6+",
+      "Firing Deck 11"
+    ],
+    "faction": [
+      "CORE: Deadly Demise D6",
+      "Feel No Pain 6+",
+      "Firing Deck 11"
+    ],
+    "otherAbilities": {
+      "FACTION:": "Waaagh!"
+    }
+  }
+}

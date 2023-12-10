@@ -1,0 +1,63 @@
+{
+  "parentUnit": "Stormboyz",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Most Orks mock Stormboyz for their acts of juvenile rebellion, from taking orders and shining their boots to marching about, talking about ‘taktics’ and even following a battle plan. Yet when that plan is ‘strap on a high powered rokkit and hurtle into the enemy bellowing “Waaagh!”’, it does prove to have its merits.",
+  "keywords": [
+    "infantry",
+    "jump pack",
+    "fly",
+    "grenades",
+    "stormboyz"
+  ],
+  "attributes": [
+    {
+      "name": "stormboy",
+      "movement": 12,
+      "toughness": 5,
+      "salvation": 5,
+      "wounds": 1,
+      "leadership": 7,
+      "objectiveControl": 1
+    },
+    {
+      "name": "boss nob",
+      "movement": 12,
+      "toughness": 5,
+      "salvation": 5,
+      "wounds": 2,
+      "leadership": 7,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Slugga",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": {
+      "Full Throttle:": "This unit is eligible to declare a charge in a turn in which it Advanced . If it does, before making that Charge move , roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound . You cannot use this ability during the battle round in which you call a Waaagh! ."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parentUnit": "Nobz",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Nobz swagger into battle wielding a jaw-dropping assortment of kombi-weapons, favourite sluggas, very large choppas, piston-driven klaws and any other instrument of gratuitous violence they can get their claws on. Coupled with their exceptional resilience and sheer belligerence, this renders them terrifying combatants indeed.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "nobz"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Kombi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Slugga",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Waaagh!"
+    ],
+    "faction": [
+      "Da Boss’ Ladz: While a WARBOSS model is leading this unit",
+      "each time an attack targets this unit",
+      "subtract 1 from the Wound roll."
+    ],
+    "otherAbilities": {
+      "Ammo Runt:": "Once per battle for each ammo runt this unit has, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "Designer’s Note:": "Place the relevant number of Ammo Runt tokens next to the unit, removing one each time the unit uses this ability."
+    }
+  }
+}

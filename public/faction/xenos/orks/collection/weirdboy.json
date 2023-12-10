@@ -1,0 +1,46 @@
+{
+  "parentUnit": "Weirdboy",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Weirdboyz channel the Waaagh! energy that builds up around battling Orks, unleashing it before it causes their heads to literally explode. This they do with gusto, whether vomiting blasts of devastating green ectoplasm at the enemy or teleporting Orks madly about the place.",
+  "keywords": [
+    "infantry",
+    "character",
+    "psyker",
+    "weirdboy"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "’Eadbanger",
+      "modifiers": [
+        "precision",
+        "psychic"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Leader"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": {
+      "Waaagh! Energy:": "While this model is leading a unit, add 1 to the Strength and Damage characteristics of this model’s ’Eadbanger weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the [HAZARDOUS] ability.",
+      "Da Jump (Psychic):": "Once per turn, at the end of your Movement phase , one WEIRDBOY from your army can use this ability. If it does, roll one D6: on a 1, that WEIRDBOY ’s unit suffers D6 mortal wounds ; on a 2+, remove this WEIRDBOY ’s unit from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+    }
+  }
+}

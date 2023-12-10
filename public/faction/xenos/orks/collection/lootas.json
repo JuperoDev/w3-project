@@ -1,0 +1,84 @@
+{
+  "parentUnit": "Lootas",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Lootas grub together every toof and fistful of scrap they can, then use the former to pay the Meks to turn the latter into very, very large guns. These they then turn on the enemy with gleeful abandon, unleashing such prodigious – if erratic – hails of fire that they can stop a battle tank in its tracks or scythe down squads of infantry.",
+  "keywords": [
+    "infantry",
+    "lootas"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Big shoota",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Deffgun",
+      "modifiers": [
+        "heavy",
+        "rapid fire 1"
+      ],
+      "range": 48,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Kustom mega-blasta",
+      "modifiers": [
+        "hazardous"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Rokkit launcha",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Waaagh!"
+    ],
+    "faction": [
+      "Dat’s Our Loot!: Each time a model in this unit makes a ranged attack",
+      "re-roll a Hit roll of 1. If that attack targets a unit that is within range of an objective marker",
+      "you can re-roll the Hit roll instead."
+    ],
+    "otherAbilities": {
+      "Every Spanner is equipped with:": "big shoota; close combat weapon.",
+      "Every Loota is equipped with:": "deffgun; close combat weapon."
+    }
+  }
+}

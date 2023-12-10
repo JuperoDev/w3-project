@@ -1,0 +1,48 @@
+{
+  "parentUnit": "Dakkajet",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Rocketing through the skies on billowing trails of flame and smoke, Dakkajets come in low and hard over the battlefield. These single-seater Ork attack craft are ludicrously over-gunned for their size, all but shaking themselves apart as their pilots unleash storms of dakka on luckless ground targets or enemy aircraft with equal glee.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "aircraft",
+    "dakkajet"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin supa-shoota",
+      "modifiers": [
+        "rapid fire 2",
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": {
+      "Dakkastorm:": "Each time this model makes a ranged attack, every successful Hit roll scores a Critical Hit ."
+    }
+  }
+}

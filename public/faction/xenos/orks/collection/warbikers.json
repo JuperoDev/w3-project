@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Warbikers",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Ork Warbikers race into battle with dakkaguns hammering, ragged trails of dust and smoke boiling up behind them like an ill omen. They race one another at breakneck pace to reach the enemy first, execute death-defying stunts at suicidal speeds, then crash headlong into the foe’s battle line like battering rams.",
+  "keywords": [
+    "mounted",
+    "grenades",
+    "warbikers"
+  ],
+  "attributes": [
+    {
+      "name": "warbiker",
+      "movement": 12,
+      "toughness": 6,
+      "salvation": 4,
+      "wounds": 3,
+      "leadership": 7,
+      "objectiveControl": 2
+    },
+    {
+      "name": "boss nob on warbike",
+      "movement": 12,
+      "toughness": 6,
+      "salvation": 4,
+      "wounds": 4,
+      "leadership": 7,
+      "objectiveControl": 2
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Slugga",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin dakkagun",
+      "modifiers": [
+        "rapid fire 2",
+        "assault",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Waaagh!"
+    ],
+    "faction": [
+      "Drive-by Dakka: Each time a model in this unit makes a ranged attack that targets a unit within 9\"",
+      "improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "twin dakkagun; close combat weapon."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "parentUnit": "Gretchin",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "What Gretchin – also called grots – lack in stature, courage, resilience, discipline, motivation, loyalty, aggression and personal hygiene, they allegedly make up for in numbers. They are at least reasonable shots with their underpowered firearms, and if all else fails, the Orks find that grots make excellent bullet-stops.",
+  "keywords": [
+    "infantry",
+    "gretchin"
+  ],
+  "attributes": [
+    {
+      "name": "gretchin",
+      "movement": 6,
+      "toughness": 2,
+      "salvation": 7,
+      "wounds": 1,
+      "leadership": 8,
+      "objectiveControl": 2
+    },
+    {
+      "name": "runtherd",
+      "movement": 6,
+      "toughness": 5,
+      "salvation": 5,
+      "wounds": 2,
+      "leadership": 7,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Grot blasta",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Slugga",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Waaagh!"
+    ],
+    "faction": [
+      "Runtherd: While this unit contains one or more Gretchin models",
+      "each time an attack targets this unit",
+      "Runtherd models in this unit have a Toughness characteristic of 2.Thievin’ Scavengers: At the start of your Command phase",
+      "roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of those rolls is a 4+",
+      "you gain 1CP."
+    ],
+    "otherAbilities": {
+      "Every Runtherd is equipped with:": "slugga; grot-smacka.",
+      "Every Gretchin is equipped with:": "grot blasta; close combat weapon."
+    }
+  }
+}

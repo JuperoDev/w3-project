@@ -1,0 +1,70 @@
+{
+  "parentUnit": "Kustom Boosta-blasta",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Meks who build Kustom Boosta-blastas have the alarming habit of wiring themselves into the vehicles’ rivet kannons as though into very fast and shooty Deff Dreads. They then speed to war, aiming hails of arm-length metal rivets at the enemy while scorching them with the Boosta-blasta’s flame-jetting exhausts.",
+  "keywords": [
+    "vehicle",
+    "kustom boosta-blasta"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Burna exhausts",
+      "modifiers": [
+        "ignores cover",
+        "torrent",
+        "twin-linked"
+      ],
+      "range": 6,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Grot blasta",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Rivet kannon",
+      "modifiers": [
+        "assault",
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": {
+      "Rivetin’ Dakka:": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks made with a rivet kannon. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll ."
+    }
+  }
+}

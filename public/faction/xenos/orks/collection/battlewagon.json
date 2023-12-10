@@ -1,0 +1,99 @@
+{
+  "parentUnit": "Battlewagon",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "No two Battlewagons are the same, for the Meks that build them can never resist cobbling on armour plates, ramming spikes, assorted dakka and random worky-gubbinz. However, all are rugged transport tanks with the capacity to bear a vast number of angry Orks into battle while shrugging off the worst the enemy can throw at them.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "battlewagon"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Big shoota",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Kannon - frag",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Killkannon",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Lobba",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Zzap gun",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 36,
+      "strength": null,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6",
+      "Firing Deck 22"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": {
+      "Ramshackle but Rugged:": "Each time an attack is allocated to this model, worsen the Armour Penetration characteristic of that attack by 1."
+    }
+  }
+}

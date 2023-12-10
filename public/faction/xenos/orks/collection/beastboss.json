@@ -1,0 +1,46 @@
+{
+  "parentUnit": "Beastboss",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "It takes a ferocious and foul-tempered Ork to lead a stampede of Beast Snaggas. Beastbosses possess these qualities in abundance. Boasting cybork enhancements, wired-in targetin’ squigs and an array of brutal combat weaponry, these roaring monsters can bring down even the largest prey one-on-one.",
+  "keywords": [
+    "infantry",
+    "character",
+    "beast snagga",
+    "warboss",
+    "beastboss"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shoota",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 6+",
+      "Leader"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": {
+      "Beastboss:": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll .",
+      "Beastly Rage:": "Each time this model makes a Charge move , until the end of the turn, melee weapons it is equipped with have the [DEVASTATING WOUNDS] ability."
+    }
+  }
+}

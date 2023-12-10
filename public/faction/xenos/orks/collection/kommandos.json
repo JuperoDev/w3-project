@@ -1,0 +1,102 @@
+{
+  "parentUnit": "Kommandos",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "No right-thinking Ork trusts Kommandos. They sneak up on the enemy rather than charging in headlong, and have an unhealthy fascination with very big knives and their application to people’s backs, throats and guts. That said, having a band of Kommandos ambush the enemy mid-battle definitely has its uses.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "kommandos"
+  ],
+  "attributes": [
+    {
+      "name": "kommandos",
+      "movement": 6,
+      "toughness": 5,
+      "salvation": 5,
+      "wounds": 1,
+      "leadership": 7,
+      "objectiveControl": 1
+    },
+    {
+      "name": "boss nob",
+      "movement": 6,
+      "toughness": 5,
+      "salvation": 5,
+      "wounds": 2,
+      "leadership": 7,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Burna",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Speshul Kommando shoota",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Rokkit launcha",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Slugga",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Stealth"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": {
+      "Sneaky Surprise:": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+    }
+  }
+}

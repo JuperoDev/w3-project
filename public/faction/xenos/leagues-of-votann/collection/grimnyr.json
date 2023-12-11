@@ -37,6 +37,17 @@
   "leader": ["HEARTHKYN WARRIORS"],
   "rangedWeapons": [
     {
+      "name": "autoch-pattern bolter",
+      "range": 36,
+      "attacks": "d3",
+      "ballistic-skills": 4,
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": ["blast"],
+      "singleChoice": false
+    },
+    {
       "name": "Ancestral Wrath - witchfire",
       "modifiers": [
         "psychic"
@@ -47,7 +58,7 @@
       "ballistic-skills": 0,
       "armor-penetration": 0,
       "damage": 0,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Ancestral Wrath - focused witchfire",
@@ -61,7 +72,7 @@
       "ballistic-skills": 0,
       "armor-penetration": 0,
       "damage": 0,
-      "singleChoice": false
+      "singleChoice": true
     }
   ],
   "abilities": {

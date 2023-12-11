@@ -25,7 +25,17 @@
     }
 ],
   "leader": ["EINHYR HEARTHGUARD"],
-  "rangedWeapons": [],
+  "rangedWeapons": [ {
+    "name": "Autoch-pattern combi-bolter",
+    "range": 36,
+    "attacks": "d3",
+    "ballistic-skills": 4,
+    "strength": 9,
+    "armor-penetration": 2,
+    "damage": 2,
+    "modifiers": ["blast"],
+    "singleChoice": false
+  }],
   "abilities": {
     "core": [
       "Leader"

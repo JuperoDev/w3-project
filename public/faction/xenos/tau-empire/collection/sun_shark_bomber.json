@@ -1,0 +1,86 @@
+{
+  "parentUnit": "Sun Shark Bomber",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Able to micro-manufacture its own energy-munitions in the heat of battle, the Sun Shark drops thrumming pulse bombs onto the foe and obliterates them in ferocious blasts of unleashed power.",
+  "keywords": [
+    "vehicle",
+    "aircraft",
+    "fly",
+    "sun shark bomber"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin missile pod",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 30,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Seeker missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin ion rifle - standard",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 30,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin ion rifle - overcharge",
+      "modifiers": [
+        "hazardous",
+        "twin-linked"
+      ],
+      "range": 30,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "CORE: Deadly Demise D3"
+    ],
+    "otherAbilities": {
+      "FACTION:": "For the Greater Good"
+    }
+  }
+}

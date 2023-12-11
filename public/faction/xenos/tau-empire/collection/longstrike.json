@@ -1,0 +1,116 @@
+{
+  "parentUnit": "Longstrike",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Renowned throughout the T’au Empire as its foremost tank ace, Shas’la T’au Sha’ng possesses a sublime talent for armoured warfare. His XV02 Pilot Battlesuit allows him to integrate seamlessly with the artificial intelligence of his chosen gunship, augmenting its targeting systems and ensuring that its every shot strikes home.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "character",
+    "epic hero",
+    "longstrike"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Ion cannon - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 60,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ion cannon - overcharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 60,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Railgun",
+      "modifiers": [
+        "devastating wounds",
+        "heavy"
+      ],
+      "range": 72,
+      "strength": 20,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Seeker missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin pulse carbine",
+      "modifiers": [
+        "assault",
+        "twin-linked"
+      ],
+      "range": 20,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin smart missile system",
+      "modifiers": [
+        "indirect fire",
+        "twin-linked"
+      ],
+      "range": 30,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "CORE: Deadly Demise D3"
+    ],
+    "otherAbilities": {
+      "FACTION:": "For the Greater Good"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "parentUnit": "Vespid Stingwings",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These alien auxiliaries thrum into battle on membranous wings, their airborne agility leaving the enemy nowhere to hide. Resilient enough to shrug off all but the heaviest incoming fire, they unleash punishing radioactive salvoes from their neutron blasters that soon reduce their targets to little more than glowing craters.",
+  "keywords": [
+    "infantry",
+    "fly",
+    "vespid stingwings"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Neutron blaster",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Airborne Agility: At the end of your Movement phase",
+      "if this unit is not within Engagement Range of any enemy units",
+      "you can remove it from the battlefield and place it into Strategic Reserves."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "neutron blaster; stingwing claws."
+    }
+  }
+}

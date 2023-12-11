@@ -1,0 +1,62 @@
+{
+  "parentUnit": "Sky Ray Gunship",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "This unusual hover tank relies upon other T’au units to use markerlights to highlight targets for its seeker missiles. Once this is done, the Sky Ray’s salvoes are nigh inescapable. An especially effective anti-aircraft asset, it employs advanced velocity trackers to predict enemy flight paths and destroy them with hurtling warheads.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "markerlight",
+    "sky ray gunship"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin pulse carbine",
+      "modifiers": [
+        "assault",
+        "twin-linked"
+      ],
+      "range": 20,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin smart missile system",
+      "modifiers": [
+        "indirect fire",
+        "twin-linked"
+      ],
+      "range": 30,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "For the Greater Good"
+    ],
+    "otherAbilities": {
+      "Aerial Scanners:": "Each time this model makes an attack with a ranged weapon that targets a unit that can FLY , you can re-roll the Hit roll .",
+      "Targeting Array:": "Each time this unit is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+    }
+  }
+}

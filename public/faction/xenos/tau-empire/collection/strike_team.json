@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Strike Team",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Fire Warrior Strike Teams are the mainstay of many Hunter Cadres, unleashing storms of potent anti-personnel firepower that few foes can long endure. Tough, dependable, numerous and with access to a variety of specialised weaponry and drone support, these Fire Warriors will hold the line no matter what odds they face.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "grenades",
+    "markerlight",
+    "fire warrior",
+    "strike team"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Pulse pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Pulse rifle",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 30,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Support turret missile system",
+      "modifiers": [
+        "indirect fire",
+        "twin-linked"
+      ],
+      "range": 30,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: For the Greater Good"
+    ],
+    "faction": [
+      "Cover Fire: While this unit is within range of an objective marker you control",
+      "each time you select it as the target of the Fire Overwatch Stratagem",
+      "hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.DS8 Support Turret: In your Movement phase",
+      "if this unit Remains Stationary",
+      "until the start of your next Movement phase",
+      "its Fire Warrior Shas’ui model is equipped with the support turret missile system weapon. Designer’s Note: Place a DS8 Support Turret token next to this unit to remind you."
+    ],
+    "otherAbilities": {
+      "Every model is equipped with:": "pulse pistol; pulse rifle; close combat weapon."
+    }
+  }
+}

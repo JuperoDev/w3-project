@@ -119,5 +119,37 @@
     }
   },
 
-  "additionalParameter": {}
+  "additionalParameter": {},
+  "meleeWeapons": [
+    {
+      "name": "xenos claws and teeth",
+      "attacks": 1,
+      "weapons-skills": 4,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": []
+    }
+],
+"wargear": [],
+
+ "unitComposition": [
+    {
+      "unitType": "Sagitaur",
+      "minQuantity": 1,
+      "maxQuantity": 1
+    }
+  ],
+
+  "options": [
+    {
+      "count": [5],
+      "points": 60
+    },
+    {
+        "count": [10],
+        "points": 120
+      }
+  ],
+  "equipment": ["biocannon", "xenos claws and teeth"]
 }

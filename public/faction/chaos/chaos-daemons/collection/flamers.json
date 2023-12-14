@@ -1,0 +1,47 @@
+{
+  "parentUnit": "Flamers",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These bizarre daemons bound through the air in convulsive leaps. The warpflame that drools from their many maws seethes with the raw power of change. When spat forth in roaring sheets, it sends its victims into agonies of mutation, their forms altering again and again before collapsing into distorted ruin.",
+  "keywords": [
+    "infantry",
+    "fly",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "flamers"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Flickering Flames",
+      "modifiers": [
+        "ignores cover",
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": {
+      "Bounding Leaps:": "This unit is eligible to shoot in a turn in which it Fell Back ."
+    }
+  }
+}

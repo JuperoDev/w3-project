@@ -1,0 +1,90 @@
+{
+  "parentUnit": "Pink Horrors",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Magic made manifest, these cavorting grotesques hurl balls of warpfire into the enemy ranks where they transmogrify and immolate their victims. Pink Horrors cackle, riddle and caper endlessly, their unsettling glee ending only in the moment when their mortal form is destroyed and forced to split messily into two Blue Horrors.",
+  "keywords": [
+    "keywords – all models: infantry",
+    "battleline",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "horrorspink horrors: pinkblue horrors: bluebrimstone horrors: brimstone"
+  ],
+  "attributes": [
+    {
+      "name": "pink horror",
+      "movement": 6,
+      "toughness": 3,
+      "salvation": 7,
+      "wounds": 1,
+      "leadership": 7,
+      "objectiveControl": 2
+    },
+    {
+      "name": "blue horror/brimstone horror",
+      "movement": 6,
+      "toughness": 3,
+      "salvation": 7,
+      "wounds": 1,
+      "leadership": 8,
+      "objectiveControl": 1
+    }
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Coruscating Pink Flames",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Coruscating Blue Flames",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Coruscating Yellow Flames",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 2,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": {
+      "Split:": "Each time a PINK HORROR or BLUE HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a PINK HORROR , add two BLUE HORROR models to this unit, and if it was a BLUE HORROR , add one BRIMSTONE HORROR model to this unit."
+    }
+  }
+}

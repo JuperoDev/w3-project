@@ -1,0 +1,61 @@
+{
+  "parentUnit": "Burning Chariot",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Burning Chariots of Tzeentch are often seen in the visions and nightmares of mortals as blazing omens of ill fortune. Upon the battlefield such warnings become self-fulfilling prophecies, the eldritch war engines serving as the agents of the very devastation and misery their coming is said to warn of.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "burning chariot"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Fire of Tzeentch - blue fire",
+      "modifiers": [
+        "ignores cover",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Fire of Tzeentch - pink fire",
+      "modifiers": [
+        "ignores cover",
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": {
+      "Eldritch Flames (Psychic):": "In your Shooting phase , after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover ."
+    }
+  }
+}

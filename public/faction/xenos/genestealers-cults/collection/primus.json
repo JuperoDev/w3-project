@@ -32,10 +32,10 @@
       ],
       "range": 18,
       "strength": 1,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 1,
+      "ballistic-skills": 2,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": "d3",
       "singleChoice": false
     }
   ],
@@ -47,9 +47,14 @@
     "faction": [
      
     ],
-    "otherAbilities": {
-      
-    }
+    "otherAbilities": [{
+      "name":"Cult Demagogue",
+      "description":"While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+    },
+    {
+      "name":"Decoys and Misdirection",
+      "description":"If your army includes one or more models with this ability, after both players have deployed their armies, select up to three GENESTEALER CULTS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+      }]
   },
   "equipment": [" scoped needle pistol", "cult bonesword","toxin injector claw"],
 

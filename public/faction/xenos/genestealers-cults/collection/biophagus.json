@@ -30,10 +30,10 @@
       ],
       "range": 12,
       "strength": 3,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 1,
+      "ballistic-skills": 3,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -43,10 +43,10 @@
       ],
       "range": 6,
       "strength": 1,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -56,17 +56,16 @@
       "Leader"
     ],
     "faction": [
-      "Twisted Science: While this model is leading a unit",
-      "melee weapons equipped by models in that unit have the [LETHAL HITS] ability.Biological Warfare: Once per battle",
-      "when this model’s unit is selected to fight",
-      "this model can use this ability. If it does",
-      "until the end of the phase",
-      "improve the Attacks and Damage characteristics of its injector goad by 3."
+    
     ],
-    "otherAbilities": {
-      "Alchemicus Familiar:": "Once per battle, when the bearer’s unit is selected to fight, the bearer can use its alchemicus familiar. If it does, until the end of the phase, melee weapons equipped by models in that unit have the [ANTI-INFANTRY 2+] ability.",
-      "Designer’s Note:": "Place an Alchemicus Familiar token next to the bearer, removing it once this ability has been used."
-    }
+    "otherAbilities":[{
+      "name":"While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+      "description":"While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+    },
+  {
+    "name":"Biological Warfare",
+      "description":"Once per battle, when this model’s unit is selected to fight, this model can use this ability. If it does, until the end of the phase, improve the Attacks and Damage characteristics of its injector goad by 3."
+  } ]
   },
   "equipment": ["autopistol", "chemical vials","injector goad"],
 

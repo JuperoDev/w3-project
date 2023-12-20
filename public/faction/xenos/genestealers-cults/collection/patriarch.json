@@ -32,18 +32,21 @@
       "Leader"
     ],
     "faction": [
-      "Might From Beyond: While this model is leading a unit",
-      "melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.Cosmic Horror (Psychic): At the start of the Fight phase",
-      "each enemy unit within 6\" of this model must take a Battle-shock test.Psychic Familiar: Once per battle",
-      "at the start of the Fight phase",
-      "this model can use its psychic familiar. If it does",
-      "until the end of the phase",
-      "double the range of its Cosmic Horror ability. Designer’s Note: Place a Psychic Familiar token next to the model",
-      "removing it once this ability has been used."
+     
     ],
-    "otherAbilities": {
-      "This model is equipped with:": "Patriarch’s claws."
+    "otherAbilities": [{
+      "name":"Might From Beyond.",
+      "description":"While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+    },
+    {
+      "name":"Cosmic Horror (Psychic)",
+      "description":"At the start of the Fight phase, each enemy unit within 6'' of this model must take a Battle-shock test."
+    },
+    {
+      "name":"Psychic Familiar.",
+      "description":"Once per battle, at the start of the Fight phase, this model can use its psychic familiar. If it does, until the end of the phase, double the range of its Cosmic Horror ability."
     }
+  ]
   },
   "equipment": ["Patriarch’s claws"],
 

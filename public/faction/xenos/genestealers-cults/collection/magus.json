@@ -31,10 +31,10 @@
       ],
       "range": 12,
       "strength": 3,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 1,
+      "ballistic-skills": 3,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -44,24 +44,21 @@
       "Leader"
     ],
     "faction": [
-      "Spiritual Leader: While this model is leading a unit",
-      "models in that unit have the Feel No Pain 5+ ability against Psychic Attacks.Mind Control (Psychic): At the start of your opponent’s Shooting phase",
-      "one PSYKER model from your army with this ability can use it. If used",
-      "select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1",
-      "that PSYKER model suffers D3 mortal wounds; on a 2-5",
-      "until the end of the phase",
-      "each time a model in that enemy unit makes an attack",
-      "subtract 1 from the Hit roll; on a 6",
-      "that enemy unit is not eligible to shoot this phase.Psychic Familiar: Once per battle",
-      "at the start of any of your opponent’s Shooting phases",
-      "this model can use its psychic familiar. If it does",
-      "until the end of the phase",
-      "double the range of its Mind Control ability. Designer’s Note: Place a Psychic Familiar token next to the model",
-      "removing it once this ability has been used."
+    
     ],
-    "otherAbilities": {
-      "This model is equipped with:": "autopistol; Magus stave."
+    "otherAbilities": [{
+      "name":"Spiritual Leader",
+      "description":"While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+    },
+    {
+      "name":"Mind Control (Psychic)",
+      "description":"At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If used, select one enemy unit within 12'' of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase."
+    },
+    {
+      "name":"Psychic Familiar",
+      "description":"Once per battle, at the start of any of your opponent’s Shooting phases, this model can use its psychic familiar. If it does, until the end of the phase, double the range of its Mind Control ability."
     }
+  ]
   },
   "equipment": ["autopistol","Magus stave"],
 

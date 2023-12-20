@@ -33,10 +33,10 @@
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 6,
+      "ballistic-skills": 2,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -46,17 +46,17 @@
       "Lone Operative"
     ],
     "faction": [
-      "Cometh the Hour",
-      "Cometh the Hero: When this model is set up using the Deep Strike ability",
-      "if it is set up within 3\" horizontally of a friendly GENESTEALER CULTS BATTLELINE unit",
-      "it can be set up anywhere on the battlefield that is more than 3\" horizontally from all enemy models",
-      "but if it is set up within 9\" horizontally of an enemy unit it is not eligible to declare a charge this turn.Gunslinger: Each time an enemy unit targets a friendly GENESTEALER CULTS BATTLELINE unit within 3\" of this model with ranged attacks",
-      "after that enemy unit has finished making its attacks",
-      "this model can shoot as if it were your Shooting phase."
+     
     ],
-    "otherAbilities": {
-      "This model is equipped with:": "liberator autostubs; close combat weapon."
+    "otherAbilities": [{
+      "name":"Cometh the Hour, Cometh the Hero",
+      "description":"When this model is set up using the Deep Strike ability, if it is set up within 3'' horizontally of a friendly GENESTEALER CULTS BATTLELINE unit, it can be set up anywhere on the battlefield that is more than 3'' horizontally from all enemy models, but if it is set up within 9'' horizontally of an enemy unit it is not eligible to declare a charge this turn."
+    },
+    {
+      "name":"Gunslinger",
+      "description":"Each time an enemy unit targets a friendly GENESTEALER CULTS BATTLELINE unit within 3'' of this model with ranged attacks, after that enemy unit has finished making its attacks, this model can shoot as if it were your Shooting phase."
     }
+  ]
   },
   "equipment": ["liberator autostubs","close combat weapon"],
 

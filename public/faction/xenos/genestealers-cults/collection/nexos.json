@@ -30,10 +30,10 @@
       ],
       "range": 12,
       "strength": 3,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 1,
+      "ballistic-skills": 3,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -43,15 +43,18 @@
       "Leader"
     ],
     "faction": [
-      "Battlefield Analysis: Once per turn",
-      "you can select one model or unit from your army with this ability as the target of a Stratagem for 0CP",
-      "even if you have already selected a model or unit from your army as the target of that Stratagem this phase.Cult Infiltration: At the start of each player’s Command phase",
-      "if this model is on the battlefield",
-      "you can select one Cult Ambush marker that is on the battlefield and move it up to 6\"."
+     
     ],
-    "otherAbilities": {
-      "This model is equipped with:": "autopistol; close combat weapon."
-    }
+    "otherAbilities": [{
+      "name":"Battlefield Analysis",
+      "description":
+      "Once per turn, you can select one model or unit from your army with this ability as the target of a Stratagem for 0CP, even if you have already selected a model or unit from your army as the target of that Stratagem this phase."
+    },
+    {
+      "name":"Cult Infiltration",
+      "description":
+      "At the start of each player’s Command phase, if this model is on the battlefield, you can select one Cult Ambush marker that is on the battlefield and move it up to 6''"
+    }]
   },
   "equipment": ["autopistol","close combat weapon"],
 

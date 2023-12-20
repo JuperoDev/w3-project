@@ -32,10 +32,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": 3,
       "singleChoice": false
     }
   ],
@@ -49,9 +49,14 @@
     "faction": [
     
     ],
-    "otherAbilities": {
-     
-    }
+    "otherAbilities": [{
+     "name":"Psychic Spoor",
+     "description":"At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, that attack has the [IGNORES COVER] and [DEVASTATING WOUNDS] abilities."
+    },
+  {
+    "name":"Creeping Shadow",
+     "description":"This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+  }]
   },
   "equipment": ["Sanctus bio-dagger"],
 

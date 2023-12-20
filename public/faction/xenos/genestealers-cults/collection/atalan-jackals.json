@@ -88,6 +88,18 @@
       "singleChoice": false
     }
   ],
+
+  "meleeWeapons": [
+      {
+          "name": "chitin-barbed limbs",
+          "attacks": 2,
+          "weapons-skills": 4,
+          "strength": 5,
+          "armor-penetration": 0,
+          "damage": 1,
+          "modifiers": []
+      }
+  ],
   "abilities": {
     "core": [
       "Scouts 9\""
@@ -97,11 +109,11 @@
     ],
     "otherAbilities": [
       {
-        "name": "Outrider Gangs:",
+        "name": "Outrider Gangs",
         "description": "Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9'' of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up."
       },
       {
-        "name": "Demolition Run:",
+        "name": "Demolition Run",
         "description": "Once per battle round , after this unit ends a Normal move , you can select one enemy unit within 6'' of and visible to this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
       }
     ]

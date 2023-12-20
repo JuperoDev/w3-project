@@ -78,13 +78,22 @@
 
     "meleeWeapons": [
         {
-            "name": "chitin-barbed limbs",
-            "attacks": 2,
-            "weapons-skills": 4,
+            "name": "Cult bonesword",
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 5,
-            "armor-penetration": 0,
+            "armor-penetration": 2,
             "damage": 1,
             "modifiers": []
-        }
+        },
+        {
+          "name": "Toxin injector claw",
+          "attacks": 2,
+          "weapons-skills": 2,
+          "strength": 2,
+          "armor-penetration": 0,
+          "damage": "d3",
+          "modifiers": ["anti-infantry 2+","extra attacks"]
+      }
     ]
 }

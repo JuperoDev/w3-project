@@ -76,13 +76,22 @@
 
     "meleeWeapons": [
         {
-            "name": "chitin-barbed limbs",
+            "name": "Close combat weapon",
             "attacks": 2,
-            "weapons-skills": 4,
-            "strength": 5,
+            "weapons-skills": 3,
+            "strength": 3,
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": []
-        }
+        },
+        {
+          "name": "Sanctus bio-dagger",
+          "attacks": 6,
+          "weapons-skills": 2,
+          "strength": 3,
+          "armor-penetration": 2,
+          "damage": 1,
+          "modifiers": ["anti-infantry 3+","precision"]
+      }
     ]
 }

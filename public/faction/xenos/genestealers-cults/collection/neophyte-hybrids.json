@@ -214,14 +214,32 @@
       }],
 
       "meleeWeapons": [
-          {
-              "name": "chitin-barbed limbs",
-              "attacks": 2,
-              "weapons-skills": 4,
-              "strength": 5,
-              "armor-penetration": 0,
-              "damage": 1,
-              "modifiers": []
-          }
+        {
+          "name": "Chainsword",
+          "attacks": 2,
+          "weapons-skills": 4,
+          "strength": 3,
+          "armor-penetration": 0,
+          "damage": 1,
+          "modifiers": []
+      },
+      {
+        "name": "Power weapon",
+        "attacks": 1,
+        "weapons-skills": 4,
+        "strength": 4,
+        "armor-penetration": 2,
+        "damage": 1,
+        "modifiers": []
+    },
+    {
+      "name": "Close combat weapon",
+      "attacks": 1,
+      "weapons-skills": 4,
+      "strength": 3,
+      "armor-penetration": 2,
+      "damage": 1,
+      "modifiers": []
+  }
       ]
 }

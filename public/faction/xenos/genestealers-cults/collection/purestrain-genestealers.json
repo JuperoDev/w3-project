@@ -32,10 +32,13 @@
     "faction": [
       "Cult Ambush"
     ],
-    "otherAbilities": {
-      "Swift and Deadly:": "This unit is eligible to declare a charge in a turn in which it Advanced ."
+    "otherAbilities": [
+
+     { "name":"Swift and Deadly:",
+      "description": "This unit is eligible to declare a charge in a turn in which it Advanced ."}
+    ]
     }
-  },
+  ,
   "equipment": [
     "cult claws and talons"
   ],
@@ -65,11 +68,11 @@
 
   "meleeWeapons": [
       {
-          "name": "chitin-barbed limbs",
-          "attacks": 2,
-          "weapons-skills": 4,
-          "strength": 5,
-          "armor-penetration": 0,
+          "name": "Cult claws and talons",
+          "attacks": 4,
+          "weapons-skills": 2,
+          "strength": 4,
+          "armor-penetration": 2,
           "damage": 1,
           "modifiers": []
       }

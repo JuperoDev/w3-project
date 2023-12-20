@@ -97,13 +97,33 @@
 
       "meleeWeapons": [
           {
-              "name": "chitin-barbed limbs",
-              "attacks": 2,
-              "weapons-skills": 4,
+              "name": "Leader’s cult weapons",
+              "attacks": 5,
+              "weapons-skills": 3,
               "strength": 5,
-              "armor-penetration": 0,
+              "armor-penetration": 1,
               "damage": 1,
               "modifiers": []
-          }
+          },
+          {
+            "name": "Metamorph mutations – strike",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice":true
+        },
+        {
+          "name": "Metamorph mutations – sweep",
+          "attacks": 5,
+          "weapons-skills": 4,
+          "strength": 4,
+          "armor-penetration": 1,
+          "damage": 1,
+          "modifiers": [],
+          "singleChoice":true
+      }
       ]
 }

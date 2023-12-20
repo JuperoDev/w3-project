@@ -95,13 +95,23 @@
     "faction": [
       "Cult Ambush"
     ],
-    "otherAbilities": {
-      "Outrider Gangs:": "Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up.",
-      "Demolition Run:": "Once per battle round , after this unit ends a Normal move , you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
-    }
+    "otherAbilities": [
+      {
+        "name": "Outrider Gangs:",
+        "description": "Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up."
+      },
+      {
+        "name": "Demolition Run:",
+        "description": "Once per battle round , after this unit ends a Normal move , you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+      }
+    ]
   },
-  "equipment": ["heavy mining laser","twin heavy stubbers","Ridgerunner wheels","flare launcher."],
-
+  "equipment": [
+    "heavy mining laser",
+    "twin heavy stubbers",
+    "Ridgerunner wheels",
+    "flare launcher."
+  ],
   "additionalParameter": {},
   "unitComposition": [
     {
@@ -136,18 +146,21 @@
         2
       ],
       "points": 180
-    }],
-    "wargear": [{
-      "description":"Any number of Atalan Jackals can each replace their close combat weapon with 1 Atalan power weapon."
+    }
+  ],
+  "wargear": [
+    {
+      "description": "Any number of Atalan Jackals can each replace their close combat weapon with 1 Atalan power weapon."
     },
     {
-      "description":"Any number of Atalan Wolfquads can each have their heavy stubber replaced with one of the following:",
+      "description": "Any number of Atalan Wolfquads can each have their heavy stubber replaced with one of the following:",
       "items": [
         "1 Atalan incinerator",
         "1 mining laser"
       ]
     },
     {
-      "description":"For every 4 Atalan Jackals in this unit, 1 Atalan Jackal’s Atalan small arms can be replaced with 1 grenade launcher."
-    }]
+      "description": "For every 4 Atalan Jackals in this unit, 1 Atalan Jackal’s Atalan small arms can be replaced with 1 grenade launcher."
+    }
+  ]
 }

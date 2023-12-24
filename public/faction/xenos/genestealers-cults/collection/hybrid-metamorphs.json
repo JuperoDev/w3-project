@@ -60,9 +60,10 @@
     "faction": [
       "Cult Ambush"
     ],
-    "otherAbilities": {
-      "Savage Amalgam:": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
-    }
+    "otherAbilities": [{
+      "name":"Savage Amalgam",
+      "description":"Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
+    }]
   },
 
   "additionalParameter": {},
@@ -126,5 +127,11 @@
           "modifiers": [],
           "singleChoice":true
       }
+      ],
+      "warGearAbilities":[
+        {
+          "wargear":"Cult Icon",
+          "ability":"In the Reinforcements step of your Movement phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+        }
       ]
 }

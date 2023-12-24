@@ -165,9 +165,10 @@
     "faction": [
       "Cult Ambush"
     ],
-    "otherAbilities": {
-      "A Plan Generations in the Making:": "At the start of your Command phase , roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
-    }
+    "otherAbilities": [{
+      "name":"A Plan Generations in the Making:",
+      "description":"At the start of your Command phase , roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
+    }]
   },
 
   "additionalParameter": {},
@@ -255,5 +256,11 @@
       "damage": 1,
       "modifiers": []
   }
+      ],
+      "warGearAbilities":[
+        {
+          "wargear":"Cult Icon",
+          "ability":"In the Reinforcements step of your Movement phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+        }
       ]
 }

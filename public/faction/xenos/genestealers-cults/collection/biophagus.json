@@ -67,14 +67,14 @@
       "description":"Once per battle, when this model’s unit is selected to fight, this model can use this ability. If it does, until the end of the phase, improve the Attacks and Damage characteristics of its injector goad by 3."
   } ]
   },
-  "equipment": ["autopistol", "chemical vials","injector goad"],
 
   "additionalParameter": {},
   "unitComposition": [
     {
       "unitType": "biophagus",
       "minQuantity": 1,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "equipment": ["autopistol", "chemical vials","injector goad"]
     }
   ],
   "options": [

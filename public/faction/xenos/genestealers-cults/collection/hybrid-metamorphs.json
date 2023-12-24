@@ -64,19 +64,20 @@
       "Savage Amalgam:": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
     }
   },
-  "equipment": ["autopistol","Metamorph mutations"],
 
   "additionalParameter": {},
   "unitComposition": [
     {
       "unitType": "Metamorph Leader",
       "minQuantity": 1,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "equipment": ["autopistol","leader's cult weapons"]
     },
     {
       "unitType": "Hybrid Metamorphs",
       "minQuantity": 4,
-      "maxQuantity": 9
+      "maxQuantity": 9,
+      "equipment": ["autopistol","Metamorph mutations"]
     }
   ],
   "options": [

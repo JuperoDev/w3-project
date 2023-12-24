@@ -169,19 +169,20 @@
       "A Plan Generations in the Making:": "At the start of your Command phase , roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
     }
   },
-  "equipment": ["autopistol","Hybrid firearm","close combat weapon."],
 
   "additionalParameter": {},
   "unitComposition": [
     {
       "unitType": "Neophyte Leader",
       "minQuantity": 1,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "equipment": ["autopistol","Hybrid firearm","close combat weapon."]
     },
     {
       "unitType": "Neophyte Hybrids",
       "minQuantity": 9,
-      "maxQuantity": 19
+      "maxQuantity": 19,
+      "equipment": ["autopistol","Hybrid firearm","close combat weapon."]
     }
   ],
   "options": [

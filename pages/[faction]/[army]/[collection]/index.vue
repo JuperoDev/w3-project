@@ -37,7 +37,7 @@
 
     <v-expansion-panels>
       <!-- Ranged weapons -->
-      <v-expansion-panel v-if="rangedWeapons">
+      <v-expansion-panel v-if="rangedWeapons.length>1">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Ranged weapons</div>
         </v-expansion-panel-title>

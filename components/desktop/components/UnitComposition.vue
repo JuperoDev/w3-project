@@ -33,7 +33,7 @@
 
         </div>
         <p>Equipment: </p>
-        <p v-for="(unit, index) in unitComposition" :key="index">
+        <p v-for="(unit, index) in unitComposition" :key="index" class="capitalize">
     <b>{{ unit.unitType }}:</b> {{ unit.equipment.join(', ') }}
    
   </p>

@@ -66,7 +66,7 @@ _An array of objects, each containing the following properties_
 
 **"leadership"**: Numeric.
 
-**"objectiveControl"**: Numeric.
+**"objetiveControl"**: Numeric.
 
 **"invulnerableSave"**: Numeric.
 

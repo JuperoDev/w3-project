@@ -5,7 +5,12 @@
         <p>Wargear Abilities</p>
       </div>
       
-       {{ warGearAbilities }} 
+      <div class="wargear-abilities--display p-3">
+      <div class="wargear-abilities--display__element" v-for="(ability, index) in warGearAbilities" :key="index">
+        <p><strong>{{ ability.wargear }}</strong></p>
+        <p>{{ ability.ability }}</p>
+      </div>
+    </div>
 
         
           </div>

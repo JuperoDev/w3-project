@@ -1,58 +1,51 @@
 <template>
-  <div class="wrapper  flex items-center justify-center">
-
-
-
-
-    <div
-      class="collection-container  "
-      
-    >
-      <div
-        class="collection-container__left-column "
-      >
+  <div class="wrapper flex items-center justify-center">
+    <div class="collection-container">
+      <div class="collection-container__left-column">
         <div
-          class="inner-container text-justify rounded-sm bg-white  bg-opacity-70"
+          class="inner-container text-justify rounded-sm bg-white bg-opacity-70"
         >
-          
-          <div class=" flex items-center justify-center  font-bebas mb-10 mt-5  px-10 pt-5">
-            
-            <img :src="`/icons/${armyData.symbol}.png`" alt="army logo" class="h-20 mt-3">
-            
-            
-            <h2 class="text-6xl font-bebas  text-zinc-900 px-5 pt-5 text-center">{{ replaceHyphensWithSpaces(army) }}</h2>
-            <img :src="`/icons/${armyData.symbol}.png`" alt="army logo" class="h-20 mt-3">
+          <div
+            class="flex items-center justify-center font-bebas mb-10 mt-5 px-10 pt-5"
+          >
+            <img
+              :src="`/icons/${armyData.symbol}.png`"
+              alt="army logo"
+              class="h-20 mt-3"
+            />
+
+            <h2 class="text-6xl font-bebas text-zinc-900 px-5 pt-5 text-center">
+              {{ replaceHyphensWithSpaces(army) }}
+            </h2>
+            <img
+              :src="`/icons/${armyData.symbol}.png`"
+              alt="army logo"
+              class="h-20 mt-3"
+            />
           </div>
 
           <p class="text-xl text-zinc-900 px-10">
             {{ armyData.description }}
           </p>
-          <br/>
+          <br />
 
-           <div
-            class="collection__button-menu grid  md:grid-cols-2 md:gap-20  mb-20 p-10"
+          <div
+            class="collection__button-menu grid md:grid-cols-2 md:gap-20 mb-20 p-10"
           >
             <v-btn class="mb-5">Datasheets</v-btn>
             <v-btn>detachments</v-btn>
-          </div> 
+          </div>
 
           <!-- detachment -->
 
-
-          
-          <div class="detachment-container px-10 ">
+          <div class="detachment-container px-10">
             <div class="flex items-center justify-center">
-
-              <h2 class="text-3xl text-zinc-800 font-bebas">Detachments</h2> 
+              <h2 class="text-3xl text-zinc-800 font-bebas">Detachments</h2>
             </div>
-             <div
-              class="collection-container__right-column--detachments  grid grid-cols-1 md:grid-cols-3"
-            > 
-
-
-            
-
-               <div
+            <div
+              class="collection-container__right-column--detachments grid grid-cols-1 md:grid-cols-3"
+            >
+              <div
                 class="detachment-button-grid my-3 flex items-center justify-center"
                 v-for="detachment in armyData.detachments"
                 :key="detachment"
@@ -61,38 +54,32 @@
                   <v-btn>{{ detachment }}</v-btn>
                 </nuxt-link>
               </div>
-
-
-
-            </div> 
+            </div>
           </div>
         </div>
       </div>
 
       <!-- <DesktopArmyComponentsIntroduction /> -->
-    <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
-    <div class="unit-list">
-      <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">
-        <div v-for="unit in armyData.units" :key="unit" class="m-5 ">
-          <nuxt-link :to="generateLink(faction, army, unit)">
-            <v-btn class="max-button">
-              <p :class="{'button__normal-font': unit.length <= 20, 'button__small-font': unit.length > 20}">{{ unit }}</p>
-            </v-btn>
-          </nuxt-link>
+      <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
+      <div class="unit-list">
+        <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">
+          <div v-for="unit in armyData.units" :key="unit" class="m-5">
+            <nuxt-link :to="generateLink(faction, army, unit)">
+              <v-btn class="max-button">
+                <p
+                  :class="{
+                    'button__normal-font': unit.length <= 20,
+                    'button__small-font': unit.length > 30,
+                  }"
+                >
+                  {{ unit }}
+                </p>
+              </v-btn>
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
-
-     
-    </div>
-
-
-
-
-
-
-
-
   </div>
 </template>
 
@@ -108,7 +95,6 @@ const replaceUnwantedCharacters = (input) => {
   return input.replace(/[^a-zA-Z0-9-]/g, "-");
 };
 
-
 // Function to replace hyphens with spaces in the army title
 const replaceHyphensWithSpaces = (input) => {
   return input.replace(/-/g, " ");
@@ -119,7 +105,6 @@ const generateLink = (faction, army, armyName) => {
   const sanitizedArmyName = replaceUnwantedCharacters(armyName);
   return `/${faction}/${army}/${sanitizedArmyName}`;
 };
-
 
 // Function to generate sanitized links to detachment page
 const generateDetachment = (faction, army, detachment) => {
@@ -160,13 +145,10 @@ onMounted(() => {
 .collection-container {
   /* background-image: url('https://www.wargamer.com/wp-content/sites/wargamer/2023/05/warhammer-40k-10th-edition-world-eaters-art.jpg'); */
 
-  
-
   /* top: 0;
   left: 0;
   width: 100%;
   height: 100%; */
-  
 }
 
 .inner-container {
@@ -175,11 +157,9 @@ onMounted(() => {
 }
 
 div {
-  
 }
 
-img{
-  
+img {
 }
 
 .collection-container {

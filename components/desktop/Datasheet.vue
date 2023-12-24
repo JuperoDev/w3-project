@@ -14,7 +14,7 @@
       <div class="datasheet-desktop__grid-container--left col-span-3">
         <DesktopComponentsRangedWeapons
           :rangedWeapons="rangedWeapons"
-          v-if="rangedWeapons"
+          v-if="rangedWeapons && rangedWeapons.length > 0"
         />
 
         <DesktopComponentsMeleeWeapons :meleeWeapons="meleeWeapons" />

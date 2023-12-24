@@ -6,9 +6,11 @@
           <p>Unit Composition</p>
         </div>
 
-        <div v-for="unit in unitComposition" :key="unit.unitType" class="flex m-2">
-          
-      <p>
+        <div v-for="unit in unitComposition" :key="unit.unitType" 
+        
+        >
+          <div class="unit-composition__container flex m-2">
+            <p>
         <template v-if="unit.minQuantity == unit.maxQuantity">
           {{ unit.minQuantity }}</template
         >
@@ -20,13 +22,24 @@
       </p>
 
       <p class="capitalize px-2">
-
-   {{ unit.unitType }}
+<div class="unit-composition__equiment-grid">
+  {{ unit.unitType }}
+</div>
+   
 </p>
-    </div>
+
+          </div>
+     
+
+        </div>
+        <p>Equipment: </p>
+        <p v-for="(unit, index) in unitComposition" :key="index">
+    <b>{{ unit.unitType }}:</b> {{ unit.equipment.join(', ') }}
+   
+  </p>
 
     <br />
-    <p class="py-2">Every model is equipped with:</p>
+    <!-- <p class="py-2">Every model is equipped with:</p>
     <div v-for="equip in equipment" class="px-5 capitalize">
       <ul>
         <li>
@@ -34,7 +47,7 @@
           {{ equip }}
         </li>
       </ul>
-    </div>
+    </div> -->
     <br />
 
     <br />

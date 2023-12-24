@@ -55,9 +55,9 @@
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
     },
@@ -68,8 +68,8 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": "d3",
+      "ballistic-skills": 4,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
@@ -81,9 +81,9 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
       "damage": "d3",
       "singleChoice": false
     },
@@ -94,8 +94,8 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 3,
+      "ballistic-skills": 4,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
@@ -106,11 +106,11 @@
         
       ],
       "range": 36,
-      "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 1,
+      "strength": 12,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     }
   ],
@@ -164,12 +164,15 @@
     {
       "unitType": "Atalan Wolfquads",
       "minQuantity": 1,
-      "maxQuantity": 2
+      "maxQuantity": 2,
+      "equipment":[ "Atalan small arms", "heavy stubber", "close combat weapon"]
     },
     {
       "unitType": "Atalan Jackals",
       "minQuantity": 4,
-      "maxQuantity": 8
+      "maxQuantity": 8,
+      "equipment":[
+        "Atalan small arms", "close combat weapon"]
     }
   ],
   "options": [

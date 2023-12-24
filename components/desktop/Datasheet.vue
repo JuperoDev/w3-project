@@ -30,7 +30,7 @@
       >
         <DesktopComponentsAbilities :abilities="abilities" />
 
-        <DesktopComponentsWargearAbility :warGearAbilities="warGearAbilities"/>
+        <DesktopComponentsWargearAbility :warGearAbilities="warGearAbilities" v-if="warGearAbilities"/>
 
         <!-- Add a v-if directive to conditionally render the damaged component -->
         <DesktopComponentsDamaged :damaged="damaged" v-if="!isEmptyObject(damaged)" />

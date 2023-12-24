@@ -30,6 +30,8 @@
       >
         <DesktopComponentsAbilities :abilities="abilities" />
 
+        <DesktopComponentsWargearAbility :warGearAbilities="warGearAbilities"/>
+
         <!-- Add a v-if directive to conditionally render the damaged component -->
         <DesktopComponentsDamaged :damaged="damaged" v-if="!isEmptyObject(damaged)" />
 
@@ -57,6 +59,7 @@
 const props = defineProps({
   armyUnit: String,
   abilities: Object,
+  warGearAbilities: Object,
   keywords: Array,
   factionKeyword: Array,
   attributes: Array,

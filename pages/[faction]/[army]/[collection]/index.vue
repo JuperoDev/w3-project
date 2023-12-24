@@ -2,6 +2,7 @@
   <div>
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
+      
     <DesktopDatasheet
       :armyUnit="armyUnit"
       :keywords="keywords"
@@ -18,6 +19,7 @@
       :unitComposition="unitComposition"
       :equipment="equipment"
       :damaged="damaged"
+      :warGearAbilities="warGearAbilities"
     />
   </div>
 
@@ -62,6 +64,18 @@
       <v-expansion-panel>
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Abilities</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileAbilities :abilities="abilities" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Wargear Abilities -->
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Wargear Abilities</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
@@ -201,6 +215,7 @@ const equipment = ref([]);
 const options = ref([]);
 const supremeCommander = ref(false);
 const damaged = ref ({});
+const warGearAbilities = ref ({});
 
 // Check if additionalParameter is not an empty object
 const hasAdditionalParameter = computed(() => {
@@ -238,10 +253,12 @@ onMounted(async () => {
     options.value = unitData.options;
     supremeCommander.value = unitData.supremeCommander;
     damaged.value = unitData.damaged;
+    warGearAbilities.value = unitData.warGearAbilities;
   } catch (error) {
     console.error("Fetch Error: ", error);
     supremeCommander.value = false;
     wargear.value = [];
+    warGearAbilities = [];
   }
 });
 

@@ -186,19 +186,22 @@
   },
 
   "additionalParameter": {},
-  "equipment": [
-    "Autoch-pattern bolt pistol"," Autoch-pattern bolter", "close combat weapon"
-  ],
   "unitComposition": [
     {
         "unitType": " Theyn",
         "minQuantity": 1,
-        "maxQuantity": 1
+        "maxQuantity": 1,
+        "equipment": [
+          "weavefield crest"
+        ]
     },
     {
       "unitType": " Hearthkyn Warriors",
       "minQuantity": 9,
-      "maxQuantity": 9
+      "maxQuantity": 9,
+      "equipment": [
+        "Autoch-pattern bolt pistol"," Autoch-pattern bolter", "close combat weapon"
+      ]
   }
 ],
 "warGearAbilities":[

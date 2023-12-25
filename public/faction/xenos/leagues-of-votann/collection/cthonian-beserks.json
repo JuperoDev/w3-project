@@ -46,22 +46,22 @@
     "faction": [
       "Eye of the Ancestors"
     ],
-    "otherAbilities": {
-      "Cyberstimms:": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-      "Subterranean Explosives:": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) that was hit by one or more of this unit’s mole grenade launchers this phase and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
-      "Designer’s Note:": "While a unit is shaken, place a Mole Grenade token next to that unit as a reminder."
-    }
+    "otherAbilities":[ 
+     {"name": "Cyberstimms", "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."},
+     {"name": "Subterranean Explosives", "description": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) that was hit by one or more of this unit’s mole grenade launchers this phase and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."}
+     
+    ]
   },
 
   "additionalParameter": {},
-  "equipment": [
-    "heavy plasma axe"
-  ],
   "unitComposition": [
     {
         "unitType": "Cthonian Beserks",
         "minQuantity": 5,
-        "maxQuantity": 10
+        "maxQuantity": 10,
+        "equipment": [
+          "heavy plasma axe"
+        ]
     }
 ]
 }

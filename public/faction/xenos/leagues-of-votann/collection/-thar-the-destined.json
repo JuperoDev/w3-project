@@ -48,11 +48,13 @@
     "faction": [
       "Eye of the Ancestors"
     ],
-    "otherAbilities": {
-      "Ancestral Fortune:": "Once per turn, you can change one Hit roll or one Wound roll made for this model to a 6.",
-      "The Destined:": "Each time an attack is allocated to this model, change the Damage characteristic of that attack to 1.",
-      "Grim Efficiency:": "Once per battle round , in your Command phase , you can select one model from your army with this ability, then select one enemy unit that is visible to that model. That enemy unit gains 1 Judgement token ."
-    }
+    "otherAbilities":[ 
+     { "name":
+      "Ancestral Fortune",
+      "description" :"Once per turn, you can change one Hit roll or one Wound roll made for this model to a 6."},
+      {"name": "The Destined", "description" :"Each time an attack is allocated to this model, change the Damage characteristic of that attack to 1."},
+     {"name": "Grim Efficiency", "description": "Once per battle round , in your Command phase , you can select one model from your army with this ability, then select one enemy unit that is visible to that model. That enemy unit gains 1 Judgement token ."}
+    ]
   },
 
   "additionalParameter": {},

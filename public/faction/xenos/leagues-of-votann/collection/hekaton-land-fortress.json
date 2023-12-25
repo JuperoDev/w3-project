@@ -17,15 +17,15 @@
   ],
   "attributes": [
     {
-        "movement": 10,
-        "toughness": 12,
-        "save": 2,
-        "wounds": 16,
-        "leadership": 7,
-        "objetiveControl": 5,
-        "invulnerableSave": 0
+      "movement": 10,
+      "toughness": 12,
+      "save": 2,
+      "wounds": 16,
+      "leadership": 7,
+      "objetiveControl": 5,
+      "invulnerableSave": 0
     }
-],
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -134,26 +134,31 @@
     "faction": [
       "Eye of the Ancestors"
     ],
-    "otherAbilities": {
-      "Fire Support": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
-    }
+    "otherAbilities": [
+      {
+        "name": "Fire Support",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+      }
+    ]
   },
-
   "additionalParameter": {},
-  "equipment": [
-    "cyclic ion cannon; MATR autocannon", "2 twin bolt cannons"," armoured wheels", "pan spectral scanner"
-  ],
   "unitComposition": [
     {
-        "unitType": "Hekaton Land Fortress",
-        "minQuantity": 1,
-        "maxQuantity": 1
+      "unitType": "Hekaton Land Fortress",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "cyclic ion cannon; MATR autocannon",
+        "2 twin bolt cannons",
+        " armoured wheels",
+        "pan spectral scanner"
+      ]
     }
-],
-"warGearAbilities":[
-  {
-    "wargear":"Pan spectral scanner",
-    "ability":"Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
-  }
-]
+  ],
+  "warGearAbilities": [
+    {
+      "wargear": "Pan spectral scanner",
+      "ability": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+    }
+  ]
 }

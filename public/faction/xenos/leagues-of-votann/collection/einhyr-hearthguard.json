@@ -14,22 +14,20 @@
   ],
   "attributes": [
     {
-        "movement": 5,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 2,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
+      "movement": 5,
+      "toughness": 6,
+      "save": 2,
+      "wounds": 2,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
     }
-],
+  ],
   "leader": [],
   "rangedWeapons": [
     {
       "name": "EtaCarn plasma gun",
-      "modifiers": [
-        
-      ],
+      "modifiers": [],
       "range": 24,
       "strength": 8,
       "attacks": 1,
@@ -67,43 +65,48 @@
   ],
   "abilities": {
     "core": [
-      "FACTION: Eye of the Ancestors"
+     
     ],
-    "faction": [
-      "Oathband Bodyguard: While a CHARACTER is leading this unit",
-      "each time an attack targets this unit",
-      "if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic",
-      "subtract 1 from the Wound roll."
-    ],
-    "otherAbilities": {
-      "Teleport Crest:": "Models in the bearer’s unit have the Deep Strike ability."
-    }
+    "faction": ["eye of the ancestors"],
+    "otherAbilities": [
+      {
+        "name": "Teleport Crest",
+        "description": "Models in the bearer’s unit have the Deep Strike ability."
+      }
+    ]
   },
-
   "additionalParameter": {},
-  "equipment": [
-    "EtaCarn plasma gun", "exo-armour grenade launcher", "concussion gauntlet"
-  ],
   "unitComposition": [
     {
-        "unitType": "Hesyr",
-        "minQuantity": 1,
-        "maxQuantity": 1
+      "unitType": "Hesyr",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "EtaCarn plasma gun",
+        "exo-armour grenade launcher",
+        "concussion gauntlet",
+        "weavefield crest"
+      ]
     },
     {
       "unitType": "Hearthguard",
       "minQuantity": 4,
-      "maxQuantity": 9
-  }
-],
-"warGearAbilities":[
-  {
-    "wargear":"Weavefield Crest",
-    "ability":"The bearer has a 4+ invulnerable save."
-  },
-  {
-    "wargear":"Teleport Crest",
-    "ability":"Models in the bearer’s unit have the Deep Strike ability."
-  }
-]
+      "maxQuantity": 9,
+      "equipment": [
+        "EtaCarn plasma gun",
+        "exo-armour grenade launcher",
+        "concussion gauntlet"
+      ]
+    }
+  ],
+  "warGearAbilities": [
+    {
+      "wargear": "Weavefield Crest",
+      "ability": "The bearer has a 4+ invulnerable save."
+    },
+    {
+      "wargear": "Teleport Crest",
+      "ability": "Models in the bearer’s unit have the Deep Strike ability."
+    }
+  ]
 }

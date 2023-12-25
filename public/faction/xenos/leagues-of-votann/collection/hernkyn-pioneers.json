@@ -99,22 +99,24 @@
     "faction": [
       "Eye of the Ancestors"
     ],
-    "otherAbilities": {
-      "Outflanking Mag-Riders:": "At the end of your opponent’s turn, if this unit is within 6\" of any battlefield edge and is not within Engagement Range of any enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
-    }
+    "otherAbilities": [{
+      "name":
+      "Outflanking Mag-Riders",
+      "description":"At the end of your opponent’s turn, if this unit is within 6\" of any battlefield edge and is not within Engagement Range of any enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+    }]
   },
 
   "additionalParameter": {},
-  "equipment": [
-    "bolt revolver",
-    "bolt shotgun",
-    "magna-coil autocannon", "plasma knife"
-  ],
   "unitComposition": [
     {
         "unitType": "Hernkyn Pioneers",
         "minQuantity": 3,
-        "maxQuantity": 6
+        "maxQuantity": 6,
+        "equipment": [
+          "bolt revolver",
+          "bolt shotgun",
+          "magna-coil autocannon", "plasma knife"
+        ]
     }
 ],
 "warGearAbilities":[

@@ -96,24 +96,47 @@
   },
 
   "additionalParameter": {},
-  "equipment": [
-    "graviton rifle","graviton hammer"
-  ],
   "unitComposition": [
     {
         "unitType": "Brôkhyr Iron-master",
         "minQuantity": 1,
-        "maxQuantity": 1
+        "maxQuantity": 1,
+        "equipment": [
+          "graviton rifle","graviton hammer"
+        ]
+
     },
     {
       "unitType": "Ironkin Assistant",
       "minQuantity": 1,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "equipment": [
+        " las-beam cutter","close combat weapon."
+      ]
   },
   {
-    "unitType": "E-COGs",
+    "unitType": "E-COG 1",
     "minQuantity": 1,
-    "maxQuantity": 1
+    "maxQuantity": 1,
+    "equipment": [
+      "Autoch-pattern bolt pistol","close combat weapon"
+    ]
+},
+{
+  "unitType": "E-COG 2",
+  "minQuantity": 1,
+  "maxQuantity": 1,
+  "equipment": [
+    "plasma torch"
+  ]
+},
+{
+  "unitType": "E-COG 3",
+  "minQuantity": 1,
+  "maxQuantity": 1,
+  "equipment": [
+    "manipulator arms"
+  ]
 }
 ]
 }

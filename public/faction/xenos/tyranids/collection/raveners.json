@@ -45,15 +45,15 @@
     "wargear": [
         {"description":"All models in this unit can each have their thoracic bio-weapon replaced with 1 armoured thorax."}
      ],
-     "equipment": [
-       "thoracic bio-weapon",
-       "ravener claws and talons"
-     ],
      "unitComposition": [
          {
              "unitType": "raveners",
              "minQuantity": 3,
-             "maxQuantity": 6
+             "maxQuantity": 6,
+             "equipment": [
+               "thoracic bio-weapon",
+               "ravener claws and talons"
+             ]
          }
      ],
      "abilities": {

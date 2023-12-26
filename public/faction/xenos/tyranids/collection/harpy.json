@@ -91,16 +91,16 @@
       "description": "This model’s twin stranglethorn cannon can be replaced with 1 twin heavy venom cannon."
     }
   ],
-  "equipment": [
-    "stinger salvoes",
-    "twin stranglethorn cannon",
-    "scything wings"
-  ],
   "unitComposition": [
     {
       "unitType": "harpy",
       "minQuantity": 1,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "equipment": [
+        "stinger salvoes",
+        "twin stranglethorn cannon",
+        "scything wings"
+      ]
     }
   ],
   "abilities": {

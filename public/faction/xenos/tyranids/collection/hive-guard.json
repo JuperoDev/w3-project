@@ -48,15 +48,15 @@
           {
             "description": "Any number of models can each have their shockcannon replaced with 1 impaler cannon."
           }],
-          "equipment": [
-            "shockcannon",
-            "chitinous claws and teeth"
-          ],
           "unitComposition": [
               {
                   "unitType": "hive guard",
                   "minQuantity": 3,
-                  "maxQuantity": 6
+                  "maxQuantity": 6,
+                  "equipment": [
+                    "shockcannon",
+                    "chitinous claws and teeth"
+                  ]
               }
           ],
           "abilities": {

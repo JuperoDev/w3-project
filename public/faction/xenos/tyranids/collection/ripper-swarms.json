@@ -49,14 +49,14 @@
     "wargear": [
         {"description":"All models in this unit can each be equipped with 1 spinemaws."}
      ],
-     "equipment": [
-       "chitinous claws and teeth"
-     ],
      "unitComposition": [
          {
              "unitType": "ripper swarms",
              "minQuantity": 1,
-             "maxQuantity": 3
+             "maxQuantity": 3,
+             "equipment": [
+               "chitinous claws and teeth"
+             ]
          }
      ],
      "abilities": {

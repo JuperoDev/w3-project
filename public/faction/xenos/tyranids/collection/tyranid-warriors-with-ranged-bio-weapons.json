@@ -57,15 +57,15 @@
             "description": "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 venom cannon."
         }
     ],
-    "equipment": [
-      "devourer",
-      "tyranid warrior claws and talons"
-    ],
     "unitComposition": [
         {
             "unitType": "tyranid warriors",
             "minQuantity": 3,
-            "maxQuantity": 6
+            "maxQuantity": 6,
+            "equipment": [
+              "devourer",
+              "tyranid warrior claws and talons"
+            ]
         }
     ],
     "abilities": {

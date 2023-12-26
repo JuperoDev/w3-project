@@ -13,15 +13,15 @@
   ],
   "attributes": [
     {
-        "movement": 5,
-        "toughness": 5,
-        "save": 6,
-        "wounds": 2,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
+      "movement": 5,
+      "toughness": 5,
+      "save": 6,
+      "wounds": 2,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
     }
-],
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -46,44 +46,93 @@
     "faction": [
       "Eye of the Ancestors"
     ],
-    "otherAbilities":[ 
-     {"name": "Cyberstimms", "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."},
-     {"name": "Subterranean Explosives", "description": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) that was hit by one or more of this unit’s mole grenade launchers this phase and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."}
-     
+    "otherAbilities": [
+      {
+        "name": "Cyberstimms",
+        "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+      },
+      {
+        "name": "Subterranean Explosives",
+        "description": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) that was hit by one or more of this unit’s mole grenade launchers this phase and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+      }
     ]
   },
-
   "additionalParameter": {},
   "unitComposition": [
     {
-        "unitType": "Cthonian Beserks",
-        "minQuantity": 5,
-        "maxQuantity": 10,
-        "equipment": [
-          "heavy plasma axe"
-        ]
+      "unitType": "Cthonian Beserks",
+      "minQuantity": 5,
+      "maxQuantity": 10,
+      "equipment": [
+        "heavy plasma axe"
+      ]
     }
-],
-
-"options": [
-  {
-    "count": [5],
-    "points": 100
-  },
-  {
-    "count": [10],
-    "points": 200
-  }
-],
-"meleeWeapons": [
-  {
-    "name": "Armoured wheels",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 6,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
-]
+  ],
+  "options": [
+    {
+      "count": [
+        5
+      ],
+      "points": 100
+    },
+    {
+      "count": [
+        10
+      ],
+      "points": 200
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Concussion maul",
+      "attacks": 3,
+      "weapons-skills": 4,
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": 3,
+      "modifiers": []
+    },
+    {
+      "name": "Heavy plasma axe – strike",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": [],
+      "singleChoice": true
+    },
+    {
+      "name": "Heavy plasma axe – sweep",
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 1,
+      "modifiers": [],
+      "singleChoice": true
+    },
+    {
+      "name": "Twin concussion gauntlet",
+      "attacks": 4,
+      "weapons-skills": 4,
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [
+        "twin-linked"
+      ]
+    }
+  ],
+  "wargear": [
+    {
+      "description": "All models in this unit can each have their heavy plasma axe replaced with 1 concussion maul."
+    },
+    {
+      "description": "For every 5 models in this unit, 1 model that is not equipped with a mole grenade launcher can have its heavy plasma axe or concussion maul replaced with 1 twin concussion gauntlet."
+    },
+    {
+      "description": "For every 5 models in this unit, 1 model that is not equipped with a twin concussion gauntlet can be equipped with 1 mole grenade launcher. If a model is equipped with a mole grenade launcher, add 1 to its Wounds and Attacks characteristics."
+    }
+  ]
 }

@@ -149,12 +149,39 @@
 ],
 "meleeWeapons": [
   {
-    "name": "Armoured wheels",
-    "attacks": 3,
+    "name": "Close combat weapon",
+    "attacks": 1,
     "weapons-skills": 4,
     "strength": 6,
     "armor-penetration": 0,
     "damage": 1,
+    "modifiers": []
+  },
+  {
+    "name": "Graviton hammer",
+    "attacks": 3,
+    "weapons-skills": 4,
+    "strength": 3,
+    "armor-penetration": 1,
+    "damage": 3,
+    "modifiers": ["anti-vehicle 2+"]
+  },
+  {
+    "name": "Manipulator arms",
+    "attacks": 3,
+    "weapons-skills": 4,
+    "strength": 9,
+    "armor-penetration": 0,
+    "damage": 1,
+    "modifiers": []
+  },
+  {
+    "name": "Plasma torch",
+    "attacks": 1,
+    "weapons-skills": 4,
+    "strength": 3,
+    "armor-penetration": 3,
+    "damage": 2,
     "modifiers": []
   }
 ]

@@ -40,6 +40,8 @@
           :unitComposition="unitComposition"
           :equipment="equipment"
         />
+<DesktopComponentsTransport :transport="transport" v-if="transport"/>
+      
 
         <DesktopComponentsLeader :leader="leader" v-if="leader.length > 0" />
 
@@ -69,6 +71,7 @@ const props = defineProps({
   wargear: Array,
   leader: Array,
   supremeCommander: Boolean,
+  transport: String,
   equipment: {
     type: Array,
     default: () => [],

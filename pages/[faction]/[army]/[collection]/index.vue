@@ -20,6 +20,7 @@
       :equipment="equipment"
       :damaged="damaged"
       :warGearAbilities="warGearAbilities"
+      :transport="transport"
     />
   </div>
 
@@ -68,6 +69,18 @@
         <v-expansion-panel-text>
           <div>
             <MobileAbilities :abilities="abilities" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Transport  -->
+      <v-expansion-panel v-if="transport">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Transport</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileTransport :transport="transport" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
@@ -217,6 +230,7 @@ const options = ref([]);
 const supremeCommander = ref(false);
 const damaged = ref ({});
 const warGearAbilities = ref ({});
+const transport = ref ("")
 
 // Check if additionalParameter is not an empty object
 const hasAdditionalParameter = computed(() => {
@@ -240,6 +254,7 @@ onMounted(async () => {
     const unitData = await res.json();
     attributes.value = unitData.attributes;
     lore.value = unitData.lore;
+    transport.value=unitData.transport;
     parentUnit.value = unitData.parentUnit;
     leader.value = unitData.leader;
     rangedWeapons.value = unitData.rangedWeapons;

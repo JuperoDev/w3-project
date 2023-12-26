@@ -98,7 +98,7 @@ const isEmptyObject = (obj) => {
 }
 
 .datasheet-desktop__header {
-  height: 220px;
+  /* height: 300px; */
 }
 
 .color-stripe {

@@ -25,6 +25,12 @@ export default defineNuxtConfig({
   build: {
     transpile: ["vuetify","nuxt-electron"],
   },
+  experimental: {
+    /**
+     * see: https://v3.nuxtjs.org/api/configuration/nuxt.config#inlinessrstyles
+     */
+    inlineSSRStyles: false
+  },
 
   vite: {
     define: {

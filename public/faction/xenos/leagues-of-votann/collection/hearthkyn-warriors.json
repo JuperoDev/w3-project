@@ -15,15 +15,15 @@
   ],
   "attributes": [
     {
-        "movement": 5,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
+      "movement": 5,
+      "toughness": 5,
+      "save": 4,
+      "wounds": 1,
+      "leadership": 7,
+      "objetiveControl": 2,
+      "invulnerableSave": 0
     }
-],
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -174,70 +174,120 @@
     }
   ],
   "abilities": {
-    "core": [
-      
-    ],
+    "core": [],
     "faction": [
       "Eye of the Ancestors"
     ],
-    "otherAbilities": [{"name":
-      "Luck Has. Need Keeps. Toil Earns", "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Luck Has. Need Keeps. Toil Earns",
+        "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+      }
+    ]
   },
-
   "additionalParameter": {},
   "unitComposition": [
     {
-        "unitType": " Theyn",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "weavefield crest"
-        ]
+      "unitType": " Theyn",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "weavefield crest"
+      ]
     },
     {
       "unitType": " Hearthkyn Warriors",
       "minQuantity": 9,
       "maxQuantity": 9,
       "equipment": [
-        "Autoch-pattern bolt pistol"," Autoch-pattern bolter", "close combat weapon"
+        "Autoch-pattern bolt pistol",
+        " Autoch-pattern bolter",
+        "close combat weapon"
       ]
-  }
-],
-"warGearAbilities":[
-  {
-    "wargear":"Pan Spectral Scanner",
-    "ability":"Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
-  },
-  {
-    "wargear":"Comms Array",
-    "ability":"Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
-  },
-  {
-    "wargear":"Medipack",
-    "ability":"Models in the bearer’s unit have the Feel No Pain 6+ ability."
-  },
-  {
-    "wargear":"Weavefield Crest",
-    "ability":"The bearer has a 4+ invulnerable save."
-  }
-],
-
-"options": [
-  {
-    "count": [1,1,1,1,1],
-    "points": 65
-  }
-],
-"meleeWeapons": [
-  {
-    "name": "Armoured wheels",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 6,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
-]
+    }
+  ],
+  "warGearAbilities": [
+    {
+      "wargear": "Pan Spectral Scanner",
+      "ability": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+    },
+    {
+      "wargear": "Comms Array",
+      "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    },
+    {
+      "wargear": "Medipack",
+      "ability": "Models in the bearer’s unit have the Feel No Pain 6+ ability."
+    },
+    {
+      "wargear": "Weavefield Crest",
+      "ability": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "points": 65
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "attacks": 1,
+      "weapons-skills": 4,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": []
+    },
+    {
+      "name": "Kin melee weapon",
+      "attacks": 2,
+      "weapons-skills": 4,
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": []
+    }
+  ],
+  "wargear": [
+    {
+      "description": "All models in this unit can each have their Autoch-pattern bolter replaced with 1 ion blaster."
+    },
+    {
+      "description": "Up to 2 Hearthkyn Warriors can each have their Autoch-pattern bolter or ion blaster replaced with one of the following:",
+      "items": [
+        "1 HYLas auto rifle*",
+        "1 HYLas rotary cannon*",
+        "1 L7 missile launcher*",
+        "1 EtaCarn plasma beamer*",
+        "1 magna-rail rifle*",
+        "1 Kin melee weapon"
+      ]
+    },
+    {
+      "description": "Up to 3 different Hearthkyn Warriors equipped with either an Autoch-pattern bolter or an ion blaster can each be equipped with one of the following (to a maximum of 1 of each per unit):",
+      "items": [
+        "1 medipack**",
+        "1 comms array**",
+        "1 pan spectral scanner**"
+      ]
+    },
+    {
+      "description": "The Theyn’s Autoch-pattern bolt pistol can be replaced with one of the following:",
+      "items": [
+        "1 ion pistol",
+        "1 EtaCarn plasma pistol"
+      ]
+    },
+    {
+      "description": "The Theyn’s Autoch-pattern bolter or ion blaster can be replaced with 1 Kin melee weapon."
+    }
+  ]
 }

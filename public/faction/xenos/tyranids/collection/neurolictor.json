@@ -1,5 +1,5 @@
 {
-    "parentUnit": "norn assimilator",
+    "parentUnit": "neurolictor",
     "attributes": [{
         "movement": 8,
         "toughness": 5,
@@ -31,19 +31,49 @@
      ],
      "abilities": {
          "core": [
-             "Deadly Demise 1"
+            "Infiltrators", "Lone Operative", "Stealth"
          ],
          "faction": [
-             "synapse"
+            "Shadow in the Warp", "Synapse"
          ],
          "otherAbilities": [
              {
-                 "name": "Seed Spore Mines",
-                 "description": " In your Shooting phase, each time this unit is selected to shoot, it can use this ability instead of making any attacks with its ranged weapons. If it does, you can add a new Spore Mines unit to your army and set it up anywhere on the battlefield that is within 48'' of this unit but more than 9'' horizontally away from all enemy units. That Spore Mines unit contains 1 model for each model in this unit."
-             }
+                 "name": "Feeder tendrils",
+                 "description": " Each time this model destroys an enemy CHARACTER model, you gain 1CP."
+             },
+             {
+                "name": "Neural Disruption",
+                "description": " In your Command phase, select one enemy unit within 12'' of this model. That unit must take a Battle-shock test."
+            },
+            {
+                "name": "Psychological Saboteur (Aura)",
+                "description": "While an enemy unit is within 12'' of this model, if that unit is Battle-shocked: Each time a model in that unit makes an attack, subtract 1 from the Hit roll. Each time a friendly TYRANIDS model makes an attack that targets that unit, add 1 to the Wound roll."
+            }
          ]
      },
 
      "additionalParameter": {},
-     "damaged": {}
+     "damaged": {},
+    "leader": [],
+    "lore": "Neurolictors are nightmarish living weapons of psychological warfare. The field of neural disruption that they project causes atavistic terror responses in even the most hardened prey, rendered all the more nightmarish as - thanks to the Neurolictors’ nigh-supernatural abilities to fool their victims’ senses and evade notice - these effects seem often to come from out of thin air.",
+    "factionKeyword": [
+        "tyranids"
+    ],
+    "keywords": [
+        "infantry",
+        "great devourer",
+        "neurolictor",
+        "vanguard invader"
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Piercing claws and talons",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": ["precision"]
+        }
+    ]
 }

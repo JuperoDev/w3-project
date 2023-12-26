@@ -52,12 +52,19 @@
             "points": 200
           }
         ],
-        "equipment": [
-          "droll cannon",
-          "stinger salvoes",
-          "tentaclids",
-          "scything wings",
-          "thorax spur"
+        "unitComposition": [
+            {
+                "unitType": "hive crone",
+                "minQuantity": 1,
+                "maxQuantity": 1,
+                "equipment": [
+                  "droll cannon",
+                  "stinger salvoes",
+                  "tentaclids",
+                  "scything wings",
+                  "thorax spur"
+                ]
+            }
         ],
         "abilities": {
           "core": [
@@ -67,9 +74,9 @@
           "faction": [
             "Synapse"
           ],
-          "otherAbilities": {
-            "Airborne Predator:": "Each time this model makes a ranged attack that targets a unit that can FLY , add 1 to the Hit roll ."
-          }
+          "otherAbilities": [{"name":
+            "Airborne Predator", "description": "Each time this model makes a ranged attack that targets a unit that can FLY , add 1 to the Hit roll ."
+          }]
         },
         "rangedWeapons": [
           {

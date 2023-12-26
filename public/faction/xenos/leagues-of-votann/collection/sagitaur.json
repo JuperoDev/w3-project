@@ -122,16 +122,16 @@
   "additionalParameter": {},
   "meleeWeapons": [
     {
-      "name": "xenos claws and teeth",
-      "attacks": 1,
+      "name": "Armoured wheels",
+      "attacks": 3,
       "weapons-skills": 4,
-      "strength": 4,
+      "strength": 6,
       "armor-penetration": 0,
       "damage": 1,
       "modifiers": []
     }
 ],
-"wargear": [],
+"wargear": [{"description":"This model’s HYLas beam cannon can be replaced with one of the following:","items":["1 L7 missile launcher and 1 Sagitaur missile launcher","1 MATR autocannon"]}],
 
  "unitComposition": [
     {
@@ -144,12 +144,8 @@
 
   "options": [
     {
-      "count": [5],
-      "points": 60
-    },
-    {
-        "count": [10],
-        "points": 120
-      }
+      "count": [1],
+      "points": 100
+    }
   ]
 }

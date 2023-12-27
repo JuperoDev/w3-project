@@ -73,5 +73,21 @@
   "additionalParameter": {},
   "wargear": [{"description":"Any number of models can each have their twin gauss blaster replaced with one of the following:","items":["1 particle beamer",
   "1 twin tesla carbine"]},{"description":"Any number of models can each be equipped with 1 shieldvanes."},{"description":"Any number of models can each be equipped with one of the following:","items":["1 nebuloscope",
-  "1 shadowloom"]}]
+  "1 shadowloom"]}],
+  
+  
+  "warGearAbilities":[
+    {
+      "wargear": "Nebuloscope",
+      "ability": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+    },
+    {
+      "wargear": "Shadowloom",
+      "ability": "The bearer has the Stealth ability."
+    },
+    {
+      "wargear": "Shieldvanes",
+      "ability": "The bearer has a 3+ Save characteristic and a Move characteristic of 8"
+    }
+  ]
 }

@@ -26,5 +26,12 @@
   },
 
   "additionalParameter": {},
-  "wargear": [{"description":"For every 3 models in this unit, this unit can have 1 Plasmacyte."}]
+  "wargear": [{"description":"For every 3 models in this unit, this unit can have 1 Plasmacyte."}],
+  
+  "warGearAbilities":[
+    {
+      "wargear": "Plasmacyte",
+      "ability": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+    }
+  ]
 }

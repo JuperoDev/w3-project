@@ -33,5 +33,24 @@
       "wargear": "Plasmacyte",
       "ability": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
     }
-  ]
+  ],
+  "unitComposition": [
+     {
+       "unitType": "Barbgaunts",
+       "minQuantity": 5,
+       "maxQuantity": 10,
+       "equipment": ["biocannon", "xenos claws and teeth"]
+     }
+   ],
+ 
+   "options": [
+     {
+       "count": [5],
+       "points": 60
+     },
+     {
+         "count": [10],
+         "points": 120
+       }
+   ]
 }

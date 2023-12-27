@@ -59,5 +59,24 @@
     {
       "description": "Any number of models can each have their gauss flayer replaced with 1 gauss reaper."
     }
-  ]
+  ],
+  "unitComposition": [
+     {
+       "unitType": "Barbgaunts",
+       "minQuantity": 5,
+       "maxQuantity": 10,
+       "equipment": ["biocannon", "xenos claws and teeth"]
+     }
+   ],
+ 
+   "options": [
+     {
+       "count": [5],
+       "points": 60
+     },
+     {
+         "count": [10],
+         "points": 120
+       }
+   ]
 }

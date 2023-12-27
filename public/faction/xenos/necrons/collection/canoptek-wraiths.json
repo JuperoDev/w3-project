@@ -44,5 +44,24 @@
 
   "additionalParameter": {},
   "wargear": [{"description":"Any number of models can each be equipped with one of the following:", "items":["1 particle caster",
-  "1 transdimensional beamer"]},{"description":"Any number of models can each have their vicious claws replaced with whip coils."}]
+  "1 transdimensional beamer"]},{"description":"Any number of models can each have their vicious claws replaced with whip coils."}],
+  "unitComposition": [
+     {
+       "unitType": "Barbgaunts",
+       "minQuantity": 5,
+       "maxQuantity": 10,
+       "equipment": ["biocannon", "xenos claws and teeth"]
+     }
+   ],
+ 
+   "options": [
+     {
+       "count": [5],
+       "points": 60
+     },
+     {
+         "count": [10],
+         "points": 120
+       }
+   ]
 }

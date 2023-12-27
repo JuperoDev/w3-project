@@ -68,5 +68,24 @@
   },
 
   "additionalParameter": {},
-  "wargear": [{"description":"This model’s gauss cannon can be replaced with 1 tesla cannon."}]
+  "wargear": [{"description":"This model’s gauss cannon can be replaced with 1 tesla cannon."}],
+  "unitComposition": [
+     {
+       "unitType": "Barbgaunts",
+       "minQuantity": 5,
+       "maxQuantity": 10,
+       "equipment": ["biocannon", "xenos claws and teeth"]
+     }
+   ],
+ 
+   "options": [
+     {
+       "count": [5],
+       "points": 60
+     },
+     {
+         "count": [10],
+         "points": 120
+       }
+   ]
 }

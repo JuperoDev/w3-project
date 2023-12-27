@@ -57,5 +57,24 @@
   },
 
   "additionalParameter": {},
-  "wargear": [{"description":"Any number of models can each have their gauss destructor replaced with 1 enmitic exterminator."}]
+  "wargear": [{"description":"Any number of models can each have their gauss destructor replaced with 1 enmitic exterminator."}],
+  "unitComposition": [
+     {
+       "unitType": "Barbgaunts",
+       "minQuantity": 5,
+       "maxQuantity": 10,
+       "equipment": ["biocannon", "xenos claws and teeth"]
+     }
+   ],
+ 
+   "options": [
+     {
+       "count": [5],
+       "points": 60
+     },
+     {
+         "count": [10],
+         "points": 120
+       }
+   ]
 }

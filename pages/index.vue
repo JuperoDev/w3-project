@@ -7,7 +7,7 @@
 
     <!-- temporary build  -->
 
-    <div class="font-bebas flex items-center justify-center"><h2>Xenos Armies</h2></div>
+    <div class="font-bebas flex items-center justify-center"><h2>Avaliable Armies</h2></div>
     <div class="grid grid-cols-2 lg:grid-cols-4">
 
       <div class="button__container my-5 ">
@@ -85,8 +85,11 @@
         </div>
       </div>
 
+      
       <div class="button__container my-5 ">
+        
         <div class="army__card font-bebas">
+          
           <nuxt-link to="/chaos/world-eaters">
             <div class="army__card_image">
               <img

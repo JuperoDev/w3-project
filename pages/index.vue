@@ -72,7 +72,6 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-          <p>EN CONSTRUCCION</p>
            <nuxt-link to="/xenos/necrons">
             <div class="army__card_image">
               <img
@@ -88,16 +87,16 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-          <!-- <nuxt-link to="/xenos/orks">
+          <nuxt-link to="/chaos/world-eaters">
             <div class="army__card_image">
               <img
-                src="/icons/orks-symbol.png"
+                src="/icons/khorne-symbol.png"
               />
             </div>
             <div class="army__card_title title-white uppercase">
-              <p>Orks</p>
+              <p>World Eaters</p>
             </div>
-          </nuxt-link> -->
+          </nuxt-link> 
         </div>
       </div>
 

@@ -12,7 +12,7 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-          <nuxt-link to="/xenos/aeldari">
+          <!-- <nuxt-link to="/xenos/aeldari">
             <div class="army__card_image">
               <img
                 src="/icons/aeldari-symbol.png"
@@ -21,13 +21,13 @@
             <div class="army__card_title title-white uppercase">
               <p>Aeldari</p>
             </div>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
 
       <div class="button__container  my-5">
         <div class="army__card font-bebas">
-          <nuxt-link to="/xenos/drukhari">
+          <!-- <nuxt-link to="/xenos/drukhari">
             <div class="army__card_image">
               <img
                 src="/icons/drukhari-symbol.png"
@@ -36,7 +36,7 @@
             <div class="army__card_title title-white uppercase">
               <p>Drukhari</p>
             </div>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
 
@@ -72,7 +72,7 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-          <nuxt-link to="/xenos/necrons">
+          <!-- <nuxt-link to="/xenos/necrons">
             <div class="army__card_image">
               <img
                 src="/icons/necrons-symbol.png"
@@ -81,13 +81,13 @@
             <div class="army__card_title title-white uppercase">
               <p>Necrons</p>
             </div>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-          <nuxt-link to="/xenos/orks">
+          <!-- <nuxt-link to="/xenos/orks">
             <div class="army__card_image">
               <img
                 src="/icons/orks-symbol.png"
@@ -96,13 +96,13 @@
             <div class="army__card_title title-white uppercase">
               <p>Orks</p>
             </div>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
 
       <div class="button__container my-5">
         <div class="army__card font-bebas">
-          <nuxt-link to="/xenos/tau-empire">
+          <!-- <nuxt-link to="/xenos/tau-empire">
             <div class="army__card_image">
               <img
                 src="/icons/tau-symbol.png"
@@ -111,7 +111,7 @@
             <div class="army__card_title title-white uppercase">
               <p>Tau Empire</p>
             </div>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
 

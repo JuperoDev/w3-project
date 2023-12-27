@@ -34,17 +34,22 @@
       "Leader"
     ],
     "faction": [
-     
+      "reanimation protocols"
     ],
-    "otherAbilities": [{
-     
-    }]
+    "otherAbilities": [
+      {
+        "name": "My Will Be Done",
+        "description": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+      },
+      {
+        "name": "Translocation Shroud",
+        "description": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in that unit. In addition, each time a model in that unit makes a Normal, Advance or Fall Back move, until that move is finished, it can move horizontally through models and terrain features (it cannot finish a move on top of another model or its base)."
+      }
+    ]
   },
-
   "additionalParameter": {},
-  "wargear": [
-  ],
-  "warGearAbilities":[
+  "wargear": [],
+  "warGearAbilities": [
     {
       "wargear": "Resurrection Orb",
       "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."

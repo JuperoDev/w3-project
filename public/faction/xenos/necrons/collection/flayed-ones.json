@@ -21,30 +21,37 @@
     "faction": [
       "Reanimation Protocols"
     ],
-    "otherAbilities": [{"name":
-      "Flesh Hunger ","description": "Each time a model in this unit makes a melee attack, if the target of that attack is Below Half-strength , a successful Hit roll scores a Critical Hit."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Flesh Hunger ",
+        "description": "Each time a model in this unit makes a melee attack, if the target of that attack is Below Half-strength , a successful Hit roll scores a Critical Hit."
+      }
+    ]
   },
-
   "additionalParameter": {},
   "wargear": [],
   "unitComposition": [
-     {
-       "unitType": "Barbgaunts",
-       "minQuantity": 5,
-       "maxQuantity": 10,
-       "equipment": ["biocannon", "xenos claws and teeth"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [5],
-       "points": 60
-     },
-     {
-         "count": [10],
-         "points": 120
-       }
-   ]
+    {
+      "unitType": "Flayed Ones",
+      "minQuantity": 5,
+      "maxQuantity": 10,
+      "equipment": [
+        "flayer claws"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        5
+      ],
+      "points": 70
+    },
+    {
+      "count": [
+        10
+      ],
+      "points": 140
+    }
+  ]
 }

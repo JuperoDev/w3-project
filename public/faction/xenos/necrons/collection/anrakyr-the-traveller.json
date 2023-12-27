@@ -13,7 +13,16 @@
     "noble",
     "anrakyr the traveller"
   ],
-  "attributes": [],
+  "attributes": [ {
+    "name": "barbgaunt",
+    "movement": 6,
+    "toughness": 4,
+    "save": 4,
+    "wounds": 1,
+    "leadership": 8,
+    "objetiveControl": 1,
+    "invulnerableSave": 0
+}],
   "leader": [],
   "rangedWeapons": [
     {
@@ -61,6 +70,17 @@
      {
          "count": [10],
          "points": 120
+       }
+   ],
+   "meleeWeapons": [
+       {
+         "name": "xenos claws and teeth",
+         "attacks": 1,
+         "weapons-skills": 4,
+         "strength": 4,
+         "armor-penetration": 0,
+         "damage": 1,
+         "modifiers": []
        }
    ]
 }

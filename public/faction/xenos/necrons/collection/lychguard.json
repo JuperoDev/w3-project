@@ -35,21 +35,32 @@
   ],
   "unitComposition": [
      {
-       "unitType": "Barbgaunts",
+       "unitType": "Lychguard",
        "minQuantity": 5,
        "maxQuantity": 10,
-       "equipment": ["biocannon", "xenos claws and teeth"]
+       "equipment": ["warscythe"]
      }
    ],
  
    "options": [
      {
        "count": [5],
-       "points": 60
+       "points": 85
      },
      {
          "count": [10],
-         "points": 120
+         "points": 170
+       }
+   ],
+   "meleeWeapons": [
+       {
+         "name": "xenos claws and teeth",
+         "attacks": 1,
+         "weapons-skills": 4,
+         "strength": 4,
+         "armor-penetration": 0,
+         "damage": 1,
+         "modifiers": []
        }
    ]
 }

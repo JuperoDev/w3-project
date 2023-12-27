@@ -29,16 +29,16 @@
           </p>
           <br />
 
-          <div
+          <!-- <div
             class="collection__button-menu grid md:grid-cols-2 md:gap-20 mb-20 p-10"
-          >
-            <v-btn class="mb-5">Datasheets</v-btn>
-            <v-btn>detachments</v-btn>
-          </div>
+          > -->
+            <!-- <v-btn class="mb-5">Datasheets</v-btn>
+            <v-btn>detachments</v-btn> -->
+          <!-- </div> -->
 
           <!-- detachment -->
 
-          <div class="detachment-container px-10">
+          <!-- <div class="detachment-container px-10">
             <div class="flex items-center justify-center">
               <h2 class="text-3xl text-zinc-800 font-bebas">Detachments</h2>
             </div>
@@ -55,12 +55,18 @@
                 </nuxt-link>
               </div>
             </div>
-          </div>
+          </div> -->
+
+
         </div>
       </div>
 
       <!-- <DesktopArmyComponentsIntroduction /> -->
-      <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" />
+
+      <!-- army rules  -->
+      <!-- <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" /> -->
+
+      <!-- unit list  -->
       <div class="unit-list">
         <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">
           <div v-for="unit in armyData.units" :key="unit" class="m-5">

@@ -20,15 +20,13 @@
         </div>
 
     <br />
-    <p class="py-2">Every model is equipped with:</p>
-    <div v-for="equip in equipment" class="px-5 capitalize">
-      <ul>
-        <li>
-          
-          {{ equip }}
-        </li>
-      </ul>
-    </div>
+    <p>Equipment: </p>
+        <p v-for="(unit, index) in unitComposition" :key="index" class="capitalize">
+    <b>{{ unit.unitType }}:</b> {{ unit.equipment.join(', ') }}
+   
+  </p>
+
+    <br />
     <br />
 
     <br />

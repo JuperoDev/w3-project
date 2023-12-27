@@ -3,7 +3,10 @@
 
 
     <div class="datasheet__header py-5"  v-for="attribute in attributes">
-        <!-- <h1>{{ attribute.name }}</h1> -->
+      <div class="attribute-name capitalize text-lg px-6">
+
+        <h1>{{ attribute.name }}</h1>
+      </div>
     
 
     <!-- boxes -->

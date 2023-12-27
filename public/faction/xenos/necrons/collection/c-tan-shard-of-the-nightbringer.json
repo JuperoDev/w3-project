@@ -72,13 +72,24 @@
    ],
    "meleeWeapons": [
        {
-         "name": "xenos claws and teeth",
-         "attacks": 1,
-         "weapons-skills": 4,
-         "strength": 4,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
+         "name": "Scythe of the Nightbringer – strike",
+         "attacks": 6,
+         "weapons-skills": 2,
+         "strength": 14,
+         "armor-penetration": 4,
+         "damage": "d6+2",
+         "modifiers": ["devastating wounds"],
+         "singleChoice": true
+       },
+       {
+        "name": "Scythe of the Nightbringer – sweep",
+        "attacks": 14,
+        "weapons-skills": 8,
+        "strength": 8,
+        "armor-penetration":2,
+        "damage": 2,
+        "modifiers": [],
+        "singleChoice": true
+      }
    ]
 }

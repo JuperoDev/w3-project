@@ -86,13 +86,34 @@
    ],
    "meleeWeapons": [
        {
-         "name": "xenos claws and teeth",
-         "attacks": 1,
-         "weapons-skills": 4,
-         "strength": 4,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
+         "name": "Spear of the Void Dragon – strike",
+         "attacks": 5,
+         "weapons-skills": 2,
+         "strength": 12,
+         "armor-penetration": 3,
+         "damage": "d6+2",
+         "modifiers": ["anti-vehicle 2+"],
+         "singleChoice": true
+       },
+       {
+        "name": "Spear of the Void Dragon – sweep",
+        "attacks": 10,
+        "weapons-skills": 2,
+        "strength": 8,
+        "armor-penetration": 1,
+        "damage": 2,
+        "modifiers": [],
+        "singleChoice": true
+      },
+      {
+        "name": "Canoptek tail blades",
+        "attacks": 1,
+        "weapons-skills": 4,
+        "strength": 4,
+        "armor-penetration": 0,
+        "damage": 1,
+        "modifiers": ["extra attacks"],
+        "singleChoice": false
+      }
    ]
 }

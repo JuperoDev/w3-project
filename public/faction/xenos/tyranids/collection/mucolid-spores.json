@@ -1,67 +1,79 @@
 {
-    "parentUnit": "mucolid spores",
-    "attributes": [{
-        "movement": 4,
-        "toughness": 4,
-        "save": 7,
-        "wounds": 3,
-        "leadership": 8,
-        "objetiveControl": 0,
-        "invulnerableSave": 0
-    }],
-    "leader": [],
-    "lore": "These rudimentary organisms are filled with poisonous gases held under extremely high pressure. Instinct drives them to drift towards prey formations or up into the path of enemy aircraft, before detonating in a nauseating spray of poisonous filth and chitinous shrapnel. ",
-    "factionKeyword": [
-        "tyranids"
+  "parentUnit": "mucolid spores",
+  "attributes": [
+    {
+      "movement": 4,
+      "toughness": 4,
+      "save": 7,
+      "wounds": 3,
+      "leadership": 8,
+      "objetiveControl": 0,
+      "invulnerableSave": 0
+    }
+  ],
+  "leader": [],
+  "lore": "These rudimentary organisms are filled with poisonous gases held under extremely high pressure. Instinct drives them to drift towards prey formations or up into the path of enemy aircraft, before detonating in a nauseating spray of poisonous filth and chitinous shrapnel. ",
+  "factionKeyword": [
+    "tyranids"
+  ],
+  "keywords": [
+    "beast",
+    "fly",
+    "great devourer",
+    "mucolid spores"
+  ],
+  "wargear": [],
+  "supremeCommander": false,
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 50
+    },
+    {
+      "count": [
+        2
+      ],
+      "points": 100
+    }
+  ],
+  "unitComposition": [
+    {
+      "unitType": "mucolid spores",
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "equipment": [
+        "nothing"
+      ]
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Lone Operative",
+      "Stealth"
     ],
-    "keywords": [
-        "beast",
-        "fly",
-        "great devourer",
-        "mucolid spores"
+    "faction": [
+      "Shadow in the Warp",
+      "Synapse"
     ],
-    "wargear": [ ],
-    "supremeCommander": false,
-
-    "options": [
+    "otherAbilities": [
       {
-        "count": [1],
-        "points": 50
+        "name": "Feeder Tendrils:",
+        "description": "Each time this model destroys an enemy CHARACTER model, you gain 1CP."
       },
       {
-          "count": [2],
-          "points": 100
-        }
-    ],
-    "unitComposition": [
-        {
-            "unitType": "mucolid spores",
-            "minQuantity": 1,
-            "maxQuantity": 2,
-            "equipment": [
-              "nothing"
-            ]
-        }
-    ],
-    "abilities": {
-      "core": [
-        "Infiltrators",
-        "Lone Operative",
-        "Stealth"
-      ],
-      "faction": [
-        "Shadow in the Warp",
-        "Synapse"
-      ],
-      "otherAbilities": {
-        "Feeder Tendrils:": "Each time this model destroys an enemy CHARACTER model, you gain 1CP.",
-        "Neural Disruption:": "In your Command phase , select one enemy unit within 12\" of this model. That unit must take a Battle-shock test .",
-        "Psychological Saboteur (Aura):": "While an enemy unit is within 12'' of this model, if that unit is Battle-shocked, Each time a model in that unit makes an attack, subtract 1 from the Hit roll . Each time a friendly TYRANIDS  model makes an attack that targets that unit, add 1 to the Wound roll ."
+        "name": "Neural Disruption:",
+        "description": "In your Command phase , select one enemy unit within 12\" of this model. That unit must take a Battle-shock test ."
+      },
+      {
+        "name": "Psychological Saboteur (Aura):",
+        "description": "While an enemy unit is within 12'' of this model, if that unit is Battle-shocked, Each time a model in that unit makes an attack, subtract 1 from the Hit roll . Each time a friendly TYRANIDS  model makes an attack that targets that unit, add 1 to the Wound roll ."
       }
-    },
-
-    "additionalParameter": {},
-    "damaged": {},
-    "meleeWeapons": [
     ]
+  },
+  "additionalParameter": {},
+  "damaged": {},
+  "meleeWeapons": []
 }

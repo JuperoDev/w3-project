@@ -89,38 +89,51 @@
       "unitType": "Jakhal Pack Leader",
       "minQuantity": 1,
       "maxQuantity": 1,
-      "equipment":["bolt pistol","Coward’s Bane", "Juggernaut’s bladed horn."]
+      "equipment": [
+        "bolt pistol",
+        "Coward’s Bane",
+        "Juggernaut’s bladed horn."
+      ]
     },
     {
       "unitType": "Dishonoured",
       "minQuantity": 1,
       "maxQuantity": 2,
-      "equipment":["bolt pistol","Coward’s Bane", "Juggernaut’s bladed horn."]
+      "equipment": [
+        " Dishonoured chainblades."
+      ]
     },
     {
       "unitType": "Jakhal",
       "minQuantity": 8,
       "maxQuantity": 17,
-      "equipment":["bolt pistol","Coward’s Bane", "Juggernaut’s bladed horn."]
+      "equipment": [
+        "autopistol",
+        "Jakhal chainblades"
+      ]
     }
   ],
   "options": [
     {
       "count": [
-        1,1,8
+        1,
+        1,
+        8
       ],
       "points": 70
     },
     {
       "count": [
-        1,2,17
+        1,
+        2,
+        17
       ],
       "points": 140
     }
   ],
   "equipment": [
-      "Dishonoured chainblades"
-    ],
+    "Dishonoured chainblades"
+  ],
   "additionalParameter": {},
   "supremeCommander": false,
   "leader": [],
@@ -141,10 +154,19 @@
   ],
   "wargear": [
     {
-      "description": "For every 10 models in this unit, 1 Jakhal’s Jakhal chainblades can be replaced with 1 mauler chainblade."},
-      {
-        "description": "Any number of Dishonoured models can each have their Dishonoured chainblades replaced with 1 skullsmasher."},
-        {
-          "description": "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne."}]
-
+      "description": "For every 10 models in this unit, 1 Jakhal’s Jakhal chainblades can be replaced with 1 mauler chainblade."
+    },
+    {
+      "description": "Any number of Dishonoured models can each have their Dishonoured chainblades replaced with 1 skullsmasher."
+    },
+    {
+      "description": "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne."
+    }
+  ],
+  "warGearAbilities": [
+    {
+      "wargear": "Icon of Khorne",
+      "ability": "Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice."
+    }
+  ]
 }

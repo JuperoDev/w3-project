@@ -62,12 +62,20 @@
     {
       "unitType": "khorne berzerkers champion",
       "minQuantity": 1,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "equipment": [
+        "bolt pistol",
+        "Berzerker chainblade"
+      ]
     },
     {
       "unitType": "khorne berzerkers",
       "minQuantity": 4,
-      "maxQuantity": 9
+      "maxQuantity": 9,
+      "equipment": [
+        "bolt pistol",
+        "Berzerker chainblade"
+      ]
     }
   ],
   "additionalParameter": {},
@@ -131,9 +139,11 @@
       "points": 200
     }
   ],
-  "equipment": [
-    "bolt pistol",
-    "Berzerker chainblade"
-  ],
-  "lore": "Berzerkers of Khorne relish their role as the Blood God’s sacred destroyers, and are fanatical in the extreme. The warp-fuelled anger of these psychopathic warriors drives them into an endless frenzy of action. Those who face them in battle disappear under a rain of heavy blows, each potent enough to shear limbs and shatter shields."
+  "lore": "Berzerkers of Khorne relish their role as the Blood God’s sacred destroyers, and are fanatical in the extreme. The warp-fuelled anger of these psychopathic warriors drives them into an endless frenzy of action. Those who face them in battle disappear under a rain of heavy blows, each potent enough to shear limbs and shatter shields.",
+  "warGearAbilities": [
+    {
+      "wargear": "Icon of Khorne",
+      "ability": "Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice."
+    }
+  ]
 }

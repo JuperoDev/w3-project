@@ -87,20 +87,28 @@
         {
             "unitType": "world eaters terminator champion",
             "minQuantity": 1,
-            "maxQuantity": 1
+            "maxQuantity": 1,
+            "equipment":["combi-bolter","accursed weapon"]
         },
         {
             "unitType": "world eaters terminator",
-            "minQuantity": 2,
-            "maxQuantity": 5
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment":["combi-bolter","accursed weapon"]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                5
             ],
-            "points": 415
+            "points": 190
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 380
         }
     ],
     "additionalParameter": {},

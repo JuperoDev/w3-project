@@ -46,5 +46,19 @@
       "Tormentors: At the start of the Fight phase","description":
       "each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
     }]
-  }
+  },
+  "unitComposition": [
+      {
+          "unitType": "Klaivex",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment":["klaive"]
+      },
+      {
+        "unitType": "Incubi",
+        "minQuantity": 4,
+        "maxQuantity": 9,
+        "equipment":["klaive"]
+    }
+  ]
 }

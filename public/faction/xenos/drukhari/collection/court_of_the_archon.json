@@ -86,5 +86,31 @@
     {"name":"Ur-ghul", "description":"While this unit contains one or more Ur-ghul models, this unit has the Fights First ability."
       
     }]
-  }
+  },
+  "unitComposition": [
+      {
+          "unitType": "Lhamaean",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment":["shaimeshi blade"]
+      },
+      {
+        "unitType": "Medusae",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment":["eyeburst","close combat weapon"]
+    },
+    {
+      "unitType": "Sslyth",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment":["shardcarbine","splinter pistol","Sslyth battle-blade"]
+  },
+  {
+    "unitType": "Ur-ghul",
+    "minQuantity": 1,
+    "maxQuantity": 1,
+    "equipment":["Ur-ghul talons"]
+}
+  ]
 }

@@ -82,5 +82,31 @@
     "otherAbilities": [{
       "Beastmaster:": "While this unit contains a Beastmaster model, you can re-roll Charge rolls made for this unit, and each time a BEAST model in this unit makes an attack, re-roll a Hit roll of 1."
     }]
-  }
+  },
+  "unitComposition": [
+      {
+          "unitType": "Beastmaster",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment":["splinter pods; agoniser"]
+      },
+      {
+        "unitType": "Clawed Fiends",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment":["Clawed Fiend fists"]
+    },
+    {
+      "unitType": "Khymerae",
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "equipment":["Khymerae talons"]
+  },
+  {
+    "unitType": "Razorwing Flocks",
+    "minQuantity": 3,
+    "maxQuantity": 3,
+    "equipment":["Razorwing feathers"]
+}
+  ]
 }

@@ -90,5 +90,19 @@
     "otherAbilities": [{
       "The Torturer’s Craft:": "Each time this unit destroys an enemy unit, you gain 1 Pain token . When this unit is destroyed , you gain 1 Pain token."
     }]
-  }
+  },
+  "unitComposition": [
+      {
+          "unitType": "Acothyst",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment":["Wrack blades"]
+      },
+      {
+        "unitType": "Wracks",
+        "minQuantity": 4,
+        "maxQuantity": 9,
+        "equipment":["Wrack blades"]
+    }
+  ]
 }

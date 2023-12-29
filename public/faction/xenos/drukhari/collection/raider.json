@@ -53,7 +53,15 @@
       }
     ],
     "transport":"This model has a transport capacity of 11 DRUKHARI INFANTRY models. Each GROTESQUE model takes up the space of 3 models. This model cannot transport models that can FLY.",
-    "meleeWeapons": [
+    "meleeWeapons": [{
+      "name": "Huskblade",
+      "attacks": 5,
+      "weapons-skills": 2,
+      "strength": 3,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": ["anti-infantry 3+"]
+    }
     ],
     "additionalParameter": {},
     "wargear": []

@@ -70,26 +70,28 @@
     "points":160}
     ],
     "meleeWeapons": [{
-      "name": "Huskblade",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 3,
+      "name": "Demiklaives – single blade",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 4,
       "armor-penetration": 2,
       "damage": 2,
-      "modifiers": ["anti-infantry 3+"]
+      "modifiers": ["anti-infantry 3+"],
+      "singleChoice": true
     },{
-      "name": "Huskblade",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": ["anti-infantry 3+"]
+      "name": "Demiklaives – dual blades",
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 1,
+      "modifiers": ["twin-linked"],
+      "singleChoice": true
     },{
-      "name": "Huskblade",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 3,
+      "name": "Klaive",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 4,
       "armor-penetration": 2,
       "damage": 2,
       "modifiers": ["anti-infantry 3+"]

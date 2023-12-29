@@ -51,22 +51,24 @@
       }
     ],
     "meleeWeapons": [{
-      "name": "Huskblade",
+      "name": "The Executioner’s demiklaives – single blade",
       "attacks": 5,
       "weapons-skills": 2,
-      "strength": 3,
+      "strength": 6,
       "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": ["anti-infantry 3+"]
+      "damage": 3,
+      "modifiers": ["devastating wounds"],
+      "singleChoice":true
     },
     {
       "name": "Huskblade",
-      "attacks": 5,
+      "attacks": 7,
       "weapons-skills": 2,
-      "strength": 3,
+      "strength": 5,
       "armor-penetration": 2,
       "damage": 2,
-      "modifiers": ["anti-infantry 3+"]
+      "modifiers": ["twin-linked"],
+      "singleChoice":true
     }
     ],
     "additionalParameter": {},

@@ -13,15 +13,17 @@
     "aeldari",
     "cronos"
   ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 7,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 7,
+      "toughness": 7,
+      "save": 3,
+      "wounds": 7,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -61,26 +63,39 @@
     "faction": [
       "Power From Pain"
     ],
-    "otherAbilities": [{"name":
-      "Pain Parasite (Aura):", "description": "Each time a Pain token is removed from your Pain token pool to Empower a unit, if that Empowered unit is within 9\" of this unit, roll one D6: on a 4+, you gain 1 Pain token."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Pain Parasite (Aura):",
+        "description": "Each time a Pain token is removed from your Pain token pool to Empower a unit, if that Empowered unit is within 9\" of this unit, roll one D6: on a 4+, you gain 1 Pain token."
+      }
+    ]
   },
   "unitComposition": [
-      {
-          "unitType": "Cronos",
-          "minQuantity": 1,
-          "maxQuantity":2,
-          "equipment":["spirit syphon","spirit-leech tentacles."]
-      }
+    {
+      "unitType": "Cronos",
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "equipment": [
+        "spirit syphon",
+        "spirit-leech tentacles."
+      ]
+    }
   ],
   "options": [
-      {
-        "count": [1],
-        "points": 50
-      },
-      {"count":[2],
-    "points":100}
-    ],
-    "meleeWeapons": [
-    ]
+    {
+      "count": [
+        1
+      ],
+      "points": 50
+    },
+    {
+      "count": [
+        2
+      ],
+      "points": 100
+    }
+  ],
+  "meleeWeapons": [],
+  "additionalParameter": {},
+  "wargear": []
 }

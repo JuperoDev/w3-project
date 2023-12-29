@@ -26,7 +26,32 @@
     "invulnerableSave": 6
 }],
   "leader": [],
-  "rangedWeapons": [],
+  "rangedWeapons": [{
+    "name": "Dark lance",
+    "modifiers": [
+      
+    ],
+    "range": 36,
+    "strength": 12,
+    "attacks": 1,
+    "ballistic-skills": 3,
+    "armor-penetration": 3,
+    "damage": "d6+2",
+    "singleChoice": false
+  },
+  {
+    "name": "Disintegrator cannon",
+    "modifiers": [
+      
+    ],
+    "range": 36,
+    "strength": 5,
+    "attacks": 3,
+    "ballistic-skills": 3,
+    "armor-penetration": 2,
+    "damage": 2,
+    "singleChoice": false
+  }],
   "abilities": {
     "core": [
       "Deadly Demise D3",

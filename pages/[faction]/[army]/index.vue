@@ -1,6 +1,7 @@
 <template>
-  <div class="wrapper flex items-center justify-center">
+  <div class="wrapper ">
     <GeneralPurposeBackButton/>
+    <div class="flex items-center justify-center">
     <div class="collection-container">
       <div class="collection-container__left-column">
         <div
@@ -87,6 +88,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 

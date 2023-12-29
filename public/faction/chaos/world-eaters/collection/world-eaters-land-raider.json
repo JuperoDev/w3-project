@@ -34,7 +34,18 @@
   "factionKeyword": [
     "World Eaters"
   ],
-  "wargear": [],
+  "wargear": [
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 combi-bolter",
+        "1 combi-weapon"
+      ]
+    },
+    {
+      "description": "This model can be equipped with 1 havoc launcher."
+    }
+  ],
   "abilities": {
     "core": [
       "Deadly Demise D6"
@@ -58,7 +69,11 @@
       "unitType": "World Eaters Land Raider",
       "minQuantity": 1,
       "maxQuantity": 1,
-      "equipment":["2 soulshatter lascannons","twin heavy bolter","armoured tracks"]
+      "equipment": [
+        "2 soulshatter lascannons",
+        "twin heavy bolter",
+        "armoured tracks"
+      ]
     }
   ],
   "options": [
@@ -135,5 +150,5 @@
       "modifiers": []
     }
   ],
-  "transport":"This model has a transport capacity of 12 WORLD EATERS INFANTRY models. Each EIGHTBOUND, EXALTED EIGHTBOUND and TERMINATOR model takes up the space of 2 models."
+  "transport": "This model has a transport capacity of 12 WORLD EATERS INFANTRY models. Each EIGHTBOUND, EXALTED EIGHTBOUND and TERMINATOR model takes up the space of 2 models."
 }

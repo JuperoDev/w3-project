@@ -65,7 +65,15 @@
   "factionKeyword": [
     "World Eaters"
   ],
-  "wargear": [],
+  "wargear": [
+    {
+      "description": "The Exalted Eightbound Champion’s Eightbound eviscerator and Eightbound chainfist can be replaced with one of the following:",
+      "items": [
+        "1 paired Eightbound chainfists",
+        "1 heavy chainglaive"
+      ]
+    }
+  ],
   "abilities": {
     "core": [
       "deep strike",
@@ -87,13 +95,19 @@
       "unitType": "exhalted eightbound champion",
       "minQuantity": 1,
       "maxQuantity": 1,
-      "equipment":["Eightbound eviscerator","Eightbound chainfist."]
+      "equipment": [
+        "Eightbound eviscerator",
+        "Eightbound chainfist."
+      ]
     },
     {
       "unitType": "exhalted eightbound",
       "minQuantity": 2,
       "maxQuantity": 5,
-      "equipment":["Eightbound eviscerator","Eightbound chainfist."]
+      "equipment": [
+        "Eightbound eviscerator",
+        "Eightbound chainfist."
+      ]
     }
   ],
   "options": [

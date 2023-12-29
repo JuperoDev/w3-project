@@ -1,142 +1,164 @@
 {
-    "parentUnit": "world eaters predator annihilator",
-    "attributes": [
-        {
-            "movement": 10,
-            "toughness": 10,
-            "save": 3,
-            "wounds": 11,
-            "leadership": 6,
-            "objetiveControl": 3,
-            "invulnerableSave": 0
-        }
+  "parentUnit": "world eaters predator annihilator",
+  "attributes": [
+    {
+      "movement": 10,
+      "toughness": 10,
+      "save": 3,
+      "wounds": 11,
+      "leadership": 6,
+      "objetiveControl": 3,
+      "invulnerableSave": 0
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Armoured tracks",
+      "attacks": 3,
+      "weapons-skills": 4,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Khorne",
+    "Predator Annihilator"
+  ],
+  "factionKeyword": [
+    "World Eaters"
+  ],
+  "wargear": [
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": ["2 heavy bolters","2 lascannons"]
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": ["1 combi-bolter",
+      "1 combi-weapon"]
+    },
+    {
+      "description": "This model can be equipped with 1 havoc launcher."
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
     ],
-    "meleeWeapons": [
-        {
-            "name": "Armoured tracks",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 6,
-            "armor-penetration": 0,
-            "damage": 1,
-            "modifiers": [],
-            "singleChoice": false
-        }
+    "faction": [
+      "Blessings of Khorne"
     ],
-    "keywords": [
-        "Vehicle", "Smoke", "Chaos", "Khorne", "Predator Annihilator"
-    ],
-    "factionKeyword": [
-        "World Eaters"
-    ],
-    "wargear": [],
-    "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
-        "faction": [
-          "Blessings of Khorne"
-        ],
-        "otherAbilities": [
-          {
-            "name": "Annihilator",
-            "description": "Each time this model makes a ranged attack that targets a Monster or Vehicle unit, re-roll a Damage roll of 1."
-          }
-        ]
-      },
-      "damaged": {
-        "remainingWounds": 4,
-        "description": "each time this model makes an attack, subtract 1 from the Hit roll"
-     },
-     "unitComposition": [
+    "otherAbilities": [
       {
-        "unitType": "World Eaters Predator Annihilator",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment":["Predator twin lascannon","armoured tracks."]
+        "name": "Annihilator",
+        "description": "Each time this model makes a ranged attack that targets a Monster or Vehicle unit, re-roll a Damage roll of 1."
       }
-    ], "options": [
-      {
-        "count": [1],
-        "points": 130
-      }
-    ],
-    "additionalParameter": {
-      },
-      "supremeCommander": false,
-      "leader": [
-         ],
-         "rangedWeapons": [
-           {
-             "name": "Combi-bolter",
-             "range": 24,
-             "attacks": 2,
-             "ballistic-skills": 3,
-             "strength": 4,
-             "armor-penetration": 0,
-             "damage": 1,
-             "modifiers": [
-               "rapid fire 2"
-             ]
-           },
-           {
-             "name": "Combi-weapon",
-             "range": 24,
-             "attacks": 1,
-             "ballistic-skills": 4,
-             "strength": 4,
-             "armor-penetration": 0,
-             "damage": 1,
-             "modifiers": [
-               "anti-infantry 4+",
-               "devastating wounds",
-               "rapid fire 1"
-             ]
-           },
-           {
-             "name": "havoc launcher",
-             "range": 48,
-             "attacks": "d6",
-             "ballistic-skills": 3,
-             "strength": 5,
-             "armor-penetration": 0,
-             "damage": 1,
-             "modifiers": [
-               "blast"
-             ]
-           },
-           {
-             "name": "heavy bolter",
-             "range": 48,
-             "attacks": 3,
-             "ballistic-skills": 3,
-             "strength": 5,
-             "armor-penetration": 1,
-             "damage": 2,
-             "modifiers": [
-               
-               "sustained hits 1"
-             ]
-           },
-           {
-             "name": "predator twin lascannon",
-             "range": 48,
-             "attacks": 1,
-             "ballistic-skills": 3,
-             "strength": 12,
-             "armor-penetration": 3,
-             "damage": "d6+1",
-             "modifiers": ["twin-linked"]
-           },
-           {
-            "name": " lascannon",
-            "range": 48,
-            "attacks": 1,
-            "ballistic-skills": 3,
-            "strength": 14,
-            "armor-penetration": 3,
-            "damage": "d6+1",
-            "modifiers": []
-          }
-         ]
+    ]
+  },
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "each time this model makes an attack, subtract 1 from the Hit roll"
+  },
+  "unitComposition": [
+    {
+      "unitType": "World Eaters Predator Annihilator",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Predator twin lascannon",
+        "armoured tracks."
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 130
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Combi-bolter",
+      "range": 24,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "rapid fire 2"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "range": 24,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ]
+    },
+    {
+      "name": "havoc launcher",
+      "range": 48,
+      "attacks": "d6",
+      "ballistic-skills": 3,
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": [
+        "blast"
+      ]
+    },
+    {
+      "name": "heavy bolter",
+      "range": 48,
+      "attacks": 3,
+      "ballistic-skills": 3,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [
+        "sustained hits 1"
+      ]
+    },
+    {
+      "name": "predator twin lascannon",
+      "range": 48,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "d6+1",
+      "modifiers": [
+        "twin-linked"
+      ]
+    },
+    {
+      "name": " lascannon",
+      "range": 48,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "d6+1",
+      "modifiers": []
+    }
+  ]
 }

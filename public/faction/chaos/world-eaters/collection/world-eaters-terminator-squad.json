@@ -67,7 +67,27 @@
     "factionKeyword": [
         "World Eaters"
     ],
-    "wargear": [],
+    "wargear": [
+        {
+            "description": "For every 5 models in this unit, 1 World Eaters Terminator’s combi-bolter can be replaced with one of the following:",
+            "items": [
+                "1 heavy flamer",
+                "1 reaper autocannon"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their combi-bolter replaced with 1 combi-weapon."
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model’s combi-bolter and accursed weapon can be replaced with 1 paired accursed weapons."
+        },
+        {
+            "description": "For every 5 models in this unit, up to 3 models can each have their accursed weapon replaced with 1 power fist."
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model’s accursed weapon can be replaced with 1 chainfist."
+        }
+    ],
     "abilities": {
         "core": [
             "deep strike"
@@ -88,13 +108,19 @@
             "unitType": "world eaters terminator champion",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "equipment":["combi-bolter","accursed weapon"]
+            "equipment": [
+                "combi-bolter",
+                "accursed weapon"
+            ]
         },
         {
             "unitType": "world eaters terminator",
             "minQuantity": 4,
             "maxQuantity": 9,
-            "equipment":["combi-bolter","accursed weapon"]
+            "equipment": [
+                "combi-bolter",
+                "accursed weapon"
+            ]
         }
     ],
     "options": [

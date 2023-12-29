@@ -12,7 +12,7 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-          <nuxt-link to="/imperium/adepta-sororitas">
+          <!-- <nuxt-link to="/imperium/adepta-sororitas"> -->
             <div class="army__card_image">
               <img
                 src="/icons/sororitas-symbol.png"
@@ -21,7 +21,7 @@
             <div class="army__card_title title-white uppercase">
               <p>Adeptas Sororitas</p>
             </div>
-          </nuxt-link> 
+          <!-- </nuxt-link>  -->
         </div>
       </div>
 

@@ -293,7 +293,3 @@ onMounted(() => {
 });
 </script>
 
-
-
-<!-- Add a meta tag for description -->
-<meta name="description" content="Put your description here.">

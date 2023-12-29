@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GeneralPurposeBackButton/>
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
       

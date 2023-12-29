@@ -27,7 +27,7 @@
 
       <div class="button__container  my-5">
         <div class="army__card font-bebas">
-          <!-- <nuxt-link to="/xenos/drukhari">
+          <nuxt-link to="/xenos/drukhari">
             <div class="army__card_image">
               <img
                 src="/icons/drukhari-symbol.png"
@@ -36,7 +36,7 @@
             <div class="army__card_title title-white uppercase">
               <p>Drukhari</p>
             </div>
-          </nuxt-link> -->
+          </nuxt-link> 
         </div>
       </div>
 

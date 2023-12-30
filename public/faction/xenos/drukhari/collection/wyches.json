@@ -13,15 +13,17 @@
     "aeldari",
     "wyches"
   ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 3,
-    "save": 6,
-    "wounds": 1,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 8,
+      "toughness": 3,
+      "save": 6,
+      "wounds": 1,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -54,15 +56,16 @@
     }
   ],
   "abilities": {
-    "core": [
-      "FACTION: Power From Pain"
-    ],
+    "core": [],
     "faction": [
-    
+      "Power From Pain"
     ],
-    "otherAbilities": [{
-     "name":"No Escape","description":"Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
-    }]
+    "otherAbilities": [
+      {
+        "name": "No Escape",
+        "description": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+      }
+    ]
   },
   "warGearAbilities": [
     {
@@ -71,26 +74,36 @@
     }
   ],
   "unitComposition": [
-      {
-          "unitType": "Hekatrix",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["splinter pistol","Hekatarii blade."]
-      },
-      {
-        "unitType": "Wyches",
-        "minQuantity": 9,
-        "maxQuantity": 9,
-        "equipment":["splinter pistol","huskblade"]
+    {
+      "unitType": "Hekatrix",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "splinter pistol",
+        "Hekatarii blade."
+      ]
+    },
+    {
+      "unitType": "Wyches",
+      "minQuantity": 9,
+      "maxQuantity": 9,
+      "equipment": [
+        "splinter pistol",
+        "huskblade"
+      ]
     }
   ],
   "options": [
-      {
-        "count": [1,9],
-        "points": 90
-      }
-    ],
-    "meleeWeapons": [{
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 90
+    }
+  ],
+  "meleeWeapons": [
+    {
       "name": "Hekatarii blade",
       "attacks": 3,
       "weapons-skills": 3,
@@ -99,7 +112,12 @@
       "damage": 1,
       "modifiers": []
     }
-    ],
-    "additionalParameter": {},
-    "wargear": []
+  ],
+  "additionalParameter": {},
+  "wargear": [{
+    "description": "The Hekatrix can be equipped with 1 phantasm grenade launcher."
+  },
+  {
+    "description": "The Hekatrix’s splinter pistol can be replaced with 1 blast pistol."
+  }]
 }

@@ -13,15 +13,17 @@
     "wych cult",
     "hellions"
   ],
-  "attributes": [{
-    "movement": 14,
-    "toughness": 4,
-    "save": 5,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 14,
+      "toughness": 4,
+      "save": 5,
+      "wounds": 2,
+      "leadership": 6,
+      "objetiveControl": 1,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -49,22 +51,23 @@
       "range": 18,
       "strength": 2,
       "attacks": 2,
-      "ballistic-skills":3,
+      "ballistic-skills": 3,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
   ],
   "abilities": {
-    "core": [
-      
-    ],
+    "core": [],
     "faction": [
       "power from pain"
     ],
-    "otherAbilities": [{"name":
-      "Hit and Run", "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Hit and Run",
+        "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      }
+    ]
   },
   "warGearAbilities": [
     {
@@ -73,29 +76,43 @@
     }
   ],
   "unitComposition": [
-      {
-          "unitType": "Archon",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["splinter pistol; huskblade"]
-      }
+    {
+      "unitType": "Archon",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "splinter pistol; huskblade"
+      ]
+    }
   ],
   "options": [
-      {
-        "count": [1,4],
-        "points": 100
-      },
-      {"count":[1,9],
-    "points":200}
-    ],
-    "meleeWeapons": [{
+    {
+      "count": [
+        1,
+        4
+      ],
+      "points": 100
+    },
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 200
+    }
+  ],
+  "meleeWeapons": [
+    {
       "name": "Helliarch weapon",
       "attacks": 5,
       "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 1,
       "damage": 1,
-      "modifiers": ["anti-infantry 3+","sustained hits 1"]
+      "modifiers": [
+        "anti-infantry 3+",
+        "sustained hits 1"
+      ]
     },
     {
       "name": "Hellglaive",
@@ -104,9 +121,17 @@
       "strength": 4,
       "armor-penetration": 1,
       "damage": 2,
-      "modifiers": ["sustained hits 1"]
+      "modifiers": [
+        "sustained hits 1"
+      ]
     }
-    ],
-    "additionalParameter": {},
-    "wargear": []
+  ],
+  "additionalParameter": {},
+  "wargear": [
+    {
+      "description": "The Helliarch can be equipped with 1 phantasm grenade launcher."
+    }, {
+      "description": "The Helliarch’s hellglaive can be replaced with 1 splinter pistol and 1 Helliarch weapon."
+    }
+  ]
 }

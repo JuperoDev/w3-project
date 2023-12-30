@@ -16,15 +16,17 @@
     "aeldari",
     "voidraven bomber"
   ],
-  "attributes": [{
-    "movement": 20,
-    "toughness": 9,
-    "save": 4,
-    "wounds": 12,
-    "leadership": 6,
-    "objetiveControl": 0,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 20,
+      "toughness": 9,
+      "save": 4,
+      "wounds": 12,
+      "leadership": 6,
+      "objetiveControl": 0,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -47,7 +49,7 @@
       "range": 36,
       "strength": 14,
       "attacks": 2,
-      "ballistic-skills":3,
+      "ballistic-skills": 3,
       "armor-penetration": 4,
       "damage": "d6+2"
     },
@@ -86,25 +88,34 @@
     "faction": [
       "Power From Pain"
     ],
-    "otherAbilities": [{"name":
-      "Void Mine:", "description": "Once per battle, after this unit ends a Normal move , you can select one enemy model it moved over during that move and roll one D6 for each enemy unit within D6\" of that enemy model: on a 4+, that enemy unit suffers D6 mortal wounds ."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Void Mine:",
+        "description": "Once per battle, after this unit ends a Normal move , you can select one enemy model it moved over during that move and roll one D6 for each enemy unit within D6\" of that enemy model: on a 4+, that enemy unit suffers D6 mortal wounds ."
+      }
+    ]
   },
   "unitComposition": [
-      {
-          "unitType": "Voidraven Bomber",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["2 void lances","bladed wings"]
-      }
+    {
+      "unitType": "Voidraven Bomber",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "2 void lances",
+        "bladed wings"
+      ]
+    }
   ],
   "options": [
-      {
-        "count": [1],
-        "points": 195
-      }
-    ],
-    "meleeWeapons": [{
+    {
+      "count": [
+        1
+      ],
+      "points": 195
+    }
+  ],
+  "meleeWeapons": [
+    {
       "name": "Bladed wings",
       "attacks": 3,
       "weapons-skills": 4,
@@ -113,7 +124,14 @@
       "damage": 1,
       "modifiers": []
     }
-    ],
-    "additionalParameter": {},
-    "wargear": []
+  ],
+  "additionalParameter": {},
+  "wargear": [
+    {
+      "description": "The model’s 2 void lances can be replaced with 2 dark scythes."
+    },
+    {
+      "description": "This model can be equipped with 1 Voidraven missiles."
+    }
+  ]
 }

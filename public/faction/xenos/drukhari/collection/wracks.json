@@ -13,15 +13,17 @@
     "aeldari",
     "wracks"
   ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 4,
-    "save": 6,
-    "wounds": 1,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 7,
+      "toughness": 4,
+      "save": 6,
+      "wounds": 1,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -60,7 +62,7 @@
       "range": 36,
       "strength": 6,
       "attacks": 1,
-      "ballistic-skills":3,
+      "ballistic-skills": 3,
       "armor-penetration": 2,
       "damage": 3,
       "singleChoice": false
@@ -87,42 +89,69 @@
     "faction": [
       "Power From Pain"
     ],
-    "otherAbilities": [{
-      "The Torturer’s Craft:": "Each time this unit destroys an enemy unit, you gain 1 Pain token . When this unit is destroyed , you gain 1 Pain token."
-    }]
+    "otherAbilities": [
+      {
+        "The Torturer’s Craft:": "Each time this unit destroys an enemy unit, you gain 1 Pain token . When this unit is destroyed , you gain 1 Pain token."
+      }
+    ]
   },
   "unitComposition": [
-      {
-          "unitType": "Acothyst",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["Wrack blades"]
-      },
-      {
-        "unitType": "Wracks",
-        "minQuantity": 4,
-        "maxQuantity": 9,
-        "equipment":["Wrack blades"]
+    {
+      "unitType": "Acothyst",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Wrack blades"
+      ]
+    },
+    {
+      "unitType": "Wracks",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment": [
+        "Wrack blades"
+      ]
     }
   ],
   "options": [
-      {
-        "count": [1,4],
-        "points": 60
-      },
-      {"count":[1,9],
-    "points":120}
-    ],
-    "meleeWeapons": [{
+    {
+      "count": [
+        1,
+        4
+      ],
+      "points": 60
+    },
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 120
+    }
+  ],
+  "meleeWeapons": [
+    {
       "name": "Wrack blades",
       "attacks": 2,
       "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 0,
       "damage": 1,
-      "modifiers": ["anti-infantry 4+"]
+      "modifiers": [
+        "anti-infantry 4+"
+      ]
     }
-    ],
-    "additionalParameter": {},
-    "wargear": []
+  ],
+  "additionalParameter": {},
+  "wargear": [
+    {
+      "description": "For every 5 models in the unit (one weapon per model):",
+      "items": [
+        "1 model can be equipped with 1 hexrifle*",
+        "1 model can be equipped with 1 liquifier gun*",
+        "1 model can be equipped with 1 ossefactor*",
+        "1 model can be equipped with 1 stinger pistol*"
+      ]
+    }
+  ]
 }

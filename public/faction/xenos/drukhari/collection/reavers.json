@@ -13,15 +13,17 @@
     "aeldari",
     "reavers"
   ],
-  "attributes": [{
-    "movement": 16,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 16,
+      "toughness": 4,
+      "save": 4,
+      "wounds": 2,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -82,15 +84,16 @@
     }
   ],
   "abilities": {
-    "core": [
-      
-    ],
+    "core": [],
     "faction": [
       "Power From Pain"
     ],
-    "otherAbilities":[ { "name":
-      "Cluster Caltrops:", "description": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Cluster Caltrops:",
+        "description": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
+      }
+    ]
   },
   "warGearAbilities": [
     {
@@ -103,36 +106,56 @@
     }
   ],
   "unitComposition": [
-      {
-          "unitType": "Arena Champion",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["splinter pistol","splinter rifle","bladevanes."]
-      },
-      {
-        "unitType": "Reavers",
-        "minQuantity": 2,
-        "maxQuantity": 5,
-        "equipment":["splinter pistol","splinter rifle","bladevanes."]
+    {
+      "unitType": "Arena Champion",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "splinter pistol",
+        "splinter rifle",
+        "bladevanes."
+      ]
+    },
+    {
+      "unitType": "Reavers",
+      "minQuantity": 2,
+      "maxQuantity": 5,
+      "equipment": [
+        "splinter pistol",
+        "splinter rifle",
+        "bladevanes."
+      ]
     }
   ],
   "options": [
-      {
-        "count": [1,2],
-        "points": 70
-      },
-      {"count":[1,5],
-    "points":140}
-    ],
-    "meleeWeapons": [{
+    {
+      "count": [
+        1,
+        2
+      ],
+      "points": 70
+    },
+    {
+      "count": [
+        1,
+        5
+      ],
+      "points": 140
+    }
+  ],
+  "meleeWeapons": [
+    {
       "name": "Agoniser",
       "attacks": 4,
       "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 1,
       "damage": 1,
-      "modifiers": ["anti-infantry 2+"]
-    },{
+      "modifiers": [
+        "anti-infantry 2+"
+      ]
+    },
+    {
       "name": "Bladevanes",
       "attacks": 3,
       "weapons-skills": 3,
@@ -141,7 +164,21 @@
       "damage": 1,
       "modifiers": []
     }
-    ],
-    "additionalParameter": {},
-    "wargear": []
+  ],
+  "additionalParameter": {},
+  "wargear": [
+    {
+      "description": "For every 3 models in this unit, 1 model can be equipped with one of the following:",
+      "items": ["1 grav-talon",
+      "1 cluster caltrops]"]
+    },
+    {
+      "description": "For every 3 models in this unit, 1 model’s splinter rifle can be replaced with one of the following:",
+      "items": ["1 blaster",
+      "1 heat lance"]
+    },
+    {
+      "description": "The Arena Champion can be equipped with 1 agoniser."
+    }
+  ]
 }

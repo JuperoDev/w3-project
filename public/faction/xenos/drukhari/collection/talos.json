@@ -13,15 +13,17 @@
     "aeldari",
     "talos"
   ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 7,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 7,
+      "toughness": 7,
+      "save": 3,
+      "wounds": 7,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -71,9 +73,7 @@
     },
     {
       "name": "Stinger pod",
-      "modifiers": [
-       
-      ],
+      "modifiers": [],
       "range": 24,
       "strength": 5,
       "attacks": "2d6",
@@ -105,27 +105,40 @@
     "faction": [
       "Power From Pain"
     ],
-    "otherAbilities": [{ "name":
-      "Pain Engine:", "description": "If this unit destroys an enemy unit, until the end of the battle, it is Empowered ."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Pain Engine:",
+        "description": "If this unit destroys an enemy unit, until the end of the battle, it is Empowered ."
+      }
+    ]
   },
   "unitComposition": [
-      {
-          "unitType": "Talos",
-          "minQuantity": 1,
-          "maxQuantity": 2,
-          "equipment":["twin splinter cannon","2 macro-scalpels."]
-      }
+    {
+      "unitType": "Talos",
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "equipment": [
+        "twin splinter cannon",
+        "2 macro-scalpels."
+      ]
+    }
   ],
   "options": [
-      {
-        "count": [1],
-        "points": 90
-      },
-      {"count":[2],
-    "points":180}
-    ],
-    "meleeWeapons": [{
+    {
+      "count": [
+        1
+      ],
+      "points": 90
+    },
+    {
+      "count": [
+        2
+      ],
+      "points": 180
+    }
+  ],
+  "meleeWeapons": [
+    {
       "name": "Chain-flails",
       "attacks": 8,
       "weapons-skills": 3,
@@ -133,7 +146,8 @@
       "armor-penetration": 0,
       "damage": 1,
       "modifiers": []
-    },{
+    },
+    {
       "name": "Macro-scalpel",
       "attacks": 5,
       "weapons-skills": 3,
@@ -141,7 +155,8 @@
       "armor-penetration": 1,
       "damage": 2,
       "modifiers": []
-    },{
+    },
+    {
       "name": "Talos gauntlet",
       "attacks": 5,
       "weapons-skills": 4,
@@ -149,16 +164,42 @@
       "armor-penetration": 2,
       "damage": 3,
       "modifiers": []
-    },{
+    },
+    {
       "name": "Talos ichor injector",
       "attacks": 1,
       "weapons-skills": 3,
       "strength": 7,
       "armor-penetration": 1,
       "damage": 2,
-      "modifiers": ["extra attacks"]
+      "modifiers": [
+        "extra attacks"
+      ]
     }
-    ],
-    "additionalParameter": {},
-    "wargear": []
+  ],
+  "additionalParameter": {},
+  "wargear": [
+    {
+      "description": "Any number of models can each replace one of their macro-scalpels with one of the following:",
+      "items": [
+        "1 Talos ichor injector",
+        "1 twin liquifier gun"
+      ]
+    },
+    {
+      "description": "Any number of models can each replace one of their macro-scalpels with one of the following:",
+      "items": [
+        "1 chain-flails",
+        "1 Talos gauntlet"
+      ]
+    },
+    {
+      "description": "Any number of models can each replace their twin splinter cannon with one of the following:",
+      "items": [
+        "1 twin Drukhari haywire blasters",
+        "1 twin heat lance",
+        " 1 stinger pod"
+      ]
+    }
+  ]
 }

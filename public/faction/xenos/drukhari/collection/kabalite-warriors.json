@@ -13,15 +13,17 @@
     "aeldari",
     "kabalite warriors"
   ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 3,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-}],
+  "attributes": [
+    {
+      "movement": 8,
+      "toughness": 3,
+      "save": 4,
+      "wounds": 1,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -126,13 +128,13 @@
     "core": [
       "FACTION: Power From Pain"
     ],
-    "faction": [
-      
-    ],
-    "otherAbilities": [{
-      "name":"Sadistic Raiders", "description":
-      "If you control an objective marker at the end of your Command phase, and this unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-    }]
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Sadistic Raiders",
+        "description": "If you control an objective marker at the end of your Command phase, and this unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+      }
+    ]
   },
   "warGearAbilities": [
     {
@@ -141,33 +143,45 @@
     }
   ],
   "unitComposition": [
-      {
-          "unitType": "Sybarite",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["splinter rifle","close combat weapon."]
-      },
-      {
-        "unitType": "Kabalite Warriors",
-        "minQuantity": 9,
-        "maxQuantity": 9,
-        "equipment":["splinter rifle","close combat weapon."]
+    {
+      "unitType": "Sybarite",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "splinter rifle",
+        "close combat weapon."
+      ]
+    },
+    {
+      "unitType": "Kabalite Warriors",
+      "minQuantity": 9,
+      "maxQuantity": 9,
+      "equipment": [
+        "splinter rifle",
+        "close combat weapon."
+      ]
     }
   ],
   "options": [
-      {
-        "count": [1,9],
-        "points": 110
-      }
-    ],
-    "meleeWeapons": [{
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 110
+    }
+  ],
+  "meleeWeapons": [
+    {
       "name": "Sybarite weapon",
       "attacks": 3,
       "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 1,
       "damage": 1,
-      "modifiers": ["anti-infantry 3+"]
+      "modifiers": [
+        "anti-infantry 3+"
+      ]
     },
     {
       "name": "Close combat weapon",
@@ -178,7 +192,33 @@
       "damage": 2,
       "modifiers": []
     }
-    ],
-    "additionalParameter": {},
-    "wargear": []
+  ],
+  "additionalParameter": {},
+  "wargear": [
+    {
+      "description": "The Sybarite’s close combat weapon can be replaced with 1 Sybarite weapon."
+    },
+    {
+      "description": "The Sybarite can be equipped with 1 phantasm grenade launcher."
+    },
+    {
+      "description": "The Sybarite’s splinter rifle can be replaced with one of the following:",
+      "items": [
+        "1 blast pistol",
+        "1 splinter pistol"
+      ]
+    },
+    {
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 blaster."
+    },
+    {
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 dark lance."
+    },
+    {
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 shredder."
+    },
+    {
+      "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 splinter cannon."
+    }
+  ]
 }

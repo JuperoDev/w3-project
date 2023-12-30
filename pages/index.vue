@@ -10,6 +10,24 @@
     <div class="font-bebas flex items-center justify-center"><h2>Avaliable Armies</h2></div>
     <div class="grid grid-cols-2 lg:grid-cols-4">
 
+
+      
+      <div class="button__container my-5">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/xenos/tyranids">
+            <div class="army__card_image">
+              <img
+                src="/icons/tyranid-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Tyranids</p>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+
+
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
           <!-- <nuxt-link to="/imperium/adepta-sororitas"> -->
@@ -118,20 +136,7 @@
         </div>
       </div>
 
-      <div class="button__container my-5">
-        <div class="army__card font-bebas">
-          <nuxt-link to="/xenos/tyranids">
-            <div class="army__card_image">
-              <img
-                src="/icons/tyranid-symbol.png"
-              />
-            </div>
-            <div class="army__card_title title-white uppercase">
-              <p>Tyranids</p>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
+     
 
 
     </div>

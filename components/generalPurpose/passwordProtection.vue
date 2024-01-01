@@ -35,7 +35,7 @@
   
   <style scoped>
   input{
-    border: 1px solid gainsboro
+    border: 1px solid gainsboro;
   }
   </style>
   

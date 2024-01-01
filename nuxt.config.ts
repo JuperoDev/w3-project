@@ -31,7 +31,7 @@ export default defineNuxtConfig({
      */
     inlineSSRStyles: false
   },
-
+ 
   vite: {
     define: {
       "process.env.DEBUG": false,

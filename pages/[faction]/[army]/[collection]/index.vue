@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GeneralPurposePasswordProtection>
     <GeneralPurposeBackButton/>
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
@@ -200,6 +201,10 @@
 
     <MobileLore :lore="lore" />
   </div>
+
+
+</GeneralPurposePasswordProtection>
+
   </div>
 </template>
 

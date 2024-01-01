@@ -143,7 +143,13 @@
   </div>
 </template>
 
-<script setup></script>
+
+<script setup>
+import passwordProtection from '~/middleware/passwordProtection';
+
+// Specify middleware for protected routes
+const middleware = [passwordProtection];
+</script>
 
 <style scoped>
 h2 {

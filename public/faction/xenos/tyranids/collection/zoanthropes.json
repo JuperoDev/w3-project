@@ -75,18 +75,31 @@
       ],
       "rangedWeapons": [
           {
-              "name": "bio-cannon",
+              "name": "Warp Blast – witchfire",
               "range": 24,
-              "attacks": "d6",
-              "ballistic-skills": 4,
-              "strength": 5,
-              "armor-penetration": 0,
-              "damage": 1,
+              "attacks": "d3",
+              "ballistic-skills": 3,
+              "strength": 7,
+              "armor-penetration": 2,
+              "damage": "d3",
               "modifiers": [
                   "blast",
-                  "heavy"
+                  "psychic"
               ]
-          }
+          },
+          {
+            "name": "Warp Blast – focused witchfire",
+            "range": 24,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": [
+                "lethal hits",
+                "psychic"
+            ]
+        }
       ],
       "damaged": {
     },

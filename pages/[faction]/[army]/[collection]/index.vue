@@ -1,11 +1,11 @@
 <template>
   <div>
      <!-- <GeneralPurposePasswordProtection>  -->
-      <NavbarComponentsButtonGrid/>
+      <NavbarComponentsButtonGrid />
     
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
-      <h1>{{ unitStore.message }}</h1>
+    
     <DesktopDatasheet
       :armyUnit="armyUnit"
       :keywords="keywords"
@@ -213,9 +213,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { useUnitStore} from '~/stores/UnitStore'
 
-const unitStore = useUnitStore()
 
 // params
 const route = useRoute();
@@ -289,11 +287,8 @@ onMounted(async () => {
   }
 });
 
-//page title
 
-onMounted(() => {
-  document.title = `${armyUnit}`;
-})
+
 
 // Set document title and meta description based on armyUnit
 onMounted(() => {

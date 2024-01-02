@@ -8,7 +8,7 @@
   <template v-slot:default="{ isActive }">
     <v-card title="Favorite Units">
       <v-card-text>
-        Here is a list of units saved for rapid access.
+       <div><h1>{{ unitStore.message }}</h1></div>
       </v-card-text>
 
       <v-card-actions>
@@ -25,3 +25,8 @@
     </div>
   </template>
  
+ <script setup>
+import { useUnitStore} from '~/stores/UnitStore'
+
+const unitStore = useUnitStore()
+</script>

@@ -4,7 +4,9 @@
       <div class="color-stripe bg-zinc-500 h-20 z-1">
         <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">
           {{ armyUnit }}
+          <GeneralPurposeFavIcon/>
         </h1>
+        
       </div>
       <DesktopComponentsAttributes :attributes="attributes" />
     </div>

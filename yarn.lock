@@ -1117,7 +1117,7 @@
     "@vue/compiler-dom" "3.3.6"
     "@vue/shared" "3.3.6"
 
-"@vue/devtools-api@^6.5.0":
+"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.5.0":
   "integrity" "sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q=="
   "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.5.0.tgz"
   "version" "6.5.0"
@@ -6943,7 +6943,7 @@
   dependencies:
     "@vue/devtools-api" "^6.5.0"
 
-"vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.4", "vue@>=2.7 || >=3", "vue@3.3.6":
+"vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.4", "vue@>=2.7 || >=3", "vue@3.3.6":
   "integrity" "sha512-jJIDETeWJnoY+gfn4ZtMPMS5KtbP4ax+CT4dcQFhTnWEk8xMupFyQ0JxL28nvT/M4+p4a0ptxaV2WY0LiIxvRg=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.3.6.tgz"
   "version" "3.3.6"
@@ -6958,6 +6958,13 @@
   "integrity" "sha512-hlbSgxXCcEu4VelJMRHKhvLpaitLsruHvdvolbqbCS6Z64XoulUDw3CQ9ay6WGBL7uckmop0bUYidD2d8mN0UQ=="
   "resolved" "https://registry.npmjs.org/vuetify/-/vuetify-3.3.11.tgz"
   "version" "3.3.11"
+
+"vuex@^4.0.2":
+  "integrity" "sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q=="
+  "resolved" "https://registry.npmjs.org/vuex/-/vuex-4.0.2.tgz"
+  "version" "4.0.2"
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.11"
 
 "wait-on@^7.0.1":
   "integrity" "sha512-9AnJE9qTjRQOlTZIldAaf/da2eW0eSRSgcqq85mXQja/DW3MriHxkpODDSUEg+Gri/rKEcXUZHe+cevvYItaog=="

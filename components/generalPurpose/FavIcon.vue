@@ -1,4 +1,5 @@
 <template>
+ 
     <button class="toggle-favorite" @click="toggle">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,38 +21,38 @@
         <div v-if="animating" class="toggle-favorite__particles"></div>
       </transition>
     </button>
+
   </template>
   
-  <script>
-  export default {
-    name: "SingleFavorite",
-    data() {
-      return {
-        favorited: false,
-        animating: false
-      };
-    },
-    computed: {
-      iconClasses() {
-        return {
-          "toggle-favorite__icon--favorited": this.favorited,
-          "toggle-favorite__icon--animate": this.animating
-        };
-      }
-    },
-    methods: {
-      toggle() {
-        // Only animate on favoriting.
-        if (!this.favorited) {
-          this.animating = true;
-        }
+  <script setup>
+  import { ref, computed } from 'vue';
   
-        this.favorited = !this.favorited;
-      },
-      onIconAnimationEnds() {
-        this.animating = false;
-      }
+  // props 
+
+  const props = defineProps({
+    parentUnit: String,
+    urlStore: String,
+});
+  // ...
+  const favorited = ref(false);
+  const animating = ref(false);
+  
+  const iconClasses = computed(() => ({
+    'toggle-favorite__icon--favorited': favorited.value,
+    'toggle-favorite__icon--animate': animating.value,
+  }));
+  
+  const toggle = () => {
+    // Only animate on favoriting.
+    if (!favorited.value) {
+      animating.value = true;
     }
+  
+    favorited.value = !favorited.value;
+  };
+  
+  const onIconAnimationEnds = () => {
+    animating.value = false;
   };
   </script>
   

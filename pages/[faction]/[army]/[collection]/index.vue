@@ -2,11 +2,13 @@
   <div>
      <!-- <GeneralPurposePasswordProtection>  -->
       <NavbarComponentsButtonGrid />
-    
+    <!-- {{ urlStore }} -->
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
     
     <DesktopDatasheet
+    :parentUnit="parentUnit" 
+    :urlStore="urlStore"
       :armyUnit="armyUnit"
       :keywords="keywords"
       :factionKeyword="factionKeyword"
@@ -36,7 +38,7 @@
     >
       
       <h1>{{ parentUnit }}
-        <GeneralPurposeFavIcon/></h1>
+        <GeneralPurposeFavIcon :parentUnit="parentUnit" :urlStore="urlStore"/></h1>
     </div>
 
     <MobileAttributes :attributes="attributes" />
@@ -241,6 +243,10 @@ const damaged = ref ({});
 const warGearAbilities = ref ({});
 const transport = ref ("")
 
+//url fetcher for store
+const urlStore = `/faction/${faction}/${army}/collection/${armyUnit}`
+
+
 // Check if additionalParameter is not an empty object
 const hasAdditionalParameter = computed(() => {
   
@@ -253,6 +259,9 @@ const hasDamaged = computed(() => {
   
   return Object.keys(damaged.value).length > 0;
 });
+
+
+
 
 // json fetcher
 onMounted(async () => {

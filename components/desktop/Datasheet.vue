@@ -4,7 +4,9 @@
       <div class="color-stripe bg-zinc-500 h-20 z-1">
         <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">
           {{ armyUnit }}
-          <GeneralPurposeFavIcon/>
+          
+          <GeneralPurposeFavIcon :parentUnit="parentUnit" 
+    :urlStore="urlStore"/>
         </h1>
         
       </div>
@@ -61,6 +63,8 @@
 </template>
 <script setup>
 const props = defineProps({
+  parentUnit: String,
+    urlStore: String,
   armyUnit: String,
   abilities: Object,
   warGearAbilities: Object,

@@ -26,7 +26,7 @@
   
   <script setup>
   import { ref, computed } from 'vue';
-  
+  import { useUnitStore} from '~/stores/UnitStore'
   // props 
 
   const props = defineProps({
@@ -42,14 +42,22 @@
     'toggle-favorite__icon--animate': animating.value,
   }));
   
-  const toggle = () => {
-    // Only animate on favoriting.
-    if (!favorited.value) {
-      animating.value = true;
-    }
-  
-    favorited.value = !favorited.value;
-  };
+const toggle = () => {
+  // Only animate on favoriting.
+  if (!favorited.value) {
+    animating.value = true;
+  }
+
+  favorited.value = !favorited.value;
+
+  // Access the store and update the elements array
+  const unitStore = useUnitStore();
+  if (favorited.value) {
+    unitStore.addOrRemoveElement(props.parentUnit, true);
+  } else {
+    unitStore.addOrRemoveElement(props.parentUnit, false);
+  }
+};
   
   const onIconAnimationEnds = () => {
     animating.value = false;

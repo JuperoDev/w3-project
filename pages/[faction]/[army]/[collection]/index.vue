@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <GeneralPurposePasswordProtection> -->
+     <!-- <GeneralPurposePasswordProtection>  -->
       <NavbarComponentsButtonGrid/>
     
     <!--  desktop datasheet  -->
@@ -204,7 +204,7 @@
   </div>
 
 
-<!-- </GeneralPurposePasswordProtection> -->
+ <!-- </GeneralPurposePasswordProtection> -->
 
   </div>
 </template>

@@ -32,7 +32,7 @@
 <div class="mobile-datasheet lg:hidden">
 
     <div
-      class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-700"
+      class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
     >
       
       <h1>{{ parentUnit }}

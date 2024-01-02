@@ -1,8 +1,8 @@
-import { defineStore } from 'pinia';
+import { defineStore } from "pinia";
 
-export const useUnitStore = defineStore('test', {
+export const useUnitStore = defineStore("test", {
   state: () => ({
-    message: 'hello',
+    message: "hello",
     elements: ["Screamer-killer"], // Array to store elements
   }),
 
@@ -19,4 +19,5 @@ export const useUnitStore = defineStore('test', {
       }
     },
   },
+  persist: true,
 });

@@ -1,7 +1,8 @@
 <template>
   <div>
-    <GeneralPurposePasswordProtection>
-    <GeneralPurposeBackButton/>
+    <!-- <GeneralPurposePasswordProtection> -->
+      <NavbarComponentsButtonGrid/>
+    
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
       
@@ -203,7 +204,7 @@
   </div>
 
 
-</GeneralPurposePasswordProtection>
+<!-- </GeneralPurposePasswordProtection> -->
 
   </div>
 </template>

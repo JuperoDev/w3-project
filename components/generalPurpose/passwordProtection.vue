@@ -9,15 +9,16 @@
         v-model="password"
         @keydown.enter="checkPassword"
       />
-    </div>
-    <div v-else>
-      <slot />
-    </div>
-    <div class="button-container p-5">
+      <div class="button-container p-5">
       <v-btn>
         <button @click="checkPassword">Submit</button>
       </v-btn>
     </div>
+    </div>
+    <div v-else>
+      <slot />
+    </div>
+    
   </div>
 </template>
 

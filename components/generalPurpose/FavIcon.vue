@@ -59,7 +59,7 @@
   $particles-animation-duration: 0.8s;
   $icon-animation-duration: 0.48s;
   $icon-color: hsl(1, 89%, 61%);
-  $icon-border-color: hsl(0, 0%, 10%);
+  $icon-border-color: hsl(0, 0%, 100%);
   
   @keyframes favorite-icon-animation {
     0% {

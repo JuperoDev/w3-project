@@ -9,7 +9,7 @@
         "objetiveControl": 1,
         "invulnerableSave": 4
     }],
-    "factionKeywords": [
+    "factionKeyword": [
         "adepta sororitas"
       ],
       "damaged": {},
@@ -43,5 +43,24 @@
 
       "additionalParameter": {
         
-      }
+      },
+      "unitComposition": [
+         {
+           "unitType": "Barbgaunts",
+           "minQuantity": 5,
+           "maxQuantity": 10,
+           "equipment": ["biocannon", "xenos claws and teeth"]
+         }
+       ],
+     
+       "options": [
+         {
+           "count": [5],
+           "points": 60
+         },
+         {
+             "count": [10],
+             "points": 120
+           }
+       ]
 }

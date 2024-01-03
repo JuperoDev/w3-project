@@ -1,68 +1,62 @@
 <template>
- 
-    <button class="toggle-favorite" @click="toggle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        stroke-width="2"
-        focusable="false"
-        stroke-linecap="round"
+  <button class="toggle-favorite" @click="toggle" :class="{ 'favorited': favorited }">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      focusable="false"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="toggle-favorite__icon"
+      :class="iconClasses"
+      @animationend.native="onIconAnimationEnds"
+    >
+      <path
+        d="M17.5 2.9c-2.1 0-4.1 1.3-5.4 2.8C10.5 4.1 8.3 2.5 5.9 3 4.4 3.2 3 4.2 2.3 5.6c-2.3 4.1 1 8.3 3.9 11.1 1.4 1.3 2.8 2.5 4.3 3.6.4.3 1.1.9 1.6.9s1.2-.6 1.6-.9c3.2-2.3 6.6-5.1 8.2-8.8 1.5-3.4 0-8.6-4.4-8.6"
         stroke-linejoin="round"
-        class="toggle-favorite__icon"
-        :class="iconClasses"
-        @animationend.native="onIconAnimationEnds"
-      >
-        <path
-          d="M17.5 2.9c-2.1 0-4.1 1.3-5.4 2.8C10.5 4.1 8.3 2.5 5.9 3 4.4 3.2 3 4.2 2.3 5.6c-2.3 4.1 1 8.3 3.9 11.1 1.4 1.3 2.8 2.5 4.3 3.6.4.3 1.1.9 1.6.9s1.2-.6 1.6-.9c3.2-2.3 6.6-5.1 8.2-8.8 1.5-3.4 0-8.6-4.4-8.6"
-          stroke-linejoin="round"
-        ></path>
-      </svg>
-      <transition name="favorite-particles-transition">
-        <div v-if="animating" class="toggle-favorite__particles"></div>
-      </transition>
-    </button>
+      ></path>
+    </svg>
+    <transition name="favorite-particles-transition">
+      <div v-if="animating" class="toggle-favorite__particles"></div>
+    </transition>
+  </button>
+</template>
 
-  </template>
-  
-  <script setup>
-  import { ref, computed } from 'vue';
-  import { useUnitStore} from '~/stores/UnitStore'
-  // props 
+<script setup>
+import { ref, computed } from 'vue';
+import { useUnitStore } from '~/stores/UnitStore';
 
-  const props = defineProps({
-    parentUnit: String,
-    urlStore: String,
+const props = defineProps({
+  parentUnit: String,
+  urlStore: String,
 });
-  // ...
-  const favorited = ref(false);
-  const animating = ref(false);
-  
-  const iconClasses = computed(() => ({
-    'toggle-favorite__icon--favorited': favorited.value,
-    'toggle-favorite__icon--animate': animating.value,
-  }));
-  
+
+const unitStore = useUnitStore();
+const favorited = computed(() => unitStore.isElementInList(props.parentUnit));
+const animating = ref(false);
+
+const iconClasses = computed(() => ({
+  'toggle-favorite__icon--favorited': favorited.value,
+  'toggle-favorite__icon--animate': animating.value,
+}));
+
 const toggle = () => {
-  // Only animate on favoriting.
+  animating.value = true; // Always animate when toggling
+
   if (!favorited.value) {
-    animating.value = true;
-  }
-
-  favorited.value = !favorited.value;
-
-  // Access the store and update the elements array
-  const unitStore = useUnitStore();
-  if (favorited.value) {
+    // Unit is not favorited, so save it
     unitStore.addOrRemoveElement(props.parentUnit, true);
   } else {
+    // Unit is favorited, so unsave it
     unitStore.addOrRemoveElement(props.parentUnit, false);
   }
 };
-  
-  const onIconAnimationEnds = () => {
-    animating.value = false;
-  };
-  </script>
+
+const onIconAnimationEnds = () => {
+  animating.value = false;
+};
+</script>
+
   
   <style lang="scss">
   $particles-animation-duration: 0.8s;

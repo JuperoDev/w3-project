@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export const useUnitStore = defineStore("test", {
   state: () => ({
     message: "hello",
-    elements: ["Screamer-killer"], // Array to store elements
+    elements: [], // Array to store elements
   }),
 
   // Action to add or remove elements
@@ -20,6 +20,11 @@ export const useUnitStore = defineStore("test", {
           this.elements.splice(index, 1);
         }
       }
+    },
+  },
+  getters: {
+    isElementInList: (state) => (elementName) => {
+      return state.elements.includes(elementName);
     },
   },
   persist: true,

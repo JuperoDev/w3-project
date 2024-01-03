@@ -10,7 +10,10 @@ export const useUnitStore = defineStore("test", {
   actions: {
     addOrRemoveElement(elementName, isAdd) {
       if (isAdd) {
-        this.elements.push(elementName);
+        // Check if the elementName is not already in the array
+        if (!this.elements.includes(elementName)) {
+          this.elements.push(elementName);
+        }
       } else {
         const index = this.elements.indexOf(elementName);
         if (index !== -1) {

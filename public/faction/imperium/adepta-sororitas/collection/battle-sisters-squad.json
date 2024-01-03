@@ -238,8 +238,16 @@
             }
         ]
     },
-    "melee weapons":[
-      
+    "meleeWeapons":[
+        {
+            "name": "xenos claws and teeth",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+          }
     ],
     "wargear": [
       
@@ -266,5 +274,11 @@
            "count": [10],
            "points": 120
          }
+     ],
+     "warGearAbilities": [
+        {
+            "wargear": "Simulacrum Imperialis",
+            "ability": "Each time a unit is destroyed by the bearer’s unit, you gain 1 Miracle dice."
+          }
      ]
 }

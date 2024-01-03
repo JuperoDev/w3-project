@@ -64,8 +64,16 @@
           "Anguish of the Unredeemed:","description": "Each time this unit makes a Charge move , until the end of the turn, melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
         }]
       },
-      "melee weapons":[
-        
+      "meleeWeapons":[
+        {
+          "name": "xenos claws and teeth",
+          "attacks": 1,
+          "weapons-skills": 4,
+          "strength": 4,
+          "armor-penetration": 0,
+          "damage": 1,
+          "modifiers": []
+        }
       ],
       "wargear": [
         
@@ -92,5 +100,11 @@
              "count": [10],
              "points": 120
            }
+       ],
+       "warGearAbilities": [
+         {
+           "wargear": "Anchorite Sarcophagus",
+           "ability": "The bearer has a Save characteristic of 3+."
+         }
        ]
 }

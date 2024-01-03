@@ -77,8 +77,16 @@
           "Embodied Prophecy:","description": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, add 1 to the Strength characteristic of that attack."
         }]
       },
-      "melee weapons":[
-
+      "meleeWeapons": [
+          {
+            "name": "xenos claws and teeth",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+          }
       ],
   "wargear": [
     
@@ -105,5 +113,11 @@
         "count": [10],
         "points": 120
       }
+  ],
+  "warGearAbilities": [
+    {
+      "wargear": "Sacred Banner",
+      "ability": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+    }
   ]
 }

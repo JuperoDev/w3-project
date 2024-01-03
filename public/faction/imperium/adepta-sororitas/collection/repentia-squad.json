@@ -79,21 +79,27 @@
       },
       "unitComposition": [
          {
-           "unitType": "Barbgaunts",
-           "minQuantity": 5,
-           "maxQuantity": 10,
+           "unitType": "Repentia Superior",
+           "minQuantity": 1,
+           "maxQuantity": 1,
            "equipment": ["biocannon", "xenos claws and teeth"]
-         }
+         },
+         {
+          "unitType": "Sisters Repentia",
+          "minQuantity": 4,
+          "maxQuantity": 9,
+          "equipment": ["biocannon", "xenos claws and teeth"]
+        }
        ],
      
        "options": [
          {
-           "count": [5],
-           "points": 60
+           "count": [1,4],
+           "points": 65
          },
          {
-             "count": [10],
-             "points": 120
+             "count": [1,9],
+             "points": 130
            }
        ]
 }

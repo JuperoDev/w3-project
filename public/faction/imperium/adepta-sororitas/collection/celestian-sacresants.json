@@ -1,15 +1,16 @@
 {
-    "parentUnit": "celestian sacresants",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 3,
-        "save": 6,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
-
+  "parentUnit": "celestian sacresants",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 6,
+      "wounds": 3,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 4
+    }
+  ],
   "factionKeyword": [
     "adepta sororitas"
   ],
@@ -95,17 +96,18 @@
     }
   ],
   "abilities": {
-    "core": [
-      
-    ],
+    "core": [],
     "faction": [
       "Acts of Faith"
     ],
-    "otherAbilities": [{
-      "name": "Sworn Protectors", "description":"While a CANONESS, PALATINE or JUNITH ERUITA model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
-    }]
+    "otherAbilities": [
+      {
+        "name": "Sworn Protectors",
+        "description": "While a CANONESS, PALATINE or JUNITH ERUITA model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+      }
+    ]
   },
-  "meleeWeapons":[
+  "meleeWeapons": [
     {
       "name": "xenos claws and teeth",
       "attacks": 1,
@@ -116,30 +118,40 @@
       "modifiers": []
     }
   ],
-  "wargear": [
-    
-  ],
-
-  "additionalParameter": {
-    
-  },
+  "wargear": [],
+  "additionalParameter": {},
   "unitComposition": [
-     {
-       "unitType": "Barbgaunts",
-       "minQuantity": 5,
-       "maxQuantity": 10,
-       "equipment": ["biocannon", "xenos claws and teeth"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [5],
-       "points": 60
-     },
-     {
-         "count": [10],
-         "points": 120
-       }
-   ]
+    {
+      "unitType": "Sacresant Superior",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "biocannon",
+        "xenos claws and teeth"
+      ]
+    },
+    {
+      "unitType": "Celestian Sacresants",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment": [
+        "biocannon",
+        "xenos claws and teeth"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,4
+      ],
+      "points": 65
+    },
+    {
+      "count": [
+        1,9
+      ],
+      "points": 130
+    }
+  ]
 }

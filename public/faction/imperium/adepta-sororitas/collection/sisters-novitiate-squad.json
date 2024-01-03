@@ -159,22 +159,24 @@
       },
       "unitComposition": [
          {
-           "unitType": "Barbgaunts",
-           "minQuantity": 5,
-           "maxQuantity": 10,
+           "unitType": "Novitiate Superior",
+           "minQuantity": 1,
+           "maxQuantity": 1,
            "equipment": ["biocannon", "xenos claws and teeth"]
-         }
+         },
+         {
+          "unitType": "Sisters Novitiate",
+          "minQuantity": 9,
+          "maxQuantity": 9,
+          "equipment": ["biocannon", "xenos claws and teeth"]
+        }
        ],
      
        "options": [
          {
-           "count": [5],
-           "points": 60
-         },
-         {
-             "count": [10],
-             "points": 120
-           }
+           "count": [1,9],
+           "points": 85
+         } 
        ],
        "warGearAbilities": [
          {

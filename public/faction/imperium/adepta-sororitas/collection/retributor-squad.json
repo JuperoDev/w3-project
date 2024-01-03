@@ -181,18 +181,16 @@
       ],
       "abilities": {
         "core": [
-          "FACTION: Acts of Faith"
+          
         ],
         "faction": [
-          "Cherubs: Twice per battle",
-          "after this unit has performed an Act of Faith",
-          "you gain 1 Miracle dice. Designer’s Note: Place two Cherub tokens next to the unit",
-          "removing one each time this ability has been used.Storm of Retribution: Each time a model in this unit makes a ranged attack",
-          "re-roll a Wound roll of 1."
+          "Acts of Faith"
         ],
         "otherAbilities": [{
-          "The Retributor Superior is equipped with:": "bolt pistol; boltgun; close combat weapon.",
-          "Each Retributor is equipped with:": "bolt pistol; heavy bolter; close combat weapon."
+          "name":"Cherubs","description":"Twice per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+        },
+        {
+          "name":"Storm of Retribution","description":"Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1."
         }]
       }
 }

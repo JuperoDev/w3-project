@@ -1,61 +1,68 @@
 {
-    "parentUnit": "junith eruita",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "save": 2,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
-    "factionKeywords": [
-        "adepta sororitas"
+  "parentUnit": "junith eruita",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 4,
+      "save": 2,
+      "wounds": 6,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 4
+    }
+  ],
+  "factionKeywords": [
+    "adepta sororitas"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Junith Eruita sweeps to battle wreathed in holy fire. She hovers above the battlefield upon thrumming waves of energy within the pulpit of Saint Holline’s Basilica. Her presence and voice inspire all around her, filling them with faith, while her heavy flamers douse her foes in purging fire.",
+  "keywords": [
+    "infantry",
+    "character",
+    "fly",
+    "epic hero",
+    "imperium",
+    "junith eruita"
+  ],
+  "leader": [
+    "battle sisters squad",
+    "celestian sacresants"
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Twin Ministorum heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent",
+        "twin-linked"
       ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "Junith Eruita sweeps to battle wreathed in holy fire. She hovers above the battlefield upon thrumming waves of energy within the pulpit of Saint Holline’s Basilica. Her presence and voice inspire all around her, filling them with faith, while her heavy flamers douse her foes in purging fire.",
-      "keywords": [
-        "infantry",
-        "character",
-        "fly",
-        "epic hero",
-        "imperium",
-        "junith eruita"
-      ],
-      "leader": [
-        "battle sisters squad",
-        "celestian sacresants"
-      ],
-      "rangedWeapons": [
-        {
-          "name": "Twin Ministorum heavy flamer",
-          "modifiers": [
-            "ignores cover",
-            "torrent",
-            "twin-linked"
-          ],
-          "range": 12,
-          "strength": 6,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        }
-      ],
-      "abilities": {
-        "core": [
-          "Deadly Demise 1",
-          "Leader"
-        ],
-        "faction": [
-          "Acts of Faith"
-        ],
-        "otherAbilities": [{"name":
-          "The Pulpit of Saint Holline’s Basilica:","description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."},{"name":
-          "Fiery Conviction:","description": "If this model is on the battlefield at the start of your Command phase , you gain 1CP."
-        }]
+      "range": 12,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Leader"
+    ],
+    "faction": [
+      "Acts of Faith"
+    ],
+    "otherAbilities": [
+      {
+        "name": "The Pulpit of Saint Holline’s Basilica:",
+        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."
+      },
+      {
+        "name": "Fiery Conviction:",
+        "description": "If this model is on the battlefield at the start of your Command phase , you gain 1CP."
       }
-      
+    ]
+  }
 }

@@ -1,86 +1,93 @@
 {
-    "parentUnit": "palatine",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
-    "factionKeywords": [
-        "adepta sororitas"
+  "parentUnit": "palatine",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 3,
+      "wounds": 3,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 4
+    }
+  ],
+  "factionKeywords": [
+    "adepta sororitas"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Palatines are highly capable and experienced commanders of Adepta Sororitas Missions. Unshakeable of faith and purpose, they act as excellent examples to the Battle Sisters that follow them. This makes them a powerful force on the battlefield, inspiring zealous warriors to victory.",
+  "keywords": [
+    "infantry",
+    "character",
+    "grenades",
+    "imperium",
+    "palatine"
+  ],
+  "leader": [
+    "battle sisters squad",
+    "celestian sacresants",
+    "dominion squad",
+    "sisters novitiate squad"
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
       ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "Palatines are highly capable and experienced commanders of Adepta Sororitas Missions. Unshakeable of faith and purpose, they act as excellent examples to the Battle Sisters that follow them. This makes them a powerful force on the battlefield, inspiring zealous warriors to victory.",
-      "keywords": [
-        "infantry",
-        "character",
-        "grenades",
-        "imperium",
-        "palatine"
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
       ],
-      "leader": [
-        "battle sisters squad",
-        "celestian sacresants",
-        "dominion squad",
-        "sisters novitiate squad"
+      "range": 12,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
       ],
-      "rangedWeapons": [
-        {
-          "name": "Bolt pistol",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Plasma pistol - standard",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 7,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Plasma pistol - supercharge",
-          "modifiers": [
-            "hazardous",
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 8,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        }
-      ],
-      "abilities": {
-        "core": [
-          "Leader",
-          "Scouts 6\""
-        ],
-        "faction": [
-          "Acts of Faith"
-        ],
-        "otherAbilities": [{"name":
-          "Fury of the Righteous:","description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."},{
-          "Rapturous Blows:": "Each time this model’s unit is selected to fight, you can discard one Miracle dice . If you do, then until the end of the phase, each time a melee attack made by this model scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
-        }]
+      "range": 12,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader",
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Acts of Faith"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Fury of the Righteous:",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      },
+      {
+        "Rapturous Blows:": "Each time this model’s unit is selected to fight, you can discard one Miracle dice . If you do, then until the end of the phase, each time a melee attack made by this model scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
       }
+    ]
+  }
 }

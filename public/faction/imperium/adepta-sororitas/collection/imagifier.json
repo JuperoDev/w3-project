@@ -1,71 +1,79 @@
 {
-    "parentUnit": "imagifier",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
-    "factionKeywords": [
-        "adepta sororitas"
+  "parentUnit": "imagifier",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 3,
+      "wounds": 3,
+      "leadership": 6,
+      "objetiveControl": 1,
+      "invulnerableSave": 4
+    }
+  ],
+  "factionKeywords": [
+    "adepta sororitas"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "It is the most sacred role of the Imagifier to extol the virtues of fallen Sisters and preach tales of their saintly deeds. Imagifiers bear aloft great stanchions in the image of a martyr inscribed with holy texts, and go wherever the fighting is thickest to recite litanies and inspire their fellow Sisters.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "character",
+    "imperium",
+    "imagifier"
+  ],
+  "leader": [
+    "battle sisters squad",
+    "celestian sacresants",
+    "dominion squad",
+    "retributor squad"
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
       ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "It is the most sacred role of the Imagifier to extol the virtues of fallen Sisters and preach tales of their saintly deeds. Imagifiers bear aloft great stanchions in the image of a martyr inscribed with holy texts, and go wherever the fighting is thickest to recite litanies and inspire their fellow Sisters.",
-      "keywords": [
-        "infantry",
-        "grenades",
-        "character",
-        "imperium",
-        "imagifier"
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": [
+        "rapid fire 1"
       ],
-      "leader": [
-        "battle sisters squad",
-        "celestian sacresants",
-        "dominion squad",
-        "retributor squad"
-      ],
-      "rangedWeapons": [
-        {
-          "name": "Bolt pistol",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Boltgun",
-          "modifiers": [
-            "rapid fire 1"
-          ],
-          "range": 24,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        }
-      ],
-      "abilities": {
-        "core": [
-          "Leader"
-        ],
-        "faction": [
-          "Acts of Faith"
-        ],
-        "otherAbilities": [{"name":
-          "Litany of Deeds:","description": "Each time you gain a Miracle dice as the result of a friendly ADEPTA SORORITAS unit being destroyed , if that unit was destroyed within 12\" of this model, you can re-roll the result of that Miracle dice before adding it to your Miracle dice pool."},{"name":
-          "Stanchion of Holy Martyrs:","description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save . While this model is leading a CELESTIAN SACRESANTS unit, models in that unit have a Save characteristic of 2+."
-        }]
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Acts of Faith"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Litany of Deeds:",
+        "description": "Each time you gain a Miracle dice as the result of a friendly ADEPTA SORORITAS unit being destroyed , if that unit was destroyed within 12\" of this model, you can re-roll the result of that Miracle dice before adding it to your Miracle dice pool."
+      },
+      {
+        "name": "Stanchion of Holy Martyrs:",
+        "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save . While this model is leading a CELESTIAN SACRESANTS unit, models in that unit have a Save characteristic of 2+."
       }
+    ]
+  }
 }

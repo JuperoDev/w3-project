@@ -1,70 +1,78 @@
 {
-    "parentUnit": "preacher",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 3,
-        "save": 6,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
-    "factionKeywords": [
-        "adepta sororitas"
+  "parentUnit": "preacher",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 6,
+      "wounds": 3,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 4
+    }
+  ],
+  "factionKeywords": [
+    "adepta sororitas"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "It is the role of Preachers to harness the faith of Imperial warriors in battle. Often they join Wars of Faith – though it is not unheard of for a Preacher to lead one. They are filled with a fearsome religious fervour that incites the faithful as they bellow catechisms of hatred.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "preacher"
+  ],
+  "leader": [
+    "arco-flagellants",
+    "crusaders",
+    "sisters novitiate squad"
+  ],
+  "rangedWeapons": [
+    {
+      "name": "Autopistol",
+      "modifiers": [
+        "pistol"
       ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "It is the role of Preachers to harness the faith of Imperial warriors in battle. Often they join Wars of Faith – though it is not unheard of for a Preacher to lead one. They are filled with a fearsome religious fervour that incites the faithful as they bellow catechisms of hatred.",
-      "keywords": [
-        "infantry",
-        "character",
-        "imperium",
-        "preacher"
+      "range": 12,
+      "strength": 3,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Zealot’s vindictor",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
       ],
-      "leader": [
-        "arco-flagellants",
-        "crusaders",
-        "sisters novitiate squad"
-      ],
-      "rangedWeapons": [
-        {
-          "name": "Autopistol",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 3,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Zealot’s vindictor",
-          "modifiers": [
-            "ignores cover",
-            "torrent"
-          ],
-          "range": 12,
-          "strength": 5,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        }
-      ],
-      "abilities": {
-        "core": [
-          "Leader"
-        ],
-        "faction": [
-          "Acts of Faith"
-        ],
-        "otherAbilities": [{"name":
-          "Righteous Smiting:","description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."},{"name":
-          "Zealot:","description": "Once per battle, in the Fight phase , this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 2."
-        }]
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Acts of Faith"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Righteous Smiting:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+      },
+      {
+        "name": "Zealot:",
+        "description": "Once per battle, in the Fight phase , this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 2."
       }
+    ]
+  }
 }

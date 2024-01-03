@@ -1,196 +1,204 @@
 {
-    "parentUnit": "dominion squad",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 6
-    }],
-    "factionKeywords": [
-        "adepta sororitas"
+  "parentUnit": "dominion squad",
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 3,
+      "wounds": 1,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 6
+    }
+  ],
+  "factionKeywords": [
+    "adepta sororitas"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Dominion Squads strike as swift and furious as lightning, clearing bunkers, capturing strategic locations and blunting counter-attacks with vicious salvoes from their flamers and meltaguns. They are aggressive, but not impetuous, matching their desire to kill with an awareness of tactical values and bringing righteousness where it is needed most.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "dominion squad"
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Artificer-crafted storm bolter",
+      "modifiers": [
+        "assault",
+        "rapid fire 2"
       ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "Dominion Squads strike as swift and furious as lightning, clearing bunkers, capturing strategic locations and blunting counter-attacks with vicious salvoes from their flamers and meltaguns. They are aggressive, but not impetuous, matching their desire to kill with an awareness of tactical values and bringing righteousness where it is needed most.",
-      "keywords": [
-        "infantry",
-        "grenades",
-        "imperium",
-        "dominion squad"
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
       ],
-      "leader": [],
-      "rangedWeapons": [
-        {
-          "name": "Artificer-crafted storm bolter",
-          "modifiers": [
-            "assault",
-            "rapid fire 2"
-          ],
-          "range": 24,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Bolt pistol",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Boltgun",
-          "modifiers": [
-            "assault",
-            "rapid fire 1"
-          ],
-          "range": 24,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Combi-weapon",
-          "modifiers": [
-            "anti-infantry 4+",
-            "devastating wounds",
-            "rapid fire 1"
-          ],
-          "range": 24,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Condemnor boltgun",
-          "modifiers": [
-            "anti-psyker 2+",
-            "devastating wounds",
-            "precision",
-            "rapid fire 1"
-          ],
-          "range": 24,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Meltagun",
-          "modifiers": [
-            "assault",
-            "melta 2"
-          ],
-          "range": 12,
-          "strength": 9,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Ministorum flamer",
-          "modifiers": [
-            "assault",
-            "ignores cover",
-            "torrent"
-          ],
-          "range": 12,
-          "strength": 5,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Ministorum hand flamer",
-          "modifiers": [
-            "ignores cover",
-            "pistol",
-            "torrent"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Inferno pistol",
-          "modifiers": [
-            "MELTA 2",
-            "PISTOL"
-          ],
-          "range": 6,
-          "strength": 8,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Plasma pistol - standard",
-          "modifiers": [
-            "PISTOL"
-          ],
-          "range": 12,
-          "strength": 7,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        },
-        {
-          "name": "Plasma pistol - supercharge",
-          "modifiers": [
-            "HAZARDOUS",
-            "PISTOL"
-          ],
-          "range": 12,
-          "strength": 8,
-          "attacks": 0,
-          "ballistic-skills": 0,
-          "armor-penetration": 0,
-          "damage": 0,
-          "singleChoice": false
-        }
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": [
+        "assault",
+        "rapid fire 1"
       ],
-      "abilities": {
-        "core": [
-          "Scouts 6\""
-        ],
-        "faction": [
-          "Acts of Faith"
-        ],
-        "otherAbilities": [{"name":
-          "Cherub:","description": "Once per battle, after this unit has performed an Act of Faith , you gain 1 Miracle dice ."},{"name":
-          "Holy Vanguard:","description": "You can re-roll Advance rolls made for this unit."
-        }]
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Condemnor boltgun",
+      "modifiers": [
+        "anti-psyker 2+",
+        "devastating wounds",
+        "precision",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": [
+        "assault",
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ministorum flamer",
+      "modifiers": [
+        "assault",
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ministorum hand flamer",
+      "modifiers": [
+        "ignores cover",
+        "pistol",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": [
+        "MELTA 2",
+        "PISTOL"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "HAZARDOUS",
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Acts of Faith"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Cherub:",
+        "description": "Once per battle, after this unit has performed an Act of Faith , you gain 1 Miracle dice ."
+      },
+      {
+        "name": "Holy Vanguard:",
+        "description": "You can re-roll Advance rolls made for this unit."
       }
+    ]
+  }
 }

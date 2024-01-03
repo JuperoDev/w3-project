@@ -8,7 +8,7 @@
   <template v-slot:default="{ isActive }">
     <v-card title="Favorite Units">
       <v-card-text>
-       <div><h1>{{ unitStore.elements }}</h1></div>
+       <div><h1>{{ unitStore.elements }}</h1><h1>{{ unitStore.info }}</h1></div>
       </v-card-text>
 
       <v-card-actions>

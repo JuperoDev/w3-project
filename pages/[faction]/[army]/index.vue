@@ -27,7 +27,7 @@
           </div>
 
           <p class="text-xl text-zinc-900 px-10">
-            {{ armyData.description }}
+            <!-- {{ armyData.description }} -->
           </p>
           <br />
 

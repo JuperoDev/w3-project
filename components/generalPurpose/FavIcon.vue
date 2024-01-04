@@ -21,7 +21,6 @@
     </transition>
   </button>
 </template>
-
 <script setup>
 import { ref, computed } from 'vue';
 import { useUnitStore } from '~/stores/UnitStore';
@@ -45,10 +44,10 @@ const toggle = () => {
 
   if (!favorited.value) {
     // Unit is not favorited, so save it
-    unitStore.addOrRemoveElement(props.parentUnit, true);
+    unitStore.addOrRemoveElement(props.parentUnit, true, props.urlStore);
   } else {
     // Unit is favorited, so unsave it
-    unitStore.addOrRemoveElement(props.parentUnit, false);
+    unitStore.addOrRemoveElement(props.parentUnit, false, props.urlStore);
   }
 };
 
@@ -56,6 +55,7 @@ const onIconAnimationEnds = () => {
   animating.value = false;
 };
 </script>
+
 
   
   <style lang="scss">

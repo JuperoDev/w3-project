@@ -133,42 +133,63 @@
       }
     ]
   },
-  "meleeWeapons": [{
-    "name": "Blessed blade",
-    "attacks": 3,
-    "weapons-skills": 2,
-    "strength": 6,
-    "armor-penetration": 2,
-    "damage": 2,
-    "modifiers": []
-  },
-  {
-    "name": "Chainsword",
-    "attacks": 5,
-    "weapons-skills": 2,
-    "strength": 3,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  },
-  {
-    "name": "Power weapon",
-    "attacks": 4,
-    "weapons-skills": 2,
-    "strength": 4,
-    "armor-penetration": 2,
-    "damage": 1,
-    "modifiers": []
-  }],
-  "wargear": [
+  "meleeWeapons": [
     {
-      "name": "xenos claws and teeth",
-      "attacks": 1,
-      "weapons-skills": 4,
-      "strength": 4,
+      "name": "Blessed blade",
+      "attacks": 3,
+      "weapons-skills": 2,
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": []
+    },
+    {
+      "name": "Chainsword",
+      "attacks": 5,
+      "weapons-skills": 2,
+      "strength": 3,
       "armor-penetration": 0,
       "damage": 1,
       "modifiers": []
+    },
+    {
+      "name": "Power weapon",
+      "attacks": 4,
+      "weapons-skills": 2,
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": 1,
+      "modifiers": []
+    }
+  ],
+  "wargear": [
+    {
+      "description": "If this model is equipped with a chainsword, it can be equipped with one of the following:",
+      "items": [
+        "1 brazier of holy fire",
+        "1 null rod"
+      ]
+    },
+    {
+      "description": "If this model is equipped with a plasma pistol and a power weapon, it can be equipped with:",
+      "items": [
+        "1 rod of office"
+      ]
+    },
+    {
+      "description": "This model’s bolt pistol can be replaced with one of the following:",
+      "items": [
+       " 1 condemnor boltgun",
+"1 inferno pistol",
+"1 plasma pistol"
+      ]
+    },
+    {
+      "description": "This model’s chainsword can be replaced with one of the following:",
+      "items": [
+        "1 blessed blade",
+        "1 power weapon"
+      ]
     }
   ],
   "additionalParameter": {},
@@ -178,7 +199,8 @@
       "minQuantity": 1,
       "maxQuantity": 1,
       "equipment": [
-        "bolt pistol","chainsword"
+        "bolt pistol",
+        "chainsword"
       ]
     }
   ],
@@ -187,7 +209,7 @@
       "count": [
         1
       ],
-      "points":50
+      "points": 50
     }
   ],
   "warGearAbilities": [

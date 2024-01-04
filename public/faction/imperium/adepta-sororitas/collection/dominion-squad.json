@@ -201,7 +201,7 @@
       }
     ]
   },
-  "meleeWeapons":[
+  "meleeWeapons": [
     {
       "name": "Chainsword",
       "attacks": 3,
@@ -231,37 +231,72 @@
     }
   ],
   "wargear": [
-    
+    {
+      "description": "The Dominion Superior’s boltgun can be replaced with one of the following",
+      "items": [
+        "1 bolt pistol",
+        "1 combi-weapon",
+        "1 condemnor boltgun",
+        "1 inferno pistol",
+        "1 Ministorum hand flamer",
+        "1 plasma pistol"
+      ]
+    },
+    {
+      "description": "The Dominion Superior can be equipped with one of the following",
+      "items": [
+        "1 chainsword",
+        "1 power weapon"
+      ]
+    },
+    {
+      "description": "Up to 4 Dominions can each have their boltgun replaced with one of the following:",
+      "items": [
+       "1 artificer-crafted storm bolter",
+       "1 meltagun",
+       "1 Ministorum flamer"
+      ]
+    },
+    {
+      "description": "1 Dominion equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced)."
+    }
   ],
-
-  "additionalParameter": {
-    
-  },
+  "additionalParameter": {},
   "unitComposition": [
-     {
-       "unitType": "Dominion Superior",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["bolt pistol", "boltgun","close combat weapon"]
-     },
-     {
+    {
+      "unitType": "Dominion Superior",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "bolt pistol",
+        "boltgun",
+        "close combat weapon"
+      ]
+    },
+    {
       "unitType": "Dominions",
       "minQuantity": 9,
       "maxQuantity": 9,
-      "equipment": ["bolt pistol", "boltgun","close combat weapon"]
+      "equipment": [
+        "bolt pistol",
+        "boltgun",
+        "close combat weapon"
+      ]
     }
-   ],
- 
-   "options": [
-     {
-       "count": [1,9],
-       "points": 120
-     }
-   ],
-   "warGearAbilities": [
-     {
-       "wargear": "Simulacrum Imperialis",
-       "ability": "Each time a unit is destroyed by the bearer’s unit, you gain 1 Miracle dice."
-     }
-   ]
+  ],
+  "options": [
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 120
+    }
+  ],
+  "warGearAbilities": [
+    {
+      "wargear": "Simulacrum Imperialis",
+      "ability": "Each time a unit is destroyed by the bearer’s unit, you gain 1 Miracle dice."
+    }
+  ]
 }

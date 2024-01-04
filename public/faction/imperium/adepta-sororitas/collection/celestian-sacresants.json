@@ -136,7 +136,22 @@
       "modifiers": []
     }
   ],
-  "wargear": [],
+  "wargear": [
+    {
+      "description": "Any number of models can each have their hallowed mace replaced with 1 anointed halberd."
+    },
+    {
+      "description": "This model’s immolation flamers can be replaced with one of the following:",
+      "items": [
+       "1 inferno pistol",
+       "1 Ministorum hand flamer",
+        "1 plasma pistol"
+      ]
+    },
+    {
+      "description": "The Sacresant Superior’s hallowed mace can be replaced with 1 spear of the faithful."
+    }
+  ],
   "additionalParameter": {},
   "unitComposition": [
     {
@@ -153,20 +168,23 @@
       "minQuantity": 4,
       "maxQuantity": 9,
       "equipment": [
-        "bolt pistol","hallowed mace"
+        "bolt pistol",
+        "hallowed mace"
       ]
     }
   ],
   "options": [
     {
       "count": [
-        1,4
+        1,
+        4
       ],
       "points": 65
     },
     {
       "count": [
-        1,9
+        1,
+        9
       ],
       "points": 130
     }

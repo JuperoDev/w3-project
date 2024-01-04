@@ -238,7 +238,7 @@
             }
         ]
     },
-    "meleeWeapons":[
+    "meleeWeapons": [
         {
             "name": "Chainsword",
             "attacks": 3,
@@ -247,8 +247,8 @@
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": []
-          },
-          {
+        },
+        {
             "name": "Close combat weapon",
             "attacks": 1,
             "weapons-skills": 4,
@@ -256,8 +256,8 @@
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": []
-          },
-          {
+        },
+        {
             "name": "Power weapon",
             "attacks": 2,
             "weapons-skills": 4,
@@ -265,40 +265,86 @@
             "armor-penetration": 2,
             "damage": 1,
             "modifiers": []
-          }
+        }
     ],
     "wargear": [
-      
+        {
+            "description": "The Sister Superior’s boltgun can be replaced with one of the following:",
+            "items": [
+                "1 bolt pistol",
+                "1 combi-weapon",
+                "1 condemnor boltgun",
+                "1 inferno pistol",
+                "1 Ministorum hand flamer",
+                " 1 plasma pistol"
+            ]
+        },
+        {
+            "description": "The Sister Superior can be equipped with one of the following:",
+            "items": [
+                "1 chainsword",
+                "1 power weapon"
+            ]
+        },
+        {
+            "description": "1 Battle Sister’s boltgun can be replaced with one of the following:",
+            "items": [
+                "1 artificer-crafted storm bolter",
+                "1 meltagun",
+                "1 Ministorum flamer"
+            ]
+        },
+        {
+            "description": "1 Battle Sister’s boltgun can be replaced with one of the following",
+            "items": [
+                "1 artificer-crafted storm bolter",
+                "1 heavy bolter",
+                "1 meltagun",
+                "1 Ministorum flamer",
+                "1 Ministorum heavy flamer",
+                "1 multi-melta"
+            ]
+        },
+        {
+            "description": "1 Battle Sister equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced)."
+        }
     ],
-
-    "additionalParameter": {
-      
-    },
+    "additionalParameter": {},
     "unitComposition": [
-       {
-         "unitType": "Sister Superior",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": ["bolt pistol", "boltgun","close combat weapon"]
-       },
-       {
-        "unitType": "Battle Sisters",
-        "minQuantity": 9,
-        "maxQuantity": 9,
-        "equipment": ["bolt pistol", "boltgun","close combat weapon"]
-      }
-     ],
-   
-     "options": [
-       {
-         "count": [1,9],
-         "points": 100
-       } 
-     ],
-     "warGearAbilities": [
+        {
+            "unitType": "Sister Superior",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "boltgun",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Battle Sisters",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol",
+                "boltgun",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 100
+        }
+    ],
+    "warGearAbilities": [
         {
             "wargear": "Simulacrum Imperialis",
             "ability": "Each time a unit is destroyed by the bearer’s unit, you gain 1 Miracle dice."
-          }
-     ]
+        }
+    ]
 }

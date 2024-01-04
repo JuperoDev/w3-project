@@ -89,7 +89,7 @@
       }
     ]
   },
-  "meleeWeapons":[
+  "meleeWeapons": [
     {
       "name": "Chainsword",
       "attacks": 4,
@@ -110,25 +110,32 @@
     }
   ],
   "wargear": [
-    
+    {
+      "description": "This model’s power weapon can be replaced with one of the following:",
+      "items": [
+        " 1 autogun and 1 chainsword",
+        "1 Ministorum shotgun and 1 chainsword"
+      ]
+    }
   ],
-
-  "additionalParameter": {
-    
-  },
+  "additionalParameter": {},
   "unitComposition": [
-     {
-       "unitType": "Missionary",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": [" holy pistol","power weapon"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 30
-     } 
-   ]
+    {
+      "unitType": "Missionary",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        " holy pistol",
+        "power weapon"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 30
+    }
+  ]
 }

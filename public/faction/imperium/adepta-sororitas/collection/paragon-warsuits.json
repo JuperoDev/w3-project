@@ -1,166 +1,192 @@
 {
-    "parentUnit": "paragon warsuits",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 4,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
-    "factionKeyword": [
-        "adepta sororitas"
+  "parentUnit": "paragon warsuits",
+  "attributes": [
+    {
+      "movement": 8,
+      "toughness": 6,
+      "save": 2,
+      "wounds": 4,
+      "leadership": 7,
+      "objetiveControl": 2,
+      "invulnerableSave": 4
+    }
+  ],
+  "factionKeyword": [
+    "adepta sororitas"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A pilot must have immense faith for a Paragon Warsuit’s spirit to trust them. They must also have incredible skill to handle its control system, which allows for highly complex and fluid movements. Mastering a Paragon Warsuit makes a Sister capable of engaging the most fearsome of enemies and emerging victorious.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "grenades",
+    "imperium",
+    "paragon warsuits"
+  ],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
       ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "A pilot must have immense faith for a Paragon Warsuit’s spirit to trust them. They must also have incredible skill to handle its control system, which allows for highly complex and fluid movements. Mastering a Paragon Warsuit makes a Sister capable of engaging the most fearsome of enemies and emerging victorious.",
-      "keywords": [
-        "vehicle",
-        "walker",
-        "grenades",
-        "imperium",
-        "paragon warsuits"
+      "range": 12,
+      "strength": 4,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
       ],
-      "leader": [],
-      "rangedWeapons": [
-        {
-          "name": "Bolt pistol",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 1,
-          "ballistic-skills": 3,
-          "armor-penetration": 0,
-          "damage": 1,
-          "singleChoice": false
-        },
-        {
-          "name": "Heavy bolter",
-          "modifiers": [
-            "sustained hits 1"
-          ],
-          "range": 36,
-          "strength": 5,
-          "attacks": 3,
-          "ballistic-skills": 3,
-          "armor-penetration": 1,
-          "damage": 2,
-          "singleChoice": false
-        },
-        {
-          "name": "Ministorum heavy flamer",
-          "modifiers": [
-            "ignores cover",
-            "torrent"
-          ],
-          "range": 12,
-          "strength": 6,
-          "attacks": "d6",
-          "ballistic-skills": "n/a",
-          "armor-penetration": 1,
-          "damage": 1,
-          "singleChoice": false
-        },
-        {
-          "name": "Multi-melta",
-          "modifiers": [
-            "melta 2"
-          ],
-          "range": 18,
-          "strength": 9,
-          "attacks": 2,
-          "ballistic-skills": 3,
-          "armor-penetration": 4,
-          "damage": "d6",
-          "singleChoice": false
-        },
-        {
-          "name": "Paragon grenade launchers",
-          "modifiers": [
-            "twin-linked"
-          ],
-          "range": 24,
-          "strength": 9,
-          "attacks": 1,
-          "ballistic-skills": 3,
-          "armor-penetration": 2,
-          "damage": "d3",
-          "singleChoice": false
-        },
-        {
-          "name": "Paragon storm bolters",
-          "modifiers": [
-            "rapid fire 2",
-            "twin-linked"
-          ],
-          "range": 24,
-          "strength": 4,
-          "attacks": 2,
-          "ballistic-skills": 3,
-          "armor-penetration": 0,
-          "damage": 1,
-          "singleChoice": false
-        }
+      "range": 36,
+      "strength": 5,
+      "attacks": 3,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 2,
+      "singleChoice": false
+    },
+    {
+      "name": "Ministorum heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
       ],
-      "abilities": {
-        "core": [
-         
-        ],
-        "faction": [
-          "Acts of Faith"
-        ],
-        "otherAbilities":[ { "name": "Righteous Paragons", "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-        }]
-      },
-      "meleeWeapons":[
-        {
-          "name": "Paragon war blade",
-          "attacks": 4,
-          "weapons-skills": 3,
-          "strength": 6,
-          "armor-penetration": 2,
-          "damage": 2,
-          "modifiers": []
-        },
-        {
-          "name": "Paragon war mace",
-          "attacks": 3,
-          "weapons-skills": 4,
-          "strength": 12,
-          "armor-penetration": 1,
-          "damage": 3,
-          "modifiers": []
-        }
+      "range": 12,
+      "strength": 6,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "melta 2"
       ],
-      "wargear": [
-        
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 4,
+      "damage": "d6",
+      "singleChoice": false
+    },
+    {
+      "name": "Paragon grenade launchers",
+      "modifiers": [
+        "twin-linked"
       ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": "d3",
+      "singleChoice": false
+    },
+    {
+      "name": "Paragon storm bolters",
+      "modifiers": [
+        "rapid fire 2",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [],
+    "faction": [
+      "Acts of Faith"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Righteous Paragons",
+        "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      }
+    ]
+  },
+  "meleeWeapons": [
+    {
+      "name": "Paragon war blade",
+      "attacks": 4,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": 2,
+      "modifiers": []
+    },
+    {
+      "name": "Paragon war mace",
+      "attacks": 3,
+      "weapons-skills": 4,
+      "strength": 12,
+      "armor-penetration": 1,
+      "damage": 3,
+      "modifiers": []
+    }
+  ],
+  "wargear": [
+    {
+      "description": "Any number of models can each have their Paragon storm bolters replaced with 1 Paragon grenade launchers."
+    },
+    {
+      "description": "Any number of models can each have their Paragon war blade replaced with 1 Paragon war mace."
+    },
 
-      "additionalParameter": {
-        
-      },
-      "unitComposition": [
-         {
-           "unitType": "Paragon Superior",
-           "minQuantity": 1,
-           "maxQuantity": 1,
-           "equipment": ["bolt pistol", "heavy bolter", "Paragon storm bolters","Paragon war blade"]
-         },
-         {
-          "unitType": "Paragons",
-          "minQuantity": 2,
-          "maxQuantity": 2,
-          "equipment": ["bolt pistol", "heavy bolter", "Paragon storm bolters","Paragon war blade"]
-        }
-       ],
-     
-       "options": [
-         {
-           "count": [1,2],
-           "points": 200
-         } 
-       ]
+    {
+      "description": "Any number of models can each have their heavy bolter replaced with one of the following",
+      "items": [
+        "1 Ministorum heavy flamer",
+        "1 multi-melta"
+      ]
+    }
+  ],
+  "additionalParameter": {},
+  "unitComposition": [
+    {
+      "unitType": "Paragon Superior",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "bolt pistol",
+        "heavy bolter",
+        "Paragon storm bolters",
+        "Paragon war blade"
+      ]
+    },
+    {
+      "unitType": "Paragons",
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "equipment": [
+        "bolt pistol",
+        "heavy bolter",
+        "Paragon storm bolters",
+        "Paragon war blade"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,
+        2
+      ],
+      "points": 200
+    }
+  ]
 }

@@ -10,9 +10,12 @@
           <v-card-text>
             <div>
               <ul>
-                <li v-for="(element, index) in unitStore.elements" :key="index">
-                  <a :href="generateLink(unitStore.info[index])">{{ element }}</a>
-                </li>
+                <div class="fav-unit__list py-2 my-1" v-for="(element, index) in unitStore.elements" :key="index">
+                  <v-btn>
+                    <nuxt-link :to="generateLink(unitStore.info[index])">{{ element }}</nuxt-link>
+                    
+                  </v-btn>
+                </div>
               </ul>
             </div>
           </v-card-text>

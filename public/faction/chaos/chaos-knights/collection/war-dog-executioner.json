@@ -1,0 +1,61 @@
+{
+  "parentUnit": "War Dog Executioner",
+  "factionKeywords": [
+    "chaos knights"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Methodical and coldly emotionless killers, Fallen Nobles who pilot War Dog Executioners employ long-barrelled, rapid-firing cannons to maximise their kills. They eviscerate throngs of the enemy and hammer the foes’ war engines into submission, seeking to reap ever greater murderous tallies than their peers.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "battleline",
+    "chaos",
+    "war dog",
+    "executioner"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Daemonbreath meltagun",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Diabolus heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Harbingers of Dread"
+    ],
+    "otherAbilities": {
+      "Executioner:": "Each time this model makes an attack that targets a unit Below Half-strength , add 1 to the Hit roll ."
+    }
+  }
+}

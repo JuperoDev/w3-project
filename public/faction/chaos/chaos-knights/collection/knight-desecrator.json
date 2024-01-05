@@ -1,0 +1,52 @@
+{
+  "parentUnit": "Knight Desecrator",
+  "factionKeywords": [
+    "chaos knights"
+  ],
+  "damaged": {
+    "remainingWounds": 7,
+    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Knights Desecrator spare no living thing from their attacks. They possess potent mid- to close-range armaments capable of duelling enemy war engines and monstrous beasts, or annihilating hordes of lesser foes. They are also cruel taskmasters, snarling commands to War Dog followers that lope forwards at their sides.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "titanic",
+    "towering",
+    "abhorrent",
+    "character",
+    "chaos",
+    "knight desecrator"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Diabolus heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [
+      "Harbingers of Dread",
+      "Super-heavy Walker"
+    ],
+    "otherAbilities": {
+      "Obsessive Ruthlessness:": "Each time this model makes a ranged attack against a Monster or Vehicle unit, that attack has the [DEVASTATING WOUNDS] ability.",
+      "Taskmaster (Aura):": "While a friendly WAR DOG model is within 9\" of this model, each time that War Dog model makes a ranged attack, re-roll a Hit roll of 1."
+    }
+  }
+}

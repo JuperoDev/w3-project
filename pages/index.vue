@@ -123,16 +123,16 @@
 
       <div class="button__container my-5">
         <div class="army__card font-bebas">
-          <!-- <nuxt-link to="/xenos/tau-empire">
+           <!-- <nuxt-link to="/chaos/chaos-knights"> -->
             <div class="army__card_image">
               <img
-                src="/icons/tau-symbol.png"
+                src="/icons/CK-symbol.png"
               />
             </div>
             <div class="army__card_title title-white uppercase">
-              <p>Tau Empire</p>
+              <p>Chaos Knights</p>
             </div>
-          </nuxt-link> -->
+          <!-- </nuxt-link>  -->
         </div>
       </div>
 

@@ -1,0 +1,74 @@
+{
+  "parentUnit": "War Dog Huntsman",
+  "factionKeywords": [
+    "chaos knights"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Like hounds on the scent, Huntsmen often pursue hulking enemies, hunting them down as prey. Their daemonbreath spears melt through the thickest armour while chaintalons are employed to drive deeply into gushing innards, tearing through organs and crew alike.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "battleline",
+    "chaos",
+    "war dog",
+    "huntsman"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Daemonbreath meltagun",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Daemonbreath spear",
+      "modifiers": [
+        "melta 4"
+      ],
+      "range": 24,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Diabolus heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Harbingers of Dread"
+    ],
+    "otherAbilities": {
+      "Huntsman:": "Each time this model makes an attack against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parentUnit": "War Dog Karnivore",
+  "factionKeywords": [
+    "chaos knights"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Aggressive and bloodthirsty, Karnivores eschew the more potent ranged weapons of the War Dog chassis. They revel in causing bloody confusion and despair, seeking the visceral thrill that only close-quarters slaughter provides. As a result, many of their pilots fall to the open worship of one of the Chaos Gods.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "battleline",
+    "chaos",
+    "war dog",
+    "karnivore"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Diabolus heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Havoc multi-launcher",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Harbingers of Dread"
+    ],
+    "otherAbilities": {
+      "Karnivore:": "You can re-roll Charge rolls made for this model."
+    }
+  }
+}

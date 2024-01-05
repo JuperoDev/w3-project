@@ -1,0 +1,52 @@
+{
+  "parentUnit": "Knight Rampager",
+  "factionKeywords": [
+    "chaos knights"
+  ],
+  "damaged": {
+    "remainingWounds": 7,
+    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Knights Rampager storm into battle with maddened, metallic howls. They are bereft of discipline or restraint, and plough into the thickest fighting of a war zone with insane ferocity. With swipes of their monstrous reaper chainswords and warpstrike claws, they fight more like frenzied daemons than machines.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "titanic",
+    "towering",
+    "abhorrent",
+    "character",
+    "chaos",
+    "knight rampager"
+  ],
+  "attributes": [],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Diabolus heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [
+      "Harbingers of Dread",
+      "Super-heavy Walker"
+    ],
+    "otherAbilities": {
+      "Bloodlust:": "Each time this model makes a Charge move , until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability. In addition, once per battle, this model is eligible to declare a charge in a turn in which it Advanced .",
+      "Frenzied Rampage (Aura):": "While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1."
+    }
+  }
+}

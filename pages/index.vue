@@ -126,7 +126,7 @@
            <!-- <nuxt-link to="/chaos/chaos-knights"> -->
             <div class="army__card_image">
               <img
-                src="/icons/CK-symbol.png"
+                src="/icons/ck.png"
               />
             </div>
             <div class="army__card_title title-white uppercase">

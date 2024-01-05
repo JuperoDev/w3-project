@@ -1,7 +1,7 @@
 <template>
   <div>
      <GeneralPurposePasswordProtection> 
-      <NavbarComponentsButtonGrid />
+     <NavbarComponentsButtonGrid /> 
     <!-- {{ urlStore }} -->
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">

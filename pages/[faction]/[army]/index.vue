@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper ">
-    <GeneralPurposeBackButton/>
+    <GeneralPurposeRootButton/>
     <div class="flex items-center justify-center">
     <div class="collection-container">
       <div class="collection-container__left-column">

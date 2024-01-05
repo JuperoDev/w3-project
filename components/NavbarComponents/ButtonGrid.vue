@@ -1,7 +1,7 @@
 <template>
     <div class="p-5 bg-zinc-900 navigation-bar">
        
-        <GeneralPurposeBackButton/>
+         <GeneralPurposeBackButton/> 
         <GeneralPurposeFavDialog/>
         
     </div>

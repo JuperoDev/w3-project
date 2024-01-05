@@ -5,21 +5,15 @@
 </template>
 
 <script>
-import { useRoute, useRouter } from 'vue-router';
+import { useRouter } from 'vue-router';
 
 export default {
   setup() {
-    const route = useRoute();
     const router = useRouter();
 
     const goBack = () => {
-      if (route.fullPath === '/xenos/tyranids') {
-        // If the current route is /xenos/tyranids, navigate to the root URL
-        router.push('/');
-      } else {
-        // Otherwise, go back in the route history
-        window.history.back();
-      }
+      // Use router.back() to go back to the previous route
+      router.back();
     };
 
     return {

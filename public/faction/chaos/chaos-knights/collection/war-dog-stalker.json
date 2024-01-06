@@ -18,9 +18,30 @@
     "war dog",
     "stalker"
   ],
-  "attributes": [],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 10,
+    "save": 3,
+    "wounds": 12,
+    "leadership": 7,
+    "objetiveControl": 8,
+    "invulnerableSave": 5
+  }],
   "leader": [],
   "rangedWeapons": [
+    {
+      "name": "Avenger chaincannon",
+      "modifiers": [
+       
+      ],
+      "range": 24,
+      "strength": 12,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
     {
       "name": "Daemonbreath spear",
       "modifiers": [

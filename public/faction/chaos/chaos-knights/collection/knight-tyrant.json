@@ -18,7 +18,15 @@
     "chaos",
     "knight tyrant"
   ],
-  "attributes": [],
+  "attributes": [{
+    "movement": 8,
+    "toughness": 13,
+    "save": 2,
+    "wounds": 24,
+    "leadership": 6,
+    "objetiveControl": 10,
+    "invulnerableSave": 5
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -59,7 +67,7 @@
       "ballistic-skills": 0,
       "armor-penetration": 0,
       "damage": 0,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Ectoplasma decimator - supercharge",
@@ -73,7 +81,7 @@
       "ballistic-skills": 0,
       "armor-penetration": 0,
       "damage": 0,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Gheiststrike missile launcher",

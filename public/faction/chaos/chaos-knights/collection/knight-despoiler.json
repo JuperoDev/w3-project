@@ -19,7 +19,15 @@
     "chaos",
     "knight despoiler"
   ],
-  "attributes": [],
+  "attributes": [{
+    "movement": 10,
+    "toughness": 12,
+    "save": 3,
+    "wounds": 22,
+    "leadership": 6,
+    "objetiveControl": 10,
+    "invulnerableSave": 5
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -64,6 +72,20 @@
       "singleChoice": false
     },
     {
+      "name": "Despoiler gatling cannon",
+      "modifiers": [
+        "blast",
+        "rapid fire d6+3"
+      ],
+      "range": 72,
+      "strength": 10,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
       "name": "Havoc missile pod",
       "modifiers": [
         "blast",
@@ -93,6 +115,19 @@
     },
     {
       "name": "Diabolus heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ruinspear rocket pod",
       "modifiers": [
         "rapid fire 3"
       ],

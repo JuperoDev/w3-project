@@ -79,5 +79,22 @@
     "otherAbilities": {
       "Executioner:": "Each time this model makes an attack that targets a unit Below Half-strength , add 1 to the Hit roll ."
     }
-  }
+  },
+
+  "options": [
+    {
+      "count": [1],
+      "points": 150
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "War Dog Executioner",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "2 War Dog autocannons","armoured feet"
+          ]
+      }
+  ]
 }

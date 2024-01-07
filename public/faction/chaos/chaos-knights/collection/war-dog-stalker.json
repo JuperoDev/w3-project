@@ -93,5 +93,22 @@
     "otherAbilities": {
       "Stalker:": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll ."
     }
-  }
+  },
+
+  "options": [
+    {
+      "count": [1],
+      "points": 150
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "haruspex",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "avenger chaincannon"," diabolus heavy stubber", "slaughterclaw"
+          ]
+      }
+  ]
 }

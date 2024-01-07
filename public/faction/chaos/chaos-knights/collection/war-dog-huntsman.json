@@ -78,5 +78,22 @@
     "otherAbilities": {
       "Huntsman:": "Each time this model makes an attack against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1."
     }
-  }
+  },
+
+  "options": [
+    {
+      "count": [1],
+      "points": 150
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "War Dog Huntsman",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+           " daemonbreath spear", "diabolus heavy stubber", "reaper chaintalon"
+          ]
+      }
+  ]
 }

@@ -93,5 +93,22 @@
     "otherAbilities": {
       "Brigand:": "Each time this model makes a ranged attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1."
     }
-  }
+  },
+
+  "options": [
+    {
+      "count": [1],
+      "points": 160
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "War Dog Brigand",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "avenger chaincannon", "daemonbreath spear", "diabolus heavy stubber", "armoured feet"
+          ]
+      }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "War Dog Brigand",
-  "factionKeywords": [
+  "factionKeyword": [
     "chaos knights"
   ],
   "damaged": {
@@ -114,6 +114,35 @@
   "wargear": [
     {
       "description": "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher"
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heavy power weapon",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": 3,
+      "modifiers": []
+    },
+    {
+      "name": "Hypermorph tail",
+      "attacks": 1,
+      "weapons-skills": 3,
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": []
+    },
+    {
+      "name": "Heavy improvised weapon",
+      "attacks": 5,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 2,
+      "modifiers": []
     }
   ]
 }

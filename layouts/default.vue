@@ -8,14 +8,13 @@
   <script setup>
   import { useHead } from '@nuxt/content'
   
-  useHead({
-    title: 'WH40K Data',
+  useHead(() => ({
+    title: 'wh40k data',
     link: [
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'
       }
     ]
-  })
+  }))
   </script>
-  

@@ -145,6 +145,7 @@
 
 
 <script setup>
+
 import passwordProtection from '~/middleware/passwordProtection';
 
 // Specify middleware for protected routes
@@ -213,7 +214,7 @@ h2 {
   font-family: "Bebas Neue", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 .font-bebas {
   font-family: "Bebas Neue", sans-serif;

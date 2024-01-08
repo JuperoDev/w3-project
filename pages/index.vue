@@ -155,7 +155,7 @@ const middleware = [passwordProtection];
 <style scoped>
 h2 {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 500;
   color: #191919;
   text-transform: uppercase;
   
@@ -205,18 +205,16 @@ h2 {
 
 .title-white {
   font-size: 20px;
-  font-family: "Bebas Neue", sans-serif;
+
   color: rgb(25, 25, 25);
 }
 
 .title-black {
   color: black;
-  font-family: "Bebas Neue", sans-serif;
+
 }
 
 
 
-.font-bebas {
-  font-family: "Bebas Neue", sans-serif;
-}
+
 </style>

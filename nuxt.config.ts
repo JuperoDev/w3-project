@@ -29,7 +29,8 @@ export default defineNuxtConfig({
     /**
      * see: https://v3.nuxtjs.org/api/configuration/nuxt.config#inlinessrstyles
      */
-    inlineSSRStyles: false
+    // inlineSSRStyles: false
+    inlineSSRStyles: id => !id?.includes('entry')
   },
  
   vite: {

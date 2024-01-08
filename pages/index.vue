@@ -155,9 +155,9 @@ const middleware = [passwordProtection];
 h2 {
   font-size: 50px;
   font-weight: 700;
-  font-family: "Comic Sans MS", cursive;
   color: #191919;
   text-transform: uppercase;
+  
 }
 
 .army__card {
@@ -170,7 +170,7 @@ h2 {
     -5px -5px 30px 7px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: 0.4s;
-  font-family: "Comic Sans MS", cursive;
+  /* background-color: #fff; */
 }
 
 .army__card .army__card_image {
@@ -190,9 +190,9 @@ h2 {
 .army__card .army__card_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
+
   margin-top: -15px;
   height: 40px;
-  font-family: "Comic Sans MS", cursive;
 }
 
 .army__card:hover {
@@ -204,16 +204,17 @@ h2 {
 
 .title-white {
   font-size: 20px;
+
   color: rgb(25, 25, 25);
-  font-family: "Comic Sans MS", cursive;
 }
 
 .title-black {
   color: black;
-  font-family: "Comic Sans MS", cursive;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .font-bebas {
-  font-family: "Comic Sans MS", cursive;
+  font-family: "Bebas Neue", sans-serif;
 }
 </style>

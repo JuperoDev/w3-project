@@ -12,12 +12,15 @@ const protectedRoutes: string[] = [
   '/astartes',
 ];
 
+// Define "wh40k" as the namespace for your application
+const namespace = 'wh40k';
+
 export default function () {
   const route = useRoute();
   const router = useRouter();
 
   // Check if the user has already entered the correct password
-  const hasEnteredPassword = sessionStorage.getItem('hasEnteredPassword');
+  const hasEnteredPassword = sessionStorage.getItem(`${namespace}:hasEnteredPassword`);
 
   if (!hasEnteredPassword) {
     // User has not entered the password yet
@@ -29,7 +32,7 @@ export default function () {
         return router.push('/');
       } else {
         // Store the fact that the user has entered the correct password
-        sessionStorage.setItem('hasEnteredPassword', 'true');
+        sessionStorage.setItem(`${namespace}:hasEnteredPassword`, 'true');
       }
     }
   }

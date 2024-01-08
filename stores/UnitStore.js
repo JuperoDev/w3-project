@@ -4,7 +4,7 @@ export const useUnitStore = defineStore("test", {
   state: () => ({
     message: "hello",
     elements: [], // Array to store elements,
-    info: [], // Array to store info
+    info: [], // Array to store info (url)
   }),
 
   // Action to add or remove elements and info

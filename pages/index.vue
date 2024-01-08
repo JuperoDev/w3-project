@@ -213,4 +213,7 @@ h2 {
 }
 
 
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
 </style>

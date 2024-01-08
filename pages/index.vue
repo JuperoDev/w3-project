@@ -190,7 +190,7 @@ h2 {
 .army__card .army__card_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-
+  font-family: "Bebas Neue", sans-serif;
   margin-top: -15px;
   height: 40px;
 }
@@ -204,12 +204,13 @@ h2 {
 
 .title-white {
   font-size: 20px;
-
+  font-family: "Bebas Neue", sans-serif;
   color: rgb(25, 25, 25);
 }
 
 .title-black {
   color: black;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');

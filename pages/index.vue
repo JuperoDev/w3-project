@@ -191,7 +191,9 @@ h2 {
 .army__card .army__card_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: Impact, sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
   margin-top: -15px;
   height: 40px;
 }

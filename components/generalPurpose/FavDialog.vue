@@ -14,7 +14,7 @@
                   <v-btn>
                     <nuxt-link :to="generateLink(unitStore.info[index])">{{ element }}</nuxt-link>
                   </v-btn>
-                  <v-btn   class="no-border-no-shadow"  icon @click="removeFavoriteUnit(index)">
+                  <v-btn   class="fav-dialog__close-icon ml-3"  icon @click="removeFavoriteUnit(index)">
                     <v-icon>mdi-close</v-icon>
                   </v-btn>
                 </div>
@@ -57,7 +57,7 @@ const removeFavoriteUnit = (index) => {
 }
 </script>
 <style>
-.no-border-no-shadow {
+.fav-dialog__close-icon {
   border: none !important; /* Remove the border */
   box-shadow: none !important; /* Remove the shadow */
 }

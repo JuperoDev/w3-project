@@ -28,7 +28,7 @@
       "salvation": 2,
       "wounds": 16,
       "leadership": 5,
-      "objectiveControl": 6,
+      "objetiveControl": 6,
       "invulnerableSave": 4
     }
   ],
@@ -109,7 +109,23 @@
       }
     ]
   },
-  "additionalParameter": {},
+  "additionalParameter": {
+    "title": "Crimson King",
+    "abilities": [
+      {
+        "name": "Impossible Form (Psychic)",
+        "description": "Each time an attack is made against this PSYKER (excluding Psychic Attacks), subtract 1 from that attack’s Damage characteristic."
+      },
+      {
+        "name": "Treason of Tzeentch (Psychic)",
+        "description": "At the start of your opponent’s Shooting phase, you can select one enemy unit within 24'' of and visible to this PSYKER. Until the end of the phase, ranged weapons equipped by models in that unit have the [HAZARDOUS] ability."
+      },
+      {
+        "name": "Time Flux (Aura, Psychic)",
+        "description": "While a friendly THOUSAND SONS unit is within 6'' of this PSYKER, add 2'' to the Move characteristic of models in that unit."
+      }
+    ]
+  },
   "unitComposition": [
     {
       "unitType": "Magnus the Red – EPIC HERO ",
@@ -129,5 +145,5 @@
       "points": 440
     }
   ],
-  "wargear":[]
+  "wargear": []
 }

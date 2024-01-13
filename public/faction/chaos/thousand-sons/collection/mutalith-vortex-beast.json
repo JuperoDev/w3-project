@@ -22,7 +22,7 @@
     "salvation": 4,
     "wounds": 13,
     "leadership": 6,
-    "objectiveControl": 4,
+    "objetiveControl": 4,
     "invulnerableSave": 5
   }],
   "leader": [],
@@ -34,11 +34,11 @@
       ],
       "range": 24,
       "strength": 9,
-      "attacks": 0,
+      "attacks": "d6+3",
       "ballistic-skills": 0,
       "armor-penetration": 0,
       "damage": 0,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Warp vortex - beam",
@@ -47,11 +47,11 @@
       ],
       "range": 24,
       "strength": 18,
-      "attacks": 0,
+      "attacks": 1,
       "ballistic-skills": 0,
       "armor-penetration": 0,
       "damage": 0,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Warp vortex - torrent",
@@ -61,11 +61,11 @@
       ],
       "range": 12,
       "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
+      "attacks": "2d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": true
     }
   ],
   "abilities": {
@@ -74,76 +74,55 @@
       "Feel No Pain 5+"
     ],
     "faction": [
-      "Mutating Vortex (Aura): At the end of your Movement phase",
-      "roll one D6 for each enemy unit within 6\" of this model: on a 2-3",
-      "that unit suffers 1 mortal wound; on a 4-5",
-      "that unit suffers D3 mortal wounds; on a 6",
-      "that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test.Immaterial Flare (Aura): While a friendly THOUSAND SONS PSYKER unit is within 6\" of this model",
-      "each time that unit uses a Ritual that specifies a range",
-      "you can double that range while resolving that Ritual."
+      
     ],
-    "otherAbilities": {
-      "This model is equipped with:": "warp vortex; betentacled maw; Mutalith claws."
-    }
+    "otherAbilities": [{
+    "name":"Mutating Vortex (Aura)","description":"At the end of your Movement phase, roll one D6 for each enemy unit within 6'' of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test."
+    },
+    {
+      "name":"Immaterial Flare (Aura)","description":"While a friendly THOUSAND SONS PSYKER unit is within 6'' of this model, each time that unit uses a Ritual that specifies a range, you can double that range while resolving that Ritual."
+      }]
   },
   "wargear":[],
   "unitComposition": [
     {
-      "unitType": "Scarab Occult Sorcerer",
+      "unitType": "Mutalith Vortex Beast",
       "minQuantity": 1,
       "maxQuantity": 1,
       "equipment": [
-        "inferno combi-bolter",
-        "Warpsmite; force weapon"
-      ]
-    },
-    {
-      "unitType": "Scarab Occult Terminators",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "inferno combi-bolter",
-        "Prosperine khopesh"
+        "warp vortex", "betentacled maw","Mutalith claws."
       ]
     }
   ],
   "options": [
     {
       "count": [
-        1,
-        9
+        1
       ],
-      "points": 215
-    },
-    {
-      "count": [
-        1,
-        19
-      ],
-      "points": 430
+      "points": 165
     }
   ],
   "meleeWeapons": [
     {
-      "name": "Force Weapon",
+      "name": "Betentacled maw",
       "modifiers": [
-        "psychic"
+        
       ],
-      "strength": 6,
-      "attacks": 4,
+      "strength": 7,
+      "attacks": 15,
       "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
+      "armor-penetration": 0,
+      "damage": 1,
       "singleChoice": false
     },
     {
-      "name": "Prosperine khopesh",
+      "name": "Mutalith claws",
       "modifiers": [],
-      "strength": 5,
-      "attacks": 3,
+      "strength": 9,
+      "attacks": 5,
       "weapons-skills": 3,
       "armor-penetration": 2,
-      "damage": 2,
+      "damage": 4,
       "singleChoice": false
     }
   ],

@@ -31,44 +31,51 @@
       ],
       "range": 12,
       "strength": 3,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 1,
+      "ballistic-skills": 4,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     }
   ],
   "abilities": {
     "core": [
-      "Relic Hunters: At the end of your Command phase",
-      "roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it: for each 4+",
-      "you gain 1 Cabal point."
+     
     ],
     "faction": [
-      "Herd Banner: You can re-roll Battle-shock tests taken for the bearer’s unit."
+     
     ],
-    "otherAbilities": {
-      "Brayhorn:": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
-    }
+    "otherAbilities": [{
+     "name": "Relic Hunters", "description": "At the end of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it: for each 4+, you gain 1 Cabal point."
+    }]
   },
-  "wargear":[],
+  "wargear":[ {
+    "description": "Any number of models can each have their Tzaangor blades replaced with:",
+    "items": [
+      "1 autopistol and 1 chainsword"
+    ]
+  },
+  {
+    "description": "1 Tzaangor not equipped with a herd banner can be equipped with 1 brayhorn."
+  },
+  {
+    "description": "1 Tzaangor not equipped with a brayhorn can be equipped with 1 herd banner."
+  }],
   "unitComposition": [
     {
-      "unitType": "Scarab Occult Sorcerer",
+      "unitType": "Twistbray",
       "minQuantity": 1,
       "maxQuantity": 1,
       "equipment": [
-        "inferno combi-bolter",
-        "Warpsmite; force weapon"
+        "Tzaangor blades"
       ]
     },
     {
-      "unitType": "Scarab Occult Terminators",
-      "minQuantity": 4,
-      "maxQuantity": 9,
+      "unitType": "Tzaangors",
+      "minQuantity": 9,
+      "maxQuantity": 19,
       "equipment": [
-        "inferno combi-bolter",
-        "Prosperine khopesh"
+        "Tzaangor blades"
       ]
     }
   ],
@@ -78,39 +85,49 @@
         1,
         9
       ],
-      "points": 215
+      "points": 65
     },
     {
       "count": [
         1,
         19
       ],
-      "points": 430
+      "points": 301
     }
   ],
   "meleeWeapons": [
     {
-      "name": "Force Weapon",
+      "name": "Chainsword",
       "modifiers": [
-        "psychic"
+        
       ],
-      "strength": 6,
-      "attacks": 4,
-      "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
+      "strength": 4,
+      "attacks": 3,
+      "weapons-skills": 4,
+      "armor-penetration": 0,
+      "damage": 1,
       "singleChoice": false
     },
     {
-      "name": "Prosperine khopesh",
+      "name": "Tzaangor blades",
       "modifiers": [],
       "strength": 5,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
+      "attacks": 2,
+      "weapons-skills": 4,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
-  "additionalParameter": {}
+  "additionalParameter": {},
+  "warGearAbilities": [
+    {
+      "wargear": "Herd Banner",
+      "ability": "You can re-roll Battle-shock tests taken for the bearer’s unit."
+    },
+    {
+      "wargear": "Brayhorn",
+      "ability": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+    }
+  ]
 }

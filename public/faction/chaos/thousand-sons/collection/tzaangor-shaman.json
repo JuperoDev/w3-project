@@ -15,16 +15,21 @@
     "tzeentch",
     "tzaangor shaman"
   ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 4,
-    "salvation": 5,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 6
-  }],
-  "leader": ["tzaangor enlightened","tzaangors"],
+  "attributes": [
+    {
+      "movement": 10,
+      "toughness": 4,
+      "salvation": 5,
+      "wounds": 4,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 6
+    }
+  ],
+  "leader": [
+    "tzaangor enlightened",
+    "tzaangors"
+  ],
   "rangedWeapons": [
     {
       "name": "Mutating orbs",
@@ -35,10 +40,10 @@
       ],
       "range": 18,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": "d6",
+      "ballistic-skills": 3,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -49,50 +54,46 @@
     "faction": [
       "Cabal of Sorcerers 1"
     ],
-    "otherAbilities": {
-      "Dark Blessing (Psychic):": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
-      "Bestial Prophet:": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
-    }
+    "otherAbilities": [{
+      "name": "Dark Blessing (Psychic)",
+      "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+    },
+    {
+      "name": "Bestial Prophet:",
+      "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+    }]
   },
   "additionalParameter": {},
   "unitComposition": [
-      {
-          "unitType": " ",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [" "]
-      }
+    {
+      "unitType": "Tzaangor Shaman",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "mutating orbs; Shaman’s stave"
+      ]
+    }
   ],
   "options": [
-      {
-          "count": [
-              1
-          ],
-          "points": 80
-      }
+    {
+      "count": [
+        1
+      ],
+      "points": 60
+    }
   ],
-  "wargear":[],
+  "wargear": [],
   "meleeWeapons": [
     {
-      "name": "Force Weapon",
+      "name": "Shaman’s stave",
       "modifiers": [
         "psychic"
       ],
-      "strength": 6,
-      "attacks": 4,
-      "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Prosperine khopesh",
-      "modifiers": [],
       "strength": 5,
       "attacks": 3,
       "weapons-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
+      "armor-penetration": 1,
+      "damage": "d3",
       "singleChoice": false
     }
   ]

@@ -31,7 +31,7 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-           <nuxt-link to="/imperium/adepta-sororitas"> 
+           <nuxt-link to="/chaos/thousand-sons"> 
             <div class="army__card_image">
               <img
                 src="/icons/tzeentch-symbol.png"

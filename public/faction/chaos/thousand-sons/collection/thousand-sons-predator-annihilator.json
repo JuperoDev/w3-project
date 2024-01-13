@@ -36,12 +36,12 @@
   "wargear": [
     {
       "description": "This model can be equipped with one of the following",
-      "items": ["2 heavy bolters","2 lascannons"]
+      "items": ["2 inferno heavy bolters","2 lascannons"]
     },
     {
       "description": "This model can be equipped with one of the following",
-      "items": ["1 combi-bolter",
-      "1 combi-weapon"]
+      "items": ["1 inferno combi-bolter",
+      "1 inferno combi-weapon"]
     },
     {
       "description": "This model can be equipped with 1 havoc launcher."
@@ -52,7 +52,7 @@
       "Deadly Demise D3"
     ],
     "faction": [
-      "Blessings of Tzeentch"
+     
     ],
     "otherAbilities": [
       {
@@ -89,24 +89,24 @@
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Combi-bolter",
+      "name": "Inferno Combi-bolter",
       "range": 24,
       "attacks": 2,
       "ballistic-skills": 3,
       "strength": 4,
-      "armor-penetration": 0,
+      "armor-penetration": 1,
       "damage": 1,
       "modifiers": [
         "rapid fire 2"
       ]
     },
     {
-      "name": "Combi-weapon",
+      "name": "Inferno Combi-weapon",
       "range": 24,
       "attacks": 1,
       "ballistic-skills": 4,
       "strength": 4,
-      "armor-penetration": 0,
+      "armor-penetration": 1,
       "damage": 1,
       "modifiers": [
         "anti-infantry 4+",
@@ -127,12 +127,12 @@
       ]
     },
     {
-      "name": "heavy bolter",
+      "name": "Inferno heavy bolter",
       "range": 48,
       "attacks": 3,
       "ballistic-skills": 3,
       "strength": 5,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 2,
       "modifiers": [
         "sustained hits 1"
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "name": " lascannon",
+      "name": "lascannon",
       "range": 48,
       "attacks": 1,
       "ballistic-skills": 3,

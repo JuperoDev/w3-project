@@ -57,13 +57,11 @@
     },
     {
       "description": "This model’s reaper autocannon can be replaced with one of the following:",
-      "items": ["1 twin heavy bolter",
+      "items": ["1 twin inferno heavy bolter",
       "1 twin lascannon"]
     },
     {
-      "description": "This model can be equipped with one of the following:",
-      "items": ["1 combi-bolter",
-      "1 combi-weapon"]
+      "description": "This model can be equipped with 1 inferno combi-weapon."
     }
   ],
   "abilities": {
@@ -71,7 +69,7 @@
       "Deadly Demise D3"
     ],
     "faction": [
-      "Blessings of Tzeentch"
+      
     ],
     "otherAbilities": [
       {
@@ -110,24 +108,24 @@
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Combi-bolter",
+      "name": "Inferno Combi-bolter",
       "range": 24,
       "attacks": 2,
       "ballistic-skills": 3,
       "strength": 4,
-      "armor-penetration": 0,
+      "armor-penetration": 1,
       "damage": 1,
       "modifiers": [
         "rapid fire 2"
       ]
     },
     {
-      "name": "Combi-weapon",
+      "name": "Inferno Combi-weapon",
       "range": 24,
       "attacks": 1,
       "ballistic-skills": 4,
       "strength": 4,
-      "armor-penetration": 0,
+      "armor-penetration": 1,
       "damage": 1,
       "modifiers": [
         "anti-infantry 4+",
@@ -148,12 +146,12 @@
       ]
     },
     {
-      "name": "twin heavy bolter",
+      "name": "twin Inferno heavy bolter",
       "range": 36,
       "attacks": 3,
       "ballistic-skills": 3,
       "strength": 5,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 2,
       "modifiers": [
         "twin-linked",
@@ -211,5 +209,6 @@
         "ignores cover"
       ]
     }
-  ]
+  ],
+  "lore":"These towering war engines advance upon iron-bound arachnid limbs that crush and rend even as their array of heavy guns rain fire on the foe. Wreathed in infernal warpflame, they shrug off enemy fire by transmuting incoming projectiles, or flow like reknitting flesh to repair damage as swiftly as it is inflicted."
 }

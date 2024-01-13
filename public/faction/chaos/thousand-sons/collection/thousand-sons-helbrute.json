@@ -8,7 +8,7 @@
       "wounds": 8,
       "leadership": 6,
       "objetiveControl": 3,
-      "invulnerableSave": 0
+      "invulnerableSave": 5
     }
   ],
   "meleeWeapons": [
@@ -85,7 +85,7 @@
     {
       "description": "For each Helbrute fist this model is equipped with, it can be equipped with one of the following",
       "items": [
-        "1 combi-bolter",
+        "1 inferno combi-bolter",
         "1 heavy flamer"
       ]
     }
@@ -95,12 +95,12 @@
       "Deadly Demise 1"
     ],
     "faction": [
-      "Blessings of Tzeentch"
+     
     ],
     "otherAbilities": [
       {
-        "name": "Frenzy",
-        "description": "Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase."
+        "name": "Arcane Knowledge Amidst Babbling Insanity (Aura)",
+        "description": "Each time a friendly THOUSAND SONS PSYKER model within 9'' of this model is selected to use a Ritual, you gain 1 Cabal point."
       },
       {
         "name": "Helbrute Fists",
@@ -126,12 +126,12 @@
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Combi-bolter",
+      "name": "Inferno Combi-bolter",
       "range": 24,
       "attacks": 2,
       "ballistic-skills": 3,
       "strength": 4,
-      "armor-penetration": 0,
+      "armor-penetration": 1,
       "damage": 1,
       "modifiers": [
         "rapid fire 2"
@@ -162,12 +162,12 @@
       ]
     },
     {
-      "name": "twin heavy bolter",
+      "name": "twin Inferno heavy bolter",
       "range": 36,
       "attacks": 3,
       "ballistic-skills": 3,
       "strength": 5,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 2,
       "modifiers": [
         "twin-linked",
@@ -184,18 +184,6 @@
       "damage": 3,
       "modifiers": [
         "hazarous",
-        "blast"
-      ]
-    },
-    {
-      "name": "defiler cannon",
-      "range": 48,
-      "attacks": "d6+3",
-      "ballistic-skills": 3,
-      "strength": 10,
-      "armor-penetration": 1,
-      "damage": 3,
-      "modifiers": [
         "blast"
       ]
     },
@@ -235,6 +223,17 @@
       "damage": "d6",
       "modifiers": [],
       "singleChoice": true
+    },
+    {
+      "name": "Twin lascannon",
+      "range": 48,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "d6+1",
+      "modifiers": ["twin-linked"],
+      "singleChoice": true
     }
   ],
   "options": [
@@ -242,7 +241,7 @@
       "count": [
         1
       ],
-      "points": 140
+      "points": 145
     }
   ],
   "lore": "Helbrutes are walking engines of destruction, their psychotic occupants kept alive in a state of agony and insanity. These infernal sarcophagi are fitted with a variety of powerful armaments to blast enemy armour open from afar, and cruel appendages with which to hack and crush with enormous strength at close quarters "

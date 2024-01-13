@@ -21,15 +21,17 @@
     "primarch",
     "magnus the red"
   ],
-  "attributes": [{
-    "movement": 14,
-    "toughness": 11,
-    "salvation": 2,
-    "wounds": 16,
-    "leadership": 5,
-    "objectiveControl": 6,
-    "invulnerableSave": 4
-  }],
+  "attributes": [
+    {
+      "movement": 14,
+      "toughness": 11,
+      "salvation": 2,
+      "wounds": 16,
+      "leadership": 5,
+      "objectiveControl": 6,
+      "invulnerableSave": 4
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -40,10 +42,10 @@
       ],
       "range": 24,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": "3d3",
+      "ballistic-skills": 2,
+      "armor-penetration": 2,
+      "damage": 3,
       "singleChoice": false
     },
     {
@@ -54,11 +56,38 @@
       ],
       "range": 24,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": "d6+3",
+      "ballistic-skills": 2,
+      "armor-penetration": 1,
+      "damage": 2,
       "singleChoice": false
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Blade of Magnus – strike",
+      "modifiers": [
+        "devastating wounds",
+        "psychic"
+      ],
+      "strength": 16,
+      "attacks": 7,
+      "weapons-skills": 2,
+      "armor-penetration": 3,
+      "damage": 3,
+      "singleChoice": true
+    },
+    {
+      "name": "Blade of Magnus – sweep",
+      "modifiers": [
+        "psychic"
+      ],
+      "strength": 8,
+      "attacks": 14,
+      "weapons-skills": 2,
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     }
   ],
   "abilities": {
@@ -67,29 +96,38 @@
       "Deep Strike"
     ],
     "faction": [
-      "Treason of Tzeentch (Psychic): At the start of your opponent’s Shooting phase",
-      "you can select one enemy unit within 24\" of and visible to this PSYKER. Until the end of the phase",
-      "ranged weapons equipped by models in that unit have the [HAZARDOUS] ability."
+      "Cabal of Sorcerers 4"
     ],
-    "otherAbilities": {
-      "Time Flux (Aura, Psychic):": "While a friendly THOUSAND SONS unit is within 6\" of this PSYKER , add 2\" to the Move characteristic of models in that unit."
-    }
+    "otherAbilities": [
+      {
+        "name": "Unearthly Power",
+        "description": "At the start of the battle round, select one of the abilities in the Crimson King section (see left). Until the start of the next battle round, this model has that ability."
+      },
+      {
+        "name": "Lord of the Planet of the Sorcerers (Aura)",
+        "description": "While a friendly THOUSAND SONS PSYKER unit is within 6'' of this model, each time a model in that unit makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll."
+      }
+    ]
   },
   "additionalParameter": {},
   "unitComposition": [
-      {
-          "unitType": " ",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [" "]
-      }
+    {
+      "unitType": "Magnus the Red – EPIC HERO ",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Gaze of Magnus; Tzeentch’s Firestorm",
+        "Blade of Magnus."
+      ]
+    }
   ],
   "options": [
-      {
-          "count": [
-              1
-          ],
-          "points": 80
-      }
-  ]
+    {
+      "count": [
+        1
+      ],
+      "points": 440
+    }
+  ],
+  "wargear":[]
 }

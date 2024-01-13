@@ -24,7 +24,7 @@
     "objectiveControl": 1,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["rubric marines"],
   "rangedWeapons": [
     {
       "name": "Astral Blast",
@@ -108,5 +108,22 @@
       "Arcane Shield (Psychic):": "While this model is leading a unit, models in that unit have a 4+ invulnerable save .",
       "Rebind Rubricae (Psychic):": "In your Command phase , if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds ; on a 2-5, you can return 1 destroyed Bodyguard model to that unit; on a 6, you can return up to 2 destroyed Bodyguard models to that unit."
     }
-  }
+  },
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+          "unitType": " ",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [" "]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 80
+      }
+  ]
 }

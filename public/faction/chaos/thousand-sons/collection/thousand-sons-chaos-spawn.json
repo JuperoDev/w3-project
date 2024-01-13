@@ -1,0 +1,70 @@
+{
+  "parentUnit": "Thousand Sons chaos spawn",
+  "attributes": [
+    {
+      "movement": 8,
+      "toughness": 5,
+      "save": 4,
+      "wounds": 4,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hideous mutations",
+      "attacks": "d6+2",
+      "weapons-skills": 4,
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": [],
+      "singleChoice": false
+    }
+  ],
+  "keywords": [
+    "Beast",
+    "Chaos",
+    "Tzeentch",
+    "Spawn"
+  ],
+  "factionKeyword": [
+    "Thousand Sons"
+  ],
+  "wargear": [],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+"
+    ],
+    "faction": [
+      "Blessings of Tzeentch"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Regenerating Monstrosities",
+        "description": "At the start of each player’s Command phase, one model in this unit regains up to D3 lost wounds."
+      }
+    ]
+  },
+  "damaged": {},
+  "unitComposition": [
+    {
+      "unitType": "Chaos Spawns",
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "equipment":["hideous mutations"]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        2
+      ],
+      "points": 65
+    }
+  ],
+  "additionalParameter": {},
+  "supremeCommander": false,
+  "leader": []
+}

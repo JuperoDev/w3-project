@@ -24,7 +24,7 @@
     "objectiveControl": 1,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["rubric marines"],
   "rangedWeapons": [
     {
       "name": "Inferno bolt pistol",
@@ -65,5 +65,22 @@
       "Rubric Lord:": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll .",
       "Arch-Sorcerer of Tzeentch (Psychic):": "Once per battle, you can select this model to use a Ritual for 0 Cabal points . If you do, all the other rules for using Rituals still apply."
     }
-  }
+  },
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+          "unitType": " ",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [" "]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 80
+      }
+  ]
 }

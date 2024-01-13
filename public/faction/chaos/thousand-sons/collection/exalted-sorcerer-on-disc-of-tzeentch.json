@@ -24,7 +24,7 @@
     "objectiveControl": 1,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["rubric marines"],
   "rangedWeapons": [
     {
       "name": "Arcane Fire",
@@ -108,5 +108,22 @@
       "Arcane Shield (Psychic):": "While this model is leading a unit, models in that unit a 4+ invulnerable save .",
       "Binding Tendrils (Psychic):": "At the end of your Movement phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the start of your next Movement phase, halve the Move characteristic of models in that unit and halve Advance and Charge rolls made for that unit."
     }
-  }
+  },
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+          "unitType": " ",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [" "]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 80
+      }
+  ]
 }

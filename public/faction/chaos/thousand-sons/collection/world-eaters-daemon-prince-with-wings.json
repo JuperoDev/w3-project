@@ -1,0 +1,101 @@
+{
+    "parentUnit": "Thousand Sons daemon prince with wings",
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Hellforged weapons – strike",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Hellforged weapons – sweep",
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],
+    "keywords": [
+        "fly",
+        "Monster",
+        "Character",
+        "Chaos",
+        "Tzeentch",
+        "Daemon",
+        "Daemon Prince"
+    ],
+    "factionKeyword": [
+        "Thousand Sons"
+    ],
+    "wargear": [],
+    "abilities": {
+        "core": [
+          "deep strike",
+          "Deadly Demise D3"
+        ],
+        "faction": [
+          "Blessings of Tzeentch"
+        ],
+        "otherAbilities": [
+          {
+            "name": "Bloodied Terror",
+            "description": ": At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test."
+          },
+          {
+            "name": "Oath to Tzeentch",
+            "description": "At the start of the battle, select one unit from your opponent’s army to be this model’s sworn foe. Each time this model makes an attack that targets that sworn foe, you can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of the battle, that sworn foe has not been destroyed, this model is destroyed."
+          }
+        ]
+      },
+      "damaged": { },
+      "unitComposition": [
+       {
+         "unitType": "Thousand Sons daemon prince with wings",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment":[ "infernal cannon","hellforged weapons"]
+       }
+     ], "options": [
+      {
+        "count": [1],
+        "points": 195
+      }
+    ],
+     "additionalParameter": {
+       },
+       "supremeCommander": false,
+       "leader": [
+          ],
+          "rangedWeapons": [
+              {
+                  "name": "infernal cannon",
+                  "range": 24,
+                  "attacks": 3,
+                  "ballistic-skills": 2,
+                  "strength": 5,
+                  "armor-penetration": 1,
+                  "damage": 2,
+                  "modifiers": [
+                      
+                  ]
+              }
+          ]
+}

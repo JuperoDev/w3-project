@@ -1,0 +1,95 @@
+{
+    "parentUnit": "Thousand Sons maulerfiend",
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 5
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Lasher tendrils",
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": ["extra attacks"],
+            "singleChoice": false
+        },
+        {
+            "name": "Maulerfiend fists",
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 14,
+            "armor-penetration": 2,
+            "damage": "d6+1",
+            "modifiers": [],
+            "singleChoice": false
+        }
+    ],
+    "keywords": [
+        "Vehicle", "Walker", "Chaos", "Tzeentch", "Daemon", "Maulerfiend"
+    ],
+    "factionKeyword": [
+        "Thousand Sons"
+    ],
+    "wargear": [{"description":"This model’s lasher tendrils can be replaced with 2 magma cutters."}],
+    "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "leader"
+        ],
+        "faction": [
+          "Blessings of Tzeentch"
+        ],
+        "otherAbilities": [
+          {
+            "name": "The Scent of Blood",
+            "description": "Each time you make a Charge roll for this model, if one or more of the targets of that charge are below their Starting Strength, add 2 to that roll. Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll."
+          }
+        ]
+      },
+      "damaged": {
+        "remainingWounds": 4,
+        "description": "each time this model makes an attack, subtract 1 from the Hit roll"
+     },
+     "unitComposition": [
+      {
+        "unitType": "Thousand Sons Maulerfiend",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment":["lasher tendrils","Maulerfiend fists."]
+      }
+    ], "options": [
+      {
+        "count": [1],
+        "points": 155
+      }
+    ],
+    "additionalParameter": {
+      },
+      "supremeCommander": false,
+      "leader": [
+         ],
+         "rangedWeapons": [
+             {
+                 "name": "magma cutter",
+                 "range": 6,
+                 "attacks": 2,
+                 "ballistic-skills": 3,
+                 "strength": 9,
+                 "armor-penetration": 4,
+                 "damage": "d6",
+                 "modifiers": ["melta 2"
+                     
+                 ]
+             }
+         ]
+         
+}

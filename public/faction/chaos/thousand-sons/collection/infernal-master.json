@@ -24,7 +24,7 @@
     "objectiveControl": 1,
     "invulnerableSave": 5
   }],
-  "leader": [],
+  "leader": ["rubric marines"],
   "rangedWeapons": [
     {
       "name": "Inferno bolt pistol",
@@ -80,5 +80,22 @@
       "Malefic Maelstrom (Psychic):": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
       "Glimpse of Eternity (Psychic):": "Once per turn, you can change the result of one Hit roll , one Wound roll , one Damage roll or one saving throw made for this model to an unmodified 6."
     }
-  }
+  },
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+          "unitType": " ",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [" "]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 80
+      }
+  ]
 }

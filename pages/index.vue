@@ -29,6 +29,34 @@
         </div>
       </div>
 
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+           <nuxt-link to="/imperium/adepta-sororitas"> 
+            <div class="army__card_image">
+              <img
+                src="/icons/tzeentch-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Thousand Sons</p>
+            </div>
+           </nuxt-link> 
+        </div>
+      </div>
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+           <nuxt-link to="/imperium/adepta-sororitas"> 
+            <div class="army__card_image">
+              <img
+                src="/icons/admech-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Mechanicus</p>
+            </div>
+           </nuxt-link> 
+        </div>
+      </div>
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">

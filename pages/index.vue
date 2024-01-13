@@ -153,7 +153,7 @@
 
       <div class="button__container my-5">
         <div class="army__card font-bebas">
-           <!-- <nuxt-link to="/chaos/chaos-knights"> -->
+            <nuxt-link to="/chaos/chaos-knights"> 
             <div class="army__card_image">
               <img
                 src="/icons/ck.png"
@@ -162,7 +162,7 @@
             <div class="army__card_title title-white uppercase">
               <p>Chaos Knights</p>
             </div>
-          <!-- </nuxt-link>  -->
+           </nuxt-link> 
         </div>
       </div>
 

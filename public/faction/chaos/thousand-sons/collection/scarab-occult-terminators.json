@@ -13,16 +13,17 @@
     "tzeentch",
     "scarab occult terminatorsscarab occult sorcerer: psyker"
   ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 5,
-    "salvation": 2,
-    "wounds": 3,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  
+  "attributes": [
+    {
+      "movement": 5,
+      "toughness": 5,
+      "salvation": 2,
+      "wounds": 3,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "invulnerableSave": 4
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -33,10 +34,23 @@
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 2,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hellfyre missile rack",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": 3,
       "singleChoice": false
     },
     {
@@ -46,10 +60,10 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -59,10 +73,10 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 6,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -75,10 +89,10 @@
       ],
       "range": 18,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 3,
+      "ballistic-skills": 3,
+      "armor-penetration": 3,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -87,12 +101,87 @@
       "Deep Strike"
     ],
     "faction": [
-      "Cabal of Sorcerers 1*",
-      "*Scarab Occult Sorcerer model only"
+      "Cabal of Sorcerers 1* (Sorcerer Model Only)"
+      
     ],
-    "otherAbilities": {
-      "Implacable Guardians:": "While this unit contains one or more PSYKER models, each time an attack is made against this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll ."
-    }
+    "otherAbilities": [{"name":
+      "Implacable Guardians:", "description": "While this unit contains one or more PSYKER models, each time an attack is made against this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll ."
+    }]
   },
-  "wargear":[]
+  "wargear": [
+    {
+      "description": "The Scarab Occult Sorcerer’s inferno combi-bolter can be replaced with 1 Prosperine khopesh."
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Scarab Occult Terminator’s inferno combi-bolter can be replaced with one of the following:",
+      "items": [
+        "1 heavy warpflamer",
+        "1 soulreaper cannon"
+      ]
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Scarab Occult Terminator can be equipped with 1 hellfyre missile rack."
+    }
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Scarab Occult Sorcerer",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "inferno combi-bolter",
+        "Warpsmite; force weapon"
+      ]
+    },
+    {
+      "unitType": "Scarab Occult Terminators",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment": [
+        "inferno combi-bolter",
+        "Prosperine khopesh"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 215
+    },
+    {
+      "count": [
+        1,
+        19
+      ],
+      "points": 430
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Force Weapon",
+      "modifiers": [
+        "psychic"
+      ],
+      "strength": 6,
+      "attacks": 4,
+      "weapons-skills": 3,
+      "armor-penetration": 1,
+      "damage": "d3",
+      "singleChoice": false
+    },
+    {
+      "name": "Prosperine khopesh",
+      "modifiers": [],
+      "strength": 5,
+      "attacks": 3,
+      "weapons-skills": 3,
+      "armor-penetration": 2,
+      "damage": 2,
+      "singleChoice": false
+    }
+  ],
+  "additionalParameter": {}
 }

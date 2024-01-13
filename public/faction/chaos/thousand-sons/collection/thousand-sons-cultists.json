@@ -12,9 +12,30 @@
     "tzeentch",
     "cultists"
   ],
-  "attributes": [],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "salvation": 6,
+      "wounds": 1,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "invulnerableSave": 6
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
+    {
+      "name": "Cultist Firearm",
+      "modifiers": [],
+      "range": 3,
+      "strength": 4,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    },
     {
       "name": "Flamer",
       "modifiers": [
@@ -23,10 +44,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -36,11 +57,22 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": "d3",
+      "ballistic-skills": 4,
       "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
+      "damage": 1,
+      "singleChoice": true
+    },
+    {
+      "name": "Grenade launcher - krak",
+      "modifiers": [],
+      "range": 24,
+      "strength": 9,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
+      "damage": "d3",
+      "singleChoice": true
     },
     {
       "name": "Heavy stubber",
@@ -49,27 +81,79 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 3,
+      "ballistic-skills": 4,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     }
   ],
   "abilities": {
     "core": [
-      "Scouts 6\""
+      "Scouts 6''"
     ],
-    "faction": [
-      "Pawns of Fate: Each time this unit destroys an enemy unit",
-      "roll one D6: on a 2+",
-      "you gain 1CP. When this unit is destroyed",
-      "roll one D6: on a 2+",
-      "you gain 1CP."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "Cultist firearm; brutal assault weapon."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Pawns of Fate",
+        "description": "Each time this unit destroys an enemy unit, roll one D6: on a 2+, you gain 1CP. When this unit is destroyed, roll one D6: on a 2+, you gain 1CP."
+      }
+    ]
   },
-  "wargear":[]
+  "wargear": [{
+"description":"For every 10 models in this unit, 1 Thousand Sons Cultist’s Cultist firearm can be replaced with 1 flamer."
+  },{
+    "description":"For every 10 models in this unit, 1 Thousand Sons Cultist’s Cultist firearm can be replaced with 1 heavy stubber."
+  },{
+    "description":"For every 10 models in this unit, 1 Thousand Sons Cultist’s Cultist Firearm can be replaced with 1 grenade launcher."
+  }],
+  "unitComposition": [
+    {
+      "unitType": "Thousand Sons Cultist Champion",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Cultist firearm",
+        "brutal assault weapon"
+      ]
+    },
+    {
+      "unitType": "Thousand Sons Cultists",
+      "minQuantity": 9,
+      "maxQuantity": 19,
+      "equipment": [
+        "Cultist firearm",
+        "brutal assault weapon"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 60
+    },
+    {
+      "count": [
+        1,
+        19
+      ],
+      "points": 120
+    }
+  ],
+  "meleeWeapons":[{
+    
+      "name": "Brutal assault weapon",
+      "attacks": 2,
+      "weapons-skills": 4,
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": []
+  }
+  ],
+
+  "additionalParameter": {}
 }

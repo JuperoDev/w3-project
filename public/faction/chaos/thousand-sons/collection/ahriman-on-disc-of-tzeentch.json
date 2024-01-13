@@ -16,16 +16,20 @@
     "tzeentch",
     "ahriman on disc of tzeentch"
   ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 4,
-    "salvation": 3,
-    "wounds": 6,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": ["rubric marines"],
+  "attributes": [
+    {
+      "movement": 10,
+      "toughness": 4,
+      "salvation": 3,
+      "wounds": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "invulnerableSave": 4
+    }
+  ],
+  "leader": [
+    "rubric marines"
+  ],
   "rangedWeapons": [
     {
       "name": "Inferno bolt pistol",
@@ -34,10 +38,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -48,10 +52,22 @@
       ],
       "range": 18,
       "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 1,
+      "damage": "d6",
+      "singleChoice": false
+    }
+  ],
+  "meleeWeapons":[{
+    
+      "name": "Black Staff of Ahriman",
+      "attacks": 5,
+      "weapons-skills": 2,
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": 3,
+      "modifiers": ["psychic"],
       "singleChoice": false
     }
   ],
@@ -62,27 +78,35 @@
     "faction": [
       "Cabal of Sorcerers 3"
     ],
-    "otherAbilities": {
-      "Rubric Lord:": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll .",
-      "Arch-Sorcerer of Tzeentch (Psychic):": "Once per battle, you can select this model to use a Ritual for 0 Cabal points . If you do, all the other rules for using Rituals still apply."
-    }
+    "otherAbilities": [
+      {
+        "name": "Rubric Lord:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll ."
+      },
+      {
+        "name": "Arch-Sorcerer of Tzeentch (Psychic):",
+        "description": "Once per battle, you can select this model to use a Ritual for 0 Cabal points . If you do, all the other rules for using Rituals still apply."
+      }
+    ]
   },
   "additionalParameter": {},
   "unitComposition": [
-      {
-          "unitType": " ",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [" "]
-      }
+    {
+      "unitType": "1 Ahriman – EPIC HERO ",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "inferno bolt pistol"," Psychic Stalk"," Black Staff of Ahriman."
+      ]
+    }
   ],
   "options": [
-      {
-          "count": [
-              1
-          ],
-          "points": 80
-      }
+    {
+      "count": [
+        1
+      ],
+      "points": 140
+    }
   ],
-  "wargear":[]
+  "wargear": []
 }

@@ -50,5 +50,67 @@
     "otherAbilities": {
       "Brayhorn:": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
     }
-  }
+  },
+  "wargear":[],
+  "unitComposition": [
+    {
+      "unitType": "Scarab Occult Sorcerer",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "inferno combi-bolter",
+        "Warpsmite; force weapon"
+      ]
+    },
+    {
+      "unitType": "Scarab Occult Terminators",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment": [
+        "inferno combi-bolter",
+        "Prosperine khopesh"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 215
+    },
+    {
+      "count": [
+        1,
+        19
+      ],
+      "points": 430
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Force Weapon",
+      "modifiers": [
+        "psychic"
+      ],
+      "strength": 6,
+      "attacks": 4,
+      "weapons-skills": 3,
+      "armor-penetration": 1,
+      "damage": "d3",
+      "singleChoice": false
+    },
+    {
+      "name": "Prosperine khopesh",
+      "modifiers": [],
+      "strength": 5,
+      "attacks": 3,
+      "weapons-skills": 3,
+      "armor-penetration": 2,
+      "damage": 2,
+      "singleChoice": false
+    }
+  ],
+  "additionalParameter": {}
 }

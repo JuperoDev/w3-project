@@ -3,87 +3,38 @@
   "attributes": [
     {
       "movement": 12,
-      "toughness": 9,
-      "save": 2,
-      "wounds": 10,
+      "toughness": 5,
+      "save": 4,
+      "wounds": 6,
       "leadership": 7,
-      "objetiveControl": 3,
-      "invulnerableSave": 4
+      "objetiveControl": 1,
+      "invulnerableSave": 0
     }
   ],
   "keywords": [
-    "monster",
+    "infantry",
     "character",
-    "psyker",
     "fly",
     "great devourer",
     "synapse",
-    "winged hive tyrant"
+    "vanguard invader",
+    "winged tyranid prime"
   ],
   "rangedWeapons": [
-    {
-      "name": "fleshborer",
-      "range": 18,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "assault"
-      ]
-    },
-    {
-      "name": "termagant spinefists",
-      "range": 12,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "assault",
-        "pistol",
-        "twin-linked"
-      ]
-    }
+  
   ],
   "meleeWeapons": [
     {
-      "name": "Monstrous bonesword and lash whip",
+      "name": "Prime talons",
       "attacks": 6,
       "weapons-skills": 2,
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": [
-        "twin-linked"
-      ]
-    },
-    {
-      "name": "monstrous scything talons",
-      "attacks": 4,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
+      "strength": 6,
+      "armor-penetration": 1,
       "damage": 2,
       "modifiers": [
-        "extra attacks"
+       
       ]
-    },
-    {
-      "name": "tyrant talons",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": []
     }
-  ],
-  "modelEquipment": [
-    "fleshborer",
-    "xenos claws and teeth"
   ],
   "factionKeyword": [
     "tyranids"
@@ -116,7 +67,7 @@
   ],
   "unitComposition": [
     {
-      "unitType": "winged hive tyrant",
+      "unitType": "Winged Tyranid Prime",
       "minQuantity": 1,
       "maxQuantity": 1,
       "equipment": [
@@ -132,7 +83,7 @@
       "points": 65
     }
   ],
-  "lore": "When the Hive Mind deploys airborne swarms, it spawns Winged Hive Tyrants to direct them in battle. Wielding an array of nightmarish organic weapons, their monstrous forms singing with the synaptic might of the Hive Mind, these dread swarm-leaders spread terror and death wherever the dark shadow of their wings falls ",
+  "lore": "Tyranid Primes adapted for flight possess all the physical and synaptic might of an alpha war-beast, while also boasting the frightening speed and manoeuvrability imparted by huge leathery wings. Swooping down into the midst of the foe, they rend and tear until nought remains but corpses and fleeing prey.",
   "supremeCommander": false,
 
   "additionalParameter": {},

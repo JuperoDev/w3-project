@@ -120,5 +120,21 @@
         "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by this model this phase. That unit must take a Battle-shock test ."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 450
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+           "desecrator laser destructor","diabolus heavy stubber","reaper chainsword"
+         ]
+     }
+ ]
 }

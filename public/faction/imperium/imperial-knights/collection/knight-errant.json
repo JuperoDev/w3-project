@@ -117,5 +117,21 @@
         "description": "Each time this model makes a ranged attack against the closest eligible target, add 1 to the Hit roll ."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 450
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+           "desecrator laser destructor","diabolus heavy stubber","reaper chainsword"
+         ]
+     }
+ ]
 }

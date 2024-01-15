@@ -142,5 +142,21 @@
         "description": "At the start of the battle, select one unit from your opponent’s army. Each time this model makes an attack that targets that unit, you can re-roll the Hit roll ."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 450
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+           "desecrator laser destructor","diabolus heavy stubber","reaper chainsword"
+         ]
+     }
+ ]
 }

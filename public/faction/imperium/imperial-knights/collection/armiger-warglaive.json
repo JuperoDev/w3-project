@@ -81,5 +81,21 @@
         "description": "Each time this model makes a Charge move , until the end of the turn, melee weapons equipped by this model have the [SUSTAINED HITS 1] ability."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 450
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+           "desecrator laser destructor","diabolus heavy stubber","reaper chainsword"
+         ]
+     }
+ ]
 }

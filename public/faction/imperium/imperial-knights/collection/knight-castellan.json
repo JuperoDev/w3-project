@@ -131,5 +131,21 @@
         "description": "Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, re-roll a Damage roll of 1."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 450
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+           "desecrator laser destructor","diabolus heavy stubber","reaper chainsword"
+         ]
+     }
+ ]
 }

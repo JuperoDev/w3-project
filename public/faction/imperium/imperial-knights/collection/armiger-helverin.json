@@ -81,5 +81,21 @@
         "description": "While this model is either wholly within your deployment zone or within range of an objective marker you control, its Armiger autocannons have the [ANTI-FLY 2+] ability."
       }
     ]
-  }
+  },
+   "options": [
+    {
+      "count": [1],
+      "points": 450
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Desecrator",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "desecrator laser destructor","diabolus heavy stubber","reaper chainsword"
+          ]
+      }
+  ]
 }

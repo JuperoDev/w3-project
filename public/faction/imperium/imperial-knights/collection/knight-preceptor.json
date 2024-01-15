@@ -38,10 +38,10 @@
       ],
       "range": 48,
       "strength": 7,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 3,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -52,10 +52,10 @@
       ],
       "range": 48,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": "d6+1",
+      "ballistic-skills": 3,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -65,11 +65,11 @@
       ],
       "range": 36,
       "strength": 7,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
+      "attacks": "2d6",
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Las-impulsor - high intensity",
@@ -78,11 +78,11 @@
       ],
       "range": 24,
       "strength": 14,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
+      "attacks": "d6",
+      "ballistic-skills": 3,
+      "armor-penetration": 3,
+      "damage": 4,
+      "singleChoice": true
     },
     {
       "name": "Meltagun",
@@ -91,10 +91,23 @@
       ],
       "range": 12,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 4,
+      "damage": "d6",
+      "singleChoice": false
+    },
+    {
+      "name": "Preceptor multi-laser",
+      "modifiers": [
+        
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 4,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -104,10 +117,10 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 3,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],

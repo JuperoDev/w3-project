@@ -13,7 +13,7 @@
     "imperium",
     "sir hekhtur"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 3,
     "salvation": 4,
@@ -21,7 +21,7 @@
     "leadership": 5,
     "objectiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -46,10 +46,7 @@
     "otherAbilities": []
   },
   "options": [
-   {
-     "count": [1],
-     "points": 0
-   }
+   
  ],
  "unitComposition": [
      {
@@ -60,5 +57,36 @@
            "Hekhtur’s pistol","close combat weapon."
          ]
      }
- ]
+ ],
+ "additionalParameter": {
+  "title": "Using Sir Hekhtur",
+  "abilities": [
+      {
+          "description": "When your CANIS REX model is destroyed, Sir Hekhtur is treated as a model disembarking from a destroyed TRANSPORT – set him up within 3'' of your Canis Rex model before it is removed. Sir Hekhtur then uses the profile, wargear, abilities and keywords shown on this datasheet, but cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed."
+      }
+  ]
+},
+"wargear": [
+  
+],
+"meleeWeapons": [
+  {
+    "name": "Balemace",
+    "attacks": 3,
+    "weapons-skills": 3,
+    "strength": 8,
+    "armor-penetration": 2,
+    "damage": 2,
+    "modifiers": ["extra attacks"]
+  },
+  {
+    "name": "Electroscourge",
+    "attacks": 9,
+    "weapons-skills": 3,
+    "strength": 10,
+    "armor-penetration": 3,
+    "damage": 3,
+    "modifiers": ["sustained hits 1"]
+  }
+]
 }

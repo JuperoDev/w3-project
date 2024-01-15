@@ -1,0 +1,133 @@
+{
+  "parentUnit": "Knight Preceptor",
+  "factionKeywords": [
+    "imperial knights"
+  ],
+  "damaged": {
+    "remainingWounds": 7,
+    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Knights Preceptor are designed to embody the code chivalric. Their pilots close to an honourable range with the foe, engage with a respectful force and kill them cleanly with their las-impulsors. Typically, grizzled veterans pilot these Knights, setting an example for their younger comrades by hunting down the most fearsome enemies.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "titanic",
+    "towering",
+    "questoris",
+    "character",
+    "imperium",
+    "knight preceptor"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 12,
+    "salvation": 3,
+    "wounds": 22,
+    "leadership": 6,
+    "objectiveControl": 10,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Icarus autocannons",
+      "modifiers": [
+        "anti-fly 2+",
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Ironstorm missile pod",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Las-impulsor - low intensity",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Las-impulsor - high intensity",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [
+      "Code Chivalric",
+      "Super-heavy Walker"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Mentor (Bondsman):",
+        "description": "While a model is affected by this ability, improve that model’s Leadership characteristic by 1 and improve that model’s Objective Control characteristic by 2."
+      },
+      {
+        "name": "Exemplar of the Code:",
+        "description": "At the start of the battle, select one unit from your opponent’s army. Each time this model makes an attack that targets that unit, you can re-roll the Hit roll ."
+      }
+    ]
+  }
+}

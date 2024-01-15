@@ -1,0 +1,95 @@
+{
+  "parentUnit": "Canis Rex",
+  "factionKeywords": [
+    "imperial knights"
+  ],
+  "damaged": {
+    "remainingWounds": 7,
+    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Div with class 'picLegend' not found",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "titanic",
+    "towering",
+    "questoris",
+    "character",
+    "epic hero",
+    "imperium",
+    "canis rex"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 12,
+    "salvation": 3,
+    "wounds": 22,
+    "leadership": 5,
+    "objectiveControl": 10,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Chainbreaker las-impulsor - low intensity",
+      "modifiers": [
+        "blast",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Chainbreaker las-impulsor - high intensity",
+      "modifiers": [
+        "blast",
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 14,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Chainbreaker multi-laser",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 6,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [
+      "Code Chivalric",
+      "Super-heavy Walker"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Chainbreaker:",
+        "description": "Each time this model makes an attack, an unmodifed successful Hit roll of 5+ scores a Critical Hit."
+      },
+      {
+        "name": "Legendary Freeblade:",
+        "description": "Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase."
+      }
+    ]
+  }
+}

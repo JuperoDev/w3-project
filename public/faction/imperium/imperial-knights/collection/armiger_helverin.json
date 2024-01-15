@@ -1,0 +1,72 @@
+{
+  "parentUnit": "Armiger Helverin",
+  "factionKeywords": [
+    "imperial knights"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "These fast-moving Knights have been designed to lay down hails of heavy fire, and their strategic roles include enfilading fire, scouting and anti-air. With their Armiger autocannons they can fire hundreds of shells per minute, and packs of two or three of these war engines can shatter an enemy assault in seconds.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "battleline",
+    "imperium",
+    "armiger",
+    "helverin"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 10,
+    "salvation": 3,
+    "wounds": 12,
+    "leadership": 7,
+    "objectiveControl": 8,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Meltagun",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 0,
+      "ballistic-skills": 0,
+      "armor-penetration": 0,
+      "damage": 0,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Code Chivalric"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Skyfire Protocols:",
+        "description": "While this model is either wholly within your deployment zone or within range of an objective marker you control, its Armiger autocannons have the [ANTI-FLY 2+] ability."
+      }
+    ]
+  }
+}

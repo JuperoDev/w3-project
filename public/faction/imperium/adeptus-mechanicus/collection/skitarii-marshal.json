@@ -1,7 +1,7 @@
 {
   "parentUnit": "Skitarii Marshal",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -13,19 +13,19 @@
     "skitarii",
     "marshal"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "toughness": 3,
+    "salvation": 4,
+    "wounds": 3,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Archeotech pistol",
+      "name": "Mechanicus pistol",
       "modifiers": [
         "devastating wounds",
         "pistol"
@@ -46,9 +46,15 @@
     "faction": [
       "Doctrina Imperatives"
     ],
-    "otherAbilities": {
-      "Control Edict:": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll .",
-      "Servo-skull Uplink:": "Once per turn, you can select this model’s unit for a Stratagem even if that Stratagem has already been used on another unit from your army this phase."
-    }
+    "otherAbilities": [
+      {
+        "name": "Control Edict:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll ."
+      },
+      {
+        "name": "Servo-skull Uplink:",
+        "description": "Once per turn, you can select this model’s unit for a Stratagem even if that Stratagem has already been used on another unit from your army this phase."
+      }
+    ]
   }
 }

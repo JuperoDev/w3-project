@@ -1,7 +1,7 @@
 {
   "parentUnit": "Tech-priest Manipulus",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -10,18 +10,19 @@
     "imperium",
     "infantry",
     "character",
+    "cult mechanicus",
     "tech-priest",
     "manipulus"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
     "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "salvation": 2,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -56,16 +57,12 @@
     "core": [
       "Leader"
     ],
-    "faction": [
-      "Galvanic Field: While this model is leading a unit",
-      "weapons equipped by models in that unit have the [LETHAL HITS] ability.Defend the Divine Work: Once per battle",
-      "at the start of any phase",
-      "this model can use this ability. If it does",
-      "until the end of the phase",
-      "all models in this model’s unit have a 4+ invulnerable save."
-    ],
-    "otherAbilities": {
-      "This model is equipped with:": "magnarail lance; Omnissian staff."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "magnarail lance; Omnissian staff."
+      }
+    ]
   }
 }

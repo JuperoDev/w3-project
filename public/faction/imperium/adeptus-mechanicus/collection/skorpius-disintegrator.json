@@ -1,7 +1,7 @@
 {
   "parentUnit": "Skorpius Disintegrator",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {
     "remainingWounds": 4,
@@ -15,15 +15,15 @@
     "skitarii",
     "skorpius disintegrator"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
+  "attributes": {
+    "movement": 10,
+    "toughness": 10,
+    "salvation": 2,
+    "wounds": 12,
+    "leadership": 7,
+    "objectiveControl": 3,
     "invulnerableSave": 0
-}],
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -75,9 +75,15 @@
     "faction": [
       "Doctrina Imperatives"
     ],
-    "otherAbilities": {
-      "Broad Spectrum Data-tether:": "Each time you select this model as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP.",
-      "Blistering Salvoes:": "Each time this model makes an attack with a belleros energy cannon that targets an INFANTRY unit, add 1 to the Hit roll . Each time this model makes an attack with a ferrumite cannon that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
-    }
+    "otherAbilities": [
+      {
+        "name": "Broad Spectrum Data-tether:",
+        "description": "Each time you select this model as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+      },
+      {
+        "name": "Blistering Salvoes:",
+        "description": "Each time this model makes an attack with a belleros energy cannon that targets an INFANTRY unit, add 1 to the Hit roll . Each time this model makes an attack with a ferrumite cannon that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "parentUnit": "Kataphron Breachers",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -9,18 +9,19 @@
   "keywords": [
     "infantry",
     "imperium",
+    "cult mechanicus",
     "kataphron",
     "breachers"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+  "attributes": {
+    "movement": 5,
+    "toughness": 7,
+    "salvation": 3,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 6
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -29,7 +30,7 @@
         "anti-vehicle 4+",
         "rapid fire 2"
       ],
-      "range": 36,
+      "range": 30,
       "strength": 8,
       "attacks": 0,
       "ballistic-skills": 0,
@@ -43,7 +44,7 @@
         "anti-infantry 2+",
         "blast"
       ],
-      "range": 48,
+      "range": 36,
       "strength": 6,
       "attacks": 0,
       "ballistic-skills": 0,
@@ -56,13 +57,12 @@
     "core": [
       "FACTION: Doctrina Imperatives"
     ],
-    "faction": [
-      "Breaching Command: Each time a model in this unit makes an attack",
-      "re-roll a Hit roll of 1. While this unit is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units",
-      "you can re-roll the Hit roll instead."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "heavy arc rifle; arc claw."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "heavy arc rifle; arc claw."
+      }
+    ]
   }
 }

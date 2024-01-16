@@ -1,33 +1,36 @@
 {
-  "parentUnit": "Sydonian Dragoons",
+  "parentUnit": "Sydonian Dragoons With Radium Jezzails",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
   "lore": "Striding through a mist of their own sacred incense, the long-limbed engines ridden by Sydonian Dragoons are forever in motion. Dragoons mark their quarry with shots of glowing phosphor or irradiated slugs, allowing them to detect their prey through the cloying mist and home in on them with a thunderous stampede.",
   "keywords": [
-    "imperium",
     "vehicle",
     "walker",
+    "smoke",
+    "imperium",
     "skitarii",
-    "sydonian dragoons"
+    "sydonian",
+    "dragoons with radium jezzails"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+  "attributes": {
+    "movement": 10,
+    "toughness": 7,
+    "salvation": 3,
+    "wounds": 7,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
       "name": "Phosphor serpenta",
       "modifiers": [
-        "ignores cover"
+        "ignores cover",
+        "PISTOL"
       ],
       "range": 18,
       "strength": 5,
@@ -40,9 +43,9 @@
     {
       "name": "Radium jezzail",
       "modifiers": [
-        "anti-infantry 3+",
-        "heavy",
-        "precision"
+        "ANTI-INFANTRY 3+",
+        "HEAVY",
+        "PRECISION"
       ],
       "range": 36,
       "strength": 5,
@@ -61,9 +64,15 @@
     "faction": [
       "Doctrina Imperatives"
     ],
-    "otherAbilities": {
-      "Elevated Strider:": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back , and you can re-roll Desperate Escape tests taken for models in this unit.",
-      "Broad Spectrum Data-tether:": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
-    }
+    "otherAbilities": [
+      {
+        "name": "Focused Hunters:",
+        "description": "At the start of the battle, select one unit from your opponent’s army. Until the end of the battle, each time a model in this unit makes an attack that targets that unit, you can re-roll the Hit roll ."
+      },
+      {
+        "name": "Broad Spectrum Data-tether:",
+        "description": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+      }
+    ]
   }
 }

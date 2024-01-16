@@ -1,7 +1,7 @@
 {
   "parentUnit": "Belisarius Cawl",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": true,
@@ -12,17 +12,18 @@
     "epic hero",
     "imperium",
     "tech-priest",
+    "cult mechanicus",
     "belisarius cawl"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "toughness": 8,
+    "salvation": 2,
+    "wounds": 10,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 4
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -44,17 +45,16 @@
     "core": [
       "Canticles of the Omnissiah: At the start of the battle round",
       "select one of the abilities in the Canticles of the Omnissiah section (see left). Until the start of the next battle round",
-      "this model has that ability.Mechanicus Bodyguard: While this model is within 3\" of one or more other friendly ADEPTUS MECHANICUS units",
+      "this model has that ability.Mechanicus Bodyguard: While this model is within 3\" of one or more other friendly ADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUS units",
       "this model has the Lone Operative ability.Self-repair Mechanisms: At the start of your Command phase",
       "this model regains up to D3 lost wounds."
     ],
-    "faction": [
-      "Mantra of Discipline (Aura): While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model",
-      "each time you take a Battle-shock or Leadership test for that unit",
-      "you can re-roll that test."
-    ],
-    "otherAbilities": {
-      "Shroudpsalm (Aura):": "While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that unit has the Stealth ability."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Shroudpsalm (Aura):",
+        "description": "While a friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS unit is within 6\" of this model, each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+      }
+    ]
   }
 }

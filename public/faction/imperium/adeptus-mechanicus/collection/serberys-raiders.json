@@ -1,7 +1,7 @@
 {
   "parentUnit": "Serberys Raiders",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -12,19 +12,19 @@
     "skitarii",
     "serberys raiders"
   ],
-  "attributes": [{
-    "movement": 6,
+  "attributes": {
+    "movement": 12,
     "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "salvation": 4,
+    "wounds": 2,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Archeotech pistol",
+      "name": "Mechanicus pistol",
       "modifiers": [
         "devastating wounds",
         "pistol"
@@ -58,9 +58,15 @@
     "faction": [
       "Doctrina Imperatives"
     ],
-    "otherAbilities": {
-      "Tactica Obliqua:": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range",
-      "of one or more enemy units, it can do one of the following:": "Make a Normal move of up to D6\". Make a Normal move of up to 6\", provided every model in this unit ends that move wholly within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units."
-    }
+    "otherAbilities": [
+      {
+        "name": "Tactica Obliqua:",
+        "description": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range"
+      },
+      {
+        "name": "of one or more enemy units, it can do one of the following:",
+        "description": "Make a Normal move of up to D6\". Make a Normal move of up to 6\", provided every model in this unit ends that move wholly within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units."
+      }
+    ]
   }
 }

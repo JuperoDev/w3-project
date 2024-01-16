@@ -1,7 +1,7 @@
 {
   "parentUnit": "Ironstrider Ballistarii",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -14,15 +14,15 @@
     "skitarii",
     "ironstrider ballistarii"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+  "attributes": {
+    "movement": 10,
+    "toughness": 7,
+    "salvation": 3,
+    "wounds": 7,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -61,9 +61,15 @@
     "faction": [
       "Doctrina Imperatives"
     ],
-    "otherAbilities": {
-      "Elevated Strider:": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back , and you can re-roll Desperate Escape tests taken for models in this unit.",
-      "Broad Spectrum Data-tether:": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
-    }
+    "otherAbilities": [
+      {
+        "name": "Elevated Strider:",
+        "description": "This unit is eligible to shoot in a turn in which it Fell Back or Advanced , and you can re-roll Desperate Escape tests taken for models in this unit."
+      },
+      {
+        "name": "Broad Spectrum Data-tether:",
+        "description": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "parentUnit": "Skitarii Vanguard",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -13,19 +13,19 @@
     "skitarii",
     "vanguard"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
-    "toughness": 4,
-    "save": 4,
+    "toughness": 3,
+    "salvation": 4,
     "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Archeotech pistol",
+      "name": "Mechanicus pistol",
       "modifiers": [
         "devastating wounds",
         "pistol"
@@ -98,12 +98,12 @@
     "core": [
       "FACTION: Doctrina Imperatives"
     ],
-    "faction": [
-      "Rad-saturation (Aura): While an enemy unit (excluding VEHICLE units) is within 3\" of this unit",
-      "subtract 1 from the Objective Control characteristic of models in that unit."
-    ],
-    "otherAbilities": {
-      "Enhanced data-tether:": "Each time you select the bearer’s unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Enhanced data-tether:",
+        "description": "Each time you select the bearer’s unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+      }
+    ]
   }
 }

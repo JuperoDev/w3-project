@@ -1,7 +1,7 @@
 {
   "parentUnit": "Tech-priest Dominus",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -10,18 +10,19 @@
     "imperium",
     "infantry",
     "character",
+    "cult mechanicus",
     "tech-priest",
     "dominus"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
     "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "salvation": 2,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -40,7 +41,8 @@
     {
       "name": "Phosphor serpenta",
       "modifiers": [
-        "ignores cover"
+        "ignores cover",
+        "pistol"
       ],
       "range": 18,
       "strength": 5,
@@ -68,17 +70,12 @@
     "core": [
       "Leader"
     ],
-    "faction": [
-      "Lord of the Machine Cult: While this model is leading a unit",
-      "models in that unit have the Feel No Pain 5+ ability. If that unit has the ELECTRO-PRIESTS keyword",
-      "models in that unit have the Feel No Pain 4+ ability instead.Data-spike: At the start of the Fight phase",
-      "you can select one enemy VEHICLE unit within Engagement Range of this model’s unit and roll one D6: on a 4+",
-      "that enemy unit suffers D6 mortal wounds and",
-      "until the end of the phase",
-      "the Weapon Skill characteristic of melee weapons equipped by that enemy unit is worsened by 1."
-    ],
-    "otherAbilities": {
-      "This model is equipped with:": "macrostubber; volkite blaster; Omnissian axe."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "macrostubber; volkite blaster; Omnissian axe."
+      }
+    ]
   }
 }

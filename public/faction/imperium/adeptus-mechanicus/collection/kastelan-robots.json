@@ -1,7 +1,7 @@
 {
   "parentUnit": "Kastelan Robots",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -10,17 +10,18 @@
     "vehicle",
     "walker",
     "imperium",
+    "legio cybernetica",
     "kastelan robots"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "toughness": 9,
+    "salvation": 2,
+    "wounds": 7,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -82,14 +83,12 @@
     "core": [
       "Deadly Demise 1"
     ],
-    "faction": [
-      "Robotic Bodyguard: While a CYBERNETICA DATASMITH model is leading this unit",
-      "that model has the Feel No Pain 4+ ability.Repulsor Grid: Each time a ranged attack is allocated to a KASTELAN ROBOT model in this unit",
-      "on an unmodified saving throw of 6",
-      "the attacking unit suffers 1 mortal wound after it has finished making its attacks."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "incendine combustor; twin Kastelan fist."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "incendine combustor; twin Kastelan fist."
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "parentUnit": "Fulgurite Electro-priests",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -9,31 +9,31 @@
   "keywords": [
     "infantry",
     "imperium",
+    "cult mechanicus",
     "electro-priests",
     "fulgurite"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
-    "toughness": 4,
-    "save": 4,
+    "toughness": 3,
+    "salvation": 7,
     "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
     "core": [
       "Feel No Pain 5+"
     ],
-    "faction": [
-      "Electro-infusion: While a CHARACTER model is leading this unit",
-      "each time an attack targets this unit",
-      "subtract 1 from the Wound roll."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "electroleech stave."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "electroleech stave."
+      }
+    ]
   }
 }

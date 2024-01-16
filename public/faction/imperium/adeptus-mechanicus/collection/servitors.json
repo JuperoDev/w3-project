@@ -1,7 +1,7 @@
 {
   "parentUnit": "Servitors",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -9,17 +9,18 @@
   "keywords": [
     "infantry",
     "imperium",
+    "cult mechanicus",
     "servitors"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
-    "toughness": 4,
-    "save": 4,
+    "toughness": 3,
+    "salvation": 4,
     "wounds": 1,
     "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "objectiveControl": 0,
+    "invulnerableSave": 6
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -84,12 +85,12 @@
     "core": [
       "FACTION: Doctrina Imperatives"
     ],
-    "faction": [
-      "Mindlock: While a TECH-PRIEST model is leading this unit",
-      "improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "Servitor’s servo-arm."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "Servitor’s servo-arm."
+      }
+    ]
   }
 }

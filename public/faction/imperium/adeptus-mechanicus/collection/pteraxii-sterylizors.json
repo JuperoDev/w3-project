@@ -1,7 +1,7 @@
 {
   "parentUnit": "Pteraxii Sterylizors",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -12,17 +12,18 @@
     "jump pack",
     "imperium",
     "skitarii",
-    "pteraxii sterylizors"
+    "pteraxii",
+    "sterylizors"
   ],
-  "attributes": [{
-    "movement": 6,
+  "attributes": {
+    "movement": 12,
     "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "salvation": 4,
+    "wounds": 2,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -60,8 +61,11 @@
     "faction": [
       "Doctrina Imperatives"
     ],
-    "otherAbilities": {
-      "Searing Conflagration:": "In your Shooting phase , after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) that was hit by one or more of this unit’s phosphor torches this phase and roll one D6, adding 3 to the result if this unit is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units. On a 4+, until the end of your opponent’s next turn, that enemy unit is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
-    }
+    "otherAbilities": [
+      {
+        "name": "Searing Conflagration:",
+        "description": "Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker , re-roll a Wound roll of 1. If this unit is also within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units, each time such an attack targets such a unit, you can re-roll the Wound roll instead."
+      }
+    ]
   }
 }

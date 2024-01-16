@@ -1,7 +1,7 @@
 {
   "parentUnit": "Skitarii Rangers",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -13,19 +13,19 @@
     "skitarii",
     "rangers"
   ],
-  "attributes": [{
+  "attributes": {
     "movement": 6,
-    "toughness": 4,
-    "save": 4,
+    "toughness": 3,
+    "salvation": 4,
     "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Archeotech pistol",
+      "name": "Mechanicus pistol",
       "modifiers": [
         "devastating wounds",
         "pistol"
@@ -88,8 +88,11 @@
     "faction": [
       "Doctrina Imperatives"
     ],
-    "otherAbilities": {
-      "Objective Scouted:": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-    }
+    "otherAbilities": [
+      {
+        "name": "Objective Scouted:",
+        "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+      }
+    ]
   }
 }

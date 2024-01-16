@@ -1,7 +1,7 @@
 {
   "parentUnit": "Kataphron Destroyers",
   "factionKeywords": [
-    "adeptus mechanicus"
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -9,18 +9,19 @@
   "keywords": [
     "infantry",
     "imperium",
+    "cult mechanicus",
     "kataphron",
     "destroyers"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+  "attributes": {
+    "movement": 5,
+    "toughness": 6,
+    "salvation": 3,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 6
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -82,12 +83,12 @@
     "core": [
       "FACTION: Doctrina Imperatives"
     ],
-    "faction": [
-      "Sentinel Directives: Each time you target this unit with the Fire Overwatch Stratagem",
-      "hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "heavy grav-cannon; phosphor blaster; close combat weapon."
-    }
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "heavy grav-cannon; phosphor blaster; close combat weapon."
+      }
+    ]
   }
 }

@@ -1,0 +1,86 @@
+{
+  "parentUnit": "Sydonian Skatros",
+  "factionKeywords": [
+    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A Sydonian Skatros is a sinister sentinel, unmoving until the enemy strays into the sniper’s sights. With protocol-driven precision and an advanced scanner known as the achillan eye, they lock on to their foes’ weak points and unleash pinpoint fire that sows panic and agony, the better to erode enemy morale.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "skitarii",
+    "sydonian",
+    "skatros"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 4,
+    "salvation": 4,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Mechanicus pistol",
+      "modifiers": [
+        "DEVASTATING WOUNDS",
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 2,
+      "singleChoice": false
+    },
+    {
+      "name": "Radium jezzail",
+      "modifiers": [
+        "ANTI-INFANTRY 3+",
+        "HEAVY",
+        "PRECISION"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": 3,
+      "singleChoice": false
+    },
+    {
+      "name": "Skatros transuranic arquebus",
+      "modifiers": [
+        "ANTI-MONSTER 4+",
+        "ANTI-VEHICLE 4+",
+        "HEAVY",
+        "PRECISION"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": "d3",
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Lone Operative"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "Mechanicus pistol; radium jezzail; Sydonian feet."
+      }
+    ]
+  }
+}

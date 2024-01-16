@@ -32,10 +32,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -45,11 +45,24 @@
       ],
       "range": 30,
       "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 4,
+      "ballistic-skills": 4,
+      "armor-penetration": 1,
+      "damage": 2,
       "singleChoice": false
+    },
+    {
+      "name": "Kataphron plasma culverin - standard",
+      "modifiers": [
+        
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 4,
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
+      "damage": 1,
+      "singleChoice": true
     },
     {
       "name": "Kataphron plasma culverin - supercharge",
@@ -58,11 +71,11 @@
       ],
       "range": 36,
       "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
+      "attacks": 4,
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Phosphor blaster",
@@ -72,10 +85,10 @@
       ],
       "range": 24,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 1,
+      "ballistic-skills": 4,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     }
   ],

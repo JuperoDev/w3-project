@@ -47,24 +47,24 @@
     "faction": [],
     "otherAbilities": [
       {
-        "name": "This model is equipped with:",
-        "description": "Mechanicus pistol; power fist."
+        "name": "Battle Protocols",
+        "description": "TENGO QUE ESCRIBIRLO"
       }
     ]
   },
   "options": [
    {
      "count": [1],
-     "points": 150
+     "points": 35
    }
  ],
  "unitComposition": [
      {
-         "unitType": "Knight Desecrator",
+         "unitType": "Cybernetica Datasmith",
          "minQuantity": 1,
          "maxQuantity": 1,
          "equipment": [
-          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+          "Mechanicus pistol", "power fist"
          ]
      }
  ],
@@ -76,12 +76,12 @@
  ],
  "meleeWeapons": [
    {
-     "name": "Armoured feet",
-     "attacks": 4,
+     "name": "Power fist",
+     "attacks": 2,
      "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
+     "strength": 8,
+     "armor-penetration": 2,
+     "damage": 2,
      "modifiers": []
    }
  ]

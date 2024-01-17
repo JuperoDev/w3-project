@@ -43,37 +43,40 @@
   ],
   "abilities": {
     "core": [
-      "Canticles of the Omnissiah: At the start of the battle round",
-      "select one of the abilities in the Canticles of the Omnissiah section (see left). Until the start of the next battle round",
-      "this model has that ability.Mechanicus Bodyguard: While this model is within 3\" of one or more other friendly ADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUSADEPTUS MECHANICUS units",
-      "this model has the Lone Operative ability.Self-repair Mechanisms: At the start of your Command phase",
-      "this model regains up to D3 lost wounds."
+     
     ],
     "faction": [],
     "otherAbilities": [
       {
-        "name": "Shroudpsalm (Aura):",
-        "description": "While a friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS unit is within 6\" of this model, each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+        "name": "Canticles of the Omnissiah",
+        "description": "At the start of the battle round, select one of the abilities in the Canticles of the Omnissiah section (see left). Until the start of the next battle round, this model has that ability."
+      },
+      {
+        "name": "Mechanicus Bodyguard",
+        "description": "While this model is within 3'' of one or more other friendly ADEPTUS MECHANICUS units, this model has the Lone Operative ability."
+      },
+      {
+        "name": "Self-repair Mechanisms",
+        "description": "At the start of your Command phase, this model regains up to D3 lost wounds."
       }
     ]
   },
   "options": [
    {
      "count": [1],
-     "points": 150
+     "points": 180
    }
  ],
  "unitComposition": [
      {
-         "unitType": "Knight Desecrator",
+         "unitType": "Belisarius Cawl – EPIC HERO",
          "minQuantity": 1,
          "maxQuantity": 1,
          "equipment": [
-          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+          "solar atomiser", "arc scourge", "Cawl’s Omnissian axe", "mechadendrite hive"
          ]
      }
  ],
- "additionalParameter": {},
  "wargear": [
    {
      "description": "This model’s Questoris heavy stubber can be replaced with 1 meltagun."
@@ -81,13 +84,48 @@
  ],
  "meleeWeapons": [
    {
-     "name": "Armoured feet",
+     "name": "Arc scourge",
      "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
+     "weapons-skills": 2,
+     "strength": 5,
+     "armor-penetration": 1,
      "damage": 1,
-     "modifiers": []
-   }
- ]
+     "modifiers": ["anti-vehicle 4+", "devastating wounds", "extra attacks"]
+   },
+   {
+    "name": "Cawl’s Omnissian axe",
+    "attacks": 4,
+    "weapons-skills": 2,
+    "strength": 8,
+    "armor-penetration": 2,
+    "damage": 2,
+    "modifiers": []
+  },
+  {
+    "name": "Mechadendrite hive",
+    "attacks": "2d6",
+    "weapons-skills": 2,
+    "strength": 4,
+    "armor-penetration": 0,
+    "damage": 1,
+    "modifiers": ["extra attacks"]
+  }
+ ],
+ "additionalParameter": {
+  "title": "Canticles of the Omnissiah",
+  "abilities": [
+      {
+          "name": "Invocation of Machine Vengeance (Aura)",
+          "description": "While a friendly ADEPTUS MECHANICUS unit is within 6'' of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+      },
+      {
+          "name": "Mantra of Discipline (Aura)",
+          "description": "While a friendly ADEPTUS MECHANICUS unit is within 6'' of this model, each time you take a Battle-shock or Leadership test for that unit, add 1 to that test"
+      },
+      {
+          "name": "Shroudpsalm (Aura)",
+          "description": "While a friendly ADEPTUS MECHANICUS unit is within 6'' of this model, each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+      }
+  ]
+}
 }

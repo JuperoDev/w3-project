@@ -12,16 +12,17 @@
     "canoptek",
     "wraiths"
   ],
-  "attributes": [{
-   
-    "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 4,
+      "save": 4,
+      "wounds": 1,
+      "leadership": 8,
+      "objetiveControl": 1,
+      "invulnerableSave": 2
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -40,9 +41,7 @@
     },
     {
       "name": "Transdimensional beamer",
-      "modifiers": [
-       
-      ],
+      "modifiers": [],
       "range": 12,
       "strength": 5,
       "attacks": 1,
@@ -53,57 +52,72 @@
     }
   ],
   "abilities": {
-    "core": [
-      
-    ],
+    "core": [],
     "faction": [
       "Reanimation Protocols"
     ],
-    "otherAbilities": [{
-      "name":"Wraith Form","description": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [{"description":"Any number of models can each be equipped with one of the following:", "items":["1 particle caster",
-  "1 transdimensional beamer"]},{"description":"Any number of models can each have their vicious claws replaced with whip coils."}],
-  "unitComposition": [
-     {
-       "unitType": "Canoptek Wraiths",
-       "minQuantity": 3,
-       "maxQuantity": 6,
-       "equipment": ["vicious claws"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [3],
-       "points": 110
-     },
-     {
-         "count": [6],
-         "points": 220
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Vicious claws",
-         "attacks": 4,
-         "weapons-skills": 4,
-         "strength": 6,
-         "armor-penetration": 1,
-         "damage": 2,
-         "modifiers": []
-       },
-       {
-        "name": "Whip coils",
-        "attacks": 8,
-        "weapons-skills": 4,
-        "strength": 5,
-        "armor-penetration": 0,
-        "damage": 1,
-        "modifiers": []
+    "otherAbilities": [
+      {
+        "name": "Wraith Form",
+        "description": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
       }
-   ]
+    ]
+  },
+  "additionalParameter": {},
+  "wargear": [
+    {
+      "description": "Any number of models can each be equipped with one of the following:",
+      "items": [
+        "1 particle caster",
+        "1 transdimensional beamer"
+      ]
+    },
+    {
+      "description": "Any number of models can each have their vicious claws replaced with whip coils."
+    }
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Canoptek Wraiths",
+      "minQuantity": 3,
+      "maxQuantity": 6,
+      "equipment": [
+        "vicious claws"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        3
+      ],
+      "points": 110
+    },
+    {
+      "count": [
+        6
+      ],
+      "points": 220
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Vicious claws",
+      "attacks": 4,
+      "weapons-skills": 4,
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 2,
+      "modifiers": []
+    },
+    {
+      "name": "Whip coils",
+      "attacks": 8,
+      "weapons-skills": 4,
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": 1,
+      "modifiers": []
+    }
+  ]
 }

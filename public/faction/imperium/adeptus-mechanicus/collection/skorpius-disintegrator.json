@@ -34,10 +34,10 @@
       ],
       "range": 36,
       "strength": 7,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": "2d6",
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -48,10 +48,10 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
+      "attacks": 3,
+      "ballistic-skills": 4,
       "armor-penetration": 0,
-      "damage": 0,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -61,10 +61,23 @@
       ],
       "range": 36,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 3,
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
+      "damage": "d6",
+      "singleChoice": false
+    },
+    {
+      "name": "Ferrumite cannon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 3,
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": "d6",
       "singleChoice": false
     }
   ],

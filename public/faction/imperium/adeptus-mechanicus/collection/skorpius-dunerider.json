@@ -59,5 +59,38 @@
         "description": "In your Shooting phase , after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 150
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+         ]
+     }
+ ],
+ "additionalParameter": {},
+ "wargear": [
+   {
+     "description": "This model’s Questoris heavy stubber can be replaced with 1 meltagun."
+   }
+ ],
+ "meleeWeapons": [
+   {
+     "name": "Armoured feet",
+     "attacks": 4,
+     "weapons-skills": 3,
+     "strength": 6,
+     "armor-penetration": 0,
+     "damage": 1,
+     "modifiers": []
+   }
+ ]
 }

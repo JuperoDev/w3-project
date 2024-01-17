@@ -37,5 +37,38 @@
         "description": "Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units, add 2 to Advance and Charge rolls made for this unit instead."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 150
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+         ]
+     }
+ ],
+ "additionalParameter": {},
+ "wargear": [
+   {
+     "description": "This model’s Questoris heavy stubber can be replaced with 1 meltagun."
+   }
+ ],
+ "meleeWeapons": [
+   {
+     "name": "Armoured feet",
+     "attacks": 4,
+     "weapons-skills": 3,
+     "strength": 6,
+     "armor-penetration": 0,
+     "damage": 1,
+     "modifiers": []
+   }
+ ]
 }

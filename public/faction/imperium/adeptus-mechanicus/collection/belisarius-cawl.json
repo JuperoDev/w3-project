@@ -56,5 +56,38 @@
         "description": "While a friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS unit is within 6\" of this model, each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 150
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+         ]
+     }
+ ],
+ "additionalParameter": {},
+ "wargear": [
+   {
+     "description": "This model’s Questoris heavy stubber can be replaced with 1 meltagun."
+   }
+ ],
+ "meleeWeapons": [
+   {
+     "name": "Armoured feet",
+     "attacks": 4,
+     "weapons-skills": 3,
+     "strength": 6,
+     "armor-penetration": 0,
+     "damage": 1,
+     "modifiers": []
+   }
+ ]
 }

@@ -67,5 +67,38 @@
         "description": "Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker , re-roll a Wound roll of 1. If this unit is also within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units, each time such an attack targets such a unit, you can re-roll the Wound roll instead."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 150
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+         ]
+     }
+ ],
+ "additionalParameter": {},
+ "wargear": [
+   {
+     "description": "This model’s Questoris heavy stubber can be replaced with 1 meltagun."
+   }
+ ],
+ "meleeWeapons": [
+   {
+     "name": "Armoured feet",
+     "attacks": 4,
+     "weapons-skills": 3,
+     "strength": 6,
+     "armor-penetration": 0,
+     "damage": 1,
+     "modifiers": []
+   }
+ ]
 }

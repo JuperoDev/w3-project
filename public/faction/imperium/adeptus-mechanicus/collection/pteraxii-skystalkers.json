@@ -71,5 +71,38 @@
         "description": "Make a Normal move of up to 6\". Make a Normal move of up to 12\", provided every model in this unit ends that move wholly within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units. In either case, if it does, until the end of the turn, this unit is not eligible to declare a charge ."
       }
     ]
-  }
+  },
+  "options": [
+   {
+     "count": [1],
+     "points": 150
+   }
+ ],
+ "unitComposition": [
+     {
+         "unitType": "Knight Desecrator",
+         "minQuantity": 1,
+         "maxQuantity": 1,
+         "equipment": [
+          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+         ]
+     }
+ ],
+ "additionalParameter": {},
+ "wargear": [
+   {
+     "description": "This model’s Questoris heavy stubber can be replaced with 1 meltagun."
+   }
+ ],
+ "meleeWeapons": [
+   {
+     "name": "Armoured feet",
+     "attacks": 4,
+     "weapons-skills": 3,
+     "strength": 6,
+     "armor-penetration": 0,
+     "damage": 1,
+     "modifiers": []
+   }
+ ]
 }

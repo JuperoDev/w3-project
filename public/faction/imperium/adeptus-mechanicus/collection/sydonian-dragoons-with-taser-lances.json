@@ -60,36 +60,42 @@
     ]
   },
   "options": [
+    {
+      "count": [1],
+      "points": 60
+    },
+    {
+     "count": [2],
+     "points": 120
+   },
    {
-     "count": [1],
-     "points": 150
+     "count": [3],
+     "points": 180
    }
  ],
  "unitComposition": [
      {
-         "unitType": "Knight Desecrator",
+         "unitType": "Sydonian Dragoons",
          "minQuantity": 1,
-         "maxQuantity": 1,
+         "maxQuantity": 3,
          "equipment": [
-          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+          "phosphor serpenta", "taser lance"
          ]
      }
  ],
  "additionalParameter": {},
  "wargear": [
-   {
-     "description": "This model’s Questoris heavy stubber can be replaced with 1 meltagun."
-   }
+   
  ],
  "meleeWeapons": [
    {
-     "name": "Armoured feet",
+     "name": "taser lance",
      "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
+     "weapons-skills": 4,
+     "strength": 7,
+     "armor-penetration": 2,
+     "damage": 2,
+     "modifiers": ["anti-walker 2+","sustained hits 2"]
    }
  ]
 }

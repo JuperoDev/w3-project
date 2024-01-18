@@ -73,21 +73,33 @@
     ]
   },
   "options": [
-   {
-     "count": [1],
-     "points": 150
+    {
+      "count": [1,4],
+      "points": 65
+    },
+    {
+     "count": [1,9],
+     "points": 130
    }
- ],
- "unitComposition": [
-     {
-         "unitType": "Knight Desecrator",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
-         ]
-     }
- ],
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Pteraxii Skystalker Alpha",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "flechette blaster", "taser goad"
+          ]
+      },
+      {
+       "unitType": "4-9 Pteraxii Skystalkers",
+       "minQuantity": 2,
+       "maxQuantity": 5,
+       "equipment": [
+        "flechette carbine", "close combat weapon"
+       ]
+   }
+  ],
  "additionalParameter": {},
  "wargear": [
    {

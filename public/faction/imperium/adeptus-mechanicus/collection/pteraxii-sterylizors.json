@@ -69,21 +69,33 @@
     ]
   },
   "options": [
-   {
-     "count": [1],
-     "points": 150
+    {
+      "count": [1,4],
+      "points": 70
+    },
+    {
+     "count": [1,9],
+     "points": 140
    }
- ],
- "unitComposition": [
-     {
-         "unitType": "Knight Desecrator",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
-         ]
-     }
- ],
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Pteraxii Sterylizor Alpha",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "flechette blaster", "Pteraxii talons", "taser goad"
+          ]
+      },
+      {
+       "unitType": "Pteraxii Sterylizors",
+       "minQuantity": 2,
+       "maxQuantity": 5,
+       "equipment": [
+        "phosphor torch", "Pteraxii talons"
+       ]
+   }
+  ],
  "additionalParameter": {},
  "wargear": [
    {

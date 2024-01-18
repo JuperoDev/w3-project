@@ -98,21 +98,33 @@
     ]
   },
   "options": [
-   {
-     "count": [1],
-     "points": 150
+    {
+      "count": [1,4],
+      "points": 70
+    },
+    {
+     "count": [1,9],
+     "points": 140
    }
- ],
- "unitComposition": [
-     {
-         "unitType": "Knight Desecrator",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
-         ]
-     }
- ],
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Serberys Sulphurhound Alpha",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "Mechanicus pistol", "sulphur breath", "cavalry arc maul", "clawed limbs"
+          ]
+      },
+      {
+       "unitType": "Serberys Sulphurhounds",
+       "minQuantity": 2,
+       "maxQuantity": 5,
+       "equipment": [
+        "2 phosphor pistols", "sulphur breath", "clawed limbs"
+       ]
+   }
+  ],
  "additionalParameter": {},
  "wargear": [
    {

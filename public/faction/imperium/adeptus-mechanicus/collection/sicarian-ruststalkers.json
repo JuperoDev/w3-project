@@ -40,19 +40,31 @@
   },
   "options": [
    {
-     "count": [1],
-     "points": 150
-   }
+     "count": [1,4],
+     "points": 70
+   },
+   {
+    "count": [1,9],
+    "points": 140
+  }
  ],
  "unitComposition": [
      {
-         "unitType": "Knight Desecrator",
+         "unitType": "Sicarian Ruststalker Princeps",
          "minQuantity": 1,
          "maxQuantity": 1,
          "equipment": [
-          " 2 Armiger autocannons", "Questoris heavy stubber", "armoured feet"
+          "transonic razor","chordclaw"
          ]
-     }
+     },
+     {
+      "unitType": "Sicarian Ruststalkers",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment": [
+        "transonic razor","chordclaw"
+      ]
+  }
  ],
  "additionalParameter": {},
  "wargear": [

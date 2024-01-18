@@ -74,13 +74,31 @@
  ],
  "meleeWeapons": [
    {
-     "name": "Armoured feet",
+     "name": "Transonic blades",
      "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
+     "weapons-skills": 4,
+     "strength": 4,
+     "armor-penetration": 1,
      "damage": 1,
-     "modifiers": []
-   }
+     "modifiers": ["devastating wounds", "precision"]
+   },
+   {
+    "name": "Transonic blades and chordclaw",
+    "attacks": 4,
+    "weapons-skills": 4,
+    "strength": 4,
+    "armor-penetration": 2,
+    "damage": 1,
+    "modifiers": ["devastating wounds", "precision", "anti-infantry 3+"]
+  },
+  {
+    "name": "Transonic razor and chordclaw",
+    "attacks": 3,
+    "weapons-skills": 4,
+    "strength": 4,
+    "armor-penetration":2,
+    "damage": 1,
+    "modifiers": ["precision", "anti-infantry 3+"]
+  }
  ]
 }

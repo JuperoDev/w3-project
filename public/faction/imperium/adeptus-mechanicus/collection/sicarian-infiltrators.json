@@ -106,13 +106,22 @@
  ],
  "meleeWeapons": [
    {
-     "name": "Armoured feet",
-     "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
+     "name": "Power Weapon",
+     "attacks": 2,
+     "weapons-skills": 4,
+     "strength": 4,
+     "armor-penetration": 2,
      "damage": 1,
      "modifiers": []
-   }
+   },
+   {
+    "name": "Taser goad",
+    "attacks": 2,
+    "weapons-skills": 4,
+    "strength": 6,
+    "armor-penetration": 0,
+    "damage": 1,
+    "modifiers": ["sustained hits 2"]
+  }
  ]
 }

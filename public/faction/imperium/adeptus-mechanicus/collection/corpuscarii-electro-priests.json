@@ -78,14 +78,19 @@
    }
  ],
  "meleeWeapons": [
-   {
-     "name": "Armoured feet",
-     "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
+  {
+    "name": "Electrostatic gauntlets",
+    "modifiers": [
+     
+      "sustained hits 2"
+    ],
+    
+    "strength": 5,
+    "attacks": 3,
+    "weapons-skills": 4,
+    "armor-penetration": 0,
+    "damage": 1,
+    "singleChoice": false
+  }
  ]
 }

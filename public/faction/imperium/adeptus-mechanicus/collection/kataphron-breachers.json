@@ -93,13 +93,22 @@
  ],
  "meleeWeapons": [
    {
-     "name": "Armoured feet",
+     "name": "Arc claw ",
      "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
+     "weapons-skills": 4,
+     "strength": 5,
+     "armor-penetration": 1,
      "damage": 1,
-     "modifiers": []
-   }
+     "modifiers": ["anti-vehicle 4+"]
+   },
+   {
+    "name": "Hydraulic claw",
+    "attacks": 2,
+    "weapons-skills": 4,
+    "strength": 8,
+    "armor-penetration": 2,
+    "damage": 3,
+    "modifiers": []
+  }
  ]
 }

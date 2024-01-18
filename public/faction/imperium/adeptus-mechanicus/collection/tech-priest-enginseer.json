@@ -80,14 +80,23 @@
    }
  ],
  "meleeWeapons": [
-   {
-     "name": "Armoured feet",
-     "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
+  {
+    "name": "Omnissian axe",
+    "attacks": 4,
+    "weapons-skills": 3,
+    "strength": 6,
+    "armor-penetration": 2,
+    "damage": 2,
+    "modifiers": []
+  },
+  {
+    "name": "Servo-arm ",
+    "attacks": 1,
+    "weapons-skills": 4,
+    "strength": 6,
+    "armor-penetration": 2,
+    "damage": 2,
+    "modifiers": ["extra attacks"]
+  }
  ]
 }

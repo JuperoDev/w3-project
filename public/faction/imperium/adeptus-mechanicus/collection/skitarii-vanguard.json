@@ -109,9 +109,9 @@
   ],
   "abilities": {
     "core": [
-      "FACTION: Doctrina Imperatives"
+      
     ],
-    "faction": [],
+    "faction": ["Doctrina Imperatives"],
     "otherAbilities": [
       {
         "name": "Enhanced data-tether:",
@@ -150,15 +150,24 @@
    }
  ],
  "meleeWeapons": [
-   {
-     "name": "Armoured feet",
-     "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
+  {
+    "name": "Alpha combat weapon",
+    "attacks": 2,
+    "weapons-skills": 4,
+    "strength": 5,
+    "armor-penetration": 1,
+    "damage": 1,
+    "modifiers": []
+  },
+  {
+   "name": "Close combat weapon",
+   "attacks": 1,
+   "weapons-skills": 4,
+   "strength": 3,
+   "armor-penetration": 0,
+   "damage": 1,
+   "modifiers": []
+ }
  ],
  "warGearAbilities": [
   {

@@ -45,6 +45,22 @@
            </nuxt-link> 
         </div>
       </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+           <nuxt-link to="/chaos/chaos-daemons"> 
+            <div class="army__card_image">
+              <img
+                src="/icons/daemons-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Chaos Daemons</p>
+            </div>
+           </nuxt-link> 
+        </div>
+      </div>
+
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
            <nuxt-link to="/imperium/adeptus-mechanicus"> 
@@ -104,6 +120,21 @@
               <p>Drukhari</p>
             </div>
           </nuxt-link> 
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/astartes/space-wolves">
+            <div class="army__card_image">
+              <img
+                src="/icons/spacewolves-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Space Wolves</p>
+            </div>
+          </nuxt-link>
         </div>
       </div>
 

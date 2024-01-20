@@ -1,7 +1,7 @@
 {
   "parentUnit": "Bloodcrushers",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
+  "factionKeyword": [
+    "legiones daemonica"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -13,7 +13,15 @@
     "khorne",
     "bloodcrushers"
   ],
-  "attributes": [],
+  "attributes": [{
+    "movement": 10,
+    "toughness": 7,
+    "save": 4,
+    "wounds": 4,
+    "leadership": 7,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
@@ -23,8 +31,73 @@
     "faction": [
       "The Shadow of Chaos"
     ],
-    "otherAbilities": {
-      "Brass Stampede:": "Each time this unit ends a Charge move , select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds ."
-    }
-  }
+    "otherAbilities": [
+      {
+        "name": "Brass Stampede:",
+        "description": "Each time this unit ends a Charge move , select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds ."
+      }
+    ]
+  },
+  "wargear": [{"description":"1 Bloodcrusher that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."},{"description":"1 Bloodcrusher that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."}],
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+        "unitType": "Bloodhunter",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+         "hellblade", "Juggernaut’s bladed horn"
+          ]
+      },
+      {
+        "unitType": "Bloodcrushers",
+        "minQuantity": 2,
+        "maxQuantity": 5,
+        "equipment": [
+          "hellblade", "Juggernaut’s bladed horn"
+          ]
+      }
+    ],
+  "options": [
+      {
+        "count": [1,2],
+        "points": 120
+      },
+      {
+        "count": [1,5],
+        "points": 240
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellblade",
+        "attacks": 2,
+        "weapons-skills": 3,
+        "strength": 5,
+        "armor-penetration": 2,
+        "damage": 2,
+        "modifiers": [],
+        "singleChoice": false
+      },
+      {
+        "name": "Juggernaut’s bladed horn",
+        "attacks": 4,
+        "weapons-skills": 4,
+        "strength": 6,
+        "armor-penetration": 1,
+        "damage": 1,
+        "modifiers": ["extra attacks"],
+        "singleChoice": false
+      }
+    ],
+    "warGearAbilities": [
+      {
+        "wargear": "Daemonic Icon",
+        "ability": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+      },
+      {
+        "wargear": "Instrument of Chaos",
+        "ability": " Add 1 to Charge rolls made for the bearer’s unit."
+      }
+    ]
 }

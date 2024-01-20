@@ -1,7 +1,7 @@
 {
   "parentUnit": "Daemonettes",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
+  "factionKeyword": [
+    "legiones daemonica"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -14,7 +14,15 @@
     "slaanesh",
     "daemonettes"
   ],
-  "attributes": [],
+  "attributes": [{
+    "movement": 9,
+    "toughness": 3,
+    "save": 7,
+    "wounds": 1,
+    "leadership": 7,
+    "objetiveControl": 2,
+    "invulnerableSave": 5
+  }],
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
@@ -24,8 +32,59 @@
     "faction": [
       "The Shadow of Chaos"
     ],
-    "otherAbilities": {
-      "Swift-taloned Slaughter:": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker , you can re-roll the Hit roll instead."
-    }
-  }
+    "otherAbilities": [
+      {
+        "name": "Swift-taloned Slaughter:",
+        "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker , you can re-roll the Hit roll instead."
+      }
+    ]
+  },
+  "wargear": [{"description":"1 Daemonette that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."},{"description":"1 Daemonette that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."}],
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+        "unitType": "Alluress",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+            "Slashing claws "
+          ]
+      },
+      {
+        "unitType": "Daemonettes",
+        "minQuantity": 9,
+        "maxQuantity": 9,
+        "equipment": [
+            "Slashing claws "
+          ]
+      }
+    ],
+  "options": [
+      {
+        "count": [1,9],
+        "points": 120
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Slashing claws",
+        "attacks": 3,
+        "weapons-skills": 3,
+        "strength": 4,
+        "armor-penetration":1,
+        "damage": 1,
+        "modifiers": ["devastating wounds"],
+        "singleChoice": false
+      }
+    ],
+    "warGearAbilities": [
+      {
+        "wargear": "Daemonic Icon",
+        "ability": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+      },
+      {
+        "wargear": "Instrument of Chaos",
+        "ability": "Add 1 to Charge rolls made for the bearer’s unit."
+      }
+    ]
 }

@@ -1,0 +1,114 @@
+{
+  "parentUnit": "Blue Horrors",
+  "factionKeyword": [
+    "legiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Blue Horrors are sullen, malevolent entities, as likely to throttle victims with their rubbery fingers out of sheer spite as to melt them like tallow with conjured gouts of mutating warpflame. Should one of these wretched beings be slain, it bursts into a roiling cloud of fume from which a pair of crackling Brimstone Horrors emerge.",
+  "keywords": [
+    "keywords – all models: infantry",
+    "battleline",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "horrorsblue horrors: bluebrimstone horrors: brimstone"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 3,
+    "save": 8,
+    "wounds": 1,
+    "leadership": 8,
+    "objetiveControl": 1,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Coruscating Blue Flames",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 4,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Coruscating Yellow Flames",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 2,
+      "attacks": 2,
+      "ballistic-skills": 5,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Infiltrators"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Split:",
+        "description": "Each time a BLUE HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one BRIMSTONE HORROR model to this unit."
+      },
+      {
+        "name": "Cackling Horrors (Aura):",
+        "description": "While an enemy unit is within 6\" of this unit, if this unit contains one or more BLUE HORROR models, worsen the Leadership characteristic of models in that enemy unit by 1."
+      },
+      {
+        "name": "Exploding Horrors:",
+        "description": "Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more BRIMSTONE HORROR models in this unit. For each BRIMSTONE HORROR model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound ."
+      }
+    ]
+  },
+  "wargear": [],
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+        "unitType": "Blue Horrors",
+        "minQuantity": 10,
+        "maxQuantity": 10,
+        "equipment": [
+         " Coruscating Blue Flames", "blue claws"
+          ]
+      },
+      {
+        "unitType": "Brimstone Horror ",
+        "equipment": [
+         "Coruscating yellow Flames", "yellow claws"
+          ]
+      }
+    ],
+  "options": [
+      {
+        "count": [10],
+        "points": 125
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "attacks": 3,
+        "weapons-skills": 4,
+        "strength": 6,
+        "armor-penetration": 0,
+        "damage": 1,
+        "modifiers": [],
+        "singleChoice": false
+      }
+    ]
+}

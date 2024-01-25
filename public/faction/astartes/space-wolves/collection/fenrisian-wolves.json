@@ -1,6 +1,6 @@
 {
   "parentUnit": "Fenrisian Wolves",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -12,15 +12,15 @@
     "imperium",
     "fenrisian wolves"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 4,
-    "salvation": 6,
+    "save": 6,
     "wounds": 1,
     "leadership": 8,
-    "objectiveControl": 0,
+    "objetiveControl": 0,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
@@ -36,10 +36,7 @@
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
@@ -51,5 +48,23 @@
       "armor-penetration": 0,
       "damage": "1"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

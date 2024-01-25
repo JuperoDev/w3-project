@@ -1,6 +1,6 @@
 {
   "parentUnit": "Space Wolves Venerable Dreadnought",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -14,15 +14,15 @@
     "dreadnought",
     "venerable dreadnought"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 9,
-    "salvation": 2,
+    "save": 2,
     "wounds": 8,
     "leadership": 6,
-    "objectiveControl": 3,
+    "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -275,5 +275,23 @@
       "armor-penetration": 2,
       "damage": "D6+1"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

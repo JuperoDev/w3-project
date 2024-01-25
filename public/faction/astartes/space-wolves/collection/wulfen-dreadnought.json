@@ -1,6 +1,6 @@
 {
   "parentUnit": "Wulfen Dreadnought",
-  "factionKeywords": [
+  "factionKeyword": [
     "adeptus astartes",
     "space wolves"
   ],
@@ -14,15 +14,15 @@
     "dreadnought",
     "wulfen dreadnought"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 8,
     "toughness": 9,
-    "salvation": 2,
+    "save": 2,
     "wounds": 8,
     "leadership": 6,
-    "objectiveControl": 0,
+    "objetiveControl": 0,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -106,5 +106,23 @@
       "armor-penetration": 3,
       "damage": "3"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

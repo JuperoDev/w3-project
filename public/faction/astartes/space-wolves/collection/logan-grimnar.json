@@ -1,6 +1,6 @@
 {
   "parentUnit": "Logan Grimnar",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -16,15 +16,15 @@
     "chapter master",
     "logan grimnar"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
-    "salvation": 2,
+    "save": 2,
     "wounds": 6,
     "leadership": 6,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -61,10 +61,7 @@
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
@@ -76,5 +73,23 @@
       "armor-penetration": 2,
       "damage": "1"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Wulfen",
-  "factionKeywords": [
+  "factionKeyword": [
     "adeptus astartes",
     "space wolves"
   ],
@@ -12,15 +12,15 @@
     "imperium",
     "wulfen"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 8,
     "toughness": 5,
-    "salvation": 4,
+    "save": 4,
     "wounds": 2,
     "leadership": 6,
-    "objectiveControl": 0,
+    "objetiveControl": 0,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -81,5 +81,23 @@
       "armor-penetration": 1,
       "damage": "1"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Iron Priest",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -15,15 +15,15 @@
     "techmarine",
     "iron priest"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
-    "salvation": 2,
+    "save": 2,
     "wounds": 4,
     "leadership": 6,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -77,10 +77,7 @@
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
@@ -101,5 +98,23 @@
       "armor-penetration": 2,
       "damage": "3"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Stormwolf",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -17,15 +17,15 @@
     "transport",
     "stormwolf"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 0,
     "toughness": 0,
-    "salvation": 0,
+    "save": 0,
     "wounds": 0,
     "leadership": 0,
-    "objectiveControl": 0,
+    "objetiveControl": 0,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -180,5 +180,23 @@
       "armor-penetration": 0,
       "damage": "1"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

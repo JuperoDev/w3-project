@@ -1,6 +1,6 @@
 {
   "parentUnit": "Grey Hunters",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -14,15 +14,15 @@
     "imperium",
     "grey hunters"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
-    "salvation": 3,
+    "save": 3,
     "wounds": 2,
     "leadership": 6,
-    "objectiveControl": 2,
+    "objetiveControl": 2,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -32,9 +32,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -262,5 +262,23 @@
       "armor-penetration": 2,
       "damage": "1"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Wolf Guard Terminators",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -14,15 +14,15 @@
     "terminator",
     "wolf guard terminators"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
-    "salvation": 2,
+    "save": 2,
     "wounds": 3,
     "leadership": 6,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -216,5 +216,23 @@
       "armor-penetration": 2,
       "damage": "1"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

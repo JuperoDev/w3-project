@@ -1,6 +1,6 @@
 {
   "parentUnit": "Canis Wolfborn",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -14,16 +14,17 @@
     "imperium",
     "canis wolfborn"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 6,
-    "salvation": 3,
+    "save": 3,
     "wounds": 6,
     "leadership": 6,
-    "objectiveControl": 2,
+    "objetiveControl": 2,
     "invulnerableSave": 0
-  },
-  "leader": [],
+  }],
+  "leader": ["Fenrisian Wolves",
+ " Thunderwolf Cavalry"],
   "rangedWeapons": [
     {
       "name": "Bolt pistol",
@@ -32,9 +33,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": 1,
+      "ballistic-skills": 5,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -48,39 +49,54 @@
     ],
     "otherAbilities": [
       {
-        "name": "Born of Wolves:",
+        "name": "Born of Wolves",
         "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
       },
       {
-        "name": "Alpha Predator:",
+        "name": "Alpha Predator",
         "description": "Each time this model ends a Charge move , select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds ; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy units suffers D3+3 mortal wounds."
       }
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
       "name": "Crushing teeth and claws",
-      "modifiers": "extraattacks",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "modifiers": ["extra attacks"],
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Wolf claws",
-      "modifiers": "twin-linked",
-      "attacks": "8",
-      "weapons-skills": "2+",
+      "modifiers": ["twin-linked"],
+      "attacks": 8,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage": 1
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 75
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Canis Wolfborn – EPIC HERO",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+           " bolt pistol", "crushing teeth and jaws", "Wolf claws"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Njal Stormcaller",
-  "factionKeywords": [
+  "factionKeyword": [
     "space wolves",
     "adeptus astartes"
   ],
@@ -16,15 +16,15 @@
     "terminator",
     "njal stormcaller"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
-    "salvation": 2,
+    "save": 2,
     "wounds": 5,
     "leadership": 6,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -34,9 +34,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -90,10 +90,7 @@
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
@@ -114,5 +111,23 @@
       "armor-penetration": 1,
       "damage": "D3"
     }
-  ]
+  ],
+
+  "options": [
+    {
+      "count": [1],
+      "points": 455
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Knight Abominant",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+          ]
+      }
+  ],
+  "additionalParameter": {}
 }

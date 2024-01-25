@@ -1,0 +1,93 @@
+{
+  "parentUnit": "Chaplain On Bike",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "When a Chaplain takes to the field on a Raider-pattern bike, he is able to keep pace with even the swiftest armoured advance or spearhead breakthrough. Fighting in such an action, he will urge his brothers to victory as he bellows his catechisms and charges headlong into the foe, crozius arcanum swinging.",
+  "keywords": [
+    "mounted",
+    "character",
+    "grenades",
+    "imperium",
+    "chaplain"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 5,
+    "salvation": 3,
+    "wounds": 5,
+    "leadership": 5,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin bolt rifle",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Litany of Hate:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+      },
+      {
+        "name": "Catechism of Fire:",
+        "description": "Each time this model’s unit is selected to shoot, you can select one enemy unit within 12\" of and visible to this model. Until the end of the phase, ranged weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS] ability when targeting that enemy unit."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Crozius arcanum",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ]
+}

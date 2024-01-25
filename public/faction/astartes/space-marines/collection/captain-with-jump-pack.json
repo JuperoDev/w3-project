@@ -1,0 +1,181 @@
+{
+  "parentUnit": "Captain With Jump Pack",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Many a Space Marine Captain favours fury and speed, and devises ingenious strategies to use these to devastating effect against their enemies. Being superlative warriors and inspiring leaders, they have no place but at the very forefront of battle. With a jump pack, Captains can lead their warriors as speartips for their assaults.",
+  "keywords": [
+    "infantry",
+    "character",
+    "jump pack",
+    "fly",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "captain"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hand flamer",
+      "modifiers": [
+        "ignores cover",
+        "pistol",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": [
+        "PISTOL"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Angel’s Wrath:",
+        "description": "While this model is leading a unit, each time that unit ends a Charge move , until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by models in that unit."
+      },
+      {
+        "name": "Rites of Battle:",
+        "description": "Once per battle round , one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s heavy bolt pistol can be replaced with one of the following",
+      "items": [
+        "1 plasma pistol",
+        "1 hand flamer"
+      ]
+    },
+    {
+      "description": "This model’s Astartes chainsword can be replaced with one of the following",
+      "items": [
+        "1 power fist",
+        "1 relic weapon"
+      ]
+    },
+    {
+      "description": "This model’s heavy bolt pistol and Astartes chainsword can be replaced with 1 thunder hammer and 1 relic shield.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hand flamer",
+      "modifiers": "ignorescover,pistol,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": "PISTOL",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "7",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Relic weapon",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Thunder hammer",
+      "modifiers": "devastatingwounds",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

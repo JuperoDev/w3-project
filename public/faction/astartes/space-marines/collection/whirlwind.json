@@ -1,0 +1,121 @@
+{
+  "parentUnit": "Whirlwind",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Hails of missiles saturate the ground whenever a Whirlwind strikes, creating a carpet of explosions that launches deadly shrapnel or scorching flames in all directions. The Whirlwind fires from concealed positions in support of Space Marine attacks, utilising its speed to keep pace with the assault.",
+  "keywords": [
+    "vehicle",
+    "smoke",
+    "imperium",
+    "whirlwind"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 10,
+    "salvation": 3,
+    "wounds": 11,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Whirlwind vengeance launcher",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 72,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "FACTION:",
+        "description": "Oath of Moment"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 storm bolter.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": "rapidfire2",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

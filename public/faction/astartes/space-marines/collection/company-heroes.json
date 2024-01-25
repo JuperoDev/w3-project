@@ -1,0 +1,141 @@
+{
+  "parentUnit": "Company Heroes",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A company’s most heroic battle-brothers fight alongside a Chapter’s high-ranking officers. These veterans and specialists serve as honour guards and provide vital support to a commander. Company Champions defend their Company’s honour with martial excellence, Ancients guard its inspirational banners and Company Veterans lay down hails o ffire from relic bolt weapons.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "company heroes"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt Pistol",
+      "modifiers": [
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Master-crafted bolt rifle",
+      "modifiers": [
+        "DEVASTATING WOUNDS",
+        "RAPID FIRE 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Master-crafted heavy bolter",
+      "modifiers": [
+        "HEAVY",
+        "SUSTAINED HITS 2"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "The Ancient is equipped with:",
+        "description": "bolt pistol; bolt rifle; close combat weapon."
+      },
+      {
+        "name": "The Company Champion is equipped with:",
+        "description": "bolt pistol; master-crafted power weapon."
+      },
+      {
+        "name": "One Company Veteran is equipped with:",
+        "description": "bolt pistol; master-crafted heavy bolter; close combat weapon."
+      },
+      {
+        "name": "One Company Veteran is equipped with:",
+        "description": "bolt pistol; master-crafted bolt rifle; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Bolt Pistol",
+      "modifiers": "PISTOL",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bolt rifle",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Master-crafted bolt rifle",
+      "modifiers": "DEVASTATINGWOUNDS,RAPIDFIRE1",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Master-crafted power weapon",
+      "modifiers": "PRECISION",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

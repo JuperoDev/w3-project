@@ -1,0 +1,84 @@
+{
+  "parentUnit": "Lieutenant In Phobos Armour",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Highly capable combat commanders, Lieutenants can lead independent reconnaissance, sabotage and assassination forces far beyond Imperial lines. They are deadly warriors, and the last sensation of countless foes has been the cold press of a Space Marine Lieutenant’s knife to their neck.",
+  "keywords": [
+    "infantry",
+    "character",
+    "grenades",
+    "imperium",
+    "phobos",
+    "lieutenant"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Infiltrators",
+      "Leader",
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Tactical Precision:",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      },
+      {
+        "name": "Shoot and Fade:",
+        "description": "In your Shooting phase , after this model’s unit has shot, if it is not within Engagement Range of any enemy models, it can make a Normal move of up to D6\"."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Paired combat blades",
+      "modifiers": "sustainedhits1",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

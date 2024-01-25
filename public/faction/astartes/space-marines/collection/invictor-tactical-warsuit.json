@@ -1,0 +1,166 @@
+{
+  "parentUnit": "Invictor Tactical Warsuit",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Outfitted with silent reactors and servos, the Invictor Tactical Warsuit is a combat walker ideally suited to supporting Vanguard operations and functioning independently from a main Space Marine strike force. In battle they are piloted by hand-picked warriors dedicated to defending their battle-brothers.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "imperium",
+    "phobos",
+    "invictor tactical warsuit"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 8,
+    "salvation": 3,
+    "wounds": 12,
+    "leadership": 6,
+    "objectiveControl": 4,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Incendium cannon",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin ironhail autocannon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin ironhail heavy stubber",
+      "modifiers": [
+        "rapid fire 3",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Scouts 8\""
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Combat Support:",
+        "description": "Once per turn, in your opponent’s Shooting phase , when a friendly ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES PHOBOS INFANTRY unit within 6\" of this model is selected as the target of an attack, one model from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit [and only if it is an eligible target)."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s incendium cannon can be replaced with 1 twin ironhail autocannon.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Incendium cannon",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6+3",
+      "weapons-skills": "N/A",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Twin ironhail autocannon",
+      "modifiers": "twin-linked",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Invictor fist",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 14,
+      "armor-penetration": 2,
+      "damage": "3"
+    }
+  ]
+}

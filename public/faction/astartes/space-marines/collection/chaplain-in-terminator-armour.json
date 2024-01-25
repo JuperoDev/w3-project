@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Chaplain In Terminator Armour",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Every Space Marine is roused to war by the litanies of their Chaplains, and never is this spiritual fortification more vital than amidst the blood and horror of boarding actions and beachhead strikes. Thus, Chaplains are trained to wear formidable Terminator armour so they can fight alongside Veteran battle-brothers.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "terminator",
+    "chaplain"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 2,
+    "wounds": 5,
+    "leadership": 5,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Litany of Hate:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+      },
+      {
+        "name": "Recitation of Faith:",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s storm bolter can be replaced with 1 relic shield.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Crozius arcanum",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ]
+}

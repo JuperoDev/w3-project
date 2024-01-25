@@ -1,0 +1,146 @@
+{
+  "parentUnit": "Razorback",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Razorback replaces some of the Rhino’s transport capacity with a heavy weapon turret, and provides fire support for armoured infantry assaults while delivering its own cargo of warriors to battle. Such is its success that for many Chapters it performs additional functions, notably as a mobile command centre.",
+  "keywords": [
+    "vehicle",
+    "smoke",
+    "transport",
+    "dedicated transport",
+    "imperium",
+    "razorback"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 9,
+    "salvation": 3,
+    "wounds": 10,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin lascannon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "FACTION:",
+        "description": "Oath of Moment"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 storm bolter.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": "rapidfire2",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": "sustainedhits1,twin-linked",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

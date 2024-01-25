@@ -1,0 +1,86 @@
+{
+  "parentUnit": "Storm Speeder Thunderstrike",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Thunderstrikes outmanoeuvre the foe at every turn, targeting vulnerable points in armour, fuel stores and missile hoppers to turn tanks into raging fireballs. Just a single Thunderstrike is capable of destroying armoured breakthrough attempts, and when one is on the battlefield, few enemies are safe.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "imperium",
+    "storm speeder thunderstrike"
+  ],
+  "attributes": {
+    "movement": 14,
+    "toughness": 9,
+    "salvation": 3,
+    "wounds": 11,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin Icarus rocket pod",
+      "modifiers": [
+        "anti-fly 2+",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Deep Strike"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Thunderstrike:",
+        "description": "Each time this model has shot, select one enemy MONSTER or VEHICLE unit that was hit by one or more attacks made by this model this phase. Until the end of the phase, each time a friendly ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, add 1 to the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Stormfury missiles",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Thunderstrike las-talon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 9,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

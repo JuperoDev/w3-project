@@ -1,0 +1,120 @@
+{
+  "parentUnit": "Vindicator",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Vindicator is a dedicated siege tank. It can smash obstacles aside with its massive shield, rumbling into the perfect firing position to unleash its demolisher cannon, a weapon so destructive it can blow apart enemy fortifications, annihilate columns of infantry and shatter armoured tanks with terrifying ease.",
+  "keywords": [
+    "vehicle",
+    "smoke",
+    "imperium",
+    "vindicator"
+  ],
+  "attributes": {
+    "movement": 9,
+    "toughness": 11,
+    "salvation": 2,
+    "wounds": 11,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Demolisher cannon",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "FACTION:",
+        "description": "Oath of Moment"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 storm bolter.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Demolisher cannon",
+      "modifiers": "blast",
+      "attacks": "D6+3",
+      "weapons-skills": "3+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

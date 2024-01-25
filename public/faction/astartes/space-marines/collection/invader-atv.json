@@ -1,0 +1,135 @@
+{
+  "parentUnit": "Invader ATV",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Invader is a highly flexible all-terrain vehicle, perfectly adapted to an aggressive reconnaissance role. Outfitted with either a multi-melta or onslaught gatling cannon, it can rapidly deliver punishing fire against vulnerable parts of the enemy line, or swiftly engage and destroy scouting elements of opposing forces.",
+  "keywords": [
+    "mounted",
+    "grenades",
+    "imperium",
+    "invader atv"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 5,
+    "salvation": 3,
+    "wounds": 8,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin bolt rifle",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "bolt pistol, twin bolt rifle; onslaught gatling cannon; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s onslaught gatling cannon can be replaced with 1 multi-melta.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "PISTOL",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": "melta2",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "8",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

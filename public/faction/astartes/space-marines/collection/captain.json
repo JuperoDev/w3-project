@@ -1,0 +1,200 @@
+{
+  "parentUnit": "Captain",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Leading strikeforces ofSpace Marinesfrom thefront lines, Captains exemplify the strength and skill of the warriors under their command. They are paragons of strategic genius with centuries ofbattlefield experience, and their great deeds are often rewarded with ancient artefacts drawnfrom the Chapter’s vaults.",
+  "keywords": [
+    "infantry",
+    "character",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "captain"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": [
+        "Pistol"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Neo-volkite pistol",
+      "modifiers": [
+        "DEVASTATING WOUNDS",
+        "PISTOl"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "HAZARDOUS",
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Rites of Battle:",
+        "description": "Once per battle round , one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+      },
+      {
+        "name": "Finest Hour:",
+        "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s bolt pistol, master-crafted bolter and close combat weapon can be replaced with one of the following",
+      "items": [
+        "1 heavy bolt pistol and 1 power fist",
+        "1 heavy bolt pistol and 1 master-crafted power weapon",
+        "1 neo-volkite pistol and 1 power fist",
+        "1 neo-volkite pistol and 1 master-crafted power weapon",
+        "1 plasma pistol and 1 power fist",
+        "1 plasma pistol and 1 master-crafted power weapon",
+        "1 heavy bolt pistol, 1 master-crafted power weapon and 1 relic shield"
+      ]
+    },
+    {
+      "description": "This model’s close combat weapon can be replaced with one of the following",
+      "items": [
+        "1 master-crafted power weapon",
+        "1 power fist"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": "Pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Master-crafted boltgun",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Neo-volkite pistol",
+      "modifiers": "DEVASTATINGWOUNDS,PISTOl",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Master-crafted power weapon",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "parentUnit": "Marneus Calgar",
+  "factionKeywords": [
+    "ultramarines",
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "On the battlefield, Marneus Calgar is an inspiring leader and superlative warrior. He heralds his advance with thunderous volleys of bolt shells from the Gauntlets of Ultramar before tearing apart anything in his grip. When he judges the endgame of his strategy to be imminent, he leads his Ultramarines into the heart of enemy lines.",
+  "keywords": [
+    "keywords – all models: infantry",
+    "imperiummarneus calgar: character",
+    "epic hero",
+    "gravis",
+    "chapter master",
+    "marneus calgar"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 6,
+    "salvation": 2,
+    "wounds": 6,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Gauntlets of Ultramar",
+      "modifiers": [
+        "pistol",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Inspiring Leader:",
+        "description": "While this unit is leading a unit and contains a MARNEUS CALGAR model, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back"
+      },
+      {
+        "name": "Master Tactician:",
+        "description": "At the start of your Command phase , if this unit’s MARNEUS CALGAR model is on the battlefield, you gain 1CP."
+      },
+      {
+        "name": "Honour Guard of Macragge:",
+        "description": "While this unit contains one or more Victrix Honour Guard models, this unit’s MARNEUS CALGAR model has the Feel No Pain 4+ ability."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Gauntlets of Ultramar",
+      "modifiers": "twin-linked",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "3"
+    },
+    {
+      "name": "Victrix power sword",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

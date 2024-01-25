@@ -1,0 +1,71 @@
+{
+  "parentUnit": "Judiciar",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Sworn to silence, Judiciars do not preach aloud, but instead their deeds are a litany of fury. Wielding a tempormortis in one hand and an immense blade in the other, they must prove their worth in battle to join the Chaplaincy proper, doing so through acts of devotion and the slaying of enemies.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "tacticus",
+    "judiciar"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 5,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Tempormortis:",
+        "description": "While this model is leading a unit, that unit has the Fights First ability."
+      },
+      {
+        "name": "Silent Fury:",
+        "description": "Each time this model destroys an enemy CHARACTER model, until the end of the battle, add 1 to the Attacks characteristic of its executioner relic blade."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Executioner relic blade",
+      "modifiers": "devastatingwounds,precision",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

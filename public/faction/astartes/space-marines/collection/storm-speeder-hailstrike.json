@@ -1,0 +1,112 @@
+{
+  "parentUnit": "Storm Speeder Hailstrike",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Hailstrike is so heavily armed that it can annihilate entire swathes of infantry in fusillades of blistering projectiles. Speeding over the battlefield, its specialised loadout shatters charging formations and shreds barricades and defences.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "imperium",
+    "storm speeder hailstrike"
+  ],
+  "attributes": {
+    "movement": 14,
+    "toughness": 9,
+    "salvation": 3,
+    "wounds": 11,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin ironhail heavy stubber",
+      "modifiers": [
+        "rapid fire 3",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Deep Strike"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Hailstrike:",
+        "description": "Each time this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "8",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "parentUnit": "Infernus Squad",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Infernus Squads purge swathes of the enemy ranks with the incandescent firestorms they unleash from their pyreblasters. They are close assault specialists, sending jets of burning promethium into enemy trench lines and bunkers and through dense ruins and concealing vegetation, ensuring no foe escapes their fiery wrath.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "infernus squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Pyreblaster",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "bolt pistol; pyreblaster; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

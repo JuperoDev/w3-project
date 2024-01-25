@@ -1,0 +1,169 @@
+{
+  "parentUnit": "Assault Intercessor Squad",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Assault Intercessors are amongst the most widespread close support units in a Chapter’s arsenal. Firing their heavy bolt pistols as they close upon the foe, they charge into the fray, where they make short work of their enemies with brutal swings of their chainswords.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "assault intercessor squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hand flamer",
+      "modifiers": [
+        "ignores cover",
+        "pistol",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "heavy bolt pistol; Astartes chainsword."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Assault Intercessor Sergeant’s heavy bolt pistol can be replaced with one of the following",
+      "items": [
+        "1 hand flamer",
+        "1 plasma pistol"
+      ]
+    },
+    {
+      "description": "The Assault Intercessor Sergeant’s Astartes chainsword can be replaced with one of the following",
+      "items": [
+        "1 power fist",
+        "1 power weapon",
+        "1 thunder hammer"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hand flamer",
+      "modifiers": "ignorescover,pistol,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "modifiers": "devastatingwounds",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

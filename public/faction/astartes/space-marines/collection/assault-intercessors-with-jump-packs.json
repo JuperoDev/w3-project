@@ -1,0 +1,166 @@
+{
+  "parentUnit": "Assault Intercessors With Jump Packs",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Thanks to their powerful jump packs, these warriors soar over the battlefield, slamming into the foe and cutting them down with point-blank bolt pistol fire and furious chainsword hacks before shooting off to their next target.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "jump pack",
+    "fly",
+    "imperium",
+    "tacticus",
+    "assault intercessors with jump packs"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hand flamer",
+      "modifiers": [
+        "IGNORES COVER",
+        "PISTOL",
+        "TORRENT"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "HAZARDOUS",
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Hammer of Wrath:",
+        "description": "Each time this unit ends a Charge move , select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "For every 5 models in this unit, 1 Assault Intercessor with Jump Pack’s heavy bolt pistol can be replaced with 1 plasma pistol.",
+      "items": []
+    },
+    {
+      "description": "The Assault Intercessor Sergeant with Jump Pack’s Astartes chainsword can be replaced with one of the following",
+      "items": [
+        "1 power weapon",
+        "1 power fist"
+      ]
+    },
+    {
+      "description": "The Assault Intercessor Sergeant with Jump Pack’s heavy bolt pistol can be replaced with one of the following",
+      "items": [
+        "1 hand flamer",
+        "1 plasma pistol"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hand flamer",
+      "modifiers": "IGNORESCOVER,PISTOL,TORRENT",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "parentUnit": "Desolation Squad",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Desolation Marines specialise in unleashing widespread devastation throughout the enemy ranks. Whether direct-firing warheads into massed infantry or enemy armour, or raining salvoes down upon the enemy with their castellan launchers, these warriors reap a grievous toll amongst the foe.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "desolation squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Castellan launcher",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Superfrag rocket launcher",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Superkrak rocket launcher",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Vengor launcher",
+      "modifiers": [
+        "blast",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "bolt pistol; castellan launcher; superfrag rocket launcher; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "All of the models in this unit can each have their superfrag rocket launcher replaced with 1 superkrak rocket launcher.",
+      "items": []
+    },
+    {
+      "description": "The Desolation Sergeant’s superfrag rocket launcher or superkrak rocket launcher can be replaced with 1 vengor launcher.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Castellan launcher",
+      "modifiers": "blast,indirectfire",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Superfrag rocket launcher",
+      "modifiers": "blast,heavy",
+      "attacks": "D6+1",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Superkrak rocket launcher",
+      "modifiers": "heavy",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 10,
+      "armor-penetration": 2,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

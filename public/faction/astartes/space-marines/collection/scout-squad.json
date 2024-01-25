@@ -1,0 +1,222 @@
+{
+  "parentUnit": "Scout Squad",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Space Marine neophytes, Scouts learn their deadly craft in daring missions independent of the main force. Led by seasoned Veteran Sergeants, they infiltrate enemy positions, clear potential drop zones, set ambushes, sabotage supply lines and complete all manner of other objectives to weaken the foe.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "smoke",
+    "imperium",
+    "scout squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 4,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Astartes shotgun",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "heavy",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - frag",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - krak",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Scout sniper rifle",
+      "modifiers": [
+        "HEAVY",
+        "PRECISION"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Guerrilla Tactics:",
+        "description": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy models, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Scout Sergeant's boltgun can be replaced with 1 Astartes chainsword.",
+      "items": []
+    },
+    {
+      "description": "Any number of models can each have their boltgun replaced with one of the following",
+      "items": [
+        "1 Astartes shotgun",
+        "1 combat knife"
+      ]
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Scout’s boltgun can be replaced with 1 Scout sniper rifle.",
+      "items": []
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Scout’s boltgun can be replaced with one of the following",
+      "items": [
+        "1 heavy bolter",
+        "1 missile launcher"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes shotgun",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "heavy,sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Missile launcher – frag",
+      "modifiers": "blast,heavy",
+      "attacks": "D6",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Combat knife",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

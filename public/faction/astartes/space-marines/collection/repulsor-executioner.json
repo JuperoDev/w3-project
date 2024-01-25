@@ -1,0 +1,241 @@
+{
+  "parentUnit": "Repulsor Executioner",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Based on the Repulsor chassis, the Repulsor Executioner sacrifices some transport capacity to accommodate powerful turret weaponry. Even the largest battle tanks can be crippled by the beam of a heavy laser destroyer, while the incinerating blasts of a macro plasma incinerator can obliterate infantry formations.",
+  "keywords": [
+    "vehicle",
+    "smoke",
+    "transport",
+    "imperium",
+    "repulsor executioner"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 12,
+    "salvation": 3,
+    "wounds": 16,
+    "leadership": 6,
+    "objectiveControl": 5,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy laser destroyer",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 72,
+      "strength": 16,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Icarus rocket pod",
+      "modifiers": [
+        "anti-fly 2+"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Macro plasma incinerator - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Macro plasma incinerator - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin Icarus ironhail heavy stubber",
+      "modifiers": [
+        "anti-fly 4+",
+        "rapid fire 3",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Executioner:",
+        "description": "Each time this model makes an attack that targets a unit that is Below Half-strength , add 1 to the Hit roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s macro plasma incinerator can be replaced with 1 heavy laser destroyer.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 ironhail heavy stubber.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 Icarus rocket pod.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heavy laser destroyer",
+      "modifiers": "heavy",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 16,
+      "armor-penetration": 4,
+      "damage": "D6+4"
+    },
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "12",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Icarus rocket pod",
+      "modifiers": "anti-fly2+",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "modifiers": "rapidfire3",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Macro plasma incinerator – standard",
+      "modifiers": "blast",
+      "attacks": "D6+1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "2"
+    },
+    {
+      "name": "Repulsor Executioner defensive array",
+      "modifiers": "",
+      "attacks": "10",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": "sustainedhits1,twin-linked",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Armoured hull",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

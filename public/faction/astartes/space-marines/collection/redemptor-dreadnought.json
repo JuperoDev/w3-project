@@ -1,0 +1,236 @@
+{
+  "parentUnit": "Redemptor Dreadnought",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Redemptor Dreadnoughts are some of the largest of their kind ever fielded by the Adeptus Astartes. Armed to the teeth, they can be equipped to utterly destroy virtually any kind of battlefield target with hails of solid shot or super-heated plasma.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "imperium",
+    "dreadnought",
+    "redemptor dreadnought"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 10,
+    "salvation": 2,
+    "wounds": 12,
+    "leadership": 6,
+    "objectiveControl": 4,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Icarus rocket pod",
+      "modifiers": [
+        "anti-fly 2+"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Macro plasma incinerator - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Macro plasma incinerator - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin fragstorm grenade launcher",
+      "modifiers": [
+        "blast",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin storm bolter",
+      "modifiers": [
+        "rapid fire 2",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Duty Eternal:",
+        "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 Icarus rocket pod.",
+      "items": []
+    },
+    {
+      "description": "This model’s heavy flamer can be replaced with 1 onslaught gatling cannon.",
+      "items": []
+    },
+    {
+      "description": "This model’s heavy onslaught gatling cannon can be replaced with 1 macro plasma incinerator.",
+      "items": []
+    },
+    {
+      "description": "This model’s twin fragstorm grenade launcher can be replaced with 1 twin storm bolter.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "12",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Icarus rocket pod",
+      "modifiers": "anti-fly2+",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Macro plasma incinerator – standard",
+      "modifiers": "blast",
+      "attacks": "D6+1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "2"
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "8",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Twin fragstorm grenade launcher",
+      "modifiers": "blast,twin-linked",
+      "attacks": "D6",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Redemptor fist",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 12,
+      "armor-penetration": 2,
+      "damage": "3"
+    }
+  ]
+}

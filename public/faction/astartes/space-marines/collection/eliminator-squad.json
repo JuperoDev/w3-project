@@ -1,0 +1,151 @@
+{
+  "parentUnit": "Eliminator Squad",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Eliminator Squads are peerless assassins, deadly marksmen who haunt the shadows of the battlefield unseen by the enemy. For hours they will lie in wait to take the perfect shot, their sophisticated scopes feeding them essential data to ensure they never fail to make the kill.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "phobos",
+    "eliminator squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt sniper rifle",
+      "modifiers": [
+        "heavy",
+        "precision"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Instigator bolt carbine",
+      "modifiers": [
+        "precision"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Las fusil",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 36,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Stealth"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Reposition Under Covering Fire:",
+        "description": "In your Shooting phase , after this unit has shot, if it contains an Eliminator Sergeant equipped with an instigator bolt carbine, this unit can make a Normal move . If it does so, until the end of the turn, this unit is not eligible to declare a charge ."
+      },
+      {
+        "name": "Mark the Target:",
+        "description": "Each time this unit Remains Stationary , until the start of your next Movement phase , ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Eliminator Sergeant’s bolt sniper rifle can be replaced with one of the following",
+      "items": [
+        "1 instigator bolt carbine",
+        "1 las fusil"
+      ]
+    },
+    {
+      "description": "All Eliminators in this unit can each have their bolt sniper rifle replaced with 1 las fusil.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bolt sniper rifle",
+      "modifiers": "heavy,precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "3"
+    },
+    {
+      "name": "Instigator bolt carbine",
+      "modifiers": "precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

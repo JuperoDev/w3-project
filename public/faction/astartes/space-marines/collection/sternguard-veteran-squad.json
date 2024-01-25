@@ -1,0 +1,213 @@
+{
+  "parentUnit": "Sternguard Veteran Squad",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Sternguard Veterans are possessed of an unshakeable calm, and are renowned amongst their brothers for their exemplary marksmanship in the fiercest battles. Proficient in all of the Chapter’s ranged weaponry, they can always be found where their pinpoint volleys will best shatter the foe.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "sternguard veteran squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Pyrecannon",
+      "modifiers": [
+        "IGNORES COVER",
+        "TORRENT"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Sternguard bolt pistol",
+      "modifiers": [
+        "devastating wounds",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Sternguard bolt rifle",
+      "modifiers": [
+        "assault",
+        "devastating wounds",
+        "heavy",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Sternguard heavy bolter",
+      "modifiers": [
+        "devastating wounds",
+        "heavy",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "Sternguard bolt pistol; Sternguard bolt rifle; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Sternguard Veteran Sergeant’s Sternguard bolt rifle can be replaced with one of the following",
+      "items": [
+        "1 Astartes chainsword",
+        "1 combi-weapon",
+        "1 power weapon",
+        "1 power fist",
+        "1 Astartes chainsword and 1 Sternguard bolt rifle*",
+        "1 power weapon and 1 Sternguard bolt rifle*",
+        "1 power fist and 1 Sternguard bolt rifle*"
+      ]
+    },
+    {
+      "description": "Any number of Sternguard Veterans can each have their Sternguard bolt rifle replaced with 1 combi-weapon.",
+      "items": []
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Sternguard Veteran’s Sternguard bolt rifle can be replaced with one of the following",
+      "items": [
+        "1 pyrecannon",
+        "1 Sternguard heavy bolter"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Combi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Pyrecannon",
+      "modifiers": "IGNORESCOVER,TORRENT",
+      "attacks": "D6+1",
+      "weapons-skills": "N/A",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Sternguard bolt pistol",
+      "modifiers": "devastatingwounds,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Sternguard bolt rifle",
+      "modifiers": "assault,devastatingwounds,heavy,rapidfire1",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

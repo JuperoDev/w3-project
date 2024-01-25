@@ -1,0 +1,91 @@
+{
+  "parentUnit": "Firestrike Servo-turrets",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Primarily a defensive weapon, the Firestrike Servo-turret lays down withering volleys of fire to secure flanks or the Space Marines’ base of operations. Mounted on gravitic ventral plates, they can hover across the battlefield to ideal firing positions from which to slaughter attacking enemies.",
+  "keywords": [
+    "artillery",
+    "vehicle",
+    "imperium",
+    "firestrike servo-turrets"
+  ],
+  "attributes": {
+    "movement": 3,
+    "toughness": 6,
+    "salvation": 2,
+    "wounds": 6,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin Firestrike autocannon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin Firestrike las-talon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "twin Firestrike las-talon; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their twin Firestrike las-talon replaced with 1 twin Firestrike autocannon.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Twin Firestrike autocannon",
+      "modifiers": "twin-linked",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

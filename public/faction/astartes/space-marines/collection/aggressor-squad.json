@@ -1,0 +1,115 @@
+{
+  "parentUnit": "Aggressor Squad",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Capable of spearheading devastating offensives or shattering the most determined enemy assaults, Aggressors are walking ceramite strongpoints. They excel at close-quarters combat and laying down torrents of devastating fire before crushing their foes beneath their energised fists.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "gravis",
+    "aggressor squad"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 6,
+    "salvation": 3,
+    "wounds": 3,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Auto boltstorm gauntlets",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Flamestorm gauntlets",
+      "modifiers": [
+        "ignores cover",
+        "torrent",
+        "twin-linked"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Fragstorm grenade launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "flamestorm gauntlets; twin power fist."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "All models in this unit can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Auto boltstorm gauntlets",
+      "modifiers": "twin-linked",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Flamestorm gauntlets",
+      "modifiers": "ignorescover,torrent,twin-linked",
+      "attacks": "D6+1",
+      "weapons-skills": "N/A",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Twin power fists",
+      "modifiers": "twin-linked",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

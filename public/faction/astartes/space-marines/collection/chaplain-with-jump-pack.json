@@ -1,0 +1,257 @@
+{
+  "parentUnit": "Chaplain With Jump Pack",
+  "factionKeywords": [
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Ever are the roared litanies of the Chaplains needed all over the battlefield, to stir the hearts of battle-brothers and drive fear into the enemy. With a jump pack a Chaplain can thunder to wherever he is most needed, or spearhead furious assaults into the enemy’s positions himself.",
+  "keywords": [
+    "infantry",
+    "character",
+    "jump pack",
+    "fly",
+    "imperium",
+    "chaplain"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Grav-pistol",
+      "modifiers": [
+        "anti-vehicle 2+",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hand flamer",
+      "modifiers": [
+        "ignores cover",
+        "pistol",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": [
+        "melta 2",
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Litany of Hate:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+      },
+      {
+        "name": "Exhortation of Rage:",
+        "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds ; on a 6, that enemy unit suffers 3 mortal wounds."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s bolt pistol can be replaced with one of the following",
+      "items": [
+        "1 boltgun",
+        "1 combi-weapon",
+        "1 grav-pistol",
+        "1 hand flamer",
+        "1 inferno pistol",
+        "1 plasma pistol",
+        "1 storm bolter",
+        "1 power fist"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Grav-pistol",
+      "modifiers": "anti-vehicle2+,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Hand flamer",
+      "modifiers": "ignorescover,pistol,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": "melta2,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D3"
+    },
+    {
+      "name": "Plasma pistol – standard",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Crozius arcanum",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

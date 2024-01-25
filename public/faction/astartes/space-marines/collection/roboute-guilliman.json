@@ -1,0 +1,76 @@
+{
+  "parentUnit": "Roboute Guilliman",
+  "factionKeywords": [
+    "ultramarines",
+    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": true,
+  "lore": "In one of Guilliman’s hands blazes the burning Emperor’s Sword. The other is clad in the Hand of Dominion, a gauntlet with which Guilliman can tear apart tanks. The Primarch’s strategic brilliance is his greatest weapon however, his enemies outmanoeuvred and out-thought before the battle has even begun.",
+  "keywords": [
+    "monster",
+    "character",
+    "epic hero",
+    "imperium",
+    "primarch",
+    "roboute guilliman"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 9,
+    "salvation": 2,
+    "wounds": 10,
+    "leadership": 5,
+    "objectiveControl": 4,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hand of Dominion",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 30,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Supreme Strategist:",
+        "description": "Once per turn, you can target one friendly ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES ADEPTUS ASTARTES unit within 12\" of this model with a Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem this phase."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Emperor’s Sword",
+      "modifiers": "devastatingwounds",
+      "attacks": "14",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "2"
+    },
+    {
+      "name": "Hand of Dominion",
+      "modifiers": "lethalhits",
+      "attacks": "7",
+      "weapons-skills": "2+",
+      "strength": 14,
+      "armor-penetration": 4,
+      "damage": "4"
+    }
+  ]
+}

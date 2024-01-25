@@ -137,7 +137,7 @@
    
     {
       "name": "Gaunt’s chainsword",
-      "modifiers": "",
+      "modifiers": [],
       "attacks": 5,
       "weapons-skills": 2,
       "strength": 3,
@@ -146,7 +146,7 @@
     },
     {
       "name": "Straight silver knife",
-      "modifiers": "",
+      "modifiers": [],
       "attacks": 3,
       "weapons-skills": 3,
       "strength": 3,
@@ -165,19 +165,59 @@
   ],"additionalParameter": {},
   "unitComposition": [
       {
-        "unitType": " Angron – Epic Hero",
+        "unitType": "Ibram Gaunt",
         "minQuantity": 1,
         "maxQuantity": 1,
         "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
+         " bolt pistol", "Gaunt’s chainsword" 
+          ]
+      },
+      {
+        "unitType": "Tanith Ghost",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+          "Corbec’s hot-shot lascarbine", "straight silver knife" 
+          ]
+      },
+      {
+        "unitType": "Tanith Ghost",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+          "Rawne’s lascarbine", "straight silver knife"
+
+          ]
+      },
+      {
+        "unitType": "Tanith Ghost",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+         " Larkin’s long-las", "straight silver knife" 
+          ]
+      },
+      {
+        "unitType": "Tanith Ghost",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+            "Bragg’s autocannon","straight silver knife"
+          ]
+      },
+      {
+        "unitType": "Tanith Ghost",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+         "lascarbine", "Mkoll’s straight silver knife"
           ]
       }
     ],
   "options": [
       {
-        "count": [1],
-        "points": 415
+        "count": [1,1,1,1,1,1],
+        "points": 100
       }
     ]
 }

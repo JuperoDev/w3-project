@@ -13,7 +13,7 @@ const protectedRoutes: string[] = [
   '/astartes',
 ];
 
-// Define "wh40k" as the namespace for your application
+// Define "wh40k" as the namespace for the application
 const namespace = 'wh40k';
 
 export default function () {

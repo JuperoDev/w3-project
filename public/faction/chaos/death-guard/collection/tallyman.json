@@ -1,0 +1,92 @@
+{
+  "parentUnit": "Tallyman",
+  "factionKeywords": [
+    "death guard"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Tallymen are the preachers of Nurgle’s sevenfold doctrine. They are bedecked with rotten scrolls covered in frenzied scrawls and tallies. Nurglings crawl around them, bearing more tomes and parchments. Through gigantic vox speakers Tallymen bellow incantations, spurring on the Death Guard.",
+  "keywords": [
+    "infantry",
+    "character",
+    "chaos",
+    "nurgle",
+    "tallyman"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Infected plasma pistol - standard",
+      "modifiers": [
+        "pistol",
+        "sustained hits d3"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Infected plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol",
+        "sustained hits d3"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Nurgle’s Gift (Aura)"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Malicious Calculations:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+      },
+      {
+        "name": "The Seven-fold Chant:",
+        "description": "In your Command phase , if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

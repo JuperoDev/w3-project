@@ -1,0 +1,117 @@
+{
+  "parentUnit": "Myphitic Blight-haulers",
+  "factionKeywords": [
+    "death guard"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Belching stinking gases that hang thick in the air, Myphitic Blight-haulers use their all-terrain mobility and heavy armaments to hunt down the enemy’s tanks and provide fire support even in the most dangerous environments. Should the enemy get too close, these Daemon Engines pounce with fanged maws and sprays of bile.",
+  "keywords": [
+    "vehicle",
+    "chaos",
+    "nurgle",
+    "daemon",
+    "smoke",
+    "myphitic blight-haulers"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 9,
+    "salvation": 3,
+    "wounds": 10,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bile spurt",
+      "modifiers": [
+        "lethal hits"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - frag",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Nurgle’s Gift (Aura)"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Tank Hunters:",
+        "description": "Each time a model in this unit makes a ranged attack that targets a VEHICLE unit, add 1 to the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bile spurt",
+      "modifiers": "lethalhits",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Missile launcher – frag",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Gnashing maw",
+      "modifiers": "lethalhits",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

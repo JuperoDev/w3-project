@@ -1,0 +1,81 @@
+{
+  "parentUnit": "Lord Of Virulence",
+  "factionKeywords": [
+    "death guard"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Tubes and pipes erupt in profusion from the Lord of Virulence’s armour. From these gout noxious fumes, putrid eruptions whose hue and stench guide the fire of artillery engines behind the lines. Behind them their flensefrond cloaks leave a trail of sickening mucosal slime for hungry Daemon Engines to follow.",
+  "keywords": [
+    "infantry",
+    "character",
+    "chaos",
+    "nurgle",
+    "terminator",
+    "lord of virulence"
+  ],
+  "attributes": {
+    "movement": 4,
+    "toughness": 6,
+    "salvation": 2,
+    "wounds": 6,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin plague spewer",
+      "modifiers": [
+        "anti-infantry 2+",
+        "ignores cover",
+        "torrent",
+        "twin-linked"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Nurgle’s Gift (Aura)"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Master of Destruction:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll ."
+      },
+      {
+        "name": "Blight Bombardment:",
+        "description": "Each time a friendly DEATH GUARD model makes an attack with a Blast weapon that targets a unit that is visible to this model, add 1 to the Hit roll and that attack has the [IGNORES COVER] ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heavy plague fist",
+      "modifiers": "lethalhits",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

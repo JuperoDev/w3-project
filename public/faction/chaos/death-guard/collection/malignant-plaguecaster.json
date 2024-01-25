@@ -1,0 +1,116 @@
+{
+  "parentUnit": "Malignant Plaguecaster",
+  "factionKeywords": [
+    "death guard"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Every foetid fibre of a Malignant Plaguecaster’s body is rotted and decayed. They are living conduits for the Garden of Nurgle’s miasmas and maladies. Foul blights reside within their roiling, bloated frames, and when they are unleashed in an eruption of vomit and gases they liquefy metal, stone and flesh.",
+  "keywords": [
+    "infantry",
+    "character",
+    "chaos",
+    "nurgle",
+    "psyker",
+    "malignant plaguecaster"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Plague bolt pistol",
+      "modifiers": [
+        "lethal hits",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plague Wind - witchfire",
+      "modifiers": [
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plague Wind - focused witchfire",
+      "modifiers": [
+        "hazardous",
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Nurgle’s Gift (Aura)"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Gift of Contagion (Psychic):",
+        "description": "In your Shooting phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the start of your next Shooting phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll ."
+      },
+      {
+        "name": "Pestilent Fallout (Psychic):",
+        "description": "In your Shooting phase , after this model has shot, if one or more of those attacks made with its Plague Wind scored a wound against an enemy INFANTRY unit, until the start of your next turn, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Plague bolt pistol",
+      "modifiers": "lethalhits,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Corrupted staff",
+      "modifiers": "lethalhits,psychic",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "D3"
+    }
+  ]
+}

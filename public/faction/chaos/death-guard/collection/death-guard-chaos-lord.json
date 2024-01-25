@@ -1,0 +1,205 @@
+{
+  "parentUnit": "Death Guard Chaos Lord",
+  "factionKeywords": [
+    "death guard"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Death Guard Lords hold positions of command throughout the Legion’s structure. All are powerful warriors, proving their right to rule through acts of destruction, corruption and endurance. They combine all the tactical nous of a Space Marine champion with a deep-seated desire to spread Grandfather Nurgle’s blessings.",
+  "keywords": [
+    "infantry",
+    "character",
+    "chaos",
+    "nurgle",
+    "grenades",
+    "chaos lord"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 3,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plague bolt pistol",
+      "modifiers": [
+        "lethal hits",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plague combi-bolter",
+      "modifiers": [
+        "lethal hits",
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Nurgle’s Gift (Aura)"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Chaos Lord:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Desiccation Conduit (Aura):",
+        "description": "While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s plague bolt pistol can be replaced with one of the following",
+      "items": [
+        "1 combi-weapon",
+        "1 plague combi-bolter",
+        "1 plague fist",
+        "1 plague-encrusted exalted weapon",
+        "1 plasma pistol"
+      ]
+    },
+    {
+      "description": "This model’s Astartes chainsword can be replaced with one of the following",
+      "items": [
+        "1 plague fist",
+        "1 plague-encrusted exalted weapon"
+      ]
+    },
+    {
+      "description": "This model’s plague bolt pistol and Astartes chainsword can be replaced with 1 twin lighting claws.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Combi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Plague bolt pistol",
+      "modifiers": "lethalhits,pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Plague combi-bolter",
+      "modifiers": "lethalhits,rapidfire2",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "7",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Plague fist",
+      "modifiers": "lethalhits",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Plague-encrusted exalted weapon",
+      "modifiers": "lethalhits",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Twin lightning claws",
+      "modifiers": "twin-linked",
+      "attacks": "7",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

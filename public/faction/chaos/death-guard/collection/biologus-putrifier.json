@@ -1,0 +1,102 @@
+{
+  "parentUnit": "Biologus Putrifier",
+  "factionKeywords": [
+    "death guard"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Biologus Putrifiers take obscene delight in developing myriad plagues to spread in battle. They carry all manner of blight grenades, bloated with the latest strains of blossoming contagions. With their injector pistols, Biologus Putrifiers implant killing maladies into the enemy before extracting samples of their ruined flesh.",
+  "keywords": [
+    "infantry",
+    "character",
+    "chaos",
+    "nurgle",
+    "grenades",
+    "biologus putrifier"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hyper blight grenades",
+      "modifiers": [
+        "assault",
+        "blast",
+        "lethal hits"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Injector pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 3,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1",
+      "Leader"
+    ],
+    "faction": [
+      "Nurgle’s Gift (Aura)"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Foul Infusion:",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+      },
+      {
+        "name": "Explosive Maladies:",
+        "description": "Once per battle, in your Shooting phase , you can target this model with the Grenade Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hyper blight grenades",
+      "modifiers": "assault,blast,lethalhits",
+      "attacks": "D6",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Plague knives",
+      "modifiers": "lethalhits",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

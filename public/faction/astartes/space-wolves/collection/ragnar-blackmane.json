@@ -1,0 +1,80 @@
+{
+  "parentUnit": "Ragnar Blackmane",
+  "factionKeywords": [
+    "space wolves",
+    "adeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Supremely confident and eager always to be first into the fray, Wolf Lord Ragnar Blackmane regularly leads his Great Company in devastating planetary invasions. No longer as headstrong as in his youth, Ragnar’s berserk rages are still furious hurricanes of violence, and his terrifying howls freeze the blood of his foes.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "imperium",
+    "grenades",
+    "tacticus",
+    "captain",
+    "ragnar blackmane"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "War Howl:",
+        "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced ."
+      },
+      {
+        "name": "Battle-lust:",
+        "description": "Each time this model ends a Charge move , until the end of the turn, add 2 to the Attacks and Strength characteristics of this model’s Frostfang."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Frostfang",
+      "modifiers": "sustainedhits1",
+      "attacks": "8",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 3,
+      "damage": "2"
+    }
+  ]
+}

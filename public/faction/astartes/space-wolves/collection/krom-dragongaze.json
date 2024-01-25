@@ -1,0 +1,79 @@
+{
+  "parentUnit": "Krom Dragongaze",
+  "factionKeywords": [
+    "space wolves",
+    "adeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Belligerent, violent and seldom suffering anyone gainsaying his bloodthirsty tactics, Krom Dragongaze is notoriously short of temper. His fierce gaze is petrifying to lesser men, yet his critical eye seeks deeds of valour and his Great Company boasts many veteran Wolf Guard. Wildly competitive, Krom refuses to accept defeat.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "grenades",
+    "imperium",
+    "captain",
+    "krom dragongaze"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Refuse to Accept Defeat:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength , and add 1 to the Wound roll as well if that unit is Below Half-strength ."
+      },
+      {
+        "name": "The Fierce Eye:",
+        "description": "In your Shooting phase , you can select one enemy INFANTRY unit within 12\" of and visible to this model. That enemy unit must take a Battle-shock test ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Wyrmclaw",
+      "modifiers": "lethalhits",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

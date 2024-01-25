@@ -1,0 +1,86 @@
+{
+  "parentUnit": "Canis Wolfborn",
+  "factionKeywords": [
+    "space wolves",
+    "adeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The most feral of Harald Deathwolf’s veterans, Canis Wolfborn moves with animalistic assurance. Believed to have been raised by a she-wolf, Canis speaks to his brothers in snarls and growls, and on the battlefield his frenzied rages, slashing claws and Thunderwolf’s jaws are all the communication he needs.",
+  "keywords": [
+    "mounted",
+    "character",
+    "epic hero",
+    "imperium",
+    "canis wolfborn"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 6,
+    "salvation": 3,
+    "wounds": 6,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Born of Wolves:",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Alpha Predator:",
+        "description": "Each time this model ends a Charge move , select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds ; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy units suffers D3+3 mortal wounds."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Crushing teeth and claws",
+      "modifiers": "extraattacks",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Wolf claws",
+      "modifiers": "twin-linked",
+      "attacks": "8",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "parentUnit": "Wolf Guard Pack Leader With Jump Pack",
+  "factionKeywords": [
+    "space wolves",
+    "adeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Wolf Guard entrusted with leading packs of free-spirited Skyclaws wear powerful jump packs that allow them to pounce on the foe in arcing leaps. Their stern composure reins in the reckless excesses of their headstrong wards, but in the bloodletting brutality of the charge, the Pack Leader is a blizzard of furious destruction.",
+  "keywords": [
+    "infantry",
+    "character",
+    "jump pack",
+    "fly",
+    "grenades",
+    "imperium",
+    "pack leader",
+    "wolf guard pack leader with jump pack"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Inspiring Leader:",
+        "description": "While this model is leading a unit, once per battle, when a Battle-shock test is taken for that unit, you can re-roll that test."
+      },
+      {
+        "name": "Pack Leader:",
+        "description": "This model cannot be your Warlord and cannot be given Enhancements ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s bolt pistol and Astartes chainsword can be replaced with 1 twin lightning claws.",
+      "items": []
+    },
+    {
+      "description": "This model’s bolt pistol and Astartes chainsword can be replaced with two different weapons from the following list",
+      "items": [
+        "1 bolt pistol",
+        "1 combi-weapon",
+        "1 plasma pistol",
+        "1 storm bolter",
+        "1 Astartes chainsword",
+        "1 power fist",
+        "1 power weapon",
+        "1 thunder hammer",
+        "1 storm shield"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Plasma pistol – standard",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "modifiers": "devastatingwounds",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Twin lightning claws",
+      "modifiers": "twin-linked",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

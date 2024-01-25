@@ -1,0 +1,512 @@
+{
+  "parentUnit": "Wolf Scouts",
+  "factionKeywords": [
+    "adeptus astartes",
+    "space wolves"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Wolf Scouts are brooding stalkers and taciturn killers, at ease prowling behind enemy lines or at a battle’s edges. Commonly experienced battle-brothers rather than neophytes, Wolf Scouts employ patience and guile in their roles as reconnaissance experts and forward hunters, sniffing out isolated foes and falling upon them with fury.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "smoke",
+    "imperium",
+    "scout squad",
+    "wolf scouts"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 4,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Astartes shotgun",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "ANTI-INFANTRY 4+",
+        "DEVASTATING WOUNDS",
+        "RAPID FIRE 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "heavy",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Flamer",
+      "modifiers": [
+        "IGNORES COVER",
+        "TORRENT"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Grav-gun",
+      "modifiers": [
+        "ANTI-VEHICLE 2+"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Grav-pistol",
+      "modifiers": [
+        "ANTI-VEHICLE 2+",
+        "PISTOL"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hand flamer",
+      "modifiers": [
+        "IGNORES COVER",
+        "PISTOL",
+        "TORRENT"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": [
+        "MELTA 2",
+        "PISTOL"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": [
+        "MELTA 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - frag",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - krak",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma gun - standard",
+      "modifiers": [
+        "RAPID FIRE 1"
+      ],
+      "range": 24,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma gun - supercharge",
+      "modifiers": [
+        "HAZARDOUS",
+        "RAPID FIRE 1"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "RAPID FIRE 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Guerrilla Tactics:",
+        "description": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy models, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "1 Wolf Scout’s boltgun and bolt pistol can be  replaced with one of the following",
+      "items": [
+        "1 bolt pistol and 1 power weapon",
+        "1 plasma pistol and 1 boltgun"
+      ]
+    },
+    {
+      "description": "1 Wolf Scout’s boltgun can be replaced with one of the following",
+      "items": [
+        "1 flamer",
+        "1 grav-gun",
+        "1 heavy bolter",
+        "1 meltagun",
+        "1 missile launcher",
+        "1 plasma gun"
+      ]
+    },
+    {
+      "description": "Any number of models can each have their boltgun replaced with one of the following",
+      "items": [
+        "1 Astartes shotgun",
+        "1 combat knife"
+      ]
+    },
+    {
+      "description": "The Wolf Scout Pack Leader’s bolt pistol and boltgun can be replaced with with 1 twin lightning claws, or two different weapons from the following list",
+      "items": [
+        "1 bolt pistol",
+        "1 boltgun",
+        "1 combi-weapon",
+        "1 grav-pistol",
+        "1 hand flamer",
+        "1 inferno pistol",
+        "1 plasma pistol",
+        "1 storm bolter",
+        "1 Astartes chainsword",
+        "1 power fist",
+        "1 power weapon",
+        "1 thunder hammer."
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes shotgun",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": "ANTI-INFANTRY4+,DEVASTATINGWOUNDS,RAPIDFIRE1",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "heavy,sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Flamer",
+      "modifiers": "IGNORESCOVER,TORRENT",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Grav-gun",
+      "modifiers": "ANTI-VEHICLE2+",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Grav-pistol",
+      "modifiers": "ANTI-VEHICLE2+,PISTOL",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Hand flamer",
+      "modifiers": "IGNORESCOVER,PISTOL,TORRENT",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": "MELTA2,PISTOL",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D3"
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": "MELTA2",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Missile launcher – frag",
+      "modifiers": "blast,heavy",
+      "attacks": "D6",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Plasma pistol – standard",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Plasma gun – standard",
+      "modifiers": "RAPIDFIRE1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Combat knife",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "modifiers": "devastatingwounds",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Twin lightning claws",
+      "modifiers": "twin-linked",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

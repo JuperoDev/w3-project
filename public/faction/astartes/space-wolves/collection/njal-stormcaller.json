@@ -1,0 +1,118 @@
+{
+  "parentUnit": "Njal Stormcaller",
+  "factionKeywords": [
+    "space wolves",
+    "adeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Summoning ice-toothed blizzards to scatter his foes, Njal Stormcaller is an elemental focus of psychic fury. He is High Rune Priest of the Space Wolves and wields a crackling staff by which he nullifies enemy sorceries.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "psyker",
+    "imperium",
+    "terminator",
+    "njal stormcaller"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 2,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Living Lightning - witchfire",
+      "modifiers": [
+        "psychic",
+        "sustained hits 2"
+      ],
+      "range": 24,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Living Lightning - focused witchfire",
+      "modifiers": [
+        "hazardous",
+        "psychic",
+        "sustained hits 2"
+      ],
+      "range": 24,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Stormcaller (Psychic):",
+        "description": "While this model is leading a unit, models in that unit have the Stealth ability."
+      },
+      {
+        "name": "Runic Armour:",
+        "description": "Each time a Psychic Attack targets this model’s unit, subtract 1 from the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Staff of the Stormcaller",
+      "modifiers": "psychic,sustainedhits2",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "D3"
+    }
+  ]
+}

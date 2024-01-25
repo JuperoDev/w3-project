@@ -1,0 +1,209 @@
+{
+  "parentUnit": "Stormfang Gunship",
+  "factionKeywords": [
+    "space wolves",
+    "adeptus astartes"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Dominating the skies like the dread ice wyrms of myth, Stormfang Gunships are heavily armed and armoured vessels, bludgeoning their way through enemy aerial assets. Each is built around a monstrous helfrost destructor that freezes its target; even monstrous flesh is ice-burned, and unyielding tank armour swiftly cracks and shatters.",
+  "keywords": [
+    "vehicle",
+    "aircraft",
+    "fly",
+    "transport",
+    "stormfang gunship"
+  ],
+  "attributes": {
+    "movement": 0,
+    "toughness": 0,
+    "salvation": 0,
+    "wounds": 0,
+    "leadership": 0,
+    "objectiveControl": 0,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Helfrost destructor - dispersed",
+      "modifiers": [
+        "sustained hits d3"
+      ],
+      "range": 36,
+      "strength": 11,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Helfrost destructor - focused",
+      "modifiers": [
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Skyhammer missile launcher",
+      "modifiers": [
+        "anti-fly 2+"
+      ],
+      "range": 48,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin lascannon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin multi-melta",
+      "modifiers": [
+        "melta 2",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin stormstrike missile launcher",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6",
+      "Hover"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Frozen Prey:",
+        "description": "In your Shooting phase , after this model has shot, if an enemy MONSTER or VEHICLE unit was hit by one or more of those attacks made with this model’s helfrost destructor, until the end of your opponent’s next turn, that enemy unit is Frozen. While a unit is Frozen, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s 2 skyhammer missile launchers can be replaced with one of the following",
+      "items": [
+        "2 twin multi-meltas",
+        "2 twin heavy bolters"
+      ]
+    },
+    {
+      "description": "This model’s twin stormstrike missile launcher can be replaced with 1 twin lascannon.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Helfrost destructor – dispersed",
+      "modifiers": "sustainedhitsd3",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 11,
+      "armor-penetration": 3,
+      "damage": "7"
+    },
+    {
+      "name": "Skyhammer missile launcher",
+      "modifiers": "anti-fly2+",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": "sustainedhits1,twin-linked",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Twin lascannon",
+      "modifiers": "twin-linked",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Twin multi-melta",
+      "modifiers": "melta2,twin-linked",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Armoured hull",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ const namespace = 'wh40k';
 export default function () {
   const route = useRoute();
   const router = useRouter();
-  const passwordStore = useWh40kPasswordStore(); // Use the store in your middleware
+  const passwordStore = useWh40kPasswordStore(); // Use the store in middleware
 
   // Check if the user has already entered the correct password
   const hasEnteredPassword = passwordStore.password; // Access the password from the store

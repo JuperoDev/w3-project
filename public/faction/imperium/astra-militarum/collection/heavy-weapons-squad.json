@@ -1,0 +1,200 @@
+{
+  "parentUnit": "Heavy Weapons Squad",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "While massed infantry can overwhelm the foe, it often falls to Heavy Weapons Squads to deliver the killing blow. These teams of gun crews are able to swiftly set up their mobile heavy weapons. They bolster battle lines and provide close fire support with adaptable load-outs of precise or indiscriminate firepower.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "grenades",
+    "regiment",
+    "heavy weapons squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 5,
+    "wounds": 2,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Autocannon",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "heavy",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Las small arms",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 18,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - frag",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - krak",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Mortar",
+      "modifiers": [
+        "blast",
+        "heavy",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Covering Fire: Each time you target this unit with the Fire Overwatch Stratagem",
+      "while resolving that Stratagem",
+      "hits are scored on unmodified Hit rolls of 5+",
+      "or on unmodified Hit rolls of 4+ instead if this unit is within 6\" of one or more friendly PLATOON units."
+    ],
+    "faction": [],
+    "otherAbilities": []
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their heavy bolter replaced with one of the following",
+      "items": [
+        "1 autocannon",
+        "1 lascannon",
+        "1 missile launcher",
+        "1 mortar"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Autocannon",
+      "modifiers": "heavy",
+      "attacks": "2",
+      "weapons-skills": "5+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "heavy,sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Las small arms",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": "heavy",
+      "attacks": "1",
+      "weapons-skills": "5+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Missile launcher – frag",
+      "modifiers": "blast,heavy",
+      "attacks": "D6",
+      "weapons-skills": "5+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Weapons team close combat weapons",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

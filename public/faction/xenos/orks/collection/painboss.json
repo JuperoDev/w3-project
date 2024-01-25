@@ -1,6 +1,6 @@
 {
   "parentUnit": "Painboss",
-  "factionKeyword": [
+  "factionKeywords": [
     "orks"
   ],
   "damaged": {},
@@ -12,7 +12,15 @@
     "beast snagga",
     "painboss"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 4,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
@@ -23,9 +31,32 @@
     "faction": [
       "Waaagh!"
     ],
-    "otherAbilities": {
-      "Dok’s Toolz:": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
-      "Sawbonez:": "At the end of your Movement phase , select one friendly BEAST SNAGGA CHARACTER model within 3\" of this model. That model is healed and regains up to 3 lost wounds. Each model can only be healed once per turn."
+    "otherAbilities": [
+      {
+        "name": "Dok’s Toolz:",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+      },
+      {
+        "name": "Sawbonez:",
+        "description": "At the end of your Movement phase , select one friendly BEAST SNAGGA CHARACTER model within 3\" of this model. That model is healed and regains up to 3 lost wounds. Each model can only be healed once per turn."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 grot orderly.",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Beast Snagga klaw",
+      "modifiers": "anti-monster4+,anti-vehicle4+",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
 }

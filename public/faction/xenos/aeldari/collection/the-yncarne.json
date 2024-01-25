@@ -1,0 +1,81 @@
+{
+  "parentUnit": "The Yncarne",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Once it has torn into realspace, the Yncarne advances on its enemies amidst a vortex of deathly whispers. It is a roaring psychic hurricane that rips the life from those who earn its ire. Nearby Ynnari are invigorated by its chilling power, while foes are turned to dust by the Yncarne’s gaze, or sliced in two by its sweeping blows.",
+  "keywords": [
+    "monster",
+    "character",
+    "epic hero",
+    "fly",
+    "psyker",
+    "daemon",
+    "ynnari",
+    "the yncarne"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 10,
+    "salvation": 2,
+    "wounds": 12,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Swirling soul energy",
+      "modifiers": [
+        "ignores cover",
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Inevitable Death:",
+        "description": "Once per phase, if this model is on the battlefield, when another unit is destroyed , just after removing the last model in that unit, you can remove this model from the battlefield and set it up again as close as possible to where that destroyed model was and not within Engagement Range of any enemy models."
+      },
+      {
+        "name": "Deathly Form:",
+        "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Vilith-zhar, the Sword of Souls – strike",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 12,
+      "armor-penetration": 4,
+      "damage": "D6+1"
+    }
+  ]
+}

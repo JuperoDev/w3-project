@@ -1,0 +1,340 @@
+{
+  "parentUnit": "Corsair Voidscarred",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Voidscarred are hardened veterans of a life of piracy. These Corsairs have travelled the stars for centuries, and have seen the worst and the best the galaxy has to offer. Many have developed unique skills and fighting styles over the years, and carry specialist wargear into battle.",
+  "keywords": [
+    "keywords – all models: infantry",
+    "grenades",
+    "anhrathe",
+    "corsair voidscarredway seeker: psyker"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 4,
+    "wounds": 1,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Corsair shredder",
+      "modifiers": [
+        "assault",
+        "torrent"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Corsair blaster",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Executioner",
+      "modifiers": [
+        "anti-infantry 2+",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Fusion pistol",
+      "modifiers": [
+        "assault",
+        "melta 2",
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Neuro disruptor",
+      "modifiers": [
+        "anti-infantry 2+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Ranger long rifle",
+      "modifiers": [
+        "heavy",
+        "precision"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken rifle",
+      "modifiers": [
+        "assault",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Wraithcannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Scouts 7\""
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Channeller Stones:",
+        "description": "Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of Corsair Voidscarred can each have their shuriken pistol and Aeldari power sword replaced with 1 shuriken rifle.",
+      "items": []
+    },
+    {
+      "description": "The Voidscarred Felarch’s shuriken pistol can be replaced with one of the following",
+      "items": [
+        "1 neuro disruptor",
+        "1 shuriken rifle"
+      ]
+    },
+    {
+      "description": "The Voidscarred Felarch can be equipped with 1 mistshield.",
+      "items": []
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Corsair  Voidscarred’s shuriken rifle can be replaced with one of the following",
+      "items": [
+        "1 Corsair blaster",
+        "1 Corsair shredder"
+      ]
+    },
+    {
+      "description": "If this unit contains 10 models, 1 Corsair Voidscarred’s shuriken rifle can be replaced with one of the following",
+      "items": [
+        "1 shuriken cannon",
+        "1 wraithcannon"
+      ]
+    },
+    {
+      "description": "If this unit contains 10 models, 1 Corsair Voidscarred’s shuriken rifle can be replaced with 1 Ranger long rifle.",
+      "items": []
+    },
+    {
+      "description": "If this unit contains 10 models, 1 Corsair Voidscarred’s Aeldari power sword can be  replaced with 1 fusion pistol.",
+      "items": []
+    },
+    {
+      "description": "1 Corsair Voidscarred model equipped with a shuriken pistol and Aeldari power sword can be equipped with 1 Faolchú.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Corsair shredder",
+      "modifiers": "assault,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Corsair blaster",
+      "modifiers": "assault",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Executioner",
+      "modifiers": "anti-infantry2+,psychic",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "D3"
+    },
+    {
+      "name": "Fusion pistol",
+      "modifiers": "assault,melta2,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D3"
+    },
+    {
+      "name": "Neuro disruptor",
+      "modifiers": "anti-infantry2+,assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Ranger long rifle",
+      "modifiers": "heavy,precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": "assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Shuriken rifle",
+      "modifiers": "assault,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Aeldari power sword",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Paired Hekatarii blades",
+      "modifiers": "twin-linked",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 3,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Witch staff",
+      "modifiers": "anti-infantry2+,psychic",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "D3"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "parentUnit": "Ratling Snipers",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Diminutive, keen-eyed and instinctively stealthy, the abhuman Ratlings serve the Astra Militarum primarily as outstanding snipers; it is said they can take the head off a heretic with their rifles from over a mile away. Ratlings are also employed as infiltrators and forward scouts, able to observe the enemy unseen.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "ratling snipers"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 2,
+    "salvation": 6,
+    "wounds": 1,
+    "leadership": 8,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Sniper rifle",
+      "modifiers": [
+        "heavy",
+        "precision"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Stealth"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "sniper rifle; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "5+",
+      "strength": 2,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

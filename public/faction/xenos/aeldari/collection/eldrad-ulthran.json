@@ -1,0 +1,102 @@
+{
+  "parentUnit": "Eldrad Ulthran",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "One of the most powerful Aeldari psykers ever to have lived, when Eldrad Ulthran takes to the field his enemies’ plans are already known to him. Such is Eldrad’s psychic might that he can break Titans and banish the mightiest of daemons, and over the millennia he has slain kings and champions beyond number.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "psyker",
+    "farseer",
+    "eldrad ulthran"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 4,
+    "salvation": 6,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Mind War",
+      "modifiers": [
+        "anti-character 4+",
+        "precision",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Diviner of Futures:",
+        "description": "At the start of the battle, when making your first Strands of Fate roll , roll an additional three D6 (this means that roll will consist of fifteen D6)."
+      },
+      {
+        "name": "Doom (Psychic):",
+        "description": "At the start of your Shooting phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 2+, until the end of the turn, each time a friendly AELDARI model makes an attack that targets that enemy unit, add 1 to the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Shuriken pistol",
+      "modifiers": "assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "The Staff of Ulthamar and witchblade",
+      "modifiers": "anti-infantry2+,psychic",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ]
+}

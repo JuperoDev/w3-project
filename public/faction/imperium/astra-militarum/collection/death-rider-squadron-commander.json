@@ -1,0 +1,147 @@
+{
+  "parentUnit": "Death Rider Squadron Commander",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Death Rider inductees are chosen for their initiative, and the most sharp-minded recruits are made Squadron Commanders. Leading shock cavalry assaults is an exceptionally hazardous role, but those who survive are often elevated to higher commands, where their callous disregard for casualties continues to serve them well.",
+  "keywords": [
+    "mounted",
+    "character",
+    "imperium",
+    "grenades",
+    "officer",
+    "death rider squadron commander"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 4,
+    "wounds": 5,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Laspistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Voice of Command"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Rapid Reconnaissance:",
+        "description": "While this model is leading a unit, models in that unit have the Infiltrators ability."
+      },
+      {
+        "name": "Glorious Charge:",
+        "description": "Each time this model makes a Charge move , until the end of the turn, its Death Rider hunting lance has the [DEVASTATING WOUNDS] ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s laspistol can be replaced with one of the following",
+      "items": [
+        "1 bolt pistol",
+        "1 plasma pistol"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Laspistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Death Rider hunting lance",
+      "modifiers": "lance",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Savage claws",
+      "modifiers": "extraattacks",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

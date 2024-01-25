@@ -1,6 +1,6 @@
 {
   "parentUnit": "Boyz",
-  "factionKeyword": [
+  "factionKeywords": [
     "orks"
   ],
   "damaged": {},
@@ -13,26 +13,15 @@
     "grenades",
     "boyz"
   ],
-  "attributes": [
-    {
-      "name": "boy",
-      "movement": 6,
-      "toughness": 5,
-      "save": 5,
-      "wounds": 1,
-      "leadership": 7,
-      "objetiveControl": 2
-    },
-    {
-      "name": "boss nob",
-      "movement": 6,
-      "toughness": 5,
-      "save": 5,
-      "wounds": 2,
-      "leadership": 7,
-      "objetiveControl": 2
-    }
-  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 1,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -42,10 +31,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -57,10 +46,10 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -70,10 +59,10 @@
       ],
       "range": 24,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -83,10 +72,10 @@
       ],
       "range": 18,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -96,10 +85,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -107,17 +96,111 @@
     "core": [
       "FACTION: Waaagh!"
     ],
-    "faction": [
-      "Breakin’ Heads: While a WARBOSS model is leading this unit",
-      "in your Command phase",
-      "the first time a Battle-shock test is failed for this unit that phase",
-      "if it is within range of an objective marker",
-      "you can choose to break some heads. If you do",
-      "1 Bodyguard model in this unit is destroyed and you can re-roll that test."
-    ],
-    "otherAbilities": {
-      "The Boss Nob is equipped with:": "slugga; big choppa.",
-      "Every Boy is equipped with:": "slugga; choppa."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "The Boss Nob is equipped with:",
+        "description": "slugga; big choppa."
+      },
+      {
+        "name": "Every Boy is equipped with:",
+        "description": "slugga; choppa."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Boss Nob’s big choppa can be replaced with 1 power klaw.",
+      "items": []
+    },
+    {
+      "description": "The Boss Nob’s big choppa and slugga can be replaced with 1 kombi-weapon and 1 close combat weapon.",
+      "items": []
+    },
+    {
+      "description": "Any number of Boyz can each have their slugga and choppa replaced with 1 shoota and 1 close combat weapon.",
+      "items": []
+    },
+    {
+      "description": "For every 10 models in this unit, 1 Boy’s choppa and slugga can be replaced with one of the following",
+      "items": [
+        "1 big shoota and 1 close combat weapon",
+        "1 rokkit launcha and 1 close combat weapon"
+      ]
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Big shoota",
+      "modifiers": "rapidfire2",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Kombi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "5+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Rokkit launcha",
+      "modifiers": "blast",
+      "attacks": "D3",
+      "weapons-skills": "5+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "3"
+    },
+    {
+      "name": "Shoota",
+      "modifiers": "rapidfire1",
+      "attacks": "2",
+      "weapons-skills": "5+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Big choppa",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Choppa",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Power klaw",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
 }

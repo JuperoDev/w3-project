@@ -1,6 +1,6 @@
 {
   "parentUnit": "Vyper",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -11,7 +11,15 @@
     "fly",
     "vypers"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 14,
+    "toughness": 6,
+    "salvation": 3,
+    "wounds": 6,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -21,10 +29,10 @@
       ],
       "range": 48,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -34,10 +42,10 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -48,10 +56,10 @@
       ],
       "range": 18,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -62,8 +70,78 @@
     "faction": [
       "Strands of Fate"
     ],
-    "otherAbilities": {
-      "Harassment Fire:": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover ."
+    "otherAbilities": [
+      {
+        "name": "Harassment Fire:",
+        "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their shuriken cannon replaced with one of the following",
+      "items": [
+        "1 Aeldari missile launcher",
+        "1 bright lance",
+        "1 scatter laser",
+        "1 starcannon"
+      ]
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Aeldari missile launcher – starshot",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 10,
+      "armor-penetration": 2,
+      "damage": "D6"
+    },
+    {
+      "name": "Bright lance",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+2"
+    },
+    {
+      "name": "Scatter laser",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Starcannon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "2"
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Wraithbone hull",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
 }

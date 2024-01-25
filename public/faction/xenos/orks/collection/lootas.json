@@ -1,6 +1,6 @@
 {
   "parentUnit": "Lootas",
-  "factionKeyword": [
+  "factionKeywords": [
     "orks"
   ],
   "damaged": {},
@@ -10,7 +10,15 @@
     "infantry",
     "lootas"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 1,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -20,10 +28,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -34,10 +42,10 @@
       ],
       "range": 48,
       "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -47,10 +55,10 @@
       ],
       "range": 24,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -60,10 +68,10 @@
       ],
       "range": 24,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -71,14 +79,63 @@
     "core": [
       "FACTION: Waaagh!"
     ],
-    "faction": [
-      "Dat’s Our Loot!: Each time a model in this unit makes a ranged attack",
-      "re-roll a Hit roll of 1. If that attack targets a unit that is within range of an objective marker",
-      "you can re-roll the Hit roll instead."
-    ],
-    "otherAbilities": {
-      "Every Spanner is equipped with:": "big shoota; close combat weapon.",
-      "Every Loota is equipped with:": "deffgun; close combat weapon."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every Spanner is equipped with:",
+        "description": "big shoota; close combat weapon."
+      },
+      {
+        "name": "Every Loota is equipped with:",
+        "description": "deffgun; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of Spanners can each have their big shoota replaced with one of the following",
+      "items": [
+        "1 kustom mega-blasta",
+        "1 rokkit launcha"
+      ]
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Big shoota",
+      "modifiers": "rapidfire2",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Deffgun",
+      "modifiers": "heavy,rapidfire1",
+      "attacks": "2",
+      "weapons-skills": "6+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Kustom mega-blasta",
+      "modifiers": "hazardous",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "D6"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
 }

@@ -1,0 +1,150 @@
+{
+  "parentUnit": "Burna Boyz",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The burna is a cutting torch intended for slicing up battlefield wreckage. Serendipitously, it also works well when searing through an enemy’s armour at close quarters, or, with a twist of its nozzle, can instead belch a tongue of roaring flame over the foe. Needless to say, the most pyromaniacally inclined Orks delight in doing both.",
+  "keywords": [
+    "infantry",
+    "burna boyz"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 1,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Big shoota",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Burna",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Kustom mega-blasta",
+      "modifiers": [
+        "hazardous"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Rokkit launcha",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Waaagh!"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every Spanner is equipped with:",
+        "description": "close combat weapon; big shoota."
+      },
+      {
+        "name": "Every Burna Boy is equipped with:",
+        "description": "burna; cuttin’ flames."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of Spanners can each have their big shoota replaced with one of the following",
+      "items": [
+        "1 kustom mega-blasta",
+        "1 rokkit launcha"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Big shoota",
+      "modifiers": "rapidfire2",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Burna",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Kustom mega-blasta",
+      "modifiers": "hazardous",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "D6"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Cuttin’ flames",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

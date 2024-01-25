@@ -1,0 +1,123 @@
+{
+  "parentUnit": "Dire Avengers",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Furious in attack and immovable in defence, Dire Avengers wield Avenger catapults that unleash punishing bursts of monomolecular shurikens. Drawing on their faultless battle instincts, they always know when to launch lightning-fast assaults and when to fall back and draw the enemy into a kill zone.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "dire avengers"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 4,
+    "wounds": 1,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Avenger shuriken catapult",
+      "modifiers": [
+        "assault",
+        "lethal hits"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Shimmershield:",
+        "description": "The bearer has a 4+ invulnerable save ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "If this unit’s Dire Avenger Exarch is equipped with 1 Avenger shuriken catapult, it can be equipped with 1 additional Avenger shuriken catapult.",
+      "items": []
+    },
+    {
+      "description": "The Dire Avenger Exarch’s Avenger shuriken catapult can be replaced with 1 shuriken pistol and one of the following",
+      "items": [
+        "1 diresword",
+        "1 power glaive"
+      ]
+    },
+    {
+      "description": "The Dire Avenger Exarch’s shuriken pistol can be replaced with",
+      "items": [
+        "1 shimmershield"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Avenger shuriken catapult",
+      "modifiers": "assault,lethalhits",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Diresword",
+      "modifiers": "devastatingwounds",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Power glaive",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

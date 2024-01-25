@@ -1,0 +1,103 @@
+{
+  "parentUnit": "Shroud Runners",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Streaking into battle as barely perceived blurs, Shroud Runners effortlessly outmanoeuvre their enemies while harassing them with pinpoint sniper fire. Each jetbike acts as the mount for a pair of skilled Aeldari Rangers, the pillion rider often entering a marksman’s trance so as to aim and fire while travelling at incredible speeds.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "shroud runners"
+  ],
+  "attributes": {
+    "movement": 14,
+    "toughness": 4,
+    "salvation": 4,
+    "wounds": 3,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Ranger long rifle",
+      "modifiers": [
+        "precision"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Scouts 9\"",
+      "Stealth"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Target Acquisition:",
+        "description": "At the start of your Shooting phase , select one enemy unit within 12\" of and visible to this unit. Until the end of the phase, ranged weapons equipped by friendly AELDARI models have the [LETHAL HITS] ability when targeting that unit."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Ranger long rifle",
+      "modifiers": "precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Scatter laser",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

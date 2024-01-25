@@ -1,6 +1,6 @@
 {
   "parentUnit": "Shadowseer",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -14,7 +14,15 @@
     "harlequins",
     "shadowseer"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 8,
+    "toughness": 3,
+    "salvation": 6,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -26,10 +34,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -40,10 +48,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -55,9 +63,41 @@
     "faction": [
       "Strands of Fate"
     ],
-    "otherAbilities": {
-      "Fog of Dreams (Psychic):": "While this model is leading a unit, models in that unit have the Stealth ability.",
-      "Twilight Pathways (Psychic):": "At the start of your Movement phase , one model from your army with this ability can use it. If it does, until the end of the turn, you can re-roll Advance rolls made for that model’s unit and that model’s unit is eligible to declare a charge in a turn in which it Advanced."
+    "otherAbilities": [
+      {
+        "name": "Fog of Dreams (Psychic):",
+        "description": "While this model is leading a unit, models in that unit have the Stealth ability."
+      },
+      {
+        "name": "Twilight Pathways (Psychic):",
+        "description": "At the start of your Movement phase , one model from your army with this ability can use it. If it does, until the end of the turn, you can re-roll Advance rolls made for that model’s unit and that model’s unit is eligible to declare a charge in a turn in which it Advanced."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s shuriken pistol can be replaced with 1 neuro disruptor.",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Neuro disruptor",
+      "modifiers": "anti-infantry2+,assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Miststave",
+      "modifiers": "psychic",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "D3"
+    }
+  ]
 }

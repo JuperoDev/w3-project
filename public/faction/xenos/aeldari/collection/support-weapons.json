@@ -1,0 +1,142 @@
+{
+  "parentUnit": "Support Weapons",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These large yet graceful artillery pieces glide to battle on anti-grav engines, mounting huge guns that utilise a variety of technologies. Shadow weavers fire nets of monofilament wires that shred vulnerable foes. Vibro cannons project crushing sonic waves, while the blasts of D-cannons cause physical matter to collapse in upon itself.",
+  "keywords": [
+    "vehicle",
+    "support weapons"
+  ],
+  "attributes": {
+    "movement": 3,
+    "toughness": 6,
+    "salvation": 4,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "D-cannon",
+      "modifiers": [
+        "blast",
+        "devastating wounds",
+        "heavy",
+        "indirect fire"
+      ],
+      "range": 24,
+      "strength": 16,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shadow weaver",
+      "modifiers": [
+        "blast",
+        "devastating wounds",
+        "heavy",
+        "indirect fire"
+      ],
+      "range": 48,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken catapult",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Vibro cannon",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "shadow weaver; shuriken catapult; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their shadow weaver replaced with one of the following",
+      "items": [
+        "1 D-cannon",
+        "1 vibro cannon"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "D-cannon",
+      "modifiers": "blast,devastatingwounds,heavy,indirectfire",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 16,
+      "armor-penetration": 4,
+      "damage": "D6+2"
+    },
+    {
+      "name": "Shadow weaver",
+      "modifiers": "blast,devastatingwounds,heavy,indirectfire",
+      "attacks": "D6+2",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Shuriken catapult",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

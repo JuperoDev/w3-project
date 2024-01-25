@@ -1,0 +1,200 @@
+{
+  "parentUnit": "Malcador",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 6,
+    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Malcador tanks are a rare sight in most Astra Militarum regiments, but their rugged reliability and hard-hitting firepower still find favour with traditionalist tank commanders able to procure them. Though largely superseded by the Leman Russ Battle Tank, the Malcador’s design limitations are soon overlooked once its battle cannon begins to roar.",
+  "keywords": [
+    "vehicle",
+    "imperium",
+    "squadron",
+    "smoke",
+    "malcador"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 11,
+    "salvation": 2,
+    "wounds": 18,
+    "leadership": 7,
+    "objectiveControl": 5,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Malcador battle cannon",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Rugged Reliability:",
+        "description": "Each time a ranged attack targets this model, worsen the Armour Penetration characteristic of that attack by 1."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s 2 autocannons can be replaced with one of the following",
+      "items": [
+        "2 heavy bolters",
+        "2 lascannons"
+      ]
+    },
+    {
+      "description": "This model’s heavy bolter can be replaced with one of the following",
+      "items": [
+        "1 autocannon",
+        "1 lascannon"
+      ]
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 heavy stubber",
+        "1 storm bolter"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Autocannon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": "rapidfire3",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Malcador battle cannon",
+      "modifiers": "blast",
+      "attacks": "D6+3",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Rangers",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -10,7 +10,15 @@
     "infantry",
     "rangers"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 5,
+    "wounds": 1,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -21,10 +29,10 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -35,10 +43,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -50,8 +58,37 @@
     "faction": [
       "Strands of Fate"
     ],
-    "otherAbilities": {
-      "Path of the Outcast:": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\" as if it were your Movement phase ."
+    "otherAbilities": [
+      {
+        "name": "Path of the Outcast:",
+        "description": "Once per turn, when an enemy unit ends a Normal , Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\" as if it were your Movement phase ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Ranger long rifle",
+      "modifiers": "heavy,precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
 }

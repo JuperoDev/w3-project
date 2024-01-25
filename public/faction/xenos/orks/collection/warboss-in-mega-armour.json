@@ -1,0 +1,75 @@
+{
+  "parentUnit": "Warboss In Mega Armour",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Any good Ork hunter knows the safest way to deal with a rampaging Warboss is to hit them with tank-busting artillery from as far away as possible. By donning a piston-driven suit of incredibly durable mega armour, the Warboss makes a mockery of such underhanded enemy tactics, much to the terror of his foes.",
+  "keywords": [
+    "infantry",
+    "character",
+    "mega armour",
+    "warboss in mega armour"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 6,
+    "salvation": 2,
+    "wounds": 7,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Big shoota",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Might is Right:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
+      },
+      {
+        "name": "Dead ’ard:",
+        "description": "When you call a Waaagh! , until the start of the next battle round , this model has the Feel No Pain 4+ ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "’Uge choppa",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 12,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "parentUnit": "Warlock Skyrunner Conclave",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Jetbikes add great speed to Warlocks’ already formidable array of powers. Many craftworlds deploy entire Skyrunner conclaves, although such formations are especially common in the Wild Rider clans of Saim-Hann.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "psyker",
+    "warlocks",
+    "warlock skyrunner conclave"
+  ],
+  "attributes": {
+    "movement": 14,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 3,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Destructor",
+      "modifiers": [
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Singing spear",
+      "modifiers": [
+        "assault",
+        "psychic"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin shuriken catapult",
+      "modifiers": [
+        "assault",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "Destructor; shuriken pistol; twin shuriken catapult; witchblade."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their witchblade replaced with 1 singing spear.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Destructor",
+      "modifiers": "psychic,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": "assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Singing spear",
+      "modifiers": "assault,psychic",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 0,
+      "damage": "3"
+    },
+    {
+      "name": "Singing spear",
+      "modifiers": "psychic",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "3"
+    },
+    {
+      "name": "Witchblade",
+      "modifiers": "anti-infantry2+,psychic",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "2"
+    }
+  ]
+}

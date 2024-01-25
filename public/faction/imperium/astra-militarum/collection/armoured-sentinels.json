@@ -1,0 +1,217 @@
+{
+  "parentUnit": "Armoured Sentinels",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Modified with extra protective panelling, Armoured Sentinels are superb front-line hunters, wielding their deadly heavy weapons across terrain too cramped for battle tanks to operate on. As mobile hunter-killers, they excel in destroying vehicles, fortified bunkers and xenos monstrosities.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "imperium",
+    "regiment",
+    "squadron",
+    "smoke",
+    "armoured sentinels"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 8,
+    "salvation": 2,
+    "wounds": 7,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - frag",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - krak",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Mobile Hunter-killers:",
+        "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their Militarum multi-laser replaced with one of the following",
+      "items": [
+        "1 autocannon",
+        "1 heavy flamer",
+        "1 lascannon",
+        "1 missile launcher",
+        "1 plasma cannon"
+      ]
+    },
+    {
+      "description": "Any number of models can each be equipped with 1 Sentinel chainsaw.",
+      "items": []
+    },
+    {
+      "description": "Any number of models can each be equipped with 1 hunter-killer missile.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Autocannon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Militarum multi-laser",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Missile launcher – frag",
+      "modifiers": "blast,heavy",
+      "attacks": "D6",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Sentinel chainsaw",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

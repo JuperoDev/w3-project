@@ -1,0 +1,72 @@
+{
+  "parentUnit": "Nork Deddog",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Nork Deddog’s loyalty and his skills as a bodyguard are beyond question. The hulking Ogryn would rather sustain terrible wounds than permit a single scratch on those he protects. Dozens of victories have been achieved thanks to his unthinking heroism as he shoots, eviscerates or head-butts any threat to his charges.",
+  "keywords": [
+    "infantry",
+    "epic hero",
+    "imperium",
+    "grenades",
+    "loyal protector",
+    "ogryn",
+    "nork deddog"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 6,
+    "salvation": 4,
+    "wounds": 6,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Ripper gun",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "ripper gun; huge knife."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Huge knife",
+      "modifiers": "devastatingwounds",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ]
+}

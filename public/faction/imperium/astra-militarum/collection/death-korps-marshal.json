@@ -1,0 +1,139 @@
+{
+  "parentUnit": "Death Korps Marshal",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The regimental leaders known as Marshals are masters of the Krieg way of war, with strategic command over thousands of men and vehicles. Nonetheless, the martial philosophy of the Death Korps considers all soldiers expendable, and Marshals are often on the front line, their boots mired with the same filth as their subordinates.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "grenades",
+    "officer",
+    "death korps marshal"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 5,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Laspistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+",
+      "Leader"
+    ],
+    "faction": [
+      "Voice of Command"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Martial Dedication:",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+      },
+      {
+        "name": "Cult of Sacrifice:",
+        "description": "Once per battle, you can target this model’s unit with the Insane Bravery Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. This cannot allow you to use the Insane Bravery Stratagem more than twice per phase."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s laspistol can be replaced with one of the following",
+      "items": [
+        "1 bolt pistol",
+        "1 plasma pistol"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Laspistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

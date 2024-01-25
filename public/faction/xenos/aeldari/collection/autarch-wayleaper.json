@@ -1,0 +1,221 @@
+{
+  "parentUnit": "Autarch Wayleaper",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "With wargear such as a winged pack or warp jump generator, an Autarch becomes an incredibly manoeuvrable war leader. So equipped, they can appear wherever their war host needs them in the blink of an eye, bringing graceful weaponry and consummate strategy to bear before vanishing out of the foe’s reach.",
+  "keywords": [
+    "infantry",
+    "character",
+    "jump pack",
+    "fly",
+    "grenades",
+    "autarch wayleaper"
+  ],
+  "attributes": {
+    "movement": 14,
+    "toughness": 3,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Death spinner",
+      "modifiers": [
+        "devastating wounds",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Dragon fusion gun",
+      "modifiers": [
+        "assault",
+        "melta 3"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Fusion pistol",
+      "modifiers": [
+        "assault",
+        "melta 2",
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Reaper launcher - starshot",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Reaper launcher - starswarm",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Lone Operative"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Indomitable Strength of Will (Aura):",
+        "description": "While a friendly AELDARI unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test , add 1 to that test."
+      },
+      {
+        "name": "Path of Command:",
+        "description": "At the start of your Command phase , if this model is your Warlord and is on the battlefield, you gain 1CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 Howling Banshee mask",
+        "1 mandiblasters"
+      ]
+    },
+    {
+      "description": "This model’s shuriken pistol can be replaced with one of the following",
+      "items": [
+        "1 death spinner",
+        "1 Dragon fusion gun",
+        "1 fusion pistol",
+        "1 Reaper launcher"
+      ]
+    },
+    {
+      "description": "This model’s star glaive can be replaced with one of the following",
+      "items": [
+        "1 Banshee blade",
+        "1 Scorpion chainsword"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Death spinner",
+      "modifiers": "devastatingwounds,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Dragon fusion gun",
+      "modifiers": "assault,melta3",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Fusion pistol",
+      "modifiers": "assault,melta2,pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D3"
+    },
+    {
+      "name": "Reaper launcher – starshot",
+      "modifiers": "heavy",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Star glaive",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Banshee blade",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 3,
+      "damage": "1"
+    },
+    {
+      "name": "Scorpion chainsword",
+      "modifiers": "sustainedhits1",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

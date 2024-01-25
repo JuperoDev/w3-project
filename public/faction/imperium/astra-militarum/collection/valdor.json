@@ -1,0 +1,217 @@
+{
+  "parentUnit": "Valdor",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 7,
+    "description": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Valdor is an arcane variant of the Malcador tank chassis, its entire frame dominated by a technological relic known as the neutron laser projector. This powerful energy weapon fires a beam of superenergised particles that can penetrate the thickest armour and send a crippling electromagnetic pulse through vehicles’ inner workings.",
+  "keywords": [
+    "vehicle",
+    "titanic",
+    "imperium",
+    "smoke",
+    "valdor"
+  ],
+  "attributes": {
+    "movement": 9,
+    "toughness": 13,
+    "salvation": 2,
+    "wounds": 20,
+    "leadership": 7,
+    "objectiveControl": 8,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Valdor neutron laser",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 16,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6+2"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Power Overload:",
+        "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Damage roll."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s autocannon can be replaced with one of the following",
+      "items": [
+        "1 heavy bolter",
+        "1 heavy flamer",
+        "1 lascannon"
+      ]
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 heavy stubber",
+        "1 storm bolter"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Autocannon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": "rapidfire3",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": "rapidfire2",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

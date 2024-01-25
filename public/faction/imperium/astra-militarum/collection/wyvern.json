@@ -1,0 +1,149 @@
+{
+  "parentUnit": "Wyvern",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Wyvern excels in claustrophobic urban combat, raining curtains of shells down upon luckless enemy infantry without needing to expose itself to harm. The suppression tank’s stormshard mortars are lethal to tightly packed foes, their shells detonating in blizzards of eviscerating Aquila-shaped flechettes.",
+  "keywords": [
+    "vehicle",
+    "artillery",
+    "imperium",
+    "squadron",
+    "smoke",
+    "wyvern"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 9,
+    "salvation": 3,
+    "wounds": 11,
+    "leadership": 7,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Wyvern quad stormshard mortar",
+      "modifiers": [
+        "blast",
+        "ignores cover",
+        "heavy",
+        "indirect fire",
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Suppression Bombardment:",
+        "description": "In your Shooting phase , after this model has shot, select one enemy unit (excluding MONSTER and VEHICLE units) that was hit by one or more attacks made with this model’s Wyvern quad stormshard mortar this phase. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

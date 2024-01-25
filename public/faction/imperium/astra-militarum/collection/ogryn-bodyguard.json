@@ -1,0 +1,130 @@
+{
+  "parentUnit": "Ogryn Bodyguard",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Ogryn Bodyguards are particularly capable warriors of their kind who have but one duty – to protect the officer to whom they are assigned. Whether by throwing themselves in the line of fire or slaughtering all enemies who come near their ward, they are invaluable retainers in the swirl of battlefield combat.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "grenades",
+    "loyal protector",
+    "ogryn",
+    "ogryn bodyguard"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 6,
+    "salvation": 5,
+    "wounds": 6,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Grenadier gauntlet",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Ripper gun",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 6+"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Brute Shield:",
+        "description": "The bearer has a 4+ invulnerable save ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s ripper gun can be replaced with one of the following",
+      "items": [
+        "1 grenadier gauntlet",
+        "1 Bullgryn maul"
+      ]
+    },
+    {
+      "description": "This model’s huge knife can be replaced with one of the following",
+      "items": [
+        "1 brute shield",
+        "1 slabshield"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Grenadier gauntlet",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bullgryn maul",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Huge knife",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Ripper gun",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

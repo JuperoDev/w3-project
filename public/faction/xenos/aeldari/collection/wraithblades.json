@@ -1,6 +1,6 @@
 {
   "parentUnit": "Wraithblades",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -11,22 +11,53 @@
     "wraith construct",
     "wraithblades"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 6,
+    "toughness": 7,
+    "salvation": 2,
+    "wounds": 3,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
     "core": [
       "FACTION: Strands of Fate"
     ],
-    "faction": [
-      "Malevolent Souls: Each time a model in this unit is destroyed by a melee attack",
-      "if that model has not fought this phase",
-      "roll one D6. On a 4+",
-      "do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks",
-      "and is then removed from play."
-    ],
-    "otherAbilities": {
-      "Forceshield:": "The bearer has a 4+ invulnerable save ."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Forceshield:",
+        "description": "The bearer has a 4+ invulnerable save ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "All of the models in this unit can each have their ghostswords replaced with 1 ghostaxe and 1 forceshield.",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Ghostaxe",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Ghostswords",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
 }

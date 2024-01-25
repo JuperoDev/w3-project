@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Jain Zar",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Always at the front of a charge and famed for her speed and ferocity, Jain Zar carries the Blade of Destruction, an ancient executioner. This she whirls in bloody arcs to carve through foes, before vaulting into a new position. With a flick of her wrist she unleashes the Silent Death, a triple-bladed throwing weapon that can easily sever a foe’s head.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "phoenix lord",
+    "jain zar"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 3,
+    "salvation": 2,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "The Silent Death",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Fights First",
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Whirling Death:",
+        "description": "Once per turn, you can target this model’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+      },
+      {
+        "name": "Storm of Silence:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "The Blade of Destruction – strike",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 3,
+      "damage": "2"
+    }
+  ]
+}

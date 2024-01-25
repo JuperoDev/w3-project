@@ -1,0 +1,126 @@
+{
+  "parentUnit": "Regimental Preacher",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Serving amongst the Imperial Guard’s regiments to bolster the spiritual strength of its soldiers, Regimental Preachers are fiery zealots and fanatical orators. They do not shy away from combat, but wade amongst the foe, their voices raised in prayer to the God-Emperor and in furious castigation of the enemy.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "grenades",
+    "regimental preacher"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 6,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Autogun",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Holy pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Preacher shotgun",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "holy pistol; power weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s power weapon can be replaced with one of the following",
+      "items": [
+        "1 autogun and 1 chainsword",
+        "1 Preacher shotgun and 1 chainsword"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Autogun",
+      "modifiers": "rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Holy pistol",
+      "modifiers": "pistol",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Chainsword",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

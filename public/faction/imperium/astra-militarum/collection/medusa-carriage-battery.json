@@ -1,0 +1,70 @@
+{
+  "parentUnit": "Medusa Carriage Battery",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Few walls are thick enough to withstand the artillery fire launched from a Medusa siege cannon. Able to fire heavy shells that can reduce structures to rubble, many war zones resonate with the sonorous fire of the Medusa’s siege cannons, levelling battlefields until there is nowhere for the hapless enemy to hide.",
+  "keywords": [
+    "infantry",
+    "artillery",
+    "imperium",
+    "grenades",
+    "regiment",
+    "medusa carriage battery"
+  ],
+  "attributes": {
+    "movement": 4,
+    "toughness": 7,
+    "salvation": 4,
+    "wounds": 6,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Medusa siege cannon",
+      "modifiers": [
+        "blast",
+        "heavy",
+        "indirect fire"
+      ],
+      "range": 36,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Siege Bombardment: In your Shooting phase",
+      "after this unit has shot",
+      "select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+    ],
+    "faction": [],
+    "otherAbilities": []
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Battery close combat weapons",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

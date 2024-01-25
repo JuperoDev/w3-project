@@ -1,0 +1,147 @@
+{
+  "parentUnit": "Basilisk",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Basilisks are self-propelled artillery tanks, armed with a fearsome earthshaker cannon. Able to keep pace with infantry advances – their barrels levelled for direct fire – or deploy to rear positions from which they unleash relentless shelling, Basilisks are amongst the most numerous of the Imperial Guard’s ordnance tanks.",
+  "keywords": [
+    "vehicle",
+    "artillery",
+    "imperium",
+    "squadron",
+    "smoke",
+    "basilisk"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 9,
+    "salvation": 3,
+    "wounds": 11,
+    "leadership": 7,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Earthshaker cannon",
+      "modifiers": [
+        "blast",
+        "heavy",
+        "indirect fire"
+      ],
+      "range": 240,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Earthshaker Rounds:",
+        "description": "In your Shooting phase , after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy INFANTRY unit, until the end of your opponent’s next turn, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Earthshaker cannon",
+      "modifiers": "blast,heavy,indirectfire",
+      "attacks": "D6+3",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

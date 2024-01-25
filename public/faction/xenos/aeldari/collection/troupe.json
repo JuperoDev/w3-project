@@ -1,6 +1,6 @@
 {
   "parentUnit": "Troupe",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -12,7 +12,15 @@
     "harlequins",
     "troupe"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 8,
+    "toughness": 3,
+    "salvation": 6,
+    "wounds": 1,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -24,10 +32,10 @@
       ],
       "range": 6,
       "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -39,10 +47,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -53,10 +61,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -64,14 +72,83 @@
     "core": [
       "FACTION: Strands of Fate"
     ],
-    "faction": [
-      "Harlequin Assault: Each time this unit makes a Charge move",
-      "until the end of the turn",
-      "each time a model in this unit makes a melee attack",
-      "add 1 to the Wound roll."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "shuriken pistol; Harlequin’s blade."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "shuriken pistol; Harlequin’s blade."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their Harlequin’s blade replaced with 1 Harlequin’s special weapon.",
+      "items": []
+    },
+    {
+      "description": "If this unit contains 10 or fewer models",
+      "items": [
+        "Up to two models can each have their shuriken pistol replaced with 1 neuro disruptor",
+        "Up to two models can each have their shuriken pistol replaced with 1 fusion pistol"
+      ]
+    },
+    {
+      "description": "If this unit contains 11 or more models",
+      "items": [
+        "Up to four models can each have their shuriken pistol replaced with 1 neuro disruptor",
+        "Up to four models can each have their shuriken pistol replaced with 1 fusion pistol"
+      ]
+    },
+    {
+      "description": "The Lead Player’s Harlequin’s blade can be replaced with 1 Aeldari power sword.",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Fusion pistol",
+      "modifiers": "assault,melta2,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D3"
+    },
+    {
+      "name": "Neuro disruptor",
+      "modifiers": "anti-infantry2+,assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Aeldari power sword",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Harlequin’s blade",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Harlequin’s special weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
 }

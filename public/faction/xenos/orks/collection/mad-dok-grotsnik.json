@@ -1,0 +1,86 @@
+{
+  "parentUnit": "Mad Dok Grotsnik",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "More so even than whatever passes for a ‘normal’ Painboy, Dok Grotsnik relishes the butchery of the battlefield. He is quite, quite mad and remarkably dangerous, treating each new war as an opportunity for experimentation, a chance to harvest new samples to add to his stockpile of gory anatomical spares.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "painboy",
+    "mad dok grotsnik"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Slugga",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 5+",
+      "Leader"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Mad Dok:",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+      },
+      {
+        "name": "One Scalpel Short of a Medpack:",
+        "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Fell Back ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Power klaw",
+      "modifiers": "sustainedhits1",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "’Urty syringe",
+      "modifiers": "anti-infantry4+,extraattacks,precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 2,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

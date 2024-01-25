@@ -1,6 +1,6 @@
 {
   "parentUnit": "Wraithguard",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -11,7 +11,15 @@
     "wraith construct",
     "wraithguard"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 6,
+    "toughness": 7,
+    "salvation": 2,
+    "wounds": 3,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -21,10 +29,10 @@
       ],
       "range": 18,
       "strength": 14,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -32,14 +40,38 @@
     "core": [
       "FACTION: Strands of Fate"
     ],
-    "faction": [
-      "War Construct: Once per battle round",
-      "when an enemy unit targets this unit",
-      "after that unit has finished making its attacks",
-      "this unit can shoot as if it were your Shooting phase."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "wraithcannon; close combat weapon."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "wraithcannon; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "All of the models in this unit can each have their wraithcannon replaced with 1 D-scythe.",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Wraithcannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
 }

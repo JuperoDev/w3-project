@@ -1,0 +1,137 @@
+{
+  "parentUnit": "Stormsword",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 8,
+    "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "A Stormsword is ideal for clearing enemy-held choke points. The shells fired by its siege cannon release a concentrated concussive wave on detonation. Those not pulverised outright are torn apart by slivers of the cover they cowered behind, barricades becoming lacerating shards and battlements storms of razor-edged fragments.",
+  "keywords": [
+    "vehicle",
+    "titanic",
+    "imperium",
+    "smoke",
+    "stormsword"
+  ],
+  "attributes": {
+    "movement": 9,
+    "toughness": 13,
+    "salvation": 2,
+    "wounds": 24,
+    "leadership": 7,
+    "objectiveControl": 8,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Stormsword siege cannon",
+      "modifiers": [
+        "blast",
+        "ignores cover"
+      ],
+      "range": 48,
+      "strength": 16,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent",
+        "twin-linked"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6+2"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "2 lascannons; Stormsword siege cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "2 lascannons and 2 twin heavy bolters",
+        "2 lascannons and 2 twin heavy flamers"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Lascannon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Stormsword siege cannon",
+      "modifiers": "blast,ignorescover",
+      "attacks": "D6+6",
+      "weapons-skills": "4+",
+      "strength": 16,
+      "armor-penetration": 4,
+      "damage": "D6+2"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": "sustainedhits1,twin-linked",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

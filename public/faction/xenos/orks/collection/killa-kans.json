@@ -1,0 +1,142 @@
+{
+  "parentUnit": "Killa Kans",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Surgically wiring grots into combat walkers is risky: the runty loons tend to go on a bit of a power trip, hazardous to every Ork that ever treated them badly. On the other hand, their ability to shoot straight renders their hails of rokkits, bullets and grotzooka-launched scrap- shrapnel even more hazardous to the foe.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "killa kans"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 6,
+    "salvation": 3,
+    "wounds": 5,
+    "leadership": 8,
+    "objectiveControl": 2,
+    "invulnerableSave": 6
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Kan shoota",
+      "modifiers": [
+        "devastating wounds",
+        "rapid fire 2"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Grotzooka",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Rokkit launcha",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Skorcha",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Shooty Power Trip:",
+        "description": "Each time this unit is selected to shoot, you can roll one D6: on a 1, the nearest other friendly ORKS unit within 12\" of and visible to this unit suffers D3 mortal wounds ; on a 2+, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Each Killa Kan’s Kan shoota can be replaced with one of the following",
+      "items": [
+        "1 grotzooka",
+        "1 rokkit launcha",
+        "1 skorcha"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Kan shoota",
+      "modifiers": "devastatingwounds,rapidfire2",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Grotzooka",
+      "modifiers": "blast",
+      "attacks": "D3+3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Rokkit launcha",
+      "modifiers": "blast",
+      "attacks": "D3",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "3"
+    },
+    {
+      "name": "Kan klaw",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "3"
+    }
+  ]
+}

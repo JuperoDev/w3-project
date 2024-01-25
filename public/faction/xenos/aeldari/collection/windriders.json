@@ -1,6 +1,6 @@
 {
   "parentUnit": "Windriders",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -11,7 +11,15 @@
     "fly",
     "windriders"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 14,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -21,10 +29,10 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -35,10 +43,10 @@
       ],
       "range": 18,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -46,13 +54,50 @@
     "core": [
       "FACTION: Strands of Fate"
     ],
-    "faction": [
-      "Swift Demise: Each time a model in this unit makes a ranged attack that targets the closest eligible target",
-      "re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker your opponent controls",
-      "you can re-roll the Hit roll instead."
-    ],
-    "otherAbilities": {
-      "Every model is equipped with:": "twin shuriken catapult; close combat weapon."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "twin shuriken catapult; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their twin shuriken catapult replaced with one of the following",
+      "items": [
+        "1 scatter laser",
+        "1 shuriken cannon"
+      ]
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Scatter laser",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
 }

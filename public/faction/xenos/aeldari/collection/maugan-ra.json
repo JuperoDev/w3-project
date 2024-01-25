@@ -1,0 +1,77 @@
+{
+  "parentUnit": "Maugan Ra",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A master at killing from a distance, Maugan Ra wields the Maugetar. This scythe-like weapon fires mind-linked shuriken discs large enough to decapitate a swathe of foes before vanishing into nothingness. Should the enemy survive this barrage, they will meet a swift end on the curved edge of the Maugetar’s built-in reaping blade.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "phoenix lord",
+    "maugan ra"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 2,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "The Maugetar",
+      "modifiers": [
+        "devastating wounds",
+        "ignores cover"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Face of Death:",
+        "description": "Each time this model makes an attack that targets a unit that is Below Half-strength , you can re-roll the Hit roll and you can re-roll the Wound roll ."
+      },
+      {
+        "name": "Harvester of Souls:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "The Maugetar",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

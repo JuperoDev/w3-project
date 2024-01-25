@@ -1,0 +1,167 @@
+{
+  "parentUnit": "Big Mek In Mega Armour",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "For all that its weight is akin to wearing half a tank, mega armour is incredibly resilient. Big Meks often build and wear it, adding unstable kustom weaponry, force field projectors, crushing klaws or even tellyport blastas that kill victims by beaming their component parts across a wide area, much to the Orks’ amusement.",
+  "keywords": [
+    "infantry",
+    "character",
+    "mega armour",
+    "big mek in mega armour"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 6,
+    "salvation": 2,
+    "wounds": 5,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Kombi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Kustom mega-blasta",
+      "modifiers": [
+        "hazardous"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Kustom shoota",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Tellyport blasta",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": [
+      {
+        "name": "More Dakka:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Fix Dat Armour Up:",
+        "description": "While this model is leading a unit, in your Command phase , you can return 1 destroyed Bodyguard model to that unit."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s kustom-mega blasta can be replaced with one of the following",
+      "items": [
+        "1 killsaw",
+        "1 kombi-weapon",
+        "1 kustom shoota"
+      ]
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 tellyport blasta",
+        "1 kustom force field"
+      ]
+    },
+    {
+      "description": "This model can be equipped with 1 grot oiler.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Kombi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "5+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Kustom mega-blasta",
+      "modifiers": "hazardous",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "D6"
+    },
+    {
+      "name": "Kustom shoota",
+      "modifiers": "rapidfire2",
+      "attacks": "4",
+      "weapons-skills": "5+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Killsaw",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "2"
+    },
+    {
+      "name": "Power klaw",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

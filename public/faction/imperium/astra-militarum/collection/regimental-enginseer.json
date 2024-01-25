@@ -1,0 +1,79 @@
+{
+  "parentUnit": "Regimental Enginseer",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Adepts of the Omnissiah, Enginseers are robed machine-mystics tasked with using arcane lore and cybernetic arrays to effect battlefield repairs upon damaged fighting machines. To them, every war engine is a priceless artefact of technology, whose spirit need only be roused once more to take revenge on the enemy.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "regimental enginseer"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Archeotech pistol",
+      "modifiers": [
+        "devastating wounds",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "archeotech pistol; Enginseer axe; servo-arm."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Enginseer axe",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Servo-arm",
+      "modifiers": "extraattacks",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "parentUnit": "Ogryn Squad",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Ogryns are simple beings. In battle, their instincts rarely lead them beyond hitting the enemy as hard as possible. The rapid-firing ripper guns they carry are built to withstand use as improvised clubs. Ogryns make excellent shock troops, their physiques shrugging off damage before they charge, hitting like a tank.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "grenades",
+    "ogryn",
+    "ogryn squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 6,
+    "salvation": 5,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Ripper gun",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 6+"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "ripper gun."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Ripper gun",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

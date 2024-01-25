@@ -1,0 +1,93 @@
+{
+  "parentUnit": "Shokkjump Dragsta",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Combining shokk attack technology, great speed and a cheerful disregard for life and limb, the Shokkjump Dragsta provides the Orks with a vehicle that can teleport itself through – occasionally into – feet-thick fortress walls while its kustom shokk rifle bores warp tunnels right through its luckless victims.",
+  "keywords": [
+    "vehicle",
+    "shokkjump dragsta"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 7,
+    "salvation": 4,
+    "wounds": 9,
+    "leadership": 7,
+    "objectiveControl": 3,
+    "invulnerableSave": 6
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Kustom shokk rifle",
+      "modifiers": [
+        "devastating wounds",
+        "hazardous",
+        "precision"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Rokkits",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Shokk Tunnel:",
+        "description": "Each time this model is selected to Advance , you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Kustom shokk rifle",
+      "modifiers": "devastatingwounds,hazardous,precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Saw blades",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ]
+}

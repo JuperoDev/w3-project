@@ -1,0 +1,243 @@
+{
+  "parentUnit": "Corsair Voidreavers",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The skilled and agile warriors known as Voidreavers make up the bulk of most Corsair warbands. With precise volleys of lethal shuriken fire they can tear through enemy infantry, or draw their power swords and storm hostile positions to engage in furious hand-to-hand fighting.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "grenades",
+    "anhrathe",
+    "corsair voidreavers"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 4,
+    "wounds": 1,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Corsair shredder",
+      "modifiers": [
+        "assault",
+        "torrent"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Neuro disruptor",
+      "modifiers": [
+        "anti-infantry 2+",
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Corsair blaster",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": [
+        "assault",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken rifle",
+      "modifiers": [
+        "assault",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Wraithcannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Scouts 7\""
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Mistshield:",
+        "description": "The bearer has a 4+ invulnerable save ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "All of the Corsair Voidreavers in this unit can each have their shuriken pistol and Aeldari power sword replaced with 1 shuriken rifle.",
+      "items": []
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Corsair Voidreaver’s Aeldari power sword or shuriken rifle can be replaced with one of the following",
+      "items": [
+        "1 Corsair blaster",
+        "1 Corsair shredder"
+      ]
+    },
+    {
+      "description": "If this unit contains 10 models, 1 Corsair Voidreaver’s shuriken rifle can be replaced with one of the following",
+      "items": [
+        "1 shuriken cannon",
+        "1 wraithcannon"
+      ]
+    },
+    {
+      "description": "The Voidreaver Felarch can be equipped with",
+      "items": [
+        "1 mistshield"
+      ]
+    },
+    {
+      "description": "The Voidreaver Felarch’s shuriken pistol can be replaced with one of the following",
+      "items": [
+        "1 neuro disruptor",
+        "1 shuriken rifle"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Corsair shredder",
+      "modifiers": "assault,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Neuro disruptor",
+      "modifiers": "anti-infantry2+,assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Corsair blaster",
+      "modifiers": "assault",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Shuriken pistol",
+      "modifiers": "assault,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Shuriken rifle",
+      "modifiers": "assault,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Aeldari power sword",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

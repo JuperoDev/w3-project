@@ -1,6 +1,6 @@
 {
   "parentUnit": "Tankbustas",
-  "factionKeyword": [
+  "factionKeywords": [
     "orks"
   ],
   "damaged": {},
@@ -10,26 +10,15 @@
     "infantry",
     "tankbustas"
   ],
-  "attributes": [
-    {
-      "name": "tankbusta",
-      "movement": 6,
-      "toughness": 5,
-      "save": 5,
-      "wounds": 1,
-      "leadership": 7,
-      "objetiveControl": 1
-    },
-    {
-      "name": "boss nob",
-      "movement": 6,
-      "toughness": 5,
-      "save": 5,
-      "wounds": 2,
-      "leadership": 7,
-      "objetiveControl": 1
-    }
-  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 1,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -40,10 +29,10 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -53,10 +42,10 @@
       ],
       "range": 24,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -64,19 +53,59 @@
     "core": [
       "FACTION: Waaagh!"
     ],
-    "faction": [
-      "Tank Hunters: Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit",
-      "add 1 to the Hit roll and add 1 to the Wound roll.Bomb Squigs: Twice per battle",
-      "after this unit ends a Normal move",
-      "you can select one enemy unit within 12\" of it and roll one D6: on a 2+",
-      "that enemy unit suffers D3 mortal wounds. Designer’s Note: Place two Bomb Squig tokens next to the unit",
-      "removing one each time this unit uses this ability."
-    ],
-    "otherAbilities": {
-      "The Boss Nob is equipped with:": "rokkit launcha; close combat weapon.",
-      "One Tankbusta is equipped with:": "pair of rokkit pistols; close combat weapon.",
-      "One other Tankbusta is equipped with:": "tankhammer.",
-      "Two other Tankbustas are equipped with:": "rokkit launcha; close combat weapon."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "The Boss Nob is equipped with:",
+        "description": "rokkit launcha; close combat weapon."
+      },
+      {
+        "name": "One Tankbusta is equipped with:",
+        "description": "pair of rokkit pistols; close combat weapon."
+      },
+      {
+        "name": "One other Tankbusta is equipped with:",
+        "description": "tankhammer."
+      },
+      {
+        "name": "Two other Tankbustas are equipped with:",
+        "description": "rokkit launcha; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Pair of rokkit pistols",
+      "modifiers": "pistol,twin-linked",
+      "attacks": "1",
+      "weapons-skills": "5+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Tankhammer",
+      "modifiers": "anti-vehicle4+,devastatingwounds,hazardous",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "D3"
+    }
+  ]
 }

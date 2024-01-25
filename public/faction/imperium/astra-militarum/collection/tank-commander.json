@@ -1,0 +1,421 @@
+{
+  "parentUnit": "Tank Commander",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Tank Commanders lead squadrons, companies or even whole regiments of armoured behemoths. From within their tank, they task their gunners with pinpoint targeting actions and broadcast orders to the crews of other war engines, or, in a visible symbol of Imperial power, bellow commands from the cupola.",
+  "keywords": [
+    "vehicle",
+    "character",
+    "imperium",
+    "smoke",
+    "officer",
+    "tank commander"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 11,
+    "salvation": 2,
+    "wounds": 13,
+    "leadership": 7,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Demolisher battle cannon",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Eradicator nova cannon",
+      "modifiers": [
+        "blast",
+        "ignores cover"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Executioner plasma cannon - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Executioner plasma cannon - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Exterminator autocannon",
+      "modifiers": [
+        "rapid fire 4",
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Leman Russ battle cannon",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Militarum plasma cannon - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Militarum plasma cannon - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Vanquisher battle cannon",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 72,
+      "strength": 18,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "FACTION:",
+        "description": "Voice of Command"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s Leman Russ battle cannon can be replaced with one of the following",
+      "items": [
+        "1 demolisher battle cannon",
+        "1 eradicator nova cannon",
+        "1 executioner plasma cannon",
+        "1 exterminator autocannon",
+        "1 punisher gatling cannon",
+        "1 vanquisher battle cannon"
+      ]
+    },
+    {
+      "description": "This model’s lascannon can be replaced with one of the following",
+      "items": [
+        "1 heavy bolter",
+        "1 heavy flamer"
+      ]
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "2 heavy bolters",
+        "2 heavy flamers",
+        "2 multi-meltas",
+        "2 Militarum plasma cannons"
+      ]
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 heavy stubber",
+        "1 storm bolter"
+      ]
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Demolisher battle cannon",
+      "modifiers": "blast",
+      "attacks": "D6+3",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Eradicator nova cannon",
+      "modifiers": "blast,ignorescover",
+      "attacks": "D3+6",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Executioner plasma cannon – standard",
+      "modifiers": "blast",
+      "attacks": "D6+3",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Exterminator autocannon",
+      "modifiers": "rapidfire4,twin-linked",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": "rapidfire3",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Leman Russ battle cannon",
+      "modifiers": "blast",
+      "attacks": "D6+3",
+      "weapons-skills": "4+",
+      "strength": 10,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Militarum plasma cannon – standard",
+      "modifiers": "blast",
+      "attacks": "D3",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": "melta2",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Punisher gatling cannon",
+      "modifiers": "",
+      "attacks": "20",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": "rapidfire2",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

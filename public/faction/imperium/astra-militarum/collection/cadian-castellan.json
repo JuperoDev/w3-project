@@ -1,0 +1,187 @@
+{
+  "parentUnit": "Cadian Castellan",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Strategic senior officers often ranking as Captains or Colonels, Cadian Castellans are authoritative leaders of the fallen world’s forces. Bearing a panoply of armaments and insignia that mark their high office, they wield their weapons as skilfully as they command the soldiers beneath them.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "grenades",
+    "officer",
+    "cadian",
+    "cadian castellan"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 5,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Laspistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Voice of Command"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Senior Officer:",
+        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Get Back in the Fight:",
+        "description": "While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s chainsword can be replaced with one of the following",
+      "items": [
+        "1 boltgun",
+        "1 power fist",
+        "1 power weapon"
+      ]
+    },
+    {
+      "description": "This model’s laspistol can be replaced with one of the following",
+      "items": [
+        "1 bolt pistol",
+        "1 plasma pistol"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": "rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Laspistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Chainsword",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

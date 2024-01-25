@@ -1,6 +1,6 @@
 {
   "parentUnit": "Yvraine",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -14,7 +14,15 @@
     "psyker",
     "yvraine"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 8,
+    "toughness": 3,
+    "salvation": 6,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -26,10 +34,10 @@
       ],
       "range": 12,
       "strength": 2,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -41,9 +49,32 @@
     "faction": [
       "Strands of Fate"
     ],
-    "otherAbilities": {
-      "Herald of Ynnead:": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
-      "Word of the Phoenix (Psychic):": "While this model is leading a unit, in your Command phase , you can roll one D6: on a 2+, D3 destroyed Bodyguard models are returned to that unit."
+    "otherAbilities": [
+      {
+        "name": "Herald of Ynnead:",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+      },
+      {
+        "name": "Word of the Phoenix (Psychic):",
+        "description": "While this model is leading a unit, in your Command phase , you can roll one D6: on a 2+, D3 destroyed Bodyguard models are returned to that unit."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Kha-vir, the Sword of Sorrows",
+      "modifiers": "devastatingwounds",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 3,
+      "damage": "2"
+    }
+  ]
 }

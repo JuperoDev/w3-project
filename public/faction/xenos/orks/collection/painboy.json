@@ -1,6 +1,6 @@
 {
   "parentUnit": "Painboy",
-  "factionKeyword": [
+  "factionKeywords": [
     "orks"
   ],
   "damaged": {},
@@ -11,7 +11,15 @@
     "character",
     "painboy"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
@@ -21,9 +29,41 @@
     "faction": [
       "Waaagh!"
     ],
-    "otherAbilities": {
-      "Dok’s Toolz:": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
-      "Hold Still and Say ‘Aargh!’:": "Each time an attack made by this model with its ’urty syringe scores a Critical Wound against a unit (excluding VEHICLE units), that unit suffers D6 mortal wounds ."
+    "otherAbilities": [
+      {
+        "name": "Dok’s Toolz:",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+      },
+      {
+        "name": "Hold Still and Say ‘Aargh!’:",
+        "description": "Each time an attack made by this model with its ’urty syringe scores a Critical Wound against a unit (excluding VEHICLE units), that unit suffers D6 mortal wounds ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 grot orderly.",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Power klaw",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "’Urty syringe",
+      "modifiers": "anti-infantry4+,extraattacks,precision",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 2,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
 }

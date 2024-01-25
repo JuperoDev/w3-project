@@ -1,0 +1,162 @@
+{
+  "parentUnit": "Praetor",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 6,
+    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Built around the same chassis as the Crassus assault transport, the Praetor mounts a sophisticated missile system that can be armed with a variety of warheads. These range from versatile foehammer missiles packed with explosive bomblets to fragmenting firestorm munitions.",
+  "keywords": [
+    "vehicle",
+    "imperium",
+    "squadron",
+    "smoke",
+    "praetor"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 11,
+    "salvation": 2,
+    "wounds": 18,
+    "leadership": 7,
+    "objectiveControl": 5,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Praetor launcher - firestorm",
+      "modifiers": [
+        "blast",
+        "heavy",
+        "ignores cover",
+        "indirect fire"
+      ],
+      "range": 120,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Praetor launcher - foehammer",
+      "modifiers": [
+        "anti-monster 4+",
+        "anti-vehicle 4+",
+        "blast",
+        "heavy",
+        "indirect fire"
+      ],
+      "range": 120,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "2 heavy bolters; Praetor launcher; armoured tracks"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 heavy stubber",
+        "1 storm bolter"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": "rapidfire3",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Praetor launcher – firestorm",
+      "modifiers": "blast,heavy,ignorescover,indirectfire",
+      "attacks": "2D6",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

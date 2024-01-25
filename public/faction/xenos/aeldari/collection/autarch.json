@@ -1,6 +1,6 @@
 {
   "parentUnit": "Autarch",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -12,7 +12,15 @@
     "grenades",
     "autarch"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -23,10 +31,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -37,10 +45,10 @@
       ],
       "range": 12,
       "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -52,10 +60,10 @@
       ],
       "range": 6,
       "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -65,10 +73,10 @@
       ],
       "range": 48,
       "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -78,10 +86,10 @@
       ],
       "range": 48,
       "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -92,10 +100,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -106,9 +114,105 @@
     "faction": [
       "Strands of Fate"
     ],
-    "otherAbilities": {
-      "Superlative Strategist:": "Once per turn, you can target this model’s unit with a Stratagem even if you have already used that Stratagem on a different unit this phase.",
-      "Path of Command:": "At the start of your Command phase , if this model is your Warlord and is on the battlefield, you gain 1CP."
+    "otherAbilities": [
+      {
+        "name": "Superlative Strategist:",
+        "description": "Once per turn, you can target this model’s unit with a Stratagem even if you have already used that Stratagem on a different unit this phase."
+      },
+      {
+        "name": "Path of Command:",
+        "description": "At the start of your Command phase , if this model is your Warlord and is on the battlefield, you gain 1CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 Howling Banshee mask",
+        "1 mandiblasters"
+      ]
+    },
+    {
+      "description": "This model’s shuriken pistol can be replaced with one of the following",
+      "items": [
+        "1 death spinner",
+        "1 Dragon fusion gun",
+        "1 fusion pistol",
+        "1 Reaper launcher"
+      ]
+    },
+    {
+      "description": "This model’s star glaive can be replaced with one of the following",
+      "items": [
+        "1 Banshee blade",
+        "1 Scorpion chainsword"
+      ]
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Death spinner",
+      "modifiers": "devastatingwounds,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Dragon fusion gun",
+      "modifiers": "assault,melta3",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Fusion pistol",
+      "modifiers": "assault,melta2,pistol",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D3"
+    },
+    {
+      "name": "Reaper launcher – starswarm",
+      "modifiers": "heavy",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Banshee blade",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 3,
+      "damage": "1"
+    },
+    {
+      "name": "Scorpion chainsword",
+      "modifiers": "sustainedhits1",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Star glaive",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
 }

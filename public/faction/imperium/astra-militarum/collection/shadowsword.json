@@ -1,129 +1,132 @@
 {
-    "parentUnit": "shadowsword",
-    
-    "attributes": [
-      {
-        "movement": 9,
-        "toughness": 13,
-        "save": 2,
-        "wounds": 24,
-        "leadership": 7,
-        "objetiveControl": 8,
-        "invulnerableSave": 0
-      }
-    ],
-  
-    "rangedWeapons": [
-      {
-        "name": "Lascannon",
-        "range": 48,
-        "attacks": 1,
-        "ballistic-skills": 4,
-        "strength": 12,
-        "armor-penetration":3 ,
-        "damage": "d6+1",
-        "modifiers": []
-      },
-      {
-        "name": "Twin heavy bolter",
-        "range": 36,
-        "attacks": 3,
-        "ballistic-skills": 4,
-        "strength": 12,
-        "armor-penetration":3 ,
-        "damage": "d6+1",
-        "modifiers": ["sustained hits 1", "twin-linked"]
-      },
-      {
-        "name": "Twin heavy flamer",
-        "range": 12,
-        "attacks": "d6",
-        "ballistic-skills": "N/A",
-        "strength": 5,
-        "armor-penetration":1 ,
-        "damage": "1",
-        "modifiers": ["ignores cover", "torrent", "twin-linked"]
-      },
-      {
-        "name": "Volcano cannon",
-        "range": 96,
-        "attacks": "d3+1",
-        "ballistic-skills": 4,
-        "strength": 24,
-        "armor-penetration":5 ,
-        "damage": 12,
-        "modifiers": ["blast","heavy"]
-      }
+  "parentUnit": "Shadowsword",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 8,
+    "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Shadowsword is designed to bring a swift and crushing end to drawn out engagements against the most titanic opposition. Its volcano cannon emits a laser beam so powerful that infantry and vehicles are atomised, while its favoured super-heavy prey are cored and toppled by the lance of thrumming energy.",
+  "keywords": [
+    "vehicle",
+    "titanic",
+    "imperium",
+    "smoke",
+    "shadowsword"
+  ],
+  "attributes": {
+    "movement": 9,
+    "toughness": 13,
+    "salvation": 2,
+    "wounds": 24,
+    "leadership": 7,
+    "objectiveControl": 8,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
       ],
-  
-    "meleeWeapons": [
-      {
-        "name": "Armoured tracks",
-        "attacks": 6,
-        "weapons-skills": 4,
-        "strength": 8,
-        "armor-penetration": 0,
-        "damage": 1,
-        "modifiers": []
-      }
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent",
+        "twin-linked"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Volcano cannon",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 96,
+      "strength": 24,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6+2"
     ],
-  
-      "keywords": ["Vehicle","Titanic","Imperium"," Smoke","Shadowsword"],
-  
-      "factionKeyword": ["Astra Militarum"],
-  
-      "wargear": [
-      {
-        "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters",
-        "items": []
-      },
-      {
-        "description": "This model can be equipped with one of the following: ",
-        "items": ["2 lascannons and 2 twin heavy bolters","2 lascannons and 2 twin heavy flamers"]
-      }
-       ],
-  
-    "appendix": "",
-  
-    "abilities": {
-      "core": ["Deadly Demise D6+2"],
-      "faction": [],
-      "otherAbilities": [
-        {
-          "name": "Titan-killer",
-          "description": "Each time this model makes a ranged attack with its volcano cannon that targets a Monster or Vehicle unit, that attack has the DEVASTATING WOUNDS ability."
-        }
+    "faction": [],
+    "otherAbilities": []
+  },
+  "wargear": [
+    {
+      "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "2 lascannons and 2 twin heavy bolters",
+        "2 lascannons and 2 twin heavy flamers"
       ]
-     },
-  
-    "leader": [],
-  
-    "supremeCommander": false,
-  
-  
-    "damaged": {
-          "remainingWounds": 8,
-          "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-       },
-  
-    "unitComposition": [
-      {
-        "unitType": "Shadowsword",
-        "minQuantity": 1,
-        "maxQuantity": 1
-      }
-    ],
-  
-    "options": [
-      {
-        "count": [1],
-        "points": 440
-      }
-    ],
-  
-     "equipment": [" 2 lascannons", "twin heavy bolter", "2 twin heavy flamers", "volcano cannon", "armoured tracks"],
-
-     "additionalParameter": {},
-  
-     "lore": "The Shadowsword is designed to bring a swift and crushing end to drawn out engagements against the most titanic opposition. Its volcano cannon emits a laser beam so powerful that infantry and vehicles are atomised, while its favoured super-heavy prey are cored and toppled by the lance of thrumming energy."
-  }
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Lascannon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": "sustainedhits1,twin-linked",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Twin heavy flamer",
+      "modifiers": "ignorescover,torrent,twin-linked",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

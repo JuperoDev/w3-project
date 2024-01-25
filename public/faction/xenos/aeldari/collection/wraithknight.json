@@ -1,6 +1,6 @@
 {
   "parentUnit": "Wraithknight",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {
@@ -17,7 +17,15 @@
     "wraith construct",
     "wraithknight"
   ],
-  "attributes": [],
+  "attributes": {
+    "movement": 10,
+    "toughness": 12,
+    "salvation": 2,
+    "wounds": 18,
+    "leadership": 6,
+    "objectiveControl": 10,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -28,10 +36,10 @@
       ],
       "range": 36,
       "strength": 20,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -41,10 +49,10 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -55,9 +63,92 @@
     "faction": [
       "Strands of Fate"
     ],
-    "otherAbilities": {
-      "Wraithbone Form:": "Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic.",
-      "Agile:": "Each time this model makes a Normal , Advance or Fall Back move, it can move over other models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+    "otherAbilities": [
+      {
+        "name": "Wraithbone Form:",
+        "description": "Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic."
+      },
+      {
+        "name": "Agile:",
+        "description": "Each time this model makes a Normal , Advance or Fall Back move, it can move over other models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with up to two of the following",
+      "items": [
+        "1 scatter laser",
+        "1 shuriken cannon",
+        "1 starcannon"
+      ]
+    },
+    {
+      "description": "This model’s scattershield can be replaced with 1 heavy wraithcannon.",
+      "items": []
+    },
+    {
+      "description": "This model’s titanic ghostglaive can be replaced with one of the following",
+      "items": [
+        "1 heavy wraithcannon",
+        "1 suncannon"
+      ]
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Heavy wraithcannon",
+      "modifiers": "blast,devastatingwounds",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 20,
+      "armor-penetration": 4,
+      "damage": "2D6"
+    },
+    {
+      "name": "Scatter laser",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Starcannon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "2"
+    },
+    {
+      "name": "Titanic feet",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Titanic ghostglaive – strike",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 16,
+      "armor-penetration": 3,
+      "damage": "6"
+    }
+  ]
 }

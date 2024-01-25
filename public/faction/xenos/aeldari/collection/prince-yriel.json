@@ -1,0 +1,75 @@
+{
+  "parentUnit": "Prince Yriel",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A great hero of Iyanden, Prince Yriel is a superlative commander of mighty fleets and great hosts of warriors alike. Yriel’s combat skill is equally unparalleled, and in battle he wields the Spear of Twilight with such speed and flair that his foes have little way of knowing where his next strikes will come from.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "prince yriel"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "The Eye of Wrath",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 6,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Strands of Fate"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Hero of Iyanden:",
+        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+      },
+      {
+        "name": "Prince of Corsairs:",
+        "description": "If your army includes this model, after both players have deployed their armies, select up to three AELDARI units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "The Spear of Twilight",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 3,
+      "damage": "3"
+    }
+  ]
+}

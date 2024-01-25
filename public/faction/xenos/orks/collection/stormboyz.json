@@ -1,6 +1,6 @@
 {
   "parentUnit": "Stormboyz",
-  "factionKeyword": [
+  "factionKeywords": [
     "orks"
   ],
   "damaged": {},
@@ -13,26 +13,15 @@
     "grenades",
     "stormboyz"
   ],
-  "attributes": [
-    {
-      "name": "stormboy",
-      "movement": 12,
-      "toughness": 5,
-      "save": 5,
-      "wounds": 1,
-      "leadership": 7,
-      "objetiveControl": 1
-    },
-    {
-      "name": "boss nob",
-      "movement": 12,
-      "toughness": 5,
-      "save": 5,
-      "wounds": 2,
-      "leadership": 7,
-      "objetiveControl": 1
-    }
-  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 1,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -42,10 +31,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -56,8 +45,37 @@
     "faction": [
       "Waaagh!"
     ],
-    "otherAbilities": {
-      "Full Throttle:": "This unit is eligible to declare a charge in a turn in which it Advanced . If it does, before making that Charge move , roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound . You cannot use this ability during the battle round in which you call a Waaagh! ."
+    "otherAbilities": [
+      {
+        "name": "Full Throttle:",
+        "description": "This unit is eligible to declare a charge in a turn in which it Advanced . If it does, before making that Charge move , roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound . You cannot use this ability during the battle round in which you call a Waaagh! ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Boss Nob’s choppa can be replaced with 1 power klaw.",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Choppa",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Power klaw",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
 }

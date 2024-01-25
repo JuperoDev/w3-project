@@ -1,0 +1,147 @@
+{
+  "parentUnit": "Colossus",
+  "factionKeywords": [
+    "astra militarum"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "The Colossus is a relic weapon of ancient provenance whose massive damage output more than compensates for its ponderous rate of fire. Colossus are amongst the largest artillery pieces fielded by the Astra Militarum, and a direct hit from a Colossus shell can turn the staunchest bunker into a smoking caldera.",
+  "keywords": [
+    "vehicle",
+    "imperium",
+    "squadron",
+    "smoke",
+    "colossus"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 10,
+    "salvation": 2,
+    "wounds": 11,
+    "leadership": 7,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Colossus siege mortar",
+      "modifiers": [
+        "blast",
+        "devastating wounds"
+      ],
+      "range": 120,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Tracking Target:",
+        "description": "Each time this model is selected to shoot, provided it Remained Stationary this turn, its Colossus siege mortar has the [ANTI-MONSTER 5+] and [ANTI-VEHICLE 5+] abilities while resolving those attacks."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 heavy stubber",
+        "1 storm bolter"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Colossus siege mortar",
+      "modifiers": "blast,devastatingwounds",
+      "attacks": "D6",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "D6+2"
+    },
+    {
+      "name": "Heavy stubber",
+      "modifiers": "rapidfire3",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

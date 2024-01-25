@@ -1,6 +1,6 @@
 {
   "parentUnit": "Gretchin",
-  "factionKeyword": [
+  "factionKeywords": [
     "orks"
   ],
   "damaged": {},
@@ -10,26 +10,15 @@
     "infantry",
     "gretchin"
   ],
-  "attributes": [
-    {
-      "name": "gretchin",
-      "movement": 6,
-      "toughness": 2,
-      "save": 7,
-      "wounds": 1,
-      "leadership": 8,
-      "objetiveControl": 2
-    },
-    {
-      "name": "runtherd",
-      "movement": 6,
-      "toughness": 5,
-      "save": 5,
-      "wounds": 2,
-      "leadership": 7,
-      "objetiveControl": 1
-    }
-  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 2,
+    "salvation": 7,
+    "wounds": 1,
+    "leadership": 8,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
   "leader": [],
   "rangedWeapons": [
     {
@@ -39,10 +28,10 @@
       ],
       "range": 12,
       "strength": 3,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     },
     {
@@ -52,10 +41,10 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
       "singleChoice": false
     }
   ],
@@ -63,16 +52,51 @@
     "core": [
       "FACTION: Waaagh!"
     ],
-    "faction": [
-      "Runtherd: While this unit contains one or more Gretchin models",
-      "each time an attack targets this unit",
-      "Runtherd models in this unit have a Toughness characteristic of 2.Thievin’ Scavengers: At the start of your Command phase",
-      "roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of those rolls is a 4+",
-      "you gain 1CP."
-    ],
-    "otherAbilities": {
-      "Every Runtherd is equipped with:": "slugga; grot-smacka.",
-      "Every Gretchin is equipped with:": "grot blasta; close combat weapon."
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every Runtherd is equipped with:",
+        "description": "slugga; grot-smacka."
+      },
+      {
+        "name": "Every Gretchin is equipped with:",
+        "description": "grot blasta; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
     }
-  }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Grot blasta",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "5+",
+      "strength": 2,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Grot-smacka",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
 }

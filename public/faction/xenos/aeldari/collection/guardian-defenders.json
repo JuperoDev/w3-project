@@ -1,0 +1,150 @@
+{
+  "parentUnit": "Guardian Defenders",
+  "factionKeywords": [
+    "aeldari"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Guardian Defenders are versatile support troops capable of unleashing withering hails of fire from their shuriken catapults. They also man anti-grav Heavy Weapon Platforms that can be fitted with a variety of powerful guns with which to sunder enemy armour or mow down swathes of infantry.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "grenades",
+    "guardians",
+    "guardian defenders"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 4,
+    "wounds": 1,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Aeldari missile launcher - sunburst",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Shuriken catapult",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Strands of Fate"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every Guardian Defender is equipped with:",
+        "description": "shuriken catapult; close combat weapon."
+      },
+      {
+        "name": "The Heavy Weapon Platform is equipped with:",
+        "description": "shuriken cannon; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Heavy Weapon Platform can replace its shuriken cannon with one of the following",
+      "items": [
+        "1 Aeldari missile launcher",
+        "1 bright lance",
+        "1 scatter laser",
+        "1 starcannon"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Aeldari missile launcher – starshot",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 10,
+      "armor-penetration": 2,
+      "damage": "D6"
+    },
+    {
+      "name": "Bright lance",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+2"
+    },
+    {
+      "name": "Scatter laser",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Shuriken cannon",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Shuriken catapult",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

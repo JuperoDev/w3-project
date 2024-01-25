@@ -1,0 +1,76 @@
+{
+  "parentUnit": "Big Mek With Shokk Attack Gun",
+  "factionKeywords": [
+    "orks"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The shokk attack gun opens a tunnel through the warp into its target, then launches screaming Snotlings down it. The diminutive greenskins rematerialise as a terror-maddened, clawing, biting swarm. Needless to say if this happens in an engine, troop bay or – worst of all – a living body, the results are swift and horrific.",
+  "keywords": [
+    "infantry",
+    "character",
+    "grenades",
+    "big mek with shokk attack gun"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 5,
+    "salvation": 4,
+    "wounds": 5,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Shokk attack gun",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 60,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Waaagh!"
+    ],
+    "otherAbilities": [
+      {
+        "name": "More Dakka:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Deranged Snotling Assault:",
+        "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 grot assistant.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

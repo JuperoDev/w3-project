@@ -79,15 +79,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Heavy flamer",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
+  
     {
       "name": "Fenrisian great axe – strike",
       "modifiers": [],
@@ -111,17 +103,16 @@
   "options": [
     {
       "count": [1],
-      "points": 455
+      "points": 150
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Wulfen Dreadnought",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
-          ]
+            "storm bolter", "Fenrisian great axe", "great wolf claw"          ]
       }
   ],
   "additionalParameter": {}

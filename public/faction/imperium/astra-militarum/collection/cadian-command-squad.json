@@ -15,6 +15,17 @@
     "officer"
   ],
   "attributes": [{
+    "name":"cadian commander",
+    "movement": 6,
+    "toughness": 3,
+    "save": 5,
+    "wounds": 3,
+    "leadership": 7,
+    "objetiveControl": 1,
+    "invulnerableSave": 0
+  },
+  {
+    "name":"veteran guardsman",
     "movement": 6,
     "toughness": 3,
     "save": 5,
@@ -254,22 +265,53 @@
       "armor-penetration": 2,
       "damage": 1
     }
-  ],
+  ],"additionalParameter": {},
   "unitComposition": [
       {
-        "unitType": " Angron – Epic Hero",
+        "unitType": "Cadian Commander",
         "minQuantity": 1,
         "maxQuantity": 1,
         "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
+          "laspistol", "chainsword"
+          ]
+      },
+      {
+        "unitType": "Cadian Veteran Guardsman",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+          "lasgun", "master vox", "close combat weapon"
+          ]
+      },
+      {
+        "unitType": "Cadian Veteran Guardsman",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+          "lasgun", "medi-pack", "close combat weapon"
+          ]
+      },
+      {
+        "unitType": "Cadian Veteran Guardsman",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+          "lasgun", "regimental standard", "close combat weapon"
+          ]
+      },
+      {
+        "unitType": "Cadian Veteran Guardsman",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "equipment": [
+          "laspistol", "chainsword"
           ]
       }
     ],
   "options": [
       {
-        "count": [1],
-        "points": 415
+        "count": [1,1,1,1,1],
+        "points": 65
       }
     ]
 }

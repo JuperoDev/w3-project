@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100 h-screen">
     
-   <!-- <GeneralPurposePasswordProtection>   -->
+  <GeneralPurposePasswordProtection>   
 
     <!-- <FactionFetch /> -->
     
@@ -71,6 +71,21 @@
             </div>
             <div class="army__card_title title-white uppercase">
               <p>Mechanicus</p>
+            </div>
+           </nuxt-link> 
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+           <nuxt-link to="/imperium/astra-militarum"> 
+            <div class="army__card_image">
+              <img
+                src="/icons/astra-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Astra Militarum</p>
             </div>
            </nuxt-link> 
         </div>
@@ -220,7 +235,7 @@
 
 
     </div>
-  <!-- </GeneralPurposePasswordProtection>   -->
+   </GeneralPurposePasswordProtection>   
   </div>
 </template>
 

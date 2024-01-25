@@ -1,6 +1,6 @@
 {
   "parentUnit": "Marauder Bomber",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {
@@ -20,10 +20,10 @@
   "attributes": {
     "movement": 0,
     "toughness": 0,
-    "salvation": 0,
+    "save": 0,
     "wounds": 0,
     "leadership": 0,
-    "objectiveControl": 0,
+    "objetiveControl": 0,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -64,8 +64,8 @@
     {
       "name": "Heavy bolter",
       "modifiers": "sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"
@@ -73,11 +73,11 @@
     {
       "name": "Armoured hull",
       "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "attacks": 6,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

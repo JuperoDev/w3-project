@@ -1,6 +1,6 @@
 {
   "parentUnit": "Attilan Rough Riders",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 12,
     "toughness": 4,
-    "salvation": 4,
+    "save": 4,
     "wounds": 2,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -73,17 +73,17 @@
     {
       "name": "Lasgun",
       "modifiers": "rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Goad lance",
       "modifiers": "lance",
-      "attacks": "2",
-      "weapons-skills": "3+",
+      "attacks": 2,
+      "weapons-skills": 3,
       "strength": 6,
       "armor-penetration": 2,
       "damage": "2"
@@ -92,28 +92,28 @@
       "name": "Hunting lance – frag tip",
       "modifiers": "lance",
       "attacks": "D6",
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Power sabre",
       "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
+      "attacks": 4,
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Steed’s hooves",
       "modifiers": "extraattacks",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

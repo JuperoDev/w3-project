@@ -1,6 +1,6 @@
 {
   "parentUnit": "Rogal Dorn Battle Tank",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {
@@ -19,10 +19,10 @@
   "attributes": {
     "movement": 10,
     "toughness": 12,
-    "salvation": 2,
+    "save": 2,
     "wounds": 18,
     "leadership": 7,
-    "objectiveControl": 5,
+    "objetiveControl": 5,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -161,16 +161,16 @@
       "name": "Castigator gatling cannon",
       "modifiers": "",
       "attacks": "12",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Co-axial autocannon",
       "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
+      "attacks": 2,
+      "weapons-skills": 3,
       "strength": 9,
       "armor-penetration": 1,
       "damage": "3"
@@ -178,8 +178,8 @@
     {
       "name": "Heavy bolter",
       "modifiers": "sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"
@@ -187,17 +187,17 @@
     {
       "name": "Heavy stubber",
       "modifiers": "rapidfire3",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Meltagun",
       "modifiers": "melta2",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 4,
       "damage": "D6"
@@ -205,8 +205,8 @@
     {
       "name": "Multi-melta",
       "modifiers": "melta2",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 4,
       "damage": "D6"
@@ -215,7 +215,7 @@
       "name": "Oppressor cannon",
       "modifiers": "blast",
       "attacks": "D6+3",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 12,
       "armor-penetration": 2,
       "damage": "3"
@@ -224,7 +224,7 @@
       "name": "Pulveriser cannon",
       "modifiers": "blast",
       "attacks": "D6",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 3,
       "damage": "3"
@@ -232,11 +232,11 @@
     {
       "name": "Armoured tracks",
       "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "attacks": 6,
+      "weapons-skills": 4,
       "strength": 7,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

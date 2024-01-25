@@ -1,6 +1,6 @@
 {
   "parentUnit": "Sly Marbo",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -18,10 +18,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "salvation": 5,
+    "save": 5,
     "wounds": 4,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -66,8 +66,8 @@
     {
       "name": "Envenomed blade",
       "modifiers": "anti-infantry2+,precision",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"

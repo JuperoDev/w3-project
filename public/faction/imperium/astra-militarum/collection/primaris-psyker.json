@@ -1,6 +1,6 @@
 {
   "parentUnit": "Primaris Psyker",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "salvation": 5,
+    "save": 5,
     "wounds": 3,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -91,17 +91,17 @@
     {
       "name": "Laspistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Force weapon",
       "modifiers": "psychic",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 1,
       "damage": "D3"

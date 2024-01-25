@@ -1,6 +1,6 @@
 {
   "parentUnit": "Field Ordnance Battery",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 4,
     "toughness": 5,
-    "salvation": 4,
+    "save": 4,
     "wounds": 6,
     "leadership": 7,
-    "objectiveControl": 2,
+    "objetiveControl": 2,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -119,7 +119,7 @@
       "name": "Bombast field gun",
       "modifiers": "blast,heavy,indirectfire",
       "attacks": "D6",
-      "weapons-skills": "5+",
+      "weapons-skills": 5,
       "strength": 7,
       "armor-penetration": 1,
       "damage": "2"
@@ -127,8 +127,8 @@
     {
       "name": "Heavy lascannon",
       "modifiers": "heavy",
-      "attacks": "2",
-      "weapons-skills": "5+",
+      "attacks": 2,
+      "weapons-skills": 5,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -136,29 +136,29 @@
     {
       "name": "Lasgun",
       "modifiers": "rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Laspistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Battery close combat weapons",
       "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

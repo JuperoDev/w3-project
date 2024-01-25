@@ -1,6 +1,6 @@
 {
   "parentUnit": "Lord Solar Leontus",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 12,
     "toughness": 4,
-    "salvation": 3,
+    "save": 3,
     "wounds": 8,
     "leadership": 6,
-    "objectiveControl": 2,
+    "objetiveControl": 2,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -67,8 +67,8 @@
     {
       "name": "Conquest",
       "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 6,
       "armor-penetration": 2,
       "damage": "2"
@@ -76,11 +76,11 @@
     {
       "name": "Konstantin’s hooves",
       "modifiers": "extraattacks",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

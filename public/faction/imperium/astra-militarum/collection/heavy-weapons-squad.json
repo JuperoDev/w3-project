@@ -1,6 +1,6 @@
 {
   "parentUnit": "Heavy Weapons Squad",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "salvation": 5,
+    "save": 5,
     "wounds": 2,
     "leadership": 7,
-    "objectiveControl": 2,
+    "objetiveControl": 2,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -145,8 +145,8 @@
     {
       "name": "Autocannon",
       "modifiers": "heavy",
-      "attacks": "2",
-      "weapons-skills": "5+",
+      "attacks": 2,
+      "weapons-skills": 5,
       "strength": 9,
       "armor-penetration": 1,
       "damage": "3"
@@ -154,8 +154,8 @@
     {
       "name": "Heavy bolter",
       "modifiers": "heavy,sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "5+",
+      "attacks": 3,
+      "weapons-skills": 5,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"
@@ -163,17 +163,17 @@
     {
       "name": "Las small arms",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Lascannon",
       "modifiers": "heavy",
-      "attacks": "1",
-      "weapons-skills": "5+",
+      "attacks": 1,
+      "weapons-skills": 5,
       "strength": 12,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -182,19 +182,19 @@
       "name": "Missile launcher – frag",
       "modifiers": "blast,heavy",
       "attacks": "D6",
-      "weapons-skills": "5+",
+      "weapons-skills": 5,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Weapons team close combat weapons",
       "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

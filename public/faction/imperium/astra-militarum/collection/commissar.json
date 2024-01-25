@@ -1,6 +1,6 @@
 {
   "parentUnit": "Commissar",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "salvation": 5,
+    "save": 5,
     "wounds": 3,
     "leadership": 6,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 5
   },
   "leader": [],
@@ -97,29 +97,29 @@
     {
       "name": "Bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Chainsword",
       "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
+      "attacks": 4,
+      "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Power weapon",
       "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

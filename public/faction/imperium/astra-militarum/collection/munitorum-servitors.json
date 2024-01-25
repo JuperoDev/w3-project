@@ -1,6 +1,6 @@
 {
   "parentUnit": "Munitorum Servitors",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -14,10 +14,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "salvation": 4,
+    "save": 4,
     "wounds": 1,
     "leadership": 8,
-    "objectiveControl": 0,
+    "objetiveControl": 0,
     "invulnerableSave": 6
   },
   "leader": [],
@@ -102,7 +102,7 @@
     {
       "name": "Heavy bolter",
       "modifiers": "heavy,sustainedhits1",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "6+",
       "strength": 5,
       "armor-penetration": 1,
@@ -111,7 +111,7 @@
     {
       "name": "Multi-melta",
       "modifiers": "heavy,melta2",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "6+",
       "strength": 9,
       "armor-penetration": 4,
@@ -120,17 +120,17 @@
     {
       "name": "Close combat weapon",
       "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "5+",
+      "attacks": 1,
+      "weapons-skills": 5,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Servitor’s servo-arm",
       "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "5+",
+      "attacks": 1,
+      "weapons-skills": 5,
       "strength": 6,
       "armor-penetration": 2,
       "damage": "3"

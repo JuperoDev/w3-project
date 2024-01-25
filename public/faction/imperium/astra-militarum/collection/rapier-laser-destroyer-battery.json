@@ -1,6 +1,6 @@
 {
   "parentUnit": "Rapier Laser Destroyer Battery",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 4,
-    "salvation": 4,
+    "save": 4,
     "wounds": 3,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -59,11 +59,11 @@
     {
       "name": "Close combat weapon",
       "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Hellhammer",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {
@@ -19,10 +19,10 @@
   "attributes": {
     "movement": 9,
     "toughness": 13,
-    "salvation": 2,
+    "save": 2,
     "wounds": 24,
     "leadership": 7,
-    "objectiveControl": 8,
+    "objetiveControl": 8,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -126,8 +126,8 @@
     {
       "name": "Co-axial autocannon",
       "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 1,
       "damage": "3"
@@ -136,7 +136,7 @@
       "name": "Demolisher cannon",
       "modifiers": "blast",
       "attacks": "D6+3",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
@@ -144,17 +144,17 @@
     {
       "name": "Heavy stubber",
       "modifiers": "rapidfire3",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Hellhammer cannon",
       "modifiers": "blast,ignorescover",
       "attacks": "4D6",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 7,
       "armor-penetration": 1,
       "damage": "2"
@@ -162,8 +162,8 @@
     {
       "name": "Lascannon",
       "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 12,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -171,8 +171,8 @@
     {
       "name": "Twin heavy bolter",
       "modifiers": "sustainedhits1,twin-linked",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"
@@ -180,11 +180,11 @@
     {
       "name": "Armoured tracks",
       "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "attacks": 6,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

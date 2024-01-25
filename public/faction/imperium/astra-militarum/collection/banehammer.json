@@ -1,6 +1,6 @@
 {
   "parentUnit": "Banehammer",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {
@@ -20,10 +20,10 @@
   "attributes": {
     "movement": 9,
     "toughness": 13,
-    "salvation": 2,
+    "save": 2,
     "wounds": 24,
     "leadership": 7,
-    "objectiveControl": 8,
+    "objetiveControl": 8,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -101,8 +101,8 @@
     {
       "name": "Lascannon",
       "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 12,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -111,7 +111,7 @@
       "name": "Tremor cannon",
       "modifiers": "blast",
       "attacks": "2D6+3",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 12,
       "armor-penetration": 2,
       "damage": "3"
@@ -119,8 +119,8 @@
     {
       "name": "Twin heavy bolter",
       "modifiers": "sustainedhits1,twin-linked",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"
@@ -128,11 +128,11 @@
     {
       "name": "Armoured tracks",
       "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "attacks": 6,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

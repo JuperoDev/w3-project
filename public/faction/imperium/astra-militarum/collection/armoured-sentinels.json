@@ -1,6 +1,6 @@
 {
   "parentUnit": "Armoured Sentinels",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -18,10 +18,10 @@
   "attributes": {
     "movement": 8,
     "toughness": 8,
-    "salvation": 2,
+    "save": 2,
     "wounds": 7,
     "leadership": 7,
-    "objectiveControl": 2,
+    "objetiveControl": 2,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -144,8 +144,8 @@
     {
       "name": "Autocannon",
       "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 1,
       "damage": "3"
@@ -157,13 +157,13 @@
       "weapons-skills": "N/A",
       "strength": 5,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Hunter-killer missile",
       "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
@@ -171,8 +171,8 @@
     {
       "name": "Lascannon",
       "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 12,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -180,38 +180,38 @@
     {
       "name": "Militarum multi-laser",
       "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "4+",
+      "attacks": 4,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Missile launcher – frag",
       "modifiers": "blast,heavy",
       "attacks": "D6",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Close combat weapon",
       "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Sentinel chainsaw",
       "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Tempestus Scions",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "salvation": 4,
+    "save": 4,
     "wounds": 1,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -218,11 +218,11 @@
     {
       "name": "Bolt pistol",
       "modifiers": "PISTOL",
-      "attacks": "1",
-      "weapons-skills": "3+",
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Flamer",
@@ -231,49 +231,49 @@
       "weapons-skills": "N/A",
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Grenade launcher – frag",
       "modifiers": "blast",
       "attacks": "D3",
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Hot-shot lasgun",
       "modifiers": "rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "3+",
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Hot-shot laspistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Hot-shot volley gun",
       "modifiers": "rapidfire2",
-      "attacks": "2",
-      "weapons-skills": "3+",
+      "attacks": 2,
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Meltagun",
       "modifiers": "melta2",
-      "attacks": "1",
-      "weapons-skills": "3+",
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 9,
       "armor-penetration": 4,
       "damage": "D6"
@@ -281,35 +281,35 @@
     {
       "name": "Plasma gun – standard",
       "modifiers": "rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "3+",
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 7,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Chainsword",
       "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "4+",
+      "attacks": 4,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Close combat weapon",
       "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Power fist",
       "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 2,
       "damage": "2"
@@ -317,11 +317,11 @@
     {
       "name": "Power weapon",
       "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

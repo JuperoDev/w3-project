@@ -1,6 +1,6 @@
 {
   "parentUnit": "Death Rider Squadron",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 12,
     "toughness": 4,
-    "salvation": 4,
+    "save": 4,
     "wounds": 2,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -102,38 +102,38 @@
     {
       "name": "Bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Laspistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Death Rider hunting lance",
       "modifiers": "lance",
-      "attacks": "3",
-      "weapons-skills": "3+",
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Savage claws",
       "modifiers": "extraattacks",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

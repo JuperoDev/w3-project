@@ -1,6 +1,6 @@
 {
   "parentUnit": "Hellhound",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {
@@ -19,10 +19,10 @@
   "attributes": {
     "movement": 10,
     "toughness": 10,
-    "salvation": 2,
+    "save": 2,
     "wounds": 11,
     "leadership": 7,
-    "objectiveControl": 3,
+    "objetiveControl": 3,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -168,8 +168,8 @@
     {
       "name": "Heavy bolter",
       "modifiers": "sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"
@@ -181,13 +181,13 @@
       "weapons-skills": "N/A",
       "strength": 5,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Hunter-killer missile",
       "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
@@ -199,13 +199,13 @@
       "weapons-skills": "N/A",
       "strength": 6,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Melta cannon",
       "modifiers": "blast,melta4",
       "attacks": "D3",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 4,
       "damage": "D6"
@@ -213,11 +213,11 @@
     {
       "name": "Armoured tracks",
       "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Taurox",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 12,
     "toughness": 8,
-    "salvation": 3,
+    "save": 3,
     "wounds": 10,
     "leadership": 7,
-    "objectiveControl": 2,
+    "objetiveControl": 2,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -74,8 +74,8 @@
     {
       "name": "Twin autocannon",
       "modifiers": "twin-linked",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 1,
       "damage": "3"
@@ -83,11 +83,11 @@
     {
       "name": "Armoured tracks",
       "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Ratling Snipers",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -14,10 +14,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 2,
-    "salvation": 6,
+    "save": 6,
     "wounds": 1,
     "leadership": 8,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -60,11 +60,11 @@
     {
       "name": "Close combat weapon",
       "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "5+",
+      "attacks": 1,
+      "weapons-skills": 5,
       "strength": 2,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

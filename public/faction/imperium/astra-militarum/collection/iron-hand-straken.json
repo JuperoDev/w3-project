@@ -1,6 +1,6 @@
 {
   "parentUnit": "‘Iron Hand’ Straken",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -18,10 +18,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "salvation": 3,
+    "save": 3,
     "wounds": 4,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -96,8 +96,8 @@
     {
       "name": "Auto shotgun",
       "modifiers": "assault",
-      "attacks": "3",
-      "weapons-skills": "3+",
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
       "damage": "2"
@@ -105,8 +105,8 @@
     {
       "name": "Bionic arm with devil’s claw",
       "modifiers": "anti-monster4+",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 6,
       "armor-penetration": 2,
       "damage": "2"

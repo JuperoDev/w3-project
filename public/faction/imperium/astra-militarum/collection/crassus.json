@@ -1,6 +1,6 @@
 {
   "parentUnit": "Crassus",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {
@@ -20,10 +20,10 @@
   "attributes": {
     "movement": 10,
     "toughness": 11,
-    "salvation": 2,
+    "save": 2,
     "wounds": 18,
     "leadership": 7,
-    "objectiveControl": 5,
+    "objetiveControl": 5,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -93,8 +93,8 @@
     {
       "name": "Heavy bolter",
       "modifiers": "sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": "2"
@@ -102,20 +102,20 @@
     {
       "name": "Heavy stubber",
       "modifiers": "rapidfire3",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Armoured tracks",
       "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "attacks": 6,
+      "weapons-skills": 4,
       "strength": 7,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

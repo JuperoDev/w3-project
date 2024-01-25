@@ -1,6 +1,6 @@
 {
   "parentUnit": "Ogryn Bodyguard",
-  "factionKeywords": [
+  "factionKeyword": [
     "astra militarum"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 6,
-    "salvation": 5,
+    "save": 5,
     "wounds": 6,
     "leadership": 7,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -85,16 +85,16 @@
       "name": "Grenadier gauntlet",
       "modifiers": "blast",
       "attacks": "D6",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Bullgryn maul",
       "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "3+",
+      "attacks": 5,
+      "weapons-skills": 3,
       "strength": 7,
       "armor-penetration": 1,
       "damage": "2"
@@ -102,17 +102,17 @@
     {
       "name": "Close combat weapon",
       "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
+      "attacks": 4,
+      "weapons-skills": 3,
       "strength": 6,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     },
     {
       "name": "Huge knife",
       "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "3+",
+      "attacks": 6,
+      "weapons-skills": 3,
       "strength": 8,
       "armor-penetration": 1,
       "damage": "2"
@@ -120,11 +120,11 @@
     {
       "name": "Ripper gun",
       "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "3+",
+      "attacks": 5,
+      "weapons-skills": 3,
       "strength": 6,
       "armor-penetration": 1,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

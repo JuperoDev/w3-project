@@ -14,18 +14,43 @@
     "command squadplatoon commander: character",
     "officer"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": ["Catachan Jungle Fighters",
-  "Death Korps Of Krieg",
-  "Infantry Squad"],
+  "attributes": [
+    {
+      "name": "Platoon Commander",
+      "movement": 6,
+      "toughness": 3,
+      "save": 5,
+      "wounds": 3,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    },
+    {
+      "name": "Veteran Heavy Weapons Team",
+      "movement": 6,
+      "toughness": 3,
+      "save": 5,
+      "wounds": 3,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    },
+    {
+      "name": "Veteran Guardsman",
+      "movement": 6,
+      "toughness": 3,
+      "save": 5,
+      "wounds": 3,
+      "leadership": 7,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    }
+  ],
+  "leader": [
+    "Catachan Jungle Fighters",
+    "Death Korps Of Krieg",
+    "Infantry Squad"
+  ],
   "rangedWeapons": [
     {
       "name": "Autocannon",
@@ -349,7 +374,6 @@
     }
   ],
   "meleeWeapons": [
-    
     {
       "name": "Chainsword",
       "modifiers": [],
@@ -375,7 +399,7 @@
       "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 2,
-      "damage": "2"
+      "damage": 2
     },
     {
       "name": "Power weapon",
@@ -386,22 +410,53 @@
       "armor-penetration": 2,
       "damage": 1
     }
-  ],"additionalParameter": {},
+  ],
+  "additionalParameter": {},
   "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
-    ],
+    {
+      "unitType": "Platoon Commander",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "laspistol",
+        "close combat weapon"
+      ]
+    },
+    {
+      "unitType": "Veteran Guardsmen",
+      "minQuantity": 2,
+      "maxQuantity": 4,
+      "equipment": [
+        "lasgun; laspistol",
+        "close combat weapon"
+      ]
+    },
+    {
+      "unitType": "Veteran Heavy Weapons Team",
+      "minQuantity": 0,
+      "maxQuantity": 1,
+      "equipment": [
+        "heavy bolter",
+        "laspistol",
+        "close combat weapon"
+      ]
+    }
+  ],
   "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
-    ]
+    {
+      "count": [
+        1,
+        4
+      ],
+      "points": 60
+    },
+    {
+      "count": [
+        1,
+        2,
+        1
+      ],
+      "points": 60
+    }
+  ]
 }

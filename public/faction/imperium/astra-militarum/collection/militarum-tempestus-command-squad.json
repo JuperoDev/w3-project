@@ -16,6 +16,17 @@
     "officer"
   ],
   "attributes": [{
+    "name":"tempestor prime",
+    "movement": 6,
+    "toughness": 3,
+    "save": 4,
+    "wounds": 1,
+    "leadership": 7,
+    "objetiveControl": 1,
+    "invulnerableSave": 0
+  },
+  {
+    "name":"tempestor prime",
     "movement": 6,
     "toughness": 3,
     "save": 4,
@@ -243,19 +254,26 @@
   ],"additionalParameter": {},
   "unitComposition": [
       {
-        "unitType": " Angron – Epic Hero",
+        "unitType": "Tempestor Prime",
         "minQuantity": 1,
         "maxQuantity": 1,
         "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
+          "bolt pistol", "Tempestus dagger"
+          ]
+      },
+      {
+        "unitType": "Tempestus Scion",
+        "minQuantity": 4,
+        "maxQuantity": 4,
+        "equipment": [
+         "hot-shot lasgun", "close combat weapon" 
           ]
       }
     ],
   "options": [
       {
-        "count": [1],
-        "points": 415
+        "count": [1,4],
+        "points": 80
       }
     ]
 }

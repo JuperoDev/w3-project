@@ -16,15 +16,17 @@
     "cadian",
     "cadian shock troops"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 5,
+      "wounds": 1,
+      "leadership": 7,
+      "objetiveControl": 2,
+      "invulnerableSave": 0
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -178,7 +180,6 @@
     }
   ],
   "meleeWeapons": [
-  
     {
       "name": "Close combat weapon",
       "modifiers": [],
@@ -188,22 +189,25 @@
       "armor-penetration": 0,
       "damage": 1
     }
-  ],"additionalParameter": {},
+  ],
+  "additionalParameter": {},
   "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
-    ],
+    {
+      "unitType": " Angron – Epic Hero",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Samni’arius",
+        "Spinegrinder"
+      ]
+    }
+  ],
   "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
-    ]
+    {
+      "count": [
+        1
+      ],
+      "points": 415
+    }
+  ]
 }

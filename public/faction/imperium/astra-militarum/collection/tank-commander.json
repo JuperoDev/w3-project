@@ -17,15 +17,17 @@
     "officer",
     "tank commander"
   ],
-  "attributes":[ {
-    "movement": 10,
-    "toughness": 11,
-    "save": 2,
-    "wounds": 13,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 0
-  }],
+  "attributes": [
+    {
+      "movement": 10,
+      "toughness": 11,
+      "save": 2,
+      "wounds": 13,
+      "leadership": 7,
+      "objetiveControl": 3,
+      "invulnerableSave": 0
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -35,10 +37,10 @@
       ],
       "range": 24,
       "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "attacks": "d6+3",
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": "d6",
       "singleChoice": false
     },
     {
@@ -49,10 +51,10 @@
       ],
       "range": 36,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d3+6",
+      "ballistic-skills": 4,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -62,11 +64,11 @@
       ],
       "range": 36,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "attacks": "d6+3",
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Executioner plasma cannon - supercharge",
@@ -76,11 +78,11 @@
       ],
       "range": 36,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6+3",
+      "ballistic-skills": 4,
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": 3,
+      "singleChoice": true
     },
     {
       "name": "Exterminator autocannon",
@@ -90,10 +92,10 @@
       ],
       "range": 48,
       "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 4,
+      "ballistic-skills": 4,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 3,
       "singleChoice": false
     },
     {
@@ -103,10 +105,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 3,
+      "ballistic-skills": 4,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -117,8 +119,8 @@
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -130,9 +132,9 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": 3,
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -143,10 +145,23 @@
       ],
       "range": 48,
       "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": "d6",
+      "singleChoice": false
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     },
     {
@@ -156,10 +171,10 @@
       ],
       "range": 48,
       "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6+3",
+      "ballistic-skills": 4,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 3,
       "singleChoice": false
     },
     {
@@ -169,11 +184,11 @@
       ],
       "range": 36,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d3",
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Militarum plasma cannon - supercharge",
@@ -183,11 +198,11 @@
       ],
       "range": 36,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "attacks": "d3",
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Multi-melta",
@@ -197,8 +212,19 @@
       "range": 18,
       "strength": 9,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 4,
+      "damage": "d6",
+      "singleChoice": false
+    },
+    {
+      "name": "Punisher gatling cannon",
+      "modifiers": [],
+      "range": 20,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -210,8 +236,8 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -222,10 +248,10 @@
       ],
       "range": 72,
       "strength": 18,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 4,
+      "damage": "d6+6",
       "singleChoice": false
     }
   ],
@@ -233,11 +259,17 @@
     "core": [
       "Deadly Demise D3"
     ],
-    "faction": [],
+    "faction": [
+      "voice of command"
+    ],
     "otherAbilities": [
       {
-        "name": "FACTION:",
-        "description": "Voice of Command"
+        "name": "Vox-net",
+        "description": "Each time this model issues an Order, it can issue it to an eligible unit up to 12'' away."
+      },
+      {
+        "name": "Death Befitting An Officer",
+        "description": "When this model is destroyed , roll one D6: on a 2+, do not remove it from play – it can, after the attacking model’s unit has finished making its attacks, shoot as if it were your Shooting phase and as if it had its full wounds remaining. This model is then removed from play."
       }
     ]
   },
@@ -282,7 +314,6 @@
     }
   ],
   "meleeWeapons": [
-   
     {
       "name": "Armoured tracks",
       "modifiers": [],
@@ -292,22 +323,26 @@
       "armor-penetration": 0,
       "damage": 1
     }
-  ],"additionalParameter": {},
+  ],
+  "additionalParameter": {},
   "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
-    ],
+    {
+      "unitType": "Tank Commander",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "lascannon",
+        "Leman Russ battle cannon",
+        "armoured tracks"
+      ]
+    }
+  ],
   "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
-    ]
+    {
+      "count": [
+        1
+      ],
+      "points": 205
+    }
+  ]
 }

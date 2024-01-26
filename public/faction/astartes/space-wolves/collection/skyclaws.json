@@ -215,19 +215,35 @@
 
   "options": [
     {
-      "count": [1],
-      "points": 455
+      "count": [5],
+      "points": 90
+    },
+    {
+      "count": [10],
+      "points": 180
+    },
+    {
+      "count": [15],
+      "points": 270
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Skyclaw Pack Leader",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+            "bolt pistol", "Astartes chainsword" 
           ]
-      }
+      },
+      {
+        "unitType": "Skyclaws",
+        "minQuantity": 4,
+        "maxQuantity": 14,
+        "equipment": [
+          "bolt pistol", "Astartes chainsword" 
+        ]
+    }
   ],
   "additionalParameter": {}
 }

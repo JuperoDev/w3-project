@@ -343,19 +343,31 @@
 
   "options": [
     {
-      "count": [1],
-      "points": 455
+      "count": [1,4],
+      "points": 150
+    },
+    {
+      "count": [1,5],
+      "points": 180
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Long Fang Pack Leader",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+            "boltgun","bolt pistol","close combat weapon."
           ]
-      }
+      },
+      {
+        "unitType": "Long Fangs",
+        "minQuantity": 4,
+        "maxQuantity": 5,
+        "equipment": [
+          "boltgun","bolt pistol","close combat weapon."
+        ]
+    }
   ],
   "additionalParameter": {}
 }

@@ -132,19 +132,31 @@
 
   "options": [
     {
-      "count": [1],
-      "points": 130
+      "count": [1,4],
+      "points": 95
+    },
+    {
+      "count": [1,9],
+      "points": 190
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Wolf Guard Pack Leader",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+            "bolt pistol", "heirloom weapon" 
           ]
-      }
+      },
+      {
+        "unitType": "Wolf Guard",
+        "minQuantity": 4,
+        "maxQuantity": 9,
+        "equipment": [
+          "bolt pistol", "heirloom weapon" 
+        ]
+    }
   ],
   "additionalParameter": {}
 }

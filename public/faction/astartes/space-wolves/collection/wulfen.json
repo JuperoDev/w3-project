@@ -85,19 +85,31 @@
 
   "options": [
     {
-      "count": [1],
-      "points": 455
+      "count": [1,4],
+      "points": 80
+    },
+    {
+      "count": [1,9],
+      "points": 160
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Wulfen Pack Leader",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+           " Wulfen claws and melee weapons" 
           ]
-      }
+      },
+      {
+        "unitType": "Wulfen",
+        "minQuantity": 4,
+        "maxQuantity": 9,
+        "equipment": [
+         " Wulfen claws and melee weapons" 
+        ]
+    }
   ],
   "additionalParameter": {}
 }

@@ -111,19 +111,31 @@
 
   "options": [
     {
-      "count": [1],
-      "points": 455
+      "count": [1,2],
+      "points": 90
+    },
+    {
+      "count": [1,5],
+      "points": 180
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Thunderwolf Cavalry Pack Leader",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+           "bolt pistol", "crushing teeth and claws", "heirloom weapon" 
           ]
-      }
+      },
+      {
+        "unitType": "Thunderwolf Cavalry",
+        "minQuantity": 2,
+        "maxQuantity": 5,
+        "equipment": [
+         "bolt pistol", "crushing teeth and claws", "heirloom weapon" 
+        ]
+    }
   ],
   "additionalParameter": {}
 }

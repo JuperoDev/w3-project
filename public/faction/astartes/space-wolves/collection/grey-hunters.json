@@ -213,19 +213,31 @@
 
   "options": [
     {
-      "count": [1],
-      "points": 455
+      "count": [1,4],
+      "points": 85
+    },
+    {
+      "count": [1,9],
+      "points": 170
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Grey Hunter Pack Leader",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+            "bolt pistol", "boltgun", "close combat weapon" 
           ]
-      }
+      },
+      {
+        "unitType": "Grey Hunters",
+        "minQuantity": 4,
+        "maxQuantity": 9,
+        "equipment": [
+          "bolt pistol", "boltgun", "close combat weapon" 
+        ]
+    }
   ],
   "additionalParameter": {}
 }

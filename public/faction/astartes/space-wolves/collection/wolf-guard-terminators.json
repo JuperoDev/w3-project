@@ -185,19 +185,31 @@
 
   "options": [
     {
-      "count": [1],
-      "points": 455
+      "count": [1,4],
+      "points": 195
+    },
+    {
+      "count": [1,9],
+      "points": 390
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Knight Abominant",
+          "unitType": "Wolf Guard Terminator Pack Leader",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
+            "storm bolter", "power weapon" 
           ]
-      }
+      },
+      {
+        "unitType": "Wolf Guard Terminators",
+        "minQuantity": 4,
+        "maxQuantity": 9,
+        "equipment": [
+          "storm bolter", "power fist" 
+        ]
+    }
   ],
   "additionalParameter": {}
 }

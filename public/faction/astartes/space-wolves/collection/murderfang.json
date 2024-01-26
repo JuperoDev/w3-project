@@ -35,8 +35,8 @@
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -50,7 +50,7 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -77,9 +77,9 @@
    
     {
       "name": "The Murderclaws",
-      "modifiers": "twin-linked",
-      "attacks": "8",
-      "weapons-skills": "3+",
+      "modifiers": ["twin-linked"],
+      "attacks": 8,
+      "weapons-skills": 3,
       "strength": 14,
       "armor-penetration": 2,
       "damage": 3

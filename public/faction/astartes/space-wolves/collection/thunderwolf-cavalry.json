@@ -5,6 +5,12 @@
     "adeptus astartes"
   ],
   "damaged": {},
+  "warGearAbilities": [
+    {
+      "wargear": "Storm Shield",
+      "ability": "The bearer has a 4+ invulnerable save."
+    }
+  ],
   "supremeCommander": false,
   "lore": "Thunderwolves are monstrous and solitary alpha predators, and only the most dauntless elite within the Wolf Guard have the dominance to ride them to war. When they charge, crushing jaws tear through armoured plates, flesh and bone with feral butchery, while the Thunderwolves’ riders hack down the foe with heroic ferocity.",
   "keywords": [
@@ -13,15 +19,17 @@
     "imperium",
     "thunderwolf cavalry"
   ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
+  "attributes": [
+    {
+      "movement": 10,
+      "toughness": 6,
+      "save": 3,
+      "wounds": 4,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 0
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -39,9 +47,7 @@
     },
     {
       "name": "Boltgun",
-      "modifiers": [
-        
-      ],
+      "modifiers": [],
       "range": 24,
       "strength": 4,
       "attacks": 2,
@@ -79,10 +85,10 @@
     }
   ],
   "abilities": {
-    "core": [
-      
+    "core": [],
+    "faction": [
+      "Oath of Moment"
     ],
-    "faction": ["Oath of Moment"],
     "otherAbilities": [
       {
         "name": "Ferocious Charge",
@@ -101,10 +107,11 @@
     }
   ],
   "meleeWeapons": [
-   
     {
       "name": "Crushing teeth and claws",
-      "modifiers": ["extra attacks"],
+      "modifiers": [
+        "extra attacks"
+      ],
       "attacks": 3,
       "weapons-skills": 4,
       "strength": 5,
@@ -121,33 +128,42 @@
       "damage": 1
     }
   ],
-
   "options": [
     {
-      "count": [1,2],
+      "count": [
+        1,
+        2
+      ],
       "points": 90
     },
     {
-      "count": [1,5],
+      "count": [
+        1,
+        5
+      ],
       "points": 180
     }
   ],
   "unitComposition": [
-      {
-          "unitType": "Thunderwolf Cavalry Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-           "bolt pistol", "crushing teeth and claws", "heirloom weapon" 
-          ]
-      },
-      {
-        "unitType": "Thunderwolf Cavalry",
-        "minQuantity": 2,
-        "maxQuantity": 5,
-        "equipment": [
-         "bolt pistol", "crushing teeth and claws", "heirloom weapon" 
-        ]
+    {
+      "unitType": "Thunderwolf Cavalry Pack Leader",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "bolt pistol",
+        "crushing teeth and claws",
+        "heirloom weapon"
+      ]
+    },
+    {
+      "unitType": "Thunderwolf Cavalry",
+      "minQuantity": 2,
+      "maxQuantity": 5,
+      "equipment": [
+        "bolt pistol",
+        "crushing teeth and claws",
+        "heirloom weapon"
+      ]
     }
   ],
   "additionalParameter": {}

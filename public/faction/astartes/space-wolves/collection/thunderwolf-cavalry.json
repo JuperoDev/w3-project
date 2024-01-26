@@ -38,17 +38,30 @@
       "singleChoice": false
     },
     {
+      "name": "Boltgun",
+      "modifiers": [
+        
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
       "name": "Plasma pistol - standard",
       "modifiers": [
         "pistol"
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -58,22 +71,22 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     }
   ],
   "abilities": {
     "core": [
-      "FACTION: Oath of Moment"
+      
     ],
-    "faction": [],
+    "faction": ["Oath of Moment"],
     "otherAbilities": [
       {
-        "name": "Storm Shield:",
-        "description": "The bearer has a 4+ invulnerable save ."
+        "name": "Ferocious Charge",
+        "description": "Each time this unit makes a Charge move, until the end of the turn, add 1 to the Damage characteristic of melee weapons equipped by models in this unit.."
       }
     ]
   },
@@ -91,7 +104,7 @@
    
     {
       "name": "Crushing teeth and claws",
-      "modifiers": "extraattacks",
+      "modifiers": ["extra attacks"],
       "attacks": 3,
       "weapons-skills": 4,
       "strength": 5,

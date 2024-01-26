@@ -46,9 +46,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -59,10 +59,10 @@
       ],
       "range": 12,
       "strength": 9,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     },
     {
@@ -75,7 +75,7 @@
       "attacks": 2,
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -85,11 +85,11 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -99,11 +99,11 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Plasma gun - standard",
@@ -112,11 +112,11 @@
       ],
       "range": 24,
       "strength": 7,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma gun - supercharge",
@@ -126,22 +126,22 @@
       ],
       "range": 24,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     }
   ],
   "abilities": {
     "core": [
-      "FACTION: Oath of Moment"
+      
     ],
-    "faction": [],
+    "faction": ["Oath of Moment"],
     "otherAbilities": [
       {
-        "name": "Every model is equipped with:",
-        "description": "bolt pistol; boltgun; close combat weapon."
+        "name": "Cunning Hunters",
+        "description": "This unit is eligible to shoot in a turn in which it Fell Back or Advanced."
       }
     ]
   },

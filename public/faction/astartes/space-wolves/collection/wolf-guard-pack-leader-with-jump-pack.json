@@ -38,7 +38,7 @@
       "range": 12,
       "strength": 4,
       "attacks": 1,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
@@ -52,9 +52,9 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -65,11 +65,11 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -79,11 +79,11 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Storm bolter",
@@ -93,8 +93,8 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -169,7 +169,7 @@
     },
     {
       "name": "Thunder hammer",
-      "modifiers": "devastatingwounds",
+      "modifiers": ["devastating wounds"],
       "attacks": 2,
       "weapons-skills": 4,
       "strength": 8,
@@ -178,7 +178,7 @@
     },
     {
       "name": "Twin lightning claws",
-      "modifiers": "twin-linked",
+      "modifiers": ["twin-linked"],
       "attacks": 4,
       "weapons-skills": 3,
       "strength": 5,

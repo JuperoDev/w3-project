@@ -13,15 +13,17 @@
     "imperium",
     "wolf guard"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 5,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 4,
+      "save": 3,
+      "wounds": 2,
+      "leadership": 5,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -38,6 +40,19 @@
       "singleChoice": false
     },
     {
+      "name": "Boltgun",
+      "modifiers": [
+        
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
       "name": "Combi-weapon",
       "modifiers": [
         "anti-infantry 4+",
@@ -46,9 +61,9 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -59,11 +74,11 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -73,11 +88,11 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Storm bolter",
@@ -88,20 +103,20 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
   ],
   "abilities": {
-    "core": [
-      "FACTION: Oath of Moment"
+    "core": [],
+    "faction": [
+      "Oath of Moment"
     ],
-    "faction": [],
     "otherAbilities": [
       {
-        "name": "Storm Shield:",
-        "description": "The bearer has a 4+ invulnerable save ."
+        "name": "Chosen Companions",
+        "description": "While a CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
       }
     ]
   },
@@ -118,7 +133,6 @@
     }
   ],
   "meleeWeapons": [
-    
     {
       "name": "Heirloom weapon",
       "modifiers": [],
@@ -129,33 +143,40 @@
       "damage": 1
     }
   ],
-
   "options": [
     {
-      "count": [1,4],
+      "count": [
+        1,
+        4
+      ],
       "points": 95
     },
     {
-      "count": [1,9],
+      "count": [
+        1,
+        9
+      ],
       "points": 190
     }
   ],
   "unitComposition": [
-      {
-          "unitType": "Wolf Guard Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "bolt pistol", "heirloom weapon" 
-          ]
-      },
-      {
-        "unitType": "Wolf Guard",
-        "minQuantity": 4,
-        "maxQuantity": 9,
-        "equipment": [
-          "bolt pistol", "heirloom weapon" 
-        ]
+    {
+      "unitType": "Wolf Guard Pack Leader",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "bolt pistol",
+        "heirloom weapon"
+      ]
+    },
+    {
+      "unitType": "Wolf Guard",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment": [
+        "bolt pistol",
+        "heirloom weapon"
+      ]
     }
   ],
   "additionalParameter": {}

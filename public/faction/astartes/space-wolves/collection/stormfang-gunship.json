@@ -18,11 +18,11 @@
     "stormfang gunship"
   ],
   "attributes": [{
-    "movement": 0,
-    "toughness": 0,
-    "save": 0,
-    "wounds": 0,
-    "leadership": 0,
+    "movement": 20,
+    "toughness": 10,
+    "save": 3,
+    "wounds": 14,
+    "leadership": 6,
     "objetiveControl": 0,
     "invulnerableSave": 0
   }],
@@ -35,11 +35,11 @@
       ],
       "range": 36,
       "strength": 11,
-      "attacks": 2,
+      "attacks": "d3",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 7,
+      "singleChoice": true
     },
     {
       "name": "Helfrost destructor - focused",
@@ -48,11 +48,11 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6+6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Skyhammer missile launcher",
@@ -61,10 +61,10 @@
       ],
       "range": 48,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 3,
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": "d3",
       "singleChoice": false
     },
     {
@@ -75,10 +75,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 2,
+      "attacks": 3,
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -88,10 +88,10 @@
       ],
       "range": 48,
       "strength": 12,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     },
     {
@@ -104,8 +104,8 @@
       "strength": 9,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     },
     {
@@ -115,10 +115,10 @@
       ],
       "range": 48,
       "strength": 10,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 2,
+      "damage": 3,
       "singleChoice": false
     }
   ],

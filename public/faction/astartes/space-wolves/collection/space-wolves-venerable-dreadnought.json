@@ -32,9 +32,9 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 2,
+      "attacks": 6,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -46,8 +46,8 @@
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -59,11 +59,24 @@
       ],
       "range": 12,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": 2,
+      "singleChoice": true
+    },
+    {
+      "name": "Helfrost cannon - focused",
+      "modifiers": [
+        
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 3,
+      "damage": 5,
+      "singleChoice": true
     },
     {
       "name": "Missile launcher - frag",
@@ -72,11 +85,24 @@
       ],
       "range": 48,
       "strength": 4,
-      "attacks": 2,
+      "attacks": "d6",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
+    },
+    {
+      "name": "Missile launcher - krak",
+      "modifiers": [
+        
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": "d6",
+      "singleChoice": true
     },
     {
       "name": "Multi-melta",
@@ -87,8 +113,8 @@
       "strength": 9,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     },
     {
@@ -98,11 +124,11 @@
       ],
       "range": 36,
       "strength": 7,
-      "attacks": 2,
+      "attacks": "d3",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma cannon - supercharge",
@@ -112,10 +138,10 @@
       ],
       "range": 36,
       "strength": 8,
-      "attacks": 2,
+      "attacks": "d3",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -127,7 +153,7 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -138,10 +164,10 @@
       ],
       "range": 48,
       "strength": 12,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage":"d6+1",
       "singleChoice": false
     }
   ],
@@ -211,7 +237,18 @@
       "weapons-skills": 3,
       "strength": 10,
       "armor-penetration": 2,
-      "damage": "D6+1"
+      "damage": "D6+1",
+      "singleChoice":true
+    },
+    {
+      "name": "Fenrisian great axe – strike",
+      "modifiers": [],
+      "attacks": 5,
+      "weapons-skills": 3,
+      "strength": 10,
+      "armor-penetration": 2,
+      "damage": "D6+1",
+      "singleChoice":true
     }
   ],
 

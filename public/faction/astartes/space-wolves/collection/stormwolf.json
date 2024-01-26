@@ -18,11 +18,11 @@
     "stormwolf"
   ],
   "attributes": [{
-    "movement": 0,
-    "toughness": 0,
-    "save": 0,
-    "wounds": 0,
-    "leadership": 0,
+    "movement": 20,
+    "toughness": 10,
+    "save": 3,
+    "wounds": 14,
+    "leadership": 6,
     "objetiveControl": 0,
     "invulnerableSave": 0
   }],
@@ -35,10 +35,10 @@
       ],
       "range": 48,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 3,
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": "d3",
       "singleChoice": false
     },
     {
@@ -49,10 +49,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 2,
+      "attacks": 3,
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -63,10 +63,10 @@
       ],
       "range": 12,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -76,10 +76,10 @@
       ],
       "range": 36,
       "strength": 9,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": 5,
       "singleChoice": false
     },
     {
@@ -89,10 +89,10 @@
       ],
       "range": 48,
       "strength": 12,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     },
     {
@@ -105,8 +105,8 @@
       "strength": 9,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     }
   ],
@@ -120,7 +120,7 @@
     ],
     "otherAbilities": [
       {
-        "name": "Into the Foe:",
+        "name": "Into the Foe",
         "description": "If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced ."
       }
     ]
@@ -163,5 +163,6 @@
           ]
       }
   ],
-  "additionalParameter": {}
+  "additionalParameter": {},
+  "transport":"This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
 }

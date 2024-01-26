@@ -50,11 +50,11 @@
       ],
       "range": 24,
       "strength": 7,
-      "attacks": 2,
+      "attacks": "d6",
       "ballistic-skills": 3,
       "armor-penetration": 1,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Living Lightning - focused witchfire",
@@ -65,11 +65,11 @@
       ],
       "range": 24,
       "strength": 7,
-      "attacks": 2,
+      "attacks": "2d6",
       "ballistic-skills": 3,
       "armor-penetration": 1,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     }
   ],
   "abilities": {
@@ -98,7 +98,7 @@
    
     {
       "name": "Staff of the Stormcaller",
-      "modifiers": "psychic,sustainedhits2",
+      "modifiers": ["psychic","sustained hits 2"],
       "attacks": 4,
       "weapons-skills": 3,
       "strength": 7,

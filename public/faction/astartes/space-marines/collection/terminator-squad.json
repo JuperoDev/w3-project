@@ -30,7 +30,7 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 2,
+      "attacks": 6,
       "ballistic-skills": 3,
       "armor-penetration": 1,
       "damage": 1,
@@ -38,6 +38,19 @@
     },
     {
       "name": "Cyclone missile launcher - frag",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Cyclone missile launcher - krak",
       "modifiers": [
         "blast"
       ],
@@ -72,7 +85,7 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -114,33 +127,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Assault cannon",
-      "modifiers": ["devastatingwounds"],
-      "attacks": 6,
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Cyclone missile launcher – frag",
-      "modifiers": ["blast"],
-      "attacks": "2D6",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
+    
     {
       "name": "Chainfist",
       "modifiers": "anti-vehicle3+",
@@ -154,7 +141,7 @@
       "name": "Power fist",
       "modifiers": [],
       "attacks": 3,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 8,
       "armor-penetration": 2,
       "damage": 2
@@ -163,7 +150,7 @@
       "name": "Power weapon",
       "modifiers": [],
       "attacks": 4,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 1

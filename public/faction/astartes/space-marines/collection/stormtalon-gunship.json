@@ -14,11 +14,11 @@
     "stormtalon gunship"
   ],
   "attributes": [{
-    "movement": 0,
-    "toughness": 0,
-    "save": 0,
-    "wounds": 0,
-    "leadership": 0,
+    "movement": 20,
+    "toughness": 8,
+    "save": 3,
+    "wounds": 10,
+    "leadership": 6,
     "objetiveControl": 0,
     "invulnerableSave": 0
   }],
@@ -26,58 +26,39 @@
   "rangedWeapons": [
     {
       "name": "Skyhammer missile launcher",
-      "modifiers": [
-        "anti-fly 2+",
-        "twin-linked"
-      ],
-      "range": 48,
+      "modifiers": ["anti-fly 2+","twin-linked"],
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": "D3"
     },
     {
       "name": "Twin assault cannon",
-      "modifiers": [
-        "devastating wounds",
-        "twin-linked"
-      ],
-      "range": 24,
+      "modifiers": ["devastating wounds","twin-linked"],
+      "attacks": 6,
+      "weapons-skills": 3,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 0,
+      "damage": 1
     },
     {
       "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
+      "modifiers": ["sustained hits 1","twin-linked"],
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": 2
     },
     {
       "name": "Twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
+      "modifiers": ["twin-linked"],
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": "D6+1"
     },
     {
       "name": "Typhoon missile launcher - frag",
@@ -119,42 +100,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Skyhammer missile launcher",
-      "modifiers": "anti-fly2+,twin-linked",
-      "attacks": 3,
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": "D3"
-    },
-    {
-      "name": "Twin assault cannon",
-      "modifiers": ["devastating wounds","twin-linked"],
-      "attacks": 6,
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": ["sustained hits 1","twin-linked"],
-      "attacks": 3,
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": ["twin-linked"],
-      "attacks": 1,
-      "weapons-skills": "3+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
+   
     {
       "name": "Armoured hull",
       "modifiers": [],

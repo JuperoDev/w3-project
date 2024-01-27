@@ -34,9 +34,9 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -47,11 +47,11 @@
       ],
       "range": 24,
       "strength": 5,
-      "attacks": 2,
+      "attacks": "d6",
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": "d3",
+      "singleChoice": true
     },
     {
       "name": "Smite - focused witchfire",
@@ -62,11 +62,11 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 2,
+      "attacks": "d6",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": -2,
+      "damage": "d3",
+      "singleChoice": true
     },
     {
       "name": "Storm bolter",
@@ -77,7 +77,7 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -111,29 +111,12 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": 1,
-      "weapons-skills": 4,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Smite – witchfire",
-      "modifiers": "psychic",
-      "attacks": "D6",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": "D3"
-    },
+    
     {
       "name": "Force weapon",
       "modifiers": "psychic",
       "attacks": 4,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 6,
       "armor-penetration": 1,
       "damage": "D3"

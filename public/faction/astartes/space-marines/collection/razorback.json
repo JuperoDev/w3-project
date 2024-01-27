@@ -32,10 +32,10 @@
       ],
       "range": 48,
       "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 3,
+      "damage": "d6",
       "singleChoice": false
     },
     {
@@ -47,7 +47,7 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -119,7 +119,7 @@
       "name": "Storm bolter",
       "modifiers": ["rapid fire 2"],
       "attacks": 2,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -128,7 +128,7 @@
       "name": "Twin heavy bolter",
       "modifiers": ["sustained hits 1","twin-linked"],
       "attacks": 3,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 5,
       "armor-penetration": 1,
       "damage": 2

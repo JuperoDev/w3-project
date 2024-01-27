@@ -74,9 +74,9 @@
       ],
       "range": 12,
       "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -87,11 +87,11 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -101,10 +101,10 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -149,7 +149,7 @@
       "name": "Astartes grenade launcher – frag",
       "modifiers": ["blast"],
       "attacks": "D3",
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -158,7 +158,7 @@
       "name": "Bolt pistol",
       "modifiers": "pistol",
       "attacks": 1,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -167,7 +167,7 @@
       "name": "Bolt rifle",
       "modifiers": "assault,heavy",
       "attacks": 2,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 1,
       "damage": 1
@@ -185,7 +185,7 @@
       "name": "Astartes chainsword",
       "modifiers": [],
       "attacks": 5,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 1,
       "damage": 1
@@ -194,7 +194,7 @@
       "name": "Close combat weapon",
       "modifiers": [],
       "attacks": 3,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -203,7 +203,7 @@
       "name": "Power fist",
       "modifiers": [],
       "attacks": 3,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 8,
       "armor-penetration": 2,
       "damage": 2
@@ -212,14 +212,14 @@
       "name": "Power weapon",
       "modifiers": [],
       "attacks": 4,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 1
     },
     {
       "name": "Thunder hammer",
-      "modifiers": ["devastatingwounds"],
+      "modifiers": ["devastating wounds"],
       "attacks": 3,
       "weapons-skills": 4,
       "strength": 8,

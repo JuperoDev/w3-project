@@ -18,11 +18,11 @@
     "stormraven gunship"
   ],
   "attributes": [{
-    "movement": 0,
-    "toughness": 0,
-    "save": 0,
-    "wounds": 0,
-    "leadership": 0,
+    "movement": 20,
+    "toughness": 8,
+    "save": 3,
+    "wounds": 10,
+    "leadership": 6,
     "objetiveControl": 0,
     "invulnerableSave": 0
   }],
@@ -180,7 +180,7 @@
       "name": "Hurricane bolter",
       "modifiers": "rapidfire6,twin-linked",
       "attacks": 6,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -189,7 +189,7 @@
       "name": "Stormstrike missile launcher",
       "modifiers": [],
       "attacks": 1,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 10,
       "armor-penetration": 2,
       "damage": 3
@@ -198,7 +198,7 @@
       "name": "Twin assault cannon",
       "modifiers": ["devastating wounds","twin-linked"],
       "attacks": 6,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1
@@ -207,7 +207,7 @@
       "name": "Twin heavy bolter",
       "modifiers": ["sustained hits 1","twin-linked"],
       "attacks": 3,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 5,
       "armor-penetration": 1,
       "damage": 2
@@ -216,7 +216,7 @@
       "name": "Twin heavy plasma cannon – standard",
       "modifiers": "blast,twin-linked",
       "attacks": "D3",
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 7,
       "armor-penetration": 2,
       "damage": 2
@@ -225,7 +225,7 @@
       "name": "Twin lascannon",
       "modifiers": ["twin-linked"],
       "attacks": 1,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 12,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -234,7 +234,7 @@
       "name": "Twin multi-melta",
       "modifiers": "melta2,twin-linked",
       "attacks": 2,
-      "weapons-skills": "3+",
+      "weapons-skills": 3,
       "strength": 9,
       "armor-penetration": 4,
       "damage": "D6"

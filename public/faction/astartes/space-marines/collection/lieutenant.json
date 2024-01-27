@@ -33,7 +33,7 @@
       "range": 12,
       "strength": 4,
       "attacks": 1,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
@@ -45,24 +45,37 @@
       ],
       "range": 18,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 1,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
     },
     {
+      "name": "Master-crafted boltgun",
+      "modifiers": [
+        
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 2,
+      "armor-penetration": 1,
+      "damage": 2,
+      "singleChoice": false
+    },
+    {
       "name": "Neo-volkite pistol",
       "modifiers": [
-        "DEVASTATING WOUNDS",
+        "devastating wounds",
         "pistol"
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 0,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -72,11 +85,11 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -86,10 +99,10 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 3,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -137,42 +150,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": "pistol",
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Heavy bolt pistol",
-      "modifiers": "pistol",
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Master-crafted bolter",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Neo-volkite pistol",
-      "modifiers": "DEVASTATINGWOUNDS,pistol",
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 2
-    },
+    
     {
       "name": "Close combat weapon",
       "modifiers": [],

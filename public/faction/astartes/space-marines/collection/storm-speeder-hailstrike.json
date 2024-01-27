@@ -12,7 +12,7 @@
     "imperium",
     "storm speeder hailstrike"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 14,
     "toughness": 9,
     "save": 3,
@@ -20,7 +20,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -83,7 +83,7 @@
   "meleeWeapons": [
     {
       "name": "Fragstorm grenade launcher",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D6",
       "weapons-skills": "3+",
       "strength": 4,
@@ -92,8 +92,8 @@
     },
     {
       "name": "Onslaught gatling cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "8",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 8,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 0,
@@ -102,7 +102,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

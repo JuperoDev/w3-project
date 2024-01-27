@@ -13,7 +13,7 @@
     "gravis",
     "eradicator squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 6,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -31,9 +31,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -88,7 +88,7 @@
     {
       "name": "Bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -97,7 +97,7 @@
     {
       "name": "Melta rifle",
       "modifiers": "heavy,melta2",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 4,
@@ -106,7 +106,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

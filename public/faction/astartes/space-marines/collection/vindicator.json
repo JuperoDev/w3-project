@@ -15,7 +15,7 @@
     "imperium",
     "vindicator"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 9,
     "toughness": 11,
     "save": 2,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -91,7 +91,7 @@
   "meleeWeapons": [
     {
       "name": "Demolisher cannon",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D6+3",
       "weapons-skills": "3+",
       "strength": 14,
@@ -100,9 +100,9 @@
     },
     {
       "name": "Hunter-killer missile",
-      "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "modifiers": ["one shot"],
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
@@ -110,8 +110,8 @@
     {
       "name": "Armoured tracks",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

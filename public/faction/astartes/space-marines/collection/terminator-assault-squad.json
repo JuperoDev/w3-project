@@ -12,7 +12,7 @@
     "terminator",
     "terminator assault squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
     "save": 2,
@@ -20,7 +20,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [],
   "abilities": {
@@ -50,17 +50,17 @@
   "meleeWeapons": [
     {
       "name": "Thunder hammer",
-      "modifiers": "devastatingwounds",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 2,
       "damage": 2
     },
     {
       "name": "Twin lightning claws",
-      "modifiers": "twin-linked",
-      "attacks": "5",
+      "modifiers": ["twin-linked"],
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 2,

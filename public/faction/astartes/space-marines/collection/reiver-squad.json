@@ -14,7 +14,7 @@
     "phobos",
     "reiver squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -22,7 +22,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -93,7 +93,7 @@
     {
       "name": "Bolt carbine",
       "modifiers": "precision",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -102,7 +102,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -111,7 +111,7 @@
     {
       "name": "Combat knife",
       "modifiers": "precision",
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

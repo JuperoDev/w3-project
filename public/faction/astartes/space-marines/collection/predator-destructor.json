@@ -15,7 +15,7 @@
     "imperium",
     "predator destructor"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 10,
     "save": 3,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -112,7 +112,7 @@
     {
       "name": "Heavy bolter",
       "modifiers": "sustainedhits1",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -120,9 +120,9 @@
     },
     {
       "name": "Hunter-killer missile",
-      "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "modifiers": ["one shot"],
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
@@ -130,7 +130,7 @@
     {
       "name": "Lascannon",
       "modifiers": [],
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 12,
       "armor-penetration": 3,
@@ -138,8 +138,8 @@
     },
     {
       "name": "Predator autocannon",
-      "modifiers": "rapidfire2",
-      "attacks": "4",
+      "modifiers": ["rapid fire 2"],
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 1,
@@ -148,8 +148,8 @@
     {
       "name": "Armoured tracks",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

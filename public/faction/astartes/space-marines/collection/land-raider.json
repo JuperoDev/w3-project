@@ -16,7 +16,7 @@
     "imperium",
     "land raider"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 12,
     "save": 2,
@@ -24,7 +24,7 @@
     "leadership": 6,
     "objetiveControl": 5,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -111,7 +111,7 @@
     {
       "name": "Godhammer lascannon",
       "modifiers": [],
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 12,
       "armor-penetration": 3,
@@ -119,9 +119,9 @@
     },
     {
       "name": "Hunter-killer missile",
-      "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "modifiers": ["one shot"],
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
@@ -129,7 +129,7 @@
     {
       "name": "Multi-melta",
       "modifiers": "melta2",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 4,
@@ -137,8 +137,8 @@
     },
     {
       "name": "Storm bolter",
-      "modifiers": "rapidfire2",
-      "attacks": "2",
+      "modifiers": ["rapid fire 2"],
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -147,8 +147,8 @@
     {
       "name": "Armoured tracks",
       "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "attacks": 6,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 0,
       "damage": 1

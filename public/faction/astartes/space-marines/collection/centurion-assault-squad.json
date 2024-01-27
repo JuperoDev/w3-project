@@ -12,7 +12,7 @@
     "centurion",
     "centurion assault squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 4,
     "toughness": 7,
     "save": 2,
@@ -20,7 +20,7 @@
     "leadership": 6,
     "objetiveControl": 2,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -93,7 +93,7 @@
     {
       "name": "Centurion bolters",
       "modifiers": "rapidfire3,twin-linked",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -110,8 +110,8 @@
     },
     {
       "name": "Siege drills",
-      "modifiers": "twin-linked",
-      "attacks": "3",
+      "modifiers": ["twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 10,
       "armor-penetration": 2,

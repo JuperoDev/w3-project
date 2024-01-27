@@ -14,7 +14,7 @@
     "tacticus",
     "captain"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -22,7 +22,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -32,9 +32,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -81,8 +81,8 @@
     {
       "name": "Plasma pistol - supercharge",
       "modifiers": [
-        "HAZARDOUS",
-        "PISTOL"
+        "hazardous",
+        "pistol"
       ],
       "range": 12,
       "strength": 8,
@@ -136,8 +136,8 @@
     {
       "name": "Bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -145,8 +145,8 @@
     {
       "name": "Heavy bolt pistol",
       "modifiers": "Pistol",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 1,
       "damage": 1
@@ -154,8 +154,8 @@
     {
       "name": "Master-crafted boltgun",
       "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "2+",
+      "attacks": 2,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 1,
       "damage": 2
@@ -163,8 +163,8 @@
     {
       "name": "Neo-volkite pistol",
       "modifiers": "DEVASTATINGWOUNDS,PISTOl",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 0,
       "damage": 2
@@ -172,8 +172,8 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -181,8 +181,8 @@
     {
       "name": "Master-crafted power weapon",
       "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 2
@@ -190,8 +190,8 @@
     {
       "name": "Power fist",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 8,
       "armor-penetration": 2,
       "damage": 2

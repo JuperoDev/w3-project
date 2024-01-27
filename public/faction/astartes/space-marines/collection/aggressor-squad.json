@@ -12,7 +12,7 @@
     "gravis",
     "aggressor squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 6,
     "save": 3,
@@ -20,7 +20,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -86,8 +86,8 @@
   "meleeWeapons": [
     {
       "name": "Auto boltstorm gauntlets",
-      "modifiers": "twin-linked",
-      "attacks": "3",
+      "modifiers": ["twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -104,8 +104,8 @@
     },
     {
       "name": "Twin power fists",
-      "modifiers": "twin-linked",
-      "attacks": "3",
+      "modifiers": ["twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,

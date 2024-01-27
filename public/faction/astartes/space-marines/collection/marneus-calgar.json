@@ -15,7 +15,7 @@
     "chapter master",
     "marneus calgar"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 6,
     "save": 2,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -67,9 +67,9 @@
   "meleeWeapons": [
     {
       "name": "Gauntlets of Ultramar",
-      "modifiers": "twin-linked",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "modifiers": ["twin-linked"],
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 8,
       "armor-penetration": 3,
       "damage": 3
@@ -77,8 +77,8 @@
     {
       "name": "Victrix power sword",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 2

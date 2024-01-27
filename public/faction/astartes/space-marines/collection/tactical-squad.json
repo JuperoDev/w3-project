@@ -13,7 +13,7 @@
     "imperium",
     "tactical squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 2,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -31,9 +31,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -42,7 +42,7 @@
       "modifiers": [
         "ANTI-INFANTRY 4+",
         "DEVASTATING WOUNDS",
-        "RAPID FIRE 1"
+        "rapid fire 1"
       ],
       "range": 24,
       "strength": 4,
@@ -60,17 +60,17 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
     {
       "name": "Grav-cannon",
       "modifiers": [
-        "ANTI-VEHICLE 2+",
-        "HEAVY"
+        "anti-vehicle 2+",
+        "heavy"
       ],
       "range": 24,
       "strength": 6,
@@ -90,14 +90,14 @@
       "attacks": 2,
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
       "name": "Grav-pistol",
       "modifiers": [
-        "ANTI-VEHICLE 2+",
-        "PISTOL"
+        "anti-vehicle 2+",
+        "pistol"
       ],
       "range": 12,
       "strength": 4,
@@ -110,8 +110,8 @@
     {
       "name": "Heavy bolter",
       "modifiers": [
-        "HEAVY",
-        "SUSTAINED HITS 1"
+        "heavy",
+        "sustained hits 1"
       ],
       "range": 36,
       "strength": 5,
@@ -124,7 +124,7 @@
     {
       "name": "Lascannon",
       "modifiers": [
-        "HEAVY"
+        "heavy"
       ],
       "range": 48,
       "strength": 12,
@@ -150,8 +150,8 @@
     {
       "name": "Missile launcher - frag",
       "modifiers": [
-        "BLAST",
-        "HEAVY"
+        "blast",
+        "heavy"
       ],
       "range": 48,
       "strength": 4,
@@ -164,7 +164,7 @@
     {
       "name": "Missile launcher - krak",
       "modifiers": [
-        "HEAVY"
+        "heavy"
       ],
       "range": 48,
       "strength": 9,
@@ -177,8 +177,8 @@
     {
       "name": "Multi-melta",
       "modifiers": [
-        "HEAVY",
-        "MELTA 2"
+        "heavy",
+        "melta 2"
       ],
       "range": 18,
       "strength": 9,
@@ -191,8 +191,8 @@
     {
       "name": "Plasma cannon - standard",
       "modifiers": [
-        "BLAST",
-        "HEAVY"
+        "blast",
+        "heavy"
       ],
       "range": 36,
       "strength": 7,
@@ -205,9 +205,9 @@
     {
       "name": "Plasma cannon - supercharge",
       "modifiers": [
-        "BLAST",
-        "HEAVY",
-        "HAZARDOUS"
+        "blast",
+        "heavy",
+        "hazardous"
       ],
       "range": 36,
       "strength": 8,
@@ -247,7 +247,7 @@
     {
       "name": "Plasma pistol - standard",
       "modifiers": [
-        "PISTOL"
+        "pistol"
       ],
       "range": 12,
       "strength": 7,
@@ -260,8 +260,8 @@
     {
       "name": "Plasma pistol - supercharge",
       "modifiers": [
-        "HAZARDOUS",
-        "PISTOL"
+        "hazardous",
+        "pistol"
       ],
       "range": 12,
       "strength": 8,
@@ -274,7 +274,7 @@
     {
       "name": "Storm bolter",
       "modifiers": [
-        "RAPID FIRE 2"
+        "rapid fire 2"
       ],
       "range": 24,
       "strength": 4,
@@ -342,7 +342,7 @@
     {
       "name": "Bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -351,7 +351,7 @@
     {
       "name": "Boltgun",
       "modifiers": [],
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -360,8 +360,8 @@
     {
       "name": "Combi-weapon",
       "modifiers": "ANTI-INFANTRY4+,DEVASTATINGWOUNDS,RAPIDFIRE1",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -377,9 +377,9 @@
     },
     {
       "name": "Grav-cannon",
-      "modifiers": "ANTI-VEHICLE2+,HEAVY",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "modifiers": "anti-vehicle2+,heavy",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 1,
       "damage": 3
@@ -387,7 +387,7 @@
     {
       "name": "Grav-gun",
       "modifiers": "anti-vehicle2+",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -395,8 +395,8 @@
     },
     {
       "name": "Grav-pistol",
-      "modifiers": "ANTI-VEHICLE2+,PISTOL",
-      "attacks": "1",
+      "modifiers": "anti-vehicle2+,pistol",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
@@ -404,18 +404,18 @@
     },
     {
       "name": "Heavy bolter",
-      "modifiers": "HEAVY,SUSTAINEDHITS1",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "modifiers": "heavy,SUSTAINEDHITS1",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": 2
     },
     {
       "name": "Lascannon",
-      "modifiers": "HEAVY",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "modifiers": "heavy",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 12,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -423,7 +423,7 @@
     {
       "name": "Meltagun",
       "modifiers": "melta2",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 4,
@@ -431,35 +431,35 @@
     },
     {
       "name": "Missile launcher – frag",
-      "modifiers": "BLAST,HEAVY",
+      "modifiers": "blast,heavy",
       "attacks": "D6",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
     },
     {
       "name": "Multi-melta",
-      "modifiers": "HEAVY,MELTA2",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "modifiers": "heavy,melta2",
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 9,
       "armor-penetration": 4,
       "damage": "D6"
     },
     {
       "name": "Plasma cannon – standard",
-      "modifiers": "BLAST,HEAVY",
+      "modifiers": "blast,heavy",
       "attacks": "D3",
-      "weapons-skills": "4+",
+      "weapons-skills": 4,
       "strength": 7,
       "armor-penetration": 2,
       "damage": 1
     },
     {
       "name": "Plasma gun – standard",
-      "modifiers": "rapidfire1",
-      "attacks": "1",
+      "modifiers": ["rapid fire 1"],
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 7,
       "armor-penetration": 2,
@@ -467,8 +467,8 @@
     },
     {
       "name": "Plasma pistol – standard",
-      "modifiers": "PISTOL",
-      "attacks": "1",
+      "modifiers": "pistol",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 7,
       "armor-penetration": 2,
@@ -477,7 +477,7 @@
     {
       "name": "Astartes chainsword",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
@@ -486,7 +486,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -495,7 +495,7 @@
     {
       "name": "Power fist",
       "modifiers": [],
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,
@@ -504,7 +504,7 @@
     {
       "name": "Power weapon",
       "modifiers": [],
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 2,
@@ -512,17 +512,17 @@
     },
     {
       "name": "Thunder hammer",
-      "modifiers": "devastatingwounds",
-      "attacks": "2",
-      "weapons-skills": "4+",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 2,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 2,
       "damage": 2
     },
     {
       "name": "Twin lightning claws",
-      "modifiers": "twin-linked",
-      "attacks": "4",
+      "modifiers": ["twin-linked"],
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 2,

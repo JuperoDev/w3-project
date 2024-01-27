@@ -13,7 +13,7 @@
     "tacticus",
     "bladeguard veteran squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -104,7 +104,7 @@
     {
       "name": "Heavy bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
@@ -113,7 +113,7 @@
     {
       "name": "Neo-volkite pistol",
       "modifiers": "devastatingwounds,pistol",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 0,
@@ -122,7 +122,7 @@
     {
       "name": "Master-crafted power weapon",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 2,

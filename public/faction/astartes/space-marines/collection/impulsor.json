@@ -13,7 +13,7 @@
     "imperium",
     "impulsor"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 12,
     "toughness": 9,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 2,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -141,7 +141,7 @@
   "meleeWeapons": [
     {
       "name": "Bellicatus missile array – frag",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D6",
       "weapons-skills": "3+",
       "strength": 4,
@@ -150,7 +150,7 @@
     },
     {
       "name": "Fragstorm grenade launcher",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D6",
       "weapons-skills": "3+",
       "strength": 4,
@@ -160,7 +160,7 @@
     {
       "name": "Ironhail heavy stubber",
       "modifiers": "rapidfire3",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -169,7 +169,7 @@
     {
       "name": "Ironhail skytalon array",
       "modifiers": "anti-fly4+,sustainedhits1",
-      "attacks": "8",
+      "attacks": 8,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -178,8 +178,8 @@
     {
       "name": "Armoured hull",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

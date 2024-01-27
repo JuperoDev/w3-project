@@ -15,7 +15,7 @@
     "imperium",
     "predator annihilator"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 10,
     "save": 3,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -111,8 +111,8 @@
   "meleeWeapons": [
     {
       "name": "Predator twin lascannon",
-      "modifiers": "twin-linked",
-      "attacks": "1",
+      "modifiers": ["twin-linked"],
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 14,
       "armor-penetration": 3,
@@ -121,7 +121,7 @@
     {
       "name": "Heavy bolter",
       "modifiers": "sustainedhits1",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -129,9 +129,9 @@
     },
     {
       "name": "Hunter-killer missile",
-      "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "modifiers": ["one shot"],
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
@@ -139,7 +139,7 @@
     {
       "name": "Lascannon",
       "modifiers": [],
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 12,
       "armor-penetration": 3,
@@ -148,8 +148,8 @@
     {
       "name": "Armoured tracks",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

@@ -13,7 +13,7 @@
     "tacticus",
     "judiciar"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 5,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -61,8 +61,8 @@
     {
       "name": "Executioner relic blade",
       "modifiers": "devastatingwounds,precision",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 7,
       "armor-penetration": 2,
       "damage": 2

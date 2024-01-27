@@ -15,7 +15,7 @@
     "imperium",
     "gladiator valiant"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 10,
     "save": 3,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -116,7 +116,7 @@
     {
       "name": "Ironhail heavy stubber",
       "modifiers": "rapidfire3",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -125,7 +125,7 @@
     {
       "name": "Multi-melta",
       "modifiers": "melta2",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 4,
@@ -134,8 +134,8 @@
     {
       "name": "Armoured hull",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

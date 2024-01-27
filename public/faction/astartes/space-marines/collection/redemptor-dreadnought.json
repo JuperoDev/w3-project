@@ -16,7 +16,7 @@
     "dreadnought",
     "redemptor dreadnought"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 8,
     "toughness": 10,
     "save": 2,
@@ -24,7 +24,7 @@
     "leadership": 6,
     "objetiveControl": 4,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -180,8 +180,8 @@
     },
     {
       "name": "Heavy onslaught gatling cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "12",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 12,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 0,
@@ -198,7 +198,7 @@
     },
     {
       "name": "Macro plasma incinerator – standard",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D6+1",
       "weapons-skills": "3+",
       "strength": 8,
@@ -207,8 +207,8 @@
     },
     {
       "name": "Onslaught gatling cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "8",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 8,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 0,
@@ -226,7 +226,7 @@
     {
       "name": "Redemptor fist",
       "modifiers": [],
-      "attacks": "5",
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 12,
       "armor-penetration": 2,

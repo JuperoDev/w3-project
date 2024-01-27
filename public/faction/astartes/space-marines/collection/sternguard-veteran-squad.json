@@ -13,7 +13,7 @@
     "tacticus",
     "sternguard veteran squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -43,7 +43,7 @@
       "name": "Pyrecannon",
       "modifiers": [
         "IGNORES COVER",
-        "TORRENT"
+        "torrent"
       ],
       "range": 12,
       "strength": 6,
@@ -140,15 +140,15 @@
     {
       "name": "Combi-weapon",
       "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
     },
     {
       "name": "Pyrecannon",
-      "modifiers": "IGNORESCOVER,TORRENT",
+      "modifiers": "IGNORESCOVER,torrent",
       "attacks": "D6+1",
       "weapons-skills": "N/A",
       "strength": 6,
@@ -158,7 +158,7 @@
     {
       "name": "Sternguard bolt pistol",
       "modifiers": "devastatingwounds,pistol",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -167,7 +167,7 @@
     {
       "name": "Sternguard bolt rifle",
       "modifiers": "assault,devastatingwounds,heavy,rapidfire1",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
@@ -176,7 +176,7 @@
     {
       "name": "Astartes chainsword",
       "modifiers": [],
-      "attacks": "6",
+      "attacks": 6,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
@@ -185,7 +185,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -194,7 +194,7 @@
     {
       "name": "Power weapon",
       "modifiers": [],
-      "attacks": "5",
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 2,
@@ -203,7 +203,7 @@
     {
       "name": "Power fist",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,

@@ -14,7 +14,7 @@
     "terminator",
     "librarian"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
     "save": 2,
@@ -22,7 +22,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -97,7 +97,7 @@
       },
       {
         "name": "Veil of Time (Psychic):",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [sustained hits 1] ability."
       }
     ]
   },
@@ -114,8 +114,8 @@
     {
       "name": "Combi-weapon",
       "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -132,7 +132,7 @@
     {
       "name": "Force weapon",
       "modifiers": "psychic",
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 1,

@@ -14,7 +14,7 @@
     "imperium",
     "razorback"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 12,
     "toughness": 9,
     "save": 3,
@@ -22,7 +22,7 @@
     "leadership": 6,
     "objetiveControl": 2,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -108,17 +108,17 @@
   "meleeWeapons": [
     {
       "name": "Hunter-killer missile",
-      "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "modifiers": ["one shot"],
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 14,
       "armor-penetration": 3,
       "damage": "D6"
     },
     {
       "name": "Storm bolter",
-      "modifiers": "rapidfire2",
-      "attacks": "2",
+      "modifiers": ["rapid fire 2"],
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -126,8 +126,8 @@
     },
     {
       "name": "Twin heavy bolter",
-      "modifiers": "sustainedhits1,twin-linked",
-      "attacks": "3",
+      "modifiers": ["sustained hits 1","twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -136,8 +136,8 @@
     {
       "name": "Armoured tracks",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

@@ -14,7 +14,7 @@
     "tacticus",
     "ancient"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -22,13 +22,13 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
       "name": "Bolt Pistol",
       "modifiers": [
-        "PISTOL"
+        "pistol"
       ],
       "range": 12,
       "strength": 4,
@@ -42,7 +42,7 @@
       "name": "Bolt rifle",
       "modifiers": [
         "ASSAULT",
-        "HEAVY"
+        "heavy"
       ],
       "range": 24,
       "strength": 4,
@@ -80,8 +80,8 @@
   "meleeWeapons": [
     {
       "name": "Bolt Pistol",
-      "modifiers": "PISTOL",
-      "attacks": "1",
+      "modifiers": "pistol",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -90,8 +90,8 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -99,8 +99,8 @@
     {
       "name": "Power weapon",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 1

@@ -12,7 +12,7 @@
     "imperium",
     "storm speeder thunderstrike"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 14,
     "toughness": 9,
     "save": 3,
@@ -20,7 +20,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -58,8 +58,8 @@
     {
       "name": "Stormfury missiles",
       "modifiers": [],
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 12,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -67,8 +67,8 @@
     {
       "name": "Thunderstrike las-talon",
       "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "2+",
+      "attacks": 2,
+      "weapons-skills": 2,
       "strength": 9,
       "armor-penetration": 3,
       "damage": "D6+1"
@@ -76,7 +76,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

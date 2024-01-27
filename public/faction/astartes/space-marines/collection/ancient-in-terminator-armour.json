@@ -13,7 +13,7 @@
     "terminator",
     "ancient"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
     "save": 2,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -79,7 +79,7 @@
     {
       "name": "Chainfist",
       "modifiers": "anti-vehicle3+",
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,
@@ -88,8 +88,8 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -97,8 +97,8 @@
     {
       "name": "Power fist",
       "modifiers": [],
-      "attacks": "4",
-      "weapons-skills": "2+",
+      "attacks": 4,
+      "weapons-skills": 2,
       "strength": 8,
       "armor-penetration": 2,
       "damage": 2
@@ -106,16 +106,16 @@
     {
       "name": "Power weapon",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 1
     },
     {
       "name": "Thunder hammer",
-      "modifiers": "devastatingwounds",
-      "attacks": "4",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,
@@ -123,9 +123,9 @@
     },
     {
       "name": "Twin lightning claws",
-      "modifiers": "twin-linked",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "modifiers": ["twin-linked"],
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 1

@@ -15,7 +15,7 @@
     "lieutenant",
     "lieutenant with combi-weapon"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -68,8 +68,8 @@
     {
       "name": "Paired combat blades",
       "modifiers": "anti-infantry4+,sustainedhits1",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1

@@ -16,7 +16,7 @@
     "phobos",
     "invictor tactical warsuit"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 8,
     "toughness": 8,
     "save": 3,
@@ -24,7 +24,7 @@
     "leadership": 6,
     "objetiveControl": 4,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -119,7 +119,7 @@
   "meleeWeapons": [
     {
       "name": "Fragstorm grenade launcher",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D6",
       "weapons-skills": "3+",
       "strength": 4,
@@ -129,7 +129,7 @@
     {
       "name": "Heavy bolter",
       "modifiers": "sustainedhits1",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -146,8 +146,8 @@
     },
     {
       "name": "Twin ironhail autocannon",
-      "modifiers": "twin-linked",
-      "attacks": "3",
+      "modifiers": ["twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 1,
@@ -156,7 +156,7 @@
     {
       "name": "Invictor fist",
       "modifiers": [],
-      "attacks": "5",
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 14,
       "armor-penetration": 2,

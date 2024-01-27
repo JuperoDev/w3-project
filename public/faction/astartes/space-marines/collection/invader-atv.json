@@ -12,7 +12,7 @@
     "imperium",
     "invader atv"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 12,
     "toughness": 5,
     "save": 3,
@@ -20,13 +20,13 @@
     "leadership": 6,
     "objetiveControl": 2,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
       "name": "Bolt pistol",
       "modifiers": [
-        "PISTOL"
+        "pistol"
       ],
       "range": 12,
       "strength": 4,
@@ -97,8 +97,8 @@
   "meleeWeapons": [
     {
       "name": "Bolt pistol",
-      "modifiers": "PISTOL",
-      "attacks": "1",
+      "modifiers": "pistol",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -107,7 +107,7 @@
     {
       "name": "Multi-melta",
       "modifiers": "melta2",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 4,
@@ -115,8 +115,8 @@
     },
     {
       "name": "Onslaught gatling cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "8",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 8,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 0,
@@ -125,7 +125,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "5",
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

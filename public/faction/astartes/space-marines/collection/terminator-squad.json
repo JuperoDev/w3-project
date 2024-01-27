@@ -12,7 +12,7 @@
     "terminator",
     "terminator squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
     "save": 2,
@@ -20,7 +20,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -116,8 +116,8 @@
   "meleeWeapons": [
     {
       "name": "Assault cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 6,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 0,
@@ -125,7 +125,7 @@
     },
     {
       "name": "Cyclone missile launcher – frag",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "2D6",
       "weapons-skills": "3+",
       "strength": 4,
@@ -144,8 +144,8 @@
     {
       "name": "Chainfist",
       "modifiers": "anti-vehicle3+",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 2,
       "damage": 2
@@ -153,7 +153,7 @@
     {
       "name": "Power fist",
       "modifiers": [],
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,
@@ -162,7 +162,7 @@
     {
       "name": "Power weapon",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 2,

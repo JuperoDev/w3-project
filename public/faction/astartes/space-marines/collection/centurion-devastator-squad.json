@@ -12,7 +12,7 @@
     "centurion",
     "centurion devastator squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 4,
     "toughness": 7,
     "save": 2,
@@ -20,7 +20,7 @@
     "leadership": 6,
     "objetiveControl": 2,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -120,7 +120,7 @@
     {
       "name": "Centurion bolters",
       "modifiers": "rapidfire3,twin-linked",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -128,7 +128,7 @@
     },
     {
       "name": "Centurion missile launcher",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D3",
       "weapons-skills": "3+",
       "strength": 9,
@@ -138,7 +138,7 @@
     {
       "name": "Grav-cannon",
       "modifiers": "anti-vehicle2+",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 1,
@@ -146,8 +146,8 @@
     },
     {
       "name": "Twin heavy bolter",
-      "modifiers": "sustainedhits1,twin-linked",
-      "attacks": "3",
+      "modifiers": ["sustained hits 1","twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -156,8 +156,8 @@
     {
       "name": "Centurion fists",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 5,
       "armor-penetration": 1,
       "damage": 2

@@ -16,7 +16,7 @@
     "lieutenant",
     "lieutenant in reiver armour"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -24,7 +24,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -66,8 +66,8 @@
     {
       "name": "Combat knife",
       "modifiers": "precision",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1

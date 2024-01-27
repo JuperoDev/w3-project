@@ -15,7 +15,7 @@
     "imperium",
     "gladiator reaper"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 10,
     "save": 3,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -90,7 +90,7 @@
     "otherAbilities": [
       {
         "name": "Rotating Death:",
-        "description": "This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting INFANTRY units."
+        "description": "This model’s twin heavy onslaught gatling cannon has the [sustained hits 2] ability when targeting INFANTRY units."
       }
     ]
   },
@@ -117,7 +117,7 @@
     {
       "name": "Ironhail heavy stubber",
       "modifiers": "rapidfire3",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -126,7 +126,7 @@
     {
       "name": "Tempest bolter",
       "modifiers": "rapidfire4",
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
@@ -135,8 +135,8 @@
     {
       "name": "Armoured hull",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

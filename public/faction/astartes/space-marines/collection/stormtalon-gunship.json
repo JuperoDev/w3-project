@@ -13,7 +13,7 @@
     "imperium",
     "stormtalon gunship"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 0,
     "toughness": 0,
     "save": 0,
@@ -21,7 +21,7 @@
     "leadership": 0,
     "objetiveControl": 0,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -122,7 +122,7 @@
     {
       "name": "Skyhammer missile launcher",
       "modifiers": "anti-fly2+,twin-linked",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 1,
@@ -130,8 +130,8 @@
     },
     {
       "name": "Twin assault cannon",
-      "modifiers": "devastatingwounds,twin-linked",
-      "attacks": "6",
+      "modifiers": ["devastating wounds","twin-linked"],
+      "attacks": 6,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 0,
@@ -139,8 +139,8 @@
     },
     {
       "name": "Twin heavy bolter",
-      "modifiers": "sustainedhits1,twin-linked",
-      "attacks": "3",
+      "modifiers": ["sustained hits 1","twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -148,8 +148,8 @@
     },
     {
       "name": "Twin lascannon",
-      "modifiers": "twin-linked",
-      "attacks": "1",
+      "modifiers": ["twin-linked"],
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 12,
       "armor-penetration": 3,
@@ -158,8 +158,8 @@
     {
       "name": "Armoured hull",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 6,
       "armor-penetration": 0,
       "damage": 1

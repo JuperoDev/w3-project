@@ -13,7 +13,7 @@
     "terminator",
     "chaplain"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 5,
     "toughness": 5,
     "save": 2,
@@ -21,7 +21,7 @@
     "leadership": 5,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -67,8 +67,8 @@
     {
       "name": "Crozius arcanum",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 6,
       "armor-penetration": 1,
       "damage": 2

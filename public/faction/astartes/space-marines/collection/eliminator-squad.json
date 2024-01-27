@@ -13,7 +13,7 @@
     "phobos",
     "eliminator squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -31,9 +31,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -114,7 +114,7 @@
     {
       "name": "Bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -123,7 +123,7 @@
     {
       "name": "Bolt sniper rifle",
       "modifiers": "heavy,precision",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 2,
@@ -132,7 +132,7 @@
     {
       "name": "Instigator bolt carbine",
       "modifiers": "precision",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 2,
@@ -141,7 +141,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

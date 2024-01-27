@@ -14,7 +14,7 @@
     "gravis",
     "inceptor squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 10,
     "toughness": 6,
     "save": 3,
@@ -22,7 +22,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -97,7 +97,7 @@
     {
       "name": "Assault bolters",
       "modifiers": "assault,pistol,sustainedhits2,twin-linked",
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -106,7 +106,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

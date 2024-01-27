@@ -14,7 +14,7 @@
     "phobos",
     "captain"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -22,7 +22,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -32,9 +32,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -77,8 +77,8 @@
     {
       "name": "Bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "2+",
+      "attacks": 1,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1
@@ -86,8 +86,8 @@
     {
       "name": "Combat knife",
       "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
       "damage": 1

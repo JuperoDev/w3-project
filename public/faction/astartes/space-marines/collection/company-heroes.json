@@ -13,7 +13,7 @@
     "tacticus",
     "company heroes"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 3,
@@ -21,13 +21,13 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
       "name": "Bolt Pistol",
       "modifiers": [
-        "PISTOL"
+        "pistol"
       ],
       "range": 12,
       "strength": 4,
@@ -41,7 +41,7 @@
       "name": "Master-crafted bolt rifle",
       "modifiers": [
         "DEVASTATING WOUNDS",
-        "RAPID FIRE 1"
+        "rapid fire 1"
       ],
       "range": 24,
       "strength": 4,
@@ -54,8 +54,8 @@
     {
       "name": "Master-crafted heavy bolter",
       "modifiers": [
-        "HEAVY",
-        "SUSTAINED HITS 2"
+        "heavy",
+        "sustained hits 2"
       ],
       "range": 36,
       "strength": 5,
@@ -94,8 +94,8 @@
   "meleeWeapons": [
     {
       "name": "Bolt Pistol",
-      "modifiers": "PISTOL",
-      "attacks": "1",
+      "modifiers": "pistol",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -104,7 +104,7 @@
     {
       "name": "Bolt rifle",
       "modifiers": [],
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
@@ -113,8 +113,8 @@
     {
       "name": "Master-crafted bolt rifle",
       "modifiers": "DEVASTATINGWOUNDS,RAPIDFIRE1",
-      "attacks": "2",
-      "weapons-skills": "2+",
+      "attacks": 2,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 1,
       "damage": 2
@@ -122,7 +122,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "5",
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -131,8 +131,8 @@
     {
       "name": "Master-crafted power weapon",
       "modifiers": "PRECISION",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 2,
       "damage": 2

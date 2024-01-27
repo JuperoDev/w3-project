@@ -14,7 +14,7 @@
     "tacticus",
     "techmarine"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 4,
     "save": 2,
@@ -22,7 +22,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -67,8 +67,8 @@
     {
       "name": "Forge bolter",
       "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "2+",
+      "attacks": 3,
+      "weapons-skills": 2,
       "strength": 5,
       "armor-penetration": 1,
       "damage": 2
@@ -76,7 +76,7 @@
     {
       "name": "Omnissian power axe",
       "modifiers": [],
-      "attacks": "4",
+      "attacks": 4,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 2,
@@ -85,7 +85,7 @@
     {
       "name": "Servo-arm",
       "modifiers": "extraattacks",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,

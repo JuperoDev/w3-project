@@ -13,7 +13,7 @@
     "imperium",
     "chaplain"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 12,
     "toughness": 5,
     "save": 3,
@@ -21,7 +21,7 @@
     "leadership": 5,
     "objetiveControl": 1,
     "invulnerableSave": 4
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -74,7 +74,7 @@
     {
       "name": "Absolvor bolt pistol",
       "modifiers": "pistol",
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -83,8 +83,8 @@
     {
       "name": "Crozius arcanum",
       "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 6,
       "armor-penetration": 1,
       "damage": 2

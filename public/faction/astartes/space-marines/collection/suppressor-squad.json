@@ -15,7 +15,7 @@
     "imperium",
     "suppressor squad"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 12,
     "toughness": 4,
     "save": 3,
@@ -23,7 +23,7 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -46,9 +46,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -72,8 +72,8 @@
     {
       "name": "Accelerator autocannon",
       "modifiers": "heavy",
-      "attacks": "3",
-      "weapons-skills": "4+",
+      "attacks": 3,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 1,
       "damage": 2
@@ -81,7 +81,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "3",
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,

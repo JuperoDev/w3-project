@@ -13,7 +13,7 @@
     "imperium",
     "dreadnought"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 6,
     "toughness": 9,
     "save": 2,
@@ -21,7 +21,7 @@
     "leadership": 6,
     "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -165,8 +165,8 @@
   "meleeWeapons": [
     {
       "name": "Assault cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
+      "modifiers": ["devastatingwounds"],
+      "attacks": 6,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 0,
@@ -183,7 +183,7 @@
     },
     {
       "name": "Heavy plasma cannon – standard",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D3",
       "weapons-skills": "3+",
       "strength": 7,
@@ -192,7 +192,7 @@
     },
     {
       "name": "Missile launcher – frag",
-      "modifiers": "blast",
+      "modifiers": ["blast"],
       "attacks": "D6",
       "weapons-skills": "3+",
       "strength": 4,
@@ -202,7 +202,7 @@
     {
       "name": "Multi-melta",
       "modifiers": "melta2",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 4,
@@ -210,8 +210,8 @@
     },
     {
       "name": "Storm bolter",
-      "modifiers": "rapidfire2",
-      "attacks": "2",
+      "modifiers": ["rapid fire 2"],
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -220,7 +220,7 @@
     {
       "name": "Close combat weapon",
       "modifiers": [],
-      "attacks": "5",
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 0,
@@ -229,7 +229,7 @@
     {
       "name": "Dreadnought combat weapon",
       "modifiers": [],
-      "attacks": "5",
+      "attacks": 5,
       "weapons-skills": "3+",
       "strength": 12,
       "armor-penetration": 2,

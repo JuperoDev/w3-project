@@ -17,7 +17,7 @@
     "imperium",
     "stormraven gunship"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 0,
     "toughness": 0,
     "save": 0,
@@ -25,7 +25,7 @@
     "leadership": 0,
     "objetiveControl": 0,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -179,7 +179,7 @@
     {
       "name": "Hurricane bolter",
       "modifiers": "rapidfire6,twin-linked",
-      "attacks": "6",
+      "attacks": 6,
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 0,
@@ -188,7 +188,7 @@
     {
       "name": "Stormstrike missile launcher",
       "modifiers": [],
-      "attacks": "1",
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 10,
       "armor-penetration": 2,
@@ -196,8 +196,8 @@
     },
     {
       "name": "Twin assault cannon",
-      "modifiers": "devastatingwounds,twin-linked",
-      "attacks": "6",
+      "modifiers": ["devastating wounds","twin-linked"],
+      "attacks": 6,
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 0,
@@ -205,8 +205,8 @@
     },
     {
       "name": "Twin heavy bolter",
-      "modifiers": "sustainedhits1,twin-linked",
-      "attacks": "3",
+      "modifiers": ["sustained hits 1","twin-linked"],
+      "attacks": 3,
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
@@ -223,8 +223,8 @@
     },
     {
       "name": "Twin lascannon",
-      "modifiers": "twin-linked",
-      "attacks": "1",
+      "modifiers": ["twin-linked"],
+      "attacks": 1,
       "weapons-skills": "3+",
       "strength": 12,
       "armor-penetration": 3,
@@ -233,7 +233,7 @@
     {
       "name": "Twin multi-melta",
       "modifiers": "melta2,twin-linked",
-      "attacks": "2",
+      "attacks": 2,
       "weapons-skills": "3+",
       "strength": 9,
       "armor-penetration": 4,
@@ -242,8 +242,8 @@
     {
       "name": "Armoured hull",
       "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "attacks": 6,
+      "weapons-skills": 4,
       "strength": 8,
       "armor-penetration": 0,
       "damage": 1

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 h-screen">
+  <div class="bg-gray-100">
     
   <!-- <GeneralPurposePasswordProtection>    -->
 
@@ -48,16 +48,32 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
-           <nuxt-link to="/chaos/chaos-daemons"> 
+          <nuxt-link to="/astartes/space-marines">
             <div class="army__card_image">
               <img
-                src="/icons/daemons-symbol.png"
+                src="/icons/spacemarine-symbol.png"
               />
             </div>
             <div class="army__card_title title-white uppercase">
-              <p>Chaos Daemons</p>
+              <p>Space Marines</p>
             </div>
-           </nuxt-link> 
+          </nuxt-link>
+        </div>
+      </div>
+
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+          <nuxt-link to="/astartes/space-wolves">
+            <div class="army__card_image">
+              <img
+                src="/icons/spacewolves-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Space Wolves</p>
+            </div>
+          </nuxt-link>
         </div>
       </div>
 
@@ -75,6 +91,39 @@
            </nuxt-link> 
         </div>
       </div>
+
+      
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+           <nuxt-link to="/xenos/necrons">
+            <div class="army__card_image">
+              <img
+                src="/icons/necrons-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Necrons</p>
+            </div>
+          </nuxt-link> 
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
+           <nuxt-link to="/chaos/chaos-daemons"> 
+            <div class="army__card_image">
+              <img
+                src="/icons/daemons-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Chaos Daemons</p>
+            </div>
+           </nuxt-link> 
+        </div>
+      </div>
+
+
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
@@ -138,20 +187,8 @@
         </div>
       </div>
 
-      <div class="button__container my-5 ">
-        <div class="army__card font-bebas">
-          <nuxt-link to="/astartes/space-wolves">
-            <div class="army__card_image">
-              <img
-                src="/icons/spacewolves-symbol.png"
-              />
-            </div>
-            <div class="army__card_title title-white uppercase">
-              <p>Space Wolves</p>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
+
+
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
@@ -183,20 +220,6 @@
         </div>
       </div>
 
-      <div class="button__container my-5 ">
-        <div class="army__card font-bebas">
-           <nuxt-link to="/xenos/necrons">
-            <div class="army__card_image">
-              <img
-                src="/icons/necrons-symbol.png"
-              />
-            </div>
-            <div class="army__card_title title-white uppercase">
-              <p>Necrons</p>
-            </div>
-          </nuxt-link> 
-        </div>
-      </div>
 
       
       <div class="button__container my-5 ">

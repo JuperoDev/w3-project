@@ -16,15 +16,17 @@
     "dreadnought",
     "ballistus dreadnought"
   ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 10,
-    "save": 2,
-    "wounds": 12,
-    "leadership": 6,
-    "objetiveControl": 4,
-    "invulnerableSave": 0
-  }],
+  "attributes": [
+    {
+      "movement": 8,
+      "toughness": 10,
+      "save": 2,
+      "wounds": 12,
+      "leadership": 6,
+      "objetiveControl": 4,
+      "invulnerableSave": 0
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -34,11 +36,33 @@
       ],
       "range": 48,
       "strength": 5,
-      "attacks": 2,
+      "attacks": "2d6",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
+    },
+    {
+      "name": "Ballistus missile launcher - krak",
+      "modifiers": [
+        
+      ],
+      "range": 48,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": "d6",
+      "singleChoice": false
+    },
+    {
+      "name": "Ballistus lascannon",
+      "modifiers": [],
+      "attacks": 2,
+      "weapons-skills": 3,
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
     },
     {
       "name": "Twin storm bolter",
@@ -50,7 +74,7 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -71,24 +95,6 @@
   },
   "wargear": [],
   "meleeWeapons": [
-    {
-      "name": "Ballistus missile launcher – frag",
-      "modifiers": ["blast"],
-      "attacks": "2D6",
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Ballistus lascannon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
     {
       "name": "Armoured feet",
       "modifiers": [],

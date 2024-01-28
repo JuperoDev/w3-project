@@ -29,15 +29,15 @@
     {
       "name": "Hand flamer",
       "modifiers": [
-        "IGNORES COVER",
+        "ignores cover",
         "pistol",
         "torrent"
       ],
       "range": 12,
       "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -117,24 +117,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Hand flamer",
-      "modifiers": "IGNORESCOVER,pistol,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Heavy bolt pistol",
-      "modifiers": "pistol",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
+   
     {
       "name": "Astartes chainsword",
       "modifiers": [],

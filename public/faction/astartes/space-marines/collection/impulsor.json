@@ -31,64 +31,58 @@
       ],
       "range": 48,
       "strength": 4,
-      "attacks": 2,
+      "attacks": "d6",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
-      "name": "Bellicatus missile array - Icarus",
-      "modifiers": [
-        "anti-fly 2+"
-      ],
-      "range": 48,
+      "name": "Bellicatus missile array – Icarus",
+      "modifiers": ["anti-fly 2+"],
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
+    },
+    {
+      "name": "Bellicatus missile array – krak",
+      "modifiers": [],
+      "attacks": 1,
+      "weapons-skills": 3,
+      "strength": 8,
+      "armor-penetration": "d6",
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Fragstorm grenade launcher",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 18,
+      "modifiers": ["blast"],
+      "attacks": "D6",
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 0,
+      "damage": 1
     },
     {
       "name": "Ironhail heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
+      "modifiers": ["rapidfire 3"],
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 0,
+      "damage": 1
     },
     {
       "name": "Ironhail skytalon array",
-      "modifiers": [
-        "anti-fly 4+",
-        "sustained hits 1"
-      ],
-      "range": 36,
+      "modifiers": ["anti-fly 4+","sustained hits 1"],
+      "attacks": 8,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 0,
+      "damage": 1
     },
     {
       "name": "Storm bolter",
@@ -139,42 +133,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Bellicatus missile array – frag",
-      "modifiers": ["blast"],
-      "attacks": "D6",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Fragstorm grenade launcher",
-      "modifiers": ["blast"],
-      "attacks": "D6",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Ironhail heavy stubber",
-      "modifiers": "rapidfire3",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Ironhail skytalon array",
-      "modifiers": "anti-fly4+,sustainedhits1",
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
+   
     {
       "name": "Armoured hull",
       "modifiers": [],

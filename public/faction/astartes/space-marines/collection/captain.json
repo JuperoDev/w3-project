@@ -23,7 +23,14 @@
     "objetiveControl": 1,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["Assault Intercessor Squad",
+  "Bladeguard Veteran Squad*",
+ "Company Heroes",
+  "Hellblaster Squad*",
+  "Infernus Squad",
+  "Intercessor Squad",
+  "Sternguard Veteran Squad",
+  "Tactical Squad"],
   "rangedWeapons": [
     {
       "name": "Bolt pistol",
@@ -33,7 +40,7 @@
       "range": 12,
       "strength": 4,
       "attacks": 1,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
@@ -99,11 +106,11 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     }
   ],
   "abilities": {

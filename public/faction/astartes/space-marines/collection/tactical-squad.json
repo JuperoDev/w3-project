@@ -1,0 +1,532 @@
+{
+  "parentUnit": "Tactical Squad",
+  "factionKeywords": [
+    "adeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Tactical Squads have formed the backbone of Space Marine Chapters for ten thousand years. With access to a wide range of weapons, they can purge swathes of enemy infantry, scour battlefields clean of heavily armoured foes or punch burning holes through tanks.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "grenades",
+    "imperium",
+    "tactical squad"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 4,
+    "save": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt Pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "ANTI-INFANTRY 4+",
+        "DEVASTATING WOUNDS",
+        "RAPID FIRE 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Grav-cannon",
+      "modifiers": [
+        "ANTI-VEHICLE 2+",
+        "HEAVY"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Grav-gun",
+      "modifiers": [
+        "anti-vehicle 2+"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Grav-pistol",
+      "modifiers": [
+        "ANTI-VEHICLE 2+",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "HEAVY",
+        "SUSTAINED HITS 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": [
+        "HEAVY"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - frag",
+      "modifiers": [
+        "BLAST",
+        "HEAVY"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - krak",
+      "modifiers": [
+        "HEAVY"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "HEAVY",
+        "MELTA 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - standard",
+      "modifiers": [
+        "BLAST",
+        "HEAVY"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - supercharge",
+      "modifiers": [
+        "BLAST",
+        "HEAVY",
+        "HAZARDOUS"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma gun - standard",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma gun - supercharge",
+      "modifiers": [
+        "hazardous",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "HAZARDOUS",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "RAPID FIRE 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Oath of Moment"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "bolt pistol; boltgun; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "1 Tactical Marine’s boltgun can be replaced with one of the following",
+      "items": [
+        "1 flamer",
+        "1 heavy bolter",
+        "1 grav-cannon",
+        "1 grav-gun",
+        "1 lascannon",
+        "1 meltagun",
+        "1 missile launcher",
+        "1 multi-melta",
+        "1 plasma cannon",
+        "1 plasma gun"
+      ]
+    },
+    {
+      "description": "1 Tactical Marine’s boltgun can be replaced with one of the following",
+      "items": [
+        "1 flamer",
+        "1 grav-gun",
+        "1 meltagun",
+        "1 plasma gun"
+      ]
+    },
+    {
+      "description": "The Tactical Sergeant’s bolt pistol and boltgun can be replaced with 1 twin lightning claws, or two different weapons from the following list",
+      "items": [
+        "1 Astartes chainsword",
+        "1 bolt pistol",
+        "1 boltgun",
+        "1 combi-weapon",
+        "1 grav-pistol",
+        "1 plasma pistol",
+        "1 storm bolter",
+        "1 power fist",
+        "1 power weapon",
+        "1 thunder hammer"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Boltgun",
+      "modifiers": [],
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": "ANTI-INFANTRY4+,DEVASTATINGWOUNDS,RAPIDFIRE1",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Grav-cannon",
+      "modifiers": "ANTI-VEHICLE2+,HEAVY",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 3
+    },
+    {
+      "name": "Grav-gun",
+      "modifiers": "anti-vehicle2+",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Grav-pistol",
+      "modifiers": "ANTI-VEHICLE2+,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "HEAVY,SUSTAINEDHITS1",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Lascannon",
+      "modifiers": "HEAVY",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": "melta2",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Missile launcher – frag",
+      "modifiers": "BLAST,HEAVY",
+      "attacks": "D6",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": "HEAVY,MELTA2",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Plasma cannon – standard",
+      "modifiers": "BLAST,HEAVY",
+      "attacks": "D3",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": 1
+    },
+    {
+      "name": "Plasma gun – standard",
+      "modifiers": "rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": 1
+    },
+    {
+      "name": "Plasma pistol – standard",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": 1
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": [],
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 1
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": [],
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Power fist",
+      "modifiers": [],
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": 2
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": [],
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": 1
+    },
+    {
+      "name": "Thunder hammer",
+      "modifiers": ["devastating wounds"],
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": 2
+    },
+    {
+      "name": "Twin lightning claws",
+      "modifiers": "twin-linked",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": 1
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "parentUnit": "Captain Sicarius",
   "factionKeyword": [
     "ultramarines",
-    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+    "adeptus astartes"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -25,7 +25,11 @@
     "objetiveControl": 1,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["Assault Intercessor Squad",
+  "Bladeguard Veteran Squad",
+  "Company Heroes",
+  "Sternguard Veteran Squad",
+ " Tactical Squad"],
   "rangedWeapons": [
     {
       "name": "Artisan plasma pistol",
@@ -34,10 +38,10 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -70,5 +74,24 @@
       "armor-penetration": 2,
       "damage": 2
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Captain Sicarius – EPIC HERO",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+       " artisan plasma pistol", "Talassarian Tempest Blade" 
+        ]
+    }
+  ],
+"options": [
+    {
+      "count": [1],
+      "points": 85
+    }
+  ],
+"additionalParameter": {
+    
+}
 }

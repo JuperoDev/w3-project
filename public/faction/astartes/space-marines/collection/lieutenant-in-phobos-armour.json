@@ -1,7 +1,7 @@
 {
   "parentUnit": "Lieutenant In Phobos Armour",
   "factionKeywords": [
-    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+    "adeptus astartes"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -17,13 +17,15 @@
   "attributes": {
     "movement": 6,
     "toughness": 4,
-    "salvation": 3,
+    "save": 3,
     "wounds": 4,
     "leadership": 6,
-    "objectiveControl": 1,
+    "objetiveControl": 1,
     "invulnerableSave": 0
   },
-  "leader": [],
+  "leader": ["Incursor Squad",
+  "Infiltrator Squad",
+ "Reiver Squad"],
   "rangedWeapons": [
     {
       "name": "Bolt pistol",
@@ -78,12 +80,12 @@
     
     {
       "name": "Paired combat blades",
-      "modifiers": "sustainedhits1",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "modifiers": ["sustained hits 1"],
+      "attacks": 5,
+      "weapons-skills": 2,
       "strength": 4,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
   ]
 }

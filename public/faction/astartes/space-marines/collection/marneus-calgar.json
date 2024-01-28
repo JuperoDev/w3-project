@@ -2,7 +2,7 @@
   "parentUnit": "Marneus Calgar",
   "factionKeyword": [
     "ultramarines",
-    "adeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartesadeptus astartes"
+    "adeptus astartes"
   ],
   "damaged": {},
   "supremeCommander": false,
@@ -16,6 +16,7 @@
     "marneus calgar"
   ],
   "attributes": [{
+    "name":"Marneus Calgar",
     "movement": 6,
     "toughness": 6,
     "save": 2,
@@ -23,8 +24,27 @@
     "leadership": 6,
     "objetiveControl": 1,
     "invulnerableSave": 4
+  },
+  {
+    "name":"Victrix Honour Guard",
+    "movement": 6,
+    "toughness": 4,
+    "save": 2,
+    "wounds": 6,
+    "leadership": 6,
+    "objetiveControl": 1,
+    "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["Aggressor Squad",
+  "Assault Intercessor Squad",
+  "Bladeguard Veteran Squad",
+  "Company Heroes",
+  "Eradicator Squad",
+  "Heavy Intercessor Squad",
+  "Infernus Squad",
+ "Intercessor Squad",
+  "Sternguard Veteran Squad",
+  "Tactical Squad"],
   "rangedWeapons": [
     {
       "name": "Gauntlets of Ultramar",
@@ -35,9 +55,9 @@
       "range": 18,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     }
   ],

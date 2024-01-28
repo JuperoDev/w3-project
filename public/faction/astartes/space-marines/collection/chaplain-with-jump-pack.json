@@ -14,16 +14,21 @@
     "imperium",
     "chaplain"
   ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
+  "attributes": [
+    {
+      "movement": 12,
+      "toughness": 4,
+      "save": 3,
+      "wounds": 4,
+      "leadership": 6,
+      "objetiveControl": 1,
+      "invulnerableSave": 4
+    }
+  ],
+  "leader": [
+    "Assault Intercessors With Jump Packs",
+    "Vanguard Veteran Squad With Jump Packs"
+  ],
   "rangedWeapons": [
     {
       "name": "Bolt pistol",
@@ -132,7 +137,7 @@
       "ballistic-skills": 3,
       "armor-penetration": 3,
       "damage": 2,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Storm bolter",
@@ -183,7 +188,6 @@
     }
   ],
   "meleeWeapons": [
-    
     {
       "name": "Crozius arcanum",
       "modifiers": [],

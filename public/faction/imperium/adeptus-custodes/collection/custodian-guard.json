@@ -31,9 +31,9 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -45,9 +45,9 @@
       "range": 12,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -83,41 +83,64 @@
     }
   ],
   "meleeWeapons": [
+   
     {
       "name": "Guardian spear",
-      "modifiers": "assault",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Guardian spear",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 5,
+      "weapons-skills":  2 ,
       "strength": 7,
       "armor-penetration": 2,
-      "damage": "2"
+      "damage":  2
     },
     {
       "name": "Misericordia",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 5,
+      "weapons-skills":  2 ,
       "strength": 5,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage":  1
     },
     {
       "name": "Sentinel blade",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 5,
+      "weapons-skills":  2 ,
       "strength": 6,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage":  1
+    }
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Custodian Guard",
+      "minQuantity": 4,
+      "maxQuantity": 5,
+      "equipment": [
+        "guardian spear"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        4
+      ],
+      "points": 200
+    },
+    {
+      "count": [
+        5
+      ],
+      "points": 250
+    }
+  ],
+  "additionalParameter": {},
+  "warGearAbilities": [
+    {
+      "wargear": "Vexilla",
+      "ability": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
     }
   ]
 }

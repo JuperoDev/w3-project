@@ -21,7 +21,8 @@
     "objetiveControl": 2,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["Custodian Guard",
+  "Custodian Wardens"],
   "rangedWeapons": [],
   "abilities": {
     "core": [
@@ -43,20 +44,57 @@
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
       "name": "Vaultswords – Behemor",
-      "modifiers": "precision",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "modifiers": ["precision"],
+      "attacks": 6,
+      "weapons-skills":  2 ,
       "strength": 7,
       "armor-penetration": 2,
-      "damage": "2"
+      "damage":  2,
+      "singleChoice": "true"
+    },
+    {
+      "name": "Vaultswords – Hurricanus",
+      "modifiers": ["sustained hits 1"],
+      "attacks": 9,
+      "weapons-skills":  2 ,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage":  1,
+      "singleChoice": "true"
+    },
+    {
+      "name": "Vaultswords – Victus ",
+      "modifiers": ["devastating wounds"],
+      "attacks": 5,
+      "weapons-skills":  2 ,
+      "strength": 6,
+      "armor-penetration": 3,
+      "damage":  3,
+      "singleChoice": "true"
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Blade Champion",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "vaultswords"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 120
+    }
+  ],
+  "additionalParameter": {}
 }

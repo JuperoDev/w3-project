@@ -31,8 +31,8 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -43,8 +43,8 @@
       ],
       "range": 24,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 6,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -57,9 +57,9 @@
       "range": 18,
       "strength": 9,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     }
   ],
@@ -84,32 +84,34 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Combi-bolter",
-      "modifiers": "rapidfire2",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Kheres-pattern assault cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
+   
     {
       "name": "Contemptor combat weapon",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 5,
+      "weapons-skills":  2 ,
       "strength": 12,
       "armor-penetration": 2,
-      "damage": "3"
+      "damage":  3
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Venerable Contemptor Dreadnought",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "combi-bolter", "multi-melta","Contemptor combat weapon"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 185
+    }
+  ],
+  "additionalParameter": {}
 }

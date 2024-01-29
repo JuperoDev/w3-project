@@ -28,30 +28,34 @@
   "leader": [],
   "rangedWeapons": [
     {
-      "name": "Hunter-killer missile",
-      "modifiers": [
-        "one shot"
-      ],
+      "name": "Godhammer lascannon",
       "range": 48,
-      "strength": 14,
+      "modifiers":  [],
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "weapons-skills":  2 ,
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers":[ "one shot"],
+      "range": 48,
+      "attacks": 1,
+      "weapons-skills":  2 ,
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
     },
     {
       "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
       "range": 24,
-      "strength": 4,
+      "modifiers": "rapidfire2",
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "weapons-skills":  2 ,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage":  1
     },
     {
       "name": "Twin heavy bolter",
@@ -72,11 +76,11 @@
     "core": [
       "Deadly Demise D6"
     ],
-    "faction": [],
+    "faction": ["Martial Ka’tah"],
     "otherAbilities": [
       {
-        "name": "FACTION:",
-        "description": "Martial Ka’tah"
+        "name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
       }
     ]
   },
@@ -91,41 +95,34 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Godhammer lascannon",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": "one shot",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6"
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": "rapidfire2",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
+    
     {
       "name": "Armoured tracks",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "4+",
+      "modifiers":  [],
+      "attacks": 6,
+      "weapons-skills":  4,
       "strength": 8,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage":  1
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Venerable Land Raider",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "2 godhammer lascannons", "twin heavy bolter","armoured tracks"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 240
+    }
+  ],
+  "additionalParameter": {}
 }

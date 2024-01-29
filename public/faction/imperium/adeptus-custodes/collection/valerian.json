@@ -23,7 +23,8 @@
     "objetiveControl": 2,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["Custodian Guard",
+ "Custodian Wardens"],
   "rangedWeapons": [
     {
       "name": "Gnosis",
@@ -32,10 +33,10 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -59,20 +60,36 @@
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
       "name": "Gnosis",
-      "modifiers": "",
-      "attacks": "7",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 7,
+      "weapons-skills":  2 ,
       "strength": 8,
       "armor-penetration": 3,
-      "damage": "2"
+      "damage":  2
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Valerian – EPIC HERO",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Gnosis"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 115
+    }
+  ],
+  "additionalParameter": {}
 }

@@ -30,8 +30,8 @@
       ],
       "range": 18,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6",
+      "ballistic-skills": 2,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -44,9 +44,9 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -57,8 +57,8 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 2,
       "damage": 1,
       "singleChoice": false
     }
@@ -92,50 +92,76 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Balistus grenade launcher",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
+    
     {
       "name": "Castellan axe",
-      "modifiers": "assault",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Castellan axe",
-      "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
+      "modifiers":  [],
+      "attacks":  4 ,
+      "weapons-skills":  3 ,
       "strength": 9,
       "armor-penetration": 1,
-      "damage": "3"
+      "damage":  3
     },
     {
       "name": "Guardian spear",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 5,
+      "weapons-skills":  2 ,
       "strength": 7,
       "armor-penetration": 2,
-      "damage": "2"
+      "damage":  2
     },
     {
       "name": "Misericordia",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 5,
+      "weapons-skills":  2 ,
       "strength": 5,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage":  1
+    }
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Allarus Custodians",
+      "minQuantity": 2,
+      "maxQuantity": 6,
+      "equipment": [
+        "balistus grenade launcher","guardian spear."
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        2
+      ],
+      "points": 140
+    },
+    {
+      "count": [
+        3
+      ],
+      "points": 210
+    },
+    {
+      "count": [
+        5
+      ],
+      "points": 350
+    },
+    {
+      "count": [
+        6
+      ],
+      "points": 420
+    }
+  ],
+  "additionalParameter": {},
+  "warGearAbilities": [
+    {
+      "wargear": "Vexilla",
+      "ability": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
     }
   ]
 }

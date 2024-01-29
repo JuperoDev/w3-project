@@ -31,36 +31,84 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
   ],
   "abilities": {
     "core": [
-      "Daughters of the Abyss: Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks.Purity of Execution: Each time a model in this unit makes a ranged attack that targets a PSYKER unit",
-      "that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+      
     ],
     "faction": [],
-    "otherAbilities": []
+    "otherAbilities": [{
+      "name": "Daughters of the Abyss",
+      "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks. "
+    },
+    {
+      "name": "Purity of Execution",
+      "description": "Each time a model in this unit makes a ranged attack that targets a PSYKER unit, that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+    }]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
       "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
+      "modifiers":  [],
+      "attacks": 2,
+      "weapons-skills":  3 ,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage":  1
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Prosecutor Sister Superior",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "boltgun; close combat weapon."
+      ]
+    },
+    {
+      "unitType": "Prosecutors",
+      "minQuantity": 3,
+      "maxQuantity": 9,
+      "equipment": [
+        "boltgun; close combat weapon."
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [1,3
+        
+      ],
+      "points": 40
+    },
+    {
+      "count": [
+        1,4
+      ],
+      "points": 50
+    },
+    {
+      "count": [
+        1,8
+      ],
+      "points": 90
+    },
+    {
+      "count": [
+        1,9
+      ],
+      "points": 100
+    }
+  ],
+  "additionalParameter": {}
 }

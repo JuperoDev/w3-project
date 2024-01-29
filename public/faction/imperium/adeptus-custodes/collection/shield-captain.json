@@ -12,29 +12,33 @@
     "imperium",
     "shield-captain"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 6,
+      "save": 2,
+      "wounds": 6,
+      "leadership": 6,
+      "objetiveControl": 2,
+      "invulnerableSave": 4
+    }
+  ],
+  "leader": [
+    "Custodian Guard",
+    "Custodian Wardens"
+  ],
   "rangedWeapons": [
     {
       "name": "Castellan axe",
+      "range": 24,
       "modifiers": [
         "assault"
       ],
-      "range": 24,
-      "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "weapons-skills": 2,
+      "strength": 4,
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": 2
     },
     {
       "name": "Guardian spear",
@@ -42,12 +46,11 @@
         "assault"
       ],
       "range": 24,
-      "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "weapons-skills": 2,
+      "strength": 4,
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": 2
     },
     {
       "name": "Sentinel blade",
@@ -58,9 +61,9 @@
       "range": 12,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -96,48 +99,55 @@
   "meleeWeapons": [
     {
       "name": "Castellan axe",
-      "modifiers": "assault",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Guardian spear",
-      "modifiers": "assault",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Castellan axe",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "3+",
+      "modifiers": [],
+      "attacks": 6,
+      "weapons-skills": 3,
       "strength": 9,
       "armor-penetration": 1,
-      "damage": "3"
+      "damage": 3
     },
     {
       "name": "Guardian spear",
-      "modifiers": "",
-      "attacks": "7",
-      "weapons-skills": "2+",
+      "modifiers": [],
+      "attacks": 7,
+      "weapons-skills": 2,
       "strength": 7,
       "armor-penetration": 2,
-      "damage": "2"
+      "damage": 2
     },
     {
       "name": "Sentinel blade",
-      "modifiers": "",
-      "attacks": "7",
-      "weapons-skills": "2+",
+      "modifiers": [],
+      "attacks": 7,
+      "weapons-skills": 2,
       "strength": 6,
       "armor-penetration": 2,
-      "damage": "1"
+      "damage": 1
+    }
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Shield-Captain",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "guardian spear"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 140
+    }
+  ],
+  "additionalParameter": {},
+  "warGearAbilities": [
+    {
+      "wargear": "Praesidium shield",
+      "ability": "Add 1 to the bearer’s Wounds characteristic."
     }
   ]
 }

@@ -22,7 +22,7 @@
     "objetiveControl": 2,
     "invulnerableSave": 4
   }],
-  "leader": [],
+  "leader": ["Allarus Custodians"],
   "rangedWeapons": [
     {
       "name": "Balistus grenade launcher",
@@ -90,41 +90,43 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Balistus grenade launcher",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
+    
     {
       "name": "Castellan axe",
-      "modifiers": "assault",
-      "attacks": "2",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Castellan axe",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "3+",
+      "modifiers":  [],
+      "attacks": 6,
+      "weapons-skills":  3 ,
       "strength": 9,
       "armor-penetration": 1,
-      "damage": "3"
+      "damage":  3
     },
     {
       "name": "Guardian spear",
-      "modifiers": "",
-      "attacks": "7",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 7,
+      "weapons-skills":  2 ,
       "strength": 7,
       "armor-penetration": 2,
-      "damage": "2"
+      "damage":  2
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Shield-Captain in Allarus Terminator Armour",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "balistus grenade launcher; guardian spear."
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 140
+    }
+  ],
+  "additionalParameter": {}
 }

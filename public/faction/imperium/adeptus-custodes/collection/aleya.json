@@ -13,16 +13,22 @@
     "imperium",
     "aleya"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 3,
+      "wounds": 4,
+      "leadership": 6,
+      "objetiveControl": 1,
+      "invulnerableSave": 5
+    }
+  ],
+  "leader": [
+    "Prosecutors",
+    "Vigilators",
+    " Witchseekers"
+  ],
   "rangedWeapons": [],
   "abilities": {
     "core": [
@@ -46,21 +52,37 @@
       }
     ]
   },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
+  "wargear": [],
   "meleeWeapons": [
     {
       "name": "Somnus",
-      "modifiers": "anti-psyker4+,devastatingwounds",
-      "attacks": "4",
-      "weapons-skills": "2+",
+      "modifiers": [
+        "anti-psyker 4+, devastating wounds"
+      ],
+      "attacks": 4,
+      "weapons-skills": 2,
       "strength": 6,
       "armor-penetration": 3,
-      "damage": "3"
+      "damage": 3
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Aleya – EPIC HERO",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Somnus"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 80
+    }
+  ],
+  "additionalParameter": {}
 }

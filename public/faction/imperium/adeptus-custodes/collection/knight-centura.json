@@ -22,20 +22,19 @@
     "objetiveControl": 1,
     "invulnerableSave": 5
   }],
-  "leader": [],
+  "leader": ["Prosecutors",
+  "Vigilators",
+  "Witchseekers"],
   "rangedWeapons": [
     {
       "name": "Master-crafted boltgun",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
+      "range": "24",
+      "modifiers": ["rapid fire 1"],
+      "attacks": 1,
+      "weapons-skills":  2 ,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 0,
+      "damage":  2
     },
     {
       "name": "Witchseeker flamer",
@@ -45,9 +44,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -60,8 +59,16 @@
     "faction": [],
     "otherAbilities": [
       {
-        "name": "This model is equipped with:",
-        "description": "executioner greatblade."
+        "name": "Seeker’s Instincts",
+        "description": "While this model is leading a unit, add 2'' to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit."
+      },
+      {
+        "name": "Daughter of the Abyss",
+        "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks."
+      },
+      {
+        "name": "Corner the Quarry",
+        "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model’s unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
       }
     ]
   },
@@ -75,32 +82,43 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Master-crafted boltgun",
-      "modifiers": "rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "2"
-    },
+    
     {
       "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "2+",
+      "modifiers":  [],
+      "attacks": 3,
+      "weapons-skills":  2 ,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage":  1
     },
     {
       "name": "Executioner greatblade",
-      "modifiers": "anti-psyker4+,devastatingwounds",
-      "attacks": "3",
-      "weapons-skills": "2+",
+      "modifiers": ["anti-psyker 4+, devastating wounds"],
+      "attacks": 3,
+      "weapons-skills":  2 ,
       "strength": 5,
       "armor-penetration": 2,
-      "damage": "2"
+      "damage":  2
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Knight-Centura",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "executioner greatblade"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 75
+    }
+  ],
+  "additionalParameter": {}
 }

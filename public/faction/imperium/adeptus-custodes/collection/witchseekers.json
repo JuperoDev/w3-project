@@ -12,15 +12,17 @@
     "anathema psykana",
     "witchseekers"
   ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 3,
-    "wounds": 1,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 3,
+      "save": 3,
+      "wounds": 1,
+      "leadership": 6,
+      "objetiveControl": 1,
+      "invulnerableSave": 0
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
@@ -31,9 +33,9 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -45,26 +47,76 @@
     "faction": [],
     "otherAbilities": [
       {
-        "name": "Every model is equipped with:",
-        "description": "Witchseeker flamer; close combat weapon."
+        "name": "Daughters of the Abyss",
+        "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks."
+      },
+      {
+        "name": "Sanctified Flames",
+        "description": "Each time this unit shoots, after it has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
       }
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
       "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
+      "modifiers": [],
+      "attacks": 2,
+      "weapons-skills": 3,
       "strength": 3,
       "armor-penetration": 0,
-      "damage": "1"
+      "damage": 1
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Witchseeker Sister Superior",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Witchseeker flamer","close combat weapon."
+      ]
+    },
+    {
+      "unitType": "Witchseekers",
+      "minQuantity": 3,
+      "maxQuantity": 9,
+      "equipment": [
+        "Witchseeker flamer","close combat weapon."
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,
+        3
+      ],
+      "points": 50
+    },
+    {
+      "count": [
+        1,
+        3
+      ],
+      "points": 65
+    },
+    {
+      "count": [
+        1,
+        8
+      ],
+      "points": 115
+    },
+    {
+      "count": [
+        1,
+        9
+      ],
+      "points": 125
+    }
+  ],
+  "additionalParameter": {}
 }

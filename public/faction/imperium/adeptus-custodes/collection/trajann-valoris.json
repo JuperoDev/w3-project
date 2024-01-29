@@ -13,16 +13,21 @@
     "imperium",
     "trajann valoris"
   ],
-  "attributes":[ {
-    "movement": 6,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 7,
-    "leadership": 5,
-    "objetiveControl": 2,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
+  "attributes": [
+    {
+      "movement": 6,
+      "toughness": 6,
+      "save": 2,
+      "wounds": 7,
+      "leadership": 5,
+      "objetiveControl": 2,
+      "invulnerableSave": 4
+    }
+  ],
+  "leader": [
+    "Custodian Guard",
+    "Custodian Wardens"
+  ],
   "rangedWeapons": [
     {
       "name": "Watcher’s Axe",
@@ -32,9 +37,9 @@
       "range": 24,
       "strength": 5,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 2,
+      "damage": 3,
       "singleChoice": false
     }
   ],
@@ -63,20 +68,36 @@
     ]
   },
   "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
+    
   ],
   "meleeWeapons": [
     {
       "name": "Watcher’s Axe",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "2+",
+      "modifiers": [],
+      "attacks": 6,
+      "weapons-skills": 2,
       "strength": 10,
       "armor-penetration": 2,
-      "damage": "3"
+      "damage": 3
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Trajann Valoris – EPIC HERO",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "Watcher’s Axe"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 160
+    }
+  ],
+  "additionalParameter": {}
 }

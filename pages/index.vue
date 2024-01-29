@@ -110,6 +110,21 @@
 
       <div class="button__container my-5 ">
         <div class="army__card font-bebas">
+           <nuxt-link to="/imperium/adeptus-custodes"> 
+            <div class="army__card_image">
+              <img
+                src="/icons/custodes-symbol.png"
+              />
+            </div>
+            <div class="army__card_title title-white uppercase">
+              <p>Adeptus Custodes</p>
+            </div>
+           </nuxt-link> 
+        </div>
+      </div>
+
+      <div class="button__container my-5 ">
+        <div class="army__card font-bebas">
            <nuxt-link to="/chaos/chaos-daemons"> 
             <div class="army__card_image">
               <img

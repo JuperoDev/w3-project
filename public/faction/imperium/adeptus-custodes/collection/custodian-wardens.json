@@ -1,0 +1,109 @@
+{
+  "parentUnit": "Custodian Wardens",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Veterans with centuries of service, Custodian Wardens are level-headed warriors who have sworn to fight as living fortresses no foe shall breach. With frightening intensity and wills of iron, these warriors cleave their foes in two with immense sweeps that are driven by their prodigious physical strength.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "custodian wardens"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 6,
+    "save": 2,
+    "wounds": 3,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Castellan axe",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Guardian spear",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Martial Ka’tah"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Resolute Will:",
+        "description": "While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll ."
+      },
+      {
+        "name": "Living Fortress:",
+        "description": "Once per battle, at the start of any phase, this unit can use this ability. If it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their guardian spear replaced with 1 castellan axe.",
+      "items": []
+    },
+    {
+      "description": "1 model can be equipped with 1 vexilla.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Castellan axe",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Castellan axe",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Guardian spear",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "parentUnit": "Shield-captain In Allarus Terminator Armour",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A Shield-Captain is already one of the most formidable combatants and superlative strategists in the Imperium. When clad in a nigh-on impenetrable suit of auramite Terminator armour, they become more powerful still – a walking fortress of Imperial might able to teleport directly into battle in a blaze of golden light.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "terminator",
+    "shield-captain"
+  ],
+  "attributes": [{
+    "movement": 5,
+    "toughness": 7,
+    "save": 2,
+    "wounds": 7,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Balistus grenade launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Castellan axe",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Guardian spear",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Martial Ka’tah"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Defiant to the Last:",
+        "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+      },
+      {
+        "name": "Strategic Mastery:",
+        "description": "Once per battle round , you can select one model from your army with this ability and target that model’s unit with a Stratagem for 0CP, even if that Stratagem has already been used on another unit from your army this phase."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s guardian spear can be replaced with 1 castellan axe.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Balistus grenade launcher",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Castellan axe",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Castellan axe",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Guardian spear",
+      "modifiers": "",
+      "attacks": "7",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

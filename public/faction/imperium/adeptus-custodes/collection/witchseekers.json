@@ -1,0 +1,70 @@
+{
+  "parentUnit": "Witchseekers",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Witchseekers wield sanctified flamers as they hunt witches through tangled corridors and muddy trenchworks alike. Closing with their heretical quarry, they unleash a roaring conflagration to immolate the foe, as well as any pyre.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "anathema psykana",
+    "witchseekers"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 3,
+    "save": 3,
+    "wounds": 1,
+    "leadership": 6,
+    "objetiveControl": 1,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Witchseeker flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Scouts 6\""
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "Witchseeker flamer; close combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

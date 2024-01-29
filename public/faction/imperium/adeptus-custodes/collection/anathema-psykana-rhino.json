@@ -1,0 +1,99 @@
+{
+  "parentUnit": "Anathema Psykana Rhino",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Rhinos of the Silent Sisterhood are more than just armoured personnel carriers. Many have served the Imperium for hundreds, if not thousands of years. Highly rugged vehicles, their spacious capacity and powerful engines help them to safely carry their deadly cargo of Sisters into the fiercest of battles.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "dedicated transport",
+    "smoke",
+    "imperium",
+    "anathema psykana",
+    "rhino"
+  ],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 9,
+    "save": 3,
+    "wounds": 10,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Firing Deck 2"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Daughters of the Abyss:",
+        "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks ."
+      },
+      {
+        "name": "Self Repair:",
+        "description": "At the start of your Command phase , this model regains 1 lost wound."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

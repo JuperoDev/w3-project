@@ -1,0 +1,82 @@
+{
+  "parentUnit": "Trajann Valoris",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": true,
+  "lore": "Trajann Valoris’ warrior prowess approaches that of the Primarchs of old. With the Watcher’s Axe he can bisect the sarcophagus of a Chaos Helbrute in a single swing, or use its built-in bolt weapon – known as Eagle’s Scream – to cut down enemy infantry with salvoes of adamantine-tipped penetrator bolts.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "imperium",
+    "trajann valoris"
+  ],
+  "attributes":[ {
+    "movement": 6,
+    "toughness": 6,
+    "save": 2,
+    "wounds": 7,
+    "leadership": 5,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Watcher’s Axe",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Feel No Pain 5+",
+      "Leader"
+    ],
+    "faction": [
+      "Martial Ka’tah"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Captain-General:",
+        "description": "While this model is leading a unit, you can ignore any or all modifiers to the characteristics of models in that unit and/or to any roll or test made for models in that unit (excluding modifiers to saving throws )."
+      },
+      {
+        "name": "Moment Shackle:",
+        "description": "Once per battle, at the start of the Fight phase"
+      },
+      {
+        "name": ", you can select one of the following to take effect until the end of the phase:",
+        "description": "This model’s Watcher’s Axe melee weapon has an Attacks characteristic of 12. This model has a 2+ invulnerable save . Models in this model’s unit have the Fights First ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Watcher’s Axe",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 10,
+      "armor-penetration": 2,
+      "damage": "3"
+    }
+  ]
+}

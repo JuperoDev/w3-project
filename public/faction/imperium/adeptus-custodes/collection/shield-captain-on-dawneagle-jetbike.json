@@ -1,0 +1,87 @@
+{
+  "parentUnit": "Shield-captain On Dawneagle Jetbike",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "All Shield-Captains are decisive warriors who suffer no impediment to their mission. Those Shield-Captains swiftest in thought and action soar into battle on Dawneagle jetbikes, plunging into the heart of the foe. Though these warriors appear arrogant, this is far from true – their self-assuredness is matched entirely by their skill.",
+  "keywords": [
+    "mounted",
+    "character",
+    "fly",
+    "imperium",
+    "dawneagle jetbike",
+    "shield-captain"
+  ],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 6,
+    "save": 2,
+    "wounds": 7,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Vertus hurricane bolter",
+      "modifiers": [
+        "rapid fire 3",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Martial Ka’tah"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Sweeping Advance:",
+        "description": "While this model is leading a unit, each time that unit Consolidates , each model in that unit can move up to 6\" instead of up to 3\". In addition, once per battle, at the end of the Fight phase , if this model’s unit is within Engagement Range of one or more enemy units, it can Fall Back as if it were your Movement phase or, if it is not within Engagement Range of one or more enemy units, it can make a Normal move as if it were your Movement phase."
+      },
+      {
+        "name": "Strategic Mastery:",
+        "description": "Once per battle round , you can select one model from your army with this ability and target that model’s unit with a Stratagem for 0CP, even if that Stratagem has already been used on another unit from your army this phase."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s salvo launcher can be replaced with 1 Vertus hurricane bolter.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Vertus hurricane bolter",
+      "modifiers": "rapidfire3,twin-linked",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Interceptor lance",
+      "modifiers": "lance",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

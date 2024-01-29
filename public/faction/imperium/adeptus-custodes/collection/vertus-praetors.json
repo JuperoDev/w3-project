@@ -1,0 +1,79 @@
+{
+  "parentUnit": "Vertus Praetors",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Veteran warriors who have seen battle on a hundred worlds, these Custodians know that the value of speed is in directing their might precisely where and when it is needed most. Master combatants and marksmen both, they can place piercing strikes and deadly salvoes with precision even when travelling at immense speeds.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "imperium",
+    "vertus praetors"
+  ],
+  "attributes":[ {
+    "movement": 12,
+    "toughness": 6,
+    "save": 2,
+    "wounds": 4,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Vertus hurricane bolter",
+      "modifiers": [
+        "rapid fire 3",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Martial Ka’tah"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every model is equipped with:",
+        "description": "salvo launcher; interceptor lance."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their salvo launcher replaced with 1 Vertus hurricane bolter.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Salvo launcher",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "3"
+    },
+    {
+      "name": "Interceptor lance",
+      "modifiers": "lance",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

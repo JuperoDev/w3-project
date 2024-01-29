@@ -1,0 +1,51 @@
+{
+  "parentUnit": "Vigilators",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The surest way to bring an end to a witch’s malefic rampage is to strike their head from their body. Such is the doctrine of the Vigilators, who ghost across the battlefield before charging headlong into battle, their double-handed power blades singing a keening song of death.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "anathema psykana",
+    "vigilators"
+  ],
+  "attributes":[ {
+    "movement": 6,
+    "toughness": 3,
+    "save": 3,
+    "wounds": 1,
+    "leadership": 6,
+    "objetiveControl": 1,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [],
+  "abilities": {
+    "core": [
+      "Daughters of the Abyss: Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks.Deft Parry: Each time a melee attack targets this unit",
+      "subtract 1 from the Hit roll."
+    ],
+    "faction": [],
+    "otherAbilities": []
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Executioner greatblade",
+      "modifiers": "anti-psyker4+,devastatingwounds",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

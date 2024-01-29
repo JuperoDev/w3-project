@@ -1,0 +1,66 @@
+{
+  "parentUnit": "Prosecutors",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Protected from the malevolence of witches by their rare anti-psychic mutation, and shielded from the bullets and blades of the foe by their finely crafted power armour, Prosecutors advance unflinching into the heart of battle. Their bolters thunder ceaselessly, each explosive shell ending another heretic life.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "imperium",
+    "anathema psykana",
+    "prosecutors"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 3,
+    "save": 3,
+    "wounds": 1,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Boltgun",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Daughters of the Abyss: Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks.Purity of Execution: Each time a model in this unit makes a ranged attack that targets a PSYKER unit",
+      "that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+    ],
+    "faction": [],
+    "otherAbilities": []
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

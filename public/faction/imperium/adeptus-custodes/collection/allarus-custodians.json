@@ -1,0 +1,141 @@
+{
+  "parentUnit": "Allarus Custodians",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Even amongst the Adeptus Custodes, Allarus Custodians are renowned for their deeds. Teleporting into the most dangerous enemy strongholds, they rely upon the indomitable resilience of their Terminator plate to protect them as they hunt down demagogues and generals. Fighting as individual heroes, they swiftly tear the heart from their foe’s defence.",
+  "keywords": [
+    "infantry",
+    "terminator",
+    "imperium",
+    "allarus custodians"
+  ],
+  "attributes": [{
+    "movement": 5,
+    "toughness": 7,
+    "save": 2,
+    "wounds": 4,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Balistus grenade launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Castellan axe",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Guardian spear",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Martial Ka’tah"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Slayers of Tyrants:",
+        "description": "Each time a model in this unit makes an attack that targets a CHARACTER , MONSTER or VEHICLE unit, you can re-roll the Wound roll ."
+      },
+      {
+        "name": "From Golden Light:",
+        "description": "Once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase , set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their guardian spear replaced with 1 castellan axe.",
+      "items": []
+    },
+    {
+      "description": "1 model’s guardian spear can be replaced with 1 vexilla and 1 misericordia.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Balistus grenade launcher",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Castellan axe",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Castellan axe",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Guardian spear",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Misericordia",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

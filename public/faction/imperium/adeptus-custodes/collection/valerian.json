@@ -1,0 +1,78 @@
+{
+  "parentUnit": "Valerian",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A headstrong warrior, Valerian is relatively new to the Custodes, but is already marked for greatness. His urge to bring death to the foes of the Emperor beyond Terra is much valued in these dark times, and countless enemies have fallen to his guardian spear, Gnosis.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "imperium",
+    "shield-captain",
+    "valerian"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 6,
+    "save": 2,
+    "wounds": 6,
+    "leadership": 6,
+    "objetiveControl": 2,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Gnosis",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 6+",
+      "Leader"
+    ],
+    "faction": [
+      "Martial Ka’tah"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Golden Laurels:",
+        "description": "While this model is leading a unit, each time a melee attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "Hero of Lion’s Gate:",
+        "description": "Once per battle round , you can re-roll one Hit roll , one Wound roll or one saving throw made for this model. In addition, once per battle, after making a Hit roll, Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Gnosis",
+      "modifiers": "",
+      "attacks": "7",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "2"
+    }
+  ]
+}

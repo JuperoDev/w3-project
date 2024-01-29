@@ -1,0 +1,106 @@
+{
+  "parentUnit": "Knight-centura",
+  "factionKeywords": [
+    "adeptus custodes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Knight-Centuras are the leaders of Sisters of Silence cadres and the guardians of their traditions. They have earned the respect of their Sisters through years of service, impeccable fighting skills, immense power as Nulls and encyclopaedic knowledge of the witch and the sorcerer.",
+  "keywords": [
+    "infantry",
+    "character",
+    "imperium",
+    "anathema psykana",
+    "knight-centura"
+  ],
+  "attributes":[ {
+    "movement": 6,
+    "toughness": 3,
+    "save": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objetiveControl": 1,
+    "invulnerableSave": 5
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Master-crafted boltgun",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Witchseeker flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader",
+      "Scouts 6\""
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "executioner greatblade."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s executioner greatblade can be replaced with one of the following",
+      "items": [
+        "1 master-crafted boltgun and 1 close combat weapon",
+        "1 Witchseeker flamer and 1 close combat weapon"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Master-crafted boltgun",
+      "modifiers": "rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Executioner greatblade",
+      "modifiers": "anti-psyker4+,devastatingwounds",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

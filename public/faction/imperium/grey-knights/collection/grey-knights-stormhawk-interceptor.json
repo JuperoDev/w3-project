@@ -1,0 +1,178 @@
+{
+  "parentUnit": "Grey Knights Stormhawk Interceptor",
+  "factionKeywords": [
+    "grey knights"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Squadrons of Stormhawk Interceptors – such as the Andaemus Flight – operate at lightning-fast speeds even through warptortured skies. Designed to achieve aerial supremacy at high altitudes, the psychic pilots of these aircraft duel not with blades but with batteries of missiles and rapid-firing cannons.",
+  "keywords": [
+    "vehicle",
+    "aircraft",
+    "fly",
+    "smoke",
+    "imperium",
+    "stormhawk interceptor"
+  ],
+  "attributes": [{
+    "movement": 0,
+    "toughness": 0,
+    "salvation": 0,
+    "wounds": 0,
+    "leadership": 0,
+    "objectiveControl": 0,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Icarus stormcannon",
+      "modifiers": [
+        "anti-fly 2+"
+      ],
+      "range": 48,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Skyhammer missile launcher",
+      "modifiers": [
+        "anti-fly 2+"
+      ],
+      "range": 48,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin assault cannon",
+      "modifiers": [
+        "devastating wounds",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Typhoon missile launcher - frag",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Hover"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "las-talon; skyhammer missile launcher; twin assault cannon; armoured hull."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s las-talon can be replaced with 1 icarus stormcannon.",
+      "items": []
+    },
+    {
+      "description": "This model’s skyhammer missile launcher can be replaced with one of the following",
+      "items": [
+        "1 twin heavy bolter",
+        "1 typhoon missile launcher"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Icarus stormcannon",
+      "modifiers": "anti-fly2+",
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Las-talon",
+      "modifiers": [ ],
+      "attacks": 2,
+      "weapons-skills": 3,
+      "strength": 10,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Skyhammer missile launcher",
+      "modifiers": "anti-fly2+",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Twin assault cannon",
+      "modifiers": "devastating wounds,twin-linked",
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Twin heavy bolter",
+      "modifiers": "sustainedhits1,twin-linked",
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Armoured hull",
+      "modifiers": [ ],
+      "attacks": 3,
+      "weapons-skills": 4,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "parentUnit": "Strike Squad",
+  "factionKeywords": [
+    "grey knights"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Strike Squads often form a vanguard, striking swiftly and slipping through gaps in daemonic lines to seal warp portals or prevent summoners escaping. Frequently attacking from fixed teleportariums or rapid transports, they conduct vital reconnaissance, disrupt flanks and blunt incursions with surgical strikes.",
+  "keywords": [
+    "infantry",
+    "battleline",
+    "psyker",
+    "grenades",
+    "imperium",
+    "strike squad"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 2,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Incinerator",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Psilencer",
+      "modifiers": [
+        "psychic",
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Psycannon",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Scouts 6\""
+    ],
+    "faction": [
+      "Teleport Assault"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Sanctifying Ritual (Psychic):",
+        "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "For every 5 models in this unit, 1 Grey Knight’s storm bolter and Nemesis force weapon can be replaced with one of the following",
+      "items": [
+        "1 incinerator and 1 close combat weapon",
+        "1 psilencer and 1 close combat weapon",
+        "1 psycannon and 1 close combat weapon"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Incinerator",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 1
+    },
+    {
+      "name": "Psilencer",
+      "modifiers": "psychic,sustainedhits1",
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Psycannon",
+      "modifiers": ["psychic"],
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": [ ],
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Nemesis force weapon",
+      "modifiers": ["psychic"],
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": 2
+    }
+  ]
+}

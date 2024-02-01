@@ -1,0 +1,238 @@
+{
+  "parentUnit": "Grey Knights Venerable Dreadnought",
+  "factionKeywords": [
+    "grey knights"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Venerable Dreadnoughts house truly ancient champions whose revered belligerence endures war after war. Their strategic acumen and wisdom of ancient horrors banished in past battles is respectfully sought, but they still take to the battlefield with a stoic resolve, and to fight alongside these living legends is a high honour.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "psyker",
+    "smoke",
+    "imperium",
+    "venerable dreadnought"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 9,
+    "salvation": 2,
+    "wounds": 8,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Assault cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy plasma cannon - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy plasma cannon - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Missile launcher - frag",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin lascannon",
+      "modifiers": [
+        "twin-linked"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise 1"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "This model is equipped with:",
+        "description": "assault cannon; storm bolter; Dreadnought combat weapon."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s assault cannon can be replaced with one of the following",
+      "items": [
+        "1 heavy plasma cannon",
+        "1 multi-melta",
+        "1 twin lascannon"
+      ]
+    },
+    {
+      "description": "This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following",
+      "items": [
+        "1 missile launcher and 1 armoured feet",
+        "1 heavy flamer and 1 Dreadnought combat weapon"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Assault cannon",
+      "modifiers": "devastating wounds",
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 1
+    },
+    {
+      "name": "Heavy plasma cannon – standard",
+      "modifiers": "blast",
+      "attacks": "D3",
+      "weapons-skills": 3,
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": 2
+    },
+    {
+      "name": "Missile launcher – frag",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": "melta2",
+      "attacks": 2,
+      "weapons-skills": 3,
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": "rapid fire 2",
+      "attacks": 2,
+      "weapons-skills": 2,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Armoured feet",
+      "modifiers": [ ],
+      "attacks": 5,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Dreadnought combat weapon",
+      "modifiers": [ ],
+      "attacks": 5,
+      "weapons-skills": 3,
+      "strength": 12,
+      "armor-penetration": 2,
+      "damage": 3
+    }
+  ]
+}

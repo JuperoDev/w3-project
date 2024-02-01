@@ -1,0 +1,98 @@
+{
+  "parentUnit": "Grey Knights Rhino",
+  "factionKeywords": [
+    "grey knights"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The Rhino is an ancient design of transport that has supported Space Marines for millennia. Its rugged and reliable systems are vital for surviving the mutating landscapes of daemon worlds the Grey Knights sometimes fight across, while the warriors inside are shielded by thick armour and a warded truesilver mesh.",
+  "keywords": [
+    "vehicle",
+    "transport",
+    "dedicated transport",
+    "smoke",
+    "imperium",
+    "rhino"
+  ],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 9,
+    "salvation": 3,
+    "wounds": 10,
+    "leadership": 6,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Firing Deck 2"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Self Repair:",
+        "description": "At the start of your Command phase , this model regains 1 lost wound."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 additional storm bolter.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": 1,
+      "weapons-skills": 2,
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": [ ],
+      "attacks": 3,
+      "weapons-skills": 4,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1
+    }
+  ]
+}

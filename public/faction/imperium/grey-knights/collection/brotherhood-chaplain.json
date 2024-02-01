@@ -1,0 +1,78 @@
+{
+  "parentUnit": "Brotherhood Chaplain",
+  "factionKeywords": [
+    "grey knights"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Chaplains intone psychic litanies of sanctity and contempt, speaking the Emperor’s word to their brethren in stentorian tones. They are symbols of brutal mortality and unquestioning zeal. In battle, they lay about the foe with blows from their crozius arcanum and with impassioned canticles ward their brothers’ souls.",
+  "keywords": [
+    "infantry",
+    "character",
+    "psyker",
+    "terminator",
+    "imperium",
+    "brotherhood chaplain"
+  ],
+  "attributes": [{
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 2,
+    "wounds": 5,
+    "leadership": 5,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "Teleport Assault"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Words of Power (Psychic):",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+      },
+      {
+        "name": "Dread Bearing (Aura):",
+        "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test , subtract 1 from that test."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Crozius arcanum",
+      "modifiers": [ ],
+      "attacks": 5,
+      "weapons-skills": 2,
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 2
+    }
+  ]
+}

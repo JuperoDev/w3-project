@@ -1,0 +1,157 @@
+{
+  "parentUnit": "Grand Master In Nemesis Dreadknight",
+  "factionKeywords": [
+    "grey knights"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "When they deploy to battle clad in the raiment of a Nemesis Dreadknight, Grand Masters are capable of duelling the greatest daemon lords on an equal footing. Thus girded, their psychic prowess and tactical acumen are wielded alongside the exceptional physical might of a towering and warded Dreadknight suit.",
+  "keywords": [
+    "vehicle",
+    "character",
+    "walker",
+    "psyker",
+    "imperium",
+    "grand master in nemesis dreadknight"
+  ],
+  "attributes": [{
+    "movement": 8,
+    "toughness": 8,
+    "salvation": 2,
+    "wounds": 13,
+    "leadership": 6,
+    "objectiveControl": 4,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Gatling psilencer",
+      "modifiers": [
+        "psychic",
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy incinerator",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy psycannon",
+      "modifiers": [
+        "ignores cover",
+        "psychic"
+      ],
+      "range": 24,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Deep Strike"
+    ],
+    "faction": [
+      "Teleport Assault"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Heroism’s Favour:",
+        "description": "Each time you target this model with a Stratagem , it only costs 1CP to use, even if the CP cost is higher."
+      },
+      {
+        "name": "Surge of Wrath (Psychic):",
+        "description": "Once per battle round, in the Fight phase , one model from your army with this ability can use it before resolving its attacks. If it does, until the end of the phase, each time that model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll , you can re-roll the Wound roll and you can re-roll the Damage roll."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with up to two of the following, but cannot take duplicates",
+      "items": [
+        "1 gatling psilencer",
+        "1 heavy incinerator",
+        "1 heavy psycannon"
+      ]
+    },
+    {
+      "description": "This model’s dreadfists can be replaced with one of the following",
+      "items": [
+        "1 Nemesis daemon greathammer",
+        "1 Nemesis greatsword"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Gatling psilencer",
+      "modifiers": "psychic,sustainedhits1",
+      "attacks": 12,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Heavy incinerator",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "2D6",
+      "weapons-skills": "N/A",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 1
+    },
+    {
+      "name": "Dreadfists",
+      "modifiers": [ ],
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": 1
+    },
+    {
+      "name": "Nemesis daemon greathammer",
+      "modifiers": ["psychic"],
+      "attacks": 5,
+      "weapons-skills": 3,
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Nemesis greatsword – sweep",
+      "modifiers": ["psychic"],
+      "attacks": 10,
+      "weapons-skills": 2,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 1
+    }
+  ]
+}

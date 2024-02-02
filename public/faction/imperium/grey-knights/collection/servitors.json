@@ -30,10 +30,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 3,
+      "ballistic-skills": 4,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -45,9 +45,9 @@
       "range": 18,
       "strength": 9,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "ballistic-skills": 4,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     },
     {
@@ -58,11 +58,11 @@
       ],
       "range": 36,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": "d3",
+      "ballistic-skills": 4,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma cannon - supercharge",
@@ -73,21 +73,24 @@
       ],
       "range": 36,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "attacks": "d3",
+      "ballistic-skills": 4,
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     }
   ],
   "abilities": {
     "core": [
-      "Mindlock: While a BROTHERHOOD TECHMARINE model is leading this unit",
-      "improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1.Retinue: While a BROTHERHOOD TECHMARINE model is leading this unit",
-      "models in this unit have the Deep Strike and Teleport Assault abilities."
+     
     ],
     "faction": [],
-    "otherAbilities": []
+    "otherAbilities": [{
+
+    },
+  {
+    
+  }]
   },
   "wargear": [
     {
@@ -100,24 +103,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Heavy bolter",
-      "modifiers": "heavy,sustainedhits1",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": "heavy,melta2",
-      "attacks": 2,
-      "weapons-skills": 4,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
+   
     {
       "name": "Servitor’s servo-arm",
       "modifiers": [ ],

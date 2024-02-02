@@ -34,8 +34,8 @@
       ],
       "range": 12,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": "d6",
+      "ballistic-skills": "n/a",
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -48,10 +48,10 @@
       ],
       "range": 24,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 6,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -61,13 +61,13 @@
       ],
       "range": 24,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
-    {
+     {
       "name": "Storm bolter",
       "modifiers": [
         "rapid fire 2"
@@ -75,8 +75,8 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -111,33 +111,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Incinerator",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Psilencer",
-      "modifiers": "psychic,sustainedhits1",
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Psycannon",
-      "modifiers": ["psychic"],
-      "attacks": 3,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2
-    },
+    
     {
       "name": "Nemesis force weapon",
       "modifiers": ["psychic"],

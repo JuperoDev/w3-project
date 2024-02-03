@@ -123,5 +123,34 @@
       "armor-penetration": 2,
       "damage": 2
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Purgator Justicar",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment":["storm bolter","Nemesis force weapon"]
+    },
+    {
+      "unitType": "Purgators",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment":["storm bolter","Nemesis force weapon"]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,4
+      ],
+      "points": 135
+    },
+    {
+      "count": [
+        1,9
+      ],
+      "points": 270
+    }
+  ],
+  "additionalParameter": {}
 }

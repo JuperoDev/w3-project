@@ -137,5 +137,28 @@
       "armor-penetration": 2,
       "damage": 2
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Justicar",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment":["storm bolter","Nemesis force weapon"]
+    },
+    {
+      "unitType": "Grey Knights",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment":["storm bolter","Nemesis force weapon."]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1
+      ],
+      "points": 75
+    }
+  ],
+  "additionalParameter": {}
 }

@@ -123,5 +123,40 @@
       "armor-penetration": 2,
       "damage": 2
     }
-  ]
+  ],
+  "warGearAbilities": [
+    {
+      "wargear": "Ancient's Banner",
+      "ability": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    }
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Paragon",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment":["storm bolter","Nemesis force weapon"]
+    },
+    {
+      "unitType": "Paladins",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment":["storm bolter","Nemesis force weapon"]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,4
+      ],
+      "points": 225
+    },
+    {
+      "count": [
+        1,9
+      ],
+      "points": 450
+    }
+  ],
+  "additionalParameter": {}
 }

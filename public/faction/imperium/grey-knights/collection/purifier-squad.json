@@ -138,5 +138,34 @@
       "armor-penetration": 2,
       "damage": 2
     }
-  ]
+  ],
+  "unitComposition": [
+    {
+      "unitType": "Knight of the Flame",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment":["Purifying Flame","storm bolter","Nemesis force weapon"]
+    },
+    {
+      "unitType": "Purifiers",
+      "minQuantity": 4,
+      "maxQuantity": 9,
+      "equipment":["Purifying Flame","storm bolter","Nemesis force weapon"]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        1,4
+      ],
+      "points": 130
+    },
+    {
+      "count": [
+        1,9
+      ],
+      "points": 260
+    }
+  ],
+  "additionalParameter": {}
 }

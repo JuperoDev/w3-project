@@ -31,10 +31,10 @@
         "devastating wounds"
       ],
       "range": 24,
+      "attacks": 6,
+      "weapons-skills": 3,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -45,9 +45,9 @@
         "torrent"
       ],
       "range": 12,
+      "attacks": "D6",
+      "weapons-skills": "N/A",
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -58,12 +58,12 @@
         "blast"
       ],
       "range": 36,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 2,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Heavy plasma cannon - supercharge",
@@ -72,12 +72,12 @@
         "hazardous"
       ],
       "range": 36,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 3,
+      "singleChoice": true
     },
     {
       "name": "Missile launcher - frag",
@@ -86,11 +86,24 @@
       ],
       "range": 48,
       "strength": 4,
-      "attacks": 2,
+      "attacks": "d6",
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
+    },
+    {
+      "name": "Missile launcher - krak",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": "d6",
+      "singleChoice": true
     },
     {
       "name": "Multi-melta",
@@ -98,11 +111,11 @@
         "melta 2"
       ],
       "range": 18,
-      "strength": 9,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "weapons-skills": 3,
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6",
       "singleChoice": false
     },
      {
@@ -125,10 +138,10 @@
       ],
       "range": 48,
       "strength": 12,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     }
   ],
@@ -162,60 +175,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Assault cannon",
-      "modifiers": "devastating wounds",
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Heavy plasma cannon – standard",
-      "modifiers": "blast",
-      "attacks": "D3",
-      "weapons-skills": 3,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Missile launcher – frag",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": "melta2",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": "rapid fire 2",
-      "attacks": 2,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
+    
     {
       "name": "Armoured feet",
       "modifiers": [ ],

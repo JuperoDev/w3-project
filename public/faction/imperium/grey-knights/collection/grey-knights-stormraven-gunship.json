@@ -18,11 +18,11 @@
     "stormraven gunship"
   ],
   "attributes": [{
-    "movement": 0,
-    "toughness": 0,
-    "salvation": 0,
-    "wounds": 0,
-    "leadership": 0,
+    "movement": 20,
+    "toughness": 10,
+    "salvation": 3,
+    "wounds": 14,
+    "leadership": 6,
     "objectiveControl": 0,
     "invulnerableSave": 0
   }],
@@ -35,10 +35,10 @@
         "twin-linked"
       ],
       "range": 24,
+      "attacks": 6,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -50,11 +50,32 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 2,
+      "attacks": 6,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
+    },
+    {
+      "name": "Stormstrike missile launcher",
+      "modifiers": [ ],
+      "range":"48",
+      "attacks": 1,
+      "weapons-skills": 3,
+      "strength": 10,
+      "armor-penetration": 3,
+      "damage": "D6+2"
+    },
+    
+    {
+      "name": "Twin assault cannon",
+      "modifiers": ["devastating wounds","twin-linked"],
+      "range":24,
+      "attacks": 6,
+      "weapons-skills": 3,
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": 1
     },
     {
       "name": "Twin heavy bolter",
@@ -63,11 +84,11 @@
         "twin-linked"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -77,12 +98,12 @@
         "twin-linked"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 2,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Twin heavy plasma cannon - supercharge",
@@ -92,12 +113,12 @@
         "twin-linked"
       ],
       "range": 36,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "attacks": 1,
+      "weapons-skills": 3,
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1",
+      "singleChoice": true
     },
     {
       "name": "Twin lascannon",
@@ -106,10 +127,10 @@
       ],
       "range": 48,
       "strength": 12,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     },
     {
@@ -119,11 +140,11 @@
         "twin-linked"
       ],
       "range": 18,
-      "strength": 9,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "weapons-skills": 3,
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6",
       "singleChoice": false
     },
     {
@@ -133,10 +154,23 @@
       ],
       "range": 48,
       "strength": 4,
+      "attacks": "2d6",
+      "ballistic-skills": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Typhoon missile launcher - krak",
+      "modifiers": [
+        
+      ],
+      "range": 48,
+      "strength": 9,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 2,
+      "damage": "d6",
       "singleChoice": false
     }
   ],

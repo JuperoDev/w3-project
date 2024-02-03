@@ -36,10 +36,10 @@
       ],
       "range": 48,
       "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 3,
+      "damage": "d6",
       "singleChoice": false
     },
     {
@@ -50,9 +50,9 @@
       ],
       "range": 24,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 6,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -65,8 +65,8 @@
       "strength": 9,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     },
      {
@@ -77,7 +77,7 @@
       "range": 24,
       "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 2,
+      "ballistic-skills": 3,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
@@ -90,9 +90,9 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 2,
+      "attacks": 6,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -124,42 +124,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": "one shot",
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6"
-    },
-    {
-      "name": "Hurricane bolter",
-      "modifiers": "rapid fire 6,twin-linked",
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": "melta2",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": "rapid fire 2",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
+    
     {
       "name": "Armoured tracks",
       "modifiers": [ ],

@@ -112,7 +112,7 @@
   "meleeWeapons": [
     {
       "name": "Incinerator",
-      "modifiers": "ignorescover,torrent",
+      "modifiers": ["ignores cover", "torrent"],
       "attacks": "D6",
       "weapons-skills": "N/A",
       "strength": 6,
@@ -121,7 +121,7 @@
     },
     {
       "name": "Psilencer",
-      "modifiers": "psychic,sustainedhits1",
+      "modifiers": ["psychic","sustained hits 1"],
       "attacks": 6,
       "weapons-skills": 2,
       "strength": 5,

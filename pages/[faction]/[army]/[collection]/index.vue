@@ -51,15 +51,25 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <!-- <MobileRangedWeapons :rangedWeapons="rangedWeapons" /> -->
-            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+            <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
+            
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
       
       
       <!-- Melee weapons  -->
-      
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Melee Weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
 
       <v-expansion-panel>
         <v-expansion-panel-title>

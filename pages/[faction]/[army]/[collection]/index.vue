@@ -57,6 +57,17 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
       
+      <v-expansion-panel v-if="rangedWeapons && rangedWeapons.length > 0">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Ranged weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+           
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
       <!-- Melee weapons  -->
       <v-expansion-panel>
         <v-expansion-panel-title>

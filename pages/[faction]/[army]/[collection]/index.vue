@@ -51,23 +51,13 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
-            <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
+            <!-- <MobileRangedWeapons :rangedWeapons="rangedWeapons" /> -->
             <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
       
-      <v-expansion-panel v-if="rangedWeapons && rangedWeapons.length > 0">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Ranged weapons</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          <div>
-           
-            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
-          </div>
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+      
       <!-- Melee weapons  -->
       <v-expansion-panel>
         <v-expansion-panel-title>
@@ -92,6 +82,17 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Melee Weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+      
       <!-- Transport  -->
       <v-expansion-panel v-if="transport">
         <v-expansion-panel-title>

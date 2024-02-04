@@ -59,6 +59,7 @@
       
       
       <!-- Melee weapons  -->
+      <div class="hidden">
       <v-expansion-panel>
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Melee Weapons</div>
@@ -69,7 +70,7 @@
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
-
+    </div>
 
       <v-expansion-panel>
         <v-expansion-panel-title>
@@ -94,17 +95,7 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
-      <!-- Melee  -->
-      <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Melee Weapons</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          <div>
-            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
-          </div>
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+    
 
       <!-- Transport  -->
       <v-expansion-panel v-if="transport">

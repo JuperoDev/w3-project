@@ -30,10 +30,10 @@
         "twin-linked"
       ],
       "range": 24,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -43,11 +43,11 @@
         "blast"
       ],
       "range": 36,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 2,
+      "damage": "D3",
       "singleChoice": false
     },
     {
@@ -56,11 +56,11 @@
         "anti-vehicle 2+"
       ],
       "range": 24,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 3,
       "singleChoice": false
     },
     {
@@ -70,11 +70,11 @@
         "twin-linked"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -84,10 +84,10 @@
       ],
       "range": 48,
       "strength": 12,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     }
   ],
@@ -117,42 +117,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Centurion bolters",
-      "modifiers": "rapidfire3,twin-linked",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Centurion missile launcher",
-      "modifiers": ["blast"],
-      "attacks": "D3",
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": "D3"
-    },
-    {
-      "name": "Grav-cannon",
-      "modifiers": "anti-vehicle2+",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 3
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": ["sustained hits 1","twin-linked"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
+    
     {
       "name": "Centurion fists",
       "modifiers": [],

@@ -33,10 +33,10 @@
         "blast"
       ],
       "range": 18,
+      "attacks": "D6",
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -46,11 +46,11 @@
         "sustained hits 1"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -60,11 +60,11 @@
         "torrent"
       ],
       "range": 12,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 9,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 3,
       "singleChoice": false
     },
     {
@@ -74,9 +74,9 @@
       ],
       "range": 48,
       "strength": 9,
-      "attacks": 2,
+      "attacks": 3,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -117,42 +117,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Fragstorm grenade launcher",
-      "modifiers": ["blast"],
-      "attacks": "D6",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Heavy bolter",
-      "modifiers": ["sustained hits 1"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Incendium cannon",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6+3",
-      "weapons-skills": "N/A",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Twin ironhail autocannon",
-      "modifiers": ["twin-linked"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 1,
-      "damage": 3
-    },
+    
     {
       "name": "Invictor fist",
       "modifiers": [],

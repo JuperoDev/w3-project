@@ -32,11 +32,11 @@
         "anti-fly 2+"
       ],
       "range": 24,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -45,10 +45,10 @@
         "rapid fire 3"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -58,9 +58,9 @@
         "rapid fire 4"
       ],
       "range": 24,
+      "attacks": 4,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -73,9 +73,9 @@
       ],
       "range": 24,
       "strength": 6,
-      "attacks": 2,
+      "attacks": 12,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -105,33 +105,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Icarus rocket pod",
-      "modifiers": "anti-fly2+",
-      "attacks": "D3",
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Ironhail heavy stubber",
-      "modifiers": ["rapidfire 3"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Tempest bolter",
-      "modifiers": "rapidfire4",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
+   
     {
       "name": "Armoured hull",
       "modifiers": [],

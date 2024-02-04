@@ -30,9 +30,9 @@
         "pistol"
       ],
       "range": 12,
-      "strength": 4,
       "attacks": 1,
-      "ballistic-skills": 3,
+      "weapons-skills": 3,
+      "strength": 4,
       "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
@@ -44,10 +44,10 @@
         "indirect fire"
       ],
       "range": 36,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -58,10 +58,10 @@
         "heavy"
       ],
       "range": 48,
+      "attacks": "D6+1",
+      "weapons-skills": 4,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -71,11 +71,11 @@
         "heavy"
       ],
       "range": 48,
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 2,
+      "damage": "D6+1",
       "singleChoice": false
     },
     {
@@ -86,10 +86,10 @@
       ],
       "range": 48,
       "strength": 7,
-      "attacks": 2,
+      "attacks": "d6",
       "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     }
   ],

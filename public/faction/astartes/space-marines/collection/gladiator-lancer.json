@@ -32,10 +32,10 @@
         "blast"
       ],
       "range": 18,
+      "attacks": "D6",
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -45,11 +45,11 @@
         "anti-fly 2+"
       ],
       "range": 24,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -58,10 +58,10 @@
         "rapid fire 3"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -71,11 +71,11 @@
         "heavy"
       ],
       "range": 72,
-      "strength": 14,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "weapons-skills": 3,
+      "strength": 14,
+      "armor-penetration": 4,
+      "damage": "D6+3",
       "singleChoice": false
     },
     {
@@ -121,42 +121,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Fragstorm grenade launcher",
-      "modifiers": ["blast"],
-      "attacks": "D6",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Icarus rocket pod",
-      "modifiers": "anti-fly2+",
-      "attacks": "D3",
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Ironhail heavy stubber",
-      "modifiers": ["rapidfire 3"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Lancer laser destroyer",
-      "modifiers": "heavy",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 14,
-      "armor-penetration": 4,
-      "damage": "D6+3"
-    },
+    
     {
       "name": "Armoured hull",
       "modifiers": [],

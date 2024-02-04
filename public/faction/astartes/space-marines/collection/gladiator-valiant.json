@@ -32,11 +32,11 @@
         "anti-fly 2+"
       ],
       "range": 24,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -45,10 +45,10 @@
         "rapid fire 3"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -58,11 +58,11 @@
         "melta 2"
       ],
       "range": 18,
-      "strength": 9,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "weapons-skills": 3,
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6",
       "singleChoice": false
     },
     {
@@ -74,8 +74,8 @@
       "strength": 10,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "d6+1",
       "singleChoice": false
     }
   ],
@@ -104,33 +104,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Icarus rocket pod",
-      "modifiers": "anti-fly2+",
-      "attacks": "D3",
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Ironhail heavy stubber",
-      "modifiers": ["rapidfire 3"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": "melta2",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
+   
     {
       "name": "Armoured hull",
       "modifiers": [],

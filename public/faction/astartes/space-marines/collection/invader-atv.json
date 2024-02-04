@@ -42,11 +42,11 @@
         "melta 2"
       ],
       "range": 18,
-      "strength": 9,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "weapons-skills": 3,
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6",
       "singleChoice": false
     },
     {
@@ -55,10 +55,10 @@
         "devastating wounds"
       ],
       "range": 24,
+      "attacks": 8,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -95,33 +95,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": "pistol",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": "melta2",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
-    {
-      "name": "Onslaught gatling cannon",
-      "modifiers": ["devastating wounds"],
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
+    
     {
       "name": "Close combat weapon",
       "modifiers": [],

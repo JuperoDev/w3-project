@@ -30,9 +30,9 @@
         "pistol"
       ],
       "range": 18,
-      "strength": 4,
       "attacks": 1,
-      "ballistic-skills": 3,
+      "weapons-skills": 3,
+      "strength": 4,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -44,11 +44,11 @@
         "pistol"
       ],
       "range": 12,
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 0,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -101,24 +101,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Heavy bolt pistol",
-      "modifiers": "pistol",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Neo-volkite pistol",
-      "modifiers": "devastatingwounds,pistol",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 2
-    },
+    
     {
       "name": "Master-crafted power weapon",
       "modifiers": [],

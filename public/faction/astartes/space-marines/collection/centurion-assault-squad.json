@@ -30,10 +30,10 @@
         "twin-linked"
       ],
       "range": 24,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -45,10 +45,10 @@
         "twin-linked"
       ],
       "range": 12,
+      "attacks": "D6",
+      "weapons-skills": "N/A",
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -60,10 +60,10 @@
       ],
       "range": 12,
       "strength": 9,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "d6",
       "singleChoice": false
     }
   ],
@@ -90,24 +90,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Centurion bolters",
-      "modifiers": "rapidfire3,twin-linked",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Twin flamer",
-      "modifiers": "ignorescover,torrent,twin-linked",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
+    
     {
       "name": "Siege drills",
       "modifiers": ["twin-linked"],

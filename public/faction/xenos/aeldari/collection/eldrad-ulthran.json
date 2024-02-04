@@ -1,6 +1,6 @@
 {
   "parentUnit": "Eldrad Ulthran",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 7,
     "toughness": 4,
-    "save": 6,
+    "salvation": 6,
     "wounds": 5,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -65,7 +65,7 @@
     "otherAbilities": [
       {
         "name": "Diviner of Futures:",
-        "description": "At the start of the battle, when making your first Strands of Fate roll , roll an additional three D6 (this means that roll will consist of fifteen D6)."
+        "description": "At the start of the battle, when making your first Strands of Fate roll , roll an additional three D6 (this means that roll will consist of nine D6)."
       },
       {
         "name": "Doom (Psychic):",
@@ -74,7 +74,10 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
@@ -84,7 +87,7 @@
       "weapons-skills": "2+",
       "strength": 4,
       "armor-penetration": 1,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "The Staff of Ulthamar and witchblade",
@@ -93,7 +96,7 @@
       "weapons-skills": "2+",
       "strength": 5,
       "armor-penetration": 1,
-      "damage": 2
+      "damage": "2"
     }
   ]
 }

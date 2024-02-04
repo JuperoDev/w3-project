@@ -1,6 +1,6 @@
 {
   "parentUnit": "Dark Reapers",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -13,10 +13,10 @@
   "attributes": {
     "movement": 6,
     "toughness": 3,
-    "save": 3,
+    "salvation": 3,
     "wounds": 2,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 5
   },
   "leader": [],
@@ -142,7 +142,7 @@
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 2,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Shuriken cannon",
@@ -151,16 +151,16 @@
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 1,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Close combat weapon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "2",
       "weapons-skills": "3+",
       "strength": 3,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

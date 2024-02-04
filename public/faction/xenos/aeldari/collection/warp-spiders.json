@@ -1,6 +1,6 @@
 {
   "parentUnit": "Warp Spiders",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -15,10 +15,10 @@
   "attributes": {
     "movement": 12,
     "toughness": 3,
-    "save": 3,
+    "salvation": 3,
     "wounds": 1,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 5
   },
   "leader": [],
@@ -61,21 +61,21 @@
   "meleeWeapons": [
     {
       "name": "Close combat weapon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "2",
       "weapons-skills": "3+",
       "strength": 3,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Powerblades",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "3",
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 2,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

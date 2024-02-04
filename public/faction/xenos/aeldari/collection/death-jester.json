@@ -1,6 +1,6 @@
 {
   "parentUnit": "Death Jester",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -15,10 +15,10 @@
   "attributes": {
     "movement": 8,
     "toughness": 3,
-    "save": 6,
+    "salvation": 6,
     "wounds": 4,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -60,17 +60,20 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
       "name": "Jester’s blade",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "4",
       "weapons-skills": "2+",
       "strength": 4,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

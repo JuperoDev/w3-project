@@ -1,6 +1,6 @@
 {
   "parentUnit": "Autarch Skyrunner",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 14,
     "toughness": 4,
-    "save": 3,
+    "salvation": 3,
     "wounds": 5,
     "leadership": 6,
-    "objetiveControl": 2,
+    "objectiveControl": 2,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -110,7 +110,7 @@
       "weapons-skills": "2+",
       "strength": 6,
       "armor-penetration": 3,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Laser lance",
@@ -119,16 +119,16 @@
       "weapons-skills": "2+",
       "strength": 4,
       "armor-penetration": 3,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Banshee blade",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "5",
       "weapons-skills": "2+",
       "strength": 4,
       "armor-penetration": 3,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

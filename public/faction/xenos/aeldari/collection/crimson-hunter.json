@@ -1,6 +1,6 @@
 {
   "parentUnit": "Crimson Hunter",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {
@@ -18,10 +18,10 @@
   "attributes": {
     "movement": 0,
     "toughness": 0,
-    "save": 0,
+    "salvation": 0,
     "wounds": 0,
     "leadership": 0,
-    "objetiveControl": 0,
+    "objectiveControl": 0,
     "invulnerableSave": 5
   },
   "leader": [],
@@ -47,7 +47,7 @@
   "meleeWeapons": [
     {
       "name": "Bright lance",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "1",
       "weapons-skills": "3+",
       "strength": 12,
@@ -56,7 +56,7 @@
     },
     {
       "name": "Pulse laser",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "3",
       "weapons-skills": "3+",
       "strength": 9,
@@ -65,12 +65,12 @@
     },
     {
       "name": "Wraithbone hull",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "3",
       "weapons-skills": "4+",
       "strength": 6,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

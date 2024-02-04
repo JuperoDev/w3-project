@@ -1,6 +1,6 @@
 {
   "parentUnit": "Vyper",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -14,10 +14,10 @@
   "attributes": {
     "movement": 14,
     "toughness": 6,
-    "save": 3,
+    "salvation": 3,
     "wounds": 6,
     "leadership": 6,
-    "objetiveControl": 2,
+    "objectiveControl": 2,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -91,7 +91,7 @@
   "meleeWeapons": [
     {
       "name": "Aeldari missile launcher – starshot",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "1",
       "weapons-skills": "3+",
       "strength": 10,
@@ -100,7 +100,7 @@
     },
     {
       "name": "Bright lance",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "1",
       "weapons-skills": "3+",
       "strength": 12,
@@ -109,21 +109,21 @@
     },
     {
       "name": "Scatter laser",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "6",
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Starcannon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "2",
       "weapons-skills": "3+",
       "strength": 8,
       "armor-penetration": 3,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Shuriken cannon",
@@ -132,16 +132,16 @@
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 1,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Wraithbone hull",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "3",
       "weapons-skills": "4+",
       "strength": 6,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

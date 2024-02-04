@@ -1,6 +1,6 @@
 {
   "parentUnit": "Starweaver",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -18,10 +18,10 @@
   "attributes": {
     "movement": 14,
     "toughness": 6,
-    "save": 4,
+    "salvation": 4,
     "wounds": 6,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -56,17 +56,20 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
       "name": "Close combat weapon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "4",
       "weapons-skills": "3+",
       "strength": 3,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

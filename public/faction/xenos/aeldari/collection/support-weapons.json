@@ -1,6 +1,6 @@
 {
   "parentUnit": "Support Weapons",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -13,10 +13,10 @@
   "attributes": {
     "movement": 3,
     "toughness": 6,
-    "save": 4,
+    "salvation": 4,
     "wounds": 5,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -118,7 +118,7 @@
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Shuriken catapult",
@@ -127,16 +127,16 @@
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Close combat weapon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "2",
       "weapons-skills": "3+",
       "strength": 3,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

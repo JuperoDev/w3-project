@@ -1,6 +1,6 @@
 {
   "parentUnit": "Shroud Runners",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -14,10 +14,10 @@
   "attributes": {
     "movement": 14,
     "toughness": 4,
-    "save": 4,
+    "salvation": 4,
     "wounds": 3,
     "leadership": 6,
-    "objetiveControl": 2,
+    "objectiveControl": 2,
     "invulnerableSave": 5
   },
   "leader": [],
@@ -66,7 +66,10 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
@@ -76,25 +79,25 @@
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Scatter laser",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "6",
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Close combat weapon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "1",
       "weapons-skills": "3+",
       "strength": 3,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

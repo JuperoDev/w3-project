@@ -1,6 +1,6 @@
 {
   "parentUnit": "Storm Guardians",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 7,
     "toughness": 3,
-    "save": 4,
+    "salvation": 4,
     "wounds": 1,
     "leadership": 6,
-    "objetiveControl": 2,
+    "objectiveControl": 2,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -82,15 +82,15 @@
   },
   "wargear": [
     {
-      "description": "Up to 2 Storm Guardians can each have their Guardian combat weapon replaced with 1 Aeldari power sword.",
-      "items": []
-    },
-    {
       "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 Aeldari flamer.",
       "items": []
     },
     {
       "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 Guardian fusion gun.",
+      "items": []
+    },
+    {
+      "description": "Up to 2 Storm Guardians can each have their Guardian combat weapon replaced with 1 Aeldari power sword.",
       "items": []
     }
   ],
@@ -102,7 +102,7 @@
       "weapons-skills": "N/A",
       "strength": 4,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Guardian fusion gun",
@@ -115,21 +115,21 @@
     },
     {
       "name": "Aeldari power sword",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "2",
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 2,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Guardian combat weapon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "2",
       "weapons-skills": "3+",
       "strength": 3,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Avatar Of Khaine",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {
@@ -19,10 +19,10 @@
   "attributes": {
     "movement": 10,
     "toughness": 12,
-    "save": 2,
+    "salvation": 2,
     "wounds": 14,
     "leadership": 6,
-    "objetiveControl": 5,
+    "objectiveControl": 5,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -60,12 +60,15 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
       "name": "The Wailing Doom – strike",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "6",
       "weapons-skills": "2+",
       "strength": 14,

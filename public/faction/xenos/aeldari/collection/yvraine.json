@@ -1,6 +1,6 @@
 {
   "parentUnit": "Yvraine",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -17,10 +17,10 @@
   "attributes": {
     "movement": 8,
     "toughness": 3,
-    "save": 6,
+    "salvation": 6,
     "wounds": 4,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -61,7 +61,10 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
@@ -71,7 +74,7 @@
       "weapons-skills": "2+",
       "strength": 4,
       "armor-penetration": 3,
-      "damage": 2
+      "damage": "2"
     }
   ]
 }

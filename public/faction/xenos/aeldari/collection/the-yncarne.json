@@ -1,6 +1,6 @@
 {
   "parentUnit": "The Yncarne",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -19,10 +19,10 @@
   "attributes": {
     "movement": 10,
     "toughness": 10,
-    "save": 2,
+    "salvation": 2,
     "wounds": 12,
     "leadership": 6,
-    "objetiveControl": 3,
+    "objectiveControl": 3,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -53,7 +53,7 @@
     "otherAbilities": [
       {
         "name": "Inevitable Death:",
-        "description": "Once per phase, if this model is on the battlefield, when another unit is destroyed , just after removing the last model in that unit, you can remove this model from the battlefield and set it up again as close as possible to where that destroyed model was and not within Engagement Range of any enemy models."
+        "description": "Once in each of your turns, if this model is on the battlefield, when another unit is destroyed , just after removing the last model in that unit, you can remove this model from the battlefield and set it up again as close as possible to where that destroyed model was and not within Engagement Range of any enemy models."
       },
       {
         "name": "Deathly Form:",
@@ -62,12 +62,15 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
       "name": "Vilith-zhar, the Sword of Souls – strike",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "5",
       "weapons-skills": "2+",
       "strength": 12,

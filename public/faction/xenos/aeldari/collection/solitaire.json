@@ -1,6 +1,6 @@
 {
   "parentUnit": "Solitaire",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 12,
     "toughness": 3,
-    "save": 6,
+    "salvation": 6,
     "wounds": 3,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 3
   },
   "leader": [],
@@ -44,7 +44,10 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
@@ -54,7 +57,7 @@
       "weapons-skills": "2+",
       "strength": 6,
       "armor-penetration": 2,
-      "damage": 2
+      "damage": "2"
     }
   ]
 }

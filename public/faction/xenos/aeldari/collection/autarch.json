@@ -1,6 +1,6 @@
 {
   "parentUnit": "Autarch",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -15,10 +15,10 @@
   "attributes": {
     "movement": 7,
     "toughness": 3,
-    "save": 3,
+    "salvation": 3,
     "wounds": 4,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -127,13 +127,6 @@
   },
   "wargear": [
     {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 Howling Banshee mask",
-        "1 mandiblasters"
-      ]
-    },
-    {
       "description": "This model’s shuriken pistol can be replaced with one of the following",
       "items": [
         "1 death spinner",
@@ -148,6 +141,13 @@
         "1 Banshee blade",
         "1 Scorpion chainsword"
       ]
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 Howling Banshee mask",
+        "1 mandiblasters"
+      ]
     }
   ],
   "meleeWeapons": [
@@ -158,7 +158,7 @@
       "weapons-skills": "N/A",
       "strength": 4,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Dragon fusion gun",
@@ -185,16 +185,16 @@
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 1,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Banshee blade",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "5",
       "weapons-skills": "2+",
       "strength": 4,
       "armor-penetration": 3,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Scorpion chainsword",
@@ -203,16 +203,16 @@
       "weapons-skills": "2+",
       "strength": 5,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Star glaive",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "5",
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 2,
-      "damage": 2
+      "damage": "2"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Jain Zar",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 8,
     "toughness": 3,
-    "save": 2,
+    "salvation": 2,
     "wounds": 5,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -58,17 +58,20 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
       "name": "The Blade of Destruction – strike",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "6",
       "weapons-skills": "2+",
       "strength": 6,
       "armor-penetration": 3,
-      "damage": 2
+      "damage": "2"
     }
   ]
 }

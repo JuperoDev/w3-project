@@ -1,6 +1,6 @@
 {
   "parentUnit": "The Visarch",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 8,
     "toughness": 3,
-    "save": 2,
+    "salvation": 2,
     "wounds": 5,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -47,7 +47,10 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
@@ -57,7 +60,7 @@
       "weapons-skills": "2+",
       "strength": 5,
       "armor-penetration": 4,
-      "damage": 2
+      "damage": "2"
     }
   ]
 }

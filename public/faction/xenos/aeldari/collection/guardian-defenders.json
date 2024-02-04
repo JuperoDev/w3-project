@@ -1,6 +1,6 @@
 {
   "parentUnit": "Guardian Defenders",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 7,
     "toughness": 3,
-    "save": 4,
+    "salvation": 4,
     "wounds": 1,
     "leadership": 6,
-    "objetiveControl": 2,
+    "objectiveControl": 2,
     "invulnerableSave": 0
   },
   "leader": [],
@@ -94,7 +94,7 @@
   "meleeWeapons": [
     {
       "name": "Aeldari missile launcher – starshot",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "1",
       "weapons-skills": "3+",
       "strength": 10,
@@ -103,7 +103,7 @@
     },
     {
       "name": "Bright lance",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "1",
       "weapons-skills": "3+",
       "strength": 12,
@@ -112,12 +112,12 @@
     },
     {
       "name": "Scatter laser",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "6",
       "weapons-skills": "3+",
       "strength": 5,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Shuriken cannon",
@@ -126,7 +126,7 @@
       "weapons-skills": "3+",
       "strength": 6,
       "armor-penetration": 1,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Shuriken catapult",
@@ -135,16 +135,16 @@
       "weapons-skills": "3+",
       "strength": 4,
       "armor-penetration": 1,
-      "damage": 1
+      "damage": "1"
     },
     {
       "name": "Close combat weapon",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "1",
       "weapons-skills": "3+",
       "strength": 3,
       "armor-penetration": 0,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

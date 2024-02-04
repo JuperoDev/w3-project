@@ -1,6 +1,6 @@
 {
   "parentUnit": "Karandras",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 7,
     "toughness": 3,
-    "save": 2,
+    "salvation": 2,
     "wounds": 5,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -59,7 +59,10 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
@@ -69,7 +72,7 @@
       "weapons-skills": "2+",
       "strength": 8,
       "armor-penetration": 3,
-      "damage": 2
+      "damage": "2"
     },
     {
       "name": "Isirmathil",
@@ -78,7 +81,7 @@
       "weapons-skills": "2+",
       "strength": 6,
       "armor-penetration": 1,
-      "damage": 1
+      "damage": "1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentUnit": "Prince Yriel",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -15,10 +15,10 @@
   "attributes": {
     "movement": 7,
     "toughness": 3,
-    "save": 3,
+    "salvation": 3,
     "wounds": 4,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -56,17 +56,20 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
       "name": "The Spear of Twilight",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "5",
       "weapons-skills": "2+",
       "strength": 6,
       "armor-penetration": 3,
-      "damage": 3
+      "damage": "3"
     }
   ]
 }

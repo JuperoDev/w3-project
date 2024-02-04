@@ -1,6 +1,6 @@
 {
   "parentUnit": "Fuegan",
-  "factionKeyword": [
+  "factionKeywords": [
     "aeldari"
   ],
   "damaged": {},
@@ -16,10 +16,10 @@
   "attributes": {
     "movement": 7,
     "toughness": 3,
-    "save": 2,
+    "salvation": 2,
     "wounds": 5,
     "leadership": 6,
-    "objetiveControl": 1,
+    "objectiveControl": 1,
     "invulnerableSave": 4
   },
   "leader": [],
@@ -71,17 +71,20 @@
     ]
   },
   "wargear": [
-    
+    {
+      "description": "None",
+      "items": []
+    }
   ],
   "meleeWeapons": [
     {
       "name": "The Fire Axe",
-      "modifiers": [],
+      "modifiers": "",
       "attacks": "6",
       "weapons-skills": "2+",
       "strength": 5,
       "armor-penetration": 4,
-      "damage": 3
+      "damage": "3"
     }
   ]
 }

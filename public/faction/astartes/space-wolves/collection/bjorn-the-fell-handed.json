@@ -17,15 +17,15 @@
     "dreadnought",
     "bjorn the fell-handed"
   ],
-  "attributes": {
+  "attributes": [{
     "movement": 8,
     "toughness": 9,
-    "salvation": 2,
+    "save": 2,
     "wounds": 8,
     "leadership": 6,
-    "objectiveControl": 3,
+    "objetiveControl": 3,
     "invulnerableSave": 0
-  },
+  }],
   "leader": [],
   "rangedWeapons": [
     {
@@ -169,7 +169,7 @@
     
     {
       "name": "Trueclaw",
-      "modifiers": "lethalhits",
+      "modifiers": ["lethal hits"],
       "attacks": 6,
       "weapons-skills": 2,
       "strength": 12,

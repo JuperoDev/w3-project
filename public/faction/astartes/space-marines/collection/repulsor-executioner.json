@@ -33,11 +33,11 @@
         "heavy"
       ],
       "range": 72,
-      "strength": 16,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "weapons-skills": 3,
+      "strength": 16,
+      "armor-penetration": 4,
+      "damage": "D6+4",
       "singleChoice": false
     },
     {
@@ -46,10 +46,10 @@
         "devastating wounds"
       ],
       "range": 24,
+      "attacks": 12,
+      "weapons-skills": 3,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -59,11 +59,11 @@
         "anti-fly 2+"
       ],
       "range": 24,
+      "attacks": "D3",
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -72,10 +72,10 @@
         "rapid fire 3"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -85,12 +85,12 @@
         "blast"
       ],
       "range": 36,
+      "attacks": "D6+1",
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     },
     {
       "name": "Macro plasma incinerator - supercharge",
@@ -99,12 +99,12 @@
         "hazardous"
       ],
       "range": 36,
+      "attacks": "D6+1",
+      "weapons-skills": 3,
       "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 4,
+      "damage": 3,
+      "singleChoice": true
     },
     {
       "name": "Twin heavy bolter",
@@ -113,11 +113,11 @@
         "twin-linked"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -129,9 +129,9 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 3,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -165,69 +165,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Heavy laser destroyer",
-      "modifiers": "heavy",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 16,
-      "armor-penetration": 4,
-      "damage": "D6+4"
-    },
-    {
-      "name": "Heavy onslaught gatling cannon",
-      "modifiers": ["devastating wounds"],
-      "attacks": 12,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Icarus rocket pod",
-      "modifiers": "anti-fly2+",
-      "attacks": "D3",
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Ironhail heavy stubber",
-      "modifiers": ["rapidfire 3"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Macro plasma incinerator – standard",
-      "modifiers": ["blast"],
-      "attacks": "D6+1",
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": 2
-    },
-    {
-      "name": "Repulsor Executioner defensive array",
-      "modifiers": [],
-      "attacks": 10,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": ["sustained hits 1","twin-linked"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
+    
     {
       "name": "Armoured hull",
       "modifiers": [],

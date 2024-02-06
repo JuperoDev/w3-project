@@ -32,10 +32,10 @@
         "rapid fire 1"
       ],
       "range": 24,
+      "attacks": 1,
+      "weapons-skills": 4,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -46,9 +46,9 @@
         "torrent"
       ],
       "range": 12,
+      "attacks": "D6+1",
+      "weapons-skills": "N/A",
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -60,10 +60,10 @@
         "pistol"
       ],
       "range": 12,
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -76,9 +76,9 @@
         "rapid fire 1"
       ],
       "range": 24,
-      "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
+      "weapons-skills": 3,
+      "strength": 4,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -92,10 +92,10 @@
       ],
       "range": 36,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 3,
+      "ballistic-skills": 4,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     }
   ],
@@ -137,42 +137,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": 1,
-      "weapons-skills": 4,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Pyrecannon",
-      "modifiers": "IGNORESCOVER,torrent",
-      "attacks": "D6+1",
-      "weapons-skills": "N/A",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Sternguard bolt pistol",
-      "modifiers": "devastatingwounds,pistol",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Sternguard bolt rifle",
-      "modifiers": "assault,devastatingwounds,heavy,rapidfire1",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
+   
     {
       "name": "Astartes chainsword",
       "modifiers": [],

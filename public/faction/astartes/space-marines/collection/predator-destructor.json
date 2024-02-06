@@ -32,11 +32,11 @@
         "sustained hits 1"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -53,16 +53,26 @@
       "singleChoice": false
     },
     {
+      "name": "Lascannon",
+      "range": 48,
+      "modifiers": [],
+      "attacks": 1,
+      "weapons-skills": 3,
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
       "name": "Predator autocannon",
       "modifiers": [
         "rapid fire 2"
       ],
       "range": 48,
+      "attacks": 4,
+      "weapons-skills": 3,
       "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 3,
       "singleChoice": false
     },
     {
@@ -109,42 +119,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Heavy bolter",
-      "modifiers": ["sustained hits 1"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": ["one shot"],
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6"
-    },
-    {
-      "name": "Lascannon",
-      "modifiers": [],
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Predator autocannon",
-      "modifiers": ["rapid fire 2"],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 1,
-      "damage": 3
-    },
+    
     {
       "name": "Armoured tracks",
       "modifiers": [],

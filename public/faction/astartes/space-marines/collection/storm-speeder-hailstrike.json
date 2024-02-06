@@ -29,10 +29,10 @@
         "blast"
       ],
       "range": 18,
+      "attacks": "D6",
+      "weapons-skills": 3,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -42,10 +42,10 @@
         "devastating wounds"
       ],
       "range": 24,
+      "attacks": 8,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -57,9 +57,9 @@
       ],
       "range": 36,
       "strength": 4,
-      "attacks": 2,
+      "attacks": 3,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -81,24 +81,7 @@
   },
   "wargear": [],
   "meleeWeapons": [
-    {
-      "name": "Fragstorm grenade launcher",
-      "modifiers": ["blast"],
-      "attacks": "D6",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Onslaught gatling cannon",
-      "modifiers": ["devastating wounds"],
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
+    
     {
       "name": "Close combat weapon",
       "modifiers": [],

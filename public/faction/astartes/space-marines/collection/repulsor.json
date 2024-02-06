@@ -33,10 +33,10 @@
         "devastating wounds"
       ],
       "range": 24,
+      "attacks": 12,
+      "weapons-skills": 3,
       "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -55,17 +55,37 @@
       "singleChoice": false
     },
     {
+      "name": "Las-talon",
+      "range": 36,
+      "modifiers": [],
+      "attacks": 2,
+      "weapons-skills": 3,
+      "strength": 10,
+      "armor-penetration": 3,
+      "damage": "D6+1"
+    },
+    {
+      "name": "Repulsor defensive array",
+      "modifiers": [],
+      "range": 24,
+      "attacks": "18",
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
       "name": "Twin heavy bolter",
       "modifiers": [
         "sustained hits 1",
         "twin-linked"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -105,51 +125,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Heavy onslaught gatling cannon",
-      "modifiers": ["devastating wounds"],
-      "attacks": 12,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Hunter-slayer missile",
-      "modifiers": "indirectfire, one shot",
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6"
-    },
-    {
-      "name": "Las-talon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Repulsor defensive array",
-      "modifiers": [],
-      "attacks": "18",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": ["sustained hits 1","twin-linked"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
+    
     {
       "name": "Armoured hull",
       "modifiers": [],

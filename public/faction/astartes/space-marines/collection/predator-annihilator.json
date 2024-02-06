@@ -32,11 +32,11 @@
         "twin-linked"
       ],
       "range": 48,
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "D6+1",
       "singleChoice": false
     },
     {
@@ -45,11 +45,11 @@
         "sustained hits 1"
       ],
       "range": 36,
+      "attacks": 3,
+      "weapons-skills": 3,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
-      "damage": 1,
+      "damage": 2,
       "singleChoice": false
     },
     {
@@ -64,6 +64,16 @@
       "armor-penetration": 3,
       "damage": "d6",
       "singleChoice": false
+    },
+    {
+      "name": "Lascannon",
+      "range": 48,
+      "modifiers": [],
+      "attacks": 1,
+      "weapons-skills": 3,
+      "strength": 12,
+      "armor-penetration": 3,
+      "damage": "D6+1"
     },
     {
       "name": "Storm bolter",
@@ -109,42 +119,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Predator twin lascannon",
-      "modifiers": ["twin-linked"],
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Heavy bolter",
-      "modifiers": ["sustained hits 1"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": ["one shot"],
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6"
-    },
-    {
-      "name": "Lascannon",
-      "modifiers": [],
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
+    
     {
       "name": "Armoured tracks",
       "modifiers": [],

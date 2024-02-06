@@ -14,20 +14,25 @@
     "smoke",
     "stormhawk interceptor"
   ],
-  "attributes": [{
-    "movement": 20,
-    "toughness": 8,
-    "save": 3,
-    "wounds": 10,
-    "leadership": 6,
-    "objetiveControl": 0,
-    "invulnerableSave": 0
-  }],
+  "attributes": [
+    {
+      "movement": 20,
+      "toughness": 8,
+      "save": 3,
+      "wounds": 10,
+      "leadership": 6,
+      "objetiveControl": 0,
+      "invulnerableSave": 0
+    }
+  ],
   "leader": [],
   "rangedWeapons": [
     {
       "name": "Icarus stormcannon",
-      "modifiers": "anti-fly2+",
+      "modifiers": [
+        "anti-fly 2+"
+      ],
+      "range": 48,
       "attacks": 6,
       "weapons-skills": 3,
       "strength": 7,
@@ -36,6 +41,7 @@
     },
     {
       "name": "Las-talon",
+      "range": 36,
       "modifiers": [],
       "attacks": 2,
       "weapons-skills": 3,
@@ -45,7 +51,10 @@
     },
     {
       "name": "Skyhammer missile launcher",
-      "modifiers": "anti-fly2+",
+      "range": 48,
+      "modifiers": [
+        "anti-fly 2+"
+      ],
       "attacks": 3,
       "weapons-skills": 3,
       "strength": 8,
@@ -54,7 +63,11 @@
     },
     {
       "name": "Twin assault cannon",
-      "modifiers": ["devastating wounds","twin-linked"],
+      "range": 24,
+      "modifiers": [
+        "devastating wounds",
+        "twin-linked"
+      ],
       "attacks": 6,
       "weapons-skills": 3,
       "strength": 6,
@@ -63,7 +76,11 @@
     },
     {
       "name": "Twin heavy bolter",
-      "modifiers": ["sustained hits 1","twin-linked"],
+      "range": 36,
+      "modifiers": [
+        "sustained hits 1",
+        "twin-linked"
+      ],
       "attacks": 3,
       "weapons-skills": 3,
       "strength": 5,
@@ -77,10 +94,23 @@
       ],
       "range": 48,
       "strength": 4,
+      "attacks": "2d6",
+      "ballistic-skills": 3,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Typhoon missile launcher - krak",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 9,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 2,
+      "damage": "d6",
       "singleChoice": false
     }
   ],
@@ -113,7 +143,6 @@
     }
   ],
   "meleeWeapons": [
-  
     {
       "name": "Armoured hull",
       "modifiers": [],

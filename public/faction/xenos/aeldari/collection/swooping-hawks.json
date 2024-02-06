@@ -1,109 +1,109 @@
 {
-  "parentUnit": "Swooping Hawks",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Swooping Hawks soar high above the battlefield with incredible grace and agility, moving with such speed that they appear as a blur of colour. They are masters of harassment warfare, perfectly suited to breaking up enemy counter-attacks or picking off vulnerable formations with a hail of las-fire and plasma grenades.",
-  "keywords": [
-    "infantry",
-    "jump pack",
-    "fly",
-    "grenades",
-    "swooping hawks"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Hawk’s talon",
-      "modifiers": [
-        "assault",
-        "lethal hits"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Swooping Hawks",
+    "factionKeywords": [
+        "aeldari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Swooping Hawks soar high above the battlefield with incredible grace and agility, moving with such speed that they appear as a blur of colour. They are masters of harassment warfare, perfectly suited to breaking up enemy counter-attacks or picking off vulnerable formations with a hail of las-fire and plasma grenades.",
+    "keywords": [
+        "infantry",
+        "jump pack",
+        "fly",
+        "grenades",
+        "swooping hawks"
+    ],
+    "attributes": {
+        "movement": 14,
+        "toughness": 3,
+        "salvation": 4,
+        "wounds": 1,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 5
     },
-    {
-      "name": "Lasblaster",
-      "modifiers": [
-        "assault",
-        "lethal hits"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Hawk’s talon",
+            "modifiers": [
+                "assault",
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lasblaster",
+            "modifiers": [
+                "assault",
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "faction": [
-      "Strands of Fate"
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Skyleap:",
+                "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Swooping Hawk Exarch can be equipped with 1 Aeldari power sword.",
+            "items": []
+        },
+        {
+            "description": "The Swooping Hawk Exarch’s lasblaster can be replaced with 1 Hawk’s talon.",
+            "items": []
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Skyleap:",
-        "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Hawk’s talon",
+            "modifiers": "assault,lethalhits",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Aeldari power sword",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Swooping Hawk Exarch can be equipped with 1 Aeldari power sword.",
-      "items": []
-    },
-    {
-      "description": "The Swooping Hawk Exarch’s lasblaster can be replaced with 1 Hawk’s talon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Hawk’s talon",
-      "modifiers": "assault,lethalhits",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Aeldari power sword",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "1"
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

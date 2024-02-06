@@ -1,80 +1,80 @@
 {
-  "parentUnit": "Yvraine",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Yvraine wields the Cronesword Kha-vir, the Sword of Sorrows, which can turn an enemy to ash with the slightest touch. The power of Ynnead manifests in her when she enters battle, to the extent that the Reborn warriors that fight around her are transformed into bloody blurs of violence.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "ynnari",
-    "psyker",
-    "yvraine"
-  ],
-  "attributes": {
-    "movement": 8,
-    "toughness": 3,
-    "salvation": 6,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Storm of Whispers",
-      "modifiers": [
-        "anti-infantry 2+",
-        "devastating wounds",
-        "psychic"
-      ],
-      "range": 12,
-      "strength": 2,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Yvraine",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [
-      "Strands of Fate"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Yvraine wields the Cronesword Kha-vir, the Sword of Sorrows, which can turn an enemy to ash with the slightest touch. The power of Ynnead manifests in her when she enters battle, to the extent that the Reborn warriors that fight around her are transformed into bloody blurs of violence.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "ynnari",
+        "psyker",
+        "yvraine"
     ],
-    "otherAbilities": [
-      {
-        "name": "Herald of Ynnead:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
-      },
-      {
-        "name": "Word of the Phoenix (Psychic):",
-        "description": "While this model is leading a unit, in your Command phase , you can roll one D6: on a 2+, D3 destroyed Bodyguard models are returned to that unit."
-      }
+    "attributes": {
+        "movement": 8,
+        "toughness": 3,
+        "salvation": 6,
+        "wounds": 4,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Storm of Whispers",
+            "modifiers": [
+                "anti-infantry 2+",
+                "devastating wounds",
+                "psychic"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Herald of Ynnead:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Word of the Phoenix (Psychic):",
+                "description": "While this model is leading a unit, in your Command phase , you can roll one D6: on a 2+, D3 destroyed Bodyguard models are returned to that unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Kha-vir, the Sword of Sorrows",
+            "modifiers": "devastatingwounds",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 3,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Kha-vir, the Sword of Sorrows",
-      "modifiers": "devastatingwounds",
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 3,
-      "damage": "2"
-    }
-  ]
 }

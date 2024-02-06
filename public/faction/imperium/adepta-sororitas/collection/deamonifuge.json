@@ -1,123 +1,125 @@
 {
-  "parentUnit": "daemonifuge",
-  "attributes": [
-    {
-      "name": "ephrael stern",
-      "movement": 8,
-      "toughness": 3,
-      "save": 3,
-      "wounds": 5,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
+    "parentUnit": "daemonifuge",
+    "attributes": [
+        {
+            "name": "ephrael stern",
+            "movement": 8,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        },
+        {
+            "name": "kyganil of the bloody tears",
+            "movement": 8,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "factionKeyword": [
+        "adepta sororitas"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ephrael Stern, the Daemonifuge, is capable of manifesting strange powers seen by some as witchery. Yet she is a zealous defender of the Imperial Creed with unwavering devotion. Alongside her Aeldari companion, Kyganil, Stern pits her augmented strength and speed against the Emperor’s enemies.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "character",
+        "epic hero",
+        "imperium",
+        "daemonifuge"
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Fights First",
+            "Lone Operative"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Holy Judgement:",
+                "description": "At the start of your Shooting phase , select one enemy unit within 12\" of and visible to Ephrael Stern. That unit must take a Leadership test , subtracting 2 from the result if it is a CHAOS unit. If the test is failed, that enemy unit suffers 3 mortal wounds ."
+            },
+            {
+                "name": "Mysterious Saviours:",
+                "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+            }
+        ]
     },
-    {
-      "name": "kyganil of the bloody tears",
-      "movement": 8,
-      "toughness": 3,
-      "save": 6,
-      "wounds": 3,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ephrael Stern, the Daemonifuge, is capable of manifesting strange powers seen by some as witchery. Yet she is a zealous defender of the Imperial Creed with unwavering devotion. Alongside her Aeldari companion, Kyganil, Stern pits her augmented strength and speed against the Emperor’s enemies.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "character",
-    "epic hero",
-    "imperium",
-    "daemonifuge"
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Fights First",
-      "Lone Operative"
+    "meleeWeapons": [
+        {
+            "name": "Sanctity",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "The Outcast’s Weapons",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Ephrael Stern – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Sanctity"
+            ]
+        },
+        {
+            "unitType": "Kyganil of the Bloody Tears – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "the Outcast’s Weapons"
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Holy Judgement:",
-        "description": "At the start of your Shooting phase , select one enemy unit within 12\" of and visible to Ephrael Stern. That unit must take a Leadership test , subtracting 2 from the result if it is a CHAOS unit. If the test is failed, that enemy unit suffers 3 mortal wounds ."
-      },
-      {
-        "name": "Mysterious Saviours:",
-        "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
-      }
+    "options": [
+        {
+            "count": [
+                1,
+                1
+            ],
+            "points": 80
+        }
     ]
-  },
-  "meleeWeapons":[
-    {
-      "name": "Sanctity",
-      "attacks": 4,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": []
-    },
-    {
-      "name": "The Outcast’s Weapons",
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": []
-    }
-  ],
-  "wargear": [
-    
-  ],
-
-  "additionalParameter": {
-    
-  },
-  "unitComposition": [
-     {
-       "unitType": "Ephrael Stern – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["bolt pistol","Sanctity"]
-     },
-     {
-      "unitType": "Kyganil of the Bloody Tears – EPIC HERO",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["the Outcast’s Weapons"]
-    }
-   ],
- 
-   "options": [
-     {
-       "count": [1,1],
-       "points": 80
-     }
-   ]
 }

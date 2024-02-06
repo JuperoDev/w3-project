@@ -1,171 +1,184 @@
 {
-  "parentUnit": "Purifier Squad",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Order of Purifiers epitomise the Grey Knights’ sanctity of purpose. They are incorruptible and fanatical, possessed of an untarnished spirit. Teleported into the heart of daemonic legions, they often fight as a spearhead from where they unleash a cleansing fire that sears the corrupted to ash.",
-  "keywords": [
-    "infantry",
-    "psyker",
-    "grenades",
-    "imperium",
-    "purifier squad"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "salvation": 2,
-    "wounds": 2,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Incinerator",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Psilencer",
-      "modifiers": [
-        "psychic",
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Psycannon",
-      "modifiers": [
-        "psychic"
-      ],
-      "range": 24,
-      "attacks": 3,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-     {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Purifying Flame",
-      "modifiers": [
-        "anti-infantry  2+",
-        "ignores cover",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Purifier Squad",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [
-      "Teleport Assault"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Order of Purifiers epitomise the Grey Knights’ sanctity of purpose. They are incorruptible and fanatical, possessed of an untarnished spirit. Teleported into the heart of daemonic legions, they often fight as a spearhead from where they unleash a cleansing fire that sears the corrupted to ash.",
+    "keywords": [
+        "infantry",
+        "psyker",
+        "grenades",
+        "imperium",
+        "purifier squad"
     ],
-    "otherAbilities": [
-      {
-        "name": "Sanctity of Purpose:",
-        "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength , and add 1 to the Wound roll as well if this unit is Below Half-strength ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "For every 5 models in this unit, up to 2 Purifiers can each have their storm bolter and Nemesis force weapon replaced with one of the following",
-      "items": [
-        "1 incinerator and 1 close combat weapon",
-        "1 psilencer and 1 close combat weapon",
-        "1 psycannon and 1 close combat weapon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Close combat weapon",
-      "modifiers": [ ],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 2,
+            "wounds": 2,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Incinerator",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "attacks": "D6",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Psilencer",
+            "modifiers": [
+                "psychic",
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "attacks": 6,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Psycannon",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "attacks": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Purifying Flame",
+            "modifiers": [
+                "anti-infantry  2+",
+                "ignores cover",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Teleport Assault"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sanctity of Purpose:",
+                "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength , and add 1 to the Wound roll as well if this unit is Below Half-strength ."
+            }
+        ]
     },
-    {
-      "name": "Nemesis force weapon",
-      "modifiers": ["psychic"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Knight of the Flame",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["Purifying Flame","storm bolter","Nemesis force weapon"]
-    },
-    {
-      "unitType": "Purifiers",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment":["Purifying Flame","storm bolter","Nemesis force weapon"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,4
-      ],
-      "points": 130
-    },
-    {
-      "count": [
-        1,9
-      ],
-      "points": 260
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "For every 5 models in this unit, up to 2 Purifiers can each have their storm bolter and Nemesis force weapon replaced with one of the following",
+            "items": [
+                "1 incinerator and 1 close combat weapon",
+                "1 psilencer and 1 close combat weapon",
+                "1 psycannon and 1 close combat weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Nemesis force weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Knight of the Flame",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Purifying Flame",
+                "storm bolter",
+                "Nemesis force weapon"
+            ]
+        },
+        {
+            "unitType": "Purifiers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "Purifying Flame",
+                "storm bolter",
+                "Nemesis force weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 130
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 260
+        }
+    ],
+    "additionalParameter": {}
 }

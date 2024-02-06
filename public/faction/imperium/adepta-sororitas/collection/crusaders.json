@@ -1,78 +1,82 @@
 {
     "parentUnit": "crusaders",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "factionKeyword": [
         "adepta sororitas"
-      ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "These pious bodyguards are chosen for their martial skill and devotion to the Imperial Creed. They spill the blood of heretics with great sweeps of their heavy broadswords. Bullets and sorcerous witchfire alike deflect from their warded tower shields, with which they form an impenetrable wall around those they protect.",
-      "keywords": [
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These pious bodyguards are chosen for their martial skill and devotion to the Imperial Creed. They spill the blood of heretics with great sweeps of their heavy broadswords. Bullets and sorcerous witchfire alike deflect from their warded tower shields, with which they form an impenetrable wall around those they protect.",
+    "keywords": [
         "infantry",
         "imperium",
         "crusaders"
-      ],
-      "leader": [],
-      "rangedWeapons": [],
-      "abilities": {
-        "core": [
-          
-        ],
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [],
         "faction": [
-          "Acts of Faith"
-         
+            "Acts of Faith"
         ],
-        "otherAbilities": [{"name":
-          "Spiritual Fortitude", "description" : "While a MISSIONARY or PREACHER model is leading this unit, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
-        }]
-      },
-      "meleeWeapons":[
+        "otherAbilities": [
+            {
+                "name": "Spiritual Fortitude",
+                "description": "While a MISSIONARY or PREACHER model is leading this unit, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+            }
+        ]
+    },
+    "meleeWeapons": [
         {
-          "name": "Power weapon",
-          "attacks": 2,
-          "weapons-skills": 3,
-          "strength": 4,
-          "armor-penetration": 2,
-          "damage": 1,
-          "modifiers": []
+            "name": "Power weapon",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
         }
-      ],
-      "wargear": [
-        
-      ],
-
-      "additionalParameter": {
-        
-      },
-      "unitComposition": [
-         {
-           "unitType": "Crusaders",
-           "minQuantity": 2,
-           "maxQuantity": 6,
-           "equipment": ["power weapon"]
-         }
-       ],
-     
-       "options": [
-         {
-           "count": [2],
-           "points": 25
-         },
-         {
-             "count": [4],
-             "points": 50
-           },
-           {
-            "count": [6],
+    ],
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Crusaders",
+            "minQuantity": 2,
+            "maxQuantity": 6,
+            "equipment": [
+                "power weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                2
+            ],
+            "points": 25
+        },
+        {
+            "count": [
+                4
+            ],
+            "points": 50
+        },
+        {
+            "count": [
+                6
+            ],
             "points": 75
-          }
-       ]
+        }
+    ]
 }

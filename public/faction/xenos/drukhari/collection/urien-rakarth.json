@@ -1,83 +1,100 @@
 {
-  "parentUnit": "Urien Rakarth",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Urien Rakarth is the most ingenious of the many Haemonculi masters. He is the Sculptor of Torments, whose repugnant creations strain his enemies’ sanity. Once his casket of fanged spirits and his toxin-laced blades are finished, a coiling nest of Haemovores feast upon whatever is left of Rakarth’s foes.",
-  "keywords": [
-    "infantry",
-    "haemonculus covens",
-    "character",
-    "epic hero",
-    "aeldari",
-    "haemonculus",
-    "urien rakarth"
-  ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 4,
-    "save": 6,
-    "wounds": 5,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Casket of Flensing",
-      "modifiers": [
-        "devastating wounds",
-        "one shot",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": "3d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 4+",
-      "Leader"
+    "parentUnit": "Urien Rakarth",
+    "factionKeyword": [
+        "drukhari"
     ],
-    "faction": [
-      "power from pain"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Urien Rakarth is the most ingenious of the many Haemonculi masters. He is the Sculptor of Torments, whose repugnant creations strain his enemies’ sanity. Once his casket of fanged spirits and his toxin-laced blades are finished, a coiling nest of Haemovores feast upon whatever is left of Rakarth’s foes.",
+    "keywords": [
+        "infantry",
+        "haemonculus covens",
+        "character",
+        "epic hero",
+        "aeldari",
+        "haemonculus",
+        "urien rakarth"
     ],
-    "otherAbilities": [{"name":"Fleshcraft"
-      ,"description":"At the end of your Movement phase, this model can heal one friendly CRONOS, TALOS, GROTESQUES or WRACKS unit within 6''. If it does, one model in that unit regains up to 3 lost wounds (if you selected a WRACKS unit, up to 3 destroyed models are returned to that unit instead)."
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Casket of Flensing",
+            "modifiers": [
+                "devastating wounds",
+                "one shot",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "3d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 4+",
+            "Leader"
+        ],
+        "faction": [
+            "power from pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Fleshcraft",
+                "description": "At the end of your Movement phase, this model can heal one friendly CRONOS, TALOS, GROTESQUES or WRACKS unit within 6''. If it does, one model in that unit regains up to 3 lost wounds (if you selected a WRACKS unit, up to 3 destroyed models are returned to that unit instead)."
+            },
+            {
+                "name": "Horrific Regeneration",
+                "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+            }
+        ]
     },
-  {"name":"Horrific Regeneration", "description":"The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."}]
-  },
-  "unitComposition": [
-      {
-          "unitType": "1 Urien Rakarth – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["Casket of Flensing","Haemonculus tools and scissorhands"]
-      }
-  ],
-  "options": [
-      {
-        "count": [1],
-        "points": 80
-      }
+    "unitComposition": [
+        {
+            "unitType": "1 Urien Rakarth – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Casket of Flensing",
+                "Haemonculus tools and scissorhands"
+            ]
+        }
     ],
-    "meleeWeapons": [{
-      "name": "Haemonculus tools and scissorhands",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "modifiers": ["anti-infantry 2+","precision"]
-    }
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Haemonculus tools and scissorhands",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "modifiers": [
+                "anti-infantry 2+",
+                "precision"
+            ]
+        }
     ],
     "additionalParameter": {},
     "wargear": []

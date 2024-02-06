@@ -1,117 +1,117 @@
 {
-  "parentUnit": "Succubus",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Succubi are the leaders of the Wych Cults and master combatants of the arena, possessing both sublime and bloody artistry. They are versed in countless forms of death and give visceral displays of acrobatic lethality. With lightning-fast reactions and a variety of outlandish weapons, they revel in their own superiority.",
-  "keywords": [
-    "infantry",
-    "wych cult",
-    "character",
-    "aeldari",
-    "succubus"
-  ],
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 3,
-      "save": 6,
-      "wounds": 4,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Blast pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 6,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": "d3",
-      "singleChoice": false
+    "parentUnit": "Succubus",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Succubi are the leaders of the Wych Cults and master combatants of the arena, possessing both sublime and bloody artistry. They are versed in countless forms of death and give visceral displays of acrobatic lethality. With lightning-fast reactions and a variety of outlandish weapons, they revel in their own superiority.",
+    "keywords": [
+        "infantry",
+        "wych cult",
+        "character",
+        "aeldari",
+        "succubus"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Blast pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter pistol",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Storm of Blades:",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Combat Drugs:",
+                "description": "If this model is Empowered in the Fight phase , then until the end of the phase, models in this model’s unit, have the Fights First ability."
+            }
+        ]
     },
-    {
-      "name": "Splinter pistol",
-      "modifiers": [
-        "anti-infantry 3+",
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 2,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "unitComposition": [
+        {
+            "unitType": "Succubus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Succubus weapons"
+            ]
+        }
     ],
-    "faction": [
-      "Power From Pain"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 55
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Storm of Blades:",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-      },
-      {
-        "name": "Combat Drugs:",
-        "description": "If this model is Empowered in the Fight phase , then until the end of the phase, models in this model’s unit, have the Fights First ability."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Succubus weapons",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 3+"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following:",
+            "items": [
+                "1 blast pistol",
+                "1 splinter pistol"
+            ]
+        }
     ]
-  },
-  "unitComposition": [
-    {
-      "unitType": "Succubus",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Succubus weapons"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 55
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Succubus weapons",
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": [
-        "anti-infantry 3+"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "This model can be equipped with one of the following:",
-      "items": [
-        "1 blast pistol",
-        "1 splinter pistol"
-      ]
-    }
-  ]
 }

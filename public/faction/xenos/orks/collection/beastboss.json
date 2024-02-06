@@ -1,83 +1,81 @@
 {
-  "parentUnit": "Beastboss",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "It takes a ferocious and foul-tempered Ork to lead a stampede of Beast Snaggas. Beastbosses possess these qualities in abundance. Boasting cybork enhancements, wired-in targetin’ squigs and an array of brutal combat weaponry, these roaring monsters can bring down even the largest prey one-on-one.",
-  "keywords": [
-    "infantry",
-    "character",
-    "beast snagga",
-    "warboss",
-    "beastboss"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 4,
-    "wounds": 5,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Shoota",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 6+",
-      "Leader"
+    "parentUnit": "Beastboss",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "It takes a ferocious and foul-tempered Ork to lead a stampede of Beast Snaggas. Beastbosses possess these qualities in abundance. Boasting cybork enhancements, wired-in targetin’ squigs and an array of brutal combat weaponry, these roaring monsters can bring down even the largest prey one-on-one.",
+    "keywords": [
+        "infantry",
+        "character",
+        "beast snagga",
+        "warboss",
+        "beastboss"
     ],
-    "otherAbilities": [
-      {
-        "name": "Beastboss:",
-        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
-      },
-      {
-        "name": "Beastly Rage:",
-        "description": "Each time this model makes a Charge move , until the end of the turn, melee weapons it is equipped with have the [DEVASTATING WOUNDS] ability."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Beast Snagga klaw",
-      "modifiers": "anti-monster4+,anti-vehicle4+",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 2
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 4,
+        "wounds": 5,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 5
     },
-    {
-      "name": "Beastchoppa",
-      "modifiers": "anti-monster4+,anti-vehicle4+",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Shoota",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+",
+            "Leader"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Beastboss:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "Beastly Rage:",
+                "description": "Each time this model makes a Charge move , until the end of the turn, melee weapons it is equipped with have the [DEVASTATING WOUNDS] ability."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Beast Snagga klaw",
+            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Beastchoppa",
+            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2
+        }
+    ]
 }

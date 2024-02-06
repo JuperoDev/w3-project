@@ -1,74 +1,78 @@
 {
-  "parentUnit": "Clamavus",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Vox-hacker and information assassin supreme, the Clamavus scythes into enemy communications networks for intelligence. It seeds the amplified psychic signal of the Broodmind through the foe’s comms to spread dismay from a distance, while up close it can rupture its victims’ brains with its savage audial symphony.",
-  "keywords": [
-    "infantry",
-    "character",
-    "great devourer",
-    "clamavus"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 3,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Autopistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Clamavus",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-     
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Vox-hacker and information assassin supreme, the Clamavus scythes into enemy communications networks for intelligence. It seeds the amplified psychic signal of the Broodmind through the foe’s comms to spread dismay from a distance, while up close it can rupture its victims’ brains with its savage audial symphony.",
+    "keywords": [
+        "infantry",
+        "character",
+        "great devourer",
+        "clamavus"
     ],
-    "otherAbilities":[{
-      "name":"Cult Icon",
-      "description":"In the Reinforcements step of your Movement phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
-    }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "clamavus",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["autopistol","close combat weapon"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 50
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Cult Icon",
+                "description": "In the Reinforcements step of your Movement phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "clamavus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "autopistol",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        }
+    ],
     "wargear": [],
-
     "meleeWeapons": [
         {
             "name": "close combat weapon",

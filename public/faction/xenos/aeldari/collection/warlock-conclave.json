@@ -1,125 +1,125 @@
 {
-  "parentUnit": "Warlock Conclave",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Seers who have trained as Aspect Warriors find it easier to develop destructive psychic powers. These Aeldari are called Warlocks. In battle, they frequently band together in conclaves to pool their eldritch power, or else lead other Aeldari squads such as Guardians from the front. Casting the runes of battle, they wreak havoc on the foe.",
-  "keywords": [
-    "infantry",
-    "psyker",
-    "warlocks",
-    "warlock conclave"
-  ],
-  "attributes": {
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 6,
-    "wounds": 2,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Destructor",
-      "modifiers": [
-        "psychic",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Shuriken pistol",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Singing spear",
-      "modifiers": [
-        "assault",
-        "psychic"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Strands of Fate"
+    "parentUnit": "Warlock Conclave",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "Destructor; shuriken pistol; witchblade."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Seers who have trained as Aspect Warriors find it easier to develop destructive psychic powers. These Aeldari are called Warlocks. In battle, they frequently band together in conclaves to pool their eldritch power, or else lead other Aeldari squads such as Guardians from the front. Casting the runes of battle, they wreak havoc on the foe.",
+    "keywords": [
+        "infantry",
+        "psyker",
+        "warlocks",
+        "warlock conclave"
+    ],
+    "attributes": {
+        "movement": 7,
+        "toughness": 3,
+        "salvation": 6,
+        "wounds": 2,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Destructor",
+            "modifiers": [
+                "psychic",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken pistol",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Singing spear",
+            "modifiers": [
+                "assault",
+                "psychic"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Strands of Fate"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "Destructor; shuriken pistol; witchblade."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their witchblade replaced with 1 singing spear.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Destructor",
+            "modifiers": "psychic,torrent",
+            "attacks": "D6",
+            "weapons-skills": "N/A",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Shuriken pistol",
+            "modifiers": "assault,pistol",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Singing spear",
+            "modifiers": "psychic",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "3"
+        },
+        {
+            "name": "Witchblade",
+            "modifiers": "anti-infantry2+,psychic",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their witchblade replaced with 1 singing spear.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Destructor",
-      "modifiers": "psychic,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Shuriken pistol",
-      "modifiers": "assault,pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Singing spear",
-      "modifiers": "psychic",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "3"
-    },
-    {
-      "name": "Witchblade",
-      "modifiers": "anti-infantry2+,psychic",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "2"
-    }
-  ]
 }

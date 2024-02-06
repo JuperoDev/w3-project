@@ -1,85 +1,92 @@
 {
-  "parentUnit": "Plasmancer",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Plasmancers are unsubtle annihilators. They are capable of wielding energy as a weapon itself rather than needing to bind it to other forms. Arcs of unstable lightning leap from their forms to wrack nearby foes, and with a gesture these Crypteks can channel those same energies into searing ranged blasts.",
-  "keywords": [
-    "infantry",
-    "character",
-    "cryptek",
-    "plasmancer"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": ["Immortals",
-  "Necron Warriors"],
-  "rangedWeapons": [{
-    "name": "Plasmic lance",
-    "modifiers": [
+    "parentUnit": "Plasmancer",
+    "factionKeyword": [
+        "necrons"
     ],
-    "range": 18,
-    "strength": 7,
-    "attacks": 3,
-    "ballistic-skills": 4,
-    "armor-penetration": 3,
-    "damage": 2,
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      "Leader"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Plasmancers are unsubtle annihilators. They are capable of wielding energy as a weapon itself rather than needing to bind it to other forms. Arcs of unstable lightning leap from their forms to wrack nearby foes, and with a gesture these Crypteks can channel those same energies into searing ranged blasts.",
+    "keywords": [
+        "infantry",
+        "character",
+        "cryptek",
+        "plasmancer"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Harbinger of Destruction ",
-        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit."
-      },
-      {
-        "name": "Living Lightning ",
-        "description": "In your Shooting phase , select one enemy unit within 18\" of and visible to this model and roll one D6 for each model in that enemy unit: for each 6, that unit suffers 1 mortal wound ."
-      }
+    "leader": [
+        "Immortals",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Plasmic lance",
+            "modifiers": [],
+            "range": 18,
+            "strength": 7,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Harbinger of Destruction ",
+                "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit."
+            },
+            {
+                "name": "Living Lightning ",
+                "description": "In your Shooting phase , select one enemy unit within 18\" of and visible to this model and roll one D6 for each model in that enemy unit: for each 6, that unit suffers 1 mortal wound ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Plasmancer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plasmic lance"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 55
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Plasmic lance",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Plasmancer",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["plasmic lance"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 55
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Plasmic lance",
-         "attacks": 2,
-         "weapons-skills": 4,
-         "strength": 7,
-         "armor-penetration": 3,
-         "damage": 2,
-         "modifiers": []
-       }
-   ]
 }

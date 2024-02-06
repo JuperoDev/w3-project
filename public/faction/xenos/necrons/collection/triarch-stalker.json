@@ -1,132 +1,138 @@
 {
-  "parentUnit": "Triarch Stalker",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Triarch Stalkers are agile combat walkers whose heavy firepower makes them excellent tank-hunters and anti-infantry assault units both. As though their focused blasts of energy and flame were not enough, they can also augment the targeting of nearby Necron forces to further punish the foe.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "triarch stalker"
-  ],
-  "attributes": [{
-    
-    "movement": 8,
-    "toughness": 8,
-    "save": 3,
-    "wounds": 12,
-    "leadership": 7,
-    "objetiveControl": 4,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heat ray - dispersed",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "2d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Heat ray - focused",
-      "modifiers": [
-        "melta 4"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": true
-    },
-    {
-      "name": "Particle shredder",
-      "modifiers": [
-        "blast",
-        "devastating wounds"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": "d6+6",
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy gauss cannon array",
-      "modifiers": [
-        "lethal hits",
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3","scouts 8"
+    "parentUnit": "Triarch Stalker",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Triarch Stalkers are agile combat walkers whose heavy firepower makes them excellent tank-hunters and anti-infantry assault units both. As though their focused blasts of energy and flame were not enough, they can also augment the targeting of nearby Necron forces to further punish the foe.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "triarch stalker"
     ],
-    "otherAbilities": [
-      {
-        "name": "Targeting Relay ",
-        "description": "In your Shooting phase , each time this model is selected to shoot, after resolving its attacks, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover ."
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 7,
+            "objetiveControl": 4,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heat ray - dispersed",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "2d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Heat ray - focused",
+            "modifiers": [
+                "melta 4"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": true
+        },
+        {
+            "name": "Particle shredder",
+            "modifiers": [
+                "blast",
+                "devastating wounds"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": "d6+6",
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy gauss cannon array",
+            "modifiers": [
+                "lethal hits",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "scouts 8"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Targeting Relay ",
+                "description": "In your Shooting phase , each time this model is selected to shoot, after resolving its attacks, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s heat ray can be replaced with one of the following",
+            "items": [
+                "1 particle shredder",
+                "1 heavy gauss cannon array"
+            ]
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Triarch Stalker",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heat ray",
+                " Stalker’s forelimbs."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 125
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Stalker’s forelimbs",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 3,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "This model’s heat ray can be replaced with one of the following",
-      "items": [
-        "1 particle shredder",
-        "1 heavy gauss cannon array"
-      ]
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Triarch Stalker",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["heat ray"," Stalker’s forelimbs."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 125
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Stalker’s forelimbs",
-         "attacks": 4,
-         "weapons-skills": 3,
-         "strength": 7,
-         "armor-penetration": 1,
-         "damage": 3,
-         "modifiers": []
-       }
-   ]
 }

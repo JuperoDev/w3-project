@@ -1,216 +1,216 @@
 {
-  "parentUnit": "Battlewagon",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "No two Battlewagons are the same, for the Meks that build them can never resist cobbling on armour plates, ramming spikes, assorted dakka and random worky-gubbinz. However, all are rugged transport tanks with the capacity to bear a vast number of angry Orks into battle while shrugging off the worst the enemy can throw at them.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "battlewagon"
-  ],
-  "attributes": {
-    "movement": 10,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 16,
-    "leadership": 7,
-    "objetiveControl": 5,
-    "invulnerableSave": 6
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Big shoota",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kannon - frag",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Killkannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Lobba",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Zzap gun",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 36,
-      "strength": null,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Firing Deck 22"
+    "parentUnit": "Battlewagon",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "No two Battlewagons are the same, for the Meks that build them can never resist cobbling on armour plates, ramming spikes, assorted dakka and random worky-gubbinz. However, all are rugged transport tanks with the capacity to bear a vast number of angry Orks into battle while shrugging off the worst the enemy can throw at them.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "battlewagon"
     ],
-    "otherAbilities": [
-      {
-        "name": "Ramshackle but Rugged:",
-        "description": "Each time an attack is allocated to this model, worsen the Armour Penetration characteristic of that attack by 1."
-      }
+    "attributes": {
+        "movement": 10,
+        "toughness": 10,
+        "save": 3,
+        "wounds": 16,
+        "leadership": 7,
+        "objetiveControl": 5,
+        "invulnerableSave": 6
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Big shoota",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kannon - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Killkannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lobba",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Zzap gun",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 36,
+            "strength": null,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Firing Deck 22"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Ramshackle but Rugged:",
+                "description": "Each time an attack is allocated to this model, worsen the Armour Penetration characteristic of that attack by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 kannon",
+                "1 killkannon",
+                "1 zzap gun"
+            ]
+        },
+        {
+            "description": "This model can be equipped with",
+            "items": [
+                "1 lobba"
+            ]
+        },
+        {
+            "description": "This model can be equipped with up to 4 big shootas.",
+            "items": []
+        },
+        {
+            "description": "This model’s tracks and wheels can be replaced with 1 deff rolla.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with any of the following",
+            "items": [
+                "1 ’ard case",
+                "1 grabbin’ klaw",
+                "1 wreckin’ ball"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Big shoota",
+            "modifiers": "rapidfire2",
+            "attacks": "3",
+            "weapons-skills": "5+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Kannon – frag",
+            "modifiers": "blast",
+            "attacks": "D6",
+            "weapons-skills": "5+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Killkannon",
+            "modifiers": "blast",
+            "attacks": "D6+3",
+            "weapons-skills": "5+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Lobba",
+            "modifiers": "blast,indirectfire",
+            "attacks": "D6",
+            "weapons-skills": "5+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Deff rolla",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "3+",
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Grabbin’ klaw",
+            "modifiers": "extraattacks",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Tracks and wheels",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "4+",
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Wreckin’ ball",
+            "modifiers": "extraattacks",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 10,
+            "armor-penetration": 0,
+            "damage": "D6"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 kannon",
-        "1 killkannon",
-        "1 zzap gun"
-      ]
-    },
-    {
-      "description": "This model can be equipped with",
-      "items": [
-        "1 lobba"
-      ]
-    },
-    {
-      "description": "This model can be equipped with up to 4 big shootas.",
-      "items": []
-    },
-    {
-      "description": "This model’s tracks and wheels can be replaced with 1 deff rolla.",
-      "items": []
-    },
-    {
-      "description": "This model can be equipped with any of the following",
-      "items": [
-        "1 ’ard case",
-        "1 grabbin’ klaw",
-        "1 wreckin’ ball"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Big shoota",
-      "modifiers": "rapidfire2",
-      "attacks": "3",
-      "weapons-skills": "5+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Kannon – frag",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": "5+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Killkannon",
-      "modifiers": "blast",
-      "attacks": "D6+3",
-      "weapons-skills": "5+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Lobba",
-      "modifiers": "blast,indirectfire",
-      "attacks": "D6",
-      "weapons-skills": "5+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Deff rolla",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 9,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Grabbin’ klaw",
-      "modifiers": "extraattacks",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Tracks and wheels",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "4+",
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Wreckin’ ball",
-      "modifiers": "extraattacks",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 10,
-      "armor-penetration": 0,
-      "damage": "D6"
-    }
-  ]
 }

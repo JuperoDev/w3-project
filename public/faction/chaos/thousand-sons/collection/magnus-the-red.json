@@ -1,149 +1,149 @@
 {
-  "parentUnit": "Magnus The Red",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {
-    "remainingWounds": 6,
-    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": true,
-  "lore": "None dare meet the one-eyed gaze of the Crimson King. He is a nexus of sorcerous energies, a sentient confluence of fate and magic bound within the shimmering flesh of a daemonic demigod. Magnus unleashes his magicks in an unstoppable tempest, and the luckiest of his victims are those who die swiftly…",
-  "keywords": [
-    "monster",
-    "psyker",
-    "fly",
-    "character",
-    "epic hero",
-    "daemon",
-    "chaos",
-    "tzeentch",
-    "primarch",
-    "magnus the red"
-  ],
-  "attributes": [
-    {
-      "movement": 14,
-      "toughness": 11,
-      "save": 2,
-      "wounds": 16,
-      "leadership": 5,
-      "objetiveControl": 6,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Gaze of Magnus",
-      "modifiers": [
-        "devastating wounds",
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": "3d3",
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Tzeentch’s Firestorm",
-      "modifiers": [
-        "blast",
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": "d6+3",
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Blade of Magnus – strike",
-      "modifiers": [
-        "devastating wounds",
-        "psychic"
-      ],
-      "strength": 16,
-      "attacks": 7,
-      "weapons-skills": 2,
-      "armor-penetration": 3,
-      "damage": 3,
-      "singleChoice": true
-    },
-    {
-      "name": "Blade of Magnus – sweep",
-      "modifiers": [
-        "psychic"
-      ],
-      "strength": 8,
-      "attacks": 14,
-      "weapons-skills": 2,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Deep Strike"
+    "parentUnit": "Magnus The Red",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-      "Cabal of Sorcerers 4"
+    "damaged": {
+        "remainingWounds": 6,
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": true,
+    "lore": "None dare meet the one-eyed gaze of the Crimson King. He is a nexus of sorcerous energies, a sentient confluence of fate and magic bound within the shimmering flesh of a daemonic demigod. Magnus unleashes his magicks in an unstoppable tempest, and the luckiest of his victims are those who die swiftly…",
+    "keywords": [
+        "monster",
+        "psyker",
+        "fly",
+        "character",
+        "epic hero",
+        "daemon",
+        "chaos",
+        "tzeentch",
+        "primarch",
+        "magnus the red"
     ],
-    "otherAbilities": [
-      {
-        "name": "Unearthly Power",
-        "description": "At the start of the battle round, select one of the abilities in the Crimson King section (see left). Until the start of the next battle round, this model has that ability."
-      },
-      {
-        "name": "Lord of the Planet of the Sorcerers (Aura)",
-        "description": "While a friendly THOUSAND SONS PSYKER unit is within 6'' of this model, each time a model in that unit makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll."
-      }
-    ]
-  },
-  "additionalParameter": {
-    "title": "Crimson King",
-    "abilities": [
-      {
-        "name": "Impossible Form (Psychic)",
-        "description": "Each time an attack is made against this PSYKER (excluding Psychic Attacks), subtract 1 from that attack’s Damage characteristic."
-      },
-      {
-        "name": "Treason of Tzeentch (Psychic)",
-        "description": "At the start of your opponent’s Shooting phase, you can select one enemy unit within 24'' of and visible to this PSYKER. Until the end of the phase, ranged weapons equipped by models in that unit have the [HAZARDOUS] ability."
-      },
-      {
-        "name": "Time Flux (Aura, Psychic)",
-        "description": "While a friendly THOUSAND SONS unit is within 6'' of this PSYKER, add 2'' to the Move characteristic of models in that unit."
-      }
-    ]
-  },
-  "unitComposition": [
-    {
-      "unitType": "Magnus the Red – EPIC HERO ",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Gaze of Magnus; Tzeentch’s Firestorm",
-        "Blade of Magnus."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 440
-    }
-  ],
-  "wargear": []
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 5,
+            "objetiveControl": 6,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Gaze of Magnus",
+            "modifiers": [
+                "devastating wounds",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": "3d3",
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Tzeentch’s Firestorm",
+            "modifiers": [
+                "blast",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": "d6+3",
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Blade of Magnus – strike",
+            "modifiers": [
+                "devastating wounds",
+                "psychic"
+            ],
+            "strength": 16,
+            "attacks": 7,
+            "weapons-skills": 2,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Blade of Magnus – sweep",
+            "modifiers": [
+                "psychic"
+            ],
+            "strength": 8,
+            "attacks": 14,
+            "weapons-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Deep Strike"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 4"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Unearthly Power",
+                "description": "At the start of the battle round, select one of the abilities in the Crimson King section (see left). Until the start of the next battle round, this model has that ability."
+            },
+            {
+                "name": "Lord of the Planet of the Sorcerers (Aura)",
+                "description": "While a friendly THOUSAND SONS PSYKER unit is within 6'' of this model, each time a model in that unit makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll."
+            }
+        ]
+    },
+    "additionalParameter": {
+        "title": "Crimson King",
+        "abilities": [
+            {
+                "name": "Impossible Form (Psychic)",
+                "description": "Each time an attack is made against this PSYKER (excluding Psychic Attacks), subtract 1 from that attack’s Damage characteristic."
+            },
+            {
+                "name": "Treason of Tzeentch (Psychic)",
+                "description": "At the start of your opponent’s Shooting phase, you can select one enemy unit within 24'' of and visible to this PSYKER. Until the end of the phase, ranged weapons equipped by models in that unit have the [HAZARDOUS] ability."
+            },
+            {
+                "name": "Time Flux (Aura, Psychic)",
+                "description": "While a friendly THOUSAND SONS unit is within 6'' of this PSYKER, add 2'' to the Move characteristic of models in that unit."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Magnus the Red – EPIC HERO ",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Gaze of Magnus; Tzeentch’s Firestorm",
+                "Blade of Magnus."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 440
+        }
+    ],
+    "wargear": []
 }

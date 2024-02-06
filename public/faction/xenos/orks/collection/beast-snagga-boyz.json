@@ -1,112 +1,112 @@
 {
-  "parentUnit": "Beast Snagga Boyz",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Big, brutal, and belligerent, Beast Snagga Boyz are a force to be reckoned with. From the cannonball-like fist-shells of their thump guns, to the inescapable hooks of their choppas, Beast Snaggas excel in softening up their prey, dragging them down, then ripping them bodily to bits.",
-  "keywords": [
-    "infantry",
-    "mob",
-    "battleline",
-    "beast snagga",
-    "beast snagga boyz"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Beast Snagga Boyz",
+    "factionKeyword": [
+        "orks"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Big, brutal, and belligerent, Beast Snagga Boyz are a force to be reckoned with. From the cannonball-like fist-shells of their thump guns, to the inescapable hooks of their choppas, Beast Snaggas excel in softening up their prey, dragging them down, then ripping them bodily to bits.",
+    "keywords": [
+        "infantry",
+        "mob",
+        "battleline",
+        "beast snagga",
+        "beast snagga boyz"
+    ],
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 1,
+        "leadership": 7,
+        "objetiveControl": 2,
+        "invulnerableSave": 0
     },
-    {
-      "name": "Thump gun",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 6+"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Thump gun",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "faction": [
-      "Waaagh!"
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Monster Hunters:",
+                "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "For every 10 models in this unit, 1 Beast Snagga Boy’s slugga and choppa can be replaced with 1 thump gun and 1 close combat weapon.",
+            "items": []
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Monster Hunters:",
-        "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll ."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": "pistol",
+            "attacks": "1",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power snappa",
+            "modifiers": [],
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "For every 10 models in this unit, 1 Beast Snagga Boy’s slugga and choppa can be replaced with 1 thump gun and 1 close combat weapon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power snappa",
-      "modifiers": [],
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ]
 }

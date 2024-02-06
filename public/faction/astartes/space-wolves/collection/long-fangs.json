@@ -1,377 +1,387 @@
 {
-  "parentUnit": "Long Fangs",
-  "factionKeyword": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Dour and grizzled veterans, Long Fangs are steady of hand and temperament, hoary with wisdom and literally long of fang. To these patient warriors are granted some of the Great Company’s most devastating ranged weapons. Keen of eye, Long Fangs hunt the monstrous beasts and battle tanks of the foe.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "imperium",
-    "long fangs"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Grav-cannon",
-      "modifiers": [
-        "anti-vehicle 2+",
-        "heavy"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Grav-gun",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "heavy",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Lascannon",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Missile launcher - frag",
-      "modifiers": [
-        "blast",
-        "heavy"
-      ],
-      "range": 48,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Missile launcher - krak",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": "d6",
-      "singleChoice": true
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "heavy",
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - standard",
-      "modifiers": [
-        "blast",
-        "heavy"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": "d3",
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma cannon - supercharge",
-      "modifiers": [
-        "blast",
-        "hazardous",
-        "heavy"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": "d3",
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma gun - standard",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma gun - supercharge",
-      "modifiers": [
-        "hazardous",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Long Fangs",
+    "factionKeyword": [
+        "adeptus astartes",
+        "space wolves"
     ],
-    "faction": ["Oath of Moment"],
-    "otherAbilities": [
-      {
-        "name": "Fire Discipline",
-        "description": "Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1."
-      },
-      {
-        "name": "Armorium Cherub",
-        "description": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6. Designer’s Note: Place an Armorium Cherub token next to the unit, removing it once this ability has been used. Before selecting targets for this weapon, select one of its profiles to make attacks with."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of Long Fangs can each have their boltgun replaced with one of the following",
-      "items": [
-        "1 grav-cannon",
-        "1 heavy bolter",
-        "1 heavy flamer",
-        "1 lascannon",
-        "1 missile launcher",
-        "1 multi-melta",
-        "1 plasma cannon"
-      ]
-    },
-    {
-      "description": "The Long Fang Pack Leader’s boltgun can be replace with one of the following1 flamer1 grav-gun1 meltagun1 plasma gun1 plasma pistol",
-      "items": [
-        "1 flamer",
-        "1 grav-gun",
-        "1 meltagun",
-        "1 plasma gun",
-        "1 plasma pistol"
-      ]
-    },
-    {
-      "description": "The Long Fang Pack Leader’s close combat weapon can be replaced with one of the following",
-      "items": [
-        "1 Astartes chainsword",
-        "1 power fist",
-        "1 power weapon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Astartes chainsword",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1,4],
-      "points": 150
-    },
-    {
-      "count": [1,5],
-      "points": 180
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Long Fang Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "boltgun","bolt pistol","close combat weapon."
-          ]
-      },
-      {
-        "unitType": "Long Fangs",
-        "minQuantity": 4,
-        "maxQuantity": 5,
-        "equipment": [
-          "boltgun","bolt pistol","close combat weapon."
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Dour and grizzled veterans, Long Fangs are steady of hand and temperament, hoary with wisdom and literally long of fang. To these patient warriors are granted some of the Great Company’s most devastating ranged weapons. Keen of eye, Long Fangs hunt the monstrous beasts and battle tanks of the foe.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "long fangs"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grav-cannon",
+            "modifiers": [
+                "anti-vehicle 2+",
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Grav-gun",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - frag",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - standard",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous",
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Fire Discipline",
+                "description": "Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1."
+            },
+            {
+                "name": "Armorium Cherub",
+                "description": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6. Designer’s Note: Place an Armorium Cherub token next to the unit, removing it once this ability has been used. Before selecting targets for this weapon, select one of its profiles to make attacks with."
+            }
         ]
-    }
-  ],
-  "additionalParameter": {}
+    },
+    "wargear": [
+        {
+            "description": "Any number of Long Fangs can each have their boltgun replaced with one of the following",
+            "items": [
+                "1 grav-cannon",
+                "1 heavy bolter",
+                "1 heavy flamer",
+                "1 lascannon",
+                "1 missile launcher",
+                "1 multi-melta",
+                "1 plasma cannon"
+            ]
+        },
+        {
+            "description": "The Long Fang Pack Leader’s boltgun can be replace with one of the following1 flamer1 grav-gun1 meltagun1 plasma gun1 plasma pistol",
+            "items": [
+                "1 flamer",
+                "1 grav-gun",
+                "1 meltagun",
+                "1 plasma gun",
+                "1 plasma pistol"
+            ]
+        },
+        {
+            "description": "The Long Fang Pack Leader’s close combat weapon can be replaced with one of the following",
+            "items": [
+                "1 Astartes chainsword",
+                "1 power fist",
+                "1 power weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 150
+        },
+        {
+            "count": [
+                1,
+                5
+            ],
+            "points": 180
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Long Fang Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "boltgun",
+                "bolt pistol",
+                "close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Long Fangs",
+            "minQuantity": 4,
+            "maxQuantity": 5,
+            "equipment": [
+                "boltgun",
+                "bolt pistol",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

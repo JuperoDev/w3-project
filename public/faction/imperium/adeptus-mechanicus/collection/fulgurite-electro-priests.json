@@ -1,74 +1,78 @@
 {
-  "parentUnit": "Fulgurite Electro-priests",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Crackling with power stolen from those they slay, Fulgurite Electro- Priests are fanatical cultists of the Machine God. With their heavy, copper-bound staves, they smite blasphemers that waste the Motive Force, leeching it from heretic warriors and harnessing the holy energy in their capacitors where it empowers their voltagheist field.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "cult mechanicus",
-    "electro-priests",
-    "fulgurite"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 7,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Feel No Pain 5+"
+    "parentUnit": "Fulgurite Electro-priests",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "electroleech stave."
-      }
-    ]
-  },
-  "options": [
-    {
-      "count": [5],
-      "points": 60
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Crackling with power stolen from those they slay, Fulgurite Electro- Priests are fanatical cultists of the Machine God. With their heavy, copper-bound staves, they smite blasphemers that waste the Motive Force, leeching it from heretic warriors and harnessing the holy energy in their capacitors where it empowers their voltagheist field.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "cult mechanicus",
+        "electro-priests",
+        "fulgurite"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 7,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "electroleech stave."
+            }
+        ]
     },
-    {
-     "count": [10],
-     "points": 120
-   }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Electro-Priests",
-          "minQuantity": 5,
-          "maxQuantity": 10,
-          "equipment": [
-           "electroleech stave"
-          ]
-      }
-  ],
- "additionalParameter": {},
- "wargear": [
-   
- ],
- "meleeWeapons": [
-   {
-     "name": "Electroleech stave",
-     "attacks": 2,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 1,
-     "damage": 2,
-     "modifiers": []
-   }
- ]
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 120
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Electro-Priests",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "electroleech stave"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Electroleech stave",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ]
 }

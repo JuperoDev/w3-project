@@ -1,14 +1,16 @@
 {
     "parentUnit": "hive crone",
-    "attributes": [{
-        "movement": 20,
-        "toughness": 9,
-        "save": 3,
-        "wounds": 12,
-        "leadership": 8,
-        "objetiveControl": 0,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 8,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Hive Crones scour the skies for prey fighter craft. The tentaclids they release pursue enemy aircraft before erupting in bio-electric pulses that banish motive force and send the dark, dead machines tumbling groundward. Then, drool cannons slathering, the Hive Crones dive down to seek fresh, land-based prey. ",
     "factionKeyword": [
@@ -21,7 +23,7 @@
         "aircraft",
         "hive crone"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Scything wings",
@@ -39,47 +41,54 @@
             "strength": 10,
             "armor-penetration": 3,
             "damage": "d6",
-            "modifiers": ["anti-fly 2+", "extra attacks"]
-        }],
-        "supremeCommander": false,
-        "damaged": {},
-      
-        "additionalParameter": {},
-
-        "options": [
-          {
-            "count": [1],
+            "modifiers": [
+                "anti-fly 2+",
+                "extra attacks"
+            ]
+        }
+    ],
+    "supremeCommander": false,
+    "damaged": {},
+    "additionalParameter": {},
+    "options": [
+        {
+            "count": [
+                1
+            ],
             "points": 200
-          }
-        ],
-        "unitComposition": [
-            {
-                "unitType": "hive crone",
-                "minQuantity": 1,
-                "maxQuantity": 1,
-                "equipment": [
-                  "droll cannon",
-                  "stinger salvoes",
-                  "tentaclids",
-                  "scything wings",
-                  "thorax spur"
-                ]
-            }
-        ],
-        "abilities": {
-          "core": [
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "hive crone",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "droll cannon",
+                "stinger salvoes",
+                "tentaclids",
+                "scything wings",
+                "thorax spur"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
             "Deadly Demise D3",
             "Hover"
-          ],
-          "faction": [
+        ],
+        "faction": [
             "Synapse"
-          ],
-          "otherAbilities": [{"name":
-            "Airborne Predator", "description": "Each time this model makes a ranged attack that targets a unit that can FLY , add 1 to the Hit roll ."
-          }]
-        },
-        "rangedWeapons": [
-          {
+        ],
+        "otherAbilities": [
+            {
+                "name": "Airborne Predator",
+                "description": "Each time this model makes a ranged attack that targets a unit that can FLY , add 1 to the Hit roll ."
+            }
+        ]
+    },
+    "rangedWeapons": [
+        {
             "name": "Drool cannon",
             "range": 12,
             "attacks": "2d6",
@@ -88,10 +97,10 @@
             "armor-penetration": 1,
             "damage": 1,
             "modifiers": [
-              "torrent"
+                "torrent"
             ]
-          },
-          {
+        },
+        {
             "name": "stigner salvoes",
             "range": 24,
             "attacks": 8,
@@ -99,11 +108,9 @@
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-              
-            ]
-          },
-          {
+            "modifiers": []
+        },
+        {
             "name": "Tentaclids",
             "range": 36,
             "attacks": 4,
@@ -112,9 +119,9 @@
             "armor-penetration": 0,
             "damage": 2,
             "modifiers": [
-              "anti-vehicle 4+",
-              "devastating wounds"
+                "anti-vehicle 4+",
+                "devastating wounds"
             ]
-          }
-        ]
+        }
+    ]
 }

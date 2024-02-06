@@ -1,95 +1,98 @@
 {
-  "parentUnit": "world eaters master of executions",
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 4,
-      "save": 3,
-      "wounds": 4,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 0
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Axe of dismemberment",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": [
-        "devastating wounds",
-        "precision"
-      ],
-      "singleChoice": false
-    }
-  ],
-  "keywords": [
-    " Infantry",
-    "Character",
-    "Chaos",
-    "Khorne",
-    "Master of Executions"
-  ],
-  "factionKeyword": [
-    "World Eaters"
-  ],
-  "wargear": [],
-  "abilities": {
-    "core": [
-      "leader"
+    "parentUnit": "world eaters master of executions",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
     ],
-    "faction": [
-      "Blessings of Khorne"
+    "meleeWeapons": [
+        {
+            "name": "Axe of dismemberment",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "devastating wounds",
+                "precision"
+            ],
+            "singleChoice": false
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Trophy Taker",
-        "description": "While this model is leading a unit, models in that unit have the Fights First ability"
-      },
-      {
-        "name": "Murderous Swing",
-        "description": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
-      }
+    "keywords": [
+        " Infantry",
+        "Character",
+        "Chaos",
+        "Khorne",
+        "Master of Executions"
+    ],
+    "factionKeyword": [
+        "World Eaters"
+    ],
+    "wargear": [],
+    "abilities": {
+        "core": [
+            "leader"
+        ],
+        "faction": [
+            "Blessings of Khorne"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Trophy Taker",
+                "description": "While this model is leading a unit, models in that unit have the Fights First ability"
+            },
+            {
+                "name": "Murderous Swing",
+                "description": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            }
+        ]
+    },
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "world eaters master of executions",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "axe of dismemberment"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [
+        "khorne berzerkers"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "bolt pistol",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "pistol"
+            ],
+            "singleChoice": false
+        }
     ]
-  },
-  "damaged": {},
-  "unitComposition": [
-    {
-      "unitType": "world eaters master of executions",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["bolt pistol", "axe of dismemberment"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 80
-    }
-  ],
-  "additionalParameter": {},
-  "supremeCommander": false,
-  "leader": [
-    "khorne berzerkers"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "bolt pistol",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "pistol"
-      ],
-      "singleChoice": false
-    }
-  ]
 }

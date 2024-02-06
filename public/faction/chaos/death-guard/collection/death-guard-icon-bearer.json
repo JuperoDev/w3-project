@@ -1,74 +1,72 @@
 {
-  "parentUnit": "Death Guard Icon Bearer",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The icons borne by the Death Guard are rusted and corrupted dedications to Nurgle, forged into the shape of the Grandfather’s symbol. So wreathed in disease are these banners that nearby enemies are rapidly afflicted, dying agonising deaths as their convulsing bodies are reduced to slop.",
-  "keywords": [
-    "infantry",
-    "character",
-    "chaos",
-    "nurgle",
-    "grenades",
-    "death guard icon bearer"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 5,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Plague boltgun",
-      "modifiers": [
-        "lethal hits"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Death Guard Icon Bearer",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The icons borne by the Death Guard are rusted and corrupted dedications to Nurgle, forged into the shape of the Grandfather’s symbol. So wreathed in disease are these banners that nearby enemies are rapidly afflicted, dying agonising deaths as their convulsing bodies are reduced to slop.",
+    "keywords": [
+        "infantry",
+        "character",
+        "chaos",
+        "nurgle",
+        "grenades",
+        "death guard icon bearer"
     ],
-    "otherAbilities": [
-      {
-        "name": "Unclean Icon:",
-        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
-      },
-      {
-        "name": "Seed the Disease:",
-        "description": "Once per battle, at the end of your Movement phase , this model can use this ability. If it does, until the start of your next Command phase , this model’s unit is treated as having a Contagion Range of 12\"."
-      }
+    "attributes": {
+        "movement": 5,
+        "toughness": 5,
+        "save": 3,
+        "wounds": 4,
+        "leadership": 5,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Plague boltgun",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Unclean Icon:",
+                "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+            },
+            {
+                "name": "Seed the Disease:",
+                "description": "Once per battle, at the end of your Movement phase , this model can use this ability. If it does, until the start of your next Command phase , this model’s unit is treated as having a Contagion Range of 12\"."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Plague knife",
+            "modifiers": "lethalhits",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Plague knife",
-      "modifiers": "lethalhits",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

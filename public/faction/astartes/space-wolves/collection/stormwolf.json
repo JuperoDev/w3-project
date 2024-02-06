@@ -1,168 +1,173 @@
 {
-  "parentUnit": "Stormwolf",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Stormwolves enable the sons of Russ to bring the fight to the enemy wherever they hide. Within their wide hold, packs of warriors are borne with incredible speed into the foe’s midst. As the packs leap out to attack, Stormwolves saturate the area with an array of heavy fire, before rising to hunt for yet more targets.",
-  "keywords": [
-    "vehicle",
-    "aircraft",
-    "fly",
-    "transport",
-    "stormwolf"
-  ],
-  "attributes": [{
-    "movement": 20,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 14,
-    "leadership": 6,
-    "objetiveControl": 0,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Skyhammer missile launcher",
-      "modifiers": [
-        "anti-fly 2+"
-      ],
-      "range": 48,
-      "strength": 8,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin helfrost cannon - dispersed",
-      "modifiers": [
-        "torrent",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Twin helfrost cannon - focused",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 5,
-      "singleChoice": true
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Twin multi-melta",
-      "modifiers": [
-        "melta 2",
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Hover"
+    "parentUnit": "Stormwolf",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Stormwolves enable the sons of Russ to bring the fight to the enemy wherever they hide. Within their wide hold, packs of warriors are borne with incredible speed into the foe’s midst. As the packs leap out to attack, Stormwolves saturate the area with an array of heavy fire, before rising to hunt for yet more targets.",
+    "keywords": [
+        "vehicle",
+        "aircraft",
+        "fly",
+        "transport",
+        "stormwolf"
     ],
-    "otherAbilities": [
-      {
-        "name": "Into the Foe",
-        "description": "If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s 2 skyhammer missile launchers can replaced with one of the following",
-      "items": [
-        "2 twin heavy bolters",
-        "2 twin multi-meltas"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Armoured hull",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 250
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Stormwolf",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "2 skyhammer missile launchers", "twin helfrost cannon", "twin lascannon", "armoured hull" 
-          ]
-      }
-  ],
-  "additionalParameter": {},
-  "transport":"This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 14,
+            "leadership": 6,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Skyhammer missile launcher",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin helfrost cannon - dispersed",
+            "modifiers": [
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Twin helfrost cannon - focused",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 5,
+            "singleChoice": true
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Twin multi-melta",
+            "modifiers": [
+                "melta 2",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Hover"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Into the Foe",
+                "description": "If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s 2 skyhammer missile launchers can replaced with one of the following",
+            "items": [
+                "2 twin heavy bolters",
+                "2 twin multi-meltas"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 250
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Stormwolf",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 skyhammer missile launchers",
+                "twin helfrost cannon",
+                "twin lascannon",
+                "armoured hull"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "transport": "This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
 }

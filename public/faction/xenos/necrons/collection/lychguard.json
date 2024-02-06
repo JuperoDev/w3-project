@@ -1,84 +1,96 @@
 {
-  "parentUnit": "Lychguard",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Incapable of disloyalty and clad in forms as resilient and resplendent as their masters’, Lychguard are the ultimate protectors. Whether reaping the foe with warscythes or advancing with dispersion shields locked and hyperphase swords thrumming, at close quarters these bodyguards are nigh on unstoppable.",
-  "keywords": [
-    "infantry",
-    "lychguard"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Lychguard",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-    "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Incapable of disloyalty and clad in forms as resilient and resplendent as their masters’, Lychguard are the ultimate protectors. Whether reaping the foe with warscythes or advancing with dispersion shields locked and hyperphase swords thrumming, at close quarters these bodyguards are nigh on unstoppable.",
+    "keywords": [
+        "infantry",
+        "lychguard"
     ],
-    "otherAbilities": [{
-      "name":"Guardian Protocols", "description":" While a NOBLE model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [{"description":"All models in this unit can each have their warscythe replaced with 1 hyperphase sword and 1 dispersion shield."}],
-  "warGearAbilities":[
-    {
-      "wargear": "Dispersion Shield",
-      "ability": "The bearer has a 4+ invulnerable save."
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Lychguard",
-       "minQuantity": 5,
-       "maxQuantity": 10,
-       "equipment": ["warscythe"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [5],
-       "points": 85
-     },
-     {
-         "count": [10],
-         "points": 170
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Hyperphase sword",
-         "attacks": 3,
-         "weapons-skills": 3,
-         "strength": 6,
-         "armor-penetration": 2,
-         "damage": 1,
-         "modifiers": []
-       },
-       {
-        "name": "Warscythe",
-        "attacks": 2,
-        "weapons-skills": 3,
-        "strength": 8,
-        "armor-penetration": 3,
-        "damage": 2,
-        "modifiers": ["devastating wounds"]
-      }
-   ]
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Guardian Protocols",
+                "description": " While a NOBLE model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "All models in this unit can each have their warscythe replaced with 1 hyperphase sword and 1 dispersion shield."
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Dispersion Shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Lychguard",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "warscythe"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 85
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 170
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Hyperphase sword",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Warscythe",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "devastating wounds"
+            ]
+        }
+    ]
 }

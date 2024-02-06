@@ -1,266 +1,279 @@
 {
-  "parentUnit": "Neophyte Hybrids",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Making up the bulk of their cult’s ranks, Neophyte Hybrids are the least alien in appearance of all the Patriarch’s brood. They are no less dangerous for this, however, and what they lack in weaponised bio-adaptations they make up for in numbers, massed firepower and zealous revolutionary fanaticism.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "great devourer",
-    "neophyte hybrids"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Autopistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hybrid firearm",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Leader pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Grenade launcher - frag",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": "d3",
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Grenade launcher - krak",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Mining laser",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 24,
-      "strength": 12,
-      "attacks": 3,
-      "ballistic-skills": 5,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Seismic cannon",
-      "modifiers": [
-        "heavy",
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 5,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Webber",
-      "modifiers": [
-        "devastating wounds",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 2,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Neophyte Hybrids",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-      "Cult Ambush"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Making up the bulk of their cult’s ranks, Neophyte Hybrids are the least alien in appearance of all the Patriarch’s brood. They are no less dangerous for this, however, and what they lack in weaponised bio-adaptations they make up for in numbers, massed firepower and zealous revolutionary fanaticism.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "great devourer",
+        "neophyte hybrids"
     ],
-    "otherAbilities": [{
-      "name":"A Plan Generations in the Making:",
-      "description":"At the start of your Command phase , roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
-    }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Neophyte Leader",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["autopistol","Hybrid firearm","close combat weapon."]
-    },
-    {
-      "unitType": "Neophyte Hybrids",
-      "minQuantity": 9,
-      "maxQuantity": 19,
-      "equipment": ["autopistol","Hybrid firearm","close combat weapon."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 90
-    },
-    {
-      "count": [
-        1,
-        19
-      ],
-      "points": 180}],
-      "wargear": [
-      {
-        "description":"For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:",
-        "items": [
-          "Flamer",
-          "Grenade launcher",
-          "Webber"
-        ]
-      },
-      {
-        "description":"For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:",
-        "items": [
-          "Heavy stubber",
-          "Mining laser",
-          "Seismic cannon"
-        ]
-      },
-      {
-        "description":"One Neophyte Hybrid equipped with a Hybrid firearm can be equipped with 1 cult icon."
-      },
-      {
-        "description":"The Neophyte Leader’s Hybrid firearm and close combat weapon can be replaced with 1 of the following:",
-        "items": [
-          "1 Leader pistol and 1 chainsword",
-          "1 Leader pistol and 1 power weapon"
-        ]
-      }],
-
-      "meleeWeapons": [
+    "attributes": [
         {
-          "name": "Chainsword",
-          "attacks": 2,
-          "weapons-skills": 4,
-          "strength": 3,
-          "armor-penetration": 0,
-          "damage": 1,
-          "modifiers": []
-      },
-      {
-        "name": "Power weapon",
-        "attacks": 1,
-        "weapons-skills": 4,
-        "strength": 4,
-        "armor-penetration": 2,
-        "damage": 1,
-        "modifiers": []
-    },
-    {
-      "name": "Close combat weapon",
-      "attacks": 1,
-      "weapons-skills": 4,
-      "strength": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": []
-  }
-      ],
-      "warGearAbilities":[
-        {
-          "wargear":"Cult Icon",
-          "ability":"In the Reinforcements step of your Movement phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
         }
-      ]
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hybrid firearm",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Leader pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Mining laser",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 12,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Seismic cannon",
+            "modifiers": [
+                "heavy",
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Webber",
+            "modifiers": [
+                "devastating wounds",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Cult Ambush"
+        ],
+        "otherAbilities": [
+            {
+                "name": "A Plan Generations in the Making:",
+                "description": "At the start of your Command phase , roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Neophyte Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "autopistol",
+                "Hybrid firearm",
+                "close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Neophyte Hybrids",
+            "minQuantity": 9,
+            "maxQuantity": 19,
+            "equipment": [
+                "autopistol",
+                "Hybrid firearm",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                1,
+                19
+            ],
+            "points": 180
+        }
+    ],
+    "wargear": [
+        {
+            "description": "For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:",
+            "items": [
+                "Flamer",
+                "Grenade launcher",
+                "Webber"
+            ]
+        },
+        {
+            "description": "For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:",
+            "items": [
+                "Heavy stubber",
+                "Mining laser",
+                "Seismic cannon"
+            ]
+        },
+        {
+            "description": "One Neophyte Hybrid equipped with a Hybrid firearm can be equipped with 1 cult icon."
+        },
+        {
+            "description": "The Neophyte Leader’s Hybrid firearm and close combat weapon can be replaced with 1 of the following:",
+            "items": [
+                "1 Leader pistol and 1 chainsword",
+                "1 Leader pistol and 1 power weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Power weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Cult Icon",
+            "ability": "In the Reinforcements step of your Movement phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+        }
+    ]
 }

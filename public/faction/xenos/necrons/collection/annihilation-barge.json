@@ -1,111 +1,124 @@
 {
-  "parentUnit": "Annihilation Barge",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Slow-moving but deadly, Annihilation Barges serve as anti-infantry fire support platforms. They are often deployed to watch over important strategic locations, gliding serenely into position upon a cushion of repulsion energies before unleashing furious storms of eldritch lightning from their massive cannons.",
-  "keywords": [
-    "vehicle",
-    "fly",
-    "annihilation barge"
-  ],
-  "attributes": [ {
-    
-    "movement": 10,
-    "toughness": 8,
-    "save": 3,
-    "wounds": 9,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Gauss cannon",
-      "modifiers": [
-        "lethal hits"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Tesla cannon",
-      "modifiers": [
-        "sustained hits 2"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 4,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin tesla destructor",
-      "modifiers": [
-        "sustained hits 2",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
+    "parentUnit": "Annihilation Barge",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Slow-moving but deadly, Annihilation Barges serve as anti-infantry fire support platforms. They are often deployed to watch over important strategic locations, gliding serenely into position upon a cushion of repulsion energies before unleashing furious storms of eldritch lightning from their massive cannons.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "annihilation barge"
     ],
-    "otherAbilities": [{"name":
-      "Malevolent Arcing ","description": "In your Shooting phase , each time you select a target for this model’s twin tesla destructor, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 5+, the unit being rolled for is struck by arcing energies; after resolving all of this model’s attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds ."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [{"description":"This model’s gauss cannon can be replaced with 1 tesla cannon."}],
-  "unitComposition": [
-     {
-       "unitType": " Annihilation Barge",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["gauss cannon; twin tesla destructor","armoured bulk."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 115
-     },
-     {
-         "count": [10],
-         "points": 120
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Armoured bulk",
-         "attacks": 3,
-         "weapons-skills": 4,
-         "strength": 6,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 9,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Gauss cannon",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Tesla cannon",
+            "modifiers": [
+                "sustained hits 2"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 4,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin tesla destructor",
+            "modifiers": [
+                "sustained hits 2",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Malevolent Arcing ",
+                "description": "In your Shooting phase , each time you select a target for this model’s twin tesla destructor, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 5+, the unit being rolled for is struck by arcing energies; after resolving all of this model’s attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s gauss cannon can be replaced with 1 tesla cannon."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Annihilation Barge",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "gauss cannon; twin tesla destructor",
+                "armoured bulk."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 115
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 120
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured bulk",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

@@ -1,122 +1,121 @@
 {
-  "parentUnit": "Kroot Farstalkers",
-  "factionKeyword": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Farstalker Kinbands are opportunistic mercenaries often operating for years far from the Kroot home world. They are experienced raiders, scouts and infiltrators, setting masterful ambushes from which to unleash the deadly weapons they have amassed over long careers as ruthless bounty hunters.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "kroot",
-    "farstalkers"
-  ],
-  "attributes": [
-    {
-      "name": "farstalkers & kill-broker",
-      "movement": 7,
-      "toughness": 3,
-      "save": 6,
-      "wounds": 1,
-      "leadership": 7,
-      "objetiveControl": 1
-    },
-    {
-      "name": "kroot hounds",
-      "movement": 12,
-      "toughness": 3,
-      "save": 6,
-      "wounds": 1,
-      "leadership": 7,
-      "objetiveControl": 0
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Dvorgite skinner",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Farstalker firearm",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Kroot pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Londaxi tribalest",
-      "modifiers": [
-        "anti-vehicle 4+",
-        "devastating wounds",
-        "heavy"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse rifle",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Stealth"
+    "parentUnit": "Kroot Farstalkers",
+    "factionKeyword": [
+        "t’au empire"
     ],
-    "faction": [
-      "Bounty Hunters: At the start of the battle",
-      "select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit",
-      "that attack has the [LETHAL HITS] and [PRECISION] abilities."
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Farstalker Kinbands are opportunistic mercenaries often operating for years far from the Kroot home world. They are experienced raiders, scouts and infiltrators, setting masterful ambushes from which to unleash the deadly weapons they have amassed over long careers as ruthless bounty hunters.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "kroot",
+        "farstalkers"
     ],
-    "otherAbilities": {
-      "Pech’ra:": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
-    }
-  },
-
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "name": "farstalkers & kill-broker",
+            "movement": 7,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1
+        },
+        {
+            "name": "kroot hounds",
+            "movement": 12,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Dvorgite skinner",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Farstalker firearm",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Kroot pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Londaxi tribalest",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds",
+                "heavy"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse rifle",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Stealth"
+        ],
+        "faction": [
+            "Bounty Hunters: At the start of the battle",
+            "select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit",
+            "that attack has the [LETHAL HITS] and [PRECISION] abilities."
+        ],
+        "otherAbilities": {
+            "Pech’ra:": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
+        }
+    },
+    "additionalParameter": {}
 }

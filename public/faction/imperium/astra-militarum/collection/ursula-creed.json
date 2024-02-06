@@ -1,86 +1,92 @@
 {
-  "parentUnit": "Ursula Creed",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Lord Castellan of Cadia is a forbidding and implacable strategist, and a symbol of the enduring indomitability of Cadia’s armies. Ursula Creed’s superior generalship, forged over long years, has seen her lead numerous Imperial armies to victory against the enemies that threaten the Imperium.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "imperium",
-    "officer",
-    "ursula creed"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Cadian Shock Troops",
-  "Infantry Squad",
- " Kasrkin"],
-  "rangedWeapons": [
-    {
-      "name": "Duty and Vengeance",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Voice of Command"
+    "parentUnit": "Ursula Creed",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "Duty and Vengeance; power weapon."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Ursula Creed – EPIC HERO",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "Duty and Vengeance", "power weapon" 
-          ]
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Lord Castellan of Cadia is a forbidding and implacable strategist, and a symbol of the enduring indomitability of Cadia’s armies. Ursula Creed’s superior generalship, forged over long years, has seen her lead numerous Imperial armies to victory against the enemies that threaten the Imperium.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "officer",
+        "ursula creed"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 55
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Cadian Shock Troops",
+        "Infantry Squad",
+        " Kasrkin"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Duty and Vengeance",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Voice of Command"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "Duty and Vengeance; power weapon."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Ursula Creed – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Duty and Vengeance",
+                "power weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 55
+        }
     ]
 }

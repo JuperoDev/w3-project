@@ -1,108 +1,111 @@
 {
-  "parentUnit": "Castellan Crowe",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Castellan Garran Crowe is the Champion of the Order of Purifiers, and his flawless soul radiates outward in a searing, psychic aura. He is the keeper of the Black Blade of Antwyr, a daemon sword that whispers promises and threats. Crowe rejects the blade’s vileness, trusting to his masterful combat prowess.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "imperium",
-    "castellan crowe"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "salvation": 2,
-    "wounds": 5,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Purifying Flame",
-      "modifiers": [
-        "anti-infantry  2+",
-        "ignores cover",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Castellan Crowe",
+    "factionKeywords": [
+        "grey knights"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Castellan Garran Crowe is the Champion of the Order of Purifiers, and his flawless soul radiates outward in a searing, psychic aura. He is the keeper of the Black Blade of Antwyr, a daemon sword that whispers promises and threats. Crowe rejects the blade’s vileness, trusting to his masterful combat prowess.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "imperium",
+        "castellan crowe"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Purifying Flame",
+            "modifiers": [
+                "anti-infantry  2+",
+                "ignores cover",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Teleport Assault"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Champion of the Order of Purifiers (Psychic):",
+                "description": "While this model is leading a unit, add 1 to the Attacks characteristic of that unit’s Purifying Flame."
+            },
+            {
+                "name": "Foresight of the Prognosticars (Psychic):",
+                "description": "Once per turn, the first time a saving throw is failed for this model, change the Damage characteristic of that attack to 0."
+            }
+        ]
     },
-     {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Black Blade of Antwyr",
+            "modifiers": "devastating wounds,precision",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ],
-    "faction": [
-      "Teleport Assault"
+    "unitComposition": [
+        {
+            "unitType": " Castellan Crowe – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Purifying Flame",
+                "storm bolter",
+                "Black Blade of Antwyr"
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Champion of the Order of Purifiers (Psychic):",
-        "description": "While this model is leading a unit, add 1 to the Attacks characteristic of that unit’s Purifying Flame."
-      },
-      {
-        "name": "Foresight of the Prognosticars (Psychic):",
-        "description": "Once per turn, the first time a saving throw is failed for this model, change the Damage characteristic of that attack to 0."
-      }
-    ]
-  },
-  "wargear": [
-  
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Black Blade of Antwyr",
-      "modifiers": "devastating wounds,precision",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": " Castellan Crowe – EPIC HERO",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["Purifying Flame", "storm bolter", "Black Blade of Antwyr"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 75
-    }
-  ],
-  "additionalParameter": {}
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "additionalParameter": {}
 }

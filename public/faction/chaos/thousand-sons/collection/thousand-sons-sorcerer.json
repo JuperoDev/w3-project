@@ -1,154 +1,155 @@
 {
-  "parentUnit": "Thousand Sons Sorcerer",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Sorcerers of the Thousand Sons direct the ranks of Rubricae in battle. All the while they wield their twisted sorceries to wrack the foe with rampant mutation, unleash unnatural firestorms upon the enemy or veil their own warriors behind flickering illusions, protected throughout by the fickle favour of Tzeentch.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "grenades",
-    "chaos",
-    "tzeentch",
-    "sorcerer"
-  ],
-  "attributes": [],
-  "leader": [
-    "rubric marines"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Fires of the Abyss",
-      "modifiers": [
-        "pistol",
-        "psychic",
-        "sustained hits 3"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "2d6",
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Inferno bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills":2,
-      "armor-penetration":2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Warpflame pistol",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Thousand Sons Sorcerer",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-      "Cabal of Sorcerers 1"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Sorcerers of the Thousand Sons direct the ranks of Rubricae in battle. All the while they wield their twisted sorceries to wrack the foe with rampant mutation, unleash unnatural firestorms upon the enemy or veil their own warriors behind flickering illusions, protected throughout by the fickle favour of Tzeentch.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "grenades",
+        "chaos",
+        "tzeentch",
+        "sorcerer"
     ],
-    "otherAbilities": [
-      {
-        "name": "Empyric Guidance (Psychic):",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
-      },
-      {
-        "name": "Illusions of Tzeentch (Psychic):",
-        "description": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
-      }
+    "attributes": [],
+    "leader": [
+        "rubric marines"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Fires of the Abyss",
+            "modifiers": [
+                "pistol",
+                "psychic",
+                "sustained hits 3"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "2d6",
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Warpflame pistol",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 1"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Empyric Guidance (Psychic):",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Illusions of Tzeentch (Psychic):",
+                "description": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s inferno bolt pistol can be replaced with one of the following:",
+            "items": [
+                "1 plasma pistol",
+                "1 warpflame pistol"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "meleeWeapons": [
+        {
+            "name": "Force Weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "strength": 6,
+            "attacks": 4,
+            "weapons-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Thousand Sons Sorcerer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Fires of the Abyss; inferno bolt pistol",
+                "force weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 95
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s inferno bolt pistol can be replaced with one of the following:",
-      "items": [
-        "1 plasma pistol",
-        "1 warpflame pistol"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "meleeWeapons": [
-    {
-      "name": "Force Weapon",
-      "modifiers": [
-        "psychic"
-      ],
-      "strength": 6,
-      "attacks": 4,
-      "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Thousand Sons Sorcerer",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Fires of the Abyss; inferno bolt pistol","force weapon"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 95
-    }
-  ]
 }

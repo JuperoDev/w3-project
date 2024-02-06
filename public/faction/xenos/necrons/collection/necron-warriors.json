@@ -1,102 +1,109 @@
 {
-  "parentUnit": "Necron Warriors",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Necron Warriors attack in rank upon shambling rank. Individually little more than mindless automata, they are relentless and deadly when commanded en masse. The Warriors’ metallic bodies can self-repair from even the most hideous damage, while their unceasing volleys of fire butcher the foe with mechanical efficiency.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "necron warriors"
-  ],
-  "attributes": [{
-    
-    "movement": 5,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Gauss flayer",
-      "modifiers": [
-        "lethal hits",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Gauss reaper",
-      "modifiers": [
-        "lethal hits"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [],
-    "faction": [
-      "reanimation protocols"
+    "parentUnit": "Necron Warriors",
+    "factionKeyword": [
+        "necrons"
     ],
-    "otherAbilities": [
-      {
-        "name": "Their Number is Legion",
-        "description": "Each time this unit’s Reanimation Protocols activate, you can re-roll the dice to see how many wounds are reanimated."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Necron Warriors attack in rank upon shambling rank. Individually little more than mindless automata, they are relentless and deadly when commanded en masse. The Warriors’ metallic bodies can self-repair from even the most hideous damage, while their unceasing volleys of fire butcher the foe with mechanical efficiency.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "necron warriors"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Gauss flayer",
+            "modifiers": [
+                "lethal hits",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Gauss reaper",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "reanimation protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Their Number is Legion",
+                "description": "Each time this unit’s Reanimation Protocols activate, you can re-roll the dice to see how many wounds are reanimated."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each have their gauss flayer replaced with 1 gauss reaper."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Necron Warriors",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "gauss flayer",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                10
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                20
+            ],
+            "points": 200
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "Any number of models can each have their gauss flayer replaced with 1 gauss reaper."
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Necron Warriors",
-       "minQuantity": 5,
-       "maxQuantity": 10,
-       "equipment": ["gauss flayer", "close combat weapon."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [10],
-       "points": 100
-     },
-     {
-         "count": [20],
-         "points": 200
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Close combat weapon",
-         "attacks": 1,
-         "weapons-skills": 4,
-         "strength": 4,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
 }

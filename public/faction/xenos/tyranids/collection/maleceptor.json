@@ -1,14 +1,16 @@
 {
     "parentUnit": "maleceptor",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 11,
-        "save": 3,
-        "wounds": 14,
-        "leadership": 7,
-        "objetiveControl": 4,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 11,
+            "save": 3,
+            "wounds": 14,
+            "leadership": 7,
+            "objetiveControl": 4,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "lore": "Amongst the most powerful Tyranid psyker-analogues yet known, Maleceptors wield colossal synaptic power. Ethereal psychic pseudopods lash about them, able to literally detonate victims’ skulls with the slightest touch, while the encephalitic orbs set into their carapaces focus the smothering dread of the Shadow in the Warp. ",
     "factionKeyword": [
@@ -22,7 +24,7 @@
         "psyker",
         "maleceptor"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Massive scything talons - strike",
@@ -44,12 +46,13 @@
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [1],
-        "points": 170
-      }
+        {
+            "count": [
+                1
+            ],
+            "points": 170
+        }
     ],
     "unitComposition": [
         {
@@ -57,38 +60,41 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-              "psychic overload",
-              "massive scything talons"
+                "psychic overload",
+                "massive scything talons"
             ]
         }
     ],
     "abilities": {
-      "core": [
-        "Deadly Demise D3"
-      ],
-      "faction": [
-        "Shadow in the Warp",
-        "Synapse"
-      ],
-      "otherAbilities": [{"name":
-        "Encephalic Diffusion (Aura, Psychic):","description": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll , and, if that enemy unit is Below Half-strength , subtract 1 from the Wound roll as well."
-      }]
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Shadow in the Warp",
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Encephalic Diffusion (Aura, Psychic):",
+                "description": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll , and, if that enemy unit is Below Half-strength , subtract 1 from the Wound roll as well."
+            }
+        ]
     },
-
     "additionalParameter": {},
     "damaged": {},
     "rangedWeapons": [
-      {
-        "name": "psychic overload",
-        "range": 18,
-        "attacks": "d6+3",
-        "ballistic-skills": 3,
-        "strength": 10,
-        "armor-penetration": 2,
-        "damage": 3,
-        "modifiers": [
-          "psychic", "blast"
-        ]
-      }
+        {
+            "name": "psychic overload",
+            "range": 18,
+            "attacks": "d6+3",
+            "ballistic-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [
+                "psychic",
+                "blast"
+            ]
+        }
     ]
 }

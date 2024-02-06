@@ -1,96 +1,105 @@
 {
-  "parentUnit": "Illuminor Szeras",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Illuminor Szeras is a ghoulish bio-scientist who haunts the battlefield to gather luckless living specimens. He is a master of technomantic lore and android augmentation, employing horrible arcanoscientific instruments to disassemble his enemies, even as he fortifies the living metal forms of his allies.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "cryptek",
-    "illuminor szeras"
-  ],
-  "attributes": [{
-   
-    "movement": 8,
-    "toughness": 8,
-    "save": 2,
-    "wounds": 9,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [{
-    "name": "Eldritch lance",
-    "range":36,
-    "attacks": 3,
-    "ballistic-skills": 3,
-    "strength": 9,
-    "armor-penetration": 3,
-    "damage": 3,
-    "modifiers": []
-  }],
-  "abilities": {
-    "core": [
-      "Feel No Pain 4+"
+    "parentUnit": "Illuminor Szeras",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Illuminor Szeras is a ghoulish bio-scientist who haunts the battlefield to gather luckless living specimens. He is a master of technomantic lore and android augmentation, employing horrible arcanoscientific instruments to disassemble his enemies, even as he fortifies the living metal forms of his allies.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "cryptek",
+        "illuminor szeras"
     ],
-    "otherAbilities": [
-      {
-        "name": "Illuminor ",
-        "description": "While this model is within 3\" of one or more other friendly NECRONS units, this model has the Lone Operative ability."
-      },
-      {
-        "name": "Mechanical Augmentation (Aura) ",
-        "description": "While a friendly NECRONS BATTLELINE unit is within 6\" of this model, each time a model in that unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and each time an attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
-      },
-      {
-        "name": "Atomic Energy Manipulator ",
-        "description": "At the end of the Fight phase , if this model destroyed one of more models this phase, until the end of the battle, add 3\" to the range of its Mechanical Augmentation ability."
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 8,
+            "save": 2,
+            "wounds": 9,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Eldritch lance",
+            "range": 36,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": []
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 4+"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Illuminor ",
+                "description": "While this model is within 3\" of one or more other friendly NECRONS units, this model has the Lone Operative ability."
+            },
+            {
+                "name": "Mechanical Augmentation (Aura) ",
+                "description": "While a friendly NECRONS BATTLELINE unit is within 6\" of this model, each time a model in that unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and each time an attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+            },
+            {
+                "name": "Atomic Energy Manipulator ",
+                "description": "At the end of the Fight phase , if this model destroyed one of more models this phase, until the end of the battle, add 3\" to the range of its Mechanical Augmentation ability."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Illuminor Szeras – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "eldritch lance",
+                "impaling legs"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 160
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Eldritch lance",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": []
+        },
+        {
+            "name": "Impaling legs",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "extra legs"
+            ]
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Illuminor Szeras – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["eldritch lance","impaling legs"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 160
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Eldritch lance",
-         "attacks": 4,
-         "weapons-skills": 3,
-         "strength": 9,
-         "armor-penetration": 3,
-         "damage": 3,
-         "modifiers": []
-       },
-       {
-        "name": "Impaling legs",
-        "attacks": 4,
-        "weapons-skills": 3,
-        "strength": 6,
-        "armor-penetration": 1,
-        "damage": 1,
-        "modifiers": ["extra legs"]
-      }
-   ]
 }

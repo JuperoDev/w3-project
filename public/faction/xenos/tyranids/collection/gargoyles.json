@@ -35,7 +35,8 @@
             "damage": 1,
             "modifiers": []
         }
-    ], "rangedWeapons": [
+    ],
+    "rangedWeapons": [
         {
             "name": "fleshborer",
             "range": 18,
@@ -44,7 +45,9 @@
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": ["assault"],
+            "modifiers": [
+                "assault"
+            ],
             "singleChoice": false
         }
     ],
@@ -71,20 +74,23 @@
             "minQuantity": 10,
             "maxQuantity": 20,
             "equipment": [
-              "fleshborer",
-              "blinding venom"
+                "fleshborer",
+                "blinding venom"
             ]
         }
     ],
     "abilities": {
-      "core": [
-        "Deep Strike"
-      ],
-      "faction": [
-        "Synapse"
-      ],
-      "otherAbilities": [{"name":
-        "Winged Swarm:","description": "In your Shooting phase , after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge ."
-      }]
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Winged Swarm:",
+                "description": "In your Shooting phase , after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge ."
+            }
+        ]
     }
 }

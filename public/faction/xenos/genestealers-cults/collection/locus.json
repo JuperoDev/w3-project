@@ -1,66 +1,68 @@
 {
-  "parentUnit": "Locus",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "An unassuming bodyguard, the Locus may be overlooked by the foe until the exact moment it abandons calm stillness for lightning-fast attack. Robes thrown back, the Locus’ whipping tail barb and vestigial limbs are revealed even as its twin blades flash out to neutralise any threats to its ward.",
-  "keywords": [
-    "infantry",
-    "character",
-    "great devourer",
-    "locus"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 5,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Fights First",
-      "Leader"
+    "parentUnit": "Locus",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-    
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "An unassuming bodyguard, the Locus may be overlooked by the foe until the exact moment it abandons calm stillness for lightning-fast attack. Robes thrown back, the Locus’ whipping tail barb and vestigial limbs are revealed even as its twin blades flash out to neutralise any threats to its ward.",
+    "keywords": [
+        "infantry",
+        "character",
+        "great devourer",
+        "locus"
     ],
-    "otherAbilities": [{
-      "name":"Sudden Assaul",
-      "description":"While this model is leading a unit, models in that unit have the Fights First ability."
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Fights First",
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Sudden Assaul",
+                "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+            },
+            {
+                "name": "Bodyguard",
+                "description": "While this model is leading a unit, other CHARACTER models attached to that unit have the Feel No Pain 4+ ability."
+            }
+        ]
     },
-    {
-      "name":"Bodyguard",
-      "description":"While this model is leading a unit, other CHARACTER models attached to that unit have the Feel No Pain 4+ ability."
-    }
-  ]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "locus",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["Locus blades"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 45
-    }],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "locus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Locus blades"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 45
+        }
+    ],
     "wargear": [],
-
     "meleeWeapons": [
         {
             "name": "Locus blades",

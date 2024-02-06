@@ -1,200 +1,206 @@
 {
-  "parentUnit": "Skitarii Rangers",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Rangers relentlessly pursue their quarry over months or even years, tracking their prey unto death. They bear antique, long-barrelled galvanic rifles, whose energised ammunition transfers a coruscating charge when it hits, leaving the prey a smoking husk while the Rangers are already lining up their next target.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "imperium",
-    "skitarii",
-    "rangers"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Mechanicus pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Arc rifle",
-      "modifiers": [
-        "anti-vehicle 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 30,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration":1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Galvanic rifle",
-      "modifiers": [
-       
-      ],
-      "range": 30,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration":0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma caliver - standard",
-      "modifiers": [
-        
-      ],
-      "range": 30,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma caliver - supercharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 30,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Transuranic arquebus",
-      "modifiers": [
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": "d3",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Scouts 6\""
+    "parentUnit": "Skitarii Rangers",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Rangers relentlessly pursue their quarry over months or even years, tracking their prey unto death. They bear antique, long-barrelled galvanic rifles, whose energised ammunition transfers a coruscating charge when it hits, leaving the prey a smoking husk while the Rangers are already lining up their next target.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "imperium",
+        "skitarii",
+        "rangers"
     ],
-    "otherAbilities": [
-      {
-        "name": "Objective Scouted:",
-        "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Mechanicus pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Arc rifle",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 30,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Galvanic rifle",
+            "modifiers": [],
+            "range": 30,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma caliver - standard",
+            "modifiers": [],
+            "range": 30,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma caliver - supercharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 30,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Transuranic arquebus",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Objective Scouted:",
+                "description": "At the end of your Command phase , if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 90
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Skitarii Ranger Alpha",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "galvanic rifle",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Skitarii Rangers",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "galvanic rifle",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "The Skitarii Ranger Alpha can be equipped with 1 Alpha combat weapon"
+        },
+        {
+            "description": "The Skitarii Ranger Alpha’s galvanic rifle can be replaced with 1 Mechanicus pistol."
+        },
+        {
+            "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 arc rifle."
+        },
+        {
+            "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 plasma caliver."
+        },
+        {
+            "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 transuranic arquebus."
+        },
+        {
+            "description": "1 Skitarii Ranger equipped with a galvanic rifle can be equipped with one of the following",
+            "items": [
+                "1 enhanced data-tether*",
+                "1 omnispex*"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Alpha combat weapon",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Enhanced data-tether",
+            "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        },
+        {
+            "wargear": "Omnispex",
+            "ability": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1,9],
-     "points": 90
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Skitarii Ranger Alpha",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "galvanic rifle", "close combat weapon"
-         ]
-     },
-     {
-      "unitType": "Skitarii Rangers",
-      "minQuantity": 9,
-      "maxQuantity": 9,
-      "equipment": [
-       "galvanic rifle", "close combat weapon"
-      ]
-  }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "The Skitarii Ranger Alpha can be equipped with 1 Alpha combat weapon"
-   },
-   {
-    "description": "The Skitarii Ranger Alpha’s galvanic rifle can be replaced with 1 Mechanicus pistol."
-  },
-  {
-    "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 arc rifle."
-  },
-  {
-    "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 plasma caliver."
-  },
-  {
-    "description": "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 transuranic arquebus."
-  },
-  {
-    "description": "1 Skitarii Ranger equipped with a galvanic rifle can be equipped with one of the following","items":["1 enhanced data-tether*",
-    "1 omnispex*"]
-  }
- ],
- "meleeWeapons": [
-   {
-     "name": "Alpha combat weapon",
-     "attacks": 2,
-     "weapons-skills": 4,
-     "strength": 5,
-     "armor-penetration": 1,
-     "damage": 1,
-     "modifiers": []
-   },
-   {
-    "name": "Close combat weapon",
-    "attacks": 1,
-    "weapons-skills": 4,
-    "strength": 3,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
- ],
- "warGearAbilities": [
-   {
-     "wargear": "Enhanced data-tether",
-     "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-   },
-   {
-    "wargear": "Omnispex",
-    "ability": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
-  }
- ]
 }

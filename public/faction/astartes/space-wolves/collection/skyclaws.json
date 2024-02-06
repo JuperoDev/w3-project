@@ -1,249 +1,258 @@
 {
-  "parentUnit": "Skyclaws",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Especially headstrong Blood Claws are reassigned to jump pack wearing Skyclaw packs. Rebellious and free-spirited, Skyclaws seize any opportunity to push their luck. They rocket forward fearlessly in great loping bounds, chainswords roaring as they slay, plunging into the enemy’s heart with reckless fury.",
-  "keywords": [
-    "infantry",
-    "jump pack",
-    "fly",
-    "grenades",
-    "imperium",
-    "skyclaws"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Grav-gun",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma gun - standard",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma gun - supercharge",
-      "modifiers": [
-        "hazardous",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Skyclaws",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Especially headstrong Blood Claws are reassigned to jump pack wearing Skyclaw packs. Rebellious and free-spirited, Skyclaws seize any opportunity to push their luck. They rocket forward fearlessly in great loping bounds, chainswords roaring as they slay, plunging into the enemy’s heart with reckless fury.",
+    "keywords": [
+        "infantry",
+        "jump pack",
+        "fly",
+        "grenades",
+        "imperium",
+        "skyclaws"
     ],
-    "otherAbilities": [
-      {
-        "name": "Headstrong:",
-        "description": "You can re-roll Charge rolls made for this unit. Each time this unit makes a Charge move , until the end of the turn, each time a model in this unit makes a melee attack, add 1 to the Hit roll ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "The Skyclaw Pack Leader’s Astartes chainsword can be replaced with one of the following",
-      "items": [
-        "1 power fist",
-        "1 power weapon"
-      ]
-    },
-    {
-      "description": "The Skyclaw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.",
-      "items": []
-    },
-    {
-      "description": "Up to 2 Skyclaws can each have their bolt pistol and Astartes chainsword replaced with one of the following",
-      "items": [
-        "1 plasma pistol and 1 Astartes chainsword",
-        "1 flamer and 1 close combat weapon",
-        "1 grav-gun and 1 close combat weapon",
-        "1 meltagun and 1 close combat weapon",
-        "1 plasma gun and 1 close combat weapon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-  
-    
-    
-    {
-      "name": "Astartes chainsword",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1,4],
-      "points": 90
-    },
-    {
-      "count": [1,9],
-      "points": 180
-    },
-    {
-      "count": [1,14],
-      "points": 270
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Skyclaw Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "bolt pistol", "Astartes chainsword" 
-          ]
-      },
-      {
-        "unitType": "Skyclaws",
-        "minQuantity": 4,
-        "maxQuantity": 14,
-        "equipment": [
-          "bolt pistol", "Astartes chainsword" 
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grav-gun",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Headstrong:",
+                "description": "You can re-roll Charge rolls made for this unit. Each time this unit makes a Charge move , until the end of the turn, each time a model in this unit makes a melee attack, add 1 to the Hit roll ."
+            }
         ]
-    }
-  ],
-  "additionalParameter": {}
+    },
+    "wargear": [
+        {
+            "description": "The Skyclaw Pack Leader’s Astartes chainsword can be replaced with one of the following",
+            "items": [
+                "1 power fist",
+                "1 power weapon"
+            ]
+        },
+        {
+            "description": "The Skyclaw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.",
+            "items": []
+        },
+        {
+            "description": "Up to 2 Skyclaws can each have their bolt pistol and Astartes chainsword replaced with one of the following",
+            "items": [
+                "1 plasma pistol and 1 Astartes chainsword",
+                "1 flamer and 1 close combat weapon",
+                "1 grav-gun and 1 close combat weapon",
+                "1 meltagun and 1 close combat weapon",
+                "1 plasma gun and 1 close combat weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 180
+        },
+        {
+            "count": [
+                1,
+                14
+            ],
+            "points": 270
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Skyclaw Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Skyclaws",
+            "minQuantity": 4,
+            "maxQuantity": 14,
+            "equipment": [
+                "bolt pistol",
+                "Astartes chainsword"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

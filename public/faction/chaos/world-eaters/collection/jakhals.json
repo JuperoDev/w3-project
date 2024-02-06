@@ -1,172 +1,172 @@
 {
-  "parentUnit": "jakhals",
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 3,
-      "save": 6,
-      "wounds": 1,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 0
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Jakhal chainblades",
-      "attacks": 2,
-      "weapons-skills": 4,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "singleChoice": false
-    },
-    {
-      "name": "Dishonoured chainblades",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "singleChoice": false
-    },
-    {
-      "name": "Mauler chainblade",
-      "attacks": 2,
-      "weapons-skills": 5,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "singleChoice": false
-    },
-    {
-      "name": "Skullsmasher",
-      "attacks": 4,
-      "weapons-skills": 4,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": [],
-      "singleChoice": false
-    }
-  ],
-  "keywords": [
-    "Infantry",
-    "Battleline",
-    "Chaos",
-    "Khorne",
-    "Jakhals"
-  ],
-  "factionKeyword": [
-    "World Eaters"
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 6+"
+    "parentUnit": "jakhals",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
     ],
-    "faction": [
-      "Blessings of Khorne"
+    "meleeWeapons": [
+        {
+            "name": "Jakhal chainblades",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Dishonoured chainblades",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Mauler chainblade",
+            "attacks": 2,
+            "weapons-skills": 5,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Skullsmasher",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": false
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Objective Ravaged",
-        "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-      }
+    "keywords": [
+        "Infantry",
+        "Battleline",
+        "Chaos",
+        "Khorne",
+        "Jakhals"
+    ],
+    "factionKeyword": [
+        "World Eaters"
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+"
+        ],
+        "faction": [
+            "Blessings of Khorne"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Objective Ravaged",
+                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+            }
+        ]
+    },
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "Jakhal Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Coward’s Bane",
+                "Juggernaut’s bladed horn."
+            ]
+        },
+        {
+            "unitType": "Dishonoured",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                " Dishonoured chainblades."
+            ]
+        },
+        {
+            "unitType": "Jakhal",
+            "minQuantity": 8,
+            "maxQuantity": 17,
+            "equipment": [
+                "autopistol",
+                "Jakhal chainblades"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                1,
+                8
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                1,
+                2,
+                17
+            ],
+            "points": 140
+        }
+    ],
+    "equipment": [
+        "Dishonoured chainblades"
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "autopistol",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "pistol"
+            ],
+            "singleChoice": false
+        }
+    ],
+    "wargear": [
+        {
+            "description": "For every 10 models in this unit, 1 Jakhal’s Jakhal chainblades can be replaced with 1 mauler chainblade."
+        },
+        {
+            "description": "Any number of Dishonoured models can each have their Dishonoured chainblades replaced with 1 skullsmasher."
+        },
+        {
+            "description": "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne."
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Icon of Khorne",
+            "ability": "Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice."
+        }
     ]
-  },
-  "damaged": {},
-  "unitComposition": [
-    {
-      "unitType": "Jakhal Pack Leader",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "bolt pistol",
-        "Coward’s Bane",
-        "Juggernaut’s bladed horn."
-      ]
-    },
-    {
-      "unitType": "Dishonoured",
-      "minQuantity": 1,
-      "maxQuantity": 2,
-      "equipment": [
-        " Dishonoured chainblades."
-      ]
-    },
-    {
-      "unitType": "Jakhal",
-      "minQuantity": 8,
-      "maxQuantity": 17,
-      "equipment": [
-        "autopistol",
-        "Jakhal chainblades"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        1,
-        8
-      ],
-      "points": 70
-    },
-    {
-      "count": [
-        1,
-        2,
-        17
-      ],
-      "points": 140
-    }
-  ],
-  "equipment": [
-    "Dishonoured chainblades"
-  ],
-  "additionalParameter": {},
-  "supremeCommander": false,
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "autopistol",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "pistol"
-      ],
-      "singleChoice": false
-    }
-  ],
-  "wargear": [
-    {
-      "description": "For every 10 models in this unit, 1 Jakhal’s Jakhal chainblades can be replaced with 1 mauler chainblade."
-    },
-    {
-      "description": "Any number of Dishonoured models can each have their Dishonoured chainblades replaced with 1 skullsmasher."
-    },
-    {
-      "description": "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne."
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Icon of Khorne",
-      "ability": "Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice."
-    }
-  ]
 }

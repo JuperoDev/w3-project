@@ -1,122 +1,122 @@
 {
-  "parentUnit": "Nobz",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Nobz swagger into battle wielding a jaw-dropping assortment of kombi-weapons, favourite sluggas, very large choppas, piston-driven klaws and any other instrument of gratuitous violence they can get their claws on. Coupled with their exceptional resilience and sheer belligerence, this renders them terrifying combatants indeed.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "nobz"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 4,
-    "wounds": 2,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Kombi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Waaagh!"
+    "parentUnit": "Nobz",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Ammo Runt:",
-        "description": "Once per battle for each ammo runt this unit has, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
-      },
-      {
-        "name": "Designer’s Note:",
-        "description": "Place the relevant number of Ammo Runt tokens next to the unit, removing one each time the unit uses this ability."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Nobz swagger into battle wielding a jaw-dropping assortment of kombi-weapons, favourite sluggas, very large choppas, piston-driven klaws and any other instrument of gratuitous violence they can get their claws on. Coupled with their exceptional resilience and sheer belligerence, this renders them terrifying combatants indeed.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "nobz"
+    ],
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 4,
+        "wounds": 2,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Kombi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Waaagh!"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Ammo Runt:",
+                "description": "Once per battle for each ammo runt this unit has, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Designer’s Note:",
+                "description": "Place the relevant number of Ammo Runt tokens next to the unit, removing one each time the unit uses this ability."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their big choppa replaced with 1 power klaw.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each have their slugga and big choppa replaced with 1 kombi-weapon and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, this unit can be equipped with 1 ammo runt.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Kombi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+            "attacks": "1",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Big choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power klaw",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their big choppa replaced with 1 power klaw.",
-      "items": []
-    },
-    {
-      "description": "Any number of models can each have their slugga and big choppa replaced with 1 kombi-weapon and 1 close combat weapon.",
-      "items": []
-    },
-    {
-      "description": "For every 5 models in this unit, this unit can be equipped with 1 ammo runt.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Kombi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Big choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power klaw",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

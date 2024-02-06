@@ -1,74 +1,72 @@
 {
-  "parentUnit": "Plague Surgeon",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Equipped with narthecium-like instruments around which form filthy miasmas, Plague Surgeons carry vials and alembics full of boosters and macro-stimulants for countless plagues. By such means do they give the Death Guard renewed strength and resilience while inflaming the enemy’s infections to agonising degrees.",
-  "keywords": [
-    "infantry",
-    "character",
-    "chaos",
-    "nurgle",
-    "plague surgeon"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Plague bolt pistol",
-      "modifiers": [
-        "lethal hits",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Plague Surgeon",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Equipped with narthecium-like instruments around which form filthy miasmas, Plague Surgeons carry vials and alembics full of boosters and macro-stimulants for countless plagues. By such means do they give the Death Guard renewed strength and resilience while inflaming the enemy’s infections to agonising degrees.",
+    "keywords": [
+        "infantry",
+        "character",
+        "chaos",
+        "nurgle",
+        "plague surgeon"
     ],
-    "otherAbilities": [
-      {
-        "name": "Tainted Narthecium:",
-        "description": "While this model is leading a unit, in your Command phase , you can return 1 destroyed Bodyguard model to that unit."
-      },
-      {
-        "name": "Diseased Healing:",
-        "description": "At the end of your Movement phase , you can select one friendly DEATH GUARD INFANTRY CHARACTER model within 3\" of this model. That model regains up to 3 lost wounds. Each model can only be selected for this ability once per turn."
-      }
+    "attributes": {
+        "movement": 5,
+        "toughness": 5,
+        "save": 3,
+        "wounds": 4,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Plague bolt pistol",
+            "modifiers": [
+                "lethal hits",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Tainted Narthecium:",
+                "description": "While this model is leading a unit, in your Command phase , you can return 1 destroyed Bodyguard model to that unit."
+            },
+            {
+                "name": "Diseased Healing:",
+                "description": "At the end of your Movement phase , you can select one friendly DEATH GUARD INFANTRY CHARACTER model within 3\" of this model. That model regains up to 3 lost wounds. Each model can only be selected for this ability once per turn."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Balesword",
+            "modifiers": "lethalhits",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Balesword",
-      "modifiers": "lethalhits",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

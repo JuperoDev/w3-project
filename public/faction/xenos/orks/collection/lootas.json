@@ -1,141 +1,141 @@
 {
-  "parentUnit": "Lootas",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Lootas grub together every toof and fistful of scrap they can, then use the former to pay the Meks to turn the latter into very, very large guns. These they then turn on the enemy with gleeful abandon, unleashing such prodigious – if erratic – hails of fire that they can stop a battle tank in its tracks or scythe down squads of infantry.",
-  "keywords": [
-    "infantry",
-    "lootas"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Big shoota",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Deffgun",
-      "modifiers": [
-        "heavy",
-        "rapid fire 1"
-      ],
-      "range": 48,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kustom mega-blasta",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Rokkit launcha",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Waaagh!"
+    "parentUnit": "Lootas",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every Spanner is equipped with:",
-        "description": "big shoota; close combat weapon."
-      },
-      {
-        "name": "Every Loota is equipped with:",
-        "description": "deffgun; close combat weapon."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lootas grub together every toof and fistful of scrap they can, then use the former to pay the Meks to turn the latter into very, very large guns. These they then turn on the enemy with gleeful abandon, unleashing such prodigious – if erratic – hails of fire that they can stop a battle tank in its tracks or scythe down squads of infantry.",
+    "keywords": [
+        "infantry",
+        "lootas"
+    ],
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 1,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Big shoota",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Deffgun",
+            "modifiers": [
+                "heavy",
+                "rapid fire 1"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kustom mega-blasta",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Rokkit launcha",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Waaagh!"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every Spanner is equipped with:",
+                "description": "big shoota; close combat weapon."
+            },
+            {
+                "name": "Every Loota is equipped with:",
+                "description": "deffgun; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of Spanners can each have their big shoota replaced with one of the following",
+            "items": [
+                "1 kustom mega-blasta",
+                "1 rokkit launcha"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Big shoota",
+            "modifiers": "rapidfire2",
+            "attacks": "3",
+            "weapons-skills": "5+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Deffgun",
+            "modifiers": "heavy,rapidfire1",
+            "attacks": "2",
+            "weapons-skills": "6+",
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Kustom mega-blasta",
+            "modifiers": "hazardous",
+            "attacks": "3",
+            "weapons-skills": "5+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "D6"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of Spanners can each have their big shoota replaced with one of the following",
-      "items": [
-        "1 kustom mega-blasta",
-        "1 rokkit launcha"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Big shoota",
-      "modifiers": "rapidfire2",
-      "attacks": "3",
-      "weapons-skills": "5+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Deffgun",
-      "modifiers": "heavy,rapidfire1",
-      "attacks": "2",
-      "weapons-skills": "6+",
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Kustom mega-blasta",
-      "modifiers": "hazardous",
-      "attacks": "3",
-      "weapons-skills": "5+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": "D6"
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

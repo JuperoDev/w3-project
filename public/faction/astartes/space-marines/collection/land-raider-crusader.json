@@ -1,154 +1,157 @@
 {
-  "parentUnit": "Land Raider Crusader",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Land Raider Crusader is a superlative assault tank. Its bulk enables it to crush enemy defences, and its prodigious firepower cuts their defenders to ribbons. With an enhanced transport capacity, once it has stormed enemy defences, Space Marines pour from its hatches to slaughter those foes who remain.",
-  "keywords": [
-    "vehicle",
-    "smoke",
-    "grenades",
-    "transport",
-    "imperium",
-    "land raider crusader"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 12,
-    "save": 2,
-    "wounds": 16,
-    "leadership": 6,
-    "objetiveControl": 5,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Hurricane bolter",
-      "modifiers": [
-        "rapid fire 6",
-        "twin-linked"
-      ],
-      "range": 24,
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 18,
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6",
-      "singleChoice": false
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin assault cannon",
-      "modifiers": [
-        "devastating wounds",
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Land Raider Crusader",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "Oath of Moment"
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 hunter-killer missile.",
-      "items": []
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model can be equipped with 1 multi-melta.",
-      "items": []
+    "supremeCommander": false,
+    "lore": "The Land Raider Crusader is a superlative assault tank. Its bulk enables it to crush enemy defences, and its prodigious firepower cuts their defenders to ribbons. With an enhanced transport capacity, once it has stormed enemy defences, Space Marines pour from its hatches to slaughter those foes who remain.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "grenades",
+        "transport",
+        "imperium",
+        "land raider crusader"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 12,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Hurricane bolter",
+            "modifiers": [
+                "rapid fire 6",
+                "twin-linked"
+            ],
+            "range": 24,
+            "attacks": 6,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "attacks": 2,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin assault cannon",
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "Oath of Moment"
+            }
+        ]
     },
-    {
-      "description": "This model can be equipped with 1 storm bolter.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 multi-melta.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

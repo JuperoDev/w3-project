@@ -1,137 +1,141 @@
 {
-  "parentUnit": "Catacomb Command Barge",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Some Necron nobles ride to battle enthroned on Catacomb Command Barges. These armoured skimmers beam out carrier waves that bear a noble’s orders directly to the dynasty’s legions, while also providing them with quantum shielding, heavy gauss firepower and a fast-moving platform from which to fight.",
-  "keywords": [
-    "vehicle",
-    "character",
-    "fly",
-    "catacomb command barge"
-  ],
-  "attributes": [{
-   
-    "movement": 10,
-    "toughness": 8,
-    "save": 3,
-    "wounds": 9,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Gauss cannon",
-      "modifiers": [
-        "lethal hits"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Tesla cannon",
-      "modifiers": [
-        "sustained hits 2"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 4,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Staff of light",
-      "modifiers": [
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
+    "parentUnit": "Catacomb Command Barge",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Some Necron nobles ride to battle enthroned on Catacomb Command Barges. These armoured skimmers beam out carrier waves that bear a noble’s orders directly to the dynasty’s legions, while also providing them with quantum shielding, heavy gauss firepower and a fast-moving platform from which to fight.",
+    "keywords": [
+        "vehicle",
+        "character",
+        "fly",
+        "catacomb command barge"
     ],
-    "otherAbilities": [
-      {
-        "name": "Carrier Wave (Aura)",
-        "description": "While a friendly NECRONS unit is within 6\" of this model, add 1 to the objetive Control characteristic of models in that unit."
-      },
-      {
-        "name": "Advanced Quantum Shielding",
-        "description": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model’s Toughness characteristic, subtract 1 from the Wound roll ."
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 9,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Gauss cannon",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Tesla cannon",
+            "modifiers": [
+                "sustained hits 2"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 4,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Staff of light",
+            "modifiers": [],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Carrier Wave (Aura)",
+                "description": "While a friendly NECRONS unit is within 6\" of this model, add 1 to the objetive Control characteristic of models in that unit."
+            },
+            {
+                "name": "Advanced Quantum Shielding",
+                "description": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model’s Toughness characteristic, subtract 1 from the Wound roll ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s gauss cannon can be replaced with 1 tesla cannon."
+        },
+        {
+            "description": "This model’s staff of light can be replaced with 1 Overlord’s blade."
+        },
+        {
+            "description": "This model can be equipped with 1 resurrection orb."
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Resurrection Orb",
+            "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Catacomb Command Barge",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "gauss cannon",
+                "staff of light."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 150
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Overlord’s blade",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Staff of light",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "This model’s gauss cannon can be replaced with 1 tesla cannon."
-    },
-    {
-      "description": "This model’s staff of light can be replaced with 1 Overlord’s blade."
-    },
-    {
-      "description": "This model can be equipped with 1 resurrection orb."
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Resurrection Orb",
-      "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Catacomb Command Barge",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["gauss cannon","staff of light."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 150
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Overlord’s blade",
-         "attacks": 4,
-         "weapons-skills": 2,
-         "strength": 8,
-         "armor-penetration": 3,
-         "damage": 1,
-         "modifiers": []
-       },
-       {
-        "name": "Staff of light",
-        "attacks": 4,
-        "weapons-skills": 3,
-        "strength": 5,
-        "armor-penetration": 2,
-        "damage": 1,
-        "modifiers": []
-      }
-   ]
 }

@@ -1,81 +1,97 @@
 {
-  "parentUnit": "Grotesques",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These modified meat-hulks are pumped full of painful chemicals, growth elixirs and macro-steroids. With swollen muscles they hack their master’s foes apart, their brutal cleavers and grafted claws dripping with toxins. They are mindlessly obedient and insensible to any hurt, chasing down fleeing prey at the behest of their creator.",
-  "keywords": [
-    "infantry",
-    "haemonculus covens",
-    "aeldari",
-    "grotesques"
-  ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 5,
-    "save": 6,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 6
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Liquifier gun",
-      "modifiers": [
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage":1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 5+"
+    "parentUnit": "Grotesques",
+    "factionKeyword": [
+        "drukhari"
     ],
-    "faction": [
-      "Power From Pain"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These modified meat-hulks are pumped full of painful chemicals, growth elixirs and macro-steroids. With swollen muscles they hack their master’s foes apart, their brutal cleavers and grafted claws dripping with toxins. They are mindlessly obedient and insensible to any hurt, chasing down fleeing prey at the behest of their creator.",
+    "keywords": [
+        "infantry",
+        "haemonculus covens",
+        "aeldari",
+        "grotesques"
     ],
-    "otherAbilities": [{"name":
-      "Mindless Killing Machines:","description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
-    }]
-  },
-  "unitComposition": [
-      {
-          "unitType": "Grotesques",
-          "minQuantity": 3,
-          "maxQuantity": 6,
-          "equipment":[" monstrous weapons"]
-      }
-  ],
-  "options": [
-      {
-        "count": [3],
-        "points": 105
-      },
-      {"count":[6],
-    "points":210}
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 5,
+            "save": 6,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
     ],
-    "meleeWeapons": [{
-      "name": "Monstrous weapons",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": []
-    }
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Liquifier gun",
+            "modifiers": [
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Mindless Killing Machines:",
+                "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Grotesques",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                " monstrous weapons"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                3
+            ],
+            "points": 105
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 210
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Monstrous weapons",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
     ],
     "additionalParameter": {},
-    "wargear": [ {
-      "description":"Any number of models can each be equipped with 1 spirit vortex."
-    }]
+    "wargear": [
+        {
+            "description": "Any number of models can each be equipped with 1 spirit vortex."
+        }
+    ]
 }

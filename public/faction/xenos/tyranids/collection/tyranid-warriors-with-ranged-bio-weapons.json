@@ -1,14 +1,16 @@
 {
     "parentUnit": "tyranid warriors with ranged bio-weapons",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Strong, swift, independently intelligent and amongst the Hive Mind’s most adaptable bioforms, Tyranid Warriors are the backbone of many Tyranid invasions. Their synaptic link imbues them with advanced martial abilities, and also allows them to serve as synaptic linchpins within the wider swarms during battle. ",
     "factionKeyword": [
@@ -31,15 +33,18 @@
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [3],
-        "points": 70
-      },
-      {
-          "count": [6],
-          "points": 140
+        {
+            "count": [
+                3
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 140
         }
     ],
     "wargear": [
@@ -63,8 +68,8 @@
             "minQuantity": 3,
             "maxQuantity": 6,
             "equipment": [
-              "devourer",
-              "tyranid warrior claws and talons"
+                "devourer",
+                "tyranid warrior claws and talons"
             ]
         }
     ],
@@ -82,71 +87,71 @@
             }
         ]
     },
-
     "additionalParameter": {},
     "damaged": {},
     "rangedWeapons": [
         {
-         "name": "venom cannon",
-         "range": 36,
-         "attacks": "d3",
-         "ballistic-skills": 4,
-         "strength": 9,
-         "armor-penetration": 2,
-         "damage": 2,
-         "modifiers": ["blast"],
-         "singleChoice": false
-       },
-       {
-         "name": "barbed strangler",
-         "range": 36,
-         "attacks": "d6+1",
-         "ballistic-skills": 4,
-         "strength": 6,
-         "armor-penetration": 1,
-         "damage": 1,
-         "modifiers": [
-           "blast"
-           ],
-         "singleChoice": false
-       },
-       {
-        "name": "Deathspitter",
-        "range": 24,
-        "attacks": 3,
-        "ballistic-skills": 4,
-        "strength": 5,
-        "armor-penetration": 1,
-        "damage": 1,
-        "modifiers": [
-          
-          ],
-        "singleChoice": false
-      },
-      {
-        "name": "Devourer",
-        "range": 18,
-        "attacks": 5,
-        "ballistic-skills": 4,
-        "strength": 4,
-        "armor-penetration": 0,
-        "damage": 1,
-        "modifiers": [
-          
-          ],
-        "singleChoice": false
-      },
-      {
-        "name": "Spinefists",
-        "range": 12,
-        "attacks": 2,
-        "ballistic-skills": 4,
-        "strength": 4,
-        "armor-penetration": 0,
-        "damage": 1,
-        "modifiers": [
-          "assault","pistol","twin-linked"
-          ],
-        "singleChoice": false
-      }]
+            "name": "venom cannon",
+            "range": 36,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "blast"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "barbed strangler",
+            "range": 36,
+            "attacks": "d6+1",
+            "ballistic-skills": 4,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "blast"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Deathspitter",
+            "range": 24,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": false
+        },
+        {
+            "name": "Devourer",
+            "range": 18,
+            "attacks": 5,
+            "ballistic-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": false
+        },
+        {
+            "name": "Spinefists",
+            "range": 12,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "assault",
+                "pistol",
+                "twin-linked"
+            ],
+            "singleChoice": false
+        }
+    ]
 }

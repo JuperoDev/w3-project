@@ -1,166 +1,166 @@
 {
-  "parentUnit": "Dark Reapers",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Dark Reapers unleash firestorms with their long-ranged Reaper launchers, whether using infantry-shredding starswarm missiles or armour-piercing starshot variants. These salvoes are chillingly accurate, thanks to advanced targeting systems but also the Reapers’ armour, which anchors them firmly to the ground while they fire.",
-  "keywords": [
-    "infantry",
-    "dark reapers"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Aeldari missile launcher - starshot",
-      "modifiers": [
-        "ignores cover"
-      ],
-      "range": 48,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Aeldari missile launcher - sunburst",
-      "modifiers": [
-        "blast",
-        "ignores cover"
-      ],
-      "range": 48,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Reaper launcher - starshot",
-      "modifiers": [
-        "ignores cover"
-      ],
-      "range": 48,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Reaper launcher - starswarm",
-      "modifiers": [
-        "ignores cover"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Shuriken cannon",
-      "modifiers": [
-        "ignores cover",
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Tempest launcher",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Strands of Fate"
+    "parentUnit": "Dark Reapers",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "Reaper launcher; close combat weapon."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Dark Reapers unleash firestorms with their long-ranged Reaper launchers, whether using infantry-shredding starswarm missiles or armour-piercing starshot variants. These salvoes are chillingly accurate, thanks to advanced targeting systems but also the Reapers’ armour, which anchors them firmly to the ground while they fire.",
+    "keywords": [
+        "infantry",
+        "dark reapers"
+    ],
+    "attributes": {
+        "movement": 6,
+        "toughness": 3,
+        "salvation": 3,
+        "wounds": 2,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Aeldari missile launcher - starshot",
+            "modifiers": [
+                "ignores cover"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Aeldari missile launcher - sunburst",
+            "modifiers": [
+                "blast",
+                "ignores cover"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Reaper launcher - starshot",
+            "modifiers": [
+                "ignores cover"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Reaper launcher - starswarm",
+            "modifiers": [
+                "ignores cover"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken cannon",
+            "modifiers": [
+                "ignores cover",
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Tempest launcher",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Strands of Fate"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "Reaper launcher; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Dark Reaper Exarch’s Reaper launcher can be replaced with 1 of the following",
+            "items": [
+                "1 Aeldari missile launcher",
+                "1 shuriken cannon",
+                "1 tempest launcher"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Aeldari missile launcher – starshot",
+            "modifiers": "ignorescover",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": "D6"
+        },
+        {
+            "name": "Reaper launcher – starshot",
+            "modifiers": "ignorescover",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Shuriken cannon",
+            "modifiers": "ignorescover,sustainedhits1",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "2"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Dark Reaper Exarch’s Reaper launcher can be replaced with 1 of the following",
-      "items": [
-        "1 Aeldari missile launcher",
-        "1 shuriken cannon",
-        "1 tempest launcher"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Aeldari missile launcher – starshot",
-      "modifiers": "ignorescover",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": "D6"
-    },
-    {
-      "name": "Reaper launcher – starshot",
-      "modifiers": "ignorescover",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": "2"
-    },
-    {
-      "name": "Shuriken cannon",
-      "modifiers": "ignorescover,sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

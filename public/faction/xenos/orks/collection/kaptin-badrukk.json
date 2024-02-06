@@ -1,110 +1,108 @@
 {
-  "parentUnit": "Kaptin Badrukk",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Kaptin Badrukk’s Goldtoof Armour is proof against anything the galaxy can throw at him. This is fortunate considering the levels of radiation that emanate from his pride and joy, Da Rippa. This kustom shoota fires unstable plasma shells that reduce Badrukk’s foes to glowing ash, at least until it malfunctions explosively.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "kaptin badrukk"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 6,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Da Rippa - standard",
-      "modifiers": [
-        "heavy",
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Da Rippa - supercharge",
-      "modifiers": [
-        "hazardous",
-        "heavy",
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Kaptin Badrukk",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Kaptin Badrukk’s Goldtoof Armour is proof against anything the galaxy can throw at him. This is fortunate considering the levels of radiation that emanate from his pride and joy, Da Rippa. This kustom shoota fires unstable plasma shells that reduce Badrukk’s foes to glowing ash, at least until it malfunctions explosively.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "kaptin badrukk"
     ],
-    "otherAbilities": [
-      {
-        "name": "Flashiest Gitz:",
-        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Hit roll ."
-      },
-      {
-        "name": "Ded Glowy Ammo (Aura):",
-        "description": "While an enemy Infantry unit is within 6\" of this model, subtract 1 from the Toughness characteristic of models in that unit."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 3,
+        "wounds": 6,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Da Rippa - standard",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Da Rippa - supercharge",
+            "modifiers": [
+                "hazardous",
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Flashiest Gitz:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Hit roll ."
+            },
+            {
+                "name": "Ded Glowy Ammo (Aura):",
+                "description": "While an enemy Infantry unit is within 6\" of this model, subtract 1 from the Toughness characteristic of models in that unit."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Da Rippa – standard",
+            "modifiers": "heavy,sustainedhits1",
+            "attacks": "3",
+            "weapons-skills": "5+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Choppa",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Da Rippa – standard",
-      "modifiers": "heavy,sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "5+",
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Choppa",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    }
-  ]
 }

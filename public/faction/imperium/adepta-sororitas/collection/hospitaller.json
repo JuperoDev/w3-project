@@ -1,99 +1,98 @@
 {
-  "parentUnit": "hospitaller",
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 3,
-      "save": 3,
-      "wounds": 3,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 6
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Hospitallers are physical and spiritual healers. They are possessed of medicinal expertise as well as serving as a font of faith for those in need, whispering mantras of vigour to dull pain and intoning prayers to salve fevered minds. They move swiftly across the battlefield, working in solemn calm despite the harshest conditions.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "hospitaller"
-  ],
-  "leader": [
-    "battle sisters squad",
-    "celestian sacresants",
-    "dominion squad",
-    "retributor squad",
-    "sisters novitiate squad"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "hospitaller",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "factionKeyword": [
+        "adepta sororitas"
     ],
-    "otherAbilities": [
-      {
-        "name": "Medicus Ministorum:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
-      },
-      {
-        "name": "Sacred Healing:",
-        "description": "At the end of your Movement phase , select one friendly ADEPTA SORORITAS INFANTRY Character unit within 3\" of this model. That unit regains up to 3 lost wounds. A unit can only be affected by this ability once per turn."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Hospitallers are physical and spiritual healers. They are possessed of medicinal expertise as well as serving as a font of faith for those in need, whispering mantras of vigour to dull pain and intoning prayers to salve fevered minds. They move swiftly across the battlefield, working in solemn calm despite the harshest conditions.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "hospitaller"
+    ],
+    "leader": [
+        "battle sisters squad",
+        "celestian sacresants",
+        "dominion squad",
+        "retributor squad",
+        "sisters novitiate squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Medicus Ministorum:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Sacred Healing:",
+                "description": "At the end of your Movement phase , select one friendly ADEPTA SORORITAS INFANTRY Character unit within 3\" of this model. That unit regains up to 3 lost wounds. A unit can only be affected by this ability once per turn."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Chirurgeon’s tools",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Hospitaller",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "chirurgeon’s tools"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 35
+        }
     ]
-  },
-  "meleeWeapons":[
-    {
-      "name": "Chirurgeon’s tools",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    }
-  ],
-  "wargear": [
-    
-  ],
-
-  "additionalParameter": {
-    
-  },
-  "unitComposition": [
-     {
-       "unitType": "Hospitaller",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["bolt pistol","chirurgeon’s tools"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 35
-     }
-   ]
 }

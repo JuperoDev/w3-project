@@ -1,122 +1,129 @@
 {
-  "parentUnit": "Techmarine",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Techmarines stride selflessly through oncoming fire to soothe the machine spirits of wounded war engines, deftly peeling back damaged armour plates to repair burnt-out cabling and bending warped panels back into shape with their servoarms and mechadendrites.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "tacticus",
-    "techmarine"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 2,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": ["Assault Intercessor Squad",
-  "Desolation Squad",
-  "Devastator Squad",
-  "Intercessor Squad",
-  "Tactical Squad"],
-  "rangedWeapons": [
-    {
-      "name": "Forge bolter",
-      "modifiers": [
-        "anti-vehicle 2+",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Grav-pistol",
-      "modifiers": [
-        "anti-vehicle 2+",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Techmarine",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Techmarines stride selflessly through oncoming fire to soothe the machine spirits of wounded war engines, deftly peeling back damaged armour plates to repair burnt-out cabling and bending warped panels back into shape with their servoarms and mechadendrites.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "techmarine"
     ],
-    "otherAbilities": [
-      {
-        "name": "Techmarine:",
-        "description": "While this model is within 3\" of one or more friendly adeptus astartes VEHICLE units, this model has the Lone Operative ability."
-      },
-      {
-        "name": "Blessing of the Omnissiah:",
-        "description": "In your Command phase , you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll . Each model can only be selected for this ability once per turn."
-      },
-      {
-        "name": "Vengeance of the Omnissiah:",
-        "description": "If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this model’s Omnissian power axe has an Attacks characteristic of 7."
-      }
-    ]
-  },
-  "wargear": [],
-  "meleeWeapons": [
-   
-    {
-      "name": "Omnissian power axe",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Assault Intercessor Squad",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Intercessor Squad",
+        "Tactical Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Forge bolter",
+            "modifiers": [
+                "anti-vehicle 2+",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Grav-pistol",
+            "modifiers": [
+                "anti-vehicle 2+",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Techmarine:",
+                "description": "While this model is within 3\" of one or more friendly adeptus astartes VEHICLE units, this model has the Lone Operative ability."
+            },
+            {
+                "name": "Blessing of the Omnissiah:",
+                "description": "In your Command phase , you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll . Each model can only be selected for this ability once per turn."
+            },
+            {
+                "name": "Vengeance of the Omnissiah:",
+                "description": "If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this model’s Omnissian power axe has an Attacks characteristic of 7."
+            }
+        ]
     },
-    {
-      "name": "Servo-arm",
-      "modifiers": ["extra attacks"],
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Omnissian power axe",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Servo-arm",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -1,14 +1,16 @@
 {
     "parentUnit": "hormagaunts",
-    "attributes": [{
-        "movement": 10,
-        "toughness": 3,
-        "save": 5,
-        "wounds": 1,
-        "leadership": 8,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Swarming shock troops, Hormagaunts are seeded onto prey worlds in their billions. As simple hunter-slayer organisms, they can be left to rampage, wearing down defence lines and forcing the prey to expend lives and ammunition. Many formidable bastions have been buried in literal mountains of these chitinous horrors. ",
     "factionKeyword": [
@@ -21,7 +23,7 @@
         "endless multitude",
         "hormagaunts"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "hormagaunt talons",
@@ -35,39 +37,41 @@
     ],
     "supremeCommander": false,
     "damaged": {},
-  
-    "additionalParameter": {},  "options": [
+    "additionalParameter": {},
+    "options": [
         {
-          "count": [10],
-          "points": 65
+            "count": [
+                10
+            ],
+            "points": 65
         },
         {
-            "count": [20],
+            "count": [
+                20
+            ],
             "points": 130
-          }
-      ],
-      "unitComposition": [
-          {
-              "unitType": "hormagaunts",
-              "minQuantity": 10,
-              "maxQuantity": 20,
-              "equipment": [
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "hormagaunts",
+            "minQuantity": 10,
+            "maxQuantity": 20,
+            "equipment": [
                 "hormagaunts talons"
-              ]
-          }
-      ],
-      "abilities": {
-          "core": [
-              
-          ],
-          "faction": [
-              "synapse"
-          ],
-          "otherAbilities": [
-              {
-                  "name": "Bounding Leap",
-                  "description": "This unit is eligible to declare a charge in a turn in which it Advanced."
-              }
-          ]
-      }
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Bounding Leap",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced."
+            }
+        ]
+    }
 }

@@ -1,227 +1,229 @@
 {
-  "parentUnit": "Chaplain With Jump Pack",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ever are the roared litanies of the Chaplains needed all over the battlefield, to stir the hearts of battle-brothers and drive fear into the enemy. With a jump pack a Chaplain can thunder to wherever he is most needed, or spearhead furious assaults into the enemy’s positions himself.",
-  "keywords": [
-    "infantry",
-    "character",
-    "jump pack",
-    "fly",
-    "imperium",
-    "chaplain"
-  ],
-  "attributes": [
-    {
-      "movement": 12,
-      "toughness": 4,
-      "save": 3,
-      "wounds": 4,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": [
-    "Assault Intercessors With Jump Packs",
-    "Vanguard Veteran Squad With Jump Packs"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Boltgun",
-      "modifiers": [],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Grav-pistol",
-      "modifiers": [
-        "anti-vehicle 2+",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Hand flamer",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Inferno pistol",
-      "modifiers": [
-        "melta 2",
-        "pistol"
-      ],
-      "range": 6,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Chaplain With Jump Pack",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ever are the roared litanies of the Chaplains needed all over the battlefield, to stir the hearts of battle-brothers and drive fear into the enemy. With a jump pack a Chaplain can thunder to wherever he is most needed, or spearhead furious assaults into the enemy’s positions himself.",
+    "keywords": [
+        "infantry",
+        "character",
+        "jump pack",
+        "fly",
+        "imperium",
+        "chaplain"
     ],
-    "otherAbilities": [
-      {
-        "name": "Litany of Hate:",
-        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
-      },
-      {
-        "name": "Exhortation of Rage:",
-        "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds ; on a 6, that enemy unit suffers 3 mortal wounds."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s bolt pistol can be replaced with one of the following",
-      "items": [
-        "1 boltgun",
-        "1 combi-weapon",
-        "1 grav-pistol",
-        "1 hand flamer",
-        "1 inferno pistol",
-        "1 plasma pistol",
-        "1 storm bolter",
-        "1 power fist"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Crozius arcanum",
-      "modifiers": [],
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Assault Intercessors With Jump Packs",
+        "Vanguard Veteran Squad With Jump Packs"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grav-pistol",
+            "modifiers": [
+                "anti-vehicle 2+",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Hand flamer",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno pistol",
+            "modifiers": [
+                "melta 2",
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Litany of Hate:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+            },
+            {
+                "name": "Exhortation of Rage:",
+                "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds ; on a 6, that enemy unit suffers 3 mortal wounds."
+            }
+        ]
     },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "This model’s bolt pistol can be replaced with one of the following",
+            "items": [
+                "1 boltgun",
+                "1 combi-weapon",
+                "1 grav-pistol",
+                "1 hand flamer",
+                "1 inferno pistol",
+                "1 plasma pistol",
+                "1 storm bolter",
+                "1 power fist"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Crozius arcanum",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

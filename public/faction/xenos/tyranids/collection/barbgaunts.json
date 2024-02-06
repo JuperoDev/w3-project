@@ -29,13 +29,13 @@
     ],
     "meleeWeapons": [
         {
-          "name": "xenos claws and teeth",
-          "attacks": 1,
-          "weapons-skills": 4,
-          "strength": 4,
-          "armor-penetration": 0,
-          "damage": 1,
-          "modifiers": []
+            "name": "xenos claws and teeth",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
         }
     ],
     "wargear": [],
@@ -49,39 +49,44 @@
         "great devourer",
         "barbgaunts"
     ],
-    
-"abilities": {
-    "core": [],
-    "faction": ["synapse"],
-    "otherAbilities": [
-      {
-        "name": "Disruption Bombardment",
-        "description": "In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more of those attacks made by this unit’s bio-cannons, until the end of your opponent’s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic, and subtract 2 from Advance and Charge rolls made for it."
-      }
-    ]
-   },
-   "damaged": {
- },
- "unitComposition": [
-    {
-      "unitType": "Barbgaunts",
-      "minQuantity": 5,
-      "maxQuantity": 10,
-      "equipment": ["biocannon", "xenos claws and teeth"]
-    }
-  ],
-
-  "options": [
-    {
-      "count": [5],
-      "points": 60
+    "abilities": {
+        "core": [],
+        "faction": [
+            "synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Disruption Bombardment",
+                "description": "In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more of those attacks made by this unit’s bio-cannons, until the end of your opponent’s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic, and subtract 2 from Advance and Charge rolls made for it."
+            }
+        ]
     },
-    {
-        "count": [10],
-        "points": 120
-      }
-  ],
-
-  "additionalParameter": {},
-  "supremeCommander": false
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "Barbgaunts",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "biocannon",
+                "xenos claws and teeth"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 120
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false
 }

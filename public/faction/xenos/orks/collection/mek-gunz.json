@@ -1,170 +1,170 @@
 {
-  "parentUnit": "Mek Gunz",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "From guns that spew unstable force-bubbles to overcharged energy cannons, gravity beamers that crumple their targets like a squig-oil canister in a Nob’s fist to tractor-beams that toss foes about and drag planes from the air, the only unifying factor about the madcap Mek Gunz is what a mess they make of the foe.",
-  "keywords": [
-    "vehicle",
-    "mek gunz"
-  ],
-  "attributes": {
-    "movement": 3,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 6,
-    "leadership": 8,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "1-2 Bubblechukka - big bubble",
-      "modifiers": [
-        "bubblechukka",
-        "blast"
-      ],
-      "range": 48,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "3-4 Bubblechukka - wobbly bubble",
-      "modifiers": [
-        "bubblechukka",
-        "blast"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "5-6Bubblechukka - dense bubble",
-      "modifiers": [
-        "bubblechukka",
-        "blast"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kustom mega-kannon",
-      "modifiers": [
-        "BLAST",
-        "HAZARDOUS"
-      ],
-      "range": 36,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Smasha gun",
-      "modifiers": [
-        "BLAST"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Traktor kannon",
-      "modifiers": [
-        "ANTI-FLY 2+",
-        "DEVASTATING WOUNDS"
-      ],
-      "range": 48,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Waaagh!"
+    "parentUnit": "Mek Gunz",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "From guns that spew unstable force-bubbles to overcharged energy cannons, gravity beamers that crumple their targets like a squig-oil canister in a Nob’s fist to tractor-beams that toss foes about and drag planes from the air, the only unifying factor about the madcap Mek Gunz is what a mess they make of the foe.",
+    "keywords": [
+        "vehicle",
+        "mek gunz"
     ],
-    "otherAbilities": [
-      {
-        "name": "Splat!:",
-        "description": "Each time a model in this unit makes a ranged attack that targets a unit containing 10 or more models, re-roll a Hit roll of 1."
-      }
+    "attributes": {
+        "movement": 3,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 6,
+        "leadership": 8,
+        "objetiveControl": 2,
+        "invulnerableSave": 6
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "1-2 Bubblechukka - big bubble",
+            "modifiers": [
+                "bubblechukka",
+                "blast"
+            ],
+            "range": 48,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "3-4 Bubblechukka - wobbly bubble",
+            "modifiers": [
+                "bubblechukka",
+                "blast"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "5-6Bubblechukka - dense bubble",
+            "modifiers": [
+                "bubblechukka",
+                "blast"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kustom mega-kannon",
+            "modifiers": [
+                "BLAST",
+                "HAZARDOUS"
+            ],
+            "range": 36,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Smasha gun",
+            "modifiers": [
+                "BLAST"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Traktor kannon",
+            "modifiers": [
+                "ANTI-FLY 2+",
+                "DEVASTATING WOUNDS"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Waaagh!"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Splat!:",
+                "description": "Each time a model in this unit makes a ranged attack that targets a unit containing 10 or more models, re-roll a Hit roll of 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Each model’s smasha gun can be replaced with one of the following",
+            "items": [
+                "1 bubblechukka",
+                "1 kustom mega-kannon",
+                "1 traktor kannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Bubblechukka – big bubble",
+            "modifiers": "bubblechukka,blast",
+            "attacks": "2D6",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Kustom mega-kannon",
+            "modifiers": "BLAST, HAZARDOUS",
+            "attacks": "D6",
+            "weapons-skills": "4+",
+            "strength": 12,
+            "armor-penetration": 2,
+            "damage": "D6"
+        },
+        {
+            "name": "Smasha gun",
+            "modifiers": "BLAST",
+            "attacks": "D3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 3
+        },
+        {
+            "name": "Grot crew",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "5+",
+            "strength": 2,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Each model’s smasha gun can be replaced with one of the following",
-      "items": [
-        "1 bubblechukka",
-        "1 kustom mega-kannon",
-        "1 traktor kannon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Bubblechukka – big bubble",
-      "modifiers": "bubblechukka,blast",
-      "attacks": "2D6",
-      "weapons-skills": "4+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Kustom mega-kannon",
-      "modifiers": "BLAST, HAZARDOUS",
-      "attacks": "D6",
-      "weapons-skills": "4+",
-      "strength": 12,
-      "armor-penetration": 2,
-      "damage": "D6"
-    },
-    {
-      "name": "Smasha gun",
-      "modifiers": "BLAST",
-      "attacks": "D3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 3,
-      "damage": 3
-    },
-    {
-      "name": "Grot crew",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "5+",
-      "strength": 2,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

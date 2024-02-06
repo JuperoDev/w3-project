@@ -1,120 +1,128 @@
 {
-  "parentUnit": "Wulfen",
-  "factionKeyword": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Wulfen exist on the brink of constant berserk rages, and their chilling howls unleash the inner beast in sons of Russ nearby. Wulfen are bestial warriors, altered by the Curse lying in the blood of all scions of the Wolf King. They are hunters, bounding forward with fangs bared and claws outstretched, ripping foes apart with inhuman speed.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "wulfen"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 5,
-    "save": 4,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 0,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Stormfrag auto-launcher",
-      "modifiers": [
-        "assault",
-        "blast"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 6+"
+    "parentUnit": "Wulfen",
+    "factionKeyword": [
+        "adeptus astartes",
+        "space wolves"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wulfen exist on the brink of constant berserk rages, and their chilling howls unleash the inner beast in sons of Russ nearby. Wulfen are bestial warriors, altered by the Curse lying in the blood of all scions of the Wolf King. They are hunters, bounding forward with fangs bared and claws outstretched, ripping foes apart with inhuman speed.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "wulfen"
     ],
-    "otherAbilities": [
-      {
-        "name": "Death Frenzy:",
-        "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
-      }
-    ]
-  }, "warGearAbilities": [
-    {
-      "wargear": "Storm Shield",
-      "ability": "The bearer has a 4+ invulnerable save."
-    }
-  ],
-  "wargear": [
-    {
-      "description": "Any number of models can each be equipped with 1 stormfrag auto-launcher.",
-      "items": []
-    },
-    {
-      "description": "Any number of models can each have their Wulfen claws and melee weapons replaced with 1 Wulfen hammer and 1 storm shield.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Wulfen claws and melee weapons",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Wulfen hammer",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1,4],
-      "points": 80
-    },
-    {
-      "count": [1,9],
-      "points": 160
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Wulfen Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-           " Wulfen claws and melee weapons" 
-          ]
-      },
-      {
-        "unitType": "Wulfen",
-        "minQuantity": 4,
-        "maxQuantity": 9,
-        "equipment": [
-         " Wulfen claws and melee weapons" 
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Stormfrag auto-launcher",
+            "modifiers": [
+                "assault",
+                "blast"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Death Frenzy:",
+                "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+            }
         ]
-    }
-  ],
-  "additionalParameter": {}
+    },
+    "warGearAbilities": [
+        {
+            "wargear": "Storm Shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
+    ],
+    "wargear": [
+        {
+            "description": "Any number of models can each be equipped with 1 stormfrag auto-launcher.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each have their Wulfen claws and melee weapons replaced with 1 Wulfen hammer and 1 storm shield.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Wulfen claws and melee weapons",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Wulfen hammer",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 80
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 160
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Wulfen Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Wulfen claws and melee weapons"
+            ]
+        },
+        {
+            "unitType": "Wulfen",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                " Wulfen claws and melee weapons"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -1,119 +1,124 @@
 {
-  "parentUnit": "Iron Father Feirros",
-  "factionKeywords": [
-    "adeptus astartes",
-    "iron hands"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Malkaan Feirros is amongst the oldest and wisest of the Iron Fathers. Yet his radical beliefs and wry humour leaven his arcane technological pronouncements. He is the Iron Hands Master of the Forge, guiding the Chapter’s battle-brothers and the machine spirits of its war engines to unleash precise destruction.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "imperium",
-    "gravis",
-    "iron father feirros"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": ["Aggressor Squad",
-  "Eradicator Squad",
- " Heavy Intercessor Squad"],
-  "rangedWeapons": [
-    {
-      "name": "Bolt Pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Gorgon’s Wrath",
-      "modifiers": [
-        "sustained hits 2"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Iron Father Feirros",
+    "factionKeywords": [
+        "adeptus astartes",
+        "iron hands"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Malkaan Feirros is amongst the oldest and wisest of the Iron Fathers. Yet his radical beliefs and wry humour leaven his arcane technological pronouncements. He is the Iron Hands Master of the Forge, guiding the Chapter’s battle-brothers and the machine spirits of its war engines to unleash precise destruction.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "gravis",
+        "iron father feirros"
     ],
-    "otherAbilities": [
-      {
-        "name": "Rites of Tempering:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
-      },
-      {
-        "name": "Iron Father:",
-        "description": "While this model is within 3\" of one or more friendly adeptus astartes VEHICLE units, it has the Lone Operative ability."
-      },
-      {
-        "name": "Master of the Forge:",
-        "description": "In your Command phase , select one friendly adeptus astartes VEHICLE model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll . You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa."
-      }
-    ]
-  },
-  "wargear": [],
-  "meleeWeapons": [
-   
-    {
-      "name": "Harrowhand",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        " Heavy Intercessor Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt Pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Gorgon’s Wrath",
+            "modifiers": [
+                "sustained hits 2"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rites of Tempering:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Iron Father:",
+                "description": "While this model is within 3\" of one or more friendly adeptus astartes VEHICLE units, it has the Lone Operative ability."
+            },
+            {
+                "name": "Master of the Forge:",
+                "description": "In your Command phase , select one friendly adeptus astartes VEHICLE model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll . You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa."
+            }
+        ]
     },
-    {
-      "name": "Medusan Manipuli",
-      "modifiers": "extraattacks",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Harrowhand",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Medusan Manipuli",
+            "modifiers": "extraattacks",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

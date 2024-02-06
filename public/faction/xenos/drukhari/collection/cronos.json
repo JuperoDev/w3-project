@@ -1,112 +1,117 @@
 {
-  "parentUnit": "Cronos",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Like other Engines of Pain, the Cronos is a grisly amalgam of stimm-fed flesh and biomechanical implements shielded by a burnished carapace. Haemonculi create the Cronos to act as a parasite. Its esoteric syphons leech its victim’s life essence, leaving them as husks before projecting the stolen vitality to other Drukhari.",
-  "keywords": [
-    "monster",
-    "haemonculus covens",
-    "fly",
-    "aeldari",
-    "cronos"
-  ],
-  "attributes": [
-    {
-      "movement": 7,
-      "toughness": 7,
-      "save": 3,
-      "wounds": 7,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 6
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Spirit syphon",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Cronos",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Like other Engines of Pain, the Cronos is a grisly amalgam of stimm-fed flesh and biomechanical implements shielded by a burnished carapace. Haemonculi create the Cronos to act as a parasite. Its esoteric syphons leech its victim’s life essence, leaving them as husks before projecting the stolen vitality to other Drukhari.",
+    "keywords": [
+        "monster",
+        "haemonculus covens",
+        "fly",
+        "aeldari",
+        "cronos"
+    ],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 7,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Spirit syphon",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Spirit vortex",
+            "modifiers": [
+                "blast",
+                "ignores cover"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Feel No Pain 5+"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Pain Parasite (Aura):",
+                "description": "Each time a Pain token is removed from your Pain token pool to Empower a unit, if that Empowered unit is within 9\" of this unit, roll one D6: on a 4+, you gain 1 Pain token."
+            }
+        ]
     },
-    {
-      "name": "Spirit vortex",
-      "modifiers": [
-        "blast",
-        "ignores cover"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Feel No Pain 5+"
+    "unitComposition": [
+        {
+            "unitType": "Cronos",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "spirit syphon",
+                "spirit-leech tentacles."
+            ]
+        }
     ],
-    "faction": [
-      "Power From Pain"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 100
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Pain Parasite (Aura):",
-        "description": "Each time a Pain token is removed from your Pain token pool to Empower a unit, if that Empowered unit is within 9\" of this unit, roll one D6: on a 4+, you gain 1 Pain token."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Spirit-leech tentacles",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 3+"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each be equipped with 1 spirit vortex."
+        }
     ]
-  },
-  "unitComposition": [
-    {
-      "unitType": "Cronos",
-      "minQuantity": 1,
-      "maxQuantity": 2,
-      "equipment": [
-        "spirit syphon",
-        "spirit-leech tentacles."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 50
-    },
-    {
-      "count": [
-        2
-      ],
-      "points": 100
-    }
-  ],
-  "meleeWeapons": [{
-    "name": "Spirit-leech tentacles",
-    "attacks": 4,
-    "weapons-skills": 4,
-    "strength": 5,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": ["anti-infantry 3+"]
-  }],
-  "additionalParameter": {},
-  "wargear": [ {
-    "description": "Any number of models can each be equipped with 1 spirit vortex."
-    
-  }]
 }

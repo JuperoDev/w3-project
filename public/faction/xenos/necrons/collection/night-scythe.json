@@ -1,89 +1,98 @@
 {
-  "parentUnit": "Night Scythe",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Many Necron invasions begin with Night Scythes flitting through a world’s void defences. Potent aerial fighters in their own right, Night Scythes also employ invasion beams to generate captive wormholes through which invading infantry can march direct from distant Necron tomb worlds to begin their conquests anew.",
-  "keywords": [
-    "vehicle",
-    "aircraft",
-    "fly",
-    "transport",
-    "night scythe"
-  ],
-  "attributes": [{
-    
-    "movement": 20,
-    "toughness": 9,
-    "save": 3,
-    "wounds": 12,
-    "leadership": 7,
-    "objetiveControl": 0,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Twin tesla destructor",
-      "modifiers": [
-        "sustained hits 2",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Night Scythe",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Many Necron invasions begin with Night Scythes flitting through a world’s void defences. Potent aerial fighters in their own right, Night Scythes also employ invasion beams to generate captive wormholes through which invading infantry can march direct from distant Necron tomb worlds to begin their conquests anew.",
+    "keywords": [
+        "vehicle",
+        "aircraft",
+        "fly",
+        "transport",
+        "night scythe"
     ],
-    "otherAbilities": [{"name":
-      "Translocation Beams ","description": "At the end of the Fight phase , if there are no models currently embarked within this TRANSPORT , you can select one friendly NECRONS INFANTRY unit wholly within 6\" of this TRANSPORT . Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT ."
-    },{
-      "name":"Quantum Invader","description":"This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [],
-  "transport": "This model has a transport capacity of 1 NECRONS INFANTRY unit.",
-  "unitComposition": [
-     {
-       "unitType": "Night Scythe",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["twin tesla destructor","armoured bulk."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 145
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Armoured bulk",
-         "attacks": 3,
-         "weapons-skills": 4,
-         "strength": 6,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 7,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Twin tesla destructor",
+            "modifiers": [
+                "sustained hits 2",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Translocation Beams ",
+                "description": "At the end of the Fight phase , if there are no models currently embarked within this TRANSPORT , you can select one friendly NECRONS INFANTRY unit wholly within 6\" of this TRANSPORT . Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT ."
+            },
+            {
+                "name": "Quantum Invader",
+                "description": "This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "transport": "This model has a transport capacity of 1 NECRONS INFANTRY unit.",
+    "unitComposition": [
+        {
+            "unitType": "Night Scythe",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "twin tesla destructor",
+                "armoured bulk."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 145
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured bulk",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

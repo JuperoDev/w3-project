@@ -1,143 +1,142 @@
 {
-  "parentUnit": "Servitors",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Some servitors were once serfs, failed aspirants or former allies, now cyborgised with mechanical augmentation. Many have limbs replaced with servo-arms or heavy weapons, employed to defend or aid their Techmarine masters during repairs. The brutal mind-wiping process ensures none ever reveal what they have witnessed.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "servitors"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objectiveControl": 0,
-    "invulnerableSave": 6
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "heavy",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "heavy",
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - standard",
-      "modifiers": [
-        "blast",
-        "heavy"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": "d3",
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma cannon - supercharge",
-      "modifiers": [
-        "blast",
-        "hazardous",
-        "heavy"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": "d3",
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-     
+    "parentUnit": "Servitors",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [],
-    "otherAbilities": [{
-
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Some servitors were once serfs, failed aspirants or former allies, now cyborgised with mechanical augmentation. Many have limbs replaced with servo-arms or heavy weapons, employed to defend or aid their Techmarine masters during repairs. The brutal mind-wiping process ensures none ever reveal what they have witnessed.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "servitors"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 4,
+            "wounds": 1,
+            "leadership": 8,
+            "objectiveControl": 0,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - standard",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous",
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [],
+        "otherAbilities": [
+            {},
+            {}
+        ]
     },
-  {
-
-  }]
-  },
-  "wargear": [
-    {
-      "description": "Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following",
-      "items": [
-        "1 heavy bolter and 1 Servitor’s tools",
-        "1 multi-melta and 1 Servitor’s tools",
-        "1 plasma cannon and 1 Servitor’s tools"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Servitor’s servo-arm",
-      "modifiers": [ ],
-      "attacks": 1,
-      "weapons-skills": 5,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 3
-    },
-    {
-      "name": "Servitor’s tools",
-      "modifiers": [ ],
-      "attacks": 1,
-      "weapons-skills": 5,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Servitors",
-      "minQuantity": 4,
-      "maxQuantity": 4,
-      "equipment":["Servitor’s servo-arm"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        4
-      ],
-      "points": 50
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following",
+            "items": [
+                "1 heavy bolter and 1 Servitor’s tools",
+                "1 multi-melta and 1 Servitor’s tools",
+                "1 plasma cannon and 1 Servitor’s tools"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Servitor’s servo-arm",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
+            "name": "Servitor’s tools",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Servitors",
+            "minQuantity": 4,
+            "maxQuantity": 4,
+            "equipment": [
+                "Servitor’s servo-arm"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                4
+            ],
+            "points": 50
+        }
+    ],
+    "additionalParameter": {}
 }

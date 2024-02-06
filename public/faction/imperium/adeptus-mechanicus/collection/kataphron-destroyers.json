@@ -1,147 +1,153 @@
 {
-  "parentUnit": "Kataphron Destroyers",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These biomechanical constructs operate as mobile heavy weapons platforms, bearing large esoteric cannons as well as close defence armaments. Their ballistic subroutines can be directed to operate independently of preprogrammed battle protocols, making them flexible tools of destruction.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "cult mechanicus",
-    "kataphron",
-    "destroyers"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 6
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cognis flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy grav-cannon",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 30,
-      "strength": 6,
-      "attacks": 4,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Kataphron plasma culverin - standard",
-      "modifiers": [
-        
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 4,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Kataphron plasma culverin - supercharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 4,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Phosphor blaster",
-      "modifiers": [
-        "ignores cover",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Kataphron Destroyers",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": ["Doctrina Imperatives"],
-    "otherAbilities": [
-      {
-        "name": "Sentinel Directives",
-        "description": " Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
-      }
-    ]
-  },
-  "options": [
-    {
-      "count": [3],
-      "points": 115 
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These biomechanical constructs operate as mobile heavy weapons platforms, bearing large esoteric cannons as well as close defence armaments. Their ballistic subroutines can be directed to operate independently of preprogrammed battle protocols, making them flexible tools of destruction.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "cult mechanicus",
+        "kataphron",
+        "destroyers"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cognis flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy grav-cannon",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 30,
+            "strength": 6,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Kataphron plasma culverin - standard",
+            "modifiers": [],
+            "range": 36,
+            "strength": 7,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Kataphron plasma culverin - supercharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Phosphor blaster",
+            "modifiers": [
+                "ignores cover",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sentinel Directives",
+                "description": " Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+            }
+        ]
     },
-    {
-     "count": [6],
-     "points": 230
-   }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Kataphron Destroyers",
-          "minQuantity": 3,
-          "maxQuantity": 6,
-          "equipment": [
-           " heavy grav-cannon", "phosphor blaster", "close combat weapon"
-          ]
-      }
-  ],
- "additionalParameter": {},
- "wargear": [
-  {
-    "description": "Any number of models can each have their heavy grav-cannon replaced with 1 Kataphron plasma culverin."
-  },
-  {
-   "description": "Any number of models can each have their phosphor blaster replaced with 1 cognis flamer   "
- }
- ],
- "meleeWeapons": [
-   {
-     "name": "Close combat weapon",
-     "attacks": 2,
-     "weapons-skills": 4,
-     "strength": 5,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
- ]
+    "options": [
+        {
+            "count": [
+                3
+            ],
+            "points": 115
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 230
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Kataphron Destroyers",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                " heavy grav-cannon",
+                "phosphor blaster",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each have their heavy grav-cannon replaced with 1 Kataphron plasma culverin."
+        },
+        {
+            "description": "Any number of models can each have their phosphor blaster replaced with 1 cognis flamer   "
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

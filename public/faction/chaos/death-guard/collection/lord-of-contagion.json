@@ -1,62 +1,60 @@
 {
-  "parentUnit": "Lord Of Contagion",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Lords of Contagion are the most aggressive Death Guard lords. Their tactics are as brutal and blunt as they are effective. Striding unharmed through torrents of enemy fire in their nigh impregnable Cataphractii Terminator plate, they sweep aside foes in violent bursts of gore with their snarl-toothed and corroded blades.",
-  "keywords": [
-    "infantry",
-    "character",
-    "chaos",
-    "nurgle",
-    "terminator",
-    "grenades",
-    "lord of contagion"
-  ],
-  "attributes": {
-    "movement": 4,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Lord Of Contagion",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lords of Contagion are the most aggressive Death Guard lords. Their tactics are as brutal and blunt as they are effective. Striding unharmed through torrents of enemy fire in their nigh impregnable Cataphractii Terminator plate, they sweep aside foes in violent bursts of gore with their snarl-toothed and corroded blades.",
+    "keywords": [
+        "infantry",
+        "character",
+        "chaos",
+        "nurgle",
+        "terminator",
+        "grenades",
+        "lord of contagion"
     ],
-    "otherAbilities": [
-      {
-        "name": "Vector of Disease:",
-        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll ."
-      },
-      {
-        "name": "Abundance of Sickness:",
-        "description": "In the Fight phase , each time this model loses a wound, roll one D6: on a 4+, the closest enemy unit within Engagement Range of this model suffers 1 mortal wound ."
-      }
+    "attributes": {
+        "movement": 4,
+        "toughness": 6,
+        "save": 2,
+        "wounds": 6,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Vector of Disease:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll ."
+            },
+            {
+                "name": "Abundance of Sickness:",
+                "description": "In the Fight phase , each time this model loses a wound, roll one D6: on a 4+, the closest enemy unit within Engagement Range of this model suffers 1 mortal wound ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Plagueblade – strike",
+            "modifiers": "lethalhits",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Plagueblade – strike",
-      "modifiers": "lethalhits",
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ]
 }

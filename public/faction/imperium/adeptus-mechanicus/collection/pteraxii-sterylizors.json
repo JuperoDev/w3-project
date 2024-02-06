@@ -1,123 +1,134 @@
 {
-  "parentUnit": "Pteraxii Sterylizors",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Sterylizors are eradicators of cybernetic parasite organisms within ships and manufactorums, and eagerly unleash the chemical fire of their phosphor torches upon the Machine God’s foes. They descend in flocks from the sky upon membranous wing-packs, their vicious talons primed, eager to see their enemies writhe in flames.",
-  "keywords": [
-    "infantry",
-    "fly",
-    "jump pack",
-    "imperium",
-    "skitarii",
-    "pteraxii",
-    "sterylizors"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 2,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Flechette blaster",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 5,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Pteraxii Sterylizors",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sterylizors are eradicators of cybernetic parasite organisms within ships and manufactorums, and eagerly unleash the chemical fire of their phosphor torches upon the Machine God’s foes. They descend in flocks from the sky upon membranous wing-packs, their vicious talons primed, eager to see their enemies writhe in flames.",
+    "keywords": [
+        "infantry",
+        "fly",
+        "jump pack",
+        "imperium",
+        "skitarii",
+        "pteraxii",
+        "sterylizors"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Flechette blaster",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 5,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Phosphor torch",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Searing Conflagration:",
+                "description": "Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker , re-roll a Wound roll of 1. If this unit is also within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units, each time such an attack targets such a unit, you can re-roll the Wound roll instead."
+            }
+        ]
     },
-    {
-      "name": "Phosphor torch",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 140
+        }
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "unitComposition": [
+        {
+            "unitType": "Pteraxii Sterylizor Alpha",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "flechette blaster",
+                "Pteraxii talons",
+                "taser goad"
+            ]
+        },
+        {
+            "unitType": "Pteraxii Sterylizors",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "phosphor torch",
+                "Pteraxii talons"
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Searing Conflagration:",
-        "description": "Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker , re-roll a Wound roll of 1. If this unit is also within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units, each time such an attack targets such a unit, you can re-roll the Wound roll instead."
-      }
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Pteraxii talons",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Taser goad",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "sustained hits 2"
+            ]
+        }
     ]
-  },
-  "options": [
-    {
-      "count": [1,4],
-      "points": 70
-    },
-    {
-     "count": [1,9],
-     "points": 140
-   }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Pteraxii Sterylizor Alpha",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "flechette blaster", "Pteraxii talons", "taser goad"
-          ]
-      },
-      {
-       "unitType": "Pteraxii Sterylizors",
-       "minQuantity": 2,
-       "maxQuantity": 5,
-       "equipment": [
-        "phosphor torch", "Pteraxii talons"
-       ]
-   }
-  ],
- "additionalParameter": {},
- "wargear": [
-   
- ],
- "meleeWeapons": [
-  {
-    "name": "Pteraxii talons",
-    "attacks": 2,
-    "weapons-skills": 4,
-    "strength": 4,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  },
-  {
-   "name": "Taser goad",
-   "attacks": 3,
-   "weapons-skills": 4,
-   "strength": 6,
-   "armor-penetration": 0,
-   "damage": 1,
-   "modifiers": ["sustained hits 2"]
- }
- ]
 }

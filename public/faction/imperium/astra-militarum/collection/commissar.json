@@ -1,138 +1,145 @@
 {
-  "parentUnit": "Commissar",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Commissars are ruthless officers charged with maintaining the morale, discipline and fighting spirit of their regiment. With the power to summarily execute any soldier or officer found wanting, they are feared, brooding figures. Their devotion to the Imperium is without doubt and they fight with fanatical bravery.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "officer",
-    "commissar"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 3,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Cadian Shock Troops",
-  "Catachan Jungle Fighters",
-  "Death Korps Of Krieg",
- "Infantry Squad",
-  "Kasrkin",
-  "Tempestus Scions"],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Commissar",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [
-      "Voice of Command"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Commissars are ruthless officers charged with maintaining the morale, discipline and fighting spirit of their regiment. With the power to summarily execute any soldier or officer found wanting, they are feared, brooding figures. Their devotion to the Imperium is without doubt and they fight with fanatical bravery.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "officer",
+        "commissar"
     ],
-    "otherAbilities": [
-      {
-        "name": "Summary Execution:",
-        "description": "Once per battle round , at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked."
-      },
-      {
-        "name": "Political Overwatch:",
-        "description": "While another OFFICER model is in the same unit as this model, you can re-roll Battle-shock test s taken for that unit."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s bolt pistol can be replaced with 1 plasma pistol.",
-      "items": []
-    },
-    {
-      "description": "This model’s chainsword can be replaced with 1 power weapon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-  
-    {
-      "name": "Chainsword",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Commissar",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "bolt pistol", "chainsword"
-          ]
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 30
-      }
+    "leader": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Infantry Squad",
+        "Kasrkin",
+        "Tempestus Scions"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Voice of Command"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Summary Execution:",
+                "description": "Once per battle round , at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked."
+            },
+            {
+                "name": "Political Overwatch:",
+                "description": "While another OFFICER model is in the same unit as this model, you can re-roll Battle-shock test s taken for that unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s bolt pistol can be replaced with 1 plasma pistol.",
+            "items": []
+        },
+        {
+            "description": "This model’s chainsword can be replaced with 1 power weapon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Commissar",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "chainsword"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 30
+        }
     ]
 }

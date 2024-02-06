@@ -1,80 +1,79 @@
 {
-  "parentUnit": "Purestrain Genestealers",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Vanguard organisms for the Tyranid hive fleets, Purestrain Genestealers are one of the most lethal life forms in the galaxy. They combine the cunning of an apex predator with inhuman speed and agility, closing with their prey in the blink of an eye before tearing their victims to bloody tatters.",
-  "keywords": [
-    "infantry",
-    "great devourer",
-    "purestrain genestealers"
-  ],
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 4,
-      "save": 5,
-      "wounds": 2,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 5
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Infiltrators"
+    "parentUnit": "Purestrain Genestealers",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-      "Cult Ambush"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Vanguard organisms for the Tyranid hive fleets, Purestrain Genestealers are one of the most lethal life forms in the galaxy. They combine the cunning of an apex predator with inhuman speed and agility, closing with their prey in the blink of an eye before tearing their victims to bloody tatters.",
+    "keywords": [
+        "infantry",
+        "great devourer",
+        "purestrain genestealers"
     ],
-    "otherAbilities": [
-
-     { "name":"Swift and Deadly:",
-      "description": "This unit is eligible to declare a charge in a turn in which it Advanced ."}
-    ]
-    }
-  ,
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Purestrain Genestealers",
-      "minQuantity": 5,
-      "maxQuantity": 10,
-      "equipment": [
-        "cult claws and talons"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        5
-      ],
-      "points": 85
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 4,
+            "save": 5,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Infiltrators"
+        ],
+        "faction": [
+            "Cult Ambush"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Swift and Deadly:",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced ."
+            }
+        ]
     },
-    {
-      "count": [
-        10
-      ],
-      "points": 170
-    }
-  ],
-  "wargear": [],
-
-  "meleeWeapons": [
-      {
-          "name": "Cult claws and talons",
-          "attacks": 4,
-          "weapons-skills": 2,
-          "strength": 4,
-          "armor-penetration": 2,
-          "damage": 1,
-          "modifiers": []
-      }
-  ]
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Purestrain Genestealers",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "cult claws and talons"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 85
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 170
+        }
+    ],
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Cult claws and talons",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

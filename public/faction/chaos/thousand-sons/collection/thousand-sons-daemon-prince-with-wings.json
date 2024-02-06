@@ -48,54 +48,56 @@
     "wargear": [],
     "abilities": {
         "core": [
-          "Deadly Demise D3"
+            "Deadly Demise D3"
         ],
         "faction": [
-          "Cabal of Sorcerers 2"
+            "Cabal of Sorcerers 2"
         ],
         "otherAbilities": [
-          {
-            "name": "Sorcerous Fire (Psychic)",
-            "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over this phase and roll nine D6: for each 6, that unit suffers 1 mortal wound."
-          },
-          {
-            "name": "Aetherstride (Psychic)",
-            "description": "At the end of your opponent’s turn, if this model is not within Engagement Range of any enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9'' horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed."
-          }
+            {
+                "name": "Sorcerous Fire (Psychic)",
+                "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over this phase and roll nine D6: for each 6, that unit suffers 1 mortal wound."
+            },
+            {
+                "name": "Aetherstride (Psychic)",
+                "description": "At the end of your opponent’s turn, if this model is not within Engagement Range of any enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9'' horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed."
+            }
         ]
-      },
-      "damaged": { },
-      "unitComposition": [
-       {
-         "unitType": "Thousand Sons daemon prince with wings",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment":[ "infernal cannon","hellforged weapons"]
-       }
-     ], "options": [
-      {
-        "count": [1],
-        "points": 195
-      }
+    },
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "Thousand Sons daemon prince with wings",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "infernal cannon",
+                "hellforged weapons"
+            ]
+        }
     ],
-     "additionalParameter": {
-       },
-       "supremeCommander": false,
-       "leader": [
-          ],
-          "rangedWeapons": [
-              {
-                  "name": "infernal cannon",
-                  "range": 24,
-                  "attacks": 3,
-                  "ballistic-skills": 2,
-                  "strength": 5,
-                  "armor-penetration": 1,
-                  "damage": 2,
-                  "modifiers": [
-                      
-                  ]
-              }
-          ],
-          "lore":"Buoyed upon sorcerous zephyrs or borne aloft by wings of mutated flesh, these Daemon Princes revel in hurling arcane fire from on high, reinforcing their megalomaniacal superiority over their foes."
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 195
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "infernal cannon",
+            "range": 24,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "lore": "Buoyed upon sorcerous zephyrs or borne aloft by wings of mutated flesh, these Daemon Princes revel in hurling arcane fire from on high, reinforcing their megalomaniacal superiority over their foes."
 }

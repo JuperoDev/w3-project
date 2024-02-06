@@ -33,7 +33,7 @@
             "description": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll."
         }
     ],
-    "stratagems":[
+    "stratagems": [
         {
             "name": "corrosive viscera",
             "subindex": "strategic ploy stratagem",
@@ -41,9 +41,11 @@
             "when": "Your opponent’s Shooting phase or the Fight phase, just after a TYRANIDS MONSTER model from your army with the Deadly Demise ability that cannot FLY is destroyed.",
             "target": "That TYRANIDS MONSTER model. You can use this Stratagem on that model even though it was just destroyed.",
             "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "rampaging monstrosities",
@@ -52,9 +54,11 @@
             "when": "Fight phase.",
             "target": "One TYRANIDS MONSTER unit from your army that has not been selected to fight this phase.",
             "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "savage roar",
@@ -63,9 +67,11 @@
             "when": "Fight phase, just after an enemy unit has selected its targets.",
             "target": "One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
             "effect": "That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "untrammelled ferocity",
@@ -74,9 +80,11 @@
             "when": "Your Movement phase.",
             "target": "One TYRANIDS MONSTER unit from your army that has not been selected to move this phase.",
             "effect": "Until the end of the phase, models in your unit can move through enemy models as if they were friendly models, and until the end of the phase any Desperate Escape tests those models must take are automatically passed.",
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         },
         {
             "name": "swarm-guided salvoes",
@@ -85,10 +93,11 @@
             "when": "Your Shooting phase.",
             "target": "One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.",
             "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
-            
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         },
         {
             "name": "massive impact",
@@ -97,10 +106,11 @@
             "when": "Your Charge phase, just after a TYRANIDS MONSTER model from your army ends a Charge move.",
             "target": "That TYRANIDS MONSTER model.",
             "effect": "Select one enemy unit within Engagement Range of your model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         }
     ]
-
 }

@@ -1,106 +1,111 @@
 {
-  "parentUnit": "Lukas The Trickster",
-  "factionKeywords": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "A legend amongst impulsive warriors, Lukas – called the Trickster by his many detractors – is synonymous with the irreverence and spirit of youth. His inventive sabotages and murderous jests rank him as one of the most cunning in the Chapter. A dirty fighter, rebel and rogue, Lukas’ skills are as deadly as they are mischievous.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "grenades",
-    "imperium",
-    "lukas the trickster"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": ["Blood Claws"],
-  "rangedWeapons": [
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
+    "parentUnit": "Lukas The Trickster",
+    "factionKeywords": [
+        "adeptus astartes",
+        "space wolves"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A legend amongst impulsive warriors, Lukas – called the Trickster by his many detractors – is synonymous with the irreverence and spirit of youth. His inventive sabotages and murderous jests rank him as one of the most cunning in the Chapter. A dirty fighter, rebel and rogue, Lukas’ skills are as deadly as they are mischievous.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "grenades",
+        "imperium",
+        "lukas the trickster"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Blood Claws"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Pelt of the Doppegangrel:",
+                "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."
+            },
+            {
+                "name": "Last Laugh:",
+                "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, roll one D6: on a 4+, the attacking unit suffers D6 mortal wounds and is Battle-shocked ."
+            }
+        ]
     },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Claw of the Jackalwolf",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
     ],
-    "faction": [
-      "Oath of Moment"
+    "unitComposition": [
+        {
+            "unitType": "Lukas the Trickster – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plasma pistol",
+                "Claw of the Jackalwolf."
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Pelt of the Doppegangrel:",
-        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."
-      },
-      {
-        "name": "Last Laugh:",
-        "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, roll one D6: on a 4+, the attacking unit suffers D6 mortal wounds and is Battle-shocked ."
-      }
-    ]
-  },
-  "wargear": [
-   
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Claw of the Jackalwolf",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Lukas the Trickster – EPIC HERO",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["plasma pistol","Claw of the Jackalwolf."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 50
-    }
-  ],
-  "additionalParameter": {}
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        }
+    ],
+    "additionalParameter": {}
 }

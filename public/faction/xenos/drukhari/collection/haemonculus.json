@@ -1,81 +1,98 @@
 {
-  "parentUnit": "Haemonculus",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Wielding arrays of horrific implements from their personal oubliettes and laboratories, Haemonculi drift like sinister predators in battle. They direct their Covens of twisted monstrosities and pain-adepts while hungrily seeking out fresh subjects for their hideous fleshcrafting.",
-  "keywords": [
-    "infantry",
-    "haemonculus covens",
-    "character",
-    "aeldari",
-    "haemonculus"
-  ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 4,
-    "save": 6,
-    "wounds": 5,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 6
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Stinger pistol",
-      "modifiers": [
-        "anti-infantry 2+",
-        "pistol",
-        "precision"
-      ],
-      "range": 12,
-      "strength": 2,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 5+",
-      "Leader"
+    "parentUnit": "Haemonculus",
+    "factionKeyword": [
+        "drukhari"
     ],
-    "faction": [
-      "Power From Pain"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wielding arrays of horrific implements from their personal oubliettes and laboratories, Haemonculi drift like sinister predators in battle. They direct their Covens of twisted monstrosities and pain-adepts while hungrily seeking out fresh subjects for their hideous fleshcrafting.",
+    "keywords": [
+        "infantry",
+        "haemonculus covens",
+        "character",
+        "aeldari",
+        "haemonculus"
     ],
-    "otherAbilities": [{"name":
-      "Master of Pain:","description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability."},{"name":
-      "Fear Incarnate (Aura):","description": "While an enemy unit is within 6\" of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
-    }]
-  },
-  "unitComposition": [
-      {
-          "unitType": "Haemonculus",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["stinger pistol","Haemonculus tools and scissorhands."]
-      }
-  ],
-  "options": [
-      {
-        "count": [1],
-        "points": 60
-      }
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
     ],
-    "meleeWeapons": [{
-      "name": "Haemonculus tools and scissorhands",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "modifiers": ["anti-infantry 2+","precision"]
-    }
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Stinger pistol",
+            "modifiers": [
+                "anti-infantry 2+",
+                "pistol",
+                "precision"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+",
+            "Leader"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Master of Pain:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability."
+            },
+            {
+                "name": "Fear Incarnate (Aura):",
+                "description": "While an enemy unit is within 6\" of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Haemonculus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "stinger pistol",
+                "Haemonculus tools and scissorhands."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Haemonculus tools and scissorhands",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "modifiers": [
+                "anti-infantry 2+",
+                "precision"
+            ]
+        }
     ],
     "additionalParameter": {},
     "wargear": []

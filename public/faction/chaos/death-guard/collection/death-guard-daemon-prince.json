@@ -1,73 +1,71 @@
 {
-  "parentUnit": "Death Guard Daemon Prince",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Daemonhood is the ultimate goal for a great many Heretic Astartes. Those Nurgle worshippers who succeed are lumbering monstrosities with formidable resilience, corroded armour and bloated flesh. They command sepsis cohorts and vectoriums, having retained all their tactical acumen and martial skill.",
-  "keywords": [
-    "monster",
-    "character",
-    "chaos",
-    "nurgle",
-    "psyker",
-    "daemon",
-    "daemon prince"
-  ],
-  "attributes": {
-    "movement": 7,
-    "toughness": 11,
-    "save": 2,
-    "wounds": 10,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Plague spewer",
-      "modifiers": [
-        "anti-infantry 2+",
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Death Guard Daemon Prince",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Daemonhood is the ultimate goal for a great many Heretic Astartes. Those Nurgle worshippers who succeed are lumbering monstrosities with formidable resilience, corroded armour and bloated flesh. They command sepsis cohorts and vectoriums, having retained all their tactical acumen and martial skill.",
+    "keywords": [
+        "monster",
+        "character",
+        "chaos",
+        "nurgle",
+        "psyker",
+        "daemon",
+        "daemon prince"
     ],
-    "otherAbilities": [
-      {
-        "name": "Grandfather’s Blessing (Aura, Psychic):",
-        "description": "While a friendly DEATH GUARD INFANTRY unit is within Contagion Range of this model, models in that unit have the Feel No Pain 6+ ability."
-      }
+    "attributes": {
+        "movement": 7,
+        "toughness": 11,
+        "save": 2,
+        "wounds": 10,
+        "leadership": 6,
+        "objetiveControl": 3,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Plague spewer",
+            "modifiers": [
+                "anti-infantry 2+",
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Grandfather’s Blessing (Aura, Psychic):",
+                "description": "While a friendly DEATH GUARD INFANTRY unit is within Contagion Range of this model, models in that unit have the Feel No Pain 6+ ability."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Hellforged weapons – strike",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Hellforged weapons – strike",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ]
 }

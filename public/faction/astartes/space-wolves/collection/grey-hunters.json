@@ -1,243 +1,253 @@
 {
-  "parentUnit": "Grey Hunters",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "With their instinctive raw aggression tempered – but never quashed – by countless battlefield victories, Grey Hunters are patient, cunning and adaptable. Some packs take and hold ground, unleashing volleys of disciplined firepower, while others stalk the flanks. When the trap is set, Grey Hunters leap in for the kill.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "imperium",
-    "grey hunters"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Grav-gun",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma gun - standard",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma gun - supercharge",
-      "modifiers": [
-        "hazardous",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Grey Hunters",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": ["Oath of Moment"],
-    "otherAbilities": [
-      {
-        "name": "Cunning Hunters",
-        "description": "This unit is eligible to shoot in a turn in which it Fell Back or Advanced."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "1 Grey Hunter’s bolt pistol can be replaced with 1 plasma pistol.",
-      "items": []
-    },
-    {
-      "description": "Any number of models can each be equipped with 1 Astartes chainsword.",
-      "items": []
-    },
-    {
-      "description": "The Grey Hunter Pack Leader’s close combat weapon can be replaced with one of the following",
-      "items": [
-        "1 power fist",
-        "1 power weapon"
-      ]
-    },
-    {
-      "description": "Up to 2 Grey Hunters can each have their boltgun replaced with one of the following",
-      "items": [
-        "1 flamer",
-        "1 grav-gun",
-        "1 meltagun",
-        "1 plasma gun"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Astartes chainsword",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1,4],
-      "points": 85
-    },
-    {
-      "count": [1,9],
-      "points": 170
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Grey Hunter Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "bolt pistol", "boltgun", "close combat weapon" 
-          ]
-      },
-      {
-        "unitType": "Grey Hunters",
-        "minQuantity": 4,
-        "maxQuantity": 9,
-        "equipment": [
-          "bolt pistol", "boltgun", "close combat weapon" 
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "With their instinctive raw aggression tempered – but never quashed – by countless battlefield victories, Grey Hunters are patient, cunning and adaptable. Some packs take and hold ground, unleashing volleys of disciplined firepower, while others stalk the flanks. When the trap is set, Grey Hunters leap in for the kill.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "imperium",
+        "grey hunters"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Grav-gun",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Cunning Hunters",
+                "description": "This unit is eligible to shoot in a turn in which it Fell Back or Advanced."
+            }
         ]
-    }
-  ],
-  "additionalParameter": {}
+    },
+    "wargear": [
+        {
+            "description": "1 Grey Hunter’s bolt pistol can be replaced with 1 plasma pistol.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each be equipped with 1 Astartes chainsword.",
+            "items": []
+        },
+        {
+            "description": "The Grey Hunter Pack Leader’s close combat weapon can be replaced with one of the following",
+            "items": [
+                "1 power fist",
+                "1 power weapon"
+            ]
+        },
+        {
+            "description": "Up to 2 Grey Hunters can each have their boltgun replaced with one of the following",
+            "items": [
+                "1 flamer",
+                "1 grav-gun",
+                "1 meltagun",
+                "1 plasma gun"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 85
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 170
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Grey Hunter Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "boltgun",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Grey Hunters",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol",
+                "boltgun",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -1,139 +1,151 @@
 {
-  "parentUnit": "Overlord",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Overlords lead the Necron dynasties in battle. Their android minds are tremendously swift, their bodies implacably resilient and their weapons eldritch, ancient and lethal. Yet it is the Overlords’ indomitable wills that are perhaps their most fearsome assets, for with these they drive entire armies to war.",
-  "keywords": [
-    "infantry",
-    "character",
-    "noble",
-    "overlord"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 5,
-    "save": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": ["Immortals",
-  "Lychguard",
-  "Necron Warriors"],
-  "rangedWeapons": [
-    {
-      "name": "Tachyon arrow",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 72,
-      "strength": 16,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 5,
-      "damage": "d6+2",
-      "singleChoice": false
-    },
-    {
-      "name": "Staff of light",
-      "modifiers": [
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Overlord",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": ["reanimation protocols"],
-    "otherAbilities": [
-      {
-        "name": "My Will Be Done",
-        "description": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
-      },
-      {
-        "name": "Implacable Resilience",
-        "description":"Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Overlords lead the Necron dynasties in battle. Their android minds are tremendously swift, their bodies implacably resilient and their weapons eldritch, ancient and lethal. Yet it is the Overlords’ indomitable wills that are perhaps their most fearsome assets, for with these they drive entire armies to war.",
+    "keywords": [
+        "infantry",
+        "character",
+        "noble",
+        "overlord"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Tachyon arrow",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 72,
+            "strength": 16,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 5,
+            "damage": "d6+2",
+            "singleChoice": false
+        },
+        {
+            "name": "Staff of light",
+            "modifiers": [],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "reanimation protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "My Will Be Done",
+                "description": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+            },
+            {
+                "name": "Implacable Resilience",
+                "description": "Each time an attack is allocated to this model, subtract 1 from that attack’s Damage characteristic."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "If this model is not equipped with a tachyon arrow, it can be equipped with 1 resurrection orb."
+        },
+        {
+            "description": "This model’s tachyon arrow and Overlord’s blade can be replaced with one of the following:",
+            "items": [
+                "1 Overlord’s blade",
+                "1 staff of light",
+                "1 voidscythe"
+            ]
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Resurrection Orb",
+            "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
+        },
+        {
+            "wargear": "Phylactery",
+            "ability": "The bearer has the Feel No Pain 5+ ability."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Overlord",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "tachyon arrow",
+                "Overlord’s blade."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Overlord’s blade",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "devastating wounds"
+            ]
+        },
+        {
+            "name": "Staff of light",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Voidscythe",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": [
+                "devastating wounds"
+            ]
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "If this model is not equipped with a tachyon arrow, it can be equipped with 1 resurrection orb."
-    },
-    {
-      "description": "This model’s tachyon arrow and Overlord’s blade can be replaced with one of the following:",
-      "items": [
-        "1 Overlord’s blade",
-        "1 staff of light",
-        "1 voidscythe"
-      ]
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Resurrection Orb",
-      "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
-    },
-    {
-      "wargear": "Phylactery",
-      "ability": "The bearer has the Feel No Pain 5+ ability."
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Overlord",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["tachyon arrow","Overlord’s blade."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 85
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Overlord’s blade",
-         "attacks": 4,
-         "weapons-skills": 2,
-         "strength": 8,
-         "armor-penetration": 3,
-         "damage": 2,
-         "modifiers": ["devastating wounds"]
-       },
-       {
-        "name": "Staff of light",
-        "attacks": 4,
-        "weapons-skills": 2,
-        "strength": 5,
-        "armor-penetration": 2,
-        "damage": 1,
-        "modifiers": []
-      },
-      {
-        "name": "Voidscythe",
-        "attacks": 3,
-        "weapons-skills": 3,
-        "strength": 12,
-        "armor-penetration": 3,
-        "damage": 3,
-        "modifiers": ["devastating wounds"]
-      }
-   ]
 }

@@ -1,79 +1,86 @@
 {
-  "parentUnit": "Canoptek Reanimator",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Canoptek Reanimators prowl the Necron lines, shooting out ethereal beams swarming with nanoscarabs. Necrons touched by these eerie lights stagger to their feet, resurrected, repaired and ready to fight again. Foes are less fortunate, wailing in agony as their atoms are torn apart and recombined in a hideous, gory fashion.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "canoptek",
-    "reanimator"
-  ],
-  "attributes": [{
-   
-    "movement": 8,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 6,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [{
-    "name": "Atomiser beam ",
-    "modifiers": [
-      
+    "parentUnit": "Canoptek Reanimator",
+    "factionKeyword": [
+        "necrons"
     ],
-    "range": 24,
-    "strength": 6,
-    "attacks": 3,
-    "ballistic-skills": 4,
-    "armor-penetration": 2,
-    "damage": 1,
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      "Feel No Pain 4+"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Canoptek Reanimators prowl the Necron lines, shooting out ethereal beams swarming with nanoscarabs. Necrons touched by these eerie lights stagger to their feet, resurrected, repaired and ready to fight again. Foes are less fortunate, wailing in agony as their atoms are torn apart and recombined in a hideous, gory fashion.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "canoptek",
+        "reanimator"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
     ],
-    "otherAbilities": [{"name":
-      "Nanoscarab Reanimation Beam (Aura) ","description": "While a friendly NECRONS unit is within 12\" of this model, each time that unit’s Reanimation Protocols activate, that unit reanimates an additional D3 wounds."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Canoptek Reanimator",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["2 atomiser beams","Reanimator’s claws."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 75
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Reanimator’s claws",
-         "attacks": 4,
-         "weapons-skills": 4,
-         "strength": 5,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Atomiser beam ",
+            "modifiers": [],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 4+"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Nanoscarab Reanimation Beam (Aura) ",
+                "description": "While a friendly NECRONS unit is within 12\" of this model, each time that unit’s Reanimation Protocols activate, that unit reanimates an additional D3 wounds."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Canoptek Reanimator",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 atomiser beams",
+                "Reanimator’s claws."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Reanimator’s claws",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

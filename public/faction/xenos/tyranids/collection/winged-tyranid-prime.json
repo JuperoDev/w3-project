@@ -1,91 +1,86 @@
 {
-  "parentUnit": "winged tyranid prime",
-  "attributes": [
-    {
-      "movement": 12,
-      "toughness": 5,
-      "save": 4,
-      "wounds": 6,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 0
-    }
-  ],
-  "keywords": [
-    "infantry",
-    "character",
-    "fly",
-    "great devourer",
-    "synapse",
-    "vanguard invader",
-    "winged tyranid prime"
-  ],
-  "rangedWeapons": [
-  
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Prime talons",
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": [
-       
-      ]
-    }
-  ],
-  "factionKeyword": [
-    "tyranids"
-  ],
-  "wargear": [],
-  "abilities": {
-    "core": [
-      "deep strike",
-      "leader"
+    "parentUnit": "winged tyranid prime",
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 6,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
     ],
-    "faction": [
-      "synapse",
-      "shadow in the warp"
+    "keywords": [
+        "infantry",
+        "character",
+        "fly",
+        "great devourer",
+        "synapse",
+        "vanguard invader",
+        "winged tyranid prime"
     ],
-    "otherAbilities": [
-      {
-        "name": "Alpha Warrior",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-      },
-      {
-        "name": "Death Blow",
-        "description": " If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play"
-      }
-    ]
-  },
-  "leader": [
-    "gargoyles",
-    "tyranid warriors with melee bio-weapons",
-    "tyranid warriors with ranged bio-weapons"
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Winged Tyranid Prime",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "prime talons"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 65
-    }
-  ],
-  "lore": "Tyranid Primes adapted for flight possess all the physical and synaptic might of an alpha war-beast, while also boasting the frightening speed and manoeuvrability imparted by huge leathery wings. Swooping down into the midst of the foe, they rend and tear until nought remains but corpses and fleeing prey.",
-  "supremeCommander": false,
-
-  "additionalParameter": {},
+    "rangedWeapons": [],
+    "meleeWeapons": [
+        {
+            "name": "Prime talons",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "factionKeyword": [
+        "tyranids"
+    ],
+    "wargear": [],
+    "abilities": {
+        "core": [
+            "deep strike",
+            "leader"
+        ],
+        "faction": [
+            "synapse",
+            "shadow in the warp"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Alpha Warrior",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Death Blow",
+                "description": " If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play"
+            }
+        ]
+    },
+    "leader": [
+        "gargoyles",
+        "tyranid warriors with melee bio-weapons",
+        "tyranid warriors with ranged bio-weapons"
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Winged Tyranid Prime",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "prime talons"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 65
+        }
+    ],
+    "lore": "Tyranid Primes adapted for flight possess all the physical and synaptic might of an alpha war-beast, while also boasting the frightening speed and manoeuvrability imparted by huge leathery wings. Swooping down into the midst of the foe, they rend and tear until nought remains but corpses and fleeing prey.",
+    "supremeCommander": false,
+    "additionalParameter": {},
     "damaged": {}
 }

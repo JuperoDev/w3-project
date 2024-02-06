@@ -1,89 +1,88 @@
 {
-  "parentUnit": "Commander In Crisis Battlesuit",
-  "factionKeyword": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "A deadly blend of strategic mastery, courage and technological might, each T’au Commander pilots their battlesuit and directs their armies with great skill. It is their honour to wield some of the most cutting-edge weapons the empire can provide, enabling them to fight all the harder for the Greater Good.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "fly",
-    "character",
-    "battlesuit",
-    "commander in crisis battlesuit"
-  ],
-  "attributes": [],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Airbursting fragmentation projector",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Cyclic ion blaster - overcharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Fusion blaster",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "T’au flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Commander In Crisis Battlesuit",
+    "factionKeyword": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A deadly blend of strategic mastery, courage and technological might, each T’au Commander pilots their battlesuit and directs their armies with great skill. It is their honour to wield some of the most cutting-edge weapons the empire can provide, enabling them to fight all the harder for the Greater Good.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "character",
+        "battlesuit",
+        "commander in crisis battlesuit"
     ],
-    "otherAbilities": {
-      "Crisis Commander:": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
-    }
-  },
-
-  "additionalParameter": {}
+    "attributes": [],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Airbursting fragmentation projector",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Cyclic ion blaster - overcharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Fusion blaster",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "T’au flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": {
+            "Crisis Commander:": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+        }
+    },
+    "additionalParameter": {}
 }

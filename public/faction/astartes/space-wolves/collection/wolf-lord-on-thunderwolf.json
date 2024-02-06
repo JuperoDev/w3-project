@@ -1,233 +1,244 @@
 {
-  "parentUnit": "Wolf Lord On Thunderwolf",
-  "factionKeywords": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Raised from a pup or bested in the wastes, a Thunderwolf makes for a savage and fearsome mount for a Wolf Lord. Often leading wild and wilful Great Companies, these Wolf Lords meld their centuries of experience and strategic acumen with the ferocity and speed of a hunter as deadly as the lord himself.",
-  "keywords": [
-    "mounted",
-    "character",
-    "grenades",
-    "imperium",
-    "captain",
-    "wolf lord on thunderwolf"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Master-crafted boltgun",
-      "modifiers": [],
-      "range":"24",
-      "attacks": 2,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 2
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Wolf Lord On Thunderwolf",
+    "factionKeywords": [
+        "adeptus astartes",
+        "space wolves"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Raised from a pup or bested in the wastes, a Thunderwolf makes for a savage and fearsome mount for a Wolf Lord. Often leading wild and wilful Great Companies, these Wolf Lords meld their centuries of experience and strategic acumen with the ferocity and speed of a hunter as deadly as the lord himself.",
+    "keywords": [
+        "mounted",
+        "character",
+        "grenades",
+        "imperium",
+        "captain",
+        "wolf lord on thunderwolf"
     ],
-    "otherAbilities": [
-      {
-        "name": "Rites of Battle:",
-        "description": "Once per battle round , one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
-      },
-      {
-        "name": "Speed of the Hunter:",
-        "description": "Add 1 to Advance and Charge rolls made for this model’s unit."
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Master-crafted boltgun",
+            "modifiers": [],
+            "range": "24",
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 2,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rites of Battle:",
+                "description": "Once per battle round , one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+            },
+            {
+                "name": "Speed of the Hunter:",
+                "description": "Add 1 to Advance and Charge rolls made for this model’s unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s bolt pistol can be replaced with one of the following",
+            "items": [
+                "1 combi-weapon",
+                "1 master-crafted boltgun",
+                "1 plasma pistol",
+                "1 storm bolter",
+                "1 power fist",
+                "1 relic weapon",
+                "1 thunder hammer"
+            ]
+        },
+        {
+            "description": "This model’s relic weapon can be replaced with one of the following",
+            "items": [
+                "1 plasma pistol",
+                "1 power fist",
+                "1 thunder hammer",
+                "1 relic shield and 1 close combat weapon"
+            ]
+        },
+        {
+            "description": "This model’s bolt pistol and relic weapon can be replaced with 1 twin lightning claws.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Crushing teeth and claws",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Relic weapon",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Thunder hammer",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Twin lightning claws",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "attacks": 7,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Wolf Lord on Thunderwolf",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "crushing teeth and claws",
+                "relic weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 100
+        }
+    ],
+    "additionalParameter": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Relic Shield",
+            "ability": "The bearer has a Wounds characteristic of 6."
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s bolt pistol can be replaced with one of the following",
-      "items": [
-        "1 combi-weapon",
-        "1 master-crafted boltgun",
-        "1 plasma pistol",
-        "1 storm bolter",
-        "1 power fist",
-        "1 relic weapon",
-        "1 thunder hammer"
-      ]
-    },
-    {
-      "description": "This model’s relic weapon can be replaced with one of the following",
-      "items": [
-        "1 plasma pistol",
-        "1 power fist",
-        "1 thunder hammer",
-        "1 relic shield and 1 close combat weapon"
-      ]
-    },
-    {
-      "description": "This model’s bolt pistol and relic weapon can be replaced with 1 twin lightning claws.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Crushing teeth and claws",
-      "modifiers": ["extra attacks"],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Relic weapon",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Thunder hammer",
-      "modifiers": ["devastating wounds"],
-      "attacks": 5,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Twin lightning claws",
-      "modifiers": ["twin-linked"],
-      "attacks": 7,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Wolf Lord on Thunderwolf",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["bolt pistol", "crushing teeth and claws", "relic weapon"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 100
-    }
-  ],
-  "additionalParameter": {},
-  "warGearAbilities": [
-    {
-      "wargear": "Relic Shield",
-      "ability": "The bearer has a Wounds characteristic of 6."
-    }
-  ]
 }

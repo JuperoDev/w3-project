@@ -1,120 +1,126 @@
 {
-  "parentUnit": "Primaris Psyker",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Primaris Psykers’ empyrically attuned minds are steeled against the manifold dangers risked by unsanctioned wielders of warp powers. These battle-trained psykers support the Astra Militarum’s wars with eerie foretelling, warding soldiers against the enemy’s witchcraft and unleashing tempests of their own psychic might.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "imperium",
-    "primaris psyker"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": ["Cadian Shock Troops",
-  "Catachan Jungle Fighters",
-  "Death Korps Of Krieg",
-  "Infantry Squad",
-  "Kasrkin",
-  "Tempestus Scions"],
-  "rangedWeapons": [
-    {
-      "name": "Laspistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Psychic Maelstrom - witchfire",
-      "modifiers": [
-        "blast",
-        "devastating wounds",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Psychic Maelstrom - focused witchfire",
-      "modifiers": [
-        "blast",
-        "devastating wounds",
-        "hazardous",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Primaris Psyker",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "laspistol; Psychic Maelstrom; force weapon."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Force weapon",
-      "modifiers": "psychic",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": "D3"
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Primaris Psyker",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "laspistol", "Psychic Maelstrom", "force weapon" 
-          ]
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Primaris Psykers’ empyrically attuned minds are steeled against the manifold dangers risked by unsanctioned wielders of warp powers. These battle-trained psykers support the Astra Militarum’s wars with eerie foretelling, warding soldiers against the enemy’s witchcraft and unleashing tempests of their own psychic might.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "imperium",
+        "primaris psyker"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 60
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Infantry Squad",
+        "Kasrkin",
+        "Tempestus Scions"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Psychic Maelstrom - witchfire",
+            "modifiers": [
+                "blast",
+                "devastating wounds",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Psychic Maelstrom - focused witchfire",
+            "modifiers": [
+                "blast",
+                "devastating wounds",
+                "hazardous",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "laspistol; Psychic Maelstrom; force weapon."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Force weapon",
+            "modifiers": "psychic",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "D3"
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Primaris Psyker",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "laspistol",
+                "Psychic Maelstrom",
+                "force weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        }
     ]
 }

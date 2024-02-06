@@ -1,103 +1,109 @@
 {
-  "parentUnit": "Goliath Truck",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Robust and versatile, the Goliath Truck is the armoured transport of choice for the Genestealer Cults. These vehicles boast thick armour and capacious holds, and their heavy stubber and twin autocannon allow the crew to lay down a hail of supporting fire as the broodkin passengers disembark into battle.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "dedicated transport",
-    "great devourer",
-    "goliath truck"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 9,
-    "save": 3,
-    "wounds": 10,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Demolition charge cache",
-      "modifiers": [
-        "assault",
-        "blast",
-        "hazardous"
-      ],
-      "range": 6,
-      "strength": 12,
-      "attacks": "d6+3",
-      "ballistic-skills": 5,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin autocannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 3,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Firing Deck 12"
+    "parentUnit": "Goliath Truck",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-    
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Robust and versatile, the Goliath Truck is the armoured transport of choice for the Genestealer Cults. These vehicles boast thick armour and capacious holds, and their heavy stubber and twin autocannon allow the crew to lay down a hail of supporting fire as the broodkin passengers disembark into battle.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "great devourer",
+        "goliath truck"
     ],
-    "otherAbilities": [{
-      "name":"Fire Support",
-      "description":"In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
-    }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Goliath Truck",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["heavy stubber","twin autocannon","demolition charge cache","Goliath wheels"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 110
-    }],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Demolition charge cache",
+            "modifiers": [
+                "assault",
+                "blast",
+                "hazardous"
+            ],
+            "range": 6,
+            "strength": 12,
+            "attacks": "d6+3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin autocannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Firing Deck 12"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Fire Support",
+                "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Goliath Truck",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heavy stubber",
+                "twin autocannon",
+                "demolition charge cache",
+                "Goliath wheels"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 110
+        }
+    ],
     "wargear": [],
-
     "meleeWeapons": [
         {
             "name": "Goliath wheels",
@@ -109,5 +115,5 @@
             "modifiers": []
         }
     ],
-    "transport":"This model has a transport capacity of 12 GENESTEALER CULTS INFANTRY models. It cannot transport a PATRIARCH."
+    "transport": "This model has a transport capacity of 12 GENESTEALER CULTS INFANTRY models. It cannot transport a PATRIARCH."
 }

@@ -1,92 +1,91 @@
 {
-  "parentUnit": "Riptide Battlesuit",
-  "factionKeyword": [
-    "t’au empire"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Riptide combines the armoured resilience and overwhelming firepower of a heavy battle tank with the agility of a swift and skilful warrior. Powered by a thrumming nova reactor, the battlesuit can overcharge its systems at need, while its massed firepower can eradicate entire formations of enemy warriors or armoured vehicles.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "fly",
-    "battlesuit",
-    "riptide"
-  ],
-  "attributes": [],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Ion accelerator - overcharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 72,
-      "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin fusion blaster",
-      "modifiers": [
-        "melta 2",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin plasma rifle",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin smart missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Riptide Battlesuit",
+    "factionKeyword": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Riptide combines the armoured resilience and overwhelming firepower of a heavy battle tank with the agility of a swift and skilful warrior. Powered by a thrumming nova reactor, the battlesuit can overcharge its systems at need, while its massed firepower can eradicate entire formations of enemy warriors or armoured vehicles.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "battlesuit",
+        "riptide"
     ],
-    "otherAbilities": {
-      "Battlesuit Support System:": "The bearer is eligible to shoot in a turn in which it Fell Back .",
-      "Nova Charge:": "Once per battle, in your Shooting phase , select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability.",
-      "Weapon Support System:": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
-    }
-  },
-
-  "additionalParameter": {}
+    "attributes": [],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Ion accelerator - overcharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 72,
+            "strength": 8,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin fusion blaster",
+            "modifiers": [
+                "melta 2",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin plasma rifle",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin smart missile system",
+            "modifiers": [
+                "indirect fire",
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": {
+            "Battlesuit Support System:": "The bearer is eligible to shoot in a turn in which it Fell Back .",
+            "Nova Charge:": "Once per battle, in your Shooting phase , select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability.",
+            "Weapon Support System:": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
+        }
+    },
+    "additionalParameter": {}
 }

@@ -1,110 +1,117 @@
 {
-  "parentUnit": "Tech-priest Manipulus",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Amongst the augmentations of a Tech-Priest Manipulus is a galvanic cell from which they channel powerful charges of the Motive Force. They drain power sources dry and use the energy to overcharge the cells of their warriors’ armaments, all while defending their divine work with blasts from their own arcane weapons.",
-  "keywords": [
-    "imperium",
-    "infantry",
-    "character",
-    "cult mechanicus",
-    "tech-priest",
-    "manipulus"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 2,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Corpuscarii Electro-priests",
-  "Fulgurite Electro-priests",
-  "Kataphron Breachers",
- "Kataphron Destroyers",
-  "Skitarii Rangers",
-  "Skitarii Vanguard"],
-  "rangedWeapons": [
-    {
-      "name": "Magnarail lance",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Transonic cannon",
-      "modifiers": [
-        "devastating wounds",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Tech-priest Manipulus",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Galvanic Field",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
-      },
-      {
-        "name": "Defend the Divine Work",
-        "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, all models in this model’s unit have a 4+ invulnerable save."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Amongst the augmentations of a Tech-Priest Manipulus is a galvanic cell from which they channel powerful charges of the Motive Force. They drain power sources dry and use the energy to overcharge the cells of their warriors’ armaments, all while defending their divine work with blasts from their own arcane weapons.",
+    "keywords": [
+        "imperium",
+        "infantry",
+        "character",
+        "cult mechanicus",
+        "tech-priest",
+        "manipulus"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Corpuscarii Electro-priests",
+        "Fulgurite Electro-priests",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Magnarail lance",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Transonic cannon",
+            "modifiers": [
+                "devastating wounds",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Galvanic Field",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Defend the Divine Work",
+                "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, all models in this model’s unit have a 4+ invulnerable save."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 55
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Tech-Priest Manipulus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "magnarail lance",
+                "Omnissian staff"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s magnarail lance can be replaced with 1 transonic cannon."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Omnissian axe",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 55
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Tech-Priest Manipulus",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "magnarail lance", "Omnissian staff"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "This model’s magnarail lance can be replaced with 1 transonic cannon."
-   }
- ],
- "meleeWeapons": [
-  {
-    "name": "Omnissian axe",
-    "attacks": 4,
-    "weapons-skills": 3,
-    "strength": 6,
-    "armor-penetration": 1,
-    "damage": 2,
-    "modifiers": []
-  }
- ]
 }

@@ -1,66 +1,67 @@
 {
     "parentUnit": "norn assimilator",
-    "attributes": [{
-        "movement": 10,
-        "toughness": 11,
-        "save": 2,
-        "wounds": 16,
-        "leadership": 7,
-        "objetiveControl": 5,
-        "invulnerableSave": 0
-    }],
-    "supremeCommander": false,
-
-    "options": [
-      {
-        "count": [1],
-        "points": 310
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 7,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
     ],
-    "wargear": [
-     ],
-     "unitComposition": [
-         {
-             "unitType": "norn assimilator",
-             "minQuantity": 1,
-             "maxQuantity": 1,
-             "equipment": [
-               "toxinjector harpoon",
-               "monstrous scything talons"
-             ]
-         }
-     ],
-     "abilities": {
-         "core": [
-             "Deadly Demise 1"
-         ],
-         "faction": [
-             "synapse"
-         ],
-         "otherAbilities": [
-             {
-                 "name": "Harpoon Barbs",
-                 "description": "Once per turn, when an enemy unit within Engagement Range of this model is selected to Fall Back, roll one D6: on a 2+, that unit suffers D6 mortal wounds."
-             },
-             {
+    "supremeCommander": false,
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 310
+        }
+    ],
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "norn assimilator",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "toxinjector harpoon",
+                "monstrous scything talons"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Harpoon Barbs",
+                "description": "Once per turn, when an enemy unit within Engagement Range of this model is selected to Fall Back, roll one D6: on a 2+, that unit suffers D6 mortal wounds."
+            },
+            {
                 "name": "Singular Purpose",
                 "description": "At the start of the first battle round, select one of the following///  Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.///  Select one objective marker. Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
             }
-         ]
-     },
-
-     "additionalParameter": {},
-     "damaged": {},
-     "meleeWeapons": [
-         {
-             "name": "monstruos sxything talons",
-             "attacks": 6,
-             "weapons-skills": 2,
-             "strength": 9,
-             "armor-penetration": 2,
-             "damage": 3
-         },
-         {
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {},
+    "meleeWeapons": [
+        {
+            "name": "monstruos sxything talons",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
             "name": "Toxinjector Harpoon",
             "attacks": 4,
             "weapons-skills": 2,
@@ -69,35 +70,34 @@
             "damage": "d6+1",
             "modifiers": [
                 "extra attacks"
-              ]
-        }
-     ],
-     "rangedWeapons": [
-         {
-          "name": "toxicinjector harpoon",
-          "range": 12,
-          "attacks": 2,
-          "ballistic-skills": 2,
-          "strength": 12,
-          "armor-penetration": 3,
-          "damage": "d6+1",
-          "modifiers": ["harpooned"],
-          "singleChoice": false
+            ]
         }
     ],
-      
-        "leader": [
-            
-        ],
-        "lore": "Norn Assimilators are the living and inexhaustible nemeses of their prey. Using their toxinjector harpoons, these towering monsters can impale and tear down the fortifications their quarry cower behind, drag guardian war engines into their deadly embrace, or pinion the target themselves before dragging them inexorably in to their doom. ",
-        "factionKeyword": [
-            "tyranids"
-        ],
-        "keywords": [
-            "monster",
-            "great devourer",
-            "psyker",
-            "synapse",
-            "norn assimilator"
-        ]
+    "rangedWeapons": [
+        {
+            "name": "toxicinjector harpoon",
+            "range": 12,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": [
+                "harpooned"
+            ],
+            "singleChoice": false
+        }
+    ],
+    "leader": [],
+    "lore": "Norn Assimilators are the living and inexhaustible nemeses of their prey. Using their toxinjector harpoons, these towering monsters can impale and tear down the fortifications their quarry cower behind, drag guardian war engines into their deadly embrace, or pinion the target themselves before dragging them inexorably in to their doom. ",
+    "factionKeyword": [
+        "tyranids"
+    ],
+    "keywords": [
+        "monster",
+        "great devourer",
+        "psyker",
+        "synapse",
+        "norn assimilator"
+    ]
 }

@@ -1,97 +1,102 @@
 {
-  "parentUnit": "Arjac Rockfist",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Arjac Rockfist is a towering mass of muscle and a taciturn anvil of endurance. Wielding the enormous Foehammer – recalling his former role as an Iron Priest of the forge – Arjac crushes his foes with pulverising strength. As personal champion of the Great Wolf, Arjac upholds the honour of the Chapter.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "imperium",
-    "terminator",
-    "arjac rockfist"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 5,
-    "save": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": ["Wolf Guard Terminators",
-  "Terminator Assault Squad",
- " Terminator Squad"],
-  "rangedWeapons": [
-    {
-      "name": "Foehammer",
-      "modifiers": [
-        "anti-monster 2+",
-        "assault"
-      ],
-      "range": 6,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Arjac Rockfist",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Arjac Rockfist is a towering mass of muscle and a taciturn anvil of endurance. Wielding the enormous Foehammer – recalling his former role as an Iron Priest of the forge – Arjac crushes his foes with pulverising strength. As personal champion of the Great Wolf, Arjac upholds the honour of the Chapter.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "terminator",
+        "arjac rockfist"
     ],
-    "otherAbilities": [
-      {
-        "name": "Anvil of Endurance:",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength , and add 1 to the Wound roll as well if that unit is Below Half-strength ."
-      },
-      {
-        "name": "Champion of the Kingsguard:",
-        "description": "You can target this model with the Epic Challenge Stratagem for 0CP. In addition, each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll ."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Foehammer",
-      "modifiers": ["anti-monster 2+"],
-      "attacks":5,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 95
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Arjac Rockfist – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "Foehammer"
-          ]
-      }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Wolf Guard Terminators",
+        "Terminator Assault Squad",
+        " Terminator Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Foehammer",
+            "modifiers": [
+                "anti-monster 2+",
+                "assault"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Anvil of Endurance:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength , and add 1 to the Wound roll as well if that unit is Below Half-strength ."
+            },
+            {
+                "name": "Champion of the Kingsguard:",
+                "description": "You can target this model with the Epic Challenge Stratagem for 0CP. In addition, each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Foehammer",
+            "modifiers": [
+                "anti-monster 2+"
+            ],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 95
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Arjac Rockfist – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Foehammer"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

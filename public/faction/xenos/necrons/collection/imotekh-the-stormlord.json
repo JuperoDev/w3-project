@@ -1,103 +1,111 @@
 {
-  "parentUnit": "Imotekh The Stormlord",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Imotekh is a sublimely skilled strategist, wielding his armies with hyperlogical skill and unleashing deadly strategic ploys. In battle he incinerates enemies with his Gauntlet of Fire, blasts them with pan-dimensional energies from his Staff of the Destroyer or humbles them in punishing one-on-one duels.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "noble",
-    "imotekh the stormlord"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 5,
-    "save": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": ["Immortals",
-  "Lychguard",
-  "Necron Warriors"],
-  "rangedWeapons": [
-    {
-      "name": "Gauntlet of Fire",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Imotekh The Stormlord",
+    "factionKeyword": [
+        "necrons"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Imotekh is a sublimely skilled strategist, wielding his armies with hyperlogical skill and unleashing deadly strategic ploys. In battle he incinerates enemies with his Gauntlet of Fire, blasts them with pan-dimensional energies from his Staff of the Destroyer or humbles them in punishing one-on-one duels.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "noble",
+        "imotekh the stormlord"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Gauntlet of Fire",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Staff of the Destroyer",
+            "modifiers": [],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Grand Strategist ",
+                "description": "At the start of your Command phase , if this model is on the battlefield, you gain 1CP."
+            },
+            {
+                "name": "Lord of the Storm ",
+                "description": "Once per battle, at the end of your Command phase , this model can use this ability. If it does, roll one D6 for each enemy unit within 12\" of this model: on a 2-5, that enemy unit suffers D3 mortal wounds ; on a 6, that enemy unit suffers D3+3 mortal wounds."
+            }
+        ]
     },
-    {
-      "name": "Staff of the Destroyer",
-      "modifiers": [
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Imotekh the Stormlord – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Gauntlet of Fire",
+                "Staff of the Destroyer"
+            ]
+        }
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 100
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Grand Strategist ",
-        "description": "At the start of your Command phase , if this model is on the battlefield, you gain 1CP."
-      },
-      {
-        "name": "Lord of the Storm ",
-        "description": "Once per battle, at the end of your Command phase , this model can use this ability. If it does, roll one D6 for each enemy unit within 12\" of this model: on a 2-5, that enemy unit suffers D3 mortal wounds ; on a 6, that enemy unit suffers D3+3 mortal wounds."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Staff of the Destroyer",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "devastating wounds"
+            ]
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Imotekh the Stormlord – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["Gauntlet of Fire","Staff of the Destroyer"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 100
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Staff of the Destroyer",
-         "attacks": 4,
-         "weapons-skills": 2,
-         "strength": 6,
-         "armor-penetration": 3,
-         "damage": 2,
-         "modifiers": ["devastating wounds"]
-       }
-   ]
 }

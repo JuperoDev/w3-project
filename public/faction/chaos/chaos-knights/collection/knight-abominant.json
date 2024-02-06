@@ -1,117 +1,129 @@
 {
-  "parentUnit": "Knight Abominant",
-  "factionKeyword": [
-    "chaos knights"
-  ],
-  "damaged": {
-    "remainingWounds": 7,
-    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Seen as especially blessed by the Dark Gods, Knights Abominant are suffused with warp energy. They unleash this power in terrifying waves, corrupting and mutating those nearby, and incinerating distant foes with blasts of volkite energy. In combat, they thrash coiling, warp- wrought appendages, crushing anything that remains untainted.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "titanic",
-    "towering",
-    "abhorrent",
-    "psyker",
-    "character",
-    "chaos",
-    "knight abominant"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 12,
-      "save": 3,
-      "wounds": 22,
-      "leadership": 6,
-      "objetiveControl": 10,
-      "invulnerableSave": 5
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Diabolus heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Volkite combustor",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 30,
-      "strength": 12,
-      "attacks": 9,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 3,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Knight Abominant",
+    "factionKeyword": [
+        "chaos knights"
     ],
-    "faction": [
-      "Harbingers of Dread",
-      "Super-heavy Walker"
-    ],
-    "otherAbilities": [{"name":
-      "Vortex Terrors (Psychic):","description": "At the start of your Shooting phase , select one enemy unit within 12\" of this model. That enemy unit must take a Battle-shock test ."},{"name":
-      "Warp Storms (Psychic):","description":"At the end of your Movement phase , roll one D6 for each enemy unit within 9\" of this model: on a 3+, that enemy unit suffers D3 mortal wounds ."
-    }]
-  },
-
-  "options": [
-    {
-      "count": [1],
-      "points": 455
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Knight Abominant",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "diabolus heavy stubber", "volkite combustor", "balemace", "electroscourge"
-          ]
-      }
-  ],
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Balemace",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": ["extra attacks"]
+    "damaged": {
+        "remainingWounds": 7,
+        "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "name": "Electroscourge",
-      "attacks": 9,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 3,
-      "modifiers": ["sustained hits 1"]
-    }
-  ],
-  "additionalParameter": {}
+    "supremeCommander": false,
+    "lore": "Seen as especially blessed by the Dark Gods, Knights Abominant are suffused with warp energy. They unleash this power in terrifying waves, corrupting and mutating those nearby, and incinerating distant foes with blasts of volkite energy. In combat, they thrash coiling, warp- wrought appendages, crushing anything that remains untainted.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "titanic",
+        "towering",
+        "abhorrent",
+        "psyker",
+        "character",
+        "chaos",
+        "knight abominant"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 22,
+            "leadership": 6,
+            "objetiveControl": 10,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Diabolus heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Volkite combustor",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 30,
+            "strength": 12,
+            "attacks": 9,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Harbingers of Dread",
+            "Super-heavy Walker"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Vortex Terrors (Psychic):",
+                "description": "At the start of your Shooting phase , select one enemy unit within 12\" of this model. That enemy unit must take a Battle-shock test ."
+            },
+            {
+                "name": "Warp Storms (Psychic):",
+                "description": "At the end of your Movement phase , roll one D6 for each enemy unit within 9\" of this model: on a 3+, that enemy unit suffers D3 mortal wounds ."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 455
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Knight Abominant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "diabolus heavy stubber",
+                "volkite combustor",
+                "balemace",
+                "electroscourge"
+            ]
+        }
+    ],
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Balemace",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "extra attacks"
+            ]
+        },
+        {
+            "name": "Electroscourge",
+            "attacks": 9,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": [
+                "sustained hits 1"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

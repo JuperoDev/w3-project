@@ -1,233 +1,237 @@
 {
-  "parentUnit": "Rubric Marines",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Advancing relentlessly, the Rubric Marines lay down withering hails of fire. Sorcerous shells from their inferno weapons and soulreaper cannons blast the enemy apart with ruinous force, while gouts of mutagenic fire from their warpflamers burn and twist flesh and soul alike. Against such an onslaught none can stand for long.",
-  "keywords": [
-    "keywords – all models: infantry",
-    "battleline",
-    "chaos",
-    "tzeentch",
-    "rubric marinesaspiring sorcerer: psyker"
-  ],
-  "attributes": [
-    {
-      "movement": 5,
-      "toughness": 4,
-      "save": 3,
-      "wounds": 2,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 5
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Inferno bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Inferno boltgun",
-      "modifiers": [],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Soulreaper cannon",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills":3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Warpsmite",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "pistol",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Warpflame pistol",
-      "modifiers": [
-        "pistol",
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Warpflamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-     
+    "parentUnit": "Rubric Marines",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-      "Cabal of Sorcerers 1 (Only Aspiring Sorcerer)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Advancing relentlessly, the Rubric Marines lay down withering hails of fire. Sorcerous shells from their inferno weapons and soulreaper cannons blast the enemy apart with ruinous force, while gouts of mutagenic fire from their warpflamers burn and twist flesh and soul alike. Against such an onslaught none can stand for long.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "battleline",
+        "chaos",
+        "tzeentch",
+        "rubric marinesaspiring sorcerer: psyker"
     ],
-    "otherAbilities": [{"name":"Bringers of Change",
-      "description": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead."
-    }]
-  },
-  "wargear": [
-    {
-      "description": "The Aspiring Sorcerer’s inferno bolt pistol can be replaced with one of the following:",
-      "items": [
-        "1 plasma pistol",
-        "1 warpflame pistol"
-      ]
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Inferno bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno boltgun",
+            "modifiers": [],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Soulreaper cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Warpsmite",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "pistol",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Warpflame pistol",
+            "modifiers": [
+                "pistol",
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Warpflamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Cabal of Sorcerers 1 (Only Aspiring Sorcerer)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Bringers of Change",
+                "description": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead."
+            }
+        ]
     },
-    {
-      "description": "Any number of Rubric Marines can each have their inferno boltgun replaced with 1 warpflamer."
-    },
-    {
-      "description": "1 Rubric Marine’s inferno boltgun can be replaced with 1 soulreaper cannon."
-    },
-    {
-      "description": "1 Rubric Marine can be equipped with 1 icon of flame."
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Aspiring Sorcerer",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-       "inferno bolt pistol", "Warpsmite", "force weapon"
-      ]
-    },
-    {
-      "unitType": "Rubric Marines",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-       "inferno boltgun", "close combat weapon"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4
-      ],
-      "points": 105
-    },
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 210
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Force Weapon",
-      "modifiers": [
-        "psychic"
-      ],
-      "strength": 6,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "strength": 4,
-      "attacks": 2,
-      "weapons-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "additionalParameter": {},
-  "warGearAbilities": [
-    {
-      "wargear": "Icon of Flame",
-      "ability": "Each time a model in the bearer’s unit makes a ranged attack, if a Critical Wound is scored, improve the Armour Penetration characteristic of that attack by 1."
-    }
-  ]
+    "wargear": [
+        {
+            "description": "The Aspiring Sorcerer’s inferno bolt pistol can be replaced with one of the following:",
+            "items": [
+                "1 plasma pistol",
+                "1 warpflame pistol"
+            ]
+        },
+        {
+            "description": "Any number of Rubric Marines can each have their inferno boltgun replaced with 1 warpflamer."
+        },
+        {
+            "description": "1 Rubric Marine’s inferno boltgun can be replaced with 1 soulreaper cannon."
+        },
+        {
+            "description": "1 Rubric Marine can be equipped with 1 icon of flame."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Aspiring Sorcerer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "inferno bolt pistol",
+                "Warpsmite",
+                "force weapon"
+            ]
+        },
+        {
+            "unitType": "Rubric Marines",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "inferno boltgun",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 105
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 210
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Force Weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "strength": 6,
+            "attacks": 3,
+            "weapons-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "strength": 4,
+            "attacks": 2,
+            "weapons-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "additionalParameter": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Icon of Flame",
+            "ability": "Each time a model in the bearer’s unit makes a ranged attack, if a Critical Wound is scored, improve the Armour Penetration characteristic of that attack by 1."
+        }
+    ]
 }

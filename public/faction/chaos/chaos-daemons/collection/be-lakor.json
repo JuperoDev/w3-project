@@ -1,135 +1,144 @@
 {
-  "parentUnit": "Be’lakor",
-  "factionKeyword": [
-    "legiones daemonica"
-  ],
-  "damaged": {
-    "remainingWounds": 6,
-    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": true,
-  "lore": "Few warp entities are as mighty or as insidious as Be’lakor. Wreathed in shadow and dancing witchlight, the Dark Master spreads terror and torment to all who behold him. Every blow of his Blade of Shadows leaves the hollow husks of slain enemies sprawled in its wake – just more victims lost to the encroaching darkness.",
-  "keywords": [
-    "monster",
-    "character",
-    "fly",
-    "epic hero",
-    "psyker",
-    "chaos",
-    "daemon",
-    "be’lakor"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 10,
-    "save": 4,
-    "wounds": 18,
-    "leadership": 6,
-    "objetiveControl": 5,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Betraying Shades - witchfire",
-      "modifiers": [
-        "devastating wounds",
-        "ignores cover",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 9,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
+    "parentUnit": "Be’lakor",
+    "factionKeyword": [
+        "legiones daemonica"
+    ],
+    "damaged": {
+        "remainingWounds": 6,
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "name": "Betraying Shades - focused witchfire",
-      "modifiers": [
-        "devastating wounds",
-        "hazardous",
-        "ignores cover",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 12,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 1,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Deep Strike",
-      "Stealth"
+    "supremeCommander": true,
+    "lore": "Few warp entities are as mighty or as insidious as Be’lakor. Wreathed in shadow and dancing witchlight, the Dark Master spreads terror and torment to all who behold him. Every blow of his Blade of Shadows leaves the hollow husks of slain enemies sprawled in its wake – just more victims lost to the encroaching darkness.",
+    "keywords": [
+        "monster",
+        "character",
+        "fly",
+        "epic hero",
+        "psyker",
+        "chaos",
+        "daemon",
+        "be’lakor"
     ],
-    "faction": ["The Shadow of Chaos"],
-    "otherAbilities": [
-      {
-        "name": "Shadow Lord (Aura, Psychic):",
-        "description": "While a friendly LEGIONES DAEMONICA LEGIONES DAEMONICA LEGIONES DAEMONICA LEGIONES DAEMONICA LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
-      }
-    ]
-  },
-  "additionalParameter": {
-      "title": "Shadow Form abilities",
-      "abilities": [
-          {
-              "name": "Wreathed in Shadows (Aura, Psychic)",
-              "description": "While a friendly LEGIONES DAEMONICA unit is within 6'' of this model, that unit can only be targeted by a ranged attack if the attacking model is within 18''."
-          },
-          {
-              "name": "Pall of Despair (Aura, Psychic)",
-              "description": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 6'' of this model, that unit must take a Battle-shock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds."
-          },
-          {
-              "name": "Shadow Lord (Aura, Psychic)",
-              "description": "While a friendly LEGIONES DAEMONICA unit is within 6'' of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
-          }
-      ]
-  },
-  "meleeWeapons": [
-      {
-          "name": "The Blade of Shadows – strike ",
-          "attacks": 6,
-          "weapons-skills": 2,
-          "strength": 14,
-          "armor-penetration": 4,
-          "damage": "d6+1",
-          "modifiers": ["lethal hits"],
-          "singleChoice": true
-      },
-      {
-          "name": "The Blade of Shadows – sweep",
-          "attacks": 14,
-          "weapons-skills": 2,
-          "strength": 8,
-          "armor-penetration": 3,
-          "damage": 1,
-          "modifiers": [],
-          "singleChoice": true
-      }
-  ],
-  "wargear": [],
-  "unitComposition": [
-      {
-        "unitType": "Be’lakor – EPIC HERO",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-         " Betraying Shades", "the Blade of Shadows"
-          ]
-      }
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 10,
+            "save": 4,
+            "wounds": 18,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 4
+        }
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 350
-      }
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Betraying Shades - witchfire",
+            "modifiers": [
+                "devastating wounds",
+                "ignores cover",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 9,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Betraying Shades - focused witchfire",
+            "modifiers": [
+                "devastating wounds",
+                "hazardous",
+                "ignores cover",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 12,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 1,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Deep Strike",
+            "Stealth"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Shadow Lord (Aura, Psychic):",
+                "description": "While a friendly LEGIONES DAEMONICA LEGIONES DAEMONICA LEGIONES DAEMONICA LEGIONES DAEMONICA LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+            }
+        ]
+    },
+    "additionalParameter": {
+        "title": "Shadow Form abilities",
+        "abilities": [
+            {
+                "name": "Wreathed in Shadows (Aura, Psychic)",
+                "description": "While a friendly LEGIONES DAEMONICA unit is within 6'' of this model, that unit can only be targeted by a ranged attack if the attacking model is within 18''."
+            },
+            {
+                "name": "Pall of Despair (Aura, Psychic)",
+                "description": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 6'' of this model, that unit must take a Battle-shock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds."
+            },
+            {
+                "name": "Shadow Lord (Aura, Psychic)",
+                "description": "While a friendly LEGIONES DAEMONICA unit is within 6'' of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "The Blade of Shadows – strike ",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 14,
+            "armor-penetration": 4,
+            "damage": "d6+1",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "The Blade of Shadows – sweep",
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Be’lakor – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Betraying Shades",
+                "the Blade of Shadows"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 350
+        }
     ]
 }

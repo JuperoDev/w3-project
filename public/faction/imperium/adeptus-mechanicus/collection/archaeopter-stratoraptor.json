@@ -1,128 +1,136 @@
 {
-  "parentUnit": "Archaeopter Stratoraptor",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Stratoraptor takes advantage of the Archaeopter’s directional thrusters and adaptable wing profile to excel in the role of ground attack gunship. Its spread of heavy weapons – with a mixture of high strength and high rate of fire – ensures the Stratoraptor poses a lethal danger to dug-in infantry and heavily armoured vehicles alike.",
-  "keywords": [
-    "vehicle",
-    "aircraft",
-    "fly",
-    "imperium",
-    "skitarii",
-    "archaeopter stratoraptor"
-  ],
-  "attributes": [{
-    "movement": 20,
-    "toughness": 9,
-    "save": 3,
-    "wounds": 10,
-    "leadership": 7,
-    "objetiveControl": 0,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cognis heavy stubber",
-      "modifiers": [
-        "rapid fire 3",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy phosphor blaster",
-      "modifiers": [
-        "ignores cover"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin cognis lascannon",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Hover"
+    "parentUnit": "Archaeopter Stratoraptor",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Stratoraptor takes advantage of the Archaeopter’s directional thrusters and adaptable wing profile to excel in the role of ground attack gunship. Its spread of heavy weapons – with a mixture of high strength and high rate of fire – ensures the Stratoraptor poses a lethal danger to dug-in infantry and heavily armoured vehicles alike.",
+    "keywords": [
+        "vehicle",
+        "aircraft",
+        "fly",
+        "imperium",
+        "skitarii",
+        "archaeopter stratoraptor"
     ],
-    "otherAbilities": [
-      {
-        "name": "Strafing Run:",
-        "description": "Each time this model makes a ranged attack that targets an enemy unit (excluding units that can FLY ), add 1 to the Hit roll ."
-      }
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cognis heavy stubber",
+            "modifiers": [
+                "rapid fire 3",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy phosphor blaster",
+            "modifiers": [
+                "ignores cover"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin cognis lascannon",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Hover"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Strafing Run:",
+                "description": "Each time this model makes a ranged attack that targets an enemy unit (excluding units that can FLY ), add 1 to the Hit roll ."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 170
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archaeopter stratoraptor",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 cognis heavy stubbers",
+                "2 heavy phosphor blasters",
+                "twin cognis lascannon",
+                "armoured hull",
+                "command uplink"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s command uplink can be replaced with 1 chaff launcher."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured feet",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Chaff Launcher",
+            "ability": "The bearer has the Smoke keyword"
+        },
+        {
+            "wargear": "Command Uplink",
+            "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 170
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Archaeopter stratoraptor",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "2 cognis heavy stubbers", "2 heavy phosphor blasters", "twin cognis lascannon","armoured hull", "command uplink"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "This model’s command uplink can be replaced with 1 chaff launcher."
-   }
- ],
- "meleeWeapons": [
-   {
-     "name": "Armoured feet",
-     "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
- ],
- "warGearAbilities": [
-  {
-    "wargear": "Chaff Launcher",
-    "ability": "The bearer has the Smoke keyword"
-  },
-  {
-   "wargear": "Command Uplink",
-   "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
- }
- ]
 }

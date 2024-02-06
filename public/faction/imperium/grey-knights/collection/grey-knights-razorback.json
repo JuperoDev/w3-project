@@ -1,141 +1,155 @@
 {
-  "parentUnit": "Grey Knights Razorback",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Razorbacks are sturdy armoured transports that combine speed with the support of powerful heavy weapons, ideal for surgical strikes and swift feints. Secure within its adamantine-encased hull, a squad of Grey Knights can advance rapidly and strike exposed foes, while the Razorback’s turret engages additional targets.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "dedicated transport",
-    "smoke",
-    "imperium",
-    "razorback"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 9,
-    "salvation": 3,
-    "wounds": 10,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": ["one shot"],
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6",
-      "range": 48
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": ["rapid fire 2"],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "range": 24
-    },
-    {
-      "name": "Twin assault cannon",
-      "modifiers": ["devastating wounds","twin-linked"],
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1,
-      "range": 24
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": ["sustained hits 1","twin-linked"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "range": 36
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Grey Knights Razorback",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Fire Support:",
-        "description": "In your Shooting phase , after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 hunter-killer missile.",
-      "items": []
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Razorbacks are sturdy armoured transports that combine speed with the support of powerful heavy weapons, ideal for surgical strikes and swift feints. Secure within its adamantine-encased hull, a squad of Grey Knights can advance rapidly and strike exposed foes, while the Razorback’s turret engages additional targets.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "smoke",
+        "imperium",
+        "razorback"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "salvation": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "attacks": 1,
+            "strength": 14,
+            "armor-penetration": 3,
+            "damage": "D6",
+            "range": 48,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "range": 24,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin assault cannon",
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "attacks": 6,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "range": 24,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "range": 36,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Fire Support:",
+                "description": "In your Shooting phase , after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
+            }
+        ]
     },
-    {
-      "description": "This model can be equipped with 1 storm bolter.",
-      "items": []
-    },
-    {
-      "description": "This model’s twin heavy bolter can be replaced with one of the following",
-      "items": [
-        "1 twin assault cannon",
-        "1 twin lascannon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-  
-    {
-      "name": "Armoured tracks",
-      "modifiers": [ ],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Razorback",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["twin heavy bolter","armoured tracks."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 85
-    }
-  ],
-  "additionalParameter": {},
-  "transport":"This model has a transport capacity of 6 GREY KNIGHTS INFANTRY models. It cannot transport TERMINATOR models."
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": []
+        },
+        {
+            "description": "This model’s twin heavy bolter can be replaced with one of the following",
+            "items": [
+                "1 twin assault cannon",
+                "1 twin lascannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Razorback",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "twin heavy bolter",
+                "armoured tracks."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {},
+    "transport": "This model has a transport capacity of 6 GREY KNIGHTS INFANTRY models. It cannot transport TERMINATOR models."
 }

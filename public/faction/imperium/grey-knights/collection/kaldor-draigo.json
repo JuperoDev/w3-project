@@ -1,110 +1,113 @@
 {
-  "parentUnit": "Kaldor Draigo",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": true,
-  "lore": "The Supreme Grand Master of the Grey Knights, Lord Kaldor Draigo enters battle directly from the warp itself and his resolute spirit inspires his warriors to acts of high valour. He hunts down and slays the spawn of Chaos with psychic fire and blows from the legendary Titansword, its blade reforged with a purified daemon weapon.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "terminator",
-    "grenades",
-    "imperium",
-    "kaldor draigo"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 5,
-    "salvation": 2,
-    "wounds": 7,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Scourging",
-      "modifiers": [
-        "anti-daemon 2+",
-        "ignores cover",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
+    "parentUnit": "Kaldor Draigo",
+    "factionKeywords": [
+        "grey knights"
+    ],
+    "damaged": {},
+    "supremeCommander": true,
+    "lore": "The Supreme Grand Master of the Grey Knights, Lord Kaldor Draigo enters battle directly from the warp itself and his resolute spirit inspires his warriors to acts of high valour. He hunts down and slays the spawn of Chaos with psychic fire and blows from the legendary Titansword, its blade reforged with a purified daemon weapon.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "terminator",
+        "grenades",
+        "imperium",
+        "kaldor draigo"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 2,
+            "wounds": 7,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Scourging",
+            "modifiers": [
+                "anti-daemon 2+",
+                "ignores cover",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Teleport Assault"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Untouchable Purity:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
+            },
+            {
+                "name": "One With the Warp (Psychic):",
+                "description": "Once per battle, when this model’s unit declares a charge in the same turn it was set up as Reinforcements using the Deep Strike ability, add 3 to the Charge roll ."
+            }
+        ]
     },
-     {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "The Titansword",
+            "modifiers": "anti-daemon2+,psychic",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 4,
+            "damage": 3
+        }
     ],
-    "faction": [
-      "Teleport Assault"
+    "unitComposition": [
+        {
+            "unitType": "Kaldor Draigo – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Scourging",
+                "storm bolter",
+                "the Titansword"
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Untouchable Purity:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
-      },
-      {
-        "name": "One With the Warp (Psychic):",
-        "description": "Once per battle, when this model’s unit declares a charge in the same turn it was set up as Reinforcements using the Deep Strike ability, add 3 to the Charge roll ."
-      }
-    ]
-  },
-  "wargear": [
-  
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "The Titansword",
-      "modifiers": "anti-daemon2+,psychic",
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 4,
-      "damage": 3
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Kaldor Draigo – EPIC HERO",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["Scourging","storm bolter","the Titansword"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 75
-    }
-  ],
-  "additionalParameter": {}
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "additionalParameter": {}
 }

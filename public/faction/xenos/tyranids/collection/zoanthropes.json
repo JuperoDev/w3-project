@@ -1,14 +1,16 @@
 {
     "parentUnit": "zoanthropes",
-    "attributes": [{
-        "movement": 5,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "lore": "A Zoanthrope’s physical form is given over to harnessing the might of the Hive Mind. Not only do they act as synapse nodes, but they can also draw upon the energies of the Hive Mind to unleash searing psychic blasts, and to generate fields of defensive power that can stop an artillery shell dead ",
     "factionKeyword": [
@@ -22,7 +24,7 @@
         "synapse",
         "zoanthropes"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "chitinous claws and teeth",
@@ -35,59 +37,62 @@
         }
     ],
     "supremeCommander": false,
-       "options": [
+    "options": [
         {
-          "count": [3],
-          "points": 110
+            "count": [
+                3
+            ],
+            "points": 110
         },
         {
-            "count": [6],
+            "count": [
+                6
+            ],
             "points": 220
-          }
-      ],
-      "abilities": {
-        "core": [
-    
-        ],
+        }
+    ],
+    "abilities": {
+        "core": [],
         "faction": [
             "shadow in the warp",
-          "synapse"
-    
+            "synapse"
         ],
         "otherAbilities": [
-          {
-            "name": "Spirit Leech (Aura, Psychic)",
-            "description": " While an enemy unit is within 6'' of this unit, if this unit contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds."
-          },
-          {
-            "name": "Warp Field (Aura, Psychic)",
-            "description": "While a friendly TYRANIDS unit is within 6'' of this unit, models in that unit have a 6+ invulnerable save."
-          }
+            {
+                "name": "Spirit Leech (Aura, Psychic)",
+                "description": " While an enemy unit is within 6'' of this unit, if this unit contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds."
+            },
+            {
+                "name": "Warp Field (Aura, Psychic)",
+                "description": "While a friendly TYRANIDS unit is within 6'' of this unit, models in that unit have a 6+ invulnerable save."
+            }
         ]
-      },
-      "unitComposition": [
-          {
-              "unitType": "zoanthropes",
-              "minQuantity": 3,
-              "maxQuantity": 6,
-              "equipment": ["chitinous claws and teeth"]
-          }
-      ],
-      "rangedWeapons": [
-          {
-              "name": "Warp Blast – witchfire",
-              "range": 24,
-              "attacks": "d3",
-              "ballistic-skills": 3,
-              "strength": 7,
-              "armor-penetration": 2,
-              "damage": "d3",
-              "modifiers": [
-                  "blast",
-                  "psychic"
-              ]
-          },
-          {
+    },
+    "unitComposition": [
+        {
+            "unitType": "zoanthropes",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                "chitinous claws and teeth"
+            ]
+        }
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Warp Blast – witchfire",
+            "range": 24,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "modifiers": [
+                "blast",
+                "psychic"
+            ]
+        },
+        {
             "name": "Warp Blast – focused witchfire",
             "range": 24,
             "attacks": 1,
@@ -100,10 +105,7 @@
                 "psychic"
             ]
         }
-      ],
-      "damaged": {
-    },
-
+    ],
+    "damaged": {},
     "additionalParameter": {}
-    
 }

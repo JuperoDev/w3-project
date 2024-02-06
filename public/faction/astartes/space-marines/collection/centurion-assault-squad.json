@@ -1,121 +1,124 @@
 {
-  "parentUnit": "Centurion Assault Squad",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "There are few technologies better adapted for siege warfare than the Centurion Warsuit. Wading into thunderous storms of enemy fire, Centurion Assault Squads use their roaring siege drills to crack open armoured bunkers and tear apart tanks.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "centurion",
-    "centurion assault squad"
-  ],
-  "attributes": [{
-    "movement": 4,
-    "toughness": 7,
-    "save": 2,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Centurion bolters",
-      "modifiers": [
-        "rapid fire 3",
-        "twin-linked"
-      ],
-      "range": 24,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent",
-        "twin-linked"
-      ],
-      "range": 12,
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin meltagun",
-      "modifiers": [
-        "melta 2",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Centurion Assault Squad",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Centurion Assault Launcher:",
-        "description": "The bearer has the Grenades keyword."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their twin flamer replaced with 1 twin meltagun.",
-      "items": []
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "There are few technologies better adapted for siege warfare than the Centurion Warsuit. Wading into thunderous storms of enemy fire, Centurion Assault Squads use their roaring siege drills to crack open armoured bunkers and tear apart tanks.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "centurion",
+        "centurion assault squad"
+    ],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 7,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Centurion bolters",
+            "modifiers": [
+                "rapid fire 3",
+                "twin-linked"
+            ],
+            "range": 24,
+            "attacks": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "attacks": "D6",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Twin meltagun",
+            "modifiers": [
+                "melta 2",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Centurion Assault Launcher:",
+                "description": "The bearer has the Grenades keyword."
+            }
+        ]
     },
-    {
-      "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion assault launcher.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Siege drills",
-      "modifiers": ["twin-linked"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "Any number of models can each have their twin flamer replaced with 1 twin meltagun.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion assault launcher.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Siege drills",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

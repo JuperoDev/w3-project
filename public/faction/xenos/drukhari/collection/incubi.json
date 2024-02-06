@@ -1,102 +1,127 @@
 {
-  "parentUnit": "Incubi",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Incubi are warrior-perfectionists of the highest order. Protected by the ornate plates of their ancient warsuits, they move swiftly in for the kill, sweeping giant klaives in practised, decapitating strikes. They carve straight through the enemy’s elite, crushing their spirit with psychic torture devices known as tormentors.",
-  "keywords": [
-    "infantry",
-    "aeldari",
-    "incubi"
-  ],
-  "attributes": [
-    {
-      "name": "incubi",
-      "movement": 7,
-      "toughness": 3,
-      "save": 3,
-      "wounds": 1,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 5
+    "parentUnit": "Incubi",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Incubi are warrior-perfectionists of the highest order. Protected by the ornate plates of their ancient warsuits, they move swiftly in for the kill, sweeping giant klaives in practised, decapitating strikes. They carve straight through the enemy’s elite, crushing their spirit with psychic torture devices known as tormentors.",
+    "keywords": [
+        "infantry",
+        "aeldari",
+        "incubi"
+    ],
+    "attributes": [
+        {
+            "name": "incubi",
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        },
+        {
+            "name": "klaivex",
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Tormentors: At the start of the Fight phase",
+                "description": "each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+            }
+        ]
     },
-    {
-      "name": "klaivex",
-      "movement": 7,
-      "toughness": 3,
-      "save": 3,
-      "wounds": 2,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 5
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      
+    "unitComposition": [
+        {
+            "unitType": "Klaivex",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "klaive"
+            ]
+        },
+        {
+            "unitType": "Incubi",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "klaive"
+            ]
+        }
     ],
-    "faction": [
-      "Power From Pain"
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 80
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 160
+        }
     ],
-    "otherAbilities": [{"name":
-      "Tormentors: At the start of the Fight phase","description":
-      "each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
-    }]
-  },
-  "unitComposition": [
-      {
-          "unitType": "Klaivex",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["klaive"]
-      },
-      {
-        "unitType": "Incubi",
-        "minQuantity": 4,
-        "maxQuantity": 9,
-        "equipment":["klaive"]
-    }
-  ],
-  "options": [
-      {
-        "count": [1,4],
-        "points": 80
-      },
-      {"count":[1,9],
-    "points":160}
-    ],
-    "meleeWeapons": [{
-      "name": "Demiklaives – single blade",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": ["anti-infantry 3+"],
-      "singleChoice": true
-    },{
-      "name": "Demiklaives – dual blades",
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": ["twin-linked"],
-      "singleChoice": true
-    },{
-      "name": "Klaive",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": ["anti-infantry 3+"]
-    }
+    "meleeWeapons": [
+        {
+            "name": "Demiklaives – single blade",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "anti-infantry 3+"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "Demiklaives – dual blades",
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "twin-linked"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "Klaive",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "anti-infantry 3+"
+            ]
+        }
     ],
     "additionalParameter": {},
-    "wargear": [{"description":"The Klaivex’s klaive can be replaced with 1 demilklaives."}]
+    "wargear": [
+        {
+            "description": "The Klaivex’s klaive can be replaced with 1 demilklaives."
+        }
+    ]
 }

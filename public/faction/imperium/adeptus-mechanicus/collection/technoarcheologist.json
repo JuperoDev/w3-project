@@ -1,91 +1,99 @@
 {
-  "parentUnit": "Technoarcheologist",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Technoarcheologists are seekers of divine arcana, driven to uncover that which is hidden and to analyse its capabilities. Hardened to life on the Imperium’s dangerous frontiers, these priests employ cogitative instincts to detect approaching foes and awaken their servitor guardians to effective modes of attack.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "cult mechanicus",
-    "tech-priest",
-    "technoarcheologist"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Corpuscarii Electro-priests",
-  "Fulgurite Electro-priests",
-  "Kataphron Breachers",
- "Kataphron Destroyers",
-  "Skitarii Rangers",
-  "Skitarii Vanguard"],
-  "rangedWeapons": [
-    {
-      "name": "Mechanicus pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Technoarcheologist",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "Mechanicus pistol; servo-arc claw."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Technoarcheologists are seekers of divine arcana, driven to uncover that which is hidden and to analyse its capabilities. Hardened to life on the Imperium’s dangerous frontiers, these priests employ cogitative instincts to detect approaching foes and awaken their servitor guardians to effective modes of attack.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "cult mechanicus",
+        "tech-priest",
+        "technoarcheologist"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Corpuscarii Electro-priests",
+        "Fulgurite Electro-priests",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Mechanicus pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "Mechanicus pistol; servo-arc claw."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 45
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Technoarcheologist",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Mechanicus pistol",
+                "servo-arc claw"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Servo-arc claw",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds"
+            ]
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 45
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Technoarcheologist",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "Mechanicus pistol", "servo-arc claw"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-  
- ],
- "meleeWeapons": [
-   {
-     "name": "Servo-arc claw",
-     "attacks": 3,
-     "weapons-skills": 4,
-     "strength": 8,
-     "armor-penetration": 2,
-     "damage": 2,
-     "modifiers": ["anti-vehicle 4+","devastating wounds"]
-   }
- ]
 }

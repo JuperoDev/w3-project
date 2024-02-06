@@ -1,116 +1,116 @@
 {
-  "parentUnit": "Deffkoptas",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Most Orks take a dim view of muckin’ about in the sky, and would much rather go to war with their feet firmly on the ground. Deffkopta pilots are the lunatic exception, hurtling ahead to spy out enemy forces for their warband to bring to battle, and to give those same enemies a good strafing run or three in the meantime.",
-  "keywords": [
-    "vehicle",
-    "fly",
-    "grenades",
-    "deffkoptas"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 6,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Kopta rokkits",
-      "modifiers": [
-        "blast",
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kustom mega-blasta",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Deffkoptas",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Most Orks take a dim view of muckin’ about in the sky, and would much rather go to war with their feet firmly on the ground. Deffkopta pilots are the lunatic exception, hurtling ahead to spy out enemy forces for their warband to bring to battle, and to give those same enemies a good strafing run or three in the meantime.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "grenades",
+        "deffkoptas"
     ],
-    "otherAbilities": [
-      {
-        "name": "Deff from Above:",
-        "description": "Each time this unit ends a Normal move , you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
-      }
+    "attributes": {
+        "movement": 12,
+        "toughness": 6,
+        "save": 4,
+        "wounds": 4,
+        "leadership": 7,
+        "objetiveControl": 2,
+        "invulnerableSave": 6
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Kopta rokkits",
+            "modifiers": [
+                "blast",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kustom mega-blasta",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Deff from Above:",
+                "description": "Each time this unit ends a Normal move , you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "For every 3 models in this unit, 1 Deffkopta can have its kopta rokkits replaced with 1 kustom mega-blasta.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Kopta rokkits",
+            "modifiers": "blast,twin-linked",
+            "attacks": "D3",
+            "weapons-skills": "5+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
+            "name": "Kustom mega-blasta",
+            "modifiers": "hazardous",
+            "attacks": "3",
+            "weapons-skills": "5+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "D6"
+        },
+        {
+            "name": "Spinnin’ blades",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "For every 3 models in this unit, 1 Deffkopta can have its kopta rokkits replaced with 1 kustom mega-blasta.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Kopta rokkits",
-      "modifiers": "blast,twin-linked",
-      "attacks": "D3",
-      "weapons-skills": "5+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 3
-    },
-    {
-      "name": "Kustom mega-blasta",
-      "modifiers": "hazardous",
-      "attacks": "3",
-      "weapons-skills": "5+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": "D6"
-    },
-    {
-      "name": "Spinnin’ blades",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

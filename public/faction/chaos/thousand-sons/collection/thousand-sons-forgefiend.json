@@ -1,115 +1,118 @@
 {
-  "parentUnit": "Thousand Sons forgefiend",
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 10,
-      "save": 3,
-      "wounds": 12,
-      "leadership": 6,
-      "objetiveControl": 3,
-      "invulnerableSave": 5
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Forgefiend claws",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [],
-      "singleChoice": false
-    },
-    {
-      "name": "Forgefiend jaws",
-      "attacks": 5,
-      "weapons-skills": 3,
-      "strength": 7,
-      "armor-penetration": 0,
-      "damage": 2,
-      "modifiers": [],
-      "singleChoice": false
-    }
-  ],
-  "keywords": [
-    "Vehicle",
-    "Walker",
-    "Chaos",
-    "Tzeentch",
-    "Daemon",
-    "Forgefiend"
-  ],
-  "factionKeyword": [
-    "Thousand Sons"
-  ],
-  "wargear": [{
-    "description": "This model’s 2 Hades autocannons can be replaced with 2 ectoplasma cannons."
-  },
-  {
-    "description": "This model’s Forgefiend jaws can be replaced with 1 ectoplasma cannon and 1 Forgefiend claws."
-  }],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Thousand Sons forgefiend",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 5
+        }
     ],
-    "faction": [
-      
+    "meleeWeapons": [
+        {
+            "name": "Forgefiend claws",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": false
+        },
+        {
+            "name": "Forgefiend jaws",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": false
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Blazing Salvoes",
-        "description": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
-      }
-    ]
-  },
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "each time this model makes an attack, subtract 1 from the Hit roll"
-  },
-  "unitComposition": [
-    {
-      "unitType": "Thousand Sons Forgefiend",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["2 Hades autocannons","1 Forgefiend jaws"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 135
-    }
-  ],
-  "additionalParameter": {},
-  "supremeCommander": false,
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "ectoplasma cannon",
-      "range": 36,
-      "attacks": "d3",
-      "ballistic-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 3,
-      "modifiers": [
-        "blast"
-      ]
+    "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Tzeentch",
+        "Daemon",
+        "Forgefiend"
+    ],
+    "factionKeyword": [
+        "Thousand Sons"
+    ],
+    "wargear": [
+        {
+            "description": "This model’s 2 Hades autocannons can be replaced with 2 ectoplasma cannons."
+        },
+        {
+            "description": "This model’s Forgefiend jaws can be replaced with 1 ectoplasma cannon and 1 Forgefiend claws."
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Blazing Salvoes",
+                "description": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+            }
+        ]
     },
-    {
-      "name": "hades autocannon",
-      "range": 36,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": []
-    }
-  ],
-  "lore":"The ectoplasma cannons and Hades autocannons of the Forgefiends draw their furious energies direct from the blazing daemon forges at the heart of each murderous artillery engine. So do they unleash salvoes of blazing weaponised hatred that eradicate the Thousand Sons’ enemies in droves."
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "each time this model makes an attack, subtract 1 from the Hit roll"
+    },
+    "unitComposition": [
+        {
+            "unitType": "Thousand Sons Forgefiend",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 Hades autocannons",
+                "1 Forgefiend jaws"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 135
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "ectoplasma cannon",
+            "range": 36,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": [
+                "blast"
+            ]
+        },
+        {
+            "name": "hades autocannon",
+            "range": 36,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "lore": "The ectoplasma cannons and Hades autocannons of the Forgefiends draw their furious energies direct from the blazing daemon forges at the heart of each murderous artillery engine. So do they unleash salvoes of blazing weaponised hatred that eradicate the Thousand Sons’ enemies in droves."
 }

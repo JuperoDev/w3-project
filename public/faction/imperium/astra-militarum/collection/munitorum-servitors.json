@@ -1,139 +1,143 @@
 {
-  "parentUnit": "Munitorum Servitors",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Lobotomised and augmented, Servitors attend the Departmento Munitorum in countless menial ways. These cybernetic living tools often form servile retinues for Enginseers, using their industrial servo- arms to repair hulking tanks, but unhesitatingly turning them on the foe should they draw too near.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "munitorum servitors"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 0,
-    "invulnerableSave": 6
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "heavy",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "heavy",
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - standard",
-      "modifiers": [
-        "blast",
-        "heavy"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - supercharge",
-      "modifiers": [
-        "blast",
-        "hazardous",
-        "heavy"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Mindlock: While a friendly REGIMENTAL ENGINSEER model is leading this unit",
-      "improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by MUNITORUM SERVITOR models in this unit by 1."
+    "parentUnit": "Munitorum Servitors",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": []
-  },
-  "wargear": [
-    {
-      "description": "Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following",
-      "items": [
-        "1 heavy bolter",
-        "1 multi-melta",
-        "1 plasma cannon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 1,
-      "weapons-skills": 5,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Servitor’s servo-arm",
-      "modifiers": [],
-      "attacks": 1,
-      "weapons-skills": 5,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lobotomised and augmented, Servitors attend the Departmento Munitorum in countless menial ways. These cybernetic living tools often form servile retinues for Enginseers, using their industrial servo- arms to repair hulking tanks, but unhesitatingly turning them on the foe should they draw too near.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "munitorum servitors"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 0,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - standard",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous",
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Mindlock: While a friendly REGIMENTAL ENGINSEER model is leading this unit",
+            "improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by MUNITORUM SERVITOR models in this unit by 1."
+        ],
+        "faction": [],
+        "otherAbilities": []
+    },
+    "wargear": [
+        {
+            "description": "Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following",
+            "items": [
+                "1 heavy bolter",
+                "1 multi-melta",
+                "1 plasma cannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Servitor’s servo-arm",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Angron – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
     ]
 }

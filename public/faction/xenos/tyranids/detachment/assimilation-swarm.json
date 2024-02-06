@@ -33,7 +33,7 @@
             "description": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6'' of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
         }
     ],
-    "stratagems":[
+    "stratagems": [
         {
             "name": "bloodguard impulse",
             "subindex": "epic deed stratagem",
@@ -41,9 +41,11 @@
             "when": "Any phase.",
             "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
             "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "reclaim biomass",
@@ -52,9 +54,11 @@
             "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
             "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
             "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "tyrannoformed",
@@ -63,9 +67,11 @@
             "when": " Command phase.",
             "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
             "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "ablative carapace",
@@ -74,9 +80,11 @@
             "when": "Your Movement phase.",
             "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
             "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
-            "icon" : [""],
-            "cp":2,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
         },
         {
             "name": "secure biomass",
@@ -85,10 +93,11 @@
             "when": "Fight phase.",
             "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
             "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
-            
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "rapacious hunger",
@@ -97,10 +106,11 @@
             "when": "Your Fight phase.",
             "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
             "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         }
     ]
-
 }

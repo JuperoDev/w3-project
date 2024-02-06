@@ -1,92 +1,97 @@
 {
-  "parentUnit": "Skitarii Marshal",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Marshals lead the maniples and cohorts of Skitarii soldiery. They are veteran warriors of countless crusades, privileged to bear enhanced augmentations. Marshals stand as intermediaries between Skitarii formations and their priestly masters, employing sacred uplinks to refine their warriors’ doctrines closer to holy perfection.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "skitarii",
-    "marshal"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 4,
-    "wounds": 3,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Skitarii Rangers",
- " Skitarii Vanguard"],
-  "rangedWeapons": [
-    {
-      "name": "Mechanicus pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Skitarii Marshal",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Marshals lead the maniples and cohorts of Skitarii soldiery. They are veteran warriors of countless crusades, privileged to bear enhanced augmentations. Marshals stand as intermediaries between Skitarii formations and their priestly masters, employing sacred uplinks to refine their warriors’ doctrines closer to holy perfection.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "skitarii",
+        "marshal"
     ],
-    "otherAbilities": [
-      {
-        "name": "Control Edict:",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll ."
-      },
-      {
-        "name": "Servo-skull Uplink:",
-        "description": "Once per turn, you can select this model’s unit for a Stratagem even if that Stratagem has already been used on another unit from your army this phase."
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Skitarii Rangers",
+        " Skitarii Vanguard"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Mechanicus pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Control Edict:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll ."
+            },
+            {
+                "name": "Servo-skull Uplink:",
+                "description": "Once per turn, you can select this model’s unit for a Stratagem even if that Stratagem has already been used on another unit from your army this phase."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 35
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Skitarii Marshal",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Mechanicus pistol",
+                "control stave"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Control stave",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 35
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Skitarii Marshal",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "Mechanicus pistol", "control stave"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   
- ],
- "meleeWeapons": [
-   {
-     "name": "Control stave",
-     "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 1,
-     "damage": 1,
-     "modifiers": []
-   }
- ]
 }

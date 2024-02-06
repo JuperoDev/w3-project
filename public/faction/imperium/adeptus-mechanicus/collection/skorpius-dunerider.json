@@ -1,94 +1,97 @@
 {
-  "parentUnit": "Skorpius Dunerider",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Skorpius Duneriders enable forge lords to ferry squads of their cyborg infantry onto the front lines, overwhelming the foe through swiftly redeployed weight of numbers. Duneriders sweep onto enemy defences in a cloud of chemical smoke, saturating the area with heavy calibre shot as their payload of warriors disembarks.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "dedicated transport",
-    "imperium",
-    "skitarii",
-    "smoke",
-    "skorpius dunerider"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 9,
-    "save": 3,
-    "wounds": 11,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cognis heavy stubber array",
-      "modifiers": [
-        "rapid fire 9",
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 9,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Skorpius Dunerider",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Skorpius Duneriders enable forge lords to ferry squads of their cyborg infantry onto the front lines, overwhelming the foe through swiftly redeployed weight of numbers. Duneriders sweep onto enemy defences in a cloud of chemical smoke, saturating the area with heavy calibre shot as their payload of warriors disembarks.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "imperium",
+        "skitarii",
+        "smoke",
+        "skorpius dunerider"
     ],
-    "otherAbilities": [
-      {
-        "name": "Broad Spectrum Data-tether:",
-        "description": "Each time you select this model as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
-      },
-      {
-        "name": "Fire Support:",
-        "description": "In your Shooting phase , after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
-      }
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cognis heavy stubber array",
+            "modifiers": [
+                "rapid fire 9",
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 9,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Broad Spectrum Data-tether:",
+                "description": "Each time you select this model as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+            },
+            {
+                "name": "Fire Support:",
+                "description": "In your Shooting phase , after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Skorpius Dunerider",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "cognis heavy stubber array",
+                "armoured hull"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 80
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Skorpius Dunerider",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "cognis heavy stubber array","armoured hull"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-  
- ],
- "meleeWeapons": [
-  {
-    "name": "Armoured hull",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 6,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
- ]
 }

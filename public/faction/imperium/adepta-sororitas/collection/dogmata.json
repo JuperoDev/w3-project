@@ -1,99 +1,98 @@
 {
-  "parentUnit": "dogmata",
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 3,
-      "save": 6,
-      "wounds": 3,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 6
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "With watchful eyes, the Sisters Dogmata seek out infractions amongst their Order. Held in as much fear as respect, with but a word they can condemn a Sister to the Repentia. With shouted prayers and great swings of their maces, they demonstrate the path of righteousness and show what the Sisters should expect if they fail in their duties.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "character",
-    "imperium",
-    "dogmata"
-  ],
-  "leader": [
-    "battle sisters squad",
-    "celestian sacresants",
-    "dominion squad",
-    "retributor squad"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "dogmata",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "factionKeyword": [
+        "adepta sororitas"
     ],
-    "otherAbilities": [
-      {
-        "name": "Executioner of Heretics (Aura):",
-        "description": "While an enemy unit is within 6\" of this model, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from the test."
-      },
-      {
-        "name": "Unflinching Determination:",
-        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "With watchful eyes, the Sisters Dogmata seek out infractions amongst their Order. Held in as much fear as respect, with but a word they can condemn a Sister to the Repentia. With shouted prayers and great swings of their maces, they demonstrate the path of righteousness and show what the Sisters should expect if they fail in their duties.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "character",
+        "imperium",
+        "dogmata"
+    ],
+    "leader": [
+        "battle sisters squad",
+        "celestian sacresants",
+        "dominion squad",
+        "retributor squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Executioner of Heretics (Aura):",
+                "description": "While an enemy unit is within 6\" of this model, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from the test."
+            },
+            {
+                "name": "Unflinching Determination:",
+                "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Mace of the righteous",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Dogmata",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "mace of the righteous."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 45
+        }
     ]
-  },
-  "meleeWeapons":[
-    {
-      "name": "Mace of the righteous",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": []
-    }
-  ],
-  "wargear": [
-    
-  ],
-
-  "additionalParameter": {
-    
-  },
-  "unitComposition": [
-     {
-       "unitType": "Dogmata",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["bolt pistol","mace of the righteous."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 45
-     }
-   ]
 }

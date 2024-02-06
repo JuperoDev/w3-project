@@ -1,14 +1,16 @@
 {
     "parentUnit": "deathleaper",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 6,
-        "save": 4,
-        "wounds": 7,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 7,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "lore": "The Deathleaper is an advancement of the Lictor strain intended to act as a terror weapon. Possessing an instinctive understanding of how to spread fear through prey populations, it uses its skills in stealth, infiltration and assassination to sow paranoia and dread before the hive fleet attacks en masse. ",
     "factionKeyword": [
@@ -21,7 +23,7 @@
         "epic hero",
         "deathleaper"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "lictor claws and talons",
@@ -30,26 +32,29 @@
             "strength": 7,
             "armor-penetration": 2,
             "damage": 2,
-            "modifiers": ["precision"]
+            "modifiers": [
+                "precision"
+            ]
         }
     ],
     "supremeCommander": false,
     "damaged": {},
-
     "additionalParameter": {
-      "title": "Hunter Organism",
-      "abilities": [
-          {
-              "name": "",
-              "description": "This model cannot be your Warlord."
-          }
-      ]},
-
+        "title": "Hunter Organism",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be your Warlord."
+            }
+        ]
+    },
     "options": [
-      {
-        "count": [1],
-        "points": 70
-      }
+        {
+            "count": [
+                1
+            ],
+            "points": 70
+        }
     ],
     "unitComposition": [
         {
@@ -57,13 +62,16 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-              "lictor claws and talons"
+                "lictor claws and talons"
             ]
         }
     ],
     "abilities": {
         "core": [
-            "fights first", "infiltrators", "lone operative", "stealth"
+            "fights first",
+            "infiltrators",
+            "lone operative",
+            "stealth"
         ],
         "faction": [
             "synapse"

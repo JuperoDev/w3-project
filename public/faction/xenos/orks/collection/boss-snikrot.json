@@ -1,75 +1,73 @@
 {
-  "parentUnit": "Boss Snikrot",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Boss Snikrot is a murderous ghost whose obsession with kommando warfare has seen him transcend the cunning of his fellow Blood Axes and achieve instead something nigh supernatural. By the time his terrified foes realise he is upon them, the Boss is already opening their throats with his rip-toothed blades.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "epic hero",
-    "boss snikrot"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Leader",
-      "Stealth"
+    "parentUnit": "Boss Snikrot",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Boss Snikrot is a murderous ghost whose obsession with kommando warfare has seen him transcend the cunning of his fellow Blood Axes and achieve instead something nigh supernatural. By the time his terrified foes realise he is upon them, the Boss is already opening their throats with his rip-toothed blades.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "epic hero",
+        "boss snikrot"
     ],
-    "otherAbilities": [
-      {
-        "name": "Red Skull Kommandos:",
-        "description": "While this model is leading a unit, models in that unit have the Benefit of Cover ."
-      },
-      {
-        "name": "Kunnin’ Infiltrator:",
-        "description": "Once per battle, in your Movement phase , instead of making a Normal move with this model’s unit, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 6,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Leader",
+            "Stealth"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Red Skull Kommandos:",
+                "description": "While this model is leading a unit, models in that unit have the Benefit of Cover ."
+            },
+            {
+                "name": "Kunnin’ Infiltrator:",
+                "description": "Once per battle, in your Movement phase , instead of making a Normal move with this model’s unit, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Mork’s Teeth",
+            "modifiers": "precision,twin-linked",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Mork’s Teeth",
-      "modifiers": "precision,twin-linked",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ]
 }

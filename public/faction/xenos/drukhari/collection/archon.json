@@ -1,110 +1,113 @@
 {
-  "parentUnit": "Archon",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Archons apply the same inventive malice with which they rule the fractured Kabals to their enemies on the battlefield. Leading many realspace raids, Archons arrogantly dare their enemies to face their martial expertise, their arsenal of eldritch weapons and the labyrinthine cunning that has enabled their rise to power.",
-  "keywords": [
-    "infantry",
-    "kabal",
-    "character",
-    "aeldari",
-    "archon"
-  ],
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 5,
-      "save": 4,
-      "wounds": 4,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 2
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Blast pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 6,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": "d3",
-      "singleChoice": false
+    "parentUnit": "Archon",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Archons apply the same inventive malice with which they rule the fractured Kabals to their enemies on the battlefield. Leading many realspace raids, Archons arrogantly dare their enemies to face their martial expertise, their arsenal of eldritch weapons and the labyrinthine cunning that has enabled their rise to power.",
+    "keywords": [
+        "infantry",
+        "kabal",
+        "character",
+        "aeldari",
+        "archon"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 2
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Blast pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter pistol",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Overlord:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is Empowered, each time a model in that unit makes an attack, you can re-roll the Wound roll instead."
+            },
+            {
+                "name": "Devious Mastermind:",
+                "description": "Once per battle, after your opponent uses a Stratagem , if this model is your Warlord and is on the battlefield, it can use this ability. If it does, until the end of the battle, increase the cost of that Stratagem to your opponent by 1CP."
+            }
+        ]
     },
-    {
-      "name": "Splinter pistol",
-      "modifiers": [
-        "anti-infantry 3+",
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 2,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
     ],
-    "faction": [
-      "Power From Pain"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Overlord:",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is Empowered, each time a model in that unit makes an attack, you can re-roll the Wound roll instead."
-      },
-      {
-        "name": "Devious Mastermind:",
-        "description": "Once per battle, after your opponent uses a Stratagem , if this model is your Warlord and is on the battlefield, it can use this ability. If it does, until the end of the battle, increase the cost of that Stratagem to your opponent by 1CP."
-      }
-    ]
-  },
-  "unitComposition": [
-    {
-      "unitType": "Archon",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "splinter pistol; huskblade"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 75
-    }
-  ],
-  "wargear": [{"description":"This model’s splinter pistol can be replaced with 1 blast pistol"}],
-  "meleeWeapons": [
-      {
-        "name": "Huskblade",
-        "attacks": 5,
-        "weapons-skills": 2,
-        "strength": 3,
-        "armor-penetration": 2,
-        "damage": 2,
-        "modifiers": ["anti-infantry 3+"]
-      }
-  ],
-
-
-"additionalParameter": {}
-
+    "wargear": [
+        {
+            "description": "This model’s splinter pistol can be replaced with 1 blast pistol"
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Huskblade",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "anti-infantry 3+"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

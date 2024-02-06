@@ -1,142 +1,148 @@
 {
-  "parentUnit": "Grand Master",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Grand Masters lead the Grey Knights brotherhoods. Each is a master strategist, a deadly warrior and a terrifying battle-psyker possessed of unhallowed knowledge. Under a Grand Master’s guiding will are the unending wars against their daemonic adversaries prosecuted, their stainless souls a beacon of purity.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "grenades",
-    "terminator",
-    "imperium",
-    "grand master"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 5,
-    "salvation": 2,
-    "wounds": 7,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Incinerator",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Psilencer",
-      "modifiers": [
-        "psychic",
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 6,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Psycannon",
-      "modifiers": [
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-     {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Grand Master",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [
-      "Teleport Assault"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Grand Masters lead the Grey Knights brotherhoods. Each is a master strategist, a deadly warrior and a terrifying battle-psyker possessed of unhallowed knowledge. Under a Grand Master’s guiding will are the unending wars against their daemonic adversaries prosecuted, their stainless souls a beacon of purity.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "grenades",
+        "terminator",
+        "imperium",
+        "grand master"
     ],
-    "otherAbilities": [
-      {
-        "name": "Master Strategist:",
-        "description": "Once per battle, one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
-      },
-      {
-        "name": "Might of Purity (Psychic):",
-        "description": "While this model is leading a unit, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws )."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s storm bolter can be replaced with one of the following",
-      "items": [
-        "1 incinerator",
-        "1 psilencer",
-        "1 psycannon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Nemesis force weapon",
-      "modifiers": ["psychic"],
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Grand Master",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["storm bolter", "Nemesis force weapon" ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 95
-    }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 2,
+            "wounds": 7,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Incinerator",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Psilencer",
+            "modifiers": [
+                "psychic",
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Psycannon",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Teleport Assault"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Master Strategist:",
+                "description": "Once per battle, one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+            },
+            {
+                "name": "Might of Purity (Psychic):",
+                "description": "While this model is leading a unit, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws )."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s storm bolter can be replaced with one of the following",
+            "items": [
+                "1 incinerator",
+                "1 psilencer",
+                "1 psycannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Nemesis force weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Grand Master",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter",
+                "Nemesis force weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 95
+        }
+    ],
+    "additionalParameter": {}
 }

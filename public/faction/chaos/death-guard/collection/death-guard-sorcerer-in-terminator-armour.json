@@ -1,195 +1,195 @@
 {
-  "parentUnit": "Death Guard Sorcerer In Terminator Armour",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Powerful Sorcerers are able to equip themselves with highly durable, diseased Terminator armour. Able to teleport strike alongside Blightlord or Deathshroud Terminators, these Sorcerers curse their foes immediately upon arrival on the battlefield, weakening and draining them of life within seconds.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "chaos",
-    "nurgle",
-    "terminator",
-    "sorcerer"
-  ],
-  "attributes": {
-    "movement": 4,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 5,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Curse of the Leper - witchfire",
-      "modifiers": [
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Curse of the Leper - focused witchfire",
-      "modifiers": [
-        "hazardous",
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plague combi-bolter",
-      "modifiers": [
-        "lethal hits",
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Death Guard Sorcerer In Terminator Armour",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Powerful Sorcerers are able to equip themselves with highly durable, diseased Terminator armour. Able to teleport strike alongside Blightlord or Deathshroud Terminators, these Sorcerers curse their foes immediately upon arrival on the battlefield, weakening and draining them of life within seconds.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "chaos",
+        "nurgle",
+        "terminator",
+        "sorcerer"
     ],
-    "otherAbilities": [
-      {
-        "name": "Putrescent Vitality (Psychic):",
-        "description": "At the start of the Fight phase , you can roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKER ’s unit, subtract 1 from the Damage characteristic of that attack."
-      },
-      {
-        "name": "Pestilent Familiar (Psychic):",
-        "description": "Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
-      },
-      {
-        "name": "Designer’s Note:",
-        "description": "Place a Pestilent Familiar token next to this model, removing it once this ability has been used."
-      }
+    "attributes": {
+        "movement": 4,
+        "toughness": 6,
+        "save": 2,
+        "wounds": 5,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Curse of the Leper - witchfire",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Curse of the Leper - focused witchfire",
+            "modifiers": [
+                "hazardous",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague combi-bolter",
+            "modifiers": [
+                "lethal hits",
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Putrescent Vitality (Psychic):",
+                "description": "At the start of the Fight phase , you can roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKER ’s unit, subtract 1 from the Damage characteristic of that attack."
+            },
+            {
+                "name": "Pestilent Familiar (Psychic):",
+                "description": "Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
+            },
+            {
+                "name": "Designer’s Note:",
+                "description": "Place a Pestilent Familiar token next to this model, removing it once this ability has been used."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s plague combi-bolter can be replaced with one of the following",
+            "items": [
+                "1 combi-weapon",
+                "1 plague-encrusted exalted weapon"
+            ]
+        },
+        {
+            "description": "This model’s force weapon can be replaced with one of the following",
+            "items": [
+                "1 chainfist",
+                "1 plague fist",
+                "1 plague-encrusted exalted weapon"
+            ]
+        },
+        {
+            "description": "This model’s plague combi-bolter and force weapon can be replaced with 1 twin lighting claws.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Curse of the Leper – witchfire",
+            "modifiers": "psychic",
+            "attacks": "D6",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Chainfist",
+            "modifiers": "anti-vehicle3+",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Force weapon",
+            "modifiers": "psychic",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "D3"
+        },
+        {
+            "name": "Plague fist",
+            "modifiers": "lethalhits",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Plague-encrusted exalted weapon",
+            "modifiers": "lethalhits",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Twin lightning claws",
+            "modifiers": "twin-linked",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s plague combi-bolter can be replaced with one of the following",
-      "items": [
-        "1 combi-weapon",
-        "1 plague-encrusted exalted weapon"
-      ]
-    },
-    {
-      "description": "This model’s force weapon can be replaced with one of the following",
-      "items": [
-        "1 chainfist",
-        "1 plague fist",
-        "1 plague-encrusted exalted weapon"
-      ]
-    },
-    {
-      "description": "This model’s plague combi-bolter and force weapon can be replaced with 1 twin lighting claws.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Curse of the Leper – witchfire",
-      "modifiers": "psychic",
-      "attacks": "D6",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Chainfist",
-      "modifiers": "anti-vehicle3+",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Force weapon",
-      "modifiers": "psychic",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": "D3"
-    },
-    {
-      "name": "Plague fist",
-      "modifiers": "lethalhits",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Plague-encrusted exalted weapon",
-      "modifiers": "lethalhits",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    },
-    {
-      "name": "Twin lightning claws",
-      "modifiers": "twin-linked",
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ]
 }

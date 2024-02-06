@@ -1,14 +1,16 @@
 {
     "parentUnit": "hive guard",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 7,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Hive Guard are spawned to protect Tyranid bio-architecture and vital spore-seeding sites. They carry a monstrous arsenal of grafted bio-weapons and are instinctively driven – or sometimes synaptically impelled – to lay down heavy hails of firepower against those prey organisms the Hive Mind wishes to see eradicated. ",
     "factionKeyword": [
@@ -28,52 +30,55 @@
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": []
-        }],
-        "supremeCommander": false,
-        "damaged": {},
-      
-        "additionalParameter": {},
-
-        "options": [
-          {
-            "count": [3],
+        }
+    ],
+    "supremeCommander": false,
+    "damaged": {},
+    "additionalParameter": {},
+    "options": [
+        {
+            "count": [
+                3
+            ],
             "points": 110
-          },
-          {
-              "count": [6],
-              "points": 220
-            }
-        ],
-        "wargear": [
-          {
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 220
+        }
+    ],
+    "wargear": [
+        {
             "description": "Any number of models can each have their shockcannon replaced with 1 impaler cannon."
-          }],
-          "unitComposition": [
-              {
-                  "unitType": "hive guard",
-                  "minQuantity": 3,
-                  "maxQuantity": 6,
-                  "equipment": [
-                    "shockcannon",
-                    "chitinous claws and teeth"
-                  ]
-              }
-          ],
-          "abilities": {
-            "core": [
-              
-            ],
-            "faction": [
-              "Synapse"
-            ],
-            "otherAbilities": [{
-              "name": "Defensive Stance",
-              "description":"Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker."
-            }]
-          },
-          
-        "rangedWeapons": [
-          {
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "hive guard",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                "shockcannon",
+                "chitinous claws and teeth"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Defensive Stance",
+                "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker."
+            }
+        ]
+    },
+    "rangedWeapons": [
+        {
             "name": "impaler cannon",
             "range": 36,
             "attacks": 4,
@@ -82,10 +87,11 @@
             "armor-penetration": 1,
             "damage": 1,
             "modifiers": [
-              "heavy", "indirect fire"
+                "heavy",
+                "indirect fire"
             ]
-          },
-          {
+        },
+        {
             "name": "shockcannon",
             "range": 24,
             "attacks": 2,
@@ -93,9 +99,9 @@
             "strength": 7,
             "armor-penetration": 1,
             "damage": 3,
-            "modifiers": ["anti-vehicle 2+"
-              
+            "modifiers": [
+                "anti-vehicle 2+"
             ]
-          }
-        ]
+        }
+    ]
 }

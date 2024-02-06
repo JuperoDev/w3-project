@@ -1,112 +1,119 @@
 {
-  "parentUnit": "The Changeling",
-  "factionKeyword": [
-    "legiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Known also as the Trickster of Tzeentch, the Changeling can alter its form at will to mimic mortal beings from the smallest insect to the most titanic monster. The daemon’s favourite game is to impersonate pivotal mortal leaders or heroes, and then to wreak untold mischief by abusing their power and position.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "chaos",
-    "daemon",
-    "tzeentch",
-    "the changeling"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 7,
-    "wounds": 5,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Infernal Flames - witchfire",
-      "modifiers": [
-        "ignores cover",
-        "psychic",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": true
+    "parentUnit": "The Changeling",
+    "factionKeyword": [
+        "legiones daemonica"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Known also as the Trickster of Tzeentch, the Changeling can alter its form at will to mimic mortal beings from the smallest insect to the most titanic monster. The daemon’s favourite game is to impersonate pivotal mortal leaders or heroes, and then to wreak untold mischief by abusing their power and position.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "chaos",
+        "daemon",
+        "tzeentch",
+        "the changeling"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 7,
+            "wounds": 5,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Infernal Flames - witchfire",
+            "modifiers": [
+                "ignores cover",
+                "psychic",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Infernal Flames - focused witchfire",
+            "modifiers": [
+                "ignores cover",
+                "hazardous",
+                "psychic",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d6+3",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Formless Horror:",
+                "description": "Each time an enemy unit wishes to select this model as the target of an attack, that unit must first take a Battle-shock test . If that test is failed, in addition to being Battle-shocked, that enemy unit cannot target this model this phase."
+            },
+            {
+                "name": "Mischief and Confusion:",
+                "description": "At the start of your opponent’s Shooting phase , select one enemy unit within 12\" of and visible to this model and roll one D6: on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll ; on a 6, that enemy unit is not eligible to shoot this phase."
+            }
+        ]
     },
-    {
-      "name": "Infernal Flames - focused witchfire",
-      "modifiers": [
-        "ignores cover",
-        "hazardous",
-        "psychic",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "d6+3",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Lone Operative",
-      "Stealth"
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "The Changeling – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Infernal Flames",
+                "the Trickster’s Staff"
+            ]
+        }
     ],
-    "faction": [
-      "The Shadow of Chaos"
-    ],
-    "otherAbilities": [
-      {
-        "name": "Formless Horror:",
-        "description": "Each time an enemy unit wishes to select this model as the target of an attack, that unit must first take a Battle-shock test . If that test is failed, in addition to being Battle-shocked, that enemy unit cannot target this model this phase."
-      },
-      {
-        "name": "Mischief and Confusion:",
-        "description": "At the start of your opponent’s Shooting phase , select one enemy unit within 12\" of and visible to this model and roll one D6: on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll ; on a 6, that enemy unit is not eligible to shoot this phase."
-      }
-    ]
-  },
-  "wargear": [],
-  "additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "The Changeling – EPIC HERO",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-         " Infernal Flames", "the Trickster’s Staff"
-          ]
-      }
-    ],
-  "options": [
-      {
-        "count": [1],
-        "points": 90
-      }
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
     ],
     "meleeWeapons": [
-      {
-        "name": "The Trickster’s Staff",
-        "attacks": 3,
-        "weapons-skills": 4,
-        "strength": 4,
-        "armor-penetration": 1,
-        "damage": "d3",
-        "modifiers": ["psychic"],
-        "singleChoice": false
-      }
+        {
+            "name": "The Trickster’s Staff",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "modifiers": [
+                "psychic"
+            ],
+            "singleChoice": false
+        }
     ]
 }

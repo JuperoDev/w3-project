@@ -1,170 +1,170 @@
 {
-  "parentUnit": "Thunderwolf Cavalry",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "warGearAbilities": [
-    {
-      "wargear": "Storm Shield",
-      "ability": "The bearer has a 4+ invulnerable save."
-    }
-  ],
-  "supremeCommander": false,
-  "lore": "Thunderwolves are monstrous and solitary alpha predators, and only the most dauntless elite within the Wolf Guard have the dominance to ride them to war. When they charge, crushing jaws tear through armoured plates, flesh and bone with feral butchery, while the Thunderwolves’ riders hack down the foe with heroic ferocity.",
-  "keywords": [
-    "mounted",
-    "grenades",
-    "imperium",
-    "thunderwolf cavalry"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 6,
-      "save": 3,
-      "wounds": 4,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 0
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Boltgun",
-      "modifiers": [],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [],
-    "faction": [
-      "Oath of Moment"
+    "parentUnit": "Thunderwolf Cavalry",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "otherAbilities": [
-      {
-        "name": "Ferocious Charge",
-        "description": "Each time this unit makes a Charge move, until the end of the turn, add 1 to the Damage characteristic of melee weapons equipped by models in this unit.."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their bolt pistol replaced with one of the following",
-      "items": [
-        "1 boltgun",
-        "1 plasma pistol",
-        "1 storm shield"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Crushing teeth and claws",
-      "modifiers": [
-        "extra attacks"
-      ],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
+    "damaged": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Storm Shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
+    ],
+    "supremeCommander": false,
+    "lore": "Thunderwolves are monstrous and solitary alpha predators, and only the most dauntless elite within the Wolf Guard have the dominance to ride them to war. When they charge, crushing jaws tear through armoured plates, flesh and bone with feral butchery, while the Thunderwolves’ riders hack down the foe with heroic ferocity.",
+    "keywords": [
+        "mounted",
+        "grenades",
+        "imperium",
+        "thunderwolf cavalry"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Ferocious Charge",
+                "description": "Each time this unit makes a Charge move, until the end of the turn, add 1 to the Damage characteristic of melee weapons equipped by models in this unit.."
+            }
+        ]
     },
-    {
-      "name": "Heirloom weapon",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        2
-      ],
-      "points": 90
-    },
-    {
-      "count": [
-        1,
-        5
-      ],
-      "points": 180
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Thunderwolf Cavalry Pack Leader",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "bolt pistol",
-        "crushing teeth and claws",
-        "heirloom weapon"
-      ]
-    },
-    {
-      "unitType": "Thunderwolf Cavalry",
-      "minQuantity": 2,
-      "maxQuantity": 5,
-      "equipment": [
-        "bolt pistol",
-        "crushing teeth and claws",
-        "heirloom weapon"
-      ]
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "Any number of models can each have their bolt pistol replaced with one of the following",
+            "items": [
+                "1 boltgun",
+                "1 plasma pistol",
+                "1 storm shield"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Crushing teeth and claws",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Heirloom weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                2
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                1,
+                5
+            ],
+            "points": 180
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Thunderwolf Cavalry Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "crushing teeth and claws",
+                "heirloom weapon"
+            ]
+        },
+        {
+            "unitType": "Thunderwolf Cavalry",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "bolt pistol",
+                "crushing teeth and claws",
+                "heirloom weapon"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

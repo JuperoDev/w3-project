@@ -1,102 +1,108 @@
 {
-  "parentUnit": "Archaeopter Fusilave",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Archaeopter Fusilave’s changeable payload of deep-bore, high explosives defines its position as a devastating bomber and ground clearance aircraft. Tech-Priests employ whole squadrons to level enemy defences and root out sheltering heretics, as well as to clear prospective sites for further investigation in the Quest for Knowledge.",
-  "keywords": [
-    "vehicle",
-    "aircraft",
-    "fly",
-    "imperium",
-    "skitarii",
-    "archaeopter fusilave"
-  ],
-  "attributes": [{
-    "movement": 20,
-    "toughness": 9,
-    "save": 3,
-    "wounds": 10,
-    "leadership": 7,
-    "objetiveControl": 0,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cognis heavy stubber array",
-      "modifiers": [
-        "rapid fire 9",
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 9,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Hover"
+    "parentUnit": "Archaeopter Fusilave",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Archaeopter Fusilave’s changeable payload of deep-bore, high explosives defines its position as a devastating bomber and ground clearance aircraft. Tech-Priests employ whole squadrons to level enemy defences and root out sheltering heretics, as well as to clear prospective sites for further investigation in the Quest for Knowledge.",
+    "keywords": [
+        "vehicle",
+        "aircraft",
+        "fly",
+        "imperium",
+        "skitarii",
+        "archaeopter fusilave"
     ],
-    "otherAbilities": [
-      {
-        "name": "Bomb Rack:",
-        "description": "Each time this model ends a Normal move , you can select one enemy unit it moved across during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound ."
-      }
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cognis heavy stubber array",
+            "modifiers": [
+                "rapid fire 9",
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 9,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Hover"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Bomb Rack:",
+                "description": "Each time this model ends a Normal move , you can select one enemy unit it moved across during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound ."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 150
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archaeopter Fusilave",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "cognis heavy stubber array",
+                "armoured hull",
+                "command uplink"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s command uplink can be replaced with 1 chaff launcher."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Chaff Launcher",
+            "ability": "The bearer has the Smoke keyword"
+        },
+        {
+            "wargear": "Command Uplink",
+            "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 150
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Archaeopter Fusilave",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "cognis heavy stubber array", "armoured hull", "command uplink"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "This model’s command uplink can be replaced with 1 chaff launcher."
-   }
- ],
- "meleeWeapons": [
-  {
-    "name": "Armoured hull",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 6,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
- ],
- "warGearAbilities": [
-   {
-     "wargear": "Chaff Launcher",
-     "ability": "The bearer has the Smoke keyword"
-   },
-   {
-    "wargear": "Command Uplink",
-    "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-  }
- ]
 }

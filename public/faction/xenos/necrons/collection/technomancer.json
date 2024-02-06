@@ -1,86 +1,94 @@
 {
-  "parentUnit": "Technomancer",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Technomancers possess the power to augment and swiftly repair Necron units in the field. Some Technomancers use Canoptek cloaks to flit swiftly to wherever they are needed most, while others employ the nanoscarab beams of their Canoptek control nodes to augment from afar.",
-  "keywords": [
-    "infantry",
-    "character",
-    "cryptek",
-    "technomancer"
-  ],
-  "attributes": [{
-   
-    "movement": 10,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": ["Canoptek Wraiths",
-  "Immortals",
-  "Necron Warriors"],
-  "rangedWeapons": [{
-    "name": "Staff of light",
-    "modifiers": [
+    "parentUnit": "Technomancer",
+    "factionKeyword": [
+        "necrons"
     ],
-    "range": 18,
-    "strength": 5,
-    "attacks": 3,
-    "ballistic-skills": 2,
-    "armor-penetration": 2,
-    "damage": 1,
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      "Leader"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Technomancers possess the power to augment and swiftly repair Necron units in the field. Some Technomancers use Canoptek cloaks to flit swiftly to wherever they are needed most, while others employ the nanoscarab beams of their Canoptek control nodes to augment from afar.",
+    "keywords": [
+        "infantry",
+        "character",
+        "cryptek",
+        "technomancer"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Rites of Reanimation ",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
-      },
-      {
-        "name": "Technomancer ",
-        "description": "At the end of your Movement phase , you can select one friendly NECRONS model within 3\" of the bearer. That model regains up to D3 lost wounds. Each model can only be selected for this ability once per turn."
-      }
+    "leader": [
+        "Canoptek Wraiths",
+        "Immortals",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Staff of light",
+            "modifiers": [],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rites of Reanimation ",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Technomancer ",
+                "description": "At the end of your Movement phase , you can select one friendly NECRONS model within 3\" of the bearer. That model regains up to D3 lost wounds. Each model can only be selected for this ability once per turn."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Technomancer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "staff of light",
+                "Canoptek cloak."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Staff of light",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Technomancer",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["staff of light","Canoptek cloak."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 60
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Staff of light",
-         "attacks": 2,
-         "weapons-skills": 4,
-         "strength": 5,
-         "armor-penetration": 2,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
 }

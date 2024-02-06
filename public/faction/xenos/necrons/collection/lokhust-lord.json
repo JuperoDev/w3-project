@@ -1,115 +1,122 @@
 {
-  "parentUnit": "Lokhust Lord",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Lokhust Lords skim into battle on swift grav-sled bodies. Driven by nihilistic hatred, their every optimised strike slaughters swathes of the foe. Meanwhile, should the enemy wound a Lokhust Lord, in return they must watch in despair as minute repair-scarabs spill from his phylactery in a silvery tide to repair his rent form.",
-  "keywords": [
-    "mounted",
-    "character",
-    "fly",
-    "lokhust lord"
-  ],
-  "attributes": [{
-    
-    "movement": 8,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 4
-}],
-  "leader": ["Lokhust Destroyers",
-  "Lokhust Heavy Destroyers"],
-  "rangedWeapons": [{
-    "name": "Staff of light",
-    "modifiers": [
+    "parentUnit": "Lokhust Lord",
+    "factionKeyword": [
+        "necrons"
     ],
-    "range": 18,
-    "strength": 5,
-    "attacks": 3,
-    "ballistic-skills": 2,
-    "armor-penetration": 2,
-    "damage": 1,
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      "Leader"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lokhust Lords skim into battle on swift grav-sled bodies. Driven by nihilistic hatred, their every optimised strike slaughters swathes of the foe. Meanwhile, should the enemy wound a Lokhust Lord, in return they must watch in despair as minute repair-scarabs spill from his phylactery in a silvery tide to repair his rent form.",
+    "keywords": [
+        "mounted",
+        "character",
+        "fly",
+        "lokhust lord"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Destroyer Cult ",
-        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit ."
-      },
-      {
-        "name": "Driven by Hatred ",
-        "description": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength , you can re-roll the Hit roll and you can re-roll the Wound roll ."
-      }
+    "leader": [
+        "Lokhust Destroyers",
+        "Lokhust Heavy Destroyers"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Staff of light",
+            "modifiers": [],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Destroyer Cult ",
+                "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit ."
+            },
+            {
+                "name": "Driven by Hatred ",
+                "description": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength , you can re-roll the Hit roll and you can re-roll the Wound roll ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s staff of light can be replaced with 1 Lord’s blade."
+        },
+        {
+            "description": "This model can be equipped with one of the following:",
+            "items": [
+                "1 phylactery",
+                "1 resurrection orb"
+            ]
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Resurrection Orb",
+            "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
+        },
+        {
+            "wargear": "Phylactery",
+            "ability": "The bearer has the Feel No Pain 5+ ability."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Lokust Lord",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "staff of light"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Lord’s blade ",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Staff of light",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "This model’s staff of light can be replaced with 1 Lord’s blade."
-    },
-    {
-      "description": "This model can be equipped with one of the following:",
-      "items": [
-        "1 phylactery",
-        "1 resurrection orb"
-      ]
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Resurrection Orb",
-      "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
-    },
-    {
-      "wargear": "Phylactery",
-      "ability": "The bearer has the Feel No Pain 5+ ability."
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Lokust Lord",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["staff of light"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 80
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Lord’s blade ",
-         "attacks": 4,
-         "weapons-skills": 2,
-         "strength": 8,
-         "armor-penetration": 3,
-         "damage": 2,
-         "modifiers": []
-       },
-       {
-        "name": "Staff of light",
-        "attacks": 4,
-        "weapons-skills": 2,
-        "strength": 5,
-        "armor-penetration": 2,
-        "damage": 1,
-        "modifiers": []
-      }
-   ]
 }

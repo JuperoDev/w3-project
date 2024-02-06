@@ -1,67 +1,83 @@
 {
-  "parentUnit": "Lelith Hesperax",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Lelith Hesperax’s lithe athleticism is far beyond that of other Wyches. She has raised death to a high art, wielding nothing more than simple knives. Gifting her victims with precision wounds in an exotic blur of blades and flesh, she finishes in a bloody finale with a gory flourish.",
-  "keywords": [
-    "infantry",
-    "wych cult",
-    "character",
-    "epic hero",
-    "aeldari",
-    "succubus",
-    "lelith hesperax"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 3,
-    "save": 6,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Fights First",
-      "Leader"
+    "parentUnit": "Lelith Hesperax",
+    "factionKeyword": [
+        "drukhari"
     ],
-    "faction": [
-      "Power From Pain"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lelith Hesperax’s lithe athleticism is far beyond that of other Wyches. She has raised death to a high art, wielding nothing more than simple knives. Gifting her victims with precision wounds in an exotic blur of blades and flesh, she finishes in a bloody finale with a gory flourish.",
+    "keywords": [
+        "infantry",
+        "wych cult",
+        "character",
+        "epic hero",
+        "aeldari",
+        "succubus",
+        "lelith hesperax"
     ],
-    "otherAbilities": [{"name":
-      "Thrilling Spectacle:","description": "Once per battle, at the start of the Fight phase , this model can use this ability. When it does, until the end of the phase, the Attacks characteristic of Lelith’s blades is increased to 12 and this model’s invulnerable save is increased to 3+."},{"name":
-      "Brides of Death:","description": "While this model is leading a unit, models in that unit have the Fights First ability, and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack and improve the Armour Penetration characteristic of that attack by 1."
-    }]
-  },
-  "unitComposition": [
-      {
-          "unitType": "Lelith Hesperax – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["Lelith’s blades"]
-      }
-  ],
-  "options": [
-      {
-        "count": [1],
-        "points": 85
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
     ],
-    "meleeWeapons": [{
-      "name": "Lelith's Blades",
-      "attacks": 8,
-      "weapons-skills": 2,
-      "strength": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": ["anti-infantry 2+","sustained hits 2"]
-    }
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Fights First",
+            "Leader"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Thrilling Spectacle:",
+                "description": "Once per battle, at the start of the Fight phase , this model can use this ability. When it does, until the end of the phase, the Attacks characteristic of Lelith’s blades is increased to 12 and this model’s invulnerable save is increased to 3+."
+            },
+            {
+                "name": "Brides of Death:",
+                "description": "While this model is leading a unit, models in that unit have the Fights First ability, and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack and improve the Armour Penetration characteristic of that attack by 1."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Lelith Hesperax – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Lelith’s blades"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Lelith's Blades",
+            "attacks": 8,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 2+",
+                "sustained hits 2"
+            ]
+        }
     ],
     "additionalParameter": {},
     "wargear": []

@@ -1,157 +1,157 @@
 {
-  "parentUnit": "Wracks",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The gnarled hide of the Wracks is a leathery mass of old scars, inured to pain. These adepts of fleshcrafting serve wizened masters of the Covens, and are as much experiments as they are apprentices. They are granted a host of gruesome tools, butchering blades and arcane bio-weapons with which they inflict maximum agony.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "haemonculus covens",
-    "aeldari",
-    "wracks"
-  ],
-  "attributes": [
-    {
-      "movement": 7,
-      "toughness": 4,
-      "save": 6,
-      "wounds": 1,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 6
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Liquifier gun",
-      "modifiers": [
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Ossefactor",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 2,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Hexrifle",
-      "modifiers": [
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Stinger pistol",
-      "modifiers": [
-        "anti-infantry 2+",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 2,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 5+"
+    "parentUnit": "Wracks",
+    "factionKeyword": [
+        "drukhari"
     ],
-    "faction": [
-      "Power From Pain"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The gnarled hide of the Wracks is a leathery mass of old scars, inured to pain. These adepts of fleshcrafting serve wizened masters of the Covens, and are as much experiments as they are apprentices. They are granted a host of gruesome tools, butchering blades and arcane bio-weapons with which they inflict maximum agony.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "haemonculus covens",
+        "aeldari",
+        "wracks"
     ],
-    "otherAbilities": [
-      {
-        "The Torturer’s Craft:": "Each time this unit destroys an enemy unit, you gain 1 Pain token . When this unit is destroyed , you gain 1 Pain token."
-      }
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Liquifier gun",
+            "modifiers": [
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Ossefactor",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Hexrifle",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Stinger pistol",
+            "modifiers": [
+                "anti-infantry 2+",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "The Torturer’s Craft:": "Each time this unit destroys an enemy unit, you gain 1 Pain token . When this unit is destroyed , you gain 1 Pain token."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Acothyst",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Wrack blades"
+            ]
+        },
+        {
+            "unitType": "Wracks",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "Wrack blades"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 120
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Wrack blades",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 4+"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "For every 5 models in the unit (one weapon per model):",
+            "items": [
+                "1 model can be equipped with 1 hexrifle*",
+                "1 model can be equipped with 1 liquifier gun*",
+                "1 model can be equipped with 1 ossefactor*",
+                "1 model can be equipped with 1 stinger pistol*"
+            ]
+        }
     ]
-  },
-  "unitComposition": [
-    {
-      "unitType": "Acothyst",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Wrack blades"
-      ]
-    },
-    {
-      "unitType": "Wracks",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "Wrack blades"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4
-      ],
-      "points": 60
-    },
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 120
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Wrack blades",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "anti-infantry 4+"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "For every 5 models in the unit (one weapon per model):",
-      "items": [
-        "1 model can be equipped with 1 hexrifle*",
-        "1 model can be equipped with 1 liquifier gun*",
-        "1 model can be equipped with 1 ossefactor*",
-        "1 model can be equipped with 1 stinger pistol*"
-      ]
-    }
-  ]
 }

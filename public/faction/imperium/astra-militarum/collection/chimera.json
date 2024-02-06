@@ -1,202 +1,206 @@
 {
-  "parentUnit": "Chimera",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "A workhorse armoured troop carrier, the Chimera is a durable and practical tank, employed to ferry infantry into the harshest war zones. While embarked, its passengers operate the tank’s in-built lasgun arrays in safety; once they dismount, the Chimera provides fire support with its versatile heavy weapons.",
-  "keywords": [
-    "vehicle",
-    "imperium",
-    "squadron",
-    "transport",
-    "dedicated transport",
-    "smoke",
-    "chimera"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 9,
-    "save": 3,
-    "wounds": 11,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Chimera heavy bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Chimera heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Lasgun array",
-      "modifiers": [
-        "rapid fire 6"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Firing Deck 2"
+    "parentUnit": "Chimera",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Mobile Command Vehicle:",
-        "description": "In your Command phase , one OFFICER model embarked within this Transport can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this Transport."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
-      "items": []
-    },
-    {
-      "description": "This model’s Chimera multi-laser can be replaced with one of the following",
-      "items": [
-        "1 Chimera heavy bolter",
-        "1 Chimera heavy flamer"
-      ]
-    },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 heavy stubber",
-        "1 storm bolter"
-      ]
-    },
-    {
-      "description": "This model can be equipped with 1 hunter-killer missile.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A workhorse armoured troop carrier, the Chimera is a durable and practical tank, employed to ferry infantry into the harshest war zones. While embarked, its passengers operate the tank’s in-built lasgun arrays in safety; once they dismount, the Chimera provides fire support with its versatile heavy weapons.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "squadron",
+        "transport",
+        "dedicated transport",
+        "smoke",
+        "chimera"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Chimera heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Chimera heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lasgun array",
+            "modifiers": [
+                "rapid fire 6"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Firing Deck 2"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Mobile Command Vehicle:",
+                "description": "In your Command phase , one OFFICER model embarked within this Transport can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this Transport."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
+            "items": []
+        },
+        {
+            "description": "This model’s Chimera multi-laser can be replaced with one of the following",
+            "items": [
+                "1 Chimera heavy bolter",
+                "1 Chimera heavy flamer"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 heavy stubber",
+                "1 storm bolter"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Angron – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
     ]
 }

@@ -1,87 +1,85 @@
 {
-  "parentUnit": "Noxious Blightbringer",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Cursed plague bells tolling, Noxious Blightbringers sow weakness among the enemy. Each rippling sound wave erodes the enemy’s will to fight and spawns maggots in the minds of psykers. To the Death Guard the sound is beautiful, and upon hearing it they surge eagerly into the fray.",
-  "keywords": [
-    "infantry",
-    "character",
-    "chaos",
-    "nurgle",
-    "noxious blightbringer"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Noxious Blightbringer",
+    "factionKeyword": [
+        "death guard"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Cursed plague bells tolling, Noxious Blightbringers sow weakness among the enemy. Each rippling sound wave erodes the enemy’s will to fight and spawns maggots in the minds of psykers. To the Death Guard the sound is beautiful, and upon hearing it they surge eagerly into the fray.",
+    "keywords": [
+        "infantry",
+        "character",
+        "chaos",
+        "nurgle",
+        "noxious blightbringer"
+    ],
+    "attributes": {
+        "movement": 5,
+        "toughness": 5,
+        "save": 3,
+        "wounds": 4,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
     },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "pistol",
-        "hazardous"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "pistol",
+                "hazardous"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
-    ],
-    "otherAbilities": [
-      {
-        "name": "Sickening Vitality:",
-        "description": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
-      },
-      {
-        "name": "The Bell Tolls (Aura):",
-        "description": "While an enemy unit is within Contagion Range of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 2 from that test."
-      }
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sickening Vitality:",
+                "description": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+            },
+            {
+                "name": "The Bell Tolls (Aura):",
+                "description": "While an enemy unit is within Contagion Range of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 2 from that test."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Cursed plague bell",
+            "modifiers": "lethalhits",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Cursed plague bell",
-      "modifiers": "lethalhits",
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 2
-    }
-  ]
 }

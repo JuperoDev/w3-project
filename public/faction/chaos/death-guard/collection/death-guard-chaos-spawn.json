@@ -1,54 +1,52 @@
 {
-  "parentUnit": "Death Guard Chaos Spawn",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Many of Nurgle’s gifts take the form of metaphysical maladies, parasitic infestations or physical mutations. Some become so overburdened by them that they suddenly and horrifically change in a rupture of bulged armour and skin. All that is left of them is a Chaos Spawn, a crazed monstrosity that lives only to kill and feed.",
-  "keywords": [
-    "beast",
-    "chaos",
-    "nurgle",
-    "spawn"
-  ],
-  "attributes": {
-    "movement": 8,
-    "toughness": 5,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Feel No Pain 5+"
+    "parentUnit": "Death Guard Chaos Spawn",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Many of Nurgle’s gifts take the form of metaphysical maladies, parasitic infestations or physical mutations. Some become so overburdened by them that they suddenly and horrifically change in a rupture of bulged armour and skin. All that is left of them is a Chaos Spawn, a crazed monstrosity that lives only to kill and feed.",
+    "keywords": [
+        "beast",
+        "chaos",
+        "nurgle",
+        "spawn"
     ],
-    "otherAbilities": [
-      {
-        "name": "Regenerating Monstrosities:",
-        "description": "At the start of each player’s Command phase , one model in this unit regains up to D3 lost wounds."
-      }
+    "attributes": {
+        "movement": 8,
+        "toughness": 5,
+        "save": 4,
+        "wounds": 4,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Regenerating Monstrosities:",
+                "description": "At the start of each player’s Command phase , one model in this unit regains up to D3 lost wounds."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Hideous mutations",
+            "modifiers": [],
+            "attacks": "D6+2",
+            "weapons-skills": "4+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Hideous mutations",
-      "modifiers": [],
-      "attacks": "D6+2",
-      "weapons-skills": "4+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ]
 }

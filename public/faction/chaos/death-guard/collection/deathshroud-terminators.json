@@ -1,75 +1,75 @@
 {
-  "parentUnit": "Deathshroud Terminators",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Deathshroud Terminators are swollen with the fell powers of their diseased patron. With every swing of their huge scythes they decapitate and disembowel their foes, their speed belied by their bloated mass. They fight in ominous silence, embodying the inevitable onset of their enemies’ death.",
-  "keywords": [
-    "infantry",
-    "chaos",
-    "nurgle",
-    "terminator",
-    "deathshroud terminators"
-  ],
-  "attributes": {
-    "movement": 4,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 3,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Plaguespurt gauntlet",
-      "modifiers": [
-        "anti-infantry 4+",
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Deathshroud Terminators",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Deathshroud Terminators are swollen with the fell powers of their diseased patron. With every swing of their huge scythes they decapitate and disembowel their foes, their speed belied by their bloated mass. They fight in ominous silence, embodying the inevitable onset of their enemies’ death.",
+    "keywords": [
+        "infantry",
+        "chaos",
+        "nurgle",
+        "terminator",
+        "deathshroud terminators"
     ],
-    "otherAbilities": [
-      {
-        "name": "Silent Bodyguard:",
-        "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll ."
-      }
+    "attributes": {
+        "movement": 4,
+        "toughness": 6,
+        "save": 2,
+        "wounds": 3,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Plaguespurt gauntlet",
+            "modifiers": [
+                "anti-infantry 4+",
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Silent Bodyguard:",
+                "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Deathshroud Champion can be equipped with 1 additional plaguespurt gauntlet.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Manreaper – strike",
+            "modifiers": "lethalhits",
+            "attacks": "4",
+            "weapons-skills": "2+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Deathshroud Champion can be equipped with 1 additional plaguespurt gauntlet.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Manreaper – strike",
-      "modifiers": "lethalhits",
-      "attacks": "4",
-      "weapons-skills": "2+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

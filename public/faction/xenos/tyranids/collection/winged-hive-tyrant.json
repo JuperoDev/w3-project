@@ -1,149 +1,148 @@
 {
-  "parentUnit": "winged hive tyrant",
-  "attributes": [
-    {
-      "movement": 12,
-      "toughness": 9,
-      "save": 2,
-      "wounds": 10,
-      "leadership": 7,
-      "objetiveControl": 3,
-      "invulnerableSave": 4
-    }
-  ],
-  "keywords": [
-    "monster",
-    "character",
-    "psyker",
-    "fly",
-    "great devourer",
-    "synapse",
-    "winged hive tyrant"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "fleshborer",
-      "range": 18,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "assault"
-      ]
-    },
-    {
-      "name": "termagant spinefists",
-      "range": 12,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "assault",
-        "pistol",
-        "twin-linked"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Monstrous bonesword and lash whip",
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": [
-        "twin-linked"
-      ]
-    },
-    {
-      "name": "monstrous scything talons",
-      "attacks": 4,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": [
-        "extra attacks"
-      ]
-    },
-    {
-      "name": "tyrant talons",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": []
-    }
-  ],
-  "factionKeyword": [
-    "tyranids"
-  ],
-  "wargear": [
-    {
-      "description": "This model's monstrous bonesword and lash whip can be replaced with one of the following",
-      "items": [
-        "1 heavy venom cannon",
-        "1 stranglethorn cannon",
-        "1 monstrous scything talons"
-      ],
-      "appendix": [
-        "This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
-      ]
-    }
-  ],
-  "abilities": {
-    "core": [
-      "deep strike",
-      "deadly demise d3"
+    "parentUnit": "winged hive tyrant",
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
     ],
-    "faction": [
-      "synapse",
-      "shadow in the warp"
+    "keywords": [
+        "monster",
+        "character",
+        "psyker",
+        "fly",
+        "great devourer",
+        "synapse",
+        "winged hive tyrant"
     ],
-    "otherAbilities": [
-      {
-        "name": "Will of the Hive Mind",
-        "description": "Once per turn, one friendly TYRANIDS unit within 12'' of one or more models with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
-      },
-      {
-        "name": "Paroxysm (Psychic)",
-        "description": "At the start of the Fight phase, you can select one enemy unit within 12'' of and visible to this model and roll one D6: on a 1, this PSYKER suffers D3 mortal wounds; on a 2+, until the end of the phase, subtract 1 from the Attacks characteristic of weapons equipped by models in that unit."
-      }
-    ]
-  },
-  "leader": [
-    "gargoyles",
-    "tyranid warriors with melee bio-weapons",
-    "tyranid warriors with ranged bio-weapons"
-  ],
-  "unitComposition": [
-    {
-      "unitType": "winged hive tyrant",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "monstrous bonesword and lash whip",
-        "tyrant talons"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 210
-    }
-  ],
-  "lore": "When the Hive Mind deploys airborne swarms, it spawns Winged Hive Tyrants to direct them in battle. Wielding an array of nightmarish organic weapons, their monstrous forms singing with the synaptic might of the Hive Mind, these dread swarm-leaders spread terror and death wherever the dark shadow of their wings falls ",
-  "supremeCommander": false,
-
-  "additionalParameter": {},
-  "damaged": {}
+    "rangedWeapons": [
+        {
+            "name": "fleshborer",
+            "range": 18,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "assault"
+            ]
+        },
+        {
+            "name": "termagant spinefists",
+            "range": 12,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "assault",
+                "pistol",
+                "twin-linked"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Monstrous bonesword and lash whip",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [
+                "twin-linked"
+            ]
+        },
+        {
+            "name": "monstrous scything talons",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "extra attacks"
+            ]
+        },
+        {
+            "name": "tyrant talons",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "factionKeyword": [
+        "tyranids"
+    ],
+    "wargear": [
+        {
+            "description": "This model's monstrous bonesword and lash whip can be replaced with one of the following",
+            "items": [
+                "1 heavy venom cannon",
+                "1 stranglethorn cannon",
+                "1 monstrous scything talons"
+            ],
+            "appendix": [
+                "This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "deep strike",
+            "deadly demise d3"
+        ],
+        "faction": [
+            "synapse",
+            "shadow in the warp"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Will of the Hive Mind",
+                "description": "Once per turn, one friendly TYRANIDS unit within 12'' of one or more models with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+            },
+            {
+                "name": "Paroxysm (Psychic)",
+                "description": "At the start of the Fight phase, you can select one enemy unit within 12'' of and visible to this model and roll one D6: on a 1, this PSYKER suffers D3 mortal wounds; on a 2+, until the end of the phase, subtract 1 from the Attacks characteristic of weapons equipped by models in that unit."
+            }
+        ]
+    },
+    "leader": [
+        "gargoyles",
+        "tyranid warriors with melee bio-weapons",
+        "tyranid warriors with ranged bio-weapons"
+    ],
+    "unitComposition": [
+        {
+            "unitType": "winged hive tyrant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "monstrous bonesword and lash whip",
+                "tyrant talons"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 210
+        }
+    ],
+    "lore": "When the Hive Mind deploys airborne swarms, it spawns Winged Hive Tyrants to direct them in battle. Wielding an array of nightmarish organic weapons, their monstrous forms singing with the synaptic might of the Hive Mind, these dread swarm-leaders spread terror and death wherever the dark shadow of their wings falls ",
+    "supremeCommander": false,
+    "additionalParameter": {},
+    "damaged": {}
 }

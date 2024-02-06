@@ -1,142 +1,148 @@
 {
-  "parentUnit": "Brotherhood Librarian",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Librarians have a strength of mind greater even than many of the powerful battle-psykers with whom they fight. The breadth of their empyric scholarship is vast and they courageously brave the deeper and more dangerous reaches of the warp, using psychic rites to shield their fellows or tear at daemonic forms.",
-  "keywords": [
-    "infantry",
-    "character",
-    "terminator",
-    "psyker",
-    "imperium",
-    "brotherhood librarian"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 5,
-    "salvation": 2,
-    "wounds": 5,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Purge Soul - focused witchfire",
-      "modifiers": [
-        "hazardous",
-        "precision",
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": true
-    },
-    {
-      "name": "Purge Soul - witchfire",
-      "modifiers": [
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": true
-    },
-     {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Brotherhood Librarian",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [
-      "Teleport Assault"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Librarians have a strength of mind greater even than many of the powerful battle-psykers with whom they fight. The breadth of their empyric scholarship is vast and they courageously brave the deeper and more dangerous reaches of the warp, using psychic rites to shield their fellows or tear at daemonic forms.",
+    "keywords": [
+        "infantry",
+        "character",
+        "terminator",
+        "psyker",
+        "imperium",
+        "brotherhood librarian"
     ],
-    "otherAbilities": [
-      {
-        "name": "Sanctic Hood:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks ."
-      },
-      {
-        "name": "Vortex of Doom (Psychic):",
-        "description": "In your Shooting phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER ’s unit suffers D6 mortal wounds ; on a 2-5, that enemy unit suffers 2D3 mortal wounds; on a 6, that enemy unit suffers 2D6 mortal wounds."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 combi-weapon",
-        "1 storm bolter"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Nemesis force weapon",
-      "modifiers": ["psychic"],
-      "attacks": 4,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Brotherhood Librarian",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["Purge Soul","Nemesis force weapon"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 110
-    }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Purge Soul - focused witchfire",
+            "modifiers": [
+                "hazardous",
+                "precision",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Purge Soul - witchfire",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Teleport Assault"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sanctic Hood:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks ."
+            },
+            {
+                "name": "Vortex of Doom (Psychic):",
+                "description": "In your Shooting phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER ’s unit suffers D6 mortal wounds ; on a 2-5, that enemy unit suffers 2D3 mortal wounds; on a 6, that enemy unit suffers 2D6 mortal wounds."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 combi-weapon",
+                "1 storm bolter"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Nemesis force weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Brotherhood Librarian",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Purge Soul",
+                "Nemesis force weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 110
+        }
+    ],
+    "additionalParameter": {}
 }

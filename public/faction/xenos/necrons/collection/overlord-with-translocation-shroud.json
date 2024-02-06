@@ -1,99 +1,108 @@
 {
-  "parentUnit": "Overlord",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Overlords lead the Necron dynasties in battle. Their android minds are tremendously swift, their bodies implacably resilient and their weapons eldritch, ancient and lethal. Yet it is the Overlords’ indomitable wills that are perhaps their most fearsome assets, for with these they drive entire armies to war.",
-  "keywords": [
-    "infantry",
-    "character",
-    "noble",
-    "overlord"
-  ],
-  "attributes": [{
-    
-    "movement": 5,
-    "toughness": 5,
-    "save": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": ["Immortals",
-  "Lychguard",
-  "Necron Warriors"],
-  "rangedWeapons": [
-    {
-      "name": "Tachyon arrow",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 72,
-      "strength": 16,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Overlord",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "reanimation protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Overlords lead the Necron dynasties in battle. Their android minds are tremendously swift, their bodies implacably resilient and their weapons eldritch, ancient and lethal. Yet it is the Overlords’ indomitable wills that are perhaps their most fearsome assets, for with these they drive entire armies to war.",
+    "keywords": [
+        "infantry",
+        "character",
+        "noble",
+        "overlord"
     ],
-    "otherAbilities": [
-      {
-        "name": "My Will Be Done",
-        "description": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
-      },
-      {
-        "name": "Translocation Shroud",
-        "description": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in that unit. In addition, each time a model in that unit makes a Normal, Advance or Fall Back move, until that move is finished, it can move horizontally through models and terrain features (it cannot finish a move on top of another model or its base)."
-      }
-    ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "warGearAbilities": [
-    {
-      "wargear": "Resurrection Orb",
-      "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Tachyon arrow",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 72,
+            "strength": 16,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "reanimation protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "My Will Be Done",
+                "description": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+            },
+            {
+                "name": "Translocation Shroud",
+                "description": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in that unit. In addition, each time a model in that unit makes a Normal, Advance or Fall Back move, until that move is finished, it can move horizontally through models and terrain features (it cannot finish a move on top of another model or its base)."
+            }
+        ]
     },
-    {
-      "wargear": "Phylactery",
-      "ability": "The bearer has the Feel No Pain 5+ ability."
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Overlord with Translocation Shroud",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["Overlord’s blade","resurrection orb."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 85
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Overlord's blade ",
-         "attacks": 4,
-         "weapons-skills": 2,
-         "strength": 8,
-         "armor-penetration": 3,
-         "damage": 2,
-         "modifiers": ["devastating woundss"]
-       }
-   ]
+    "additionalParameter": {},
+    "wargear": [],
+    "warGearAbilities": [
+        {
+            "wargear": "Resurrection Orb",
+            "ability": "Once per battle, at the end of the any phase, select one friendly NECRONS INFANTRY or NECRONS MOUNTED unit within 6'' of the bearer and ressurect that unit. That unit's Reanimation Protocols are activated D6 instead of D3. You cannot ressurect more than one unit per turn."
+        },
+        {
+            "wargear": "Phylactery",
+            "ability": "The bearer has the Feel No Pain 5+ ability."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Overlord with Translocation Shroud",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Overlord’s blade",
+                "resurrection orb."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Overlord's blade ",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "devastating woundss"
+            ]
+        }
+    ]
 }

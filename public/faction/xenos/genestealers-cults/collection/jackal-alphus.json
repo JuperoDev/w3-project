@@ -1,93 +1,98 @@
 {
-  "parentUnit": "Jackal Alphus",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Jackal Alphus rides their dirtcycle to commanding battlefield vantage points. With their long-range vox, the Alphus calls in strike missions against tougher, armoured targets. Should a foe fall beneath the cross hairs of their cult sniper rifle, its life expectancy can be measured in moments.",
-  "keywords": [
-    "mounted",
-    "character",
-    "grenades",
-    "great devourer",
-    "jackal alphus"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "save": 5,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Autopistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Cult sniper rifle",
-      "modifiers": [
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader",
-      "Scouts 9''"
+    "parentUnit": "Jackal Alphus",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-     
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Jackal Alphus rides their dirtcycle to commanding battlefield vantage points. With their long-range vox, the Alphus calls in strike missions against tougher, armoured targets. Should a foe fall beneath the cross hairs of their cult sniper rifle, its life expectancy can be measured in moments.",
+    "keywords": [
+        "mounted",
+        "character",
+        "grenades",
+        "great devourer",
+        "jackal alphus"
     ],
-    "otherAbilities": [{
-      "name":"Priority Target",
-      "description":"Each time this model makes an attack with its cult sniper rifle that targets an enemy unit, if it scores a hit, until the end of the phase, each time another GENESTEALER CULTS model from your army makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1."
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 5,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Cult sniper rifle",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader",
+            "Scouts 9''"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Priority Target",
+                "description": "Each time this model makes an attack with its cult sniper rifle that targets an enemy unit, if it scores a hit, until the end of the phase, each time another GENESTEALER CULTS model from your army makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1."
+            },
+            {
+                "name": "Master Outrider",
+                "description": " In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 6 '' as if it were your Movement phase. If it does, until the end of the turn, that unit is not eligible to declare a charge."
+            }
+        ]
     },
-    {
-      "name":"Master Outrider",
-      "description":" In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 6 '' as if it were your Movement phase. If it does, until the end of the turn, that unit is not eligible to declare a charge."
-    }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "jackal alphus",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["autopistol","close combat weapon","close combat weapon"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 60
-    }],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "jackal alphus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "autopistol",
+                "close combat weapon",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        }
+    ],
     "wargear": [],
-
     "meleeWeapons": [
         {
             "name": "Close combat weapon",

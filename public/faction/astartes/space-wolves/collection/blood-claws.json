@@ -1,260 +1,265 @@
 {
-  "parentUnit": "Blood Claws",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Young and fiery warriors full of belligerent enthusiasm, Blood Claws hunger to prove themselves in savage battle. With relentless exuberance they plunge headlong into the foe, straddling the line between sheer heroism and recklessness. Many great sagas start with the Blood Claws’ glory hunts.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "imperium",
-    "blood claws"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Boltgun",
-      "modifiers": [
-        
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Grav-gun",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma gun - standard",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma gun - supercharge",
-      "modifiers": [
-        "hazardous",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Blood Claws",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": ["Oath of Moment"],
-    "otherAbilities": [
-      {
-        "name": "Berserk Charge",
-        "description": "Each time this unit makes a Charge move, until the end of the turn, add 1 to the Attacks and Strength characteristics of melee weapons equipped by models in this unit."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "The Blood Claw Pack Leader’s Astartes chainsword can be replaced with one of the following",
-      "items": [
-        "1 power fist",
-        "1 power weapon"
-      ]
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Young and fiery warriors full of belligerent enthusiasm, Blood Claws hunger to prove themselves in savage battle. With relentless exuberance they plunge headlong into the foe, straddling the line between sheer heroism and recklessness. Many great sagas start with the Blood Claws’ glory hunts.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "imperium",
+        "blood claws"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grav-gun",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Berserk Charge",
+                "description": "Each time this unit makes a Charge move, until the end of the turn, add 1 to the Attacks and Strength characteristics of melee weapons equipped by models in this unit."
+            }
+        ]
     },
-    {
-      "description": "The Blood Claw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.",
-      "items": []
-    },
-    {
-      "description": "Up to 2 Blood Claws can each have their Astartes chainsword replaced with one of the following",
-      "items": [
-        "1 flamer and 1 close combat weapon",
-        "1 grav-gun and 1 close combat weapon",
-        "1 meltagun and 1 close combat weapon",
-        "1 plasma gun and 1 close combat weapon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Astartes chainsword",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage":2
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1,9],
-      "points": 110
-    },
-    {
-      "count": [1,14],
-      "points": 210
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Blood Claw Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "bolt pistol", "Astartes chainsword"
-          ]
-      },
-      {
-        "unitType": "Blood Claws",
-        "minQuantity": 9,
-        "maxQuantity": 14,
-        "equipment": [
-          "bolt pistol", "Astartes chainsword"
+    "wargear": [
+        {
+            "description": "The Blood Claw Pack Leader’s Astartes chainsword can be replaced with one of the following",
+            "items": [
+                "1 power fist",
+                "1 power weapon"
+            ]
+        },
+        {
+            "description": "The Blood Claw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.",
+            "items": []
+        },
+        {
+            "description": "Up to 2 Blood Claws can each have their Astartes chainsword replaced with one of the following",
+            "items": [
+                "1 flamer and 1 close combat weapon",
+                "1 grav-gun and 1 close combat weapon",
+                "1 meltagun and 1 close combat weapon",
+                "1 plasma gun and 1 close combat weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 110
+        },
+        {
+            "count": [
+                1,
+                14
+            ],
+            "points": 210
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Blood Claw Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Blood Claws",
+            "minQuantity": 9,
+            "maxQuantity": 14,
+            "equipment": [
+                "bolt pistol",
+                "Astartes chainsword"
+            ]
+        }
+    ],
+    "additionalParameter": {
+        "title": "Attached Unit",
+        "abilities": [
+            {
+                "description": "If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSOR SQUAD or ASSAULT SQUAD, it can instead be attached to this unit."
+            }
         ]
     }
-  ],
-  "additionalParameter": {
-    "title": "Attached Unit",
-    "abilities": [
-        {
-            
-            "description": "If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSOR SQUAD or ASSAULT SQUAD, it can instead be attached to this unit."
-        }
-    ]
-}
 }

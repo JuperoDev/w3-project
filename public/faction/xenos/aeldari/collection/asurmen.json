@@ -1,78 +1,78 @@
 {
-  "parentUnit": "Asurmen",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Asurmen’s skill at war is breathtaking, the magnitude of his heroic presence so great that nearby Aspect Warriors are infused with his peerless tactical acumen. In addition to the wrist-mounted shuriken catapults known as the Bloody Twins, he carries the Sword of Asur, whose hilt bears the spirit stone of Asurmen’s brother, Tethesis.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "phoenix lord",
-    "asurmen"
-  ],
-  "attributes": {
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 2,
-    "wounds": 5,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 3
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "The Bloody Twins",
-      "modifiers": [
-        "assault",
-        "lethal hits",
-        "pistol"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Asurmen",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [
-      "Strands of Fate"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Asurmen’s skill at war is breathtaking, the magnitude of his heroic presence so great that nearby Aspect Warriors are infused with his peerless tactical acumen. In addition to the wrist-mounted shuriken catapults known as the Bloody Twins, he carries the Sword of Asur, whose hilt bears the spirit stone of Asurmen’s brother, Tethesis.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "phoenix lord",
+        "asurmen"
     ],
-    "otherAbilities": [
-      {
-        "name": "Hand of Asuryan:",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
-      },
-      {
-        "name": "Tactical Acumen:",
-        "description": "Once per turn, you can target this model’s unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
-      }
+    "attributes": {
+        "movement": 7,
+        "toughness": 3,
+        "salvation": 2,
+        "wounds": 5,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 3
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "The Bloody Twins",
+            "modifiers": [
+                "assault",
+                "lethal hits",
+                "pistol"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Hand of Asuryan:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "Tactical Acumen:",
+                "description": "Once per turn, you can target this model’s unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "The Sword of Asur",
+            "modifiers": "devastatingwounds",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": "3"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "The Sword of Asur",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 6,
-      "armor-penetration": 3,
-      "damage": "3"
-    }
-  ]
 }

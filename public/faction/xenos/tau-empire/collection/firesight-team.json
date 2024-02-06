@@ -1,61 +1,60 @@
 {
-  "parentUnit": "Firesight Team",
-  "factionKeyword": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Hidden behind shimmering stealth fields, the Firesight Marksmen play their targeting instruments over the foe and transmit data to the MV71 Sniper Drones in their thrall. In this way they augment the fire- prioritisation routines of the drones’ artificial intelligences, rendering them smarter, more cunning and even more deadly to distant foes.",
-  "keywords": [
-    "infantry",
-    "character",
-    "markerlight",
-    "firesight team"
-  ],
-  "attributes": [],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Longshot pulse rifles",
-      "modifiers": [
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
+    "parentUnit": "Firesight Team",
+    "factionKeyword": [
+        "t’au empire"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Hidden behind shimmering stealth fields, the Firesight Marksmen play their targeting instruments over the foe and transmit data to the MV71 Sniper Drones in their thrall. In this way they augment the fire- prioritisation routines of the drones’ artificial intelligences, rendering them smarter, more cunning and even more deadly to distant foes.",
+    "keywords": [
+        "infantry",
+        "character",
+        "markerlight",
+        "firesight team"
+    ],
+    "attributes": [],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Longshot pulse rifles",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": {
+            "Precise Targeting:": "While this model is a Guided unit , each time it makes an attack that targets its Spotted unit , you can re-roll the Hit roll ."
+        }
     },
-    {
-      "name": "Pulse pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Lone Operative",
-      "Stealth"
-    ],
-    "faction": [
-      "For the Greater Good"
-    ],
-    "otherAbilities": {
-      "Precise Targeting:": "While this model is a Guided unit , each time it makes an attack that targets its Spotted unit , you can re-roll the Hit roll ."
-    }
-  },
-
-  "additionalParameter": {}
+    "additionalParameter": {}
 }

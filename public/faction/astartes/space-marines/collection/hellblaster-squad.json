@@ -1,144 +1,145 @@
 {
-  "parentUnit": "Hellblaster Squad",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Few foes can survive the incandescent fury of a Hellblaster Squad. Whether they be Tyranid Hive Tyrant, Ork Warboss or Heretic Astartes battle tank, all are reduced to ash and slag by searing, well-aimed plasma fire pouring from the Hellblasters’ ferocious weapons.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "imperium",
-    "tacticus",
-    "hellblaster squad"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma incinerator - standard",
-      "modifiers": [
-        "assault",
-        "heavy"
-      ],
-      "range": 24,
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma incinerator - supercharge",
-      "modifiers": [
-        "assault",
-        "hazardous",
-        "heavy"
-      ],
-      "range": 24,
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Hellblaster Squad",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "bolt pistol; plasma incinerator; close combat weapon."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "The Hellblaster Sergeant’s bolt pistol can be replaced with 1 plasma pistol.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Few foes can survive the incandescent fury of a Hellblaster Squad. Whether they be Tyranid Hive Tyrant, Ork Warboss or Heretic Astartes battle tank, all are reduced to ash and slag by searing, well-aimed plasma fire pouring from the Hellblasters’ ferocious weapons.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "hellblaster squad"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma incinerator - standard",
+            "modifiers": [
+                "assault",
+                "heavy"
+            ],
+            "range": 24,
+            "attacks": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Plasma incinerator - supercharge",
+            "modifiers": [
+                "assault",
+                "hazardous",
+                "heavy"
+            ],
+            "range": 24,
+            "attacks": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "bolt pistol; plasma incinerator; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Hellblaster Sergeant’s bolt pistol can be replaced with 1 plasma pistol.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

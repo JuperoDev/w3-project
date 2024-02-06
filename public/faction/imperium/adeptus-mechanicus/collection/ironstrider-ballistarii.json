@@ -1,116 +1,125 @@
 {
-  "parentUnit": "Ironstrider Ballistarii",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ironstrider Ballistarii are swift combat walkers piloted by veteran marksmen. They smoothly pick their way across the battlefield before invoking the fully awakened machine spirits of their weapons to acquire rapidly cogitated firing solutions. Their destructive firepower unleashed, they redeploy to hunt for fresh targets.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "smoke",
-    "imperium",
-    "skitarii",
-    "ironstrider ballistarii"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 7,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Twin cognis autocannon",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 3,
-      "singleChoice": false
+    "parentUnit": "Ironstrider Ballistarii",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ironstrider Ballistarii are swift combat walkers piloted by veteran marksmen. They smoothly pick their way across the battlefield before invoking the fully awakened machine spirits of their weapons to acquire rapidly cogitated firing solutions. Their destructive firepower unleashed, they redeploy to hunt for fresh targets.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "smoke",
+        "imperium",
+        "skitarii",
+        "ironstrider ballistarii"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 7,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Twin cognis autocannon",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin cognis lascannon",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Elevated Strider:",
+                "description": "This unit is eligible to shoot in a turn in which it Fell Back or Advanced , and you can re-roll Desperate Escape tests taken for models in this unit."
+            },
+            {
+                "name": "Broad Spectrum Data-tether:",
+                "description": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+            }
+        ]
     },
-    {
-      "name": "Twin cognis lascannon",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                3
+            ],
+            "points": 150
+        }
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "unitComposition": [
+        {
+            "unitType": "Ironstrider Ballistarii",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "equipment": [
+                "twin cognis autocannon",
+                "Ironstrider feet"
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Elevated Strider:",
-        "description": "This unit is eligible to shoot in a turn in which it Fell Back or Advanced , and you can re-roll Desperate Escape tests taken for models in this unit."
-      },
-      {
-        "name": "Broad Spectrum Data-tether:",
-        "description": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
-      }
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each have their twin cognis autocannon replaced with 1 twin cognis lascannon."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Ironstrider feet",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 50
-   },
-   {
-    "count": [2],
-    "points": 100
-  },
-  {
-    "count": [3],
-    "points": 150
-  }
- ],
- "unitComposition": [
-     {
-         "unitType": "Ironstrider Ballistarii",
-         "minQuantity": 1,
-         "maxQuantity": 3,
-         "equipment": [
-          "twin cognis autocannon", "Ironstrider feet"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "Any number of models can each have their twin cognis autocannon replaced with 1 twin cognis lascannon."
-   }
- ],
- "meleeWeapons": [
-   {
-     "name": "Ironstrider feet",
-     "attacks": 3,
-     "weapons-skills": 4,
-     "strength": 5,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
- ]
 }

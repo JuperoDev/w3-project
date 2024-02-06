@@ -1,166 +1,179 @@
 {
-  "parentUnit": "Knight Castellan",
-  "factionKeyword": [
-    "imperial knights"
-  ],
-  "damaged": {
-    "remainingWounds": 8,
-    "description": "While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Based around a Dominus-class chassis, the Knight Castellan’s dual plasma core fuels an array of weapon systems that make it among the foremost artillery Knights of the houses. The combined fire of several of these engines can equal that of an Imperial Navy warship battery, and tear the heart out of an enemy army.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "titanic",
-    "towering",
-    "dominus",
-    "character",
-    "imperium",
-    "knight castellan"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 13,
-    "save": 2,
-    "wounds": 24,
-    "leadership": 6,
-    "objetiveControl": 10,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Plasma decimator - standard",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 48,
-      "strength": 8,
-      "attacks": "d6+3",
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma decimator - supercharge",
-      "modifiers": [
-        "blast",
-        "hazardous"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": "d6+3",
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 3,
-      "singleChoice": true
-    },
-    {
-      "name": "Shieldbreaker missile launcher",
-      "modifiers": [
-        "anti-titanic 4+",
-        "devastating wounds"
-      ],
-      "range": 72,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Twin meltagun",
-      "modifiers": [
-        "melta 2",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Twin siegebreaker cannon",
-      "modifiers": [
-        "blast",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Volcano lance",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 72,
-      "strength": 18,
-      "attacks": "d3",
-      "ballistic-skills": 3,
-      "armor-penetration": 5,
-      "damage": "d6+8",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6+2"
+    "parentUnit": "Knight Castellan",
+    "factionKeyword": [
+        "imperial knights"
     ],
-    "faction": [
-      "Code Chivalric",
-      "Super-heavy Walker"
+    "damaged": {
+        "remainingWounds": 8,
+        "description": "While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Based around a Dominus-class chassis, the Knight Castellan’s dual plasma core fuels an array of weapon systems that make it among the foremost artillery Knights of the houses. The combined fire of several of these engines can equal that of an Imperial Navy warship battery, and tear the heart out of an enemy army.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "titanic",
+        "towering",
+        "dominus",
+        "character",
+        "imperium",
+        "knight castellan"
     ],
-    "otherAbilities": [
-      {
-        "name": "Ion Aegis (Aura):",
-        "description": "While a friendly ARMIGER model is within 6\" of this model, that ARMIGER models has the Benefits of Cover ."
-      },
-      {
-        "name": "Titan Hunter:",
-        "description": "Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, re-roll a Damage roll of 1."
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 13,
+            "save": 2,
+            "wounds": 24,
+            "leadership": 6,
+            "objetiveControl": 10,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Plasma decimator - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": "d6+3",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma decimator - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": "d6+3",
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Shieldbreaker missile launcher",
+            "modifiers": [
+                "anti-titanic 4+",
+                "devastating wounds"
+            ],
+            "range": 72,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Twin meltagun",
+            "modifiers": [
+                "melta 2",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Twin siegebreaker cannon",
+            "modifiers": [
+                "blast",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Volcano lance",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 72,
+            "strength": 18,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 5,
+            "damage": "d6+8",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6+2"
+        ],
+        "faction": [
+            "Code Chivalric",
+            "Super-heavy Walker"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Ion Aegis (Aura):",
+                "description": "While a friendly ARMIGER model is within 6\" of this model, that ARMIGER models has the Benefits of Cover ."
+            },
+            {
+                "name": "Titan Hunter:",
+                "description": "Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, re-roll a Damage roll of 1."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 565
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Knight Castellan",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plasma decimator",
+                "2 shieldbreaker missile launchers",
+                "2 twin meltaguns",
+                "twin siegebreaker cannon",
+                "volcano lance; titanic feet"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s 2 shieldbreaker missile launchers and twin siegebreaker cannon can be replaced with:",
+            "items": [
+                "1 shieldbreaker missile launcher and 2 twin siegebreaker cannons"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Titanic feet",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 565
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Knight Castellan",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "plasma decimator", "2 shieldbreaker missile launchers", "2 twin meltaguns", "twin siegebreaker cannon", "volcano lance; titanic feet"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [{"description":"This model’s 2 shieldbreaker missile launchers and twin siegebreaker cannon can be replaced with:","items":["1 shieldbreaker missile launcher and 2 twin siegebreaker cannons"]}
-   
- ],
- "meleeWeapons": [
-   {
-     "name": "Titanic feet",
-     "attacks": 4,
-     "weapons-skills": 4,
-     "strength": 8,
-     "armor-penetration": 1,
-     "damage": 2,
-     "modifiers": []
-   }
- ]
 }

@@ -1,128 +1,135 @@
 {
-  "parentUnit": "Venerable Land Raider",
-  "factionKeywords": [
-    "adeptus custodes"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Land Raiders are heavily armed, mobile fortresses. Possessed of hyper-durable adamantine armour and a fearsome array of weapons, they and their cargo of Custodian warriors can turn the tide of war in a single salvo, and their machine spirits are so potent they can fight on even if the crew are slain.",
-  "keywords": [
-    "vehicle",
-    "imperium",
-    "transport",
-    "smoke",
-    "venerable land raider"
-  ],
-  "attributes":[ {
-    "movement": 10,
-    "toughness": 12,
-    "save": 2,
-    "wounds": 16,
-    "leadership": 6,
-    "objetiveControl": 5,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Godhammer lascannon",
-      "range": 48,
-      "modifiers":  [],
-      "attacks": 2,
-      "weapons-skills":  2 ,
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers":[ "one shot"],
-      "range": 48,
-      "attacks": 1,
-      "weapons-skills":  2 ,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6"
-    },
-    {
-      "name": "Storm bolter",
-      "range": 24,
-      "modifiers": "rapidfire2",
-      "attacks": 2,
-      "weapons-skills":  2 ,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage":  1
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Venerable Land Raider",
+    "factionKeywords": [
+        "adeptus custodes"
     ],
-    "faction": ["Martial Ka’tah"],
-    "otherAbilities": [
-      {
-        "name": "Assault Ramp",
-        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 hunter-killer missile.",
-      "items": []
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model can be equipped with 1 storm bolter.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Armoured tracks",
-      "modifiers":  [],
-      "attacks": 6,
-      "weapons-skills":  4,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage":  1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Venerable Land Raider",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "2 godhammer lascannons", "twin heavy bolter","armoured tracks"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 240
-    }
-  ],
-  "additionalParameter": {}
+    "supremeCommander": false,
+    "lore": "Land Raiders are heavily armed, mobile fortresses. Possessed of hyper-durable adamantine armour and a fearsome array of weapons, they and their cargo of Custodian warriors can turn the tide of war in a single salvo, and their machine spirits are so potent they can fight on even if the crew are slain.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "transport",
+        "smoke",
+        "venerable land raider"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Godhammer lascannon",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "attacks": 1,
+            "strength": 14,
+            "armor-penetration": 3,
+            "damage": "D6",
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Storm bolter",
+            "range": 24,
+            "modifiers": "rapidfire2",
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Martial Ka’tah"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Assault Ramp",
+                "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Venerable Land Raider",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 godhammer lascannons",
+                "twin heavy bolter",
+                "armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 240
+        }
+    ],
+    "additionalParameter": {}
 }

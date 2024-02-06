@@ -1,221 +1,225 @@
 {
-  "parentUnit": "Leman Russ Exterminator",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Leman Russ Exterminator fills an adaptive role well-liked by commanders. Capable of laying down a withering hail of heavy fire, this tank’s shells can tear through lightly armoured chassis as easily as they rip through flesh and bone. Ranks of elite infantry are devastated with equal ease.",
-  "keywords": [
-    "vehicle",
-    "imperium",
-    "squadron",
-    "smoke",
-    "leman russ exterminator"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 11,
-    "save": 2,
-    "wounds": 13,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Exterminator autocannon",
-      "modifiers": [
-        "rapid fire 4",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - standard",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - supercharge",
-      "modifiers": [
-        "blast",
-        "hazardous"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Leman Russ Exterminator",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Withering Hail:",
-        "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly ASTRA MILITARUM unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s lascannon can be replaced with one of the following",
-      "items": [
-        "1 heavy bolter",
-        "1 heavy flamer"
-      ]
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "2 heavy bolters",
-        "2 heavy flamers",
-        "2 multi-meltas",
-        "2 plasma cannons"
-      ]
-    },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 heavy stubber",
-        "1 storm bolter"
-      ]
-    },
-    {
-      "description": "This model can be equipped with 1 hunter-killer missile.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 7,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
+    "supremeCommander": false,
+    "lore": "The Leman Russ Exterminator fills an adaptive role well-liked by commanders. Capable of laying down a withering hail of heavy fire, this tank’s shells can tear through lightly armoured chassis as easily as they rip through flesh and bone. Ranks of elite infantry are devastated with equal ease.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "squadron",
+        "smoke",
+        "leman russ exterminator"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 13,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Exterminator autocannon",
+            "modifiers": [
+                "rapid fire 4",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Withering Hail:",
+                "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly ASTRA MILITARUM unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s lascannon can be replaced with one of the following",
+            "items": [
+                "1 heavy bolter",
+                "1 heavy flamer"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 heavy bolters",
+                "2 heavy flamers",
+                "2 multi-meltas",
+                "2 plasma cannons"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 heavy stubber",
+                "1 storm bolter"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Angron – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
     ]
 }

@@ -1,81 +1,81 @@
 {
-  "parentUnit": "Trukk",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Trukks are ramshackle assemblages of hastily welded and riveted scrap metal bolted to overpowered engine blocks and rusty chassis. Rolling on fat, armoured tyres, they bear mobs of Orks into battle at high speed, shrugging off enemy fire by the simple expedient of shedding ablative panels and plates.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "dedicated transport",
-    "trukk"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 8,
-    "save": 4,
-    "wounds": 10,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Big shoota",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Firing Deck 12"
+    "parentUnit": "Trukk",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Trukks are ramshackle assemblages of hastily welded and riveted scrap metal bolted to overpowered engine blocks and rusty chassis. Rolling on fat, armoured tyres, they bear mobs of Orks into battle at high speed, shrugging off enemy fire by the simple expedient of shedding ablative panels and plates.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "trukk"
     ],
-    "otherAbilities": [
-      {
-        "name": "Grot Riggers:",
-        "description": "At the start of your Command phase, this model regains 1 lost wound."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 wreckin’ ball.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Spiked wheels",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "5+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
+    "attributes": {
+        "movement": 12,
+        "toughness": 8,
+        "save": 4,
+        "wounds": 10,
+        "leadership": 7,
+        "objetiveControl": 2,
+        "invulnerableSave": 6
     },
-    {
-      "name": "Wreckin’ ball",
-      "modifiers": "extraattacks",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 10,
-      "armor-penetration": 0,
-      "damage": "D6"
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Big shoota",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Firing Deck 12"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Grot Riggers:",
+                "description": "At the start of your Command phase, this model regains 1 lost wound."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 wreckin’ ball.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Spiked wheels",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "5+",
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Wreckin’ ball",
+            "modifiers": "extraattacks",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 10,
+            "armor-penetration": 0,
+            "damage": "D6"
+        }
+    ]
 }

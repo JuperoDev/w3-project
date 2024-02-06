@@ -1,104 +1,117 @@
 {
-  "parentUnit": "Lokhust Heavy Destroyers",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Destroyer Cults think nothing of sacrificing their physical forms to optimise themselves for slaughter. Lokhust Heavy Destroyers skim to battle upon repulsor-sled bodies, their upper limbs bound into gauss destructors or enmitic exterminators with which they decimate their foes with devastating blasts from afar.",
-  "keywords": [
-    "mounted",
-    "fly",
-    "lokhust heavy destroyers"
-  ],
-  "attributes": [{
-    
-    "movement": 8,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Enmitic exterminator",
-      "modifiers": [
-        "heavy",
-        "rapid fire 6",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Lokhust Heavy Destroyers",
+    "factionKeyword": [
+        "necrons"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Destroyer Cults think nothing of sacrificing their physical forms to optimise themselves for slaughter. Lokhust Heavy Destroyers skim to battle upon repulsor-sled bodies, their upper limbs bound into gauss destructors or enmitic exterminators with which they decimate their foes with devastating blasts from afar.",
+    "keywords": [
+        "mounted",
+        "fly",
+        "lokhust heavy destroyers"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Enmitic exterminator",
+            "modifiers": [
+                "heavy",
+                "rapid fire 6",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Gauss destructor",
+            "modifiers": [
+                "heavy",
+                "lethal hits"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": 6,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Optimised for Slaughter",
+                "description": "Each time a model in this unit makes an attack with an enmitic exterminator that targets a unit (excluding MONSTERS and VEHICLES], re-roll a Wound roll of 1. Each time a model in this unit makes an attack with a gauss destructor that targets a MONSTER or VEHICLE, re-roll a Wound roll of 1."
+            }
+        ]
     },
-    {
-      "name": "Gauss destructor",
-      "modifiers": [
-        "heavy",
-        "lethal hits"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": 6,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-     
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each have their gauss destructor replaced with 1 enmitic exterminator."
+        }
     ],
-    "faction": [
-     "Reanimation Protocols"
+    "unitComposition": [
+        {
+            "unitType": "Lokhust Heavy Destroyers",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "equipment": [
+                "gauss destructor",
+                "close combat weapon"
+            ]
+        }
     ],
-    "otherAbilities": [{
-      "name":"Optimised for Slaughter","description":"Each time a model in this unit makes an attack with an enmitic exterminator that targets a unit (excluding MONSTERS and VEHICLES], re-roll a Wound roll of 1. Each time a model in this unit makes an attack with a gauss destructor that targets a MONSTER or VEHICLE, re-roll a Wound roll of 1."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [{"description":"Any number of models can each have their gauss destructor replaced with 1 enmitic exterminator."}],
-  "unitComposition": [
-     {
-       "unitType": "Lokhust Heavy Destroyers",
-       "minQuantity": 1,
-       "maxQuantity": 3,
-       "equipment": ["gauss destructor","close combat weapon"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 50
-     },
-     {
-         "count": [2],
-         "points": 100
-       },
-       {
-        "count": [3],
-        "points": 150
-      }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Close combat weapon",
-         "attacks": 2,
-         "weapons-skills": 3,
-         "strength": 4,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                3
+            ],
+            "points": 150
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

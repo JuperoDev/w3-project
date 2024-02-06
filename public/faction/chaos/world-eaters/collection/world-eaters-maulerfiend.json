@@ -19,7 +19,9 @@
             "strength": 7,
             "armor-penetration": 1,
             "damage": 1,
-            "modifiers": ["extra attacks"],
+            "modifiers": [
+                "extra attacks"
+            ],
             "singleChoice": false
         },
         {
@@ -34,62 +36,74 @@
         }
     ],
     "keywords": [
-        "Vehicle", "Walker", "Chaos", "Khorne", "Daemon", "Maulerfiend"
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Maulerfiend"
     ],
     "factionKeyword": [
         "World Eaters"
     ],
-    "wargear": [{"description":"This model’s lasher tendrils can be replaced with 2 magma cutters."}],
+    "wargear": [
+        {
+            "description": "This model’s lasher tendrils can be replaced with 2 magma cutters."
+        }
+    ],
     "abilities": {
         "core": [
-          "Deadly Demise D3",
-          "leader"
+            "Deadly Demise D3",
+            "leader"
         ],
         "faction": [
-          "Blessings of Khorne"
+            "Blessings of Khorne"
         ],
         "otherAbilities": [
-          {
-            "name": "The Scent of Blood",
-            "description": "Each time you make a Charge roll for this model, if one or more of the targets of that charge are below their Starting Strength, add 2 to that roll. Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll."
-          }
+            {
+                "name": "The Scent of Blood",
+                "description": "Each time you make a Charge roll for this model, if one or more of the targets of that charge are below their Starting Strength, add 2 to that roll. Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll."
+            }
         ]
-      },
-      "damaged": {
+    },
+    "damaged": {
         "remainingWounds": 4,
         "description": "each time this model makes an attack, subtract 1 from the Hit roll"
-     },
-     "unitComposition": [
-      {
-        "unitType": "World Eaters Maulerfiend",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment":["lasher tendrils","Maulerfiend fists."]
-      }
-    ], "options": [
-      {
-        "count": [1],
-        "points": 155
-      }
+    },
+    "unitComposition": [
+        {
+            "unitType": "World Eaters Maulerfiend",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lasher tendrils",
+                "Maulerfiend fists."
+            ]
+        }
     ],
-    "additionalParameter": {
-      },
-      "supremeCommander": false,
-      "leader": [
-         ],
-         "rangedWeapons": [
-             {
-                 "name": "magma cutter",
-                 "range": 6,
-                 "attacks": 2,
-                 "ballistic-skills": 3,
-                 "strength": 9,
-                 "armor-penetration": 4,
-                 "damage": "d6",
-                 "modifiers": ["melta 2"
-                     
-                 ]
-             }
-         ]
-         
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 155
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "magma cutter",
+            "range": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "modifiers": [
+                "melta 2"
+            ]
+        }
+    ]
 }

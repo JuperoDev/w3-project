@@ -1,153 +1,171 @@
 {
-  "parentUnit": "Einhyr Hearthguard",
-  "factionKeyword": [
-    "leagues of votann",
-    "votann"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Clad in formidable exo-armour and equipped with a fearsome array of weaponry, Einhyr Hearthguard are a force to be reckoned with. Whether forming bodyguards around their Oathband’s heroes or striking deep into the heart of enemy territory, they are unstoppable on the attack and immovable in defence.",
-  "keywords": [
-    "infantry",
-    "exo-armour",
-    "einhyr hearthguard"
-  ],
-  "attributes": [
-    {
-      "movement": 5,
-      "toughness": 6,
-      "save": 2,
-      "wounds": 2,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 0
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "EtaCarn plasma gun",
-      "modifiers": [],
-      "range": 24,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Exo-armour grenade launcher",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Volkanite disintegrator",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-     
+    "parentUnit": "Einhyr Hearthguard",
+    "factionKeyword": [
+        "leagues of votann",
+        "votann"
     ],
-    "faction": ["eye of the ancestors"],
-    "otherAbilities": [
-      {
-        "name": "Teleport Crest",
-        "description": "Models in the bearer’s unit have the Deep Strike ability."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Clad in formidable exo-armour and equipped with a fearsome array of weaponry, Einhyr Hearthguard are a force to be reckoned with. Whether forming bodyguards around their Oathband’s heroes or striking deep into the heart of enemy territory, they are unstoppable on the attack and immovable in defence.",
+    "keywords": [
+        "infantry",
+        "exo-armour",
+        "einhyr hearthguard"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "EtaCarn plasma gun",
+            "modifiers": [],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Exo-armour grenade launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Volkanite disintegrator",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "eye of the ancestors"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Teleport Crest",
+                "description": "Models in the bearer’s unit have the Deep Strike ability."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Hesyr",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "EtaCarn plasma gun",
+                "exo-armour grenade launcher",
+                "concussion gauntlet",
+                "weavefield crest"
+            ]
+        },
+        {
+            "unitType": "Hearthguard",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "EtaCarn plasma gun",
+                "exo-armour grenade launcher",
+                "concussion gauntlet"
+            ]
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Weavefield Crest",
+            "ability": "The bearer has a 4+ invulnerable save."
+        },
+        {
+            "wargear": "Teleport Crest",
+            "ability": "Models in the bearer’s unit have the Deep Strike ability."
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 150
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 300
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Concussion gauntlet",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Concussion hammer",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 3,
+            "modifiers": []
+        },
+        {
+            "name": "Plasma blade gauntlet",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {
+            "description": "All models in this unit can each have their EtaCarn plasma gun replaced with 1 volkanite disintegrator."
+        },
+        {
+            "description": "All models in this unit can each have their concussion gauntlet replaced with 1 plasma blade gauntlet."
+        },
+        {
+            "description": "The Hesyr’s concussion gauntlet or plasma blade gauntlet can be replaced with 1 concussion hammer."
+        },
+        {
+            "description": "The Hesyr’s weavefield crest can be replaced with 1 teleport crest."
+        }
     ]
-  },
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Hesyr",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "EtaCarn plasma gun",
-        "exo-armour grenade launcher",
-        "concussion gauntlet",
-        "weavefield crest"
-      ]
-    },
-    {
-      "unitType": "Hearthguard",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "EtaCarn plasma gun",
-        "exo-armour grenade launcher",
-        "concussion gauntlet"
-      ]
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Weavefield Crest",
-      "ability": "The bearer has a 4+ invulnerable save."
-    },
-    {
-      "wargear": "Teleport Crest",
-      "ability": "Models in the bearer’s unit have the Deep Strike ability."
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1,4],
-      "points": 150
-    },
-    {
-      "count": [1,9],
-      "points": 300
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Concussion gauntlet",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": []
-    },
-    {
-      "name": "Concussion hammer",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 9,
-      "armor-penetration": 1,
-      "damage": 3,
-      "modifiers": []
-    },
-    {
-      "name": "Plasma blade gauntlet",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": []
-    }
-  ],
-  "wargear":[{"description":"All models in this unit can each have their EtaCarn plasma gun replaced with 1 volkanite disintegrator."},{"description":"All models in this unit can each have their concussion gauntlet replaced with 1 plasma blade gauntlet."},{"description":"The Hesyr’s concussion gauntlet or plasma blade gauntlet can be replaced with 1 concussion hammer."},{"description":"The Hesyr’s weavefield crest can be replaced with 1 teleport crest."}]
 }

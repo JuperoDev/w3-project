@@ -1,166 +1,166 @@
 {
-  "parentUnit": "The Silent King",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": true,
-  "lore": "The Silent King rides to war aboard his dais of dominion, flanked by the phaerons of his Triarch and orbited by crackling noctilith menhirs. He unleashes god-like powers of annihilation upon his dismayed foes, even as his absolute authority radiates out to empower the Necron legions and drive them to inevitable victory.",
-  "keywords": [
-    "vehicle",
-    "character",
-    "epic hero",
-    "fly",
-    "the silent king"
-  ],
-  "attributes": [
-    {
-      "name": "szarekh",
-      "movement": 8,
-      "toughness": 10,
-      "save": 2,
-      "wounds": 16,
-      "leadership": 6,
-      "objetiveControl": 6,
-      "invulnerableSave":4
-    },
-    {
-      "name": "triarchal menhir",
-      "movement": 8,
-      "toughness": 10,
-      "save": 2,
-      "wounds": 5,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave":4
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Annihilator beam",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 14,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 4,
-      "damage": 6,
-      "singleChoice": false
-    },
-    {
-      "name": "Sceptre of Eternal Glory",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Staff of Stars",
-      "modifiers": [
-        "indirect fire"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 12,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6+3 (Szarekh model only)"
+    "parentUnit": "The Silent King",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "reanimation protocols"
+    "damaged": {},
+    "supremeCommander": true,
+    "lore": "The Silent King rides to war aboard his dais of dominion, flanked by the phaerons of his Triarch and orbited by crackling noctilith menhirs. He unleashes god-like powers of annihilation upon his dismayed foes, even as his absolute authority radiates out to empower the Necron legions and drive them to inevitable victory.",
+    "keywords": [
+        "vehicle",
+        "character",
+        "epic hero",
+        "fly",
+        "the silent king"
     ],
-    "otherAbilities": [
-      {
-        "name": "Voice of the Triarch",
-        "description": "At the start of the battle round, select one Triarch ability (see left). Until the start of the next battle round, this unit has that ability."
-      },
-      {
-        "name": "The Silent King",
-        "description": "While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, improve that unit’s Leadership characteristic by 1."
-      }
+    "attributes": [
+        {
+            "name": "szarekh",
+            "movement": 8,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 6,
+            "invulnerableSave": 4
+        },
+        {
+            "name": "triarchal menhir",
+            "movement": 8,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Annihilator beam",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": 6,
+            "singleChoice": false
+        },
+        {
+            "name": "Sceptre of Eternal Glory",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Staff of Stars",
+            "modifiers": [
+                "indirect fire"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 12,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6+3 (Szarekh model only)"
+        ],
+        "faction": [
+            "reanimation protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Voice of the Triarch",
+                "description": "At the start of the battle round, select one Triarch ability (see left). Until the start of the next battle round, this unit has that ability."
+            },
+            {
+                "name": "The Silent King",
+                "description": "While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, improve that unit’s Leadership characteristic by 1."
+            }
+        ]
+    },
+    "additionalParameter": {
+        "title": "Triarch abilities",
+        "abilities": [
+            {
+                "name": "Phaeron of the Stars (Aura)",
+                "description": "While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            },
+            {
+                "name": "Phaeron of the Blades (Aura)",
+                "description": "While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack."
+            },
+            {
+                "name": "Bringer of Unity (Aura)",
+                "description": " While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws)."
+            }
+        ]
+    },
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Szarekh – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Sceptre of Eternal Glory",
+                " Staff of Stars",
+                "Weapons ofthe Final Triarch."
+            ]
+        },
+        {
+            "unitType": "Triarchal Menhirs",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "annihilator beam",
+                "armoured bulk."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                2
+            ],
+            "points": 420
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured bulk",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Weapons of the Final Triarch ",
+            "attacks": 12,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {
-      "title": "Triarch abilities",
-      "abilities": [
-          {
-              "name": "Phaeron of the Stars (Aura)",
-              "description": "While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
-          },
-          {
-              "name": "Phaeron of the Blades (Aura)",
-              "description": "While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack."
-          },
-          {
-              "name": "Bringer of Unity (Aura)",
-              "description": " While a friendly NECRONS unit is within 6'' of this unit’s Szarekh model, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws)."
-          }
-      ]
-  },
-  "wargear": [],
-  "unitComposition": [
-    {
-      "unitType": "Szarekh – EPIC HERO",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Sceptre of Eternal Glory",
-        " Staff of Stars",
-        "Weapons ofthe Final Triarch."
-      ]
-    },
-    {
-      "unitType": "Triarchal Menhirs",
-      "minQuantity": 2,
-      "maxQuantity": 2,
-      "equipment": [
-        "annihilator beam",
-        "armoured bulk."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        2
-      ],
-      "points": 420
-    }
-  ],
-  "meleeWeapons": [
-      {
-        "name": "Armoured bulk",
-        "attacks": 1,
-        "weapons-skills": 4,
-        "strength": 4,
-        "armor-penetration": 0,
-        "damage": 1,
-        "modifiers": []
-      },
-      {
-        "name": "Weapons of the Final Triarch ",
-        "attacks": 12,
-        "weapons-skills": 2,
-        "strength": 8,
-        "armor-penetration": 3,
-        "damage": 2,
-        "modifiers": []
-      }
-  ]
 }

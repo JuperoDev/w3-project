@@ -1,86 +1,93 @@
 {
-  "parentUnit": "Rendmaster On Blood Throne",
-  "factionKeyword": [
-    "legiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The greatest of Khorne’s heralds are Rendmasters, who ride to battle atop monstrous Daemon Engines known as Blood Thrones. Infernal lore suggests these engines are fashioned from slivers of the Blood God’s own throne, and that wherever they plough into the foe, Khorne’s legions fight beneath his glowering gaze.",
-  "keywords": [
-    "mounted",
-    "character",
-    "chaos",
-    "daemon",
-    "khorne",
-    "rendmaster on blood throne"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 9,
-    "save": 4,
-    "wounds": 9,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Rendmaster On Blood Throne",
+    "factionKeyword": [
+        "legiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The greatest of Khorne’s heralds are Rendmasters, who ride to battle atop monstrous Daemon Engines known as Blood Thrones. Infernal lore suggests these engines are fashioned from slivers of the Blood God’s own throne, and that wherever they plough into the foe, Khorne’s legions fight beneath his glowering gaze.",
+    "keywords": [
+        "mounted",
+        "character",
+        "chaos",
+        "daemon",
+        "khorne",
+        "rendmaster on blood throne"
     ],
-    "otherAbilities": [
-      {
-        "name": "Blood Throne:",
-        "description": "At the start of the Fight phase , select one enemy unit within 18\" of and visible to this model. Until the end of the phase, each time a friendly KHORNE LEGIONES DAEMONICA LEGIONES DAEMONICA unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
-      },
-      {
-        "name": "Champion Slayer:",
-        "description": "Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll . Each time this model destroys an enemy CHARACTER or MONSTER unit, this model regains up to D6 lost wounds."
-      }
-    ]
-  },
-  "wargear": [],
-  "additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Rendmaster on Blood Throne",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-         " attendants’ hellblades", "blade of blood"
-          ]
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 4,
+            "wounds": 9,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 150
-      }
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Blood Throne:",
+                "description": "At the start of the Fight phase , select one enemy unit within 18\" of and visible to this model. Until the end of the phase, each time a friendly KHORNE LEGIONES DAEMONICA LEGIONES DAEMONICA unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
+            },
+            {
+                "name": "Champion Slayer:",
+                "description": "Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll . Each time this model destroys an enemy CHARACTER or MONSTER unit, this model regains up to D6 lost wounds."
+            }
+        ]
+    },
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Rendmaster on Blood Throne",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " attendants’ hellblades",
+                "blade of blood"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 150
+        }
     ],
     "meleeWeapons": [
-      {
-        "name": "Attendants’ hellblades",
-        "attacks": 4,
-        "weapons-skills": 3,
-        "strength": 5,
-        "armor-penetration": 2,
-        "damage": 2,
-        "modifiers": ["extra attacks"],
-        "singleChoice": false
-      },
-      {
-        "name": "Blade of blood",
-        "attacks": 5,
-        "weapons-skills": 2,
-        "strength": 6,
-        "armor-penetration": 2,
-        "damage": 3,
-        "modifiers": [],
-        "singleChoice": false
-      }
+        {
+            "name": "Attendants’ hellblades",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "extra attacks"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Blade of blood",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": false
+        }
     ]
 }

@@ -1,141 +1,141 @@
 {
-  "parentUnit": "Troupe Master",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Choreographers of conflict, Troupe Masters direct their comrades’ reactions to the fates of battle and ensure their performance in the theatre of war is as perfect as it can be. They are blisteringly swift and deadly warriors, and with the consent of their peers they act as focal points of their Troupes.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "harlequins",
-    "troupe master"
-  ],
-  "attributes": {
-    "movement": 8,
-    "toughness": 3,
-    "salvation": 6,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Fusion pistol",
-      "modifiers": [
-        "assault",
-        "melta 2",
-        "pistol"
-      ],
-      "range": 6,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Neuro disruptor",
-      "modifiers": [
-        "anti-infantry 2+",
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Shuriken pistol",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Troupe Master",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [
-      "Strands of Fate"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Choreographers of conflict, Troupe Masters direct their comrades’ reactions to the fates of battle and ensure their performance in the theatre of war is as perfect as it can be. They are blisteringly swift and deadly warriors, and with the consent of their peers they act as focal points of their Troupes.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "harlequins",
+        "troupe master"
     ],
-    "otherAbilities": [
-      {
-        "name": "Cegorach’s Favour:",
-        "description": "Once per turn, when you use a Fate dice to substitute a Hit roll , a Wound roll or a saving throw made for this model, you can first change the result of that Fate dice to a 6."
-      },
-      {
-        "name": "Choreographer of War:",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
-      }
+    "attributes": {
+        "movement": 8,
+        "toughness": 3,
+        "salvation": 6,
+        "wounds": 4,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Fusion pistol",
+            "modifiers": [
+                "assault",
+                "melta 2",
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Neuro disruptor",
+            "modifiers": [
+                "anti-infantry 2+",
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken pistol",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Cegorach’s Favour:",
+                "description": "Once per turn, when you use a Fate dice to substitute a Hit roll , a Wound roll or a saving throw made for this model, you can first change the result of that Fate dice to a 6."
+            },
+            {
+                "name": "Choreographer of War:",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s Troupe Master’s blade can be replaced with 1 Harlequin’s special weapon.",
+            "items": []
+        },
+        {
+            "description": "This model’s shuriken pistol can be replaced with one of the following",
+            "items": [
+                "1 fusion pistol",
+                "1 neuro disruptor"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Fusion pistol",
+            "modifiers": "assault,melta2,pistol",
+            "attacks": "1",
+            "weapons-skills": "2+",
+            "strength": 8,
+            "armor-penetration": 4,
+            "damage": "D3"
+        },
+        {
+            "name": "Neuro disruptor",
+            "modifiers": "anti-infantry2+,assault,pistol",
+            "attacks": "1",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Harlequin’s special weapon",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Troupe Master’s blade",
+            "modifiers": "",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s Troupe Master’s blade can be replaced with 1 Harlequin’s special weapon.",
-      "items": []
-    },
-    {
-      "description": "This model’s shuriken pistol can be replaced with one of the following",
-      "items": [
-        "1 fusion pistol",
-        "1 neuro disruptor"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Fusion pistol",
-      "modifiers": "assault,melta2,pistol",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 8,
-      "armor-penetration": 4,
-      "damage": "D3"
-    },
-    {
-      "name": "Neuro disruptor",
-      "modifiers": "anti-infantry2+,assault,pistol",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Harlequin’s special weapon",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Troupe Master’s blade",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "1"
-    }
-  ]
 }

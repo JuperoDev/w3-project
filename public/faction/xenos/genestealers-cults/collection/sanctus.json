@@ -1,82 +1,89 @@
 {
-  "parentUnit": "Sanctus",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "A Sanctus is an inescapable assassin who can track by psychic spoor and squirm through the smallest gaps. Its bio-dagger – spawned from the Patriarch’s genesis pools – unleashes the psychic might of the Broodmind with the slightest cut, while the Sanctus’ cult sniper rifle allows it to strike down prey from afar.",
-  "keywords": [
-    "infantry",
-    "character",
-    "great devourer",
-    "sanctus"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cult sniper rifle",
-      "modifiers": [
-        "anti-psyker 2+",
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Infiltrators",
-      "Lone Operative",
-      "Stealth"
+    "parentUnit": "Sanctus",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-    
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A Sanctus is an inescapable assassin who can track by psychic spoor and squirm through the smallest gaps. Its bio-dagger – spawned from the Patriarch’s genesis pools – unleashes the psychic might of the Broodmind with the slightest cut, while the Sanctus’ cult sniper rifle allows it to strike down prey from afar.",
+    "keywords": [
+        "infantry",
+        "character",
+        "great devourer",
+        "sanctus"
     ],
-    "otherAbilities": [{
-     "name":"Psychic Spoor",
-     "description":"At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, that attack has the [IGNORES COVER] and [DEVASTATING WOUNDS] abilities."
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cult sniper rifle",
+            "modifiers": [
+                "anti-psyker 2+",
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Infiltrators",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Psychic Spoor",
+                "description": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, that attack has the [IGNORES COVER] and [DEVASTATING WOUNDS] abilities."
+            },
+            {
+                "name": "Creeping Shadow",
+                "description": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+            }
+        ]
     },
-  {
-    "name":"Creeping Shadow",
-     "description":"This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
-  }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "sanctus",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["Sanctus bio-dagger"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 50
-    }],
-    "wargear": [{"description":"This model’s Sanctus bio-dagger can be replaced with 1 cult sniper rifle and 1 close combat weapon."}],
-
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "sanctus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Sanctus bio-dagger"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        }
+    ],
+    "wargear": [
+        {
+            "description": "This model’s Sanctus bio-dagger can be replaced with 1 cult sniper rifle and 1 close combat weapon."
+        }
+    ],
     "meleeWeapons": [
         {
             "name": "Close combat weapon",
@@ -88,13 +95,16 @@
             "modifiers": []
         },
         {
-          "name": "Sanctus bio-dagger",
-          "attacks": 6,
-          "weapons-skills": 2,
-          "strength": 3,
-          "armor-penetration": 2,
-          "damage": 1,
-          "modifiers": ["anti-infantry 3+","precision"]
-      }
+            "name": "Sanctus bio-dagger",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 3+",
+                "precision"
+            ]
+        }
     ]
 }

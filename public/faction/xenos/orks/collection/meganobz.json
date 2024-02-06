@@ -1,117 +1,117 @@
 {
-  "parentUnit": "Meganobz",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Mega armour comprises massive slabs of metal bashed roughly into shape, and is powered by pistons and sheer brute strength. It is highly resilient and can mount an array of potent weaponry. It is also usually worn to battle by toof-rich Nobz who would be scary enough even were they not each wearing their own Ork-portable bunker.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "mega armour",
-    "meganobz"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Kombi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kustom shoota",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Waaagh!"
+    "parentUnit": "Meganobz",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "kustom shoota; power klaw."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Mega armour comprises massive slabs of metal bashed roughly into shape, and is powered by pistons and sheer brute strength. It is highly resilient and can mount an array of potent weaponry. It is also usually worn to battle by toof-rich Nobz who would be scary enough even were they not each wearing their own Ork-portable bunker.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "mega armour",
+        "meganobz"
+    ],
+    "attributes": {
+        "movement": 5,
+        "toughness": 6,
+        "save": 2,
+        "wounds": 3,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Kombi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kustom shoota",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Waaagh!"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "kustom shoota; power klaw."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their kustom shoota and power klaw replaced with one of the following",
+            "items": [
+                "1 kombi-weapon and 1 power klaw",
+                "1 kombi-weapon and 1 killsaw",
+                "1 kustom shoota and 1 killsaw",
+                "1 killsaw and 1 power klaw",
+                "1 twin killsaw"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Kombi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+            "attacks": "1",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Killsaw",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "4+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": 2
+        },
+        {
+            "name": "Power klaw",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Twin killsaw",
+            "modifiers": "twin-linked",
+            "attacks": "2",
+            "weapons-skills": "4+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their kustom shoota and power klaw replaced with one of the following",
-      "items": [
-        "1 kombi-weapon and 1 power klaw",
-        "1 kombi-weapon and 1 killsaw",
-        "1 kustom shoota and 1 killsaw",
-        "1 killsaw and 1 power klaw",
-        "1 twin killsaw"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Kombi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Killsaw",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "4+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": 2
-    },
-    {
-      "name": "Power klaw",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Twin killsaw",
-      "modifiers": "twin-linked",
-      "attacks": "2",
-      "weapons-skills": "4+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": 2
-    }
-  ]
 }

@@ -1,93 +1,108 @@
 {
-  "parentUnit": "Ravager",
-  "factionKeyword": [
-    "drukhari"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time it makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Ravager gunships fulfil the role of armoured support during Drukhari raids, yet these grav-skiffs also possess the speed and agility to outmanoeuvre the enemy’s lumbering equivalents. They are mobile assassins, mounting enough firepower to gut enemy tanks and eradicate the foe’s elite, before swiftly moving to new hunting grounds.",
-  "keywords": [
-    "vehicle",
-    "kabal",
-    "fly",
-    "aeldari",
-    "ravager"
-  ],
-  "attributes": [{
-    "movement": 14,
-    "toughness": 9,
-    "save": 4,
-    "wounds": 11,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 6
-}],
-  "leader": [],
-  "rangedWeapons": [{
-    "name": "Dark lance",
-    "modifiers": [
-      
+    "parentUnit": "Ravager",
+    "factionKeyword": [
+        "drukhari"
     ],
-    "range": 36,
-    "strength": 12,
-    "attacks": 1,
-    "ballistic-skills": 3,
-    "armor-penetration": 3,
-    "damage": "d6+2",
-    "singleChoice": false
-  },
-  {
-    "name": "Disintegrator cannon",
-    "modifiers": [
-      
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time it makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Ravager gunships fulfil the role of armoured support during Drukhari raids, yet these grav-skiffs also possess the speed and agility to outmanoeuvre the enemy’s lumbering equivalents. They are mobile assassins, mounting enough firepower to gut enemy tanks and eradicate the foe’s elite, before swiftly moving to new hunting grounds.",
+    "keywords": [
+        "vehicle",
+        "kabal",
+        "fly",
+        "aeldari",
+        "ravager"
     ],
-    "range": 36,
-    "strength": 5,
-    "attacks": 3,
-    "ballistic-skills": 3,
-    "armor-penetration": 2,
-    "damage": 2,
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Deep Strike"
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 9,
+            "save": 4,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 6
+        }
     ],
-    "faction": [
-      "Power From Pain"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Dark lance",
+            "modifiers": [],
+            "range": 36,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d6+2",
+            "singleChoice": false
+        },
+        {
+            "name": "Disintegrator cannon",
+            "modifiers": [],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
     ],
-    "otherAbilities": [{"name":
-      "Eradicate the Foe:", "description": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength , re-roll a Hit roll of 1. If a unit has a Starting Strength of 1, this ability only applies if the target has its starting number of wounds."
-    }]
-  },
-  "unitComposition": [
-      {
-          "unitType": "Ravager",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment":["3 dark lances","bladevanes."]
-      }
-  ],
-  "options": [
-      {
-        "count": [1],
-        "points": 115
-      }
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Eradicate the Foe:",
+                "description": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength , re-roll a Hit roll of 1. If a unit has a Starting Strength of 1, this ability only applies if the target has its starting number of wounds."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Ravager",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "3 dark lances",
+                "bladevanes."
+            ]
+        }
     ],
-    "meleeWeapons": [{
-      "name": "Bladevanes",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": ["anti-infantry 3+"]
-    }
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 115
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Bladevanes",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 3+"
+            ]
+        }
     ],
     "additionalParameter": {},
-    "wargear": [{"description":"Any number of this model’s dark lances can each be replaced with 1 disintegrator cannon."}]
+    "wargear": [
+        {
+            "description": "Any number of this model’s dark lances can each be replaced with 1 disintegrator cannon."
+        }
+    ]
 }

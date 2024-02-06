@@ -1,148 +1,152 @@
 {
-  "parentUnit": "Tech-priest Dominus",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Tech-Priests Dominus are the theocratic generals of a forge world’s armies. They lead congregations of warriors in binharic prayer and direct those beneath them with precision strategies. They are masters of machines, as capable of healing damage to their creations as they are at destroying the enemy’s corrupted engines.",
-  "keywords": [
-    "imperium",
-    "infantry",
-    "character",
-    "cult mechanicus",
-    "tech-priest",
-    "dominus"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 2,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Corpuscarii Electro-priests",
-  "Fulgurite Electro-priests",
- "Kataphron Breachers",
-  "Kataphron Destroyers",
-  "Skitarii Rangers",
-  "Skitarii Vanguard"],
-  "rangedWeapons": [
-    {
-      "name": "Eradication ray – dissipated",
-      "modifiers": [
-       
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": "d3",
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Eradication ray – focused",
-      "modifiers": [
-       
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "d3",
-      "ballistic-skills":3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Macrostubber",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 0,
-      "ballistic-skills":3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Phosphor serpenta",
-      "modifiers": [
-        "ignores cover",
-        "pistol"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Volkite blaster",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Tech-priest Dominus",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "macrostubber; volkite blaster; Omnissian axe."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Tech-Priests Dominus are the theocratic generals of a forge world’s armies. They lead congregations of warriors in binharic prayer and direct those beneath them with precision strategies. They are masters of machines, as capable of healing damage to their creations as they are at destroying the enemy’s corrupted engines.",
+    "keywords": [
+        "imperium",
+        "infantry",
+        "character",
+        "cult mechanicus",
+        "tech-priest",
+        "dominus"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Corpuscarii Electro-priests",
+        "Fulgurite Electro-priests",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Eradication ray – dissipated",
+            "modifiers": [],
+            "range": 24,
+            "strength": 6,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Eradication ray – focused",
+            "modifiers": [],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Macrostubber",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 0,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Phosphor serpenta",
+            "modifiers": [
+                "ignores cover",
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Volkite blaster",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "macrostubber; volkite blaster; Omnissian axe."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Tech-Priest Dominus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " macrostubber",
+                "volkite blaster",
+                "Omnissian axe"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s macrostubber can be replaced with 1 phosphor serpenta."
+        },
+        {
+            "description": "This model’s volkite blaster can be replaced with 1 eradication ray. "
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Omnissian axe",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 75
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Tech-Priest Dominus",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-         " macrostubber","volkite blaster", "Omnissian axe"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "This model’s macrostubber can be replaced with 1 phosphor serpenta."
-   },
-   {
-    "description": "This model’s volkite blaster can be replaced with 1 eradication ray. "
-  }
- ],
- "meleeWeapons": [
-   {
-     "name": "Omnissian axe",
-     "attacks": 4,
-     "weapons-skills": 3,
-     "strength": 6,
-     "armor-penetration": 2,
-     "damage": 2,
-     "modifiers": []
-   }
- ]
 }

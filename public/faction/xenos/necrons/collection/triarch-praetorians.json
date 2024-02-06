@@ -1,107 +1,117 @@
 {
-  "parentUnit": "Triarch Praetorians",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians’ gravity displacement packs and combat prowess make them truly deadly.",
-  "keywords": [
-    "infantry",
-    "fly",
-    "triarch praetorians"
-  ],
-  "attributes": [{
-    
-    "movement": 10,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Particle caster",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Triarch Praetorians",
+    "factionKeyword": [
+        "necrons"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Triarch Praetorians fight tirelessly to uphold the ancient dynastic codes of their race. Whether blasting the foe with antimatter particles, impaling them on their flickering voidblades or immolating them with their rods of covenant, the Praetorians’ gravity displacement packs and combat prowess make them truly deadly.",
+    "keywords": [
+        "infantry",
+        "fly",
+        "triarch praetorians"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Particle caster",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "rod of covenant",
+            "modifiers": [],
+            "range": 12,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Relentless Combatants ",
+                "description": "You can re-roll Charge rolls made for this unit, and this unit is eligible to declare a charge in a turn in which it Fell Back ."
+            }
+        ]
     },
-    {
-      "name": "rod of covenant",
-      "modifiers": [
-        
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "All models in this unit can each have their rod of covenant replaced with 1 particle caster and 1 voidblade."
+        }
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "unitComposition": [
+        {
+            "unitType": "Triarch Praetorians",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "rod of covenant"
+            ]
+        }
     ],
-    "otherAbilities": [{"name":
-      "Relentless Combatants ","description": "You can re-roll Charge rolls made for this unit, and this unit is eligible to declare a charge in a turn in which it Fell Back ."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [{"description":"All models in this unit can each have their rod of covenant replaced with 1 particle caster and 1 voidblade."}],
-  "unitComposition": [
-     {
-       "unitType": "Triarch Praetorians",
-       "minQuantity": 5,
-       "maxQuantity": 10,
-       "equipment": ["rod of covenant"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [5],
-       "points": 120
-     },
-     {
-         "count": [10],
-         "points":440
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Rod of covenant",
-         "attacks": 3,
-         "weapons-skills": 3,
-         "strength": 5,
-         "armor-penetration": 2,
-         "damage": 2,
-         "modifiers": []
-       },
-       {
-        "name": "Voidblade",
-        "attacks": 4,
-        "weapons-skills": 3,
-        "strength": 5,
-        "armor-penetration": 2,
-        "damage": 1,
-        "modifiers": []
-      }
-   ]
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 120
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 440
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Rod of covenant",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Voidblade",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

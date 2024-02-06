@@ -1,101 +1,102 @@
 {
-  "parentUnit": "Thousand Sons daemon prince",
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 10,
-      "save": 2,
-      "wounds": 10,
-      "leadership": 6,
-      "objetiveControl": 3,
-      "invulnerableSave": 4
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Hellforged weapons – strike",
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": [],
-      "singleChoice": true
+    "parentUnit": "Thousand Sons daemon prince",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Hellforged weapons – strike",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Hellforged weapons – sweep",
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],
+    "keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Tzeentch",
+        "Daemon",
+        "Daemon Prince"
+    ],
+    "factionKeyword": [
+        "Thousand Sons"
+    ],
+    "wargear": [],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 2"
+        ],
+        "otherAbilities": [
+            {
+                "name": "The Weave of Fate (Psychic)",
+                "description": " Once per battle, at the start of any phase, you can select one friendly RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit within 6'' of this model. Until the end of the phase, weapons equipped by models in that unit have the [PRECISION] ability."
+            },
+            {
+                "name": "Glamour of Tzeentch (Aura, Psychic)",
+                "description": "While a friendly THOUSAND SONS unit is within 6'' of this model, models in that unit have the Stealth ability."
+            }
+        ]
     },
-    {
-      "name": "Hellforged weapons – sweep",
-      "attacks": 14,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [],
-      "singleChoice": true
-    }
-  ],
-  "keywords": [
-    "Monster",
-    "Character",
-    "Chaos",
-    "Tzeentch",
-    "Daemon",
-    "Daemon Prince"
-  ],
-  "factionKeyword": [
-    "Thousand Sons"
-  ],
-  "wargear": [],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "Thousand Sons daemon prince",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "infernal cannon",
+                "hellforged weapons"
+            ]
+        }
     ],
-    "faction": [
-      "Cabal of Sorcerers 2"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 180
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "The Weave of Fate (Psychic)",
-        "description": " Once per battle, at the start of any phase, you can select one friendly RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit within 6'' of this model. Until the end of the phase, weapons equipped by models in that unit have the [PRECISION] ability."
-      },
-      {
-        "name": "Glamour of Tzeentch (Aura, Psychic)",
-        "description": "While a friendly THOUSAND SONS unit is within 6'' of this model, models in that unit have the Stealth ability."
-      }
-    ]
-  },
-  "damaged": {},
-  "unitComposition": [
-    {
-      "unitType": "Thousand Sons daemon prince",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[ "infernal cannon","hellforged weapons"]
-    }
-
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 180
-    }
-  ],
-  "additionalParameter": {},
-  "supremeCommander": false,
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "infernal cannon",
-      "range": 24,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": []
-    }
-  ],
-  "lore":"The Daemon Princes of the Thousand Sons are potent sorcerers and monstrous warriors both, terrifying in their martial might. Moreover, their mere presence bends the weave of fate into forms more fortuitous for their designs, ensuring that the warriors they lead to battle strike their enemies down with unnatural precision."
-  
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "infernal cannon",
+            "range": 24,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "lore": "The Daemon Princes of the Thousand Sons are potent sorcerers and monstrous warriors both, terrifying in their martial might. Moreover, their mere presence bends the weave of fate into forms more fortuitous for their designs, ensuring that the warriors they lead to battle strike their enemies down with unnatural precision."
 }

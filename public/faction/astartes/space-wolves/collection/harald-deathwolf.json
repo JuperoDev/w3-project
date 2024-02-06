@@ -1,103 +1,110 @@
 {
-  "parentUnit": "Harald Deathwolf",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Harald Deathwolf is attuned to the lupine beasts of Fenris as few others are. The lair of his Great Company resounds to their howls, and many of these wolves fight with his warriors. A peerless hunter, Harald tracks his prey with speed and stealth, launching his ferocious strikes from atop his giant Thunderwolf, Icetooth.",
-  "keywords": [
-    "mounted",
-    "character",
-    "epic hero",
-    "grenades",
-    "imperium",
-    "captain",
-    "harald deathwolf"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 7,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 4
-  }],
-  "leader": ["Thunderwolf Cavalry"],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Harald Deathwolf",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Harald Deathwolf is attuned to the lupine beasts of Fenris as few others are. The lair of his Great Company resounds to their howls, and many of these wolves fight with his warriors. A peerless hunter, Harald tracks his prey with speed and stealth, launching his ferocious strikes from atop his giant Thunderwolf, Icetooth.",
+    "keywords": [
+        "mounted",
+        "character",
+        "epic hero",
+        "grenades",
+        "imperium",
+        "captain",
+        "harald deathwolf"
     ],
-    "otherAbilities": [
-      {
-        "name": "Lord of the Wolfkin:",
-        "description": "While this model is leading a unit, each time that unit makes a Charge move , until the end of the turn, crushing teeth and claws equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
-      },
-      {
-        "name": "Mantle of the Troll King:",
-        "description": "Once per phase, when resolving an attack made against this model, after you make a saving throw for this model, you can change the Damage characteristic of that attack to 0."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Crushing teeth and claws",
-      "modifiers": ["extra attacks"],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 7,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Thunderwolf Cavalry"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Lord of the Wolfkin:",
+                "description": "While this model is leading a unit, each time that unit makes a Charge move , until the end of the turn, crushing teeth and claws equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+            },
+            {
+                "name": "Mantle of the Troll King:",
+                "description": "Once per phase, when resolving an attack made against this model, after you make a saving throw for this model, you can change the Damage characteristic of that attack to 0."
+            }
+        ]
     },
-    {
-      "name": "Glacius",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 85
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Harald Deathwolf – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "bolt pistol", "crushing teeth and claws", "Glacius"
-          ]
-      }
-  ],
-  "additionalParameter": {}
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Crushing teeth and claws",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Glacius",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Harald Deathwolf – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "crushing teeth and claws",
+                "Glacius"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

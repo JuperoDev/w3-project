@@ -1,80 +1,85 @@
 {
-  "parentUnit": "Primus",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Occupying a role somewhere between guerrilla general and shadowy symbol of resistance, the Primus is a Genestealer Cult’s ultimate military commander. Besides being deadly combatants in their own right, their mastery of insurgent tactics transforms their followers from a rebellious mob into a lethal military machine.",
-  "keywords": [
-    "infantry",
-    "character",
-    "great devourer",
-    "primus"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Scoped needle pistol",
-      "modifiers": [
-        "anti-infantry 2+",
-        "ignores cover",
-        "pistol"
-      ],
-      "range": 18,
-      "strength": 1,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": "d3",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Primus",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-     
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Occupying a role somewhere between guerrilla general and shadowy symbol of resistance, the Primus is a Genestealer Cult’s ultimate military commander. Besides being deadly combatants in their own right, their mastery of insurgent tactics transforms their followers from a rebellious mob into a lethal military machine.",
+    "keywords": [
+        "infantry",
+        "character",
+        "great devourer",
+        "primus"
     ],
-    "otherAbilities": [{
-      "name":"Cult Demagogue",
-      "description":"While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Scoped needle pistol",
+            "modifiers": [
+                "anti-infantry 2+",
+                "ignores cover",
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": "d3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Cult Demagogue",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+            },
+            {
+                "name": "Decoys and Misdirection",
+                "description": "If your army includes one or more models with this ability, after both players have deployed their armies, select up to three GENESTEALER CULTS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+            }
+        ]
     },
-    {
-      "name":"Decoys and Misdirection",
-      "description":"If your army includes one or more models with this ability, after both players have deployed their armies, select up to three GENESTEALER CULTS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
-      }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "primus",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [" scoped needle pistol", "cult bonesword","toxin injector claw"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "primus",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " scoped needle pistol",
+                "cult bonesword",
+                "toxin injector claw"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
     "wargear": [],
-
     "meleeWeapons": [
         {
             "name": "Cult bonesword",
@@ -86,13 +91,16 @@
             "modifiers": []
         },
         {
-          "name": "Toxin injector claw",
-          "attacks": 2,
-          "weapons-skills": 2,
-          "strength": 2,
-          "armor-penetration": 0,
-          "damage": "d3",
-          "modifiers": ["anti-infantry 2+","extra attacks"]
-      }
+            "name": "Toxin injector claw",
+            "attacks": 2,
+            "weapons-skills": 2,
+            "strength": 2,
+            "armor-penetration": 0,
+            "damage": "d3",
+            "modifiers": [
+                "anti-infantry 2+",
+                "extra attacks"
+            ]
+        }
     ]
 }

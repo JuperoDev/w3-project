@@ -1,197 +1,202 @@
 {
-  "parentUnit": "Bjorn The Fell-handed",
-  "factionKeywords": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Most ancient of all Space Marines and last of the Company of Russ, Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s sarcophagus. The Space Wolves revere Bjorn as a living link to their deepest past, waking him only in times of dire need, and he still fights as furiously as he did at Russ’ side.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "character",
-    "epic hero",
-    "smoke",
-    "imperium",
-    "dreadnought",
-    "bjorn the fell-handed"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 9,
-    "save": 2,
-    "wounds": 8,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Assault cannon",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy plasma cannon - standard",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "attacks": "D3",
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Heavy plasma cannon - supercharge",
-      "modifiers": [
-        "blast",
-        "hazardous"
-      ],
-      "range": 36,
-      "attacks": "D3",
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": 3,
-      "singleChoice": true
-    },
-    {
-      "name": "Helfrost cannon - dispersed",
-      "modifiers": [
-        "torrent"
-      ],
-      "range": 12,
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Helfrost cannon - focused",
-      "modifiers": [
-        
-      ],
-      "range": 12,
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 9,
-      "armor-penetration": 3,
-      "damage": 5,
-      "singleChoice": true
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 18,
-      "attacks": 2,
-      "weapons-skills": 2,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6",
-      "singleChoice": false
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 12,
-      "damage": "d6+1",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Feel No Pain 5+"
+    "parentUnit": "Bjorn The Fell-handed",
+    "factionKeywords": [
+        "adeptus astartes",
+        "space wolves"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Most ancient of all Space Marines and last of the Company of Russ, Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s sarcophagus. The Space Wolves revere Bjorn as a living link to their deepest past, waking him only in times of dire need, and he still fights as furiously as he did at Russ’ side.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "character",
+        "epic hero",
+        "smoke",
+        "imperium",
+        "dreadnought",
+        "bjorn the fell-handed"
     ],
-    "otherAbilities": [
-      {
-        "name": "Legendary Tenacity:",
-        "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
-      },
-      {
-        "name": "Ancient Tactician:",
-        "description": "Once per battle, after your opponent uses a Stratagem , this model can use this ability. If it does, until the end of the battle, increase that Stratagem’s cost to your opponent by 1CP."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s assault cannon can be replaced with one of the following",
-      "items": [
-        "heavy plasma cannon",
-        "helfrost cannon",
-        "multi-melta",
-        "twin lascannon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Trueclaw",
-      "modifiers": ["lethal hits"],
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 12,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Bjorn the Fell-Handed– EPIC HERO",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[" assault cannon","heavy flamer","Trueclaw."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 180
-    }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 8,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Assault cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "attacks": 6,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "attacks": "D6",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Heavy plasma cannon - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "attacks": "D3",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Heavy plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 36,
+            "attacks": "D3",
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": true,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Helfrost cannon - dispersed",
+            "modifiers": [
+                "torrent"
+            ],
+            "range": 12,
+            "attacks": "D6",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": true,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Helfrost cannon - focused",
+            "modifiers": [],
+            "range": 12,
+            "attacks": 1,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 5,
+            "singleChoice": true,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "attacks": 2,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 12,
+            "damage": "d6+1",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Feel No Pain 5+"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Legendary Tenacity:",
+                "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+            },
+            {
+                "name": "Ancient Tactician:",
+                "description": "Once per battle, after your opponent uses a Stratagem , this model can use this ability. If it does, until the end of the battle, increase that Stratagem’s cost to your opponent by 1CP."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s assault cannon can be replaced with one of the following",
+            "items": [
+                "heavy plasma cannon",
+                "helfrost cannon",
+                "multi-melta",
+                "twin lascannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Trueclaw",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 12,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Bjorn the Fell-Handed– EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " assault cannon",
+                "heavy flamer",
+                "Trueclaw."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 180
+        }
+    ],
+    "additionalParameter": {}
 }

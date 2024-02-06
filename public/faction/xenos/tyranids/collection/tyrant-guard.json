@@ -40,9 +40,7 @@
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2,
-            "modifiers": [
-                
-            ]
+            "modifiers": []
         },
         {
             "name": "Scything talons and rending claws ",
@@ -51,21 +49,22 @@
             "strength": 5,
             "armor-penetration": 1,
             "damage": 1,
-            "modifiers": [
-               
-            ]
+            "modifiers": []
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [3],
-        "points": 95
-      },
-      {
-          "count": [6],
-          "points": 190
+        {
+            "count": [
+                3
+            ],
+            "points": 95
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 190
         }
     ],
     "wargear": [
@@ -75,32 +74,32 @@
                 "1 bone cleaver, lash whip and rending claws",
                 "1 crushing claws and rending claws"
             ]
-        }],
-        "unitComposition": [
-            {
-                "unitType": "tyrant guard",
-                "minQuantity": 3,
-                "maxQuantity": 6,
-                "equipment": [
-                  "scything talons and rending claws"
-                ]
-            }
-        ],
-        "abilities": {
-            "core": [
-                "Deadly Demise 1"
-            ],
-            "faction": [
-                "synapse"
-            ],
-            "otherAbilities": [
-                {
-                    "name": "Guardian Organism",
-                    "description": "While a CHARACTER model is leading this unit, that CHARACTER has the Feel No Pain 5+ ability."
-                }
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "tyrant guard",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                "scything talons and rending claws"
             ]
-        },
-
-        "additionalParameter": {},
-        "damaged": {}
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Guardian Organism",
+                "description": "While a CHARACTER model is leading this unit, that CHARACTER has the Feel No Pain 5+ ability."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {}
 }

@@ -1,336 +1,336 @@
 {
-  "parentUnit": "crusader squad",
-  "attributes": [
-    {
-    "name": "neophytes",
-    "movement": 6,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  },
-  {
-    "name": "other units",
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }
-],
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "imperium",
-    "crusader squad"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "astartes shotgun",
-      "range": 18,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "assault"
-      ]
-    },
-    {
-      "name": "bolt pistol",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "boltgun",
-      "range": 24,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "flamer",
-      "range": 12,
-      "attacks": "d6",
-      "ballistic-skills": "N/A",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ]
-    },
-    {
-      "name": "grav-gun",
-      "range": 18,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [
-        "anti-vehicle 2"
-      ]
-    },
-    {
-      "name": "meltagun",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "modifiers": [
-        "melta 2"
-      ]
-    },
-    {
-      "name": "plasmagun - standard",
-      "range": 24,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 47,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": [
-        "rapid fire 1"
-      ]
-    },
-    {
-      "name": "plasmagun - supercharge",
-      "range": 24,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [
-        "hazarous",
-        "rapid fire 1"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "astartes chainsword",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "combat knife",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "close combat weapon",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "power fist",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": []
-    },
-    {
-      "name": "power weapon",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "thunder hammer",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": [
-        "devastating wounds"
-      ]
-    },
-    {
-      "name": "twin lighting claws",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": [
-        "twin-linked"
-      ]
-    }
-  ],
-  "factionKeyword": [
-    "Adeptus Astartes",
-    "Black Templars"
-  ],
-  "wargear": [
-    {
-      "description": "The Sword Brother’s bolt pistol and boltgun can be replaced with 1 twin lightning claws or two different weapons from the following list",
-      "items": [
-        "1 Astartes chainsword",
-        "1 bolt pistol",
-        "1 boltgun",
-        "1 combi-weapon",
-        "1 grav-pistol",
-        "1 hand flamer",
-        "1 inferno pistol",
-        "1 plasma pistol",
-        "1 power fist",
-        "1 power weapon",
-        "1 storm bolter",
-        "1 thunder hammer"
-      ]
-    },
-    {
-      "description": "Any number of Neophytes can each have their boltgun replaced with one of the following: ",
-      "items": [
-        "1 Astartes chainsword",
-        "1 bolt pistol",
-        "1 boltgun",
-        "1 combi-weapon",
-        "1 grav-pistol",
-        "1 hand flamer",
-        "1 inferno pistol",
-        "1 plasma pistol",
-        "1 power fist",
-        "1 power weapon",
-        "1 storm bolter",
-        "1 thunder hammer"
-      ]
-    },
-    {
-      "description": "Any number of Initiates can each have their boltgun replaced with 1 Astartes chainsword.",
-      "items": [
-        ""
-      ]
-    },
-    {
-      "description": "1 Initiate’s boltgun can be replaced with one of the following:",
-      "items": [
-        "1 flamer",
-        "1 plasma gun",
-        "1 meltagun",
-        "1 grav-gun"
-      ]
-    },
-    {
-      "description": "1 Initiate’s boltgun can be replaced with one of the following",
-      "items": [
-        "1 power weapon",
-        "1 power fist",
-        "1 heavy bolter",
-        "1 heavy flamer",
-        "1 grav-cannon",
-        "1 lascannon",
-        "1 missile launcher",
-        "1 multi-melta",
-        "1 plasma cannon"
-      ]
-    }
-  ],
-  "abilities": {
-    "core": [],
-    "faction": [
-      "synapse"
+    "parentUnit": "crusader squad",
+    "attributes": [
+        {
+            "name": "neophytes",
+            "movement": 6,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        },
+        {
+            "name": "other units",
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
     ],
-    "misc": [
-      [
-        "Skulking Horrors",
-        "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."
-      ]
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "imperium",
+        "crusader squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "astartes shotgun",
+            "range": 18,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "assault"
+            ]
+        },
+        {
+            "name": "bolt pistol",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "boltgun",
+            "range": 24,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "flamer",
+            "range": 12,
+            "attacks": "d6",
+            "ballistic-skills": "N/A",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ]
+        },
+        {
+            "name": "grav-gun",
+            "range": 18,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-vehicle 2"
+            ]
+        },
+        {
+            "name": "meltagun",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "modifiers": [
+                "melta 2"
+            ]
+        },
+        {
+            "name": "plasmagun - standard",
+            "range": 24,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 47,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "rapid fire 1"
+            ]
+        },
+        {
+            "name": "plasmagun - supercharge",
+            "range": 24,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "hazarous",
+                "rapid fire 1"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "astartes chainsword",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "combat knife",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "close combat weapon",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "power fist",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "power weapon",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "thunder hammer",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "devastating wounds"
+            ]
+        },
+        {
+            "name": "twin lighting claws",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "twin-linked"
+            ]
+        }
+    ],
+    "factionKeyword": [
+        "Adeptus Astartes",
+        "Black Templars"
+    ],
+    "wargear": [
+        {
+            "description": "The Sword Brother’s bolt pistol and boltgun can be replaced with 1 twin lightning claws or two different weapons from the following list",
+            "items": [
+                "1 Astartes chainsword",
+                "1 bolt pistol",
+                "1 boltgun",
+                "1 combi-weapon",
+                "1 grav-pistol",
+                "1 hand flamer",
+                "1 inferno pistol",
+                "1 plasma pistol",
+                "1 power fist",
+                "1 power weapon",
+                "1 storm bolter",
+                "1 thunder hammer"
+            ]
+        },
+        {
+            "description": "Any number of Neophytes can each have their boltgun replaced with one of the following: ",
+            "items": [
+                "1 Astartes chainsword",
+                "1 bolt pistol",
+                "1 boltgun",
+                "1 combi-weapon",
+                "1 grav-pistol",
+                "1 hand flamer",
+                "1 inferno pistol",
+                "1 plasma pistol",
+                "1 power fist",
+                "1 power weapon",
+                "1 storm bolter",
+                "1 thunder hammer"
+            ]
+        },
+        {
+            "description": "Any number of Initiates can each have their boltgun replaced with 1 Astartes chainsword.",
+            "items": [
+                ""
+            ]
+        },
+        {
+            "description": "1 Initiate’s boltgun can be replaced with one of the following:",
+            "items": [
+                "1 flamer",
+                "1 plasma gun",
+                "1 meltagun",
+                "1 grav-gun"
+            ]
+        },
+        {
+            "description": "1 Initiate’s boltgun can be replaced with one of the following",
+            "items": [
+                "1 power weapon",
+                "1 power fist",
+                "1 heavy bolter",
+                "1 heavy flamer",
+                "1 grav-cannon",
+                "1 lascannon",
+                "1 missile launcher",
+                "1 multi-melta",
+                "1 plasma cannon"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "synapse"
+        ],
+        "misc": [
+            [
+                "Skulking Horrors",
+                "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6''."
+            ]
+        ]
+    },
+    "leader": "",
+    "unitComposition": [
+        {
+            "unitType": "sword brother",
+            "minQuantity": 1,
+            "maxQuantity": 1
+        },
+        {
+            "unitType": "initiates",
+            "minQuantity": 4,
+            "maxQuantity": 9
+        },
+        {
+            "unitType": "neophytes",
+            "minQuantity": 0,
+            "maxQuantity": 10
+        }
+    ],
+    "equipment": [
+        "power sword",
+        "bolter",
+        "fragGrenade",
+        "krakGrenade"
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4,
+                0
+            ],
+            "points": 75
+        },
+        {
+            "count": [
+                1,
+                9,
+                0
+            ],
+            "points": 145
+        },
+        {
+            "count": [
+                1,
+                4,
+                5
+            ],
+            "points": 145
+        },
+        {
+            "count": [
+                1,
+                9,
+                10
+            ],
+            "points": 290
+        }
     ]
-  },
-  "leader": "",
-  "unitComposition": [
-    {
-      "unitType": "sword brother",
-      "minQuantity": 1,
-      "maxQuantity": 1
-    },
-    {
-      "unitType": "initiates",
-      "minQuantity": 4,
-      "maxQuantity": 9
-    },
-    {
-      "unitType": "neophytes",
-      "minQuantity": 0,
-      "maxQuantity": 10
-    }
-  ],
-  "equipment": [
-    "power sword",
-    "bolter",
-    "fragGrenade",
-    "krakGrenade"
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4,
-        0
-      ],
-      "points": 75
-    },
-    {
-      "count": [
-        1,
-        9,
-        0
-      ],
-      "points": 145
-    },
-    {
-      "count": [
-        1,
-        4,
-        5
-      ],
-      "points": 145
-    },
-    {
-      "count": [
-        1,
-        9,
-        10
-      ],
-      "points": 290
-    }
-  ]
 }

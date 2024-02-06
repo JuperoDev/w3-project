@@ -1,187 +1,189 @@
 {
-  "parentUnit": "Scarab Occult Terminators",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Scarab Occult fight with all the merciless skill they did when they were Magnus’ living bodyguards, often striking into the heart of the foe via sorcerous teleportation. Wielding vicious ritual blades based on the ancient Prosperine khopesh, they cleave through those victims not laid low by their salvoes of lethal firepower.",
-  "keywords": [
-    "keywords – all models: infantry",
-    "terminator",
-    "chaos",
-    "tzeentch",
-    "scarab occult terminatorsscarab occult sorcerer: psyker"
-  ],
-  "attributes": [
-    {
-      "movement": 5,
-      "toughness": 5,
-      "save": 2,
-      "wounds": 3,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy warpflamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hellfyre missile rack",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Inferno combi-bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Soulreaper cannon",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Warpsmite",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "pistol",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Scarab Occult Terminators",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-      "Cabal of Sorcerers 1* (Sorcerer Model Only)"
-      
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Scarab Occult fight with all the merciless skill they did when they were Magnus’ living bodyguards, often striking into the heart of the foe via sorcerous teleportation. Wielding vicious ritual blades based on the ancient Prosperine khopesh, they cleave through those victims not laid low by their salvoes of lethal firepower.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "terminator",
+        "chaos",
+        "tzeentch",
+        "scarab occult terminatorsscarab occult sorcerer: psyker"
     ],
-    "otherAbilities": [{"name":
-      "Implacable Guardians:", "description": "While this unit contains one or more PSYKER models, each time an attack is made against this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll ."
-    }]
-  },
-  "wargear": [
-    {
-      "description": "The Scarab Occult Sorcerer’s inferno combi-bolter can be replaced with 1 Prosperine khopesh."
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy warpflamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hellfyre missile rack",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno combi-bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Soulreaper cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Warpsmite",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "pistol",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 1* (Sorcerer Model Only)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Implacable Guardians:",
+                "description": "While this unit contains one or more PSYKER models, each time an attack is made against this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll ."
+            }
+        ]
     },
-    {
-      "description": "For every 5 models in this unit, 1 Scarab Occult Terminator’s inferno combi-bolter can be replaced with one of the following:",
-      "items": [
-        "1 heavy warpflamer",
-        "1 soulreaper cannon"
-      ]
-    },
-    {
-      "description": "For every 5 models in this unit, 1 Scarab Occult Terminator can be equipped with 1 hellfyre missile rack."
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Scarab Occult Sorcerer",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "inferno combi-bolter",
-        "Warpsmite; force weapon"
-      ]
-    },
-    {
-      "unitType": "Scarab Occult Terminators",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "inferno combi-bolter",
-        "Prosperine khopesh"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 215
-    },
-    {
-      "count": [
-        1,
-        19
-      ],
-      "points": 430
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Force Weapon",
-      "modifiers": [
-        "psychic"
-      ],
-      "strength": 6,
-      "attacks": 4,
-      "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Prosperine khopesh",
-      "modifiers": [],
-      "strength": 5,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "The Scarab Occult Sorcerer’s inferno combi-bolter can be replaced with 1 Prosperine khopesh."
+        },
+        {
+            "description": "For every 5 models in this unit, 1 Scarab Occult Terminator’s inferno combi-bolter can be replaced with one of the following:",
+            "items": [
+                "1 heavy warpflamer",
+                "1 soulreaper cannon"
+            ]
+        },
+        {
+            "description": "For every 5 models in this unit, 1 Scarab Occult Terminator can be equipped with 1 hellfyre missile rack."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Scarab Occult Sorcerer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "inferno combi-bolter",
+                "Warpsmite; force weapon"
+            ]
+        },
+        {
+            "unitType": "Scarab Occult Terminators",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "inferno combi-bolter",
+                "Prosperine khopesh"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 215
+        },
+        {
+            "count": [
+                1,
+                19
+            ],
+            "points": 430
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Force Weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "strength": 6,
+            "attacks": 4,
+            "weapons-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Prosperine khopesh",
+            "modifiers": [],
+            "strength": 5,
+            "attacks": 3,
+            "weapons-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "additionalParameter": {}
 }

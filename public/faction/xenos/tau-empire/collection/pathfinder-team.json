@@ -1,100 +1,99 @@
 {
-  "parentUnit": "Pathfinder Team",
-  "factionKeyword": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Pathfinder Teams wreak havoc behind enemy lines. Their firepower is formidable, especially when sniping with potent rail rifles, and their drones can optimise the team’s pulse fire or drive the enemy back with gravitic waves. Yet their deadliest ability is painting priority targets with massed markerlights for heavier T’au units to annihilate.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "markerlight",
-    "pathfinder team"
-  ],
-  "attributes": [],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Ion rifle - standard",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 30,
-      "strength": 7,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Ion rifle - overcharge",
-      "modifiers": [
-        "hazardous",
-        "heavy"
-      ],
-      "range": 30,
-      "strength": 8,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Rail rifle",
-      "modifiers": [
-        "devastating wounds",
-        "heavy"
-      ],
-      "range": 30,
-      "strength": 10,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Semi-automatic grenade launcher - EMP",
-      "modifiers": [
-        "anti-vehicle 4+",
-        "devastating wounds"
-      ],
-      "range": 18,
-      "strength": 3,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Scouts 7\""
+    "parentUnit": "Pathfinder Team",
+    "factionKeyword": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Pathfinder Teams wreak havoc behind enemy lines. Their firepower is formidable, especially when sniping with potent rail rifles, and their drones can optimise the team’s pulse fire or drive the enemy back with gravitic waves. Yet their deadliest ability is painting priority targets with massed markerlights for heavier T’au units to annihilate.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "markerlight",
+        "pathfinder team"
     ],
-    "otherAbilities": {
-      "Target Uploaded:": "Once per turn, when using the Greater Good ability, you can select this unit to be an Observer unit for a second time. When doing so, you can change which enemy unit is this unit’s Spotted unit ."
-    }
-  },
-
-  "additionalParameter": {}
+    "attributes": [],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Ion rifle - standard",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 7,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Ion rifle - overcharge",
+            "modifiers": [
+                "hazardous",
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 8,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Rail rifle",
+            "modifiers": [
+                "devastating wounds",
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 10,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Semi-automatic grenade launcher - EMP",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds"
+            ],
+            "range": 18,
+            "strength": 3,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 7\""
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": {
+            "Target Uploaded:": "Once per turn, when using the Greater Good ability, you can select this unit to be an Observer unit for a second time. When doing so, you can change which enemy unit is this unit’s Spotted unit ."
+        }
+    },
+    "additionalParameter": {}
 }

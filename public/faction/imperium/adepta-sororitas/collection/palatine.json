@@ -1,129 +1,129 @@
 {
-  "parentUnit": "palatine",
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 3,
-      "save": 3,
-      "wounds": 3,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Palatines are highly capable and experienced commanders of Adepta Sororitas Missions. Unshakeable of faith and purpose, they act as excellent examples to the Battle Sisters that follow them. This makes them a powerful force on the battlefield, inspiring zealous warriors to victory.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "palatine"
-  ],
-  "leader": [
-    "battle sisters squad",
-    "celestian sacresants",
-    "dominion squad",
-    "sisters novitiate squad"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader",
-      "Scouts 6\""
+    "parentUnit": "palatine",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "factionKeyword": [
+        "adepta sororitas"
     ],
-    "otherAbilities": [
-      {
-        "name": "Fury of the Righteous:",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
-      },
-      {
-        "Rapturous Blows:": "Each time this model’s unit is selected to fight, you can discard one Miracle dice . If you do, then until the end of the phase, each time a melee attack made by this model scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Palatines are highly capable and experienced commanders of Adepta Sororitas Missions. Unshakeable of faith and purpose, they act as excellent examples to the Battle Sisters that follow them. This makes them a powerful force on the battlefield, inspiring zealous warriors to victory.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "palatine"
+    ],
+    "leader": [
+        "battle sisters squad",
+        "celestian sacresants",
+        "dominion squad",
+        "sisters novitiate squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader",
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Fury of the Righteous:",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "Rapturous Blows:": "Each time this model’s unit is selected to fight, you can discard one Miracle dice . If you do, then until the end of the phase, each time a melee attack made by this model scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Palatine blade",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {
+            "description": "This model’s bolt pistol can be replaced with 1 plasma pistol."
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Palatine",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Palatine blade."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        }
     ]
-  },
-  "meleeWeapons":[
-    {
-      "name": "Palatine blade",
-      "attacks": 4,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": []
-    }
-  ],
-  "wargear": [
-    {
-      "description": "This model’s bolt pistol can be replaced with 1 plasma pistol."
-      
-    }
-  ],
-
-  "additionalParameter": {
-    
-  },
-  "unitComposition": [
-     {
-       "unitType": "Palatine",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["bolt pistol","Palatine blade."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 50
-     } 
-   ]
 }

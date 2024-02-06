@@ -1,140 +1,140 @@
 {
-  "parentUnit": "Thousand Sons Sorcerer In Terminator Armour",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Clad in hulking Terminator plate, a Sorcerer of the Thousand Sons can shrug off even the punishing fire of anti-tank weaponry. So protected, they are free to unleash their mutative magicks with impunity, leading offensives into even the most heavily defended enemy strongpoints and laying low any who bar their path.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "terminator",
-    "chaos",
-    "tzeentch",
-    "sorcerer"
-  ],
-  "attributes": [],
-  "leader": [
-    "scarab occult terminators"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Coruscating Flames",
-      "modifiers": [
-        "anti-monster 4+",
-        "anti-vehicle 4+",
-        "devastating wounds",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Inferno combi-bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Inferno combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Thousand Sons Sorcerer In Terminator Armour",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-      "Cabal of Sorcerers 2"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Clad in hulking Terminator plate, a Sorcerer of the Thousand Sons can shrug off even the punishing fire of anti-tank weaponry. So protected, they are free to unleash their mutative magicks with impunity, leading offensives into even the most heavily defended enemy strongpoints and laying low any who bar their path.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "terminator",
+        "chaos",
+        "tzeentch",
+        "sorcerer"
     ],
-    "otherAbilities": [
-      {
-        "name": "Empyric Guidance (Psychic):",
-        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
-      },
-      {
-        "name": "Marked by Fate (Psychic)",
-        "description": "In your Shooting phase, you can select one enemy unit within 18'' of and visible to this model. Until the end of the turn, each time a friendly THOUSAND SONS model makes an attack that targets that unit, re-roll a Hit roll of 1."
-      }
+    "attributes": [],
+    "leader": [
+        "scarab occult terminators"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Coruscating Flames",
+            "modifiers": [
+                "anti-monster 4+",
+                "anti-vehicle 4+",
+                "devastating wounds",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno combi-bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 2"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Empyric Guidance (Psychic):",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Marked by Fate (Psychic)",
+                "description": "In your Shooting phase, you can select one enemy unit within 18'' of and visible to this model. Until the end of the turn, each time a friendly THOUSAND SONS model makes an attack that targets that unit, re-roll a Hit roll of 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s inferno bolt pistol can be replaced with one of the following:",
+            "items": [
+                " 1 inferno combi-weapon",
+                "1 Prosperine khopesh"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "meleeWeapons": [
+        {
+            "name": "Force Weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "strength": 6,
+            "attacks": 5,
+            "weapons-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Prosperine khopesh",
+            "modifiers": [],
+            "strength": 5,
+            "attacks": 4,
+            "weapons-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Thousand Sons Sorcerer in Terminator Armour",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Coruscating Flames",
+                "inferno combi-bolter",
+                "force weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 115
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s inferno bolt pistol can be replaced with one of the following:",
-      "items": [
-        " 1 inferno combi-weapon",
-        "1 Prosperine khopesh"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "meleeWeapons": [
-    {
-      "name": "Force Weapon",
-      "modifiers": [
-        "psychic"
-      ],
-      "strength": 6,
-      "attacks": 5,
-      "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Prosperine khopesh",
-      "modifiers": [],
-      "strength": 5,
-      "attacks": 4,
-      "weapons-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Thousand Sons Sorcerer in Terminator Armour",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Coruscating Flames",
-        "inferno combi-bolter",
-        "force weapon."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 115
-    }
-  ]
 }

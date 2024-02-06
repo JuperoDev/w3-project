@@ -1,233 +1,241 @@
 {
-  "parentUnit": "Wolf Guard Pack Leader",
-  "factionKeyword": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Wolf Guard of proven leadership ability and bellicose charisma may be assigned to lead packs of battle-brothers. These warriors’ extensive battlefield wisdom and saga-worthy combat prowess are inspirational to the Space Wolves under their charge, and fighting alongside them is seen as a great honour.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "pack leader",
-    "wolf guard pack leader"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": ["Blood Claws",
- "Grey Hunters",
- "Long Fangs"],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Master-crafted boltgun",
-      "modifiers": [
-        
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Wolf Guard Pack Leader",
+    "factionKeyword": [
+        "adeptus astartes",
+        "space wolves"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wolf Guard of proven leadership ability and bellicose charisma may be assigned to lead packs of battle-brothers. These warriors’ extensive battlefield wisdom and saga-worthy combat prowess are inspirational to the Space Wolves under their charge, and fighting alongside them is seen as a great honour.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "pack leader",
+        "wolf guard pack leader"
     ],
-    "otherAbilities": [
-      {
-        "name": "Inspiring Leader:",
-        "description": "While this model is leading a unit, once per battle, when a Battle-shock test is taken for that unit, you can re-roll that test."
-      },
-      {
-        "name": "Pack Leader:",
-        "description": "This model cannot be your Warlord and cannot be given Enhancements ."
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Blood Claws",
+        "Grey Hunters",
+        "Long Fangs"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Master-crafted boltgun",
+            "modifiers": [],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Inspiring Leader:",
+                "description": "While this model is leading a unit, once per battle, when a Battle-shock test is taken for that unit, you can re-roll that test."
+            },
+            {
+                "name": "Pack Leader:",
+                "description": "This model cannot be your Warlord and cannot be given Enhancements ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s bolt pistol and boltgun can be replaced with 1 twin lightning claws.",
+            "items": []
+        },
+        {
+            "description": "This model’s bolt pistol and boltgun can be replaced with two different weapons from the following list",
+            "items": [
+                "1 bolt pistol",
+                "1 boltgun",
+                "1 combi-weapon",
+                "1 plasma pistol",
+                "1 storm bolter",
+                "1 Astartes chainsword",
+                "1 power fist",
+                "1 power weapon",
+                "1 thunder hammer",
+                "1 storm shield"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Thunder hammer",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Twin lightning claws",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 30
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Wolf Guard Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "boltgun",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Storm Shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s bolt pistol and boltgun can be replaced with 1 twin lightning claws.",
-      "items": []
-    },
-    {
-      "description": "This model’s bolt pistol and boltgun can be replaced with two different weapons from the following list",
-      "items": [
-        "1 bolt pistol",
-        "1 boltgun",
-        "1 combi-weapon",
-        "1 plasma pistol",
-        "1 storm bolter",
-        "1 Astartes chainsword",
-        "1 power fist",
-        "1 power weapon",
-        "1 thunder hammer",
-        "1 storm shield"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Astartes chainsword",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    },
-    {
-      "name": "Thunder hammer",
-      "modifiers": ["devastating wounds"],
-      "attacks": 2,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Twin lightning claws",
-      "modifiers": ["twin-linked"],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 30
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Wolf Guard Pack Leader",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-           "bolt pistol", "boltgun", "close combat weapon" 
-          ]
-      }
-  ],
-  "additionalParameter": {},
-  "warGearAbilities": [
-    {
-      "wargear": "Storm Shield",
-      "ability": "The bearer has a 4+ invulnerable save."
-    }
-  ]
 }

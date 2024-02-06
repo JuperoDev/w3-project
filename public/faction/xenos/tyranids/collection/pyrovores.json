@@ -1,14 +1,16 @@
 {
     "parentUnit": "pyrovores",
-    "attributes": [{
-        "movement": 5,
-        "toughness": 6,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Pyrovores exist to predigest biomass. The acids that drip from their maws are so corrosive they can melt adamantine. Meanwhile, their flame-spewing dorsal organisms can engulf entire squads of prey in roiling chemical fire. Even killing these bioforms is perilous, for their volatile innards can detonate upon death. ",
     "factionKeyword": [
@@ -19,7 +21,7 @@
         "battleline",
         "pyrovores"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Chitin-barbed limbs",
@@ -32,20 +34,25 @@
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [1],
-        "points": 30
-      },
-      {
-          "count": [2],
-          "points": 60
+        {
+            "count": [
+                1
+            ],
+            "points": 30
         },
         {
-            "count": [3],
+            "count": [
+                2
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                3
+            ],
             "points": 90
-          }
+        }
     ],
     "unitComposition": [
         {
@@ -53,36 +60,41 @@
             "minQuantity": 1,
             "maxQuantity": 3,
             "equipment": [
-              "flamespurt",
-              "chitin-barbed limbs"
+                "flamespurt",
+                "chitin-barbed limbs"
             ]
         }
     ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
-    ],
-    "faction": [
-      "Synapse"
-    ],
-    "otherAbilities": [{"name":
-      "Burning Spray:","description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover ."
-    }]
-  },
-
-  "additionalParameter": {},
-  "damaged": {} ,
-  "rangedWeapons": [
-    {
-      "name": "flamespurt",
-      "range": 12,
-      "attacks": "d6+1",
-      "ballistic-skills": "n/a",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [
-        "ignores cover", "torrent", "twin-linked"
-      ]}]
-    
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Burning Spray:",
+                "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {},
+    "rangedWeapons": [
+        {
+            "name": "flamespurt",
+            "range": 12,
+            "attacks": "d6+1",
+            "ballistic-skills": "n/a",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ]
+        }
+    ]
 }

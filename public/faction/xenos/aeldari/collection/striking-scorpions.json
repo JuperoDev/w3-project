@@ -1,115 +1,115 @@
 {
-  "parentUnit": "Striking Scorpions",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Striking Scorpions are the stealthiest Aspect, becoming one with the shadows to creep up on the enemy before falling upon them with ruthless intent. They can wait for days without motion before striking with the force of a lightning bolt, launching hails of mandiblaster fire and delivering flurries of blows with their Scorpion chainswords.",
-  "keywords": [
-    "infantry",
-    "striking scorpions"
-  ],
-  "attributes": {
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 3,
-    "wounds": 1,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Scorpion’s claw",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Striking Scorpions",
+    "factionKeywords": [
+        "aeldari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Striking Scorpions are the stealthiest Aspect, becoming one with the shadows to creep up on the enemy before falling upon them with ruthless intent. They can wait for days without motion before striking with the force of a lightning bolt, launching hails of mandiblaster fire and delivering flurries of blows with their Scorpion chainswords.",
+    "keywords": [
+        "infantry",
+        "striking scorpions"
+    ],
+    "attributes": {
+        "movement": 7,
+        "toughness": 3,
+        "salvation": 3,
+        "wounds": 1,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 5
     },
-    {
-      "name": "Shuriken pistol",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Scorpion’s claw",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken pistol",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "faction": [
-      "Strands of Fate"
+    "abilities": {
+        "core": [
+            "Infiltrators"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Mandiblasters:",
+                "description": "Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the MONSTER or VEHICLE keywords."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Striking Scorpion Exarch’s shuriken pistol and Scorpion chainsword can be replaced with 1 biting blade.",
+            "items": []
+        },
+        {
+            "description": "The Striking Scorpion Exarch’s shuriken pistol can be replaced with 1 Scorpion’s claw.",
+            "items": []
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Mandiblasters:",
-        "description": "Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the MONSTER or VEHICLE keywords."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Scorpion’s claw",
+            "modifiers": "assault,pistol",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Biting blade",
+            "modifiers": "sustainedhits1",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": "2"
+        },
+        {
+            "name": "Scorpion chainsword",
+            "modifiers": "sustainedhits1",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Scorpion’s claw",
+            "modifiers": "sustainedhits1",
+            "attacks": "4",
+            "weapons-skills": "4+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Striking Scorpion Exarch’s shuriken pistol and Scorpion chainsword can be replaced with 1 biting blade.",
-      "items": []
-    },
-    {
-      "description": "The Striking Scorpion Exarch’s shuriken pistol can be replaced with 1 Scorpion’s claw.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Scorpion’s claw",
-      "modifiers": "assault,pistol",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Biting blade",
-      "modifiers": "sustainedhits1",
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Scorpion chainsword",
-      "modifiers": "sustainedhits1",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Scorpion’s claw",
-      "modifiers": "sustainedhits1",
-      "attacks": "4",
-      "weapons-skills": "4+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
 }

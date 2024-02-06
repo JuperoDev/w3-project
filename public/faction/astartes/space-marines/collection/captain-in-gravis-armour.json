@@ -1,150 +1,159 @@
 {
-  "parentUnit": "Captain In Gravis Armour",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Clad in a suit of indomitable Gravis armour, a Space Marine Captain can fearlessly stride into the very fiercest battlefield firestorms. To don Gravis armour is to demonstrate the greatest determination to crush the enemy, no matter how deeply they are entrenched.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "gravis",
-    "captain"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": ["Aggressor Squad",
-  "Eradicator Squad",
-  "Heavy Intercessor Squad"],
-  "rangedWeapons": [
-    {
-      "name": "Boltstorm gauntlet",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Master-crafted heavy bolt rifle",
-      "modifiers": [
-        
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Captain In Gravis Armour",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Clad in a suit of indomitable Gravis armour, a Space Marine Captain can fearlessly stride into the very fiercest battlefield firestorms. To don Gravis armour is to demonstrate the greatest determination to crush the enemy, no matter how deeply they are entrenched.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "gravis",
+        "captain"
     ],
-    "otherAbilities": [
-      {
-        "name": "Rites of Battle:",
-        "description": "Once per battle round , one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
-      },
-      {
-        "name": "Refuse to Yield:",
-        "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s master-crafted heavy bolt rifle and master-crafted power weapon can be replaced with",
-      "items": [
-        "1 boltstorm gauntlet, 1 power fist and 1 relic chainsword",
-        "1 boltstorm gauntlet, 1 power fist and 1 relic blade",
-        "1 boltstorm gauntlet, 1 power fist and 1 relic fist"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Master-crafted power weapon",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 2
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Boltstorm gauntlet",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Master-crafted heavy bolt rifle",
+            "modifiers": [],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rites of Battle:",
+                "description": "Once per battle round , one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+            },
+            {
+                "name": "Refuse to Yield:",
+                "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+            }
+        ]
     },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Relic blade",
-      "modifiers": ["extra attacks"],
-      "attacks": 2,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Relic chainsword",
-      "modifiers": ["extra attacks"],
-      "attacks": 3,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Relic fist",
-      "modifiers": ["extra attacks"],
-      "attacks": 1,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "This model’s master-crafted heavy bolt rifle and master-crafted power weapon can be replaced with",
+            "items": [
+                "1 boltstorm gauntlet, 1 power fist and 1 relic chainsword",
+                "1 boltstorm gauntlet, 1 power fist and 1 relic blade",
+                "1 boltstorm gauntlet, 1 power fist and 1 relic fist"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Master-crafted power weapon",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Relic blade",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 2,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Relic chainsword",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 3,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Relic fist",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 1,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

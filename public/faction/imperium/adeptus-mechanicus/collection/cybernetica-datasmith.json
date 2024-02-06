@@ -1,86 +1,91 @@
 {
-  "parentUnit": "Cybernetica Datasmith",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Datasmiths optimise the programming of their robotic charges. These Tech-Priests employ rituals and binharic hymns to bless the doctrina wafers through which they alter the robots’ protocols, all the while laying waste to the enemies of the Omnissiah with blasts of ionising radiation from their archeotech pistols.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "legio cybernetica",
-    "tech-priest",
-    "cybernetica datasmith"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 2,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Kastelan Robots"],
-  "rangedWeapons": [
-    {
-      "name": "Mechanicus pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Cybernetica Datasmith",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Battle Protocols",
-        "description": "TENGO QUE ESCRIBIRLO"
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Datasmiths optimise the programming of their robotic charges. These Tech-Priests employ rituals and binharic hymns to bless the doctrina wafers through which they alter the robots’ protocols, all the while laying waste to the enemies of the Omnissiah with blasts of ionising radiation from their archeotech pistols.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "legio cybernetica",
+        "tech-priest",
+        "cybernetica datasmith"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Kastelan Robots"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Mechanicus pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Battle Protocols",
+                "description": "TENGO QUE ESCRIBIRLO"
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 35
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Cybernetica Datasmith",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Mechanicus pistol",
+                "power fist"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Power fist",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 35
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Cybernetica Datasmith",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "Mechanicus pistol", "power fist"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-  
- ],
- "meleeWeapons": [
-   {
-     "name": "Power fist",
-     "attacks": 2,
-     "weapons-skills": 3,
-     "strength": 8,
-     "armor-penetration": 2,
-     "damage": 2,
-     "modifiers": []
-   }
- ]
 }

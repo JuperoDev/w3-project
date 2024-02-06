@@ -1,182 +1,186 @@
 {
-  "parentUnit": "Scout Sentinels",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Scout Sentinels’ open compartments and simple augur devices enable their pilots to survey the enemy with ease, while their lighter armour and gyro-stabilisers assist them in swiftly traversing the roughest terrain and bringing their heavy weapons to bear suddenly from unanticipated angles.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "imperium",
-    "regiment",
-    "squadron",
-    "smoke",
-    "scout sentinels"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 7,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Missile launcher - frag",
-      "modifiers": [
-        "blast",
-        "heavy"
-      ],
-      "range": 48,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Missile launcher - krak",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - standard",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma cannon - supercharge",
-      "modifiers": [
-        "blast",
-        "hazardous"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Scouts 9\""
+    "parentUnit": "Scout Sentinels",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Daring Recon:",
-        "description": "At the start of your Shooting phase , select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly ASTRA MILITARUM model makes an attack that targets that unit, re-roll a Hit roll of 1 and, if that attack has the [INDIRECT FIRE] ability, it does not suffer the penalty to the Hit roll for shooting at a target that is not visible to the attacking unit."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their Militarum multi-laser replaced with one of the following",
-      "items": [
-        "1 autocannon",
-        "1 heavy flamer",
-        "1 lascannon",
-        "1 missile launcher",
-        "1 plasma cannon"
-      ]
-    },
-    {
-      "description": "Any number of models can each be equipped with 1 Sentinel chainsaw.",
-      "items": []
-    },
-    {
-      "description": "Any number of models can each be equipped with 1 hunter-killer missile.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Sentinel chainsaw",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Scout Sentinels’ open compartments and simple augur devices enable their pilots to survey the enemy with ease, while their lighter armour and gyro-stabilisers assist them in swiftly traversing the roughest terrain and bringing their heavy weapons to bear suddenly from unanticipated angles.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "imperium",
+        "regiment",
+        "squadron",
+        "smoke",
+        "scout sentinels"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 7,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - frag",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Scouts 9\""
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Daring Recon:",
+                "description": "At the start of your Shooting phase , select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly ASTRA MILITARUM model makes an attack that targets that unit, re-roll a Hit roll of 1 and, if that attack has the [INDIRECT FIRE] ability, it does not suffer the penalty to the Hit roll for shooting at a target that is not visible to the attacking unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their Militarum multi-laser replaced with one of the following",
+            "items": [
+                "1 autocannon",
+                "1 heavy flamer",
+                "1 lascannon",
+                "1 missile launcher",
+                "1 plasma cannon"
+            ]
+        },
+        {
+            "description": "Any number of models can each be equipped with 1 Sentinel chainsaw.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each be equipped with 1 hunter-killer missile.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Sentinel chainsaw",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Angron – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
     ]
 }

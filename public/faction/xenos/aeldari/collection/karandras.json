@@ -1,87 +1,87 @@
 {
-  "parentUnit": "Karandras",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Karandras is a master of stealth and patience, striking in a blur of emerald armour. He assails his enemies with a white-hot burst from the mandiblaster Scorpion’s Bite before ripping them to shreds with his diamond-tipped chainblade Isirmathil, or crushing them in the grip of Arhra’s Bane – his bespoke Scorpion’s claw.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "phoenix lord",
-    "karandras"
-  ],
-  "attributes": {
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 2,
-    "wounds": 5,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Arhra’s Bane",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Leader"
+    "parentUnit": "Karandras",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [
-      "Strands of Fate"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Karandras is a master of stealth and patience, striking in a blur of emerald armour. He assails his enemies with a white-hot burst from the mandiblaster Scorpion’s Bite before ripping them to shreds with his diamond-tipped chainblade Isirmathil, or crushing them in the grip of Arhra’s Bane – his bespoke Scorpion’s claw.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "phoenix lord",
+        "karandras"
     ],
-    "otherAbilities": [
-      {
-        "name": "Shadow Hunter:",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
-      },
-      {
-        "name": "Sustained Assault:",
-        "description": "Each time this model makes a melee attack, if it made a Charge move this turn, a successful unmodified Hit roll of 4+ scores a Critical Hit ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Arhra’s Bane",
-      "modifiers": "sustainedhits1",
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": "2"
+    "attributes": {
+        "movement": 7,
+        "toughness": 3,
+        "salvation": 2,
+        "wounds": 5,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
     },
-    {
-      "name": "Isirmathil",
-      "modifiers": "sustainedhits1",
-      "attacks": "8",
-      "weapons-skills": "2+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": "1"
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Arhra’s Bane",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Leader"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Shadow Hunter:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "Sustained Assault:",
+                "description": "Each time this model makes a melee attack, if it made a Charge move this turn, a successful unmodified Hit roll of 4+ scores a Critical Hit ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Arhra’s Bane",
+            "modifiers": "sustainedhits1",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": "2"
+        },
+        {
+            "name": "Isirmathil",
+            "modifiers": "sustainedhits1",
+            "attacks": "8",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "1"
+        }
+    ]
 }

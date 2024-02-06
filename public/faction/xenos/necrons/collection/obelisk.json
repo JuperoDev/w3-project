@@ -1,87 +1,94 @@
 {
-  "parentUnit": "Obelisk",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {
-    "remainingWounds": 8,
-    "description": "While this model has 1-8 wounds remaining, subtract 4 from its objetive Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Necron Obelisk is a slab-sided war engine designed to ensure air superiority. When enemy aircraft draw near, the Obelisk unleashes a powerful gravitic pulse that races out through the skies over the battlefield and swats the foe’s fighters and airborne troops to the ground like luckless insects.",
-  "keywords": [
-    "vehicle",
-    "titanic",
-    "fly",
-    "towering",
-    "obelisk"
-  ],
-  "attributes": [{
-    
-    "movement": 8,
-    "toughness": 13,
-    "save": 2,
-    "wounds": 24,
-    "leadership": 7,
-    "objetiveControl": 8,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Tesla sphere",
-      "modifiers": [
-        "anti-fly 4+",
-        "sustained hits 2"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Deep Strike"
+    "parentUnit": "Obelisk",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {
+        "remainingWounds": 8,
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from its objetive Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Necron Obelisk is a slab-sided war engine designed to ensure air superiority. When enemy aircraft draw near, the Obelisk unleashes a powerful gravitic pulse that races out through the skies over the battlefield and swats the foe’s fighters and airborne troops to the ground like luckless insects.",
+    "keywords": [
+        "vehicle",
+        "titanic",
+        "fly",
+        "towering",
+        "obelisk"
     ],
-    "otherAbilities":[ {"name":
-      "Gravitic Pulse ","description": "At the start of your opponent’s Movement phase , you can select one enemy unit within 18\" of and visible to this model. Until the end of the turn, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for that unit. In addition, if that unit can FLY , until the start of your next Movement phase, roll one D6 each time that unit ends any type of move: on a 4+, that unit suffers D3 mortal wounds ."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Obelisk",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["4 tesla spheres","armoured bulk."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 325
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Armoured bulk",
-         "attacks": 6,
-         "weapons-skills": 4,
-         "strength": 8,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 13,
+            "save": 2,
+            "wounds": 24,
+            "leadership": 7,
+            "objetiveControl": 8,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Tesla sphere",
+            "modifiers": [
+                "anti-fly 4+",
+                "sustained hits 2"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Deep Strike"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Gravitic Pulse ",
+                "description": "At the start of your opponent’s Movement phase , you can select one enemy unit within 18\" of and visible to this model. Until the end of the turn, subtract 2\" from the Move characteristic of models in that unit and subtract 2 from Advance and Charge rolls made for that unit. In addition, if that unit can FLY , until the start of your next Movement phase, roll one D6 each time that unit ends any type of move: on a 4+, that unit suffers D3 mortal wounds ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Obelisk",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "4 tesla spheres",
+                "armoured bulk."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 325
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured bulk",
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

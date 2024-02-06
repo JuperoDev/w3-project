@@ -21,7 +21,7 @@
         "synapse",
         "tyranid warrior with melee bio-weapons"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "bio-weapons",
@@ -30,19 +30,24 @@
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1,
-            "modifiers": ["twin-linked"]
+            "modifiers": [
+                "twin-linked"
+            ]
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [3],
-        "points": 85
-      },
-      {
-          "count": [6],
-          "points": 170
+        {
+            "count": [
+                3
+            ],
+            "points": 85
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 170
         }
     ],
     "unitComposition": [
@@ -51,7 +56,7 @@
             "minQuantity": 3,
             "maxQuantity": 6,
             "equipment": [
-              "tyranid warrior claws and talons"
+                "tyranid warrior claws and talons"
             ]
         }
     ],
@@ -70,11 +75,5 @@
         ]
     },
     "damaged": {},
-
     "additionalParameter": {}
-
-
-
-
-
 }

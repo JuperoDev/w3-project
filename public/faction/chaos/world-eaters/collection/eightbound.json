@@ -53,7 +53,11 @@
     "factionKeyword": [
         "World Eaters"
     ],
-    "wargear": [{"description":"The Eightbound Champion’s lacerators can be replaced with 1 heavy chainglaive."}],
+    "wargear": [
+        {
+            "description": "The Eightbound Champion’s lacerators can be replaced with 1 heavy chainglaive."
+        }
+    ],
     "abilities": {
         "core": [
             "scouts 6''"
@@ -74,25 +78,31 @@
             "unitType": "eightbound champion",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "equipment":["Lacerators"]
+            "equipment": [
+                "Lacerators"
+            ]
         },
         {
             "unitType": "eightbound",
             "minQuantity": 2,
             "maxQuantity": 5,
-            "equipment":["Eightbound eviscerators"]
+            "equipment": [
+                "Eightbound eviscerators"
+            ]
         }
     ],
     "options": [
         {
             "count": [
-                1 , 2
+                1,
+                2
             ],
             "points": 135
         },
         {
             "count": [
-                1 , 5
+                1,
+                5
             ],
             "points": 270
         }

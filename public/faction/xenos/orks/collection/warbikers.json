@@ -1,130 +1,130 @@
 {
-  "parentUnit": "Warbikers",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ork Warbikers race into battle with dakkaguns hammering, ragged trails of dust and smoke boiling up behind them like an ill omen. They race one another at breakneck pace to reach the enemy first, execute death-defying stunts at suicidal speeds, then crash headlong into the foe’s battle line like battering rams.",
-  "keywords": [
-    "mounted",
-    "grenades",
-    "warbikers"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 6,
-    "save": 4,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin dakkagun",
-      "modifiers": [
-        "rapid fire 2",
-        "assault",
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Waaagh!"
+    "parentUnit": "Warbikers",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "twin dakkagun; close combat weapon."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ork Warbikers race into battle with dakkaguns hammering, ragged trails of dust and smoke boiling up behind them like an ill omen. They race one another at breakneck pace to reach the enemy first, execute death-defying stunts at suicidal speeds, then crash headlong into the foe’s battle line like battering rams.",
+    "keywords": [
+        "mounted",
+        "grenades",
+        "warbikers"
+    ],
+    "attributes": {
+        "movement": 12,
+        "toughness": 6,
+        "save": 4,
+        "wounds": 3,
+        "leadership": 7,
+        "objetiveControl": 2,
+        "invulnerableSave": 6
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin dakkagun",
+            "modifiers": [
+                "rapid fire 2",
+                "assault",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Waaagh!"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "twin dakkagun; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Each Warbiker can be equipped with one of the following",
+            "items": [
+                "1 slugga",
+                "1 choppa"
+            ]
+        },
+        {
+            "description": "The Boss Nob on Warbike can be equipped with one of the following",
+            "items": [
+                "1 slugga",
+                "1 big choppa",
+                "1 power klaw"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": "pistol",
+            "attacks": "1",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Big choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power klaw",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Each Warbiker can be equipped with one of the following",
-      "items": [
-        "1 slugga",
-        "1 choppa"
-      ]
-    },
-    {
-      "description": "The Boss Nob on Warbike can be equipped with one of the following",
-      "items": [
-        "1 slugga",
-        "1 big choppa",
-        "1 power klaw"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Big choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power klaw",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

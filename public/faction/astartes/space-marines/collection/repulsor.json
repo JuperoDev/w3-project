@@ -1,156 +1,159 @@
 {
-  "parentUnit": "Repulsor",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Clad in advanced armour plating and armed for any battlefield situation, the Repulsor not only transports its passengers safely, it also provides superb fire support. Dangerous terrain is little impediment to it, its ventral plates channelling gravitic energies that crush obstacles beneath the vehicle’s mass.",
-  "keywords": [
-    "vehicle",
-    "smoke",
-    "transport",
-    "imperium",
-    "repulsor"
-  ],
-  "attributes":[ {
-    "movement": 10,
-    "toughness": 12,
-    "save": 3,
-    "wounds": 16,
-    "leadership": 6,
-    "objetiveControl": 5,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy onslaught gatling cannon",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "attacks": 12,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hunter-slayer missile",
-      "modifiers": [
-        "indirect fire",
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Las-talon",
-      "range": 36,
-      "modifiers": [],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Repulsor defensive array",
-      "modifiers": [],
-      "range": 24,
-      "attacks": "18",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Repulsor",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "Oath of Moment"
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
-      "items": []
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model’s heavy onslaught gatling cannon can be replaced with 1 las-talon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Armoured hull",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "supremeCommander": false,
+    "lore": "Clad in advanced armour plating and armed for any battlefield situation, the Repulsor not only transports its passengers safely, it also provides superb fire support. Dangerous terrain is little impediment to it, its ventral plates channelling gravitic energies that crush obstacles beneath the vehicle’s mass.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "transport",
+        "imperium",
+        "repulsor"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy onslaught gatling cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "attacks": 12,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Hunter-slayer missile",
+            "modifiers": [
+                "indirect fire",
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Las-talon",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Repulsor defensive array",
+            "modifiers": [],
+            "range": 24,
+            "attacks": "18",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "Oath of Moment"
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+            "items": []
+        },
+        {
+            "description": "This model’s heavy onslaught gatling cannon can be replaced with 1 las-talon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

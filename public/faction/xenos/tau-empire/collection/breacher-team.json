@@ -1,78 +1,77 @@
 {
-  "parentUnit": "Breacher Team",
-  "factionKeyword": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Where enemies must be driven from fortified positions or void ships boarded, there go the Fire Warriors of the Breacher Teams. Their pulse blasters are short ranged but lethal, and when coupled with the team’s tough armour, tactical discipline and specialist support drones, Breacher Teams become lethal at close quarters.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "markerlight",
-    "fire warrior",
-    "breacher team"
-  ],
-  "attributes": [],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Pulse blaster",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 10,
-      "strength": 6,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Support turret missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: For the Greater Good"
+    "parentUnit": "Breacher Team",
+    "factionKeyword": [
+        "t’au empire"
     ],
-    "faction": [
-      "Breach and Clear: Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker",
-      "you can re-roll the Wound roll.DS8 Support Turret: In your Movement phase",
-      "if this unit Remains Stationary",
-      "until the start of your next Movement phase",
-      "its Fire Warrior Shas’ui model is equipped with the support turret missile system weapon. Designer’s Note: Place a DS8 Support Turret token next to this unit to remind you."
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Where enemies must be driven from fortified positions or void ships boarded, there go the Fire Warriors of the Breacher Teams. Their pulse blasters are short ranged but lethal, and when coupled with the team’s tough armour, tactical discipline and specialist support drones, Breacher Teams become lethal at close quarters.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "markerlight",
+        "fire warrior",
+        "breacher team"
     ],
-    "otherAbilities": {
-      "Every model is equipped with:": "pulse blaster; pulse pistol; close combat weapon."
-    }
-  },
-
-  "additionalParameter": {}
+    "attributes": [],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Pulse blaster",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 10,
+            "strength": 6,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Support turret missile system",
+            "modifiers": [
+                "indirect fire",
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: For the Greater Good"
+        ],
+        "faction": [
+            "Breach and Clear: Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker",
+            "you can re-roll the Wound roll.DS8 Support Turret: In your Movement phase",
+            "if this unit Remains Stationary",
+            "until the start of your next Movement phase",
+            "its Fire Warrior Shas’ui model is equipped with the support turret missile system weapon. Designer’s Note: Place a DS8 Support Turret token next to this unit to remind you."
+        ],
+        "otherAbilities": {
+            "Every model is equipped with:": "pulse blaster; pulse pistol; close combat weapon."
+        }
+    },
+    "additionalParameter": {}
 }

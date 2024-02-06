@@ -1,206 +1,206 @@
 {
-  "parentUnit": "Boyz",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ork Boyz surge into battle in huge, unruly mobs dotted with crude special weapons and led by foul-tempered Boss Nobz. Most simply stampede towards the enemy lines, relying on their numbers and natural hardiness to carry the charge home, while others hitch a ride on Trukks and Battlewagons so as to get stuck in all the faster.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "mob",
-    "grenades",
-    "boyz"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Big shoota",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kombi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Rokkit launcha",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Shoota",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Waaagh!"
+    "parentUnit": "Boyz",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "The Boss Nob is equipped with:",
-        "description": "slugga; big choppa."
-      },
-      {
-        "name": "Every Boy is equipped with:",
-        "description": "slugga; choppa."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ork Boyz surge into battle in huge, unruly mobs dotted with crude special weapons and led by foul-tempered Boss Nobz. Most simply stampede towards the enemy lines, relying on their numbers and natural hardiness to carry the charge home, while others hitch a ride on Trukks and Battlewagons so as to get stuck in all the faster.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "mob",
+        "grenades",
+        "boyz"
+    ],
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 1,
+        "leadership": 7,
+        "objetiveControl": 2,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Big shoota",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kombi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Rokkit launcha",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shoota",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Waaagh!"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "The Boss Nob is equipped with:",
+                "description": "slugga; big choppa."
+            },
+            {
+                "name": "Every Boy is equipped with:",
+                "description": "slugga; choppa."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Boss Nob’s big choppa can be replaced with 1 power klaw.",
+            "items": []
+        },
+        {
+            "description": "The Boss Nob’s big choppa and slugga can be replaced with 1 kombi-weapon and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "Any number of Boyz can each have their slugga and choppa replaced with 1 shoota and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 10 models in this unit, 1 Boy’s choppa and slugga can be replaced with one of the following",
+            "items": [
+                "1 big shoota and 1 close combat weapon",
+                "1 rokkit launcha and 1 close combat weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Big shoota",
+            "modifiers": "rapidfire2",
+            "attacks": "3",
+            "weapons-skills": "5+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Kombi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+            "attacks": "1",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Rokkit launcha",
+            "modifiers": "blast",
+            "attacks": "D3",
+            "weapons-skills": "5+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
+            "name": "Shoota",
+            "modifiers": "rapidfire1",
+            "attacks": "2",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Big choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power klaw",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Boss Nob’s big choppa can be replaced with 1 power klaw.",
-      "items": []
-    },
-    {
-      "description": "The Boss Nob’s big choppa and slugga can be replaced with 1 kombi-weapon and 1 close combat weapon.",
-      "items": []
-    },
-    {
-      "description": "Any number of Boyz can each have their slugga and choppa replaced with 1 shoota and 1 close combat weapon.",
-      "items": []
-    },
-    {
-      "description": "For every 10 models in this unit, 1 Boy’s choppa and slugga can be replaced with one of the following",
-      "items": [
-        "1 big shoota and 1 close combat weapon",
-        "1 rokkit launcha and 1 close combat weapon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Big shoota",
-      "modifiers": "rapidfire2",
-      "attacks": "3",
-      "weapons-skills": "5+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Kombi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Rokkit launcha",
-      "modifiers": "blast",
-      "attacks": "D3",
-      "weapons-skills": "5+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 3
-    },
-    {
-      "name": "Shoota",
-      "modifiers": "rapidfire1",
-      "attacks": "2",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Big choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power klaw",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

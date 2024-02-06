@@ -1,143 +1,143 @@
 {
-  "parentUnit": "penitent engines",
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 6,
-      "save": 4,
-      "wounds": 5,
-      "leadership": 7,
-      "objetiveControl": 2,
-      "invulnerableSave": 0
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The pilots of Penitent Engines are subjected to terrible agony, thanks to the torment amplifiers spliced into their synapses. They blaze a trail of destruction with their flamers before charging headlong into the foe, guilt and pain driving them on, heedless of danger. All they leave in their wake is utter carnage.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "imperium",
-    "penitent engines"
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Penitent flamers",
-      "modifiers": [
-        "assault",
-        "ignores cover",
-        "torrent",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "2d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Feel No Pain 5+"
+    "parentUnit": "penitent engines",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 5,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "factionKeyword": [
+        "adepta sororitas"
     ],
-    "otherAbilities": [
-      {
-        "name": "Endless Suffering:",
-        "description": "This unit is eligible to declare a charge in a turn in which it Advanced ."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The pilots of Penitent Engines are subjected to terrible agony, thanks to the torment amplifiers spliced into their synapses. They blaze a trail of destruction with their flamers before charging headlong into the foe, guilt and pain driving them on, heedless of danger. All they leave in their wake is utter carnage.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "imperium",
+        "penitent engines"
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Penitent flamers",
+            "modifiers": [
+                "assault",
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "2d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Feel No Pain 5+"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Endless Suffering:",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced ."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Penitent buzz-blade",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "sutained hits 1"
+            ]
+        },
+        {
+            "name": "Penitent flail",
+            "attacks": 8,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "sutained hits 1"
+            ]
+        },
+        {
+            "name": "Twin penitent buzz-blades",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "sutained hits 1",
+                "twin-linked"
+            ]
+        },
+        {
+            "name": "Twin penitent flails",
+            "attacks": 8,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "sutained hits 1",
+                "twin-linked"
+            ]
+        }
+    ],
+    "wargear": [
+        {
+            "description": "Any number of models can each have their twin penitent buzz-blades replaced with one of the following:",
+            "items": [
+                "1 penitent buzz-blade and 1 penitent flail",
+                "1 twin penitent flails"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Penitent Engines",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "penitent flamers",
+                "twin penitent buzz-blades."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 120
+        }
     ]
-  },
-  "meleeWeapons": [
-    {
-      "name": "Penitent buzz-blade",
-      "attacks": 4,
-      "weapons-skills": 4,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [
-        "sutained hits 1"
-      ]
-    },
-    {
-      "name": "Penitent flail",
-      "attacks": 8,
-      "weapons-skills": 4,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [
-        "sutained hits 1"
-      ]
-    },
-    {
-      "name": "Twin penitent buzz-blades",
-      "attacks": 4,
-      "weapons-skills": 4,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [
-        "sutained hits 1",
-        "twin-linked"
-      ]
-    },
-    {
-      "name": "Twin penitent flails",
-      "attacks": 8,
-      "weapons-skills": 4,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [
-        "sutained hits 1",
-        "twin-linked"
-      ]
-    }
-  ],
-  "wargear": [
-    {
-      "description": "Any number of models can each have their twin penitent buzz-blades replaced with one of the following:",
-      "items": [
-        "1 penitent buzz-blade and 1 penitent flail",
-        "1 twin penitent flails"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Penitent Engines",
-      "minQuantity": 1,
-      "maxQuantity": 2,
-      "equipment": [
-        "penitent flamers",
-        "twin penitent buzz-blades."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 60
-    },
-    {
-      "count": [
-        2
-      ],
-      "points": 120
-    }
-  ]
 }

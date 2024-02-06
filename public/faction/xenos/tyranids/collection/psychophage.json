@@ -1,14 +1,16 @@
 {
     "parentUnit": "psychophage",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 9,
-        "save": 3,
-        "wounds": 10,
-        "leadership": 8,
-        "objetiveControl": 3,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 8,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "These monsters stampede into battle with frightening speed. They devour any prey organism in their paths, but especially favour those victims with psychic abilities. How they metabolise such esoteric powers is unclear, but doing so allows them to project surges of psychocorrosive ash that deflagrate their victims’ minds and souls. ",
     "factionKeyword": [
@@ -19,7 +21,7 @@
         "great devourer",
         "psychophage"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "talons and betentacled maw",
@@ -28,45 +30,55 @@
             "strength": 6,
             "armor-penetration": 1,
             "damage": 2,
-            "modifiers": ["anti-psyker 2+", "devastating wounds"]
-        }],
-        "supremeCommander": false,
-
-        "options": [
-          {
-            "count": [1],
+            "modifiers": [
+                "anti-psyker 2+",
+                "devastating wounds"
+            ]
+        }
+    ],
+    "supremeCommander": false,
+    "options": [
+        {
+            "count": [
+                1
+            ],
             "points": 125
-          }
-        ],
-        "unitComposition": [
-            {
-                "unitType": "psychophage",
-                "minQuantity": 1,
-                "maxQuantity": 1,
-                "equipment": [
-                  "pyschoclastic torrent",
-                  "talons and betentacled maw"
-                ]
-            }
-        ],
-        "abilities": {
-          "core": [
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "psychophage",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "pyschoclastic torrent",
+                "talons and betentacled maw"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
             "Deadly Demise 1",
             "Feel No Pain 5+"
-          ],
-          "faction": [
+        ],
+        "faction": [
             "Synapse"
-          ],
-          "otherAbilities": [{"name":
-            "Bio-stimulus (Aura):","description": "While a friendly TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS unit is within 6\" of this model, models in that unit have the Feel No Pain 6+ ability."},{"name":
-            "Feeding Frenzy:","description": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength , add 1 to the Hit roll . If that target is also Below Half-strength , add 1 to the Wound roll as well."}
-          ]
-        },
-
-        "additionalParameter": {},
-        "damaged": {},
-        "rangedWeapons": [
-          {
+        ],
+        "otherAbilities": [
+            {
+                "name": "Bio-stimulus (Aura):",
+                "description": "While a friendly TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS unit is within 6\" of this model, models in that unit have the Feel No Pain 6+ ability."
+            },
+            {
+                "name": "Feeding Frenzy:",
+                "description": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength , add 1 to the Hit roll . If that target is also Below Half-strength , add 1 to the Wound roll as well."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {},
+    "rangedWeapons": [
+        {
             "name": "Psychoclastic torrent",
             "range": 12,
             "attacks": "d6",
@@ -75,8 +87,9 @@
             "armor-penetration": 1,
             "damage": 1,
             "modifiers": [
-              "ignores cover", "torrent"
+                "ignores cover",
+                "torrent"
             ]
-          }
-        ]
+        }
+    ]
 }

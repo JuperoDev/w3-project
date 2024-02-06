@@ -1,114 +1,127 @@
 {
     "parentUnit": "repentia squad",
-    "attributes": [{
-        "name": "repentia superior",
-        "movement": 7,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 6
-    },
-    {
-        "name": "sisters repentia",
-        "movement": 7,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 6
-    }],
+    "attributes": [
+        {
+            "name": "repentia superior",
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        },
+        {
+            "name": "sisters repentia",
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
+    ],
     "factionKeyword": [
         "adepta sororitas"
-      ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "Sisters Repentia charge across the battlefield howling prayers, filled with the need for atonement for past misdeeds. Overseen by a stern taskmaster in the form of a Repentia Superior who is ever vigilant for sinfulness, Repentia now exist only to slaughter the enemies of the Emperor, and so rush forward without heed for their own safety. Each seeks to redeem herself with acts of selfless bravery and violent devotion.",
-      "keywords": [
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sisters Repentia charge across the battlefield howling prayers, filled with the need for atonement for past misdeeds. Overseen by a stern taskmaster in the form of a Repentia Superior who is ever vigilant for sinfulness, Repentia now exist only to slaughter the enemies of the Emperor, and so rush forward without heed for their own safety. Each seeks to redeem herself with acts of selfless bravery and violent devotion.",
+    "keywords": [
         "infantry",
         "grenades",
         "imperium",
         "repentia squad"
-      ],
-      "leader": [],
-      "rangedWeapons": [
+    ],
+    "leader": [],
+    "rangedWeapons": [
         {
-          "name": "Bolt pistol",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 1,
-          "ballistic-skills": 3,
-          "armor-penetration": 0,
-          "damage": 1,
-          "singleChoice": false
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
         }
-      ],
-      "abilities": {
+    ],
+    "abilities": {
         "core": [
-          "Feel No Pain 5+"
+            "Feel No Pain 5+"
         ],
         "faction": [
-          "Acts of Faith"
+            "Acts of Faith"
         ],
-        "otherAbilities": [{"name":
-          "Overseer of Redemption:","description": "While this unit contains a Repentia Superior, each time a model in this unit makes a melee attack, you can re-roll the Hit roll and, if this unit made a Charge move this turn, you can also re-roll the Wound roll ."
-        }]
-      },
-      "meleeWeapons":[
+        "otherAbilities": [
+            {
+                "name": "Overseer of Redemption:",
+                "description": "While this unit contains a Repentia Superior, each time a model in this unit makes a melee attack, you can re-roll the Hit roll and, if this unit made a Charge move this turn, you can also re-roll the Wound roll ."
+            }
+        ]
+    },
+    "meleeWeapons": [
         {
-          "name": "Neural whips",
-          "attacks": 4,
-          "weapons-skills": 4,
-          "strength": 3,
-          "armor-penetration": 1,
-          "damage": 1,
-          "modifiers": ["anti-infantry 4+"]
+            "name": "Neural whips",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 4+"
+            ]
         },
         {
-          "name": "Penitent eviscerator",
-          "attacks": 2,
-          "weapons-skills": 4,
-          "strength": 6,
-          "armor-penetration": 2,
-          "damage": 2,
-          "modifiers": []
+            "name": "Penitent eviscerator",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
         }
-      ],
-      "wargear": [
-        
-      ],
-
-      "additionalParameter": {
-        
-      },
-      "unitComposition": [
-         {
-           "unitType": "Repentia Superior",
-           "minQuantity": 1,
-           "maxQuantity": 1,
-           "equipment": ["bolt pistol","neural whips"]
-         },
-         {
-          "unitType": "Sisters Repentia",
-          "minQuantity": 4,
-          "maxQuantity": 9,
-          "equipment": ["bolt pistol","neural whips"]
+    ],
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Repentia Superior",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "neural whips"
+            ]
+        },
+        {
+            "unitType": "Sisters Repentia",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol",
+                "neural whips"
+            ]
         }
-       ],
-     
-       "options": [
-         {
-           "count": [1,4],
-           "points": 65
-         },
-         {
-             "count": [1,9],
-             "points": 130
-           }
-       ]
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 65
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 130
+        }
+    ]
 }

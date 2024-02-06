@@ -1,94 +1,105 @@
 {
-  "parentUnit": "C’tan Shard Of The Deceiver",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Mephet’ran the Deceiver was ever the most duplicitous of his monstrous brood. Even shattered and bound within a restraining necrodermis, each shard of the Deceiver still radiates a potent blend of deadly truths and bewildering lies against which the fallible senses of mortal beings possess no defence.",
-  "keywords": [
-    "monster",
-    "character",
-    "epic hero",
-    "fly",
-    "c’tan shard of the deceiver"
-  ],
-  "attributes": [ {
-    
-    "movement": 6,
-    "toughness": 11,
-    "save": 4,
-    "wounds":12,
-    "leadership": 6,
-    "objetiveControl": 6,
-    "invulnerableSave":4
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cosmic insanity",
-      "modifiers": [
-        "anti-character 4+",
-        "devastating wounds",
-        "precision"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills": 2,
-      "armor-penetration":2,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Stealth",
-      "feel no pain 5+"
+    "parentUnit": "C’tan Shard Of The Deceiver",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Mephet’ran the Deceiver was ever the most duplicitous of his monstrous brood. Even shattered and bound within a restraining necrodermis, each shard of the Deceiver still radiates a potent blend of deadly truths and bewildering lies against which the fallible senses of mortal beings possess no defence.",
+    "keywords": [
+        "monster",
+        "character",
+        "epic hero",
+        "fly",
+        "c’tan shard of the deceiver"
     ],
-    "otherAbilities": [{"name":
-      "Grand Illusion", "description": "If your army includes this model, after both players have deployed their armies, select up to three NECRONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."},{"name":
-      "Necrodermis", "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
-    }]
-  },
-
-  "additionalParameter": {
-    "title": "Enslaved Star God",
-    "abilities": [
+    "attributes": [
         {
-            "name": "",
-            "description": "This model cannot be your Warlord."
+            "movement": 6,
+            "toughness": 11,
+            "save": 4,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 6,
+            "invulnerableSave": 4
         }
-    ]},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "C’tan Shard of the Deceiver – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["cosmic insanity","golden fists."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 265
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "golden fists",
-         "attacks": 8,
-         "weapons-skills": 2,
-         "strength": 8,
-         "armor-penetration": 3,
-         "damage": 3,
-         "modifiers": []
-       }
-   ]
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cosmic insanity",
+            "modifiers": [
+                "anti-character 4+",
+                "devastating wounds",
+                "precision"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Stealth",
+            "feel no pain 5+"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Grand Illusion",
+                "description": "If your army includes this model, after both players have deployed their armies, select up to three NECRONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+            },
+            {
+                "name": "Necrodermis",
+                "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+            }
+        ]
+    },
+    "additionalParameter": {
+        "title": "Enslaved Star God",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be your Warlord."
+            }
+        ]
+    },
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "C’tan Shard of the Deceiver – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "cosmic insanity",
+                "golden fists."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 265
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "golden fists",
+            "attacks": 8,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": []
+        }
+    ]
 }

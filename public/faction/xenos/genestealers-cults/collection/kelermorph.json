@@ -1,82 +1,85 @@
 {
-  "parentUnit": "Kelermorph",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "This gunfighter is a living icon of rebellion, moulded to exploit the psyche of fractured Human societies. Whip-fast reactions and hypersensory acuity lend the Kelermorph lethal reaction speeds and help it unleash withering volleys from its iconic liberator autostubs, whose depleted volonium rounds can punch through tank armour.",
-  "keywords": [
-    "infantry",
-    "character",
-    "great devourer",
-    "kelermorph"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Liberator autostubs",
-      "modifiers": [
-        "devastating wounds",
-        "pistol",
-        "precision",
-        "sustained hits d3"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 6,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Lone Operative"
+    "parentUnit": "Kelermorph",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-     
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "This gunfighter is a living icon of rebellion, moulded to exploit the psyche of fractured Human societies. Whip-fast reactions and hypersensory acuity lend the Kelermorph lethal reaction speeds and help it unleash withering volleys from its iconic liberator autostubs, whose depleted volonium rounds can punch through tank armour.",
+    "keywords": [
+        "infantry",
+        "character",
+        "great devourer",
+        "kelermorph"
     ],
-    "otherAbilities": [{
-      "name":"Cometh the Hour, Cometh the Hero",
-      "description":"When this model is set up using the Deep Strike ability, if it is set up within 3'' horizontally of a friendly GENESTEALER CULTS BATTLELINE unit, it can be set up anywhere on the battlefield that is more than 3'' horizontally from all enemy models, but if it is set up within 9'' horizontally of an enemy unit it is not eligible to declare a charge this turn."
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Liberator autostubs",
+            "modifiers": [
+                "devastating wounds",
+                "pistol",
+                "precision",
+                "sustained hits d3"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Lone Operative"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Cometh the Hour, Cometh the Hero",
+                "description": "When this model is set up using the Deep Strike ability, if it is set up within 3'' horizontally of a friendly GENESTEALER CULTS BATTLELINE unit, it can be set up anywhere on the battlefield that is more than 3'' horizontally from all enemy models, but if it is set up within 9'' horizontally of an enemy unit it is not eligible to declare a charge this turn."
+            },
+            {
+                "name": "Gunslinger",
+                "description": "Each time an enemy unit targets a friendly GENESTEALER CULTS BATTLELINE unit within 3'' of this model with ranged attacks, after that enemy unit has finished making its attacks, this model can shoot as if it were your Shooting phase."
+            }
+        ]
     },
-    {
-      "name":"Gunslinger",
-      "description":"Each time an enemy unit targets a friendly GENESTEALER CULTS BATTLELINE unit within 3'' of this model with ranged attacks, after that enemy unit has finished making its attacks, this model can shoot as if it were your Shooting phase."
-    }
-  ]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "kelermorph",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["liberator autostubs","close combat weapon"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 55
-    }],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "kelermorph",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "liberator autostubs",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 55
+        }
+    ],
     "wargear": [],
-
     "meleeWeapons": [
         {
             "name": "Close combat weapon",

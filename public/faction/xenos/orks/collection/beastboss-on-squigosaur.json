@@ -1,107 +1,107 @@
 {
-  "parentUnit": "Beastboss On Squigosaur",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Squigosaurs are single-minded predators that can bite through adamantine and shrug off enemy fire as though they were armour- plated. These monsters eat anything they can get their fangs into. If a Beastboss wishes to ride one he must first beat it within an inch of its life to teach it respect, all without getting devoured in the process.",
-  "keywords": [
-    "monster",
-    "character",
-    "beast snagga",
-    "beastboss on squigosaur"
-  ],
-  "attributes": {
-    "movement": 10,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 9,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Beastboss On Squigosaur",
+    "factionKeyword": [
+        "orks"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Squigosaurs are single-minded predators that can bite through adamantine and shrug off enemy fire as though they were armour- plated. These monsters eat anything they can get their fangs into. If a Beastboss wishes to ride one he must first beat it within an inch of its life to teach it respect, all without getting devoured in the process.",
+    "keywords": [
+        "monster",
+        "character",
+        "beast snagga",
+        "beastboss on squigosaur"
+    ],
+    "attributes": {
+        "movement": 10,
+        "toughness": 10,
+        "save": 3,
+        "wounds": 9,
+        "leadership": 6,
+        "objetiveControl": 3,
+        "invulnerableSave": 5
     },
-    {
-      "name": "Thump gun",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Feel No Pain 4+"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Thump gun",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "faction": [
-      "Waaagh!"
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Feel No Pain 4+"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "’Ere We Go (Aura):",
+                "description": "While a friendly BEAST SNAGGA unit is within 6\" of this model, you can re-roll Charge rolls made for that unit."
+            },
+            {
+                "name": "Single-minded Predator:",
+                "description": "You can target this model with the Heroic Intervention Stratagem for 1CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 thump gun.",
+            "items": []
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "’Ere We Go (Aura):",
-        "description": "While a friendly BEAST SNAGGA unit is within 6\" of this model, you can re-roll Charge rolls made for that unit."
-      },
-      {
-        "name": "Single-minded Predator:",
-        "description": "You can target this model with the Heroic Intervention Stratagem for 1CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": "pistol",
+            "attacks": "1",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Beastchoppa",
+            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Squigosaur’s jaws",
+            "modifiers": "devastatingwounds,extraattacks",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 3
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 thump gun.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Beastchoppa",
-      "modifiers": "anti-monster4+,anti-vehicle4+",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Squigosaur’s jaws",
-      "modifiers": "devastatingwounds,extraattacks",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ]
 }

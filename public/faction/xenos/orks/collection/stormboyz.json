@@ -1,81 +1,81 @@
 {
-  "parentUnit": "Stormboyz",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Most Orks mock Stormboyz for their acts of juvenile rebellion, from taking orders and shining their boots to marching about, talking about ‘taktics’ and even following a battle plan. Yet when that plan is ‘strap on a high powered rokkit and hurtle into the enemy bellowing “Waaagh!”’, it does prove to have its merits.",
-  "keywords": [
-    "infantry",
-    "jump pack",
-    "fly",
-    "grenades",
-    "stormboyz"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Stormboyz",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Most Orks mock Stormboyz for their acts of juvenile rebellion, from taking orders and shining their boots to marching about, talking about ‘taktics’ and even following a battle plan. Yet when that plan is ‘strap on a high powered rokkit and hurtle into the enemy bellowing “Waaagh!”’, it does prove to have its merits.",
+    "keywords": [
+        "infantry",
+        "jump pack",
+        "fly",
+        "grenades",
+        "stormboyz"
     ],
-    "otherAbilities": [
-      {
-        "name": "Full Throttle:",
-        "description": "This unit is eligible to declare a charge in a turn in which it Advanced . If it does, before making that Charge move , roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound . You cannot use this ability during the battle round in which you call a Waaagh! ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "The Boss Nob’s choppa can be replaced with 1 power klaw.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
+    "attributes": {
+        "movement": 12,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 1,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
     },
-    {
-      "name": "Power klaw",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Full Throttle:",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced . If it does, before making that Charge move , roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound . You cannot use this ability during the battle round in which you call a Waaagh! ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Boss Nob’s choppa can be replaced with 1 power klaw.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Power klaw",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ]
 }

@@ -1,123 +1,123 @@
 {
-  "parentUnit": "Canoptek Wraiths",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These constructs serve as the eyes and ears of their masters while tomb worlds slumber, and as spectral assassins once their armies march out to war. Their dimensional destabilisation matrices allow them to phase in and out of reality, passing through solid objects and sliding their talons through armour, flesh and bone.",
-  "keywords": [
-    "beasts",
-    "fly",
-    "canoptek",
-    "wraiths"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 6,
-      "save": 3,
-      "wounds": 4,
-      "leadership": 8,
-      "objetiveControl": 2,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Particle caster",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Transdimensional beamer",
-      "modifiers": [],
-      "range": 12,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [],
-    "faction": [
-      "Reanimation Protocols"
+    "parentUnit": "Canoptek Wraiths",
+    "factionKeyword": [
+        "necrons"
     ],
-    "otherAbilities": [
-      {
-        "name": "Wraith Form",
-        "description": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These constructs serve as the eyes and ears of their masters while tomb worlds slumber, and as spectral assassins once their armies march out to war. Their dimensional destabilisation matrices allow them to phase in and out of reality, passing through solid objects and sliding their talons through armour, flesh and bone.",
+    "keywords": [
+        "beasts",
+        "fly",
+        "canoptek",
+        "wraiths"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Particle caster",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Transdimensional beamer",
+            "modifiers": [],
+            "range": 12,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Wraith Form",
+                "description": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each be equipped with one of the following:",
+            "items": [
+                "1 particle caster",
+                "1 transdimensional beamer"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their vicious claws replaced with whip coils."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Canoptek Wraiths",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                "vicious claws"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                3
+            ],
+            "points": 110
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 220
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Vicious claws",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Whip coils",
+            "attacks": 8,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "Any number of models can each be equipped with one of the following:",
-      "items": [
-        "1 particle caster",
-        "1 transdimensional beamer"
-      ]
-    },
-    {
-      "description": "Any number of models can each have their vicious claws replaced with whip coils."
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Canoptek Wraiths",
-      "minQuantity": 3,
-      "maxQuantity": 6,
-      "equipment": [
-        "vicious claws"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        3
-      ],
-      "points": 110
-    },
-    {
-      "count": [
-        6
-      ],
-      "points": 220
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Vicious claws",
-      "attacks": 4,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": []
-    },
-    {
-      "name": "Whip coils",
-      "attacks": 8,
-      "weapons-skills": 4,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    }
-  ]
 }

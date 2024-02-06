@@ -1,141 +1,141 @@
 {
-  "parentUnit": "missionary",
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 3,
-      "save": 6,
-      "wounds": 3,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Missionaries live existences of constant conflict, bringing the light of the God-Emperor to the most dangerous regions of the galaxy. They often fight at the forefront of the Adepta Sororitas’ holy wars, striding into battle without fear as they intone sacred prayers. This stirs the hearts of Imperial warriors, driving them into a killing frenzy.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "missionary"
-  ],
-  "leader": [
-    "arco-flagellants",
-    "battle sisters squad",
-    "crusaders",
-    "sisters novitiate squad"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Autogun",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Holy pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Ministorum shotgun",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "missionary",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "factionKeyword": [
+        "adepta sororitas"
     ],
-    "otherAbilities": [
-      {
-        "name": "War Hymn:",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-      },
-      {
-        "name": "Holy Piety:",
-        "description": "Each time this model makes a melee attack, unless this model’s unit is Battle-shocked , you can re-roll the Hit roll ."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Missionaries live existences of constant conflict, bringing the light of the God-Emperor to the most dangerous regions of the galaxy. They often fight at the forefront of the Adepta Sororitas’ holy wars, striding into battle without fear as they intone sacred prayers. This stirs the hearts of Imperial warriors, driving them into a killing frenzy.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "missionary"
+    ],
+    "leader": [
+        "arco-flagellants",
+        "battle sisters squad",
+        "crusaders",
+        "sisters novitiate squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Autogun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Holy pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Ministorum shotgun",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "War Hymn:",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Holy Piety:",
+                "description": "Each time this model makes a melee attack, unless this model’s unit is Battle-shocked , you can re-roll the Hit roll ."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Power weapon",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {
+            "description": "This model’s power weapon can be replaced with one of the following:",
+            "items": [
+                " 1 autogun and 1 chainsword",
+                "1 Ministorum shotgun and 1 chainsword"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Missionary",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " holy pistol",
+                "power weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 30
+        }
     ]
-  },
-  "meleeWeapons": [
-    {
-      "name": "Chainsword",
-      "attacks": 4,
-      "weapons-skills": 4,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "Power weapon",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": []
-    }
-  ],
-  "wargear": [
-    {
-      "description": "This model’s power weapon can be replaced with one of the following:",
-      "items": [
-        " 1 autogun and 1 chainsword",
-        "1 Ministorum shotgun and 1 chainsword"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Missionary",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        " holy pistol",
-        "power weapon"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 30
-    }
-  ]
 }

@@ -1,124 +1,131 @@
 {
-  "parentUnit": "Knight-centura",
-  "factionKeywords": [
-    "adeptus custodes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Knight-Centuras are the leaders of Sisters of Silence cadres and the guardians of their traditions. They have earned the respect of their Sisters through years of service, impeccable fighting skills, immense power as Nulls and encyclopaedic knowledge of the witch and the sorcerer.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "anathema psykana",
-    "knight-centura"
-  ],
-  "attributes":[ {
-    "movement": 6,
-    "toughness": 3,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Prosecutors",
-  "Vigilators",
-  "Witchseekers"],
-  "rangedWeapons": [
-    {
-      "name": "Master-crafted boltgun",
-      "range": "24",
-      "modifiers": ["rapid fire 1"],
-      "attacks": 1,
-      "weapons-skills":  2 ,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage":  2
-    },
-    {
-      "name": "Witchseeker flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader",
-      "Scouts 6\""
+    "parentUnit": "Knight-centura",
+    "factionKeywords": [
+        "adeptus custodes"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Seeker’s Instincts",
-        "description": "While this model is leading a unit, add 2'' to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit."
-      },
-      {
-        "name": "Daughter of the Abyss",
-        "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks."
-      },
-      {
-        "name": "Corner the Quarry",
-        "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model’s unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s executioner greatblade can be replaced with one of the following",
-      "items": [
-        "1 master-crafted boltgun and 1 close combat weapon",
-        "1 Witchseeker flamer and 1 close combat weapon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Close combat weapon",
-      "modifiers":  [],
-      "attacks": 3,
-      "weapons-skills":  2 ,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage":  1
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Knight-Centuras are the leaders of Sisters of Silence cadres and the guardians of their traditions. They have earned the respect of their Sisters through years of service, impeccable fighting skills, immense power as Nulls and encyclopaedic knowledge of the witch and the sorcerer.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "anathema psykana",
+        "knight-centura"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Prosecutors",
+        "Vigilators",
+        "Witchseekers"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Master-crafted boltgun",
+            "range": "24",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 2,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Witchseeker flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader",
+            "Scouts 6\""
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Seeker’s Instincts",
+                "description": "While this model is leading a unit, add 2'' to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit."
+            },
+            {
+                "name": "Daughter of the Abyss",
+                "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks."
+            },
+            {
+                "name": "Corner the Quarry",
+                "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model’s unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+            }
+        ]
     },
-    {
-      "name": "Executioner greatblade",
-      "modifiers": ["anti-psyker 4+, devastating wounds"],
-      "attacks": 3,
-      "weapons-skills":  2 ,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage":  2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Knight-Centura",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "executioner greatblade"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 75
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "This model’s executioner greatblade can be replaced with one of the following",
+            "items": [
+                "1 master-crafted boltgun and 1 close combat weapon",
+                "1 Witchseeker flamer and 1 close combat weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Executioner greatblade",
+            "modifiers": [
+                "anti-psyker 4+, devastating wounds"
+            ],
+            "attacks": 3,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Knight-Centura",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "executioner greatblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "additionalParameter": {}
 }

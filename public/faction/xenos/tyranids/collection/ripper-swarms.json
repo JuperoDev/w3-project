@@ -1,14 +1,16 @@
 {
     "parentUnit": "ripper swarms",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 2,
-        "save": 6,
-        "wounds": 4,
-        "leadership": 8,
-        "objetiveControl": 0,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 2,
+            "save": 6,
+            "wounds": 4,
+            "leadership": 8,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Living carpets of Rippers squirm across the ground wherever the Tyranid swarms advance. Little more than simple eating machines, these chitinous horrors swarm over the wounded and dead alike, and can even drag down trained warriors in sufficient numbers. Once a Ripper’s fangs sink home, it will not let go… ",
     "factionKeyword": [
@@ -27,62 +29,75 @@
             "strength": 2,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": ["sustained hits 1"]
+            "modifiers": [
+                "sustained hits 1"
+            ]
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [1],
-        "points": 20
-      },
-      {
-          "count": [2],
-          "points": 40
+        {
+            "count": [
+                1
+            ],
+            "points": 20
         },
         {
-            "count": [3],
+            "count": [
+                2
+            ],
+            "points": 40
+        },
+        {
+            "count": [
+                3
+            ],
             "points": 60
-          }
+        }
     ],
     "wargear": [
-        {"description":"All models in this unit can each be equipped with 1 spinemaws."}
-     ],
-     "unitComposition": [
-         {
-             "unitType": "ripper swarms",
-             "minQuantity": 1,
-             "maxQuantity": 3,
-             "equipment": [
-               "chitinous claws and teeth"
-             ]
-         }
-     ],
-     "abilities": {
-       "core": [
-         "Deep Strike"
-       ],
-       "faction": [
-         "Synapse"
-       ],
-       "otherAbilities": [{"name":
-         "Chitinous Horrors (Aura):","description": "While an enemy unit is within Engagement Range of this unit, halve the Objective Control characteristic of models in that enemy unit."
-       }]
-     },
-
-     "additionalParameter": {},
-     "damaged": {},
-     "rangedWeapons": [
-      {
-        "name": "spinemaws",
-        "range": 6,
-        "attacks": 4,
-        "ballistic-skills": 5,
-        "strength": 3,
-        "armor-penetration": 0,
-        "damage": 1,
-        "modifiers": [
-          "pistol"
-        ]}]
+        {
+            "description": "All models in this unit can each be equipped with 1 spinemaws."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "ripper swarms",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "equipment": [
+                "chitinous claws and teeth"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Chitinous Horrors (Aura):",
+                "description": "While an enemy unit is within Engagement Range of this unit, halve the Objective Control characteristic of models in that enemy unit."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {},
+    "rangedWeapons": [
+        {
+            "name": "spinemaws",
+            "range": 6,
+            "attacks": 4,
+            "ballistic-skills": 5,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "pistol"
+            ]
+        }
+    ]
 }

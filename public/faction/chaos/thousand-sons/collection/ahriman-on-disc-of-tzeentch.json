@@ -1,112 +1,116 @@
 {
-  "parentUnit": "Ahriman On Disc Of Tzeentch",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ahriman fights with singular focus and frightening determination. At range he unleashes storms of psychic fury that transmogrify, mutate and erase from existence all who stand before him. Swooping low upon his Disc of Tzeentch, the Arch-Sorcerer strikes down any who survive with his terrifying Black Staff.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "fly",
-    "chaos",
-    "tzeentch",
-    "ahriman on disc of tzeentch"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 4,
-      "save": 3,
-      "wounds": 6,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": [
-    "rubric marines"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Inferno bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Ahriman On Disc Of Tzeentch",
+    "factionKeyword": [
+        "thousand sons"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ahriman fights with singular focus and frightening determination. At range he unleashes storms of psychic fury that transmogrify, mutate and erase from existence all who stand before him. Swooping low upon his Disc of Tzeentch, the Arch-Sorcerer strikes down any who survive with his terrifying Black Staff.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "fly",
+        "chaos",
+        "tzeentch",
+        "ahriman on disc of tzeentch"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "rubric marines"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Inferno bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Psychic Stalk",
+            "modifiers": [
+                "precision",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Black Staff of Ahriman",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 3,
+            "modifiers": [
+                "psychic"
+            ],
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 3"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rubric Lord:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll ."
+            },
+            {
+                "name": "Arch-Sorcerer of Tzeentch (Psychic):",
+                "description": "Once per battle, you can select this model to use a Ritual for 0 Cabal points . If you do, all the other rules for using Rituals still apply."
+            }
+        ]
     },
-    {
-      "name": "Psychic Stalk",
-      "modifiers": [
-        "precision",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": "d6",
-      "singleChoice": false
-    }
-  ],
-  "meleeWeapons":[{
-    
-      "name": "Black Staff of Ahriman",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 3,
-      "modifiers": ["psychic"],
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "1 Ahriman – EPIC HERO ",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "inferno bolt pistol",
+                " Psychic Stalk",
+                " Black Staff of Ahriman."
+            ]
+        }
     ],
-    "faction": [
-      "Cabal of Sorcerers 3"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 140
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Rubric Lord:",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll ."
-      },
-      {
-        "name": "Arch-Sorcerer of Tzeentch (Psychic):",
-        "description": "Once per battle, you can select this model to use a Ritual for 0 Cabal points . If you do, all the other rules for using Rituals still apply."
-      }
-    ]
-  },
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "1 Ahriman – EPIC HERO ",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "inferno bolt pistol"," Psychic Stalk"," Black Staff of Ahriman."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 140
-    }
-  ],
-  "wargear": []
+    "wargear": []
 }

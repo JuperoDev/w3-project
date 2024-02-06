@@ -41,16 +41,21 @@
     ],
     "rangedWeapons": [
         {
-         "name": "psychic scream",
-         "range": 18,
-         "attacks": "2d6",
-         "ballistic-skills": "n/a",
-         "strength": 5,
-         "armor-penetration": 1,
-         "damage": 2,
-         "modifiers": ["ignores cover", "psychic", "torrent"],
-         "singleChoice": false
-       }],
+            "name": "psychic scream",
+            "range": 18,
+            "attacks": "2d6",
+            "ballistic-skills": "n/a",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [
+                "ignores cover",
+                "psychic",
+                "torrent"
+            ],
+            "singleChoice": false
+        }
+    ],
     "supremeCommander": false,
     "options": [
         {
@@ -66,8 +71,8 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-              "psychic scream",
-              "neurotyrant claws and lashes"
+                "psychic scream",
+                "neurotyrant claws and lashes"
             ]
         }
     ],
@@ -93,7 +98,6 @@
             }
         ]
     },
-
     "additionalParameter": {},
     "damaged": {}
 }

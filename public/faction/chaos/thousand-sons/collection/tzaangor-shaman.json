@@ -1,100 +1,102 @@
 {
-  "parentUnit": "Tzaangor Shaman",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Tzaangor Shamans possess prodigious sorcerous abilities that stem from their faith in Tzeentch, and can unleash ferocious psychic bombardments against the foe as they soar high upon their daemonic Discs. The mere presence of these bestial champions inspires the herds they lead to ever greater heights of violence.",
-  "keywords": [
-    "mounted",
-    "character",
-    "fly",
-    "psyker",
-    "chaos",
-    "tzeentch",
-    "tzaangor shaman"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 4,
-      "save": 5,
-      "wounds": 4,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 6
-    }
-  ],
-  "leader": [
-    "tzaangor enlightened",
-    "tzaangors"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Mutating orbs",
-      "modifiers": [
-        "blast",
-        "devastating wounds",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Tzaangor Shaman",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-      "Cabal of Sorcerers 1"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Tzaangor Shamans possess prodigious sorcerous abilities that stem from their faith in Tzeentch, and can unleash ferocious psychic bombardments against the foe as they soar high upon their daemonic Discs. The mere presence of these bestial champions inspires the herds they lead to ever greater heights of violence.",
+    "keywords": [
+        "mounted",
+        "character",
+        "fly",
+        "psyker",
+        "chaos",
+        "tzeentch",
+        "tzaangor shaman"
     ],
-    "otherAbilities": [{
-      "name": "Dark Blessing (Psychic)",
-      "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 4,
+            "save": 5,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [
+        "tzaangor enlightened",
+        "tzaangors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Mutating orbs",
+            "modifiers": [
+                "blast",
+                "devastating wounds",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 1"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Dark Blessing (Psychic)",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Bestial Prophet:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+            }
+        ]
     },
-    {
-      "name": "Bestial Prophet:",
-      "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
-    }]
-  },
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Tzaangor Shaman",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "mutating orbs; Shaman’s stave"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 60
-    }
-  ],
-  "wargear": [],
-  "meleeWeapons": [
-    {
-      "name": "Shaman’s stave",
-      "modifiers": [
-        "psychic"
-      ],
-      "strength": 5,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    }
-  ]
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Tzaangor Shaman",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "mutating orbs; Shaman’s stave"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        }
+    ],
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Shaman’s stave",
+            "modifiers": [
+                "psychic"
+            ],
+            "strength": 5,
+            "attacks": 3,
+            "weapons-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        }
+    ]
 }

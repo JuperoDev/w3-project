@@ -1,97 +1,104 @@
 {
-  "parentUnit": "Regimental Enginseer",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Adepts of the Omnissiah, Enginseers are robed machine-mystics tasked with using arcane lore and cybernetic arrays to effect battlefield repairs upon damaged fighting machines. To them, every war engine is a priceless artefact of technology, whose spirit need only be roused once more to take revenge on the enemy.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "regimental enginseer"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Cadian Shock Troops",
-  "Catachan Jungle Fighters",
-  "Death Korps Of Krieg",
-  "Infantry Squad",
-  "Kasrkin",
-  "Munitorum Servitors"],
-  "rangedWeapons": [
-    {
-      "name": "Archeotech pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Regimental Enginseer",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "archeotech pistol; Enginseer axe; servo-arm."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Enginseer axe",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Adepts of the Omnissiah, Enginseers are robed machine-mystics tasked with using arcane lore and cybernetic arrays to effect battlefield repairs upon damaged fighting machines. To them, every war engine is a priceless artefact of technology, whose spirit need only be roused once more to take revenge on the enemy.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "regimental enginseer"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Infantry Squad",
+        "Kasrkin",
+        "Munitorum Servitors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Archeotech pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "archeotech pistol; Enginseer axe; servo-arm."
+            }
+        ]
     },
-    {
-      "name": "Servo-arm",
-      "modifiers": "extraattacks",
-      "attacks": 1,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Regimental Enginseer",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-         " archeotech pistol", "Enginseer axe", "servo-arm"
-          ]
-      }
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Enginseer axe",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Servo-arm",
+            "modifiers": "extraattacks",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 45
-      }
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Regimental Enginseer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " archeotech pistol",
+                "Enginseer axe",
+                "servo-arm"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 45
+        }
     ]
 }

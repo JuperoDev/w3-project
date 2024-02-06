@@ -35,7 +35,8 @@
             "damage": 2,
             "modifiers": []
         }
-    ], "rangedWeapons": [
+    ],
+    "rangedWeapons": [
         {
             "name": "tyrannocyte bio-weapons",
             "range": 24,
@@ -63,24 +64,26 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-              "tyrannocyte bio-weapons",
-              "flensing whips"
+                "tyrannocyte bio-weapons",
+                "flensing whips"
             ]
         }
     ],
     "abilities": {
-      "core": [
-        "Deadly Demise D3",
-        "Deep Strike"
-      ],
-      "faction": [
-        "Synapse"
-      ],
-      "otherAbilities": [{"name":
-        "Aerial Seeding:","description": "This model must start the battle in Reserves , but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9\" away from all enemy models. After this model has been set up on the battlefield, no units can embark within it."
-      }]
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Aerial Seeding:",
+                "description": "This model must start the battle in Reserves , but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9\" away from all enemy models. After this model has been set up on the battlefield, no units can embark within it."
+            }
+        ]
     },
-
     "additionalParameter": {},
     "damaged": {},
     "transport": "This model has a transport capacity of 20 TYRANIDS INFANTRY models, or 1 TYRANIDS MONSTER model with a Wounds characteristic of 12 or less. Each INFANTRY model with a Wounds characteristic of more than 1 takes up the space of 3 models."

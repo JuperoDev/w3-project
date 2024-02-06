@@ -1,14 +1,16 @@
 {
     "parentUnit": "venomthropes",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Venomthropes drift forward amidst miasmal clouds of spores that spew from within their bodies. The touch of their tendrils is extremely poisonous, and those exposed to the Venomthropes’ spore clouds for any length of time drown on their own frothing fluids as they dissolve from the inside out. ",
     "factionKeyword": [
@@ -20,7 +22,7 @@
         "great devourer",
         "venomthropes"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "toxic lashes",
@@ -29,21 +31,25 @@
             "strength": 3,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": ["anti-infantry 2+"]
+            "modifiers": [
+                "anti-infantry 2+"
+            ]
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [3],
-        "points": 70
-      },
-      {
-          "count": [6],
-          "points": 140
+        {
+            "count": [
+                3
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 140
         }
-
     ],
     "unitComposition": [
         {
@@ -51,22 +57,24 @@
             "minQuantity": 3,
             "maxQuantity": 6,
             "equipment": [
-              "toxic lashes"
+                "toxic lashes"
             ]
         }
     ],
     "abilities": {
-      "core": [
-        "Stealth"
-      ],
-      "faction": [
-        "Synapse"
-      ],
-      "otherAbilities": [{"name":
-        "Foul Spores (Aura):","description": "While a friendly TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS unit is within 6\" of this unit, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack. In addition, while a friendly TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS unit (excluding MONSTERS ) is within 6\" of this unit, models in that unit have the Stealth ability."
-      }]
+        "core": [
+            "Stealth"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Foul Spores (Aura):",
+                "description": "While a friendly TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS unit is within 6\" of this unit, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack. In addition, while a friendly TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS TYRANIDS unit (excluding MONSTERS ) is within 6\" of this unit, models in that unit have the Stealth ability."
+            }
+        ]
     },
-
     "additionalParameter": {},
     "damaged": {}
 }

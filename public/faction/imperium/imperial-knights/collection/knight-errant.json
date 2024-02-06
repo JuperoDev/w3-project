@@ -1,208 +1,208 @@
 {
-  "parentUnit": "Knight Errant",
-  "factionKeyword": [
-    "imperial knights"
-  ],
-  "damaged": {
-    "remainingWounds": 7,
-    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "These aggressive, mid- to close-range assault Knights excel at hunting enemy tanks and monsters thanks to their powerful thermal cannons, reaper chainswords and thunderstrike gauntlets, and typically plunge into the fiercest fighting.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "titanic",
-    "towering",
-    "questoris",
-    "character",
-    "imperium",
-    "knight errant"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 12,
-      "save": 3,
-      "wounds": 22,
-      "leadership": 6,
-      "objetiveControl": 10,
-      "invulnerableSave": 5
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Icarus autocannons",
-      "modifiers": [
-        "anti-fly 2+",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 7,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Ironstorm missile pod",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": "d6+1",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Stormspear rocket pod",
-      "modifiers": [],
-      "range": 48,
-      "strength": 10,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Thermal cannon",
-      "modifiers": [
-        "blast",
-        "melta 6"
-      ],
-      "range": 24,
-      "strength": 12,
-      "attacks": "2d3",
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Knight Errant",
+    "factionKeyword": [
+        "imperial knights"
     ],
-    "faction": [
-      "Code Chivalric",
-      "Super-heavy Walker"
+    "damaged": {
+        "remainingWounds": 7,
+        "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "These aggressive, mid- to close-range assault Knights excel at hunting enemy tanks and monsters thanks to their powerful thermal cannons, reaper chainswords and thunderstrike gauntlets, and typically plunge into the fiercest fighting.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "titanic",
+        "towering",
+        "questoris",
+        "character",
+        "imperium",
+        "knight errant"
     ],
-    "otherAbilities": [
-      {
-        "name": "Errant’s Duty (Bondsman):",
-        "description": "While a model is affected by this ability, you can re-roll Advance rolls made for that model and its ranged weapons have the [ASSAULT] ability."
-      },
-      {
-        "name": "Aggressive Assault:",
-        "description": "Each time this model makes a ranged attack against the closest eligible target, add 1 to the Hit roll ."
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 22,
+            "leadership": 6,
+            "objetiveControl": 10,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Icarus autocannons",
+            "modifiers": [
+                "anti-fly 2+",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 7,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Ironstorm missile pod",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": "d6+1",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Stormspear rocket pod",
+            "modifiers": [],
+            "range": 48,
+            "strength": 10,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Thermal cannon",
+            "modifiers": [
+                "blast",
+                "melta 6"
+            ],
+            "range": 24,
+            "strength": 12,
+            "attacks": "2d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Code Chivalric",
+            "Super-heavy Walker"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Errant’s Duty (Bondsman):",
+                "description": "While a model is affected by this ability, you can re-roll Advance rolls made for that model and its ranged weapons have the [ASSAULT] ability."
+            },
+            {
+                "name": "Aggressive Assault:",
+                "description": "Each time this model makes a ranged attack against the closest eligible target, add 1 to the Hit roll ."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 450
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Knight Errant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "meltagun",
+                "thermal cannon",
+                "reaper chainsword."
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "name": "Reaper chainsword – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 14,
+            "armor-penetration": 6,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Reaper chainsword – sweep",
+            "attacks": 12,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Thunderstrike gauntlet – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 20,
+            "armor-penetration": 3,
+            "damage": 8,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Thunderstrike gauntlet – sweep",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Balemace",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "extra attacks"
+            ]
+        },
+        {
+            "name": "Electroscourge",
+            "attacks": 9,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": [
+                "sustained hits 1"
+            ]
+        }
     ]
-  },
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 450
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Knight Errant",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "meltagun",
-        "thermal cannon",
-        "reaper chainsword."
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "name": "Reaper chainsword – strike",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 14,
-      "armor-penetration": 6,
-      "damage": 3,
-      "modifiers": [],
-      "singleChoice":true
-    },
- {
-      "name": "Reaper chainsword – sweep",
-      "attacks": 12,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [],
-      "singleChoice":true
-    },
- {
-      "name": "Thunderstrike gauntlet – strike",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 20,
-      "armor-penetration": 3,
-      "damage": 8,
-      "modifiers": [],
-      "singleChoice":true
-    },
- {
-      "name": "Thunderstrike gauntlet – sweep",
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": [],
-      "singleChoice":true
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Balemace",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": [
-        "extra attacks"
-      ]
-    },
-    {
-      "name": "Electroscourge",
-      "attacks": 9,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 3,
-      "modifiers": [
-        "sustained hits 1"
-      ]
-    }
-  ]
 }

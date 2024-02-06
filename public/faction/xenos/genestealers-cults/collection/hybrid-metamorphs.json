@@ -1,113 +1,130 @@
 {
-  "parentUnit": "Hybrid Metamorphs",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Triggered by the approach of a hive fleet or a sudden trauma to the cult, Hybrid Metamorphs mutate from early generations of the brood cycle. Dormant gene-codes burst to life, bestowing weaponised limbs, ghastly bio-acidic glands and other so-called blessings upon these creatures, transforming them into devastating shock troops.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "great devourer",
-    "hybrid metamorphs"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Autopistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hand flamer",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Scouts 6''"
+    "parentUnit": "Hybrid Metamorphs",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-      "Cult Ambush"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Triggered by the approach of a hive fleet or a sudden trauma to the cult, Hybrid Metamorphs mutate from early generations of the brood cycle. Dormant gene-codes burst to life, bestowing weaponised limbs, ghastly bio-acidic glands and other so-called blessings upon these creatures, transforming them into devastating shock troops.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "great devourer",
+        "hybrid metamorphs"
     ],
-    "otherAbilities": [{
-      "name":"Savage Amalgam",
-      "description":"Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
-    }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Metamorph Leader",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["autopistol","leader's cult weapons"]
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hand flamer",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Scouts 6''"
+        ],
+        "faction": [
+            "Cult Ambush"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Savage Amalgam",
+                "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
+            }
+        ]
     },
-    {
-      "unitType": "Hybrid Metamorphs",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": ["autopistol","Metamorph mutations"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4
-      ],
-      "points": 80
-    },
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 160}],
-      "wargear": [{"description":"Any number of models can each have their autopistol replaced with 1 hand flamer."},{"description":"One Hybrid Metamorph’s autopistol can be replaced with 1 cult icon."}],
-
-      "meleeWeapons": [
-          {
-              "name": "Leader’s cult weapons",
-              "attacks": 5,
-              "weapons-skills": 3,
-              "strength": 5,
-              "armor-penetration": 1,
-              "damage": 1,
-              "modifiers": []
-          },
-          {
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Metamorph Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "autopistol",
+                "leader's cult weapons"
+            ]
+        },
+        {
+            "unitType": "Hybrid Metamorphs",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "autopistol",
+                "Metamorph mutations"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 80
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 160
+        }
+    ],
+    "wargear": [
+        {
+            "description": "Any number of models can each have their autopistol replaced with 1 hand flamer."
+        },
+        {
+            "description": "One Hybrid Metamorph’s autopistol can be replaced with 1 cult icon."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Leader’s cult weapons",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
             "name": "Metamorph mutations – strike",
             "attacks": 3,
             "weapons-skills": 4,
@@ -115,23 +132,23 @@
             "armor-penetration": 1,
             "damage": 2,
             "modifiers": [],
-            "singleChoice":true
+            "singleChoice": true
         },
         {
-          "name": "Metamorph mutations – sweep",
-          "attacks": 5,
-          "weapons-skills": 4,
-          "strength": 4,
-          "armor-penetration": 1,
-          "damage": 1,
-          "modifiers": [],
-          "singleChoice":true
-      }
-      ],
-      "warGearAbilities":[
-        {
-          "wargear":"Cult Icon",
-          "ability":"In the Reinforcements step of your Movement phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+            "name": "Metamorph mutations – sweep",
+            "attacks": 5,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
         }
-      ]
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Cult Icon",
+            "ability": "In the Reinforcements step of your Movement phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+        }
+    ]
 }

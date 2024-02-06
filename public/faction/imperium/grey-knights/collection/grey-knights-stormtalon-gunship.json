@@ -1,156 +1,162 @@
 {
-  "parentUnit": "Grey Knights Stormtalon Gunship",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Stormtalon Gunships are highly manoeuvrable aircraft as versatile in role as in their choice of target. Often running escort duties for larger craft, they hunt down warp-spawned foes. Using vectored afterburners, their pilots unleash ground attacks, saturating teleportation zones with fire and clearing them for their brothers.",
-  "keywords": [
-    "vehicle",
-    "aircraft",
-    "fly",
-    "imperium",
-    "stormtalon gunship"
-  ],
-  "attributes": [{
-    "movement": 20,
-    "toughness": 8,
-    "salvation": 3,
-    "wounds": 10,
-    "leadership": 6,
-    "objectiveControl": 0,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Skyhammer missile launcher",
-      "modifiers": [
-        "anti-fly 2+"
-      ],
-      "range": 48,
-      "strength": 8,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Twin assault cannon",
-      "modifiers": ["devastating wounds","twin-linked"],
-      "range":24,
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Typhoon missile launcher - frag",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 48,
-      "strength": 4,
-      "attacks": "2d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Typhoon missile launcher - krak",
-      "modifiers": [
-        
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": "d6",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Hover"
+    "parentUnit": "Grey Knights Stormtalon Gunship",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "skyhammer missile launcher; twin assault cannon; armoured hull."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s skyhammer missile launcher can be replaced with one of the following",
-      "items": [
-        "1 twin heavy bolter",
-        "1 twin lascannon",
-        "1 typhoon missile launcher"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Armoured hull",
-      "modifiers": [ ],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Stormtalon Gunship",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["skyhammer missile launcher", "twin assault cannon","armoured hull."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 170
-    }
-  ],
-  "additionalParameter": {}
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Stormtalon Gunships are highly manoeuvrable aircraft as versatile in role as in their choice of target. Often running escort duties for larger craft, they hunt down warp-spawned foes. Using vectored afterburners, their pilots unleash ground attacks, saturating teleportation zones with fire and clearing them for their brothers.",
+    "keywords": [
+        "vehicle",
+        "aircraft",
+        "fly",
+        "imperium",
+        "stormtalon gunship"
+    ],
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 8,
+            "salvation": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objectiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Skyhammer missile launcher",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Twin assault cannon",
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "range": 24,
+            "attacks": 6,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Typhoon missile launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Typhoon missile launcher - krak",
+            "modifiers": [],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Hover"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "skyhammer missile launcher; twin assault cannon; armoured hull."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s skyhammer missile launcher can be replaced with one of the following",
+            "items": [
+                "1 twin heavy bolter",
+                "1 twin lascannon",
+                "1 typhoon missile launcher"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Stormtalon Gunship",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "skyhammer missile launcher",
+                "twin assault cannon",
+                "armoured hull."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 170
+        }
+    ],
+    "additionalParameter": {}
 }

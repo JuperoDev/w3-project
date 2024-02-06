@@ -1,88 +1,94 @@
 {
-  "parentUnit": "Royal Warden",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Royal Wardens ensure their lord’s will is carried out by the dynasty’s vast armies. They possess the initiative to adapt the strategies of the phalanxes under their command with engrammatic logic. While they retain independence of thought, protocols buried deep within their living metal cortices render them unquestioningly loyal.",
-  "keywords": [
-    "infantry",
-    "character",
-    "royal warden"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": ["Immortals",
-  "Necron Warriors"],
-  "rangedWeapons": [
-    {
-      "name": "Relic gauss blaster",
-      "modifiers": [
-        "lethal hits",
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Royal Warden",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Royal Wardens ensure their lord’s will is carried out by the dynasty’s vast armies. They possess the initiative to adapt the strategies of the phalanxes under their command with engrammatic logic. While they retain independence of thought, protocols buried deep within their living metal cortices render them unquestioningly loyal.",
+    "keywords": [
+        "infantry",
+        "character",
+        "royal warden"
     ],
-    "otherAbilities": [
-      {
-        "name": "Adaptive Strategy ",
-        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [HEAVY] and [ASSAULT] abilities."
-      },
-      {
-        "name": "Engrammatic Logic ",
-        "description": "Once per battle, at the start of any phase, you can select one friendly NECRONS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
-      }
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Immortals",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Relic gauss blaster",
+            "modifiers": [
+                "lethal hits",
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Adaptive Strategy ",
+                "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [HEAVY] and [ASSAULT] abilities."
+            },
+            {
+                "name": "Engrammatic Logic ",
+                "description": "Once per battle, at the start of any phase, you can select one friendly NECRONS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Royal Warden",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "relic gauss blaster; close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 40
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Royal Warden",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["relic gauss blaster; close combat weapon."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 40
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Close combat weapon",
-         "attacks": 4,
-         "weapons-skills": 3,
-         "strength": 5,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
 }

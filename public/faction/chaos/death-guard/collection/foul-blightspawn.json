@@ -1,72 +1,70 @@
 {
-  "parentUnit": "Foul Blightspawn",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Upon a Foul Blightspawn’s back is a malignant churn. As he cranks its rusted handle, he mixes a foul concoction of bubbling diseases and pollutants. Once satisfied his burbling blend of choking stew is ready, he levels his plague sprayer at the foe. Out his mixture surges like projectile vomit, melting whatever it touches.",
-  "keywords": [
-    "infantry",
-    "character",
-    "chaos",
-    "nurgle",
-    "grenades",
-    "foul blightspawn"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Plague sprayer",
-      "modifiers": [
-        "anti-infantry 2+",
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Foul Blightspawn",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Upon a Foul Blightspawn’s back is a malignant churn. As he cranks its rusted handle, he mixes a foul concoction of bubbling diseases and pollutants. Once satisfied his burbling blend of choking stew is ready, he levels his plague sprayer at the foe. Out his mixture surges like projectile vomit, melting whatever it touches.",
+    "keywords": [
+        "infantry",
+        "character",
+        "chaos",
+        "nurgle",
+        "grenades",
+        "foul blightspawn"
     ],
-    "otherAbilities": [
-      {
-        "name": "Putrefying Stink:",
-        "description": "While this model is leading a unit, models in that unit have the Fights First ability."
-      }
+    "attributes": {
+        "movement": 5,
+        "toughness": 5,
+        "save": 3,
+        "wounds": 4,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Plague sprayer",
+            "modifiers": [
+                "anti-infantry 2+",
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Putrefying Stink:",
+                "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

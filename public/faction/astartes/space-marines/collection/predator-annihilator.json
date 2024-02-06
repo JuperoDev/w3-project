@@ -1,150 +1,153 @@
 {
-  "parentUnit": "Predator Annihilator",
-  "factionKeyword": [
-    "adeptus astartes"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Predator Annihilators excel at leading armoured spearheads, moving at high speed and firing all the while. Their crews take pride in their particularly ferocious machine spirits, and gladly thunder into the fiercest fighting to blow apart enemy armoured columns and dense bunker complexes.",
-  "keywords": [
-    "vehicle",
-    "smoke",
-    "imperium",
-    "predator annihilator"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 11,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Predator twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": "D6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Lascannon",
-      "range": 48,
-      "modifiers": [],
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Predator Annihilator",
+    "factionKeyword": [
+        "adeptus astartes"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "Oath of Moment"
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "2 heavy bolters",
-        "2 lascannons"
-      ]
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model can be equipped with 1 hunter-killer missile.",
-      "items": []
+    "supremeCommander": false,
+    "lore": "Predator Annihilators excel at leading armoured spearheads, moving at high speed and firing all the while. Their crews take pride in their particularly ferocious machine spirits, and gladly thunder into the fiercest fighting to blow apart enemy armoured columns and dense bunker complexes.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "imperium",
+        "predator annihilator"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Predator twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "attacks": 1,
+            "strength": 14,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "Oath of Moment"
+            }
+        ]
     },
-    {
-      "description": "This model can be equipped with 1 storm bolter.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 heavy bolters",
+                "2 lascannons"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

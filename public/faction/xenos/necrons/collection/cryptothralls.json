@@ -1,78 +1,86 @@
 {
-  "parentUnit": "Cryptothralls",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Some Crypteks are accompanied by bound Cryptothralls that act as slaves and bodyguards. These hunched and sinister beings are not truly sentient, but are rather construct creatures enslaved to the Cryptek’s will and engrammatically compelled to protect their master with their living metal bodies and fierce, short-ranged weaponry.",
-  "keywords": [
-    "infantry",
-    "cryptothralls"
-  ],
-  "attributes": [{
-    
-    "movement": 5,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 3,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [ {
-    "name": "scouring eye",
-    "modifiers": [
-    
+    "parentUnit": "Cryptothralls",
+    "factionKeyword": [
+        "necrons"
     ],
-    "range": 6,
-    "strength": 5,
-    "attacks": 2,
-    "ballistic-skills": 4,
-    "armor-penetration": 1,
-    "damage": 1,
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Some Crypteks are accompanied by bound Cryptothralls that act as slaves and bodyguards. These hunched and sinister beings are not truly sentient, but are rather construct creatures enslaved to the Cryptek’s will and engrammatically compelled to protect their master with their living metal bodies and fierce, short-ranged weaponry.",
+    "keywords": [
+        "infantry",
+        "cryptothralls"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
     ],
-    "otherAbilities": [{"name":
-      "Bound Creation ","description": "While this unit is in the same unit as a CRYPTEK model, that CRYPTEK model has the Feel No Pain 4+ ability."},{"name":
-      "Systematic Vigour ","description": "Each time a CRYPTOTHRALL model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 3+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Cryptothralls",
-       "minQuantity": 2,
-       "maxQuantity": 2,
-       "equipment": ["scouring eye","scythed limbs."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [2],
-       "points": 60
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Scythed limbs",
-         "attacks": 4,
-         "weapons-skills": 4,
-         "strength": 5,
-         "armor-penetration": 1,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "scouring eye",
+            "modifiers": [],
+            "range": 6,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Bound Creation ",
+                "description": "While this unit is in the same unit as a CRYPTEK model, that CRYPTEK model has the Feel No Pain 4+ ability."
+            },
+            {
+                "name": "Systematic Vigour ",
+                "description": "Each time a CRYPTOTHRALL model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 3+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and it is then removed from play."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Cryptothralls",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "scouring eye",
+                "scythed limbs."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                2
+            ],
+            "points": 60
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Scythed limbs",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

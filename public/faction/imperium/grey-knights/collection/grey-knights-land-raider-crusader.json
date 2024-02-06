@@ -1,156 +1,161 @@
 {
-  "parentUnit": "Grey Knights Land Raider Crusader",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "From its enlarged troop compartment, the Land Raider Crusader delivers a potent cargo of warriors into the presence of the foulest of daemons. All the while, the tank’s hurricane bolters and twin assault cannons tear apart whole swathes of the Chaos Gods’ servants.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "smoke",
-    "grenades",
-    "imperium",
-    "land raider",
-    "crusader"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 12,
-    "salvation": 2,
-    "wounds": 16,
-    "leadership": 6,
-    "objectiveControl": 5,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Hunter-killer missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Hurricane bolter",
-      "modifiers": [
-        "rapid fire 6",
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-     {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin assault cannon",
-      "modifiers": [
-        "devastating wounds",
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Grey Knights Land Raider Crusader",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Assault Ramp:",
-        "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 hunter-killer missile.",
-      "items": []
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model can be equipped with 1 multi-melta.",
-      "items": []
+    "supremeCommander": false,
+    "lore": "From its enlarged troop compartment, the Land Raider Crusader delivers a potent cargo of warriors into the presence of the foulest of daemons. All the while, the tank’s hurricane bolters and twin assault cannons tear apart whole swathes of the Chaos Gods’ servants.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "smoke",
+        "grenades",
+        "imperium",
+        "land raider",
+        "crusader"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 12,
+            "salvation": 2,
+            "wounds": 16,
+            "leadership": 6,
+            "objectiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Hurricane bolter",
+            "modifiers": [
+                "rapid fire 6",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin assault cannon",
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Assault Ramp:",
+                "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+            }
+        ]
     },
-    {
-      "description": "This model can be equipped with 1 storm bolter.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Armoured tracks",
-      "modifiers": [ ],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Land Raider Crusader",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["2 hurricane bolters","twin assault cannon","armoured tracks."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 230
-    }
-  ],
-  "additionalParameter": {},
-  "transport":"This model has a transport capacity of 16 GREY KNIGHTS INFANTRY models. Each TERMINATOR model takes up the space of 2 models."
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 multi-melta.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Land Raider Crusader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 hurricane bolters",
+                "twin assault cannon",
+                "armoured tracks."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 230
+        }
+    ],
+    "additionalParameter": {},
+    "transport": "This model has a transport capacity of 16 GREY KNIGHTS INFANTRY models. Each TERMINATOR model takes up the space of 2 models."
 }

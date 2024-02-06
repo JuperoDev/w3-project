@@ -19,7 +19,9 @@
             "strength": 7,
             "armor-penetration": 1,
             "damage": 1,
-            "modifiers": ["extra attacks"],
+            "modifiers": [
+                "extra attacks"
+            ],
             "singleChoice": false
         },
         {
@@ -34,63 +36,75 @@
         }
     ],
     "keywords": [
-        "Vehicle", "Walker", "Chaos", "Tzeentch", "Daemon", "Maulerfiend"
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Tzeentch",
+        "Daemon",
+        "Maulerfiend"
     ],
     "factionKeyword": [
         "Thousand Sons"
     ],
-    "wargear": [{"description":"This model’s lasher tendrils can be replaced with 2 magma cutters."}],
+    "wargear": [
+        {
+            "description": "This model’s lasher tendrils can be replaced with 2 magma cutters."
+        }
+    ],
     "abilities": {
         "core": [
-          "Deadly Demise D3",
-          "leader"
+            "Deadly Demise D3",
+            "leader"
         ],
         "faction": [
-          "Blessings of Tzeentch"
+            "Blessings of Tzeentch"
         ],
         "otherAbilities": [
-          {
-            "name": "Prophetic Hunters",
-            "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
-          }
+            {
+                "name": "Prophetic Hunters",
+                "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+            }
         ]
-      },
-      "damaged": {
+    },
+    "damaged": {
         "remainingWounds": 4,
         "description": "each time this model makes an attack, subtract 1 from the Hit roll"
-     },
-     "unitComposition": [
-      {
-        "unitType": "Thousand Sons Maulerfiend",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment":["lasher tendrils","Maulerfiend fists."]
-      }
-    ], "options": [
-      {
-        "count": [1],
-        "points": 155
-      }
+    },
+    "unitComposition": [
+        {
+            "unitType": "Thousand Sons Maulerfiend",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lasher tendrils",
+                "Maulerfiend fists."
+            ]
+        }
     ],
-    "additionalParameter": {
-      },
-      "supremeCommander": false,
-      "leader": [
-         ],
-         "rangedWeapons": [
-             {
-                 "name": "magma cutter",
-                 "range": 6,
-                 "attacks": 2,
-                 "ballistic-skills": 3,
-                 "strength": 9,
-                 "armor-penetration": 4,
-                 "damage": "d6",
-                 "modifiers": ["melta 2"
-                     
-                 ]
-             }
-         ],
-         "lore":"Maulerfiends are ferocious Daemon Engines capable of scaling even sheer fortress walls with their wicked metal talons. Those employed by the Thousand Sons are inescapable, for the daemons within them hunt as much by tracking their prey’s future choices as by the lights of their soulspoor."
-         
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 155
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "magma cutter",
+            "range": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "modifiers": [
+                "melta 2"
+            ]
+        }
+    ],
+    "lore": "Maulerfiends are ferocious Daemon Engines capable of scaling even sheer fortress walls with their wicked metal talons. Those employed by the Thousand Sons are inescapable, for the daemons within them hunt as much by tracking their prey’s future choices as by the lights of their soulspoor."
 }

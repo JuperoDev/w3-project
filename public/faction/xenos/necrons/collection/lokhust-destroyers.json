@@ -1,91 +1,103 @@
 {
-  "parentUnit": "Lokhust Destroyers",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Lokhust Destroyers rely on speed and firepower to annihilate any life they encounter. Their repulsor-sled bodies and augmented kinetic compensators ensure they can fire on the move without reduction in efficiency, and their speed allows them to run even the swiftest prey to ground.",
-  "keywords": [
-    "mounted",
-    "fly",
-    "lokhust destroyers"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 6,
-    "save": 3,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Gauss cannon",
-      "modifiers": [
-        "lethal hits"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Lokhust Destroyers",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lokhust Destroyers rely on speed and firepower to annihilate any life they encounter. Their repulsor-sled bodies and augmented kinetic compensators ensure they can fire on the move without reduction in efficiency, and their speed allows them to run even the swiftest prey to ground.",
+    "keywords": [
+        "mounted",
+        "fly",
+        "lokhust destroyers"
     ],
-    "otherAbilities": [{
-      "name":"Hard-wired for Destruction" , "description":"Each time a model in this unit makes a ranged attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1. If the target of that attack is within range of an objetive marker your opponent controls, you can re-roll the Hit roll instead."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Lokhust Destroyers",
-       "minQuantity": 1,
-       "maxQuantity": 6,
-       "equipment": ["gauss cannon","close combat weapon."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 30
-     },
-     {
-         "count": [2],
-         "points": 60
-       },
-       {
-        "count": [3],
-        "points": 90
-      },
-      {
-        "count": [6],
-        "points": 180
-      }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Close combat weapon",
-         "attacks": 2,
-         "weapons-skills": 3,
-         "strength": 4,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Gauss cannon",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Hard-wired for Destruction",
+                "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1. If the target of that attack is within range of an objetive marker your opponent controls, you can re-roll the Hit roll instead."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Lokhust Destroyers",
+            "minQuantity": 1,
+            "maxQuantity": 6,
+            "equipment": [
+                "gauss cannon",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 30
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                3
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 180
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

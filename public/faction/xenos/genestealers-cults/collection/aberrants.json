@@ -1,110 +1,110 @@
 {
-  "parentUnit": "Aberrants",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "No one truly knows what causes Aberrants to spring up amidst the brood cycle, yet the uses of these lumpen gene-deviants are obvious. Possessed of immense strength and resilience coupled with simplistic loyalty to the cult, they are hurled into battle as line breakers or massed as hulking, expendable bodyguards.",
-  "keywords": [
-    "infantry",
-    "great devourer",
-    "aberrants"
-  ],
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 6,
-      "save": 5,
-      "wounds": 3,
-      "leadership": 7,
-      "objetiveControl": 1,
-      "invulnerableSave": 0
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Feel No Pain 4+"
+    "parentUnit": "Aberrants",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-      "Cult Ambush"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "No one truly knows what causes Aberrants to spring up amidst the brood cycle, yet the uses of these lumpen gene-deviants are obvious. Possessed of immense strength and resilience coupled with simplistic loyalty to the cult, they are hurled into battle as line breakers or massed as hulking, expendable bodyguards.",
+    "keywords": [
+        "infantry",
+        "great devourer",
+        "aberrants"
     ],
-    "otherAbilities": {
-      "name": "Hulking Bodyguards:",
-      "description": "While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll ."
-    }
-  },
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Aberrant Hypermorph",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "heavy power weapon",
-        "hypermorph tail"
-      ]
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 6,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Feel No Pain 4+"
+        ],
+        "faction": [
+            "Cult Ambush"
+        ],
+        "otherAbilities": {
+            "name": "Hulking Bodyguards:",
+            "description": "While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll ."
+        }
     },
-    {
-      "unitType": "Aberrants",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "heavy power weapon"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4
-      ],
-      "points": 185
-    },
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 370
-    }
-  ],
-  "wargear": [
-    {
-      "description": "The Aberrant Hypermorph’s heavy power weapon can be replaced with 1 heavy improvised weapon."
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Heavy power weapon",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": []
-    },
-    {
-      "name": "Hypermorph tail",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "Heavy improvised weapon",
-      "attacks": 5,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 2,
-      "modifiers": []
-    }
-  ]
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Aberrant Hypermorph",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heavy power weapon",
+                "hypermorph tail"
+            ]
+        },
+        {
+            "unitType": "Aberrants",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "heavy power weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 185
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 370
+        }
+    ],
+    "wargear": [
+        {
+            "description": "The Aberrant Hypermorph’s heavy power weapon can be replaced with 1 heavy improvised weapon."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Heavy power weapon",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": []
+        },
+        {
+            "name": "Hypermorph tail",
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Heavy improvised weapon",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 2,
+            "modifiers": []
+        }
+    ]
 }

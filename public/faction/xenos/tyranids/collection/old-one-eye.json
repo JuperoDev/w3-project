@@ -1,15 +1,19 @@
 {
     "parentUnit": "old one eye",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 9,
-        "save": 2,
-        "wounds": 9,
-        "leadership": 8,
-        "objetiveControl": 3,
-        "invulnerableSave": 0
-    }],
-    "leader": ["carnifexes"],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 9,
+            "leadership": 8,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "carnifexes"
+    ],
     "lore": "Known as the Beast of Calth, this unstoppable brute was first seen during the First Tyrannic War. Though many have thought it slain over the centuries, always the scarred monster rises again. Whether it is a Tyranid subgenus or the same unstoppable monster come again is a mystery few in its path live long enough to ponder. ",
     "factionKeyword": [
         "tyranids"
@@ -21,7 +25,7 @@
         "great devourer",
         "old one eye"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Old one eye's claws and talons - strike",
@@ -45,42 +49,43 @@
         }
     ],
     "supremeCommander": false,
-      "options": [
+    "options": [
         {
-          "count": [1],
-          "points": 140
+            "count": [
+                1
+            ],
+            "points": 140
         }
-      ],
-        "unitComposition": [
-            {
-                "unitType": "Old one eye",
-                "minQuantity": 1,
-                "maxQuantity": 1,
-   
-                "equipment": [
-                  "old one eye's claws and talons"
-                ]
-            }
-        ],
-        "abilities": {
-            "core": [
-                "feel no pain 5+", "leader"
-            ],
-            "faction": [
-                "synapse"
-            ],
-            "otherAbilities": [
-                {
-                    "name": "Alpha Leader",
-                    "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
-                },
-                {
-                    "name": "Unstoppable Monster",
-                    "description": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
-                }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Old one eye",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "old one eye's claws and talons"
             ]
-        },
-
-        "additionalParameter": {},
-        "damaged": {}
+        }
+    ],
+    "abilities": {
+        "core": [
+            "feel no pain 5+",
+            "leader"
+        ],
+        "faction": [
+            "synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Alpha Leader",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+            },
+            {
+                "name": "Unstoppable Monster",
+                "description": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {}
 }

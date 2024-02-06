@@ -1,163 +1,163 @@
 {
-  "parentUnit": "Death Guard Land Raider",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Equipped with a fearsome arsenal of weapons and large transport capacity, Land Raiders are destructive and versatile vehicles. Drenched in thick, stinking slime, Death Guard Land Raiders are host to scores of varieties of scratching, biting parasites, and sprout throbbing growths that emit fogs of foetid gas.",
-  "keywords": [
-    "vehicle",
-    "chaos",
-    "nurgle",
-    "transport",
-    "smoke",
-    "land raider"
-  ],
-  "attributes": {
-    "movement": 10,
-    "toughness": 12,
-    "save": 2,
-    "wounds": 16,
-    "leadership": 6,
-    "objetiveControl": 5,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Havoc launcher",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plague combi-bolter",
-      "modifiers": [
-        "lethal hits",
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin plague heavy bolter",
-      "modifiers": [
-        "lethal hits",
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Death Guard Land Raider",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Equipped with a fearsome arsenal of weapons and large transport capacity, Land Raiders are destructive and versatile vehicles. Drenched in thick, stinking slime, Death Guard Land Raiders are host to scores of varieties of scratching, biting parasites, and sprout throbbing growths that emit fogs of foetid gas.",
+    "keywords": [
+        "vehicle",
+        "chaos",
+        "nurgle",
+        "transport",
+        "smoke",
+        "land raider"
     ],
-    "otherAbilities": [
-      {
-        "name": "Assault Ramp:",
-        "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
-      }
+    "attributes": {
+        "movement": 10,
+        "toughness": 12,
+        "save": 2,
+        "wounds": 16,
+        "leadership": 6,
+        "objetiveControl": 5,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague combi-bolter",
+            "modifiers": [
+                "lethal hits",
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin plague heavy bolter",
+            "modifiers": [
+                "lethal hits",
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Assault Ramp:",
+                "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 combi-weapon",
+                "1 plague combi-bolter"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 havoc launcher.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": "blast",
+            "attacks": "D6",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Plague combi-bolter",
+            "modifiers": "lethalhits,rapidfire2",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Soulshatter lascannon",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "4+",
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 combi-weapon",
-        "1 plague combi-bolter"
-      ]
-    },
-    {
-      "description": "This model can be equipped with 1 havoc launcher.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Havoc launcher",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Plague combi-bolter",
-      "modifiers": "lethalhits,rapidfire2",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Soulshatter lascannon",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "4+",
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

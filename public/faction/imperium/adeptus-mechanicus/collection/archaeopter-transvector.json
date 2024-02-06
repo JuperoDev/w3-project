@@ -1,106 +1,110 @@
 {
-  "parentUnit": "Archaeopter Transvector",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ideal aerial insertion transports, Transvectors are used in vast numbers by Explorator fleets for reconnaissance and rapid extraction in the face of hostiles. They are incredibly agile, their implanted pilots able to reshape the wings to suit changing atmospherics, while directing their cognis heavy stubbers to scythe apart oncoming foes.",
-  "keywords": [
-    "vehicle",
-    "aircraft",
-    "transport",
-    "fly",
-    "imperium",
-    "skitarii",
-    "archaeopter transvector"
-  ],
-  "attributes": [
-    {
-      "movement": 20,
-      "toughness": 9,
-      "save": 3,
-      "wounds": 10,
-      "leadership": 7,
-      "objetiveControl": 0,
-      "invulnerableSave": 0
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cognis heavy stubber array",
-      "modifiers": [
-        "rapid fire 9",
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 9,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Deep Strike",
-      "Hover"
+    "parentUnit": "Archaeopter Transvector",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ideal aerial insertion transports, Transvectors are used in vast numbers by Explorator fleets for reconnaissance and rapid extraction in the face of hostiles. They are incredibly agile, their implanted pilots able to reshape the wings to suit changing atmospherics, while directing their cognis heavy stubbers to scythe apart oncoming foes.",
+    "keywords": [
+        "vehicle",
+        "aircraft",
+        "transport",
+        "fly",
+        "imperium",
+        "skitarii",
+        "archaeopter transvector"
     ],
-    "otherAbilities": [
-      {
-        "name": "Aerial Deployment:",
-        "description": "If this model starts the game in Hover mode and in Strategic Reserves , it can be set up in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules."
-      }
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cognis heavy stubber array",
+            "modifiers": [
+                "rapid fire 9",
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 9,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike",
+            "Hover"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Aerial Deployment:",
+                "description": "If this model starts the game in Hover mode and in Strategic Reserves , it can be set up in the Reinforcements step of your first, second or third Movement phase , regardless of any mission rules."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 140
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archaeopter Transvector",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "cognis heavy stubber array",
+                "armoured hull",
+                "command uplink"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s command uplink can be replaced with 1 chaff launcher."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Chaff Launcher",
+            "ability": "The bearer has the Smoke keyword"
+        },
+        {
+            "wargear": "Command Uplink",
+            "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 140
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Archaeopter Transvector",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "cognis heavy stubber array", "armoured hull", "command uplink"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "This model’s command uplink can be replaced with 1 chaff launcher."
-   }
- ],
- "meleeWeapons": [
-  {
-    "name": "Armoured hull",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 6,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
- ],
- "warGearAbilities": [
-  {
-    "wargear": "Chaff Launcher",
-    "ability": "The bearer has the Smoke keyword"
-  },
-  {
-   "wargear": "Command Uplink",
-   "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
- }
- ]
 }

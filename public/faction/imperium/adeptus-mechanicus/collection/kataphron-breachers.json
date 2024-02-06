@@ -1,117 +1,126 @@
 {
-  "parentUnit": "Kataphron Breachers",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Kataphron Breachers are large battle servitors that grind forward on heavy tracks. They are ideal tools for smashing open enemy battle lines and bastions with blasts from heavy weapons and blows from combat attachments, while any enemy firepower is deflected by thick armour and absorbed by layered bionics.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "cult mechanicus",
-    "kataphron",
-    "breachers"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 6
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy arc rifle",
-      "modifiers": [
-        "anti-vehicle 4+",
-        "rapid fire 2"
-      ],
-      "range": 30,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage":3,
-      "singleChoice": false
-    },
-    {
-      "name": "Torsion cannon",
-      "modifiers": [
-        "anti-infantry 2+",
-        "blast"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": "d3",
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Kataphron Breachers",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": ["Doctrina Imperatives"],
-    "otherAbilities": [
-      {
-        "name": "Sentinel Directives",
-        "description": ": Each time a model in this unit makes an attack, re-roll a Hit roll of 1. While this unit is within 6'' of one   or more friendly ADEPTUS MECHANICUS BATTLELINE units, you can re-roll the Hit roll instead."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Kataphron Breachers are large battle servitors that grind forward on heavy tracks. They are ideal tools for smashing open enemy battle lines and bastions with blasts from heavy weapons and blows from combat attachments, while any enemy firepower is deflected by thick armour and absorbed by layered bionics.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "cult mechanicus",
+        "kataphron",
+        "breachers"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy arc rifle",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "rapid fire 2"
+            ],
+            "range": 30,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Torsion cannon",
+            "modifiers": [
+                "anti-infantry 2+",
+                "blast"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sentinel Directives",
+                "description": ": Each time a model in this unit makes an attack, re-roll a Hit roll of 1. While this unit is within 6'' of one   or more friendly ADEPTUS MECHANICUS BATTLELINE units, you can re-roll the Hit roll instead."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                3
+            ],
+            "points": 145
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 190
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Kataphron Breachers",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                " heavy arc rifle",
+                "arc claw"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each have their heavy arc rifle replaced with 1 torsion cannon."
+        },
+        {
+            "description": "Any number of models can each have their arc claw replaced with 1 hydraulic claw."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Arc claw ",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-vehicle 4+"
+            ]
+        },
+        {
+            "name": "Hydraulic claw",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [3],
-     "points": 145
-   },
-   {
-    "count": [6],
-    "points": 190
-  }
- ],
- "unitComposition": [
-     {
-         "unitType": "Kataphron Breachers",
-         "minQuantity": 3,
-         "maxQuantity": 6,
-         "equipment": [
-         " heavy arc rifle", "arc claw"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "Any number of models can each have their heavy arc rifle replaced with 1 torsion cannon."
-   },
-   {
-    "description": "Any number of models can each have their arc claw replaced with 1 hydraulic claw."
-  }
- ],
- "meleeWeapons": [
-   {
-     "name": "Arc claw ",
-     "attacks": 4,
-     "weapons-skills": 4,
-     "strength": 5,
-     "armor-penetration": 1,
-     "damage": 1,
-     "modifiers": ["anti-vehicle 4+"]
-   },
-   {
-    "name": "Hydraulic claw",
-    "attacks": 2,
-    "weapons-skills": 4,
-    "strength": 8,
-    "armor-penetration": 2,
-    "damage": 3,
-    "modifiers": []
-  }
- ]
 }

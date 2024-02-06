@@ -1,113 +1,116 @@
 {
-  "parentUnit": "Thousand Sons Vindicator",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Chaos Vindicator is a brutish siege tank whose demolisher cannon fires devastatingly destructive shells that can flatten bunkers, breach fortress walls or vaporise entire squads of foes in a single hit. The Thousand Sons delight in fielding these vehicles, which effect sudden and catastrophic change with every shot.",
-  "keywords": [
-    "vehicle",
-    "smoke",
-    "chaos",
-    "tzeentch",
-    "vindicator"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 11,
-    "save": 2,
-    "wounds": 11,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Demolisher cannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 14,
-      "attacks": "d6+3",
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "havoc launcher",
-      "range": 48,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "blast"
-      ]
-    },
-    {
-      "name": "Inferno Combi-bolter",
-      "range": 24,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [
-        "rapid fire 2"
-      ]
-    },
-    {
-      "name": "Inferno Combi-weapon",
-      "range": 24,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ]
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Thousand Sons Vindicator",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-   
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Chaos Vindicator is a brutish siege tank whose demolisher cannon fires devastatingly destructive shells that can flatten bunkers, breach fortress walls or vaporise entire squads of foes in a single hit. The Thousand Sons delight in fielding these vehicles, which effect sudden and catastrophic change with every shot.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "chaos",
+        "tzeentch",
+        "vindicator"
     ],
-    "otherAbilities": [{"name":"Siege Shield","description":"When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
-     
-    }]
-  },
-  "unitComposition": [
-    {
-      "unitType": "Thousand Sons Vindicator",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "demolisher cannon", "armoured tracks"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 190
-    }
-  ],
-  "additionalParameter": {}
-  
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Demolisher cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 14,
+            "attacks": "d6+3",
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "havoc launcher",
+            "range": 48,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "blast"
+            ]
+        },
+        {
+            "name": "Inferno Combi-bolter",
+            "range": 24,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "rapid fire 2"
+            ]
+        },
+        {
+            "name": "Inferno Combi-weapon",
+            "range": 24,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Siege Shield",
+                "description": "When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Thousand Sons Vindicator",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "demolisher cannon",
+                "armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 190
+        }
+    ],
+    "additionalParameter": {}
 }

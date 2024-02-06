@@ -1,94 +1,96 @@
 {
-  "parentUnit": "Corpuscarii Electro-priests",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Electro-Priests of the Corpuscarii faction build up huge electrical potential as they zealously chant their canticles of battle. They conduct the Motive Force through their bodies, eager to share its illumination, releasing it from their gauntlets in coruscating arcs of electrical power that leap from target to target.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "cult mechanicus",
-    "corpuscarii",
-    "electro-priests"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 7,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Electrostatic gauntlets",
-      "modifiers": [
-        "pistol",
-        "sustained hits 2"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 5+"
+    "parentUnit": "Corpuscarii Electro-priests",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "electrostatic gauntlets."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Electro-Priests of the Corpuscarii faction build up huge electrical potential as they zealously chant their canticles of battle. They conduct the Motive Force through their bodies, eager to share its illumination, releasing it from their gauntlets in coruscating arcs of electrical power that leap from target to target.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "cult mechanicus",
+        "corpuscarii",
+        "electro-priests"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 7,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Electrostatic gauntlets",
+            "modifiers": [
+                "pistol",
+                "sustained hits 2"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "electrostatic gauntlets."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 120
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Corpuscarii Electro-Priests",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "electrostatic gauntlets"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Electrostatic gauntlets",
+            "modifiers": [
+                "sustained hits 2"
+            ],
+            "strength": 5,
+            "attacks": 3,
+            "weapons-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [5],
-     "points": 60
-   },
-   {
-    "count": [10],
-    "points": 120
-  }
- ],
- "unitComposition": [
-     {
-         "unitType": "Corpuscarii Electro-Priests",
-         "minQuantity": 5,
-         "maxQuantity": 10,
-         "equipment": [
-          "electrostatic gauntlets"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-  
- ],
- "meleeWeapons": [
-  {
-    "name": "Electrostatic gauntlets",
-    "modifiers": [
-     
-      "sustained hits 2"
-    ],
-    
-    "strength": 5,
-    "attacks": 3,
-    "weapons-skills": 4,
-    "armor-penetration": 0,
-    "damage": 1,
-    "singleChoice": false
-  }
- ]
 }

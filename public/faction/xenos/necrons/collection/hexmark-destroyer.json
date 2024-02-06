@@ -1,88 +1,93 @@
 {
-  "parentUnit": "Hexmark Destroyer",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Hexmark Destroyers were once Deathmarks. Bursting from their dimensional oubliettes like ambush predators, these hunchbacked monsters unleash inescapable hails of enmitic fire. Independent ocular targeting and optimised firing patterns leave their prey with no escape.",
-  "keywords": [
-    "infantry",
-    "character",
-    "hexmark destroyer"
-  ],
-  "attributes": [{
-   
-    "movement": 8,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 5,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Enmitic disintegrator pistols",
-      "modifiers": [
-        "pistol",
-        "precision"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Lone Operative"
+    "parentUnit": "Hexmark Destroyer",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Hexmark Destroyers were once Deathmarks. Bursting from their dimensional oubliettes like ambush predators, these hunchbacked monsters unleash inescapable hails of enmitic fire. Independent ocular targeting and optimised firing patterns leave their prey with no escape.",
+    "keywords": [
+        "infantry",
+        "character",
+        "hexmark destroyer"
     ],
-    "otherAbilities": [
-      {
-        "name": "Inescapable Death ",
-        "description": "Once per turn, one unit from your army with this ability can be targeted with the Fire Overwatch Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase. In addition, each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 2+."
-      },
-      {
-        "name": "Multi-threat Eliminator ",
-        "description": "Each time an enemy unit targets a friendly NECRONS unit within 3\" of this model with ranged attacks, after that enemy unit has shot, this model can shoot as if it were your Shooting phase ."
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Enmitic disintegrator pistols",
+            "modifiers": [
+                "pistol",
+                "precision"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Lone Operative"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Inescapable Death ",
+                "description": "Once per turn, one unit from your army with this ability can be targeted with the Fire Overwatch Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase. In addition, each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 2+."
+            },
+            {
+                "name": "Multi-threat Eliminator ",
+                "description": "Each time an enemy unit targets a friendly NECRONS unit within 3\" of this model with ranged attacks, after that enemy unit has shot, this model can shoot as if it were your Shooting phase ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Hexmark Destroyer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "enmitic disintegrator pistols",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 70
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Hexmark Destroyer",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["enmitic disintegrator pistols","close combat weapon"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 70
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Close combat weapon",
-         "attacks": 4,
-         "weapons-skills": 3,
-         "strength": 5,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
 }

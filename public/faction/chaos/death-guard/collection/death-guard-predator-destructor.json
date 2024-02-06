@@ -1,190 +1,190 @@
 {
-  "parentUnit": "Death Guard Predator Destructor",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "These pustule-covered battle tanks provide mobile fire support for advancing infantry. They can shatter infantry formations and cripple enemy armour, all whilst shrugging off storms of return fire.",
-  "keywords": [
-    "vehicle",
-    "chaos",
-    "nurgle",
-    "smoke",
-    "predator destructor"
-  ],
-  "attributes": {
-    "movement": 10,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 11,
-    "leadership": 6,
-    "objetiveControl": 4,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Havoc launcher",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plague combi-bolter",
-      "modifiers": [
-        "lethal hits",
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plague heavy bolter",
-      "modifiers": [
-        "lethal hits",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Predator autocannon",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Death Guard Predator Destructor",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "These pustule-covered battle tanks provide mobile fire support for advancing infantry. They can shatter infantry formations and cripple enemy armour, all whilst shrugging off storms of return fire.",
+    "keywords": [
+        "vehicle",
+        "chaos",
+        "nurgle",
+        "smoke",
+        "predator destructor"
     ],
-    "otherAbilities": [
-      {
-        "name": "Destructor:",
-        "description": "Each time this model makes a ranged attack that targets an INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
-      }
+    "attributes": {
+        "movement": 10,
+        "toughness": 10,
+        "save": 3,
+        "wounds": 11,
+        "leadership": 6,
+        "objetiveControl": 4,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague combi-bolter",
+            "modifiers": [
+                "lethal hits",
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague heavy bolter",
+            "modifiers": [
+                "lethal hits",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Predator autocannon",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Destructor:",
+                "description": "Each time this model makes a ranged attack that targets an INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 lascannons",
+                "2 plague heavy bolters"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 combi-weapon",
+                "1 plague combi-bolter"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 havoc launcher.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": "blast",
+            "attacks": "D6",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [],
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Plague combi-bolter",
+            "modifiers": "lethalhits,rapidfire2",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Plague heavy bolter",
+            "modifiers": "lethalhits,sustainedhits1",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "2 lascannons",
-        "2 plague heavy bolters"
-      ]
-    },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 combi-weapon",
-        "1 plague combi-bolter"
-      ]
-    },
-    {
-      "description": "This model can be equipped with 1 havoc launcher.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Havoc launcher",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Lascannon",
-      "modifiers": [],
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Plague combi-bolter",
-      "modifiers": "lethalhits,rapidfire2",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Plague heavy bolter",
-      "modifiers": "lethalhits,sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

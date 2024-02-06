@@ -1,153 +1,153 @@
 {
-  "parentUnit": "Shield-captain",
-  "factionKeywords": [
-    "adeptus custodes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Shield-Captains are among the greatest warriors in the Imperium. No matter which weapons they wield, they display absolute mastery of them. Their tactical and strategic abilities know few peers, and they read the ebb and flow of a war at a glance before directing their forces accordingly.",
-  "keywords": [
-    "infantry",
-    "character",
-    "imperium",
-    "shield-captain"
-  ],
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 6,
-      "save": 2,
-      "wounds": 6,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": [
-    "Custodian Guard",
-    "Custodian Wardens"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Castellan axe",
-      "range": 24,
-      "modifiers": [
-        "assault"
-      ],
-      "attacks": 2,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Guardian spear",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 24,
-      "attacks": 2,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Sentinel blade",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Shield-captain",
+    "factionKeywords": [
+        "adeptus custodes"
     ],
-    "faction": [
-      "Martial Ka’tah"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Shield-Captains are among the greatest warriors in the Imperium. No matter which weapons they wield, they display absolute mastery of them. Their tactical and strategic abilities know few peers, and they read the ebb and flow of a war at a glance before directing their forces accordingly.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "shield-captain"
     ],
-    "otherAbilities": [
-      {
-        "name": "Master of the Stances:",
-        "description": "At the start of the Fight phase , select one Ka’tah Stance. Until the end of the phase, that stance is active for this model’s unit in addition to the one that is active. Once per battle, at the start of the Fight phase, all stances are active for this model’s unit until the end of the phase."
-      },
-      {
-        "name": "Strategic Mastery:",
-        "description": "Once per battle round , you can select one model from your army with this ability. That model’s unit can be targeted with a Stratagem for 0CP, even if that Stratagem has already targeted another unit from your army this phase."
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Custodian Guard",
+        "Custodian Wardens"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Castellan axe",
+            "range": 24,
+            "modifiers": [
+                "assault"
+            ],
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Guardian spear",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 24,
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Sentinel blade",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Martial Ka’tah"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Master of the Stances:",
+                "description": "At the start of the Fight phase , select one Ka’tah Stance. Until the end of the phase, that stance is active for this model’s unit in addition to the one that is active. Once per battle, at the start of the Fight phase, all stances are active for this model’s unit until the end of the phase."
+            },
+            {
+                "name": "Strategic Mastery:",
+                "description": "Once per battle round , you can select one model from your army with this ability. That model’s unit can be targeted with a Stratagem for 0CP, even if that Stratagem has already targeted another unit from your army this phase."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s guardian spear can be replaced with one of the following",
+            "items": [
+                "1 castellan axe",
+                "1 sentinel blade",
+                "1 sentinel blade and 1 praesidium shield"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Castellan axe",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 3
+        },
+        {
+            "name": "Guardian spear",
+            "modifiers": [],
+            "attacks": 7,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Sentinel blade",
+            "modifiers": [],
+            "attacks": 7,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Shield-Captain",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "guardian spear"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 140
+        }
+    ],
+    "additionalParameter": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Praesidium shield",
+            "ability": "Add 1 to the bearer’s Wounds characteristic."
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s guardian spear can be replaced with one of the following",
-      "items": [
-        "1 castellan axe",
-        "1 sentinel blade",
-        "1 sentinel blade and 1 praesidium shield"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Castellan axe",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 1,
-      "damage": 3
-    },
-    {
-      "name": "Guardian spear",
-      "modifiers": [],
-      "attacks": 7,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Sentinel blade",
-      "modifiers": [],
-      "attacks": 7,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Shield-Captain",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "guardian spear"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 140
-    }
-  ],
-  "additionalParameter": {},
-  "warGearAbilities": [
-    {
-      "wargear": "Praesidium shield",
-      "ability": "Add 1 to the bearer’s Wounds characteristic."
-    }
-  ]
 }

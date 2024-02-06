@@ -1,128 +1,132 @@
 {
-  "parentUnit": "Banesword",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {
-    "remainingWounds": 8,
-    "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Banesword obliterates enemy vehicles and fortifications that prove insurmountable to the Imperial Guard’s remaining arsenal. Its quake cannon tears gaping voids in the strongest defensive lines at extreme range, enabling it to open breaches for allied forces to exploit before the enemy has a chance to return fire.",
-  "keywords": [
-    "vehicle",
-    "titanic",
-    "imperium",
-    "smoke",
-    "banesword"
-  ],
-  "attributes": [{
-    "movement": 9,
-    "toughness": 13,
-    "save": 2,
-    "wounds": 24,
-    "leadership": 7,
-    "objetiveControl": 8,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Quake cannon",
-      "modifiers": [
-        "blast",
-        "ignores cover"
-      ],
-      "range": 72,
-      "strength": 16,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6+2"
+    "parentUnit": "Banesword",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "2 lascannons; quake cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters.",
-      "items": []
+    "damaged": {
+        "remainingWounds": 8,
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "2 lascannons and 2 twin heavy bolters",
-        "2 lascannons and 2 twin heavy flamers"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
+    "supremeCommander": false,
+    "lore": "The Banesword obliterates enemy vehicles and fortifications that prove insurmountable to the Imperial Guard’s remaining arsenal. Its quake cannon tears gaping voids in the strongest defensive lines at extreme range, enabling it to open breaches for allied forces to exploit before the enemy has a chance to return fire.",
+    "keywords": [
+        "vehicle",
+        "titanic",
+        "imperium",
+        "smoke",
+        "banesword"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
+    "attributes": [
+        {
+            "movement": 9,
+            "toughness": 13,
+            "save": 2,
+            "wounds": 24,
+            "leadership": 7,
+            "objetiveControl": 8,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Quake cannon",
+            "modifiers": [
+                "blast",
+                "ignores cover"
+            ],
+            "range": 72,
+            "strength": 16,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6+2"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "2 lascannons; quake cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 lascannons and 2 twin heavy bolters",
+                "2 lascannons and 2 twin heavy flamers"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Angron – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
     ]
 }

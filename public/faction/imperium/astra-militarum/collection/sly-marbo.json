@@ -1,89 +1,93 @@
 {
-  "parentUnit": "Sly Marbo",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Sly Marbo is a one-man army. He operates alone, striking from ambush before disappearing back into the shadows. A legendary soldier, Marbo has gutted xenos horrors and slit the throats of traitors beyond count with his envenomed blade, and fires hails of poisoned shards from his ripper pistol.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "imperium",
-    "grenades",
-    "regiment",
-    "sly marbo"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Ripper pistol",
-      "modifiers": [
-        "anti-infantry 2+",
-        "pistol",
-        "precision"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Lone Operative",
-      "Stealth"
+    "parentUnit": "Sly Marbo",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "ripper pistol; envenomed blade."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Envenomed blade",
-      "modifiers": "anti-infantry2+,precision",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Sly Marbo – EPIC HERO",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "ripper pistol","envenomed blade" 
-          ]
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sly Marbo is a one-man army. He operates alone, striking from ambush before disappearing back into the shadows. A legendary soldier, Marbo has gutted xenos horrors and slit the throats of traitors beyond count with his envenomed blade, and fires hails of poisoned shards from his ripper pistol.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "grenades",
+        "regiment",
+        "sly marbo"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 65
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Ripper pistol",
+            "modifiers": [
+                "anti-infantry 2+",
+                "pistol",
+                "precision"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "ripper pistol; envenomed blade."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Envenomed blade",
+            "modifiers": "anti-infantry2+,precision",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Sly Marbo – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "ripper pistol",
+                "envenomed blade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 65
+        }
     ]
 }

@@ -1,107 +1,114 @@
 {
-  "parentUnit": "Canoptek Spyders",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Canoptek Spyders are formidable control-and-repair constructs, augmented with battlefield support systems. Whether blasting enemies with particle beamers, warding off empyric energies with gloom prisms or fabricating and unleashing fresh waves of Canoptek Scarabs, they are a force to be reckoned with.",
-  "keywords": [
-    "vehicle",
-    "fly",
-    "canoptek",
-    "spyders"
-  ],
-  "attributes": [{
-    
-    "movement": 5,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 6,
-    "leadership": 8,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Particle beamer",
-      "modifiers": [
-        "blast",
-        "devastating wounds"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
+    "parentUnit": "Canoptek Spyders",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Canoptek Spyders are formidable control-and-repair constructs, augmented with battlefield support systems. Whether blasting enemies with particle beamers, warding off empyric energies with gloom prisms or fabricating and unleashing fresh waves of Canoptek Scarabs, they are a force to be reckoned with.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "canoptek",
+        "spyders"
     ],
-    "otherAbilities": [
-      {"name":
-        "Canoptek Swarm ","description": "In your Command phase , select one friendly CANOPTEK SCARAB SWARM unit within 6\" of this unit. One destroyed model is returned to that CANOPTEK SCARAB SWARM unit for each SPYDER model in this unit."
-      }
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Particle beamer",
+            "modifiers": [
+                "blast",
+                "devastating wounds"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Canoptek Swarm ",
+                "description": "In your Command phase , select one friendly CANOPTEK SCARAB SWARM unit within 6\" of this unit. One destroyed model is returned to that CANOPTEK SCARAB SWARM unit for each SPYDER model in this unit."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each be equipped with 2 particle beamers."
+        },
+        {
+            "description": "Any number of models can each be equipped with 1 fabricator claw array."
+        },
+        {
+            "description": "Any number of models can each be equipped with 1 gloom prism."
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Fabricator Claw Array (Aura)",
+            "ability": "While a friendly NECRONS VEHICLE unit is within 6'' of the bearer, that unit has the Feel No Pain 6+ ability."
+        },
+        {
+            "wargear": "Gloom Prism (Aura)",
+            "ability": "While a friendly NECRONS unit is within 6'' of the bearer, models in that unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Canoptek Spyders",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "automaton claws"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 150
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Automaton claws",
+            "attacks": 5,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [
-    {
-      "description": "Any number of models can each be equipped with 2 particle beamers."
-    },
-    {
-      "description": "Any number of models can each be equipped with 1 fabricator claw array."
-    },
-    {
-      "description": "Any number of models can each be equipped with 1 gloom prism."
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Fabricator Claw Array (Aura)",
-      "ability": "While a friendly NECRONS VEHICLE unit is within 6'' of the bearer, that unit has the Feel No Pain 6+ ability."
-    },
-    {
-      "wargear": "Gloom Prism (Aura)",
-      "ability": "While a friendly NECRONS unit is within 6'' of the bearer, models in that unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks."
-    }
-  ],
-  "unitComposition": [
-     {
-       "unitType": "Canoptek Spyders",
-       "minQuantity": 1,
-       "maxQuantity": 2,
-       "equipment": ["automaton claws"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 75
-     },
-     {
-         "count": [2],
-         "points":150
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Automaton claws",
-         "attacks": 5,
-         "weapons-skills": 4,
-         "strength": 8,
-         "armor-penetration": 2,
-         "damage": 2,
-         "modifiers": []
-       }
-   ]
 }

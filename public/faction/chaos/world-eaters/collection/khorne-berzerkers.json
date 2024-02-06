@@ -1,162 +1,162 @@
 {
-  "parentUnit": "khorne berzerkers",
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 4,
-      "save": 3,
-      "wounds": 2,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 0
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Berzerker chainblade",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [],
-      "singleChoice": false
-    },
-    {
-      "name": "Khornate eviscerator",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2,
-      "modifiers": [],
-      "singleChoice": false
-    }
-  ],
-  "keywords": [
-    "Infantry",
-    "Battleline",
-    "Grenades",
-    "Chaos",
-    "Khorne",
-    "Berzerkers"
-  ],
-  "factionKeyword": [
-    "World Eaters"
-  ],
-  "wargear": [
-    {
-      "description": "The Khorne Berzerker Champion’s bolt pistol can be replaced with 1 plasma pistol."
-    },
-    {
-      "description": "For every 5 models in this unit, 1 Khorne Berzerker’s bolt pistol can be replaced with 1 plasma pistol."
-    },
-    {
-      "description": "For every 5 models in this unit, 1 Khorne Berzerker’s Berzerker chainblade can be replaced with 1 Khornate eviscerator."
-    },
-    {
-      "description": "1 model can be equipped with 1 icon of Khorne."
-    }
-  ],
-  "abilities": {
-    "core": [],
-    "faction": [
-      "Bleesings of Khorne"
+    "parentUnit": "khorne berzerkers",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Blood Surge",
-        "description": "Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6:  this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Blood Surge move while it is Battle-shocked."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Berzerker chainblade",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": false
+        },
+        {
+            "name": "Khornate eviscerator",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": false
+        }
+    ],
+    "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Chaos",
+        "Khorne",
+        "Berzerkers"
+    ],
+    "factionKeyword": [
+        "World Eaters"
+    ],
+    "wargear": [
+        {
+            "description": "The Khorne Berzerker Champion’s bolt pistol can be replaced with 1 plasma pistol."
+        },
+        {
+            "description": "For every 5 models in this unit, 1 Khorne Berzerker’s bolt pistol can be replaced with 1 plasma pistol."
+        },
+        {
+            "description": "For every 5 models in this unit, 1 Khorne Berzerker’s Berzerker chainblade can be replaced with 1 Khornate eviscerator."
+        },
+        {
+            "description": "1 model can be equipped with 1 icon of Khorne."
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Bleesings of Khorne"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Blood Surge",
+                "description": "Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6:  this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Blood Surge move while it is Battle-shocked."
+            }
+        ]
+    },
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "khorne berzerkers champion",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Berzerker chainblade"
+            ]
+        },
+        {
+            "unitType": "khorne berzerkers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol",
+                "Berzerker chainblade"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "bolt pistol",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "pistol"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "pistol"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol – supercharge",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "pistol",
+                "hazarous"
+            ],
+            "singleChoice": true
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 200
+        }
+    ],
+    "lore": "Berzerkers of Khorne relish their role as the Blood God’s sacred destroyers, and are fanatical in the extreme. The warp-fuelled anger of these psychopathic warriors drives them into an endless frenzy of action. Those who face them in battle disappear under a rain of heavy blows, each potent enough to shear limbs and shatter shields.",
+    "warGearAbilities": [
+        {
+            "wargear": "Icon of Khorne",
+            "ability": "Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice."
+        }
     ]
-  },
-  "damaged": {},
-  "unitComposition": [
-    {
-      "unitType": "khorne berzerkers champion",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "bolt pistol",
-        "Berzerker chainblade"
-      ]
-    },
-    {
-      "unitType": "khorne berzerkers",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "bolt pistol",
-        "Berzerker chainblade"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "supremeCommander": false,
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "bolt pistol",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [
-        "pistol"
-      ],
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": [
-        "pistol"
-      ],
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol – supercharge",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [
-        "pistol",
-        "hazarous"
-      ],
-      "singleChoice": true
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4
-      ],
-      "points": 100
-    },
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 200
-    }
-  ],
-  "lore": "Berzerkers of Khorne relish their role as the Blood God’s sacred destroyers, and are fanatical in the extreme. The warp-fuelled anger of these psychopathic warriors drives them into an endless frenzy of action. Those who face them in battle disappear under a rain of heavy blows, each potent enough to shear limbs and shatter shields.",
-  "warGearAbilities": [
-    {
-      "wargear": "Icon of Khorne",
-      "ability": "Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice."
-    }
-  ]
 }

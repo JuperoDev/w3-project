@@ -1,77 +1,81 @@
 {
-  "parentUnit": "Flayed Ones",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Flayed Ones keen shrill hunting cries as they fall upon the foe, talons flashing. Infected with the gruesome flayer virus, the Flayed Ones attempt to gorge themselves upon the flesh and blood of their butchered foes, gore drizzling through their mechanical forms as they seek to slake a thirst they can never quench.",
-  "keywords": [
-    "infantry",
-    "flayed ones"
-  ],
-  "attributes": [{
-    
-    "movement": 5,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Stealth"
+    "parentUnit": "Flayed Ones",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Flayed Ones keen shrill hunting cries as they fall upon the foe, talons flashing. Infected with the gruesome flayer virus, the Flayed Ones attempt to gorge themselves upon the flesh and blood of their butchered foes, gore drizzling through their mechanical forms as they seek to slake a thirst they can never quench.",
+    "keywords": [
+        "infantry",
+        "flayed ones"
     ],
-    "otherAbilities": [
-      {
-        "name": "Flesh Hunger ",
-        "description": "Each time a model in this unit makes a melee attack, if the target of that attack is Below Half-strength , a successful Hit roll scores a Critical Hit."
-      }
-    ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-    {
-      "unitType": "Flayed Ones",
-      "minQuantity": 5,
-      "maxQuantity": 10,
-      "equipment": [
-        "flayer claws"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        5
-      ],
-      "points": 70
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Stealth"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Flesh Hunger ",
+                "description": "Each time a model in this unit makes a melee attack, if the target of that attack is Below Half-strength , a successful Hit roll scores a Critical Hit."
+            }
+        ]
     },
-    {
-      "count": [
-        10
-      ],
-      "points": 140
-    }
-  ],
-  "meleeWeapons": [
-      {
-        "name": "Flayer claws",
-        "attacks": 4,
-        "weapons-skills": 3,
-        "strength": 4,
-        "armor-penetration": 1,
-        "damage": 1,
-        "modifiers": ["sustained hits 1", "twin-linked"]
-      }
-  ]
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Flayed Ones",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "flayer claws"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 140
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Flayer claws",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ]
+        }
+    ]
 }

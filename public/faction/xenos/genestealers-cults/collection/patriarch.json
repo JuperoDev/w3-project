@@ -1,72 +1,74 @@
 {
-  "parentUnit": "Patriarch",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": true,
-  "lore": "Psychic abomination; alpha predator; parasitic demigod – the Patriarch is all of these things and worse. They are the source of the bio corruption that spawns each Genestealer Cult cell. Moreover, when the Day of Ascension comes, they are the cult’s deadliest killer, prowling the shadows of embattled worlds to rip and slay.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "great devourer",
-    "epic hero",
-    "patriarch"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 6,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Infiltrators",
-      "Leader"
+    "parentUnit": "Patriarch",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-     
+    "damaged": {},
+    "supremeCommander": true,
+    "lore": "Psychic abomination; alpha predator; parasitic demigod – the Patriarch is all of these things and worse. They are the source of the bio corruption that spawns each Genestealer Cult cell. Moreover, when the Day of Ascension comes, they are the cult’s deadliest killer, prowling the shadows of embattled worlds to rip and slay.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "great devourer",
+        "epic hero",
+        "patriarch"
     ],
-    "otherAbilities": [{
-      "name":"Might From Beyond.",
-      "description":"While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Infiltrators",
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Might From Beyond.",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+            },
+            {
+                "name": "Cosmic Horror (Psychic)",
+                "description": "At the start of the Fight phase, each enemy unit within 6'' of this model must take a Battle-shock test."
+            },
+            {
+                "name": "Psychic Familiar.",
+                "description": "Once per battle, at the start of the Fight phase, this model can use its psychic familiar. If it does, until the end of the phase, double the range of its Cosmic Horror ability."
+            }
+        ]
     },
-    {
-      "name":"Cosmic Horror (Psychic)",
-      "description":"At the start of the Fight phase, each enemy unit within 6'' of this model must take a Battle-shock test."
-    },
-    {
-      "name":"Psychic Familiar.",
-      "description":"Once per battle, at the start of the Fight phase, this model can use its psychic familiar. If it does, until the end of the phase, double the range of its Cosmic Horror ability."
-    }
-  ]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "patriatch - Epic Hero",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["Patriarch’s claws"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 85
-    }],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "patriatch - Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Patriarch’s claws"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
     "wargear": [],
-
     "meleeWeapons": [
         {
             "name": "Patriarch’s claws ",
@@ -75,7 +77,10 @@
             "strength": 6,
             "armor-penetration": 2,
             "damage": 2,
-            "modifiers": ["devastating wounds", "twin-linked"]
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ]
         }
     ]
 }

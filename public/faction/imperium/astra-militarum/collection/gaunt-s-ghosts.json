@@ -1,220 +1,232 @@
 {
-  "parentUnit": "Gaunt’s Ghosts",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Colonel-Commissar Ibram Gaunt combines the positions of feared political officer and the regimental commander of the Tanith First and Only. Joined by the regiment’s stealthy and deadly officers and soldiers – those known as Gaunt’s Ghosts – Gaunt’s infamous raids, secretive missions and unlikely victories have cemented his legend.",
-  "keywords": [
-    "keywords – all models: infantry",
-    "imperium",
-    "grenades",
-    "gaunt’s ghostsibram gaunt: character",
-    "epic hero",
-    "officer"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 5,
-    "wounds": 2,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bragg’s autocannon",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 48,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Corbec’s hot-shot lascarbine",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Larkin’s long-las",
-      "modifiers": [
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Lascarbine",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Rawne’s lascarbine",
-      "modifiers": [
-        "assault",
-        "sustained hits"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Fights First",
-      "Infiltrators",
-      "Lone Operative",
-      "Stealth"
+    "parentUnit": "Gaunt’s Ghosts",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [
-      "Voice of Command"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Colonel-Commissar Ibram Gaunt combines the positions of feared political officer and the regimental commander of the Tanith First and Only. Joined by the regiment’s stealthy and deadly officers and soldiers – those known as Gaunt’s Ghosts – Gaunt’s infamous raids, secretive missions and unlikely victories have cemented his legend.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "imperium",
+        "grenades",
+        "gaunt’s ghostsibram gaunt: character",
+        "epic hero",
+        "officer"
     ],
-    "otherAbilities": [
-      {
-        "name": "Tanith Camo-cloaks:",
-        "description": "Each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against it."
-      },
-      {
-        "name": "Covert Stealth Team:",
-        "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase , set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Gaunt’s chainsword",
-      "modifiers": [],
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 3,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Straight silver knife",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Mkoll’s straight silver knife",
-      "modifiers": "devastatingwounds,precision",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 3,
-      "armor-penetration": 1,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Ibram Gaunt",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-         " bolt pistol", "Gaunt’s chainsword" 
-          ]
-      },
-      {
-        "unitType": "Tanith Ghost",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "Corbec’s hot-shot lascarbine", "straight silver knife" 
-          ]
-      },
-      {
-        "unitType": "Tanith Ghost",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "Rawne’s lascarbine", "straight silver knife"
-
-          ]
-      },
-      {
-        "unitType": "Tanith Ghost",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-         " Larkin’s long-las", "straight silver knife" 
-          ]
-      },
-      {
-        "unitType": "Tanith Ghost",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Bragg’s autocannon","straight silver knife"
-          ]
-      },
-      {
-        "unitType": "Tanith Ghost",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-         "lascarbine", "Mkoll’s straight silver knife"
-          ]
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
     ],
-  "options": [
-      {
-        "count": [1,1,1,1,1,1],
-        "points": 100
-      }
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bragg’s autocannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Corbec’s hot-shot lascarbine",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Larkin’s long-las",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lascarbine",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Rawne’s lascarbine",
+            "modifiers": [
+                "assault",
+                "sustained hits"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Fights First",
+            "Infiltrators",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [
+            "Voice of Command"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Tanith Camo-cloaks:",
+                "description": "Each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against it."
+            },
+            {
+                "name": "Covert Stealth Team:",
+                "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase , set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Gaunt’s chainsword",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Straight silver knife",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Mkoll’s straight silver knife",
+            "modifiers": "devastatingwounds,precision",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Ibram Gaunt",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " bolt pistol",
+                "Gaunt’s chainsword"
+            ]
+        },
+        {
+            "unitType": "Tanith Ghost",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Corbec’s hot-shot lascarbine",
+                "straight silver knife"
+            ]
+        },
+        {
+            "unitType": "Tanith Ghost",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Rawne’s lascarbine",
+                "straight silver knife"
+            ]
+        },
+        {
+            "unitType": "Tanith Ghost",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Larkin’s long-las",
+                "straight silver knife"
+            ]
+        },
+        {
+            "unitType": "Tanith Ghost",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Bragg’s autocannon",
+                "straight silver knife"
+            ]
+        },
+        {
+            "unitType": "Tanith Ghost",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lascarbine",
+                "Mkoll’s straight silver knife"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "points": 100
+        }
     ]
 }

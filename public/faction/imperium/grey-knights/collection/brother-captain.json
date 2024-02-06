@@ -1,167 +1,182 @@
 {
-  "parentUnit": "Brother-captain",
-  "factionKeywords": [
-    "grey knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Amongst the Chapter’s foremost combatants, a Brother-Captain has proven his worth as a leader of great warriors and a martial exemplar. His place is at the heart of the fight, standing beside his battle-brothers and focusing their blows by means of psychic communion even amidst the din of hellish war.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "terminator",
-    "imperium",
-    "brother-captain"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 5,
-    "salvation": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Incinerator",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Psilencer",
-      "modifiers": [
-        "psychic",
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 6,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Psycannon",
-      "modifiers": [
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Brother-captain",
+    "factionKeywords": [
+        "grey knights"
     ],
-    "faction": [
-      "Teleport Assault"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Amongst the Chapter’s foremost combatants, a Brother-Captain has proven his worth as a leader of great warriors and a martial exemplar. His place is at the heart of the fight, standing beside his battle-brothers and focusing their blows by means of psychic communion even amidst the din of hellish war.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "terminator",
+        "imperium",
+        "brother-captain"
     ],
-    "otherAbilities": [
-      {
-        "name": "Empyric Amplification (Psychic):",
-        "description": "While this model is leading a unit, Psychic weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-      },
-      {
-        "name": "Focused Mind (Psychic):",
-        "description": "Each time this model makes an attack with a Psychic weapon , you can re-roll the Wound roll ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s storm bolter can be replaced with one of the following",
-      "items": [
-        "1 incinerator",
-        "1 psilencer",
-        "1 psycannon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Incinerator",
-      "modifiers": ["ignores cover", "torrent"],
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 1
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Incinerator",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Psilencer",
+            "modifiers": [
+                "psychic",
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Psycannon",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Teleport Assault"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Empyric Amplification (Psychic):",
+                "description": "While this model is leading a unit, Psychic weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Focused Mind (Psychic):",
+                "description": "Each time this model makes an attack with a Psychic weapon , you can re-roll the Wound roll ."
+            }
+        ]
     },
-    {
-      "name": "Psilencer",
-      "modifiers": ["psychic","sustained hits 1"],
-      "attacks": 6,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Psycannon",
-      "modifiers": ["psychic"],
-      "attacks": 3,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Nemesis force weapon",
-      "modifiers": ["psychic"],
-      "attacks": 4,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Brother-Captain",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["storm bolter","Nemesis force weapon"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "This model’s storm bolter can be replaced with one of the following",
+            "items": [
+                "1 incinerator",
+                "1 psilencer",
+                "1 psycannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Incinerator",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "attacks": "D6",
+            "weapons-skills": "N/A",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Psilencer",
+            "modifiers": [
+                "psychic",
+                "sustained hits 1"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Psycannon",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 3,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Nemesis force weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Brother-Captain",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter",
+                "Nemesis force weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -1,97 +1,109 @@
 {
-  "parentUnit": "Ûthar The Destined",
-  "factionKeyword": [
-    "leagues of votann",
-    "votann"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "As the most accomplished hero of the Greater Thurian League, Kâhl Ûthar the Destined is marked for greatness. Few can assess the foe as swiftly or mercilessly as Ûthar and – once he has his enemies’ measure – he soon cuts them to pieces with the glowing Blade of the Ancestors.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "ûthar the destined"
-  ],
-  "attributes": [
-    {
-        "movement": 5,
-        "toughness": 5,
-        "save": 3,
-        "wounds": 5,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }
-],
-  "leader": ["EINHYR HEARTHGUARD",
-  "HEARTHKYN WARRIORS"],
-  "rangedWeapons": [
-    {
-      "name": "Volkanite disintegrator",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 18,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Ûthar The Destined",
+    "factionKeyword": [
+        "leagues of votann",
+        "votann"
     ],
-    "faction": [
-      "Eye of the Ancestors"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "As the most accomplished hero of the Greater Thurian League, Kâhl Ûthar the Destined is marked for greatness. Few can assess the foe as swiftly or mercilessly as Ûthar and – once he has his enemies’ measure – he soon cuts them to pieces with the glowing Blade of the Ancestors.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "ûthar the destined"
     ],
-    "otherAbilities":[ 
-     { "name":
-      "Ancestral Fortune",
-      "description" :"Once per turn, you can change one Hit roll or one Wound roll made for this model to a 6."},
-      {"name": "The Destined", "description" :"Each time an attack is allocated to this model, change the Damage characteristic of that attack to 1."},
-     {"name": "Grim Efficiency", "description": "Once per battle round , in your Command phase , you can select one model from your army with this ability, then select one enemy unit that is visible to that model. That enemy unit gains 1 Judgement token ."}
-    ]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-        "unitType": "Ûthar the Destined – EPIC HERO",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "volkanite disintegrator", "Blade of the Ancestors", "rampart crest"
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "EINHYR HEARTHGUARD",
+        "HEARTHKYN WARRIORS"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Volkanite disintegrator",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 18,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Eye of the Ancestors"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Ancestral Fortune",
+                "description": "Once per turn, you can change one Hit roll or one Wound roll made for this model to a 6."
+            },
+            {
+                "name": "The Destined",
+                "description": "Each time an attack is allocated to this model, change the Damage characteristic of that attack to 1."
+            },
+            {
+                "name": "Grim Efficiency",
+                "description": "Once per battle round , in your Command phase , you can select one model from your army with this ability, then select one enemy unit that is visible to that model. That enemy unit gains 1 Judgement token ."
+            }
         ]
-    }
-],
-"warGearAbilities":[
-  {
-    "wargear":"Rampart Crest",
-    "ability":"While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
-  }
-],
-
-"meleeWeapons": [
-    {
-        "name": "Blade of the Ancestors",
-        "attacks": 5,
-        "weapons-skills": 2,
-        "strength": 6,
-        "armor-penetration": 3,
-        "damage": 2,
-        "modifiers": ["devastating wounds"]
-    }
-],
-"options": [
-  {
-    "count": [
-      1
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Ûthar the Destined – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "volkanite disintegrator",
+                "Blade of the Ancestors",
+                "rampart crest"
+            ]
+        }
     ],
-    "points": 90
-  }],
-  "wargear": []
+    "warGearAbilities": [
+        {
+            "wargear": "Rampart Crest",
+            "ability": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Blade of the Ancestors",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "devastating wounds"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "wargear": []
 }

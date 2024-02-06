@@ -1,117 +1,125 @@
 {
-  "parentUnit": "Sydonian Dragoons With Radium Jezzails",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Striding through a mist of their own sacred incense, the long-limbed engines ridden by Sydonian Dragoons are forever in motion. Dragoons mark their quarry with shots of glowing phosphor or irradiated slugs, allowing them to detect their prey through the cloying mist and home in on them with a thunderous stampede.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "smoke",
-    "imperium",
-    "skitarii",
-    "sydonian",
-    "dragoons with radium jezzails"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 7,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Phosphor serpenta",
-      "modifiers": [
-        "ignores cover",
-        "PISTOL"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
+    "parentUnit": "Sydonian Dragoons With Radium Jezzails",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Striding through a mist of their own sacred incense, the long-limbed engines ridden by Sydonian Dragoons are forever in motion. Dragoons mark their quarry with shots of glowing phosphor or irradiated slugs, allowing them to detect their prey through the cloying mist and home in on them with a thunderous stampede.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "smoke",
+        "imperium",
+        "skitarii",
+        "sydonian",
+        "dragoons with radium jezzails"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 7,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Phosphor serpenta",
+            "modifiers": [
+                "ignores cover",
+                "PISTOL"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Radium jezzail",
+            "modifiers": [
+                "ANTI-INFANTRY 3+",
+                "HEAVY",
+                "PRECISION"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Stealth"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Focused Hunters:",
+                "description": "At the start of the battle, select one unit from your opponent’s army. Until the end of the battle, each time a model in this unit makes an attack that targets that unit, you can re-roll the Hit roll ."
+            },
+            {
+                "name": "Broad Spectrum Data-tether:",
+                "description": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+            }
+        ]
     },
-    {
-      "name": "Radium jezzail",
-      "modifiers": [
-        "ANTI-INFANTRY 3+",
-        "HEAVY",
-        "PRECISION"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Stealth"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 45
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                3
+            ],
+            "points": 135
+        }
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "unitComposition": [
+        {
+            "unitType": "Sydonian Dragoons",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "equipment": [
+                "phosphor serpenta",
+                "radium jezzail",
+                "Ironstrider feet"
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Focused Hunters:",
-        "description": "At the start of the battle, select one unit from your opponent’s army. Until the end of the battle, each time a model in this unit makes an attack that targets that unit, you can re-roll the Hit roll ."
-      },
-      {
-        "name": "Broad Spectrum Data-tether:",
-        "description": "Each time you select this unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
-      }
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Ironstrider feet",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 45
-   },
-   {
-    "count": [2],
-    "points": 90
-  },
-  {
-    "count": [3],
-    "points": 135
-  }
- ],
- "unitComposition": [
-     {
-         "unitType": "Sydonian Dragoons",
-         "minQuantity": 1,
-         "maxQuantity": 3,
-         "equipment": [
-          "phosphor serpenta", "radium jezzail", "Ironstrider feet"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   
- ],
- "meleeWeapons": [
-   {
-     "name": "Ironstrider feet",
-     "attacks": 3,
-     "weapons-skills": 4,
-     "strength": 5,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
- ]
 }

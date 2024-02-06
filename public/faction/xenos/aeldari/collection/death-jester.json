@@ -1,79 +1,79 @@
 {
-  "parentUnit": "Death Jester",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The arrival of a Death Jester upon the battlefield is announced by a hissing storm of shrieker cannon fire. Enemy infantry are torn apart in sprays of blood and scalded flesh as the weapon’s gene-toxins cause them to combust horrifically from within. Adding insult to injury, the Death Jester ensures every demise is as cruelly ironic as possible.",
-  "keywords": [
-    "infantry",
-    "character",
-    "harlequins",
-    "death jester"
-  ],
-  "attributes": {
-    "movement": 8,
-    "toughness": 3,
-    "salvation": 6,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Shrieker cannon",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Lone Operative"
+    "parentUnit": "Death Jester",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [
-      "Strands of Fate"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The arrival of a Death Jester upon the battlefield is announced by a hissing storm of shrieker cannon fire. Enemy infantry are torn apart in sprays of blood and scalded flesh as the weapon’s gene-toxins cause them to combust horrifically from within. Adding insult to injury, the Death Jester ensures every demise is as cruelly ironic as possible.",
+    "keywords": [
+        "infantry",
+        "character",
+        "harlequins",
+        "death jester"
     ],
-    "otherAbilities": [
-      {
-        "name": "Death is Not Enough:",
-        "description": "In your Shooting phase , after this model has shot, if one or more of those attacks destroyed an enemy model, that enemy model’s unit must take a Battle-shock test ."
-      },
-      {
-        "name": "Cruel Amusement:",
-        "description": "In your Shooting phase"
-      },
-      {
-        "name": ", one model from your army with this ability can use it. If they do, until the end of the phase, select one of the following abilities to apply to that model’s shrieker cannon:",
-        "description": "[IGNORES COVER] [PRECISION] [SUSTAINED HITS 3]"
-      }
+    "attributes": {
+        "movement": 8,
+        "toughness": 3,
+        "salvation": 6,
+        "wounds": 4,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Shrieker cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Lone Operative"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Death is Not Enough:",
+                "description": "In your Shooting phase , after this model has shot, if one or more of those attacks destroyed an enemy model, that enemy model’s unit must take a Battle-shock test ."
+            },
+            {
+                "name": "Cruel Amusement:",
+                "description": "In your Shooting phase"
+            },
+            {
+                "name": ", one model from your army with this ability can use it. If they do, until the end of the phase, select one of the following abilities to apply to that model’s shrieker cannon:",
+                "description": "[IGNORES COVER] [PRECISION] [SUSTAINED HITS 3]"
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Jester’s blade",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Jester’s blade",
-      "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

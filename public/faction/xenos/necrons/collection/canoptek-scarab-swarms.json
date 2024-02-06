@@ -1,71 +1,81 @@
 {
-  "parentUnit": "Canoptek Scarab Swarms",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Canoptek Scarabs attack in skimming swarms. They descend upon the enemy with high-pitched chitters before breaking down infantry and tanks alike into raw energy with their feeder mandibles. Often attacking as the first wave of a Necron assault, these mechanical insectoids spread fear and destruction.",
-  "keywords": [
-    "swarm",
-    "fly",
-    "canoptek",
-    "scarab swarms"
-  ],
-  "attributes": [{
-    
-    "movement": 10,
-    "toughness": 2,
-    "save": 6,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
+    "parentUnit": "Canoptek Scarab Swarms",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Canoptek Scarabs attack in skimming swarms. They descend upon the enemy with high-pitched chitters before breaking down infantry and tanks alike into raw energy with their feeder mandibles. Often attacking as the first wave of a Necron assault, these mechanical insectoids spread fear and destruction.",
+    "keywords": [
+        "swarm",
+        "fly",
+        "canoptek",
+        "scarab swarms"
     ],
-    "otherAbilities": [{"name":
-      "Self-destruction ","description": "At the start of the Fight phase , if this unit is within Engagement Range of one or more enemy units, you can select one model in this unit to destroy. If you do, do not roll for that model’s Deadly Demise ability; instead, select one enemy unit within Engagement Range of that model and roll one D6, adding 1 to the result if that unit is a VEHICLE . On a 2-5, that unit suffers D3 mortal wounds ; on a 6+, that unit suffers D3+3 mortal wounds."},{"name":
-      "Swarm ","description": "While an enemy unit is within Engagement Range of this unit, subtract 1 from the objetive Control characteristic of models in that enemy unit (to a minimum of 1)."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Canoptek Scarab Swarms",
-       "minQuantity": 3,
-       "maxQuantity": 6,
-       "equipment": ["feeder mandibles"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [3],
-       "points": 40
-     },
-     {
-         "count": [6],
-         "points": 80
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Feeder mandibles",
-         "attacks": 6,
-         "weapons-skills": 5,
-         "strength": 2,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 2,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Self-destruction ",
+                "description": "At the start of the Fight phase , if this unit is within Engagement Range of one or more enemy units, you can select one model in this unit to destroy. If you do, do not roll for that model’s Deadly Demise ability; instead, select one enemy unit within Engagement Range of that model and roll one D6, adding 1 to the result if that unit is a VEHICLE . On a 2-5, that unit suffers D3 mortal wounds ; on a 6+, that unit suffers D3+3 mortal wounds."
+            },
+            {
+                "name": "Swarm ",
+                "description": "While an enemy unit is within Engagement Range of this unit, subtract 1 from the objetive Control characteristic of models in that enemy unit (to a minimum of 1)."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Canoptek Scarab Swarms",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                "feeder mandibles"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                3
+            ],
+            "points": 40
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 80
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Feeder mandibles",
+            "attacks": 6,
+            "weapons-skills": 5,
+            "strength": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

@@ -1,201 +1,201 @@
 {
-  "parentUnit": "Kommandos",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "No right-thinking Ork trusts Kommandos. They sneak up on the enemy rather than charging in headlong, and have an unhealthy fascination with very big knives and their application to people’s backs, throats and guts. That said, having a band of Kommandos ambush the enemy mid-battle definitely has its uses.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "kommandos"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Burna",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Speshul Kommando shoota",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Rokkit launcha",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Stealth"
+    "parentUnit": "Kommandos",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "No right-thinking Ork trusts Kommandos. They sneak up on the enemy rather than charging in headlong, and have an unhealthy fascination with very big knives and their application to people’s backs, throats and guts. That said, having a band of Kommandos ambush the enemy mid-battle definitely has its uses.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "kommandos"
     ],
-    "otherAbilities": [
-      {
-        "name": "Sneaky Surprise:",
-        "description": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 1,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Burna",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Speshul Kommando shoota",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Rokkit launcha",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Stealth"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sneaky Surprise:",
+                "description": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Boss Nob’s choppa can be replaced with one of the following",
+            "items": [
+                "1 big choppa",
+                "1 power klaw"
+            ]
+        },
+        {
+            "description": "Up to 2 Kommandos can each have their slugga and choppa replaced with 1 speshul Kommando shoota and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "1 Kommando’s slugga and choppa can be replaced with 1 breacha ram.",
+            "items": []
+        },
+        {
+            "description": "1 Kommando’s slugga and choppa can be replaced with 1 burna and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "1 Kommando’s slugga and choppa can be replaced with 1 rokkit launcha and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "This unit can be equipped with 1 bomb squig.",
+            "items": []
+        },
+        {
+            "description": "This unit can be equipped with 1 distraction grot.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Burna",
+            "modifiers": "ignorescover,torrent",
+            "attacks": "D6",
+            "weapons-skills": "N/A",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Speshul Kommando shoota",
+            "modifiers": "rapidfire2",
+            "attacks": "4",
+            "weapons-skills": "5+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Rokkit launcha",
+            "modifiers": "blast",
+            "attacks": "D3",
+            "weapons-skills": "5+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
+            "name": "Big choppa",
+            "modifiers": [],
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Breacha ram",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Choppa",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power klaw",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Boss Nob’s choppa can be replaced with one of the following",
-      "items": [
-        "1 big choppa",
-        "1 power klaw"
-      ]
-    },
-    {
-      "description": "Up to 2 Kommandos can each have their slugga and choppa replaced with 1 speshul Kommando shoota and 1 close combat weapon.",
-      "items": []
-    },
-    {
-      "description": "1 Kommando’s slugga and choppa can be replaced with 1 breacha ram.",
-      "items": []
-    },
-    {
-      "description": "1 Kommando’s slugga and choppa can be replaced with 1 burna and 1 close combat weapon.",
-      "items": []
-    },
-    {
-      "description": "1 Kommando’s slugga and choppa can be replaced with 1 rokkit launcha and 1 close combat weapon.",
-      "items": []
-    },
-    {
-      "description": "This unit can be equipped with 1 bomb squig.",
-      "items": []
-    },
-    {
-      "description": "This unit can be equipped with 1 distraction grot.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Burna",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Speshul Kommando shoota",
-      "modifiers": "rapidfire2",
-      "attacks": "4",
-      "weapons-skills": "5+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Rokkit launcha",
-      "modifiers": "blast",
-      "attacks": "D3",
-      "weapons-skills": "5+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 3
-    },
-    {
-      "name": "Big choppa",
-      "modifiers": [],
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 2
-    },
-    {
-      "name": "Breacha ram",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Choppa",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power klaw",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

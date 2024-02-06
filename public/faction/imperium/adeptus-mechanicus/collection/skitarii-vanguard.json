@@ -1,198 +1,206 @@
 {
-  "parentUnit": "Skitarii Vanguard",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The hyper-irradiated shot unleashed by the Skitarii Vanguard’s carbines ensure those that would otherwise survive the injury still sicken and die. Vanguard are infused with this radiation, emitting a debilitating aura they themselves are inured to. This hardens them to fight in the most toxic war zones to defend the Tech-Priests’ interests.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "imperium",
-    "skitarii",
-    "vanguard"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Mechanicus pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Arc rifle",
-      "modifiers": [
-        "anti-vehicle 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 30,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration":1,
-      "damage": "d3",
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma caliver - standard",
-      "modifiers": [
-        
-      ],
-      "range": 30,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma caliver - supercharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 30,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Radium carbine",
-      "modifiers": [
-        "anti-infantry 4+"
-      ],
-      "range": 18,
-      "strength": 3,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Transuranic arquebus",
-      "modifiers": [
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": "d3",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Skitarii Vanguard",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": ["Doctrina Imperatives"],
-    "otherAbilities": [
-      {
-        "name": "Enhanced data-tether:",
-        "description": "Each time you select the bearer’s unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The hyper-irradiated shot unleashed by the Skitarii Vanguard’s carbines ensure those that would otherwise survive the injury still sicken and die. Vanguard are infused with this radiation, emitting a debilitating aura they themselves are inured to. This hardens them to fight in the most toxic war zones to defend the Tech-Priests’ interests.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "imperium",
+        "skitarii",
+        "vanguard"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Mechanicus pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Arc rifle",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 30,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma caliver - standard",
+            "modifiers": [],
+            "range": 30,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma caliver - supercharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 30,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Radium carbine",
+            "modifiers": [
+                "anti-infantry 4+"
+            ],
+            "range": 18,
+            "strength": 3,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Transuranic arquebus",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Enhanced data-tether:",
+                "description": "Each time you select the bearer’s unit as the target of a Stratagem , roll one D6: on a 5+, you gain 1CP."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 80
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Skitarii Vanguard Alpha",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "radium carbine",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Skitarii Vanguard",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "radium carbine",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "The Skitarii Vanguard Alpha can be equipped with 1 Alpha combat weapon"
+        },
+        {
+            "description": "The Skitarii Vanguard Alpha’s galvanic rifle can be replaced with 1 Mechanicus pistol."
+        },
+        {
+            "description": "1 Skitarii Vanguard’s galvanic rifle can be replaced with 1 arc rifle."
+        },
+        {
+            "description": "1 Skitarii Vanguard’s galvanic rifle can be replaced with 1 plasma caliver."
+        },
+        {
+            "description": "1 Skitarii Vanguard’s galvanic rifle can be replaced with 1 transuranic arquebus."
+        },
+        {
+            "description": "1 Skitarii Vanguard equipped with a galvanic rifle can be equipped with one of the following",
+            "items": [
+                "1 enhanced data-tether*",
+                "1 omnispex*"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Alpha combat weapon",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Enhanced data-tether",
+            "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        },
+        {
+            "wargear": "Omnispex",
+            "ability": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1,9],
-     "points": 80
-   }
- ],
- "unitComposition": [
-  {
-    "unitType": "Skitarii Vanguard Alpha",
-    "minQuantity": 1,
-    "maxQuantity": 1,
-    "equipment": [
-     "radium carbine", "close combat weapon"
-    ]
-},
-{
- "unitType": "Skitarii Vanguard",
- "minQuantity": 9,
- "maxQuantity": 9,
- "equipment": [
-  "radium carbine", "close combat weapon"
- ]
-}
- ],
- "additionalParameter": {},
- "wargear": [
-  {
-    "description": "The Skitarii Vanguard Alpha can be equipped with 1 Alpha combat weapon"
-  },
-  {
-   "description": "The Skitarii Vanguard Alpha’s galvanic rifle can be replaced with 1 Mechanicus pistol."
- },
- {
-   "description": "1 Skitarii Vanguard’s galvanic rifle can be replaced with 1 arc rifle."
- },
- {
-   "description": "1 Skitarii Vanguard’s galvanic rifle can be replaced with 1 plasma caliver."
- },
- {
-   "description": "1 Skitarii Vanguard’s galvanic rifle can be replaced with 1 transuranic arquebus."
- },
- {
-   "description": "1 Skitarii Vanguard equipped with a galvanic rifle can be equipped with one of the following","items":["1 enhanced data-tether*",
-   "1 omnispex*"]
- }
- ],
- "meleeWeapons": [
-  {
-    "name": "Alpha combat weapon",
-    "attacks": 2,
-    "weapons-skills": 4,
-    "strength": 5,
-    "armor-penetration": 1,
-    "damage": 1,
-    "modifiers": []
-  },
-  {
-   "name": "Close combat weapon",
-   "attacks": 1,
-   "weapons-skills": 4,
-   "strength": 3,
-   "armor-penetration": 0,
-   "damage": 1,
-   "modifiers": []
- }
- ],
- "warGearAbilities": [
-  {
-    "wargear": "Enhanced data-tether",
-    "ability": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-  },
-  {
-   "wargear": "Omnispex",
-   "ability": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
- }
- ]
 }

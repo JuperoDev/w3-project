@@ -1,134 +1,143 @@
 {
-  "parentUnit": "Acolyte Hybrids",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Acolyte Hybrids are the offspring of the first hosts infected by the Genestealer Curse, and they are accordingly monstrous in body and mind. Possessed of hulking strength and the skill to manipulate complex mechanisms, they bear repurposed industrial tools and deadly close-quarters firearms into battle.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "great devourer",
-    "acolyte hybrids"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 5,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Autopistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Demolition charges",
-      "modifiers": [
-        "assault",
-        "blast",
-        "hazardous",
-        "one shot"
-      ],
-      "range": 6,
-      "strength": 12,
-      "attacks": "d6+3",
-      "ballistic-skills": 5,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Hand flamer",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Acolyte Hybrids",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-     
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Acolyte Hybrids are the offspring of the first hosts infected by the Genestealer Curse, and they are accordingly monstrous in body and mind. Possessed of hulking strength and the skill to manipulate complex mechanisms, they bear repurposed industrial tools and deadly close-quarters firearms into battle.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "great devourer",
+        "acolyte hybrids"
     ],
-    "otherAbilities": [{
-     "name":"Vile Insurrectionists",
-     "description":"Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, re-roll a Wound roll of 1 as well"
-    }]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "acolyte leader",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["autopistol"," cult claws and knife"]
-    },
-    {
-      "unitType": "Acolyte Hybrids",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": ["autopistol"," cult claws and knife"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4
-      ],
-      "points": 85
-    },
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 170}],
-      "wargear": [{
-        "description":"Any number of models can each have their autopistol replaced with 1 hand flamer."
-      },
-      {
-        "description":"For every 5 models in this unit, up to 2 Acolyte Hybrids can each have their autopistol and cult claws and knife replaced with one of the following:",
-        "items": [
-          "1 demolition charges and 1 cult claws and knife",
-          "1 heavy mining tool"
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Demolition charges",
+            "modifiers": [
+                "assault",
+                "blast",
+                "hazardous",
+                "one shot"
+            ],
+            "range": 6,
+            "strength": 12,
+            "attacks": "d6+3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Hand flamer",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Vile Insurrectionists",
+                "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, re-roll a Wound roll of 1 as well"
+            }
         ]
-      },
-      {
-        "description":"One Acolyte Hybrid’s autopistol can be replaced with 1 cult icon."
-      },
-      {
-        "description":"The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader’s cult weapons."
-      }
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "acolyte leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "autopistol",
+                " cult claws and knife"
+            ]
+        },
+        {
+            "unitType": "Acolyte Hybrids",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "autopistol",
+                " cult claws and knife"
+            ]
+        }
     ],
-
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 85
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 170
+        }
+    ],
+    "wargear": [
+        {
+            "description": "Any number of models can each have their autopistol replaced with 1 hand flamer."
+        },
+        {
+            "description": "For every 5 models in this unit, up to 2 Acolyte Hybrids can each have their autopistol and cult claws and knife replaced with one of the following:",
+            "items": [
+                "1 demolition charges and 1 cult claws and knife",
+                "1 heavy mining tool"
+            ]
+        },
+        {
+            "description": "One Acolyte Hybrid’s autopistol can be replaced with 1 cult icon."
+        },
+        {
+            "description": "The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader’s cult weapons."
+        }
+    ],
     "meleeWeapons": [
         {
             "name": "Cult claws and knife",
@@ -140,27 +149,28 @@
             "modifiers": []
         },
         {
-          "name": "Heavy mining tool",
-          "attacks": 2,
-          "weapons-skills": 3,
-          "strength": 10,
-          "armor-penetration": 2,
-          "damage": 3,
-          "modifiers": []
-      },
-      {
-        "name": "Leader’s cult weapons",
-        "attacks": 5,
-        "weapons-skills": 3,
-        "strength": 5,
-        "armor-penetration": 2,
-        "damage": 1,
-        "modifiers": []
-    }
+            "name": "Heavy mining tool",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": []
+        },
+        {
+            "name": "Leader’s cult weapons",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
     ],
-    "warGearAbilities":[
-      {
-        "wargear":"Cult Icon",
-        "ability":"In the Reinforcements step of your Movement phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
-      }  ]
+    "warGearAbilities": [
+        {
+            "wargear": "Cult Icon",
+            "ability": "In the Reinforcements step of your Movement phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+        }
+    ]
 }

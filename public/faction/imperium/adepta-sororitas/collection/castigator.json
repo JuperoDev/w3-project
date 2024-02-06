@@ -1,148 +1,156 @@
 {
     "parentUnit": "castigator",
-    "attributes": [{
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 11,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 6
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 6
+        }
+    ],
     "factionKeyword": [
         "adepta sororitas"
-      ],
-      "damaged": {
+    ],
+    "damaged": {
         "remainingWounds": 4,
         "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      "supremeCommander": false,
-      "lore": "Castigators are powerful battle tanks of the Adepta Sororitas. They provide excellent fire support for Battle Sisters thanks to their wide array of weapons, smashing through the foe’s lines and slaughtering great swathes of enemy infantry in a matter of seconds.",
-      "keywords": [
+    },
+    "supremeCommander": false,
+    "lore": "Castigators are powerful battle tanks of the Adepta Sororitas. They provide excellent fire support for Battle Sisters thanks to their wide array of weapons, smashing through the foe’s lines and slaughtering great swathes of enemy infantry in a matter of seconds.",
+    "keywords": [
         "vehicle",
         "smoke",
         "imperium",
         "castigator"
-      ],
-      "leader": [],
-      "rangedWeapons": [
+    ],
+    "leader": [],
+    "rangedWeapons": [
         {
-          "name": "Castigator autocannons",
-          "modifiers": [
-            "rapid fire 4",
-            "twin-linked"
-          ],
-          "range": 48,
-          "strength": 9,
-          "attacks": 4,
-          "ballistic-skills": 3,
-          "armor-penetration": 1,
-          "damage": 3,
-          "singleChoice": false
+            "name": "Castigator autocannons",
+            "modifiers": [
+                "rapid fire 4",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 4,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
         },
         {
-          "name": "Castigator battle cannon",
-          "modifiers": [
-            "blast",
-            "ignores cover"
-          ],
-          "range": 48,
-          "strength": 10,
-          "attacks": "d6+3",
-          "ballistic-skills": 3,
-          "armor-penetration": 1,
-          "damage": 3,
-          "singleChoice": false
+            "name": "Castigator battle cannon",
+            "modifiers": [
+                "blast",
+                "ignores cover"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": "d6+3",
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
         },
         {
-          "name": "Heavy bolter",
-          "modifiers": [
-            "sustained hits 1"
-          ],
-          "range": 36,
-          "strength": 5,
-          "attacks": 3,
-          "ballistic-skills": 3,
-          "armor-penetration": 1,
-          "damage": 2,
-          "singleChoice": false
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
         },
         {
-          "name": "Hunter-killer missile",
-          "modifiers": [
-            "one shot"
-          ],
-          "range": 48,
-          "strength": 14,
-          "attacks": 1,
-          "ballistic-skills": 2,
-          "armor-penetration": 3,
-          "damage": "d6",
-          "singleChoice": false
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
         },
         {
-          "name": "Storm bolter",
-          "modifiers": [
-            "rapid fire 2"
-          ],
-          "range": 24,
-          "strength": 4,
-          "attacks": 2,
-          "ballistic-skills": 3,
-          "armor-penetration": 0,
-          "damage": 1,
-          "singleChoice": false
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
         }
-      ],
-      "abilities": {
+    ],
+    "abilities": {
         "core": [
-          "Deadly Demise D3"
+            "Deadly Demise D3"
         ],
         "faction": [
-          "Acts of Faith"
+            "Acts of Faith"
         ],
-        "otherAbilities": [{
-          "name": "Rites of Castigation" ,"description":"Each time this model makes an attack with its Castigator autocannons that targets an enemy INFANTRY unit, you can re-roll the Hit roll. Each time this model makes an attack with its Castigator battle cannon that targets an enemy MONSTER or VEHICLE unit, you can re-roll the Hit roll. After this model has shot, select one enemy unit that was hit by its Castigator autocannons or Castigator battle cannon this phase. That unit must take a Battle-shock test"
-        }]
-      },
-      "meleeWeapons":[
+        "otherAbilities": [
+            {
+                "name": "Rites of Castigation",
+                "description": "Each time this model makes an attack with its Castigator autocannons that targets an enemy INFANTRY unit, you can re-roll the Hit roll. Each time this model makes an attack with its Castigator battle cannon that targets an enemy MONSTER or VEHICLE unit, you can re-roll the Hit roll. After this model has shot, select one enemy unit that was hit by its Castigator autocannons or Castigator battle cannon this phase. That unit must take a Battle-shock test"
+            }
+        ]
+    },
+    "meleeWeapons": [
         {
-          "name": "Armoured tracks",
-          "attacks": 3,
-          "weapons-skills": 4,
-          "strength": 6,
-          "armor-penetration": 0,
-          "damage": 1,
-          "modifiers": []
+            "name": "Armoured tracks",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
         }
-      ],
-      "wargear": [{
-        "description": "This model’s Castigator autocannons can be replaced with 1 Castigator battle cannon."
-      },
-      {
-        "description": "This model can be equipped with 1 hunter-killer missile."
-      },
-      {
-        "description": "This model can be equipped with 1 storm bolter."
-      }
-      ],
-
-      "additionalParameter": {
-        
-      },
-      "unitComposition": [
-         {
-           "unitType": "Castigator",
-           "minQuantity": 1,
-           "maxQuantity": 1,
-           "equipment": ["Castigator autocannons", "3 heavy bolters","armoured tracks"]
-         }
-       ],
-     
-       "options": [
-         {
-           "count": [1],
-           "points": 140
-         }
-       ]
+    ],
+    "wargear": [
+        {
+            "description": "This model’s Castigator autocannons can be replaced with 1 Castigator battle cannon."
+        },
+        {
+            "description": "This model can be equipped with 1 hunter-killer missile."
+        },
+        {
+            "description": "This model can be equipped with 1 storm bolter."
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Castigator",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Castigator autocannons",
+                "3 heavy bolters",
+                "armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 140
+        }
+    ]
 }

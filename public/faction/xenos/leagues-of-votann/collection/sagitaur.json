@@ -1,152 +1,162 @@
 {
-  "parentUnit": "Sagitaur",
-  "factionKeyword": [
-    "leagues of votann",
-    "votann"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Designed to survive the worst that hostile worlds and alien predators can throw at it, the Sagitaur is a rugged ATV ideally suited to scouting operations and swift, armoured offensives. Sagitaurs mount a remarkable amount of firepower for their size, and can even knock out enemy battle tanks.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "dedicated transport",
-    "sagitaur"
-  ],
-  "attributes": [
-    {
-        "movement": 12,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 9,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 0
-    }
-],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "HYLas beam cannon",
-      "modifiers": [
-        "sustained hits d3"
-      ],
-      "range": 24,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "L7 missile launcher - blast",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": "d6",
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "L7 missile launcher - focused",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": "d6",
-      "singleChoice": true
-    },
-    {
-      "name": "MATR autocannon",
-      "modifiers": [
-        
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": 6,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Sagitaur missile launcher",
-      "modifiers": [
-        
-      ],
-      "range": 36,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin bolt cannon",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Scouts 6''"
+    "parentUnit": "Sagitaur",
+    "factionKeyword": [
+        "leagues of votann",
+        "votann"
     ],
-    "faction": [
-      "Eye of the Ancestors"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Designed to survive the worst that hostile worlds and alien predators can throw at it, the Sagitaur is a rugged ATV ideally suited to scouting operations and swift, armoured offensives. Sagitaurs mount a remarkable amount of firepower for their size, and can even knock out enemy battle tanks.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "sagitaur"
     ],
-    "otherAbilities": [{"name":
-      "Blistering Advance", "description": "Units can disembark from this TRANSPORT after it has Advanced . Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
-    }]
-  },
-
-  "additionalParameter": {},
-  "meleeWeapons": [
-    {
-      "name": "Armoured wheels",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    }
-],
-"wargear": [{"description":"This model’s HYLas beam cannon can be replaced with one of the following:","items":["1 L7 missile launcher and 1 Sagitaur missile launcher","1 MATR autocannon"]}],
-
- "unitComposition": [
-    {
-      "unitType": "Sagitaur",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["HYLas beam cannon", "twin bolt cannon","armoured wheels"]
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 100
-    }
-  ],
-  "transport":"This model has a transport capacity of 6 LEAGUES OF VOTANN INFANTRY models. It cannot transport EXO-ARMOUR or EXO-FRAME models. At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN WARRIORS unit from your army and split it into two units, each containing 5 models (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit. "
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 9,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "HYLas beam cannon",
+            "modifiers": [
+                "sustained hits d3"
+            ],
+            "range": 24,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "L7 missile launcher - blast",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "L7 missile launcher - focused",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
+        },
+        {
+            "name": "MATR autocannon",
+            "modifiers": [],
+            "range": 24,
+            "strength": 7,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Sagitaur missile launcher",
+            "modifiers": [],
+            "range": 36,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin bolt cannon",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Scouts 6''"
+        ],
+        "faction": [
+            "Eye of the Ancestors"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Blistering Advance",
+                "description": "Units can disembark from this TRANSPORT after it has Advanced . Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "meleeWeapons": [
+        {
+            "name": "Armoured wheels",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {
+            "description": "This model’s HYLas beam cannon can be replaced with one of the following:",
+            "items": [
+                "1 L7 missile launcher and 1 Sagitaur missile launcher",
+                "1 MATR autocannon"
+            ]
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Sagitaur",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "HYLas beam cannon",
+                "twin bolt cannon",
+                "armoured wheels"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 100
+        }
+    ],
+    "transport": "This model has a transport capacity of 6 LEAGUES OF VOTANN INFANTRY models. It cannot transport EXO-ARMOUR or EXO-FRAME models. At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN WARRIORS unit from your army and split it into two units, each containing 5 models (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit. "
 }

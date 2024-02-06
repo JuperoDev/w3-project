@@ -1,135 +1,135 @@
 {
-  "parentUnit": "Storm Guardians",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Storm Guardians often support Aspect Warriors in close combat, wielding their pistols and blades with all the grace and skill of their kind. Other Storm Guardians bring special weapons to bear, burning foes out of cover with bursts from their flamers or melting through armoured bunkers with their fusion guns.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "guardians",
-    "storm guardians"
-  ],
-  "attributes": {
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Aeldari flamer",
-      "modifiers": [
-        "assault",
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Guardian fusion gun",
-      "modifiers": [
-        "assault",
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Shuriken pistol",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Strands of Fate"
+    "parentUnit": "Storm Guardians",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Serpent Shield:",
-        "description": "Models in the bearer’s unit have a 5+ invulnerable save ."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Storm Guardians often support Aspect Warriors in close combat, wielding their pistols and blades with all the grace and skill of their kind. Other Storm Guardians bring special weapons to bear, burning foes out of cover with bursts from their flamers or melting through armoured bunkers with their fusion guns.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "guardians",
+        "storm guardians"
+    ],
+    "attributes": {
+        "movement": 7,
+        "toughness": 3,
+        "salvation": 4,
+        "wounds": 1,
+        "leadership": 6,
+        "objectiveControl": 2,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Aeldari flamer",
+            "modifiers": [
+                "assault",
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Guardian fusion gun",
+            "modifiers": [
+                "assault",
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken pistol",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Strands of Fate"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Serpent Shield:",
+                "description": "Models in the bearer’s unit have a 5+ invulnerable save ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 Aeldari flamer.",
+            "items": []
+        },
+        {
+            "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 Guardian fusion gun.",
+            "items": []
+        },
+        {
+            "description": "Up to 2 Storm Guardians can each have their Guardian combat weapon replaced with 1 Aeldari power sword.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Aeldari flamer",
+            "modifiers": "assault,ignorescover,torrent",
+            "attacks": "D6",
+            "weapons-skills": "N/A",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Guardian fusion gun",
+            "modifiers": "assault,melta2",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 4,
+            "damage": "D6"
+        },
+        {
+            "name": "Aeldari power sword",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Guardian combat weapon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 Aeldari flamer.",
-      "items": []
-    },
-    {
-      "description": "Up to 2 Storm Guardians can each have their shuriken pistol replaced with 1 Guardian fusion gun.",
-      "items": []
-    },
-    {
-      "description": "Up to 2 Storm Guardians can each have their Guardian combat weapon replaced with 1 Aeldari power sword.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Aeldari flamer",
-      "modifiers": "assault,ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Guardian fusion gun",
-      "modifiers": "assault,melta2",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
-    {
-      "name": "Aeldari power sword",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "1"
-    },
-    {
-      "name": "Guardian combat weapon",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

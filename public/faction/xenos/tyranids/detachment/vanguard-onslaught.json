@@ -38,7 +38,7 @@
             "description": "TYRANIDS model only. After both players have deployed their armies and determined who has the first turn, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
         }
     ],
-    "stratagems":[
+    "stratagems": [
         {
             "name": "surprise assault",
             "subindex": "battle tactic stratagem",
@@ -46,9 +46,11 @@
             "when": "Your Shooting phase or the Fight phase.",
             "target": "One VANGUARD INVADER unit from your army that has not been selected to shoot or fight this phase, and one enemy unit.",
             "effect": "That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "assasin beasts",
@@ -57,9 +59,11 @@
             "when": "Fight phase.",
             "target": "One VANGUARD INVADER INFANTRY unit from your army that has not been selected to fight this phase.",
             "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "seeded broods",
@@ -68,9 +72,11 @@
             "when": "Your Movement phase.",
             "target": "One TYRANIDS unit from your army that is in Reserves, or up to two VANGUARD INVADER units from your army that are in Reserves.",
             "effect": "Until the end of the phase, for the purposes of setting up those selected units on the battlefield, treat the current battle round number as being one higher than it actually is.",
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         },
         {
             "name": "hypersensory scillia",
@@ -79,9 +85,11 @@
             "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
             "target": "Up to two VANGUARD INVADER units from your army that are within 9'' of that enemy unit, or one other TYRANIDS INFANTRY unit from your army that is within 9'' of that enemy unit.",
             "effect": "Those selected units can each make a Normal move of up to 6''.",
-            "icon" : [""],
-            "cp":2,
-            "color":"red"
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "red"
         },
         {
             "name": "unseen lurkers",
@@ -90,10 +98,11 @@
             "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
             "target": "One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
             "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12'' or, if your unit has the Lone Operative ability, if the attacking model is within 6''. Your opponent can select new targets for the attacking unit’s attacks.",
-            
-            "icon" : [""],
-            "cp":1,
-            "color":"red"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         },
         {
             "name": "invisible hunter",
@@ -102,10 +111,11 @@
             "when": "End of your opponent’s Fight phase.",
             "target": "Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.",
             "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.",
-            "icon" : [""],
-            "cp":1,
-            "color":"red"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         }
     ]
-
 }

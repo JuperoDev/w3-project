@@ -1,190 +1,198 @@
 {
-  "parentUnit": "Onager Dunecrawler",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Onager Dunecrawler’s flexible armaments can blast apart squadrons of aircraft or atomise elite infantry in beams of blinding energy. They are versatile heavy weapons platforms, well-shielded and easily able to advance alongside Skitarii as their multiple limbs propel them over treacherous obstacles.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "imperium",
-    "skitarii",
-    "smoke",
-    "onager dunecrawler"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 10,
-    "save": 2,
-    "wounds": 11,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cognis heavy stubber",
-      "modifiers": [
-        "rapid fire 3",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Daedalus missile launcher",
-      "modifiers": [
-        "anti-fly 2+"
-      ],
-      "range": 48,
-      "strength": 10,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Eradication beamer - dissipated",
-      "modifiers": [
-        "blast",
-        "sustained hits d3"
-      ],
-      "range": 36,
-      "strength": 9,
-      "attacks": "d6",
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Eradication beamer - focused",
-      "modifiers": [
-        "blast",
-        "sustained hits d3"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": "d6",
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Neutron laser",
-      "modifiers": [
-        "blast",
-        "heavy"
-      ],
-      "range": 48,
-      "strength": 16,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 4,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Icarus array",
-      "modifiers": [
-        "anti-fly 4+",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 8,
-      "attacks": 6,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin Onager heavy phosphor blaster",
-      "modifiers": [
-        "ignores cover",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 4,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Onager Dunecrawler",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Onager Dunecrawler’s flexible armaments can blast apart squadrons of aircraft or atomise elite infantry in beams of blinding energy. They are versatile heavy weapons platforms, well-shielded and easily able to advance alongside Skitarii as their multiple limbs propel them over treacherous obstacles.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "imperium",
+        "skitarii",
+        "smoke",
+        "onager dunecrawler"
     ],
-    "otherAbilities": [
-      {
-        "name": "Emanatus Force Field (Aura):",
-        "description": "While a friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE model is wholly within 6\" of this model, that BATTLELINE model has a 4+ invulnerable save against ranged attacks."
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cognis heavy stubber",
+            "modifiers": [
+                "rapid fire 3",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Daedalus missile launcher",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Eradication beamer - dissipated",
+            "modifiers": [
+                "blast",
+                "sustained hits d3"
+            ],
+            "range": 36,
+            "strength": 9,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Eradication beamer - focused",
+            "modifiers": [
+                "blast",
+                "sustained hits d3"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Neutron laser",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 16,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Icarus array",
+            "modifiers": [
+                "anti-fly 4+",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin Onager heavy phosphor blaster",
+            "modifiers": [
+                "ignores cover",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Emanatus Force Field (Aura):",
+                "description": "While a friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE model is wholly within 6\" of this model, that BATTLELINE model has a 4+ invulnerable save against ranged attacks."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 140
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Onager Dunecrawler",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "eradication beamer",
+                "Dunecrawler legs"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s eradication beamer can be replaced with one of the following.",
+            "items": [
+                "1 daedalus missile launcher and 1 Icarus array",
+                "1 neutron laser and 1 cognis heavy stubber",
+                "1 twin Onager heavy phosphor blaster"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 additional cognis heavy stubber."
+        },
+        {
+            "description": "This model can be equipped with 1 broad spectrum data-tether."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Dunecrawler legs",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Broad spectrum data-tether",
+            "ability": "The bearer loses the SMOKE keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 140
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Onager Dunecrawler",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "eradication beamer", "Dunecrawler legs"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "This model’s eradication beamer can be replaced with one of the following.","items":["1 daedalus missile launcher and 1 Icarus array",
-    "1 neutron laser and 1 cognis heavy stubber",
-     "1 twin Onager heavy phosphor blaster"]
-   },
-   {
-    "description": "This model can be equipped with 1 additional cognis heavy stubber."
-  },
-  {
-    "description": "This model can be equipped with 1 broad spectrum data-tether."
-  }
- ],
- "meleeWeapons": [
-   {
-     "name": "Dunecrawler legs",
-     "attacks": 3,
-     "weapons-skills": 4,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   }
- ],
- "warGearAbilities": [
-   {
-     "wargear": "Broad spectrum data-tether",
-     "ability": "The bearer loses the SMOKE keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP."
-   }
- ]
 }

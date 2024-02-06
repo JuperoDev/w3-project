@@ -1,84 +1,89 @@
 {
     "parentUnit": "zephyrim squad",
-    "attributes": [{
-        "movement": 12,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "factionKeyword": [
         "adepta sororitas"
-      ],
-      "damaged": {},
-      "supremeCommander": false,
-      "lore": "Only those who experience a direct and persistent connection with the Emperor become Zephyrim. They are divine destroyers, figures of fathomless passion and integrity. On the battlefield they strike down their foes with ruthless precision, while their angelic singing drowns out the screams of the dying.",
-      "keywords": [
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Only those who experience a direct and persistent connection with the Emperor become Zephyrim. They are divine destroyers, figures of fathomless passion and integrity. On the battlefield they strike down their foes with ruthless precision, while their angelic singing drowns out the screams of the dying.",
+    "keywords": [
         "infantry",
         "jump pack",
         "fly",
         "grenades",
         "imperium",
         "zephyrim squad"
-      ],
-      "leader": [],
-      "rangedWeapons": [
+    ],
+    "leader": [],
+    "rangedWeapons": [
         {
-          "name": "Bolt pistol",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 1,
-          "ballistic-skills": 3,
-          "armor-penetration": 0,
-          "damage": 1,
-          "singleChoice": false
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
         },
         {
-          "name": "Plasma pistol - standard",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 7,
-          "attacks": 1,
-          "ballistic-skills": 3,
-          "armor-penetration": 2,
-          "damage": 1,
-          "singleChoice": true
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
         },
         {
-          "name": "Plasma pistol - supercharge",
-          "modifiers": [
-            "hazardous",
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 8,
-          "attacks": 1,
-          "ballistic-skills": 3,
-          "armor-penetration": 3,
-          "damage": 2,
-          "singleChoice": true
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
-      ],
-      "abilities": {
+    ],
+    "abilities": {
         "core": [
-          "Deep Strike"
+            "Deep Strike"
         ],
         "faction": [
-          "Acts of Faith"
+            "Acts of Faith"
         ],
-        "otherAbilities": [{"name":
-          "Embodied Prophecy:","description": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, add 1 to the Strength characteristic of that attack."
-        }]
-      },
-      "meleeWeapons": [
-          {
+        "otherAbilities": [
+            {
+                "name": "Embodied Prophecy:",
+                "description": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, add 1 to the Strength characteristic of that attack."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
             "name": "Power weapon",
             "attacks": 3,
             "weapons-skills": 3,
@@ -86,45 +91,57 @@
             "armor-penetration": 2,
             "damage": 1,
             "modifiers": []
-          }
-      ],
-  "wargear": [
-    {"description":"The Zephyrim Superior can be equipped with 1 sacred banner."},
-    {"description":"The Zephyrim Superior’s bolt pistol can be replaced with 1 plasma pistol."}
-  ],
-
-  "additionalParameter": {
-
-  },
- "unitComposition": [
-    {
-      "unitType": "Zephyrim Superior",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": ["bolt pistol","power weapon"]
-    },
-    {
-      "unitType": "Zephyrim",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": ["bolt pistol","power weapon"]
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1,4],
-      "points": 70
-    },
-    {
-        "count": [1,9],
-        "points": 140
-      }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Sacred Banner",
-      "ability": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
-    }
-  ]
+        }
+    ],
+    "wargear": [
+        {
+            "description": "The Zephyrim Superior can be equipped with 1 sacred banner."
+        },
+        {
+            "description": "The Zephyrim Superior’s bolt pistol can be replaced with 1 plasma pistol."
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Zephyrim Superior",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "power weapon"
+            ]
+        },
+        {
+            "unitType": "Zephyrim",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol",
+                "power weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 140
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Sacred Banner",
+            "ability": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+        }
+    ]
 }

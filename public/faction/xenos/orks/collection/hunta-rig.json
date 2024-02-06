@@ -1,114 +1,112 @@
 {
-  "parentUnit": "Hunta Rig",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Welded, lashed and nailed together from enemy wrecks and scavenged scrap, the Hunta Rig forgoes a Wurrboy wurrtower (much to its crew’s relief). Instead it boasts an open metal deck and copious grab-handles, the better for chanting and bellowing mobs of Beast Snagga Boyz to ride along on the hunt.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "beast snagga",
-    "hunta rig"
-  ],
-  "attributes": {
-    "movement": 10,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 16,
-    "leadership": 7,
-    "objetiveControl": 5,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "’Eavy lobba",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 48,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Stikka kannon",
-      "modifiers": [
-        "anti-monster 2+",
-        "anti-vehicle 2+",
-        "snagged"
-      ],
-      "range": 12,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Feel No Pain 6+",
-      "Firing Deck 21"
+    "parentUnit": "Hunta Rig",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "Waaagh!"
-      }
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Welded, lashed and nailed together from enemy wrecks and scavenged scrap, the Hunta Rig forgoes a Wurrboy wurrtower (much to its crew’s relief). Instead it boasts an open metal deck and copious grab-handles, the better for chanting and bellowing mobs of Beast Snagga Boyz to ride along on the hunt.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "beast snagga",
+        "hunta rig"
+    ],
+    "attributes": {
+        "movement": 10,
+        "toughness": 10,
+        "save": 3,
+        "wounds": 16,
+        "leadership": 7,
+        "objetiveControl": 5,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "’Eavy lobba",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Stikka kannon",
+            "modifiers": [
+                "anti-monster 2+",
+                "anti-vehicle 2+",
+                "snagged"
+            ],
+            "range": 12,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Feel No Pain 6+",
+            "Firing Deck 21"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "Waaagh!"
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "’Eavy lobba",
+            "modifiers": "blast,indirectfire",
+            "attacks": "D6",
+            "weapons-skills": "5+",
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 2
+        },
+        {
+            "name": "Butcha boyz",
+            "modifiers": "extraattacks,anti-monster4+,anti-vehicle4+",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Savage horns and hooves",
+            "modifiers": "extraattacks,lance",
+            "attacks": "4",
+            "weapons-skills": "4+",
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 3
+        },
+        {
+            "name": "Saw blades",
+            "modifiers": [],
+            "attacks": "6",
+            "weapons-skills": "3+",
+            "strength": 10,
+            "armor-penetration": 1,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "’Eavy lobba",
-      "modifiers": "blast,indirectfire",
-      "attacks": "D6",
-      "weapons-skills": "5+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 2
-    },
-    {
-      "name": "Butcha boyz",
-      "modifiers": "extraattacks,anti-monster4+,anti-vehicle4+",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Savage horns and hooves",
-      "modifiers": "extraattacks,lance",
-      "attacks": "4",
-      "weapons-skills": "4+",
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 3
-    },
-    {
-      "name": "Saw blades",
-      "modifiers": [],
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 10,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ]
 }

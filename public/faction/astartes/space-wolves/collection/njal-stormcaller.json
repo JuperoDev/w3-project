@@ -1,127 +1,134 @@
 {
-  "parentUnit": "Njal Stormcaller",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Summoning ice-toothed blizzards to scatter his foes, Njal Stormcaller is an elemental focus of psychic fury. He is High Rune Priest of the Space Wolves and wields a crackling staff by which he nullifies enemy sorceries.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "imperium",
-    "terminator",
-    "njal stormcaller"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 5,
-    "save": 2,
-    "wounds": 5,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": ["Wolf Guard Terminators",
-  "Terminator Assault Squad",
- " Terminator Squad"],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Living Lightning - witchfire",
-      "modifiers": [
-        "psychic",
-        "sustained hits 2"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Living Lightning - focused witchfire",
-      "modifiers": [
-        "hazardous",
-        "psychic",
-        "sustained hits 2"
-      ],
-      "range": 24,
-      "strength": 7,
-      "attacks": "2d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Njal Stormcaller",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Summoning ice-toothed blizzards to scatter his foes, Njal Stormcaller is an elemental focus of psychic fury. He is High Rune Priest of the Space Wolves and wields a crackling staff by which he nullifies enemy sorceries.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "imperium",
+        "terminator",
+        "njal stormcaller"
     ],
-    "otherAbilities": [
-      {
-        "name": "Stormcaller (Psychic):",
-        "description": "While this model is leading a unit, models in that unit have the Stealth ability."
-      },
-      {
-        "name": "Runic Armour:",
-        "description": "Each time a Psychic Attack targets this model’s unit, subtract 1 from the Wound roll ."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Staff of the Stormcaller",
-      "modifiers": ["psychic","sustained hits 2"],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": "D3"
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 85
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Njal Stormcaller – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-           "bolt pistol", "Living Lightning", "Staff of the Stormcaller" 
-          ]
-      }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Wolf Guard Terminators",
+        "Terminator Assault Squad",
+        " Terminator Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Living Lightning - witchfire",
+            "modifiers": [
+                "psychic",
+                "sustained hits 2"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Living Lightning - focused witchfire",
+            "modifiers": [
+                "hazardous",
+                "psychic",
+                "sustained hits 2"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Stormcaller (Psychic):",
+                "description": "While this model is leading a unit, models in that unit have the Stealth ability."
+            },
+            {
+                "name": "Runic Armour:",
+                "description": "Each time a Psychic Attack targets this model’s unit, subtract 1 from the Wound roll ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Staff of the Stormcaller",
+            "modifiers": [
+                "psychic",
+                "sustained hits 2"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": "D3"
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Njal Stormcaller – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Living Lightning",
+                "Staff of the Stormcaller"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

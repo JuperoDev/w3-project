@@ -1,83 +1,84 @@
 {
-  "parentUnit": "Sir Hekhtur",
-  "factionKeyword": [
-    "imperial knights"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Once a prisoner of the Iron Warriors, Sir Hekhtur resisted agonising torture and escaped only through sheer faith, determination and honour. Now he travels the galaxy, liberating Imperial citizens enslaved by the forces of the Arch-enemy.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "imperium",
-    "sir hekhtur"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "save": 4,
-    "wounds": 3,
-    "leadership": 5,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Hekhtur’s pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Lone Operative"
+    "parentUnit": "Sir Hekhtur",
+    "factionKeyword": [
+        "imperial knights"
     ],
-    "faction": [],
-    "otherAbilities": []
-  },
-  "options": [
-   
- ],
- "unitComposition": [
-     {
-         "unitType": "Sir Hekhtur – EPIC HERO",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-           "Hekhtur’s pistol","close combat weapon."
-         ]
-     }
- ],
- "additionalParameter": {
-  "title": "Using Sir Hekhtur",
-  "abilities": [
-      {
-          "description": "When your CANIS REX model is destroyed, Sir Hekhtur is treated as a model disembarking from a destroyed TRANSPORT – set him up within 3'' of your Canis Rex model before it is removed. Sir Hekhtur then uses the profile, wargear, abilities and keywords shown on this datasheet, but cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed."
-      }
-  ]
-},
-"wargear": [
-  
-],
-"meleeWeapons": [
-  {
-    "name": "Close Combat Weapon",
-    "attacks": 2,
-    "weapons-skills": 2,
-    "strength": 3,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": ["extra attacks"]
-  }
-]
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Once a prisoner of the Iron Warriors, Sir Hekhtur resisted agonising torture and escaped only through sheer faith, determination and honour. Now he travels the galaxy, liberating Imperial citizens enslaved by the forces of the Arch-enemy.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "sir hekhtur"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 5,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Hekhtur’s pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Lone Operative"
+        ],
+        "faction": [],
+        "otherAbilities": []
+    },
+    "options": [],
+    "unitComposition": [
+        {
+            "unitType": "Sir Hekhtur – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Hekhtur’s pistol",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "additionalParameter": {
+        "title": "Using Sir Hekhtur",
+        "abilities": [
+            {
+                "description": "When your CANIS REX model is destroyed, Sir Hekhtur is treated as a model disembarking from a destroyed TRANSPORT – set him up within 3'' of your Canis Rex model before it is removed. Sir Hekhtur then uses the profile, wargear, abilities and keywords shown on this datasheet, but cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close Combat Weapon",
+            "attacks": 2,
+            "weapons-skills": 2,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "extra attacks"
+            ]
+        }
+    ]
 }

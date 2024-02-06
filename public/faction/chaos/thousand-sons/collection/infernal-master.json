@@ -1,115 +1,130 @@
 {
-  "parentUnit": "Infernal Master",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Infernal Masters forge pacts with daemonic entities, euphemistically called tutelaries. Upon the battlefield they can unleash the powers of these malign familiars to engulf their foes in swarms of momentarily corporeal terrors, to divine whispers of the future or to master the currents of the empyrean itself.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "psyker",
-    "chaos",
-    "tzeentch",
-    "infernal master"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["rubric marines"],
-  "rangedWeapons": [
-    {
-      "name": "Inferno bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Infernal Master",
+    "factionKeyword": [
+        "thousand sons"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Infernal Masters forge pacts with daemonic entities, euphemistically called tutelaries. Upon the battlefield they can unleash the powers of these malign familiars to engulf their foes in swarms of momentarily corporeal terrors, to divine whispers of the future or to master the currents of the empyrean itself.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "psyker",
+        "chaos",
+        "tzeentch",
+        "infernal master"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "rubric marines"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Inferno bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Screamer Invocation - witchfire",
+            "modifiers": [
+                "psychic",
+                "torrent"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "2d3",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Screamer Invocation - focused witchfire",
+            "modifiers": [
+                "hazardous",
+                "psychic",
+                "torrent"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "2d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Force Weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "strength": 6,
+            "attacks": 4,
+            "weapons-skills": 3,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Cabal of Sorcerers 2"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Malefic Maelstrom (Psychic):",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Glimpse of Eternity (Psychic):",
+                "description": "Once per turn, you can change the result of one Hit roll , one Wound roll , one Damage roll or one saving throw made for this model to an unmodified 6."
+            }
+        ]
     },
-    {
-      "name": "Screamer Invocation - witchfire",
-      "modifiers": [
-        "psychic",
-        "torrent"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": "2d3",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Screamer Invocation - focused witchfire",
-      "modifiers": [
-        "hazardous",
-        "psychic",
-        "torrent"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": "2d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "meleeWeapons":[ {
-    "name": "Force Weapon",
-    "modifiers": [
-      
-      "psychic"
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Infernal Master",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "inferno bolt pistol",
+                "Screamer Invocation",
+                "force weapon"
+            ]
+        }
     ],
-    "strength": 6,
-    "attacks": 4,
-    "weapons-skills": 3,
-    "armor-penetration": 1,
-    "damage": "d3",
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      "Leader"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
     ],
-    "faction": [
-      "Cabal of Sorcerers 2"
-    ],
-    "otherAbilities": [{"name":
-      "Malefic Maelstrom (Psychic):", "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."},{"name":
-      "Glimpse of Eternity (Psychic):", "description": "Once per turn, you can change the result of one Hit roll , one Wound roll , one Damage roll or one saving throw made for this model to an unmodified 6."
-    }]
-  },
-  "additionalParameter": {},
-  "unitComposition": [
-      {
-          "unitType": "Infernal Master",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": ["inferno bolt pistol", "Screamer Invocation", "force weapon"]
-      }
-  ],
-  "options": [
-      {
-          "count": [
-              1
-          ],
-          "points": 90
-      }
-  ],
-  "wargear":[]
+    "wargear": []
 }

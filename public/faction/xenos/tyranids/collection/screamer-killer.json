@@ -1,83 +1,87 @@
 {
-  "parentUnit": "screamer-killer",
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 9,
-      "save": 2,
-      "wounds": 10,
-      "leadership": 8,
-      "objetiveControl": 3,
-      "invulnerableSave": 0
-    }
-  ],
-  "leader": [],
-  "lore": "An older adaptation of the basic Carnifex strain, the Screamer-Killer was christened by terrified Imperial troops for the distinctive howl it emits as it generates then unleashes its bio-plasmic blasts. Screamer-Killers are often seen at the forefront of a Tyranid assault, where they can inflict the most damage quickly. ",
-  "factionKeyword": [
-    "tyranids"
-  ],
-  "keywords": [
-    "monster",
-    "great devourer",
-    "screamer-killer"
-  ],
-  "wargear": [],
-  "meleeWeapons": [
-    {
-      "name": "screamer-killer talons",
-      "attacks": 10,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": []
-    }
-  ],
-  "supremeCommander": false,
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 170
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "screamer-killer",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "bio-plasmic scream",
-        "screamer-killer talons"
-      ]
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
+    "parentUnit": "screamer-killer",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 8,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
     ],
-    "faction": [
-      "Synapse"
+    "leader": [],
+    "lore": "An older adaptation of the basic Carnifex strain, the Screamer-Killer was christened by terrified Imperial troops for the distinctive howl it emits as it generates then unleashes its bio-plasmic blasts. Screamer-Killers are often seen at the forefront of a Tyranid assault, where they can inflict the most damage quickly. ",
+    "factionKeyword": [
+        "tyranids"
     ],
-    "otherAbilities": [{"name":
-      "Death Scream:","description": "In your Shooting phase , after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test , subtracting 1 from that test."
-    }]
-  },
-  "additionalParameter": {},
-  "damaged": {},
-  "rangedWeapons": [
-    {
-      "name": "Bio-plasmic scream",
-      "range": 18,
-      "attacks": "d6+3",
-      "ballistic-skills": 4,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": [
-        "assault","blast"
-      ]
-    }
-  ]
+    "keywords": [
+        "monster",
+        "great devourer",
+        "screamer-killer"
+    ],
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "screamer-killer talons",
+            "attacks": 10,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": []
+        }
+    ],
+    "supremeCommander": false,
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 170
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "screamer-killer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bio-plasmic scream",
+                "screamer-killer talons"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Death Scream:",
+                "description": "In your Shooting phase , after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test , subtracting 1 from that test."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {},
+    "rangedWeapons": [
+        {
+            "name": "Bio-plasmic scream",
+            "range": 18,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "assault",
+                "blast"
+            ]
+        }
+    ]
 }

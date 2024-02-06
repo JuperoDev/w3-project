@@ -1,134 +1,134 @@
 {
-  "parentUnit": "Autarch Skyrunner",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Autarchs are more than capable of leading their warhosts from the front, plunging into the fray as Skyrunners astride jetbikes. When visited by war-lust, they draw upon all the skills they have learnt from the Aspect Shrines to spearhead assaults, duel enemy leaders and destroy war machines.",
-  "keywords": [
-    "mounted",
-    "character",
-    "fly",
-    "autarch",
-    "autarch skyrunner"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 4,
-    "salvation": 3,
-    "wounds": 5,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Dragon fusion gun",
-      "modifiers": [
-        "assault",
-        "melta 3"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Laser lance",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 6,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin shuriken catapult",
-      "modifiers": [
-        "assault",
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Autarch Skyrunner",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [
-      "Strands of Fate"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Autarchs are more than capable of leading their warhosts from the front, plunging into the fray as Skyrunners astride jetbikes. When visited by war-lust, they draw upon all the skills they have learnt from the Aspect Shrines to spearhead assaults, duel enemy leaders and destroy war machines.",
+    "keywords": [
+        "mounted",
+        "character",
+        "fly",
+        "autarch",
+        "autarch skyrunner"
     ],
-    "otherAbilities": [
-      {
-        "name": "Ride the Wind:",
-        "description": "While this model is leading a unit, each time that unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
-      },
-      {
-        "name": "Path of Command:",
-        "description": "At the start of your Command phase , if this model is your Warlord , you gain 1CP."
-      }
+    "attributes": {
+        "movement": 14,
+        "toughness": 4,
+        "salvation": 3,
+        "wounds": 5,
+        "leadership": 6,
+        "objectiveControl": 2,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Dragon fusion gun",
+            "modifiers": [
+                "assault",
+                "melta 3"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laser lance",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 6,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin shuriken catapult",
+            "modifiers": [
+                "assault",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Ride the Wind:",
+                "description": "While this model is leading a unit, each time that unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
+            },
+            {
+                "name": "Path of Command:",
+                "description": "At the start of your Command phase , if this model is your Warlord , you gain 1CP."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s laser lance can be replaced with one of the following",
+            "items": [
+                "1 Dragon fusion gun",
+                "1 Banshee blade"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Dragon fusion gun",
+            "modifiers": "assault,melta3",
+            "attacks": "1",
+            "weapons-skills": "2+",
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "D6"
+        },
+        {
+            "name": "Laser lance",
+            "modifiers": "assault",
+            "attacks": "1",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": "2"
+        },
+        {
+            "name": "Laser lance",
+            "modifiers": "lance",
+            "attacks": "4",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 3,
+            "damage": "2"
+        },
+        {
+            "name": "Banshee blade",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 3,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s laser lance can be replaced with one of the following",
-      "items": [
-        "1 Dragon fusion gun",
-        "1 Banshee blade"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Dragon fusion gun",
-      "modifiers": "assault,melta3",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
-    {
-      "name": "Laser lance",
-      "modifiers": "assault",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 6,
-      "armor-penetration": 3,
-      "damage": "2"
-    },
-    {
-      "name": "Laser lance",
-      "modifiers": "lance",
-      "attacks": "4",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 3,
-      "damage": "2"
-    },
-    {
-      "name": "Banshee blade",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 3,
-      "damage": "1"
-    }
-  ]
 }

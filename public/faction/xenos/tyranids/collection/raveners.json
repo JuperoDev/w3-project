@@ -1,14 +1,16 @@
 {
     "parentUnit": "raveners",
-    "attributes": [{
-        "movement": 10,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Serpentine bioforms capable of a terrifying turn of speed, Raveners are made doubly dangerous by their ability to tunnel swiftly through even solid bedrock. Often assaulting their prey from below, Raveners are especially vicious and predatory warrior organisms used as shock troops by the Hive Mind. ",
     "factionKeyword": [
@@ -27,65 +29,76 @@
             "strength": 5,
             "armor-penetration": 1,
             "damage": 1,
-            "modifiers": ["twin-linked"]
+            "modifiers": [
+                "twin-linked"
+            ]
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [3],
-        "points": 75
-      },
-      {
-          "count": [6],
-          "points": 150
+        {
+            "count": [
+                3
+            ],
+            "points": 75
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 150
         }
     ],
     "wargear": [
-        {"description":"All models in this unit can each have their thoracic bio-weapon replaced with 1 armoured thorax."}
-     ],
-     "unitComposition": [
-         {
-             "unitType": "raveners",
-             "minQuantity": 3,
-             "maxQuantity": 6,
-             "equipment": [
-               "thoracic bio-weapon",
-               "ravener claws and talons"
-             ]
-         }
-     ],
-     "abilities": {
-       "core": [
-         "Deep Strike"
-       ],
-       "faction": [
-         "Synapse"
-       ],
-       "otherAbilities": [{"name":
-         "Death From Below:","description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves ."
-       }]
-     },
-
-     "additionalParameter": {},
-     "damaged": {} ,
-     "rangedWeapons": [
-       {
-         "name": "Thoracic bio-weapon",
-         "range": 12,
-         "attacks": 3,
-         "ballistic-skills": 4,
-         "strength": 4,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": [
-           "assault"
-         ]}],
-         "warGearAbilities":[
-           {
-             "wargear":"Armoured Thorax",
-             "ability":"The bearer has a Save characteristic of 4+."
-           }
-         ]
+        {
+            "description": "All models in this unit can each have their thoracic bio-weapon replaced with 1 armoured thorax."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "raveners",
+            "minQuantity": 3,
+            "maxQuantity": 6,
+            "equipment": [
+                "thoracic bio-weapon",
+                "ravener claws and talons"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Death From Below:",
+                "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {},
+    "rangedWeapons": [
+        {
+            "name": "Thoracic bio-weapon",
+            "range": 12,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "assault"
+            ]
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Armoured Thorax",
+            "ability": "The bearer has a Save characteristic of 4+."
+        }
+    ]
 }

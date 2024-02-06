@@ -1,103 +1,101 @@
 {
-  "parentUnit": "Mortarion",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {
-    "remainingWounds": 6,
-    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": true,
-  "lore": "To stand in Mortarion’s presence is lethal, such is the pestilential aura that surrounds him. Wielding his gigantic scythe, Silence, he cuts apart entire enemy squads in seconds. With furious blasts of Lantern, his devastating sidearm of unknown provenance, he disintegrates heavy infantry and armour alike.",
-  "keywords": [
-    "monster",
-    "psyker",
-    "fly",
-    "character",
-    "epic hero",
-    "daemon",
-    "grenades",
-    "chaos",
-    "nurgle",
-    "primarch",
-    "mortarion"
-  ],
-  "attributes": {
-    "movement": 10,
-    "toughness": 12,
-    "save": 2,
-    "wounds": 16,
-    "leadership": 5,
-    "objetiveControl": 6,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Rotwind",
-      "modifiers": [
-        "blast",
-        "devastating wounds",
-        "lethal hits",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "The Lantern",
-      "modifiers": [
-        "pistol",
-        "sustained hits d3"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Feel No Pain 5+"
+    "parentUnit": "Mortarion",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Toxic Presence (Aura):",
-        "description": "While a friendly DEATH GUARD unit is within 12\" of this model, add 3\" to the Contagion Range of that unit."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Rotwind",
-      "modifiers": "blast,devastatingwounds,lethalhits,psychic",
-      "attacks": "D6+3",
-      "weapons-skills": "2+",
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 1
+    "damaged": {
+        "remainingWounds": 6,
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "name": "Silence – strike",
-      "modifiers": "lethalhits",
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 14,
-      "armor-penetration": 3,
-      "damage": 4
-    }
-  ]
+    "supremeCommander": true,
+    "lore": "To stand in Mortarion’s presence is lethal, such is the pestilential aura that surrounds him. Wielding his gigantic scythe, Silence, he cuts apart entire enemy squads in seconds. With furious blasts of Lantern, his devastating sidearm of unknown provenance, he disintegrates heavy infantry and armour alike.",
+    "keywords": [
+        "monster",
+        "psyker",
+        "fly",
+        "character",
+        "epic hero",
+        "daemon",
+        "grenades",
+        "chaos",
+        "nurgle",
+        "primarch",
+        "mortarion"
+    ],
+    "attributes": {
+        "movement": 10,
+        "toughness": 12,
+        "save": 2,
+        "wounds": 16,
+        "leadership": 5,
+        "objetiveControl": 6,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Rotwind",
+            "modifiers": [
+                "blast",
+                "devastating wounds",
+                "lethal hits",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "The Lantern",
+            "modifiers": [
+                "pistol",
+                "sustained hits d3"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Feel No Pain 5+"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Toxic Presence (Aura):",
+                "description": "While a friendly DEATH GUARD unit is within 12\" of this model, add 3\" to the Contagion Range of that unit."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Rotwind",
+            "modifiers": "blast,devastatingwounds,lethalhits,psychic",
+            "attacks": "D6+3",
+            "weapons-skills": "2+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Silence – strike",
+            "modifiers": "lethalhits",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 14,
+            "armor-penetration": 3,
+            "damage": 4
+        }
+    ]
 }

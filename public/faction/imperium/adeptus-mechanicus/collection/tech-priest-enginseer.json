@@ -1,100 +1,108 @@
 {
-  "parentUnit": "Tech-priest Enginseer",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The most widespread of a forge world’s priesthood, Enginseers maintain many of the Imperium’s mechanisms, such as reactors, battle tanks and even starships. They have an intuitive connection with holy apparatuses, and can awaken the most recalcitrant of engine spirits with whispered machine cant.",
-  "keywords": [
-    "imperium",
-    "infantry",
-    "character",
-    "cult mechanicus",
-    "tech-priest",
-    "enginseer"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 3,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": ["Corpuscarii Electro-priests",
-  "Fulgurite Electro-priests",
-  "Kataphron Breachers",
- "Kataphron Destroyers",
-  "Skitarii Rangers",
-  "Skitarii Vanguard"],
-  "rangedWeapons": [
-    {
-      "name": "Mechanicus pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Tech-priest Enginseer",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "Mechanicus pistol; Omnissian axe; servo-arm."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The most widespread of a forge world’s priesthood, Enginseers maintain many of the Imperium’s mechanisms, such as reactors, battle tanks and even starships. They have an intuitive connection with holy apparatuses, and can awaken the most recalcitrant of engine spirits with whispered machine cant.",
+    "keywords": [
+        "imperium",
+        "infantry",
+        "character",
+        "cult mechanicus",
+        "tech-priest",
+        "enginseer"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [
+        "Corpuscarii Electro-priests",
+        "Fulgurite Electro-priests",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Mechanicus pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "Mechanicus pistol; Omnissian axe; servo-arm."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 45
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Tech-Priest Enginseer",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Mechanicus pistol",
+                "Omnissian axe",
+                "servo-arm"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Omnissian axe",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Servo-arm ",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [
+                "extra attacks"
+            ]
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 45
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Tech-Priest Enginseer",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-         " Mechanicus pistol","Omnissian axe", "servo-arm"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   
- ],
- "meleeWeapons": [
-  {
-    "name": "Omnissian axe",
-    "attacks": 4,
-    "weapons-skills": 3,
-    "strength": 6,
-    "armor-penetration": 2,
-    "damage": 2,
-    "modifiers": []
-  },
-  {
-    "name": "Servo-arm ",
-    "attacks": 1,
-    "weapons-skills": 4,
-    "strength": 6,
-    "armor-penetration": 2,
-    "damage": 2,
-    "modifiers": ["extra attacks"]
-  }
- ]
 }

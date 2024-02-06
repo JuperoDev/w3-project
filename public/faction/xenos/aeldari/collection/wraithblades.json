@@ -1,63 +1,63 @@
 {
-  "parentUnit": "Wraithblades",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Wraithblades are inhabited by wrathful spirits who are eager to get to grips with the foe. Armed with ghostswords or ghostaxes, they cleave their foes apart, each blow driven further by the power of the spirit stones implanted into the weapons. These stones are inhabited by malevolent souls that rage against their confinement.",
-  "keywords": [
-    "infantry",
-    "wraith construct",
-    "wraithblades"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 7,
-    "salvation": 2,
-    "wounds": 3,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "FACTION: Strands of Fate"
+    "parentUnit": "Wraithblades",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Forceshield:",
-        "description": "The bearer has a 4+ invulnerable save ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "All of the models in this unit can each have their ghostswords replaced with 1 ghostaxe and 1 forceshield.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Ghostaxe",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": "2"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wraithblades are inhabited by wrathful spirits who are eager to get to grips with the foe. Armed with ghostswords or ghostaxes, they cleave their foes apart, each blow driven further by the power of the spirit stones implanted into the weapons. These stones are inhabited by malevolent souls that rage against their confinement.",
+    "keywords": [
+        "infantry",
+        "wraith construct",
+        "wraithblades"
+    ],
+    "attributes": {
+        "movement": 6,
+        "toughness": 7,
+        "salvation": 2,
+        "wounds": 3,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 0
     },
-    {
-      "name": "Ghostswords",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "4+",
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": "1"
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "FACTION: Strands of Fate"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Forceshield:",
+                "description": "The bearer has a 4+ invulnerable save ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "All of the models in this unit can each have their ghostswords replaced with 1 ghostaxe and 1 forceshield.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Ghostaxe",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Ghostswords",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": "1"
+        }
+    ]
 }

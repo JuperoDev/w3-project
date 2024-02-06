@@ -1,101 +1,108 @@
 {
-  "parentUnit": "Vigilators",
-  "factionKeywords": [
-    "adeptus custodes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The surest way to bring an end to a witch’s malefic rampage is to strike their head from their body. Such is the doctrine of the Vigilators, who ghost across the battlefield before charging headlong into battle, their double-handed power blades singing a keening song of death.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "anathema psykana",
-    "vigilators"
-  ],
-  "attributes":[ {
-    "movement": 6,
-    "toughness": 3,
-    "save": 3,
-    "wounds": 1,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Vigilators",
+    "factionKeywords": [
+        "adeptus custodes"
     ],
-    "faction": [],
-    "otherAbilities": [ {
-      "name": "Daughters of the Abyss",
-      "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks."
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The surest way to bring an end to a witch’s malefic rampage is to strike their head from their body. Such is the doctrine of the Vigilators, who ghost across the battlefield before charging headlong into battle, their double-handed power blades singing a keening song of death.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "anathema psykana",
+        "vigilators"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Daughters of the Abyss",
+                "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks."
+            },
+            {
+                "name": "Deft Parry",
+                "description": "Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+            }
+        ]
     },
-    {
-      "name": "Deft Parry",
-      "description": "Each time a melee attack targets this unit, subtract 1 from the Hit roll."
-    }]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Executioner greatblade",
-      "modifiers": ["anti-psyker 4+", "devastating wounds"],
-      "attacks": 2,
-      "weapons-skills":  3 ,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage":  2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Vigilator Sister Superior",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Samni’arius",
-        "Spinegrinder"
-      ]
-    },
-    {
-      "unitType": "Vigilators",
-      "minQuantity": 3,
-      "maxQuantity": 9,
-      "equipment": [
-        "Samni’arius",
-        "Spinegrinder"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,3
-      ],
-      "points": 50
-    },
-    {
-      "count": [
-        1,4
-      ],
-      "points":65
-    },
-    {
-      "count": [
-        1,8
-      ],
-      "points": 115
-    },
-    {
-      "count": [
-        1,9
-      ],
-      "points": 130
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Executioner greatblade",
+            "modifiers": [
+                "anti-psyker 4+",
+                "devastating wounds"
+            ],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Vigilator Sister Superior",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        },
+        {
+            "unitType": "Vigilators",
+            "minQuantity": 3,
+            "maxQuantity": 9,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                3
+            ],
+            "points": 50
+        },
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 65
+        },
+        {
+            "count": [
+                1,
+                8
+            ],
+            "points": 115
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 130
+        }
+    ],
+    "additionalParameter": {}
 }

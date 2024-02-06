@@ -1,99 +1,97 @@
 {
-  "parentUnit": "Gretchin",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "What Gretchin – also called grots – lack in stature, courage, resilience, discipline, motivation, loyalty, aggression and personal hygiene, they allegedly make up for in numbers. They are at least reasonable shots with their underpowered firearms, and if all else fails, the Orks find that grots make excellent bullet-stops.",
-  "keywords": [
-    "infantry",
-    "gretchin"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 2,
-    "save": 7,
-    "wounds": 1,
-    "leadership": 8,
-    "objetiveControl": 2,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Grot blasta",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Waaagh!"
+    "parentUnit": "Gretchin",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every Runtherd is equipped with:",
-        "description": "slugga; grot-smacka."
-      },
-      {
-        "name": "Every Gretchin is equipped with:",
-        "description": "grot blasta; close combat weapon."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "What Gretchin – also called grots – lack in stature, courage, resilience, discipline, motivation, loyalty, aggression and personal hygiene, they allegedly make up for in numbers. They are at least reasonable shots with their underpowered firearms, and if all else fails, the Orks find that grots make excellent bullet-stops.",
+    "keywords": [
+        "infantry",
+        "gretchin"
+    ],
+    "attributes": {
+        "movement": 6,
+        "toughness": 2,
+        "save": 7,
+        "wounds": 1,
+        "leadership": 8,
+        "objetiveControl": 2,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Grot blasta",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Waaagh!"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every Runtherd is equipped with:",
+                "description": "slugga; grot-smacka."
+            },
+            {
+                "name": "Every Gretchin is equipped with:",
+                "description": "grot blasta; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Grot blasta",
+            "modifiers": "pistol",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "1",
+            "weapons-skills": "5+",
+            "strength": 2,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Grot-smacka",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Grot blasta",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "1",
-      "weapons-skills": "5+",
-      "strength": 2,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Grot-smacka",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

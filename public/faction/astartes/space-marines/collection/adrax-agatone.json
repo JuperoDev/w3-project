@@ -1,102 +1,106 @@
 {
-  "parentUnit": "Adrax Agatone",
-  "factionKeywords": [
-    "adeptus astartes",
-    "salamanders"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Salamanders’ 3rd Company Captain is a tightly focused force of destruction, striking hard and true in battle without tiring. Prodigiously strong, he wields his mighty thunder hammer expertly, striking down foes with every swing. Those enemies Agatone does not slay in this way he purges with furious blasts from his hand-flamer, Drakkis.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "imperium",
-    "tacticus",
-    "captain",
-    "adrax agatone"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 2,
-    "wounds": 5,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": ["Assault Intercessor Squad",
- "Bladeguard Veteran Squad",
-  "Company Heroes",
-  "Infernus Squad",
-  "Intercessor Squad",
-  "Sternguard Veteran Squad",
- "Tactical Squad"],
-  "rangedWeapons": [
-    {
-      "name": "Drakkis",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": "d6+3",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Adrax Agatone",
+    "factionKeywords": [
+        "adeptus astartes",
+        "salamanders"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Salamanders’ 3rd Company Captain is a tightly focused force of destruction, striking hard and true in battle without tiring. Prodigiously strong, he wields his mighty thunder hammer expertly, striking down foes with every swing. Those enemies Agatone does not slay in this way he purges with furious blasts from his hand-flamer, Drakkis.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "tacticus",
+        "captain",
+        "adrax agatone"
     ],
-    "otherAbilities": [
-      {
-        "name": "Unto the Anvil:",
-        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll ."
-      },
-      {
-        "name": "Lord of the Pyroclasts:",
-        "description": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit."
-      }
-    ]
-  },
-  "wargear": [],
-  "meleeWeapons": [
-    {
-      "name": "Malleus Noctum",
-      "modifiers": [],
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": " Adrax Agatone – EPIC HERO",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-       " Drakkis", "Malleus Noctum" 
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Drakkis",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6+3",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Unto the Anvil:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll ."
+            },
+            {
+                "name": "Lord of the Pyroclasts:",
+                "description": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit."
+            }
         ]
-    }
-  ],
-"options": [
-    {
-      "count": [1],
-      "points": 85
-    }
-  ],
-
-"additionalParameter": {
-    
-}
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Malleus Noctum",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

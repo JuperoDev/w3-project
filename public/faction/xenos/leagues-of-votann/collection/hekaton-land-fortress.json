@@ -1,183 +1,200 @@
 {
-  "parentUnit": "Hekaton Land Fortress",
-  "factionKeyword": [
-    "leagues of votann",
-    "votann"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The iconic battle tank and armoured transport of the Leagues of Votann, the Hekaton Land Fortress is as venerable and well-respected as it is powerful. With a fearsome arsenal of heavy weaponry and tremendously resilient armour – and with the ability to bear bands of Kin soldiery into battle – it is a versatile military asset.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "hekaton land fortress"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 12,
-      "save": 2,
-      "wounds": 16,
-      "leadership": 7,
-      "objetiveControl": 5,
-      "invulnerableSave": 0
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cyclic ion cannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": "d6+3",
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy magna-rail cannon",
-      "modifiers": [
-        "devastating wounds",
-        "heavy"
-      ],
-      "range": 30,
-      "strength": 18,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 4,
-      "damage": "d6+6",
-      "singleChoice": false
-    },
-    {
-      "name": "Hekaton warhead",
-      "modifiers": [
-        "blast",
-        "indirect fire",
-        "one shot"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": "d6+3",
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "SP heavy conversion beamer",
-      "modifiers": [
-        "conversion",
-        "sustained hits d3"
-      ],
-      "range": 24,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 4,
-      "singleChoice": false
-    },
-    {
-      "name": "MATR autocannon",
-      "modifiers": [
-        "conversion",
-        "sustained hits d3"
-      ],
-      "range": 24,
-      "strength": 10,
-      "attacks": 6,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin bolt cannon",
-      "modifiers": [
-        "SUSTAINED HITS 1",
-        "TWIN-LINKED"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin ion beamer",
-      "modifiers": [
-        "sustained hits d3",
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Hekaton Land Fortress",
+    "factionKeyword": [
+        "leagues of votann",
+        "votann"
     ],
-    "faction": [
-      "Eye of the Ancestors"
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The iconic battle tank and armoured transport of the Leagues of Votann, the Hekaton Land Fortress is as venerable and well-respected as it is powerful. With a fearsome arsenal of heavy weaponry and tremendously resilient armour – and with the ability to bear bands of Kin soldiery into battle – it is a versatile military asset.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "hekaton land fortress"
     ],
-    "otherAbilities": [
-      {
-        "name": "Fire Support",
-        "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 7,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cyclic ion cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy magna-rail cannon",
+            "modifiers": [
+                "devastating wounds",
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 18,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6+6",
+            "singleChoice": false
+        },
+        {
+            "name": "Hekaton warhead",
+            "modifiers": [
+                "blast",
+                "indirect fire",
+                "one shot"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "SP heavy conversion beamer",
+            "modifiers": [
+                "conversion",
+                "sustained hits d3"
+            ],
+            "range": 24,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 4,
+            "singleChoice": false
+        },
+        {
+            "name": "MATR autocannon",
+            "modifiers": [
+                "conversion",
+                "sustained hits d3"
+            ],
+            "range": 24,
+            "strength": 10,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin bolt cannon",
+            "modifiers": [
+                "SUSTAINED HITS 1",
+                "TWIN-LINKED"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin ion beamer",
+            "modifiers": [
+                "sustained hits d3",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Eye of the Ancestors"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Fire Support",
+                "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Hekaton Land Fortress",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "cyclic ion cannon; MATR autocannon",
+                "2 twin bolt cannons",
+                " armoured wheels",
+                "pan spectral scanner"
+            ]
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Pan spectral scanner",
+            "ability": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 225
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Plasma knife",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {
+            "description": "For every 3 models in this unit, 1 model can be equipped with one of the following (if a model is equipped with any of these weapons, add 1 to its Wounds characteristic):",
+            "items": [
+                "1 HYLas rotary cannon",
+                "1 ion beamer"
+            ]
+        },
+        {
+            "description": "Up to 3 different models that are not equipped with either a HYLas rotary cannon or an ion beamer can each be equipped with 1 of the following (to a maximum of 1 of each per unit):",
+            "items": [
+                "1 comms array*",
+                "1 pan spectral scanner*",
+                "1 rollbar searchlight*"
+            ]
+        }
     ]
-  },
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Hekaton Land Fortress",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "cyclic ion cannon; MATR autocannon",
-        "2 twin bolt cannons",
-        " armoured wheels",
-        "pan spectral scanner"
-      ]
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Pan spectral scanner",
-      "ability": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 225
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Plasma knife",
-      "attacks": 2,
-      "weapons-skills": 4,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": []
-    }
-  ],
-  "wargear":[{"description":"For every 3 models in this unit, 1 model can be equipped with one of the following (if a model is equipped with any of these weapons, add 1 to its Wounds characteristic):","items":["1 HYLas rotary cannon","1 ion beamer"]},{"description":"Up to 3 different models that are not equipped with either a HYLas rotary cannon or an ion beamer can each be equipped with 1 of the following (to a maximum of 1 of each per unit):","items":["1 comms array*","1 pan spectral scanner*","1 rollbar searchlight*"]}]
 }

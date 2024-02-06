@@ -1,192 +1,196 @@
 {
-  "parentUnit": "Knight Gallant",
-  "factionKeyword": [
-    "imperial knights"
-  ],
-  "damaged": {
-    "remainingWounds": 7,
-    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Gallants are the most restless and combative of Knights, and have been described as impetuous and beyond bellicose. They are aggressive, bold and difficult to restrain, and their pilots often share these traits. As befitting their nature, they are armed almost exclusively with close combat weapons.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "titanic",
-    "towering",
-    "questoris",
-    "character",
-    "imperium",
-    "knight gallant"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 12,
-    "save": 3,
-    "wounds": 22,
-    "leadership": 6,
-    "objetiveControl": 10,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-     {
-      "name": "Icarus autocannons",
-      "modifiers": [
-        "anti-fly 2+",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 7,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Ironstorm missile pod",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": "d6+1",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Questoris heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Stormspear rocket pod",
-      "modifiers": [
-       
-      ],
-      "range": 48,
-      "strength": 10,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": "d6",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Knight Gallant",
+    "factionKeyword": [
+        "imperial knights"
     ],
-    "faction": [
-      "Code Chivalric",
-      "Super-heavy Walker"
+    "damaged": {
+        "remainingWounds": 7,
+        "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Gallants are the most restless and combative of Knights, and have been described as impetuous and beyond bellicose. They are aggressive, bold and difficult to restrain, and their pilots often share these traits. As befitting their nature, they are armed almost exclusively with close combat weapons.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "titanic",
+        "towering",
+        "questoris",
+        "character",
+        "imperium",
+        "knight gallant"
     ],
-    "otherAbilities": [
-      {
-        "name": "Gallant’s Duty (Bondsman):",
-        "description": "While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll ."
-      },
-      {
-        "name": "Martial Pride:",
-        "description": "Each time a melee attack targets this model, subtract 1 from the Hit roll ."
-      }
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 22,
+            "leadership": 6,
+            "objetiveControl": 10,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Icarus autocannons",
+            "modifiers": [
+                "anti-fly 2+",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 7,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Ironstorm missile pod",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": "d6+1",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Questoris heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Stormspear rocket pod",
+            "modifiers": [],
+            "range": 48,
+            "strength": 10,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Code Chivalric",
+            "Super-heavy Walker"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Gallant’s Duty (Bondsman):",
+                "description": "While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll ."
+            },
+            {
+                "name": "Martial Pride:",
+                "description": "Each time a melee attack targets this model, subtract 1 from the Hit roll ."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 450
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Knight Gallant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " meltagun",
+                "thunderstrike gauntlet",
+                "reaper chainsword"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "This model’s meltagun can be replaced with 1 Questoris heavy stubber."
+        },
+        {
+            "description": "This model can be equipped with one of the following:",
+            "items": [
+                "1 Icarus autocannons",
+                "1 ironstorm missile pod",
+                "1 stormspear rocket pod"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Reaper chainsword – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 14,
+            "armor-penetration": 6,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Reaper chainsword – sweep",
+            "attacks": 12,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Thunderstrike gauntlet – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 20,
+            "armor-penetration": 3,
+            "damage": 8,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Thunderstrike gauntlet – sweep",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1],
-     "points": 450
-   }
- ],
- "unitComposition": [
-     {
-         "unitType": "Knight Gallant",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-         " meltagun", "thunderstrike gauntlet", "reaper chainsword"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-  {
-    "description": "This model’s meltagun can be replaced with 1 Questoris heavy stubber."
-  },
-  {
-    "description": "This model can be equipped with one of the following:",
-    "items": [
-      "1 Icarus autocannons",
-      "1 ironstorm missile pod",
-      "1 stormspear rocket pod"
-    ]
-  }
- ],
- "meleeWeapons": [
-  {
-    "name": "Reaper chainsword – strike",
-    "attacks": 4,
-    "weapons-skills": 3,
-    "strength": 14,
-    "armor-penetration": 6,
-    "damage": 3,
-    "modifiers": [],
-    "singleChoice":true
-  },
-{
-    "name": "Reaper chainsword – sweep",
-    "attacks": 12,
-    "weapons-skills": 3,
-    "strength": 9,
-    "armor-penetration": 3,
-    "damage": 2,
-    "modifiers": [],
-    "singleChoice":true
-  },
-{
-    "name": "Thunderstrike gauntlet – strike",
-    "attacks": 4,
-    "weapons-skills": 3,
-    "strength": 20,
-    "armor-penetration": 3,
-    "damage": 8,
-    "modifiers": [],
-    "singleChoice":true
-  },
-{
-    "name": "Thunderstrike gauntlet – sweep",
-    "attacks": 8,
-    "weapons-skills": 3,
-    "strength": 10,
-    "armor-penetration": 2,
-    "damage": 3,
-    "modifiers": [],
-    "singleChoice":true
-  }
- ]
 }

@@ -1,131 +1,138 @@
 {
-  "parentUnit": "Chief Librarian Tigurius",
-  "factionKeyword": [
-    "ultramarines",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "As Tigurius charges into battle, he assails the enemy with a tempest of psychic fury. Blasts of energy leap from his staff, hurling foes through the air and burning their souls to ash. It is the Chief Librarian’s acute foresight that is most valuable to his Chapter – his merest intuition is worth more than the predictions of an army of strategists and spies.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "imperium",
-    "tacticus",
-    "chief librarian tigurius"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": ["Assault Intercessor Squad",
-  "Bladeguard Veteran Squad",
- "Desolation Squad",
-  "Devastator Squad",
-  "Intercessor Squad",
-  "Sternguard Veteran Squad",
-  "Tactical Squad"],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Storm of the Emperor’s Wrath - witchfire",
-      "modifiers": [
-        "blast",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Storm of the Emperor’s Wrath - focused witchfire",
-      "modifiers": [
-        "blast",
-        "hazardous",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": "2d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Chief Librarian Tigurius",
+    "factionKeyword": [
+        "ultramarines",
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "As Tigurius charges into battle, he assails the enemy with a tempest of psychic fury. Blasts of energy leap from his staff, hurling foes through the air and burning their souls to ash. It is the Chief Librarian’s acute foresight that is most valuable to his Chapter – his merest intuition is worth more than the predictions of an army of strategists and spies.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "imperium",
+        "tacticus",
+        "chief librarian tigurius"
     ],
-    "otherAbilities": [
-      {
-        "name": "Hood of Hellfire:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds ."
-      },
-      {
-        "name": "Master of Prescience (Psychic):",
-        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll . In addition, once per battle round"
-      },
-      {
-        "name": ", you can target that unit with one of the following Stratagems for OCP:",
-        "description": "Counter-offensive ; Fire Overwatch ; Go to Ground ; Heroic Intervention"
-      }
-    ]
-  },
-  "wargear": [],
-  "meleeWeapons": [
-   
-    {
-      "name": "Rod of Tigurius",
-      "modifiers": ["psychic"],
-      "attacks": 5,
-      "weapons-skills": 3,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": "D3"
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[""]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 90
-    }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm of the Emperor’s Wrath - witchfire",
+            "modifiers": [
+                "blast",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Storm of the Emperor’s Wrath - focused witchfire",
+            "modifiers": [
+                "blast",
+                "hazardous",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Hood of Hellfire:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds ."
+            },
+            {
+                "name": "Master of Prescience (Psychic):",
+                "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll . In addition, once per battle round"
+            },
+            {
+                "name": ", you can target that unit with one of the following Stratagems for OCP:",
+                "description": "Counter-offensive ; Fire Overwatch ; Go to Ground ; Heroic Intervention"
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Rod of Tigurius",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "D3"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

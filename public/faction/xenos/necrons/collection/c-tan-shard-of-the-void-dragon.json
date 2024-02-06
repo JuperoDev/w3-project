@@ -1,126 +1,141 @@
 {
-  "parentUnit": "C’tan Shard Of The Void Dragon",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Shards of the Void Dragon fill the air around them with a searing scream of distorted static. With a gesture they can unmake the war engines of the lesser races, dragging the resultant disintegrating matter into themselves like the gravity well of a black hole and using it to replenish their own, ever flickering forms.",
-  "keywords": [
-    "monster",
-    "character",
-    "fly",
-    "epic hero",
-    "c’tan shard of the void dragon"
-  ],
-  "attributes": [{
-      
-    "movement": 6,
-    "toughness": 11,
-    "save": 4,
-    "wounds": 12,
-    "leadership": 6,
-    "objetiveControl": 4,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Spear of the Void Dragon",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": "d6+2",
-      "singleChoice": false
-    },
-    {
-      "name": "Voltaic storm",
-      "modifiers": [
-        "blast",
-        "sustained hits 2"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": "d6+3",
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "feel no pain 5+"
+    "parentUnit": "C’tan Shard Of The Void Dragon",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Shards of the Void Dragon fill the air around them with a searing scream of distorted static. With a gesture they can unmake the war engines of the lesser races, dragging the resultant disintegrating matter into themselves like the gravity well of a black hole and using it to replenish their own, ever flickering forms.",
+    "keywords": [
+        "monster",
+        "character",
+        "fly",
+        "epic hero",
+        "c’tan shard of the void dragon"
     ],
-    "otherAbilities": [{"name":
-      "Matter Absorption ", "description": "At the start of your Shooting phase , select one enemy VEHICLE unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds and this model regains up to that many lost wounds."},{"name":
-      "Necrodermis ", "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
-    }]
-  },
-
-  "additionalParameter": {
-    "title": "Enslaved Star God",
-    "abilities": [
+    "attributes": [
         {
-            "name": "",
-            "description": "This model cannot be your Warlord."
+            "movement": 6,
+            "toughness": 11,
+            "save": 4,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 4,
+            "invulnerableSave": 4
         }
-    ]},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "C’tan Shard of the Void Dragon – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["Spear of the Void Dragon","voltaic storm; Canoptek tail blades."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 270
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Spear of the Void Dragon – strike",
-         "attacks": 5,
-         "weapons-skills": 2,
-         "strength": 12,
-         "armor-penetration": 3,
-         "damage": "d6+2",
-         "modifiers": ["anti-vehicle 2+"],
-         "singleChoice": true
-       },
-       {
-        "name": "Spear of the Void Dragon – sweep",
-        "attacks": 10,
-        "weapons-skills": 2,
-        "strength": 8,
-        "armor-penetration": 1,
-        "damage": 2,
-        "modifiers": [],
-        "singleChoice": true
-      },
-      {
-        "name": "Canoptek tail blades",
-        "attacks": 1,
-        "weapons-skills": 4,
-        "strength": 4,
-        "armor-penetration": 0,
-        "damage": 1,
-        "modifiers": ["extra attacks"],
-        "singleChoice": false
-      }
-   ]
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Spear of the Void Dragon",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6+2",
+            "singleChoice": false
+        },
+        {
+            "name": "Voltaic storm",
+            "modifiers": [
+                "blast",
+                "sustained hits 2"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": "d6+3",
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "feel no pain 5+"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Matter Absorption ",
+                "description": "At the start of your Shooting phase , select one enemy VEHICLE unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds and this model regains up to that many lost wounds."
+            },
+            {
+                "name": "Necrodermis ",
+                "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+            }
+        ]
+    },
+    "additionalParameter": {
+        "title": "Enslaved Star God",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be your Warlord."
+            }
+        ]
+    },
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "C’tan Shard of the Void Dragon – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Spear of the Void Dragon",
+                "voltaic storm; Canoptek tail blades."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 270
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Spear of the Void Dragon – strike",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+2",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "Spear of the Void Dragon – sweep",
+            "attacks": 10,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Canoptek tail blades",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "extra attacks"
+            ],
+            "singleChoice": false
+        }
+    ]
 }

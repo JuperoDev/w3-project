@@ -1,85 +1,92 @@
 {
-  "parentUnit": "Psychomancer",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Psychomancers study the science of fear. They are expert manipulators, conjuring phantasms and temporary hard-light constructs that trigger primal survival instincts in their victims’ minds, or overload even the most advanced sensoria. No being is safe from the creeping tendrils of the Psychomancer’s art.",
-  "keywords": [
-    "infantry",
-    "character",
-    "cryptek",
-    "psychomancer"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": ["Immortals",
-  "Necron Warriors"],
-  "rangedWeapons": [{
-    "name": "Abyssal lance",
-    "modifiers": [
+    "parentUnit": "Psychomancer",
+    "factionKeyword": [
+        "necrons"
     ],
-    "range": 18,
-    "strength": 6,
-    "attacks": 1,
-    "ballistic-skills": 4,
-    "armor-penetration": 3,
-    "damage": 3,
-    "singleChoice": false
-  }],
-  "abilities": {
-    "core": [
-      "Leader"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Psychomancers study the science of fear. They are expert manipulators, conjuring phantasms and temporary hard-light constructs that trigger primal survival instincts in their victims’ minds, or overload even the most advanced sensoria. No being is safe from the creeping tendrils of the Psychomancer’s art.",
+    "keywords": [
+        "infantry",
+        "character",
+        "cryptek",
+        "psychomancer"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Nightmare Shroud (Aura) ",
-        "description": "While an enemy unit is within 9\" of this model, subtract 1 from the Leadership characteristic of models in that unit."
-      },
-      {
-        "name": "Harbinger of Despair ",
-        "description": "At the start of your Shooting phase , select one enemy unit within 18\" of this unit. That unit must take a Battle-shock test ."
-      }
+    "leader": [
+        "Immortals",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Abyssal lance",
+            "modifiers": [],
+            "range": 18,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Nightmare Shroud (Aura) ",
+                "description": "While an enemy unit is within 9\" of this model, subtract 1 from the Leadership characteristic of models in that unit."
+            },
+            {
+                "name": "Harbinger of Despair ",
+                "description": "At the start of your Shooting phase , select one enemy unit within 18\" of this unit. That unit must take a Battle-shock test ."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Psychomancer",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "abyssal lance"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 55
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Abyssal lance",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": []
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Psychomancer",
-       "minQuantity": 5,
-       "maxQuantity": 10,
-       "equipment": ["abyssal lance"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 55
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Abyssal lance",
-         "attacks": 1,
-         "weapons-skills": 4,
-         "strength": 6,
-         "armor-penetration": 3,
-         "damage": 3,
-         "modifiers": []
-       }
-   ]
 }

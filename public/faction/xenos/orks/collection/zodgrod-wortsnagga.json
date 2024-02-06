@@ -1,77 +1,75 @@
 {
-  "parentUnit": "Zodgrod Wortsnagga",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "With his Grabzappa crackling, Zodgrod herds his notorious super runts into battle. This irascible loon is never happier than when wrangling especially large and rowdy foes, usually by giving them a good dose of needles from his Squigstoppa Numba 5, then burying them in a rampaging horde of diminutive little monsters.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "zodgrod wortsnagga"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 5,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Slugga",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 6+",
-      "Leader"
+    "parentUnit": "Zodgrod Wortsnagga",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "With his Grabzappa crackling, Zodgrod herds his notorious super runts into battle. This irascible loon is never happier than when wrangling especially large and rowdy foes, usually by giving them a good dose of needles from his Squigstoppa Numba 5, then burying them in a rampaging horde of diminutive little monsters.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "zodgrod wortsnagga"
     ],
-    "otherAbilities": [
-      {
-        "name": "Super Runts:",
-        "description": ""
-      },
-      {
-        "name": "While this model is leading a unit:",
-        "description": "Models in that unit have the Scouts 9\" ability. Each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll . Each time an attack targets that unit, subtract 1 from the Wound roll."
-      },
-      {
-        "name": "Special Dose:",
-        "description": "When you call a Waaagh! , until the start of the next battle round , add 6\" to the Move characteristic of models in this model’s unit."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 5,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Slugga",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+",
+            "Leader"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Super Runts:",
+                "description": ""
+            },
+            {
+                "name": "While this model is leading a unit:",
+                "description": "Models in that unit have the Scouts 9\" ability. Each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll . Each time an attack targets that unit, subtract 1 from the Wound roll."
+            },
+            {
+                "name": "Special Dose:",
+                "description": "When you call a Waaagh! , until the start of the next battle round , add 6\" to the Move characteristic of models in this model’s unit."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Da Grabzappa",
+            "modifiers": [],
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Da Grabzappa",
-      "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

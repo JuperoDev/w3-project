@@ -1,130 +1,134 @@
 {
-  "parentUnit": "Mutalith Vortex Beast",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "This foul beast is an offence against sanity and all natural order. Its constantly mutating form drags in and expels empyric energy in a wild tempest that twists all about it ever further out of true. Those foes not driven insane by the monster’s mere presence are soon warped into fresh horrors by its foul energies.",
-  "keywords": [
-    "monster",
-    "daemon",
-    "chaos",
-    "tzeentch",
-    "mutalith vortex beast"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 10,
-    "save": 4,
-    "wounds": 13,
-    "leadership": 6,
-    "objetiveControl": 4,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Warp vortex - blast",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": "d6+3",
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Warp vortex - beam",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 18,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6+6",
-      "singleChoice": true
-    },
-    {
-      "name": "Warp vortex - torrent",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "2d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Feel No Pain 5+"
+    "parentUnit": "Mutalith Vortex Beast",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-      
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "This foul beast is an offence against sanity and all natural order. Its constantly mutating form drags in and expels empyric energy in a wild tempest that twists all about it ever further out of true. Those foes not driven insane by the monster’s mere presence are soon warped into fresh horrors by its foul energies.",
+    "keywords": [
+        "monster",
+        "daemon",
+        "chaos",
+        "tzeentch",
+        "mutalith vortex beast"
     ],
-    "otherAbilities": [{
-    "name":"Mutating Vortex (Aura)","description":"At the end of your Movement phase, roll one D6 for each enemy unit within 6'' of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test."
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 4,
+            "wounds": 13,
+            "leadership": 6,
+            "objetiveControl": 4,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Warp vortex - blast",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": "d6+3",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Warp vortex - beam",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 18,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6+6",
+            "singleChoice": true
+        },
+        {
+            "name": "Warp vortex - torrent",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "2d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Feel No Pain 5+"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Mutating Vortex (Aura)",
+                "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 6'' of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test."
+            },
+            {
+                "name": "Immaterial Flare (Aura)",
+                "description": "While a friendly THOUSAND SONS PSYKER unit is within 6'' of this model, each time that unit uses a Ritual that specifies a range, you can double that range while resolving that Ritual."
+            }
+        ]
     },
-    {
-      "name":"Immaterial Flare (Aura)","description":"While a friendly THOUSAND SONS PSYKER unit is within 6'' of this model, each time that unit uses a Ritual that specifies a range, you can double that range while resolving that Ritual."
-      }]
-  },
-  "wargear":[],
-  "unitComposition": [
-    {
-      "unitType": "Mutalith Vortex Beast",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "warp vortex", "betentacled maw","Mutalith claws."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 165
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Betentacled maw",
-      "modifiers": [
-        
-      ],
-      "strength": 7,
-      "attacks": 15,
-      "weapons-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Mutalith claws",
-      "modifiers": [],
-      "strength": 9,
-      "attacks": 5,
-      "weapons-skills": 3,
-      "armor-penetration": 2,
-      "damage": 4,
-      "singleChoice": false
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Mutalith Vortex Beast",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "warp vortex",
+                "betentacled maw",
+                "Mutalith claws."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 165
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Betentacled maw",
+            "modifiers": [],
+            "strength": 7,
+            "attacks": 15,
+            "weapons-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Mutalith claws",
+            "modifiers": [],
+            "strength": 9,
+            "attacks": 5,
+            "weapons-skills": 3,
+            "armor-penetration": 2,
+            "damage": 4,
+            "singleChoice": false
+        }
+    ],
+    "additionalParameter": {}
 }

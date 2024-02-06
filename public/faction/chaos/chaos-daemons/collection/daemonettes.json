@@ -1,90 +1,104 @@
 {
-  "parentUnit": "Daemonettes",
-  "factionKeyword": [
-    "legiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Known to mortals as the handmaidens of Slaanesh, these daemons are a mixture of the beautiful and the monstrous, made all the more disturbing by the visceral clash of both. They delight in the carnage of battle, weaving around enemies’ clumsy blows as they shrill and sigh their delight amidst swift-taloned slaughter.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "chaos",
-    "daemon",
-    "slaanesh",
-    "daemonettes"
-  ],
-  "attributes": [{
-    "movement": 9,
-    "toughness": 3,
-    "save": 7,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Daemonettes",
+    "factionKeyword": [
+        "legiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Known to mortals as the handmaidens of Slaanesh, these daemons are a mixture of the beautiful and the monstrous, made all the more disturbing by the visceral clash of both. They delight in the carnage of battle, weaving around enemies’ clumsy blows as they shrill and sigh their delight amidst swift-taloned slaughter.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "chaos",
+        "daemon",
+        "slaanesh",
+        "daemonettes"
     ],
-    "otherAbilities": [
-      {
-        "name": "Swift-taloned Slaughter:",
-        "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker , you can re-roll the Hit roll instead."
-      }
-    ]
-  },
-  "wargear": [{"description":"1 Daemonette that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."},{"description":"1 Daemonette that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."}],
-  "additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": "Alluress",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Slashing claws "
-          ]
-      },
-      {
-        "unitType": "Daemonettes",
-        "minQuantity": 9,
-        "maxQuantity": 9,
-        "equipment": [
-            "Slashing claws "
-          ]
-      }
+    "attributes": [
+        {
+            "movement": 9,
+            "toughness": 3,
+            "save": 7,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
     ],
-  "options": [
-      {
-        "count": [1,9],
-        "points": 120
-      }
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Swift-taloned Slaughter:",
+                "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker , you can re-roll the Hit roll instead."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "1 Daemonette that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."
+        },
+        {
+            "description": "1 Daemonette that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Alluress",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Slashing claws "
+            ]
+        },
+        {
+            "unitType": "Daemonettes",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "Slashing claws "
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 120
+        }
     ],
     "meleeWeapons": [
-      {
-        "name": "Slashing claws",
-        "attacks": 3,
-        "weapons-skills": 3,
-        "strength": 4,
-        "armor-penetration":1,
-        "damage": 1,
-        "modifiers": ["devastating wounds"],
-        "singleChoice": false
-      }
+        {
+            "name": "Slashing claws",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "singleChoice": false
+        }
     ],
     "warGearAbilities": [
-      {
-        "wargear": "Daemonic Icon",
-        "ability": "Models in the bearer’s unit have a Leadership characteristic of 6+."
-      },
-      {
-        "wargear": "Instrument of Chaos",
-        "ability": "Add 1 to Charge rolls made for the bearer’s unit."
-      }
+        {
+            "wargear": "Daemonic Icon",
+            "ability": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        },
+        {
+            "wargear": "Instrument of Chaos",
+            "ability": "Add 1 to Charge rolls made for the bearer’s unit."
+        }
     ]
 }

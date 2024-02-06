@@ -1,83 +1,81 @@
 {
-  "parentUnit": "Mozrog Skragbad",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Mozrog and his squigosaur steed Big Chompa are so tough that they can weather the worst any foe throws at them. In return, few enemies survive for long once Mozrog tears into them with his kustom cybork arm, Gutrippa. Those that do are doomed to be swallowed whole by Big Chompa’s yawning, fang-stuffed jaws.",
-  "keywords": [
-    "monster",
-    "character",
-    "beast snagga",
-    "epic hero",
-    "mozrog skragbad"
-  ],
-  "attributes": {
-    "movement": 10,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 9,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Thump gun",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Feel No Pain 4+"
+    "parentUnit": "Mozrog Skragbad",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Mozrog and his squigosaur steed Big Chompa are so tough that they can weather the worst any foe throws at them. In return, few enemies survive for long once Mozrog tears into them with his kustom cybork arm, Gutrippa. Those that do are doomed to be swallowed whole by Big Chompa’s yawning, fang-stuffed jaws.",
+    "keywords": [
+        "monster",
+        "character",
+        "beast snagga",
+        "epic hero",
+        "mozrog skragbad"
     ],
-    "otherAbilities": [
-      {
-        "name": "Da Bigger Dey iz...:",
-        "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack. Each time this model makes an attack that targets a TITANIC unit, add 2 to the Damage characteristic of that attack instead."
-      },
-      {
-        "name": "Hungry Chompa:",
-        "description": "Each time this model declares a charge , until the end of the turn, each time this model makes an attack, an unmodified successful Wound roll of 5+ scores a Critical Wound ."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Big Chompa’s jaws",
-      "modifiers": "devastatingwounds,extraattacks",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 4
+    "attributes": {
+        "movement": 10,
+        "toughness": 10,
+        "save": 3,
+        "wounds": 9,
+        "leadership": 6,
+        "objetiveControl": 3,
+        "invulnerableSave": 4
     },
-    {
-      "name": "Gutrippa",
-      "modifiers": "anti-monster4+,anti-vehicle4+",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 3
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Thump gun",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Feel No Pain 4+"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Da Bigger Dey iz...:",
+                "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack. Each time this model makes an attack that targets a TITANIC unit, add 2 to the Damage characteristic of that attack instead."
+            },
+            {
+                "name": "Hungry Chompa:",
+                "description": "Each time this model declares a charge , until the end of the turn, each time this model makes an attack, an unmodified successful Wound roll of 5+ scores a Critical Wound ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Big Chompa’s jaws",
+            "modifiers": "devastatingwounds,extraattacks",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 4
+        },
+        {
+            "name": "Gutrippa",
+            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 3
+        }
+    ]
 }

@@ -1,75 +1,73 @@
 {
-  "parentUnit": "Wurrboy",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Rarely lucid, Wurrboyz rant about visions of prey and lose themselves in the senses of their warband’s squigs. This doesn’t stop them unleashing their devastating powers, however, channelling the Waaagh! into overwhelming primal manifestations and beams of killing energy shot from their Eyez of Mork.",
-  "keywords": [
-    "infantry",
-    "character",
-    "beast snagga",
-    "psyker",
-    "wurrboy"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 5,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Eyez of Mork",
-      "modifiers": [
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Feel No Pain 6+",
-      "Leader"
+    "parentUnit": "Wurrboy",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Rarely lucid, Wurrboyz rant about visions of prey and lose themselves in the senses of their warband’s squigs. This doesn’t stop them unleashing their devastating powers, however, channelling the Waaagh! into overwhelming primal manifestations and beams of killing energy shot from their Eyez of Mork.",
+    "keywords": [
+        "infantry",
+        "character",
+        "beast snagga",
+        "psyker",
+        "wurrboy"
     ],
-    "otherAbilities": [
-      {
-        "name": "Waaagh! Energy:",
-        "description": "While this model is leading a unit, add 2 to the Attacks characteristic of this model’s Eyez of Mork weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the [HAZARDOUS] ability."
-      },
-      {
-        "name": "Roar of Mork (Psychic):",
-        "description": "In your opponent’s Command phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the start of your opponent’s next Command phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 2 from that test."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 5,
+        "wounds": 4,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Eyez of Mork",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Feel No Pain 6+",
+            "Leader"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Waaagh! Energy:",
+                "description": "While this model is leading a unit, add 2 to the Attacks characteristic of this model’s Eyez of Mork weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the [HAZARDOUS] ability."
+            },
+            {
+                "name": "Roar of Mork (Psychic):",
+                "description": "In your opponent’s Command phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the start of your opponent’s next Command phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 2 from that test."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Close combat weapon",
-      "modifiers": [],
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ]
 }

@@ -1,265 +1,265 @@
 {
-  "parentUnit": "Death Guard Defiler",
-  "factionKeyword": [
-    "death guard"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Nurgle Daemons trapped within Defilers adapt unusually well to their metallic prisons. Many gleefully realise the terrible mayhem they can inflict as they stomp on piston-driven legs, ripping open tanks with their massive claws or blowing apart enemy formations with volleys from their Defiler cannons.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "chaos",
-    "nurgle",
-    "daemon",
-    "smoke",
-    "defiler"
-  ],
-  "attributes": {
-    "movement": 8,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 14,
-    "leadership": 6,
-    "objetiveControl": 5,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Defiler cannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 48,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Havoc launcher",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plague combi-bolter",
-      "modifiers": [
-        "lethal hits",
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Reaper autocannon",
-      "modifiers": [
-        "devastating wounds",
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy flamer",
-      "modifiers": [
-        "torrent",
-        "ignores cover",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin plague heavy bolter",
-      "modifiers": [
-        "lethal hits",
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Death Guard Defiler",
+    "factionKeyword": [
+        "death guard"
     ],
-    "faction": [
-      "Nurgle’s Gift (Aura)"
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Nurgle Daemons trapped within Defilers adapt unusually well to their metallic prisons. Many gleefully realise the terrible mayhem they can inflict as they stomp on piston-driven legs, ripping open tanks with their massive claws or blowing apart enemy formations with volleys from their Defiler cannons.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "chaos",
+        "nurgle",
+        "daemon",
+        "smoke",
+        "defiler"
     ],
-    "otherAbilities": [
-      {
-        "name": "Scuttling Walker:",
-        "description": "Each time this model makes a Normal , Advance or Fall Back move, it can move over friendly MONSTER and VEHICLE models and terrain features that are 4\" or less in height as if they were not there."
-      }
+    "attributes": {
+        "movement": 8,
+        "toughness": 10,
+        "save": 3,
+        "wounds": 14,
+        "leadership": 6,
+        "objetiveControl": 5,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Defiler cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague combi-bolter",
+            "modifiers": [
+                "lethal hits",
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Reaper autocannon",
+            "modifiers": [
+                "devastating wounds",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy flamer",
+            "modifiers": [
+                "torrent",
+                "ignores cover",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin plague heavy bolter",
+            "modifiers": [
+                "lethal hits",
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Nurgle’s Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Scuttling Walker:",
+                "description": "Each time this model makes a Normal , Advance or Fall Back move, it can move over friendly MONSTER and VEHICLE models and terrain features that are 4\" or less in height as if they were not there."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s twin heavy flamer can be replaced with one of the following",
+            "items": [
+                "1 Defiler scourge",
+                "1 havoc launcher"
+            ]
+        },
+        {
+            "description": "This model’s reaper autocannon can be replaced with one of the following",
+            "items": [
+                "1 twin lascannon",
+                "1 twin plague heavy bolter"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 combi-weapon",
+                "1 plague combi-bolter"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Defiler cannon",
+            "modifiers": "blast",
+            "attacks": "D6+3",
+            "weapons-skills": "3+",
+            "strength": 10,
+            "armor-penetration": 1,
+            "damage": 3
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": "blast",
+            "attacks": "D6",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Plague combi-bolter",
+            "modifiers": "lethalhits,rapidfire2",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Reaper autocannon",
+            "modifiers": "devastatingwounds,sustainedhits1",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Twin heavy flamer",
+            "modifiers": "torrent,ignorescover,twin-linked",
+            "attacks": "D6",
+            "weapons-skills": "N/A",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": "twin-linked",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Defiler claws",
+            "modifiers": [],
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 16,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Defiler scourge",
+            "modifiers": "extraattacks",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 1,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s twin heavy flamer can be replaced with one of the following",
-      "items": [
-        "1 Defiler scourge",
-        "1 havoc launcher"
-      ]
-    },
-    {
-      "description": "This model’s reaper autocannon can be replaced with one of the following",
-      "items": [
-        "1 twin lascannon",
-        "1 twin plague heavy bolter"
-      ]
-    },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "1 combi-weapon",
-        "1 plague combi-bolter"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Combi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Defiler cannon",
-      "modifiers": "blast",
-      "attacks": "D6+3",
-      "weapons-skills": "3+",
-      "strength": 10,
-      "armor-penetration": 1,
-      "damage": 3
-    },
-    {
-      "name": "Havoc launcher",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Plague combi-bolter",
-      "modifiers": "lethalhits,rapidfire2",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Reaper autocannon",
-      "modifiers": "devastatingwounds,sustainedhits1",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 7,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Twin heavy flamer",
-      "modifiers": "torrent,ignorescover,twin-linked",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Twin lascannon",
-      "modifiers": "twin-linked",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Defiler claws",
-      "modifiers": [],
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 16,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Defiler scourge",
-      "modifiers": "extraattacks",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 12,
-      "armor-penetration": 1,
-      "damage": 2
-    }
-  ]
 }

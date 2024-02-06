@@ -1,157 +1,163 @@
 {
-  "parentUnit": "War Dog Stalker",
-  "factionKeyword": [
-    "chaos knights"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Only the most strong-willed of minor nobility have the mental fortitude to pilot a Stalker. Like pack alphas, they often lead other War Dogs in carefully planned attacks, harrying the foe’s flanks, butchering reinforcements and hunting down lone threats. They unleash salvoes of fire at range or in the heart of combat with deadly claw strikes.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "battleline",
-    "character",
-    "chaos",
-    "war dog",
-    "stalker"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 10,
-    "save": 3,
-    "wounds": 12,
-    "leadership": 7,
-    "objetiveControl": 8,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Avenger chaincannon",
-      "modifiers": [
-       
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 12,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Daemonbreath spear",
-      "modifiers": [
-        "melta 4"
-      ],
-      "range": 24,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    },
-    {
-      "name": "Havoc multi-launcher",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": "d6",
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Diabolus heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "War Dog Stalker",
+    "factionKeyword": [
+        "chaos knights"
     ],
-    "faction": [
-      "Harbingers of Dread"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Only the most strong-willed of minor nobility have the mental fortitude to pilot a Stalker. Like pack alphas, they often lead other War Dogs in carefully planned attacks, harrying the foe’s flanks, butchering reinforcements and hunting down lone threats. They unleash salvoes of fire at range or in the heart of combat with deadly claw strikes.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "battleline",
+        "character",
+        "chaos",
+        "war dog",
+        "stalker"
     ],
-    "otherAbilities": [{"name":
-      "Stalker:","description": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll ."
-    }]
-  },
-
-  "options": [
-    {
-      "count": [1],
-      "points": 150
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "war dog stalker",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "avenger chaincannon"," diabolus heavy stubber", "slaughterclaw"
-          ]
-      }
-  ],
-  "wargear": [
-    {
-      "description": "This model’s avenger chaincannon can be replaced with 1 daemonbreath spear."
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 7,
+            "objetiveControl": 8,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Avenger chaincannon",
+            "modifiers": [],
+            "range": 24,
+            "strength": 6,
+            "attacks": 12,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Daemonbreath spear",
+            "modifiers": [
+                "melta 4"
+            ],
+            "range": 24,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc multi-launcher",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Diabolus heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Harbingers of Dread"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Stalker:",
+                "description": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll ."
+            }
+        ]
     },
-    {
-      "description": "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
-    },
-    {
-      "description": "This model’s slaughterclaw can be replaced with 1 reaper chaintalon."
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Reaper chaintalon – strike",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 3,
-      "modifiers": [],
-      "singleChoice": true
-    },
-    {
-      "name": "Reaper chaintalon – sweep",
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": [],
-      "singleChoice": true
-    },
-    {
-      "name": "Slaughterclaw",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 12,
-      "armor-penetration":3,
-      "damage": "d6+2",
-      "modifiers": []
-    }
-  ],
-  "additionalParameter": {}
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 150
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "war dog stalker",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "avenger chaincannon",
+                " diabolus heavy stubber",
+                "slaughterclaw"
+            ]
+        }
+    ],
+    "wargear": [
+        {
+            "description": "This model’s avenger chaincannon can be replaced with 1 daemonbreath spear."
+        },
+        {
+            "description": "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
+        },
+        {
+            "description": "This model’s slaughterclaw can be replaced with 1 reaper chaintalon."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Reaper chaintalon – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Reaper chaintalon – sweep",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Slaughterclaw",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+2",
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {}
 }

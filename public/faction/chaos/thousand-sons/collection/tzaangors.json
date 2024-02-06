@@ -1,133 +1,134 @@
 {
-  "parentUnit": "Tzaangors",
-  "factionKeyword": [
-    "thousand sons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Brayhorn blasts and avian shrieks herald the onset of the Tzaangors. These mutated shock troops surge into battle wielding baroque blades or roaring chainswords with vicious skill. Return shots and blows are deflected by whirling skeins of dark sorcery, for these creatures belong to Tzeentch body and soul.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "chaos",
-    "tzeentch",
-    "tzaangors"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 6,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 6
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Autopistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-     
+    "parentUnit": "Tzaangors",
+    "factionKeyword": [
+        "thousand sons"
     ],
-    "faction": [
-     
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Brayhorn blasts and avian shrieks herald the onset of the Tzaangors. These mutated shock troops surge into battle wielding baroque blades or roaring chainswords with vicious skill. Return shots and blows are deflected by whirling skeins of dark sorcery, for these creatures belong to Tzeentch body and soul.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "chaos",
+        "tzeentch",
+        "tzaangors"
     ],
-    "otherAbilities": [{
-     "name": "Relic Hunters", "description": "At the end of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it: for each 4+, you gain 1 Cabal point."
-    }]
-  },
-  "wargear":[ {
-    "description": "Any number of models can each have their Tzaangor blades replaced with:",
-    "items": [
-      "1 autopistol and 1 chainsword"
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Relic Hunters",
+                "description": "At the end of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it: for each 4+, you gain 1 Cabal point."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their Tzaangor blades replaced with:",
+            "items": [
+                "1 autopistol and 1 chainsword"
+            ]
+        },
+        {
+            "description": "1 Tzaangor not equipped with a herd banner can be equipped with 1 brayhorn."
+        },
+        {
+            "description": "1 Tzaangor not equipped with a brayhorn can be equipped with 1 herd banner."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Twistbray",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Tzaangor blades"
+            ]
+        },
+        {
+            "unitType": "Tzaangors",
+            "minQuantity": 9,
+            "maxQuantity": 19,
+            "equipment": [
+                "Tzaangor blades"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 65
+        },
+        {
+            "count": [
+                1,
+                19
+            ],
+            "points": 301
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": [],
+            "strength": 4,
+            "attacks": 3,
+            "weapons-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Tzaangor blades",
+            "modifiers": [],
+            "strength": 5,
+            "attacks": 2,
+            "weapons-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "additionalParameter": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Herd Banner",
+            "ability": "You can re-roll Battle-shock tests taken for the bearer’s unit."
+        },
+        {
+            "wargear": "Brayhorn",
+            "ability": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+        }
     ]
-  },
-  {
-    "description": "1 Tzaangor not equipped with a herd banner can be equipped with 1 brayhorn."
-  },
-  {
-    "description": "1 Tzaangor not equipped with a brayhorn can be equipped with 1 herd banner."
-  }],
-  "unitComposition": [
-    {
-      "unitType": "Twistbray",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "Tzaangor blades"
-      ]
-    },
-    {
-      "unitType": "Tzaangors",
-      "minQuantity": 9,
-      "maxQuantity": 19,
-      "equipment": [
-        "Tzaangor blades"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 65
-    },
-    {
-      "count": [
-        1,
-        19
-      ],
-      "points": 301
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Chainsword",
-      "modifiers": [
-        
-      ],
-      "strength": 4,
-      "attacks": 3,
-      "weapons-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Tzaangor blades",
-      "modifiers": [],
-      "strength": 5,
-      "attacks": 2,
-      "weapons-skills": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "additionalParameter": {},
-  "warGearAbilities": [
-    {
-      "wargear": "Herd Banner",
-      "ability": "You can re-roll Battle-shock tests taken for the bearer’s unit."
-    },
-    {
-      "wargear": "Brayhorn",
-      "ability": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
-    }
-  ]
 }

@@ -1,188 +1,205 @@
 {
-  "parentUnit": "Brôkhyr Iron-master",
-  "factionKeyword": [
-    "leagues of votann",
-    "votann"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Iron-masters are the most accomplished Brôkhyrs of their Kindred. In battle, they take on the duty of maintaining damaged Kin war engines, often aided by Ironkin and COG repair crews. These veteran Brôkhyrs also bring their most powerful personal creations to war, taking satisfaction in unleashing them upon the foe.",
-  "keywords": [
-    "keywords – all models: infantry",
-    "brôkhyr iron-masterbrôkhyr iron-master model: character"
-  ],
-  "attributes": [
-    {
-      "name": "brôkhyr iron-master",
-      "movement": 5,
-      "toughness": 5,
-      "save": 4,
-      "wounds": 4,
-      "leadership": 7,
-      "objetiveControl": 1
-    },
-    {
-      "name": "ironkin assistant",
-      "movement": 5,
-      "toughness": 5,
-      "save": 4,
-      "wounds": 2,
-      "leadership": 7,
-      "objetiveControl": 1
-    },
-    {
-      "name": "e-cog",
-      "movement": 5,
-      "toughness": 5,
-      "save": 4,
-      "wounds": 1,
-      "leadership": 7,
-      "objetiveControl": 1
-    }
-  ],
-  "leader": ["BRÔKHYR THUNDERKYN","HEARTHKYN WARRIORS"],
-  "rangedWeapons": [
-    {
-      "name": "autoch-pattern bolt pistol",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Graviton rifle",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "las-beam cutter",
-      "modifiers": [
-        "anti-vehicle 2+"
-      ],
-      "range": 6,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Brôkhyr Iron-master",
+    "factionKeyword": [
+        "leagues of votann",
+        "votann"
     ],
-    "faction": [
-      "Eye of the Ancestors"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Iron-masters are the most accomplished Brôkhyrs of their Kindred. In battle, they take on the duty of maintaining damaged Kin war engines, often aided by Ironkin and COG repair crews. These veteran Brôkhyrs also bring their most powerful personal creations to war, taking satisfaction in unleashing them upon the foe.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "brôkhyr iron-masterbrôkhyr iron-master model: character"
     ],
-    "otherAbilities": [{"name":
-      "Multispectral Visor", "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Hit roll ."},
-     {"name": "Brôkhyr’s Guild", "description": "At the end of your Movement phase , this unit can repair one friendly LEAGUES OF VOTANN VEHICLE or EXO-FRAME model within 3\" of it. That model regains up to D3 lost wounds, or up to 3 lost wounds instead if this unit contains an Ironkyn Assistant. Each model can only be repaired once per turn."}
-    ]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-        "unitType": "Brôkhyr Iron-master",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "graviton rifle","graviton hammer"
+    "attributes": [
+        {
+            "name": "brôkhyr iron-master",
+            "movement": 5,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1
+        },
+        {
+            "name": "ironkin assistant",
+            "movement": 5,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1
+        },
+        {
+            "name": "e-cog",
+            "movement": 5,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1
+        }
+    ],
+    "leader": [
+        "BRÔKHYR THUNDERKYN",
+        "HEARTHKYN WARRIORS"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "autoch-pattern bolt pistol",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Graviton rifle",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "las-beam cutter",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 6,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Eye of the Ancestors"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Multispectral Visor",
+                "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "Brôkhyr’s Guild",
+                "description": "At the end of your Movement phase , this unit can repair one friendly LEAGUES OF VOTANN VEHICLE or EXO-FRAME model within 3\" of it. That model regains up to D3 lost wounds, or up to 3 lost wounds instead if this unit contains an Ironkyn Assistant. Each model can only be repaired once per turn."
+            }
         ]
-
     },
-    {
-      "unitType": "Ironkin Assistant",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        " las-beam cutter","close combat weapon."
-      ]
-  },
-  {
-    "unitType": "E-COG 1",
-    "minQuantity": 1,
-    "maxQuantity": 1,
-    "equipment": [
-      "Autoch-pattern bolt pistol","close combat weapon"
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Brôkhyr Iron-master",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "graviton rifle",
+                "graviton hammer"
+            ]
+        },
+        {
+            "unitType": "Ironkin Assistant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " las-beam cutter",
+                "close combat weapon."
+            ]
+        },
+        {
+            "unitType": "E-COG 1",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Autoch-pattern bolt pistol",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "E-COG 2",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plasma torch"
+            ]
+        },
+        {
+            "unitType": "E-COG 3",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "manipulator arms"
+            ]
+        }
+    ],
+    "wargear": [],
+    "options": [
+        {
+            "count": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "points": 65
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Graviton hammer",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 3,
+            "modifiers": [
+                "anti-vehicle 2+"
+            ]
+        },
+        {
+            "name": "Manipulator arms",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 9,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Plasma torch",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-},
-{
-  "unitType": "E-COG 2",
-  "minQuantity": 1,
-  "maxQuantity": 1,
-  "equipment": [
-    "plasma torch"
-  ]
-},
-{
-  "unitType": "E-COG 3",
-  "minQuantity": 1,
-  "maxQuantity": 1,
-  "equipment": [
-    "manipulator arms"
-  ]
-}
-],
-"wargear": [],
-
-"options": [
-  {
-    "count": [1,1,1,1,1],
-    "points": 65
-  }
-],
-"meleeWeapons": [
-  {
-    "name": "Close combat weapon",
-    "attacks": 1,
-    "weapons-skills": 4,
-    "strength": 6,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  },
-  {
-    "name": "Graviton hammer",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 3,
-    "armor-penetration": 1,
-    "damage": 3,
-    "modifiers": ["anti-vehicle 2+"]
-  },
-  {
-    "name": "Manipulator arms",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 9,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  },
-  {
-    "name": "Plasma torch",
-    "attacks": 1,
-    "weapons-skills": 4,
-    "strength": 3,
-    "armor-penetration": 3,
-    "damage": 2,
-    "modifiers": []
-  }
-]
 }

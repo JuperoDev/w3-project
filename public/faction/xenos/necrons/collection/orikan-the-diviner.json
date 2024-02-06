@@ -1,76 +1,84 @@
 {
-  "parentUnit": "Orikan The Diviner",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Orikan is a master astromancer, using his knowledge of astral conjunctions to predict the tides of battle and empower himself with cosmic energies. He supplements these skills with chronomantic abilities that allow him to see events before they happen and know just where to aim his blows.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "cryptek",
-    "chronomancer",
-    "orikan the diviner"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-}],
-  "leader": ["Immortals",
-  "Necron Warriors"],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Orikan The Diviner",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Orikan is a master astromancer, using his knowledge of astral conjunctions to predict the tides of battle and empower himself with cosmic energies. He supplements these skills with chronomantic abilities that allow him to see events before they happen and know just where to aim his blows.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "cryptek",
+        "chronomancer",
+        "orikan the diviner"
     ],
-    "otherAbilities": [
-      {
-        "name": "Master Chronomancer ",
-        "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save ."
-      },
-      {
-        "name": "The Stars Are Right ",
-        "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound."
-      }
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Immortals",
+        "Necron Warriors"
+    ],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Master Chronomancer ",
+                "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save ."
+            },
+            {
+                "name": "The Stars Are Right ",
+                "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Orikan the Diviner – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Staff of Tomorrow"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Staff of Tomorrow",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 3,
+            "damage": "d3",
+            "modifiers": [
+                "devastating wounds"
+            ]
+        }
     ]
-  },
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Orikan the Diviner – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["Staff of Tomorrow"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 80
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Staff of Tomorrow",
-         "attacks": 2,
-         "weapons-skills": 3,
-         "strength": 4,
-         "armor-penetration": 3,
-         "damage": "d3",
-         "modifiers": ["devastating wounds"]
-       }
-   ]
 }

@@ -1,76 +1,78 @@
 {
     "parentUnit": "triumph of saint katherine",
-    "attributes": [{
-        "movement": 6,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 18,
-        "leadership": 6,
-        "objetiveControl": 6,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 18,
+            "leadership": 6,
+            "objetiveControl": 6,
+            "invulnerableSave": 4
+        }
+    ],
     "factionKeyword": [
         "adepta sororitas"
-      ],
-      "damaged": {
+    ],
+    "damaged": {
         "remainingWounds": 5,
         "description": "While this model has 1-5 wounds remaining, the Attacks characteristics of all of its weapons are halved, and you can only select one ability when using its Relics of the Matriarchs ability, instead of up to two."
-      },
-      "supremeCommander": false,
-      "lore": "At the centre of the Triumph is the blessed bier upon which lie the mortal remains of Saint Katherine, beneath the sconce containing her fiery heart. Wherever the Triumph goes, the Emperor’s radiance goes with it. The glory of the martyred Matriarch is spread and Battle Sisters are filled with conviction to purge the foes of Mankind.",
-      "keywords": [
+    },
+    "supremeCommander": false,
+    "lore": "At the centre of the Triumph is the blessed bier upon which lie the mortal remains of Saint Katherine, beneath the sconce containing her fiery heart. Wherever the Triumph goes, the Emperor’s radiance goes with it. The glory of the martyred Matriarch is spread and Battle Sisters are filled with conviction to purge the foes of Mankind.",
+    "keywords": [
         "infantry",
         "grenades",
         "character",
         "epic hero",
         "imperium",
         "triumph of saint katherine"
-      ],
-      "leader": [
+    ],
+    "leader": [
         "battle sisters squad"
-      ],
-      "rangedWeapons": [
+    ],
+    "rangedWeapons": [
         {
-          "name": "Bolt pistols",
-          "modifiers": [
-            "pistol"
-          ],
-          "range": 12,
-          "strength": 4,
-          "attacks": 6,
-          "ballistic-skills": 2,
-          "armor-penetration": 0,
-          "damage": 1,
-          "singleChoice": false
+            "name": "Bolt pistols",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
         }
-      ],
-      "abilities": {
+    ],
+    "abilities": {
         "core": [
-          "Leader"
+            "Leader"
         ],
         "faction": [
-          "Acts of faith"
+            "Acts of faith"
         ],
-        "otherAbilities": [{"name":
-          "Relics of the Matriarchs:","description": "At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs section (see left). Until the start of the next battle round, this model has those abilities."
-        }]
-      },
-      "meleeWeapons":[
+        "otherAbilities": [
+            {
+                "name": "Relics of the Matriarchs:",
+                "description": "At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs section (see left). Until the start of the next battle round, this model has those abilities."
+            }
+        ]
+    },
+    "meleeWeapons": [
         {
-          "name": "Relic weapons",
-          "attacks": 18,
-          "weapons-skills": 2,
-          "strength": 5,
-          "armor-penetration": 2,
-          "damage": 1,
-          "modifiers": []
+            "name": "Relic weapons",
+            "attacks": 18,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
         }
-      ],
-      "wargear": [
-        
-      ],
-
-      "additionalParameter": {
+    ],
+    "wargear": [],
+    "additionalParameter": {
         "title": "Relics of the Matriarchs",
         "abilities": [
             {
@@ -99,19 +101,23 @@
             }
         ]
     },
-      "unitComposition": [
-         {
-           "unitType": "Triumph of Saint Katherine – EPIC HERO",
-           "minQuantity": 1,
-           "maxQuantity": 1,
-           "equipment": ["bolt pistols","relic weapons"]
-         }
-       ],
-     
-       "options": [
-         {
-           "count": [1],
-           "points": 125
-         } 
-       ]
+    "unitComposition": [
+        {
+            "unitType": "Triumph of Saint Katherine – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistols",
+                "relic weapons"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 125
+        }
+    ]
 }

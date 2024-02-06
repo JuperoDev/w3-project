@@ -1,14 +1,16 @@
 {
     "parentUnit": "genestealers",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 4,
-        "save": 5,
-        "wounds": 2,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 4,
+            "save": 5,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "lore": "Swift vanguard organisms armoured in chitin and possessed of terrifying strength and agility, Genestealers are peerless predators. Their broods move ahead of the hive fleets to seek out fresh feeding grounds. Then, when the invasion swarms descend, the Genestealers burst from hiding to begin the slaughter ",
     "factionKeyword": [
@@ -19,7 +21,7 @@
         "genestealers",
         "great devourer"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Genestealer claws and talons",
@@ -33,40 +35,43 @@
     ],
     "supremeCommander": false,
     "damaged": {},
-  
     "additionalParameter": {},
-   
-
-  "options": [
-    {
-      "count": [5],
-      "points": 85
-    },
-    {
-        "count": [10],
-        "points": 170
-      }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "genestealers",
-          "minQuantity": 5,
-          "maxQuantity": 10,
-          "equipment": [
-            "genestealer claws and talons"
-          ]
-      }
-  ],
-
-  "abilities": {
-    "core": [
-      "Scouts 8''"
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 85
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 170
+        }
     ],
-    "faction": [
-      "Synapse"
+    "unitComposition": [
+        {
+            "unitType": "genestealers",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "genestealer claws and talons"
+            ]
+        }
     ],
-    "otherAbilities": [{"name":
-      "Vanguard Predator:", "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers , re-roll a Wound roll of 1 as well."
-    }]
-  }
+    "abilities": {
+        "core": [
+            "Scouts 8''"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Vanguard Predator:",
+                "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers , re-roll a Wound roll of 1 as well."
+            }
+        ]
+    }
 }

@@ -1,188 +1,187 @@
 {
-  "parentUnit": "Wolf Guard",
-  "factionKeyword": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {}, "warGearAbilities": [
-    {
-      "wargear": "Storm Shield",
-      "ability": "The bearer has a 4+ invulnerable save."
-    }
-  ],
-  "supremeCommander": false,
-  "lore": "Earning their place through exceptional feats of arms, every Wolf Guard is a heroic warrior chosen by their lord. They act as his council and household companions, and when not tearing apart foes at his side, they form bodyguards around other senior warriors or pursue dangerous missions in their own right.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "imperium",
-    "wolf guard"
-  ],
-  "attributes": [
-    {
-      "movement": 6,
-      "toughness": 4,
-      "save": 3,
-      "wounds": 2,
-      "leadership": 5,
-      "objetiveControl": 1,
-      "invulnerableSave": 0
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Boltgun",
-      "modifiers": [
-        
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [],
-    "faction": [
-      "Oath of Moment"
+    "parentUnit": "Wolf Guard",
+    "factionKeyword": [
+        "adeptus astartes",
+        "space wolves"
     ],
-    "otherAbilities": [
-      {
-        "name": "Chosen Companions",
-        "description": "While a CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can have their bolt pistol replaced with one of the following",
-      "items": [
-        "1 boltgun",
-        "1 combi-weapon",
-        "1 plasma pistol",
-        "1 storm bolter",
-        "1 storm shield"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Heirloom weapon",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1,
-        4
-      ],
-      "points": 95
+    "damaged": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Storm Shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
+    ],
+    "supremeCommander": false,
+    "lore": "Earning their place through exceptional feats of arms, every Wolf Guard is a heroic warrior chosen by their lord. They act as his council and household companions, and when not tearing apart foes at his side, they form bodyguards around other senior warriors or pursue dangerous missions in their own right.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "wolf guard"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 5,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Chosen Companions",
+                "description": "While a CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
+            }
+        ]
     },
-    {
-      "count": [
-        1,
-        9
-      ],
-      "points": 190
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Wolf Guard Pack Leader",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "bolt pistol",
-        "heirloom weapon"
-      ]
-    },
-    {
-      "unitType": "Wolf Guard",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "bolt pistol",
-        "heirloom weapon"
-      ]
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "Any number of models can have their bolt pistol replaced with one of the following",
+            "items": [
+                "1 boltgun",
+                "1 combi-weapon",
+                "1 plasma pistol",
+                "1 storm bolter",
+                "1 storm shield"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Heirloom weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 95
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 190
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Wolf Guard Pack Leader",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "heirloom weapon"
+            ]
+        },
+        {
+            "unitType": "Wolf Guard",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol",
+                "heirloom weapon"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -1,165 +1,165 @@
 {
-  "parentUnit": "Falcon",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The primary battle tanks of the Asuryani, Falcons mount a diverse array of potent weapons that make them the bane of war machines and foot troops alike. They also boast a transport pod, in which small squads of warriors can be borne to wherever on the battlefield their martial prowess is most needed.",
-  "keywords": [
-    "vehicle",
-    "transport",
-    "fly",
-    "falcon"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 9,
-    "salvation": 3,
-    "wounds": 12,
-    "leadership": 6,
-    "objectiveControl": 3,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Aeldari missile launcher - sunburst",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 48,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin shuriken catapult",
-      "modifiers": [
-        "assault",
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Shuriken cannon",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Deep Strike"
+    "parentUnit": "Falcon",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [
-      "Strands of Fate"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The primary battle tanks of the Asuryani, Falcons mount a diverse array of potent weapons that make them the bane of war machines and foot troops alike. They also boast a transport pod, in which small squads of warriors can be borne to wherever on the battlefield their martial prowess is most needed.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "fly",
+        "falcon"
     ],
-    "otherAbilities": [
-      {
-        "name": "Fire Support:",
-        "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
-      }
+    "attributes": {
+        "movement": 14,
+        "toughness": 9,
+        "salvation": 3,
+        "wounds": 12,
+        "leadership": 6,
+        "objectiveControl": 3,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Aeldari missile launcher - sunburst",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin shuriken catapult",
+            "modifiers": [
+                "assault",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken cannon",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Fire Support:",
+                "description": "In your Shooting phase , after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s scatter laser can be replaced with one of the following",
+            "items": [
+                "1 Aeldari missile launcher",
+                "1 bright lance",
+                "1 shuriken cannon",
+                "1 starcannon"
+            ]
+        },
+        {
+            "description": "This model’s twin shuriken catapult can be replaced with 1 shuriken cannon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Aeldari missile launcher – sunburst",
+            "modifiers": "blast",
+            "attacks": "D6",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Bright lance",
+            "modifiers": "",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+2"
+        },
+        {
+            "name": "Pulse laser",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "D6"
+        },
+        {
+            "name": "Starcannon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": "2"
+        },
+        {
+            "name": "Scatter laser",
+            "modifiers": "",
+            "attacks": "6",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Twin shuriken catapult",
+            "modifiers": "assault,twin-linked",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Wraithbone hull",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s scatter laser can be replaced with one of the following",
-      "items": [
-        "1 Aeldari missile launcher",
-        "1 bright lance",
-        "1 shuriken cannon",
-        "1 starcannon"
-      ]
-    },
-    {
-      "description": "This model’s twin shuriken catapult can be replaced with 1 shuriken cannon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Aeldari missile launcher – sunburst",
-      "modifiers": "blast",
-      "attacks": "D6",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Bright lance",
-      "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+2"
-    },
-    {
-      "name": "Pulse laser",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": "D6"
-    },
-    {
-      "name": "Starcannon",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": "2"
-    },
-    {
-      "name": "Scatter laser",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Twin shuriken catapult",
-      "modifiers": "assault,twin-linked",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Wraithbone hull",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

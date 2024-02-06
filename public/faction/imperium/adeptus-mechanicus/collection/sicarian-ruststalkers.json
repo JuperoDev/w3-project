@@ -1,107 +1,127 @@
 {
-  "parentUnit": "Sicarian Ruststalkers",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ruststalkers are unleashed as weapons of fear, to hunt down errant servo units and heretic blasphemers, or to pounce on isolated hostile units and assassinate enemy leaders. Like their fellow Sicarians, Ruststalkers’ stilt-like limbs enable them to run down their prey before carving them apart with micro-vibrating transonic blades.",
-  "keywords": [
-    "infantry",
-    "imperium",
-    "skitarii",
-    "sicarian",
-    "ruststalkers"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 2,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Stealth"
+    "parentUnit": "Sicarian Ruststalkers",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [
-      "Doctrina Imperatives"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ruststalkers are unleashed as weapons of fear, to hunt down errant servo units and heretic blasphemers, or to pounce on isolated hostile units and assassinate enemy leaders. Like their fellow Sicarians, Ruststalkers’ stilt-like limbs enable them to run down their prey before carving them apart with micro-vibrating transonic blades.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "skitarii",
+        "sicarian",
+        "ruststalkers"
     ],
-    "otherAbilities": [
-      {
-        "name": "Optimised Gait:",
-        "description": "Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units, add 2 to Advance and Charge rolls made for this unit instead."
-      }
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Stealth"
+        ],
+        "faction": [
+            "Doctrina Imperatives"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Optimised Gait:",
+                "description": "Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS ADEPTUS MECHANICUS BATTLELINE units, add 2 to Advance and Charge rolls made for this unit instead."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 140
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Sicarian Ruststalker Princeps",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "transonic razor",
+                "chordclaw"
+            ]
+        },
+        {
+            "unitType": "Sicarian Ruststalkers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "transonic razor",
+                "chordclaw"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of Sicarian Ruststalkers can each have their transonic razor and chordclaw replaced with 1 transonic blades."
+        },
+        {
+            "description": "The Sicarian Ruststalker Princeps transonic razor and chordclaw can be replaced with 1 transonic blades and chordclaw."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Transonic blades",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "devastating wounds",
+                "precision"
+            ]
+        },
+        {
+            "name": "Transonic blades and chordclaw",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "devastating wounds",
+                "precision",
+                "anti-infantry 3+"
+            ]
+        },
+        {
+            "name": "Transonic razor and chordclaw",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "precision",
+                "anti-infantry 3+"
+            ]
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [1,4],
-     "points": 70
-   },
-   {
-    "count": [1,9],
-    "points": 140
-  }
- ],
- "unitComposition": [
-     {
-         "unitType": "Sicarian Ruststalker Princeps",
-         "minQuantity": 1,
-         "maxQuantity": 1,
-         "equipment": [
-          "transonic razor","chordclaw"
-         ]
-     },
-     {
-      "unitType": "Sicarian Ruststalkers",
-      "minQuantity": 4,
-      "maxQuantity": 9,
-      "equipment": [
-        "transonic razor","chordclaw"
-      ]
-  }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "Any number of Sicarian Ruststalkers can each have their transonic razor and chordclaw replaced with 1 transonic blades."
-   },
-   {
-    "description": "The Sicarian Ruststalker Princeps transonic razor and chordclaw can be replaced with 1 transonic blades and chordclaw."
-  }
- ],
- "meleeWeapons": [
-   {
-     "name": "Transonic blades",
-     "attacks": 4,
-     "weapons-skills": 4,
-     "strength": 4,
-     "armor-penetration": 1,
-     "damage": 1,
-     "modifiers": ["devastating wounds", "precision"]
-   },
-   {
-    "name": "Transonic blades and chordclaw",
-    "attacks": 4,
-    "weapons-skills": 4,
-    "strength": 4,
-    "armor-penetration": 2,
-    "damage": 1,
-    "modifiers": ["devastating wounds", "precision", "anti-infantry 3+"]
-  },
-  {
-    "name": "Transonic razor and chordclaw",
-    "attacks": 3,
-    "weapons-skills": 4,
-    "strength": 4,
-    "armor-penetration":2,
-    "damage": 1,
-    "modifiers": ["precision", "anti-infantry 3+"]
-  }
- ]
 }

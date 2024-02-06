@@ -33,7 +33,7 @@
             "description": "TYRANIDS SYNAPSE model only. While an enemy unit is within 9'' of the bearer, worsen that units Leadership characteristic by 1."
         }
     ],
-    "stratagems":[
+    "stratagems": [
         {
             "name": "the smothering shadow",
             "subindex": "strategic ploy stratagem",
@@ -41,9 +41,11 @@
             "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
             "target": " One SYNAPSE unit from your army within 12'' of that enemy unit.",
             "effect": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "synaptic channelling",
@@ -52,9 +54,11 @@
             "when": "Command phase.",
             "target": "One SYNAPSE unit from your army.",
             "effect": "Until the end of the turn, while a friendly TYRANIDS unit is within 9'' of the selected unit, that unit is within Synapse Range of your army.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "irrestible will",
@@ -63,9 +67,11 @@
             "when": "Your Shooting phase or the Fight phase.",
             "target": "One SYNAPSE unit from your army that has not been selected to shoot or fight this phase, and one enemy unit within 24'' of and visible to the SYNAPSE unit.",
             "effect": "Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that enemy unit, if the attacking model’s unit is within 6'' of your SYNAPSE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "reinforced hive node",
@@ -74,9 +80,11 @@
             "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
             "target": "One SYNAPSE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
             "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
-            "icon" : [""],
-            "cp":1,
-            "color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "imperative dominance",
@@ -85,10 +93,11 @@
             "when": "Your Command phase.",
             "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
             "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
-            
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         },
         {
             "name": "override instincts",
@@ -97,10 +106,11 @@
             "when": "Your Movement phase.",
             "target": "That TYRANIDS MONSTER model.",
             "effect": "Your unit is eligible to shoot and declare a charge this turn.",
-            "icon" : [""],
-            "cp":1,
-            "color":"blue"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         }
     ]
-
 }

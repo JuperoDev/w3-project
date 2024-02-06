@@ -1,188 +1,192 @@
 {
-  "parentUnit": "Rogal Dorn Battle Tank",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {
-    "remainingWounds": 6,
-    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The immense Rogal Dorn Battle Tank is a lumbering behemoth equally suited to anchoring a battle line or grinding forward in support of an assault. Bristling with immensely powerful guns, they pound breaches in the foe’s defences with enormous shells and riddle infantry with storms of bullet-fire.",
-  "keywords": [
-    "vehicle",
-    "imperium",
-    "squadron",
-    "smoke",
-    "rogal dorn battle tank"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 12,
-    "save": 2,
-    "wounds": 18,
-    "leadership": 7,
-    "objetiveControl": 5,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Multi-melta",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Oppressor cannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 72,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulveriser cannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin battle cannon",
-      "modifiers": [
-        "blast",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Rogal Dorn Battle Tank",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "castigator gatling cannon; heavy stubber; twin battle cannon; armoured tracks."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s twin battle cannon can be replaced with 1 oppressor cannon and 1 co-axial autocannon.",
-      "items": []
+    "damaged": {
+        "remainingWounds": 6,
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model’s castigator gatling cannon can be replaced with 1 pulveriser cannon.",
-      "items": []
-    },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "2 meltaguns",
-        "2 additional heavy stubbers"
-      ]
-    },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "2 heavy bolters",
-        "2 multi-meltas"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-   
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 7,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
+    "supremeCommander": false,
+    "lore": "The immense Rogal Dorn Battle Tank is a lumbering behemoth equally suited to anchoring a battle line or grinding forward in support of an assault. Bristling with immensely powerful guns, they pound breaches in the foe’s defences with enormous shells and riddle infantry with storms of bullet-fire.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "squadron",
+        "smoke",
+        "rogal dorn battle tank"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 2,
+            "wounds": 18,
+            "leadership": 7,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Oppressor cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 72,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulveriser cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin battle cannon",
+            "modifiers": [
+                "blast",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "castigator gatling cannon; heavy stubber; twin battle cannon; armoured tracks."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s twin battle cannon can be replaced with 1 oppressor cannon and 1 co-axial autocannon.",
+            "items": []
+        },
+        {
+            "description": "This model’s castigator gatling cannon can be replaced with 1 pulveriser cannon.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 meltaguns",
+                "2 additional heavy stubbers"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 heavy bolters",
+                "2 multi-meltas"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Angron – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
     ]
 }

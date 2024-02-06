@@ -25,17 +25,22 @@
     "wargear": [],
     "rangedWeapons": [
         {
-         "name": "spore mine launcher",
-         "range": 48,
-         "attacks": "d3",
-         "ballistic-skills": 4,
-         "strength": 6,
-         "armor-penetration": 1,
-         "damage": 2,
-         "modifiers": ["blast","devastating wounds", "heavy", "indirect fire"],
-         "singleChoice": false
-       }],
-
+            "name": "spore mine launcher",
+            "range": 48,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [
+                "blast",
+                "devastating wounds",
+                "heavy",
+                "indirect fire"
+            ],
+            "singleChoice": false
+        }
+    ],
     "meleeWeapons": [
         {
             "name": "chitin-barbed limbs",
@@ -67,23 +72,32 @@
             "unitType": "Biovores",
             "minQuantity": 1,
             "maxQuantity": 3,
-            "equipment": ["Spore Mine launcher", "chitin-barbed limbs"]
+            "equipment": [
+                "Spore Mine launcher",
+                "chitin-barbed limbs"
+            ]
         }
     ],
     "options": [
         {
-          "count": [1],
-          "points": 75
+            "count": [
+                1
+            ],
+            "points": 75
         },
         {
-            "count": [2],
+            "count": [
+                2
+            ],
             "points": 150
-          },
-          {
-            "count": [3],
+        },
+        {
+            "count": [
+                3
+            ],
             "points": 225
-          }
-      ],
-  "additionalParameter": {},
-  "supremeCommander": false
+        }
+    ],
+    "additionalParameter": {},
+    "supremeCommander": false
 }

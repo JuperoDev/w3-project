@@ -1,14 +1,16 @@
 {
     "parentUnit": "mawloc",
-    "attributes": [{
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 14,
-        "leadership": 8,
-        "objetiveControl": 4,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 14,
+            "leadership": 8,
+            "objetiveControl": 4,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "lore": "Vast, burrowing wormforms, Mawlocs hunt by sensing even the smallest vibrations on the surface above them. Once they have located prey, the Mawlocs surge upwards in an eruption of bedrock and soil, yawning maws swallowing everything above them before they plunge back under the surface again. ",
     "factionKeyword": [
@@ -19,7 +21,7 @@
         "great devourer",
         "mawloc"
     ],
-    "wargear": [ ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "distensible jaw",
@@ -28,7 +30,11 @@
             "strength": 5,
             "armor-penetration": 0,
             "damage": 3,
-            "modifiers": ["anti-infantry 4+", "extra attacks", "devastating wounds"]
+            "modifiers": [
+                "anti-infantry 4+",
+                "extra attacks",
+                "devastating wounds"
+            ]
         },
         {
             "name": "mawloc scything talons",
@@ -41,12 +47,13 @@
         }
     ],
     "supremeCommander": false,
-
     "options": [
-      {
-        "count": [1],
-        "points": 145
-      }
+        {
+            "count": [
+                1
+            ],
+            "points": 145
+        }
     ],
     "unitComposition": [
         {
@@ -54,23 +61,25 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-              "distensible jaw",
-              "mawloc scything talons"
+                "distensible jaw",
+                "mawloc scything talons"
             ]
         }
     ],
     "abilities": {
-      "core": [
-        "Deep Strike"
-      ],
-      "faction": [
-        "Synapse"
-      ],
-      "otherAbilities": [{"name":
-        "Terror From The Deep:", "description": "Each time this model is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds ; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test ."
-      }]
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Synapse"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Terror From The Deep:",
+                "description": "Each time this model is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds ; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test ."
+            }
+        ]
     },
-
     "additionalParameter": {},
     "damaged": {}
 }

@@ -1,139 +1,153 @@
 {
-  "parentUnit": "Grimnyr",
-  "factionKeyword": [
-    "leagues of votann",
-    "votann"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Grimnyr – or Living Ancestors – are privy to the wisdom of the Votann, and as close as to priests as the secular Kin get. Equipped with barrier tech such as ward staves and energy-focusing CORVs, they are able to rouse the fury of the immaterium against their foes.",
-  "keywords": [
-    "keywords – all models: infantry",
-    "grimnyrgrimnyr model: character",
-    "psyker"
-  ],
-  "attributes": [
-    {
-      "name": "grimnyr",
-      "movement": 5,
-      "toughness": 5,
-      "save": 4,
-      "wounds": 4,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    },
-    {
-      "name": "corv",
-      "movement": 5,
-      "toughness": 5,
-      "save": 4,
-      "wounds": 1,
-      "leadership": 6,
-      "objetiveControl": 1,
-      "invulnerableSave": 4
-    }
-  ],
-  "leader": ["HEARTHKYN WARRIORS"],
-  "rangedWeapons": [
-    {
-      "name": "autoch-pattern bolter",
-      "range": 24,
-      "attacks": 2,
-      "ballistic-skills": 4,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": ["blast"],
-      "singleChoice": false
-    },
-    {
-      "name": "Ancestral Wrath - witchfire",
-      "modifiers": [
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": "d3",
-      "singleChoice": true
-    },
-    {
-      "name": "Ancestral Wrath - focused witchfire",
-      "modifiers": [
-        "hazardous",
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 6,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": "d3",
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Grimnyr",
+    "factionKeyword": [
+        "leagues of votann",
+        "votann"
     ],
-    "faction": [
-      "Eye of the Ancestors"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Grimnyr – or Living Ancestors – are privy to the wisdom of the Votann, and as close as to priests as the secular Kin get. Equipped with barrier tech such as ward staves and energy-focusing CORVs, they are able to rouse the fury of the immaterium against their foes.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "grimnyrgrimnyr model: character",
+        "psyker"
     ],
-    "otherAbilities": [
-     { "name":"Fortify (Psychic)", "description": "While this model is leading a unit, improve the Toughness characteristic of models in that unit by 1."},
-     {"name": "Grimnyr’s Regard", "description": "Once per battle, after this model’s unit fails a Battle-shock test , this model can use this ability. If it does, that unit is no longer Battle-shocked."}
-    ]
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-        "unitType": "Grimnyr",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-          "Ancestral Wrath", "ancestral ward stave"
+    "attributes": [
+        {
+            "name": "grimnyr",
+            "movement": 5,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        },
+        {
+            "name": "corv",
+            "movement": 5,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "HEARTHKYN WARRIORS"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "autoch-pattern bolter",
+            "range": 24,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "blast"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Ancestral Wrath - witchfire",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
+        },
+        {
+            "name": "Ancestral Wrath - focused witchfire",
+            "modifiers": [
+                "hazardous",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Eye of the Ancestors"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Fortify (Psychic)",
+                "description": "While this model is leading a unit, improve the Toughness characteristic of models in that unit by 1."
+            },
+            {
+                "name": "Grimnyr’s Regard",
+                "description": "Once per battle, after this model’s unit fails a Battle-shock test , this model can use this ability. If it does, that unit is no longer Battle-shocked."
+            }
         ]
     },
-    {
-      "unitType": "CORVs",
-      "minQuantity": 2,
-      "maxQuantity": 2,
-      "equipment": [
-        "Autoch-pattern bolter","close combat weapon."
-      ]
-
-  }
-],
-"wargear": [],
-
-"options": [
-  {
-    "count": [1,2],
-    "points": 65
-  }
-],
-"meleeWeapons": [
-  {
-    "name": "Ancestral ward stave",
-    "attacks": 1,
-    "weapons-skills": 3,
-    "strength": 7,
-    "armor-penetration": 1,
-    "damage": "d3",
-    "modifiers": ["psychic"]
-  },
-  {
-    "name": "Close combat weapon",
-    "attacks": 1,
-    "weapons-skills": 4,
-    "strength": 3,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
-]
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Grimnyr",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Ancestral Wrath",
+                "ancestral ward stave"
+            ]
+        },
+        {
+            "unitType": "CORVs",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "Autoch-pattern bolter",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "wargear": [],
+    "options": [
+        {
+            "count": [
+                1,
+                2
+            ],
+            "points": 65
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Ancestral ward stave",
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": "d3",
+            "modifiers": [
+                "psychic"
+            ]
+        },
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

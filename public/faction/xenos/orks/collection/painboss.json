@@ -1,62 +1,62 @@
 {
-  "parentUnit": "Painboss",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Painboss specialises in both the surgical care and cyber-augmentation of squigs, and of those suffering squig-related injuries. So as to provide their services ‘on the hoof’, Painbosses augment themselves with piston-driven soopa-legz, monowheels and the like – the better to deliver high-speed doktorin’.",
-  "keywords": [
-    "infantry",
-    "character",
-    "beast snagga",
-    "painboss"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 5,
-    "save": 4,
-    "wounds": 4,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Feel No Pain 5+",
-      "Leader"
+    "parentUnit": "Painboss",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Painboss specialises in both the surgical care and cyber-augmentation of squigs, and of those suffering squig-related injuries. So as to provide their services ‘on the hoof’, Painbosses augment themselves with piston-driven soopa-legz, monowheels and the like – the better to deliver high-speed doktorin’.",
+    "keywords": [
+        "infantry",
+        "character",
+        "beast snagga",
+        "painboss"
     ],
-    "otherAbilities": [
-      {
-        "name": "Dok’s Toolz:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
-      },
-      {
-        "name": "Sawbonez:",
-        "description": "At the end of your Movement phase , select one friendly BEAST SNAGGA CHARACTER model within 3\" of this model. That model is healed and regains up to 3 lost wounds. Each model can only be healed once per turn."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 5,
+        "save": 4,
+        "wounds": 4,
+        "leadership": 7,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+",
+            "Leader"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Dok’s Toolz:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Sawbonez:",
+                "description": "At the end of your Movement phase , select one friendly BEAST SNAGGA CHARACTER model within 3\" of this model. That model is healed and regains up to 3 lost wounds. Each model can only be healed once per turn."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 grot orderly.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Beast Snagga klaw",
+            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 grot orderly.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Beast Snagga klaw",
-      "modifiers": "anti-monster4+,anti-vehicle4+",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

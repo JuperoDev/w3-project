@@ -1,114 +1,119 @@
 {
-  "parentUnit": "world eaters forgefiend",
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 10,
-      "save": 3,
-      "wounds": 12,
-      "leadership": 6,
-      "objetiveControl": 3,
-      "invulnerableSave": 5
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Forgefiend claws",
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1,
-      "modifiers": [],
-      "singleChoice": false
+    "parentUnit": "world eaters forgefiend",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 5
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Forgefiend claws",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": false
+        },
+        {
+            "name": "Forgefiend jaws",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": false
+        }
+    ],
+    "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Forgefiend"
+    ],
+    "factionKeyword": [
+        "World Eaters"
+    ],
+    "wargear": [
+        {
+            "description": "This model’s 2 Hades autocannons can be replaced with 2 ectoplasma cannons."
+        },
+        {
+            "description": "This model’s Forgefiend jaws can be replaced with 1 ectoplasma cannon and 1 Forgefiend claws."
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Blessings of Khorne"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Furious Onslaught",
+                "description": "In your Shooting phase, after this model has finished making its attacks, if one or more of those attacks scored a hit against an enemy Infantry unit, that Infantry unit must take a Battle-shock test."
+            }
+        ]
     },
-    {
-      "name": "Forgefiend jaws",
-      "attacks": 5,
-      "weapons-skills": 3,
-      "strength": 7,
-      "armor-penetration": 0,
-      "damage": 2,
-      "modifiers": [],
-      "singleChoice": false
-    }
-  ],
-  "keywords": [
-    "Vehicle",
-    "Walker",
-    "Chaos",
-    "Khorne",
-    "Daemon",
-    "Forgefiend"
-  ],
-  "factionKeyword": [
-    "World Eaters"
-  ],
-  "wargear": [{
-    "description": "This model’s 2 Hades autocannons can be replaced with 2 ectoplasma cannons."
-  },
-  {
-    "description": "This model’s Forgefiend jaws can be replaced with 1 ectoplasma cannon and 1 Forgefiend claws."
-  }],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "each time this model makes an attack, subtract 1 from the Hit roll"
+    },
+    "unitComposition": [
+        {
+            "unitType": "World Eaters Forgefiend",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 Hades autocannons",
+                "1 Forgefiend jaws"
+            ]
+        }
     ],
-    "faction": [
-      "Blessings of Khorne"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 170
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Furious Onslaught",
-        "description": "In your Shooting phase, after this model has finished making its attacks, if one or more of those attacks scored a hit against an enemy Infantry unit, that Infantry unit must take a Battle-shock test."
-      }
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "ectoplasma cannon",
+            "range": 36,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": [
+                "blast"
+            ]
+        },
+        {
+            "name": "hades autocannon",
+            "range": 36,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
     ]
-  },
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "each time this model makes an attack, subtract 1 from the Hit roll"
-  },
-  "unitComposition": [
-    {
-      "unitType": "World Eaters Forgefiend",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["2 Hades autocannons","1 Forgefiend jaws"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 170
-    }
-  ],
-  "additionalParameter": {},
-  "supremeCommander": false,
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "ectoplasma cannon",
-      "range": 36,
-      "attacks": "d3",
-      "ballistic-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 3,
-      "modifiers": [
-        "blast"
-      ]
-    },
-    {
-      "name": "hades autocannon",
-      "range": 36,
-      "attacks": 6,
-      "ballistic-skills": 3,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": []
-    }
-  ]
 }

@@ -1,164 +1,164 @@
 {
-  "parentUnit": "Shining Spears",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Shining Spears live to joust, which they do at breathtaking speeds upon their jetbike steeds. Their chosen weapon is the long and formidable laser lance, which burns an opening in the target with a powerful energy blast an instant before the bulk of the weapon slams home with a devastating, piercing impact.",
-  "keywords": [
-    "mounted",
-    "fly",
-    "shining spears"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 4,
-    "salvation": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Laser lance",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 6,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Shuriken cannon",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Star lance",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 6,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin shuriken catapult",
-      "modifiers": [
-        "assault",
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Strands of Fate"
+    "parentUnit": "Shining Spears",
+    "factionKeywords": [
+        "aeldari"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Shimmershield:",
-        "description": "The bearer has a 4+ invulnerable save ."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Shining Spears live to joust, which they do at breathtaking speeds upon their jetbike steeds. Their chosen weapon is the long and formidable laser lance, which burns an opening in the target with a powerful energy blast an instant before the bulk of the weapon slams home with a devastating, piercing impact.",
+    "keywords": [
+        "mounted",
+        "fly",
+        "shining spears"
+    ],
+    "attributes": {
+        "movement": 14,
+        "toughness": 4,
+        "salvation": 3,
+        "wounds": 2,
+        "leadership": 6,
+        "objectiveControl": 2,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Laser lance",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 6,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken cannon",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Star lance",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 6,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin shuriken catapult",
+            "modifiers": [
+                "assault",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Strands of Fate"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Shimmershield:",
+                "description": "The bearer has a 4+ invulnerable save ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Shining Spear Exarch can be equipped with 1 shimmershield.",
+            "items": []
+        },
+        {
+            "description": "The Shining Spear Exarch’s laser lance can be replaced with one of the following",
+            "items": [
+                "1 paragon sabre",
+                "1 star lance"
+            ]
+        },
+        {
+            "description": "The Shining Spear Exarch’s twin shuriken catapult can be replaced with 1 shuriken cannon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Laser lance",
+            "modifiers": "assault",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Shuriken cannon",
+            "modifiers": "sustainedhits1",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "2"
+        },
+        {
+            "name": "Star lance",
+            "modifiers": "assault",
+            "attacks": "1",
+            "weapons-skills": "2+",
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": "2"
+        },
+        {
+            "name": "Laser lance",
+            "modifiers": "lance",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Paragon sabre",
+            "modifiers": "",
+            "attacks": "6",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Star lance",
+            "modifiers": "lance",
+            "attacks": "4",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 3,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Shining Spear Exarch can be equipped with 1 shimmershield.",
-      "items": []
-    },
-    {
-      "description": "The Shining Spear Exarch’s laser lance can be replaced with one of the following",
-      "items": [
-        "1 paragon sabre",
-        "1 star lance"
-      ]
-    },
-    {
-      "description": "The Shining Spear Exarch’s twin shuriken catapult can be replaced with 1 shuriken cannon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Laser lance",
-      "modifiers": "assault",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": "2"
-    },
-    {
-      "name": "Shuriken cannon",
-      "modifiers": "sustainedhits1",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Star lance",
-      "modifiers": "assault",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 9,
-      "armor-penetration": 3,
-      "damage": "2"
-    },
-    {
-      "name": "Laser lance",
-      "modifiers": "lance",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "2"
-    },
-    {
-      "name": "Paragon sabre",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "2"
-    },
-    {
-      "name": "Star lance",
-      "modifiers": "lance",
-      "attacks": "4",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 3,
-      "damage": "2"
-    }
-  ]
 }

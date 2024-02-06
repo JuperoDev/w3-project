@@ -1,153 +1,165 @@
 {
-  "parentUnit": "Kastelan Robots",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Kastelan Robots are giant automata from Mankind’s dark past, shielded with thick armour and advanced force fields. Heeding preprogrammed doctrines without fail, Kastelans are bastions in defence and nigh unstoppable on the attack, unleashing heavy firepower and bludgeoning swipes with their giant fists.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "imperium",
-    "legio cybernetica",
-    "kastelan robots"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 9,
-    "save": 2,
-    "wounds": 7,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy phosphor blaster",
-      "modifiers": [
-        "ignores cover"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Incendine combustor",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kastelan phosphor blaster",
-      "modifiers": [
-        "ignores cover"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin Kastelan phosphor blaster",
-      "modifiers": [
-        "ignores cover",
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration":1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
+    "parentUnit": "Kastelan Robots",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "incendine combustor; twin Kastelan fist."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Kastelan Robots are giant automata from Mankind’s dark past, shielded with thick armour and advanced force fields. Heeding preprogrammed doctrines without fail, Kastelans are bastions in defence and nigh unstoppable on the attack, unleashing heavy firepower and bludgeoning swipes with their giant fists.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "imperium",
+        "legio cybernetica",
+        "kastelan robots"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 7,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy phosphor blaster",
+            "modifiers": [
+                "ignores cover"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Incendine combustor",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kastelan phosphor blaster",
+            "modifiers": [
+                "ignores cover"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin Kastelan phosphor blaster",
+            "modifiers": [
+                "ignores cover",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "incendine combustor; twin Kastelan fist."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                2
+            ],
+            "points": 200
+        },
+        {
+            "count": [
+                4
+            ],
+            "points": 400
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Kastelan Robots",
+            "minQuantity": 2,
+            "maxQuantity": 4,
+            "equipment": [
+                "incendine combustor",
+                "twin Kastelan fist"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "Any number of models can each have their twin Kastelan fist replaced with one of the following:",
+            "items": [
+                "1 Kastelan phosphor blaster and 1 Kastelan fist",
+                "1 twin Kastelan phosphor blaster and 1 close combat weapon"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their incendine combustor replaced with 1 heavy phosphor blaster."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Kastelan fist",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 12,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": []
+        },
+        {
+            "name": "Twin Kastelan fists",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 12,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [
+                "twin-linked"
+            ]
+        }
     ]
-  },
-  "options": [
-   {
-     "count": [2],
-     "points": 200
-   },
-   {
-    "count": [4],
-    "points": 400
-  }
- ],
- "unitComposition": [
-     {
-         "unitType": "Kastelan Robots",
-         "minQuantity": 2,
-         "maxQuantity": 4,
-         "equipment": [
-          "incendine combustor", "twin Kastelan fist"
-         ]
-     }
- ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "Any number of models can each have their twin Kastelan fist replaced with one of the following:","items":["1 Kastelan phosphor blaster and 1 Kastelan fist",
-     "1 twin Kastelan phosphor blaster and 1 close combat weapon"]
-   },
-   {
-    "description": "Any number of models can each have their incendine combustor replaced with 1 heavy phosphor blaster."
-   }
- ],
- "meleeWeapons": [
-   {
-     "name": "Close combat weapon",
-     "attacks": 3,
-     "weapons-skills": 4,
-     "strength": 6,
-     "armor-penetration": 0,
-     "damage": 1,
-     "modifiers": []
-   },
-   {
-    "name": "Kastelan fist",
-    "attacks": 4,
-    "weapons-skills": 4,
-    "strength": 12,
-    "armor-penetration": 2,
-    "damage": 3,
-    "modifiers": []
-  },
-  {
-    "name": "Twin Kastelan fists",
-    "attacks": 4,
-    "weapons-skills": 4,
-    "strength": 12,
-    "armor-penetration": 2,
-    "damage": 3,
-    "modifiers": ["twin-linked"]
-  }
- ]
 }

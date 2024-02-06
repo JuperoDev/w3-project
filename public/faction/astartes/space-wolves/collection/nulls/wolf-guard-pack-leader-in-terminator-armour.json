@@ -1,241 +1,244 @@
 {
-  "parentUnit": "Wolf Guard Pack Leader In Terminator Armour",
-  "factionKeywords": [
-    "adeptus astartes",
-    "space wolves"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Those Wolf Guard granted the raw power afforded by Terminator armour bestride the battlefield as nigh-invulnerable champions. Amongst the packs they lead, they serve as indomitable anvils, anchoring their battle-brothers’ lines with their intimidating bulk and unleashing the power of their ornate weapons to destructive effect.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "terminator",
-    "pack leader",
-    "wolf guard pack leader in terminator armour"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 5,
-    "save": 2,
-    "wounds": 3,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Assault cannon",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Combi-weapon",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "ignores cover"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Cyclone missile launcher - frag",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Storm bolter",
-      "modifiers": [
-        "rapid fire 2"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Wolf Guard Pack Leader In Terminator Armour",
+    "factionKeywords": [
+        "adeptus astartes",
+        "space wolves"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Those Wolf Guard granted the raw power afforded by Terminator armour bestride the battlefield as nigh-invulnerable champions. Amongst the packs they lead, they serve as indomitable anvils, anchoring their battle-brothers’ lines with their intimidating bulk and unleashing the power of their ornate weapons to destructive effect.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "terminator",
+        "pack leader",
+        "wolf guard pack leader in terminator armour"
     ],
-    "otherAbilities": [
-      {
-        "name": "Inspiring Leader:",
-        "description": "While this model is leading a unit, once per battle, when a Battle-shock test is taken for that unit, you can re-roll that test."
-      },
-      {
-        "name": "Pack Leader:",
-        "description": "This model cannot be your Warlord and cannot be given Enhancements ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s storm bolter and power weapon can be replaced with 1 twin lightning claws.",
-      "items": []
+    "attributes": {
+        "movement": 5,
+        "toughness": 5,
+        "save": 2,
+        "wounds": 3,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 4
     },
-    {
-      "description": "This model’s storm bolter and power weapon can be replaced with two different options from the following list",
-      "items": [
-        "1 assault cannon",
-        "1 heavy flamer",
-        "1 cyclone missile launcher and 1 storm bolter",
-        "1 storm bolter",
-        "1 chainfist",
-        "1 power fist",
-        "1 thunder hammer",
-        "1 storm shield"
-      ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Assault cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "ignores cover"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Cyclone missile launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Inspiring Leader:",
+                "description": "While this model is leading a unit, once per battle, when a Battle-shock test is taken for that unit, you can re-roll that test."
+            },
+            {
+                "name": "Pack Leader:",
+                "description": "This model cannot be your Warlord and cannot be given Enhancements ."
+            }
+        ]
     },
-    {
-      "description": "This model’s storm bolter can be replaced with 1 combi-weapon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Assault cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": 6,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Combi-weapon",
-      "modifiers": "anti-infantry4+,devastatingwounds,ignorescover",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Cyclone missile launcher – frag",
-      "modifiers": "blast",
-      "attacks": "2D6",
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Chainfist",
-      "modifiers": "anti-vehicle3+",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    },
-    {
-      "name": "Thunder hammer",
-      "modifiers": "devastatingwounds",
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Twin lightning claws",
-      "modifiers": "twin-linked",
-      "attacks": 5,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Wolf Guard Pack Leader in Terminator Armour",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":["storm bolter","power weapon."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 40
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "This model’s storm bolter and power weapon can be replaced with 1 twin lightning claws.",
+            "items": []
+        },
+        {
+            "description": "This model’s storm bolter and power weapon can be replaced with two different options from the following list",
+            "items": [
+                "1 assault cannon",
+                "1 heavy flamer",
+                "1 cyclone missile launcher and 1 storm bolter",
+                "1 storm bolter",
+                "1 chainfist",
+                "1 power fist",
+                "1 thunder hammer",
+                "1 storm shield"
+            ]
+        },
+        {
+            "description": "This model’s storm bolter can be replaced with 1 combi-weapon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Assault cannon",
+            "modifiers": "devastatingwounds",
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": "anti-infantry4+,devastatingwounds,ignorescover",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Cyclone missile launcher – frag",
+            "modifiers": "blast",
+            "attacks": "2D6",
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": "ignorescover,torrent",
+            "attacks": "D6",
+            "weapons-skills": "N/A",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Chainfist",
+            "modifiers": "anti-vehicle3+",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Thunder hammer",
+            "modifiers": "devastatingwounds",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Twin lightning claws",
+            "modifiers": "twin-linked",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Wolf Guard Pack Leader in Terminator Armour",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter",
+                "power weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 40
+        }
+    ],
+    "additionalParameter": {}
 }

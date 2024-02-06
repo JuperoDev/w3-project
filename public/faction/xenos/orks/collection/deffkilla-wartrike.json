@@ -1,109 +1,107 @@
 {
-  "parentUnit": "Deffkilla Wartrike",
-  "factionKeyword": [
-    "orks"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Ork Speedbosses thunder into battle on the backs of Deffkilla Wartrikes. These hurtling three-wheelers boast massive jet engines that fry the foe to a crisp while roaring through their ranks. Wartrikes also offer platforms from which the Speedbosses can messily chainhaul unfortunate foes with their grapnel-like snagga klaws.",
-  "keywords": [
-    "mounted",
-    "character",
-    "warboss",
-    "deffkilla wartrike"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 6,
-    "save": 4,
-    "wounds": 9,
-    "leadership": 6,
-    "objetiveControl": 3,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Deffkilla boomstikks",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Killa jet - burna",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Killa jet - cutta",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Leader"
+    "parentUnit": "Deffkilla Wartrike",
+    "factionKeyword": [
+        "orks"
     ],
-    "faction": [
-      "Waaagh!"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Ork Speedbosses thunder into battle on the backs of Deffkilla Wartrikes. These hurtling three-wheelers boast massive jet engines that fry the foe to a crisp while roaring through their ranks. Wartrikes also offer platforms from which the Speedbosses can messily chainhaul unfortunate foes with their grapnel-like snagga klaws.",
+    "keywords": [
+        "mounted",
+        "character",
+        "warboss",
+        "deffkilla wartrike"
     ],
-    "otherAbilities": [
-      {
-        "name": "Speedboss:",
-        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
-      },
-      {
-        "name": "High-octane Fuel:",
-        "description": "Each time this model’s unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model’s unit."
-      }
+    "attributes": {
+        "movement": 12,
+        "toughness": 6,
+        "save": 4,
+        "wounds": 9,
+        "leadership": 6,
+        "objetiveControl": 3,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Deffkilla boomstikks",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Killa jet - burna",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Killa jet - cutta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Leader"
+        ],
+        "faction": [
+            "Waaagh!"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Speedboss:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "High-octane Fuel:",
+                "description": "Each time this model’s unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model’s unit."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Deffkilla boomstikks",
+            "modifiers": "assault",
+            "attacks": "6",
+            "weapons-skills": "5+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Snagga klaw",
+            "modifiers": [],
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Deffkilla boomstikks",
-      "modifiers": "assault",
-      "attacks": "6",
-      "weapons-skills": "5+",
-      "strength": 5,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Snagga klaw",
-      "modifiers": [],
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ]
 }

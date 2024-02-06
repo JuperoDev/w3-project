@@ -1,102 +1,115 @@
 {
-  "parentUnit": "C’tan Shard Of The Nightbringer",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The very essence of life bleeds away when exposed to a Shard of the C’tan known as the Nightbringer. Aza’gorod he was, the Inevitable Blade; his spectral form, cowl of shadows and flashing scythe are said to have spawned countless avatars of death in the legends of primitive cultures the entire galaxy over.",
-  "keywords": [
-    "monster",
-    "character",
-    "epic hero",
-    "fly",
-    "c’tan shard of the nightbringer"
-  ],
-  "attributes": [ {
-    
-    "movement": 6,
-    "toughness": 11,
-    "save": 4,
-    "wounds": 12,
-    "leadership": 6,
-    "objetiveControl": 4,
-    "invulnerableSave": 4
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Gaze of death",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 18,
-      "strength": 12,
-      "attacks": "d3",
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": "d6+3",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "feel no pain 5+"
+    "parentUnit": "C’tan Shard Of The Nightbringer",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The very essence of life bleeds away when exposed to a Shard of the C’tan known as the Nightbringer. Aza’gorod he was, the Inevitable Blade; his spectral form, cowl of shadows and flashing scythe are said to have spawned countless avatars of death in the legends of primitive cultures the entire galaxy over.",
+    "keywords": [
+        "monster",
+        "character",
+        "epic hero",
+        "fly",
+        "c’tan shard of the nightbringer"
     ],
-    "otherAbilities": [{"name":
-      "Drain Life ", "description": "At the end of the Fight phase , roll one D6 for each enemy unit within 6\" of this model: on a 4+, that enemy unit suffers D3 mortal wounds ."},{"name":
-      "Necrodermis ", "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
-    }]
-  },
-
-  "additionalParameter": {
-    "title": "Enslaved Star God",
-    "abilities": [
+    "attributes": [
         {
-            "name": "",
-            "description": "This model cannot be your Warlord."
+            "movement": 6,
+            "toughness": 11,
+            "save": 4,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 4,
+            "invulnerableSave": 4
         }
-    ]},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "C’tan Shard of the Nightbringer – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["gaze of death","Scythe of the Nightbringer."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 255
-     }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Scythe of the Nightbringer – strike",
-         "attacks": 6,
-         "weapons-skills": 2,
-         "strength": 14,
-         "armor-penetration": 4,
-         "damage": "d6+2",
-         "modifiers": ["devastating wounds"],
-         "singleChoice": true
-       },
-       {
-        "name": "Scythe of the Nightbringer – sweep",
-        "attacks": 14,
-        "weapons-skills": 2,
-        "strength": 8,
-        "armor-penetration":2,
-        "damage": 2,
-        "modifiers": [],
-        "singleChoice": true
-      }
-   ]
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Gaze of death",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 12,
+            "attacks": "d3",
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": "d6+3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "feel no pain 5+"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Drain Life ",
+                "description": "At the end of the Fight phase , roll one D6 for each enemy unit within 6\" of this model: on a 4+, that enemy unit suffers D3 mortal wounds ."
+            },
+            {
+                "name": "Necrodermis ",
+                "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+            }
+        ]
+    },
+    "additionalParameter": {
+        "title": "Enslaved Star God",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be your Warlord."
+            }
+        ]
+    },
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "C’tan Shard of the Nightbringer – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "gaze of death",
+                "Scythe of the Nightbringer."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 255
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Scythe of the Nightbringer – strike",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 14,
+            "armor-penetration": 4,
+            "damage": "d6+2",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "Scythe of the Nightbringer – sweep",
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ]
 }

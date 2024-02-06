@@ -1,126 +1,126 @@
 {
-  "parentUnit": "Howling Banshees",
-  "factionKeywords": [
-    "aeldari"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Howling Banshees are deadly in hand-to-hand fighting and renowned for their rapid strikes. Their Banshee masks contain psychosonic amplifiers that magnify the wearer’s keening battle screams into a mind-destroying shock wave. This aural assault inspires terror and paralysis in the foe as the Aspect Warriors move in for the kill.",
-  "keywords": [
-    "infantry",
-    "howling banshees"
-  ],
-  "attributes": {
-    "movement": 8,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Shuriken pistol",
-      "modifiers": [
-        "assault",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Howling Banshees",
+    "factionKeywords": [
+        "aeldari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Howling Banshees are deadly in hand-to-hand fighting and renowned for their rapid strikes. Their Banshee masks contain psychosonic amplifiers that magnify the wearer’s keening battle screams into a mind-destroying shock wave. This aural assault inspires terror and paralysis in the foe as the Aspect Warriors move in for the kill.",
+    "keywords": [
+        "infantry",
+        "howling banshees"
+    ],
+    "attributes": {
+        "movement": 8,
+        "toughness": 3,
+        "salvation": 4,
+        "wounds": 1,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 5
     },
-    {
-      "name": "Triskele",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Fights First"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Shuriken pistol",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Triskele",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "faction": [
-      "Strands of Fate"
+    "abilities": {
+        "core": [
+            "Fights First"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Acrobatic:",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Howling Banshee Exarch’s Banshee blade can be replaced with 1 of the following",
+            "items": [
+                "1 executioner",
+                "1 triskele"
+            ]
+        },
+        {
+            "description": "The Howling Banshee Exarch’s shuriken pistol and Banshee blade can be replaced with 1 mirrorswords.",
+            "items": []
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Acrobatic:",
-        "description": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back ."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Shuriken pistol",
+            "modifiers": "assault,pistol",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Banshee blade",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 3,
+            "damage": "1"
+        },
+        {
+            "name": "Executioner",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Mirrorswords",
+            "modifiers": "",
+            "attacks": "6",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 3,
+            "damage": "1"
+        },
+        {
+            "name": "Triskele",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 3,
+            "armor-penetration": 2,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Howling Banshee Exarch’s Banshee blade can be replaced with 1 of the following",
-      "items": [
-        "1 executioner",
-        "1 triskele"
-      ]
-    },
-    {
-      "description": "The Howling Banshee Exarch’s shuriken pistol and Banshee blade can be replaced with 1 mirrorswords.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Shuriken pistol",
-      "modifiers": "assault,pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Banshee blade",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 3,
-      "damage": "1"
-    },
-    {
-      "name": "Executioner",
-      "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": "2"
-    },
-    {
-      "name": "Mirrorswords",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 3,
-      "damage": "1"
-    },
-    {
-      "name": "Triskele",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 3,
-      "armor-penetration": 2,
-      "damage": "1"
-    }
-  ]
 }

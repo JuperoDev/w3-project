@@ -1,135 +1,135 @@
 {
-  "parentUnit": "morvenn vahl",
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 6,
-      "save": 2,
-      "wounds": 8,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 4
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": true,
-  "lore": "Aggressive, brash and taciturn, Morvenn Vahl leads the Adepta Sororitas from the front. Taking to the field in an ancient Paragon Warsuit, she smites foe after foe with deafening bursts from Fidelis, devastating salvoes of missiles and pinpoint thrusts with the Lance of Illumination.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "character",
-    "epic hero",
-    "imperium",
-    "morvenn vahl"
-  ],
-  "leader": [
-    "paragon warsuits"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Fidelis",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 6,
-      "attacks": 3,
-      "ballistic-skills": 2,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
-    },
-    {
-      "name": "Paragon missile launcher - prioris",
-      "modifiers": [
-        
-      ],
-      "range": 36,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 2,
-      "armor-penetration": 2,
-      "damage": "d6",
-      "singleChoice": true
-    },
-    {
-      "name": "Paragon missile launcher - sanctorum",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": "2d6",
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Leader"
+    "parentUnit": "morvenn vahl",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 8,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "factionKeyword": [
+        "adepta sororitas"
     ],
-    "otherAbilities": [
-      {
-        "name": "Abbess Sanctorum:",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll ."
-      },
-      {
-        "name": "Righteous Repugnance:",
-        "description": "Once per battle, in your Command phase , this model can use this ability. If it does, until the start of your next Command phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumination."
-      }
+    "damaged": {},
+    "supremeCommander": true,
+    "lore": "Aggressive, brash and taciturn, Morvenn Vahl leads the Adepta Sororitas from the front. Taking to the field in an ancient Paragon Warsuit, she smites foe after foe with deafening bursts from Fidelis, devastating salvoes of missiles and pinpoint thrusts with the Lance of Illumination.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "character",
+        "epic hero",
+        "imperium",
+        "morvenn vahl"
+    ],
+    "leader": [
+        "paragon warsuits"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Fidelis",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Paragon missile launcher - prioris",
+            "modifiers": [],
+            "range": 36,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
+        },
+        {
+            "name": "Paragon missile launcher - sanctorum",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": "2d6",
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Leader"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Abbess Sanctorum:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll ."
+            },
+            {
+                "name": "Righteous Repugnance:",
+                "description": "Once per battle, in your Command phase , this model can use this ability. If it does, until the start of your next Command phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumination."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Lance of Illumination – strike",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "Lance of Illumination – sweep",
+            "attacks": 10,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],
+    "wargear": [],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Morvenn Vahl – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Fidelis",
+                "Paragon missile launcher",
+                "Lance of Illumination"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 125
+        }
     ]
-  },
-  "meleeWeapons":[
-    {
-      "name": "Lance of Illumination – strike",
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": ["devastating wounds"],
-      "singleChoice":true
-    },
-    {
-      "name": "Lance of Illumination – sweep",
-      "attacks": 10,
-      "weapons-skills": 2,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [],
-      "singleChoice":true
-    }
-  ],
-  "wargear": [
-    
-  ],
-
-  "additionalParameter": {
-    
-  },
-  "unitComposition": [
-     {
-       "unitType": "Morvenn Vahl – EPIC HERO",
-       "minQuantity": 1,
-       "maxQuantity": 1,
-       "equipment": ["Fidelis","Paragon missile launcher", "Lance of Illumination"]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [1],
-       "points": 125
-     } 
-   ]
 }

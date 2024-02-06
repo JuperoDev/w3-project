@@ -1,15 +1,19 @@
 {
     "parentUnit": "hive tyrant",
-    "attributes": [{
-        "movement": 8,
-        "toughness": 10,
-        "save": 2,
-        "wounds": 10,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 4
-    }],
-    "leader": ["tyrant guard"],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "tyrant guard"
+    ],
     "lore": "Hive Tyrants command the swarm on the Hive Mind’s behalf. Not only are they powerful warrior organisms in their own right, but they are also possessed of a depth of sentient autonomy and strategic cunning that makes them truly deadly foes. Where the Hive Tyrants bestride the battlefield, death comes for the prey. ",
     "factionKeyword": [
         "tyranids"
@@ -24,13 +28,15 @@
     ],
     "meleeWeapons": [
         {
-          "name": "Monstrous bonesword and lash whip",
-          "attacks": 6,
-          "weapons-skills": 2,
-          "strength": 9,
-          "armor-penetration": 2,
-          "damage": 3,
-          "modifiers": ["twin-linked"]
+            "name": "Monstrous bonesword and lash whip",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [
+                "twin-linked"
+            ]
         },
         {
             "name": "Monstrous scything talons",
@@ -39,38 +45,42 @@
             "strength": 7,
             "armor-penetration": 2,
             "damage": 2,
-            "modifiers": ["extra attacks"]
-          }
+            "modifiers": [
+                "extra attacks"
+            ]
+        }
     ],
     "rangedWeapons": [
         {
-         "name": "Heavy venom cannon",
-         "range": 36,
-         "attacks": "d3",
-         "ballistic-skills": 2,
-         "strength": 9,
-         "armor-penetration": 1,
-         "damage": 2,
-         "modifiers": ["blast"],
-         "singleChoice": false
-       },
-       {
-         "name": "Stranglethorn cannon",
-         "range": 36,
-         "attacks": "d6+1",
-         "ballistic-skills": 2,
-         "strength": 7,
-         "armor-penetration": 2,
-         "damage": 3,
-         "modifiers": [
-           "blast"
-           ],
-         "singleChoice": false
-       }],
+            "name": "Heavy venom cannon",
+            "range": 36,
+            "attacks": "d3",
+            "ballistic-skills": 2,
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [
+                "blast"
+            ],
+            "singleChoice": false
+        },
+        {
+            "name": "Stranglethorn cannon",
+            "range": 36,
+            "attacks": "d6+1",
+            "ballistic-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [
+                "blast"
+            ],
+            "singleChoice": false
+        }
+    ],
     "supremeCommander": false,
     "damaged": {},
-  
-    "additionalParameter": {} ,
+    "additionalParameter": {},
     "options": [
         {
             "count": [
@@ -80,51 +90,54 @@
         }
     ],
     "wargear": [
-      {
-        "description": "This model’s monstrous bonesword and lash whip can be replaced with one of the following:",
-        "items": [
-          "1 heavy venom cannon",
-          "1 stranglethorn cannon",
-          "1 monstrous scything talons"
-        ]},
+        {
+            "description": "This model’s monstrous bonesword and lash whip can be replaced with one of the following:",
+            "items": [
+                "1 heavy venom cannon",
+                "1 stranglethorn cannon",
+                "1 monstrous scything talons"
+            ]
+        },
         {
             "description": "This model’s monstrous scything talons can be replaced with one of the following:",
             "items": [
-              "1 heavy venom cannon*",
-              "1 stranglethorn cannon*"],
+                "1 heavy venom cannon*",
+                "1 stranglethorn cannon*"
+            ],
             "appendix": [
-                "*This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon." ]
-        }
-        ],
-        "unitComposition": [
-            {
-                "unitType": "Hive tyrant",
-                "minQuantity": 1,
-                "maxQuantity": 1,
-                "equipment": [
-                  "monstrous bonesword and lashwhip",
-                  "monstrous scything talons"
-                ]
-            }
-        ],
-        "abilities": {
-            "core": [
-                "Deadly Demise 3", "leader"
-            ],
-            "faction": [
-                "synapse", "shadow in the warp"
-            ],
-            "otherAbilities": [
-                {
-                    "name": "Will of the Hive Mind",
-                    "description": "Once per turn, one friendly TYRANIDS unit within 12'' of one or more models with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
-                },
-                {
-                    "name": "Onslaught (Aura, Psychic)",
-                    "description": "While a friendly TYRANIDS unit is within 6'' of this model, ranged weapons equipped by models in that unit have the [ASSAULT] ability."  
-                }
+                "*This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
             ]
         }
-      
-    
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Hive tyrant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "monstrous bonesword and lashwhip",
+                "monstrous scything talons"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 3",
+            "leader"
+        ],
+        "faction": [
+            "synapse",
+            "shadow in the warp"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Will of the Hive Mind",
+                "description": "Once per turn, one friendly TYRANIDS unit within 12'' of one or more models with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+            },
+            {
+                "name": "Onslaught (Aura, Psychic)",
+                "description": "While a friendly TYRANIDS unit is within 6'' of this model, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+            }
+        ]
+    }
 }

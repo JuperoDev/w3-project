@@ -1,84 +1,93 @@
 {
-  "parentUnit": "Deathmarks",
-  "factionKeyword": [
-    "necrons"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "No target can evade the Deathmarks. Watching from dimensional oubliettes, these expert snipers track enemy movements, communications and even teleport signatures before striking. They do so in a blaze of synaptic disintegrator fire that shreds not only their victims’ bodies, but also their very minds.",
-  "keywords": [
-    "infantry",
-    "deathmarks"
-  ],
-  "attributes": [{
-   
-    "movement": 5,
-    "toughness": 5,
-    "save": 3,
-    "wounds": 1,
-    "leadership": 7,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Synaptic disintegrator",
-      "modifiers": [
-        "heavy",
-        "precision"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 2,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Deathmarks",
+    "factionKeyword": [
+        "necrons"
     ],
-    "faction": [
-      "Reanimation Protocols"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "No target can evade the Deathmarks. Watching from dimensional oubliettes, these expert snipers track enemy movements, communications and even teleport signatures before striking. They do so in a blaze of synaptic disintegrator fire that shreds not only their victims’ bodies, but also their very minds.",
+    "keywords": [
+        "infantry",
+        "deathmarks"
     ],
-    "otherAbilities": [{"name":
-      "Hyperspace Hunters ","description": "Once per turn, in the Reinforcements step of your opponent’s Movement phase , when an enemy unit is set up on the battlefield from Reserves within 18\" of and visible to this unit, this unit can shoot as if it were your Shooting phase , but must only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
-    }]
-  },
-
-  "additionalParameter": {},
-  "wargear": [],
-  "unitComposition": [
-     {
-       "unitType": "Deathmarks",
-       "minQuantity": 5,
-       "maxQuantity": 10,
-       "equipment": ["synaptic disintegrator","close combat weapon."]
-     }
-   ],
- 
-   "options": [
-     {
-       "count": [5],
-       "points": 65
-     },
-     {
-         "count": [10],
-         "points": 130
-       }
-   ],
-   "meleeWeapons": [
-       {
-         "name": "Close combat weapon",
-         "attacks": 2,
-         "weapons-skills": 3,
-         "strength": 4,
-         "armor-penetration": 0,
-         "damage": 1,
-         "modifiers": []
-       }
-   ]
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Synaptic disintegrator",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Reanimation Protocols"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Hyperspace Hunters ",
+                "description": "Once per turn, in the Reinforcements step of your opponent’s Movement phase , when an enemy unit is set up on the battlefield from Reserves within 18\" of and visible to this unit, this unit can shoot as if it were your Shooting phase , but must only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "Deathmarks",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "synaptic disintegrator",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 65
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 130
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

@@ -1,274 +1,280 @@
 {
-  "parentUnit": "Knight Despoiler",
-  "factionKeyword": [
-    "chaos knights"
-  ],
-  "damaged": {
-    "remainingWounds": 7,
-    "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Knights Despoiler epitomise all it means to be a Chaos Knight. Their Fallen Nobles repudiate honour and seethe with hatred. Capable of bearing a variety of powerful weapons suited to its pilot’s temperament, they unleash their hatred at range or in thunderous melee at whim.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "titanic",
-    "towering",
-    "abhorrent",
-    "character",
-    "chaos",
-    "knight despoiler"
-  ],
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 12,
-      "save": 3,
-      "wounds": 22,
-      "leadership": 6,
-      "objetiveControl": 10,
-      "invulnerableSave": 5
-    }
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Daemonbreath meltagun",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Daemonbreath thermal cannon",
-      "modifiers": [
-        "blast",
-        "melta 6"
-      ],
-      "range": 24,
-      "strength": 12,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Despoiler battle cannon",
-      "modifiers": [
-        "blast",
-        "rapid fire d6+3"
-      ],
-      "range": 72,
-      "strength": 10,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Despoiler gatling cannon",
-      "modifiers": [
-        "blast",
-        "rapid fire d6+3"
-      ],
-      "range": 72,
-      "strength": 10,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Havoc missile pod",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 48,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy darkflamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Diabolus heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Ruinspear rocket pod",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    },
-    {
-      "name": "Hellstorm autocannons",
-      "modifiers": [
-        "anti-fly 2+",
-        "twin-linked"
-      ],
-      "range": 48,
-      "strength": 7,
-      "attacks": 0,
-      "ballistic-skills": 0,
-      "armor-penetration": 0,
-      "damage": 0,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6"
+    "parentUnit": "Knight Despoiler",
+    "factionKeyword": [
+        "chaos knights"
     ],
-    "faction": [
-      "Harbingers of Dread",
-      "Super-heavy Walker"
+    "damaged": {
+        "remainingWounds": 7,
+        "description": "While this model has 1-7 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Knights Despoiler epitomise all it means to be a Chaos Knight. Their Fallen Nobles repudiate honour and seethe with hatred. Capable of bearing a variety of powerful weapons suited to its pilot’s temperament, they unleash their hatred at range or in thunderous melee at whim.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "titanic",
+        "towering",
+        "abhorrent",
+        "character",
+        "chaos",
+        "knight despoiler"
     ],
-    "otherAbilities": [{"name":
-      "Dread Dominion (Aura):","description": "While a friendly WAR DOG is within 9\" of this model, each time that WAR DOG takes a Battle-shock test , add 1 to that test."},{"name":
-      "Seething Hatred:","description": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
-    }]
-  },
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 470
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Knight Despoiler",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment": [
-        "daemonbreath meltagun",
-        "reaper chainsword",
-        "titanic feet",
-        "warpstrike claw"
-      ]
-    }
-  ],
-  "wargear": [
-    {
-      "description": "This model’s daemonbreath meltagun can be replaced with 1 diabolus heavy stubber."
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 22,
+            "leadership": 6,
+            "objetiveControl": 10,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Daemonbreath meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Daemonbreath thermal cannon",
+            "modifiers": [
+                "blast",
+                "melta 6"
+            ],
+            "range": 24,
+            "strength": 12,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Despoiler battle cannon",
+            "modifiers": [
+                "blast",
+                "rapid fire d6+3"
+            ],
+            "range": 72,
+            "strength": 10,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Despoiler gatling cannon",
+            "modifiers": [
+                "blast",
+                "rapid fire d6+3"
+            ],
+            "range": 72,
+            "strength": 10,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc missile pod",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy darkflamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Diabolus heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Ruinspear rocket pod",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Hellstorm autocannons",
+            "modifiers": [
+                "anti-fly 2+",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 7,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Harbingers of Dread",
+            "Super-heavy Walker"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Dread Dominion (Aura):",
+                "description": "While a friendly WAR DOG is within 9\" of this model, each time that WAR DOG takes a Battle-shock test , add 1 to that test."
+            },
+            {
+                "name": "Seething Hatred:",
+                "description": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+            }
+        ]
     },
-    {
-      "description": "This model’s reaper chainsword can be replaced with 1 of the following.",
-      "items": [
-        "1 daemonbreath thermal cannon",
-        "1 despoiler gatling cannon and 1 heavy darkflamer",
-        "1 despoiler battle cannon and 1 diabolus heavy stubber"
-      ]
-    },
-    {
-      "description": "This model’s warpstrike claw can be replaced with 1 of the following",
-      "items": [
-        "1 daemonbreath thermal cannon",
-        "1 despoiler gatling cannon and 1 heavy darkflamer",
-        "1 despoiler battle cannon and 1 diabolus heavy stubber"
-      ]
-    },
-    {
-      "description": "The Aberrant Hypermorph’s heavy power weapon can be replaced with 1 heavy improvised weapon.",
-      "items": [
-        "1 havoc missile pod",
-        "1 ruinspear rocket pod",
-        "1 hellstorm autocannons"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Titanic feet",
-      "attacks": 4,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": []
-    },
-    {
-      "name": "Reaper chainsword – strike",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 14,
-      "armor-penetration": 4,
-      "damage": 6,
-      "modifiers": [],
-      "singleChoice":true
-    },
-    {
-      "name": "Reaper chainsword – sweep",
-      "attacks": 12,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [],
-      "singleChoice":true
-    },
-    {
-      "name": "Warpstrike claw – strike",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 20,
-      "armor-penetration": 3,
-      "damage": 8,
-      "modifiers": [],
-      "singleChoice":true
-    },
-    {
-      "name": "Warpstrike claw – sweep",
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 2,
-      "damage": 3,
-      "modifiers": [],
-      "singleChoice":true
-    }
-  ],
-  "additionalParameter": {}
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 470
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Knight Despoiler",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "daemonbreath meltagun",
+                "reaper chainsword",
+                "titanic feet",
+                "warpstrike claw"
+            ]
+        }
+    ],
+    "wargear": [
+        {
+            "description": "This model’s daemonbreath meltagun can be replaced with 1 diabolus heavy stubber."
+        },
+        {
+            "description": "This model’s reaper chainsword can be replaced with 1 of the following.",
+            "items": [
+                "1 daemonbreath thermal cannon",
+                "1 despoiler gatling cannon and 1 heavy darkflamer",
+                "1 despoiler battle cannon and 1 diabolus heavy stubber"
+            ]
+        },
+        {
+            "description": "This model’s warpstrike claw can be replaced with 1 of the following",
+            "items": [
+                "1 daemonbreath thermal cannon",
+                "1 despoiler gatling cannon and 1 heavy darkflamer",
+                "1 despoiler battle cannon and 1 diabolus heavy stubber"
+            ]
+        },
+        {
+            "description": "The Aberrant Hypermorph’s heavy power weapon can be replaced with 1 heavy improvised weapon.",
+            "items": [
+                "1 havoc missile pod",
+                "1 ruinspear rocket pod",
+                "1 hellstorm autocannons"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Titanic feet",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Reaper chainsword – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 14,
+            "armor-penetration": 4,
+            "damage": 6,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Reaper chainsword – sweep",
+            "attacks": 12,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Warpstrike claw – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 20,
+            "armor-penetration": 3,
+            "damage": 8,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Warpstrike claw – sweep",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],
+    "additionalParameter": {}
 }

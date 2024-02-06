@@ -1,165 +1,165 @@
 {
-  "parentUnit": "mortifiers",
-  "attributes": [
-    {
-      "movement": 8,
-      "toughness": 6,
-      "save": 4,
-      "wounds": 5,
-      "leadership": 7,
-      "objetiveControl": 2,
-      "invulnerableSave": 6
-    }
-  ],
-  "factionKeyword": [
-    "adepta sororitas"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The pilot of a Mortifier is a Sister Repentia who has fled from battle. Bolted within the Mortifier’s armoured shell, they cannot move, speak or hear. Suffering endless shame and agony, they are driven by madness and pain to carve a path of mutilation and destruction through the foe.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "imperium",
-    "mortifiers"
-  ],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 3,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 2,
-      "singleChoice": false
+    "parentUnit": "mortifiers",
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 5,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "factionKeyword": [
+        "adepta sororitas"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The pilot of a Mortifier is a Sister Repentia who has fled from battle. Bolted within the Mortifier’s armoured shell, they cannot move, speak or hear. Suffering endless shame and agony, they are driven by madness and pain to carve a path of mutilation and destruction through the foe.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "imperium",
+        "mortifiers"
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Mortifier flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Feel No Pain 5+"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Anguish of the Unredeemed:",
+                "description": "Each time this unit makes a Charge move , until the end of the turn, melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+            }
+        ]
     },
-    {
-      "name": "Mortifier flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Feel No Pain 5+"
+    "meleeWeapons": [
+        {
+            "name": "Penitent buzz-blade",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": []
+        },
+        {
+            "name": "Penitent flail",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Twin penitent buzz-blades",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "twin-linked"
+            ]
+        },
+        {
+            "name": "Twin penitent flails",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "twin-linked"
+            ]
+        }
     ],
-    "faction": [
-      "Acts of Faith"
+    "wargear": [
+        {
+            "description": "1 model can be equipped with 1 anchorite sarcophagus."
+        },
+        {
+            "description": "Any number of models can each have their 2 heavy bolters replaced with one of the following:",
+            "items": [
+                "1 heavy bolter and 1 Mortifier flamer",
+                "2 Mortifier flamers"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their twin penitent buzz-blades replaced with one of the following:",
+            "items": [
+                " 1 twin penitent flails",
+                "1 penitent buzz-blade and 1 penitent flail"
+            ]
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Anguish of the Unredeemed:",
-        "description": "Each time this unit makes a Charge move , until the end of the turn, melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
-      }
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Mortifiers",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "2 heavy bolters",
+                "twin penitent buzz-blades"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 120
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Anchorite Sarcophagus",
+            "ability": "The bearer has a Save characteristic of 3+."
+        }
     ]
-  },
-  "meleeWeapons": [
-    {
-      "name": "Penitent buzz-blade",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": []
-    },
-    {
-      "name": "Penitent flail",
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": []
-    },
-    {
-      "name": "Twin penitent buzz-blades",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [
-        "twin-linked"
-      ]
-    },
-    {
-      "name": "Twin penitent flails",
-      "attacks": 8,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1,
-      "modifiers": [
-        "twin-linked"
-      ]
-    }
-  ],
-  "wargear": [
-    {
-      "description": "1 model can be equipped with 1 anchorite sarcophagus."
-    },
-    {
-      "description": "Any number of models can each have their 2 heavy bolters replaced with one of the following:",
-      "items": [
-        "1 heavy bolter and 1 Mortifier flamer",
-        "2 Mortifier flamers"
-      ]
-    },
-    {
-      "description": "Any number of models can each have their twin penitent buzz-blades replaced with one of the following:",
-      "items": [
-        " 1 twin penitent flails",
-        "1 penitent buzz-blade and 1 penitent flail"
-      ]
-    }
-  ],
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Mortifiers",
-      "minQuantity": 1,
-      "maxQuantity": 2,
-      "equipment": [
-        "2 heavy bolters",
-        "twin penitent buzz-blades"
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 60
-    },
-    {
-      "count": [
-        2
-      ],
-      "points": 120
-    }
-  ],
-  "warGearAbilities": [
-    {
-      "wargear": "Anchorite Sarcophagus",
-      "ability": "The bearer has a Save characteristic of 3+."
-    }
-  ]
 }

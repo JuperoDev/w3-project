@@ -1,122 +1,126 @@
 {
-  "parentUnit": "world eaters lord on juggernaut",
-  "attributes": [
-    {
-      "movement": 10,
-      "toughness": 6,
-      "save": 2,
-      "wounds": 7,
-      "leadership": 6,
-      "objetiveControl": 2,
-      "invulnerableSave": 4
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Exalted chainblade",
-      "attacks": 7,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": [],
-      "singleChoice": false
+    "parentUnit": "world eaters lord on juggernaut",
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 7,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Exalted chainblade",
+            "attacks": 7,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [],
+            "singleChoice": false
+        },
+        {
+            "name": "Juggernaut’s bladed horn",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [
+                "extra attacks",
+                "lance"
+            ],
+            "singleChoice": false
+        }
+    ],
+    "keywords": [
+        "Mounted",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Khorne",
+        "Lord on Juggernaut"
+    ],
+    "factionKeyword": [
+        "World Eaters"
+    ],
+    "wargear": [],
+    "abilities": {
+        "core": [
+            "leader"
+        ],
+        "faction": [
+            "Blessings of Khorne"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Aggressive Advance",
+                "description": "While this model is leading a unit, you can re-roll any or all of the following rolls made for that unit: Advance rolls; Charge rolls; Blood Surge rolls (see Khorne Berzerkers)."
+            },
+            {
+                "name": "Bloody Stampede",
+                "description": "Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+            }
+        ]
     },
-    {
-      "name": "Juggernaut’s bladed horn",
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": 2,
-      "modifiers": [
-        "extra attacks",
-        "lance"
-      ],
-      "singleChoice": false
-    }
-  ],
-  "keywords": [
-    "Mounted",
-    "Character",
-    "Grenades",
-    "Chaos",
-    "Khorne",
-    "Lord on Juggernaut"
-  ],
-  "factionKeyword": [
-    "World Eaters"
-  ],
-  "wargear": [],
-  "abilities": {
-    "core": [
-      "leader"
+    "damaged": {},
+    "unitComposition": [
+        {
+            "unitType": "World Eaters Lord on Juggernaut",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plasma pistol",
+                " exalted chainblade",
+                " Juggernaut’s bladed horn"
+            ]
+        }
     ],
-    "faction": [
-      "Blessings of Khorne"
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 100
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Aggressive Advance",
-        "description": "While this model is leading a unit, you can re-roll any or all of the following rolls made for that unit: Advance rolls; Charge rolls; Blood Surge rolls (see Khorne Berzerkers)."
-      },
-      {
-        "name": "Bloody Stampede",
-        "description": "Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
-      }
+    "additionalParameter": {},
+    "supremeCommander": false,
+    "leader": [
+        "Eightbound",
+        "Exalted Eightbound",
+        "Khorne Berzerkers"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Plasma pistol ",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "pistol"
+            ],
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol – supercharge",
+            "range": 12,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "modifiers": [
+                "pistol",
+                "hazarous"
+            ],
+            "singleChoice": true
+        }
     ]
-  },
-  "damaged": {},
-  "unitComposition": [
-    {
-      "unitType": "World Eaters Lord on Juggernaut",
-      "minQuantity": 1,
-      "maxQuantity": 1,
-      "equipment":[ "plasma pistol"," exalted chainblade"," Juggernaut’s bladed horn"]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 100
-    }
-  ],
-  "additionalParameter": {},
-  "supremeCommander": false,
-  "leader": [
-    "Eightbound",
-    "Exalted Eightbound",
-    "Khorne Berzerkers"
-  ],
-  "rangedWeapons": [
-    {
-      "name": "Plasma pistol ",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage": 1,
-      "modifiers": [
-        "pistol"
-      ],
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol – supercharge",
-      "range": 12,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": 2,
-      "modifiers": [
-        "pistol",
-        "hazarous"
-      ],
-      "singleChoice": true
-    }
-  ]
 }

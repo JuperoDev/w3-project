@@ -1,154 +1,171 @@
 {
-  "parentUnit": "Serberys Sulphurhounds",
-  "factionKeyword": [
-    "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Sulphurhound cavalry squadrons are aggressive shock troops and line-breakers. The loping, mechanical beasts breathe gouts of incinerating phosphor and disembowel the foe with slashing claws, while the elite Skitarii riders unload incandescent pistol fire as they smash through defence lines, before circling back for survivors.",
-  "keywords": [
-    "mounted",
-    "imperium",
-    "skitarii",
-    "serberys sulphurhounds"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "save": 4,
-    "wounds": 2,
-    "leadership": 7,
-    "objetiveControl": 2,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Mechanicus pistol",
-      "modifiers": [
-        "pistol",
-        "DEVASTATING WOUNDS"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Phosphor blast carbine",
-      "modifiers": [
-        "blast",
-        "ignores cover"
-      ],
-      "range": 18,
-      "strength": 6,
-      "attacks": "d6",
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Phosphor pistol",
-      "modifiers": [
-        "ignores cover",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Sulphur breath",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 9,
-      "strength": 3,
-      "attacks": "d6",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Doctrina Imperatives"
+    "parentUnit": "Serberys Sulphurhounds",
+    "factionKeyword": [
+        "adeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicusadeptus mechanicus"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "The Serberys Sulphurhound Alpha model is equipped with:",
-        "description": "Mechanicus pistol; sulphur breath; cavalry arc maul; clawed limbs."
-      },
-      {
-        "name": "Every Serberys Sulphurhound model is equipped with:",
-        "description": "2 phosphor pistols; sulphur breath; clawed limbs."
-      }
-    ]
-  },
-  "options": [
-    {
-      "count": [1,4],
-      "points": 70
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sulphurhound cavalry squadrons are aggressive shock troops and line-breakers. The loping, mechanical beasts breathe gouts of incinerating phosphor and disembowel the foe with slashing claws, while the elite Skitarii riders unload incandescent pistol fire as they smash through defence lines, before circling back for survivors.",
+    "keywords": [
+        "mounted",
+        "imperium",
+        "skitarii",
+        "serberys sulphurhounds"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Mechanicus pistol",
+            "modifiers": [
+                "pistol",
+                "DEVASTATING WOUNDS"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Phosphor blast carbine",
+            "modifiers": [
+                "blast",
+                "ignores cover"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Phosphor pistol",
+            "modifiers": [
+                "ignores cover",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Sulphur breath",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 9,
+            "strength": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Doctrina Imperatives"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "The Serberys Sulphurhound Alpha model is equipped with:",
+                "description": "Mechanicus pistol; sulphur breath; cavalry arc maul; clawed limbs."
+            },
+            {
+                "name": "Every Serberys Sulphurhound model is equipped with:",
+                "description": "2 phosphor pistols; sulphur breath; clawed limbs."
+            }
+        ]
     },
-    {
-     "count": [1,9],
-     "points": 140
-   }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Serberys Sulphurhound Alpha",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "Mechanicus pistol", "sulphur breath", "cavalry arc maul", "clawed limbs"
-          ]
-      },
-      {
-       "unitType": "Serberys Sulphurhounds",
-       "minQuantity": 2,
-       "maxQuantity": 5,
-       "equipment": [
-        "2 phosphor pistols", "sulphur breath", "clawed limbs"
-       ]
-   }
-  ],
- "additionalParameter": {},
- "wargear": [
-   {
-     "description": "For every 3 models in this unit, 1 Serberys Sulphurhound’s 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol.    "
-   }
- ],
- "meleeWeapons": [
-   {
-     "name": "Cavalry arc maul",
-     "attacks": 1,
-     "weapons-skills": 4,
-     "strength": 5,
-     "armor-penetration": 1,
-     "damage": 1,
-     "modifiers": ["anti-vehicle 4+","devastating wounds","extra attacks"]
-   },
-   {
-    "name": "Clawed limbs",
-    "attacks": 4,
-    "weapons-skills": 4,
-    "strength": 4,
-    "armor-penetration": 0,
-    "damage": 1,
-    "modifiers": []
-  }
- ]
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 140
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Serberys Sulphurhound Alpha",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Mechanicus pistol",
+                "sulphur breath",
+                "cavalry arc maul",
+                "clawed limbs"
+            ]
+        },
+        {
+            "unitType": "Serberys Sulphurhounds",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "2 phosphor pistols",
+                "sulphur breath",
+                "clawed limbs"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {
+            "description": "For every 3 models in this unit, 1 Serberys Sulphurhound’s 2 phosphor pistols can be replaced with 1 phosphor blast carbine and 1 phosphor pistol.    "
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Cavalry arc maul",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds",
+                "extra attacks"
+            ]
+        },
+        {
+            "name": "Clawed limbs",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
 }

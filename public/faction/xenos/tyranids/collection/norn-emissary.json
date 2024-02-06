@@ -1,67 +1,68 @@
 {
     "parentUnit": "norn emissary",
-    "attributes": [{
-        "movement": 10,
-        "toughness": 11,
-        "save": 2,
-        "wounds": 16,
-        "leadership": 7,
-        "objetiveControl": 5,
-        "invulnerableSave": 4
-    }],
-    "supremeCommander": false,
-
-    "options": [
-      {
-        "count": [1],
-        "points": 290
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 7,
+            "objetiveControl": 5,
+            "invulnerableSave": 4
+        }
     ],
-    "wargear": [
-     ],
-     "unitComposition": [
-         {
-             "unitType": "norn emissary",
-             "minQuantity": 1,
-             "maxQuantity": 1,
-             "equipment": [
-               "psychic tendril",
-               "monstrous scything talons",
-               "monstrous rending claws"
-             ]
-         }
-     ],
-     "abilities": {
-         "core": [
-             "Deadly Demise 1"
-         ],
-         "faction": [
-             "synapse"
-         ],
-         "otherAbilities": [
+    "supremeCommander": false,
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 290
+        }
+    ],
+    "wargear": [],
+    "unitComposition": [
+        {
+            "unitType": "norn emissary",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "psychic tendril",
+                "monstrous scything talons",
+                "monstrous rending claws"
+            ]
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "synapse"
+        ],
+        "otherAbilities": [
             {
                 "name": "Unnatural Resilience",
                 "description": "This model has the Feel No Pain 4+ ability against mortal wounds."
             },
             {
-               "name": "Singular Purpose",
-               "description": "At the start of the first battle round, select one of the following///  Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.///  Select one objective marker. Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
-           }
-         ]
-     },
-
-     "additionalParameter": {},
-     "damaged": {},
-     "meleeWeapons": [
-         {
-             "name": "monstruos sxything talons",
-             "attacks": 6,
-             "weapons-skills": 2,
-             "strength": 9,
-             "armor-penetration": 2,
-             "damage": 3
-         },
-         {
+                "name": "Singular Purpose",
+                "description": "At the start of the first battle round, select one of the following///  Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.///  Select one objective marker. Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "damaged": {},
+    "meleeWeapons": [
+        {
+            "name": "monstruos sxything talons",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
             "name": "Monstrous rending claws",
             "attacks": 4,
             "weapons-skills": 2,
@@ -70,20 +71,23 @@
             "damage": 2,
             "modifiers": [
                 "extra attacks"
-              ]
+            ]
         }
-     ],
-     "rangedWeapons": [
-         {
-          "name": "Psychic Tendril – neuroparasite",
-          "range": 12,
-          "attacks": 2,
-          "ballistic-skills": 2,
-          "strength": 12,
-          "armor-penetration": 3,
-          "damage": "d6+1",
-          "modifiers": ["precision", "psychic"],
-          "singleChoice": true
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Psychic Tendril – neuroparasite",
+            "range": 12,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": [
+                "precision",
+                "psychic"
+            ],
+            "singleChoice": true
         },
         {
             "name": "Psychic Tendril – neuroblast",
@@ -93,9 +97,13 @@
             "strength": 12,
             "armor-penetration": 3,
             "damage": "d6+1",
-            "modifiers": ["blast","psychic"],
+            "modifiers": [
+                "blast",
+                "psychic"
+            ],
             "singleChoice": true
-          },{
+        },
+        {
             "name": "Psychic Tendril – neurolance",
             "range": 12,
             "attacks": 2,
@@ -103,23 +111,23 @@
             "strength": 12,
             "armor-penetration": 3,
             "damage": "d6+1",
-            "modifiers": ["melta 2","psychic"],
+            "modifiers": [
+                "melta 2",
+                "psychic"
+            ],
             "singleChoice": true
-          }
+        }
     ],
-      
-        "leader": [
-            
-        ],
-        "lore": "Each Norn Emissary is spawned for a specific purpose, be it predating on a strategically gifted commander, abducting a knowledgeable prey-being at the behest of its Norn Queen, or some other ineffable task. Melding terrifying psionic potential with speed, agility and awful strength, the Norn Emissary is more than equal to its mission.",
-        "factionKeyword": [
-            "tyranids"
-        ],
-        "keywords": [
-            "monster",
-            "great devourer",
-            "psyker",
-            "synapse",
-            "norn emissary"
-        ]
+    "leader": [],
+    "lore": "Each Norn Emissary is spawned for a specific purpose, be it predating on a strategically gifted commander, abducting a knowledgeable prey-being at the behest of its Norn Queen, or some other ineffable task. Melding terrifying psionic potential with speed, agility and awful strength, the Norn Emissary is more than equal to its mission.",
+    "factionKeyword": [
+        "tyranids"
+    ],
+    "keywords": [
+        "monster",
+        "great devourer",
+        "psyker",
+        "synapse",
+        "norn emissary"
+    ]
 }

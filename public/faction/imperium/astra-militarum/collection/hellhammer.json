@@ -1,154 +1,158 @@
 {
-  "parentUnit": "Hellhammer",
-  "factionKeyword": [
-    "astra militarum"
-  ],
-  "damaged": {
-    "remainingWounds": 8,
-    "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Hellhammer is optimised for close-quarters warfare, its armour proof against most infantry seeking to attack from nearby. The tank’s multiple rapid-firing guns shred exposed targets, while the concussive blast radius of its primary cannon pounds dug-in enemy lairs to dust.",
-  "keywords": [
-    "vehicle",
-    "titanic",
-    "imperium",
-    "smoke",
-    "hellhammer"
-  ],
-  "attributes": [{
-    "movement": 9,
-    "toughness": 13,
-    "save": 2,
-    "wounds": 24,
-    "leadership": 7,
-    "objetiveControl": 8,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Demolisher cannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy stubber",
-      "modifiers": [
-        "rapid fire 3"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Hellhammer cannon",
-      "modifiers": [
-        "blast",
-        "ignores cover"
-      ],
-      "range": 30,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6+2"
+    "parentUnit": "Hellhammer",
+    "factionKeyword": [
+        "astra militarum"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "co-axial autocannon; demolisher cannon; heavy stubber; Hellhammer cannon; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters.",
-      "items": []
+    "damaged": {
+        "remainingWounds": 8,
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "description": "This model can be equipped with one of the following",
-      "items": [
-        "2 lascannons and 2 twin heavy bolters",
-        "2 lascannons and 2 twin heavy flamers"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Armoured tracks",
-      "modifiers": [],
-      "attacks": 6,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 0,
-      "damage": 1
-    }
-  ],"additionalParameter": {},
-  "unitComposition": [
-      {
-        "unitType": " Angron – Epic Hero",
-        "minQuantity": 1,
-        "maxQuantity": 1,
-        "equipment": [
-            "Samni’arius",
-            "Spinegrinder"
-          ]
-      }
+    "supremeCommander": false,
+    "lore": "The Hellhammer is optimised for close-quarters warfare, its armour proof against most infantry seeking to attack from nearby. The tank’s multiple rapid-firing guns shred exposed targets, while the concussive blast radius of its primary cannon pounds dug-in enemy lairs to dust.",
+    "keywords": [
+        "vehicle",
+        "titanic",
+        "imperium",
+        "smoke",
+        "hellhammer"
     ],
-  "options": [
-      {
-        "count": [1],
-        "points": 415
-      }
+    "attributes": [
+        {
+            "movement": 9,
+            "toughness": 13,
+            "save": 2,
+            "wounds": 24,
+            "leadership": 7,
+            "objetiveControl": 8,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Demolisher cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hellhammer cannon",
+            "modifiers": [
+                "blast",
+                "ignores cover"
+            ],
+            "range": 30,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6+2"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "co-axial autocannon; demolisher cannon; heavy stubber; Hellhammer cannon; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 lascannons and 2 twin heavy bolters",
+                "2 lascannons and 2 twin heavy flamers"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Angron – Epic Hero",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Samni’arius",
+                "Spinegrinder"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 415
+        }
     ]
 }

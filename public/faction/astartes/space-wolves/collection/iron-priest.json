@@ -1,122 +1,129 @@
 {
-  "parentUnit": "Iron Priest",
-  "factionKeyword": [
-    "space wolves",
-    "adeptus astartes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Space Wolves Techmarines – the Iron Priests – are holders of arcane technological lore that they use to repair the Chapter’s damaged war engines and soothe their affronted machine spirits. Warriors of Fenris first and foremost, Iron Priests will not hesitate to bring their own esoteric weapons to bear on the foe if needed.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "techmarine",
-    "iron priest"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "save": 2,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": ["Blood Claws",
-  "Grey Hunters",
- "Long Fangs"],
-  "rangedWeapons": [
-    {
-      "name": "Helfrost pistol - dispersed",
-      "modifiers": [
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": "d3",
-      "ballistic-skills": "n/a",
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Helfrost pistol - focused",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 6,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 3,
-      "damage": 3,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Iron Priest",
+    "factionKeyword": [
+        "space wolves",
+        "adeptus astartes"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Space Wolves Techmarines – the Iron Priests – are holders of arcane technological lore that they use to repair the Chapter’s damaged war engines and soothe their affronted machine spirits. Warriors of Fenris first and foremost, Iron Priests will not hesitate to bring their own esoteric weapons to bear on the foe if needed.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "techmarine",
+        "iron priest"
     ],
-    "otherAbilities": [
-      {
-        "name": "Iron Priest:",
-        "description": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability"
-      },
-      {
-        "name": "Blessing of the Omnissiah:",
-        "description": "In your Command phase , you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll . Each model can only be selected for this ability once per turn."
-      },
-      {
-        "name": "Vengeance of the Omnissiah:",
-        "description": "If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this model’s tempest hammer has an Attacks characteristic of 6."
-      }
-    ]
-  },
-  "wargear": [
-    
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Servo-arm",
-      "modifiers": ["extra attacks"],
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Blood Claws",
+        "Grey Hunters",
+        "Long Fangs"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Helfrost pistol - dispersed",
+            "modifiers": [
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "d3",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Helfrost pistol - focused",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Iron Priest:",
+                "description": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability"
+            },
+            {
+                "name": "Blessing of the Omnissiah:",
+                "description": "In your Command phase , you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll . Each model can only be selected for this ability once per turn."
+            },
+            {
+                "name": "Vengeance of the Omnissiah:",
+                "description": "If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this model’s tempest hammer has an Attacks characteristic of 6."
+            }
+        ]
     },
-    {
-      "name": "Tempest hammer",
-      "modifiers": [],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 3
-    }
-  ],
-
-  "options": [
-    {
-      "count": [1],
-      "points": 60
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Iron Priest",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-            "helfrost pistol", "servo-arm","tempest hammer"
-          ]
-      }
-  ],
-  "additionalParameter": {}
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Servo-arm",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
+            "name": "Tempest hammer",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Iron Priest",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "helfrost pistol",
+                "servo-arm",
+                "tempest hammer"
+            ]
+        }
+    ],
+    "additionalParameter": {}
 }

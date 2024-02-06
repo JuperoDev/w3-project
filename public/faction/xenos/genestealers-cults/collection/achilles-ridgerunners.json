@@ -1,154 +1,161 @@
 {
-  "parentUnit": "Achilles Ridgerunners",
-  "factionKeyword": [
-    "genestealer cults"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These lightweight but rugged scout vehicles serve as the eyes and ears of the uprising, as well as coordinating lethal armoured ambushes that eliminate isolated foes or sever communication and supply lines. They can mount a versatile range of heavy weapons, allowing them to serve well whatever the Patriarch’s needs.",
-  "keywords": [
-    "vehicle",
-    "great devourer",
-    "achilles ridgerunners"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 7,
-    "save": 3,
-    "wounds": 8,
-    "leadership": 7,
-    "objetiveControl": 3,
-    "invulnerableSave": 0
-}],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Achilles missile launcher",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 9,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 2,
-      "damage": 3,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy mining laser",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 12,
-      "attacks": "d3",
-      "ballistic-skills": 4,
-      "armor-penetration": 3,
-      "damage": "d6+1",
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy mortar",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 48,
-      "strength": 6,
-      "attacks": "d6+3",
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy stubber",
-      "modifiers": [
-        "rapid fire 3",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills": 4,
-      "armor-penetration": 0,
-      "damage":1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Scouts 9''"
+    "parentUnit": "Achilles Ridgerunners",
+    "factionKeyword": [
+        "genestealer cults"
     ],
-    "faction": [
-      
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These lightweight but rugged scout vehicles serve as the eyes and ears of the uprising, as well as coordinating lethal armoured ambushes that eliminate isolated foes or sever communication and supply lines. They can mount a versatile range of heavy weapons, allowing them to serve well whatever the Patriarch’s needs.",
+    "keywords": [
+        "vehicle",
+        "great devourer",
+        "achilles ridgerunners"
     ],
-    "otherAbilities": {
-      "Flare Launcher:": "The bearer’s unit has the SMOKE keyword."
-    }
-  },
-
-  "additionalParameter": {},
-  "unitComposition": [
-    {
-      "unitType": "Achilles Ridgerunners",
-      "minQuantity": 1,
-      "maxQuantity": 2,
-      "equipment": ["heavy mining laser","twin heavy stubbers","Ridgerunner wheels","flare launcher."]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        1
-      ],
-      "points": 85
-    },
-    {
-      "count": [
-        2
-      ],
-      "points": 170}],
-      "wargear": [{
-        "description":"Any number of models can each have their flare launcher replaced with one of the following:",
-        "items": [
-          "1 spotter",
-          "1 survey augur"
-        ]
-      },
-      {
-        "description":"Any number of models can each have their heavy mining laser replaced with one of the following:",
-        "items": [
-          "1 achilles missile launcher",
-          "1 heavy mortar"
-        ]
-      }],
-
-      "meleeWeapons": [
-          {
-              "name": "Ridgerunner wheels",
-              "attacks": 3,
-              "weapons-skills": 4,
-              "strength": 5,
-              "armor-penetration": 0,
-              "damage": 1,
-              "modifiers": []
-          }
-      ],
-      "warGearAbilities":[
+    "attributes": [
         {
-          "wargear":"Flare Launcher",
-          "ability":"The bearer’s unit has the SMOKE keyword."
-        },
-        {
-          "wargear":"Spotter",
-          "ability":"The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+."
-        },
-        {
-          "wargear":"Survey Augur",
-          "ability":"Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly GENESTEALER CULTS model makes an attack against that unit, that attack has the [IGNORES COVER] ability."
+            "movement": 12,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 8,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
         }
-      ]
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Achilles missile launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 9,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy mining laser",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 12,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy mortar",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 6,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy stubber",
+            "modifiers": [
+                "rapid fire 3",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Scouts 9''"
+        ],
+        "faction": [],
+        "otherAbilities": {
+            "Flare Launcher:": "The bearer’s unit has the SMOKE keyword."
+        }
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Achilles Ridgerunners",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "heavy mining laser",
+                "twin heavy stubbers",
+                "Ridgerunner wheels",
+                "flare launcher."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 170
+        }
+    ],
+    "wargear": [
+        {
+            "description": "Any number of models can each have their flare launcher replaced with one of the following:",
+            "items": [
+                "1 spotter",
+                "1 survey augur"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their heavy mining laser replaced with one of the following:",
+            "items": [
+                "1 achilles missile launcher",
+                "1 heavy mortar"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Ridgerunner wheels",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Flare Launcher",
+            "ability": "The bearer’s unit has the SMOKE keyword."
+        },
+        {
+            "wargear": "Spotter",
+            "ability": "The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+."
+        },
+        {
+            "wargear": "Survey Augur",
+            "ability": "Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly GENESTEALER CULTS model makes an attack against that unit, that attack has the [IGNORES COVER] ability."
+        }
+    ]
 }

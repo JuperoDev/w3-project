@@ -1,110 +1,112 @@
 {
-  "parentUnit": "Vertus Praetors",
-  "factionKeywords": [
-    "adeptus custodes"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Veteran warriors who have seen battle on a hundred worlds, these Custodians know that the value of speed is in directing their might precisely where and when it is needed most. Master combatants and marksmen both, they can place piercing strikes and deadly salvoes with precision even when travelling at immense speeds.",
-  "keywords": [
-    "mounted",
-    "fly",
-    "imperium",
-    "vertus praetors"
-  ],
-  "attributes":[ {
-    "movement": 12,
-    "toughness": 6,
-    "save": 2,
-    "wounds": 4,
-    "leadership": 6,
-    "objetiveControl": 2,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Salvo launcher",
-      "range":24,
-      "modifiers":  [],
-      "attacks": 1,
-      "weapons-skills":  2 ,
-      "strength": 9,
-      "armor-penetration": 2,
-      "damage":  3
-    },
-    {
-      "name": "Vertus hurricane bolter",
-      "modifiers": [
-        "rapid fire 3",
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 3,
-      "ballistic-skills":2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      
+    "parentUnit": "Vertus Praetors",
+    "factionKeywords": [
+        "adeptus custodes"
     ],
-    "faction": ["Martial Ka’tah"],
-    "otherAbilities": [
-      {
-        "name": "Turbo-boost",
-        "description": " Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6 '' to the Move characteristic of models in this unit."
-      },
-      {
-        "name": "Quicksilver Execution",
-        "description": "Once per battle, after this unit ends an Advance move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit: for each 2+, that enemy unit suffers 2 mortal wounds."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their salvo launcher replaced with 1 Vertus hurricane bolter.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Interceptor lance",
-      "modifiers": "lance",
-      "attacks": 5,
-      "weapons-skills":  2 ,
-      "strength": 7,
-      "armor-penetration": 2,
-      "damage":  2
-    }
-  ],
-  "unitComposition": [
-    {
-      "unitType": "Vertus Praetors",
-      "minQuantity": 2,
-      "maxQuantity": 3,
-      "equipment": [
-        "salvo launcher","interceptor lance."
-      ]
-    }
-  ],
-  "options": [
-    {
-      "count": [
-        2
-      ],
-      "points": 160
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Veteran warriors who have seen battle on a hundred worlds, these Custodians know that the value of speed is in directing their might precisely where and when it is needed most. Master combatants and marksmen both, they can place piercing strikes and deadly salvoes with precision even when travelling at immense speeds.",
+    "keywords": [
+        "mounted",
+        "fly",
+        "imperium",
+        "vertus praetors"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Salvo launcher",
+            "range": 24,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 3,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Vertus hurricane bolter",
+            "modifiers": [
+                "rapid fire 3",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Martial Ka’tah"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Turbo-boost",
+                "description": " Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6 '' to the Move characteristic of models in this unit."
+            },
+            {
+                "name": "Quicksilver Execution",
+                "description": "Once per battle, after this unit ends an Advance move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit: for each 2+, that enemy unit suffers 2 mortal wounds."
+            }
+        ]
     },
-    {
-      "count": [
-        3
-      ],
-      "points": 240
-    }
-  ],
-  "additionalParameter": {}
+    "wargear": [
+        {
+            "description": "Any number of models can each have their salvo launcher replaced with 1 Vertus hurricane bolter.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Interceptor lance",
+            "modifiers": "lance",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Vertus Praetors",
+            "minQuantity": 2,
+            "maxQuantity": 3,
+            "equipment": [
+                "salvo launcher",
+                "interceptor lance."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                2
+            ],
+            "points": 160
+        },
+        {
+            "count": [
+                3
+            ],
+            "points": 240
+        }
+    ],
+    "additionalParameter": {}
 }

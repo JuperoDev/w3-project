@@ -71,23 +71,21 @@
   "meleeWeapons": [
     {
       "name": "The Executioner’s Axe",
-      "modifiers": "devastatingwounds",
-      "attacks": "4",
-      "weapons-skills": "2+",
+      "modifiers": ["devastating wounds"],
+      "attacks": 4,
+      "weapons-skills": 2,
       "strength": 6,
       "armor-penetration": 3,
-      "damage": "2"
+      "damage": 2
     }
   ],
   "unitComposition": [
       {
-          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "unitType": "Astorath – EPIC HERO",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-              "storm bolter",
-              "the Axe of Morkai",
-              "flurry of teeth and claws."
+              "bolt pistol","the Executioner’s Axe."
           ]
       }
   ],
@@ -96,7 +94,7 @@
           "count": [
               1
           ],
-          "points": 180
+          "points": 85
       }
   ],
   "additionalParameter": {}

@@ -128,7 +128,7 @@
     },
     {
       "name": "Inferno pistol",
-      "modifiers": "melta2,pistol",
+      "modifiers": "melta 2,pistol",
       "attacks": 1,
       "weapons-skills": 3,
       "strength": 8,
@@ -156,23 +156,27 @@
   ],
   "unitComposition": [
       {
-          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
+          "unitType": "Sanguinary Guard",
+          "minQuantity": 5,
+          "maxQuantity": 10,
           "equipment": [
-              "storm bolter",
-              "the Axe of Morkai",
-              "flurry of teeth and claws."
+              "angelus boltgun","encarmine blade."
           ]
       }
   ],
   "options": [
       {
           "count": [
-              1
+              5
           ],
-          "points": 180
-      }
+          "points": 175
+      },
+      {
+        "count": [
+            10
+        ],
+        "points": 350
+    }
   ],
   "additionalParameter": {}
 }

@@ -169,7 +169,7 @@
     },
     {
       "name": "Inferno pistol",
-      "modifiers": "melta2,pistol",
+      "modifiers": "melta 2,pistol",
       "attacks": 1,
       "weapons-skills": 3,
       "strength": 8,
@@ -224,23 +224,27 @@
   ],
   "unitComposition": [
       {
-          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "unitType": "Death Company Marines with Jump Packs",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-              "storm bolter",
-              "the Axe of Morkai",
-              "flurry of teeth and claws."
+              "boltgun","close combat weapon."
           ]
       }
   ],
   "options": [
       {
           "count": [
-              1
+              5
           ],
-          "points": 180
-      }
+          "points": 130
+      },
+      {
+        "count": [
+            10
+        ],
+        "points": 160
+    }
   ],
   "additionalParameter": {}
 }

@@ -30,7 +30,7 @@
     {
       "name": "Blood Song",
       "modifiers": [
-        "anti-infantry 4+",
+        "anti-infantry  4+",
         "devastating wounds",
         "melta 2"
       ],
@@ -87,7 +87,7 @@
   "meleeWeapons": [
     {
       "name": "Blood Song",
-      "modifiers": "anti-infantry4+,devastatingwounds,melta2",
+      "modifiers": "anti-infantry 4+,devastating wounds,melta 2",
       "attacks": 2,
       "weapons-skills": 2,
       "strength": 4,
@@ -106,13 +106,11 @@
   ],
   "unitComposition": [
       {
-          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "unitType": "Captain Tycho – EPIC HERO",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-              "storm bolter",
-              "the Axe of Morkai",
-              "flurry of teeth and claws."
+              "Blood Song", "bolt pistol","Dead Man’s Hand."
           ]
       }
   ],
@@ -121,7 +119,7 @@
           "count": [
               1
           ],
-          "points": 180
+          "points": 75
       }
   ],
   "additionalParameter": {}

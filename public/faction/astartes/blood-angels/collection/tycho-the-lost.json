@@ -1,0 +1,129 @@
+{
+  "parentUnit": "Tycho The Lost",
+  "factionKeywords": [
+    "blood angels",
+    "adeptus astartes"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "It was in the Third War for Armageddon that rage finally consumed Captain Tycho, as it will consume all sons of Sanguinius, and he took his place in the Death Company. He cut down Orks with volleys from Blood Song and blasts from the digital weapons built into his left gauntlet, known as Dead Man’s Hand.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "grenades",
+    "imperium",
+    "captain",
+    "tycho the lost"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 2,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Blood Song",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "melta 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader",
+      "Feel No Pain 6+"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Forlorn Hero:",
+        "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced ."
+      },
+      {
+        "name": "Black Rage:",
+        "description": "Each time this model makes an attack, you can re-roll the Hit roll . While this model is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+      },
+      {
+        "name": "Death Vision of Sanguinius:",
+        "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy WARLORD : on a 2-3, that enemy unit suffers 3 mortal wounds ; on a 4-5, that enemy unit suffers D3+3 mortal wounds; on a 6+, that enemy unit suffers D6+3 mortal wounds."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Blood Song",
+      "modifiers": "anti-infantry4+,devastatingwounds,melta2",
+      "attacks": "2",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Dead Man’s Hand",
+      "modifiers": "",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+              "storm bolter",
+              "the Axe of Morkai",
+              "flurry of teeth and claws."
+          ]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 180
+      }
+  ],
+  "additionalParameter": {}
+}

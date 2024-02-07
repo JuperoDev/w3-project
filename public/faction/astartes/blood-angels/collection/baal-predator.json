@@ -1,0 +1,222 @@
+{
+  "parentUnit": "Baal Predator",
+  "factionKeywords": [
+    "adeptus astartes",
+    "blood angels"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Only the Blood Angels and their successors have access to the STC necessary to produce Baal Predators. With roaring engines these tanks can keep up with rapid Blood Angels charges or rush to support orbital strikes, pouring deluges of fire into the enemy as they do so.",
+  "keywords": [
+    "vehicle",
+    "smoke",
+    "imperium",
+    "baal predator"
+  ],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 10,
+    "salvation": 3,
+    "wounds": 11,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Baal flamestorm cannon",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": [
+        "one shot"
+      ],
+      "range": 48,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin assault cannon",
+      "modifiers": [
+        "devastating wounds",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "FACTION:",
+        "description": "Oath of Moment"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s twin assault cannon can be replaced with 1 Baal flamestorm cannon.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 hunter-killer missile.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with 1 storm bolter.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "2 heavy bolters",
+        "2 heavy flamers"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Baal flamestorm cannon",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6+3",
+      "weapons-skills": "N/A",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Hunter-killer missile",
+      "modifiers": "one shot",
+      "attacks": "1",
+      "weapons-skills": "2+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6"
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": "rapidfire2",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Armoured tracks",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+              "storm bolter",
+              "the Axe of Morkai",
+              "flurry of teeth and claws."
+          ]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 180
+      }
+  ],
+  "additionalParameter": {}
+}

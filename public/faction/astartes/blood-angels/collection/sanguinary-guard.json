@@ -1,0 +1,178 @@
+{
+  "parentUnit": "Sanguinary Guard",
+  "factionKeywords": [
+    "adeptus astartes",
+    "blood angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Sanguinary Guard are proven in mind, body and spirit in a way few of their brothers can match. Clad in irreplaceable golden armour believed to date back to the Horus Heresy and armed with the traditional relic weapons of their position, few embody the ideal of the wrathful angel more than they.",
+  "keywords": [
+    "infantry",
+    "fly",
+    "jump pack",
+    "grenades",
+    "imperium",
+    "sanguinary guard"
+  ],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 2,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Angelus boltgun",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": [
+        "melta 2",
+        "pistol"
+      ],
+      "range": 6,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Angelic Visage:",
+        "description": "Each time a melee attack targets this unit, subtract 1 from the Hit roll ."
+      },
+      {
+        "name": "Heirs of Azkaellon:",
+        "description": "While a WARLORD model is leading this unit, each time a melee attack targets this unit, subtract 1 from the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of models can each have their angelus boltgun replaced with one of the following",
+      "items": [
+        "1 inferno pistol",
+        "1 plasma pistol"
+      ]
+    },
+    {
+      "description": "For every 5 models in this unit, one model’s encarmine blade can be replaced with 1 power fist.",
+      "items": []
+    },
+    {
+      "description": "1 model can be equipped with 1 sanguinary banner.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Angelus boltgun",
+      "modifiers": "pistol",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Inferno pistol",
+      "modifiers": "melta2,pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 4,
+      "damage": "D3"
+    },
+    {
+      "name": "Encarmine blade",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+              "storm bolter",
+              "the Axe of Morkai",
+              "flurry of teeth and claws."
+          ]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 180
+      }
+  ],
+  "additionalParameter": {}
+}

@@ -1,0 +1,104 @@
+{
+  "parentUnit": "Lemartes",
+  "factionKeywords": [
+    "adeptus astartes",
+    "blood angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Lemartes’ life is one of constant battle. A warrior of iron will, somehow he retains lucidity despite having succumbed to the Black Rage. He leads the Blood Angels’ Death Company as Guardian of the Lost, wielding the ancient weapon known as the Blood Crozius. His inspiration has only made the Death Company even more potent.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "fly",
+    "jump pack",
+    "grenades",
+    "imperium",
+    "chaplain",
+    "lemartes"
+  ],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 5,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Feel No Pain 6+",
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Guardian of the Lost:",
+        "description": "While this model is leading a unit, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack."
+      },
+      {
+        "name": "Fury Unbound:",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "The Blood Crozius",
+      "modifiers": "lethalhits",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+              "storm bolter",
+              "the Axe of Morkai",
+              "flurry of teeth and claws."
+          ]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 180
+      }
+  ],
+  "additionalParameter": {}
+}

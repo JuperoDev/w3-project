@@ -1,0 +1,266 @@
+{
+  "parentUnit": "Death Company Intercessors",
+  "factionKeywords": [
+    "adeptus astartes",
+    "blood angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Every Blood Angel felt their hopes dashed when the first of the Primaris Space Marines brought to the Chapter by Roboute Guilliman fell to the Black Rage. With great solemnity were these brothers inducted into the Death Company. Their strength, combined with the fury of the Black Rage, is a terrifying sight to behold.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "death company intercessors"
+  ],
+  "attributes": [{
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Astartes grenade launcher - frag",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Hand flamer",
+      "modifiers": [
+        "ignores cover",
+        "pistol",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Feel No Pain 6+"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Black Rage:",
+        "description": "Each time a model in this unit makes an attack, you can re-roll the Hit roll . While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+      },
+      {
+        "name": "Visions of Heresy:",
+        "description": "Once per turn, you can target this unit with the Fire Overwatch Stratagem or the Heroic Intervention Stratagem for 0CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "All models in this unit can each have their bolt pistol and bolt rifle replaced with 1 heavy bolt pistol and 1 Astartes chainsword.",
+      "items": []
+    },
+    {
+      "description": "1 model’s heavy bolt pistol can be replaced with one of the following",
+      "items": [
+        "1 hand flamer",
+        "1 plasma pistol"
+      ]
+    },
+    {
+      "description": "For every 5 models in this unit, 1 model equipped with a bolt rifle can be equipped with 1 Astartes grenade launcher.",
+      "items": []
+    },
+    {
+      "description": "1 model can replace its bolt rifle or Astartes chainsword with one of the following",
+      "items": [
+        "1 power fist",
+        "1 power weapon",
+        "1 thunder hammer"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Astartes grenade launcher – frag",
+      "modifiers": "blast",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bolt rifle",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Hand flamer",
+      "modifiers": "ignorescover,pistol,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "modifiers": "devastatingwounds",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ],
+  "unitComposition": [
+      {
+          "unitType": "Logan Grimnar on Stormrider – EPIC HERO",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+              "storm bolter",
+              "the Axe of Morkai",
+              "flurry of teeth and claws."
+          ]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 180
+      }
+  ],
+  "additionalParameter": {}
+}

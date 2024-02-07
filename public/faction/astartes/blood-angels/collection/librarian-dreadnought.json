@@ -34,11 +34,11 @@
         "sustained hits d3"
       ],
       "range": 18,
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "D6",
       "singleChoice": false
     },
     {
@@ -49,11 +49,11 @@
         "sustained hits d3"
       ],
       "range": 18,
-      "strength": 12,
-      "attacks": 2,
+      "strength": 18,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 3,
+      "damage": "d6+3",
       "singleChoice": false
     },
     {
@@ -63,9 +63,9 @@
         "torrent"
       ],
       "range": 12,
+      "attacks": "D6",
+      "weapons-skills": "N/A",
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
       "armor-penetration": 1,
       "damage": 1,
       "singleChoice": false
@@ -76,11 +76,11 @@
         "melta 2"
       ],
       "range": 12,
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "D6",
       "singleChoice": false
     },
     {
@@ -92,7 +92,7 @@
       "strength": 4,
       "attacks": 2,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     }
@@ -125,33 +125,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Blood Lance – witchfire",
-      "modifiers": "psychic,sustainedhitsd3",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 10,
-      "armor-penetration": 3,
-      "damage": "D6"
-    },
-    {
-      "name": "Heavy flamer",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Meltagun",
-      "modifiers": "melta 2",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 9,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
+    
     {
       "name": "Furioso fist",
       "modifiers": [ ],

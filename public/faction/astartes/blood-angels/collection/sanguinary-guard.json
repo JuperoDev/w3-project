@@ -32,10 +32,10 @@
         "pistol"
       ],
       "range": 12,
-      "strength": 4,
       "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
       "damage": 1,
       "singleChoice": false
     },
@@ -46,11 +46,11 @@
         "pistol"
       ],
       "range": 6,
+      "attacks": 1,
+      "weapons-skills": 3,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
+      "armor-penetration": 4,
+      "damage": "D3",
       "singleChoice": false
     },
     {
@@ -60,11 +60,11 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -74,11 +74,11 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
+      "attacks": 1,
       "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     }
   ],
   "abilities": {
@@ -117,24 +117,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Angelus boltgun",
-      "modifiers": "pistol",
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Inferno pistol",
-      "modifiers": "melta 2,pistol",
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 4,
-      "damage": "D3"
-    },
+    
     {
       "name": "Encarmine blade",
       "modifiers": [ ],

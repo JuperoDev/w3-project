@@ -171,7 +171,7 @@
 
 
 
-      <div class="button__container my-5 ">
+      <!-- <div class="button__container my-5 ">
         <div class="army__card font-bebas">
            <nuxt-link to="/imperium/astra-militarum"> 
             <div class="army__card_image">
@@ -184,7 +184,7 @@
             </div>
            </nuxt-link> 
         </div>
-      </div>
+      </div> -->
 
 
       <div class="button__container my-5 ">

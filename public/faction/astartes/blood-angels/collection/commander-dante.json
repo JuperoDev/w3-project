@@ -1,104 +1,109 @@
 {
-  "parentUnit": "Commander Dante",
-  "factionKeywords": [
-    "adeptus astartes",
-    "blood angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Dante soars over the battlefield, gleaming in his golden armour, before roaring into bloody battle on trails of fire. Once in the fray, the piercing gaze of his death mask freezes enemies in fright, while his perfectly placed strikes with the Axe Mortalis cut down foe after foe.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "fly",
-    "jump pack",
-    "grenades",
-    "imperium",
-    "tacticus",
-    "chapter master",
-    "commander dante"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "salvation": 2,
-    "wounds": 6,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Perdition",
-      "modifiers": [
-        "melta 2",
-        "pistol",
-        "sustained hits d3"
-      ],
-      "range": 6,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 4,
-      "damage": "d6",
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Commander Dante",
+    "factionKeywords": [
+        "adeptus astartes",
+        "blood angels"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Dante soars over the battlefield, gleaming in his golden armour, before roaring into bloody battle on trails of fire. Once in the fray, the piercing gaze of his death mask freezes enemies in fright, while his perfectly placed strikes with the Axe Mortalis cut down foe after foe.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "fly",
+        "jump pack",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "chapter master",
+        "commander dante"
     ],
-    "otherAbilities": [
-      {
-        "name": "Lord Regent of the Imperium Nihilus:",
-        "description": "While this model is leading a unit, add 1 to Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll ."
-      },
-      {
-        "name": "Death Mask of Sanguinius:",
-        "description": "At the start of the Fight phase , each enemy unit within 6\" of this model must take a Battle-shock test , subtracting 1 from that test when they do."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "The Axe Mortalis",
-      "modifiers": ["lethal hits"],
-      "attacks": 8,
-      "weapons-skills": 2,
-      "strength": 7,
-      "armor-penetration": 3,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Commander Dante – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-              "Perdition","the Axe Mortalis."
-          ]
-      }
-  ],
-  "options": [
-      {
-          "count": [
-              1
-          ],
-          "points": 120
-      }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "salvation": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Perdition",
+            "modifiers": [
+                "melta 2",
+                "pistol",
+                "sustained hits d3"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Lord Regent of the Imperium Nihilus:",
+                "description": "While this model is leading a unit, add 1 to Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "Death Mask of Sanguinius:",
+                "description": "At the start of the Fight phase , each enemy unit within 6\" of this model must take a Battle-shock test , subtracting 1 from that test when they do."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "The Axe Mortalis",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 8,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 3,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Commander Dante – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Perdition",
+                "the Axe Mortalis."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 120
+        }
+    ],
+    "additionalParameter": {}
 }

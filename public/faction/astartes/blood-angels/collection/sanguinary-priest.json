@@ -1,96 +1,99 @@
 {
-  "parentUnit": "Sanguinary Priest",
-  "factionKeywords": [
-    "adeptus astartes",
-    "blood angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Sanguinary Priests are the Blood Angels’ Apothecaries, and hold responsibility for the Chapter’s soul as well as its body. Through their ministrations and ceremonies do they call upon the Blood Angels to embrace the Red Thirst, control it and unleash their rage upon the enemy.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "imperium",
-    "sanguinary priest"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "salvation": 3,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 2,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Sanguinary Priest",
+    "factionKeywords": [
+        "adeptus astartes",
+        "blood angels"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Sanguinary Priests are the Blood Angels’ Apothecaries, and hold responsibility for the Chapter’s soul as well as its body. Through their ministrations and ceremonies do they call upon the Blood Angels to embrace the Red Thirst, control it and unleash their rage upon the enemy.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "sanguinary priest"
     ],
-    "otherAbilities": [
-      {
-        "name": "Sanguinary Priest:",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
-      },
-      {
-        "name": "Blood Chalice:",
-        "description": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Astartes chainsword",
-      "modifiers": [ ],
-      "attacks": 5,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Sanguinary Priest",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-              "bolt pistol","Astartes chainsword."
-          ]
-      }
-  ],
-  "options": [
-      {
-          "count": [
-              1
-          ],
-          "points": 80
-      }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sanguinary Priest:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Blood Chalice:",
+                "description": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Sanguinary Priest",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Astartes chainsword."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -1,222 +1,226 @@
 {
-  "parentUnit": "Death Company Marines",
-  "factionKeywords": [
-    "adeptus astartes",
-    "blood angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Members of the Death Company are possessed of a berserk fury, driven insane by terrible visions and hallucinations. They seek nothing but death in battle, and such is their ferocity that they barely flinch at even the most grievous of injuries, thinking of nothing but the destruction of their enemies.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "imperium",
-    "death company marines"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 4,
-    "salvation": 3,
-    "wounds": 2,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Boltgun",
-      "range":"24",
-      "modifiers": [ ],
-      "attacks": 2,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Hand flamer",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Inferno pistol",
-      "modifiers": [
-        "melta 2",
-        "pistol"
-      ],
-      "range": 6,
-      "attacks": 1,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 4,
-      "damage": "D3",
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma pistol - standard",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 7,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 2,
-      "damage": 1,
-      "singleChoice": true
-    },
-    {
-      "name": "Plasma pistol - supercharge",
-      "modifiers": [
-        "hazardous",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 8,
-      "attacks": 1,
-      "ballistic-skills": 3,
-      "armor-penetration": 3,
-      "damage": 2,
-      "singleChoice": true
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 6+"
+    "parentUnit": "Death Company Marines",
+    "factionKeywords": [
+        "adeptus astartes",
+        "blood angels"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Members of the Death Company are possessed of a berserk fury, driven insane by terrible visions and hallucinations. They seek nothing but death in battle, and such is their ferocity that they barely flinch at even the most grievous of injuries, thinking of nothing but the destruction of their enemies.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "death company marines"
     ],
-    "otherAbilities": [
-      {
-        "name": "Black Rage:",
-        "description": "Each time a model in this unit makes an attack, you can re-roll the Hit roll . While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
-      },
-      {
-        "name": "An Honourable Death in Combat:",
-        "description": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength , or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their boltgun and close combat weapon replaced with one of the following",
-      "items": [
-        "1 Astartes chainsword and 1 bolt pistol",
-        "1 thunder hammer"
-      ]
-    },
-    {
-      "description": "Any number of models can each have their bolt pistol replaced with one of the following",
-      "items": [
-        "1 hand flamer",
-        "1 inferno pistol",
-        "1 plasma pistol"
-      ]
-    },
-    {
-      "description": "Any number of models can each have their Astartes chainsword replaced with one of the following",
-      "items": [
-        "1 power fist",
-        "1 power weapon"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    
-    {
-      "name": "Astartes chainsword",
-      "modifiers": [ ],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": 1
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": [ ],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": 1
-    },
-    {
-      "name": "Power fist",
-      "modifiers": [ ],
-      "attacks": 3,
-      "weapons-skills": 3,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": [ ],
-      "attacks": 4,
-      "weapons-skills": 3,
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": 1
-    },
-    {
-      "name": "Thunder hammer",
-      "modifiers": ["devastating wounds"],
-      "attacks": 3,
-      "weapons-skills": 4,
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "Death Company Marines",
-          "minQuantity": 5,
-          "maxQuantity": 10,
-          "equipment": [
-              "boltgun","close combat weapon"
-          ]
-      }
-  ],
-  "options": [
-      {
-          "count": [
-              5
-          ],
-          "points": 115
-      },
-      {
-        "count": [
-            10
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "range": 24,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Hand flamer",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "attacks": "D6",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Inferno pistol",
+            "modifiers": [
+                "melta 2",
+                "pistol"
+            ],
+            "range": 6,
+            "attacks": 1,
+            "strength": 8,
+            "armor-penetration": 4,
+            "damage": "D3",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+"
         ],
-        "points": 230
-    }
-  ],
-  "additionalParameter": {}
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Black Rage:",
+                "description": "Each time a model in this unit makes an attack, you can re-roll the Hit roll . While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+            },
+            {
+                "name": "An Honourable Death in Combat:",
+                "description": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength , or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their boltgun and close combat weapon replaced with one of the following",
+            "items": [
+                "1 Astartes chainsword and 1 bolt pistol",
+                "1 thunder hammer"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their bolt pistol replaced with one of the following",
+            "items": [
+                "1 hand flamer",
+                "1 inferno pistol",
+                "1 plasma pistol"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their Astartes chainsword replaced with one of the following",
+            "items": [
+                "1 power fist",
+                "1 power weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Thunder hammer",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Death Company Marines",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "equipment": [
+                "boltgun",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 115
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 230
+        }
+    ],
+    "additionalParameter": {}
 }

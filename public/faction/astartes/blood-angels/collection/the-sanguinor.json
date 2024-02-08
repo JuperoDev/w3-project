@@ -1,86 +1,90 @@
 {
-  "parentUnit": "The Sanguinor",
-  "factionKeywords": [
-    "adeptus astartes",
-    "blood angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Sanguinor is a mysterious figure who fights only on battlefields of the most paramount importance, when the Blood Angels’ need is greatest. He inspires as much courage in the sons of Sanguinius as he does fear in the enemy, and surges across the field as if he were Sanguinius’ will made manifest.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "fly",
-    "jump pack",
-    "imperium",
-    "the sanguinor"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "salvation": 2,
-    "wounds": 7,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  }],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Fights First",
-      "Lone Operative"
+    "parentUnit": "The Sanguinor",
+    "factionKeywords": [
+        "adeptus astartes",
+        "blood angels"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Sanguinor is a mysterious figure who fights only on battlefields of the most paramount importance, when the Blood Angels’ need is greatest. He inspires as much courage in the sons of Sanguinius as he does fear in the enemy, and surges across the field as if he were Sanguinius’ will made manifest.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "fly",
+        "jump pack",
+        "imperium",
+        "the sanguinor"
     ],
-    "otherAbilities": [
-      {
-        "name": "Aura of Fervour (Aura):",
-        "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
-      },
-      {
-        "name": "Miraculous Saviour:",
-        "description": "Once per battle, at the end of your opponent’s Charge phase , if this model is still in Reserves , you can select one enemy unit that made a Charge move this phase. Set this model up on the battlefield within Engagement Range of that enemy unit."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Encarmine broadsword",
-      "modifiers": ["devastating wounds"],
-      "attacks": 8,
-      "weapons-skills": 2,
-      "strength": 6,
-      "armor-penetration": 3,
-      "damage": 2
-    }
-  ],
-  "unitComposition": [
-      {
-          "unitType": "The Sanguinor – EPIC HERO",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "equipment": [
-              "encarmine broadsword"
-          ]
-      }
-  ],
-  "options": [
-      {
-          "count": [
-              1
-          ],
-          "points": 140
-      }
-  ],
-  "additionalParameter": {}
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "salvation": 2,
+            "wounds": 7,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Fights First",
+            "Lone Operative"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Aura of Fervour (Aura):",
+                "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+            },
+            {
+                "name": "Miraculous Saviour:",
+                "description": "Once per battle, at the end of your opponent’s Charge phase , if this model is still in Reserves , you can select one enemy unit that made a Charge move this phase. Set this model up on the battlefield within Engagement Range of that enemy unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Encarmine broadsword",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 8,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "The Sanguinor – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "encarmine broadsword"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 140
+        }
+    ],
+    "additionalParameter": {}
 }

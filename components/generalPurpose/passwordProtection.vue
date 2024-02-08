@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     checkPassword() {
-      if (this.password === "cat") {
+      if (this.password === "gato") {
         this.hasEnteredPassword = true;
         sessionStorage.setItem("hasEnteredPassword", "true");
       }

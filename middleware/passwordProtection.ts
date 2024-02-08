@@ -1,7 +1,7 @@
 import { useRoute, useRouter } from 'vue-router';
 import { useWh40kPasswordStore } from '~/stores/wh40kPasswordStore'; // Import the store
 
-const correctPassword = 'cat';
+const correctPassword = 'gato';
 
 const protectedRoutes: string[] = [
   '/simulator',

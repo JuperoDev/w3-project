@@ -47,45 +47,192 @@
 
     <MobileAttributes :attributes="attributes" />
 <!-- v panels  -->
-<v-sheet :elevation="9" :height="200" :width="200">a</v-sheet>
 
-<v-app>
-    <v-container>
-      <v-expansion-panels>
-        <v-expansion-panel
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
-        >
-        </v-expansion-panel>
-      </v-expansion-panels>
-      <v-expansion-panels>
-        <v-expansion-panel
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
-        >
-        </v-expansion-panel>
-      </v-expansion-panels>
-      <v-expansion-panels>
-        <v-expansion-panel
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
-        >
-        </v-expansion-panel>
-      </v-expansion-panels>
-      <v-expansion-panels>
-        <v-expansion-panel
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
-        >
-        </v-expansion-panel>
-        <v-expansion-panel
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
-        >
-        </v-expansion-panel>
-      </v-expansion-panels>
-    </v-container>
-  </v-app>
+<v-expansion-panels>
+      <!-- Ranged weapons -->
+      <v-expansion-panel v-if="rangedWeapons && rangedWeapons.length > 0">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Ranged weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
+            
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+      
+      
+      <!-- Melee weapons  -->
+      <div class="hidden">
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Melee Weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+    </div>
+
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Melee Weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Abilities  -->
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Abilities</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileAbilities :abilities="abilities" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Abilities</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileAbilities :abilities="abilities" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Transport  -->
+      <v-expansion-panel v-if="transport">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Transport</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileTransport :transport="transport" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Wargear Abilities -->
+      <v-expansion-panel v-if="warGearAbilities">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Wargear Abilities</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+           
+            <MobileWarGearAbilities :warGearAbilities="warGearAbilities"/>
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Additional Parameter -->
+      <v-expansion-panel v-if="hasAdditionalParameter">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">
+            {{ additionalParameter.title }}
+          </div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileAdditionalParameter
+              :additionalParameter="additionalParameter"
+            />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Supreme Commander -->
+      <v-expansion-panel v-if="supremeCommander">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Supreme Commander</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <p>If this model is in your army, it must be your Warlord</p>
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+
+            <!-- Damaged -->
+            <v-expansion-panel v-if="hasDamaged">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Damaged: 1 - {{ damaged.remainingWounds }} wounds remaining </div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <p>{{ damaged.description }}</p>
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- Wargear Options  -->
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">wargear options</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileWargear :wargear="wargear" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- leader  -->
+      <v-expansion-panel v-if="leader.length > 0">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Leader</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileLeader :leader="leader" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- unit composition  -->
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">unit composition</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileUnitComposition
+              :options="options"
+              :unitComposition="unitComposition"
+              :equipment="equipment"
+            />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <!-- keywords  -->
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">keywords</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileKeywords
+              :keywords="keywords"
+              :factionKeyword="factionKeyword"
+            />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+      <!-- end panels  -->
+    </v-expansion-panels>
 
 <!-- v panels end  -->
     <MobileLore :lore="lore" />

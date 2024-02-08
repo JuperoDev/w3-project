@@ -95,7 +95,16 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
-    
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Abilities</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileAbilities :abilities="abilities" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
 
       <!-- Transport  -->
       <v-expansion-panel v-if="transport">

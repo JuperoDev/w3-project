@@ -4,7 +4,7 @@
       {{ modifier }}
     </div>
 
-    <v-dialog v-model="dialog" width="auto">
+    <v-dialog v-model="dialog" width="500">
       <v-card :title="capitalizedModifier">
         <v-card-text>
           <div class="italic lore">

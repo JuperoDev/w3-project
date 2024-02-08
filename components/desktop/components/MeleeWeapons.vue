@@ -44,9 +44,10 @@
               <span
                 v-for="(modifier, index) in weapon.modifiers"
                 :key="index"
-                class="modifiers border-dashed border-2 mx-2 border-zinc-400 p-1 mr-2 mb-2"
-              >
-                {{ modifier }}
+                class="modifiers border-dashed border-2 mx-2 border-zinc-400 p-1 mr-2 mb-2 hover:border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
+                style="cursor: pointer;">
+                <!-- {{ modifier }} -->
+                <GeneralPurposeModifierDialog :modifier="modifier"/>
               </span>
             </div>
     </div>

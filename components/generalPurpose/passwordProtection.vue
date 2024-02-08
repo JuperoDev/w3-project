@@ -34,13 +34,13 @@ export default {
     checkPassword() {
       if (this.password === "gato") {
         this.hasEnteredPassword = true;
-        sessionStorage.setItem("hasEnteredPassword", "true");
+        localStorage.setItem("hasEnteredPassword", "true");
       }
     },
   },
   mounted() {
     this.hasEnteredPassword =
-      sessionStorage.getItem("hasEnteredPassword") === "true";
+      localStorage.getItem("hasEnteredPassword") === "true";
   },
 };
 </script>

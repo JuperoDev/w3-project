@@ -386,12 +386,14 @@ _Array that contains objects. The objects will show the name of the miniature an
     {
       "unitType": "initiates",
       "minQuantity": 4,
-      "maxQuantity": 9
+      "maxQuantity": 9,
+      "equipment": "dafasd"
     },
     {
       "unitType": "neophytes",
       "minQuantity": 0,
-      "maxQuantity": 10
+      "maxQuantity": 10,
+      "equipment": "dafasd"
     }
   ]
 ```

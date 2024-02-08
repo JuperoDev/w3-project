@@ -5,7 +5,7 @@
     <!-- {{ urlStore }} -->
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
-    
+      <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
     <DesktopDatasheet
     :parentUnit="parentUnit" 
     :urlStore="urlStore"

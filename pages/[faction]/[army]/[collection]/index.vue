@@ -5,7 +5,7 @@
     <!-- {{ urlStore }} -->
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container  max-lg:hidden">
-      <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
+     
     <DesktopDatasheet
     :parentUnit="parentUnit" 
     :urlStore="urlStore"
@@ -47,13 +47,20 @@
 
     <MobileAttributes :attributes="attributes" />
 <!-- v panels  -->
-<v-expansion-panels>
-  <v-expansion-panel
-    title="Title"
-    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
-  >
-  </v-expansion-panel>
-</v-expansion-panels>
+<v-sheet :elevation="9" :height="200" :width="200">a</v-sheet>
+
+<v-app>
+    <v-container>
+      <v-expansion-panels>
+        <v-expansion-panel
+          title="Title"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
+        >
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-container>
+  </v-app>
+  
 <!-- v panels end  -->
     <MobileLore :lore="lore" />
   </div>

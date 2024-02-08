@@ -31,8 +31,12 @@
 
 
     <!-- end desktop datasheet  -->
-<div class="mobile-datasheet lg:hidden">
 
+    <!-- MOBILE  -->
+
+
+<div class="mobile-datasheet lg:hidden">
+<MobileRangedWeapons :rangedWeapons="rangedWeapons" />
     <div
       class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
     >
@@ -51,6 +55,7 @@
         </v-expansion-panel-title>
         <v-expansion-panel-text>
           <div>
+            RANGED
             <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
             
           </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     
-  <!-- <GeneralPurposePasswordProtection>    -->
+   <GeneralPurposePasswordProtection>  
 
     <!-- <FactionFetch /> -->
     
@@ -304,7 +304,7 @@
 
 
     </div>
-   <!-- </GeneralPurposePasswordProtection>    -->
+    </GeneralPurposePasswordProtection>    
   </div>
 </template>
 

@@ -37,11 +37,11 @@
       ],
       "range": 12,
       "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
+      "attacks": 3,
+      "ballistic-skills": 2,
       "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "damage": "d3",
+      "singleChoice": true
     },
     {
       "name": "Fury of the Ancients - focused witchfire",
@@ -53,11 +53,11 @@
       ],
       "range": 12,
       "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "attacks": 3,
+      "ballistic-skills": 2,
+      "armor-penetration": 2,
+      "damage": "d3",
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - standard",
@@ -66,11 +66,11 @@
       ],
       "range": 12,
       "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 2,
       "damage": 1,
-      "singleChoice": false
+      "singleChoice": true
     },
     {
       "name": "Plasma pistol - supercharge",
@@ -80,11 +80,11 @@
       ],
       "range": 12,
       "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+      "attacks": 1,
+      "ballistic-skills": 2,
+      "armor-penetration": 3,
+      "damage": 2,
+      "singleChoice": true
     }
   ],
   "abilities": {
@@ -117,15 +117,7 @@
     }
   ],
   "meleeWeapons": [
-    {
-      "name": "Fury of the Ancients – witchfire",
-      "modifiers": "pistol,psychic,sustainedhits1",
-      "attacks": 3,
-      "weapons-skills": 2,
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "D3"
-    },
+    
     {
       "name": "Vitarus",
       "modifiers": "psychic",

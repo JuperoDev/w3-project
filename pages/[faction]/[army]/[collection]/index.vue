@@ -65,8 +65,9 @@
       
       <!-- Melee weapons  -->
       
-
-      <v-expansion-panel>
+<div class="hidden">
+  <!-- Does not makes sense to fix vuetify bug like this but DO NOT REMOVE  -->
+  <v-expansion-panel>
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Melee Weapons</div>
         </v-expansion-panel-title>
@@ -76,6 +77,8 @@
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
+</div>
+     
 
       <v-expansion-panel>
         <v-expansion-panel-title>

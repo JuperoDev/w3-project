@@ -49,6 +49,16 @@
 <!-- v panels  -->
 
 <v-expansion-panels>
+  <v-expansion-panel v-if="leader.length > 0">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Leader</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileLeader :leader="leader" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
       <!-- Ranged weapons -->
       <v-expansion-panel v-if="rangedWeapons && rangedWeapons.length > 0">
         <v-expansion-panel-title>
@@ -240,6 +250,16 @@
       <!-- end panels  -->
     </v-expansion-panels>
 
+    <v-expansion-panel v-if="leader.length > 0">
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Leader</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileLeader :leader="leader" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
 <!-- v panels end  -->
     <MobileLore :lore="lore" />
   </div>

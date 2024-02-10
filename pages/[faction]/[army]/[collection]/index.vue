@@ -77,6 +77,17 @@
         </v-expansion-panel-text>
       </v-expansion-panel>
 
+      <v-expansion-panel>
+        <v-expansion-panel-title>
+          <div class="uppercase font-semibold">Melee Weapons</div>
+        </v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div>
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+          </div>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
       <!-- Abilities  -->
       <v-expansion-panel>
         <v-expansion-panel-title>

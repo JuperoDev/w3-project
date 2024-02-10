@@ -9,15 +9,12 @@ def remove_duplicates(folder_path):
             # Process JSON files
             with open(filepath, 'r+') as file:
                 data = json.load(file)
-                for category in ['meleeWeapons', 'rangedWeapons']:
-                    if category in data:
-                        weapon_names = set()
-                        new_weapons = []
-                        for weapon in data[category]:
-                            if weapon['name'] not in weapon_names:
-                                weapon_names.add(weapon['name'])
-                                new_weapons.append(weapon)
-                        data[category] = new_weapons
+                if 'meleeWeapons' in data and 'rangedWeapons' in data:
+                    melee_weapon_names = set(weapon['name'] for weapon in data['meleeWeapons'])
+                    ranged_weapon_names = set(weapon['name'] for weapon in data['rangedWeapons'])
+                    shared_weapon_names = melee_weapon_names.intersection(ranged_weapon_names)
+                    # Remove shared weapons from meleeWeapons
+                    data['meleeWeapons'] = [weapon for weapon in data['meleeWeapons'] if weapon['name'] not in shared_weapon_names]
                 file.seek(0)
                 json.dump(data, file, indent=4)
                 file.truncate()

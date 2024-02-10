@@ -107,7 +107,7 @@ const isEmptyObject = (obj) => {
   /* height: 300px; */
 }
 
-.color-stripe {
+/* .color-stripe {
   clip-path: polygon(
     0% 0%,
     100% 0%,
@@ -123,5 +123,5 @@ const isEmptyObject = (obj) => {
     36% 100%,
     0% 100%
   );
-}
+} */
 </style>

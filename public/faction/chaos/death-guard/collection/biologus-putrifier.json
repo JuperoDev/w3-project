@@ -14,7 +14,7 @@
         "grenades",
         "biologus putrifier"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 5,
         "toughness": 5,
         "save": 3,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -77,18 +77,18 @@
     "meleeWeapons": [
         {
             "name": "Hyper blight grenades",
-            "modifiers": "assault,blast,lethalhits",
+            "modifiers": ["assault","blast","lethal hits"],
             "attacks": "D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 1,
             "damage": 2
         },
         {
             "name": "Plague knives",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1

@@ -14,7 +14,7 @@
         "daemon",
         "foetid bloat-drone"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 10,
         "toughness": 9,
         "save": 3,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 3,
         "invulnerableSave": 5
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -80,27 +80,27 @@
     "meleeWeapons": [
         {
             "name": "Heavy blight launcher",
-            "modifiers": "lethalhits",
-            "attacks": "6",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 6,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
         },
         {
             "name": "Fleshmower",
-            "modifiers": "lethalhits",
-            "attacks": "10",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 10,
+            "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 1,
             "damage": 2
         },
         {
             "name": "Plague probe",
-            "modifiers": "lethalhits",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
             "damage": 1

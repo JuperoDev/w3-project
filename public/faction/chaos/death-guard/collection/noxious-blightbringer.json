@@ -13,7 +13,7 @@
         "nurgle",
         "noxious blightbringer"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 5,
         "toughness": 5,
         "save": 3,
@@ -21,7 +21,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -74,9 +74,9 @@
     "meleeWeapons": [
         {
             "name": "Cursed plague bell",
-            "modifiers": "lethalhits",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 2

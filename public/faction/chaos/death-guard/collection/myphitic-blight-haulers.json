@@ -14,7 +14,7 @@
         "smoke",
         "myphitic blight-haulers"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 10,
         "toughness": 9,
         "save": 3,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 3,
         "invulnerableSave": 5
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -83,9 +83,9 @@
     "meleeWeapons": [
         {
             "name": "Bile spurt",
-            "modifiers": "lethalhits",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1
@@ -94,16 +94,16 @@
             "name": "Missile launcher – frag",
             "modifiers": "blast",
             "attacks": "D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
         },
         {
             "name": "Gnashing maw",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
             "damage": 1

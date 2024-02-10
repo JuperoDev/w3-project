@@ -15,7 +15,7 @@
         "smoke",
         "rhino"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 12,
         "toughness": 9,
         "save": 3,
@@ -23,7 +23,7 @@
         "leadership": 6,
         "objetiveControl": 2,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -101,8 +101,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -111,7 +111,7 @@
             "name": "Havoc launcher",
             "modifiers": "blast",
             "attacks": "D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1
@@ -119,8 +119,8 @@
         {
             "name": "Armoured tracks",
             "modifiers": [],
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 0,
             "damage": 1

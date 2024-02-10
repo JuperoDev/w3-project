@@ -13,7 +13,7 @@
         "nurgle",
         "plague surgeon"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 5,
         "toughness": 5,
         "save": 3,
@@ -21,7 +21,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -61,9 +61,9 @@
     "meleeWeapons": [
         {
             "name": "Balesword",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 2

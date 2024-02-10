@@ -13,7 +13,7 @@
         "terminator",
         "deathshroud terminators"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 4,
         "toughness": 6,
         "save": 2,
@@ -21,7 +21,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -64,9 +64,9 @@
     "meleeWeapons": [
         {
             "name": "Manreaper – strike",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "2+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2

@@ -14,7 +14,7 @@
         "terminator",
         "lord of virulence"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 4,
         "toughness": 6,
         "save": 2,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -65,9 +65,9 @@
     "meleeWeapons": [
         {
             "name": "Heavy plague fist",
-            "modifiers": "lethalhits",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2

@@ -16,7 +16,7 @@
         "smoke",
         "predator annihilator"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 10,
         "toughness": 10,
         "save": 3,
@@ -24,7 +24,7 @@
         "leadership": 6,
         "objetiveControl": 4,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -135,8 +135,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -145,7 +145,7 @@
             "name": "Havoc launcher",
             "modifiers": "blast",
             "attacks": "D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1
@@ -153,8 +153,8 @@
         {
             "name": "Lascannon",
             "modifiers": [],
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 12,
             "armor-penetration": 3,
             "damage": "D6+1"
@@ -162,8 +162,8 @@
         {
             "name": "Plague combi-bolter",
             "modifiers": "lethalhits,rapidfire2",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -171,8 +171,8 @@
         {
             "name": "Plague heavy bolter",
             "modifiers": "lethalhits,sustainedhits1",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 1,
             "damage": 2
@@ -180,8 +180,8 @@
         {
             "name": "Armoured tracks",
             "modifiers": [],
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 0,
             "damage": 1

@@ -13,7 +13,7 @@
         "terminator",
         "blightlord terminators"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 4,
         "toughness": 6,
         "save": 2,
@@ -21,7 +21,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -124,9 +124,9 @@
     "meleeWeapons": [
         {
             "name": "Blight launcher",
-            "modifiers": "lethalhits",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
             "damage": 2
@@ -134,8 +134,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -143,8 +143,8 @@
         {
             "name": "Plague combi-bolter",
             "modifiers": "lethalhits,rapidfire2",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -160,18 +160,18 @@
         },
         {
             "name": "Bubotic blade",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1
         },
         {
             "name": "Flail of corruption",
-            "modifiers": "lethalhits",
-            "attacks": "6",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 6,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 1,
             "damage": 2

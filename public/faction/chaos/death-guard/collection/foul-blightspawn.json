@@ -14,7 +14,7 @@
         "grenades",
         "foul blightspawn"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 5,
         "toughness": 5,
         "save": 3,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -60,8 +60,8 @@
         {
             "name": "Close combat weapon",
             "modifiers": [],
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1

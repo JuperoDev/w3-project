@@ -16,7 +16,7 @@
         "daemon",
         "plagueburst crawler"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 10,
         "toughness": 10,
         "save": 2,
@@ -24,7 +24,7 @@
         "leadership": 6,
         "objetiveControl": 4,
         "invulnerableSave": 5
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -112,9 +112,9 @@
     "meleeWeapons": [
         {
             "name": "Entropy cannon",
-            "modifiers": "lethalhits",
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 10,
             "armor-penetration": 3,
             "damage": "D6+1"
@@ -122,8 +122,8 @@
         {
             "name": "Heavy slugger",
             "modifiers": [],
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 1,
             "damage": 1
@@ -132,7 +132,7 @@
             "name": "Plagueburst mortar",
             "modifiers": "blast,indirectfire,lethalhits",
             "attacks": "D6+3",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 1,
             "damage": 2
@@ -149,8 +149,8 @@
         {
             "name": "Armoured tracks",
             "modifiers": [],
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 0,
             "damage": 1

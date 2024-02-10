@@ -14,7 +14,7 @@
         "grenades",
         "chaos lord"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 5,
         "toughness": 5,
         "save": 3,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -141,8 +141,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "2+",
+            "attacks": 1,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -150,8 +150,8 @@
         {
             "name": "Plague bolt pistol",
             "modifiers": "lethalhits,pistol",
-            "attacks": "1",
-            "weapons-skills": "2+",
+            "attacks": 1,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -159,8 +159,8 @@
         {
             "name": "Plague combi-bolter",
             "modifiers": "lethalhits,rapidfire2",
-            "attacks": "2",
-            "weapons-skills": "2+",
+            "attacks": 2,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -168,26 +168,26 @@
         {
             "name": "Astartes chainsword",
             "modifiers": [],
-            "attacks": "7",
-            "weapons-skills": "2+",
+            "attacks": 7,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 1,
             "damage": 1
         },
         {
             "name": "Plague fist",
-            "modifiers": "lethalhits",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
         },
         {
             "name": "Plague-encrusted exalted weapon",
-            "modifiers": "lethalhits",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": ["lethal hits"],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1
@@ -195,8 +195,8 @@
         {
             "name": "Twin lightning claws",
             "modifiers": "twin-linked",
-            "attacks": "7",
-            "weapons-skills": "2+",
+            "attacks": 7,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1

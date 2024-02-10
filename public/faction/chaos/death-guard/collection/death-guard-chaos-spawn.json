@@ -12,7 +12,7 @@
         "nurgle",
         "spawn"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 8,
         "toughness": 5,
         "save": 4,
@@ -20,7 +20,7 @@
         "leadership": 7,
         "objetiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [],
     "abilities": {
@@ -43,7 +43,7 @@
             "name": "Hideous mutations",
             "modifiers": [],
             "attacks": "D6+2",
-            "weapons-skills": "4+",
+            "weapons-skills": 4,
             "strength": 5,
             "armor-penetration": 1,
             "damage": 2

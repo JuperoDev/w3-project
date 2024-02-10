@@ -15,7 +15,7 @@
         "terminator",
         "sorcerer"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 4,
         "toughness": 6,
         "save": 2,
@@ -23,7 +23,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -131,8 +131,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -141,7 +141,7 @@
             "name": "Curse of the Leper – witchfire",
             "modifiers": "psychic",
             "attacks": "D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
             "damage": 1
@@ -149,8 +149,8 @@
         {
             "name": "Chainfist",
             "modifiers": "anti-vehicle3+",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
@@ -158,26 +158,26 @@
         {
             "name": "Force weapon",
             "modifiers": "psychic",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
             "damage": "D3"
         },
         {
             "name": "Plague fist",
-            "modifiers": "lethalhits",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
         },
         {
             "name": "Plague-encrusted exalted weapon",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1
@@ -185,8 +185,8 @@
         {
             "name": "Twin lightning claws",
             "modifiers": "twin-linked",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1

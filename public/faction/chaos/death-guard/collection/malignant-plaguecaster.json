@@ -14,7 +14,7 @@
         "psyker",
         "malignant plaguecaster"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 5,
         "toughness": 5,
         "save": 3,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -92,8 +92,8 @@
         {
             "name": "Plague bolt pistol",
             "modifiers": "lethalhits,pistol",
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -101,8 +101,8 @@
         {
             "name": "Corrupted staff",
             "modifiers": "lethalhits,psychic",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
             "damage": "D3"

@@ -18,7 +18,7 @@
         "smoke",
         "defiler"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 8,
         "toughness": 10,
         "save": 3,
@@ -26,7 +26,7 @@
         "leadership": 6,
         "objetiveControl": 5,
         "invulnerableSave": 5
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -183,8 +183,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -193,7 +193,7 @@
             "name": "Defiler cannon",
             "modifiers": "blast",
             "attacks": "D6+3",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 10,
             "armor-penetration": 1,
             "damage": 3
@@ -202,7 +202,7 @@
             "name": "Havoc launcher",
             "modifiers": "blast",
             "attacks": "D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1
@@ -210,8 +210,8 @@
         {
             "name": "Plague combi-bolter",
             "modifiers": "lethalhits,rapidfire2",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -219,8 +219,8 @@
         {
             "name": "Reaper autocannon",
             "modifiers": "devastatingwounds,sustainedhits1",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 1,
             "damage": 1
@@ -237,8 +237,8 @@
         {
             "name": "Twin lascannon",
             "modifiers": "twin-linked",
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 12,
             "armor-penetration": 3,
             "damage": "D6+1"
@@ -246,8 +246,8 @@
         {
             "name": "Defiler claws",
             "modifiers": [],
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 16,
             "armor-penetration": 3,
             "damage": "D6+1"
@@ -255,8 +255,8 @@
         {
             "name": "Defiler scourge",
             "modifiers": "extraattacks",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 12,
             "armor-penetration": 1,
             "damage": 2

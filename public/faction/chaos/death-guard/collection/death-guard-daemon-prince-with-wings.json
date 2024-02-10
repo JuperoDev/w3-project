@@ -16,7 +16,7 @@
         "daemon",
         "daemon prince with wings"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 11,
         "toughness": 10,
         "save": 2,
@@ -24,7 +24,7 @@
         "leadership": 6,
         "objetiveControl": 3,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -67,8 +67,8 @@
         {
             "name": "Hellforged weapons – strike",
             "modifiers": [],
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 3

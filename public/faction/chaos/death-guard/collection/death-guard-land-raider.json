@@ -17,7 +17,7 @@
         "smoke",
         "land raider"
     ],
-    "attributes": {
+    "attributes":[ {
         "movement": 10,
         "toughness": 12,
         "save": 2,
@@ -25,7 +25,7 @@
         "leadership": 6,
         "objetiveControl": 5,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -117,8 +117,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -127,7 +127,7 @@
             "name": "Havoc launcher",
             "modifiers": "blast",
             "attacks": "D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1
@@ -135,8 +135,8 @@
         {
             "name": "Plague combi-bolter",
             "modifiers": "lethalhits,rapidfire2",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -144,8 +144,8 @@
         {
             "name": "Soulshatter lascannon",
             "modifiers": [],
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 12,
             "armor-penetration": 3,
             "damage": "D6+1"
@@ -153,8 +153,8 @@
         {
             "name": "Armoured tracks",
             "modifiers": [],
-            "attacks": "6",
-            "weapons-skills": "4+",
+            "attacks": 6,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 0,
             "damage": 1

@@ -12,7 +12,7 @@
         "nurgle",
         "poxwalkers"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 4,
         "toughness": 4,
         "save": 7,
@@ -20,7 +20,7 @@
         "leadership": 8,
         "objetiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [],
     "abilities": {
@@ -41,9 +41,9 @@
     "meleeWeapons": [
         {
             "name": "Improvised weapon",
-            "modifiers": "lethalhits",
-            "attacks": "2",
-            "weapons-skills": "5+",
+            "modifiers": ["lethal hits"],
+            "attacks": 2,
+            "weapons-skills": 5,
             "strength": 3,
             "armor-penetration": 0,
             "damage": 1

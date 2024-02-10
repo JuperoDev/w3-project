@@ -14,7 +14,7 @@
         "terminator",
         "chaos lord"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 4,
         "toughness": 6,
         "save": 2,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objetiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -98,8 +98,8 @@
         {
             "name": "Combi-weapon",
             "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
@@ -107,26 +107,26 @@
         {
             "name": "Chainfist",
             "modifiers": "anti-vehicle3+",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
         },
         {
             "name": "Plague fist",
-            "modifiers": "lethalhits",
-            "attacks": "5",
-            "weapons-skills": "2+",
+            "modifiers": ["lethal hits"],
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
         },
         {
             "name": "Plague-encrusted exalted weapon",
-            "modifiers": "lethalhits",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": ["lethal hits"],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1
@@ -134,8 +134,8 @@
         {
             "name": "Twin lightning claws",
             "modifiers": "twin-linked",
-            "attacks": "7",
-            "weapons-skills": "2+",
+            "attacks": 7,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1

@@ -22,7 +22,7 @@
         "primarch",
         "mortarion"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 10,
         "toughness": 12,
         "save": 2,
@@ -30,7 +30,7 @@
         "leadership": 5,
         "objetiveControl": 6,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -83,16 +83,16 @@
             "name": "Rotwind",
             "modifiers": "blast,devastatingwounds,lethalhits,psychic",
             "attacks": "D6+3",
-            "weapons-skills": "2+",
+            "weapons-skills": 2,
             "strength": 7,
             "armor-penetration": 2,
             "damage": 1
         },
         {
             "name": "Silence – strike",
-            "modifiers": "lethalhits",
-            "attacks": "5",
-            "weapons-skills": "2+",
+            "modifiers": ["lethal hits"],
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 14,
             "armor-penetration": 3,
             "damage": 4

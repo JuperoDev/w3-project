@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Every Death Guard lord is a formidable opponent, dripping with infectious disease and armed to the teeth with toxin-smeared weaponry. Those clad in diseased Terminator armour are yet more deadly. Their nigh on impregnable plate is fused with their flesh, bulging and hardened thanks to Nurgle’s blessings, making them even more durable.",
+    "lore": "Every Death Guard lord is a formidable opponent, dripping with infectious disease and armed to the teeth with toxin-smeared weaponry. Those clad in diseased Terminator armour are yet more deadly. Their nigh on impregnable plate is fused with their flesh, bulging and hardened thanks to Nurgle's blessings, making them even more durable.",
     "keywords": [
         "infantry",
         "character",
@@ -14,15 +14,17 @@
         "terminator",
         "chaos lord"
     ],
-    "attributes": [{
-        "movement": 4,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -34,9 +36,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -76,21 +78,21 @@
     },
     "wargear": [
         {
-            "description": "This model’s plague combi-bolter can be replaced with one of the following",
+            "description": "This model's plague combi-bolter can be replaced with one of the following",
             "items": [
                 "1 combi-weapon",
                 "1 plague-encrusted exalted weapon"
             ]
         },
         {
-            "description": "This model’s plague-encrusted exalted weapon can be replaced with one of the following",
+            "description": "This model's plague-encrusted exalted weapon can be replaced with one of the following",
             "items": [
                 "1 chainfist",
                 "1 plague fist"
             ]
         },
         {
-            "description": "This model’s plague combi-bolter and plague-encrusted exalted weapon can be replaced with 1 twin lighting claws.",
+            "description": "This model's plague combi-bolter and plague-encrusted exalted weapon can be replaced with 1 twin lighting claws.",
             "items": []
         }
     ],
@@ -115,7 +117,9 @@
         },
         {
             "name": "Plague fist",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 8,
@@ -124,7 +128,9 @@
         },
         {
             "name": "Plague-encrusted exalted weapon",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,

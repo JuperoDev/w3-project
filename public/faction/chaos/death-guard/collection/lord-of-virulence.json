@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Tubes and pipes erupt in profusion from the Lord of Virulence’s armour. From these gout noxious fumes, putrid eruptions whose hue and stench guide the fire of artillery engines behind the lines. Behind them their flensefrond cloaks leave a trail of sickening mucosal slime for hungry Daemon Engines to follow.",
+    "lore": "Tubes and pipes erupt in profusion from the Lord of Virulence's armour. From these gout noxious fumes, putrid eruptions whose hue and stench guide the fire of artillery engines behind the lines. Behind them their flensefrond cloaks leave a trail of sickening mucosal slime for hungry Daemon Engines to follow.",
     "keywords": [
         "infantry",
         "character",
@@ -14,15 +14,17 @@
         "terminator",
         "lord of virulence"
     ],
-    "attributes": [{
-        "movement": 4,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -65,7 +67,9 @@
     "meleeWeapons": [
         {
             "name": "Heavy plague fist",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 8,

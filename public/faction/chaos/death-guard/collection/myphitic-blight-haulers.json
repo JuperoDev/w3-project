@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Belching stinking gases that hang thick in the air, Myphitic Blight-haulers use their all-terrain mobility and heavy armaments to hunt down the enemy’s tanks and provide fire support even in the most dangerous environments. Should the enemy get too close, these Daemon Engines pounce with fanged maws and sprays of bile.",
+    "lore": "Belching stinking gases that hang thick in the air, Myphitic Blight-haulers use their all-terrain mobility and heavy armaments to hunt down the enemy's tanks and provide fire support even in the most dangerous environments. Should the enemy get too close, these Daemon Engines pounce with fanged maws and sprays of bile.",
     "keywords": [
         "vehicle",
         "chaos",
@@ -14,15 +14,17 @@
         "smoke",
         "myphitic blight-haulers"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 9,
-        "save": 3,
-        "wounds": 10,
-        "leadership": 6,
-        "objetiveControl": 3,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,9 +34,9 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -83,7 +85,9 @@
     "meleeWeapons": [
         {
             "name": "Bile spurt",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
@@ -101,7 +105,9 @@
         },
         {
             "name": "Gnashing maw",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 6,

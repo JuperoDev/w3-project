@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Deathshroud Terminators are swollen with the fell powers of their diseased patron. With every swing of their huge scythes they decapitate and disembowel their foes, their speed belied by their bloated mass. They fight in ominous silence, embodying the inevitable onset of their enemies’ death.",
+    "lore": "Deathshroud Terminators are swollen with the fell powers of their diseased patron. With every swing of their huge scythes they decapitate and disembowel their foes, their speed belied by their bloated mass. They fight in ominous silence, embodying the inevitable onset of their enemies' death.",
     "keywords": [
         "infantry",
         "chaos",
@@ -13,15 +13,17 @@
         "terminator",
         "deathshroud terminators"
     ],
-    "attributes": [{
-        "movement": 4,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -51,7 +53,7 @@
         "otherAbilities": [
             {
                 "name": "Silent Bodyguard:",
-                "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll ."
+                "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll ."
             }
         ]
     },
@@ -64,7 +66,9 @@
     "meleeWeapons": [
         {
             "name": "Manreaper – strike",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 8,

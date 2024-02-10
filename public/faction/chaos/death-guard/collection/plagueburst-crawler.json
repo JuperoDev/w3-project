@@ -16,15 +16,17 @@
         "daemon",
         "plagueburst crawler"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 10,
-        "save": 2,
-        "wounds": 12,
-        "leadership": 6,
-        "objetiveControl": 4,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 4,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -34,10 +36,10 @@
             ],
             "range": 24,
             "strength": 10,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "D6+1",
             "singleChoice": false
         },
         {
@@ -49,10 +51,10 @@
             ],
             "range": 48,
             "strength": 8,
-            "attacks": 2,
+            "attacks": "D6+3",
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -64,8 +66,8 @@
             ],
             "range": 12,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -101,18 +103,20 @@
     },
     "wargear": [
         {
-            "description": "This model’s 2 entropy cannons can be replaced with 2 plaguespitters.",
+            "description": "This model's 2 entropy cannons can be replaced with 2 plaguespitters.",
             "items": []
         },
         {
-            "description": "This model’s heavy slugger can be replaced with 1 rothail volley gun.",
+            "description": "This model's heavy slugger can be replaced with 1 rothail volley gun.",
             "items": []
         }
     ],
     "meleeWeapons": [
         {
             "name": "Entropy cannon",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 10,

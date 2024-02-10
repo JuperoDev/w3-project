@@ -12,15 +12,17 @@
         "nurgle",
         "poxwalkers"
     ],
-    "attributes": [{
-        "movement": 4,
-        "toughness": 4,
-        "save": 7,
-        "wounds": 1,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 4,
+            "save": 7,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [],
     "abilities": {
@@ -33,7 +35,7 @@
         "otherAbilities": [
             {
                 "name": "Curse of the Walking Pox:",
-                "description": "Each time a model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), you can return one destroyed Poxwalker model to this unit. While Typhus is leading this unit, enemy models destroyed as a result of TYPHUS ’ The Eater Plague ability count as enemy models destroyed by an attack made by a model in this unit for the purposes of this ability."
+                "description": "Each time a model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), you can return one destroyed Poxwalker model to this unit. While Typhus is leading this unit, enemy models destroyed as a result of TYPHUS ' The Eater Plague ability count as enemy models destroyed by an attack made by a model in this unit for the purposes of this ability."
             }
         ]
     },
@@ -41,7 +43,9 @@
     "meleeWeapons": [
         {
             "name": "Improvised weapon",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 2,
             "weapons-skills": 5,
             "strength": 3,

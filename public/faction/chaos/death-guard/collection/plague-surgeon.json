@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Equipped with narthecium-like instruments around which form filthy miasmas, Plague Surgeons carry vials and alembics full of boosters and macro-stimulants for countless plagues. By such means do they give the Death Guard renewed strength and resilience while inflaming the enemy’s infections to agonising degrees.",
+    "lore": "Equipped with narthecium-like instruments around which form filthy miasmas, Plague Surgeons carry vials and alembics full of boosters and macro-stimulants for countless plagues. By such means do they give the Death Guard renewed strength and resilience while inflaming the enemy's infections to agonising degrees.",
     "keywords": [
         "infantry",
         "character",
@@ -13,15 +13,17 @@
         "nurgle",
         "plague surgeon"
     ],
-    "attributes": [{
-        "movement": 5,
-        "toughness": 5,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -61,7 +63,9 @@
     "meleeWeapons": [
         {
             "name": "Balesword",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,

@@ -15,15 +15,17 @@
         "grenades",
         "lord of contagion"
     ],
-    "attributes": [{
-        "movement": 4,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [],
     "abilities": {
@@ -49,7 +51,9 @@
     "meleeWeapons": [
         {
             "name": "Plagueblade – strike",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 8,

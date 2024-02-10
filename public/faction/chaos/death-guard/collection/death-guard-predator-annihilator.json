@@ -8,7 +8,7 @@
         "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
     "supremeCommander": false,
-    "lore": "Capable of firing with pinpoint accuracy, Predator Annihilators are precision tools that can eliminate key threats. In so doing they allow the Legion’s infantry to advance into the fray and spread Nurgle’s gifts.",
+    "lore": "Capable of firing with pinpoint accuracy, Predator Annihilators are precision tools that can eliminate key threats. In so doing they allow the Legion's infantry to advance into the fray and spread Nurgle's gifts.",
     "keywords": [
         "vehicle",
         "chaos",
@@ -16,15 +16,17 @@
         "smoke",
         "predator annihilator"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 11,
-        "leadership": 6,
-        "objetiveControl": 4,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 4,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -36,9 +38,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -49,9 +51,9 @@
             ],
             "range": 48,
             "strength": 5,
-            "attacks": 2,
+            "attacks": "D6",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -65,7 +67,7 @@
             "strength": 4,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -77,10 +79,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {

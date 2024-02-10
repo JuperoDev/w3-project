@@ -18,15 +18,17 @@
         "smoke",
         "defiler"
     ],
-    "attributes": [{
-        "movement": 8,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 14,
-        "leadership": 6,
-        "objetiveControl": 5,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 14,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -38,9 +40,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -51,10 +53,10 @@
             ],
             "range": 48,
             "strength": 10,
-            "attacks": 2,
+            "attacks": "D6+3",
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -64,9 +66,9 @@
             ],
             "range": 48,
             "strength": 5,
-            "attacks": 2,
+            "attacks": "D6",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -80,7 +82,7 @@
             "strength": 4,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -92,7 +94,7 @@
             ],
             "range": 36,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 4,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -107,8 +109,8 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -120,10 +122,10 @@
             ],
             "range": 48,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "D6+1",
             "singleChoice": false
         },
         {
@@ -158,14 +160,14 @@
     },
     "wargear": [
         {
-            "description": "This model’s twin heavy flamer can be replaced with one of the following",
+            "description": "This model's twin heavy flamer can be replaced with one of the following",
             "items": [
                 "1 Defiler scourge",
                 "1 havoc launcher"
             ]
         },
         {
-            "description": "This model’s reaper autocannon can be replaced with one of the following",
+            "description": "This model's reaper autocannon can be replaced with one of the following",
             "items": [
                 "1 twin lascannon",
                 "1 twin plague heavy bolter"

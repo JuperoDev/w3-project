@@ -15,15 +15,17 @@
         "terminator",
         "sorcerer"
     ],
-    "attributes": [{
-        "movement": 4,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 5,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -35,9 +37,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -94,28 +96,28 @@
         "otherAbilities": [
             {
                 "name": "Putrescent Vitality (Psychic):",
-                "description": "At the start of the Fight phase , you can roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKER ’s unit, subtract 1 from the Damage characteristic of that attack."
+                "description": "At the start of the Fight phase , you can roll one D6: on a 1, this PSYKER 's unit suffers D3 mortal wounds ; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKER 's unit, subtract 1 from the Damage characteristic of that attack."
             },
             {
                 "name": "Pestilent Familiar (Psychic):",
                 "description": "Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
             },
             {
-                "name": "Designer’s Note:",
+                "name": "Designer's Note:",
                 "description": "Place a Pestilent Familiar token next to this model, removing it once this ability has been used."
             }
         ]
     },
     "wargear": [
         {
-            "description": "This model’s plague combi-bolter can be replaced with one of the following",
+            "description": "This model's plague combi-bolter can be replaced with one of the following",
             "items": [
                 "1 combi-weapon",
                 "1 plague-encrusted exalted weapon"
             ]
         },
         {
-            "description": "This model’s force weapon can be replaced with one of the following",
+            "description": "This model's force weapon can be replaced with one of the following",
             "items": [
                 "1 chainfist",
                 "1 plague fist",
@@ -123,7 +125,7 @@
             ]
         },
         {
-            "description": "This model’s plague combi-bolter and force weapon can be replaced with 1 twin lighting claws.",
+            "description": "This model's plague combi-bolter and force weapon can be replaced with 1 twin lighting claws.",
             "items": []
         }
     ],
@@ -166,7 +168,9 @@
         },
         {
             "name": "Plague fist",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 8,
@@ -175,7 +179,9 @@
         },
         {
             "name": "Plague-encrusted exalted weapon",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,

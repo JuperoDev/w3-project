@@ -16,15 +16,17 @@
         "smoke",
         "predator destructor"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 11,
-        "leadership": 6,
-        "objetiveControl": 4,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 4,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -36,9 +38,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -49,9 +51,9 @@
             ],
             "range": 48,
             "strength": 5,
-            "attacks": 2,
+            "attacks": "D6",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -65,7 +67,7 @@
             "strength": 4,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -77,10 +79,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {

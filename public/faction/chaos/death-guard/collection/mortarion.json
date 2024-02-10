@@ -8,7 +8,7 @@
         "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
     "supremeCommander": true,
-    "lore": "To stand in Mortarion’s presence is lethal, such is the pestilential aura that surrounds him. Wielding his gigantic scythe, Silence, he cuts apart entire enemy squads in seconds. With furious blasts of Lantern, his devastating sidearm of unknown provenance, he disintegrates heavy infantry and armour alike.",
+    "lore": "To stand in Mortarion's presence is lethal, such is the pestilential aura that surrounds him. Wielding his gigantic scythe, Silence, he cuts apart entire enemy squads in seconds. With furious blasts of Lantern, his devastating sidearm of unknown provenance, he disintegrates heavy infantry and armour alike.",
     "keywords": [
         "monster",
         "psyker",
@@ -22,15 +22,17 @@
         "primarch",
         "mortarion"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 12,
-        "save": 2,
-        "wounds": 16,
-        "leadership": 5,
-        "objetiveControl": 6,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 5,
+            "objetiveControl": 6,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -43,9 +45,9 @@
             ],
             "range": 18,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6+3",
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
             "damage": 1,
             "singleChoice": false
         },
@@ -90,7 +92,9 @@
         },
         {
             "name": "Silence – strike",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 14,

@@ -13,15 +13,17 @@
         "nurgle",
         "helbrute"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 9,
-        "save": 2,
-        "wounds": 8,
-        "leadership": 6,
-        "objetiveControl": 3,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 8,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,8 +34,8 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -46,10 +48,10 @@
             ],
             "range": 36,
             "strength": 8,
-            "attacks": 2,
+            "attacks": "D3",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -74,8 +76,8 @@
             "strength": 9,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -88,7 +90,7 @@
             "strength": 4,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -102,7 +104,7 @@
             "attacks": 2,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -112,10 +114,10 @@
             ],
             "range": 48,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "D6+1",
             "singleChoice": false
         },
         {
@@ -158,7 +160,7 @@
     },
     "wargear": [
         {
-            "description": "This model’s multi-melta can be replaced with one of the following",
+            "description": "This model's multi-melta can be replaced with one of the following",
             "items": [
                 "1 Helbrute plasma cannon",
                 "1 twin autocannon",
@@ -168,7 +170,7 @@
             ]
         },
         {
-            "description": "This model’s missile launcher can be replaced with one of the following",
+            "description": "This model's missile launcher can be replaced with one of the following",
             "items": [
                 "1 Helbrute fist",
                 "1 Helbrute hammer",

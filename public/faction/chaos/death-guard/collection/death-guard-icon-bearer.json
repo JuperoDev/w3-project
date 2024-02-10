@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The icons borne by the Death Guard are rusted and corrupted dedications to Nurgle, forged into the shape of the Grandfather’s symbol. So wreathed in disease are these banners that nearby enemies are rapidly afflicted, dying agonising deaths as their convulsing bodies are reduced to slop.",
+    "lore": "The icons borne by the Death Guard are rusted and corrupted dedications to Nurgle, forged into the shape of the Grandfather's symbol. So wreathed in disease are these banners that nearby enemies are rapidly afflicted, dying agonising deaths as their convulsing bodies are reduced to slop.",
     "keywords": [
         "infantry",
         "character",
@@ -14,15 +14,17 @@
         "grenades",
         "death guard icon bearer"
     ],
-    "attributes": [{
-        "movement": 5,
-        "toughness": 5,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 5,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 5,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -53,7 +55,7 @@
             },
             {
                 "name": "Seed the Disease:",
-                "description": "Once per battle, at the end of your Movement phase , this model can use this ability. If it does, until the start of your next Command phase , this model’s unit is treated as having a Contagion Range of 12\"."
+                "description": "Once per battle, at the end of your Movement phase , this model can use this ability. If it does, until the start of your next Command phase , this model's unit is treated as having a Contagion Range of 12\"."
             }
         ]
     },
@@ -61,7 +63,9 @@
     "meleeWeapons": [
         {
             "name": "Plague knife",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 4,

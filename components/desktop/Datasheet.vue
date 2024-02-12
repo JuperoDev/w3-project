@@ -16,6 +16,7 @@
       class="datasheet-desktop--grid-container grid grid-cols-5 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
     >
       <div class="datasheet-desktop__grid-container--left col-span-3">
+        
         <DesktopComponentsRangedWeapons
           :rangedWeapons="rangedWeapons"
           v-if="rangedWeapons && rangedWeapons.length > 0"

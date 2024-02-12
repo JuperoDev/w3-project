@@ -111,7 +111,7 @@ watch(selected, (newValue) => {
     .custom-select {
       position: relative;
       width: 100%; /* adjust width as needed */
-      max-width: 800px;
+      max-width: 600px;
       
     }
     input[type="text"] {

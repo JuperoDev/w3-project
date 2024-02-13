@@ -28,7 +28,7 @@
 <!-- Does not makes sense to fix vuetify bug like this but DO NOT REMOVE  -->
 <v-expansion-panel>
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">Melee Weapons</div>
+      <div class="uppercase font-semibold">Maasd</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
@@ -41,7 +41,7 @@
 
   <v-expansion-panel>
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">Melee Weapons</div>
+      <div class="uppercase font-semibold">vcx</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
@@ -53,7 +53,7 @@
   <!-- Abilities  -->
   <v-expansion-panel>
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">Abilities</div>
+      <div class="uppercase font-semibold">jhhjhj</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
@@ -67,7 +67,7 @@
   <!-- Transport  -->
   <v-expansion-panel >
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">Transport</div>
+      <div class="uppercase font-semibold">rtrtrt</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
@@ -79,7 +79,7 @@
   <!-- Wargear Abilities -->
   <v-expansion-panel>
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">Wargear Abilities</div>
+      <div class="uppercase font-semibold">wewewew</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
@@ -108,7 +108,7 @@
   <!-- Wargear Options  -->
   <v-expansion-panel>
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">wargear options</div>
+      <div class="uppercase font-semibold">qweqwe</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
@@ -134,7 +134,7 @@
   <!-- unit composition  -->
   <v-expansion-panel>
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">unit composition</div>
+      <div class="uppercase font-semibold">qrwsd</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
@@ -147,7 +147,7 @@
   <!-- keywords  -->
   <v-expansion-panel>
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">keywords</div>
+      <div class="uppercase font-semibold">ahahahah</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>

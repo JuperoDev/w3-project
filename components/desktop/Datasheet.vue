@@ -104,9 +104,9 @@ const isEmptyObject = (obj) => {
   width: 1200px;
 }
 
-.datasheet-desktop__header {
-  /* height: 300px; */
-}
+/* .datasheet-desktop__header {
+  
+} */
 
 /* .color-stripe {
   clip-path: polygon(

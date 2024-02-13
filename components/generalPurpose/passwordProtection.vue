@@ -1,6 +1,163 @@
 <template>
   <div>
     <div v-if="!hasEnteredPassword" class="p-5">
+
+      
+<v-expansion-panels>
+  
+
+
+  <!-- Ranged weapons -->
+
+  
+  <v-expansion-panel >
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">Ranged weapons</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+        
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+  
+  <!-- Melee weapons  -->
+  
+<div class="hidden">
+<!-- Does not makes sense to fix vuetify bug like this but DO NOT REMOVE  -->
+<v-expansion-panel>
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">Melee Weapons</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+</div>
+ 
+
+  <v-expansion-panel>
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">Melee Weapons</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+
+  <!-- Abilities  -->
+  <v-expansion-panel>
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">Abilities</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+
+
+
+  <!-- Transport  -->
+  <v-expansion-panel >
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">Transport</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+
+  <!-- Wargear Abilities -->
+  <v-expansion-panel>
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">Wargear Abilities</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+       
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+
+
+
+
+
+        <!-- Damaged -->
+        <v-expansion-panel >
+    <v-expansion-panel-title>
+      asddas
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+
+  <!-- Wargear Options  -->
+  <v-expansion-panel>
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">wargear options</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        <MobileWargear :wargear="wargear" />
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+
+  <!-- leader  -->
+  <v-expansion-panel >
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">Leader</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel> 
+
+
+  
+  <!-- unit composition  -->
+  <v-expansion-panel>
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">unit composition</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+
+
+  <!-- keywords  -->
+  <v-expansion-panel>
+    <v-expansion-panel-title>
+      <div class="uppercase font-semibold">keywords</div>
+    </v-expansion-panel-title>
+    <v-expansion-panel-text>
+      <div>
+        asddas
+      </div>
+    </v-expansion-panel-text>
+  </v-expansion-panel>
+  <!-- end panels  -->
+</v-expansion-panels>
+
       <p>The file you want to see is password protected</p>
       <label for="password">Enter the password: </label>
       <input

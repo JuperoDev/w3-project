@@ -1,0 +1,144 @@
+{
+    "parentUnit": "Khorne Lord Of Skulls",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 8,
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Lords of Skulls are insane, monolithic creations fuelled by boiling blood and dedicated to slaughtering in the name of Khorne. They plough through the enemy's ranks, crushing infantry beneath their tracks, hacking tanks into kindling with sweeps of their cleaver and hurling brazen projectiles or burning ichor at the survivors.",
+    "keywords": [
+        "vehicle",
+        "titanic",
+        "towering",
+        "chaos",
+        "khorne",
+        "daemon",
+        "lord of skulls"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 13,
+            "salvation": 3,
+            "wounds": 24,
+            "leadership": 6,
+            "objectiveControl": 8,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Daemongore cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 14,
+            "attacks": "D6",
+            "ballistic-skills": "3+",
+            "armor-penetration": 4,
+            "damage": "D6+2",
+            "singleChoice": false
+        },
+        {
+            "name": "Gorestorm cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 10,
+            "attacks": "D6+3",
+            "ballistic-skills": "3+",
+            "armor-penetration": 2,
+            "damage": "3",
+            "singleChoice": false
+        },
+        {
+            "name": "Hades gatling cannon",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": "12",
+            "ballistic-skills": "3+",
+            "armor-penetration": 2,
+            "damage": "2",
+            "singleChoice": false
+        },
+        {
+            "name": "Ichor cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 7,
+            "attacks": "2D6",
+            "ballistic-skills": "3+",
+            "armor-penetration": 2,
+            "damage": "2",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6+2"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Plough Through the Enemy:",
+                "description": "In the Fight phase , after this model has finished making its attacks, if this model destroyed one or more enemy units this phase, each enemy unit within 6\" of this model must take a Battle-shock test ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model's gorestorm cannon can be replaced with one of the following",
+            "items": [
+                "1 daemongore cannon",
+                "1 ichor cannon"
+            ]
+        },
+        {
+            "description": "This model's Hades gatling cannon can be replaced with 1 skullhurler.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Great cleaver of Khorne \u00e2\u20ac\u201c strike",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 16,
+            "armor-penetration": 4,
+            "damage": "8"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

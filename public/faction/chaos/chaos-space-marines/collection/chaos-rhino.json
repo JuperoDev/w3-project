@@ -1,0 +1,130 @@
+{
+    "parentUnit": "Chaos Rhino",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Based upon ancient workhorse vehicles that have served Humanity for millennia, Chaos Rhinos are well adapted for battlefield transportation. Though encrusted with heretical icons and corrupted by the warp, they remain as rugged and reliable as ever, safely carrying their passengers over fire-swept battlefields.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "smoke",
+        "chaos",
+        "rhino"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "salvation": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Firing Deck 2"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Self Repair:",
+                "description": "At the start of your Command phase , this model regains 1 lost wound."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 combi-bolter",
+                "1 combi-weapon"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 havoc launcher.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

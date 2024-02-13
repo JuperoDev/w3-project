@@ -1,0 +1,175 @@
+{
+    "parentUnit": "Chosen",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The power-hungry veterans known as Chosen are amongst the most experienced and ruthless fighters of the Heretic Astartes. Granted \u00e2\u20ac\u201c or having seized \u00e2\u20ac\u201c their warband's most powerful weapons, these warriors undertake the most glorious and dangerous missions, and are the bane of all that lives.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "chaos",
+        "chosen"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Dark Pacts"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Chaos Icon:",
+                "description": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "For every 5 models in this unit, up to 2 models can each have their bolt pistol replaced with 1 plasma pistol.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, up to 2 models can each have their boltgun replaced with 1 combi-weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model's boltgun and accursed weapon can be replaced with 1 paired accursed weapons.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model equipped with a boltgun can have its accursed weapon replaced with 1 power fist. That model's boltgun cannot be replaced.",
+            "items": []
+        },
+        {
+            "description": "1 model can be equipped with 1 Chaos icon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Boltgun",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Accursed weapon",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Paired accursed weapons",
+            "modifiers": "twin-linked",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Power fist",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

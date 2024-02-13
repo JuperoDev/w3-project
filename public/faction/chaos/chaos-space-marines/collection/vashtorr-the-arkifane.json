@@ -1,0 +1,103 @@
+{
+    "parentUnit": "Vashtorr The Arkifane",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Vashtorr is a horror of pallid flesh stretched over infernal mechanisms. He soars to battle amidst a cloud of dark lightning and smog, dealing destruction and unleashing techno-gheist curses upon the foe even as he fashions enhancements for his indentured Daemon Engines from the raw stuff of realspace.",
+    "keywords": [
+        "monster",
+        "character",
+        "epic hero",
+        "fly",
+        "chaos",
+        "daemon",
+        "vashtorr the arkifane"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "salvation": 2,
+            "wounds": 14,
+            "leadership": 6,
+            "objectiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Vashtorr's claw",
+            "modifiers": [
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Unholy Mechanisms (Aura):",
+                "description": "While a friendly DAEMON VEHICLE unit is within 6\" of this model, add 1 to the Strength characteristic of weapons equipped by models in that unit."
+            },
+            {
+                "name": "Agonise Machine Spirits:",
+                "description": "At the end of your Movement phase , select one enemy VEHICLE unit within 18\" of and visible to this model. Until the start of your next Movement phase, halve the Move characteristic of models in that unit and subtract 1 from the Attacks characteristic of melee weapons equipped by models in that unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Vashtorr's hammer \u00e2\u20ac\u201c strike",
+            "modifiers": "anti-vehicle4+,devastatingwounds",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": "3"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

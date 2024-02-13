@@ -1,0 +1,146 @@
+{
+    "parentUnit": "Sorcerer In Terminator Armour",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The powers of a warband's Sorcerers lend a sickening occult advantage to elite infantry spearheads. Girded in warsuits of sigil-etched Terminator armour, they are able to support gruelling boarding actions, assault through daemon-haunted labyrinths or fight on the front line against swarming, ignorant loyalists.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "chaos",
+        "terminator",
+        "sorcerer in terminator armour"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Infernal Gaze - witchfire",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Infernal Gaze - focused witchfire",
+            "modifiers": [
+                "devastating wounds",
+                "hazardous",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Warptime (Psychic):",
+                "description": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+            },
+            {
+                "name": "Death Hex (Psychic):",
+                "description": "At the start of your Shooting phase , one PSYKER with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER 's unit suffers D3 mortal wounds ; on a 2+, until the start of your next Movement phase , each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model's combi-bolter can be replaced with 1 combi-weapon.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with 1 Chaos familiar.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Force weapon",
+            "modifiers": "psychic",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "D3"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

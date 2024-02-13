@@ -1,0 +1,372 @@
+{
+    "parentUnit": "Legionaries",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Against the onslaught of Chaos Legionaries, few can stand for long. Whether millennia-old veterans of the Long War or traitors from renegade warbands, Legionaries are deadly and adaptable warriors, unleashing streams of explosive bolts or venting their vicious hatred with swings of rending chainswords.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "chaos",
+        "grenades",
+        "legionaries"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Balefire tome",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 1,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc autocannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": "2",
+            "ballistic-skills": "4+",
+            "armor-penetration": 1,
+            "damage": "3",
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "HEAVY",
+                "SUSTAINED HITS 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": "3",
+            "ballistic-skills": "4+",
+            "armor-penetration": 1,
+            "damage": "2",
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+                "HEAVY"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - frag",
+            "modifiers": [
+                "BLAST",
+                "HEAVY"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                "HEAVY"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "RAPID FIRE 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "HAZARDOUS",
+                "RAPID FIRE 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Reaper chaincannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Dark Pacts"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Chaos Icon:",
+                "description": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Aspiring Champion's boltgun can be replaced with one of the following",
+            "items": [
+                "1 plasma pistol and 1 Astartes chainsword*",
+                "1 accursed weapon",
+                "1 Astartes chainsword",
+                "1 heavy melee weapon"
+            ]
+        },
+        {
+            "description": "The Aspiring Champion's bolt pistol can be replaced with one of the following",
+            "items": [
+                "1 plasma pistol*",
+                "1 accursed weapon",
+                "1 Astartes chainsword",
+                "1 heavy melee weapon"
+            ]
+        },
+        {
+            "description": "1 model can be equipped with 1 Chaos icon.",
+            "items": []
+        },
+        {
+            "description": "Any number of Legionaries can each have their boltgun replaced with 1 Astartes chainsword.",
+            "items": []
+        },
+        {
+            "description": "One Legionary's boltgun can be replaced with 1 heavy melee weapon.",
+            "items": []
+        },
+        {
+            "description": "One Legionary's boltgun can be replaced with 1 balefire tome.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, 1 Legionary's boltgun can be replaced with one of the following (duplicates are not allowed)",
+            "items": [
+                "1 plasma pistol and 1 Astartes chainsword",
+                "1 flamer",
+                "1 havoc autocannon",
+                "1 heavy bolter",
+                "1 lascannon",
+                "1 meltagun",
+                "1 missile launcher",
+                "1 plasma gun",
+                "1 reaper chaincannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Boltgun",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Missile launcher \u00e2\u20ac\u201c frag",
+            "modifiers": "BLAST,HEAVY",
+            "attacks": "D6",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Plasma gun \u00e2\u20ac\u201c standard",
+            "modifiers": "RAPIDFIRE1",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Plasma pistol \u00e2\u20ac\u201c standard",
+            "modifiers": "pistol",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Accursed weapon",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Astartes chainsword",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Heavy melee weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

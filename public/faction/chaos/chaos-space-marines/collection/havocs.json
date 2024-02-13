@@ -1,0 +1,296 @@
+{
+    "parentUnit": "Havocs",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "With a preference for inflicting carnage at long range, Havocs imperiously touch every part of the battlefield with death and destruction. Their huge weapons are archaic patterns of those known to the Imperium, but often become fused with their wielder over the span of countless wars.",
+    "keywords": [
+        "infantry",
+        "chaos",
+        "havocs"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": "3",
+            "ballistic-skills": "3+",
+            "armor-penetration": 1,
+            "damage": "2",
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc missile launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "MELTA 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "RAPID FIRE 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "HAZARDOUS",
+                "RAPID FIRE 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "PISTOL"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "HAZARDOUS",
+                "PISTOL"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Dark Pacts"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "The Havoc Champion is equipped with:",
+                "description": "flamer; Astartes chainsword."
+            },
+            {
+                "name": "2 Havocs are equipped with:",
+                "description": "Havoc autocannon; close combat weapon."
+            },
+            {
+                "name": "2 Havocs are equipped with:",
+                "description": "Havoc lascannon; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Havoc Champion's Astartes chainsword can be replaced with one of the following",
+            "items": [
+                "1 accursed weapon",
+                "1 power fist"
+            ]
+        },
+        {
+            "description": "The Havoc Champion's flamer can be replaced with one of the following",
+            "items": [
+                "1 boltgun",
+                "1 meltagun",
+                "1 plasma gun",
+                "1 plasma pistol",
+                "1 accursed weapon",
+                "1 power fist"
+            ]
+        },
+        {
+            "description": "Any number of Havocs can each have their Havoc autocannon or Havoc lascannon replaced with one of the following",
+            "items": [
+                "1 Havoc autocannon",
+                "1 Havoc heavy bolter",
+                "1 Havoc lascannon",
+                "1 Havoc missile launcher",
+                "1 Havoc reaper chaincannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Boltgun",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Havoc autocannon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": "3"
+        },
+        {
+            "name": "Havoc lascannon",
+            "modifiers": "",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Havoc missile launcher \u00e2\u20ac\u201c frag",
+            "modifiers": "blast",
+            "attacks": "D6",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Havoc reaper chaincannon",
+            "modifiers": "",
+            "attacks": "8",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Plasma gun \u00e2\u20ac\u201c standard",
+            "modifiers": "RAPIDFIRE1",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Accursed weapon",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Astartes chainsword",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Power fist",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

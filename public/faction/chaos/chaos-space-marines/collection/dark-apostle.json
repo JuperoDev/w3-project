@@ -1,0 +1,109 @@
+{
+    "parentUnit": "Dark Apostle",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Dark Apostles are the high priests of the Dark Gods. They preach catechisms from blasphemous texts, issuing prayers that call down the Ruinous Powers' wrath. As they crush skulls with blows from their accursed crozius, they roar profane blessings using their deadliest weapon: their voice.",
+    "keywords": [
+        "keywords \u00e2\u20ac\u201c all models: infantry",
+        "grenades",
+        "chaosdark apostle only: character",
+        "dark apostle"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 5,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Dark Zealotry:",
+                "description": "While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+            },
+            {
+                "name": "Demagogue:",
+                "description": "Once per battle, at the start of any phase , you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 9\" of this unit's DARK APOSTLE model. That unit is no longer Battle-shocked."
+            },
+            {
+                "name": "Malign Sacrifice:",
+                "description": "At the start of the Fight phase , if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound ; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Accursed crozius",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "2"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

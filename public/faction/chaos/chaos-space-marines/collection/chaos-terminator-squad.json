@@ -1,0 +1,181 @@
+{
+    "parentUnit": "Chaos Terminator Squad",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Clad in hulking, corrupted Terminator plate, each of these murderous brutes is akin to a walking tank. Spikes and horns give them a monstrous appearance, and their powerful array of heavy firepower and brutal melee weapons can tear through elite squads and war engines alike.",
+    "keywords": [
+        "infantry",
+        "chaos",
+        "terminator",
+        "chaos terminator squad"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 2,
+            "wounds": 3,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 1,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Reaper autocannon",
+            "modifiers": [
+                "devastating wounds",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Despoilers:",
+                "description": "Each time this unit makes a Dark Pact , until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "For every 5 models in this unit, 1 Terminator's combi-bolter can be replaced with one of the following",
+            "items": [
+                "1 heavy flamer",
+                "1 reaper autocannon"
+            ]
+        },
+        {
+            "description": "Any number of models can each have their combi-bolter replaced with 1 combi-weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model's combi-bolter and accursed weapon can be replaced with 1 paired accursed weapons.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, up to 3 models can each have their accursed weapon replaced with 1 power fist.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model's accursed weapon can be replaced with 1 chainfist.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Accursed weapon",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Chainfist",
+            "modifiers": "anti-vehicle3+",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Paired accursed weapons",
+            "modifiers": "twin-linked",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Power fist",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

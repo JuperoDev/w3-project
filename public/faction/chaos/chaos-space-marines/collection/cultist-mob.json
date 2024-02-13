@@ -1,0 +1,192 @@
+{
+    "parentUnit": "Cultist Mob",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Chaos Cultists are the mortal devotees of the Dark Gods, ordinary men and women fallen to promises of temporal power who take to battle in huge numbers. Bearing a motley collection of improvised, stolen and makeshift weapons, they can overwhelm even determined enemies with sheer weight of numbers.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "chaos",
+        "cultist mob"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Cultist firearm",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Cultist grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "heavy",
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Dark Pacts"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "autopistol; brutal assault weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Cultist Champion's autopistol can be replaced with 1 bolt pistol.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each have their autopistol and brutal assault weapon replaced with 1 Cultist firearm and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 10 models in this unit, 1 Chaos Cultist's autopistol and brutal assault weapon can be replaced with 1 flamer and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 10 models in this unit, 1 Chaos Cultist's autopistol and brutal assault weapon can be replaced with 1 heavy stubber and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 10 models in this unit, 1 Chaos Cultist's autopistol and brutal assault weapon can be replaced with 1 Cultist grenade launcher and 1 close combat weapon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Cultist grenade launcher \u00e2\u20ac\u201c frag",
+            "modifiers": "blast",
+            "attacks": "D3",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Brutal assault weapon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "4+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "1",
+            "weapons-skills": "4+",
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

@@ -1,0 +1,172 @@
+{
+    "parentUnit": "Fellgor Beastmen",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Beastmen are savage and embittered mutants who despise the Imperium and the civilisation of Humanity. Gathering for war in brutish herds, each is an unruly mass of flesh, fur and teeth, bristling with bestial horns and proclaiming their devotion to the Dark Gods through braying war cries, swift slaughter and violent sacrifices.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "chaos",
+        "fellgor beastmen"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Autopistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Corrupted stave",
+            "modifiers": [
+                "devastating wounds",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": "2",
+            "ballistic-skills": "4+",
+            "armor-penetration": 1,
+            "damage": "D3",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Bestial Raiders:",
+                "description": "Each time this unit declares a charge , if one or more of the targets of that charge are within range of an objective marker , add 2 to the Charge roll made for that charge."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Fellgor Champion's bolt pistol can be replaced with 1 plasma pistol.",
+            "items": []
+        },
+        {
+            "description": "1 Fellgor Beastman's close combat weapon can be replaced with 1 great weapon.",
+            "items": []
+        },
+        {
+            "description": "1 Fellgor Beastman's close combat weapon can be replaced with 1 corrupted stave.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Great weapon",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "5+",
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

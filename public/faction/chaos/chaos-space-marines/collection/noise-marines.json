@@ -1,0 +1,245 @@
+{
+    "parentUnit": "Noise Marines",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Orchestrating riotous destruction on vast scales, Noise Marines saturate the war zone with explosive bolts, clashing aural waves and extreme psychosonic attacks. These hedonistic worshippers of Slaanesh are inured to most stimuli, and seek to unleash the most cacophonous destruction to stir their jaded senses.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "chaos",
+        "slaanesh",
+        "noise marines"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Blastmaster - single frequency",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Doom siren",
+            "modifiers": [
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 1,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Sonic blaster",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Dark Pacts"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Chaos Icon:",
+                "description": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of Noise Marines can each have their boltgun replaced with one of the following",
+            "items": [
+                "1 Astartes chainsword",
+                "1 sonic blaster"
+            ]
+        },
+        {
+            "description": "1 Noise Marine's boltgun can be replaced with 1 blastmaster.",
+            "items": []
+        },
+        {
+            "description": "The Noise Champion's bolt pistol can be replaced with one of the following",
+            "items": [
+                "1 plasma pistol*",
+                "1 accursed weapon",
+                "1 Astartes chainsword",
+                "1 power fist"
+            ]
+        },
+        {
+            "description": "The Noise Champion's boltgun can be replaced with one of the following",
+            "items": [
+                "1 plasma pistol*",
+                "1 accursed weapon",
+                "1 Astartes chainsword",
+                "1 power fist",
+                "1 sonic blaster"
+            ]
+        },
+        {
+            "description": "The Noise Champion can be equipped with 1 doom siren.",
+            "items": []
+        },
+        {
+            "description": "1 model can be equipped with 1 Chaos icon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Blastmaster \u00e2\u20ac\u201c single frequency",
+            "modifiers": "heavy",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "3"
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Plasma pistol \u00e2\u20ac\u201c standard",
+            "modifiers": "pistol",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Accursed weapon",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Astartes chainsword",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Power fist",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

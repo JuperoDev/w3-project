@@ -1,0 +1,112 @@
+{
+    "parentUnit": "Exalted Champion",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These murderous champions of the Dark Gods exhort their fellow traitors by example. The fell deeds they commit and the violent bloodbaths they unleash \u00e2\u20ac\u201c ostensibly supporting their overlord's strategies \u00e2\u20ac\u201c are often wrought solely to further the Exalted Champion's own goals as they aspire to even greater glory.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "chaos",
+        "exalted champion"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "2+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Dark Champion:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "Aspire to Glory:",
+                "description": "Each time this model's unit makes a Dark Pact , until the end of the phase, add D3 to the Strength characteristic of weapons equipped by this model."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Exalted weapon",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

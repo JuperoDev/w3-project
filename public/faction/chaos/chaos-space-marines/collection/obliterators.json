@@ -1,0 +1,118 @@
+{
+    "parentUnit": "Obliterators",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Hulking, baroque meldings of Chaos Space Marine, daemon-infused armour and mutated weaponry, Obliterators are able to reshape their forms from moment to moment. Stepping directly from warp fissures into ideal firing positions, they sweep all before them with warp-tainted firestorms.",
+    "keywords": [
+        "infantry",
+        "chaos",
+        "daemon",
+        "obliterators"
+    ],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 7,
+            "salvation": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Fleshmetal guns - focused malice",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 24,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fleshmetal guns - ruinous salvo",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fleshmetal guns - warp hail",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Warp Rift Firepower:",
+                "description": "Once per battle, when this unit makes a Dark Pact , it can use this ability. If it does, until the end of the phase, ranged weapons models in this unit are equipped with have the [INDIRECT FIRE] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Crushing fists",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

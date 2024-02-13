@@ -1,0 +1,102 @@
+{
+    "parentUnit": "Haarken Worldclaimer",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Haarken is the Herald of the Apocalypse and the mouthpiece of Abaddon. He declares his master's dominion by driving his daemon touched Helspear into soon-to-be-conquered worlds, following up with vicious destruction as he leads hosts of Raptors in strikes that sow fear and confusion.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "fly",
+        "jump pack",
+        "chaos",
+        "chaos undivided",
+        "haarken worldclaimer"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Helspear",
+            "modifiers": [
+                "assault",
+                "sustained hits d3"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": "1",
+            "ballistic-skills": "2+",
+            "armor-penetration": 3,
+            "damage": "3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Head Taker:",
+                "description": "While this model is leading a unit, each time this model's unit ends a Charge move , select one enemy unit within Engagement Range of this model's unit and roll one D6 for each model in this model's unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+            },
+            {
+                "name": "Herald of the Apocalypse (Aura):",
+                "description": "While an enemy unit is within 6\" of this model, in the Battle-shock step of your opponent's Command phase , if that enemy unit is below its Starting Strength , it must take a Battle-shock test. This ability cannot cause a unit to take two Battle-shock tests in the same phase."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Herald's Talon",
+            "modifiers": "precision",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

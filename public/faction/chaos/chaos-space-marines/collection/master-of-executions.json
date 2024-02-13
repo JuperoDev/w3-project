@@ -1,0 +1,97 @@
+{
+    "parentUnit": "Master Of Executions",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These corrupted axemen are the executioners of Heretic Astartes warbands. Able to perceive the empyric soul-stuff of the foe's greatest champions, they single-mindedly seek them out in battle, bellowing a fatal decree before crashing forward and hacking through armour, flesh and bone.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "chaos",
+        "master of executions"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Warp-sighted Butcher:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength , you can re-roll the Hit roll . If that unit is Below Half-strength , you can re-roll the Wound roll as well."
+            },
+            {
+                "name": "Trophy Taker:",
+                "description": "Each time this model destroys an enemy CHARACTER model, you gain 1CP."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Axe of dismemberment",
+            "modifiers": "devastatingwounds,precision",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

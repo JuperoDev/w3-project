@@ -1,0 +1,130 @@
+{
+    "parentUnit": "Master Of Possession",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Masters of Possession are psykers who specialise in channelling daemons into living hosts; they bolster their possessed kin with empyric energies that strengthen and reinvigorate such tainted unions. In battle, they unleash daemonic forces into the foe, ripping apart their souls to channel them to greater use.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "chaos",
+        "master of possession"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Rite of Possession - witchfire",
+            "modifiers": [
+                "anti-psyker 2+",
+                "pistol",
+                "precision",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Rite of Possession - focused witchfire",
+            "modifiers": [
+                "anti-psyker 2+",
+                "hazardous",
+                "pistol",
+                "precision",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Daemonkin (Psychic):",
+                "description": "While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit, and models in that unit have the Feel No Pain 6+ ability."
+            },
+            {
+                "name": "Sacrificial Dagger:",
+                "description": "Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model's unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack , add 1 to the Hit roll and add 1 to the Wound roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Staff of possession",
+            "modifiers": "anti-psyker2+,psychic",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "D3"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

@@ -1,0 +1,86 @@
+{
+    "parentUnit": "Maulerfiend",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Maulerfiends stalk the battlefield like immense hunting beasts. Once the enemy are in sight, these huge Daemon Engines thunder forward, even scaling defensive walls in their eagerness to get at the prey. Once amongst the foe, they slaughter anything in reach with their huge talons, crushing jaws and stabbing tendrils.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "chaos",
+        "daemon",
+        "maulerfiend"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "salvation": 3,
+            "wounds": 12,
+            "leadership": 6,
+            "objectiveControl": 3,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Magma cutters",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 6,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Siege Crawler:",
+                "description": "You can re-roll Advance and Charge rolls made for this model, and you can ignore any or all modifiers to its Move characteristic and to Advance and Charge rolls made for it."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model's lasher tendrils can be replaced with 2 magma cutters.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

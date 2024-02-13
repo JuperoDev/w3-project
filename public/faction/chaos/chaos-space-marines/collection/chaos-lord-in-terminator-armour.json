@@ -1,0 +1,151 @@
+{
+    "parentUnit": "Chaos Lord In Terminator Armour",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Chaos Lords' underlings expect them to fight from the front, and few kinds of armour enable them to do so as effectively as archaic Terminator plate. Formidably resilient, such a suit protects the Lord against all but the most devastating firepower and enables him to deploy by teleportation right into the heart of the foe.",
+    "keywords": [
+        "infantry",
+        "character",
+        "chaos",
+        "terminator",
+        "chaos lord in terminator armour"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "salvation": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "2",
+            "ballistic-skills": "2+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Lord of Chaos:",
+                "description": "Once per battle round , one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+            },
+            {
+                "name": "Formidably Resilient:",
+                "description": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model's combi-bolter can be replaced with 1 combi-weapon.",
+            "items": []
+        },
+        {
+            "description": "This model's exalted weapon can be replaced with one of the following",
+            "items": [
+                "1 chainfist",
+                "1 power fist"
+            ]
+        },
+        {
+            "description": "This model's combi-bolter and exalted weapon can be replaced with 1 paired accursed weapons.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainfist",
+            "modifiers": "anti-vehicle3+",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Exalted weapon",
+            "modifiers": "",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "2"
+        },
+        {
+            "name": "Paired accursed weapons",
+            "modifiers": "twin-linked",
+            "attacks": "7",
+            "weapons-skills": "2+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Power fist",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "2+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

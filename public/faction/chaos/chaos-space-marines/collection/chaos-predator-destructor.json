@@ -1,0 +1,172 @@
+{
+    "parentUnit": "Chaos Predator Destructor",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Many Predator Destructors of the Heretic Astartes are ancient war engines whose rapid-firing heavy weaponry has unleashed destruction on battlefields dating back to the Horus Heresy. The thudding of their explosive shells resounds like a death knell as they scythe apart squads of infantry and light vehicles.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "chaos",
+        "predator destructor"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "salvation": 3,
+            "wounds": 11,
+            "leadership": 6,
+            "objectiveControl": 4,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "4+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Havoc launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": "D6",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": "3",
+            "ballistic-skills": "3+",
+            "armor-penetration": 1,
+            "damage": "2",
+            "singleChoice": false
+        },
+        {
+            "name": "Predator autocannon",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Destructor:",
+                "description": "Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 heavy bolters",
+                "2 lascannons"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "1 combi-bolter",
+                "1 combi-weapon"
+            ]
+        },
+        {
+            "description": "This model can be equipped with 1 Havoc launcher.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Lascannon",
+            "modifiers": "",
+            "attacks": "1",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Armoured tracks",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "6+",
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

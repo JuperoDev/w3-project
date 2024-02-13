@@ -1,0 +1,126 @@
+{
+    "parentUnit": "Sorcerer",
+    "factionKeywords": [
+        "heretic astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sorcerers are the Heretic Astartes' battle-psykers and warp-seers. Wielding terrifying empyric energies, with but a thought they can crush a foe's skull, curse their enemies with abhorrent hexes or hurl coruscating bolts of soul-blasting psychic power that mutate those they touch.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "grenades",
+        "chaos",
+        "sorcerer"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Infernal Gaze - witchfire",
+            "modifiers": [
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Infernal Gaze - focused witchfire",
+            "modifiers": [
+                "devastating wounds",
+                "hazardous",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Dark Pacts"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Prescience (Psychic):",
+                "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll ."
+            },
+            {
+                "name": "Gift of Chaos (Psychic):",
+                "description": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test : if that test is failed, that unit suffers D3 mortal wounds ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Force weapon",
+            "modifiers": "psychic",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "D3"
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

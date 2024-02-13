@@ -112,7 +112,7 @@
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>
-        <MobileWargear :wargear="wargear" />
+        aasas
       </div>
     </v-expansion-panel-text>
   </v-expansion-panel>

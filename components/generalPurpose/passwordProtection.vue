@@ -12,7 +12,7 @@
   
   <v-expansion-panel >
     <v-expansion-panel-title>
-      <div class="uppercase font-semibold">Ranged weapons</div>
+      <div class="uppercase font-semibold">caaaaa</div>
     </v-expansion-panel-title>
     <v-expansion-panel-text>
       <div>

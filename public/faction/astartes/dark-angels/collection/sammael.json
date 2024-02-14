@@ -1,125 +1,107 @@
 {
-  "parentUnit": "Sammael",
-  "factionKeywords": [
-    "adeptus astartes",
-    "dark angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Sammael rides to war on the jetbike Corvex, a relic from the Dark Age of Technology. Upon this ancient mount, the Ravenwing’s commander charges into the fray, storm bolters and plasma cannon causing hideous damage before he moves in for the kill with the Raven Sword, an heirloom with a razor edge that can never dull.",
-  "keywords": [
-    "mounted",
-    "character",
-    "epic hero",
-    "fly",
-    "grenades",
-    "imperium",
-    "captain",
-    "sammael"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 5,
-    "salvation": 3,
-    "wounds": 7,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Master-crafted plasma cannon",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin storm bolter",
-      "modifiers": [
-        "rapid fire 2",
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Sammael",
+    "factionKeywords": [
+        "adeptus astartes",
+        "dark angels"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sammael rides to war on the jetbike Corvex, a relic from the Dark Age of Technology. Upon this ancient mount, the Ravenwingâ€™s commander charges into the fray, storm bolters and plasma cannon causing hideous damage before he moves in for the kill with the Raven Sword, an heirloom with a razor edge that can never dull.",
+    "keywords": [
+        "mounted",
+        "character",
+        "epic hero",
+        "fly",
+        "grenades",
+        "imperium",
+        "captain",
+        "sammael"
     ],
-    "otherAbilities": [
-      {
-        "name": "Grand Master of the Ravenwing:",
-        "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced ."
-      },
-      {
-        "name": "Cut Off Their Escape:",
-        "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of this model’s unit is selected to Fall Back , models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked . When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
-      }
+    "attributes": [{
+        "movement": 12,
+        "toughness": 5,
+        "salvation": 3,
+        "wounds": 7,
+        "leadership": 6,
+        "objectiveControl": 2,
+        "invulnerableSave": 4
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "2+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Master-crafted plasma cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": "D3",
+            "ballistic-skills": "2+",
+            "armor-penetration": 3,
+            "damage": "2",
+            "singleChoice": false
+        },
+        {
+            "name": "Twin storm bolter",
+            "modifiers": [
+                "rapid fire 2",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Grand Master of the Ravenwing:",
+                "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced ."
+            },
+            {
+                "name": "Cut Off Their Escape:",
+                "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of this modelâ€™s unit is selected to Fall Back , models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked . When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "The Raven Sword",
+            "modifiers": "sustainedhits2",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Master-crafted plasma cannon",
-      "modifiers": "blast",
-      "attacks": "D3",
-      "weapons-skills": "2+",
-      "strength": 8,
-      "armor-penetration": 3,
-      "damage": "2"
-    },
-    {
-      "name": "The Raven Sword",
-      "modifiers": "sustainedhits2",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 6,
-      "armor-penetration": 3,
-      "damage": "2"
-    }
-  ]
 }

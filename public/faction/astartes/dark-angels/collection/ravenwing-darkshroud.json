@@ -1,94 +1,85 @@
 {
-  "parentUnit": "Ravenwing Darkshroud",
-  "factionKeywords": [
-    "adeptus astartes",
-    "dark angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Borne upon each Darkshroud is a mysterious statue that survived Caliban’s destruction and became imbued with the energies released by that fateful event. Through the artifice of the Dark Angels, these energies are amplified and used to obscure battle-brothers close to the Darkshroud from enemy sight.",
-  "keywords": [
-    "vehicle",
-    "fly",
-    "imperium",
-    "ravenwing darkshroud"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 8,
-    "salvation": 3,
-    "wounds": 10,
-    "leadership": 6,
-    "objectiveControl": 3,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Assault cannon",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Ravenwing Darkshroud",
+    "factionKeywords": [
+        "adeptus astartes",
+        "dark angels"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Borne upon each Darkshroud is a mysterious statue that survived Calibanâ€™s destruction and became imbued with the energies released by that fateful event. Through the artifice of the Dark Angels, these energies are amplified and used to obscure battle-brothers close to the Darkshroud from enemy sight.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "imperium",
+        "ravenwing darkshroud"
+    ],
+    "attributes": [{
+        "movement": 14,
+        "toughness": 8,
+        "salvation": 3,
+        "wounds": 10,
+        "leadership": 6,
+        "objectiveControl": 3,
+        "invulnerableSave": 5
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Assault cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": "6",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Icon of Old Caliban (Aura):",
+                "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+            }
+        ]
     },
-    {
-      "name": "Heavy bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "wargear": [
+        {
+            "description": "This modelâ€™s heavy bolter can be replaced with 1 assault cannon.",
+            "items": []
+        }
     ],
-    "faction": [
-      "Oath of Moment"
-    ],
-    "otherAbilities": [
-      {
-        "name": "Icon of Old Caliban (Aura):",
-        "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
-      }
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "4",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s heavy bolter can be replaced with 1 assault cannon.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Assault cannon",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

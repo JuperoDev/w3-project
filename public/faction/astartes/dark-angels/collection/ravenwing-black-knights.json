@@ -1,128 +1,119 @@
 {
-  "parentUnit": "Ravenwing Black Knights",
-  "factionKeywords": [
-    "adeptus astartes",
-    "dark angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Ravenwing Black Knights are the 2nd Company’s greatest warriors, elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked end punctures even the thickest armour.",
-  "keywords": [
-    "mounted",
-    "grenades",
-    "imperium",
-    "ravenwing black knights"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 5,
-    "salvation": 3,
-    "wounds": 3,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Astartes grenade launcher - frag",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma talon - standard",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma talon - supercharge",
-      "modifiers": [
-        "hazardous",
-        "rapid fire 1"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Oath of Moment"
+    "parentUnit": "Ravenwing Black Knights",
+    "factionKeywords": [
+        "adeptus astartes",
+        "dark angels"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "bolt pistol; plasma talon; Black Knight combat weapon."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Ravenwing Black Knights are the 2nd Companyâ€™s greatest warriors, elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked end punctures even the thickest armour.",
+    "keywords": [
+        "mounted",
+        "grenades",
+        "imperium",
+        "ravenwing black knights"
+    ],
+    "attributes": [{
+        "movement": 12,
+        "toughness": 5,
+        "salvation": 3,
+        "wounds": 3,
+        "leadership": 6,
+        "objectiveControl": 2,
+        "invulnerableSave": 5
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Astartes grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma talon - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma talon - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Oath of Moment"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "bolt pistol; plasma talon; Black Knight combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes grenade launcher â€“ frag",
+            "modifiers": "blast",
+            "attacks": "D3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Black Knight combat weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Astartes grenade launcher – frag",
-      "modifiers": "blast",
-      "attacks": "D3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Bolt pistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Black Knight combat weapon",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": "1"
-    }
-  ]
 }

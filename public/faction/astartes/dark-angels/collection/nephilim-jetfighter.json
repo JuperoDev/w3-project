@@ -1,131 +1,113 @@
 {
-  "parentUnit": "Nephilim Jetfighter",
-  "factionKeywords": [
-    "adeptus astartes",
-    "dark angels"
-  ],
-  "damaged": {
-    "remainingWounds": 3,
-    "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Sleek air-to-air interceptors, Nephilim Jetfighters perform lightning-fast manoeuvres in high-speed warfare. These pilots continually push the Techmarines for enhancements and modification to their craft to make them faster and deadlier – the results have proven truly substantial.",
-  "keywords": [
-    "vehicle",
-    "aircraft",
-    "fly",
-    "imperium",
-    "nephilim jetfighter"
-  ],
-  "attributes": {
-    "movement": 0,
-    "toughness": 0,
-    "salvation": 0,
-    "wounds": 0,
-    "leadership": 0,
-    "objectiveControl": 0,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Avenger mega bolter",
-      "modifiers": [
-        "sustained hits 1"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Blacksword missiles",
-      "modifiers": [
-        "anti-fly 2+"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin heavy bolter",
-      "modifiers": [
-        "sustained hits 1",
-        "twin-linked"
-      ],
-      "range": 36,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Hover"
+    "parentUnit": "Nephilim Jetfighter",
+    "factionKeywords": [
+        "adeptus astartes",
+        "dark angels"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {
+        "remainingWounds": 3,
+        "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Sleek air-to-air interceptors, Nephilim Jetfighters perform lightning-fast manoeuvres in high-speed warfare. These pilots continually push the Techmarines for enhancements and modification to their craft to make them faster and deadlier â€“ the results have proven truly substantial.",
+    "keywords": [
+        "vehicle",
+        "aircraft",
+        "fly",
+        "imperium",
+        "nephilim jetfighter"
     ],
-    "otherAbilities": [
-      {
-        "name": "Lightning-fast Manoeuvres:",
-        "description": "Each time a ranged attack targets this model, subtract 1 from the Hit roll . If that attack was made by a model that can Fly , subtract 1 from the Wound roll as well."
-      }
+    "attributes": [{
+        "movement": 0,
+        "toughness": 0,
+        "salvation": 0,
+        "wounds": 0,
+        "leadership": 0,
+        "objectiveControl": 0,
+        "invulnerableSave": 5
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Avenger mega bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": "10",
+            "ballistic-skills": "3+",
+            "armor-penetration": 1,
+            "damage": "2",
+            "singleChoice": false
+        },
+        {
+            "name": "Blacksword missiles",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 2,
+            "damage": "D6",
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Hover"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Lightning-fast Manoeuvres:",
+                "description": "Each time a ranged attack targets this model, subtract 1 from the Hit roll . If that attack was made by a model that can Fly , subtract 1 from the Wound roll as well."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This modelâ€™s avenger mega bolter can be replaced with 1 Nephilim lascannons.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Nephilim lascannons",
+            "modifiers": "",
+            "attacks": "2",
+            "weapons-skills": "3+",
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Armoured hull",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s avenger mega bolter can be replaced with 1 Nephilim lascannons.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Avenger mega bolter",
-      "modifiers": "sustainedhits1",
-      "attacks": "10",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": "2"
-    },
-    {
-      "name": "Blacksword missiles",
-      "modifiers": "anti-fly2+",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": "D6"
-    },
-    {
-      "name": "Nephilim lascannons",
-      "modifiers": "",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 12,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Armoured hull",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 6,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

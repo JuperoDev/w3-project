@@ -1,149 +1,140 @@
 {
-  "parentUnit": "Ravenwing Command Squad",
-  "factionKeywords": [
-    "adeptus astartes",
-    "dark angels"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Bike-mounted Command Squads of elite Ravenwing accompany the Chapter’s swiftest commanders. From the battle-surgery of Apothecaries and the inspirational pennants carried by Ancients to the martial excellence of Champions, these specialists provide support for the Company’s blisteringly fast missions.",
-  "keywords": [
-    "mounted",
-    "grenades",
-    "imperium",
-    "ravenwing command squad"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 5,
-    "salvation": 3,
-    "wounds": 3,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Astartes grenade launcher - frag",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma talon - standard",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Plasma talon - supercharge",
-      "modifiers": [
-        "hazardous",
-        "rapid fire 1"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Oath of Moment"
+    "parentUnit": "Ravenwing Command Squad",
+    "factionKeywords": [
+        "adeptus astartes",
+        "dark angels"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "The Ravenwing Champion is equipped with:",
-        "description": "bolt pistol; plasma talon; master-crafted power weapon."
-      },
-      {
-        "name": "The Ravenwing Apothecary is equipped with:",
-        "description": "bolt pistol; plasma talon; Black Knight combat weapon."
-      },
-      {
-        "name": "The Ravenwing Ancient is equipped with:",
-        "description": "bolt pistol; plasma talon; Black Knight combat weapon."
-      },
-      {
-        "name": "Every Ravenwing Knight is equipped with:",
-        "description": "bolt pistol; plasma talon; Black Knight combat weapon."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Bike-mounted Command Squads of elite Ravenwing accompany the Chapterâ€™s swiftest commanders. From the battle-surgery of Apothecaries and the inspirational pennants carried by Ancients to the martial excellence of Champions, these specialists provide support for the Companyâ€™s blisteringly fast missions.",
+    "keywords": [
+        "mounted",
+        "grenades",
+        "imperium",
+        "ravenwing command squad"
+    ],
+    "attributes": [{
+        "movement": 12,
+        "toughness": 5,
+        "salvation": 3,
+        "wounds": 3,
+        "leadership": 6,
+        "objectiveControl": 2,
+        "invulnerableSave": 5
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Astartes grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma talon - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma talon - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Oath of Moment"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "The Ravenwing Champion is equipped with:",
+                "description": "bolt pistol; plasma talon; master-crafted power weapon."
+            },
+            {
+                "name": "The Ravenwing Apothecary is equipped with:",
+                "description": "bolt pistol; plasma talon; Black Knight combat weapon."
+            },
+            {
+                "name": "The Ravenwing Ancient is equipped with:",
+                "description": "bolt pistol; plasma talon; Black Knight combat weapon."
+            },
+            {
+                "name": "Every Ravenwing Knight is equipped with:",
+                "description": "bolt pistol; plasma talon; Black Knight combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "For every 3 models in this unit, 1 modelâ€™s plasma talon can be replaced with 1 Astartes grenade launcher.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes grenade launcher â€“ frag",
+            "modifiers": "blast",
+            "attacks": "D3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Black Knight combat weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Master-crafted power weapon",
+            "modifiers": "",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "For every 3 models in this unit, 1 model’s plasma talon can be replaced with 1 Astartes grenade launcher.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Astartes grenade launcher – frag",
-      "modifiers": "blast",
-      "attacks": "D3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Bolt pistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Black Knight combat weapon",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": "1"
-    },
-    {
-      "name": "Master-crafted power weapon",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
 }

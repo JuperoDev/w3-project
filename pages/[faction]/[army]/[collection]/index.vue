@@ -188,18 +188,18 @@
       </v-expansion-panel>
 
       <!-- leader  -->
-      <div v-if="leader.length > 0" class="">
+      
       <v-expansion-panel>
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Leader</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          
+          <div v-if="leader.length > 0" class="">
             <MobileLeader :leader="leader" />
-          
+          </div>
         </v-expansion-panel-text>
       </v-expansion-panel> 
-    </div>
+  
       
       <!-- unit composition  -->
       <v-expansion-panel>

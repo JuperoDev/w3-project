@@ -60,10 +60,10 @@
           <div class="uppercase font-semibold">Ranged weapons</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
             
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
       
@@ -76,9 +76,9 @@
           <div class="uppercase font-semibold">Melee Weapons</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
-          </div>
+         
         </v-expansion-panel-text>
       </v-expansion-panel>
 </div>
@@ -89,9 +89,9 @@
           <div class="uppercase font-semibold">Melee Weapons</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -101,9 +101,9 @@
           <div class="uppercase font-semibold">Abilities</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileAbilities :abilities="abilities" />
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -115,9 +115,9 @@
           <div class="uppercase font-semibold">Transport</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileTransport :transport="transport" />
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -127,10 +127,10 @@
           <div class="uppercase font-semibold">Wargear Abilities</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
            
             <MobileWarGearAbilities :warGearAbilities="warGearAbilities"/>
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -142,11 +142,11 @@
           </div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileAdditionalParameter
               :additionalParameter="additionalParameter"
             />
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -156,9 +156,9 @@
           <div class="uppercase font-semibold">Supreme Commander</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <p>If this model is in your army, it must be your Warlord</p>
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -169,9 +169,9 @@
           <div class="uppercase font-semibold">Damaged: 1 - {{ damaged.remainingWounds }} wounds remaining </div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <p>{{ damaged.description }}</p>
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -181,15 +181,15 @@
           <div class="uppercase font-semibold">wargear options</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileWargear :wargear="wargear" />
-          </div>
+         
         </v-expansion-panel-text>
       </v-expansion-panel>
 
       <!-- leader  -->
 
-      <v-expansion-panel>
+      <v-expansion-panel v-if="leader.length > 0">
         <v-expansion-panel-title>
           <div class="uppercase font-semibold">Leader</div>
         </v-expansion-panel-title>
@@ -197,40 +197,6 @@
           
             <MobileLeader :leader="leader" />
           
-        </v-expansion-panel-text>
-      </v-expansion-panel> 
-
-      <v-expansion-panel v-if="leader.length > 0">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Leader</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          <div>
-            <MobileLeader :leader="leader" />
-          </div>
-        </v-expansion-panel-text>
-      </v-expansion-panel> 
-    
-
-      <v-expansion-panel v-if="leader.length > 0">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Leader</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          <div>
-            <MobileLeader :leader="leader" />
-          </div>
-        </v-expansion-panel-text>
-      </v-expansion-panel> 
-
-      <v-expansion-panel v-if="leader.length > 0">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Leader</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          <div>
-            <MobileLeader :leader="leader" />
-          </div>
         </v-expansion-panel-text>
       </v-expansion-panel> 
 
@@ -241,13 +207,13 @@
           <div class="uppercase font-semibold">unit composition</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileUnitComposition
               :options="options"
               :unitComposition="unitComposition"
               :equipment="equipment"
             />
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
 
@@ -258,12 +224,12 @@
           <div class="uppercase font-semibold">keywords</div>
         </v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div>
+          
             <MobileKeywords
               :keywords="keywords"
               :factionKeyword="factionKeyword"
             />
-          </div>
+          
         </v-expansion-panel-text>
       </v-expansion-panel>
       <!-- end panels  -->

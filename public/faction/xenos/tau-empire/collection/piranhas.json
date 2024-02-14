@@ -1,29 +1,40 @@
 {
-  "parentUnit": "Devilfish",
+  "parentUnit": "Piranhas",
   "factionKeywords": [
     "t’au empire"
   ],
   "damaged": {},
   "supremeCommander": false,
-  "lore": "The ubiquitous armoured transport of the Fire Caste, the Devilfish is an iconic symbol of T’au military expansion. Tough and surprisingly agile, it bears Fire Warriors safely into battle with impressive speed. Once there, its burst cannons and detachable drones or missile systems provide its passengers with additional fire support.",
+  "lore": "Streaking ahead of the main T’au forces, squadrons of these light combat skimmers rake targets of opportunity with salvoes of heavy firepower. They can further detach entire squadrons of drones to sow mayhem behind enemy lines before they redock, increasing the havoc the Piranhas can cause or covering their swift retreat.",
   "keywords": [
     "vehicle",
     "fly",
-    "transport",
-    "dedicated transport",
-    "devilfish"
+    "piranha"
   ],
   "attributes": [{
-    "movement": 12,
-    "toughness": 9,
-    "salvation": 3,
-    "wounds": 13,
+    "movement": 14,
+    "toughness": 7,
+    "salvation": 4,
+    "wounds": 7,
     "leadership": 7,
     "objectiveControl": 2,
     "invulnerableSave": 0
   }],
   "leader": [],
   "rangedWeapons": [
+    {
+      "name": "Piranha fusion blaster",
+      "modifiers": [
+        "melta 4"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
     {
       "name": "Seeker missile",
       "modifiers": [
@@ -40,24 +51,10 @@
     {
       "name": "Twin pulse carbine",
       "modifiers": [
-        "assault",
-        "twin-linked"
+        "twin-linked",
+        "assault"
       ],
       "range": 20,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin smart missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
       "strength": 5,
       "attacks": 2,
       "ballistic-skills": 3,
@@ -68,7 +65,8 @@
   ],
   "abilities": {
     "core": [
-      "Deadly Demise D3"
+      "Deadly Demise 1",
+      "Scouts 9\""
     ],
     "faction": [],
     "otherAbilities": [
@@ -80,11 +78,11 @@
   },
   "wargear": [
     {
-      "description": "This model’s 2 twin pulse carbines can be replaced with 2 twin smart missile systems.",
+      "description": "Any number of models can each have their Piranha burst cannon can be replaced with 1 Piranha fusion blaster.",
       "items": []
     },
     {
-      "description": "This model can be equipped with up to 2 seeker missiles.",
+      "description": "Any number of models can each be equipped with up to 2 seeker missiles.",
       "items": []
     }
   ]

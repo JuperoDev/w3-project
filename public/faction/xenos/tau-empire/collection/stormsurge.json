@@ -1,164 +1,193 @@
 {
-    "parentUnit": "Stormsurge",
-    "factionKeyword": [
-        "t’au empire"
-    ],
-    "damaged": {
-        "remainingWounds": 5,
-        "description": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
+  "parentUnit": "Stormsurge",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "These vast ballistic suits are ponderous by T’au standards, borne into battle beneath Manta Gunships. Yet even a single such walking gun-tower is equal to the mightiest fortress, anchoring the T’au lines while their crews unleash apocalyptic firestorms with the potential to eradicate entire armies of foes.",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "titanic",
+    "towering",
+    "stormsurge"
+  ],
+  "attributes": [{
+    "movement": 8,
+    "toughness": 11,
+    "salvation": 2,
+    "wounds": 20,
+    "leadership": 7,
+    "objectiveControl": 6,
+    "invulnerableSave": 4
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Cluster rocket system",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
     },
-    "supremeCommander": false,
-    "lore": "These vast ballistic suits are ponderous by T’au standards, borne into battle beneath Manta Gunships. Yet even a single such walking gun-tower is equal to the mightiest fortress, anchoring the T’au lines while their crews unleash apocalyptic firestorms with the potential to eradicate entire armies of foes.",
-    "keywords": [
-        "vehicle",
-        "walker",
-        "titanic",
-        "towering",
-        "stormsurge"
-    ],
-    "attributes": [],
-    "leader": [],
-    "rangedWeapons": [
-        {
-            "name": "Cluster rocket system",
-            "modifiers": [
-                "blast",
-                "heavy"
-            ],
-            "range": 48,
-            "strength": 5,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Destroyer missiles",
-            "modifiers": [
-                "heavy"
-            ],
-            "range": 72,
-            "strength": 16,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Pulse blast cannon - focused",
-            "modifiers": [
-                "heavy"
-            ],
-            "range": 24,
-            "strength": 24,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Pulse blast cannon - dispersed",
-            "modifiers": [
-                "heavy"
-            ],
-            "range": 48,
-            "strength": 10,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Pulse driver cannon",
-            "modifiers": [
-                "blast",
-                "heavy"
-            ],
-            "range": 72,
-            "strength": 12,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Twin airbursting fragmentation projector",
-            "modifiers": [
-                "blast",
-                "heavy",
-                "indirect fire",
-                "twin-linked"
-            ],
-            "range": 24,
-            "strength": 3,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Twin burst cannon",
-            "modifiers": [
-                "heavy",
-                "twin-linked"
-            ],
-            "range": 18,
-            "strength": 5,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Twin smart missile system",
-            "modifiers": [
-                "heavy",
-                "indirect fire",
-                "twin-linked"
-            ],
-            "range": 30,
-            "strength": 5,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        },
-        {
-            "name": "Twin T’au flamer",
-            "modifiers": [
-                "ignores cover",
-                "torrent",
-                "twin-linked"
-            ],
-            "range": 12,
-            "strength": 4,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        }
-    ],
-    "abilities": {
-        "core": [
-            "Deadly Demise D6+2"
-        ],
-        "faction": [
-            "For the Greater Good"
-        ],
-        "otherAbilities": {
-            "Heavy Walker:": "Each time this model makes a Normal , Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
-            "Support System:": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll .",
-            "Titan-killer:": "Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll ."
-        }
+    {
+      "name": "Destroyer missiles",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 72,
+      "strength": 16,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
     },
-    "additionalParameter": {}
+    {
+      "name": "Pulse blast cannon - focused",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 24,
+      "strength": 24,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Pulse blast cannon - dispersed",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 48,
+      "strength": 10,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Pulse driver cannon",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 72,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin airbursting fragmentation projector",
+      "modifiers": [
+        "blast",
+        "heavy",
+        "indirect fire",
+        "twin-linked"
+      ],
+      "range": 24,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin burst cannon",
+      "modifiers": [
+        "heavy",
+        "twin-linked"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin smart missile system",
+      "modifiers": [
+        "heavy",
+        "indirect fire",
+        "twin-linked"
+      ],
+      "range": 30,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Twin T’au flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent",
+        "twin-linked"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6+2"
+    ],
+    "faction": [
+      "For the Greater Good"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Heavy Walker:",
+        "description": "Each time this model makes a Normal , Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+      },
+      {
+        "name": "Support System:",
+        "description": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll ."
+      },
+      {
+        "name": "Titan-killer:",
+        "description": "Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s pulse driver cannon can be replaced with 1 pulse blast cannon.",
+      "items": []
+    },
+    {
+      "description": "This model’s twin T’au flamer can be replaced with one of the following",
+      "items": [
+        "1 twin airbursting fragmentation projector",
+        "1 twin burst cannon"
+      ]
+    }
+  ]
 }

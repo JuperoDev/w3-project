@@ -1,45 +1,73 @@
 {
-    "parentUnit": "Stealth Battlesuits",
-    "factionKeyword": [
-        "t’au empire"
+  "parentUnit": "Stealth Battlesuits",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A comparatively lightweight and specialist mark of battlesuit, the XV25 conceals its pilot behind fields of sensor-baffling stealth technology. Benefiting from jet-assisted speed and impressive firepower, these teams make excellent forward operatives who can deploy homing beacons to guide entire insertion forces into battle from low orbit.",
+  "keywords": [
+    "infantry",
+    "fly",
+    "battlesuit",
+    "stealth"
+  ],
+  "attributes": [{
+    "movement": 8,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 2,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Fusion blaster",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Stealth"
     ],
-    "damaged": {},
-    "supremeCommander": false,
-    "lore": "A comparatively lightweight and specialist mark of battlesuit, the XV25 conceals its pilot behind fields of sensor-baffling stealth technology. Benefiting from jet-assisted speed and impressive firepower, these teams make excellent forward operatives who can deploy homing beacons to guide entire insertion forces into battle from low orbit.",
-    "keywords": [
-        "infantry",
-        "fly",
-        "battlesuit",
-        "stealth"
+    "faction": [
+      "For the Greater Good"
     ],
-    "attributes": [],
-    "leader": [],
-    "rangedWeapons": [
-        {
-            "name": "Fusion blaster",
-            "modifiers": [
-                "melta 2"
-            ],
-            "range": 12,
-            "strength": 9,
-            "attacks": 0,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 0,
-            "singleChoice": false
-        }
-    ],
-    "abilities": {
-        "core": [
-            "Infiltrators",
-            "Stealth"
-        ],
-        "faction": [
-            "For the Greater Good"
-        ],
-        "otherAbilities": {
-            "Forward Observers:": "Each time this unit is an Observer unit , until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit , re-roll a Wound roll of 1."
-        }
+    "otherAbilities": [
+      {
+        "name": "Forward Observers:",
+        "description": "Each time this unit is an Observer unit , until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit , re-roll a Wound roll of 1."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Stealth Shas’vre can be equipped with up to two of the following, and can take duplicates",
+      "items": [
+        "1 gun drone",
+        "1 marker drone",
+        "1 shield drone"
+      ]
     },
-    "additionalParameter": {}
+    {
+      "description": "For every 3 models in the unit, 1 model’s burst cannon can be replaced with 1 fusion blaster.",
+      "items": []
+    },
+    {
+      "description": "For every 3 models in the unit, 1 model can be equipped with 1 battlesuit support system.",
+      "items": []
+    }
+  ]
 }

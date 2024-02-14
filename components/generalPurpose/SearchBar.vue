@@ -110,7 +110,7 @@ watch(selected, (newValue) => {
   }
     .custom-select {
       position: relative;
-      width: 100%; /* adjust width as needed */
+      width: 80%; /* adjust width as needed */
       max-width: 600px;
       
     }

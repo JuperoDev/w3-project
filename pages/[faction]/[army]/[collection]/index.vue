@@ -169,7 +169,7 @@
             <div v-if="leader.length > 0" class="">
               <MobileLeader :leader="leader" />
             </div>
-            <div class="" v-else-if="condition">
+            <div v-else>
               <p>This unit cannot be attached as leader</p>
             </div>
           </v-expansion-panel-text>

@@ -1,0 +1,132 @@
+{
+  "parentUnit": "Ravenwing Land Speeder Vengeance",
+  "factionKeywords": [
+    "adeptus astartes",
+    "dark angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "With a larger chassis and superior anti-gravity engines, the Land Speeder Vengeance can mount heavier weaponry than other Land Speeders, and is thus fitted with a plasma storm battery. In battle, it uses this to deliver devastating firepower while keeping pace with even the fastest Ravenwing ground vehicles.",
+  "keywords": [
+    "vehicle",
+    "fly",
+    "imperium",
+    "ravenwing land speeder vengeance"
+  ],
+  "attributes": {
+    "movement": 14,
+    "toughness": 8,
+    "salvation": 3,
+    "wounds": 10,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Assault cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma storm battery - standard",
+      "modifiers": [
+        "blast",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma storm battery - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous",
+        "twin-linked"
+      ],
+      "range": 36,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Storm of Vengeance:",
+        "description": "Once per turn, in your opponent’s Shooting phase , when a friendly Adeptus Astartes unit within 6\" of this model is destroyed, this model can use this ability (it cannot use this ability when it is itself destroyed). If it does, after the attacking unit has finished making its attacks, this model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s heavy bolter can be replaced with 1 assault cannon.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Assault cannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "parentUnit": "Lazarus",
+  "factionKeywords": [
+    "adeptus astartes",
+    "dark angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Master Lazarus wields his sword, Enmity’s Edge, with all the martial skill expected of a Dark Angels Company Master. In even the most ferocious fighting he exhibits a calm demeanour, maintaining composure while giving masterful orders that have yielded great victories.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "captain",
+    "lazarus"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Intractable Will:",
+        "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+      },
+      {
+        "name": "The Spiritshield Helm:",
+        "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Enmity’s Edge",
+      "modifiers": "anti-psyker2+",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 3,
+      "damage": "2"
+    }
+  ]
+}

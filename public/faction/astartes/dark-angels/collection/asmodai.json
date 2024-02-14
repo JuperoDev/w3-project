@@ -1,0 +1,88 @@
+{
+  "parentUnit": "Asmodai",
+  "factionKeywords": [
+    "adeptus astartes",
+    "dark angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Asmodai is the Dark Angels’ most successful Interrogator-Chaplain. Relentless and humourless, in battle he incites his battle-brothers’ fighting spirit to reach new heights, rendering them unstoppable killing machines by chanting his litanies of hate with unshakeable belief.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "grenades",
+    "imperium",
+    "chaplain",
+    "asmodai"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 5,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Exemplar of Hate:",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll ."
+      },
+      {
+        "name": "Feared Interrogator:",
+        "description": "At the start of the Fight phase , each enemy CHARACTER unit within 6\" of this model must take a Battle-shock test , subtracting 1 from that test when they do. In addition, each time this model destroys an enemy CHARACTER model with a melee attack, you gain 1CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Blades of Reason",
+      "modifiers": "anti-character2+,extraattacks,precision",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Crozius arcanum",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ]
+}

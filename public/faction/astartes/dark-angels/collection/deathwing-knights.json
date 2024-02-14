@@ -1,0 +1,67 @@
+{
+  "parentUnit": "Deathwing Knights",
+  "factionKeywords": [
+    "adeptus astartes",
+    "dark angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Deathwing Knights are the Chapter’s ultimate death-dealers, their strikes breaking the enemy’s back in one fell swoop. Equipped with heirloom wargear, they teleport into the heart of the thickest fighting, led by Knight Masters who are whirlwinds of deathly destruction.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "terminator",
+    "deathwing knights"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 2,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Inner Circle:",
+        "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This unit can be equipped with 1 Watcher in the Dark.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Flail of the Unforgiven",
+      "modifiers": "devastatingwounds,sustainedhits1",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Mace of absolution",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "3"
+    }
+  ]
+}

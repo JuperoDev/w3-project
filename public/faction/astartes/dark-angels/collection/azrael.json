@@ -1,0 +1,82 @@
+{
+  "parentUnit": "Azrael",
+  "factionKeywords": [
+    "adeptus astartes",
+    "dark angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Azrael is a beacon of inspiration to those who follow him, and is paid enormous respect for his ability as a strategist. A masterful commander, he quickly grasps changing battlefield realities and orchestrates his forces to maximum advantage. In the fray, Azrael decapitates foes with every strike of the Sword of Secrets.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "chapter master",
+    "azrael"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 2,
+    "wounds": 6,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Lion’s Wrath",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Supreme Grand Master:",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Masterful Tactician:",
+        "description": "At the start of your Command phase , if this model is on the battlefield, you gain 1CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "The Sword of Secrets",
+      "modifiers": "devastatingwounds",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 4,
+      "damage": "2"
+    }
+  ]
+}

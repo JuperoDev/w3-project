@@ -1,0 +1,231 @@
+{
+  "parentUnit": "Deathwing Terminator Squad",
+  "factionKeywords": [
+    "adeptus astartes",
+    "dark angels"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Deploying rapidly onto the battlefield via blazing teleport strike or within the armoured hull of a large transport, Deathwing Terminator Squads pour heavy fire into their enemies or engage them in brutal melee, smashing them apart with thunder hammers or cutting them to ribbons with lightning claws.",
+  "keywords": [
+    "infantry",
+    "imperium",
+    "terminator",
+    "deathwing terminator squad"
+  ],
+  "attributes": {
+    "movement": 5,
+    "toughness": 5,
+    "salvation": 2,
+    "wounds": 3,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Assault cannon",
+      "modifiers": [
+        "devastating wounds"
+      ],
+      "range": 24,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Cyclone missile launcher - frag",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - standard",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Deathwing:",
+        "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll . In addition, each time a model in this unit makes an attack that targets the enemy unit you selected at the start of your Command phase for the Oath of Moment ability, add 1 to the Hit roll."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "Any number of Deathwing Terminators can each have their storm bolter and power fist replaced with one of the following",
+      "items": [
+        "1 twin lightning claws",
+        "1 thunder hammer and 1 storm shield"
+      ]
+    },
+    {
+      "description": "Any number of Deathwing Terminators can each have their power fist replaced with 1 chainfist.",
+      "items": []
+    },
+    {
+      "description": "For every 5 models in this unit, 1 Deathwing Terminator can replace its storm bolter with one of the following",
+      "items": [
+        "1 assault cannon",
+        "1 heavy flamer",
+        "1 plasma cannon",
+        "1 storm bolter and 1 cyclone missile launcher (this model’s storm bolter cannot be replaced)"
+      ]
+    },
+    {
+      "description": "This unit can be equipped with 1 Watcher in the Dark.*.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Assault cannon",
+      "modifiers": "devastatingwounds",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Cyclone missile launcher – frag",
+      "modifiers": "blast",
+      "attacks": "2D6",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy flamer",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Plasma cannon – standard",
+      "modifiers": "blast",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Chainfist",
+      "modifiers": "anti-vehicle3+",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Thunder hammer",
+      "modifiers": "devastatingwounds",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Twin lightning claws",
+      "modifiers": "twin-linked",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

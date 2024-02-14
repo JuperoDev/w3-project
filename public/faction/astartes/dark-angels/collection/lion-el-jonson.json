@@ -1,0 +1,86 @@
+{
+  "parentUnit": "Lion El’jonson",
+  "factionKeywords": [
+    "adeptus astartes",
+    "dark angels"
+  ],
+  "damaged": {},
+  "supremeCommander": true,
+  "lore": "Lion El’Jonson stalks from mist-wreathed shadow realms like an ancient questing knight hunting down the galaxy’s terrors. With the immense blade, Fealty, the Primarch cleaves apart the most heinous of monstrosities, while the Emperor’s Shield erupts in blazes of light and force in response to his foes’ savage blows.",
+  "keywords": [
+    "monster",
+    "character",
+    "epic hero",
+    "imperium",
+    "primarch",
+    "lion el’jonson"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 9,
+    "salvation": 2,
+    "wounds": 10,
+    "leadership": 5,
+    "objectiveControl": 4,
+    "invulnerableSave": 3
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Arma Luminis - bolt",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Arma Luminis - plasma",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Fights First"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "No Hiding From the Watchers (Aura):",
+        "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Fealty – strike",
+      "modifiers": "lethalhits",
+      "attacks": "8",
+      "weapons-skills": "2+",
+      "strength": 12,
+      "armor-penetration": 4,
+      "damage": "4"
+    }
+  ]
+}

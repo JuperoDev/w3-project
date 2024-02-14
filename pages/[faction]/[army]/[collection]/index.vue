@@ -1,255 +1,220 @@
 <template>
   <div>
-     <!-- <GeneralPurposePasswordProtection>  -->
-     <NavbarComponentsButtonGrid /> 
+    <!-- <GeneralPurposePasswordProtection>  -->
+    <NavbarComponentsButtonGrid />
     <!-- {{ urlStore }} -->
     <!--  desktop datasheet  -->
-    <div class="desktop-datasheet-container  max-lg:hidden">
-     
-    <DesktopDatasheet
-    :parentUnit="parentUnit" 
-    :urlStore="urlStore"
-      :armyUnit="armyUnit"
-      :keywords="keywords"
-      :factionKeyword="factionKeyword"
-      :meleeWeapons="meleeWeapons"
-      :rangedWeapons="rangedWeapons"
-      :additionalParameter="additionalParameter"
-      :attributes="attributes"
-      :wargear="wargear"
-      :leader="leader"
-      :abilities="abilities"
-      :supremeCommander="supremeCommander"
-      :options="options"
-      :unitComposition="unitComposition"
-      :equipment="equipment"
-      :damaged="damaged"
-      :warGearAbilities="warGearAbilities"
-      :transport="transport"
-    />
-  </div>
-
+    <div class="desktop-datasheet-container max-lg:hidden">
+      <DesktopDatasheet
+        :parentUnit="parentUnit"
+        :urlStore="urlStore"
+        :armyUnit="armyUnit"
+        :keywords="keywords"
+        :factionKeyword="factionKeyword"
+        :meleeWeapons="meleeWeapons"
+        :rangedWeapons="rangedWeapons"
+        :additionalParameter="additionalParameter"
+        :attributes="attributes"
+        :wargear="wargear"
+        :leader="leader"
+        :abilities="abilities"
+        :supremeCommander="supremeCommander"
+        :options="options"
+        :unitComposition="unitComposition"
+        :equipment="equipment"
+        :damaged="damaged"
+        :warGearAbilities="warGearAbilities"
+        :transport="transport"
+      />
+    </div>
 
     <!-- end desktop datasheet  -->
 
     <!-- MOBILE  -->
 
+    <div class="mobile-datasheet lg:hidden">
+      <div
+        class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
+      >
+        <h1>
+          {{ parentUnit }}
+          <GeneralPurposeFavIcon
+            :parentUnit="parentUnit"
+            :urlStore="urlStore"
+          />
+        </h1>
+      </div>
 
-<div class="mobile-datasheet lg:hidden">
+      <MobileAttributes :attributes="attributes" />
+      <!-- v panels  -->
 
-    <div
-      class="army-unit-container uppercase text-4xl font-bebas px-5 py-3 flex justify-center items-center text-zinc-200 bg-zinc-900"
-    >
-      
-      <h1>{{ parentUnit }}
-        <GeneralPurposeFavIcon :parentUnit="parentUnit" :urlStore="urlStore"/></h1>
-    </div>
+      <v-expansion-panels>
+        <!-- Ranged weapons -->
 
-    <MobileAttributes :attributes="attributes" />
-<!-- v panels  -->
-
-<v-expansion-panels>
-  
-
-
-      <!-- Ranged weapons -->
-    
-      
-      <v-expansion-panel v-if="rangedWeapons && rangedWeapons.length > 0">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Ranged weapons</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <v-expansion-panel v-if="rangedWeapons && rangedWeapons.length > 0">
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">Ranged weapons</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <MobileRangedWeapons :rangedWeapons="rangedWeapons" />
-            
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
-      
-      <!-- Melee weapons  -->
-      
-<div class="hidden">
-  <!-- Does not makes sense to fix vuetify bug like this but DO NOT REMOVE  -->
-  <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Melee Weapons</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
-            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
-         
-        </v-expansion-panel-text>
-      </v-expansion-panel>
-</div>
-     
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-      <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Melee Weapons</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
-            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+        <!-- Melee weapons  -->
 
-      <!-- Abilities  -->
-      <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Abilities</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <div class="hidden">
+          <!-- Does not makes sense to fix vuetify bug like this but DO NOT REMOVE  -->
+          <v-expansion-panel>
+            <v-expansion-panel-title>
+              <div class="uppercase font-semibold">Melee Weapons</div>
+            </v-expansion-panel-title>
+            <v-expansion-panel-text>
+              <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+            </v-expansion-panel-text>
+          </v-expansion-panel>
+        </div>
+
+        <v-expansion-panel>
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">Melee Weapons</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+
+        <!-- Abilities  -->
+        <v-expansion-panel>
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">Abilities</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <MobileAbilities :abilities="abilities" />
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-    
-
-      <!-- Transport  -->
-      <v-expansion-panel v-if="transport">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Transport</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <!-- Transport  -->
+        <v-expansion-panel v-if="transport">
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">Transport</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <MobileTransport :transport="transport" />
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-      <!-- Wargear Abilities -->
-      <v-expansion-panel v-if="warGearAbilities">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Wargear Abilities</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
-           
-            <MobileWarGearAbilities :warGearAbilities="warGearAbilities"/>
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+        <!-- Wargear Abilities -->
+        <v-expansion-panel v-if="warGearAbilities">
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">Wargear Abilities</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-      <!-- Additional Parameter -->
-      <v-expansion-panel v-if="hasAdditionalParameter">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">
-            {{ additionalParameter.title }}
-          </div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <!-- Additional Parameter -->
+        <v-expansion-panel v-if="hasAdditionalParameter">
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">
+              {{ additionalParameter.title }}
+            </div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <MobileAdditionalParameter
               :additionalParameter="additionalParameter"
             />
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-      <!-- Supreme Commander -->
-      <v-expansion-panel v-if="supremeCommander">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Supreme Commander</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <!-- Supreme Commander -->
+        <v-expansion-panel v-if="supremeCommander">
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">Supreme Commander</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <p>If this model is in your army, it must be your Warlord</p>
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-
-            <!-- Damaged -->
-            <v-expansion-panel v-if="hasDamaged">
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Damaged: 1 - {{ damaged.remainingWounds }} wounds remaining </div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <!-- Damaged -->
+        <v-expansion-panel v-if="hasDamaged">
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">
+              Damaged: 1 - {{ damaged.remainingWounds }} wounds remaining
+            </div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <p>{{ damaged.description }}</p>
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-      <!-- Wargear Options  -->
-      <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">wargear options</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <!-- Wargear Options  -->
+        <v-expansion-panel>
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">wargear options</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <MobileWargear :wargear="wargear" />
-         
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-      <!-- leader  -->
-      <div v-if="leader.length > 0" style="width: 100%;"> 
-      <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">Leader</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          <div v-if="leader.length > 0" class="">
-            <MobileLeader :leader="leader" />
-          </div>
-        </v-expansion-panel-text>
-      </v-expansion-panel> 
- </div> 
-      
-      <!-- unit composition  -->
-      <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">unit composition</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <!-- leader  -->
+
+        <v-expansion-panel>
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">Leader</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <div v-if="leader.length > 0" class="">
+              <MobileLeader :leader="leader" />
+            </div>
+            <div class="" v-else-if="condition">
+              <p>This unit cannot be attached as leader</p>
+            </div>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+
+        <!-- unit composition  -->
+        <v-expansion-panel>
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">unit composition</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <MobileUnitComposition
               :options="options"
               :unitComposition="unitComposition"
               :equipment="equipment"
             />
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
 
-    
-      <!-- keywords  -->
-      <v-expansion-panel>
-        <v-expansion-panel-title>
-          <div class="uppercase font-semibold">keywords</div>
-        </v-expansion-panel-title>
-        <v-expansion-panel-text>
-          
+        <!-- keywords  -->
+        <v-expansion-panel>
+          <v-expansion-panel-title>
+            <div class="uppercase font-semibold">keywords</div>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
             <MobileKeywords
               :keywords="keywords"
               :factionKeyword="factionKeyword"
             />
-          
-        </v-expansion-panel-text>
-      </v-expansion-panel>
-      <!-- end panels  -->
-    </v-expansion-panels>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <!-- end panels  -->
+      </v-expansion-panels>
 
-   
-<!-- v panels end  -->
-    <MobileLore :lore="lore" />
-  </div>
+      <!-- v panels end  -->
+      <MobileLore :lore="lore" />
+    </div>
 
-
- <!-- </GeneralPurposePasswordProtection> -->
-
+    <!-- </GeneralPurposePasswordProtection> -->
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-
 
 // params
 const route = useRoute();
@@ -273,29 +238,23 @@ const unitComposition = ref([]);
 const equipment = ref([]);
 const options = ref([]);
 const supremeCommander = ref(false);
-const damaged = ref ({});
-const warGearAbilities = ref ({});
-const transport = ref ("")
+const damaged = ref({});
+const warGearAbilities = ref({});
+const transport = ref("");
 
 //url fetcher for store
-const urlStore = `/faction/${faction}/${army}/collection/${armyUnit}`
-
+const urlStore = `/faction/${faction}/${army}/collection/${armyUnit}`;
 
 // Check if additionalParameter is not an empty object
 const hasAdditionalParameter = computed(() => {
-  
   return Object.keys(additionalParameter.value).length > 0;
 });
 
 // Check if damaged is not an empty object
 
 const hasDamaged = computed(() => {
-  
   return Object.keys(damaged.value).length > 0;
 });
-
-
-
 
 // json fetcher
 onMounted(async () => {
@@ -306,7 +265,7 @@ onMounted(async () => {
     const unitData = await res.json();
     attributes.value = unitData.attributes;
     lore.value = unitData.lore;
-    transport.value=unitData.transport;
+    transport.value = unitData.transport;
     parentUnit.value = unitData.parentUnit;
     leader.value = unitData.leader;
     rangedWeapons.value = unitData.rangedWeapons;
@@ -330,14 +289,9 @@ onMounted(async () => {
   }
 });
 
-
-
-
 // Set document title and meta description based on armyUnit
 onMounted(() => {
   document.title = `${armyUnit} Datasheet`;
   // Set meta description
-  
 });
 </script>
-

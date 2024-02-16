@@ -1,230 +1,185 @@
 {
-  "parentUnit": "Primaris Crusader Squad",
-  "factionKeywords": [
-    "adeptus astartes",
-    "black templars"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Infused with the posthuman might of the Primaris miracle, these Crusader Squads storm into battle with bolt rifles blazing and Astartes chainswords howling. Initiates aim jets of fire from their pyreblasters or swing crackling power fists into their foes, while hard-eyed Neophytes fight furiously to prove their martial worth.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "imperium",
-    "tacticus",
-    "primaris crusader squad"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 4,
-    "salvation": 4,
-    "wounds": 2,
-    "leadership": 6,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Bolt rifle",
-      "modifiers": [
-        "assault",
-        "heavy"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Heavy bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Neophyte firearm",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 18,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pyre pistol",
-      "modifiers": [
-        "ignores cover",
-        "pistol",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pyreblaster",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Scouts 6\""
+    "parentUnit": "Primaris Crusader Squad",
+    "factionKeywords": [
+        "adeptus astartes",
+        "black templars"
     ],
-    "faction": [
-      "Oath of Moment"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Infused with the posthuman might of the Primaris miracle, these Crusader Squads storm into battle with bolt rifles blazing and Astartes chainswords howling. Initiates aim jets of fire from their pyreblasters or swing crackling power fists into their foes, while hard-eyed Neophytes fight furiously to prove their martial worth.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "primaris crusader squad"
     ],
-    "otherAbilities": [
-      {
-        "name": "Righteous Zeal:",
-        "description": "You can re-roll Advance and Charge rolls made for this unit."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 4,
+        "salvation": 4,
+        "wounds": 2,
+        "leadership": 6,
+        "objectiveControl": 2,
+        "invulnerableSave": 0
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt rifle",
+            "modifiers": [
+                "assault",
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 1,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": "1",
+            "ballistic-skills": "3+",
+            "armor-penetration": 1,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Neophyte firearm",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": "2",
+            "ballistic-skills": "3+",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Pyre pistol",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": "1",
+            "singleChoice": false
+        },
+        {
+            "name": "Pyreblaster",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Righteous Zeal:",
+                "description": "You can re-roll Advance and Charge rolls made for this unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of Primaris Initiates can each have their bolt rifle replaced with 1 heavy bolt pistol and 1 Astartes chainsword.",
+            "items": []
+        },
+        {
+            "description": "Any number of Primaris Neophytes can each have their bolt pistol and Astartes chainsword replaced with 1 Neophyte firearm and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "For every 10 models in this unit, up to 2 Primaris Initiates can each have their bolt rifle replaced with one of the following",
+            "items": [
+                "1 heavy bolt pistol and 1 power fist",
+                "1 pyreblaster"
+            ]
+        },
+        {
+            "description": "The Primaris Sword Brother's heavy bolt pistol can be replaced with 1 pyre pistol.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": "",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": "1"
+        },
+        {
+            "name": "Power fist",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of Primaris Initiates can each have their bolt rifle replaced with 1 heavy bolt pistol and 1 Astartes chainsword.",
-      "items": []
-    },
-    {
-      "description": "Any number of Primaris Neophytes can each have their bolt pistol and Astartes chainsword replaced with 1 Neophyte firearm and 1 close combat weapon.",
-      "items": []
-    },
-    {
-      "description": "For every 10 models in this unit, up to 2 Primaris Initiates can each have their bolt rifle replaced with one of the following",
-      "items": [
-        "1 heavy bolt pistol and 1 power fist",
-        "1 pyreblaster"
-      ]
-    },
-    {
-      "description": "The Primaris Sword Brother’s heavy bolt pistol can be replaced with 1 pyre pistol.",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Bolt rifle",
-      "modifiers": "assault,heavy",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Heavy bolt pistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Neophyte firearm",
-      "modifiers": "assault",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Pyre pistol",
-      "modifiers": "ignorescover,pistol,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Astartes chainsword",
-      "modifiers": "",
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Power weapon",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": "1"
-    },
-    {
-      "name": "Power fist",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
 }

@@ -1,0 +1,196 @@
+{
+  "parentUnit": "Black Templars Gladiator Lancer",
+  "factionKeywords": [
+    "adeptus astartes",
+    "black templars"
+  ],
+  "damaged": {
+    "remainingWounds": 4,
+    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "With pinpoint accuracy, the Gladiator Lancer picks off the heaviest enemy armour, laser destroyer punching smouldering holes in their hulls. Such is the range of its heavy cannon that it can eliminate threats to the Space Marines before they encounter them, storming past burning wrecks to claim their objectives.",
+  "keywords": [
+    "vehicle",
+    "smoke",
+    "imperium",
+    "gladiator lancer"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 10,
+    "salvation": 3,
+    "wounds": 12,
+    "leadership": 6,
+    "objectiveControl": 3,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Icarus rocket pod",
+      "modifiers": [
+        "anti-fly 2+"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "modifiers": [
+        "rapid fire 3"
+      ],
+      "range": 36,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Lancer laser destroyer",
+      "modifiers": [
+        "heavy"
+      ],
+      "range": 72,
+      "strength": 14,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Storm bolter",
+      "modifiers": [
+        "rapid fire 2"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Aquilon Optics:",
+        "description": "Each time this model is selected to shoot, you can re-roll one Hit roll , you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with 1 Icarus rocket pod.",
+      "items": []
+    },
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 ironhail heavy stubber",
+        "1 multi-melta"
+      ]
+    },
+    {
+      "description": "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Fragstorm grenade launcher",
+      "modifiers": "blast",
+      "attacks": "D6",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Icarus rocket pod",
+      "modifiers": "anti-fly2+",
+      "attacks": "D3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "modifiers": "rapidfire3",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Lancer laser destroyer",
+      "modifiers": "heavy",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 14,
+      "armor-penetration": 4,
+      "damage": "D6+3"
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": "melta2",
+      "attacks": "2",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Armoured hull",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

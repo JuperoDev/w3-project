@@ -1,14 +1,79 @@
 {
-    "parentUnit": "the emperor’s champion",
-    "attributes": [
-        {
-            "movement": 6,
-            "toughness": 4,
-            "save": 2,
-            "wounds": 5,
-            "leadership": 6,
-            "objetiveControl": 1,
-            "invulnerableSave": 4
-        }
+  "parentUnit": "The Emperor’s Champion",
+  "factionKeywords": [
+    "adeptus astartes",
+    "black templars"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A humble warrior touched by greatness, the Emperor’s Champion strides to battle wreathed in divine light. The furious blows of the enemy ring from his nigh-impenetrable Armour of Faith. In return, the Emperor’s Champion seeks out the leaders of the foe and, with sweeping blows from his Black Sword, strikes them down.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "the emperor’s champion"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 2,
+    "wounds": 5,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Skilful Parry:",
+        "description": "Once per phase, when a melee attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0."
+      },
+      {
+        "name": "Sigismund’s Heir:",
+        "description": "Each time this model makes a melee attack that targets a CHARACTER unit, add 1 to the Wound roll ."
+      }
     ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Black Sword – strike",
+      "modifiers": "precision",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 3,
+      "damage": "3"
+    }
+  ]
 }

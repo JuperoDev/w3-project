@@ -1,14 +1,116 @@
 {
-    "parentUnit": "castellan",
-    "attributes": [
-        {
-            "movement": 6,
-            "toughness": 4,
-            "save": 3,
-            "wounds": 4,
-            "leadership": 6,
-            "objetiveControl": 1,
-            "invulnerableSave": 0
-        }
+  "parentUnit": "Castellan",
+  "factionKeywords": [
+    "adeptus astartes",
+    "black templars"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "A Castellan leads each of a crusade’s Fighting Companies and acts as a conduit for their Marshal’s will. Charged with the physical and spiritual purity of active Chapter Keeps, they have honed a patient wisdom that they draw upon in battle, alongside their tactical precision and close-quarters ferocity.",
+  "keywords": [
+    "infantry",
+    "character",
+    "grenades",
+    "imperium",
+    "tacticus",
+    "lieutenant",
+    "castellan"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Oath of Moment"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Target Priority:",
+        "description": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back ."
+      },
+      {
+        "name": "Tactical Precision:",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      }
     ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s combi-weapon can be replaced with 1 heavy bolt pistol.",
+      "items": []
+    },
+    {
+      "description": "This model’s master-crafted power weapon can be replaced with 1 Astartes chainsword.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Combi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Astartes chainsword",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Master-crafted power weapon",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
 }

@@ -14,7 +14,7 @@
         "imperium",
         "crusader squad"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 6,
         "toughness": 4,
         "salvation": 4,
@@ -22,7 +22,7 @@
         "leadership": 6,
         "objectiveControl": 2,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,10 +32,10 @@
             ],
             "range": 18,
             "strength": 4,
-            "attacks": "2",
-            "ballistic-skills": "3+",
+            "attacks": 2,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -47,10 +47,10 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": "1",
-            "ballistic-skills": "4+",
+            "attacks": 1,
+            "ballistic-skills": 4,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -64,7 +64,7 @@
             "attacks": "D6",
             "ballistic-skills": "N/A",
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -75,10 +75,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": "3",
-            "ballistic-skills": "4+",
+            "attacks": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": "3",
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -88,10 +88,10 @@
             ],
             "range": 18,
             "strength": 5,
-            "attacks": "2",
-            "ballistic-skills": "3+",
+            "attacks": 2,
+            "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": "2",
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -102,10 +102,10 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": "1",
-            "ballistic-skills": "3+",
+            "attacks": 1,
+            "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": "2",
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -120,7 +120,7 @@
             "attacks": "D6",
             "ballistic-skills": "N/A",
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -131,10 +131,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": "3",
-            "ballistic-skills": "4+",
+            "attacks": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": "2",
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -148,7 +148,7 @@
             "attacks": "D6",
             "ballistic-skills": "N/A",
             "armor-penetration": 1,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -159,8 +159,8 @@
             ],
             "range": 6,
             "strength": 8,
-            "attacks": "1",
-            "ballistic-skills": "3+",
+            "attacks": 1,
+            "ballistic-skills": 3,
             "armor-penetration": 4,
             "damage": "D3",
             "singleChoice": false
@@ -172,8 +172,8 @@
             ],
             "range": 48,
             "strength": 12,
-            "attacks": "1",
-            "ballistic-skills": "4+",
+            "attacks": 1,
+            "ballistic-skills": 4,
             "armor-penetration": 3,
             "damage": "D6+1",
             "singleChoice": false
@@ -185,8 +185,8 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": "1",
-            "ballistic-skills": "3+",
+            "attacks": 1,
+            "ballistic-skills": 3,
             "armor-penetration": 4,
             "damage": "D6",
             "singleChoice": false
@@ -226,8 +226,8 @@
             ],
             "range": 18,
             "strength": 9,
-            "attacks": "2",
-            "ballistic-skills": "4+",
+            "attacks": 2,
+            "ballistic-skills": 4,
             "armor-penetration": 4,
             "damage": "D6",
             "singleChoice": false
@@ -397,120 +397,138 @@
     "meleeWeapons": [
         {
             "name": "Bolt pistol",
-            "modifiers": "",
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Boltgun",
-            "modifiers": "",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Missile launcher \u00e2\u20ac\u201c frag",
             "modifiers": "blast,heavy",
             "attacks": "D6",
-            "weapons-skills": "4+",
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Plasma cannon \u00e2\u20ac\u201c standard",
             "modifiers": "BLAST,HEAVY",
             "attacks": "D3",
-            "weapons-skills": "4+",
+            "weapons-skills": 4,
             "strength": 7,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Plasma gun \u00e2\u20ac\u201c standard",
             "modifiers": "rapidfire1",
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Plasma pistol \u00e2\u20ac\u201c standard",
             "modifiers": "PISTOL",
-            "attacks": "1",
-            "weapons-skills": "3+",
+            "attacks": 1,
+            "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Astartes chainsword",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Combat knife",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Close combat weapon",
-            "modifiers": "",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Power fist",
-            "modifiers": "",
-            "attacks": "2",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 2,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Power weapon",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Thunder hammer",
             "modifiers": "devastatingwounds",
-            "attacks": "2",
-            "weapons-skills": "4+",
+            "attacks": 2,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Twin lightning claws",
             "modifiers": "twin-linked",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
         }
     ]
 }

@@ -15,7 +15,7 @@
         "grenades",
         "chaplain grimaldus"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 6,
         "toughness": 4,
         "salvation": 3,
@@ -23,7 +23,7 @@
         "leadership": 5,
         "objectiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -76,21 +76,39 @@
     "meleeWeapons": [
         {
             "name": "Artificer crozius",
-            "modifiers": "",
-            "attacks": "5",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Close combat weapon",
-            "modifiers": "",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "modifiers": [ ],
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 3,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
         }
     ]
 }

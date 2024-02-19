@@ -16,7 +16,7 @@
         "lieutenant",
         "castellan"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 6,
         "toughness": 4,
         "salvation": 3,
@@ -24,7 +24,7 @@
         "leadership": 6,
         "objectiveControl": 1,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -36,10 +36,10 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": "1",
-            "ballistic-skills": "3+",
+            "attacks": 1,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -87,21 +87,39 @@
     "meleeWeapons": [
         {
             "name": "Astartes chainsword",
-            "modifiers": "",
-            "attacks": "5",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Master-crafted power weapon",
-            "modifiers": "",
-            "attacks": "4",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
         }
     ]
 }

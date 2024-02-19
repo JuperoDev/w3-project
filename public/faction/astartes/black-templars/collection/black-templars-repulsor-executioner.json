@@ -17,7 +17,7 @@
         "imperium",
         "repulsor executioner"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 10,
         "toughness": 12,
         "salvation": 3,
@@ -25,7 +25,7 @@
         "leadership": 6,
         "objectiveControl": 5,
         "invulnerableSave": 0
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -35,8 +35,8 @@
             ],
             "range": 72,
             "strength": 16,
-            "attacks": "2",
-            "ballistic-skills": "3+",
+            "attacks": 2,
+            "ballistic-skills": 3,
             "armor-penetration": 4,
             "damage": "D6+4",
             "singleChoice": false
@@ -48,10 +48,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": "12",
-            "ballistic-skills": "3+",
+            "attacks": 12,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -62,9 +62,9 @@
             "range": 24,
             "strength": 8,
             "attacks": "D3",
-            "ballistic-skills": "3+",
+            "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": "2",
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -74,10 +74,10 @@
             ],
             "range": 36,
             "strength": 4,
-            "attacks": "3",
-            "ballistic-skills": "3+",
+            "attacks": 3,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -114,8 +114,8 @@
             ],
             "range": 18,
             "strength": 9,
-            "attacks": "2",
-            "ballistic-skills": "3+",
+            "attacks": 2,
+            "ballistic-skills": 3,
             "armor-penetration": 4,
             "damage": "D6",
             "singleChoice": false
@@ -128,10 +128,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": "3",
-            "ballistic-skills": "3+",
+            "attacks": 3,
+            "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": "2",
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -186,28 +186,46 @@
             "name": "Macro plasma incinerator \u00e2\u20ac\u201c standard",
             "modifiers": "blast",
             "attacks": "D6+1",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 3,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Repulsor Executioner defensive array",
-            "modifiers": "",
-            "attacks": "10",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 10,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Armoured hull",
-            "modifiers": "",
-            "attacks": "6",
-            "weapons-skills": "4+",
+            "modifiers": [ ],
+            "attacks": 6,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
         }
     ]
 }

@@ -17,7 +17,7 @@
         "chapter master",
         "high marshal helbrecht"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 6,
         "toughness": 4,
         "salvation": 2,
@@ -25,7 +25,7 @@
         "leadership": 5,
         "objectiveControl": 2,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -70,12 +70,30 @@
     "meleeWeapons": [
         {
             "name": "Sword of the High Marshals \u00e2\u20ac\u201c one-handed",
-            "modifiers": "",
-            "attacks": "12",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 12,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 3,
-            "damage": "1"
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
         }
     ]
 }

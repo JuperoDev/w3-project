@@ -16,7 +16,7 @@
         "captain",
         "marshal"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 6,
         "toughness": 4,
         "salvation": 3,
@@ -24,7 +24,7 @@
         "leadership": 6,
         "objectiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -98,20 +98,38 @@
         {
             "name": "Plasma pistol \u00e2\u20ac\u201c standard",
             "modifiers": "pistol",
-            "attacks": "1",
-            "weapons-skills": "2+",
+            "attacks": 1,
+            "weapons-skills": 2,
             "strength": 7,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Master-crafted power weapon",
-            "modifiers": "",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
         }
     ]
 }

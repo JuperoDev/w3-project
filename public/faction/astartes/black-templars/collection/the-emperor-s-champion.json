@@ -16,7 +16,7 @@
         "tacticus",
         "the emperor\u00e2\u20ac\u2122s champion"
     ],
-    "attributes": {
+    "attributes": [{
         "movement": 6,
         "toughness": 4,
         "salvation": 2,
@@ -24,7 +24,7 @@
         "leadership": 6,
         "objectiveControl": 1,
         "invulnerableSave": 4
-    },
+    }],
     "leader": [],
     "rangedWeapons": [
         {
@@ -69,11 +69,29 @@
         {
             "name": "Black Sword \u00e2\u20ac\u201c strike",
             "modifiers": "precision",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 3,
-            "damage": "3"
+            "damage": 3
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Archon",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol; huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
         }
     ]
 }

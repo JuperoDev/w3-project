@@ -160,7 +160,9 @@
         </v-expansion-panel>
 
         <!-- leader  -->
-        <div v-if="leader.length > 0" class="">
+        <template v-if="leader.length > 0">
+          
+        
         <v-expansion-panel>
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Leader</div>
@@ -174,7 +176,7 @@
             </div>
           </v-expansion-panel-text>
         </v-expansion-panel>
-      </div>
+      </template>
         <!-- unit composition  -->
         <v-expansion-panel>
           <v-expansion-panel-title>

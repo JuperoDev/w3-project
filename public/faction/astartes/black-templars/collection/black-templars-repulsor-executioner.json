@@ -20,10 +20,10 @@
     "attributes": [{
         "movement": 10,
         "toughness": 12,
-        "salvation": 3,
+        "save": 3,
         "wounds": 16,
         "leadership": 6,
-        "objectiveControl": 5,
+        "objetiveControl": 5,
         "invulnerableSave": 0
     }],
     "leader": [],
@@ -183,7 +183,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Macro plasma incinerator \u00e2\u20ac\u201c standard",
+            "name": "Macro plasma incinerator - standard",
             "modifiers": "blast",
             "attacks": "D6+1",
             "weapons-skills": 3,
@@ -212,11 +212,11 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Archon",
+            "unitType": "Repulsor Executioner",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "splinter pistol; huskblade"
+                "heavy onslaught gatling cannon","macro plasma incinerator","Repulsor Executioner defensive array","twin heavy bolter","twin Icarus ironhail heavy stubber","armoured hull."
             ]
         }
     ],
@@ -225,7 +225,7 @@
             "count": [
                 1
             ],
-            "points": 75
+            "points": 235
         }
     ],
     "additionalParameter": {}

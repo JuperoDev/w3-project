@@ -15,15 +15,17 @@
         "tacticus",
         "primaris crusader squad"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "salvation": 4,
-        "wounds": 2,
-        "leadership": 6,
-        "objectiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -147,7 +149,7 @@
     "meleeWeapons": [
         {
             "name": "Astartes chainsword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 4,
@@ -156,7 +158,7 @@
         },
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 4,
@@ -165,7 +167,7 @@
         },
         {
             "name": "Power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
@@ -174,7 +176,7 @@
         },
         {
             "name": "Power fist",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 8,
@@ -184,20 +186,50 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Archon",
+            "unitType": "Primaris Sword Brother",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "splinter pistol; huskblade"
+                "heavy bolt pistol",
+                "power weapon"
+            ]
+        },
+        {
+            "unitType": "Primaris Initiates",
+            "minQuantity": 5,
+            "maxQuantity": 11,
+            "equipment": [
+                "bolt pistol",
+                "bolt rifle",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Primaris Neophytes",
+            "minQuantity": 4,
+            "maxQuantity": 8,
+            "equipment": [
+                "bolt pistol",
+                "Astartes chainsword"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,
+                5,
+                4
             ],
-            "points": 75
+            "points": 140
+        },
+        {
+            "count": [
+                1,
+                11,
+                8
+            ],
+            "points": 280
         }
     ],
     "additionalParameter": {}

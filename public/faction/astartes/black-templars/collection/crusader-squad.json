@@ -17,10 +17,10 @@
     "attributes": [{
         "movement": 6,
         "toughness": 4,
-        "salvation": 4,
+        "save": 4,
         "wounds": 2,
         "leadership": 6,
-        "objectiveControl": 2,
+        "objetiveControl": 2,
         "invulnerableSave": 0
     }],
     "leader": [],
@@ -98,7 +98,7 @@
             "name": "Grav-pistol",
             "modifiers": [
                 "ANTI-VEHICLE 2+",
-                "PISTOL"
+                "pistol"
             ],
             "range": 12,
             "strength": 5,
@@ -112,7 +112,7 @@
             "name": "Hand flamer",
             "modifiers": [
                 "IGNORES COVER",
-                "PISTOL",
+                "pistol",
                 "TORRENT"
             ],
             "range": 12,
@@ -155,7 +155,7 @@
             "name": "Inferno pistol",
             "modifiers": [
                 "MELTA 2",
-                "PISTOL"
+                "pistol"
             ],
             "range": 6,
             "strength": 8,
@@ -291,7 +291,7 @@
         {
             "name": "Plasma pistol - standard",
             "modifiers": [
-                "PISTOL"
+                "pistol"
             ],
             "range": 12,
             "strength": 7,
@@ -305,7 +305,7 @@
             "name": "Plasma pistol - supercharge",
             "modifiers": [
                 "HAZARDOUS",
-                "PISTOL"
+                "pistol"
             ],
             "range": 12,
             "strength": 8,
@@ -414,7 +414,7 @@
             "damage": 1
         },
         {
-            "name": "Missile launcher \u00e2\u20ac\u201c frag",
+            "name": "Missile launcher - frag",
             "modifiers": "blast,heavy",
             "attacks": "D6",
             "weapons-skills": 4,
@@ -423,7 +423,7 @@
             "damage": 1
         },
         {
-            "name": "Plasma cannon \u00e2\u20ac\u201c standard",
+            "name": "Plasma cannon - standard",
             "modifiers": "BLAST,HEAVY",
             "attacks": "D3",
             "weapons-skills": 4,
@@ -432,7 +432,7 @@
             "damage": 1
         },
         {
-            "name": "Plasma gun \u00e2\u20ac\u201c standard",
+            "name": "Plasma gun - standard",
             "modifiers": "rapidfire1",
             "attacks": 1,
             "weapons-skills": 3,
@@ -441,8 +441,8 @@
             "damage": 1
         },
         {
-            "name": "Plasma pistol \u00e2\u20ac\u201c standard",
-            "modifiers": "PISTOL",
+            "name": "Plasma pistol - standard",
+            "modifiers": "pistol",
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 7,
@@ -496,7 +496,7 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": "devastatingwounds",
+            "modifiers": ["devastating wounds"],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 8,
@@ -505,7 +505,7 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": "twin-linked",
+            "modifiers": ["twin-linked"],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
@@ -515,20 +515,54 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Archon",
+            "unitType": "Sword Brother",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "splinter pistol; huskblade"
+                "boltgun","bolt pistol", "close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Initiates",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "boltgun","bolt pistol", "close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Neophytes",
+            "minQuantity": 0,
+            "maxQuantity": 10,
+            "equipment": [
+                "boltgun","bolt pistol", "close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4,0
             ],
             "points": 75
+        },
+        {
+            "count": [
+                1,9,0
+            ],
+            "points": 150
+        },
+        {
+            "count": [
+                1,4,5
+            ],
+            "points": 135
+        },
+        {
+            "count": [
+                1,9,10
+            ],
+            "points": 270
         }
     ],
     "additionalParameter": {}

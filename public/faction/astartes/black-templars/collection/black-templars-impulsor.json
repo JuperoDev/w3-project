@@ -17,10 +17,10 @@
     "attributes": [{
         "movement": 12,
         "toughness": 9,
-        "salvation": 3,
+        "save": 3,
         "wounds": 11,
         "leadership": 6,
-        "objectiveControl": 2,
+        "objetiveControl": 2,
         "invulnerableSave": 0
     }],
     "leader": [],
@@ -157,7 +157,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Bellicatus missile array \u00e2\u20ac\u201c frag",
+            "name": "Bellicatus missile array - frag",
             "modifiers": "blast",
             "attacks": "D6",
             "weapons-skills": 3,
@@ -177,11 +177,11 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Archon",
+            "unitType": "Impulsor",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "splinter pistol; huskblade"
+                "2 storm bolters","armoured hull."
             ]
         }
     ],
@@ -190,7 +190,7 @@
             "count": [
                 1
             ],
-            "points": 75
+            "points": 85
         }
     ],
     "additionalParameter": {}

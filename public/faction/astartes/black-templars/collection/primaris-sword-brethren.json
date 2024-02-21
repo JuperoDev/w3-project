@@ -17,10 +17,10 @@
     "attributes": [{
         "movement": 6,
         "toughness": 4,
-        "salvation": 3,
+        "save": 3,
         "wounds": 3,
         "leadership": 6,
-        "objectiveControl": 1,
+        "objetiveControl": 1,
         "invulnerableSave": 0
     }],
     "leader": [],
@@ -140,7 +140,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Plasma pistol \u00e2\u20ac\u201c standard",
+            "name": "Plasma pistol - standard",
             "modifiers": "pistol",
             "attacks": 1,
             "weapons-skills": 3,
@@ -177,7 +177,7 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": "devastatingwounds",
+            "modifiers": ["devastating wounds"],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -186,7 +186,7 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": "twin-linked",
+            "modifiers": ["twin-linked"],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,

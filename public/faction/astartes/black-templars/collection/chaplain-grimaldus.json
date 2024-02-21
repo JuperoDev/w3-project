@@ -16,11 +16,22 @@
         "chaplain grimaldus"
     ],
     "attributes": [{
+        "name":"Grimaldus",
         "movement": 6,
         "toughness": 4,
         "salvation": 3,
         "wounds": 4,
         "leadership": 5,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    {
+        "name":"Cenobyte Servitor",
+        "movement": 6,
+        "toughness": 4,
+        "salvation": 3,
+        "wounds": 1,
+        "leadership": 8,
         "objectiveControl": 1,
         "invulnerableSave": 4
     }],
@@ -95,20 +106,29 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Archon",
+            "unitType": "Chaplain Grimaldus – EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "splinter pistol; huskblade"
+                "plasma pistol","artificer crozius"
+            ]
+        },
+        {
+            "unitType": "Cenobyte Servitors",
+            "minQuantity": 3,
+            "maxQuantity": 3,
+            "equipment": [
+                "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,3
             ],
-            "points": 75
+            "points": 120
         }
-    ]
+    ],
+    "additionalParameter": {}
 }

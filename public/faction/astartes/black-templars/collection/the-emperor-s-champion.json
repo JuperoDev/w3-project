@@ -25,7 +25,11 @@
         "objetiveControl": 1,
         "invulnerableSave": 4
     }],
-    "leader": [],
+    "leader": ["Primaris Crusader Squad",
+    "Primaris Sword Brethren",
+    "Assault Intercessor Squad",
+    "Intercessor Squad",
+    "Sternguard Veteran Squad"],
     "rangedWeapons": [
         {
             "name": "Bolt pistol",
@@ -34,9 +38,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -68,12 +72,23 @@
     "meleeWeapons": [
         {
             "name": "Black Sword - strike",
-            "modifiers": "precision",
+            "modifiers": ["precision"],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 3,
-            "damage": 3
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Black Sword - sweep",
+            "modifiers": [],
+            "attacks": 10,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
         }
     ],
     "unitComposition": [

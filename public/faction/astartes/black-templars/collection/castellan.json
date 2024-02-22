@@ -25,7 +25,12 @@
         "objetiveControl": 1,
         "invulnerableSave": 0
     }],
-    "leader": [],
+    "leader": ["Primaris Crusader Squad",
+    "Primaris Sword Brethren",
+   "Assault Intercessor Squad",
+    "Infernus Squad",
+    "Intercessor Squad",
+    "Sternguard Veteran Squad"],
     "rangedWeapons": [
         {
             "name": "Combi-weapon",
@@ -49,7 +54,7 @@
             ],
             "range": 18,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -65,11 +70,11 @@
         ],
         "otherAbilities": [
             {
-                "name": "Target Priority:",
+                "name": "Target Priority",
                 "description": "This model's unit is eligible to shoot and declare a charge in a turn in which it Fell Back ."
             },
             {
-                "name": "Tactical Precision:",
+                "name": "Tactical Precision",
                 "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
             }
         ]

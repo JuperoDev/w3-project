@@ -35,7 +35,11 @@
         "objetiveControl": 1,
         "invulnerableSave": 4
     }],
-    "leader": [],
+    "leader": ["Primaris Crusader Squad",
+    "Primaris Sword Brethren",
+    "Assault Intercessor Squad",
+    "Infernus Squad",
+    "Intercessor Squad"],
     "rangedWeapons": [
         {
             "name": "Plasma pistol - standard",
@@ -44,11 +48,11 @@
             ],
             "range": 12,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - supercharge",
@@ -58,11 +62,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -70,11 +74,15 @@
             "Feel No Pain 5+",
             "Leader"
         ],
-        "faction": [],
+        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
-                "name": "Banner of Fallen Crusaders:",
-                "description": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back ."
+                "name": "Litanies of the Devout",
+                "description": "While CHAPLAIN GRIMALDUS is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
+            },
+            {
+                "name": "Temple Relics",
+                "description": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Relics of the Emperor Ascendant ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability."
             }
         ]
     },
@@ -130,5 +138,21 @@
             "points": 120
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {
+        "title": "Relics of the emperor ascendant",
+        "abilities": [
+            {
+                "name": "Sceptre of Anointing",
+                "description": "Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1."
+            },
+            {
+                "name": "Remnant of the Fallen Temple",
+                "description": "Models in this unit have the Feel No Pain 5+ ability."
+            },
+            {
+                "name": "Banner of Fallen Crusaders",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back."
+            }
+        ]
+    }
 }

@@ -14,15 +14,17 @@
         "imperium",
         "impulsor"
     ],
-    "attributes": [{
-        "movement": 12,
-        "toughness": 9,
-        "save": 3,
-        "wounds": 11,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,11 +34,11 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Bellicatus missile array - Icarus",
@@ -45,11 +47,24 @@
             ],
             "range": 48,
             "strength": 8,
-            "attacks": 2,
+            "attacks": "d3",
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Bellicatus missile array - krak",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
         },
         {
             "name": "Fragstorm grenade launcher",
@@ -113,7 +128,7 @@
             "strength": 4,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -156,18 +171,10 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Bellicatus missile array - frag",
-            "modifiers": "blast",
-            "attacks": "D6",
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
+        
         {
             "name": "Armoured hull",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 6,
@@ -181,7 +188,8 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "2 storm bolters","armoured hull."
+                "2 storm bolters",
+                "armoured hull."
             ]
         }
     ],
@@ -193,5 +201,16 @@
             "points": 85
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "transport": "This model has a transport capacity of 6 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.",
+    "warGearAbilities": [
+        {
+            "wargear": "Shield Dome",
+            "ability": "The bearer has a 5+ invulnerable save."
+        },
+        {
+            "wargear": "Orbital Comms Array (Aura)",
+            "ability": "While a friendly ADEPTUS ASTARTES unit is within 6'' of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        }
+    ]
 }

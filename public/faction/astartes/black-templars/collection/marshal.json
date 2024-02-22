@@ -34,11 +34,11 @@
             ],
             "range": 12,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - supercharge",
@@ -48,11 +48,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Combi-weapon",
@@ -79,12 +79,12 @@
         ],
         "otherAbilities": [
             {
-                "name": "Rites of Battle:",
+                "name": "Rites of Battle",
                 "description": "Once per battle round , you can target one unit from your army with this ability with a Stratagem for 0CP, and can do so even if another unit from your army has already been targeted by that Stratagem this phase."
             },
             {
-                "name": "Finest Hour:",
-                "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability."
+                "name": "Finest Hour",
+                "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [devastating wounds] ability."
             }
         ]
     },
@@ -95,15 +95,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Plasma pistol - standard",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
+        
         {
             "name": "Master-crafted power weapon",
             "modifiers": [ ],

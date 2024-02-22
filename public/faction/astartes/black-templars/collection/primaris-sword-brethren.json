@@ -60,11 +60,11 @@
             ],
             "range": 12,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - supercharge",
@@ -74,11 +74,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Pyre pistol",
@@ -89,22 +89,24 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Oath of Moment"
+           
         ],
-        "faction": [],
+        "faction": [
+            "Oath of Moment"
+        ],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "heavy bolt pistol; Astartes chainsword."
+                "name": "Vow-sworn Bladesmen",
+                "description": " At the start of the Fight phase, you can select one of the following effects to apply to melee weapons equipped by models in this unit until the end of the phase: ///Add 1 to the Attacks characteristic of those weapons./// Add 1 to the Damage characteristic of those weapons."
             }
         ]
     },
@@ -139,15 +141,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Plasma pistol - standard",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
+       
         {
             "name": "Astartes chainsword",
             "modifiers": [ ],
@@ -196,20 +190,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Archon",
+            "unitType": "Sword Brother Castellan",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "splinter pistol; huskblade"
+                "heavy bolt pistol","Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Primaris Sword Brothers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "heavy bolt pistol","Astartes chainsword"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 75
+            "points": 140
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 280
         }
     ],
     "additionalParameter": {}

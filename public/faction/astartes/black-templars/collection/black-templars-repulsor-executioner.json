@@ -17,15 +17,17 @@
         "imperium",
         "repulsor executioner"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 12,
-        "save": 3,
-        "wounds": 16,
-        "leadership": 6,
-        "objetiveControl": 5,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -82,16 +84,15 @@
         },
         {
             "name": "Macro plasma incinerator - standard",
-            "modifiers": [
-                "blast"
-            ],
+            "modifiers": ["blast"],
+           
             "range": 36,
+            "attacks": "D6+1",
+            "weapons-skills": 3,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2
+            ,"singleChoice":true
         },
         {
             "name": "Macro plasma incinerator - supercharge",
@@ -101,11 +102,11 @@
             ],
             "range": 36,
             "strength": 9,
-            "attacks": 2,
+            "attacks": "D6+1",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 4,
+            "damage": 3,
+            "singleChoice": true
         },
         {
             "name": "Multi-melta",
@@ -143,11 +144,21 @@
             ],
             "range": 36,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
+        },
+        {
+            "name": "Repulsor Executioner defensive array",
+            "modifiers": [],
+            "range": 24,
+            "attacks": 10,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
         }
     ],
     "abilities": {
@@ -183,26 +194,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Macro plasma incinerator - standard",
-            "modifiers": "blast",
-            "attacks": "D6+1",
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 3,
-            "damage": 2
-        },
-        {
-            "name": "Repulsor Executioner defensive array",
-            "modifiers": [ ],
-            "attacks": 10,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Armoured hull",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 4,
             "strength": 8,
@@ -216,7 +209,12 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "heavy onslaught gatling cannon","macro plasma incinerator","Repulsor Executioner defensive array","twin heavy bolter","twin Icarus ironhail heavy stubber","armoured hull."
+                "heavy onslaught gatling cannon",
+                "macro plasma incinerator",
+                "Repulsor Executioner defensive array",
+                "twin heavy bolter",
+                "twin Icarus ironhail heavy stubber",
+                "armoured hull."
             ]
         }
     ],
@@ -228,5 +226,6 @@
             "points": 235
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "transport": "This model has a transport capacity of 6 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
 }

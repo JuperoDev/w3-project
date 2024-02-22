@@ -2,9 +2,9 @@
   <div>
 
     <div v-if="data && data.faction">
-      <div v-for="factionName in data.faction" :key="factionName" class="m-5">
+      <div v-for="factionName in data.faction" :key="factionName" class="m-5 ">
         <nuxt-link :to="`/${factionName}`">
-          <v-btn>{{ factionName }}</v-btn>
+          <v-btn class="w-56">{{ factionName }}</v-btn>
         </nuxt-link>
       </div>
     </div>

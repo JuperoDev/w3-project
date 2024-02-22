@@ -6,7 +6,7 @@
       <div v-for="armyName in factionData.army" :key="armyName" class="m-5">
         <!-- Sanitize the armyName here by replacing spaces and weird characters with hyphens -->
         <nuxt-link :to="`/${faction}/${sanitizeArmyName(armyName)}`">
-          <v-btn>{{ armyName }}</v-btn>
+          <v-btn class="w-56">{{ armyName }}</v-btn>
         </nuxt-link>
       </div>
     </div>

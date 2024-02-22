@@ -17,15 +17,17 @@
         "imperium",
         "repulsor"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 12,
-        "save": 3,
-        "wounds": 16,
-        "leadership": 6,
-        "objetiveControl": 5,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -89,22 +91,44 @@
             ],
             "range": 48,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
+        },
+        {
+            "name": "Las-talon",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": "D6"
+        },
+        {
+            "name": "Repulsor defensive array",
+            "range": 24,
+            "modifiers": [],
+            "attacks": "18",
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
         }
     ],
     "abilities": {
         "core": [
             "Deadly Demise D6"
         ],
-        "faction": [],
+        "faction": [
+            "Oath of Moment"
+        ],
         "otherAbilities": [
             {
-                "name": "FACTION:",
-                "description": "Oath of Moment"
+                "name": "Emergency Combat Embarkation",
+                "description": "Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one ADEPTUS ASTARTES unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3'' of this Transport, it can embark within this TRANSPORT. The charging unit can then select new targets for its charge."
             }
         ]
     },
@@ -124,26 +148,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Las-talon",
-            "modifiers": [ ],
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 10,
-            "armor-penetration": 3,
-            "damage": "D6"
-        },
-        {
-            "name": "Repulsor defensive array",
-            "modifiers": [ ],
-            "attacks": "18",
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Armoured hull",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 4,
             "strength": 8,
@@ -157,7 +163,11 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "heavy onslaught gatling cannon","hunter-slayer missile", "Repulsor defensive array", "twin heavy bolter","armoured hull."
+                "heavy onslaught gatling cannon",
+                "hunter-slayer missile",
+                "Repulsor defensive array",
+                "twin heavy bolter",
+                "armoured hull."
             ]
         }
     ],
@@ -169,5 +179,6 @@
             "points": 200
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "transport":"This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
 }

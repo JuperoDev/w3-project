@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Bike-mounted Command Squads of elite Ravenwing accompany the Chapter\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s swiftest commanders. From the battle-surgery of Apothecaries and the inspirational pennants carried by Ancients to the martial excellence of Champions, these specialists provide support for the Company\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s blisteringly fast missions.",
+    "lore": "Bike-mounted Command Squads of elite Ravenwing accompany the Chapter's swiftest commanders. From the battle-surgery of Apothecaries and the inspirational pennants carried by Ancients to the martial excellence of Champions, these specialists provide support for the Company's blisteringly fast missions.",
     "keywords": [
         "mounted",
         "grenades",
@@ -46,10 +46,10 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": "1",
-            "ballistic-skills": "3+",
+            "attacks": 1,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -106,42 +106,34 @@
     },
     "wargear": [
         {
-            "description": "For every 3 models in this unit, 1 model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s plasma talon can be replaced with 1 Astartes grenade launcher.",
+            "description": "For every 3 models in this unit, 1 model's plasma talon can be replaced with 1 Astartes grenade launcher.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Astartes grenade launcher \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 frag",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": "3+",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": "1"
-        },
+       
         {
             "name": "Black Knight combat weapon",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Master-crafted power weapon",
-            "modifiers": "",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "unitType": " Adrax Agatone - EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

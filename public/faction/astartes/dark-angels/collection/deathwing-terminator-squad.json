@@ -33,10 +33,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": "6",
-            "ballistic-skills": "3+",
+            "attacks": 6,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -63,7 +63,7 @@
             "attacks": "D6",
             "ballistic-skills": "N/A",
             "armor-penetration": 1,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -117,7 +117,7 @@
         "otherAbilities": [
             {
                 "name": "Deathwing:",
-                "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll . In addition, each time a model in this unit makes an attack that targets the enemy unit you selected at the start of your Command phase for the Oath of Moment ability, add 1 to the Hit roll."
+                "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll . In addition, each time a model in this unit makes an attack that targets the enemy unit you selected at the start of your Command phase for the Oath of Moment ability, add 1 to the Hit roll."
             }
         ]
     },
@@ -139,7 +139,7 @@
                 "1 assault cannon",
                 "1 heavy flamer",
                 "1 plasma cannon",
-                "1 storm bolter and 1 cyclone missile launcher (this model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s storm bolter cannot be replaced)"
+                "1 storm bolter and 1 cyclone missile launcher (this model's storm bolter cannot be replaced)"
             ]
         },
         {
@@ -149,72 +149,72 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Cyclone missile launcher \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 frag",
+            "name": "Cyclone missile launcher - frag",
             "modifiers": "blast",
             "attacks": "2D6",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
-            "name": "Plasma cannon \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 standard",
+            "name": "Plasma cannon - standard",
             "modifiers": "blast",
             "attacks": "D3",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Chainfist",
-            "modifiers": "anti-vehicle3+",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": ["anti-vehicle 3+"],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Power fist",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Power weapon",
-            "modifiers": "",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Thunder hammer",
-            "modifiers": "devastatingwounds",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": ["devastating wounds"],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": "twin-linked",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["twin-linked"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         }
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "unitType": " Adrax Agatone - EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

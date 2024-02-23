@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The Ravenwing Black Knights are the 2nd Company\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s greatest warriors, elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked end punctures even the thickest armour.",
+    "lore": "The Ravenwing Black Knights are the 2nd Company's greatest warriors, elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked end punctures even the thickest armour.",
     "keywords": [
         "mounted",
         "grenades",
@@ -46,10 +46,10 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": "1",
-            "ballistic-skills": "3+",
+            "attacks": 1,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -99,28 +99,20 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Astartes grenade launcher \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 frag",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": "3+",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": "1"
-        },
+        
         {
             "name": "Black Knight combat weapon",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         }
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "unitType": " Adrax Agatone - EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

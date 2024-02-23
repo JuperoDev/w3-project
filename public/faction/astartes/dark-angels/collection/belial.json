@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Belial is a warrior born \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 a killer whose skill in battle has always stood out, even amongst his post-human brethren. For all his ability he is a staunch perfectionist, chastising himself for every perceived weakness. In battle he wields the Sword of Silence, an obsidian Chapter relic that seems to swallow nearby sound.",
+    "lore": "Belial is a warrior born -a killer whose skill in battle has always stood out, even amongst his post-human brethren. For all his ability he is a staunch perfectionist, chastising himself for every perceived weakness. In battle he wields the Sword of Silence, an obsidian Chapter relic that seems to swallow nearby sound.",
     "keywords": [
         "infantry",
         "character",
@@ -59,7 +59,7 @@
             },
             {
                 "name": "Strikes of Retribution:",
-                "description": "Each time a melee attack is allocated to this model, after the attacking model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 2+, the attacking unit suffers 1 mortal wound ."
+                "description": "Each time a melee attack is allocated to this model, after the attacking model's unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 2+, the attacking unit suffers 1 mortal wound ."
             }
         ]
     },
@@ -72,17 +72,17 @@
     "meleeWeapons": [
         {
             "name": "The Sword of Silence",
-            "modifiers": "precision",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": ["precision"],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "unitType": " Adrax Agatone - EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

@@ -33,10 +33,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": "6",
-            "ballistic-skills": "3+",
+            "attacks": 6,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -63,7 +63,7 @@
             "attacks": "D6",
             "ballistic-skills": "N/A",
             "armor-penetration": 1,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -160,77 +160,60 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Cyclone missile launcher - frag",
-            "modifiers": "blast",
-            "attacks": "2D6",
-            "weapons-skills": "3+",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": "1"
-        },
-        {
-            "name": "Plasma cannon - standard",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": "3+",
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": "1"
-        },
+       
         {
             "name": "Chainfist",
-            "modifiers": "anti-vehicle3+",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": ["anti-vehicle 3+"],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Halberd of Caliban",
-            "modifiers": "precision",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["precision"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Power fist",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Power weapon",
-            "modifiers": "",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Thunder hammer",
-            "modifiers": "devastatingwounds",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": ["devastating wounds"],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": "twin-linked",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["twin-linked"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         }
     ],
     "unitComposition": [

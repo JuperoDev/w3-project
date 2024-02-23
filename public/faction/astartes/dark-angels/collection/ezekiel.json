@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Ezekiel is often at the forefront of battle. As a master of Interromancy, his warp-whispers claw away the sanity of his enemies. His blade, known as Traitor\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Bane, was forged to slay those who dared turn against the Emperor. It is a formidable force weapon that carries within it the rage of the betrayed.",
+    "lore": "Ezekiel is often at the forefront of battle. As a master of Interromancy, his warp-whispers claw away the sanity of his enemies. His blade, known as Traitor's Bane, was forged to slay those who dared turn against the Emperor. It is a formidable force weapon that carries within it the rage of the betrayed.",
     "keywords": [
         "infantry",
         "character",
@@ -37,10 +37,10 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": "1",
-            "ballistic-skills": "2+",
+            "attacks": 1,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
-            "damage": "2",
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -102,10 +102,10 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Traitor\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Bane",
-            "modifiers": "anti-chaos2+,psychic",
-            "attacks": "4",
-            "weapons-skills": "2+",
+            "name": "Traitor's Bane",
+            "modifiers": ["anti-chaos 2+","psychic"],
+            "attacks": 4,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 2,
             "damage": "D3"
@@ -113,7 +113,7 @@
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "unitType": " Adrax Agatone - EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

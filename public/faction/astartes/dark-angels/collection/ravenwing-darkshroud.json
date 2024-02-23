@@ -6,22 +6,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Borne upon each Darkshroud is a mysterious statue that survived Calibanâ€™s destruction and became imbued with the energies released by that fateful event. Through the artifice of the Dark Angels, these energies are amplified and used to obscure battle-brothers close to the Darkshroud from enemy sight.",
+    "lore": "Borne upon each Darkshroud is a mysterious statue that survived Caliban\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s destruction and became imbued with the energies released by that fateful event. Through the artifice of the Dark Angels, these energies are amplified and used to obscure battle-brothers close to the Darkshroud from enemy sight.",
     "keywords": [
         "vehicle",
         "fly",
         "imperium",
         "ravenwing darkshroud"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 8,
-        "salvation": 3,
-        "wounds": 10,
-        "leadership": 6,
-        "objectiveControl": 3,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        [{
+            "movement": 14,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 5
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -67,7 +69,7 @@
     },
     "wargear": [
         {
-            "description": "This modelâ€™s heavy bolter can be replaced with 1 assault cannon.",
+            "description": "This model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s heavy bolter can be replaced with 1 assault cannon.",
             "items": []
         }
     ],
@@ -81,5 +83,25 @@
             "armor-penetration": 0,
             "damage": "1"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

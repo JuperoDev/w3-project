@@ -1,81 +1,83 @@
 {
-  "parentUnit": "Commander Shadowsun",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": true,
-  "lore": "Accompanied by advanced shield and command drones, Commander O’Shaserra surges dynamically into battle. She is the master of the Kauyon, laying cunning ambushes for her enemies then striking with merciless fury. O’Shaserra spearheads these attacks from the front, and every shot from her fusion blasters heralds another fallen foe.",
-  "keywords": [
-    "infantry",
-    "fly",
-    "character",
-    "epic hero",
-    "battlesuit",
-    "commander shadowsun"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 4,
-    "salvation": 3,
-    "wounds": 6,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "High-energy fusion blaster",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Commander Shadowsun",
+    "factionKeywords": [
+        "t’au empire"
+    ],
+    "damaged": {},
+    "supremeCommander": true,
+    "lore": "Accompanied by advanced shield and command drones, Commander O’Shaserra surges dynamically into battle. She is the master of the Kauyon, laying cunning ambushes for her enemies then striking with merciless fury. O’Shaserra spearheads these attacks from the front, and every shot from her fusion blasters heralds another fallen foe.",
+    "keywords": [
+        "infantry",
+        "fly",
+        "character",
+        "epic hero",
+        "battlesuit",
+        "commander shadowsun"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 4,
+            "salvation": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "High-energy fusion blaster",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Agile Combatant:",
+                "description": "This model is eligible to shoot in a turn in which it Fell Back ."
+            },
+            {
+                "name": "Hero of the Empire (Aura):",
+                "description": "While a friendly T’AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+            }
+        ]
     },
-    {
-      "name": "Pulse pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Lone Operative",
-      "Stealth"
-    ],
-    "faction": [
-      "For the Greater Good"
-    ],
-    "otherAbilities": [
-      {
-        "name": "Agile Combatant:",
-        "description": "This model is eligible to shoot in a turn in which it Fell Back ."
-      },
-      {
-        "name": "Hero of the Empire (Aura):",
-        "description": "While a friendly T’AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
-      }
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ]
 }

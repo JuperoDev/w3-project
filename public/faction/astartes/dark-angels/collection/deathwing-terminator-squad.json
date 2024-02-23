@@ -13,15 +13,17 @@
         "terminator",
         "deathwing terminator squad"
     ],
-    "attributes": [{
-        "movement": 5,
-        "toughness": 5,
-        "salvation": 2,
-        "wounds": 3,
-        "leadership": 6,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -115,7 +117,7 @@
         "otherAbilities": [
             {
                 "name": "Deathwing:",
-                "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attackâ€™s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll . In addition, each time a model in this unit makes an attack that targets the enemy unit you selected at the start of your Command phase for the Oath of Moment ability, add 1 to the Hit roll."
+                "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll . In addition, each time a model in this unit makes an attack that targets the enemy unit you selected at the start of your Command phase for the Oath of Moment ability, add 1 to the Hit roll."
             }
         ]
     },
@@ -137,7 +139,7 @@
                 "1 assault cannon",
                 "1 heavy flamer",
                 "1 plasma cannon",
-                "1 storm bolter and 1 cyclone missile launcher (this modelâ€™s storm bolter cannot be replaced)"
+                "1 storm bolter and 1 cyclone missile launcher (this model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s storm bolter cannot be replaced)"
             ]
         },
         {
@@ -147,7 +149,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Cyclone missile launcher â€“ frag",
+            "name": "Cyclone missile launcher \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 frag",
             "modifiers": "blast",
             "attacks": "2D6",
             "weapons-skills": "3+",
@@ -156,7 +158,7 @@
             "damage": "1"
         },
         {
-            "name": "Plasma cannon â€“ standard",
+            "name": "Plasma cannon \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 standard",
             "modifiers": "blast",
             "attacks": "D3",
             "weapons-skills": "3+",
@@ -209,5 +211,25 @@
             "armor-penetration": 2,
             "damage": "1"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

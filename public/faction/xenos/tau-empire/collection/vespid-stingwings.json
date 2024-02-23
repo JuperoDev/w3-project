@@ -1,57 +1,59 @@
 {
-  "parentUnit": "Vespid Stingwings",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These alien auxiliaries thrum into battle on membranous wings, their airborne agility leaving the enemy nowhere to hide. Resilient enough to shrug off all but the heaviest incoming fire, they unleash punishing radioactive salvoes from their neutron blasters that soon reduce their targets to little more than glowing craters.",
-  "keywords": [
-    "infantry",
-    "fly",
-    "vespid stingwings"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 4,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Neutron blaster",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Vespid Stingwings",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "neutron blaster; stingwing claws."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These alien auxiliaries thrum into battle on membranous wings, their airborne agility leaving the enemy nowhere to hide. Resilient enough to shrug off all but the heaviest incoming fire, they unleash punishing radioactive salvoes from their neutron blasters that soon reduce their targets to little more than glowing craters.",
+    "keywords": [
+        "infantry",
+        "fly",
+        "vespid stingwings"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "salvation": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Neutron blaster",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "neutron blaster; stingwing claws."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ]
 }

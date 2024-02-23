@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Master Lazarus wields his sword, Enmityâ€™s Edge, with all the martial skill expected of a Dark Angels Company Master. In even the most ferocious fighting he exhibits a calm demeanour, maintaining composure while giving masterful orders that have yielded great victories.",
+    "lore": "Master Lazarus wields his sword, Enmity\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Edge, with all the martial skill expected of a Dark Angels Company Master. In even the most ferocious fighting he exhibits a calm demeanour, maintaining composure while giving masterful orders that have yielded great victories.",
     "keywords": [
         "infantry",
         "character",
@@ -17,15 +17,17 @@
         "captain",
         "lazarus"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "salvation": 3,
-        "wounds": 5,
-        "leadership": 6,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -52,7 +54,7 @@
         "otherAbilities": [
             {
                 "name": "Intractable Will:",
-                "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking modelâ€™s unit has finished making its attacks, and is then removed from play."
+                "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s unit has finished making its attacks, and is then removed from play."
             },
             {
                 "name": "The Spiritshield Helm:",
@@ -68,7 +70,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Enmityâ€™s Edge",
+            "name": "Enmity\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Edge",
             "modifiers": "anti-psyker2+",
             "attacks": "6",
             "weapons-skills": "2+",
@@ -76,5 +78,25 @@
             "armor-penetration": 3,
             "damage": "2"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Asmodai is the Dark Angelsâ€™ most successful Interrogator-Chaplain. Relentless and humourless, in battle he incites his battle-brothersâ€™ fighting spirit to reach new heights, rendering them unstoppable killing machines by chanting his litanies of hate with unshakeable belief.",
+    "lore": "Asmodai is the Dark Angels\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2 most successful Interrogator-Chaplain. Relentless and humourless, in battle he incites his battle-brothers\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2 fighting spirit to reach new heights, rendering them unstoppable killing machines by chanting his litanies of hate with unshakeable belief.",
     "keywords": [
         "infantry",
         "character",
@@ -16,15 +16,17 @@
         "chaplain",
         "asmodai"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "salvation": 3,
-        "wounds": 4,
-        "leadership": 5,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 5,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -84,5 +86,25 @@
             "armor-penetration": 1,
             "damage": "2"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone - EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Mounted in a Land Speeder outfitted with additional auspex scanners and vox-casters, it is a Talonmasterâ€™s role to direct the Ravenwingâ€™s fire, using his equipment to ensure no quarry can hide from them. They even identify foes seeking temporary refuge in dense terrain, revealing their location to all Ravenwing warriors.",
+    "lore": "Mounted in a Land Speeder outfitted with additional auspex scanners and vox-casters, it is a Talonmaster\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s role to direct the Ravenwing\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s fire, using his equipment to ensure no quarry can hide from them. They even identify foes seeking temporary refuge in dense terrain, revealing their location to all Ravenwing warriors.",
     "keywords": [
         "vehicle",
         "character",
@@ -14,15 +14,17 @@
         "imperium",
         "ravenwing talonmaster"
     ],
-    "attributes": [{
-        "movement": 16,
-        "toughness": 7,
-        "salvation": 3,
-        "wounds": 6,
-        "leadership": 6,
-        "objectiveControl": 2,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        [{
+            "movement": 16,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -92,5 +94,25 @@
             "armor-penetration": 2,
             "damage": "1"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -6,22 +6,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Deathwing Knights are the Chapterâ€™s ultimate death-dealers, their strikes breaking the enemyâ€™s back in one fell swoop. Equipped with heirloom wargear, they teleport into the heart of the thickest fighting, led by Knight Masters who are whirlwinds of deathly destruction.",
+    "lore": "Deathwing Knights are the Chapter\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s ultimate death-dealers, their strikes breaking the enemy\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s back in one fell swoop. Equipped with heirloom wargear, they teleport into the heart of the thickest fighting, led by Knight Masters who are whirlwinds of deathly destruction.",
     "keywords": [
         "infantry",
         "imperium",
         "terminator",
         "deathwing knights"
     ],
-    "attributes": [{
-        "movement": 5,
-        "toughness": 5,
-        "salvation": 2,
-        "wounds": 4,
-        "leadership": 6,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [],
     "abilities": {
@@ -63,5 +65,25 @@
             "armor-penetration": 1,
             "damage": "3"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

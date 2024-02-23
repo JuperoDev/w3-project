@@ -16,15 +16,17 @@
         "captain",
         "marshal"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 5,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -95,10 +97,9 @@
         }
     ],
     "meleeWeapons": [
-        
         {
             "name": "Master-crafted power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,
@@ -112,7 +113,8 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "plasma pistol","master-crafted power weapon"
+                "plasma pistol",
+                "master-crafted power weapon"
             ]
         }
     ],

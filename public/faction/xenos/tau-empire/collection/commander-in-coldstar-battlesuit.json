@@ -1,138 +1,140 @@
 {
-  "parentUnit": "Commander In Coldstar Battlesuit",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Capable of soaring at high speed over the battlefield, or even operating in the cold void of space, the XV86 Battlesuit is an exceptionally advanced weapon of war. It is favoured by those Commanders who seek to be everywhere at once, striking and fading wherever they are needed most.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "fly",
-    "character",
-    "battlesuit",
-    "commander in coldstar battlesuit"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 5,
-    "salvation": 3,
-    "wounds": 6,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Airbursting fragmentation projector",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Cyclic ion blaster - overcharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Fusion blaster",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "T’au flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Commander In Coldstar Battlesuit",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Capable of soaring at high speed over the battlefield, or even operating in the cold void of space, the XV86 Battlesuit is an exceptionally advanced weapon of war. It is favoured by those Commanders who seek to be everywhere at once, striking and fading wherever they are needed most.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "character",
+        "battlesuit",
+        "commander in coldstar battlesuit"
     ],
-    "otherAbilities": [
-      {
-        "name": "Coldstar Commander:",
-        "description": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
-      }
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 5,
+            "salvation": 3,
+            "wounds": 6,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Airbursting fragmentation projector",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Cyclic ion blaster - overcharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fusion blaster",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "T’au flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Coldstar Commander:",
+                "description": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s high-output burst cannon can be replaced with one of the following",
+            "items": [
+                "1 airbursting fragmentation projector*",
+                "1 battlesuit support system*",
+                "1 burst cannon",
+                "1 cyclic ion blaster",
+                "1 fusion blaster",
+                "1 missile pod",
+                "1 plasma rifle",
+                "1 shield generator*",
+                "1 T’au flamer",
+                "1 weapon support system*"
+            ]
+        },
+        {
+            "description": "This model can be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        },
+        {
+            "description": "This model can be equipped with up to three of the following, and can take duplicates",
+            "items": [
+                "1 airbursting fragmentation projector*",
+                "1 battlesuit support system*",
+                "1 burst cannon",
+                "1 cyclic ion blaster",
+                "1 fusion blaster",
+                "1 missile pod",
+                "1 plasma rifle",
+                "1 shield generator*",
+                "1 T’au flamer",
+                "1 weapon support system*"
+            ]
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s high-output burst cannon can be replaced with one of the following",
-      "items": [
-        "1 airbursting fragmentation projector*",
-        "1 battlesuit support system*",
-        "1 burst cannon",
-        "1 cyclic ion blaster",
-        "1 fusion blaster",
-        "1 missile pod",
-        "1 plasma rifle",
-        "1 shield generator*",
-        "1 T’au flamer",
-        "1 weapon support system*"
-      ]
-    },
-    {
-      "description": "This model can be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 gun drone",
-        "1 marker drone",
-        "1 shield drone"
-      ]
-    },
-    {
-      "description": "This model can be equipped with up to three of the following, and can take duplicates",
-      "items": [
-        "1 airbursting fragmentation projector*",
-        "1 battlesuit support system*",
-        "1 burst cannon",
-        "1 cyclic ion blaster",
-        "1 fusion blaster",
-        "1 missile pod",
-        "1 plasma rifle",
-        "1 shield generator*",
-        "1 T’au flamer",
-        "1 weapon support system*"
-      ]
-    }
-  ]
 }

@@ -1,89 +1,91 @@
 {
-  "parentUnit": "Piranhas",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Streaking ahead of the main T’au forces, squadrons of these light combat skimmers rake targets of opportunity with salvoes of heavy firepower. They can further detach entire squadrons of drones to sow mayhem behind enemy lines before they redock, increasing the havoc the Piranhas can cause or covering their swift retreat.",
-  "keywords": [
-    "vehicle",
-    "fly",
-    "piranha"
-  ],
-  "attributes": [{
-    "movement": 14,
-    "toughness": 7,
-    "salvation": 4,
-    "wounds": 7,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Piranha fusion blaster",
-      "modifiers": [
-        "melta 4"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Seeker missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin pulse carbine",
-      "modifiers": [
-        "twin-linked",
-        "assault"
-      ],
-      "range": 20,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Scouts 9\""
+    "parentUnit": "Piranhas",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "For the Greater Good"
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their Piranha burst cannon can be replaced with 1 Piranha fusion blaster.",
-      "items": []
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Streaking ahead of the main T’au forces, squadrons of these light combat skimmers rake targets of opportunity with salvoes of heavy firepower. They can further detach entire squadrons of drones to sow mayhem behind enemy lines before they redock, increasing the havoc the Piranhas can cause or covering their swift retreat.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "piranha"
+    ],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 7,
+            "salvation": 4,
+            "wounds": 7,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Piranha fusion blaster",
+            "modifiers": [
+                "melta 4"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Seeker missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin pulse carbine",
+            "modifiers": [
+                "twin-linked",
+                "assault"
+            ],
+            "range": 20,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Scouts 9\""
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "For the Greater Good"
+            }
+        ]
     },
-    {
-      "description": "Any number of models can each be equipped with up to 2 seeker missiles.",
-      "items": []
-    }
-  ]
+    "wargear": [
+        {
+            "description": "Any number of models can each have their Piranha burst cannon can be replaced with 1 Piranha fusion blaster.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each be equipped with up to 2 seeker missiles.",
+            "items": []
+        }
+    ]
 }

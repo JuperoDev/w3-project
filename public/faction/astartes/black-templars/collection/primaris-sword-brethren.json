@@ -14,15 +14,17 @@
         "tacticus",
         "primaris sword brethren"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -97,9 +99,7 @@
         }
     ],
     "abilities": {
-        "core": [
-           
-        ],
+        "core": [],
         "faction": [
             "Oath of Moment"
         ],
@@ -141,10 +141,9 @@
         }
     ],
     "meleeWeapons": [
-       
         {
             "name": "Astartes chainsword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 4,
@@ -153,7 +152,7 @@
         },
         {
             "name": "Master-crafted power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 5,
@@ -162,7 +161,7 @@
         },
         {
             "name": "Power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
@@ -171,7 +170,9 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -180,7 +181,9 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,
@@ -194,7 +197,8 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "heavy bolt pistol","Astartes chainsword"
+                "heavy bolt pistol",
+                "Astartes chainsword"
             ]
         },
         {
@@ -202,20 +206,23 @@
             "minQuantity": 4,
             "maxQuantity": 9,
             "equipment": [
-                "heavy bolt pistol","Astartes chainsword"
+                "heavy bolt pistol",
+                "Astartes chainsword"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1,4
+                1,
+                4
             ],
             "points": 140
         },
         {
             "count": [
-                1,9
+                1,
+                9
             ],
             "points": 280
         }

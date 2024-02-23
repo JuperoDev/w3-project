@@ -6,22 +6,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Bike-mounted Command Squads of elite Ravenwing accompany the Chapterâ€™s swiftest commanders. From the battle-surgery of Apothecaries and the inspirational pennants carried by Ancients to the martial excellence of Champions, these specialists provide support for the Companyâ€™s blisteringly fast missions.",
+    "lore": "Bike-mounted Command Squads of elite Ravenwing accompany the Chapter\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s swiftest commanders. From the battle-surgery of Apothecaries and the inspirational pennants carried by Ancients to the martial excellence of Champions, these specialists provide support for the Company\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s blisteringly fast missions.",
     "keywords": [
         "mounted",
         "grenades",
         "imperium",
         "ravenwing command squad"
     ],
-    "attributes": [{
-        "movement": 12,
-        "toughness": 5,
-        "salvation": 3,
-        "wounds": 3,
-        "leadership": 6,
-        "objectiveControl": 2,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        [{
+            "movement": 12,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -104,13 +106,13 @@
     },
     "wargear": [
         {
-            "description": "For every 3 models in this unit, 1 modelâ€™s plasma talon can be replaced with 1 Astartes grenade launcher.",
+            "description": "For every 3 models in this unit, 1 model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s plasma talon can be replaced with 1 Astartes grenade launcher.",
             "items": []
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Astartes grenade launcher â€“ frag",
+            "name": "Astartes grenade launcher \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 frag",
             "modifiers": "blast",
             "attacks": "D3",
             "weapons-skills": "3+",
@@ -136,5 +138,25 @@
             "armor-penetration": 2,
             "damage": "2"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -1,133 +1,135 @@
 {
-  "parentUnit": "Broadside Battlesuits",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Broadside Battlesuit teams annihilate everything that falls beneath their sights. Each battlesuit is an indomitable slab of high-tech armour, while their iconic heavy rail rifles and other long-range weaponry can make short work of even the toughest enemy targets.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "battlesuit",
-    "broadside"
-  ],
-  "attributes": [{
-    "movement": 5,
-    "toughness": 6,
-    "salvation": 2,
-    "wounds": 8,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Heavy rail rifle",
-      "modifiers": [
-        "heavy",
-        "devastating wounds"
-      ],
-      "range": 60,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "High-yield missile pods",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Seeker missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin plasma rifle",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 24,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin smart missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: For the Greater Good"
+    "parentUnit": "Broadside Battlesuits",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Broadside Battlesuit teams annihilate everything that falls beneath their sights. Each battlesuit is an indomitable slab of high-tech armour, while their iconic heavy rail rifles and other long-range weaponry can make short work of even the toughest enemy targets.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "battlesuit",
+        "broadside"
     ],
-    "otherAbilities": [
-      {
-        "name": "Advanced Armour:",
-        "description": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds ."
-      }
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "salvation": 2,
+            "wounds": 8,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy rail rifle",
+            "modifiers": [
+                "heavy",
+                "devastating wounds"
+            ],
+            "range": 60,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "High-yield missile pods",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Seeker missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin plasma rifle",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin smart missile system",
+            "modifiers": [
+                "indirect fire",
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: For the Greater Good"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Advanced Armour:",
+                "description": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their heavy rail rifle replaced with 1 high-yield missile pods.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each be equipped with up to two of the following, but cannot take duplicates",
+            "items": [
+                "1 battlesuit support system",
+                "1 seeker missile",
+                "1 twin plasma rifle*",
+                "1 twin smart missile system*",
+                "1 weapon support system"
+            ]
+        },
+        {
+            "description": "Any number of models can each be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 missile drone",
+                "1 shield drone"
+            ]
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their heavy rail rifle replaced with 1 high-yield missile pods.",
-      "items": []
-    },
-    {
-      "description": "Any number of models can each be equipped with up to two of the following, but cannot take duplicates",
-      "items": [
-        "1 battlesuit support system",
-        "1 seeker missile",
-        "1 twin plasma rifle*",
-        "1 twin smart missile system*",
-        "1 weapon support system"
-      ]
-    },
-    {
-      "description": "Any number of models can each be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 gun drone",
-        "1 marker drone",
-        "1 missile drone",
-        "1 shield drone"
-      ]
-    }
-  ]
 }

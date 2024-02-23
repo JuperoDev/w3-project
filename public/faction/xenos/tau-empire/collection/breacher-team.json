@@ -1,92 +1,94 @@
 {
-  "parentUnit": "Breacher Team",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Where enemies must be driven from fortified positions or void ships boarded, there go the Fire Warriors of the Breacher Teams. Their pulse blasters are short ranged but lethal, and when coupled with the team’s tough armour, tactical discipline and specialist support drones, Breacher Teams become lethal at close quarters.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "markerlight",
-    "fire warrior",
-    "breacher team"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Pulse blaster",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 10,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Support turret missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: For the Greater Good"
+    "parentUnit": "Breacher Team",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "pulse blaster; pulse pistol; close combat weapon."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Where enemies must be driven from fortified positions or void ships boarded, there go the Fire Warriors of the Breacher Teams. Their pulse blasters are short ranged but lethal, and when coupled with the team’s tough armour, tactical discipline and specialist support drones, Breacher Teams become lethal at close quarters.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "markerlight",
+        "fire warrior",
+        "breacher team"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Pulse blaster",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 10,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Support turret missile system",
+            "modifiers": [
+                "indirect fire",
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: For the Greater Good"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "pulse blaster; pulse pistol; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Breacher Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 guardian drone* (it cannot take duplicates of this piece of wargear)",
+                "1 gun drone*",
+                "1 marker drone*",
+                "1 shield drone*"
+            ]
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Breacher Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 guardian drone* (it cannot take duplicates of this piece of wargear)",
-        "1 gun drone*",
-        "1 marker drone*",
-        "1 shield drone*"
-      ]
-    }
-  ]
 }

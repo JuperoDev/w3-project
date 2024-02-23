@@ -1,74 +1,76 @@
 {
-  "parentUnit": "Kroot Shaper",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Wise and cunning as alpha predators, Kroot Shapers lead their people by bloodthirsty example. On the battlefield this means keeping a glowering watch on their wildest followers, directing the feral savagery of squad and pack, and cutting down the mightiest enemies in displays of ritual butchery to inspire the watching Kroot.",
-  "keywords": [
-    "character",
-    "grenades",
-    "infantry",
-    "kroot",
-    "shaper"
-  ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 6,
-    "wounds": 3,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Kroot rifle",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse rifle",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader",
-      "Scouts 7\"",
-      "Stealth"
+    "parentUnit": "Kroot Shaper",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "Kroot rifle; Shaper’s ritual blade."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wise and cunning as alpha predators, Kroot Shapers lead their people by bloodthirsty example. On the battlefield this means keeping a glowering watch on their wildest followers, directing the feral savagery of squad and pack, and cutting down the mightiest enemies in displays of ritual butchery to inspire the watching Kroot.",
+    "keywords": [
+        "character",
+        "grenades",
+        "infantry",
+        "kroot",
+        "shaper"
+    ],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "salvation": 6,
+            "wounds": 3,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Kroot rifle",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse rifle",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader",
+            "Scouts 7\"",
+            "Stealth"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "Kroot rifle; Shaper’s ritual blade."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s Kroot rifle can be replaced with 1 pulse rifle.",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s Kroot rifle can be replaced with 1 pulse rifle.",
-      "items": []
-    }
-  ]
 }

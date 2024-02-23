@@ -84,15 +84,16 @@
         },
         {
             "name": "Macro plasma incinerator - standard",
-            "modifiers": ["blast"],
-           
+            "modifiers": [
+                "blast"
+            ],
             "range": 36,
             "attacks": "D6+1",
-            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 3,
-            "damage": 2
-            ,"singleChoice":true
+            "damage": 2,
+            "singleChoice": true,
+            "ballistic-skills": 3
         },
         {
             "name": "Macro plasma incinerator - supercharge",
@@ -155,10 +156,10 @@
             "modifiers": [],
             "range": 24,
             "attacks": 10,
-            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": 1
+            "damage": 1,
+            "ballistic-skills": 3
         }
     ],
     "abilities": {

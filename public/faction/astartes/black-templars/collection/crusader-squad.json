@@ -14,26 +14,28 @@
         "imperium",
         "crusader squad"
     ],
-    "attributes": [{
-        "name": "neophytes",
-        "movement": 6,
-        "toughness": 4,
-        "save": 4,
-        "wounds": 2,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    },
-    {
-        "name": "other models",
-        "movement": 6,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 2,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "name": "neophytes",
+            "movement": 6,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        },
+        {
+            "name": "other models",
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -51,9 +53,7 @@
         },
         {
             "name": "Bolt pistol",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 12,
             "strength": 4,
             "attacks": 1,
@@ -64,9 +64,7 @@
         },
         {
             "name": "Bolt gun",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 18,
             "strength": 4,
             "attacks": 2,
@@ -367,11 +365,9 @@
         }
     ],
     "abilities": {
-        "core": [
-        ],
+        "core": [],
         "faction": [
             "Oath of Moment"
-            
         ],
         "otherAbilities": [
             {
@@ -434,10 +430,9 @@
         }
     ],
     "meleeWeapons": [
-       
         {
             "name": "Astartes chainsword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 4,
@@ -446,7 +441,7 @@
         },
         {
             "name": "Combat knife",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 4,
@@ -455,7 +450,7 @@
         },
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 4,
@@ -464,7 +459,7 @@
         },
         {
             "name": "Power fist",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 8,
@@ -473,7 +468,7 @@
         },
         {
             "name": "Power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
@@ -482,7 +477,9 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 8,
@@ -491,7 +488,9 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
@@ -505,7 +504,9 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "boltgun","bolt pistol", "close combat weapon."
+                "boltgun",
+                "bolt pistol",
+                "close combat weapon."
             ]
         },
         {
@@ -513,7 +514,9 @@
             "minQuantity": 4,
             "maxQuantity": 9,
             "equipment": [
-                "boltgun","bolt pistol", "close combat weapon."
+                "boltgun",
+                "bolt pistol",
+                "close combat weapon."
             ]
         },
         {
@@ -521,32 +524,42 @@
             "minQuantity": 0,
             "maxQuantity": 10,
             "equipment": [
-                "boltgun","bolt pistol", "close combat weapon."
+                "boltgun",
+                "bolt pistol",
+                "close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1,4,0
+                1,
+                4,
+                0
             ],
             "points": 75
         },
         {
             "count": [
-                1,9,0
+                1,
+                9,
+                0
             ],
             "points": 150
         },
         {
             "count": [
-                1,4,5
+                1,
+                4,
+                5
             ],
             "points": 135
         },
         {
             "count": [
-                1,9,10
+                1,
+                9,
+                10
             ],
             "points": 270
         }

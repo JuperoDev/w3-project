@@ -1,135 +1,137 @@
 {
-  "parentUnit": "Crisis Battlesuits",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Wherever the battle rages most fiercely, there the Crisis Battlesuits strike. Piloted by courageous Fire Caste veterans, these suits are as tough and well-armed as many races’ light tanks, yet they also boast jet-assisted speed that allows them to cross the battlefield in bounding leaps or drop in from Manta Gunships.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "fly",
-    "battlesuit",
-    "crisis"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 5,
-    "salvation": 3,
-    "wounds": 4,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Airbursting fragmentation projector",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Cyclic ion blaster - overcharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Fusion blaster",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "T’au flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Crisis Battlesuits",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wherever the battle rages most fiercely, there the Crisis Battlesuits strike. Piloted by courageous Fire Caste veterans, these suits are as tough and well-armed as many races’ light tanks, yet they also boast jet-assisted speed that allows them to cross the battlefield in bounding leaps or drop in from Manta Gunships.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "battlesuit",
+        "crisis"
     ],
-    "otherAbilities": [
-      {
-        "name": "Turbo-jets:",
-        "description": "Each time this unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 5,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Airbursting fragmentation projector",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Cyclic ion blaster - overcharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fusion blaster",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "T’au flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Turbo-jets:",
+                "description": "Each time this unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their burst cannon replaced with one of the following",
+            "items": [
+                "1 airbursting fragmentation projector*",
+                "1 battlesuit support system*",
+                "1 cyclic ion blaster",
+                "1 fusion blaster",
+                "1 missile pod",
+                "1 plasma rifle",
+                "1 shield generator*",
+                "1 T’au flamer",
+                "1 weapon support system*"
+            ]
+        },
+        {
+            "description": "Any number of models can be equipped with up to two of the following, and can take duplicate1 gun drone1 marker drone1 shield drone",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        },
+        {
+            "description": "Any number of models can each be equipped with up to three of the following, and can take duplicates**",
+            "items": [
+                "1 airbursting fragmentation projector*",
+                "1 battlesuit support system*",
+                "1 burst cannon",
+                "1 cyclic ion blaster",
+                "1 fusion blaster",
+                "1 missile pod",
+                "1 plasma rifle",
+                "1 shield generator*",
+                "1 T’au flamer  s:",
+                "1 weapon support system*"
+            ]
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "Any number of models can each have their burst cannon replaced with one of the following",
-      "items": [
-        "1 airbursting fragmentation projector*",
-        "1 battlesuit support system*",
-        "1 cyclic ion blaster",
-        "1 fusion blaster",
-        "1 missile pod",
-        "1 plasma rifle",
-        "1 shield generator*",
-        "1 T’au flamer",
-        "1 weapon support system*"
-      ]
-    },
-    {
-      "description": "Any number of models can be equipped with up to two of the following, and can take duplicate1 gun drone1 marker drone1 shield drone",
-      "items": [
-        "1 gun drone",
-        "1 marker drone",
-        "1 shield drone"
-      ]
-    },
-    {
-      "description": "Any number of models can each be equipped with up to three of the following, and can take duplicates**",
-      "items": [
-        "1 airbursting fragmentation projector*",
-        "1 battlesuit support system*",
-        "1 burst cannon",
-        "1 cyclic ion blaster",
-        "1 fusion blaster",
-        "1 missile pod",
-        "1 plasma rifle",
-        "1 shield generator*",
-        "1 T’au flamer  s:",
-        "1 weapon support system*"
-      ]
-    }
-  ]
 }

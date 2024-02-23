@@ -1,68 +1,70 @@
 {
-  "parentUnit": "Cadre Fireblade",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Specialists in infantry-based battlefield tactics, Cadre Fireblades eschew the honour of a battlesuit in order to fight selflessly amongst the Fire Caste’s rank and file. Their veteran wisdom is of great benefit to the warriors alongside whom they fight, optimising the ferocity and accuracy of their firepower.",
-  "keywords": [
-    "infantry",
-    "character",
-    "grenades",
-    "cadre fireblade"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 3,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Fireblade pulse rifle",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Cadre Fireblade",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Specialists in infantry-based battlefield tactics, Cadre Fireblades eschew the honour of a battlesuit in order to fight selflessly amongst the Fire Caste’s rank and file. Their veteran wisdom is of great benefit to the warriors alongside whom they fight, optimising the ferocity and accuracy of their firepower.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "cadre fireblade"
     ],
-    "otherAbilities": [
-      {
-        "name": "Volley Fire:",
-        "description": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
-      },
-      {
-        "name": "Crack Shot:",
-        "description": "Each time this model makes a ranged attack, on a Critical Wound , that attack has an Armour Penetration characteristic of -3."
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 3,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Fireblade pulse rifle",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Volley Fire:",
+                "description": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
+            },
+            {
+                "name": "Crack Shot:",
+                "description": "Each time this model makes a ranged attack, on a Critical Wound , that attack has an Armour Penetration characteristic of -3."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model can be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 gun drone",
-        "1 marker drone",
-        "1 shield drone"
-      ]
-    }
-  ]
 }

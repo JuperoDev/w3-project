@@ -1,91 +1,93 @@
 {
-  "parentUnit": "Devilfish",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The ubiquitous armoured transport of the Fire Caste, the Devilfish is an iconic symbol of T’au military expansion. Tough and surprisingly agile, it bears Fire Warriors safely into battle with impressive speed. Once there, its burst cannons and detachable drones or missile systems provide its passengers with additional fire support.",
-  "keywords": [
-    "vehicle",
-    "fly",
-    "transport",
-    "dedicated transport",
-    "devilfish"
-  ],
-  "attributes": [{
-    "movement": 12,
-    "toughness": 9,
-    "salvation": 3,
-    "wounds": 13,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Seeker missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin pulse carbine",
-      "modifiers": [
-        "assault",
-        "twin-linked"
-      ],
-      "range": 20,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin smart missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Devilfish",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "For the Greater Good"
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s 2 twin pulse carbines can be replaced with 2 twin smart missile systems.",
-      "items": []
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The ubiquitous armoured transport of the Fire Caste, the Devilfish is an iconic symbol of T’au military expansion. Tough and surprisingly agile, it bears Fire Warriors safely into battle with impressive speed. Once there, its burst cannons and detachable drones or missile systems provide its passengers with additional fire support.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "transport",
+        "dedicated transport",
+        "devilfish"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "salvation": 3,
+            "wounds": 13,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Seeker missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin pulse carbine",
+            "modifiers": [
+                "assault",
+                "twin-linked"
+            ],
+            "range": 20,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin smart missile system",
+            "modifiers": [
+                "indirect fire",
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "For the Greater Good"
+            }
+        ]
     },
-    {
-      "description": "This model can be equipped with up to 2 seeker missiles.",
-      "items": []
-    }
-  ]
+    "wargear": [
+        {
+            "description": "This model’s 2 twin pulse carbines can be replaced with 2 twin smart missile systems.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with up to 2 seeker missiles.",
+            "items": []
+        }
+    ]
 }

@@ -1,139 +1,141 @@
 {
-  "parentUnit": "Hammerhead Gunship",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {
-    "remainingWounds": 5,
-    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "The Hammerhead Gunship epitomises the T’au way of war. Not only is this hover tank resilient and possessed of truly ferocious firepower, but it is also swift and manoeuvrable enough to outpace lumbering enemy war engines while keeping up with the Hunter Cadres’ rapid advances, feints and redeployments.",
-  "keywords": [
-    "vehicle",
-    "fly",
-    "hammerhead gunship"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 10,
-    "salvation": 3,
-    "wounds": 14,
-    "leadership": 7,
-    "objectiveControl": 3,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Ion cannon - standard",
-      "modifiers": [
-        "blast"
-      ],
-      "range": 60,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Ion cannon - overcharge",
-      "modifiers": [
-        "blast",
-        "hazardous"
-      ],
-      "range": 60,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Railgun",
-      "modifiers": [
-        "heavy",
-        "devastating wounds"
-      ],
-      "range": 72,
-      "strength": 20,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Seeker missile",
-      "modifiers": [
-        "one shot"
-      ],
-      "range": 48,
-      "strength": 14,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin pulse carbine",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 20,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin smart missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3"
+    "parentUnit": "Hammerhead Gunship",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "For the Greater Good"
-      }
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Hammerhead Gunship epitomises the T’au way of war. Not only is this hover tank resilient and possessed of truly ferocious firepower, but it is also swift and manoeuvrable enough to outpace lumbering enemy war engines while keeping up with the Hunter Cadres’ rapid advances, feints and redeployments.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "hammerhead gunship"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "salvation": 3,
+            "wounds": 14,
+            "leadership": 7,
+            "objectiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Ion cannon - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 60,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Ion cannon - overcharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 60,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Railgun",
+            "modifiers": [
+                "heavy",
+                "devastating wounds"
+            ],
+            "range": 72,
+            "strength": 20,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Seeker missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin pulse carbine",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 20,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin smart missile system",
+            "modifiers": [
+                "indirect fire",
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "For the Greater Good"
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s railgun can be replaced with 1 ion cannon.",
+            "items": []
+        },
+        {
+            "description": "This model’s 2 twin pulse carbines can be replaced with one of the following",
+            "items": [
+                "2 accelerator burst cannons",
+                "2 twin smart missile systems"
+            ]
+        },
+        {
+            "description": "This model can be equipped with up to 2 seeker missiles.",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s railgun can be replaced with 1 ion cannon.",
-      "items": []
-    },
-    {
-      "description": "This model’s 2 twin pulse carbines can be replaced with one of the following",
-      "items": [
-        "2 accelerator burst cannons",
-        "2 twin smart missile systems"
-      ]
-    },
-    {
-      "description": "This model can be equipped with up to 2 seeker missiles.",
-      "items": []
-    }
-  ]
 }

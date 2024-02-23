@@ -15,31 +15,35 @@
         "grenades",
         "chaplain grimaldus"
     ],
-    "attributes": [{
-        "name":"Grimaldus",
-        "movement": 6,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 5,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    },
-    {
-        "name":"Cenobyte Servitor",
-        "movement": 6,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 8,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
-    "leader": ["Primaris Crusader Squad",
-    "Primaris Sword Brethren",
-    "Assault Intercessor Squad",
-    "Infernus Squad",
-    "Intercessor Squad"],
+    "attributes": [
+        {
+            "name": "Grimaldus",
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 5,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        },
+        {
+            "name": "Cenobyte Servitor",
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Primaris Crusader Squad",
+        "Primaris Sword Brethren",
+        "Assault Intercessor Squad",
+        "Infernus Squad",
+        "Intercessor Squad"
+    ],
     "rangedWeapons": [
         {
             "name": "Plasma pistol - standard",
@@ -74,7 +78,9 @@
             "Feel No Pain 5+",
             "Leader"
         ],
-        "faction": ["Oath of Moment"],
+        "faction": [
+            "Oath of Moment"
+        ],
         "otherAbilities": [
             {
                 "name": "Litanies of the Devout",
@@ -82,7 +88,7 @@
             },
             {
                 "name": "Temple Relics",
-                "description": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Relics of the Emperor Ascendant ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability."
+                "description": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Relics of the Emperor Ascendant ability (see left). Until the start of your next Command phase, this unit's Chaplain Grimaldus model has that ability."
             }
         ]
     },
@@ -95,7 +101,7 @@
     "meleeWeapons": [
         {
             "name": "Artificer crozius",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 6,
@@ -104,7 +110,7 @@
         },
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 4,
             "strength": 3,
@@ -114,11 +120,12 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Chaplain Grimaldus – EPIC HERO",
+            "unitType": "Chaplain Grimaldus \u00e2\u20ac\u201c EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "plasma pistol","artificer crozius"
+                "plasma pistol",
+                "artificer crozius"
             ]
         },
         {
@@ -133,7 +140,8 @@
     "options": [
         {
             "count": [
-                1,3
+                1,
+                3
             ],
             "points": 120
         }

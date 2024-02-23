@@ -17,19 +17,21 @@
         "chapter master",
         "azrael"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "salvation": 2,
-        "wounds": 6,
-        "leadership": 6,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Lionâ€™s Wrath",
+            "name": "Lion\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Wrath",
             "modifiers": [
                 "anti-infantry 4+",
                 "devastating wounds",
@@ -78,5 +80,25 @@
             "armor-penetration": 4,
             "damage": "2"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

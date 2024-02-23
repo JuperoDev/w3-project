@@ -6,22 +6,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The Ravenwing Black Knights are the 2nd Companyâ€™s greatest warriors, elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked end punctures even the thickest armour.",
+    "lore": "The Ravenwing Black Knights are the 2nd Company\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s greatest warriors, elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked end punctures even the thickest armour.",
     "keywords": [
         "mounted",
         "grenades",
         "imperium",
         "ravenwing black knights"
     ],
-    "attributes": [{
-        "movement": 12,
-        "toughness": 5,
-        "salvation": 3,
-        "wounds": 3,
-        "leadership": 6,
-        "objectiveControl": 2,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        [{
+            "movement": 12,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -98,7 +100,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Astartes grenade launcher â€“ frag",
+            "name": "Astartes grenade launcher \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 frag",
             "modifiers": "blast",
             "attacks": "D3",
             "weapons-skills": "3+",
@@ -115,5 +117,25 @@
             "armor-penetration": 2,
             "damage": "1"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

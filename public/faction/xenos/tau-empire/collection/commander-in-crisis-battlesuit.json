@@ -1,137 +1,139 @@
 {
-  "parentUnit": "Commander In Crisis Battlesuit",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "A deadly blend of strategic mastery, courage and technological might, each T’au Commander pilots their battlesuit and directs their armies with great skill. It is their honour to wield some of the most cutting-edge weapons the empire can provide, enabling them to fight all the harder for the Greater Good.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "fly",
-    "character",
-    "battlesuit",
-    "commander in crisis battlesuit"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 5,
-    "salvation": 3,
-    "wounds": 5,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Airbursting fragmentation projector",
-      "modifiers": [
-        "blast",
-        "indirect fire"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Cyclic ion blaster - overcharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Fusion blaster",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "T’au flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Commander In Crisis Battlesuit",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A deadly blend of strategic mastery, courage and technological might, each T’au Commander pilots their battlesuit and directs their armies with great skill. It is their honour to wield some of the most cutting-edge weapons the empire can provide, enabling them to fight all the harder for the Greater Good.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "character",
+        "battlesuit",
+        "commander in crisis battlesuit"
     ],
-    "otherAbilities": [
-      {
-        "name": "Crisis Commander:",
-        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 5,
+            "salvation": 3,
+            "wounds": 5,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Airbursting fragmentation projector",
+            "modifiers": [
+                "blast",
+                "indirect fire"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Cyclic ion blaster - overcharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fusion blaster",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "T’au flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Crisis Commander:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s burst cannon can be replaced with one of the following",
+            "items": [
+                "1 airbursting fragmentation projector*",
+                "1 battlesuit support system*",
+                "1 cyclic ion blaster",
+                "1 fusion blaster",
+                "1 missile pod",
+                "1 plasma rifle",
+                "1 shield generator*",
+                "1 T’au flamer",
+                "1 weapon support system*"
+            ]
+        },
+        {
+            "description": "This model can be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        },
+        {
+            "description": "This model can be equipped with up to three of the following, and can take duplicates",
+            "items": [
+                "1 airbursting fragmentation projector*",
+                "1 battlesuit support system*",
+                "1 burst cannon",
+                "1 cyclic ion blaster",
+                "1 fusion blaster",
+                "1 missile pod",
+                "1 plasma rifle",
+                "1 shield generator*",
+                "1 T’au flamer",
+                "1 weapon support system*"
+            ]
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s burst cannon can be replaced with one of the following",
-      "items": [
-        "1 airbursting fragmentation projector*",
-        "1 battlesuit support system*",
-        "1 cyclic ion blaster",
-        "1 fusion blaster",
-        "1 missile pod",
-        "1 plasma rifle",
-        "1 shield generator*",
-        "1 T’au flamer",
-        "1 weapon support system*"
-      ]
-    },
-    {
-      "description": "This model can be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 gun drone",
-        "1 marker drone",
-        "1 shield drone"
-      ]
-    },
-    {
-      "description": "This model can be equipped with up to three of the following, and can take duplicates",
-      "items": [
-        "1 airbursting fragmentation projector*",
-        "1 battlesuit support system*",
-        "1 burst cannon",
-        "1 cyclic ion blaster",
-        "1 fusion blaster",
-        "1 missile pod",
-        "1 plasma rifle",
-        "1 shield generator*",
-        "1 T’au flamer",
-        "1 weapon support system*"
-      ]
-    }
-  ]
 }

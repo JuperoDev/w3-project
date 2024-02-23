@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Deathwing Strikemasters serve as the Deathwingâ€™s Lieutenants. To earn such an esteemed rank they have carried out deeds of enormous bravery on countless battlefields, honing their skills as warriors and leaders. In battle they guide their Deathwing brethren with skill and pride, bringing death to the enemy.",
+    "lore": "Deathwing Strikemasters serve as the Deathwing\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Lieutenants. To earn such an esteemed rank they have carried out deeds of enormous bravery on countless battlefields, honing their skills as warriors and leaders. In battle they guide their Deathwing brethren with skill and pride, bringing death to the enemy.",
     "keywords": [
         "infantry",
         "character",
@@ -15,15 +15,17 @@
         "lieutenant",
         "deathwing strikemaster"
     ],
-    "attributes": [{
-        "movement": 5,
-        "toughness": 5,
-        "salvation": 2,
-        "wounds": 5,
-        "leadership": 6,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -61,7 +63,7 @@
     },
     "wargear": [
         {
-            "description": "This modelâ€™s storm bolter and master-crafted power weapon can be replaced with either 1 twin lightning claws, or two different weapons from the following list",
+            "description": "This model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s storm bolter and master-crafted power weapon can be replaced with either 1 twin lightning claws, or two different weapons from the following list",
             "items": [
                 "1 storm bolter",
                 "1 chainfist",
@@ -127,5 +129,25 @@
             "armor-penetration": 2,
             "damage": "1"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

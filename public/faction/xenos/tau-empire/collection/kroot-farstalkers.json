@@ -1,128 +1,130 @@
 {
-  "parentUnit": "Kroot Farstalkers",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Farstalker Kinbands are opportunistic mercenaries often operating for years far from the Kroot home world. They are experienced raiders, scouts and infiltrators, setting masterful ambushes from which to unleash the deadly weapons they have amassed over long careers as ruthless bounty hunters.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "kroot",
-    "farstalkers"
-  ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 6,
-    "wounds": 1,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Dvorgite skinner",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Farstalker firearm",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Kroot pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Londaxi tribalest",
-      "modifiers": [
-        "anti-vehicle 4+",
-        "devastating wounds",
-        "heavy"
-      ],
-      "range": 18,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse rifle",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Stealth"
+    "parentUnit": "Kroot Farstalkers",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Pech’ra:",
-        "description": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Farstalker Kinbands are opportunistic mercenaries often operating for years far from the Kroot home world. They are experienced raiders, scouts and infiltrators, setting masterful ambushes from which to unleash the deadly weapons they have amassed over long careers as ruthless bounty hunters.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "kroot",
+        "farstalkers"
+    ],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "salvation": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Dvorgite skinner",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Farstalker firearm",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kroot pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Londaxi tribalest",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds",
+                "heavy"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse rifle",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Stealth"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Pech’ra:",
+                "description": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Kroot Kill-broker’s Farstalker firearm can be replaced with one of the following",
+            "items": [
+                "1 pulse carbine",
+                "1 pulse rifle"
+            ]
+        },
+        {
+            "description": "1 Kroot Farstalker’s Farstalker firearm can be replaced with one of the following",
+            "items": [
+                "1 Dvorgite skinner",
+                "1 Londaxi tribalest"
+            ]
+        },
+        {
+            "description": "1 Kroot Farstalker equipped with a Farstalker firearm can be equipped with 1 Pech’ra.",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Kroot Kill-broker’s Farstalker firearm can be replaced with one of the following",
-      "items": [
-        "1 pulse carbine",
-        "1 pulse rifle"
-      ]
-    },
-    {
-      "description": "1 Kroot Farstalker’s Farstalker firearm can be replaced with one of the following",
-      "items": [
-        "1 Dvorgite skinner",
-        "1 Londaxi tribalest"
-      ]
-    },
-    {
-      "description": "1 Kroot Farstalker equipped with a Farstalker firearm can be equipped with 1 Pech’ra.",
-      "items": []
-    }
-  ]
 }

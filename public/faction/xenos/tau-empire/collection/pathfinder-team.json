@@ -1,138 +1,140 @@
 {
-  "parentUnit": "Pathfinder Team",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Pathfinder Teams wreak havoc behind enemy lines. Their firepower is formidable, especially when sniping with potent rail rifles, and their drones can optimise the team’s pulse fire or drive the enemy back with gravitic waves. Yet their deadliest ability is painting priority targets with massed markerlights for heavier T’au units to annihilate.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "markerlight",
-    "pathfinder team"
-  ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Ion rifle - standard",
-      "modifiers": [
-        "heavy"
-      ],
-      "range": 30,
-      "strength": 7,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Ion rifle - overcharge",
-      "modifiers": [
-        "hazardous",
-        "heavy"
-      ],
-      "range": 30,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Rail rifle",
-      "modifiers": [
-        "devastating wounds",
-        "heavy"
-      ],
-      "range": 30,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Semi-automatic grenade launcher - EMP",
-      "modifiers": [
-        "anti-vehicle 4+",
-        "devastating wounds"
-      ],
-      "range": 18,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Scouts 7\""
+    "parentUnit": "Pathfinder Team",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Pathfinder Teams wreak havoc behind enemy lines. Their firepower is formidable, especially when sniping with potent rail rifles, and their drones can optimise the team’s pulse fire or drive the enemy back with gravitic waves. Yet their deadliest ability is painting priority targets with massed markerlights for heavier T’au units to annihilate.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "markerlight",
+        "pathfinder team"
     ],
-    "otherAbilities": [
-      {
-        "name": "Target Uploaded:",
-        "description": "Once per turn, when using the Greater Good ability, you can select this unit to be an Observer unit for a second time. When doing so, you can change which enemy unit is this unit’s Spotted unit ."
-      }
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Ion rifle - standard",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Ion rifle - overcharge",
+            "modifiers": [
+                "hazardous",
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Rail rifle",
+            "modifiers": [
+                "devastating wounds",
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Semi-automatic grenade launcher - EMP",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds"
+            ],
+            "range": 18,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 7\""
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Target Uploaded:",
+                "description": "Once per turn, when using the Greater Good ability, you can select this unit to be an Observer unit for a second time. When doing so, you can change which enemy unit is this unit’s Spotted unit ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "The Pathfinder Shas’ui can be equipped with one of the following",
+            "items": [
+                "1 grav-inhibitor drone",
+                "1 pulse accelerator drone",
+                "1 recon drone"
+            ]
+        },
+        {
+            "description": "Up to 3 Pathfinders can each have their pulse carbine replaced with one of the following",
+            "items": [
+                "1 ion rifle",
+                "1 rail rifle"
+            ]
+        },
+        {
+            "description": "1 model in this unit equipped with a pulse carbine can be equipped with 1 semi-automatic grenade launcher. That model’s pulse carbine cannot be replaced.",
+            "items": []
+        },
+        {
+            "description": "1 model in this unit can be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "The Pathfinder Shas’ui can be equipped with one of the following",
-      "items": [
-        "1 grav-inhibitor drone",
-        "1 pulse accelerator drone",
-        "1 recon drone"
-      ]
-    },
-    {
-      "description": "Up to 3 Pathfinders can each have their pulse carbine replaced with one of the following",
-      "items": [
-        "1 ion rifle",
-        "1 rail rifle"
-      ]
-    },
-    {
-      "description": "1 model in this unit equipped with a pulse carbine can be equipped with 1 semi-automatic grenade launcher. That model’s pulse carbine cannot be replaced.",
-      "items": []
-    },
-    {
-      "description": "1 model in this unit can be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 gun drone",
-        "1 marker drone",
-        "1 shield drone"
-      ]
-    }
-  ]
 }

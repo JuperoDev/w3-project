@@ -1,61 +1,63 @@
 {
-  "parentUnit": "Tidewall Gunrig",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These mobile anti-grav gun turrets mount railguns whose hypersonic rounds can stop even super-heavy war engines dead in their tracks. They form deadly fire points around which Tidewall Shieldlines and droneports are arrayed into full defence networks – floating fortresses that can reposition at need to funnel and slaughter the foe.",
-  "keywords": [
-    "fortification",
-    "vehicle",
-    "transport",
-    "fly",
-    "tidewall gunrig"
-  ],
-  "attributes": [{
-    "movement": 4,
-    "toughness": 8,
-    "salvation": 3,
-    "wounds": 14,
-    "leadership": 7,
-    "objectiveControl": 0,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Supremacy railgun",
-      "modifiers": [
-        "devastating wounds",
-        "twin-linked"
-      ],
-      "range": 72,
-      "strength": 20,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Firing Deck 11"
+    "parentUnit": "Tidewall Gunrig",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "This model is equipped with:",
-        "description": "supremacy railgun."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These mobile anti-grav gun turrets mount railguns whose hypersonic rounds can stop even super-heavy war engines dead in their tracks. They form deadly fire points around which Tidewall Shieldlines and droneports are arrayed into full defence networks – floating fortresses that can reposition at need to funnel and slaughter the foe.",
+    "keywords": [
+        "fortification",
+        "vehicle",
+        "transport",
+        "fly",
+        "tidewall gunrig"
+    ],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 8,
+            "salvation": 3,
+            "wounds": 14,
+            "leadership": 7,
+            "objectiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Supremacy railgun",
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "range": 72,
+            "strength": 20,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Firing Deck 11"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "This model is equipped with:",
+                "description": "supremacy railgun."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ]
 }

@@ -1,96 +1,98 @@
 {
-  "parentUnit": "Strike Team",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Fire Warrior Strike Teams are the mainstay of many Hunter Cadres, unleashing storms of potent anti-personnel firepower that few foes can long endure. Tough, dependable, numerous and with access to a variety of specialised weaponry and drone support, these Fire Warriors will hold the line no matter what odds they face.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "markerlight",
-    "fire warrior",
-    "strike team"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Pulse pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Pulse rifle",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Support turret missile system",
-      "modifiers": [
-        "indirect fire",
-        "twin-linked"
-      ],
-      "range": 30,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: For the Greater Good"
+    "parentUnit": "Strike Team",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "pulse pistol; pulse rifle; close combat weapon."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "The Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 guardian drone (it cannot take duplicates of this piece of wargear)",
-        "1 gun drone",
-        "1 marker drone",
-        "1 shield drone"
-      ]
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Fire Warrior Strike Teams are the mainstay of many Hunter Cadres, unleashing storms of potent anti-personnel firepower that few foes can long endure. Tough, dependable, numerous and with access to a variety of specialised weaponry and drone support, these Fire Warriors will hold the line no matter what odds they face.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "markerlight",
+        "fire warrior",
+        "strike team"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse rifle",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Support turret missile system",
+            "modifiers": [
+                "indirect fire",
+                "twin-linked"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: For the Greater Good"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "pulse pistol; pulse rifle; close combat weapon."
+            }
+        ]
     },
-    {
-      "description": "Any number of Fire Warrior models can each have their pulse rifle replaced with 1 pulse carbine.",
-      "items": []
-    }
-  ]
+    "wargear": [
+        {
+            "description": "The Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 guardian drone (it cannot take duplicates of this piece of wargear)",
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        },
+        {
+            "description": "Any number of Fire Warrior models can each have their pulse rifle replaced with 1 pulse carbine.",
+            "items": []
+        }
+    ]
 }

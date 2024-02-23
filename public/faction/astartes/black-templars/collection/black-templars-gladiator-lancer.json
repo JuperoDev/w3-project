@@ -16,15 +16,17 @@
         "imperium",
         "gladiator lancer"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 12,
-        "leadership": 6,
-        "objetiveControl": 3,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -140,7 +142,7 @@
     "meleeWeapons": [
         {
             "name": "Armoured hull",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 6,
@@ -154,7 +156,9 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Lancer laser destroyer","2 storm bolters","armoured hull."
+                "Lancer laser destroyer",
+                "2 storm bolters",
+                "armoured hull."
             ]
         }
     ],

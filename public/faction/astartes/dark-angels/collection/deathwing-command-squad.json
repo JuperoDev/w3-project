@@ -13,15 +13,17 @@
         "terminator",
         "deathwing command squad"
     ],
-    "attributes": [{
-        "movement": 5,
-        "toughness": 5,
-        "salvation": 2,
-        "wounds": 3,
-        "leadership": 6,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -159,7 +161,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Cyclone missile launcher â€“ frag",
+            "name": "Cyclone missile launcher - frag",
             "modifiers": "blast",
             "attacks": "2D6",
             "weapons-skills": "3+",
@@ -168,7 +170,7 @@
             "damage": "1"
         },
         {
-            "name": "Plasma cannon â€“ standard",
+            "name": "Plasma cannon - standard",
             "modifiers": "blast",
             "attacks": "D3",
             "weapons-skills": "3+",
@@ -230,5 +232,25 @@
             "armor-penetration": 2,
             "damage": "1"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

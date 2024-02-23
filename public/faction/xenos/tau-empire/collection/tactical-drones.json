@@ -1,53 +1,55 @@
 {
-  "parentUnit": "Tactical Drones",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Armoured units controlled by artificial intelligence and borne on gravitic repulsors, Tactical Drones provide support to T’au forces in the field. Capable of unleashing withering fusillades of pulse carbine fire, Commanders readily send these faithful units on seek-and-destroy missions to overwhelm enemy scouts or even light vehicles.",
-  "keywords": [
-    "drone",
-    "fly",
-    "tactical drones"
-  ],
-  "attributes": [{
-    "movement": 8,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 7,
-    "objectiveControl": 0,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Twin pulse carbine",
-      "modifiers": [
-        "assault",
-        "twin-linked"
-      ],
-      "range": 20,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Tactical Drones",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": []
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ]
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Armoured units controlled by artificial intelligence and borne on gravitic repulsors, Tactical Drones provide support to T’au forces in the field. Capable of unleashing withering fusillades of pulse carbine fire, Commanders readily send these faithful units on seek-and-destroy missions to overwhelm enemy scouts or even light vehicles.",
+    "keywords": [
+        "drone",
+        "fly",
+        "tactical drones"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Twin pulse carbine",
+            "modifiers": [
+                "assault",
+                "twin-linked"
+            ],
+            "range": 20,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [],
+        "otherAbilities": []
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ]
 }

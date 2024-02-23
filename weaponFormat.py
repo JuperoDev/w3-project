@@ -30,5 +30,5 @@ def process_files(folder_path):
                 merge_stats(file_path, file_path)
 
 if __name__ == "__main__":
-    folder_path = r"C:\Users\JPR\Documents\GitHub\w3-project\public\faction\astartes\black-templars\collection"
+    folder_path = r"C:\Users\JPR\Documents\GitHub\w3-project\public\faction\astartes\dark-angels\collection"
     process_files(folder_path)

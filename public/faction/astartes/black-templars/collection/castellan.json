@@ -16,21 +16,25 @@
         "lieutenant",
         "castellan"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
-    "leader": ["Primaris Crusader Squad",
-    "Primaris Sword Brethren",
-   "Assault Intercessor Squad",
-    "Infernus Squad",
-    "Intercessor Squad",
-    "Sternguard Veteran Squad"],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Primaris Crusader Squad",
+        "Primaris Sword Brethren",
+        "Assault Intercessor Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad"
+    ],
     "rangedWeapons": [
         {
             "name": "Combi-weapon",
@@ -92,7 +96,7 @@
     "meleeWeapons": [
         {
             "name": "Astartes chainsword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 4,
@@ -101,7 +105,7 @@
         },
         {
             "name": "Master-crafted power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 5,
@@ -115,7 +119,8 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "combi-weapon", "master-crafted power weapon"
+                "combi-weapon",
+                "master-crafted power weapon"
             ]
         }
     ],

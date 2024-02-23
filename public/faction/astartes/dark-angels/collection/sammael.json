@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Sammael rides to war on the jetbike Corvex, a relic from the Dark Age of Technology. Upon this ancient mount, the Ravenwingâ€™s commander charges into the fray, storm bolters and plasma cannon causing hideous damage before he moves in for the kill with the Raven Sword, an heirloom with a razor edge that can never dull.",
+    "lore": "Sammael rides to war on the jetbike Corvex, a relic from the Dark Age of Technology. Upon this ancient mount, the Ravenwing\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s commander charges into the fray, storm bolters and plasma cannon causing hideous damage before he moves in for the kill with the Raven Sword, an heirloom with a razor edge that can never dull.",
     "keywords": [
         "mounted",
         "character",
@@ -17,15 +17,17 @@
         "captain",
         "sammael"
     ],
-    "attributes": [{
-        "movement": 12,
-        "toughness": 5,
-        "salvation": 3,
-        "wounds": 7,
-        "leadership": 6,
-        "objectiveControl": 2,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 12,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 7,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -83,7 +85,7 @@
             },
             {
                 "name": "Cut Off Their Escape:",
-                "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of this modelâ€™s unit is selected to Fall Back , models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked . When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+                "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES ) within Engagement Range of this model\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s unit is selected to Fall Back , models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked . When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
             }
         ]
     },
@@ -103,5 +105,25 @@
             "armor-penetration": 3,
             "damage": "2"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -14,22 +14,26 @@
         "grenades",
         "imperium",
         "tacticus",
-        "the emperor\u00e2\u20ac\u2122s champion"
+        "the emperor\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s champion"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "save": 2,
-        "wounds": 5,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
-    "leader": ["Primaris Crusader Squad",
-    "Primaris Sword Brethren",
-    "Assault Intercessor Squad",
-    "Intercessor Squad",
-    "Sternguard Veteran Squad"],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Primaris Crusader Squad",
+        "Primaris Sword Brethren",
+        "Assault Intercessor Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad"
+    ],
     "rangedWeapons": [
         {
             "name": "Bolt pistol",
@@ -72,7 +76,9 @@
     "meleeWeapons": [
         {
             "name": "Black Sword - strike",
-            "modifiers": ["precision"],
+            "modifiers": [
+                "precision"
+            ],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 8,
@@ -93,11 +99,12 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Emperor’s Champion – EPIC HERO",
+            "unitType": "Emperor's Champion \u00e2\u20ac\u201c EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "bolt pistol","Black Sword"
+                "bolt pistol",
+                "Black Sword"
             ]
         }
     ],

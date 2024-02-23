@@ -1,138 +1,140 @@
 {
-  "parentUnit": "Ghostkeel Battlesuit",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {
-    "remainingWounds": 4,
-    "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Nothing so huge should be able to slip unnoticed across the battlefield, yet between its stealth field and its electronic warfare suite the Ghostkeel Battlesuit does just that. Once in position its pilot unleashes ferocious volleys of firepower, ambushing, overwhelming and scattering the terrified foe in a matter of moments.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "fly",
-    "smoke",
-    "battlesuit",
-    "ghostkeel"
-  ],
-  "attributes": [{
-    "movement": 10,
-    "toughness": 8,
-    "salvation": 2,
-    "wounds": 12,
-    "leadership": 7,
-    "objectiveControl": 3,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Cyclic ion raker - overcharge",
-      "modifiers": [
-        "hazardous"
-      ],
-      "range": 36,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Fusion collider",
-      "modifiers": [
-        "melta 2"
-      ],
-      "range": 18,
-      "strength": 12,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin burst cannon",
-      "modifiers": [
-        "twin-linked"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin fusion blaster",
-      "modifiers": [
-        "melta 2",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Twin T’au flamer",
-      "modifiers": [
-        "ignores cover",
-        "torrent",
-        "twin-linked"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D3",
-      "Infiltrators",
-      "Lone Operative",
-      "Stealth"
+    "parentUnit": "Ghostkeel Battlesuit",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [
-      "For the Greater Good"
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Nothing so huge should be able to slip unnoticed across the battlefield, yet between its stealth field and its electronic warfare suite the Ghostkeel Battlesuit does just that. Once in position its pilot unleashes ferocious volleys of firepower, ambushing, overwhelming and scattering the terrified foe in a matter of moments.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "smoke",
+        "battlesuit",
+        "ghostkeel"
     ],
-    "otherAbilities": [
-      {
-        "name": "Stealth Drones:",
-        "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0."
-      },
-      {
-        "name": "Designer’s Note:",
-        "description": "Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
-      }
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 8,
+            "salvation": 2,
+            "wounds": 12,
+            "leadership": 7,
+            "objectiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Cyclic ion raker - overcharge",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fusion collider",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin burst cannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin fusion blaster",
+            "modifiers": [
+                "melta 2",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin T’au flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Infiltrators",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Stealth Drones:",
+                "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0."
+            },
+            {
+                "name": "Designer’s Note:",
+                "description": "Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s fusion collider can be replaced with 1 cyclic ion raker.",
+            "items": []
+        },
+        {
+            "description": "This model’s twin T’au flamer can be replaced with one of the following",
+            "items": [
+                "1 twin fusion blaster",
+                "1 twin burst cannon"
+            ]
+        },
+        {
+            "description": "This model can be equipped with one battlesuit support system.",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s fusion collider can be replaced with 1 cyclic ion raker.",
-      "items": []
-    },
-    {
-      "description": "This model’s twin T’au flamer can be replaced with one of the following",
-      "items": [
-        "1 twin fusion blaster",
-        "1 twin burst cannon"
-      ]
-    },
-    {
-      "description": "This model can be equipped with one battlesuit support system.",
-      "items": []
-    }
-  ]
 }

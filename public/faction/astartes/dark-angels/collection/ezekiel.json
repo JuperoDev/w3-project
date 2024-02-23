@@ -6,7 +6,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Ezekiel is often at the forefront of battle. As a master of Interromancy, his warp-whispers claw away the sanity of his enemies. His blade, known as Traitorâ€™s Bane, was forged to slay those who dared turn against the Emperor. It is a formidable force weapon that carries within it the rage of the betrayed.",
+    "lore": "Ezekiel is often at the forefront of battle. As a master of Interromancy, his warp-whispers claw away the sanity of his enemies. His blade, known as Traitor\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Bane, was forged to slay those who dared turn against the Emperor. It is a formidable force weapon that carries within it the rage of the betrayed.",
     "keywords": [
         "infantry",
         "character",
@@ -16,15 +16,17 @@
         "imperium",
         "ezekiel"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "salvation": 2,
-        "wounds": 4,
-        "leadership": 6,
-        "objectiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        [{
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }]
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -100,7 +102,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Traitorâ€™s Bane",
+            "name": "Traitor\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s Bane",
             "modifiers": "anti-chaos2+,psychic",
             "attacks": "4",
             "weapons-skills": "2+",
@@ -108,5 +110,25 @@
             "armor-penetration": 2,
             "damage": "D3"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone \u00e2\u20ac\u201c EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

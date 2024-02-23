@@ -102,20 +102,20 @@
             "range": 36,
             "modifiers": [],
             "attacks": 2,
-            "weapons-skills": 3,
             "strength": 10,
             "armor-penetration": 3,
-            "damage": "D6"
+            "damage": "D6",
+            "ballistic-skills": 3
         },
         {
             "name": "Repulsor defensive array",
             "range": 24,
             "modifiers": [],
             "attacks": "18",
-            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": 1
+            "damage": 1,
+            "ballistic-skills": 3
         }
     ],
     "abilities": {
@@ -128,7 +128,7 @@
         "otherAbilities": [
             {
                 "name": "Emergency Combat Embarkation",
-                "description": "Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one ADEPTUS ASTARTES unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3'' of this Transport, it can embark within this TRANSPORT. The charging unit can then select new targets for its charge."
+                "description": "Once per turn, in your opponent's Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one ADEPTUS ASTARTES unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3'' of this Transport, it can embark within this TRANSPORT. The charging unit can then select new targets for its charge."
             }
         ]
     },
@@ -180,5 +180,5 @@
         }
     ],
     "additionalParameter": {},
-    "transport":"This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+    "transport": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
 }

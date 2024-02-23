@@ -1,51 +1,53 @@
 {
-  "parentUnit": "Ethereal",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "The Ethereals are serene and wise, spiritual leaders of the T’au who embody the wisdom and unity of the Greater Good. In times of war they take to the field in person, fighting with ritual weapons, skimming above the battle aboard hover drones and invoking the fundamental might of the T’au castes.",
-  "keywords": [
-    "infantry",
-    "character",
-    "ethereal"
-  ],
-  "attributes": [{
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 5,
-    "wounds": 3,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  }],
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Leader"
+    "parentUnit": "Ethereal",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Hover Drone:",
-        "description": "The bearer can FLY and has a Move characteristic of 10\"."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "This model can be equipped with 1 hover drone.",
-      "items": []
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Ethereals are serene and wise, spiritual leaders of the T’au who embody the wisdom and unity of the Greater Good. In times of war they take to the field in person, fighting with ritual weapons, skimming above the battle aboard hover drones and invoking the fundamental might of the T’au castes.",
+    "keywords": [
+        "infantry",
+        "character",
+        "ethereal"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 5,
+            "wounds": 3,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Hover Drone:",
+                "description": "The bearer can FLY and has a Move characteristic of 10\"."
+            }
+        ]
     },
-    {
-      "description": "This model can be equipped with up to two of the following, and can take duplicates",
-      "items": [
-        "1 gun drone",
-        "1 marker drone",
-        "1 shield drone"
-      ]
-    }
-  ]
+    "wargear": [
+        {
+            "description": "This model can be equipped with 1 hover drone.",
+            "items": []
+        },
+        {
+            "description": "This model can be equipped with up to two of the following, and can take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        }
+    ]
 }

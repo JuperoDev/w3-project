@@ -17,19 +17,23 @@
         "chapter master",
         "high marshal helbrecht"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 4,
-        "save": 2,
-        "wounds": 5,
-        "leadership": 5,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
-    "leader": ["Primaris Crusader Squad",
-    "Primaris Sword Brethren",
-   "Assault Intercessor Squad",
-    "Intercessor Squad"],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 5,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Primaris Crusader Squad",
+        "Primaris Sword Brethren",
+        "Assault Intercessor Squad",
+        "Intercessor Squad"
+    ],
     "rangedWeapons": [
         {
             "name": "Ferocity",
@@ -73,7 +77,7 @@
     "meleeWeapons": [
         {
             "name": "Sword of the High Marshals - one-handed",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 12,
             "weapons-skills": 2,
             "strength": 6,
@@ -83,7 +87,7 @@
         },
         {
             "name": "Sword of the High Marshals - two-handed",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 8,
@@ -94,11 +98,12 @@
     ],
     "unitComposition": [
         {
-            "unitType": "High Marshal Helbrecht – EPIC HERO",
+            "unitType": "High Marshal Helbrecht \u00e2\u20ac\u201c EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Ferocity","Sword of the High Marshals."
+                "Ferocity",
+                "Sword of the High Marshals."
             ]
         }
     ],

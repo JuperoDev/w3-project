@@ -1,59 +1,61 @@
 {
-  "parentUnit": "Kroot Carnivores",
-  "factionKeywords": [
-    "t’au empire"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Swift and vicious, Kroot Carnivore squads employ fieldcraft and predatory instinct to close rapidly with their foes. What they lack in resilience, they more than make up for in close-ranged savagery, hammering enemies with volleys from their rifles before charging in to rip and tear their victims to gory ribbons.",
-  "keywords": [
-    "infantry",
-    "grenades",
-    "kroot",
-    "carnivores"
-  ],
-  "attributes": [{
-    "movement": 7,
-    "toughness": 3,
-    "salvation": 6,
-    "wounds": 1,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 0
-  }],
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Kroot rifle",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Scouts 7\"",
-      "Stealth"
+    "parentUnit": "Kroot Carnivores",
+    "factionKeywords": [
+        "t’au empire"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "Every model is equipped with:",
-        "description": "Kroot rifle."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Swift and vicious, Kroot Carnivore squads employ fieldcraft and predatory instinct to close rapidly with their foes. What they lack in resilience, they more than make up for in close-ranged savagery, hammering enemies with volleys from their rifles before charging in to rip and tear their victims to gory ribbons.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "kroot",
+        "carnivores"
+    ],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "salvation": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objectiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Kroot rifle",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 7\"",
+            "Stealth"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "Kroot rifle."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ]
 }

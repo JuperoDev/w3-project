@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper ">
     
-   <NavbarComponentsArmyButtonGrid/> 
+   <NavbarComponentsFactionButtonGrid/> 
     <div class="flex items-center justify-center">
     <div class="collection-container">
       <div class="collection-container__left-column">

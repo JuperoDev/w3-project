@@ -1,7 +1,7 @@
 <template>
   <div>
    
-    <NavbarComponentsFactionButtonGrid/>
+    <NavbarComponentsArmyButtonGrid/>
 
     <div v-if="factionData && factionData.army">
       <div v-for="armyName in factionData.army" :key="armyName" class="m-5">

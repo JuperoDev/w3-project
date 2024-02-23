@@ -1,10 +1,12 @@
 <template>
   <div>
    
-    <NavbarComponentsArmyButtonGrid/>
+
+     <NavbarComponentsArmyButtonGrid/>
+   
 
     <div v-if="factionData && factionData.army">
-      <div v-for="armyName in factionData.army" :key="armyName" class="m-5">
+      <div v-for="armyName in factionData.army" :key="armyName" class="m-5 flex items-center justify-center">
         <!-- Sanitize the armyName here by replacing spaces and weird characters with hyphens -->
         <nuxt-link :to="`/${faction}/${sanitizeArmyName(armyName)}`">
           <v-btn class="w-56">{{ armyName }}</v-btn>

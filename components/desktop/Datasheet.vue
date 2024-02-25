@@ -37,14 +37,19 @@
 
         <DesktopComponentsWargearAbility :warGearAbilities="warGearAbilities" v-if="warGearAbilities"/>
 
-        <!-- Add a v-if directive to conditionally render the damaged component -->
+        
         <DesktopComponentsDamaged :damaged="damaged" v-if="!isEmptyObject(damaged)" />
 
-        <DesktopComponentsUnitComposition
+<!-- REMOVE FOR ALPHA -->
+
+        <!-- <DesktopComponentsUnitComposition
           :options="options"
           :unitComposition="unitComposition"
           :equipment="equipment"
-        />
+        /> -->
+
+<!-- *********************** -->
+
 <DesktopComponentsTransport :transport="transport" v-if="transport"/>
       
 

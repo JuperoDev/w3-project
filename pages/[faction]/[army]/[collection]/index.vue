@@ -178,7 +178,7 @@
         </v-expansion-panel>
      
         
-         <v-expansion-panel class="hidden">
+         <v-expansion-panel>
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">unit composition</div>
           </v-expansion-panel-title>

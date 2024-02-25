@@ -109,7 +109,14 @@
             <div class="uppercase font-semibold">Wargear Abilities</div>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
-            <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
+            <!-- <MobileWarGearAbilities :warGearAbilities="warGearAbilities" /> -->
+
+            <div v-if="warGearAbilities">
+              <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
+            </div>
+            <div v-else>
+              <p>This unit does not have any wargear that provides any kind of abilities</p>
+            </div>
           </v-expansion-panel-text>
         </v-expansion-panel>
 

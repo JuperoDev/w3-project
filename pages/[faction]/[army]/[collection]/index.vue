@@ -184,8 +184,8 @@
           </v-expansion-panel-text>
         </v-expansion-panel>
      
-        
-         <v-expansion-panel>
+        <!-- NOT SHOWING ON PREALPHA  -->
+         <!-- <v-expansion-panel>
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">unit composition</div>
           </v-expansion-panel-title>
@@ -196,7 +196,7 @@
               :equipment="equipment"
             />
           </v-expansion-panel-text>
-        </v-expansion-panel> 
+        </v-expansion-panel>  -->
 
         <!-- keywords  -->
         <v-expansion-panel>

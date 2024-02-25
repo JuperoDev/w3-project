@@ -1,6 +1,7 @@
 <template>
-  <div class="datasheet-desktop__container mt-5 mx-2">
-    <div class="datasheet-desktop__header py-5 bg-slate-950">
+  <div class="datasheet-desktop__container mt-5">
+   
+    <div class="datasheet-desktop__header py-5 bg-zinc-900">
       <div class="color-stripe bg-zinc-500 h-20 z-1">
         <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">
           {{ parentUnit }}
@@ -66,6 +67,7 @@
       />
     </div>
   </div>
+
 </template>
 <script setup>
 const props = defineProps({
@@ -106,7 +108,8 @@ const isEmptyObject = (obj) => {
 </script>
 <style scoped>
 .datasheet-desktop__container {
-  width: 1200px;
+   width: 1200px; 
+  margin: 0 auto;
 }
 
 /* .datasheet-desktop__header {
@@ -130,4 +133,6 @@ const isEmptyObject = (obj) => {
     0% 100%
   );
 } */
+
+
 </style>

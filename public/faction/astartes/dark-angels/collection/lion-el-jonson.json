@@ -35,11 +35,11 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 4,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Arma Luminis - plasma",
@@ -49,10 +49,10 @@
             "range": 12,
             "strength": 8,
             "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -82,7 +82,18 @@
             "weapons-skills": 2,
             "strength": 12,
             "armor-penetration": 4,
-            "damage": 4
+            "damage": 4,
+            "singleChoice": true
+        },
+        {
+            "name": "Fealty -sweep",
+            "modifiers": ["sustained hits 1"],
+            "attacks": 16,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "unitComposition": [
@@ -104,5 +115,21 @@
             "points": 85
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {
+        "title": "Primarch of the first legion",
+        "abilities": [
+            {
+                "name": "All Secrets Revealed",
+                "description": "Once per turn, when your opponent targets a unit from their army with a Stratagem but before that Stratagem’s effects are resolved, if that unit is within 12'' of this model, you gain 1CP and that enemy unit must take a Battle-shock test. If that test is failed, in addition to that unit being Battle-shocked, that Stratagem’s effects are not resolved (that Stratagem still counts as having been used this phase)."
+            },
+            {
+                "name": "Martial Exemplar (Aura)",
+                "description": "While a friendly ADEPTUS ASTARTES unit is within 6'' of this model , each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+            },
+            {
+                "name": "No Hiding From the Watchers (Aura)",
+                "description": "While a friendly ADEPTUS ASTARTES unit is within 6'' of this model, models in that unit have the Feel No Pain 4+ ability against mortal wounds."
+            }
+        ]
+    }
 }

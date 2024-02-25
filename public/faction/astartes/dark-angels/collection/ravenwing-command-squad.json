@@ -33,11 +33,24 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d3",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration":0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Astartes grenade launcher - krak",
+            "modifiers": [
+               
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Bolt pistol",
@@ -61,9 +74,9 @@
             "strength": 7,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice":  true
         },
         {
             "name": "Plasma talon - supercharge",
@@ -75,32 +88,28 @@
             "strength": 8,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Oath of Moment"
+            
         ],
-        "faction": [],
+        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
-                "name": "The Ravenwing Champion is equipped with:",
-                "description": "bolt pistol; plasma talon; master-crafted power weapon."
+                "name": "Narthecium",
+                "description": "While this unit contains an APOTHECARY, in your Command phase, you can return 1 destroyed model (excluding CHARACTER models) to this unit."
             },
             {
-                "name": "The Ravenwing Apothecary is equipped with:",
-                "description": "bolt pistol; plasma talon; Black Knight combat weapon."
+                "name": "Astartes Banner",
+                "description": "While this unit contains an ANCIENT, add 1 to the Objective Control characteristic of its models."
             },
             {
-                "name": "The Ravenwing Ancient is equipped with:",
-                "description": "bolt pistol; plasma talon; Black Knight combat weapon."
-            },
-            {
-                "name": "Every Ravenwing Knight is equipped with:",
-                "description": "bolt pistol; plasma talon; Black Knight combat weapon."
+                "name": "Honour or Death",
+                "description": "While this unit contains a COMPANY CHAMPION, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP."
             }
         ]
     },

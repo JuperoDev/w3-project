@@ -177,8 +177,8 @@
           </v-expansion-panel-text>
         </v-expansion-panel>
      
-        <!-- unit composition  DELETED FOR ALPHA RELEASE-->
-        <!-- <v-expansion-panel>
+        
+         <v-expansion-panel class="hidden">
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">unit composition</div>
           </v-expansion-panel-title>
@@ -189,7 +189,7 @@
               :equipment="equipment"
             />
           </v-expansion-panel-text>
-        </v-expansion-panel> -->
+        </v-expansion-panel> 
 
         <!-- keywords  -->
         <v-expansion-panel>

@@ -33,10 +33,10 @@
             ],
             "range": 12,
             "strength": 3,
-            "attacks": "1",
-            "ballistic-skills": "4+",
+            "attacks": 1,
+            "ballistic-skills": 4,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -95,27 +95,27 @@
     "meleeWeapons": [
         {
             "name": "Close combat weapon",
-            "modifiers": "",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "modifiers": [ ],
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 3,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Commune blade",
-            "modifiers": "",
-            "attacks": "2",
-            "weapons-skills": "4+",
+            "modifiers": [ ],
+            "attacks": 2,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Commune stave",
-            "modifiers": "devastatingwounds",
-            "attacks": "2",
-            "weapons-skills": "4+",
+            "modifiers": ["devastating wounds"],
+            "attacks": 2,
+            "weapons-skills": 4,
             "strength": 3,
             "armor-penetration": 0,
             "damage": "D3"

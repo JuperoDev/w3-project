@@ -37,7 +37,7 @@
             "attacks": "D6",
             "ballistic-skills": "N/A",
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -48,8 +48,8 @@
             ],
             "range": 6,
             "strength": 8,
-            "attacks": "1",
-            "ballistic-skills": "2+",
+            "attacks": 1,
+            "ballistic-skills": 2,
             "armor-penetration": 4,
             "damage": "D3",
             "singleChoice": false
@@ -113,21 +113,21 @@
     "meleeWeapons": [
         {
             "name": "Exalted weapon",
-            "modifiers": "",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Warp hammer",
-            "modifiers": "devastatingwounds",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": ["devastating wounds"],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ],
     "unitComposition": [

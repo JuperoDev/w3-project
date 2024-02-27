@@ -57,21 +57,21 @@
     "meleeWeapons": [
         {
             "name": "Wraithcannon",
-            "modifiers": "devastatingwounds",
-            "attacks": "1",
-            "weapons-skills": "4+",
+            "modifiers": ["devastating wounds"],
+            "attacks": 1,
+            "weapons-skills": 4,
             "strength": 14,
             "armor-penetration": 4,
             "damage": "D6"
         },
         {
             "name": "Close combat weapon",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 5,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

@@ -33,10 +33,10 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": "1",
-            "ballistic-skills": "2+",
+            "attacks": 1,
+            "ballistic-skills": 2,
             "armor-penetration": 0,
-            "damage": "1",
+            "damage": 1,
             "singleChoice": false
         },
         {
@@ -108,39 +108,39 @@
     "meleeWeapons": [
         {
             "name": "Accursed weapon",
-            "modifiers": "",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Astartes chainsword",
-            "modifiers": "",
-            "attacks": "7",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 7,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Daemon hammer",
-            "modifiers": "devastatingwounds",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["devastating wounds"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Power fist",
-            "modifiers": "",
-            "attacks": "5",
-            "weapons-skills": "2+",
+            "modifiers": [ ],
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ],
     "unitComposition": [

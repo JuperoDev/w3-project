@@ -38,8 +38,8 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -51,7 +51,7 @@
             "Deep Strike"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -67,13 +67,22 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Hellforged weapons â€“ strike",
+            "name": "Hellforged weapons - strike",
             "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 3
+        },
+        {
+            "name": "Hellforged weapons - sweep",
+            "modifiers": [],
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
         }
     ],
     "additionalParameter": {},

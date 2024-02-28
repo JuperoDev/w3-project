@@ -46,12 +46,25 @@
                 "blast"
             ],
             "range": 48,
+            "attacks": "D6",
+            "weapons-skills": 3,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                
+            ],
+            "range": 48,
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
         },
         {
             "name": "Multi-melta",
@@ -62,8 +75,8 @@
             "strength": 9,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         }
     ],
@@ -72,7 +85,7 @@
             "Deadly Demise 1"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -83,15 +96,7 @@
     },
     "wargear": [],
     "meleeWeapons": [
-        {
-            "name": "Missile launcher â€“ frag",
-            "modifiers": "blast",
-            "attacks": "D6",
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
+        
         {
             "name": "Gnashing maw",
             "modifiers": [

@@ -25,7 +25,7 @@
             "invulnerableSave": 0
         }
     ],
-    "leader": [],
+    "leader": ["Plague Marines"],
     "rangedWeapons": [
         {
             "name": "Hyper blight grenades",
@@ -49,10 +49,10 @@
             ],
             "range": 3,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 3,
             "singleChoice": false
         }
     ],
@@ -62,7 +62,7 @@
             "Leader"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -100,14 +100,11 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Knight Abominant",
+            "unitType": "Biologus Putrifier",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "diabolus heavy stubber",
-                "volkite combustor",
-                "balemace",
-                "electroscourge"
+                "hyper blight grenades; injector pistol; plague knives."
             ]
         }
     ]

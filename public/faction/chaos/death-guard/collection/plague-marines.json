@@ -69,6 +69,19 @@
             "singleChoice": false
         },
         {
+            "name": "Plague bolt pistol",
+            "modifiers": [
+                "lethal hits","pistol"
+            ],
+            "range":12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
             "name": "Plague boltgun",
             "modifiers": [
                 "lethal hits"
@@ -103,11 +116,11 @@
             ],
             "range": 24,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma gun - supercharge",
@@ -117,11 +130,11 @@
             ],
             "range": 24,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - standard",
@@ -130,11 +143,11 @@
             ],
             "range": 12,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - supercharge",
@@ -144,22 +157,22 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Nurgleâ€™s Gift (Aura)"
+            
         ],
-        "faction": [],
+        "faction": ["Nurgle's Gift (Aura)"],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "plague boltgun; plague knives."
+                "name": "Remorseless",
+                "description": "While this unit is within range of an objective marker you control, each time you take a Battle-shock test for this unit, add 1 to that test."
             }
         ]
     },
@@ -205,15 +218,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Plasma gun â€“ standard",
-            "modifiers": "rapidfire1",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
+        
         {
             "name": "Bubotic weapons",
             "modifiers": [

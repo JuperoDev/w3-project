@@ -30,6 +30,19 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+","devastating wounds","rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
             "name": "Havoc launcher",
             "modifiers": [
                 "blast"
@@ -82,6 +95,16 @@
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1"
         }
     ],
     "abilities": {
@@ -89,7 +112,7 @@
             "Deadly Demise D3"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -119,15 +142,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Lascannon",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 12,
-            "armor-penetration": 3,
-            "damage": "D6+1"
-        },
+        
         {
             "name": "Armoured tracks",
             "modifiers": [],

@@ -36,9 +36,9 @@
             ],
             "range": 12,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -48,7 +48,7 @@
             "Deep Strike"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -65,7 +65,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Manreaper â€“ strike",
+            "name": "Manreaper - strike",
             "modifiers": [
                 "lethal hits"
             ],
@@ -74,6 +74,17 @@
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
+        },
+        {
+            "name": "Manreaper - sweep",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
         }
     ],
     "additionalParameter": {},

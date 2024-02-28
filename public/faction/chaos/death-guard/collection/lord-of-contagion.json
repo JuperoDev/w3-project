@@ -26,7 +26,10 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": [
+        "Blightlord Terminators",
+        "Deathshroud Terminators"
+    ],
     "rangedWeapons": [],
     "abilities": {
         "core": [
@@ -34,7 +37,7 @@
             "Leader"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -50,7 +53,7 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Plagueblade â€“ strike",
+            "name": "Plagueblade - strike",
             "modifiers": [
                 "lethal hits"
             ],
@@ -59,6 +62,17 @@
             "strength": 8,
             "armor-penetration": 2,
             "damage": 3
+        },
+        {
+            "name": "Plagueblade - sweep",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 10,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
         }
     ],
     "additionalParameter": {},

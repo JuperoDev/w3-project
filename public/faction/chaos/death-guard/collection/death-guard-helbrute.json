@@ -61,11 +61,24 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
         },
         {
             "name": "Multi-melta",
@@ -129,10 +142,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -141,7 +154,7 @@
             "Deadly Demise 1"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -186,15 +199,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Missile launcher â€“ frag",
-            "modifiers": "blast",
-            "attacks": "D6",
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
+        
         {
             "name": "Close combat weapon",
             "modifiers": [],

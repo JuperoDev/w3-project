@@ -24,14 +24,30 @@
             "invulnerableSave": 0
         }
     ],
-    "leader": [],
-    "rangedWeapons": [],
+    "leader": [
+        "Plague Marines"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Plague bolt pistol",
+            "modifiers": [
+                "lethal hits",
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
     "abilities": {
         "core": [
             "Leader"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {

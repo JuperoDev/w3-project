@@ -59,10 +59,10 @@
             ],
             "range": 18,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 3,
             "singleChoice": false
         }
     ],
@@ -82,7 +82,7 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Silence â€“ strike",
+            "name": "Silence - strike",
             "modifiers": [
                 "lethal hits"
             ],
@@ -91,9 +91,36 @@
             "strength": 14,
             "armor-penetration": 3,
             "damage": 4
+        },
+        {
+            "name": "Silence - sweep",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 12,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 1
         }
     ],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Host of plagues",
+        "abilities": [
+            {
+                "name": "Miasma of Pestilence (Aura)",
+                "description": "While a friendly DEATH GUARD unit is within 6'' of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
+            },
+            {
+                "name": "Diseased Influence (Aura)",
+                "description": "While a friendly DEATH GUARD unit is within 6'' of this model, each time a model in that unit makes an attack, re-roll a Wound roll of 1."
+            },
+            {
+                "name": "Toxic Presence (Aura)",
+                "description": " While a friendly DEATH GUARD unit is within 12'' of this model, add 3'' to the Contagion Range of that unit."
+            }
+        ]
+    },
     "options": [
         {
             "count": [

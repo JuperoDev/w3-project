@@ -25,8 +25,21 @@
             "invulnerableSave": 0
         }
     ],
-    "leader": [],
+    "leader": ["Plague Marines"],
     "rangedWeapons": [
+        {
+            "name": "Plague bolt pistol",
+            "modifiers": [
+                "lethal hits","pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
         {
             "name": "Plague Wind - witchfire",
             "modifiers": [
@@ -35,11 +48,11 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Plague Wind - focused witchfire",
@@ -50,11 +63,11 @@
             ],
             "range": 12,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": "d6+3",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -62,7 +75,7 @@
             "Leader"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {
@@ -79,7 +92,7 @@
     "meleeWeapons": [
         {
             "name": "Corrupted staff",
-            "modifiers": "lethalhits,psychic",
+            "modifiers": ["lethal hits","psychic"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 6,

@@ -32,6 +32,20 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+","devastating wounds","rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            
             "name": "Defiler cannon",
             "modifiers": [
                 "blast"
@@ -122,10 +136,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -134,7 +148,7 @@
             "Deadly Demise D3"
         ],
         "faction": [
-            "Nurgleâ€™s Gift (Aura)"
+            "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
             {

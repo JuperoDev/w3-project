@@ -50,7 +50,7 @@
             "strength": 7,
             "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false,
+            "singleChoice": true,
             "ballistic-skills": 3
         },
         {
@@ -65,7 +65,7 @@
             "strength": 8,
             "armor-penetration": 3,
             "damage": 2,
-            "singleChoice": false,
+            "singleChoice": true,
             "ballistic-skills": 3
         },
         {
@@ -101,8 +101,8 @@
         "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "bolt pistol; plasma incinerator; close combat weapon."
+                "name": "For the Chapter!",
+                "description": "Each time a model in this unit is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play. When resolving these attacks, any Hazardous tests taken for that attack are automatically passed."
             }
         ]
     },

@@ -219,13 +219,18 @@
     ],
     "abilities": {
         "core": [
-            "FACTION: Oath of Moment"
+            
         ],
-        "faction": [],
+        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "bolt pistol; boltgun; close combat weapon."
+                "name": "Signum",
+                "description": "Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability."
+            },
+            {
+                "name": "Armorium Cherub",
+                "description": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6."
+
             }
         ]
     },

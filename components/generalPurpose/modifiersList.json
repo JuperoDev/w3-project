@@ -2,9 +2,7 @@
     "twin-linked": {
         "lore": "Dual weapons are often grafted to the same targeting system for greater lethality.",
         "description": "Weapons with [TWIN-LINKED] in their profile are known as Twin-linked weapons. Each time an attack is made with such a weapon, you can re-roll that attack’s Wound roll.",
-        "summary": [
-            
-        ]
+        "summary": []
     },
     "lethal hits": {
         "lore": "Some weapons can inflict fatal injuries on any foe, no matter their resilience.",
@@ -14,7 +12,8 @@
         "lore": "High-explosives can fell several warriors in a single blast, but firing them where your comrades will get caught in the ensuing detonation is simply unwise.",
         "description": "Weapons with [BLAST] in their profile are known as Blast weapons, and they make a random number of attacks. Each time you determine how many attacks are made with a Blast weapon, add 1 to the result for every five models that were in the target unit when you selected it as the target (rounding down). Blast weapons can never be used to make attacks against a unit that is within Engagement Range of one or more units from the attacking model’s army (including its own unit).",
         "summary": [
-            "Add 1 to the Attacks characteristic for every five models in the target unit (rounding down).","Can never be used against a target that is within Engagement Range of any units from the attacking model’s army (including its own)."
+            "Add 1 to the Attacks characteristic for every five models in the target unit (rounding down).",
+            "Can never be used against a target that is within Engagement Range of any units from the attacking model’s army (including its own)."
         ]
     },
     "devastating wounds": {
@@ -27,9 +26,7 @@
     "ignores cover": {
         "lore": "Some weapons are designed to root enemy formations out of entrenched positions.",
         "description": "Weapons with [IGNORES COVER] in their profile are known as Ignores Cover weapons. Each time an attack is made with such a weapon, the target cannot have the Benefit of Cover against that attack.",
-        "summary": [
-            
-        ]
+        "summary": []
     },
     "heavy": {
         "lore": "Heavy weapons are amongst the biggest guns on the battlefield, but require bracing to fire at full effect and are unwieldy to bring to bear at close quarters.",
@@ -63,16 +60,12 @@
     "torrent": {
         "lore": "Torrent weapons shoot clouds of fire, gas or other lethal substances that few foes can hope to evade.",
         "description": "Weapons with [TORRENT] in their profile are known as Torrent weapons. Each time an attack is made with such a weapon, that attack automatically hits the target.",
-        "summary": [
-            
-        ]
+        "summary": []
     },
     "lance": {
         "lore": "Lance weapons are deadly on the charge.",
         "description": "Weapons with [LANCE] in their profile are known as Lance weapons. Each time an attack is made with such a weapon, if the bearer made a Charge move this turn, add 1 to that attack’s Wound roll.",
-        "summary": [
-            
-        ]
+        "summary": []
     },
     "indirect fire": {
         "lore": "Indirect fire weapons launch munitions over or around intervening obstacles – nowhere is safe from their fury.",
@@ -99,23 +92,17 @@
     "harponeed": {
         "lore": "",
         "description": "After the bearer has shot with this weapon, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the end of the turn, each time the bearer selects that unit as a target of a charge, add 2 to the Charge roll.",
-        "summary": [
-            
-        ]
+        "summary": []
     },
     "one shot": {
         "lore": "",
         "description": "The bearer can only shoot with this weapon once per battle.",
-        "summary": [
-            
-        ]
+        "summary": []
     },
     "psychic": {
         "lore": "",
         "description": "Wounds made by this weapon are considered to be inflicted by a psychic attack.",
-        "summary": [
-            
-        ]
+        "summary": []
     },
     "hazardous": {
         "lore": "Weapons powered by unstable and dangerous energy sources pose a substantial risk to the wielder every time they are used.",
@@ -144,5 +131,9 @@
         "summary": [
             "[ANTI-KEYWORD X+]: An unmodified Wound roll of ‘x+’ against a target with the matching keyword scores a Critical Wound."
         ]
+    },
+    "bubblechukka": {
+        "lore": "",
+        "description": "Before selecting targets for this weapon, roll one D6 to determine which of its profiles to make attacks with, comparing the result with the numbers shown on the left."
     }
 }

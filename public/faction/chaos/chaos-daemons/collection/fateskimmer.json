@@ -1,0 +1,104 @@
+{
+  "parentUnit": "Fateskimmer",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These daemons ride upon Burning Chariots, arcane constructs fashioned from the energies of dread omens and foretellings. They hurtle along anarchic and illogical trajectories that defy all physical laws, often surrounded by shoals of predatory daemonic entities empowered and emboldened by the Herald’s presence.",
+  "keywords": [
+    "mounted",
+    "character",
+    "fly",
+    "psyker",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "fateskimmer"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 7,
+    "salvation": 6,
+    "wounds": 9,
+    "leadership": 7,
+    "objectiveControl": 3,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Arcane Fireball - witchfire",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Arcane Fireball - focused witchfire",
+      "modifiers": [
+        "devastating wounds",
+        "hazardous",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Fateskimmer:",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      },
+      {
+        "name": "Rider of the Immaterial Winds:",
+        "description": "Once per battle, at the end of your opponent’s turn, if this model’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Herald combat weapon",
+      "modifiers": "psychic",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Screamer bites",
+      "modifiers": "extraattacks",
+      "attacks": "6",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

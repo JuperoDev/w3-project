@@ -1,0 +1,95 @@
+{
+  "parentUnit": "Exalted Flamer",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Champions of their kind, Exalted Flamers lead packs of lesser entities to battle. Some swoop upon the backs of Burning Chariots, unleashing focused jets of devastating blue fire, or indiscriminate rains of searing pink fire that clings and spreads like panic given animus until nothing remains in its wake but glowing ashes.",
+  "keywords": [
+    "infantry",
+    "character",
+    "fly",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "exalted flamer"
+  ],
+  "attributes": {
+    "movement": 9,
+    "toughness": 4,
+    "salvation": 7,
+    "wounds": 6,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Fire of Tzeentch - blue fire",
+      "modifiers": [
+        "ignores cover",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Fire of Tzeentch - pink fire",
+      "modifiers": [
+        "ignores cover",
+        "psychic",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Blazing Warpfire (Psychic):",
+        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+      },
+      {
+        "name": "Flames of Change (Psychic):",
+        "description": "In your Shooting phase , after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks, and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Flamer mouths",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 5,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

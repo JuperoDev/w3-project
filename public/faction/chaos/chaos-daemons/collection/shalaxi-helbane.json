@@ -1,0 +1,132 @@
+{
+  "parentUnit": "Shalaxi Helbane",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {
+    "remainingWounds": 7,
+    "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Cloven hooves pounding against broken earth, Shalaxi Helbane bears down upon its doomed quarry with the Soulpiercer gleaming in its grip. No prey can evade the Monarch of the Hunt, for the daemon’s obsession with its victim is so singular and so powerful that no mortal means of flight could ever escape it.",
+  "keywords": [
+    "monster",
+    "character",
+    "epic hero",
+    "psyker",
+    "chaos",
+    "daemon",
+    "slaanesh",
+    "shalaxi helbane"
+  ],
+  "attributes": {
+    "movement": 14,
+    "toughness": 10,
+    "salvation": 5,
+    "wounds": 20,
+    "leadership": 6,
+    "objectiveControl": 5,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Lash of Slaanesh",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 12,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Pavane of Slaanesh - witchfire",
+      "modifiers": [
+        "devastating wounds",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Pavane of Slaanesh - focused witchfire",
+      "modifiers": [
+        "hazardous",
+        "devastating wounds",
+        "psychic",
+        "sustained hits 3"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6",
+      "Deep Strike",
+      "Feel No Pain 5+"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Cloak of Constriction:",
+        "description": "At the start of the Fight phase , select one enemy unit within Engagement Range of this model. Until the end of the phase, subtract 1 from the Attacks characteristic of melee weapons equipped by that unit."
+      },
+      {
+        "name": "Monarch of the Hunt:",
+        "description": "Each time this model declares a charge that targets a MONSTER , VEHICLE or CHARACTER unit, you can re-roll the Charge roll . Each time this model makes a melee attack that targets a MONSTER , VEHICLE or CHARACTER unit, you can re-roll the Hit roll , the Wound roll and the Damage roll."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Lash of Slaanesh",
+      "modifiers": "assault",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Snapping claws",
+      "modifiers": "devastatingwounds,extraattacks",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "3"
+    },
+    {
+      "name": "Soulpiercer",
+      "modifiers": "precision",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 14,
+      "armor-penetration": 3,
+      "damage": "D6+2"
+    }
+  ]
+}

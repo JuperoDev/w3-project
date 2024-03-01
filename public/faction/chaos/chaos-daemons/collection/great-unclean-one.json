@@ -1,0 +1,108 @@
+{
+  "parentUnit": "Great Unclean One",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {
+    "remainingWounds": 7,
+    "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": null,
+  "lore": "These Greater Daemons possess the same boundless energy and drive to corrupt as a swift spreading virus. Their booming voices roll across the battlefield, their cruel jollity and the perverse pride they take in their underlings’ achievements horribly at odds with the misery and disease they spread.",
+  "keywords": [
+    "monster",
+    "character",
+    "psyker",
+    "chaos",
+    "daemon",
+    "nurgle",
+    "great unclean one"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 12,
+    "salvation": 5,
+    "wounds": 20,
+    "leadership": 6,
+    "objectiveControl": 5,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Putrid vomit",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6",
+      "Deep Strike"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "FACTION:",
+        "description": "The Shadow of Chaos"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s plague flail can be replaced with 1 bileblade.",
+      "items": []
+    },
+    {
+      "description": "This model’s bilesword can be replaced with 1 doomsday bell.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Plague flail",
+      "modifiers": "",
+      "attacks": "D6+1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Bileblade",
+      "modifiers": "extraattacks,lethalhits",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Bilesword – strike",
+      "modifiers": "lethalhits",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "D6"
+    },
+    {
+      "name": "Doomsday bell",
+      "modifiers": "lethalhits, Reverberating summons",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "2"
+    }
+  ]
+}

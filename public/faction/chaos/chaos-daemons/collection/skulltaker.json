@@ -1,0 +1,65 @@
+{
+  "parentUnit": "Skulltaker",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Skulltaker is Khorne’s executioner. Wielding the terrifying Slayer Sword, Skulltaker’s every blow lops another head from an enemy’s shoulders. Fighting at the head of the Cohort of Blood – a dread assemblage of the mightiest Bloodletters – Skulltaker reaps an ever greater tally of worthy skulls for Khorne.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "chaos",
+    "daemon",
+    "khorne",
+    "skulltaker"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 4,
+    "wounds": 5,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Lord of Decapitations:",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Skulls for Khorne:",
+        "description": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll . Each time this model destroys an enemy Character unit, you gain 1CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "The Slayer Sword",
+      "modifiers": "devastatingwounds,precision",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "3"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "parentUnit": "Flesh Hounds",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "These hunting hounds of Khorne track the terror spoor of their prey across interstellar gulfs. The brass collars about their necks ward away even the most potent sorceries of their desperate prey, before the slavering Flesh Hounds launch themselves onto their victims swinging vicious talons and sinking foot-long fangs deep.",
+  "keywords": [
+    "beast",
+    "chaos",
+    "daemon",
+    "khorne",
+    "flesh hounds"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 7,
+    "wounds": 2,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Burning roar",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Pouncing Hunters:",
+        "description": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Gore-drenched fangs",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

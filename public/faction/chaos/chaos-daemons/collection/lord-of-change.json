@@ -1,0 +1,135 @@
+{
+  "parentUnit": "Lord Of Change",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {
+    "remainingWounds": 6,
+    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Greater Daemons of Tzeentch are infinitely cunning sorcerers and manipulators. Their malevolent gaze lays bare the souls of their victims and blasts the sanity of even the staunchest mortal, while their ensorcelled weapons and unholy magicks violently reshape reality itself into ever mutating forms.",
+  "keywords": [
+    "monster",
+    "character",
+    "fly",
+    "psyker",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "lord of change"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 10,
+    "salvation": 6,
+    "wounds": 18,
+    "leadership": 6,
+    "objectiveControl": 5,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Rod of sorcery",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt of Change - witchfire",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt of Change - focused witchfire",
+      "modifiers": [
+        "hazardous",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D6",
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Daemon Lord of Tzeentch (Aura):",
+        "description": "While a friendly TZEENTCH LEGIONES DAEMONICA LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a ranged attack, add 1 to the Strength characteristic of that attack."
+      },
+      {
+        "name": "Master of Magicks (Psychic):",
+        "description": "In your Shooting phase"
+      },
+      {
+        "name": ", select one of the following abilities:",
+        "description": "[IGNORES COVER] ; [LETHAL HITS] ; [SUSTAINED HITS D3] . Until the end of the phase, this model’s Bolt of Change has that ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model can be equipped with one of the following",
+      "items": [
+        "1 rod of sorcery",
+        "1 baleful sword"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Rod of sorcery",
+      "modifiers": "psychic",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Baleful sword",
+      "modifiers": "extraattacks",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 2,
+      "damage": "3"
+    },
+    {
+      "name": "Staff of Tzeentch",
+      "modifiers": "psychic",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "3"
+    }
+  ]
+}

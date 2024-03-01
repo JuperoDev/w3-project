@@ -1,0 +1,81 @@
+{
+  "parentUnit": "Skull Cannon",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Grotesque brazen war engines that rumble into battle with obscene eagerness, Skull Cannons are fed the corpses of the fallen to fuel their charnel fury. When they fire, these infernal weapons spit blazing skulls that arc through the air like meteors before exploding with thunderous violence upon impact.",
+  "keywords": [
+    "mounted",
+    "chaos",
+    "daemon",
+    "khorne",
+    "skull cannon"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 9,
+    "salvation": 4,
+    "wounds": 9,
+    "leadership": 7,
+    "objectiveControl": 3,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Skull cannon",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Skulls of the Fallen:",
+        "description": "In your Shooting phase , after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Attendants’ hellblades",
+      "modifiers": "extraattacks",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Biting maw",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "2"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "parentUnit": "Soul Grinder",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonicalegiones daemonicalegiones daemonicalegiones daemonica"
+  ],
+  "damaged": {
+    "remainingWounds": 5,
+    "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+  },
+  "supremeCommander": false,
+  "lore": "Daemons desperate to gain power above their station may strike an unwise bargain with the master of the Forge of Souls. Thus are they remade into the hulking war engines known as Soul Grinders, and given the might to crush and blast all in their path – for a steep and ultimately never-ending price…",
+  "keywords": [
+    "vehicle",
+    "walker",
+    "chaos",
+    "daemon",
+    "soul grinder"
+  ],
+  "attributes": {
+    "movement": 8,
+    "toughness": 11,
+    "salvation": 3,
+    "wounds": 14,
+    "leadership": 7,
+    "objectiveControl": 5,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Torrent of burning blood",
+      "modifiers": [
+        "ignores cover",
+        "torrent"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Phlegm bombardment",
+      "modifiers": [
+        "blast",
+        "indirect fire",
+        "lethal hits"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Scream of despair",
+      "modifiers": [
+        "devastating wounds",
+        "sustained hits 1"
+      ],
+      "range": 24,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Warp gaze",
+      "modifiers": [
+        "blast"
+      ],
+      "range": 48,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Deep Strike"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "FACTION:",
+        "description": "The Shadow of Chaos"
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s warpsword can be replaced with 1 warpclaw.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Harvester cannon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 10,
+      "armor-penetration": 1,
+      "damage": "3"
+    },
+    {
+      "name": "Torrent of burning blood",
+      "modifiers": "ignorescover,torrent",
+      "attacks": "2D6",
+      "weapons-skills": "N/A",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Phlegm bombardment",
+      "modifiers": "blast,indirectfire,lethalhits",
+      "attacks": "D6+1",
+      "weapons-skills": "3+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Scream of despair",
+      "modifiers": "devastatingwounds,sustainedhits1",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 9,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Iron claw",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 16,
+      "armor-penetration": 3,
+      "damage": "D6+2"
+    },
+    {
+      "name": "Warpclaw",
+      "modifiers": "extraattacks",
+      "attacks": "6",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Warpsword",
+      "modifiers": "extraattacks",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 8,
+      "armor-penetration": 2,
+      "damage": "D6"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parentUnit": "Bloodmaster",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Risen victorious from the horrors of the Skullpit, Bloodmasters lead Khorne’s Bloodletter hosts in battle. The presence of these hulking daemonic slaughterers imbues their infernal followers with even greater fury and might, even as the Bloodmasters themselves carve a gory path through their luckless foes.",
+  "keywords": [
+    "infantry",
+    "character",
+    "chaos",
+    "daemon",
+    "khorne",
+    "bloodmaster"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 4,
+    "salvation": 5,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Bloodmaster:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll ."
+      },
+      {
+        "name": "A Gory Path:",
+        "description": "Each time this model’s unit Consolidates , it can move up to 6\" instead of up to 3\"."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Blade of blood",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "3"
+    }
+  ]
+}

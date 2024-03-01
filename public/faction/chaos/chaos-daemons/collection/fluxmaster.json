@@ -1,0 +1,95 @@
+{
+  "parentUnit": "Fluxmaster",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Fluxmasters are Heralds of Tzeentch gifted with daemonic Discs as steeds. They streak through the air like scintillating comets, trailing a wake of altered reality behind them in which fate turns in the favour of Tzeentch’s servants and all their endeavours are rendered especially successful and potent.",
+  "keywords": [
+    "mounted",
+    "character",
+    "fly",
+    "psyker",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "fluxmaster"
+  ],
+  "attributes": {
+    "movement": 12,
+    "toughness": 4,
+    "salvation": 6,
+    "wounds": 4,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Arcane Fireball - witchfire",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Arcane Fireball - focused witchfire",
+      "modifiers": [
+        "devastating wounds",
+        "hazardous",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Fluxmaster:",
+        "description": "While this model is leading a unit, each time an attack is made against that unit, subtract 1 form the Hit roll ."
+      },
+      {
+        "name": "Altered Reality (Psychic):",
+        "description": "Once per battle round , after a Hit roll , a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Herald combat weapon",
+      "modifiers": "psychic",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

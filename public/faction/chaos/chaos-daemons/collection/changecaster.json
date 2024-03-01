@@ -1,0 +1,94 @@
+{
+  "parentUnit": "Changecaster",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Whirling amidst capering masses of daemonic Horrors, these Heralds are potent sorcerers whose presence causes the fires of their fellow daemons to spread with infernal vigour. Changecasters unleash storms of mutating sorcery against their enemies, jabbering and cackling as they wreak gruesome havoc.",
+  "keywords": [
+    "infantry",
+    "character",
+    "psyker",
+    "chaos",
+    "daemon",
+    "tzeentch",
+    "changecaster"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 6,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Arcane Fireball - witchfire",
+      "modifiers": [
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Arcane Fireball - focused witchfire",
+      "modifiers": [
+        "devastating wounds",
+        "hazardous",
+        "psychic"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Changecaster:",
+        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Storm of Mutating Sorcery (Psychic):",
+        "description": "In your Shooting phase , after this model has shot, select one enemy Infantry unit hit by one or more of those attacks. That unit must take a Battle-shock test ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Herald combat weapon",
+      "modifiers": "psychic",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

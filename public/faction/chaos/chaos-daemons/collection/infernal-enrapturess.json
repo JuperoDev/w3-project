@@ -1,0 +1,91 @@
+{
+  "parentUnit": "Infernal Enrapturess",
+  "factionKeywords": [
+    "legiones daemonicalegiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The symphonies of torment and cacophonies of bliss unleashed by these daemons can tear their foes apart body and soul. Yet perhaps their greatest ability is to draw the disembodied energies of fellow Slaaneshi daemons to the battlefield, constantly bolstering their comrades’ ranks with fresh and soul-hungry entities.",
+  "keywords": [
+    "infantry",
+    "character",
+    "chaos",
+    "daemon",
+    "slaanesh",
+    "infernal enrapturess"
+  ],
+  "attributes": {
+    "movement": 9,
+    "toughness": 3,
+    "salvation": 7,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Heartstring lyre - cacophonous melody",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heartstring lyre - euphonic blast",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 24,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike",
+      "Leader"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Harmonic Alignment:",
+        "description": "While this model is leading a unit, in your Command phase , you can return D3 destroyed Bodyguard models to that unit."
+      },
+      {
+        "name": "Discordant Disruption (Aura):",
+        "description": "While an enemy PSYKER unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Ravaging claws",
+      "modifiers": "devastatingwounds",
+      "attacks": "5",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

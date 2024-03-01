@@ -14,15 +14,17 @@
         "transport",
         "battlewagon"
     ],
-    "attributes": {
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 16,
-        "leadership": 7,
-        "objetiveControl": 5,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 16,
+            "leadership": 7,
+            "objetiveControl": 5,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,9 +34,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -58,10 +60,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D6+3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -72,9 +74,9 @@
             ],
             "range": 48,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -127,49 +129,22 @@
             "items": []
         },
         {
-            "description": "This model’s tracks and wheels can be replaced with 1 deff rolla.",
+            "description": "This model\u2019s tracks and wheels can be replaced with 1 deff rolla.",
             "items": []
         },
         {
             "description": "This model can be equipped with any of the following",
             "items": [
-                "1 ’ard case",
-                "1 grabbin’ klaw",
-                "1 wreckin’ ball"
+                "1 \u2019ard case",
+                "1 grabbin\u2019 klaw",
+                "1 wreckin\u2019 ball"
             ]
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Big shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Kannon – frag",
+            "name": "Kannon \u2013 frag",
             "modifiers": "blast",
-            "attacks": "D6",
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Killkannon",
-            "modifiers": "blast",
-            "attacks": "D6+3",
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": 2
-        },
-        {
-            "name": "Lobba",
-            "modifiers": "blast,indirectfire",
             "attacks": "D6",
             "weapons-skills": 5,
             "strength": 5,
@@ -186,8 +161,10 @@
             "damage": 2
         },
         {
-            "name": "Grabbin’ klaw",
-            "modifiers": ["extra attacks"],
+            "name": "Grabbin\u2019 klaw",
+            "modifiers": [
+                "extra attacks"
+            ],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 8,
@@ -204,13 +181,34 @@
             "damage": 1
         },
         {
-            "name": "Wreckin’ ball",
-            "modifiers": ["extra attacks"],
+            "name": "Wreckin\u2019 ball",
+            "modifiers": [
+                "extra attacks"
+            ],
             "attacks": 1,
             "weapons-skills": 4,
             "strength": 10,
             "armor-penetration": 0,
             "damage": "D6"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

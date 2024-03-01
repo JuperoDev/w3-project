@@ -5,22 +5,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "For all that its weight is akin to wearing half a tank, mega armour is incredibly resilient. Big Meks often build and wear it, adding unstable kustom weaponry, force field projectors, crushing klaws or even tellyport blastas that kill victims by beaming their component parts across a wide area, much to the Orks’ amusement.",
+    "lore": "For all that its weight is akin to wearing half a tank, mega armour is incredibly resilient. Big Meks often build and wear it, adding unstable kustom weaponry, force field projectors, crushing klaws or even tellyport blastas that kill victims by beaming their component parts across a wide area, much to the Orks\u2019 amusement.",
     "keywords": [
         "infantry",
         "character",
         "mega armour",
         "big mek in mega armour"
     ],
-    "attributes": {
-        "movement": 5,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 5,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,9 +34,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -45,10 +47,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -58,9 +60,9 @@
             ],
             "range": 18,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 4,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -98,7 +100,7 @@
     },
     "wargear": [
         {
-            "description": "This model’s kustom-mega blasta can be replaced with one of the following",
+            "description": "This model\u2019s kustom-mega blasta can be replaced with one of the following",
             "items": [
                 "1 killsaw",
                 "1 kombi-weapon",
@@ -119,33 +121,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Kombi-weapon",
-            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": 1,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Kustom mega-blasta",
-            "modifiers": "hazardous",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
-            "name": "Kustom shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 4,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Killsaw",
             "modifiers": [],
             "attacks": 3,
@@ -163,5 +138,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

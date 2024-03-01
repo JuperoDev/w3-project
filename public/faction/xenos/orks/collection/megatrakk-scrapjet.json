@@ -5,20 +5,22 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Just because an Ork aircraft has lost a wing or two, doesn’t mean some enterprising Speed Freek can’t find a tremendously violent use for it. Megatrakk Scrapjets tear across the battlefield shooting hails of rokkits before ploughing nose-drill-first through the enemy lines, drivers bellowing with glee the whole time.",
+    "lore": "Just because an Ork aircraft has lost a wing or two, doesn\u2019t mean some enterprising Speed Freek can\u2019t find a tremendously violent use for it. Megatrakk Scrapjets tear across the battlefield shooting hails of rokkits before ploughing nose-drill-first through the enemy lines, drivers bellowing with glee the whole time.",
     "keywords": [
         "vehicle",
         "megatrakk scrapjet"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 7,
-        "save": 4,
-        "wounds": 9,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 7,
+            "save": 4,
+            "wounds": 9,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -28,10 +30,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D6+1",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -42,9 +44,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -66,24 +68,6 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Rokkit kannon",
-            "modifiers": "blast",
-            "attacks": "D6+1",
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": 3
-        },
-        {
-            "name": "Twin big shoota",
-            "modifiers": "rapidfire2,twin-linked",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Nose drill",
             "modifiers": [],
             "attacks": 4,
@@ -92,5 +76,24 @@
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

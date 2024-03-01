@@ -16,15 +16,17 @@
         "grenades",
         "wazbom blastajet"
     ],
-    "attributes": {
-        "movement": 0,
-        "toughness": 0,
-        "save": 0,
-        "wounds": 0,
-        "leadership": 0,
-        "objetiveControl": 0,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 0,
+            "toughness": 0,
+            "save": 0,
+            "wounds": 0,
+            "leadership": 0,
+            "objetiveControl": 0,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -34,10 +36,10 @@
             ],
             "range": 48,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 4,
             "singleChoice": false
         },
         {
@@ -49,10 +51,10 @@
             ],
             "range": 36,
             "strength": 12,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -64,8 +66,8 @@
             ],
             "range": 36,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 4,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -101,7 +103,7 @@
     },
     "wargear": [
         {
-            "description": "This model’s twin wazbom mega-kannon can be replaced with 1 twin tellyport mega-blasta.",
+            "description": "This model\u2019s twin wazbom mega-kannon can be replaced with 1 twin tellyport mega-blasta.",
             "items": []
         },
         {
@@ -115,33 +117,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Smasha gun",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": 4,
-            "strength": 9,
-            "armor-penetration": 3,
-            "damage": 4
-        },
-        {
-            "name": "Twin wazbom mega-kannon",
-            "modifiers": "blast,hazardous,twin-linked",
-            "attacks": "D3",
-            "weapons-skills": 4,
-            "strength": 12,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
-            "name": "Twin supa-shoota",
-            "modifiers": "rapidfire2,sustainedhits1,twin-linked",
-            "attacks": 4,
-            "weapons-skills": 4,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
             "name": "Armoured hull",
             "modifiers": [],
             "attacks": 3,
@@ -150,5 +125,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

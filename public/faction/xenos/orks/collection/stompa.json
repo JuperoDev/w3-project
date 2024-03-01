@@ -5,7 +5,7 @@
     ],
     "damaged": {
         "remainingWounds": 10,
-        "description": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        "description": "While this model has 1-10 wounds remaining, subtract 6 from this model\u2019s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     },
     "supremeCommander": false,
     "lore": "Something akin to a bad-tempered, armour-plated mountain covered in guns, the Stompa is a walking idol to Gork and Mork. It packs enough firepower to level an enemy fortress or annihilate entire formations of troops with a single volley, while anything unlucky enough to get within reach is soon crushed flat.",
@@ -17,15 +17,17 @@
         "walker",
         "stompa"
     ],
-    "attributes": {
-        "movement": 10,
-        "toughness": 14,
-        "save": 2,
-        "wounds": 30,
-        "leadership": 6,
-        "objetiveControl": 12,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 14,
+            "save": 2,
+            "wounds": 30,
+            "leadership": 6,
+            "objetiveControl": 12,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -35,9 +37,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -48,10 +50,10 @@
             ],
             "range": 72,
             "strength": 14,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "3D6",
+            "ballistic-skills": 5,
+            "armor-penetration": 3,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -62,8 +64,8 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -75,10 +77,10 @@
             ],
             "range": 24,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "20",
+            "ballistic-skills": 5,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -88,10 +90,10 @@
             ],
             "range": 100,
             "strength": 12,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D6",
+            "ballistic-skills": 5,
+            "armor-penetration": 3,
+            "damage": "D6+2",
             "singleChoice": false
         },
         {
@@ -122,7 +124,7 @@
                 "description": "While a friendly ORKS unit is within 12\" of this model, each time you take a Battle-shock test for that unit, add 1 to that test."
             },
             {
-                "name": "Stompin’ Forward:",
+                "name": "Stompin\u2019 Forward:",
                 "description": "Each time this model makes a Normal , Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
             }
         ]
@@ -130,52 +132,7 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Big shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Deffkannon",
-            "modifiers": "blast",
-            "attacks": "3D6",
-            "weapons-skills": 5,
-            "strength": 14,
-            "armor-penetration": 3,
-            "damage": "D6"
-        },
-        {
-            "name": "Skorcha",
-            "modifiers": "ignorescover,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Supa-gatler",
-            "modifiers": "sustainedhits1",
-            "attacks": "20",
-            "weapons-skills": 5,
-            "strength": 7,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
-            "name": "Supa-rokkits",
-            "modifiers": "blast",
-            "attacks": "D6",
-            "weapons-skills": 5,
-            "strength": 12,
-            "armor-penetration": 3,
-            "damage": "D6+2"
-        },
-        {
-            "name": "Mega-choppa – strike",
+            "name": "Mega-choppa \u2013 strike",
             "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
@@ -183,5 +140,24 @@
             "armor-penetration": 5,
             "damage": 10
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

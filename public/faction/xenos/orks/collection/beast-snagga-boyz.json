@@ -13,15 +13,17 @@
         "beast snagga",
         "beast snagga boyz"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -31,9 +33,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -67,20 +69,11 @@
     },
     "wargear": [
         {
-            "description": "For every 10 models in this unit, 1 Beast Snagga Boy’s slugga and choppa can be replaced with 1 thump gun and 1 close combat weapon.",
+            "description": "For every 10 models in this unit, 1 Beast Snagga Boy\u2019s slugga and choppa can be replaced with 1 thump gun and 1 close combat weapon.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Slugga",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "Choppa",
             "modifiers": [],
@@ -108,5 +101,24 @@
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -12,15 +12,17 @@
         "grenades",
         "squighog boyz"
     ],
-    "attributes": {
-        "movement": 10,
-        "toughness": 7,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 7,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -30,9 +32,9 @@
             ],
             "range": 9,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -45,10 +47,10 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -62,7 +64,7 @@
         "otherAbilities": [
             {
                 "name": "Wild Ride:",
-                "description": "You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for this unit."
+                "description": "You can ignore any or all modifiers to this unit\u2019s Move characteristic and to Advance and Charge rolls made for this unit."
             }
         ]
     },
@@ -74,31 +76,34 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Saddlegit weapons",
-            "modifiers": "assault",
-            "attacks": 1,
-            "weapons-skills": 4,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Squighog jaws and saddlegits",
-            "modifiers": ["extra attacks"],
+            "modifiers": [
+                "extra attacks"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 1,
             "damage": 2
-        },
-        {
-            "name": "Stikka",
-            "modifiers": "anti-monster4+,anti-vehicle4+,lance",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

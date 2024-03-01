@@ -12,15 +12,17 @@
         "beast snagga",
         "nob on smasha squig"
     ],
-    "attributes": {
-        "movement": 10,
-        "toughness": 7,
-        "save": 4,
-        "wounds": 5,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 7,
+            "save": 4,
+            "wounds": 5,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -52,7 +54,7 @@
             },
             {
                 "name": "Hunt Them Down:",
-                "description": "During the battle round in which you call a Waaagh! , this model’s big choppa has the [ANTI-MONSTER 3+] and [ANTI-VEHICLE 3+] abilities."
+                "description": "During the battle round in which you call a Waaagh! , this model\u2019s big choppa has the [ANTI-MONSTER 3+] and [ANTI-VEHICLE 3+] abilities."
             }
         ]
     },
@@ -69,12 +71,33 @@
         },
         {
             "name": "Smasha squig jaws",
-            "modifiers": ["extra attacks"],
+            "modifiers": [
+                "extra attacks"
+            ],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

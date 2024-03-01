@@ -14,15 +14,17 @@
         "epic hero",
         "boss zagstruk"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -55,14 +57,14 @@
             },
             {
                 "name": "Plummeting Descent:",
-                "description": "You can re-roll Charge rolls made for this model’s unit in a turn in which it was set up on the battlefield from Reserves ."
+                "description": "You can re-roll Charge rolls made for this model\u2019s unit in a turn in which it was set up on the battlefield from Reserves ."
             }
         ]
     },
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Da Vulcha’s Klaws and choppa",
+            "name": "Da Vulcha\u2019s Klaws and choppa",
             "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
@@ -70,5 +72,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

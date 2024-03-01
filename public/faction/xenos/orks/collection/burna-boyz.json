@@ -5,20 +5,22 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The burna is a cutting torch intended for slicing up battlefield wreckage. Serendipitously, it also works well when searing through an enemy’s armour at close quarters, or, with a twist of its nozzle, can instead belch a tongue of roaring flame over the foe. Needless to say, the most pyromaniacally inclined Orks delight in doing both.",
+    "lore": "The burna is a cutting torch intended for slicing up battlefield wreckage. Serendipitously, it also works well when searing through an enemy\u2019s armour at close quarters, or, with a twist of its nozzle, can instead belch a tongue of roaring flame over the foe. Needless to say, the most pyromaniacally inclined Orks delight in doing both.",
     "keywords": [
         "infantry",
         "burna boyz"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -28,9 +30,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -42,9 +44,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -55,10 +57,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -87,7 +89,7 @@
             },
             {
                 "name": "Every Burna Boy is equipped with:",
-                "description": "burna; cuttin’ flames."
+                "description": "burna; cuttin\u2019 flames."
             }
         ]
     },
@@ -102,33 +104,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Big shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Burna",
-            "modifiers": "ignorescover,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Kustom mega-blasta",
-            "modifiers": "hazardous",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
             "name": "Close combat weapon",
             "modifiers": [],
             "attacks": 3,
@@ -138,7 +113,7 @@
             "damage": 1
         },
         {
-            "name": "Cuttin’ flames",
+            "name": "Cuttin\u2019 flames",
             "modifiers": [],
             "attacks": 2,
             "weapons-skills": 4,
@@ -146,5 +121,24 @@
             "armor-penetration": 2,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

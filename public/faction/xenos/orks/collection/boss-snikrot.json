@@ -13,15 +13,17 @@
         "epic hero",
         "boss snikrot"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -53,15 +55,15 @@
                 "description": "While this model is leading a unit, models in that unit have the Benefit of Cover ."
             },
             {
-                "name": "Kunnin’ Infiltrator:",
-                "description": "Once per battle, in your Movement phase , instead of making a Normal move with this model’s unit, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+                "name": "Kunnin\u2019 Infiltrator:",
+                "description": "Once per battle, in your Movement phase , instead of making a Normal move with this model\u2019s unit, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
             }
         ]
     },
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Mork’s Teeth",
+            "name": "Mork\u2019s Teeth",
             "modifiers": "precision,twin-linked",
             "attacks": 6,
             "weapons-skills": 2,
@@ -69,5 +71,24 @@
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

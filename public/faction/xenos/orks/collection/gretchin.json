@@ -5,20 +5,22 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "What Gretchin – also called grots – lack in stature, courage, resilience, discipline, motivation, loyalty, aggression and personal hygiene, they allegedly make up for in numbers. They are at least reasonable shots with their underpowered firearms, and if all else fails, the Orks find that grots make excellent bullet-stops.",
+    "lore": "What Gretchin \u2013 also called grots \u2013 lack in stature, courage, resilience, discipline, motivation, loyalty, aggression and personal hygiene, they allegedly make up for in numbers. They are at least reasonable shots with their underpowered firearms, and if all else fails, the Orks find that grots make excellent bullet-stops.",
     "keywords": [
         "infantry",
         "gretchin"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 2,
-        "save": 7,
-        "wounds": 1,
-        "leadership": 8,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 2,
+            "save": 7,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -28,9 +30,9 @@
             ],
             "range": 12,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -67,15 +69,6 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Grot blasta",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 4,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Close combat weapon",
             "modifiers": [],
             "attacks": 1,
@@ -93,5 +86,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

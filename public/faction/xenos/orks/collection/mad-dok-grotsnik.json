@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "More so even than whatever passes for a ‘normal’ Painboy, Dok Grotsnik relishes the butchery of the battlefield. He is quite, quite mad and remarkably dangerous, treating each new war as an opportunity for experimentation, a chance to harvest new samples to add to his stockpile of gory anatomical spares.",
+    "lore": "More so even than whatever passes for a \u2018normal\u2019 Painboy, Dok Grotsnik relishes the butchery of the battlefield. He is quite, quite mad and remarkably dangerous, treating each new war as an opportunity for experimentation, a chance to harvest new samples to add to his stockpile of gory anatomical spares.",
     "keywords": [
         "infantry",
         "character",
@@ -13,15 +13,17 @@
         "painboy",
         "mad dok grotsnik"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 4,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -69,7 +71,7 @@
             "damage": 2
         },
         {
-            "name": "’Urty syringe",
+            "name": "\u2019Urty syringe",
             "modifiers": "anti-infantry4+,extraattacks,precision",
             "attacks": 1,
             "weapons-skills": 3,
@@ -77,5 +79,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

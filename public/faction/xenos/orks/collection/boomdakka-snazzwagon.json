@@ -11,15 +11,17 @@
         "grenades",
         "boomdakka snazzwagon"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 7,
-        "save": 4,
-        "wounds": 9,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 7,
+            "save": 4,
+            "wounds": 9,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,9 +31,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -42,9 +44,9 @@
             ],
             "range": 12,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -81,24 +83,6 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Big shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Grot blasta",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 4,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Spiked wheels",
             "modifiers": [],
             "attacks": 4,
@@ -107,5 +91,24 @@
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

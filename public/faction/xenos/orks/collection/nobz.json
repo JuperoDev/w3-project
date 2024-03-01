@@ -11,15 +11,17 @@
         "grenades",
         "nobz"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 2,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -31,9 +33,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -62,7 +64,7 @@
                 "description": "Once per battle for each ammo runt this unit has, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
             },
             {
-                "name": "Designer’s Note:",
+                "name": "Designer\u2019s Note:",
                 "description": "Place the relevant number of Ammo Runt tokens next to the unit, removing one each time the unit uses this ability."
             }
         ]
@@ -82,15 +84,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Kombi-weapon",
-            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": 1,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "Big choppa",
             "modifiers": [],
@@ -118,5 +111,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

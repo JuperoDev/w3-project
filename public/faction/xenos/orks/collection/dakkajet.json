@@ -15,15 +15,17 @@
         "aircraft",
         "dakkajet"
     ],
-    "attributes": {
-        "movement": 0,
-        "toughness": 0,
-        "save": 0,
-        "wounds": 0,
-        "leadership": 0,
-        "objetiveControl": 0,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 0,
+            "toughness": 0,
+            "save": 0,
+            "wounds": 0,
+            "leadership": 0,
+            "objetiveControl": 0,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -72,5 +74,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

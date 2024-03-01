@@ -5,21 +5,23 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Being wired into a Deff Dread affords strength, resilience and a terrifying array of vicious weaponry. Of course, the reality of being stuck in a metal box for life and drinking your meals through a straw soon gets old, but the pilots’ resulting unhinged ferocity only serves to make Deff Dreads all the more dangerous in battle.",
+    "lore": "Being wired into a Deff Dread affords strength, resilience and a terrifying array of vicious weaponry. Of course, the reality of being stuck in a metal box for life and drinking your meals through a straw soon gets old, but the pilots\u2019 resulting unhinged ferocity only serves to make Deff Dreads all the more dangerous in battle.",
     "keywords": [
         "vehicle",
         "walker",
         "deff dread"
     ],
-    "attributes": {
-        "movement": 8,
-        "toughness": 9,
-        "save": 2,
-        "wounds": 8,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 8,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,9 +31,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -42,10 +44,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -55,10 +57,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -90,7 +92,7 @@
     },
     "wargear": [
         {
-            "description": "This model’s big shootas can each be replaced with one of the following",
+            "description": "This model\u2019s big shootas can each be replaced with one of the following",
             "items": [
                 "1 dread klaw",
                 "1 kustom-mega blasta",
@@ -99,7 +101,7 @@
             ]
         },
         {
-            "description": "This model’s dread klaws can each be replaced with one of the following",
+            "description": "This model\u2019s dread klaws can each be replaced with one of the following",
             "items": [
                 "1 big shoota",
                 "1 kustom-mega blasta",
@@ -109,33 +111,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Big shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Kustom mega-blasta",
-            "modifiers": "hazardous",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
-            "name": "Rokkit launcha",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": 3
-        },
         {
             "name": "Dread klaw",
             "modifiers": "dead choppy",
@@ -154,5 +129,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

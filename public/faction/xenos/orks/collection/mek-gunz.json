@@ -5,20 +5,22 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "From guns that spew unstable force-bubbles to overcharged energy cannons, gravity beamers that crumple their targets like a squig-oil canister in a Nob’s fist to tractor-beams that toss foes about and drag planes from the air, the only unifying factor about the madcap Mek Gunz is what a mess they make of the foe.",
+    "lore": "From guns that spew unstable force-bubbles to overcharged energy cannons, gravity beamers that crumple their targets like a squig-oil canister in a Nob\u2019s fist to tractor-beams that toss foes about and drag planes from the air, the only unifying factor about the madcap Mek Gunz is what a mess they make of the foe.",
     "keywords": [
         "vehicle",
         "mek gunz"
     ],
-    "attributes": {
-        "movement": 3,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 6,
-        "leadership": 8,
-        "objetiveControl": 2,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 3,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 6,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -71,10 +73,10 @@
             ],
             "range": 36,
             "strength": 12,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D6",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -84,10 +86,10 @@
             ],
             "range": 48,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -121,7 +123,7 @@
     },
     "wargear": [
         {
-            "description": "Each model’s smasha gun can be replaced with one of the following",
+            "description": "Each model\u2019s smasha gun can be replaced with one of the following",
             "items": [
                 "1 bubblechukka",
                 "1 kustom mega-kannon",
@@ -131,31 +133,13 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Bubblechukka – big bubble",
+            "name": "Bubblechukka \u2013 big bubble",
             "modifiers": "bubblechukka,blast",
             "attacks": "2D6",
             "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 1,
             "damage": 1
-        },
-        {
-            "name": "Kustom mega-kannon",
-            "modifiers": "BLAST, hazardous",
-            "attacks": "D6",
-            "weapons-skills": 4,
-            "strength": 12,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
-            "name": "Smasha gun",
-            "modifiers": "BLAST",
-            "attacks": "D3",
-            "weapons-skills": 4,
-            "strength": 9,
-            "armor-penetration": 3,
-            "damage": 3
         },
         {
             "name": "Grot crew",
@@ -166,5 +150,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

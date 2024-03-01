@@ -5,20 +5,22 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Lootas grub together every toof and fistful of scrap they can, then use the former to pay the Meks to turn the latter into very, very large guns. These they then turn on the enemy with gleeful abandon, unleashing such prodigious – if erratic – hails of fire that they can stop a battle tank in its tracks or scythe down squads of infantry.",
+    "lore": "Lootas grub together every toof and fistful of scrap they can, then use the former to pay the Meks to turn the latter into very, very large guns. These they then turn on the enemy with gleeful abandon, unleashing such prodigious \u2013 if erratic \u2013 hails of fire that they can stop a battle tank in its tracks or scythe down squads of infantry.",
     "keywords": [
         "infantry",
         "lootas"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -28,9 +30,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -43,9 +45,9 @@
             "range": 48,
             "strength": 8,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 6,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -55,10 +57,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -102,33 +104,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Big shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Deffgun",
-            "modifiers": "heavy,rapidfire1",
-            "attacks": 2,
-            "weapons-skills": 6,
-            "strength": 8,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
-            "name": "Kustom mega-blasta",
-            "modifiers": "hazardous",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
             "name": "Close combat weapon",
             "modifiers": [],
             "attacks": 2,
@@ -137,5 +112,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

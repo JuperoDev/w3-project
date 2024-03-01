@@ -10,15 +10,17 @@
         "vehicle",
         "rukkatrukk squigbuggy"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 7,
-        "save": 4,
-        "wounds": 9,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 7,
+            "save": 4,
+            "wounds": 9,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,8 +31,8 @@
             "range": 12,
             "strength": 4,
             "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -67,22 +69,13 @@
                 "description": "Once per battle, at the start of any phase , select one enemy unit within 3\" of this model and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds ."
             },
             {
-                "name": "Designer’s Note:",
+                "name": "Designer\u2019s Note:",
                 "description": "Place a Squig Mine token next to the model, removing it once this ability has been used."
             }
         ]
     },
     "wargear": [],
     "meleeWeapons": [
-        {
-            "name": "Sawn-off shotgun",
-            "modifiers": "assault",
-            "attacks": 2,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "Saw blades",
             "modifiers": [],
@@ -92,5 +85,24 @@
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

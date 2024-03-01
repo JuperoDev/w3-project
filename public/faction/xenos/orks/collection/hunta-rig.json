@@ -8,36 +8,38 @@
         "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
     "supremeCommander": false,
-    "lore": "Welded, lashed and nailed together from enemy wrecks and scavenged scrap, the Hunta Rig forgoes a Wurrboy wurrtower (much to its crew’s relief). Instead it boasts an open metal deck and copious grab-handles, the better for chanting and bellowing mobs of Beast Snagga Boyz to ride along on the hunt.",
+    "lore": "Welded, lashed and nailed together from enemy wrecks and scavenged scrap, the Hunta Rig forgoes a Wurrboy wurrtower (much to its crew\u2019s relief). Instead it boasts an open metal deck and copious grab-handles, the better for chanting and bellowing mobs of Beast Snagga Boyz to ride along on the hunt.",
     "keywords": [
         "vehicle",
         "transport",
         "beast snagga",
         "hunta rig"
     ],
-    "attributes": {
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 16,
-        "leadership": 7,
-        "objetiveControl": 5,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 16,
+            "leadership": 7,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "’Eavy lobba",
+            "name": "\u2019Eavy lobba",
             "modifiers": [
                 "blast",
                 "indirect fire"
             ],
             "range": 48,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D6",
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -73,15 +75,6 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "’Eavy lobba",
-            "modifiers": "blast,indirectfire",
-            "attacks": "D6",
-            "weapons-skills": 5,
-            "strength": 6,
-            "armor-penetration": 0,
-            "damage": 2
-        },
-        {
             "name": "Butcha boyz",
             "modifiers": "extraattacks,anti-monster4+,anti-vehicle4+",
             "attacks": 4,
@@ -108,5 +101,24 @@
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -5,21 +5,23 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Ork Warbikers race into battle with dakkaguns hammering, ragged trails of dust and smoke boiling up behind them like an ill omen. They race one another at breakneck pace to reach the enemy first, execute death-defying stunts at suicidal speeds, then crash headlong into the foe’s battle line like battering rams.",
+    "lore": "Ork Warbikers race into battle with dakkaguns hammering, ragged trails of dust and smoke boiling up behind them like an ill omen. They race one another at breakneck pace to reach the enemy first, execute death-defying stunts at suicidal speeds, then crash headlong into the foe\u2019s battle line like battering rams.",
     "keywords": [
         "mounted",
         "grenades",
         "warbikers"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 6,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,9 +31,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -82,15 +84,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Slugga",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Big choppa",
             "modifiers": [],
             "attacks": 3,
@@ -126,5 +119,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

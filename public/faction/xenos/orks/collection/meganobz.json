@@ -12,15 +12,17 @@
         "mega armour",
         "meganobz"
     ],
-    "attributes": {
-        "movement": 5,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,9 +34,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -78,15 +80,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Kombi-weapon",
-            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": 1,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Killsaw",
             "modifiers": [],
             "attacks": 2,
@@ -106,12 +99,33 @@
         },
         {
             "name": "Twin killsaw",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 12,
             "armor-penetration": 3,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

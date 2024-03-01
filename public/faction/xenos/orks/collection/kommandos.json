@@ -5,21 +5,23 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "No right-thinking Ork trusts Kommandos. They sneak up on the enemy rather than charging in headlong, and have an unhealthy fascination with very big knives and their application to people’s backs, throats and guts. That said, having a band of Kommandos ambush the enemy mid-battle definitely has its uses.",
+    "lore": "No right-thinking Ork trusts Kommandos. They sneak up on the enemy rather than charging in headlong, and have an unhealthy fascination with very big knives and their application to people\u2019s backs, throats and guts. That said, having a band of Kommandos ambush the enemy mid-battle definitely has its uses.",
     "keywords": [
         "infantry",
         "grenades",
         "kommandos"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -30,9 +32,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -43,9 +45,9 @@
             ],
             "range": 18,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 4,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -56,10 +58,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -93,7 +95,7 @@
     },
     "wargear": [
         {
-            "description": "The Boss Nob’s choppa can be replaced with one of the following",
+            "description": "The Boss Nob\u2019s choppa can be replaced with one of the following",
             "items": [
                 "1 big choppa",
                 "1 power klaw"
@@ -104,15 +106,15 @@
             "items": []
         },
         {
-            "description": "1 Kommando’s slugga and choppa can be replaced with 1 breacha ram.",
+            "description": "1 Kommando\u2019s slugga and choppa can be replaced with 1 breacha ram.",
             "items": []
         },
         {
-            "description": "1 Kommando’s slugga and choppa can be replaced with 1 burna and 1 close combat weapon.",
+            "description": "1 Kommando\u2019s slugga and choppa can be replaced with 1 burna and 1 close combat weapon.",
             "items": []
         },
         {
-            "description": "1 Kommando’s slugga and choppa can be replaced with 1 rokkit launcha and 1 close combat weapon.",
+            "description": "1 Kommando\u2019s slugga and choppa can be replaced with 1 rokkit launcha and 1 close combat weapon.",
             "items": []
         },
         {
@@ -125,33 +127,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Burna",
-            "modifiers": "ignorescover,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Speshul Kommando shoota",
-            "modifiers": "rapidfire2",
-            "attacks": 4,
-            "weapons-skills": 5,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Rokkit launcha",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": 3
-        },
         {
             "name": "Big choppa",
             "modifiers": [],
@@ -197,5 +172,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

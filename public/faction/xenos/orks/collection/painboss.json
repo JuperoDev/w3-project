@@ -5,22 +5,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The Painboss specialises in both the surgical care and cyber-augmentation of squigs, and of those suffering squig-related injuries. So as to provide their services ‘on the hoof’, Painbosses augment themselves with piston-driven soopa-legz, monowheels and the like – the better to deliver high-speed doktorin’.",
+    "lore": "The Painboss specialises in both the surgical care and cyber-augmentation of squigs, and of those suffering squig-related injuries. So as to provide their services \u2018on the hoof\u2019, Painbosses augment themselves with piston-driven soopa-legz, monowheels and the like \u2013 the better to deliver high-speed doktorin\u2019.",
     "keywords": [
         "infantry",
         "character",
         "beast snagga",
         "painboss"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 4,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [],
     "abilities": {
@@ -33,7 +35,7 @@
         ],
         "otherAbilities": [
             {
-                "name": "Dok’s Toolz:",
+                "name": "Dok\u2019s Toolz:",
                 "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
             },
             {
@@ -58,5 +60,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

@@ -5,22 +5,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Most Orks take a dim view of muckin’ about in the sky, and would much rather go to war with their feet firmly on the ground. Deffkopta pilots are the lunatic exception, hurtling ahead to spy out enemy forces for their warband to bring to battle, and to give those same enemies a good strafing run or three in the meantime.",
+    "lore": "Most Orks take a dim view of muckin\u2019 about in the sky, and would much rather go to war with their feet firmly on the ground. Deffkopta pilots are the lunatic exception, hurtling ahead to spy out enemy forces for their warband to bring to battle, and to give those same enemies a good strafing run or three in the meantime.",
     "keywords": [
         "vehicle",
         "fly",
         "grenades",
         "deffkoptas"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 6,
-        "save": 4,
-        "wounds": 4,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -31,10 +33,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "D3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -44,10 +46,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -86,25 +88,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Kopta rokkits",
-            "modifiers": "blast,twin-linked",
-            "attacks": "D3",
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": 3
-        },
-        {
-            "name": "Kustom mega-blasta",
-            "modifiers": "hazardous",
-            "attacks": 3,
-            "weapons-skills": 5,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
-            "name": "Spinnin’ blades",
+            "name": "Spinnin\u2019 blades",
             "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
@@ -112,5 +96,24 @@
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

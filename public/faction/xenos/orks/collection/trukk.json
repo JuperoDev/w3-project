@@ -12,15 +12,17 @@
         "dedicated transport",
         "trukk"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 8,
-        "save": 4,
-        "wounds": 10,
-        "leadership": 7,
-        "objetiveControl": 2,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 8,
+            "save": 4,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -54,7 +56,7 @@
     },
     "wargear": [
         {
-            "description": "This model can be equipped with 1 wreckin’ ball.",
+            "description": "This model can be equipped with 1 wreckin\u2019 ball.",
             "items": []
         }
     ],
@@ -69,13 +71,34 @@
             "damage": 1
         },
         {
-            "name": "Wreckin’ ball",
-            "modifiers": ["extra attacks"],
+            "name": "Wreckin\u2019 ball",
+            "modifiers": [
+                "extra attacks"
+            ],
             "attacks": 1,
             "weapons-skills": 4,
             "strength": 10,
             "armor-penetration": 0,
             "damage": "D6"
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

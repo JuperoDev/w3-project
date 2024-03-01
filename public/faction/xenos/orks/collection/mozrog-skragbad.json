@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Mozrog and his squigosaur steed Big Chompa are so tough that they can weather the worst any foe throws at them. In return, few enemies survive for long once Mozrog tears into them with his kustom cybork arm, Gutrippa. Those that do are doomed to be swallowed whole by Big Chompa’s yawning, fang-stuffed jaws.",
+    "lore": "Mozrog and his squigosaur steed Big Chompa are so tough that they can weather the worst any foe throws at them. In return, few enemies survive for long once Mozrog tears into them with his kustom cybork arm, Gutrippa. Those that do are doomed to be swallowed whole by Big Chompa\u2019s yawning, fang-stuffed jaws.",
     "keywords": [
         "monster",
         "character",
@@ -13,15 +13,17 @@
         "epic hero",
         "mozrog skragbad"
     ],
-    "attributes": {
-        "movement": 10,
-        "toughness": 10,
-        "save": 3,
-        "wounds": 9,
-        "leadership": 6,
-        "objetiveControl": 3,
-        "invulnerableSave": 4
-    },
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 9,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -60,7 +62,7 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Big Chompa’s jaws",
+            "name": "Big Chompa\u2019s jaws",
             "modifiers": "devastatingwounds,extraattacks",
             "attacks": 3,
             "weapons-skills": 3,
@@ -77,5 +79,24 @@
             "armor-penetration": 1,
             "damage": 3
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

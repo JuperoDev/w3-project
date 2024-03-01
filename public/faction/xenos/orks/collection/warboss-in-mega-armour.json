@@ -12,15 +12,17 @@
         "mega armour",
         "warboss in mega armour"
     ],
-    "attributes": {
-        "movement": 5,
-        "toughness": 6,
-        "save": 2,
-        "wounds": 7,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    },
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 2,
+            "wounds": 7,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -50,7 +52,7 @@
                 "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
             },
             {
-                "name": "Dead ’ard:",
+                "name": "Dead \u2019ard:",
                 "description": "When you call a Waaagh! , until the start of the next battle round , this model has the Feel No Pain 4+ ability."
             }
         ]
@@ -58,7 +60,7 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "’Uge choppa",
+            "name": "\u2019Uge choppa",
             "modifiers": [],
             "attacks": 4,
             "weapons-skills": 2,
@@ -66,5 +68,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

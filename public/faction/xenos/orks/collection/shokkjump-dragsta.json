@@ -5,20 +5,22 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Combining shokk attack technology, great speed and a cheerful disregard for life and limb, the Shokkjump Dragsta provides the Orks with a vehicle that can teleport itself through – occasionally into – feet-thick fortress walls while its kustom shokk rifle bores warp tunnels right through its luckless victims.",
+    "lore": "Combining shokk attack technology, great speed and a cheerful disregard for life and limb, the Shokkjump Dragsta provides the Orks with a vehicle that can teleport itself through \u2013 occasionally into \u2013 feet-thick fortress walls while its kustom shokk rifle bores warp tunnels right through its luckless victims.",
     "keywords": [
         "vehicle",
         "shokkjump dragsta"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 7,
-        "save": 4,
-        "wounds": 9,
-        "leadership": 7,
-        "objetiveControl": 3,
-        "invulnerableSave": 6
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 7,
+            "save": 4,
+            "wounds": 9,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 6
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -30,10 +32,10 @@
             ],
             "range": 24,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 2,
+            "damage": "D6+1",
             "singleChoice": false
         },
         {
@@ -67,15 +69,6 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Kustom shokk rifle",
-            "modifiers": "devastatingwounds,hazardous,precision",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 2,
-            "damage": "D6+1"
-        },
-        {
             "name": "Saw blades",
             "modifiers": [],
             "attacks": 4,
@@ -84,5 +77,24 @@
             "armor-penetration": 1,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

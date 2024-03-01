@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Most Orks mock Stormboyz for their acts of juvenile rebellion, from taking orders and shining their boots to marching about, talking about ‘taktics’ and even following a battle plan. Yet when that plan is ‘strap on a high powered rokkit and hurtle into the enemy bellowing “Waaagh!”’, it does prove to have its merits.",
+    "lore": "Most Orks mock Stormboyz for their acts of juvenile rebellion, from taking orders and shining their boots to marching about, talking about \u2018taktics\u2019 and even following a battle plan. Yet when that plan is \u2018strap on a high powered rokkit and hurtle into the enemy bellowing \u201cWaaagh!\u201d\u2019, it does prove to have its merits.",
     "keywords": [
         "infantry",
         "jump pack",
@@ -13,15 +13,17 @@
         "grenades",
         "stormboyz"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 1,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -54,7 +56,7 @@
     },
     "wargear": [
         {
-            "description": "The Boss Nob’s choppa can be replaced with 1 power klaw.",
+            "description": "The Boss Nob\u2019s choppa can be replaced with 1 power klaw.",
             "items": []
         }
     ],
@@ -77,5 +79,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

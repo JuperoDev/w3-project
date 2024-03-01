@@ -5,21 +5,23 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Entrusted to the warband’s most stubborn Nob, a Waaagh! banner serves as a rallying point and a place for the Warboss to display his favourite trophies, glyph plates and such. Should the ladz need some encouragement to get stuck into a scrap, the banner also doubles as a handy bludgeon to beat some ferocity into them.",
+    "lore": "Entrusted to the warband\u2019s most stubborn Nob, a Waaagh! banner serves as a rallying point and a place for the Warboss to display his favourite trophies, glyph plates and such. Should the ladz need some encouragement to get stuck into a scrap, the banner also doubles as a handy bludgeon to beat some ferocity into them.",
     "keywords": [
         "infantry",
         "character",
         "nob with waaagh! banner"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -46,10 +48,10 @@
         "otherAbilities": [
             {
                 "name": "Plant the Waaagh! Banner:",
-                "description": "Once per battle, at the start of the battle round , this model can use this ability. If it does, until the start of the next battle round, this model’s unit gains the benefits of the Waaagh! ability as if you had called a Waaagh! this battle round."
+                "description": "Once per battle, at the start of the battle round , this model can use this ability. If it does, until the start of the next battle round, this model\u2019s unit gains the benefits of the Waaagh! ability as if you had called a Waaagh! this battle round."
             },
             {
-                "name": "Da Boss Iz Watchin’:",
+                "name": "Da Boss Iz Watchin\u2019:",
                 "description": "While this model is gaining the benefits of the Waaagh! ability, it has a 4+ invulnerable save and an Objective Control characteristic of 5."
             }
         ]
@@ -65,5 +67,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

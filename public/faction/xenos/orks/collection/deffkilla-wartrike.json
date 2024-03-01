@@ -12,15 +12,17 @@
         "warboss",
         "deffkilla wartrike"
     ],
-    "attributes": {
-        "movement": 12,
-        "toughness": 6,
-        "save": 4,
-        "wounds": 9,
-        "leadership": 6,
-        "objetiveControl": 3,
-        "invulnerableSave": 5
-    },
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 9,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -30,9 +32,9 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 6,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -79,21 +81,12 @@
             },
             {
                 "name": "High-octane Fuel:",
-                "description": "Each time this model’s unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model’s unit."
+                "description": "Each time this model\u2019s unit Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model\u2019s unit."
             }
         ]
     },
     "wargear": [],
     "meleeWeapons": [
-        {
-            "name": "Deffkilla boomstikks",
-            "modifiers": "assault",
-            "attacks": 6,
-            "weapons-skills": 5,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "Snagga klaw",
             "modifiers": [],
@@ -103,5 +96,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

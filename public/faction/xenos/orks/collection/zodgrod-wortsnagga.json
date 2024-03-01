@@ -12,15 +12,17 @@
         "epic hero",
         "zodgrod wortsnagga"
     ],
-    "attributes": {
-        "movement": 6,
-        "toughness": 5,
-        "save": 5,
-        "wounds": 5,
-        "leadership": 7,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    },
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 5,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -56,7 +58,7 @@
             },
             {
                 "name": "Special Dose:",
-                "description": "When you call a Waaagh! , until the start of the next battle round , add 6\" to the Move characteristic of models in this model’s unit."
+                "description": "When you call a Waaagh! , until the start of the next battle round , add 6\" to the Move characteristic of models in this model\u2019s unit."
             }
         ]
     },
@@ -71,5 +73,24 @@
             "armor-penetration": 2,
             "damage": 2
         }
-    ]
+    ],
+    "unitComposition": [
+        {
+            "unitType": "",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                ""
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
 }

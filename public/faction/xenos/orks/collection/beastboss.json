@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "It takes a ferocious and foul-tempered Ork to lead a stampede of Beast Snaggas. Beastbosses possess these qualities in abundance. Boasting cybork enhancements, wired-in targetin\u2019 squigs and an array of brutal combat weaponry, these roaring monsters can bring down even the largest prey one-on-one.",
+    "lore": "It takes a ferocious and foul-tempered Ork to lead a stampede of Beast Snaggas. Beastbosses possess these qualities in abundance. Boasting cybork enhancements, wired-in targetin' squigs and an array of brutal combat weaponry, these roaring monsters can bring down even the largest prey one-on-one.",
     "keywords": [
         "infantry",
         "character",
@@ -63,7 +63,7 @@
     "meleeWeapons": [
         {
             "name": "Beast Snagga klaw",
-            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "modifiers": ["anti-monster 4+","anti-vehicle 4+"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 10,
@@ -72,7 +72,7 @@
         },
         {
             "name": "Beastchoppa",
-            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "modifiers": ["anti-monster 4+","anti-vehicle 4+"],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 6,

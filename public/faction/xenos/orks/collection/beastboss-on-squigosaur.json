@@ -62,7 +62,7 @@
         ],
         "otherAbilities": [
             {
-                "name": "\u2019Ere We Go (Aura):",
+                "name": "'Ere We Go (Aura):",
                 "description": "While a friendly BEAST SNAGGA unit is within 6\" of this model, you can re-roll Charge rolls made for that unit."
             },
             {
@@ -80,7 +80,7 @@
     "meleeWeapons": [
         {
             "name": "Beastchoppa",
-            "modifiers": "anti-monster4+,anti-vehicle4+",
+            "modifiers": ["anti-monster 4+","anti-vehicle 4+"],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 6,
@@ -88,8 +88,8 @@
             "damage": 2
         },
         {
-            "name": "Squigosaur\u2019s jaws",
-            "modifiers": "devastatingwounds,extraattacks",
+            "name": "Squigosaur's jaws",
+            "modifiers": ["devastating wounds","extra attacks"],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 7,

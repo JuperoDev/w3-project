@@ -1,0 +1,267 @@
+{
+    "parentUnit": "Fortis Kill Team",
+    "factionKeywords": [
+        "adeptus astartes",
+        "deathwatch"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Further refined from Watch Master Mordelai\u2019s original concept, Fortis Kill Teams exemplify the supreme adaptability of the Tacticus variant of Mk X power armour, seamlessly merging a variety of close support roles and deadly firepower.",
+    "keywords": [
+        "infantry",
+        "kill team",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "fortis kill team"
+    ],
+    "attributes": [{
+        "movement": 6,
+        "toughness": 4,
+        "save": 3,
+        "wounds": 2,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt rifle",
+            "modifiers": [
+                "assault",
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hand flamer",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Long Vigil ranged weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "PISTOL"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "HAZARDOUS",
+                "PISTOL"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma incinerator - standard",
+            "modifiers": [
+                "assault",
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma incinerator - supercharge",
+            "modifiers": [
+                "assault",
+                "hazardous",
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin bolt rifle",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Kill Team",
+            "Oath of Moment"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Every Kill Team Intercessor is equipped with:",
+                "description": "bolt pistol; bolt rifle; close combat weapon."
+            },
+            {
+                "name": "Every Kill Team Intercessor with plasma incinerator is equipped with:",
+                "description": "bolt pistol; plasma incinerator; close combat weapon."
+            },
+            {
+                "name": "Every Kill Team Intercessor with heavy bolt pistol is equipped with:",
+                "description": "heavy bolt pistol; Astartes chainsword."
+            },
+            {
+                "name": "Every Kill Team Outrider is equipped with:",
+                "description": "bolt pistol; twin bolt rifle; Astartes chainsword."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "1 Kill Team Intercessor\u2019s bolt rifle can be replaced with one of the following",
+            "items": [
+                "1 hand flamer",
+                "1 plasma pistol",
+                "1 Astartes chainsword",
+                "1 Long Vigil melee weapon"
+            ]
+        },
+        {
+            "description": "1 model equipped with a bolt rifle can replace its  close combat weapon with one of the following",
+            "items": [
+                "1 Astartes chainsword",
+                "1 Long Vigil melee weapon"
+            ]
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model\u2019s bolt rifle can be replaced with 1 Long Vigil ranged weapon.",
+            "items": []
+        },
+        {
+            "description": "Any number of Kill Team Intercessors with plasma incinerators can each have their bolt pistol replaced with 1 plasma pistol.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Plasma pistol \u2013 standard",
+            "modifiers": "PISTOL",
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Plasma incinerator \u2013 standard",
+            "modifiers": "assault,heavy",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Long Vigil melee weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ]
+}

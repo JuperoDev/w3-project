@@ -1,0 +1,242 @@
+{
+    "parentUnit": "Indomitor Kill Team",
+    "factionKeywords": [
+        "adeptus astartes",
+        "deathwatch"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Comprising warriors wearing the heavier Gravis variant of Mk X armour, Indomitor Kill Teams are mobile bastions capable of unleashing the firepower of a squadron of battle tanks. Before them, hordes of xenos and monstrous beasts alike are torn apart.",
+    "keywords": [
+        "infantry",
+        "kill team",
+        "grenades",
+        "imperium",
+        "gravis",
+        "indomitor kill team"
+    ],
+    "attributes": [{
+        "movement": 5,
+        "toughness": 6,
+        "save": 3,
+        "wounds": 3,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Assault bolters",
+            "modifiers": [
+                "assault",
+                "pistol",
+                "sustained hits 2",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Auto boltstorm gauntlets",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "PISTOL"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fragstorm grenade launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": "D6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolt rifle",
+            "modifiers": [
+                "assault",
+                "heavy"
+            ],
+            "range": 30,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "assault",
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamestorm gauntlets",
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "D6+1",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Melta rifle",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma exterminators - standard",
+            "modifiers": [
+                "assault",
+                "pistol",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma exterminators - supercharge",
+            "modifiers": [
+                "assault",
+                "hazardous",
+                "pistol",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Kill Team",
+            "Oath of Moment"
+        ],
+        "faction": [
+            "Kill Team",
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Indomitor Doctrines:",
+                "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength , and add 1 to the Wound roll as well if this unit is Below Half-strength ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "1 model equipped with a melta rifle can have its melta rifle replaced with 1 multi-melta.",
+            "items": []
+        },
+        {
+            "description": "Any number of models equipped with assault bolters can each have their assault bolters replaced with 1 plasma exterminators.",
+            "items": []
+        },
+        {
+            "description": "Any number of models equipped with flamestorm gauntlets can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, 1 model equipped with a heavy bolt rifle can have its heavy bolt rifle replaced with 1 heavy bolter.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fists",
+            "modifiers": "twin-linked",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ]
+}

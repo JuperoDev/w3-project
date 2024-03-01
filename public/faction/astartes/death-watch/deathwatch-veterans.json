@@ -1,0 +1,213 @@
+{
+    "parentUnit": "Deathwatch Veterans",
+    "factionKeywords": [
+        "adeptus astartes",
+        "deathwatch"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Deathwatch Veterans\u2019 skills have been honed in their former Chapter for decades, sometimes centuries. Throughout their long vigil against the manifold xenos threats, each Veteran learns to arm himself so as to best contribute to the mission at hand, and squads carry an array of weapons to fell any foe.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "kill team",
+        "grenades",
+        "imperium",
+        "deathwatch veterans"
+    ],
+    "attributes": [{
+        "movement": 6,
+        "toughness": 4,
+        "save": 3,
+        "wounds": 2,
+        "leadership": 6,
+        "objetiveControl": 2,
+        "invulnerableSave": 0
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Frag cannon",
+            "modifiers": [
+                "blast",
+                "heavy",
+                "rapid fire d3"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": "D3",
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Infernus heavy bolter - heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Infernus heavy bolter - heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Long Vigil ranged weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - frag",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Oath of Moment"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Astartes Shield:",
+                "description": "The bearer has a 4+ invulnerable save ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their boltgun and Long Vigil melee weapon replaced with one of the following",
+            "items": [
+                "1 Long Vigil ranged weapon and 1 close combat weapon",
+                "1 Astartes shield, 1 boltgun and 1 close combat weapon",
+                "1 Astartes shield and 1 Long Vigil melee weapon"
+            ]
+        },
+        {
+            "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and Long Vigil melee weapon replaced with 1 Deathwatch  thunder hammer.",
+            "items": []
+        },
+        {
+            "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and Long Vigil melee weapon replaced with one of the following",
+            "items": [
+                "1 frag cannon and 1 close combat weapon",
+                "1 infernus heavy bolter and 1 close combat weapon",
+                "1 missile launcher and 1 close combat weapon"
+            ]
+        },
+        {
+            "description": "The Watch Sergeant\u2019s Long Vigil melee weapon can be replaced with 1 xenophase blade.",
+            "items": []
+        },
+        {
+            "description": "The Watch Sergeant\u2019s boltgun can be replaced  with 1 Long Vigil ranged weapon.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Boltgun",
+            "modifiers": [ ],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Infernus heavy bolter \u2013 heavy bolter",
+            "modifiers": "heavy,sustainedhits1",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Deathwatch thunder hammer",
+            "modifiers": "devastatingwounds",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
+            "name": "Long Vigil melee weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Xenophase blade",
+            "modifiers": "devastatingwounds",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ]
+}

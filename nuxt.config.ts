@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   
 
   build: {
-    transpile: ["vuetify","nuxt-electron"],
+    transpile: ["vuetify"],
   },
   experimental: {
     /**

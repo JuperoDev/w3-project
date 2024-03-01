@@ -1,0 +1,204 @@
+{
+    "parentUnit": "Spectrus Kill Team",
+    "factionKeywords": [
+        "adeptus astartes",
+        "deathwatch"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sinister, silent and all but invisible until they strike, Spectrus Kill Teams are adept in inflicting death from both near and far. Clad in close-fitting Mk X Phobos battle plate, they specialise in battlefield control and enemy destabilisation.",
+    "keywords": [
+        "infantry",
+        "kill team",
+        "smoke",
+        "grenades",
+        "imperium",
+        "phobos",
+        "spectrus kill team"
+    ],
+    "attributes": [{
+        "movement": 6,
+        "toughness": 4,
+        "save": 3,
+        "wounds": 2,
+        "leadership": 6,
+        "objetiveControl": 1,
+        "invulnerableSave": 0
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Accelerator autocannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt carbine",
+            "modifiers": [
+                "precision"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt sniper rifle",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Las fusil",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "D6",
+            "singleChoice": false
+        },
+        {
+            "name": "Marksman bolt carbine",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Occulus bolt carbine",
+            "modifiers": [
+                "assault",
+                "ignores cover"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Special-issue bolt pistol",
+            "modifiers": [
+                "pistol",
+                "precision"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Kill Team",
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Spectrus Doctrines:",
+                "description": "At the end of your opponent\u2019s turn, if this unit is more than 6\" away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each replace their bolt sniper rifle with 1 las fusil.",
+            "items": []
+        },
+        {
+            "description": "Any number of models can each replace their combat knife with 1 bolt carbine and 1 close combat weapon.",
+            "items": []
+        },
+        {
+            "description": "One model can replace its bolt sniper rifle with 1 bolt carbine.",
+            "items": []
+        },
+        {
+            "description": "One model equipped with a marksman bolt carbine can be equipped with one of the following",
+            "items": [
+                "1 helix gauntlet",
+                "1 Infiltrator comms array"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Combat knife",
+            "modifiers": "precision",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Paired combat blades",
+            "modifiers": "sustainedhits1",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ]
+}

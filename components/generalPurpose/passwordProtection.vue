@@ -1,4 +1,7 @@
+
+
 <template>
+
   <div>
     <div v-if="!hasEnteredPassword" class="p-5">
 

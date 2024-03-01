@@ -1,3 +1,4 @@
+
 import { useRoute, useRouter } from 'vue-router';
 import { useWh40kPasswordStore } from '~/stores/wh40kPasswordStore'; // Import the store
 
@@ -39,3 +40,4 @@ export default function () {
     }
   }
 }
+//

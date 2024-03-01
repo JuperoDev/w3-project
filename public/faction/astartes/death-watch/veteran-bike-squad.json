@@ -1,0 +1,125 @@
+{
+    "parentUnit": "Veteran Bike Squad",
+    "factionKeywords": [
+        "adeptus astartes",
+        "deathwatch"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Matching their speed, strength and firepower against the swiftest xenos, Veteran Bikers are expert hunters. Undertaking extended missions in dangerous territory, they assess their enemy\u2019s every weakness, close off escape routes and use their velocity to enact sudden strikes from unexpected angles.",
+    "keywords": [
+        "mounted",
+        "grenades",
+        "imperium",
+        "veteran bike squad"
+    ],
+    "attributes": [{
+        "movement": 12,
+        "toughness": 5,
+        "save": 3,
+        "wounds": 3,
+        "leadership": 6,
+        "objetiveControl": 2,
+        "invulnerableSave": 0
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Long Vigil ranged weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin boltgun",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Oath of Moment"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Astartes Shield:",
+                "description": "The bearer has a 4+ invulnerable save ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of Veteran Biker models can each be equipped with 1 Long Vigil melee weapon.",
+            "items": []
+        },
+        {
+            "description": "The Veteran Biker Sergeant can be equipped with one of the following",
+            "items": [
+                "1 Long Vigil ranged weapon",
+                "1 Long Vigil melee weapon",
+                "1 xenophase blade",
+                "1 Astartes shield"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Long Vigil melee weapon",
+            "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Xenophase blade",
+            "modifiers": "devastatingwounds",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ]
+}

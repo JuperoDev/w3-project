@@ -17,10 +17,10 @@
         {
             "movement": 4,
             "toughness": 8,
-            "salvation": 3,
+            "save": 3,
             "wounds": 10,
             "leadership": 7,
-            "objectiveControl": 0,
+            "objetiveControl": 0,
             "invulnerableSave": 5
         }
     ],
@@ -40,4 +40,38 @@
             "items": []
         }
     ]
-}
+
+,
+    "meleeWeapons": [
+        {
+            "name": "Piercing claws and talons",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [
+                "precision"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ]}

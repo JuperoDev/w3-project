@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
+  ssr: false,
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
   },
@@ -24,6 +25,7 @@ export default defineNuxtConfig({
 
   build: {
     transpile: ["vuetify"],
+    
   },
   experimental: {
     /**

@@ -8,12 +8,10 @@
     </div>
 
     <!-- ----------------------------- -->
- 
   <DetachmentsDesktopEnhacements :enhacements="collectionData.enhacements"/> 
   <DetachmentsDesktopStratagems :stratagems="collectionData.stratagems"/>
-   
   </div>
-  <div v-else>
+  <div v-if="!collectionData">
     <p>Loading...</p>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <div v-if="wargear.length>0" class="px-5 py-2">
+        <div v-if="!!wargear?.length" class="px-5 py-2">
         <!-- Display wargear options -->
 
         <div v-for="(wargearSet, index) in wargear" :key="index" >
@@ -12,7 +12,7 @@
           </ul>
         </div>
       </div>
-      <div v-else class="px-5 py-2 ">
+      <div v-if="!wargear?.length" class="px-5 py-2 ">
         <!-- If wargear is false, display "none" -->
         <ul>
           <li>None</li> 

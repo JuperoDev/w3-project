@@ -1,12 +1,6 @@
-
-
 <template>
-
   <div>
     <div v-if="!hasEnteredPassword" class="p-5">
-
-      
-
       <p>The file you want to see is password protected</p>
       <label for="password">Enter the password: </label>
       <input
@@ -16,15 +10,14 @@
         @keydown.enter="checkPassword"
       />
       <div class="button-container p-5">
-      <v-btn>
-        <button @click="checkPassword">Submit</button>
-      </v-btn>
+        <v-btn>
+          <button @click="checkPassword">Submit</button>
+        </v-btn>
+      </div>
     </div>
-    </div>
-    <div v-else>
+    <div v-if="!!hasEnteredPassword">
       <slot />
     </div>
-    
   </div>
 </template>
 

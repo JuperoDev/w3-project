@@ -1,7 +1,7 @@
 <template>
   <div class="p-10">
     <span v-if="attackRole">Attacker</span>
-    <span v-else>Defender</span>
+    <span v-if="!attackRole">Defender</span>
     <br />
     <div class="simulator-pick-preset grid grid-cols-3">
       <v-select

@@ -28,19 +28,14 @@
         :key="'misc-' + index"
       >
         <span class="font-semibold">{{ otherAbility.name }} : </span>
-        <span v-html="preprocessDescription(otherAbility.description)"></span>
+        <span>{{ otherAbility.description }}</span>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-
 const props = defineProps({
-  abilities: Object
+  abilities: Object,
 });
-
-const preprocessDescription = (description) => {
-  return description.replace(/\/\/\//g, '<br> <br>');
-};
 </script>

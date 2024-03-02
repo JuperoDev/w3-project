@@ -104,7 +104,8 @@
         </v-expansion-panel>
 
         <!-- Wargear Abilities -->
-        <v-expansion-panel v-if="warGearAbilities">
+        <v-expansion-panel>
+        <!-- <v-expansion-panel v-if="warGearAbilities"> -->
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Wargear Abilities</div>
           </v-expansion-panel-title>

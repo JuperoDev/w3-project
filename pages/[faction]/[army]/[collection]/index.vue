@@ -109,12 +109,10 @@
             <div class="uppercase font-semibold">Wargear Abilities</div>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
-            <!-- <MobileWarGearAbilities :warGearAbilities="warGearAbilities" /> -->
-
             <div v-if="warGearAbilities">
               <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
             </div>
-            <div v-else>
+            <div v-if="!warGearAbilities">
               <p>This unit does not have any wargear that provides any kind of abilities</p>
             </div>
           </v-expansion-panel-text>
@@ -169,21 +167,19 @@
         <!-- leader  -->
       
           
-        
         <v-expansion-panel>
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Leader</div>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
-            <div v-if="leader.length > 0" class="">
+            <div v-if="!!leader?.length" class="">
               <MobileLeader :leader="leader" />
             </div>
-            <div v-else>
+            <div v-if="!leader?.length">
               <p>This unit cannot be attached as leader</p>
             </div>
           </v-expansion-panel-text>
         </v-expansion-panel>
-     
         <!-- NOT SHOWING ON PREALPHA  -->
          <!-- <v-expansion-panel>
           <v-expansion-panel-title>

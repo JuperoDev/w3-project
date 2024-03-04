@@ -18,9 +18,15 @@
 
       <div class="faction-container border-b-2 border-dotted border-slate-400" v-if="abilities.faction && abilities.faction.length > 0" >
       <span class="font-semibold">Faction: </span>
-      <span class="capitalize" v-for="ability in abilities.faction" >
+      <!-- <span class="capitalize" v-for="ability in abilities.faction" >
           {{ ability }}, 
-      </span>
+      </span> -->
+
+      <div class="flex ">
+         <span v-for="ability in abilities.faction" class="capitalize mr-2 border-dashed border-2 mx-2 border-zinc-400 p-1  mb-2 hover:border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"  style="cursor: pointer;"><GeneralPurposeModifierDialog :modifier="ability"/> </span> 
+        </div>
+
+
     </div>
 
     <div class="other-abilities-container" v-if="abilities.otherAbilities && abilities.otherAbilities.length > 0" >

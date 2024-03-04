@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <!-- <GeneralPurposePasswordProtection>    -->
+     <GeneralPurposePasswordProtection>    
 
    
     
@@ -27,7 +27,7 @@
 
 
     </div>
-    <!-- </GeneralPurposePasswordProtection>     -->
+     </GeneralPurposePasswordProtection>   
   </div>
 </template>
 

@@ -62,17 +62,7 @@
 
         <!-- Melee weapons  -->
 
-        <div class="hidden">
-          <!-- Does not makes sense to fix vuetify bug like this but DO NOT REMOVE  -->
-          <v-expansion-panel>
-            <v-expansion-panel-title>
-              <div class="uppercase font-semibold">Melee Weapons</div>
-            </v-expansion-panel-title>
-            <v-expansion-panel-text>
-              <MobileMeleeWeapons :meleeWeapons="meleeWeapons" />
-            </v-expansion-panel-text>
-          </v-expansion-panel>
-        </div>
+       
 
         <v-expansion-panel>
           <v-expansion-panel-title>
@@ -104,18 +94,16 @@
         </v-expansion-panel>
 
         <!-- Wargear Abilities -->
-        <v-expansion-panel>
+        <v-expansion-panel v-if="warGearAbilities">
         <!-- <v-expansion-panel v-if="warGearAbilities"> -->
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Wargear Abilities</div>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
-            <div v-if="warGearAbilities">
+            
               <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
-            </div>
-            <div v-if="!warGearAbilities">
-              <p>This unit does not have any wargear that provides any kind of abilities</p>
-            </div>
+            
+           
           </v-expansion-panel-text>
         </v-expansion-panel>
 
@@ -168,17 +156,15 @@
         <!-- leader  -->
       
           
-        <v-expansion-panel>
+        <v-expansion-panel v-if="!!leader?.length">
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Leader</div>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
-            <div v-if="!!leader?.length" class="">
+           
               <MobileLeader :leader="leader" />
-            </div>
-            <div v-if="!leader?.length">
-              <p>This unit cannot be attached as leader</p>
-            </div>
+            
+            
           </v-expansion-panel-text>
         </v-expansion-panel>
         <!-- NOT SHOWING ON PREALPHA  -->

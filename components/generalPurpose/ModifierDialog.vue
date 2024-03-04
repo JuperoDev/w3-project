@@ -66,7 +66,14 @@ const filteredModifier = computed(() => {
     keyword = "rapid fire";
   } else if (keyword.includes("sustained hits")) {
     keyword = "sustained hits";
+  } else if (keyword.includes("deadly")) {
+    keyword = "deadly demise";
+  }else if (keyword.includes("scouts")) {
+    keyword = "scouts";
+  } else if (keyword.includes("pain")) {
+    keyword = "feel no pain";
   }
+  
   return keyword;
 });
 

@@ -9,7 +9,10 @@
           <div class="core-container border-b-2 border-dotted border-slate-400" v-if="abilities.core && abilities.core.length > 0"  >
         <span class="font-semibold ">Core: </span>
         
-         <span v-for="ability in abilities.core" class="capitalize">{{ ability }}, </span> 
+         <!-- <span v-for="ability in abilities.core" class="capitalize">{{ ability }}, </span>  -->
+         <div class="flex ">
+         <span v-for="ability in abilities.core" class="capitalize mr-2 border-dashed border-2 mx-2 border-zinc-400 p-1  mb-2 hover:border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"  style="cursor: pointer;"><GeneralPurposeModifierDialog :modifier="ability"/> </span> 
+        </div>
           </div>
       
 

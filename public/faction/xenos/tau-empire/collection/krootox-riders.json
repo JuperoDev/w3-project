@@ -23,7 +23,18 @@
         }
     ],
     "leader": [],
-    "rangedWeapons": [],
+    "rangedWeapons": [{
+        "name": "Kroot gun",
+        "range":36,
+        "attacks": 2,
+        "ballistic-skills": 3,
+        "strength": 7,
+        "armor-penetration": 0,
+        "damage":2,
+        "modifiers": [
+           
+        ]
+    }],
     "abilities": {
         "core": [
             "Scouts 7\""
@@ -31,32 +42,28 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "Kroot gun; Krootox fists."
+                "name": "Kroot Packmates",
+                "description": "While one or more friendly KROOT CARNIVORE units are within 6'' of this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
             }
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+     
     ]
 
 ,
-    "meleeWeapons": [
+   "meleeWeapons": [
         {
-            "name": "Close combat weapon",
-            "attacks": 6,
-            "weapons-skills": 2,
+            "name": "Krootox fists",
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 6,
-            "armor-penetration": 2,
-            "damage": 1,
+            "armor-penetration": 1,
+            "damage":2,
             "modifiers": [
-                "precision"
+               
             ]
-        }
-    ],
+        }],
     "additionalParameter": {},
     "unitComposition": [
         {

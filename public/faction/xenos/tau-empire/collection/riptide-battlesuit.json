@@ -30,17 +30,43 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Heavy burst cannon",
+            "modifiers": [
+                
+            ],
+            "range":36,
+            "strength": 6,
+            "attacks": 12,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Ion accelerator - standard",
+            "modifiers": [
+                
+            ],
+            "range": 72,
+            "strength": 7,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
             "name": "Ion accelerator - overcharge",
             "modifiers": [
                 "hazardous"
             ],
             "range": 72,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 4,
+            "singleChoice": true
         },
         {
             "name": "Twin fusion blaster",
@@ -50,10 +76,10 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -63,10 +89,10 @@
             ],
             "range": 24,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -77,9 +103,9 @@
             ],
             "range": 30,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -125,19 +151,18 @@
     ]
 
 ,
-    "meleeWeapons": [
+   "meleeWeapons": [
         {
-            "name": "Close combat weapon",
+            "name": "Riptide fists",
             "attacks": 6,
-            "weapons-skills": 2,
+            "weapons-skills": 5,
             "strength": 6,
-            "armor-penetration": 2,
-            "damage": 1,
+            "armor-penetration": 0,
+            "damage": 2,
             "modifiers": [
-                "precision"
+               
             ]
-        }
-    ],
+        }],
     "additionalParameter": {},
     "unitComposition": [
         {

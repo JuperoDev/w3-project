@@ -28,15 +28,28 @@
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Pulse pistol",
+            "name": "Pulse carbine",
             "modifiers": [
                 "pistol"
             ],
             "range": 12,
             "strength": 5,
             "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -47,9 +60,9 @@
             ],
             "range": 30,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -62,21 +75,25 @@
             "range": 30,
             "strength": 5,
             "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: For the Greater Good"
+            
         ],
-        "faction": [],
+        "faction": ["For the Greater Good"],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "pulse pistol; pulse rifle; close combat weapon."
+                "name": "Cover Fire",
+                "description": "While this unit is within range of an objective marker you control, each time you select it as the target of the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem."
+            },
+            {
+                "name": "DS8 Support Turret",
+                "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next Movement phase, its Fire Warrior Shas’ui model is equipped with the support turret missile system weapon."
             }
         ]
     },
@@ -97,19 +114,18 @@
     ]
 
 ,
-    "meleeWeapons": [
+   "meleeWeapons": [
         {
             "name": "Close combat weapon",
-            "attacks": 6,
-            "weapons-skills": 2,
-            "strength": 6,
-            "armor-penetration": 2,
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "modifiers": [
-                "precision"
+               
             ]
-        }
-    ],
+        }],
     "additionalParameter": {},
     "unitComposition": [
         {

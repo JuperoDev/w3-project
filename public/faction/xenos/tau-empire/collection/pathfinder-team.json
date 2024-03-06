@@ -26,17 +26,30 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Drone burst cannon",
+            "modifiers": [
+                
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 4,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
             "name": "Ion rifle - standard",
             "modifiers": [
                 "heavy"
             ],
             "range": 30,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Ion rifle - overcharge",
@@ -46,9 +59,22 @@
             ],
             "range": 30,
             "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Pulse carbine",
+            "modifiers": [
+                
+            ],
+            "range": 20,
+            "strength": 5,
             "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -59,9 +85,9 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -73,10 +99,10 @@
             ],
             "range": 30,
             "strength": 10,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -87,11 +113,24 @@
             ],
             "range": 18,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Semi-automatic grenade launcher - fusion",
+            "modifiers": [
+               
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -139,19 +178,18 @@
     ]
 
 ,
-    "meleeWeapons": [
+   "meleeWeapons": [
         {
             "name": "Close combat weapon",
-            "attacks": 6,
-            "weapons-skills": 2,
-            "strength": 6,
-            "armor-penetration": 2,
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "modifiers": [
-                "precision"
+               
             ]
-        }
-    ],
+        }],
     "additionalParameter": {},
     "unitComposition": [
         {

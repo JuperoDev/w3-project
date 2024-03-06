@@ -14,7 +14,18 @@
     ],
     "attributes": [
         {
+            "name":"farstalkers & kill-broker",
             "movement": 7,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        },
+        {
+            "name":"kroot hounrds",
+            "movement": 12,
             "toughness": 3,
             "save": 6,
             "wounds": 1,
@@ -34,7 +45,7 @@
             "range": 12,
             "strength": 4,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -47,7 +58,7 @@
             "range": 24,
             "strength": 4,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -60,7 +71,7 @@
             "range": 12,
             "strength": 4,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -75,7 +86,7 @@
             "range": 18,
             "strength": 7,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -88,7 +99,7 @@
             "range": 30,
             "strength": 5,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -129,19 +140,18 @@
     ]
 
 ,
-    "meleeWeapons": [
+   "meleeWeapons": [
         {
             "name": "Close combat weapon",
-            "attacks": 6,
-            "weapons-skills": 2,
-            "strength": 6,
-            "armor-penetration": 2,
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "modifiers": [
-                "precision"
+               
             ]
-        }
-    ],
+        }],
     "additionalParameter": {},
     "unitComposition": [
         {

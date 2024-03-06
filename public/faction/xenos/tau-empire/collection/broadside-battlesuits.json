@@ -35,8 +35,8 @@
             "strength": 12,
             "attacks": 2,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {
@@ -46,10 +46,10 @@
             ],
             "range": 30,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 6,
             "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -95,14 +95,14 @@
     ],
     "abilities": {
         "core": [
-            "FACTION: For the Greater Good"
+           
         ],
         "faction": [
             "For the Greater Good"
         ],
         "otherAbilities": [
             {
-                "name": "Advanced Armour:",
+                "name": "Advanced Armour",
                 "description": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds ."
             }
         ]
@@ -136,10 +136,10 @@
 ,
    "meleeWeapons": [
         {
-            "name": "Close combat weapon",
-            "attacks": 1,
+            "name": "Crushing bulk",
+            "attacks": 3,
             "weapons-skills": 5,
-            "strength": 3,
+            "strength": 6,
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": [

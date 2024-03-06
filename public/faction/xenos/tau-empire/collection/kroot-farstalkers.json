@@ -44,8 +44,8 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -57,9 +57,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -70,9 +70,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -85,9 +85,22 @@
             ],
             "range": 18,
             "strength": 7,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Pulse carbine",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 20,
+            "strength": 5,
             "attacks": 2,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -98,9 +111,9 @@
             ],
             "range": 30,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -113,8 +126,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Pech’ra:",
-                "description": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
+                "name": "Bounty Hunters",
+                "description": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities"
             }
         ]
     },
@@ -143,9 +156,30 @@
    "meleeWeapons": [
         {
             "name": "Close combat weapon",
-            "attacks": 1,
-            "weapons-skills": 5,
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+               
+            ]
+        },
+        {
+            "name": "Ripping fangs",
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+               
+            ]
+        },{
+            "name": "Ritual blade",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": [

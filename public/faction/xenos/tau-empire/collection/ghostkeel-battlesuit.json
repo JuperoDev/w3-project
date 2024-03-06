@@ -31,17 +31,30 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Cyclic ion raker - standard",
+            "modifiers": [
+                
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
             "name": "Cyclic ion raker - overcharge",
             "modifiers": [
                 "hazardous"
             ],
             "range": 36,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 6,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Fusion collider",
@@ -52,8 +65,8 @@
             "strength": 12,
             "attacks": 2,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -63,9 +76,9 @@
             ],
             "range": 18,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 4,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -92,9 +105,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -113,10 +126,6 @@
             {
                 "name": "Stealth Drones:",
                 "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0."
-            },
-            {
-                "name": "Designer’s Note:",
-                "description": "Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
             }
         ]
     },
@@ -141,12 +150,12 @@
 ,
    "meleeWeapons": [
         {
-            "name": "Close combat weapon",
-            "attacks": 1,
+            "name": "Ghostkeel fists",
+            "attacks": 3,
             "weapons-skills": 5,
-            "strength": 3,
+            "strength": 6,
             "armor-penetration": 0,
-            "damage": 1,
+            "damage": 2,
             "modifiers": [
                
             ]

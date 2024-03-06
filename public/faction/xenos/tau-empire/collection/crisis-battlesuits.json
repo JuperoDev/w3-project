@@ -34,24 +34,50 @@
             ],
             "range": 24,
             "strength": 3,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
         },
         {
-            "name": "Cyclic ion blaster - overcharge",
+            "name": "Burst cannon",
+            "modifiers": [
+               
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Cyclic ion raker - standard",
+            "modifiers": [
+                
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Cyclic ion raker - overcharge",
             "modifiers": [
                 "hazardous"
             ],
-            "range": 18,
+            "range": 36,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 6,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Fusion blaster",
@@ -60,10 +86,36 @@
             ],
             "range": 12,
             "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Missile pod",
+            "modifiers": [
+                
+            ],
+            "range": 30,
+            "strength": 7,
             "attacks": 2,
             "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma rifle",
+            "modifiers": [
+                
+            ],
+            "range": 24,
+            "strength":8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -74,9 +126,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -138,10 +190,10 @@
 ,
    "meleeWeapons": [
         {
-            "name": "Close combat weapon",
-            "attacks": 1,
+            "name": "Battlesuit fists",
+            "attacks": 3,
             "weapons-skills": 5,
-            "strength": 3,
+            "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": [

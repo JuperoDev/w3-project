@@ -35,7 +35,7 @@
             "range": 10,
             "strength": 6,
             "attacks": 2,
-            "ballistic-skills": 4,
+            "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -70,13 +70,17 @@
     ],
     "abilities": {
         "core": [
-            "FACTION: For the Greater Good"
+            
         ],
-        "faction": [],
+        "faction": ["For the Greater Good"],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "pulse blaster; pulse pistol; close combat weapon."
+                "name": "Breach and Clear",
+                "description": "Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll."
+            },
+            {
+                "name": "DS8 Support Turret",
+                "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next Movement phase, its Fire Warrior Shas’ui model is equipped with the support turret missile system weapon."
             }
         ]
     },

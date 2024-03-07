@@ -30,6 +30,19 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Accelerator burst cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
             "name": "Ion cannon - standard",
             "modifiers": [
                 "blast"
@@ -64,10 +77,10 @@
             ],
             "range": 72,
             "strength": 20,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 5,
+            "damage": "d6+6",
             "singleChoice": false
         },
         {
@@ -93,7 +106,7 @@
             "strength": 5,
             "attacks": 2,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -116,11 +129,19 @@
         "core": [
             "Deadly Demise D3"
         ],
-        "faction": [],
+        "faction": ["For the Greater Good"],
         "otherAbilities": [
             {
-                "name": "FACTION:",
-                "description": "For the Greater Good"
+                "name": "Armour Hunter",
+                "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+            },
+            {
+                "name": "Targeting Array",
+                "description": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving its attacks."
+            },
+            {
+                "name": "XV02 Pilot Battlesuit",
+                "description": "In your Command phase, you can select one friendly HAMMERHEAD GUNSHIP unit within 12''. Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
             }
         ]
     },
@@ -145,10 +166,10 @@
 ,
    "meleeWeapons": [
         {
-            "name": "Close combat weapon",
-            "attacks": 1,
+            "name": "Armoured hull",
+            "attacks": 3,
             "weapons-skills": 5,
-            "strength": 3,
+            "strength": 6,
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": [

@@ -70,6 +70,8 @@ const filteredModifier = computed(() => {
     keyword = "deadly demise";
   }else if (keyword.includes("scouts")) {
     keyword = "scouts";
+  }else if (keyword.includes("firing deck")) {
+    keyword = "firing deck";
   } else if (keyword.includes("pain")) {
     keyword = "feel no pain";
   }

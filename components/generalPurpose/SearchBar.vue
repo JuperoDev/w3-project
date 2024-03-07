@@ -7,6 +7,8 @@
       class="bg-gray-100"
       @input="onSearch"
       @blur="onBlur"
+      @focus="onSearch"
+      ref="searchInput"
     />
     <ul v-show="isOpen && searchQuery.length >= 3" class="options capitalize">
       <li
@@ -34,6 +36,7 @@ const searchQuery = ref("");
 const isOpen = ref(false);
 const moreElementsMessage = ref("");
 const options = [];
+let lastSearchQuery = ""; // To store the last search query
 
 // Flatten the nested object structure into a single array
 for (const category in searchResults) {
@@ -48,7 +51,7 @@ const filteredOptions = computed(() => {
   }
 
   const filtered = options.filter((option) =>
-    option.toLowerCase().includes(searchQuery.value.toLowerCase()),
+    option.toLowerCase().includes(searchQuery.value.toLowerCase())
   );
 
   if (filtered.length > 8) {
@@ -63,19 +66,20 @@ const filteredOptions = computed(() => {
 const onSearch = () => {
   isOpen.value = true;
   moreElementsMessage.value = "";
+
 };
 
 const onBlur = () => {
+  // Save the search query before hiding the options
+  lastSearchQuery = searchQuery.value;
   // Delay hiding the options to allow click events on options
   setTimeout(() => {
     isOpen.value = false;
   }, 200);
 };
 
-const selectOption = (option) => {
-  selected.value = option;
-  isOpen.value = false;
-};
+
+
 
 const navigate = (option) => {
   const currentRoute = router.currentRoute.value;
@@ -109,13 +113,14 @@ watch(selected, (newValue) => {
   searchQuery.value = newValue;
 });
 </script>
+
 <style scoped>
 ul {
   z-index: 999;
 }
 .custom-select {
   position: relative;
-  width: 80%; /* adjust width as needed */
+  width: 80%; 
   max-width: 600px;
 }
 input[type="text"] {

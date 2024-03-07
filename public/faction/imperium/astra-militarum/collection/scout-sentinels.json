@@ -36,8 +36,8 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -49,10 +49,10 @@
             ],
             "range": 48,
             "strength": 14,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -63,11 +63,11 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Missile launcher - krak",
@@ -76,11 +76,11 @@
             ],
             "range": 48,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
         },
         {
             "name": "Plasma cannon - standard",
@@ -89,11 +89,11 @@
             ],
             "range": 36,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma cannon - supercharge",
@@ -103,11 +103,11 @@
             ],
             "range": 36,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {

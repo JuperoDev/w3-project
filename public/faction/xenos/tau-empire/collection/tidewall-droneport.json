@@ -34,9 +34,9 @@
             ],
             "range": 20,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 8,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -49,11 +49,20 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "drone defenders."
+                "name": "Droneport",
+                "description": "Each time this FORTIFICATION is selected to shoot, its drone defenders weapon will target and resolve attacks against every enemy unit that is an eligible target to this FORTIFICATION."
+            },
+            {
+                "name": "Fortification",
+                "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:"
+            },
+            {
+                "name": "Tidewall Cover",
+                "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
             }
         ]
     },
+    "transport":"This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
     "wargear": [
      
     ]

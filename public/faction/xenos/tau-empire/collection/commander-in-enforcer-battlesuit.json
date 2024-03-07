@@ -35,11 +35,24 @@
             ],
             "range": 24,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
+        },
+        {
+            "name": "Cyclic ion blaster - standard",
+            "modifiers": [
+                "hazardous"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage":1,
+            "singleChoice": true
         },
         {
             "name": "Cyclic ion blaster - overcharge",
@@ -50,7 +63,7 @@
             "strength": 8,
             "attacks": 3,
             "ballistic-skills": 4,
-            "armor-penetration": 3,
+            "armor-penetration": 2,
             "damage":2,
             "singleChoice": true
         },
@@ -65,6 +78,31 @@
             "ballistic-skills": 3,
             "armor-penetration": 4,
             "damage": "d6",
+            "singleChoice": false
+        }, {
+            "name": "Missile pod",
+            "modifiers": [
+                
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma rifle",
+            "modifiers": [
+                
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 3,
             "singleChoice": false
         },
         {

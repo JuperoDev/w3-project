@@ -12,8 +12,19 @@
     ],
     "attributes": [
         {
+            "name":"gretchin",
             "movement": 6,
             "toughness": 2,
+            "save": 7,
+            "wounds": 1,
+            "leadership": 8,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        },
+        {
+            "name":"runtherd",
+            "movement": 6,
+            "toughness": 5,
             "save": 7,
             "wounds": 1,
             "leadership": 8,
@@ -43,9 +54,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -54,15 +65,15 @@
         "core": [
             "FACTION: Waaagh!"
         ],
-        "faction": [],
+        "faction": ["Waaagh!"],
         "otherAbilities": [
             {
-                "name": "Every Runtherd is equipped with:",
-                "description": "slugga; grot-smacka."
+                "name": "Runtherd",
+                "description": "While this unit contains one or more Gretchin models, each time an attack targets this unit, Runtherd models in this unit have a Toughness characteristic of 2."
             },
             {
-                "name": "Every Gretchin is equipped with:",
-                "description": "grot blasta; close combat weapon."
+                "name": "Thievin’ Scavengers",
+                "description": "At the start of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of those rolls is a 4+, you gain 1CP."
             }
         ]
     },

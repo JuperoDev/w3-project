@@ -70,10 +70,10 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "d3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 3,
             "singleChoice": false
         }
     ],
@@ -84,12 +84,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Every Spanner is equipped with:",
-                "description": "close combat weapon; big shoota."
-            },
-            {
-                "name": "Every Burna Boy is equipped with:",
-                "description": "burna; cuttin' flames."
+                "name": "Pyromaniaks",
+                "description": "Each time a model in this unit makes a ranged attack with a burna that targets an enemy unit within 6'', re-roll a Wound roll of 1. If the target of that attack is also within range of an objective marker, you can re-roll the Wound roll instead."
             }
         ]
     },

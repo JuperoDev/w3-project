@@ -33,10 +33,10 @@
             ],
             "range": 18,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "d3",
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -63,7 +63,7 @@
     "meleeWeapons": [
         {
             "name": "Big Chompa's jaws",
-            "modifiers": "devastating wounds,extra attacks",
+            "modifiers": ["devastating wounds","extra attacks"],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 7,

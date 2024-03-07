@@ -33,9 +33,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -63,7 +63,7 @@
     "meleeWeapons": [
         {
             "name": "Power klaw",
-            "modifiers": "sustainedhits1",
+            "modifiers": ["sustained hits 1"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 9,
@@ -72,7 +72,7 @@
         },
         {
             "name": "'Urty syringe",
-            "modifiers": "anti-infantry4+,extra attacks,precision",
+            "modifiers": ["anti-infantry 4+","extra attacks","precision"],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 2,

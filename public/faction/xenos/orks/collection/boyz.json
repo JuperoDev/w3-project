@@ -15,10 +15,21 @@
     ],
     "attributes": [
         {
+            "name":"boy",
             "movement": 6,
             "toughness": 5,
             "save": 5,
             "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        },
+        {
+            "name":"boss nob",
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 2,
             "leadership": 7,
             "objetiveControl": 2,
             "invulnerableSave": 0
@@ -87,9 +98,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -101,12 +112,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "The Boss Nob is equipped with:",
-                "description": "slugga; big choppa."
-            },
-            {
-                "name": "Every Boy is equipped with:",
-                "description": "slugga; choppa."
+                "name": "Breakin’ Heads",
+                "description": "While a WARBOSS model is leading this unit, in your Command phase, the first time a Battle-shock test is failed for this unit that phase, if it is within range of an objective marker, you can choose to break some heads. If you do, 1 Bodyguard model in this unit is destroyed and you can re-roll that test."
             }
         ]
     },

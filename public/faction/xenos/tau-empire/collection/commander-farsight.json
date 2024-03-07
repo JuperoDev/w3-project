@@ -27,7 +27,19 @@
         }
     ],
     "leader": [],
-    "rangedWeapons": [],
+    "rangedWeapons": [{
+        "name": "High-intensity plasma rifle",
+        "modifiers": [
+            "rapid fire 1"
+        ],
+        "range": 30,
+        "strength": 8,
+        "attacks": 2,
+        "ballistic-skills": 2,
+        "armor-penetration": 3,
+        "damage": 3,
+        "singleChoice": false
+    }],
     "abilities": {
         "core": [
             "Deep Strike",
@@ -54,11 +66,22 @@
 ,
    "meleeWeapons": [
         {
-            "name": "Close combat weapon",
-            "attacks": 1,
-            "weapons-skills": 5,
-            "strength": 3,
-            "armor-penetration": 0,
+            "name": "Dawn Blade – strike",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [
+               
+            ]
+        },
+        {
+            "name": "Dawn Blade – sweep",
+            "attacks": 8,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 1,
             "damage": 1,
             "modifiers": [
                

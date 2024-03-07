@@ -48,11 +48,11 @@
             ],
             "range": 18,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage":2,
+            "singleChoice": true
         },
         {
             "name": "Fusion blaster",
@@ -61,10 +61,10 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -140,10 +140,10 @@
 ,
    "meleeWeapons": [
         {
-            "name": "Close combat weapon",
-            "attacks": 1,
-            "weapons-skills": 5,
-            "strength": 3,
+            "name": "Battlesuit fists",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
             "modifiers": [

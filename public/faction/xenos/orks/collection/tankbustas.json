@@ -12,10 +12,21 @@
     ],
     "attributes": [
         {
+            "name":"tankbusta",
             "movement": 6,
             "toughness": 5,
             "save": 5,
             "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        },
+        {
+            "name":"boss nob",
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 2,
             "leadership": 7,
             "objetiveControl": 1,
             "invulnerableSave": 0
@@ -44,34 +55,26 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "d3",
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 3,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Waaagh!"
+            
         ],
-        "faction": [],
+        "faction": ["Waaagh!"],
         "otherAbilities": [
             {
-                "name": "The Boss Nob is equipped with:",
-                "description": "rokkit launcha; close combat weapon."
+                "name": "Tank Hunters",
+                "description": " Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll."
             },
             {
-                "name": "One Tankbusta is equipped with:",
-                "description": "pair of rokkit pistols; close combat weapon."
-            },
-            {
-                "name": "One other Tankbusta is equipped with:",
-                "description": "tankhammer."
-            },
-            {
-                "name": "Two other Tankbustas are equipped with:",
-                "description": "rokkit launcha; close combat weapon."
+                "name": "Bomb Squigs:",
+                "description": "Twice per battle, after this unit ends a Normal move, you can select one enemy unit within 12'' of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
             }
         ]
     },
@@ -88,7 +91,7 @@
         },
         {
             "name": "Tankhammer",
-            "modifiers": "anti-vehicle4+,devastating wounds,hazardous",
+            "modifiers": ["anti-vehicle 4+","devastating wounds","hazardous"],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 7,

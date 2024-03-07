@@ -67,10 +67,10 @@
             ],
             "range": 24,
             "strength": 12,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "d3",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 3,
+            "damage": "d6",
             "singleChoice": false
         }
     ],
@@ -80,11 +80,11 @@
             "Feel No Pain 6+",
             "Firing Deck 11"
         ],
-        "faction": [],
+        "faction": ["Waaagh!"],
         "otherAbilities": [
             {
-                "name": "FACTION:",
-                "description": "Waaagh!"
+                "name": "Spirit of Gork (Psychic)",
+                "description": "At the start of the Fight phase, you can select one friendly ORKS unit within 12'' of this model and roll one D6: on a 1, this model suffers D3 mortal wounds; on a 2-5, until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in that unit; on a 6, until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in that unit and those weapons have the [LETHAL HITS] ability."
             }
         ]
     },
@@ -92,7 +92,7 @@
     "meleeWeapons": [
         {
             "name": "Butcha boyz",
-            "modifiers": "anti-monster4+,anti-vehicle4+,extra attacks",
+            "modifiers": ["anti-monster 4+","anti-vehicle 4+","extra attacks"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
@@ -101,7 +101,7 @@
         },
         {
             "name": "Savage horns and hooves",
-            "modifiers": "extra attacks,lance",
+            "modifiers": ["extra attacks","lance"],
             "attacks": 4,
             "weapons-skills": 4,
             "strength": 8,
@@ -136,5 +136,5 @@
             "points": 90
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},    "transport":"This model has a transport capacity of 11 BEAST SNAGGA INFANTRY models."
 }

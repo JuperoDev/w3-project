@@ -78,9 +78,9 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -113,6 +113,15 @@
             "strength": 18,
             "armor-penetration": 3,
             "damage": 6
+        },
+        {
+            "name": "Klaw of Mork - sweep",
+            "modifiers": [],
+            "attacks": 12,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2
         }
     ],
     "unitComposition": [
@@ -133,5 +142,5 @@
             "points": 90
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},    "transport":"This model has a transport capacity of 12 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. It cannot transport GHAZGHKULL THRAKA."
 }

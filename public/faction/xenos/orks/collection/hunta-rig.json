@@ -51,10 +51,10 @@
             ],
             "range": 12,
             "strength": 12,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 3,
             "singleChoice": false
         }
     ],
@@ -64,11 +64,11 @@
             "Feel No Pain 6+",
             "Firing Deck 21"
         ],
-        "faction": [],
+        "faction": ["Waaagh!"],
         "otherAbilities": [
             {
-                "name": "FACTION:",
-                "description": "Waaagh!"
+                "name": "Bail Out, Boyz!",
+                "description": "If this TRANSPORT is destroyed, you can re-roll the dice when determining if a disembarking model’s unit suffers mortal wounds."
             }
         ]
     },
@@ -76,7 +76,7 @@
     "meleeWeapons": [
         {
             "name": "Butcha boyz",
-            "modifiers": "extra attacks,anti-monster4+,anti-vehicle4+",
+            "modifiers": ["extra attacks","anti-monster 4+","anti-vehicle4+"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
@@ -85,7 +85,7 @@
         },
         {
             "name": "Savage horns and hooves",
-            "modifiers": "extra attacks,lance",
+            "modifiers": ["extra attacks","lance"],
             "attacks": 4,
             "weapons-skills": 4,
             "strength": 8,
@@ -120,5 +120,5 @@
             "points": 90
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},    "transport":"This model has a transport capacity of 21 BEAST SNAGGA INFANTRY models."
 }

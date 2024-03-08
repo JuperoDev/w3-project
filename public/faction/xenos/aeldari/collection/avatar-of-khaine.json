@@ -8,7 +8,7 @@
         "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
     "supremeCommander": false,
-    "lore": "The Avatar of Khaine is an ancient war deity incarnate, whose mere presence incites merciless rage in the Asuryani around him. In battle, the Avatar marches through enemy fire without breaking stride, laughing cruelly as his weapon – the Wailing Doom – tastes hot flesh and spurting lifeblood with each swing and thrust.",
+    "lore": "The Avatar of Khaine is an ancient war deity incarnate, whose mere presence incites merciless rage in the Asuryani around him. In battle, the Avatar marches through enemy fire without breaking stride, laughing cruelly as his weapon \u2013 the Wailing Doom \u2013 tastes hot flesh and spurting lifeblood with each swing and thrust.",
     "keywords": [
         "monster",
         "character",
@@ -16,15 +16,17 @@
         "daemon",
         "avatar of khaine"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 12,
-        "save": 2,
-        "wounds": 14,
-        "leadership": 6,
-        "objetiveControl": 5,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 2,
+            "wounds": 14,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -59,13 +61,11 @@
             }
         ]
     },
-    "wargear": [
-     
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
-            "name": "The Wailing Doom – strike",
-            "modifiers": [ ],
+            "name": "The Wailing Doom \u2013 strike",
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 14,

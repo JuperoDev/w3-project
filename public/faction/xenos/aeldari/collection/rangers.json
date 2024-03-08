@@ -10,15 +10,17 @@
         "infantry",
         "rangers"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 5,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,10 +31,10 @@
             ],
             "range": 36,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -65,22 +67,11 @@
             }
         ]
     },
-    "wargear": [
-     
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Ranger long rifle",
-            "modifiers": "heavy,precision",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 3,

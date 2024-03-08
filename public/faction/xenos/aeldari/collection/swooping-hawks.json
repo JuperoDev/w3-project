@@ -13,28 +13,30 @@
         "grenades",
         "swooping hawks"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 3,
-        "save": 4,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Hawk’s talon",
+            "name": "Hawk\u2019s talon",
             "modifiers": [
                 "assault",
                 "lethal hits"
             ],
             "range": 24,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 4,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -63,7 +65,7 @@
         "otherAbilities": [
             {
                 "name": "Skyleap:",
-                "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+                "description": "At the end of your opponent\u2019s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves ."
             }
         ]
     },
@@ -73,23 +75,14 @@
             "items": []
         },
         {
-            "description": "The Swooping Hawk Exarch’s lasblaster can be replaced with 1 Hawk’s talon.",
+            "description": "The Swooping Hawk Exarch\u2019s lasblaster can be replaced with 1 Hawk\u2019s talon.",
             "items": []
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Hawk’s talon",
-            "modifiers": "assault,lethalhits",
-            "attacks": 4,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Aeldari power sword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 4,
@@ -98,7 +91,7 @@
         },
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 3,

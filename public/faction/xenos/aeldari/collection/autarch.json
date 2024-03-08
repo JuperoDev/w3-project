@@ -12,15 +12,17 @@
         "grenades",
         "autarch"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -31,9 +33,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -45,10 +47,10 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -60,10 +62,10 @@
             ],
             "range": 6,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "D3",
             "singleChoice": false
         },
         {
@@ -117,7 +119,7 @@
         "otherAbilities": [
             {
                 "name": "Superlative Strategist:",
-                "description": "Once per turn, you can target this model’s unit with a Stratagem even if you have already used that Stratagem on a different unit this phase."
+                "description": "Once per turn, you can target this model\u2019s unit with a Stratagem even if you have already used that Stratagem on a different unit this phase."
             },
             {
                 "name": "Path of Command:",
@@ -127,7 +129,7 @@
     },
     "wargear": [
         {
-            "description": "This model’s shuriken pistol can be replaced with one of the following",
+            "description": "This model\u2019s shuriken pistol can be replaced with one of the following",
             "items": [
                 "1 death spinner",
                 "1 Dragon fusion gun",
@@ -136,7 +138,7 @@
             ]
         },
         {
-            "description": "This model’s star glaive can be replaced with one of the following",
+            "description": "This model\u2019s star glaive can be replaced with one of the following",
             "items": [
                 "1 Banshee blade",
                 "1 Scorpion chainsword"
@@ -152,34 +154,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Death spinner",
-            "modifiers": "devastatingwounds,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Dragon fusion gun",
-            "modifiers": "assault,melta3",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 9,
-            "armor-penetration": 4,
-            "damage": "D6"
-        },
-        {
-            "name": "Fusion pistol",
-            "modifiers": "assault,melta2,pistol",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 8,
-            "armor-penetration": 4,
-            "damage": "D3"
-        },
-        {
-            "name": "Reaper launcher – starswarm",
+            "name": "Reaper launcher \u2013 starswarm",
             "modifiers": "heavy",
             "attacks": 2,
             "weapons-skills": 3,
@@ -189,7 +164,7 @@
         },
         {
             "name": "Banshee blade",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 4,
@@ -207,7 +182,7 @@
         },
         {
             "name": "Star glaive",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 6,

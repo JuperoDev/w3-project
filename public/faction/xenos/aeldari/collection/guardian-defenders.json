@@ -13,15 +13,17 @@
         "guardians",
         "guardian defenders"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 4,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -44,10 +46,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -93,8 +95,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Aeldari missile launcher – starshot",
-            "modifiers": [ ],
+            "name": "Aeldari missile launcher \u2013 starshot",
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 10,
@@ -103,7 +105,7 @@
         },
         {
             "name": "Bright lance",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 12,
@@ -112,7 +114,7 @@
         },
         {
             "name": "Scatter laser",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
             "strength": 5,
@@ -120,26 +122,8 @@
             "damage": 1
         },
         {
-            "name": "Shuriken cannon",
-            "modifiers": "sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
-            "name": "Shuriken catapult",
-            "modifiers": "assault",
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 3,

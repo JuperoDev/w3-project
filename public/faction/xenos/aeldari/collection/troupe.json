@@ -12,15 +12,17 @@
         "harlequins",
         "troupe"
     ],
-    "attributes": [{
-        "movement": 8,
-        "toughness": 3,
-        "save": 6,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,10 +34,10 @@
             ],
             "range": 6,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "D3",
             "singleChoice": false
         },
         {
@@ -47,9 +49,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -76,13 +78,13 @@
         "otherAbilities": [
             {
                 "name": "Every model is equipped with:",
-                "description": "shuriken pistol; Harlequin’s blade."
+                "description": "shuriken pistol; Harlequin\u2019s blade."
             }
         ]
     },
     "wargear": [
         {
-            "description": "Any number of models can each have their Harlequin’s blade replaced with 1 Harlequin’s special weapon.",
+            "description": "Any number of models can each have their Harlequin\u2019s blade replaced with 1 Harlequin\u2019s special weapon.",
             "items": []
         },
         {
@@ -100,32 +102,14 @@
             ]
         },
         {
-            "description": "The Lead Player’s Harlequin’s blade can be replaced with 1 Aeldari power sword.",
+            "description": "The Lead Player\u2019s Harlequin\u2019s blade can be replaced with 1 Aeldari power sword.",
             "items": []
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Fusion pistol",
-            "modifiers": "assault,melta2,pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 4,
-            "damage": "D3"
-        },
-        {
-            "name": "Neuro disruptor",
-            "modifiers": "anti-infantry2+,assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Aeldari power sword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 4,
@@ -133,8 +117,8 @@
             "damage": 1
         },
         {
-            "name": "Harlequin’s blade",
-            "modifiers": [ ],
+            "name": "Harlequin\u2019s blade",
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 3,
@@ -142,8 +126,8 @@
             "damage": 1
         },
         {
-            "name": "Harlequin’s special weapon",
-            "modifiers": [ ],
+            "name": "Harlequin\u2019s special weapon",
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 4,

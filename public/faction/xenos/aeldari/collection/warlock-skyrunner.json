@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Jetbikes add great speed to Warlocks’ already formidable array of powers. Many craftworlds deploy entire Skyrunner conclaves, although such formations are especially common in the Wild Rider clans of Saim-Hann.",
+    "lore": "Jetbikes add great speed to Warlocks\u2019 already formidable array of powers. Many craftworlds deploy entire Skyrunner conclaves, although such formations are especially common in the Wild Rider clans of Saim-Hann.",
     "keywords": [
         "mounted",
         "character",
@@ -14,15 +14,17 @@
         "warlock",
         "warlock skyrunner"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -33,8 +35,8 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -47,7 +49,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -63,8 +65,8 @@
             "strength": 9,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 0,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -100,57 +102,21 @@
             },
             {
                 "name": "Conceal:",
-                "description": "Models in this model’s unit have the Stealth ability."
+                "description": "Models in this model\u2019s unit have the Stealth ability."
             },
             {
                 "name": "Reveal:",
-                "description": "Ranged weapons equipped by models in this model’s unit have the [IGNORES COVER] ability."
+                "description": "Ranged weapons equipped by models in this model\u2019s unit have the [IGNORES COVER] ability."
             }
         ]
     },
     "wargear": [
         {
-            "description": "This model’s witchblade can be replaced with 1 singing spear.",
+            "description": "This model\u2019s witchblade can be replaced with 1 singing spear.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Destructor",
-            "modifiers": "psychic,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Shuriken pistol",
-            "modifiers": "assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Singing spear",
-            "modifiers": "assault,psychic",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 9,
-            "armor-penetration": 0,
-            "damage": 3
-        },
-        {
-            "name": "Singing spear",
-            "modifiers": "psychic",
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 3
-        },
         {
             "name": "Witchblade",
             "modifiers": "anti-infantry2+,psychic",

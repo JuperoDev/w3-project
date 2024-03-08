@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "A master at killing from a distance, Maugan Ra wields the Maugetar. This scythe-like weapon fires mind-linked shuriken discs large enough to decapitate a swathe of foes before vanishing into nothingness. Should the enemy survive this barrage, they will meet a swift end on the curved edge of the Maugetar’s built-in reaping blade.",
+    "lore": "A master at killing from a distance, Maugan Ra wields the Maugetar. This scythe-like weapon fires mind-linked shuriken discs large enough to decapitate a swathe of foes before vanishing into nothingness. Should the enemy survive this barrage, they will meet a swift end on the curved edge of the Maugetar\u2019s built-in reaping blade.",
     "keywords": [
         "infantry",
         "character",
@@ -13,15 +13,17 @@
         "phoenix lord",
         "maugan ra"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 2,
-        "wounds": 5,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,10 +34,10 @@
             ],
             "range": 36,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 5,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -57,18 +59,6 @@
             }
         ]
     },
-    "wargear": [
-     
-    ],
-    "meleeWeapons": [
-        {
-            "name": "The Maugetar",
-            "modifiers": [ ],
-            "attacks": 5,
-            "weapons-skills": 2,
-            "strength": 6,
-            "armor-penetration": 2,
-            "damage": 2
-        }
-    ]
+    "wargear": [],
+    "meleeWeapons": []
 }

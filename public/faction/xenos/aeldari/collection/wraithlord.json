@@ -12,15 +12,17 @@
         "wraith construct",
         "wraithlord"
     ],
-    "attributes": [{
-        "movement": 8,
-        "toughness": 11,
-        "save": 2,
-        "wounds": 10,
-        "leadership": 6,
-        "objetiveControl": 3,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -45,9 +47,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -58,10 +60,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -72,7 +74,7 @@
             "range": 18,
             "strength": 4,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -94,7 +96,7 @@
     },
     "wargear": [
         {
-            "description": "Each of this model’s shuriken catapults can be replaced with 1 Aeldari flamer.",
+            "description": "Each of this model\u2019s shuriken catapults can be replaced with 1 Aeldari flamer.",
             "items": []
         },
         {
@@ -114,8 +116,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Aeldari missile launcher – starshot",
-            "modifiers": [ ],
+            "name": "Aeldari missile launcher \u2013 starshot",
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 4,
             "strength": 10,
@@ -123,17 +125,8 @@
             "damage": "D6"
         },
         {
-            "name": "Aeldari flamer",
-            "modifiers": "assault,ignorescover,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Bright lance",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 4,
             "strength": 12,
@@ -142,7 +135,7 @@
         },
         {
             "name": "Scatter laser",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 4,
             "strength": 5,
@@ -150,26 +143,8 @@
             "damage": 1
         },
         {
-            "name": "Shuriken cannon",
-            "modifiers": "sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
-            "name": "Shuriken catapult",
-            "modifiers": "assault",
-            "attacks": 2,
-            "weapons-skills": 4,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Ghostglaive – strike",
-            "modifiers": [ ],
+            "name": "Ghostglaive \u2013 strike",
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 4,
             "strength": 10,
@@ -178,7 +153,7 @@
         },
         {
             "name": "Wraithbone fists",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 4,
             "strength": 7,

@@ -11,15 +11,17 @@
         "wraith construct",
         "wraithguard"
     ],
-    "attributes": [{
-        "movement": 6,
-        "toughness": 7,
-        "save": 2,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 7,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,10 +31,10 @@
             ],
             "range": 18,
             "strength": 14,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         }
     ],
@@ -56,17 +58,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Wraithcannon",
-            "modifiers": ["devastating wounds"],
-            "attacks": 1,
-            "weapons-skills": 4,
-            "strength": 14,
-            "armor-penetration": 4,
-            "damage": "D6"
-        },
-        {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 5,

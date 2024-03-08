@@ -5,22 +5,24 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "There are few Aeldari more skilled in the arts of stealth and marksmanship than Illic Nightspear, whose kill-tally numbers in the hundreds of thousands. Illic’s weapon of choice is the long rifle Void Bringer; each shot from this weapon opens a tiny warp hole within the target, ripping their body apart or wrenching them into the void.",
+    "lore": "There are few Aeldari more skilled in the arts of stealth and marksmanship than Illic Nightspear, whose kill-tally numbers in the hundreds of thousands. Illic\u2019s weapon of choice is the long rifle Void Bringer; each shot from this weapon opens a tiny warp hole within the target, ripping their body apart or wrenching them into the void.",
     "keywords": [
         "infantry",
         "character",
         "epic hero",
         "illic nightspear"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 5,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -31,8 +33,8 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 1,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -69,26 +71,15 @@
             },
             {
                 "name": "Hunter Unseen:",
-                "description": "This model’s unit can only be selected as the target of a ranged attack if the attacking model is within 12\"."
+                "description": "This model\u2019s unit can only be selected as the target of a ranged attack if the attacking model is within 12\"."
             }
         ]
     },
-    "wargear": [
-     
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Shuriken pistol",
-            "modifiers": "assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
             "name": "Aeldari power sword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 4,

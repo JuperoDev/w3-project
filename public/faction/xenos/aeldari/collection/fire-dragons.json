@@ -5,21 +5,23 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Fire Dragons are aggressive and warlike, seeking nothing less than the total annihilation of the enemy’s redoubts and war machines. They can identify the weak points of a target with a mere glance, then swiftly reduce them to molten liquid with their fusion guns.",
+    "lore": "Fire Dragons are aggressive and warlike, seeking nothing less than the total annihilation of the enemy\u2019s redoubts and war machines. They can identify the weak points of a target with a mere glance, then swiftly reduce them to molten liquid with their fusion guns.",
     "keywords": [
         "infantry",
         "grenades",
         "fire dragons"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -30,22 +32,22 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         },
         {
-            "name": "Dragon’s breath flamer",
+            "name": "Dragon\u2019s breath flamer",
             "modifiers": [
                 "ignores cover",
                 "torrent"
             ],
             "range": 12,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -78,35 +80,17 @@
     },
     "wargear": [
         {
-            "description": "The Fire Dragon Exarch’s Dragon fusion gun can be replaced with 1 of the following",
+            "description": "The Fire Dragon Exarch\u2019s Dragon fusion gun can be replaced with 1 of the following",
             "items": [
-                "1 Dragon’s breath flamer",
+                "1 Dragon\u2019s breath flamer",
                 "1 firepike"
             ]
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Dragon fusion gun",
-            "modifiers": "assault,melta3",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 9,
-            "armor-penetration": 4,
-            "damage": "D6"
-        },
-        {
-            "name": "Dragon’s breath flamer",
-            "modifiers": "ignorescover,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 3,

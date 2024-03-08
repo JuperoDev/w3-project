@@ -13,15 +13,17 @@
         "guardians",
         "storm guardians"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 4,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -33,9 +35,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -47,10 +49,10 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -76,7 +78,7 @@
         "otherAbilities": [
             {
                 "name": "Serpent Shield:",
-                "description": "Models in the bearer’s unit have a 5+ invulnerable save ."
+                "description": "Models in the bearer\u2019s unit have a 5+ invulnerable save ."
             }
         ]
     },
@@ -96,26 +98,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Aeldari flamer",
-            "modifiers": "assault,ignorescover,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Guardian fusion gun",
-            "modifiers": "assault,melta2",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 4,
-            "damage": "D6"
-        },
-        {
             "name": "Aeldari power sword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 4,
@@ -124,7 +108,7 @@
         },
         {
             "name": "Guardian combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 3,

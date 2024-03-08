@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The Voidweaver’s potent combination of versatile weapons, lightweight psychoplastic armour, hyper-velocity and polychromatic camouflage make them exceptionally dangerous attack craft. Deadly on the ambush, groups of Voidweavers can rip apart enemy battle tanks or slaughter whole squads of infantry.",
+    "lore": "The Voidweaver\u2019s potent combination of versatile weapons, lightweight psychoplastic armour, hyper-velocity and polychromatic camouflage make them exceptionally dangerous attack craft. Deadly on the ambush, groups of Voidweavers can rip apart enemy battle tanks or slaughter whole squads of infantry.",
     "keywords": [
         "vehicle",
         "fly",
@@ -13,15 +13,17 @@
         "harlequins",
         "voidweaver"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 6,
-        "save": 4,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -44,10 +46,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -81,13 +83,13 @@
     },
     "wargear": [
         {
-            "description": "This model’s Voidweaver haywire cannon can be replaced with 1 prismatic cannon.",
+            "description": "This model\u2019s Voidweaver haywire cannon can be replaced with 1 prismatic cannon.",
             "items": []
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Prismatic cannon – dispersed pulse",
+            "name": "Prismatic cannon \u2013 dispersed pulse",
             "modifiers": "blast",
             "attacks": "2D6",
             "weapons-skills": 3,
@@ -96,17 +98,8 @@
             "damage": 1
         },
         {
-            "name": "Shuriken cannon",
-            "modifiers": "sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 3,

@@ -12,15 +12,17 @@
         "warlocks",
         "warlock conclave"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 6,
-        "wounds": 2,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -31,8 +33,8 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -45,7 +47,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -61,8 +63,8 @@
             "strength": 9,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 0,
+            "damage": 3,
             "singleChoice": false
         }
     ],
@@ -85,33 +87,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Destructor",
-            "modifiers": "psychic,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Shuriken pistol",
-            "modifiers": "assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Singing spear",
-            "modifiers": "psychic",
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 3
-        },
         {
             "name": "Witchblade",
             "modifiers": "anti-infantry2+,psychic",

@@ -11,15 +11,17 @@
         "grenades",
         "dire avengers"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 4,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -30,7 +32,7 @@
             ],
             "range": 18,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -65,18 +67,18 @@
     },
     "wargear": [
         {
-            "description": "If this unit’s Dire Avenger Exarch is equipped with 1 Avenger shuriken catapult, it can be equipped with 1 additional Avenger shuriken catapult.",
+            "description": "If this unit\u2019s Dire Avenger Exarch is equipped with 1 Avenger shuriken catapult, it can be equipped with 1 additional Avenger shuriken catapult.",
             "items": []
         },
         {
-            "description": "The Dire Avenger Exarch’s Avenger shuriken catapult can be replaced with 1 shuriken pistol and one of the following",
+            "description": "The Dire Avenger Exarch\u2019s Avenger shuriken catapult can be replaced with 1 shuriken pistol and one of the following",
             "items": [
                 "1 diresword",
                 "1 power glaive"
             ]
         },
         {
-            "description": "The Dire Avenger Exarch’s shuriken pistol can be replaced with",
+            "description": "The Dire Avenger Exarch\u2019s shuriken pistol can be replaced with",
             "items": [
                 "1 shimmershield"
             ]
@@ -84,17 +86,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Avenger shuriken catapult",
-            "modifiers": "assault,lethalhits",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 3,
@@ -103,7 +96,9 @@
         },
         {
             "name": "Diresword",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 4,
@@ -112,7 +107,7 @@
         },
         {
             "name": "Power glaive",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,

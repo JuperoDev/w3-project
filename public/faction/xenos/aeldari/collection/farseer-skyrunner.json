@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Farseers are expert combatants as well as battle seers. Their semi-sentient witchblades and singing spears are embedded with crystals that transmit the destructive potential of their bearer’s psyche. In battle, they flow around weapon blasts and blade thrusts with a natural grace that makes their foes seem predictable and slow.",
+    "lore": "Farseers are expert combatants as well as battle seers. Their semi-sentient witchblades and singing spears are embedded with crystals that transmit the destructive potential of their bearer\u2019s psyche. In battle, they flow around weapon blasts and blade thrusts with a natural grace that makes their foes seem predictable and slow.",
     "keywords": [
         "mounted",
         "character",
@@ -14,15 +14,17 @@
         "farseer",
         "farseer skyrunner"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 5,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -33,10 +35,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": "D6",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 2,
+            "damage": "D3",
             "singleChoice": false
         },
         {
@@ -47,7 +49,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -62,9 +64,9 @@
             "range": 12,
             "strength": 9,
             "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -102,47 +104,11 @@
     },
     "wargear": [
         {
-            "description": "This model’s witchblade can be replaced with 1 singing spear.",
+            "description": "This model\u2019s witchblade can be replaced with 1 singing spear.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Eldritch Storm",
-            "modifiers": "blast,psychic",
-            "attacks": "D6",
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 2,
-            "damage": "D3"
-        },
-        {
-            "name": "Shuriken pistol",
-            "modifiers": "assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Singing spear",
-            "modifiers": "assault,psychic",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 9,
-            "armor-penetration": 0,
-            "damage": 3
-        },
-        {
-            "name": "Singing spear",
-            "modifiers": "psychic",
-            "attacks": 2,
-            "weapons-skills": 2,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 3
-        },
         {
             "name": "Witchblade",
             "modifiers": "anti-infantry2+,psychic",

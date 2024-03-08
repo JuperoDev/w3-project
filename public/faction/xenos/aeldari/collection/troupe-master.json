@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Choreographers of conflict, Troupe Masters direct their comrades’ reactions to the fates of battle and ensure their performance in the theatre of war is as perfect as it can be. They are blisteringly swift and deadly warriors, and with the consent of their peers they act as focal points of their Troupes.",
+    "lore": "Choreographers of conflict, Troupe Masters direct their comrades\u2019 reactions to the fates of battle and ensure their performance in the theatre of war is as perfect as it can be. They are blisteringly swift and deadly warriors, and with the consent of their peers they act as focal points of their Troupes.",
     "keywords": [
         "infantry",
         "character",
@@ -13,15 +13,17 @@
         "harlequins",
         "troupe master"
     ],
-    "attributes": [{
-        "movement": 8,
-        "toughness": 3,
-        "save": 6,
-        "wounds": 4,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -33,10 +35,10 @@
             ],
             "range": 6,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "D3",
             "singleChoice": false
         },
         {
@@ -48,9 +50,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -78,7 +80,7 @@
         ],
         "otherAbilities": [
             {
-                "name": "Cegorach’s Favour:",
+                "name": "Cegorach\u2019s Favour:",
                 "description": "Once per turn, when you use a Fate dice to substitute a Hit roll , a Wound roll or a saving throw made for this model, you can first change the result of that Fate dice to a 6."
             },
             {
@@ -89,11 +91,11 @@
     },
     "wargear": [
         {
-            "description": "This model’s Troupe Master’s blade can be replaced with 1 Harlequin’s special weapon.",
+            "description": "This model\u2019s Troupe Master\u2019s blade can be replaced with 1 Harlequin\u2019s special weapon.",
             "items": []
         },
         {
-            "description": "This model’s shuriken pistol can be replaced with one of the following",
+            "description": "This model\u2019s shuriken pistol can be replaced with one of the following",
             "items": [
                 "1 fusion pistol",
                 "1 neuro disruptor"
@@ -102,26 +104,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Fusion pistol",
-            "modifiers": "assault,melta2,pistol",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 8,
-            "armor-penetration": 4,
-            "damage": "D3"
-        },
-        {
-            "name": "Neuro disruptor",
-            "modifiers": "anti-infantry2+,assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Harlequin’s special weapon",
-            "modifiers": [ ],
+            "name": "Harlequin\u2019s special weapon",
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 4,
@@ -129,8 +113,8 @@
             "damage": 1
         },
         {
-            "name": "Troupe Master’s blade",
-            "modifiers": [ ],
+            "name": "Troupe Master\u2019s blade",
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 4,

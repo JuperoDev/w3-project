@@ -13,15 +13,17 @@
         "harlequins",
         "skyweavers"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 4,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -31,10 +33,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -76,17 +78,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Shuriken cannon",
-            "modifiers": "sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
             "name": "Star bolas",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": "D3",
             "weapons-skills": 3,
             "strength": 7,
@@ -95,7 +88,7 @@
         },
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 3,
@@ -104,7 +97,7 @@
         },
         {
             "name": "Zephyrglaive",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,

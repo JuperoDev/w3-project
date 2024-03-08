@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Karandras is a master of stealth and patience, striking in a blur of emerald armour. He assails his enemies with a white-hot burst from the mandiblaster Scorpion’s Bite before ripping them to shreds with his diamond-tipped chainblade Isirmathil, or crushing them in the grip of Arhra’s Bane – his bespoke Scorpion’s claw.",
+    "lore": "Karandras is a master of stealth and patience, striking in a blur of emerald armour. He assails his enemies with a white-hot burst from the mandiblaster Scorpion\u2019s Bite before ripping them to shreds with his diamond-tipped chainblade Isirmathil, or crushing them in the grip of Arhra\u2019s Bane \u2013 his bespoke Scorpion\u2019s claw.",
     "keywords": [
         "infantry",
         "character",
@@ -13,29 +13,31 @@
         "phoenix lord",
         "karandras"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 2,
-        "wounds": 5,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Arhra’s Bane",
+            "name": "Arhra\u2019s Bane",
             "modifiers": [
                 "assault",
                 "pistol"
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 5,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -58,19 +60,8 @@
             }
         ]
     },
-    "wargear": [
-     
-    ],
+    "wargear": [],
     "meleeWeapons": [
-        {
-            "name": "Arhra’s Bane",
-            "modifiers": "sustainedhits1",
-            "attacks": 5,
-            "weapons-skills": 2,
-            "strength": 8,
-            "armor-penetration": 3,
-            "damage": 2
-        },
         {
             "name": "Isirmathil",
             "modifiers": "sustainedhits1",

@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "With wargear such as a winged pack or warp jump generator, an Autarch becomes an incredibly manoeuvrable war leader. So equipped, they can appear wherever their war host needs them in the blink of an eye, bringing graceful weaponry and consummate strategy to bear before vanishing out of the foe’s reach.",
+    "lore": "With wargear such as a winged pack or warp jump generator, an Autarch becomes an incredibly manoeuvrable war leader. So equipped, they can appear wherever their war host needs them in the blink of an eye, bringing graceful weaponry and consummate strategy to bear before vanishing out of the foe\u2019s reach.",
     "keywords": [
         "infantry",
         "character",
@@ -14,15 +14,17 @@
         "grenades",
         "autarch wayleaper"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 4,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -33,9 +35,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -47,10 +49,10 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -62,10 +64,10 @@
             ],
             "range": 6,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "D3",
             "singleChoice": false
         },
         {
@@ -130,7 +132,7 @@
     },
     "wargear": [
         {
-            "description": "This model’s shuriken pistol can be replaced with one of the following",
+            "description": "This model\u2019s shuriken pistol can be replaced with one of the following",
             "items": [
                 "1 death spinner",
                 "1 Dragon fusion gun",
@@ -139,7 +141,7 @@
             ]
         },
         {
-            "description": "This model’s star glaive can be replaced with one of the following",
+            "description": "This model\u2019s star glaive can be replaced with one of the following",
             "items": [
                 "1 Banshee blade",
                 "1 Scorpion chainsword"
@@ -155,34 +157,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Death spinner",
-            "modifiers": "devastatingwounds,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Dragon fusion gun",
-            "modifiers": "assault,melta3",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 9,
-            "armor-penetration": 4,
-            "damage": "D6"
-        },
-        {
-            "name": "Fusion pistol",
-            "modifiers": "assault,melta2,pistol",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 8,
-            "armor-penetration": 4,
-            "damage": "D3"
-        },
-        {
-            "name": "Reaper launcher – starshot",
+            "name": "Reaper launcher \u2013 starshot",
             "modifiers": "heavy",
             "attacks": 1,
             "weapons-skills": 3,
@@ -192,7 +167,7 @@
         },
         {
             "name": "Star glaive",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 6,
@@ -201,7 +176,7 @@
         },
         {
             "name": "Banshee blade",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 4,

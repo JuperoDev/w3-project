@@ -11,15 +11,17 @@
         "walker",
         "war walkers"
     ],
-    "attributes": [{
-        "movement": 10,
-        "toughness": 7,
-        "save": 3,
-        "wounds": 6,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 7,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -42,10 +44,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -76,8 +78,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Aeldari missile launcher – starshot",
-            "modifiers": [ ],
+            "name": "Aeldari missile launcher \u2013 starshot",
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 10,
@@ -86,7 +88,7 @@
         },
         {
             "name": "Bright lance",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 12,
@@ -95,7 +97,7 @@
         },
         {
             "name": "Scatter laser",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
             "strength": 5,
@@ -103,17 +105,8 @@
             "damage": 1
         },
         {
-            "name": "Shuriken cannon",
-            "modifiers": "sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
             "name": "War Walker feet",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,

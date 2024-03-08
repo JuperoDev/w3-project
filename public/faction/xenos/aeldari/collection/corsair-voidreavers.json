@@ -13,15 +13,17 @@
         "anhrathe",
         "corsair voidreavers"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 3,
-        "save": 4,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 0
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -32,9 +34,9 @@
             ],
             "range": 18,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -47,9 +49,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -60,10 +62,10 @@
             ],
             "range": 18,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "D6+1",
             "singleChoice": false
         },
         {
@@ -73,10 +75,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -87,7 +89,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -101,7 +103,7 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -139,14 +141,14 @@
             "items": []
         },
         {
-            "description": "For every 5 models in this unit, 1 Corsair Voidreaver’s Aeldari power sword or shuriken rifle can be replaced with one of the following",
+            "description": "For every 5 models in this unit, 1 Corsair Voidreaver\u2019s Aeldari power sword or shuriken rifle can be replaced with one of the following",
             "items": [
                 "1 Corsair blaster",
                 "1 Corsair shredder"
             ]
         },
         {
-            "description": "If this unit contains 10 models, 1 Corsair Voidreaver’s shuriken rifle can be replaced with one of the following",
+            "description": "If this unit contains 10 models, 1 Corsair Voidreaver\u2019s shuriken rifle can be replaced with one of the following",
             "items": [
                 "1 shuriken cannon",
                 "1 wraithcannon"
@@ -159,7 +161,7 @@
             ]
         },
         {
-            "description": "The Voidreaver Felarch’s shuriken pistol can be replaced with one of the following",
+            "description": "The Voidreaver Felarch\u2019s shuriken pistol can be replaced with one of the following",
             "items": [
                 "1 neuro disruptor",
                 "1 shuriken rifle"
@@ -168,62 +170,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Corsair shredder",
-            "modifiers": "assault,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 6,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Neuro disruptor",
-            "modifiers": "anti-infantry2+,assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Corsair blaster",
-            "modifiers": "assault",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 4,
-            "damage": "D6+1"
-        },
-        {
-            "name": "Shuriken cannon",
-            "modifiers": "sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
-            "name": "Shuriken pistol",
-            "modifiers": "assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Shuriken rifle",
-            "modifiers": "assault,rapidfire1",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 3,
@@ -232,7 +180,7 @@
         },
         {
             "name": "Aeldari power sword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 4,

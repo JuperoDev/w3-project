@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "One of the most powerful Aeldari psykers ever to have lived, when Eldrad Ulthran takes to the field his enemies’ plans are already known to him. Such is Eldrad’s psychic might that he can break Titans and banish the mightiest of daemons, and over the millennia he has slain kings and champions beyond number.",
+    "lore": "One of the most powerful Aeldari psykers ever to have lived, when Eldrad Ulthran takes to the field his enemies\u2019 plans are already known to him. Such is Eldrad\u2019s psychic might that he can break Titans and banish the mightiest of daemons, and over the millennia he has slain kings and champions beyond number.",
     "keywords": [
         "infantry",
         "character",
@@ -14,15 +14,17 @@
         "farseer",
         "eldrad ulthran"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 4,
-        "save": 6,
-        "wounds": 5,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -33,8 +35,8 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 1,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -73,19 +75,8 @@
             }
         ]
     },
-    "wargear": [
-     
-    ],
+    "wargear": [],
     "meleeWeapons": [
-        {
-            "name": "Shuriken pistol",
-            "modifiers": "assault,pistol",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
         {
             "name": "The Staff of Ulthamar and witchblade",
             "modifiers": "anti-infantry2+,psychic",

@@ -10,29 +10,31 @@
         "infantry",
         "striking scorpions"
     ],
-    "attributes":[ {
-        "movement": 7,
-        "toughness": 3,
-        "save": 3,
-        "wounds": 1,
-        "leadership": 6,
-        "objetiveControl": 1,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Scorpion’s claw",
+            "name": "Scorpion\u2019s claw",
             "modifiers": [
                 "assault",
                 "pistol"
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -66,24 +68,15 @@
     },
     "wargear": [
         {
-            "description": "The Striking Scorpion Exarch’s shuriken pistol and Scorpion chainsword can be replaced with 1 biting blade.",
+            "description": "The Striking Scorpion Exarch\u2019s shuriken pistol and Scorpion chainsword can be replaced with 1 biting blade.",
             "items": []
         },
         {
-            "description": "The Striking Scorpion Exarch’s shuriken pistol can be replaced with 1 Scorpion’s claw.",
+            "description": "The Striking Scorpion Exarch\u2019s shuriken pistol can be replaced with 1 Scorpion\u2019s claw.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Scorpion’s claw",
-            "modifiers": "assault,pistol",
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
         {
             "name": "Biting blade",
             "modifiers": "sustainedhits1",
@@ -101,15 +94,6 @@
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
-        },
-        {
-            "name": "Scorpion’s claw",
-            "modifiers": "sustainedhits1",
-            "attacks": 4,
-            "weapons-skills": 4,
-            "strength": 8,
-            "armor-penetration": 2,
-            "damage": 2
         }
     ]
 }

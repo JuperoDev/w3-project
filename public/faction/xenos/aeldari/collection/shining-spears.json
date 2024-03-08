@@ -11,15 +11,17 @@
         "fly",
         "shining spears"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 4,
-        "save": 3,
-        "wounds": 2,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,10 +31,10 @@
             ],
             "range": 6,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 2,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -42,10 +44,10 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -55,10 +57,10 @@
             ],
             "range": 6,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 4,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -94,70 +96,25 @@
             "items": []
         },
         {
-            "description": "The Shining Spear Exarch’s laser lance can be replaced with one of the following",
+            "description": "The Shining Spear Exarch\u2019s laser lance can be replaced with one of the following",
             "items": [
                 "1 paragon sabre",
                 "1 star lance"
             ]
         },
         {
-            "description": "The Shining Spear Exarch’s twin shuriken catapult can be replaced with 1 shuriken cannon.",
+            "description": "The Shining Spear Exarch\u2019s twin shuriken catapult can be replaced with 1 shuriken cannon.",
             "items": []
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Laser lance",
-            "modifiers": "assault",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 2,
-            "damage": 2
-        },
-        {
-            "name": "Shuriken cannon",
-            "modifiers": "sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
-            "name": "Star lance",
-            "modifiers": "assault",
-            "attacks": 1,
-            "weapons-skills": 2,
-            "strength": 9,
-            "armor-penetration": 3,
-            "damage": 2
-        },
-        {
-            "name": "Laser lance",
-            "modifiers": "lance",
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 2,
-            "damage": 2
-        },
-        {
             "name": "Paragon sabre",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 2,
-            "damage": 2
-        },
-        {
-            "name": "Star lance",
-            "modifiers": "lance",
-            "attacks": 4,
-            "weapons-skills": 2,
-            "strength": 4,
-            "armor-penetration": 3,
             "damage": 2
         }
     ]

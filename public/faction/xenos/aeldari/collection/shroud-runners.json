@@ -5,21 +5,23 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Streaking into battle as barely perceived blurs, Shroud Runners effortlessly outmanoeuvre their enemies while harassing them with pinpoint sniper fire. Each jetbike acts as the mount for a pair of skilled Aeldari Rangers, the pillion rider often entering a marksman’s trance so as to aim and fire while travelling at incredible speeds.",
+    "lore": "Streaking into battle as barely perceived blurs, Shroud Runners effortlessly outmanoeuvre their enemies while harassing them with pinpoint sniper fire. Each jetbike acts as the mount for a pair of skilled Aeldari Rangers, the pillion rider often entering a marksman\u2019s trance so as to aim and fire while travelling at incredible speeds.",
     "keywords": [
         "mounted",
         "fly",
         "shroud runners"
     ],
-    "attributes": [{
-        "movement": 14,
-        "toughness": 4,
-        "save": 4,
-        "wounds": 3,
-        "leadership": 6,
-        "objetiveControl": 2,
-        "invulnerableSave": 5
-    }],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -29,10 +31,10 @@
             ],
             "range": 36,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -65,22 +67,11 @@
             }
         ]
     },
-    "wargear": [
-     
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Ranger long rifle",
-            "modifiers": "precision",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
             "name": "Scatter laser",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
             "strength": 5,
@@ -89,7 +80,7 @@
         },
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 3,

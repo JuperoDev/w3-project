@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The Voidweaver\u2019s potent combination of versatile weapons, lightweight psychoplastic armour, hyper-velocity and polychromatic camouflage make them exceptionally dangerous attack craft. Deadly on the ambush, groups of Voidweavers can rip apart enemy battle tanks or slaughter whole squads of infantry.",
+    "lore": "The Voidweaver's potent combination of versatile weapons, lightweight psychoplastic armour, hyper-velocity and polychromatic camouflage make them exceptionally dangerous attack craft. Deadly on the ambush, groups of Voidweavers can rip apart enemy battle tanks or slaughter whole squads of infantry.",
     "keywords": [
         "vehicle",
         "fly",
@@ -33,9 +33,9 @@
             ],
             "range": 36,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "2D6",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -83,20 +83,11 @@
     },
     "wargear": [
         {
-            "description": "This model\u2019s Voidweaver haywire cannon can be replaced with 1 prismatic cannon.",
+            "description": "This model's Voidweaver haywire cannon can be replaced with 1 prismatic cannon.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Prismatic cannon \u2013 dispersed pulse",
-            "modifiers": "blast",
-            "attacks": "2D6",
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "Close combat weapon",
             "modifiers": [],

@@ -79,7 +79,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Reaper launcher - starshot",
@@ -88,11 +88,11 @@
             ],
             "range": 48,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Shuriken pistol",
@@ -102,8 +102,8 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 1,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -119,7 +119,7 @@
         "otherAbilities": [
             {
                 "name": "Superlative Strategist:",
-                "description": "Once per turn, you can target this model\u2019s unit with a Stratagem even if you have already used that Stratagem on a different unit this phase."
+                "description": "Once per turn, you can target this model's unit with a Stratagem even if you have already used that Stratagem on a different unit this phase."
             },
             {
                 "name": "Path of Command:",
@@ -129,7 +129,7 @@
     },
     "wargear": [
         {
-            "description": "This model\u2019s shuriken pistol can be replaced with one of the following",
+            "description": "This model's shuriken pistol can be replaced with one of the following",
             "items": [
                 "1 death spinner",
                 "1 Dragon fusion gun",
@@ -138,7 +138,7 @@
             ]
         },
         {
-            "description": "This model\u2019s star glaive can be replaced with one of the following",
+            "description": "This model's star glaive can be replaced with one of the following",
             "items": [
                 "1 Banshee blade",
                 "1 Scorpion chainsword"
@@ -154,15 +154,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Reaper launcher \u2013 starswarm",
-            "modifiers": "heavy",
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
             "name": "Banshee blade",
             "modifiers": [],
             "attacks": 5,
@@ -173,7 +164,7 @@
         },
         {
             "name": "Scorpion chainsword",
-            "modifiers": "sustainedhits1",
+            "modifiers": ["sustained hits 1"],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,

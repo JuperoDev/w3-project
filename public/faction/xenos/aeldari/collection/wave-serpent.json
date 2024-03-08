@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The main troop carriers in a craftworld\u2019s arsenal, Wave Serpents transport warriors to any part of the battlefield at immense speeds. These troops are protected by a powerful energy field \u2013 which can also be projected forward as a weapon in extremis \u2013 and receive covering fire from the vehicle\u2019s powerful array of heavy weapons.",
+    "lore": "The main troop carriers in a craftworld's arsenal, Wave Serpents transport warriors to any part of the battlefield at immense speeds. These troops are protected by a powerful energy field - which can also be projected forward as a weapon in extremis - and receive covering fire from the vehicle's powerful array of heavy weapons.",
     "keywords": [
         "vehicle",
         "transport",
@@ -46,10 +46,10 @@
             ],
             "range": 48,
             "strength": 10,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 2,
+            "damage": "D6",
             "singleChoice": false
         },
         {
@@ -150,7 +150,7 @@
     },
     "wargear": [
         {
-            "description": "This model\u2019s twin shuriken cannon can be replaced with one of the following",
+            "description": "This model's twin shuriken cannon can be replaced with one of the following",
             "items": [
                 "1 twin Aeldari missile launcher",
                 "1 twin bright lance",
@@ -159,22 +159,11 @@
             ]
         },
         {
-            "description": "This model\u2019s twin shuriken catapult can be replaced with 1 shuriken cannon.",
+            "description": "This model's twin shuriken catapult can be replaced with 1 shuriken cannon.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Twin Aeldari missile launcher \u2013 starshot",
-            "modifiers": [
-                "twin-linked"
-            ],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 10,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
         {
             "name": "Wraithbone hull",
             "modifiers": [],

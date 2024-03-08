@@ -8,7 +8,7 @@
         "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
     "supremeCommander": false,
-    "lore": "The prism cannon of this vehicle is the bane of heavy battle tanks. In its firing process, a laser is discharged into a massive crystal prism that amplifies the shot\u2019s potency. The energy is released in one of two ways \u2013 either as thin lances of light to destroy the toughest vehicles, or as a dispersed pulse to slaughter swathes of infantry.",
+    "lore": "The prism cannon of this vehicle is the bane of heavy battle tanks. In its firing process, a laser is discharged into a massive crystal prism that amplifies the shot's potency. The energy is released in one of two ways - either as thin lances of light to destroy the toughest vehicles, or as a dispersed pulse to slaughter swathes of infantry.",
     "keywords": [
         "vehicle",
         "fly",
@@ -34,10 +34,10 @@
             ],
             "range": 60,
             "strength": 6,
-            "attacks": 2,
+            "attacks": "2D6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -95,20 +95,11 @@
     },
     "wargear": [
         {
-            "description": "This model\u2019s twin shuriken catapult can be replaced with 1 shuriken cannon.",
+            "description": "This model's twin shuriken catapult can be replaced with 1 shuriken cannon.",
             "items": []
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Prism cannon \u2013 dispersed pulse",
-            "modifiers": "blast",
-            "attacks": "2D6",
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
         {
             "name": "Wraithbone hull",
             "modifiers": [],

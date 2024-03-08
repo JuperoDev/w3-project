@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "With wargear such as a winged pack or warp jump generator, an Autarch becomes an incredibly manoeuvrable war leader. So equipped, they can appear wherever their war host needs them in the blink of an eye, bringing graceful weaponry and consummate strategy to bear before vanishing out of the foe\u2019s reach.",
+    "lore": "With wargear such as a winged pack or warp jump generator, an Autarch becomes an incredibly manoeuvrable war leader. So equipped, they can appear wherever their war host needs them in the blink of an eye, bringing graceful weaponry and consummate strategy to bear before vanishing out of the foe's reach.",
     "keywords": [
         "infantry",
         "character",
@@ -77,10 +77,10 @@
             ],
             "range": 48,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 2,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -91,10 +91,10 @@
             "range": 48,
             "strength": 5,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Shuriken pistol",
@@ -132,7 +132,7 @@
     },
     "wargear": [
         {
-            "description": "This model\u2019s shuriken pistol can be replaced with one of the following",
+            "description": "This model's shuriken pistol can be replaced with one of the following",
             "items": [
                 "1 death spinner",
                 "1 Dragon fusion gun",
@@ -141,7 +141,7 @@
             ]
         },
         {
-            "description": "This model\u2019s star glaive can be replaced with one of the following",
+            "description": "This model's star glaive can be replaced with one of the following",
             "items": [
                 "1 Banshee blade",
                 "1 Scorpion chainsword"
@@ -156,15 +156,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Reaper launcher \u2013 starshot",
-            "modifiers": "heavy",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 2,
-            "damage": 2
-        },
         {
             "name": "Star glaive",
             "modifiers": [],
@@ -185,7 +176,7 @@
         },
         {
             "name": "Scorpion chainsword",
-            "modifiers": "sustainedhits1",
+            "modifiers": ["sustained hits 1"],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,

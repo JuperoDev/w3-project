@@ -25,17 +25,48 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Aeldari missile launcher - starshot",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": "D6",
+            "singleChoice": true,
+            "ballistic-skills": 3
+        },
+        {
             "name": "Aeldari missile launcher - sunburst",
             "modifiers": [
                 "blast"
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Bright lance",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+2",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Scatter laser",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 6,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
         },
         {
             "name": "Shuriken cannon",
@@ -47,6 +78,17 @@
             "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Starcannon",
+            "modifiers": [],
+            "range": 36,
+            "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
             "damage": 2,
             "singleChoice": false
         }
@@ -77,33 +119,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Aeldari missile launcher - starshot",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 10,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
-        {
-            "name": "Bright lance",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 12,
-            "armor-penetration": 3,
-            "damage": "D6+2"
-        },
-        {
-            "name": "Scatter laser",
-            "modifiers": [],
-            "attacks": 6,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "War Walker feet",
             "modifiers": [],

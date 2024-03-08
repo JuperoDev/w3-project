@@ -14,10 +14,21 @@
     ],
     "attributes": [
         {
+            "name": "warp spider",
             "movement": 12,
             "toughness": 3,
             "save": 3,
             "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        },
+        {
+            "name": "warp spider exarch",
+            "movement": 12,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 2,
             "leadership": 6,
             "objetiveControl": 1,
             "invulnerableSave": 5
@@ -33,9 +44,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }

@@ -36,17 +36,28 @@
             "armor-penetration": 4,
             "damage": "D6",
             "singleChoice": false
+        },
+        {
+            "name": "D-scythe",
+            "modifiers": [],
+            "range": 12,
+            "strength": 10,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": 1,
+            "singleChoice": false
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Strands of Fate"
+        "core": [],
+        "faction": [
+            "Strands of Fate"
         ],
-        "faction": [],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "wraithcannon; close combat weapon."
+                "name": "War Construct",
+                "description": "Once per battle round, when an enemy unit targets this unit, after that unit has finished making its attacks, this unit can shoot as if it were your Shooting phase. When doing so, it must target only that enemy unit, and can only do so if that enemy unit is an eligible target."
             }
         ]
     },

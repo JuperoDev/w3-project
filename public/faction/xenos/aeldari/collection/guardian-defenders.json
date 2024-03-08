@@ -67,10 +67,10 @@
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Strands of Fate"
+        "core": [],
+        "faction": [
+            "Strands of Fate"
         ],
-        "faction": [],
         "otherAbilities": [
             {
                 "name": "Every Guardian Defender is equipped with:",
@@ -96,12 +96,27 @@
     "meleeWeapons": [
         {
             "name": "Aeldari missile launcher - starshot",
+            "range": 48,
             "modifiers": [],
             "attacks": 1,
-            "weapons-skills": 3,
             "strength": 10,
             "armor-penetration": 2,
-            "damage": "D6"
+            "damage": "D6",
+            "singleChoice": true,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Aeldari missile launcher - sunburst",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
         },
         {
             "name": "Bright lance",

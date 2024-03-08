@@ -69,14 +69,18 @@
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Strands of Fate"
+        "core": [],
+        "faction": [
+            "Strands of Fate"
         ],
-        "faction": [],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "Destructor; shuriken pistol; witchblade."
+                "name": "Warlock Conclave",
+                "description": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks."
+            },
+            {
+                "name": "Protect (Psychic)",
+                "description": "While a FARSEER model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
             }
         ]
     },
@@ -89,7 +93,10 @@
     "meleeWeapons": [
         {
             "name": "Witchblade",
-            "modifiers": "anti-infantry2+,psychic",
+            "modifiers": [
+                "anti-infantry 2+",
+                "psychic"
+            ],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 3,

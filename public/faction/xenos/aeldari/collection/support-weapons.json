@@ -75,10 +75,10 @@
             ],
             "range": 48,
             "strength": 8,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -89,8 +89,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "shadow weaver; shuriken catapult; close combat weapon."
+                "name": "Artillery Barrage",
+                "description": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTER and VEHICLE untis) that was hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
             }
         ]
     },

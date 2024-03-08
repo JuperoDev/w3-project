@@ -1,79 +1,79 @@
 {
-  "parentUnit": "Spoilpox Scrivener",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Spiteful and pedantic, these daemons are tasked with auditing the endless disease-tally of the Plaguebearers. The presence of the Scriveners is cruelly motivational to their fellows. Moreover, they can easily bite enemy warriors in half, or drown them in the foul mucus that issues from their distended maws.",
-  "keywords": [
-    "infantry",
-    "character",
-    "chaos",
-    "daemon",
-    "nurgle",
-    "spoilpox scrivener"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 5,
-    "salvation": 7,
-    "wounds": 5,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Disgusting sneezes",
-      "modifiers": [
-        "pistol",
-        "torrent"
-      ],
-      "range": 6,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Spoilpox Scrivener",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Spiteful and pedantic, these daemons are tasked with auditing the endless disease-tally of the Plaguebearers. The presence of the Scriveners is cruelly motivational to their fellows. Moreover, they can easily bite enemy warriors in half, or drown them in the foul mucus that issues from their distended maws.",
+    "keywords": [
+        "infantry",
+        "character",
+        "chaos",
+        "daemon",
+        "nurgle",
+        "spoilpox scrivener"
     ],
-    "otherAbilities": [
-      {
-        "name": "Keep Counting!:",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-      },
-      {
-        "name": "Meet Your Quota!:",
-        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
-      }
+    "attributes": {
+        "movement": 5,
+        "toughness": 5,
+        "salvation": 7,
+        "wounds": 5,
+        "leadership": 6,
+        "objectiveControl": 1,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Disgusting sneezes",
+            "modifiers": [
+                "pistol",
+                "torrent"
+            ],
+            "range": 6,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Keep Counting!:",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Meet Your Quota!:",
+                "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Plaguesword and distended maw",
+            "modifiers": "lethalhits",
+            "attacks": "6",
+            "weapons-skills": "3+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Plaguesword and distended maw",
-      "modifiers": "lethalhits",
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": "1"
-    }
-  ]
 }

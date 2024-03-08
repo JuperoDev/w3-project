@@ -13,8 +13,8 @@
         "terminator",
         "deathwing command squad"
     ],
-    "attributes": 
-        [{
+    "attributes": [
+        {
             "movement": 5,
             "toughness": 5,
             "save": 2,
@@ -62,7 +62,7 @@
             "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 2,
-            "damage":"d6",
+            "damage": "d6",
             "singleChoice": true
         },
         {
@@ -173,10 +173,11 @@
         }
     ],
     "meleeWeapons": [
-       
         {
             "name": "Chainfist",
-            "modifiers": ["anti-vehicle 3+"],
+            "modifiers": [
+                "anti-vehicle 3+"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -185,7 +186,9 @@
         },
         {
             "name": "Halberd of Caliban",
-            "modifiers": ["precision"],
+            "modifiers": [
+                "precision"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 6,
@@ -194,7 +197,7 @@
         },
         {
             "name": "Power fist",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 8,
@@ -203,7 +206,7 @@
         },
         {
             "name": "Power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
@@ -212,7 +215,9 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -221,7 +226,9 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,

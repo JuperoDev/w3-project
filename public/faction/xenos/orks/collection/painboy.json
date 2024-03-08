@@ -37,7 +37,7 @@
                 "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
             },
             {
-                "name": "Hold Still and Say \u2018Aargh!':",
+                "name": "Hold Still and Say ‘Aargh!':",
                 "description": "Each time an attack made by this model with its 'urty syringe scores a Critical Wound against a unit (excluding VEHICLE units), that unit suffers D6 mortal wounds ."
             }
         ]
@@ -60,7 +60,11 @@
         },
         {
             "name": "'Urty syringe",
-            "modifiers": ["anti-infantry 4+","extra attacks","precision"],
+            "modifiers": [
+                "anti-infantry 4+",
+                "extra attacks",
+                "precision"
+            ],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 2,
@@ -91,5 +95,6 @@
         {
             "wargear": "Grot Orderly",
             "ability": "Once per battle, in your Command phase, if the bearer is leading a unit that is below its Starting Strength, you can return up to D3 destroyed Bodyguard models to that unit."
-        }]
+        }
+    ]
 }

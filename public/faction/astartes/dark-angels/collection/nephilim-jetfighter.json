@@ -17,8 +17,8 @@
         "imperium",
         "nephilim jetfighter"
     ],
-    "attributes": 
-        [{
+    "attributes": [
+        {
             "movement": "20",
             "toughness": 8,
             "save": 3,
@@ -58,13 +58,13 @@
         },
         {
             "name": "Nephilim lascannons",
-            "range":"48",
-            "modifiers": [ ],
+            "range": "48",
+            "modifiers": [],
             "attacks": 2,
-            "weapons-skills": 3,
             "strength": 12,
             "armor-penetration": 3,
-            "damage": "D6+1"
+            "damage": "D6+1",
+            "ballistic-skills": 3
         },
         {
             "name": "Twin heavy bolter",
@@ -103,10 +103,9 @@
         }
     ],
     "meleeWeapons": [
-       
         {
             "name": "Armoured hull",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 6,

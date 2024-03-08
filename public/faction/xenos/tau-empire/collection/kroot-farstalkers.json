@@ -14,7 +14,7 @@
     ],
     "attributes": [
         {
-            "name":"farstalkers & kill-broker",
+            "name": "farstalkers & kill-broker",
             "movement": 7,
             "toughness": 3,
             "save": 6,
@@ -24,7 +24,7 @@
             "invulnerableSave": 0
         },
         {
-            "name":"kroot hounrds",
+            "name": "kroot hounrds",
             "movement": 12,
             "toughness": 3,
             "save": 6,
@@ -150,10 +150,8 @@
             "description": "1 Kroot Farstalker equipped with a Farstalker firearm can be equipped with 1 Pech’ra.",
             "items": []
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Close combat weapon",
             "attacks": 2,
@@ -161,9 +159,7 @@
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
+            "modifiers": []
         },
         {
             "name": "Ripping fangs",
@@ -172,20 +168,18 @@
             "strength": 3,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        },{
+            "modifiers": []
+        },
+        {
             "name": "Ritual blade",
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -211,4 +205,5 @@
             "wargear": "Pech’ra",
             "ability": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
         }
-    ]}
+    ]
+}

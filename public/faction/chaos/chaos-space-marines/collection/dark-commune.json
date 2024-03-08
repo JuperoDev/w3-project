@@ -86,13 +86,11 @@
             }
         ]
     },
-    "wargear": [
-     
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 4,
             "strength": 3,
@@ -101,7 +99,7 @@
         },
         {
             "name": "Commune blade",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 4,
@@ -110,7 +108,9 @@
         },
         {
             "name": "Commune stave",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 3,

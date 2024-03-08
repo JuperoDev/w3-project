@@ -124,7 +124,7 @@
     "meleeWeapons": [
         {
             "name": "Accursed weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
@@ -133,7 +133,9 @@
         },
         {
             "name": "Chainfist",
-            "modifiers": ["anti-vehicle 3+"],
+            "modifiers": [
+                "anti-vehicle 3+"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -142,7 +144,9 @@
         },
         {
             "name": "Paired accursed weapons",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,
@@ -151,7 +155,7 @@
         },
         {
             "name": "Power fist",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 8,

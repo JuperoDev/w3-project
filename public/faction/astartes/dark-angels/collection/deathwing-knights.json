@@ -13,8 +13,8 @@
         "terminator",
         "deathwing knights"
     ],
-    "attributes": 
-        [{
+    "attributes": [
+        {
             "movement": 5,
             "toughness": 5,
             "save": 2,
@@ -49,7 +49,10 @@
     "meleeWeapons": [
         {
             "name": "Flail of the Unforgiven",
-            "modifiers": ["devastating wounds","sustained hits 1"],
+            "modifiers": [
+                "devastating wounds",
+                "sustained hits 1"
+            ],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 6,
@@ -58,7 +61,7 @@
         },
         {
             "name": "Mace of absolution",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 6,

@@ -32,9 +32,7 @@
     "rangedWeapons": [
         {
             "name": "Cyclic ion raker - standard",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 36,
             "strength": 7,
             "attacks": 6,
@@ -145,10 +143,8 @@
             "description": "This model can be equipped with one battlesuit support system.",
             "items": []
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Ghostkeel fists",
             "attacks": 3,
@@ -156,10 +152,9 @@
             "strength": 6,
             "armor-penetration": 0,
             "damage": 2,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -185,4 +180,5 @@
             "wargear": "Battlesuit Support System",
             "ability": "The bearer is eligible to shoot in a turn in which it Fell Back but it loses the Smoke keyword."
         }
-    ]}
+    ]
+}

@@ -23,18 +23,18 @@
         }
     ],
     "leader": [],
-    "rangedWeapons": [{
-        "name": "Kroot gun",
-        "range":36,
-        "attacks": 2,
-        "ballistic-skills": 3,
-        "strength": 7,
-        "armor-penetration": 0,
-        "damage":2,
-        "modifiers": [
-           
-        ]
-    }],
+    "rangedWeapons": [
+        {
+            "name": "Kroot gun",
+            "range": 36,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
     "abilities": {
         "core": [
             "Scouts 7\""
@@ -47,23 +47,18 @@
             }
         ]
     },
-    "wargear": [
-     
-    ]
-
-,
-   "meleeWeapons": [
+    "wargear": [],
+    "meleeWeapons": [
         {
             "name": "Krootox fists",
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
-            "damage":2,
-            "modifiers": [
-               
-            ]
-        }],
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -83,4 +78,5 @@
             ],
             "points": 85
         }
-    ]}
+    ]
+}

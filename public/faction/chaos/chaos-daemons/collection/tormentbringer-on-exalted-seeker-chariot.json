@@ -1,89 +1,89 @@
 {
-  "parentUnit": "Tormentbringer On Exalted Seeker Chariot",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Riding to battle above the clatter-slash blades of their Exalted Seeker Chariot, these wilfully vicious entities delight in ploughing screaming souls into the churned dirt of the battlefield. They strive to travel faster, strike harder, and leave even their lightning-fast fellow charioteers envious in their wakes.",
-  "keywords": [
-    "mounted",
-    "character",
-    "psyker",
-    "chaos",
-    "daemon",
-    "slaanesh",
-    "tormentbringer on exalted seeker chariot"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 6,
-    "salvation": 5,
-    "wounds": 12,
-    "leadership": 7,
-    "objectiveControl": 3,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Lashes of torment",
-      "modifiers": [
-        "anti-infantry 3+",
-        "assault",
-        "pistol"
-      ],
-      "range": 6,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Tormentbringer On Exalted Seeker Chariot",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Riding to battle above the clatter-slash blades of their Exalted Seeker Chariot, these wilfully vicious entities delight in ploughing screaming souls into the churned dirt of the battlefield. They strive to travel faster, strike harder, and leave even their lightning-fast fellow charioteers envious in their wakes.",
+    "keywords": [
+        "mounted",
+        "character",
+        "psyker",
+        "chaos",
+        "daemon",
+        "slaanesh",
+        "tormentbringer on exalted seeker chariot"
     ],
-    "otherAbilities": [
-      {
-        "name": "Tormentbringer (Aura):",
-        "description": "While a friendly SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA unit is within 6\" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability."
-      },
-      {
-        "name": "Hysterical Frenzy (Psychic):",
-        "description": "Once per Fight phase , just after an enemy unit selects a SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA unit from your army as a target, one friendly PSYKER that is within 6\" of that SLAANESH unit and has this ability can use it. If it does, until the end of the phase, each time a model in that SLAANESH unit is destroyed, roll one D6: on a 4+, do not remove it from play. That model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Exalted Seeker tongues",
-      "modifiers": "extraattacks,lethalhits",
-      "attacks": "8",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
+    "attributes": {
+        "movement": 14,
+        "toughness": 6,
+        "salvation": 5,
+        "wounds": 12,
+        "leadership": 7,
+        "objectiveControl": 3,
+        "invulnerableSave": 4
     },
-    {
-      "name": "Ravaging claws",
-      "modifiers": "devastatingwounds",
-      "attacks": "15",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Lashes of torment",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Tormentbringer (Aura):",
+                "description": "While a friendly SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA unit is within 6\" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Hysterical Frenzy (Psychic):",
+                "description": "Once per Fight phase , just after an enemy unit selects a SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA unit from your army as a target, one friendly PSYKER that is within 6\" of that SLAANESH unit and has this ability can use it. If it does, until the end of the phase, each time a model in that SLAANESH unit is destroyed, roll one D6: on a 4+, do not remove it from play. That model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Exalted Seeker tongues",
+            "modifiers": "extraattacks,lethalhits",
+            "attacks": "8",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Ravaging claws",
+            "modifiers": "devastatingwounds",
+            "attacks": "15",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        }
+    ]
 }

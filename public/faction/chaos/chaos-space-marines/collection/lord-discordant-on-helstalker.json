@@ -92,7 +92,7 @@
     "meleeWeapons": [
         {
             "name": "Helstalker autocannon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 2,
             "strength": 9,
@@ -101,7 +101,9 @@
         },
         {
             "name": "Bladed limbs",
-            "modifiers": ["extra attacks"],
+            "modifiers": [
+                "extra attacks"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 6,

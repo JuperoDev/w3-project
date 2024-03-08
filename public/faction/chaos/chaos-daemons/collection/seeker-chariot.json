@@ -1,83 +1,83 @@
 {
-  "parentUnit": "Seeker Chariot",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Lightweight, swift and completely deadly, entire cavalcades of Seeker Chariots tear through the veil of reality to bear down upon the enemies of Slaanesh. Their crews race wildly to be first into battle, their eagerness for speed turning to wild bloodlust the moment their clattering charge crashes home.",
-  "keywords": [
-    "mounted",
-    "chaos",
-    "daemon",
-    "slaanesh",
-    "seeker chariot"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 6,
-    "salvation": 5,
-    "wounds": 7,
-    "leadership": 7,
-    "objectiveControl": 3,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Lashes of torment",
-      "modifiers": [
-        "anti-infantry 3+",
-        "assault",
-        "pistol"
-      ],
-      "range": 6,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Seeker Chariot",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lightweight, swift and completely deadly, entire cavalcades of Seeker Chariots tear through the veil of reality to bear down upon the enemies of Slaanesh. Their crews race wildly to be first into battle, their eagerness for speed turning to wild bloodlust the moment their clattering charge crashes home.",
+    "keywords": [
+        "mounted",
+        "chaos",
+        "daemon",
+        "slaanesh",
+        "seeker chariot"
     ],
-    "otherAbilities": [
-      {
-        "name": "Scythed Impact:",
-        "description": "Each time this unit makes a Charge move , until the end of the phase, melee weapons equipped by models in this unit have the [ANTI-INFANTRY 4+] ability."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Seeker tongues",
-      "modifiers": "extraattacks,lethalhits",
-      "attacks": "4",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
+    "attributes": {
+        "movement": 14,
+        "toughness": 6,
+        "salvation": 5,
+        "wounds": 7,
+        "leadership": 7,
+        "objectiveControl": 3,
+        "invulnerableSave": 4
     },
-    {
-      "name": "Slashing claws",
-      "modifiers": "devastatingwounds",
-      "attacks": "9",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Lashes of torment",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Scythed Impact:",
+                "description": "Each time this unit makes a Charge move , until the end of the phase, melee weapons equipped by models in this unit have the [ANTI-INFANTRY 4+] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Seeker tongues",
+            "modifiers": "extraattacks,lethalhits",
+            "attacks": "4",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        },
+        {
+            "name": "Slashing claws",
+            "modifiers": "devastatingwounds",
+            "attacks": "9",
+            "weapons-skills": "3+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        }
+    ]
 }

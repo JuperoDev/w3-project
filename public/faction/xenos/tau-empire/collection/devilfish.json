@@ -85,7 +85,9 @@
         "core": [
             "Deadly Demise D3"
         ],
-        "faction": ["For the Greater Good"],
+        "faction": [
+            "For the Greater Good"
+        ],
         "otherAbilities": [
             {
                 "name": "Rapid Deployment",
@@ -102,10 +104,8 @@
             "description": "This model can be equipped with up to 2 seeker missiles.",
             "items": []
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Armoured hull",
             "attacks": 3,
@@ -113,10 +113,9 @@
             "strength": 6,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -136,4 +135,5 @@
             ],
             "points": 85
         }
-    ]}
+    ]
+}

@@ -15,8 +15,8 @@
         "primarch",
         "lion el'jonson"
     ],
-    "attributes": 
-        [{
+    "attributes": [
+        {
             "movement": 8,
             "toughness": 9,
             "save": 2,
@@ -68,13 +68,13 @@
             }
         ]
     },
-    "wargear": [
-        
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Fealty -strike",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 8,
             "weapons-skills": 2,
             "strength": 12,
@@ -84,7 +84,9 @@
         },
         {
             "name": "Fealty -sweep",
-            "modifiers": ["sustained hits 1"],
+            "modifiers": [
+                "sustained hits 1"
+            ],
             "attacks": 16,
             "weapons-skills": 2,
             "strength": 6,

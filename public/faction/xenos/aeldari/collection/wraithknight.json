@@ -45,6 +45,16 @@
             "singleChoice": false
         },
         {
+            "name": "Scatter laser",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
             "name": "Shuriken cannon",
             "modifiers": [
                 "sustained hits 1"
@@ -56,6 +66,26 @@
             "armor-penetration": 1,
             "damage": 2,
             "singleChoice": false
+        },
+        {
+            "name": "Starcannon",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Suncannon",
+            "range": 48,
+            "modifiers": [],
+            "attacks": "2d6",
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 3,
+            "ballistic-skills": 3
         }
     ],
     "abilities": {
@@ -99,24 +129,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Scatter laser",
-            "modifiers": [],
-            "attacks": 6,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Starcannon",
-            "modifiers": [],
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 3,
-            "damage": 2
-        },
-        {
             "name": "Titanic feet",
             "modifiers": [],
             "attacks": 5,
@@ -133,6 +145,15 @@
             "strength": 16,
             "armor-penetration": 3,
             "damage": 6
+        },
+        {
+            "name": "Titanic ghostglaive - sweep",
+            "modifiers": [],
+            "attacks": 15,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
         }
     ],
     "unitComposition": [

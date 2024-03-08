@@ -30,9 +30,7 @@
     "rangedWeapons": [
         {
             "name": "missile pod",
-            "modifiers": [
-               
-            ],
+            "modifiers": [],
             "range": 30,
             "strength": 7,
             "attacks": 2,
@@ -99,7 +97,9 @@
         "core": [
             "Deadly Demise D3"
         ],
-        "faction": ["For the Greater Good"],
+        "faction": [
+            "For the Greater Good"
+        ],
         "otherAbilities": [
             {
                 "name": "Pulse Bombs",
@@ -112,9 +112,7 @@
             "description": "This model’s missile pod can be replaced with 1 twin missile pod.",
             "items": []
         }
-    ]
-
-,
+    ],
     "meleeWeapons": [
         {
             "name": "Armoured hull",
@@ -123,9 +121,7 @@
             "strength": 6,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-                
-            ]
+            "modifiers": []
         }
     ],
     "additionalParameter": {},
@@ -147,4 +143,5 @@
             ],
             "points": 85
         }
-    ]}
+    ]
+}

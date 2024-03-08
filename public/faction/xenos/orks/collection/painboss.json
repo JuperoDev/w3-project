@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The Painboss specialises in both the surgical care and cyber-augmentation of squigs, and of those suffering squig-related injuries. So as to provide their services \u2018on the hoof', Painbosses augment themselves with piston-driven soopa-legz, monowheels and the like - the better to deliver high-speed doktorin'.",
+    "lore": "The Painboss specialises in both the surgical care and cyber-augmentation of squigs, and of those suffering squig-related injuries. So as to provide their services ‘on the hoof', Painbosses augment themselves with piston-driven soopa-legz, monowheels and the like - the better to deliver high-speed doktorin'.",
     "keywords": [
         "infantry",
         "character",
@@ -53,7 +53,10 @@
     "meleeWeapons": [
         {
             "name": "Beast Snagga klaw",
-            "modifiers": ["anti-monster 4+","anti-vehicle 4+"],
+            "modifiers": [
+                "anti-monster 4+",
+                "anti-vehicle 4+"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 9,
@@ -84,5 +87,6 @@
         {
             "wargear": "Grot Orderly",
             "ability": "Once per battle, in your Command phase, if the bearer is leading a unit that is below its Starting Strength, you can return up to D3 destroyed Bodyguard models to that unit."
-        }]
+        }
+    ]
 }

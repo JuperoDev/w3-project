@@ -108,7 +108,7 @@
     "meleeWeapons": [
         {
             "name": "Accursed weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,
@@ -117,7 +117,7 @@
         },
         {
             "name": "Astartes chainsword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 7,
             "weapons-skills": 2,
             "strength": 4,
@@ -126,7 +126,9 @@
         },
         {
             "name": "Daemon hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 8,
@@ -135,7 +137,7 @@
         },
         {
             "name": "Power fist",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 8,

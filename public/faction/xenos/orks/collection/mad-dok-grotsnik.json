@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "More so even than whatever passes for a \u2018normal' Painboy, Dok Grotsnik relishes the butchery of the battlefield. He is quite, quite mad and remarkably dangerous, treating each new war as an opportunity for experimentation, a chance to harvest new samples to add to his stockpile of gory anatomical spares.",
+    "lore": "More so even than whatever passes for a ‘normal' Painboy, Dok Grotsnik relishes the butchery of the battlefield. He is quite, quite mad and remarkably dangerous, treating each new war as an opportunity for experimentation, a chance to harvest new samples to add to his stockpile of gory anatomical spares.",
     "keywords": [
         "infantry",
         "character",
@@ -63,7 +63,9 @@
     "meleeWeapons": [
         {
             "name": "Power klaw",
-            "modifiers": ["sustained hits 1"],
+            "modifiers": [
+                "sustained hits 1"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 9,
@@ -72,7 +74,11 @@
         },
         {
             "name": "'Urty syringe",
-            "modifiers": ["anti-infantry 4+","extra attacks","precision"],
+            "modifiers": [
+                "anti-infantry 4+",
+                "extra attacks",
+                "precision"
+            ],
             "attacks": 1,
             "weapons-skills": 3,
             "strength": 2,

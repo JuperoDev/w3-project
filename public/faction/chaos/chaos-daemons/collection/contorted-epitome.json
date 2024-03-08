@@ -1,73 +1,73 @@
 {
-  "parentUnit": "Contorted Epitome",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These ghastly daemonic manifestations writhe into battle on nests of metallic tendrils, their leering attendants riding their twisted steeds to war. Each reflects the darkest desires of those who look upon its surface, even as it swallows up the most potent energies thrown against it.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "chaos",
-    "slaanesh",
-    "contorted epitome"
-  ],
-  "attributes": {
-    "movement": 9,
-    "toughness": 6,
-    "salvation": 5,
-    "wounds": 8,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Contorted Epitome",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These ghastly daemonic manifestations writhe into battle on nests of metallic tendrils, their leering attendants riding their twisted steeds to war. Each reflects the darkest desires of those who look upon its surface, even as it swallows up the most potent energies thrown against it.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "chaos",
+        "slaanesh",
+        "contorted epitome"
     ],
-    "otherAbilities": [
-      {
-        "name": "Swallow Energy (Psychic):",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks ."
-      },
-      {
-        "name": "Horrible Fascination(Psychic):",
-        "description": "At the start of your opponent’s Shooting phase , one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds ; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll ; on a 6, that enemy unit is not eligible to shoot this phase."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Coiled tentacles",
-      "modifiers": "extraattacks",
-      "attacks": "D6",
-      "weapons-skills": "4+",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": "2"
+    "attributes": {
+        "movement": 9,
+        "toughness": 6,
+        "salvation": 5,
+        "wounds": 8,
+        "leadership": 7,
+        "objectiveControl": 2,
+        "invulnerableSave": 4
     },
-    {
-      "name": "Ravaging claws",
-      "modifiers": "devastatingwounds",
-      "attacks": "8",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    }
-  ]
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Swallow Energy (Psychic):",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks ."
+            },
+            {
+                "name": "Horrible Fascination(Psychic):",
+                "description": "At the start of your opponent’s Shooting phase , one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds ; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll ; on a 6, that enemy unit is not eligible to shoot this phase."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Coiled tentacles",
+            "modifiers": "extraattacks",
+            "attacks": "D6",
+            "weapons-skills": "4+",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": "2"
+        },
+        {
+            "name": "Ravaging claws",
+            "modifiers": "devastatingwounds",
+            "attacks": "8",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        }
+    ]
 }

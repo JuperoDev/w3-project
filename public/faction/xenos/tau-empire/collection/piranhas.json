@@ -26,9 +26,7 @@
     "rangedWeapons": [
         {
             "name": "Piranha burst cannon",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 18,
             "strength": 6,
             "attacks": 4,
@@ -83,7 +81,9 @@
             "Deadly Demise 1",
             "Scouts 9\""
         ],
-        "faction": ["For the Greater Good"],
+        "faction": [
+            "For the Greater Good"
+        ],
         "otherAbilities": [
             {
                 "name": "Drone Harassment Tactics",
@@ -100,10 +100,8 @@
             "description": "Any number of models can each be equipped with up to 2 seeker missiles.",
             "items": []
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Close combat weapon",
             "attacks": 1,
@@ -111,10 +109,9 @@
             "strength": 3,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -134,4 +131,5 @@
             ],
             "points": 85
         }
-    ]}
+    ]
+}

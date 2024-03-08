@@ -113,7 +113,7 @@
     "meleeWeapons": [
         {
             "name": "Exalted weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 6,
@@ -122,7 +122,9 @@
         },
         {
             "name": "Warp hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,

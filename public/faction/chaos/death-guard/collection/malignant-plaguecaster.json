@@ -25,12 +25,15 @@
             "invulnerableSave": 0
         }
     ],
-    "leader": ["Plague Marines"],
+    "leader": [
+        "Plague Marines"
+    ],
     "rangedWeapons": [
         {
             "name": "Plague bolt pistol",
             "modifiers": [
-                "lethal hits","pistol"
+                "lethal hits",
+                "pistol"
             ],
             "range": 12,
             "strength": 4,
@@ -92,7 +95,10 @@
     "meleeWeapons": [
         {
             "name": "Corrupted staff",
-            "modifiers": ["lethal hits","psychic"],
+            "modifiers": [
+                "lethal hits",
+                "psychic"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 6,

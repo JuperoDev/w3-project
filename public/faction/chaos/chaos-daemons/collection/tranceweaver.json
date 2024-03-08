@@ -1,65 +1,65 @@
 {
-  "parentUnit": "Tranceweaver",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These favoured daemons of Slaanesh are raw manifestations of sensory excess and wilful cruelty. Heralds of the Dark Prince, they flow across the battlefield with inhuman grace, keening gleeful war cries as they exhort their fellows to greater acts of sadistic bliss-giving and lay enemies low with the razor caress of their talons.",
-  "keywords": [
-    "infantry",
-    "character",
-    "psyker",
-    "chaos",
-    "daemon",
-    "slaanesh",
-    "tranceweaver"
-  ],
-  "attributes": {
-    "movement": 9,
-    "toughness": 3,
-    "salvation": 7,
-    "wounds": 3,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Leader"
+    "parentUnit": "Tranceweaver",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These favoured daemons of Slaanesh are raw manifestations of sensory excess and wilful cruelty. Heralds of the Dark Prince, they flow across the battlefield with inhuman grace, keening gleeful war cries as they exhort their fellows to greater acts of sadistic bliss-giving and lay enemies low with the razor caress of their talons.",
+    "keywords": [
+        "infantry",
+        "character",
+        "psyker",
+        "chaos",
+        "daemon",
+        "slaanesh",
+        "tranceweaver"
     ],
-    "otherAbilities": [
-      {
-        "name": "Tranceweaver:",
-        "description": "While this model is leading a unit, models in that unit have the Fights First ability."
-      },
-      {
-        "name": "Symphony of Pain (Psychic):",
-        "description": "At the end of your Movement phase , you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll ."
-      }
+    "attributes": {
+        "movement": 9,
+        "toughness": 3,
+        "salvation": 7,
+        "wounds": 3,
+        "leadership": 7,
+        "objectiveControl": 1,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Tranceweaver:",
+                "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+            },
+            {
+                "name": "Symphony of Pain (Psychic):",
+                "description": "At the end of your Movement phase , you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Ravaging claws",
+            "modifiers": "devastatingwounds",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Ravaging claws",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    }
-  ]
 }

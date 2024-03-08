@@ -13,8 +13,8 @@
         "imperium",
         "ravenwing command squad"
     ],
-    "attributes": 
-        [{
+    "attributes": [
+        {
             "movement": 12,
             "toughness": 5,
             "save": 3,
@@ -35,15 +35,13 @@
             "strength": 4,
             "attacks": "d3",
             "ballistic-skills": 3,
-            "armor-penetration":0,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": true
         },
         {
             "name": "Astartes grenade launcher - krak",
-            "modifiers": [
-               
-            ],
+            "modifiers": [],
             "range": 24,
             "strength": 9,
             "attacks": 1,
@@ -76,7 +74,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": 1,
-            "singleChoice":  true
+            "singleChoice": true
         },
         {
             "name": "Plasma talon - supercharge",
@@ -94,10 +92,10 @@
         }
     ],
     "abilities": {
-        "core": [
-            
+        "core": [],
+        "faction": [
+            "Oath of Moment"
         ],
-        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
                 "name": "Narthecium",
@@ -120,10 +118,9 @@
         }
     ],
     "meleeWeapons": [
-       
         {
             "name": "Black Knight combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
@@ -132,7 +129,7 @@
         },
         {
             "name": "Master-crafted power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,

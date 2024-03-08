@@ -1,126 +1,126 @@
 {
-  "parentUnit": "Bloodthirster",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {
-    "remainingWounds": 6,
-    "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Bloodthirsters are supreme warriors, ferocious embodiments of the Blood God’s rage and murderlust. Commanders and champions of the Khornate daemon legions, Bloodthirsters are possessed of supreme martial skill. They wield baroque weapons of appalling power, and slaughter all in their paths.",
-  "keywords": [
-    "monster",
-    "character",
-    "fly",
-    "chaos",
-    "daemon",
-    "khorne",
-    "bloodthirster"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 11,
-    "salvation": 4,
-    "wounds": 18,
-    "leadership": 6,
-    "objectiveControl": 5,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bloodflail",
-      "modifiers": [
-        "devastating wounds"
-      ],
-      "range": 12,
-      "strength": 16,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Bloodthirster",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
+    ],
+    "damaged": {
+        "remainingWounds": 6,
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "name": "Hellfire breath",
-      "modifiers": [
-        "ignores cover",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Deep Strike"
+    "supremeCommander": false,
+    "lore": "Bloodthirsters are supreme warriors, ferocious embodiments of the Blood God’s rage and murderlust. Commanders and champions of the Khornate daemon legions, Bloodthirsters are possessed of supreme martial skill. They wield baroque weapons of appalling power, and slaughter all in their paths.",
+    "keywords": [
+        "monster",
+        "character",
+        "fly",
+        "chaos",
+        "daemon",
+        "khorne",
+        "bloodthirster"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "attributes": {
+        "movement": 12,
+        "toughness": 11,
+        "salvation": 4,
+        "wounds": 18,
+        "leadership": 6,
+        "objectiveControl": 5,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bloodflail",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 12,
+            "strength": 16,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hellfire breath",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Daemon Lord of Khorne (Aura):",
-        "description": "While a friendly KHORNE LEGIONES DAEMONICA LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
-      },
-      {
-        "name": "Relentless Carnage:",
-        "description": "At the end of the Fight phase , you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound ."
-      }
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Daemon Lord of Khorne (Aura):",
+                "description": "While a friendly KHORNE LEGIONES DAEMONICA LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll ."
+            },
+            {
+                "name": "Relentless Carnage:",
+                "description": "At the end of the Fight phase , you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "This model’s great axe of Khorne can be replaced with 1 axe of Khorne and one of the following",
+            "items": [
+                "1 bloodflail",
+                "1 lash of Khorne"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Bloodflail",
+            "modifiers": "devastatingwounds",
+            "attacks": "1",
+            "weapons-skills": "2+",
+            "strength": 16,
+            "armor-penetration": 3,
+            "damage": "D6+1"
+        },
+        {
+            "name": "Hellfire breath",
+            "modifiers": "ignorescover,torrent",
+            "attacks": "D6",
+            "weapons-skills": "N/A",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": "1"
+        },
+        {
+            "name": "Axe of Khorne – strike",
+            "modifiers": "",
+            "attacks": "8",
+            "weapons-skills": "2+",
+            "strength": 14,
+            "armor-penetration": 4,
+            "damage": "D6"
+        },
+        {
+            "name": "Great axe of Khorne – strike",
+            "modifiers": "",
+            "attacks": "7",
+            "weapons-skills": "2+",
+            "strength": 16,
+            "armor-penetration": 4,
+            "damage": "D6+2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "This model’s great axe of Khorne can be replaced with 1 axe of Khorne and one of the following",
-      "items": [
-        "1 bloodflail",
-        "1 lash of Khorne"
-      ]
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Bloodflail",
-      "modifiers": "devastatingwounds",
-      "attacks": "1",
-      "weapons-skills": "2+",
-      "strength": 16,
-      "armor-penetration": 3,
-      "damage": "D6+1"
-    },
-    {
-      "name": "Hellfire breath",
-      "modifiers": "ignorescover,torrent",
-      "attacks": "D6",
-      "weapons-skills": "N/A",
-      "strength": 5,
-      "armor-penetration": 1,
-      "damage": "1"
-    },
-    {
-      "name": "Axe of Khorne – strike",
-      "modifiers": "",
-      "attacks": "8",
-      "weapons-skills": "2+",
-      "strength": 14,
-      "armor-penetration": 4,
-      "damage": "D6"
-    },
-    {
-      "name": "Great axe of Khorne – strike",
-      "modifiers": "",
-      "attacks": "7",
-      "weapons-skills": "2+",
-      "strength": 16,
-      "armor-penetration": 4,
-      "damage": "D6+2"
-    }
-  ]
 }

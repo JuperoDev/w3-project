@@ -181,7 +181,7 @@
     "meleeWeapons": [
         {
             "name": "Defiler claws",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 16,
@@ -190,7 +190,9 @@
         },
         {
             "name": "Defiler scourge",
-            "modifiers": ["extra attacks"],
+            "modifiers": [
+                "extra attacks"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 12,

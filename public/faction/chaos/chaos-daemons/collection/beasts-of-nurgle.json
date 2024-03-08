@@ -1,59 +1,59 @@
 {
-  "parentUnit": "Beasts Of Nurgle",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Filled with dim-witted ebullience at odds with their plague-ridden and nightmarish forms, Beasts of Nurgle flollop into battle like eager hounds. They are drawn instinctively to mortal playthings, whose desperate cries and frantic flight they mistake for participation, at least until their luckless new friends have twitched their last.",
-  "keywords": [
-    "beast",
-    "chaos",
-    "daemon",
-    "nurgle",
-    "beasts of nurgle"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 9,
-    "salvation": 6,
-    "wounds": 7,
-    "leadership": 7,
-    "objectiveControl": 2,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1",
-      "Deep Strike"
+    "parentUnit": "Beasts Of Nurgle",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Filled with dim-witted ebullience at odds with their plague-ridden and nightmarish forms, Beasts of Nurgle flollop into battle like eager hounds. They are drawn instinctively to mortal playthings, whose desperate cries and frantic flight they mistake for participation, at least until their luckless new friends have twitched their last.",
+    "keywords": [
+        "beast",
+        "chaos",
+        "daemon",
+        "nurgle",
+        "beasts of nurgle"
     ],
-    "otherAbilities": [
-      {
-        "name": "Grotesque Regeneration:",
-        "description": "At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds."
-      }
+    "attributes": {
+        "movement": 6,
+        "toughness": 9,
+        "salvation": 6,
+        "wounds": 7,
+        "leadership": 7,
+        "objectiveControl": 2,
+        "invulnerableSave": 5
+    },
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Grotesque Regeneration:",
+                "description": "At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Putrid appendages",
+            "modifiers": "devastatingwounds",
+            "attacks": "6",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Putrid appendages",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
-      "weapons-skills": "4+",
-      "strength": 6,
-      "armor-penetration": 1,
-      "damage": "2"
-    }
-  ]
 }

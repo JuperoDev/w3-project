@@ -1,102 +1,102 @@
 {
-  "parentUnit": "Kairos Fateweaver",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {
-    "remainingWounds": 7,
-    "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-  },
-  "supremeCommander": false,
-  "lore": "Wielding the warp-forged Staff of Tomorrow, and with the ability to predict all that may come to pass while knowing all that has already transpired, Kairos Fateweaver is amongst the galaxy’s most canny strategists. What the daemon lacks in physical and martial prowess, it more than makes up for in pure Tzeentchian cunning.",
-  "keywords": [
-    "monster",
-    "character",
-    "epic hero",
-    "fly",
-    "psyker",
-    "chaos",
-    "daemon",
-    "tzeentch",
-    "kairos fateweaver"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 10,
-    "salvation": 6,
-    "wounds": 20,
-    "leadership": 6,
-    "objectiveControl": 5,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Infernal Gateway - witchfire",
-      "modifiers": [
-        "blast",
-        "indirect fire",
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Kairos Fateweaver",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
+    ],
+    "damaged": {
+        "remainingWounds": 7,
+        "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
-    {
-      "name": "Infernal Gateway - focused witchfire",
-      "modifiers": [
-        "blast",
-        "indirect fire",
-        "hazardous",
-        "psychic"
-      ],
-      "range": 24,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise D6",
-      "Deep Strike"
+    "supremeCommander": false,
+    "lore": "Wielding the warp-forged Staff of Tomorrow, and with the ability to predict all that may come to pass while knowing all that has already transpired, Kairos Fateweaver is amongst the galaxy’s most canny strategists. What the daemon lacks in physical and martial prowess, it more than makes up for in pure Tzeentchian cunning.",
+    "keywords": [
+        "monster",
+        "character",
+        "epic hero",
+        "fly",
+        "psyker",
+        "chaos",
+        "daemon",
+        "tzeentch",
+        "kairos fateweaver"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "attributes": {
+        "movement": 12,
+        "toughness": 10,
+        "salvation": 6,
+        "wounds": 20,
+        "leadership": 6,
+        "objectiveControl": 5,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Infernal Gateway - witchfire",
+            "modifiers": [
+                "blast",
+                "indirect fire",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Infernal Gateway - focused witchfire",
+            "modifiers": [
+                "blast",
+                "indirect fire",
+                "hazardous",
+                "psychic"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "One Head Looks Forward (Aura):",
-        "description": "Each time you target a friendly TZEENTCH LEGIONES DAEMONICA LEGIONES DAEMONICA unit within 6\" of this model with a Stratagem , roll one D6: if the result is greater than the current battle round number, you gain 1CP."
-      },
-      {
-        "name": "One Head Looks Back:",
-        "description": "Once per battle, after your opponent uses a Stratagem , this model can use this ability. If it does, until the end of the battle, each time your opponent uses that Stratagem, increase its cost to your opponent by 1CP."
-      }
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "One Head Looks Forward (Aura):",
+                "description": "Each time you target a friendly TZEENTCH LEGIONES DAEMONICA LEGIONES DAEMONICA unit within 6\" of this model with a Stratagem , roll one D6: if the result is greater than the current battle round number, you gain 1CP."
+            },
+            {
+                "name": "One Head Looks Back:",
+                "description": "Once per battle, after your opponent uses a Stratagem , this model can use this ability. If it does, until the end of the battle, each time your opponent uses that Stratagem, increase its cost to your opponent by 1CP."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Staff of Tomorrow",
+            "modifiers": "psychic",
+            "attacks": "5",
+            "weapons-skills": "3+",
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "2D3"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Staff of Tomorrow",
-      "modifiers": "psychic",
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": "2D3"
-    }
-  ]
 }

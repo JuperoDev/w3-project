@@ -18,7 +18,7 @@
     "attributes": [
         {
             "movement": 20,
-            "toughness":10,
+            "toughness": 10,
             "save": 3,
             "wounds": 12,
             "leadership": 7,
@@ -30,9 +30,7 @@
     "rangedWeapons": [
         {
             "name": "Accelerator burst cannon",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 18,
             "strength": 6,
             "attacks": 4,
@@ -43,9 +41,7 @@
         },
         {
             "name": "Missile pod",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 30,
             "strength": 7,
             "attacks": 2,
@@ -99,7 +95,9 @@
         "core": [
             "Deadly Demise D3"
         ],
-        "faction": ["For the Greater Good"],
+        "faction": [
+            "For the Greater Good"
+        ],
         "otherAbilities": [
             {
                 "name": "Ground Strike Fighter",
@@ -112,10 +110,8 @@
             "description": "This model’s accelerator burst cannon can be replaced with 1 missile pod.",
             "items": []
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Armoured hull",
             "attacks": 3,
@@ -123,10 +119,9 @@
             "strength": 6,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -146,4 +141,5 @@
             ],
             "points": 85
         }
-    ]}
+    ]
+}

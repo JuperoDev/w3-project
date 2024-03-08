@@ -15,8 +15,8 @@
         "lieutenant",
         "deathwing strikemaster"
     ],
-    "attributes": 
-        [{
+    "attributes": [
+        {
             "movement": 5,
             "toughness": 5,
             "save": 2,
@@ -77,7 +77,9 @@
     "meleeWeapons": [
         {
             "name": "Chainfist",
-            "modifiers": ["anti-vehicle 3+"],
+            "modifiers": [
+                "anti-vehicle 3+"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 8,
@@ -86,7 +88,7 @@
         },
         {
             "name": "Mace of absolution",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 6,
@@ -95,7 +97,7 @@
         },
         {
             "name": "Master-crafted power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 5,
@@ -104,7 +106,7 @@
         },
         {
             "name": "Power fist",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 8,
@@ -113,7 +115,9 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 8,
@@ -122,7 +126,9 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,

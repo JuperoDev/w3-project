@@ -1,75 +1,75 @@
 {
-  "parentUnit": "Flamers",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These bizarre daemons bound through the air in convulsive leaps. The warpflame that drools from their many maws seethes with the raw power of change. When spat forth in roaring sheets, it sends its victims into agonies of mutation, their forms altering again and again before collapsing into distorted ruin.",
-  "keywords": [
-    "infantry",
-    "fly",
-    "chaos",
-    "daemon",
-    "tzeentch",
-    "flamers"
-  ],
-  "attributes": {
-    "movement": 9,
-    "toughness": 4,
-    "salvation": 7,
-    "wounds": 3,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Flickering Flames",
-      "modifiers": [
-        "ignores cover",
-        "psychic",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Flamers",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These bizarre daemons bound through the air in convulsive leaps. The warpflame that drools from their many maws seethes with the raw power of change. When spat forth in roaring sheets, it sends its victims into agonies of mutation, their forms altering again and again before collapsing into distorted ruin.",
+    "keywords": [
+        "infantry",
+        "fly",
+        "chaos",
+        "daemon",
+        "tzeentch",
+        "flamers"
     ],
-    "otherAbilities": [
-      {
-        "name": "Bounding Leaps:",
-        "description": "This unit is eligible to shoot in a turn in which it Fell Back ."
-      }
+    "attributes": {
+        "movement": 9,
+        "toughness": 4,
+        "salvation": 7,
+        "wounds": 3,
+        "leadership": 7,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Flickering Flames",
+            "modifiers": [
+                "ignores cover",
+                "psychic",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Bounding Leaps:",
+                "description": "This unit is eligible to shoot in a turn in which it Fell Back ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Flamer mouths",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": "1"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Flamer mouths",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

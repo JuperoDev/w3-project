@@ -12,7 +12,7 @@
     ],
     "attributes": [
         {
-            "name":"tankbusta",
+            "name": "tankbusta",
             "movement": 6,
             "toughness": 5,
             "save": 5,
@@ -22,7 +22,7 @@
             "invulnerableSave": 0
         },
         {
-            "name":"boss nob",
+            "name": "boss nob",
             "movement": 6,
             "toughness": 5,
             "save": 5,
@@ -63,10 +63,10 @@
         }
     ],
     "abilities": {
-        "core": [
-            
+        "core": [],
+        "faction": [
+            "Waaagh!"
         ],
-        "faction": ["Waaagh!"],
         "otherAbilities": [
             {
                 "name": "Tank Hunters",
@@ -91,7 +91,11 @@
         },
         {
             "name": "Tankhammer",
-            "modifiers": ["anti-vehicle 4+","devastating wounds","hazardous"],
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds",
+                "hazardous"
+            ],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 7,

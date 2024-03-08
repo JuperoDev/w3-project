@@ -27,9 +27,7 @@
     "rangedWeapons": [
         {
             "name": "Burst cannon",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 12,
             "strength": 5,
             "attacks": 4,
@@ -84,10 +82,8 @@
             "description": "For every 3 models in the unit, 1 model can be equipped with 1 battlesuit support system.",
             "items": []
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Battlesuit fists",
             "attacks": 2,
@@ -95,10 +91,9 @@
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -128,4 +123,5 @@
             "wargear": "Homing Beacon",
             "ability": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3'' of the bearer’s unit and not within 9'' of any enemy units."
         }
-    ]}
+    ]
+}

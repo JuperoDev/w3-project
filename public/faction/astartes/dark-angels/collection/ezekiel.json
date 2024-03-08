@@ -16,8 +16,8 @@
         "imperium",
         "ezekiel"
     ],
-    "attributes": 
-        [{
+    "attributes": [
+        {
             "movement": 6,
             "toughness": 4,
             "save": 2,
@@ -94,13 +94,14 @@
             }
         ]
     },
-    "wargear": [
-        
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Traitor's Bane",
-            "modifiers": ["anti-chaos 2+","psychic"],
+            "modifiers": [
+                "anti-chaos 2+",
+                "psychic"
+            ],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 6,

@@ -218,10 +218,10 @@
         }
     ],
     "abilities": {
-        "core": [
-            
+        "core": [],
+        "faction": [
+            "Oath of Moment"
         ],
-        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
                 "name": "Signum",
@@ -230,7 +230,6 @@
             {
                 "name": "Armorium Cherub",
                 "description": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6."
-
             }
         ]
     },
@@ -273,7 +272,7 @@
         },
         {
             "name": "Boltgun",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 4,
@@ -363,7 +362,7 @@
         },
         {
             "name": "Astartes chainsword",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 4,
@@ -372,7 +371,7 @@
         },
         {
             "name": "Close combat weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 4,
@@ -381,7 +380,7 @@
         },
         {
             "name": "Power fist",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 8,
@@ -390,7 +389,7 @@
         },
         {
             "name": "Power weapon",
-            "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 5,
@@ -399,7 +398,9 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 8,

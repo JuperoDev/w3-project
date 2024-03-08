@@ -1,59 +1,59 @@
 {
-  "parentUnit": "Screamers",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "These predatory daemons strike like sudden and inescapable change. They emit unearthly shrieks as they swoop down upon their prey on scintillating tides of sorcery, slicing victims to ribbons with razor-keen fins and latching on with fanged jaws from which corrosive empyric energies flow.",
-  "keywords": [
-    "beast",
-    "fly",
-    "chaos",
-    "daemon",
-    "tzeentch",
-    "screamers"
-  ],
-  "attributes": {
-    "movement": 14,
-    "toughness": 4,
-    "salvation": 6,
-    "wounds": 3,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "parentUnit": "Screamers",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These predatory daemons strike like sudden and inescapable change. They emit unearthly shrieks as they swoop down upon their prey on scintillating tides of sorcery, slicing victims to ribbons with razor-keen fins and latching on with fanged jaws from which corrosive empyric energies flow.",
+    "keywords": [
+        "beast",
+        "fly",
+        "chaos",
+        "daemon",
+        "tzeentch",
+        "screamers"
     ],
-    "otherAbilities": [
-      {
-        "name": "Slashing Dive:",
-        "description": "In your Movement phase , after this unit ends a Normal move , you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
-      }
+    "attributes": {
+        "movement": 14,
+        "toughness": 4,
+        "salvation": 6,
+        "wounds": 3,
+        "leadership": 7,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Slashing Dive:",
+                "description": "In your Movement phase , after this unit ends a Normal move , you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Lamprey bite",
+            "modifiers": "",
+            "attacks": "3",
+            "weapons-skills": "4+",
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Lamprey bite",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
 }

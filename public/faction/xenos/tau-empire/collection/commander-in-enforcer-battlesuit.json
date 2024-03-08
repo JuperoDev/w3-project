@@ -51,7 +51,7 @@
             "attacks": 3,
             "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage":1,
+            "damage": 1,
             "singleChoice": true
         },
         {
@@ -64,7 +64,7 @@
             "attacks": 3,
             "ballistic-skills": 4,
             "armor-penetration": 2,
-            "damage":2,
+            "damage": 2,
             "singleChoice": true
         },
         {
@@ -79,11 +79,10 @@
             "armor-penetration": 4,
             "damage": "d6",
             "singleChoice": false
-        }, {
+        },
+        {
             "name": "Missile pod",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 12,
             "strength": 7,
             "attacks": 2,
@@ -94,9 +93,7 @@
         },
         {
             "name": "Plasma rifle",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 24,
             "strength": 8,
             "attacks": 1,
@@ -173,10 +170,8 @@
                 "1 weapon support system*"
             ]
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Battlesuit fists",
             "attacks": 3,
@@ -184,10 +179,9 @@
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -221,4 +215,5 @@
             "wargear": "Weapon Support System",
             "ability": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
         }
-    ]}
+    ]
+}

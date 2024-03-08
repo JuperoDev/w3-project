@@ -1,71 +1,71 @@
 {
-  "parentUnit": "The Masque Of Slaanesh",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Once high in the favour of the Dark Prince, this daemon was cursed by its petulant deity to dance eternally across reality and beyond for an imagined slight. Its endless acrobatic performance beguiles and bewilders, drawing those who witness it into joining the revels even at the expense of their own survival.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "fly",
-    "chaos",
-    "daemon",
-    "slaanesh",
-    "the masque of slaanesh"
-  ],
-  "attributes": {
-    "movement": 9,
-    "toughness": 3,
-    "salvation": 7,
-    "wounds": 4,
-    "leadership": 7,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Fights First",
-      "Lone Operative"
+    "parentUnit": "The Masque Of Slaanesh",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Once high in the favour of the Dark Prince, this daemon was cursed by its petulant deity to dance eternally across reality and beyond for an imagined slight. Its endless acrobatic performance beguiles and bewilders, drawing those who witness it into joining the revels even at the expense of their own survival.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "fly",
+        "chaos",
+        "daemon",
+        "slaanesh",
+        "the masque of slaanesh"
     ],
-    "otherAbilities": [
-      {
-        "name": "The Eternal Dance:",
-        "description": "At the start of the Fight phase"
-      },
-      {
-        "name": ", select one enemy unit within 6\" of this model. Until the end of the phase:",
-        "description": "Each time a friendly SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA model makes a melee attack that targets that enemy unit, add 1 to the Wound roll . Each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll."
-      },
-      {
-        "name": "Dazzling Acrobatics:",
-        "description": "This model is eligible to declare a charge in a turn in which it Advanced or Fell Back ."
-      }
+    "attributes": {
+        "movement": 9,
+        "toughness": 3,
+        "salvation": 7,
+        "wounds": 4,
+        "leadership": 7,
+        "objectiveControl": 1,
+        "invulnerableSave": 4
+    },
+    "leader": [],
+    "rangedWeapons": [],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Fights First",
+            "Lone Operative"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "The Eternal Dance:",
+                "description": "At the start of the Fight phase"
+            },
+            {
+                "name": ", select one enemy unit within 6\" of this model. Until the end of the phase:",
+                "description": "Each time a friendly SLAANESH LEGIONES DAEMONICA LEGIONES DAEMONICA model makes a melee attack that targets that enemy unit, add 1 to the Wound roll . Each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll."
+            },
+            {
+                "name": "Dazzling Acrobatics:",
+                "description": "This model is eligible to declare a charge in a turn in which it Advanced or Fell Back ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Serrated claws",
+            "modifiers": "devastatingwounds",
+            "attacks": "6",
+            "weapons-skills": "2+",
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": "2"
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Serrated claws",
-      "modifiers": "devastatingwounds",
-      "attacks": "6",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "2"
-    }
-  ]
 }

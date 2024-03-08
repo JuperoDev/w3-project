@@ -1,79 +1,79 @@
 {
-  "parentUnit": "Burning Chariot",
-  "factionKeywords": [
-    "legiones daemonicalegiones daemonica"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Failed to fetch URL. Status code: 520",
-  "keywords": [
-    "mounted",
-    "fly",
-    "chaos",
-    "daemon",
-    "tzeentch",
-    "burning chariot"
-  ],
-  "attributes": {
-    "movement": 12,
-    "toughness": 8,
-    "salvation": 7,
-    "wounds": 9,
-    "leadership": 7,
-    "objectiveControl": 3,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Fire of Tzeentch - blue fire",
-      "modifiers": [
-        "ignores cover",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 9,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Burning Chariot",
+    "factionKeywords": [
+        "legiones daemonicalegiones daemonica"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Failed to fetch URL. Status code: 520",
+    "keywords": [
+        "mounted",
+        "fly",
+        "chaos",
+        "daemon",
+        "tzeentch",
+        "burning chariot"
+    ],
+    "attributes": {
+        "movement": 12,
+        "toughness": 8,
+        "salvation": 7,
+        "wounds": 9,
+        "leadership": 7,
+        "objectiveControl": 3,
+        "invulnerableSave": 4
     },
-    {
-      "name": "Fire of Tzeentch - pink fire",
-      "modifiers": [
-        "ignores cover",
-        "psychic",
-        "torrent"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike"
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Fire of Tzeentch - blue fire",
+            "modifiers": [
+                "ignores cover",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Fire of Tzeentch - pink fire",
+            "modifiers": [
+                "ignores cover",
+                "psychic",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
     ],
-    "faction": [
-      "The Shadow of Chaos"
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Eldritch Flames (Psychic):",
+                "description": "In your Shooting phase , after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Eldritch Flames (Psychic):",
-        "description": "In your Shooting phase , after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover ."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": []
+    "meleeWeapons": []
 }

@@ -82,10 +82,10 @@
         }
     ],
     "abilities": {
-        "core": [
-            
+        "core": [],
+        "faction": [
+            "For the Greater Good"
         ],
-        "faction": ["For the Greater Good"],
         "otherAbilities": [
             {
                 "name": "Cover Fire",
@@ -111,10 +111,8 @@
             "description": "Any number of Fire Warrior models can each have their pulse rifle replaced with 1 pulse carbine.",
             "items": []
         }
-    ]
-
-,
-   "meleeWeapons": [
+    ],
+    "meleeWeapons": [
         {
             "name": "Close combat weapon",
             "attacks": 1,
@@ -122,10 +120,9 @@
             "strength": 3,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -145,4 +142,5 @@
             ],
             "points": 85
         }
-    ]}
+    ]
+}

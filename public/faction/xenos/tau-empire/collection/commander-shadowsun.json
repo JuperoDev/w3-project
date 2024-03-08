@@ -29,9 +29,7 @@
     "rangedWeapons": [
         {
             "name": "Flechette launcher",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 24,
             "strength": 3,
             "attacks": 5,
@@ -55,9 +53,7 @@
         },
         {
             "name": "Light missile pod",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 24,
             "strength": 7,
             "attacks": 2,
@@ -100,12 +96,8 @@
             }
         ]
     },
-    "wargear": [
-     
-    ]
-
-,
-   "meleeWeapons": [
+    "wargear": [],
+    "meleeWeapons": [
         {
             "name": "Battlesuit fists",
             "attacks": 3,
@@ -113,10 +105,9 @@
             "strength": 5,
             "armor-penetration": 0,
             "damage": 1,
-            "modifiers": [
-               
-            ]
-        }],
+            "modifiers": []
+        }
+    ],
     "additionalParameter": {},
     "unitComposition": [
         {
@@ -146,4 +137,5 @@
             "wargear": "Command-link Drone (Aura)",
             "ability": "While a friendly T’AU EMPIRE unit is within 6'' of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
         }
-    ]}
+    ]
+}

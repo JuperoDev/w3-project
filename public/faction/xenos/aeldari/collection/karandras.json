@@ -24,7 +24,7 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["Striking Scorpions"],
     "rangedWeapons": [
         {
             "name": "Arhra's Bane",
@@ -34,9 +34,9 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 5,
+            "attacks": 2,
             "ballistic-skills": 2,
-            "armor-penetration": 3,
+            "armor-penetration": 1,
             "damage": 2,
             "singleChoice": false
         }
@@ -62,6 +62,19 @@
     },
     "wargear": [],
     "meleeWeapons": [
+        {
+            "name": "Arhra's Bane",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+           
+            "strength": 8,
+            "attacks": 5,
+            "weapons-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
+        },
         {
             "name": "Isirmathil",
             "modifiers": [

@@ -13,10 +13,21 @@
     ],
     "attributes": [
         {
+            "name": "shining spear",
             "movement": 14,
             "toughness": 4,
             "save": 3,
             "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 5
+        },
+        {
+            "name": "shining spear exarch",
+            "movement": 14,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 3,
             "leadership": 6,
             "objetiveControl": 2,
             "invulnerableSave": 5
@@ -85,8 +96,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Shimmershield:",
-                "description": "The bearer has a 4+ invulnerable save ."
+                "name": "Aerobatic Grace",
+                "description": "Each time an attack targets this unit, subtract 1 from the Hit roll."
             }
         ]
     },
@@ -109,12 +120,34 @@
     ],
     "meleeWeapons": [
         {
+            "name": "Laser lance",
+            "modifiers": [
+                "lance"
+            ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
             "name": "Paragon sabre",
             "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Star lance",
+            "modifiers": [
+                "lance"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 3,
             "damage": 2
         }
     ],

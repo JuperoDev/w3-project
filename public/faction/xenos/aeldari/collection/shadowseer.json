@@ -25,7 +25,7 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["troupe"],
     "rangedWeapons": [
         {
             "name": "Neuro disruptor",
@@ -50,7 +50,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -85,7 +85,7 @@
     "meleeWeapons": [
         {
             "name": "Miststave",
-            "modifiers": "psychic",
+            "modifiers": ["psychic"],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 5,

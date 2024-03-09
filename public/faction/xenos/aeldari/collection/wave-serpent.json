@@ -50,7 +50,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": "D6",
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Twin Aeldari missile launcher - sunburst",
@@ -60,7 +60,7 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -129,8 +129,8 @@
             "strength": 8,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -192,5 +192,6 @@
             "points": 90
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "transport":"This model has a transport capacity of 12 AELDARI INFANTRY models. Each WRAITH CONSTRUCT model takes the space of 2 models. It cannot transport JUMP PACK models."
 }

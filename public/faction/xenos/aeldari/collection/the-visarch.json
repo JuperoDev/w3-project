@@ -24,7 +24,11 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["Corsair Voidreavers",
+    "Corsair Voidscarred",
+   "Guardian Defenders",
+    "Storm Guardians",
+    "Troupe"],
     "rangedWeapons": [],
     "abilities": {
         "core": [
@@ -40,11 +44,7 @@
             },
             {
                 "name": "Champion of Ynnead:",
-                "description": ""
-            },
-            {
-                "name": "Each time this model is selected to fight, select one of the abilities below for Asu-var, the Sword of Silent Screams, to gain until the end of the phase:",
-                "description": "[SUSTAINED HITS 2] [DEVASTATING WOUNDS] [LETHAL HITS]"
+                "description": "Each time this model is selected to fight, select one of the abilities below for Asu-var, the Sword of Silent Screams, to gain until the end of the phase:\n [SUSTAINED HITS 2]\n [DEVASTATING WOUNDS]\n  [LETHAL HITS]"
             }
         ]
     },
@@ -52,7 +52,7 @@
     "meleeWeapons": [
         {
             "name": "Asu-var, the Sword of Silent Screams",
-            "modifiers": "precision",
+            "modifiers": ["precision"],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 5,

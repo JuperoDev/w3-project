@@ -24,7 +24,7 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["Fire Dragons"],
     "rangedWeapons": [
         {
             "name": "Searsong - beam",
@@ -33,11 +33,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Searsong - lance",
@@ -46,11 +46,11 @@
             ],
             "range": 18,
             "strength": 14,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice":true
         }
     ],
     "abilities": {

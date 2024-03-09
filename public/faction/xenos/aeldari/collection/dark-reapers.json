@@ -12,6 +12,17 @@
     ],
     "attributes": [
         {
+            "name": "dark reaper ",
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        },
+        {
+            "name": "dark reaper exarch",
             "movement": 6,
             "toughness": 3,
             "save": 3,
@@ -34,7 +45,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": "D6",
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Aeldari missile launcher - sunburst",
@@ -44,11 +55,11 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Reaper launcher - starshot",
@@ -61,7 +72,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": 2,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Reaper launcher - starswarm",
@@ -74,7 +85,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Shuriken cannon",
@@ -98,7 +109,7 @@
             ],
             "range": 36,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "2d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -112,8 +123,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "Reaper launcher; close combat weapon."
+                "name": "Inescapable Accuracy",
+                "description": "Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and to the Hit roll."
             }
         ]
     },

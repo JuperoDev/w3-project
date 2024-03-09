@@ -25,7 +25,7 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["windriders"],
     "rangedWeapons": [
         {
             "name": "Destructor",
@@ -94,19 +94,7 @@
         "otherAbilities": [
             {
                 "name": "Runes of Battle (Psychic):",
-                "description": "In your Command phase"
-            },
-            {
-                "name": ", select one of the following to take effect until the start of your next Command phase:",
-                "description": ""
-            },
-            {
-                "name": "Conceal:",
-                "description": "Models in this model's unit have the Stealth ability."
-            },
-            {
-                "name": "Reveal:",
-                "description": "Ranged weapons equipped by models in this model's unit have the [IGNORES COVER] ability."
+                "description": "In your Command phase, select one of the following to take effect until the start of your next Command phase: \n Conceal: Models in this model’s unit have the Stealth ability. \n Reveal: Ranged weapons equipped by models in this model’s unit have the [IGNORES COVER] ability. "
             }
         ]
     },
@@ -119,12 +107,21 @@
     "meleeWeapons": [
         {
             "name": "Witchblade",
-            "modifiers": "anti-infantry2+,psychic",
+            "modifiers": ["anti-infantry 2+","psychic"],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 3,
             "armor-penetration": 0,
             "damage": 2
+        },
+        {
+            "name": "Singing spear",
+            "modifiers": ["psychic"],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 3
         }
     ],
     "unitComposition": [

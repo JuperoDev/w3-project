@@ -23,7 +23,8 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["Guardian Defenders",
+   "Storm Guardians"],
     "rangedWeapons": [
         {
             "name": "Shuriken pistol",
@@ -77,20 +78,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Runes of Fortune (Psychic):",
-                "description": "In your Command phase"
-            },
-            {
-                "name": ", select one of the following to take effect until the start of your next Command phase:",
-                "description": ""
-            },
-            {
-                "name": "Quicken:",
-                "description": "Each time this model's unit Advances , do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
-            },
-            {
-                "name": "Restrain:",
-                "description": "Each time an enemy unit declares a charge , if this model's unit is selected as a target of that charge, subtract 2 from the Charge roll. The same enemy unit can only be affected in this way once per phase."
+                "name": "Runes of Battle (Psychic):",
+                "description": "In your Command phase, select one of the following to take effect until the start of your next Command phase: \n Conceal: Models in this model’s unit have the Stealth ability. \n Reveal: Ranged weapons equipped by models in this model’s unit have the [IGNORES COVER] ability. "
             }
         ]
     },
@@ -109,6 +98,15 @@
             "strength": 3,
             "armor-penetration": 0,
             "damage": 2
+        },
+        {
+            "name": "Singing spear",
+            "modifiers": ["psychic"],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 3
         }
     ],
     "unitComposition": [

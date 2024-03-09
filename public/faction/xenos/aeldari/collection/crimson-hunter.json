@@ -27,7 +27,38 @@
         }
     ],
     "leader": [],
-    "rangedWeapons": [],
+    "rangedWeapons": [
+        {
+            "name": "Bright lance",
+            "range": 1,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+2",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Pulse laser",
+            "range": 3,
+            "modifiers": [],
+            "attacks": 3,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "D6",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Starcannon",
+            "range": 2,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "ballistic-skills": 3
+        }
+    ],
     "abilities": {
         "core": [],
         "faction": [
@@ -35,8 +66,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "2 starcannons; pulse laser; wraithbone hull."
+                "name": "Skyhunter",
+                "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll and add 1 to the Wound roll."
             }
         ]
     },
@@ -47,24 +78,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Bright lance",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 12,
-            "armor-penetration": 3,
-            "damage": "D6+2"
-        },
-        {
-            "name": "Pulse laser",
-            "modifiers": [],
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": "D6"
-        },
         {
             "name": "Wraithbone hull",
             "modifiers": [],

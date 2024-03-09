@@ -24,7 +24,7 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["Dark Reapers"],
     "rangedWeapons": [
         {
             "name": "The Maugetar",
@@ -34,9 +34,9 @@
             ],
             "range": 36,
             "strength": 7,
-            "attacks": 5,
+            "attacks": 6,
             "ballistic-skills": 2,
-            "armor-penetration": 2,
+            "armor-penetration": 1,
             "damage": 2,
             "singleChoice": false
         }
@@ -60,7 +60,18 @@
         ]
     },
     "wargear": [],
-    "meleeWeapons": [],
+    "meleeWeapons": [{
+        "name": "The Maugetar",
+        "modifiers": [
+            
+        ],
+        "strength": 7,
+        "attacks": 5,
+        "weapons-skills": 2,
+        "armor-penetration": 2,
+        "damage": 2,
+        "singleChoice": false
+    }],
     "unitComposition": [
         {
             "unitType": "",

@@ -13,6 +13,17 @@
     ],
     "attributes": [
         {
+            "name": "fire dragon",
+            "movement": 7,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        },
+        {
+            "name": "fire dragon exarch",
             "movement": 7,
             "toughness": 3,
             "save": 3,
@@ -59,10 +70,10 @@
             ],
             "range": 18,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         }
     ],
@@ -73,8 +84,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "Dragon fusion gun; close combat weapon."
+                "name": "Assured Destruction",
+                "description": " Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1."
             }
         ]
     },

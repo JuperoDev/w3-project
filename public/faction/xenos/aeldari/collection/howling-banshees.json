@@ -12,10 +12,21 @@
     ],
     "attributes": [
         {
+            "name": "howling banshee",
             "movement": 8,
             "toughness": 3,
             "save": 4,
             "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        },
+        {
+            "name": "howling banshee exarch",
+            "movement": 8,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 2,
             "leadership": 6,
             "objetiveControl": 1,
             "invulnerableSave": 5
@@ -44,7 +55,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 5,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": 1,
@@ -104,6 +115,15 @@
             "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 3,
+            "damage": 1
+        },
+        {
+            "name": "Triskele",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 2,
             "damage": 1
         }
     ],

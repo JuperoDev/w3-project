@@ -15,10 +15,21 @@
     ],
     "attributes": [
         {
+            "name": "guardian defender",
             "movement": 7,
             "toughness": 3,
             "save": 4,
             "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        },
+        {
+            "name": "guardian defender platform",
+            "movement": 7,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 2,
             "leadership": 6,
             "objetiveControl": 2,
             "invulnerableSave": 0
@@ -33,11 +44,42 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Aeldari missile launcher - starshot",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": "D6",
+            "singleChoice": true,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Bright lance",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+2"
+        },
+        {
+            "name": "Scatter laser",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1
         },
         {
             "name": "Shuriken cannon",
@@ -64,6 +106,17 @@
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
+        },
+        {
+            "name": "Starcannon",
+            "modifiers": [],
+            "range": 36,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
         }
     ],
     "abilities": {
@@ -73,12 +126,12 @@
         ],
         "otherAbilities": [
             {
-                "name": "Every Guardian Defender is equipped with:",
-                "description": "shuriken catapult; close combat weapon."
+                "name": "Defenders of Fate",
+                "description": " At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6 and add it to your Fate dice pool displaying the result you just rolled."
             },
             {
-                "name": "The Heavy Weapon Platform is equipped with:",
-                "description": "shuriken cannon; close combat weapon."
+                "name": "Crewed Platform",
+                "description": "When the last Guardian Defender model in this unit is destroyed, any remaining Heavy Weapon Platform models in this unit are also destroyed."
             }
         ]
     },
@@ -94,48 +147,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Aeldari missile launcher - starshot",
-            "range": 48,
-            "modifiers": [],
-            "attacks": 1,
-            "strength": 10,
-            "armor-penetration": 2,
-            "damage": "D6",
-            "singleChoice": true,
-            "ballistic-skills": 3
-        },
-        {
-            "name": "Aeldari missile launcher - sunburst",
-            "modifiers": [
-                "blast"
-            ],
-            "range": 48,
-            "strength": 4,
-            "attacks": "d6",
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": true
-        },
-        {
-            "name": "Bright lance",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 12,
-            "armor-penetration": 3,
-            "damage": "D6+2"
-        },
-        {
-            "name": "Scatter laser",
-            "modifiers": [],
-            "attacks": 6,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "Close combat weapon",
             "modifiers": [],

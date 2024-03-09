@@ -13,10 +13,21 @@
     ],
     "attributes": [
         {
+            "name": "dire avenger",
             "movement": 7,
             "toughness": 3,
             "save": 4,
             "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 5
+        },
+        {
+            "name": "dire avenger exarch",
+            "movement": 7,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 2,
             "leadership": 6,
             "objetiveControl": 1,
             "invulnerableSave": 5
@@ -46,7 +57,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -60,8 +71,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Shimmershield:",
-                "description": "The bearer has a 4+ invulnerable save ."
+                "name": "Defence Tactics",
+                "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker you control."
             }
         ]
     },

@@ -40,6 +40,19 @@
             "singleChoice": false
         },
         {
+            "name": "star bolas",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
             "name": "Skyweaver haywire cannon",
             "modifiers": [
                 "anti-vehicle 4+",
@@ -50,7 +63,7 @@
             "attacks": 2,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 3,
             "singleChoice": false
         }
     ],
@@ -61,8 +74,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Every model is equipped with:",
-                "description": "shuriken cannon; star bolas; close combat weapon."
+                "name": "Scything Swipes",
+                "description": "Each time this unit ends a Normal move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
             }
         ]
     },
@@ -77,15 +90,6 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Star bolas",
-            "modifiers": [],
-            "attacks": "D3",
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 2
-        },
         {
             "name": "Close combat weapon",
             "modifiers": [],

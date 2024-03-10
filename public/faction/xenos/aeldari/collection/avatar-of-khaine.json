@@ -36,10 +36,10 @@
             ],
             "range": 12,
             "strength": 16,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "d6+2",
             "singleChoice": false
         }
     ],
@@ -70,7 +70,18 @@
             "weapons-skills": 2,
             "strength": 14,
             "armor-penetration": 4,
-            "damage": "D6+2"
+            "damage": "D6+2",
+            "singleChoice":true
+        },
+        {
+            "name": "The Wailing Doom - sweep",
+            "modifiers": [],
+            "attacks": 12,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice":true
         }
     ],
     "unitComposition": [

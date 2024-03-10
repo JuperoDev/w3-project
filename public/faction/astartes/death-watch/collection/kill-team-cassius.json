@@ -89,7 +89,6 @@
             "damage": 1,
             "ballistic-skills": 3
         },
-        
         {
             "name": "Frag cannon",
             "modifiers": [
@@ -234,7 +233,9 @@
         },
         {
             "name": "Force weapon",
-            "modifiers": ["psychic"],
+            "modifiers": [
+                "psychic"
+            ],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 5,
@@ -261,7 +262,9 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
@@ -290,7 +293,6 @@
     ],
     "additionalParameter": {},
     "wargearAbilities": [
-        
         {
             "wargear": "Psychic Hood",
             "ability": "Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks."

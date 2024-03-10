@@ -16,7 +16,8 @@
         "fortis kill team"
     ],
     "attributes": [
-        {"name":"kill team intercessor",
+        {
+            "name": "kill team intercessor",
             "movement": 6,
             "toughness": 4,
             "save": 3,
@@ -25,7 +26,8 @@
             "objetiveControl": 1,
             "invulnerableSave": 0
         },
-        {"name":"kill team outrider",
+        {
+            "name": "kill team outrider",
             "movement": 12,
             "toughness": 5,
             "save": 3,
@@ -178,11 +180,11 @@
         }
     ],
     "abilities": {
-        "core": [
-            
+        "core": [],
+        "faction": [
+            "Kill Team",
+            "Oath of Moment"
         ],
-        "faction": ["Kill Team",
-        "Oath of Moment"],
         "otherAbilities": [
             {
                 "name": "Fortis Doctrines",
@@ -217,7 +219,6 @@
         }
     ],
     "meleeWeapons": [
-       
         {
             "name": "Astartes chainsword",
             "modifiers": [],
@@ -266,7 +267,5 @@
         }
     ],
     "additionalParameter": {},
-    "wargearAbilities": [
-        
-    ]
+    "wargearAbilities": []
 }

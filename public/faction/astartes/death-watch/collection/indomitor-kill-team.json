@@ -188,9 +188,7 @@
         }
     ],
     "abilities": {
-        "core": [
-            
-        ],
+        "core": [],
         "faction": [
             "Kill Team",
             "Oath of Moment"
@@ -232,7 +230,9 @@
         },
         {
             "name": "Power fists",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -261,7 +261,6 @@
     ],
     "additionalParameter": {},
     "wargearAbilities": [
-        
         {
             "wargear": "Jump Pack",
             "ability": "The bearer has a Move characteristic of 12'' and can move over models and terrain features as if they were not there."

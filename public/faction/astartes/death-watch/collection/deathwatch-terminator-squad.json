@@ -50,7 +50,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 0,
             "damage": 1,
-            "singleChoice":true
+            "singleChoice": true
         },
         {
             "name": "Cyclone missile launcher - krak",
@@ -63,7 +63,7 @@
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": "d6",
-            "singleChoice":true
+            "singleChoice": true
         },
         {
             "name": "Heavy flamer",
@@ -159,10 +159,11 @@
         }
     ],
     "meleeWeapons": [
-       
         {
             "name": "Chainfist",
-            "modifiers": ["anti-vehicle 3+"],
+            "modifiers": [
+                "anti-vehicle 3+"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -189,7 +190,9 @@
         },
         {
             "name": "Thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -198,7 +201,9 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,

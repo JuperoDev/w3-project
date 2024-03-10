@@ -63,22 +63,19 @@
             "damage": 1,
             "singleChoice": false
         },
-        
         {
             "name": "Boltgun",
             "modifiers": [],
             "range": 24,
             "attacks": 2,
-            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": 1
+            "damage": 1,
+            "ballistic-skills": 3
         },
         {
             "name": "Cyclone missile launcher - krak",
-            "modifiers": [
-                
-            ],
+            "modifiers": [],
             "range": 36,
             "strength": 9,
             "attacks": 2,
@@ -87,16 +84,17 @@
             "damage": "d6",
             "singleChoice": true
         },
-        
         {
             "name": "Cyclone missile launcher – frag",
             "range": 36,
-            "modifiers": ["blast"],
+            "modifiers": [
+                "blast"
+            ],
             "attacks": "2D6",
-            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": 1
+            "damage": 1,
+            "ballistic-skills": 3
         },
         {
             "name": "Frag cannon",
@@ -136,7 +134,7 @@
             "range": 12,
             "strength": 5,
             "attacks": "d6",
-            "ballistic-skills":"n/a",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": true
@@ -168,17 +166,19 @@
             "damage": 1,
             "singleChoice": false
         },
-        
         {
             "name": "Plasma cannon – standard",
             "range": 36,
-            "modifiers": ["blast","HEAVY"],
+            "modifiers": [
+                "blast",
+                "HEAVY"
+            ],
             "attacks": "D3",
-            "weapons-skills": 4,
             "strength": 7,
             "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": true
+            "singleChoice": true,
+            "ballistic-skills": 4
         },
         {
             "name": "Plasma cannon - supercharge",
@@ -369,7 +369,9 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": ["twin-linked"],
+            "modifiers": [
+                "twin-linked"
+            ],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,

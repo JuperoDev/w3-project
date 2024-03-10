@@ -30,12 +30,13 @@
     "rangedWeapons": [
         {
             "name": "Boltgun",
+            "range": 24,
             "modifiers": [],
             "attacks": 2,
-            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": 1
+            "damage": 1,
+            "ballistic-skills": 3
         },
         {
             "name": "Frag cannon",
@@ -124,10 +125,10 @@
         }
     ],
     "abilities": {
-        "core": [
-            
+        "core": [],
+        "faction": [
+            "Oath of Moment"
         ],
-        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
                 "name": "Death to the Alien",
@@ -166,7 +167,6 @@
         }
     ],
     "meleeWeapons": [
-        
         {
             "name": "Close combat weapon",
             "modifiers": [],
@@ -178,7 +178,9 @@
         },
         {
             "name": "Deathwatch thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 10,
@@ -196,7 +198,9 @@
         },
         {
             "name": "Xenophase blade",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,

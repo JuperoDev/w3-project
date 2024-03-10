@@ -1,0 +1,118 @@
+{
+    "parentUnit": "Inner Circle Companions",
+    "factionKeyword": [
+        "adeptus astartes",
+        "dark angels"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wielding Calibanite greatswards with breathtaking  skill, wreathed in the incense smoke of their braziers of judgement, the Inner Circle Companions cut a crimson path through their foes. They are sinister warriors whether battling as ally ar enemg,for theyfight in silence savefor the whine aftheir armour servos and the crunch of their blades through flesh and bone. ",
+    "keywords": [
+        "infantry",
+        "character",
+        "deathwing",
+        "imperium",
+        "tacticus",
+        "inner circle companions"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 9,
+            "save": 2,
+            "wounds": 10,
+            "leadership": 5,
+            "objetiveControl": 4,
+            "invulnerableSave": 3
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "abilities": {
+        "core": [
+            
+        ],
+        "faction": ["Oath of Moment"],
+        "otherAbilities": [
+            {
+                "name": "Braziers ofJudgement",
+                "description": "Whilea CHARACTER model is leading this unit, each time an attack targets this unit, subtract 1 from Hit roll "
+            },
+            {
+                "name": "Enmity the Unworthy",
+                "description": "Each time a model in this unit makes an attack that targets a CHARACTER unit, add 1 to the  Hit roll."
+            },
+            {
+                "name": "Dark Angels Bodyguard", 
+                "description": "While this model is within 3'' of one or more friendly ADEPTUS ASTARTES INFANTRY units, this  model has the Lone Operative ability."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Calibanite greatsword -strike",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Calibanite greatsword -sweep",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Lion EI'Jonson — EPIC HERO ",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "rma Luminis","Fealty"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {
+        "title": "Attached Unit",
+        "abilities": [
+            {
+                "name": "",
+                "description": "Ifa CHARACTER unit from your armg with the Leader abilitg can be attached to a STERNGUARD VETERAN SDUAD, it can be attached to this unit instead"
+            }
+        ]
+    }
+}

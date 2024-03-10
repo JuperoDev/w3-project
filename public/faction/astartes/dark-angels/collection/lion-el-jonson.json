@@ -60,11 +60,19 @@
             "Deep Strike",
             "Fights First"
         ],
-        "faction": [],
+        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
-                "name": "No Hiding From the Watchers (Aura):",
-                "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
+                "name": "Primarch ofthe First Legion:",
+                "description": "In your Command phase, select  one Primarch ofthe First Legion ability [see left]. Until the  start of your next Command phase, this model has that ability. "
+            },
+            {
+                "name": "The Emperor's Shield",
+                "description": "In your Command phase, select  one Primarch ofthe First Legion ability [see left]. Until the  start of your next Command phase, this model has that ability. "
+            },
+            {
+                "name": "Dark Angels Bodyguard", 
+                "description": "While this model is within 3'' of one or more friendly ADEPTUS ASTARTES INFANTRY units, this  model has the Lone Operative ability."
             }
         ]
     },
@@ -91,18 +99,17 @@
             "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 3,
-            "damage": 2,
+            "damage": 1,
             "singleChoice": true
         }
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone - EPIC HERO",
+            "unitType": "Lion EI'Jonson — EPIC HERO ",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                " Drakkis",
-                "Malleus Noctum"
+                "rma Luminis","Fealty"
             ]
         }
     ],

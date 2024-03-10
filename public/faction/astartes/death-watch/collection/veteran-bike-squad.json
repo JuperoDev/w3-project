@@ -63,22 +63,26 @@
             "strength": 4,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Oath of Moment"
+        "core": [],
+        "faction": [
+            "Oath of Moment"
         ],
-        "faction": [],
         "otherAbilities": [
             {
-                "name": "Astartes Shield:",
-                "description": "The bearer has a 4+ invulnerable save ."
+                "name": "Turbo-boost",
+                "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in this unit."
             }
         ]
+    },
+    "wargearAbilities": {
+        "wargear": "Astartes Shield",
+        "abilities": "The bearer has a 4+ invulnerable save."
     },
     "wargear": [
         {
@@ -116,7 +120,7 @@
         },
         {
             "name": "Xenophase blade",
-            "modifiers": "devastatingwounds",
+            "modifiers": ["devastating wounds"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,

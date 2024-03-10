@@ -130,7 +130,7 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -186,7 +186,9 @@
         },
         {
             "name": "Combat knife",
-            "modifiers": "precision",
+            "modifiers": [
+                "precision"
+            ],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 4,
@@ -195,12 +197,48 @@
         },
         {
             "name": "Paired combat blades",
-            "modifiers": "sustainedhits1",
+            "modifiers": [
+                "sustained hits 1"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
         }
-    ]
+    ],
+    "wargearAbilities": [
+        {
+            "wargear": "Helix Gauntlet",
+            "ability": "Models in the bearer’s unit have the Feel No Pain 6+ ability."
+        },
+        {
+            "wargear": "Infiltrator Comms Array",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        },
+        {
+            "wargear": "Jump Pack",
+            "ability": "The bearer has a Move characteristic of 12'' and can move over models and terrain features as if they were not there."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone - EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
 }

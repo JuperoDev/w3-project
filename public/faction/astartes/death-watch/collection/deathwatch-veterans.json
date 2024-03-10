@@ -29,6 +29,15 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Boltgun",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
             "name": "Frag cannon",
             "modifiers": [
                 "blast",
@@ -51,11 +60,11 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Infernus heavy bolter - heavy flamer",
@@ -65,11 +74,11 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Long Vigil ranged weapon",
@@ -94,11 +103,11 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Missile launcher - krak",
@@ -107,22 +116,22 @@
             ],
             "range": 48,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Oath of Moment"
+            
         ],
-        "faction": [],
+        "faction": ["Oath of Moment"],
         "otherAbilities": [
             {
-                "name": "Astartes Shield:",
-                "description": "The bearer has a 4+ invulnerable save ."
+                "name": "Death to the Alien",
+                "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead."
             }
         ]
     },
@@ -157,24 +166,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Boltgun",
-            "modifiers": [],
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Infernus heavy bolter – heavy bolter",
-            "modifiers": "heavy,sustainedhits1",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 2
-        },
+        
         {
             "name": "Close combat weapon",
             "modifiers": [],
@@ -231,5 +223,11 @@
             "points": 85
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "wargearAbilities": [
+        {
+            "wargear": "Astartes shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
+    ]
 }

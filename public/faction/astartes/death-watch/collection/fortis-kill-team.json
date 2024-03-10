@@ -16,13 +16,22 @@
         "fortis kill team"
     ],
     "attributes": [
-        {
+        {"name":"kill team intercessor",
             "movement": 6,
             "toughness": 4,
             "save": 3,
             "wounds": 2,
             "leadership": 6,
             "objetiveControl": 1,
+            "invulnerableSave": 0
+        },
+        {"name":"kill team outrider",
+            "movement": 12,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
             "invulnerableSave": 0
         }
     ],
@@ -101,29 +110,29 @@
         {
             "name": "Plasma pistol - standard",
             "modifiers": [
-                "PISTOL"
+                "Pistol"
             ],
             "range": 12,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - supercharge",
             "modifiers": [
-                "HAZARDOUS",
-                "PISTOL"
+                "Hazardous",
+                "Pistol"
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Plasma incinerator - standard",
@@ -135,9 +144,9 @@
             "strength": 7,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma incinerator - supercharge",
@@ -150,9 +159,9 @@
             "strength": 8,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Twin bolt rifle",
@@ -170,26 +179,14 @@
     ],
     "abilities": {
         "core": [
-            "FACTION: Kill Team",
-            "Oath of Moment"
+            
         ],
-        "faction": [],
+        "faction": ["Kill Team",
+        "Oath of Moment"],
         "otherAbilities": [
             {
-                "name": "Every Kill Team Intercessor is equipped with:",
-                "description": "bolt pistol; bolt rifle; close combat weapon."
-            },
-            {
-                "name": "Every Kill Team Intercessor with plasma incinerator is equipped with:",
-                "description": "bolt pistol; plasma incinerator; close combat weapon."
-            },
-            {
-                "name": "Every Kill Team Intercessor with heavy bolt pistol is equipped with:",
-                "description": "heavy bolt pistol; Astartes chainsword."
-            },
-            {
-                "name": "Every Kill Team Outrider is equipped with:",
-                "description": "bolt pistol; twin bolt rifle; Astartes chainsword."
+                "name": "Fortis Doctrines",
+                "description": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
             }
         ]
     },
@@ -220,24 +217,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Plasma pistol – standard",
-            "modifiers": "PISTOL",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
-        {
-            "name": "Plasma incinerator – standard",
-            "modifiers": "assault,heavy",
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
+       
         {
             "name": "Astartes chainsword",
             "modifiers": [],
@@ -285,5 +265,8 @@
             "points": 85
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "wargearAbilities": [
+        
+    ]
 }

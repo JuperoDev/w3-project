@@ -46,11 +46,24 @@
             ],
             "range": 36,
             "strength": 4,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice":true
+        },
+        {
+            "name": "Cyclone missile launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 9,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice":true
         },
         {
             "name": "Heavy flamer",
@@ -73,11 +86,11 @@
             ],
             "range": 36,
             "strength": 7,
-            "attacks": 2,
+            "attacks": "d3",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma cannon - supercharge",
@@ -87,11 +100,11 @@
             ],
             "range": 36,
             "strength": 8,
-            "attacks": 2,
+            "attacks": "d3",
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Storm bolter",
@@ -102,7 +115,7 @@
             "strength": 4,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -146,27 +159,10 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Cyclone missile launcher – frag",
-            "modifiers": "blast",
-            "attacks": "2D6",
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Plasma cannon – standard",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
+       
         {
             "name": "Chainfist",
-            "modifiers": "anti-vehicle3+",
+            "modifiers": ["anti-vehicle 3+"],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -202,7 +198,7 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": "twin-linked",
+            "modifiers": ["twin-linked"],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,
@@ -229,5 +225,11 @@
             "points": 85
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "wargearAbilities": [
+        {
+            "wargear": "Storm Shield",
+            "ability": "The bearer has a Wounds characteristic of 4."
+        }
+    ]
 }

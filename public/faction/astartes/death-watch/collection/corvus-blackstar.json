@@ -59,6 +59,16 @@
             "singleChoice": false
         },
         {
+            "name": "Stormstrike missile launcher",
+            "modifiers": [],
+            "range": 48,
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
             "name": "Twin assault cannon",
             "modifiers": [
                 "devastating wounds",
@@ -79,10 +89,10 @@
             ],
             "range": 48,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         }
     ],
@@ -124,15 +134,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Stormstrike missile launcher",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 10,
-            "armor-penetration": 2,
-            "damage": 3
-        },
+        
         {
             "name": "Armoured hull",
             "modifiers": [],
@@ -162,5 +164,16 @@
             "points": 85
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "wargearAbilities": [
+        {
+            "wargear": "Auspex Array",
+            "ability": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+        },
+        {
+            "wargear": "Infernum Halo-launcher",
+            "ability": "The bearer has the Smoke keyword."
+        }
+    ],
+    "transport":"This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models or one KILL TEAM unit. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION or MOUNTED model takes up the space of 3 models."
 }

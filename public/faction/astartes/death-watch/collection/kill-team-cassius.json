@@ -60,6 +60,16 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Boltpistol",
+            "range": 12,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
             "name": "Boltgun",
             "range": 24,
             "modifiers": [],
@@ -79,19 +89,7 @@
             "damage": 1,
             "ballistic-skills": 3
         },
-        {
-            "name": "Bolt pistol",
-            "modifiers": [
-                "pistol"
-            ],
-            "range": 12,
-            "strength": 4,
-            "attacks": 1,
-            "ballistic-skills": 3,
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false
-        },
+        
         {
             "name": "Frag cannon",
             "modifiers": [
@@ -236,7 +234,7 @@
         },
         {
             "name": "Force weapon",
-            "modifiers": "psychic",
+            "modifiers": ["psychic"],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 5,
@@ -263,7 +261,7 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": "twin-linked",
+            "modifiers": ["twin-linked"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
@@ -290,5 +288,16 @@
             "points": 85
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {},
+    "wargearAbilities": [
+        
+        {
+            "wargear": "Psychic Hood",
+            "ability": "Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+            "wargear": "Jump Pack",
+            "ability": "The bearer has a Move characteristic of 12'' and can move over models and terrain features as if they were not there."
+        }
+    ]
 }

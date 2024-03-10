@@ -15,22 +15,45 @@
         "proteus kill team"
     ],
     "attributes": [
-        {
-            "movement": 6,
-            "toughness": 4,
-            "save": 3,
-            "wounds": 2,
-            "leadership": 6,
-            "objetiveControl": 1,
-            "invulnerableSave": 4
-        }
+        [
+            {
+                "name": "kill team veterans",
+                "movement": 6,
+                "toughness": 4,
+                "save": 3,
+                "wounds": 2,
+                "leadership": 6,
+                "objetiveControl": 1,
+                "invulnerableSave": 0
+            },
+            {
+                "name": "kill team biker",
+                "movement": 12,
+                "toughness": 5,
+                "save": 3,
+                "wounds": 3,
+                "leadership": 6,
+                "objetiveControl": 2,
+                "invulnerableSave": 0
+            },
+            {
+                "name": "kill team terminator",
+                "movement": 5,
+                "toughness": 5,
+                "save": 2,
+                "wounds": 3,
+                "leadership": 6,
+                "objetiveControl": 1,
+                "invulnerableSave": 4
+            }
+        ]
     ],
     "leader": [],
     "rangedWeapons": [
         {
             "name": "Assault cannon",
             "modifiers": [
-                "DEVASTATING WOUNDS"
+                "devastating wounds"
             ],
             "range": 24,
             "strength": 6,
@@ -40,18 +63,40 @@
             "damage": 1,
             "singleChoice": false
         },
+        
         {
-            "name": "Cyclone missile launcher - frag",
+            "name": "Boltgun",
+            "modifiers": [],
+            "range": 24,
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Cyclone missile launcher - krak",
             "modifiers": [
-                "BLAST"
+                
             ],
             "range": 36,
-            "strength": 4,
+            "strength": 9,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
+        },
+        
+        {
+            "name": "Cyclone missile launcher – frag",
+            "range": 36,
+            "modifiers": ["blast"],
+            "attacks": "2D6",
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
         },
         {
             "name": "Frag cannon",
@@ -76,11 +121,11 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Infernus heavy bolter - heavy flamer",
@@ -90,11 +135,11 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "d6",
+            "ballistic-skills":"n/a",
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Heavy flamer",
@@ -123,34 +168,32 @@
             "damage": 1,
             "singleChoice": false
         },
+        
         {
-            "name": "Plasma cannon - standard",
-            "modifiers": [
-                "BLAST",
-                "HEAVY"
-            ],
+            "name": "Plasma cannon – standard",
             "range": 36,
+            "modifiers": ["blast","HEAVY"],
+            "attacks": "D3",
+            "weapons-skills": 4,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma cannon - supercharge",
             "modifiers": [
-                "BLAST",
-                "HAZARDOUS",
+                "blast",
+                "Hazardous",
                 "HEAVY"
             ],
             "range": 36,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Long Vigil ranged weapon",
@@ -182,18 +225,32 @@
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Kill Team",
+        "core": [],
+        "faction": [
+            "Kill Team",
             "Oath of Moment"
         ],
-        "faction": [],
         "otherAbilities": [
             {
-                "name": "Astartes Shield:",
-                "description": "The bearer has a 4+ invulnerable save ."
+                "name": "Proteus Doctrines",
+                "description": "Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll."
             }
         ]
     },
+    "wargearAbilities": [
+        {
+            "wargear": "Astartes Shield",
+            "ability": " The bearer has a 4+ invulnerable save."
+        },
+        {
+            "wargear": "Jump Pack",
+            "ability": "The bearer has a Move characteristic of 12'' and can move over models and terrain features as if they were not there."
+        },
+        {
+            "wargear": "Storm Shield",
+            "ability": "The bearer has a Wounds characteristic of 4."
+        }
+    ],
     "wargear": [
         {
             "description": "Any number of Kill Team Biker models can be  equipped with one of the following",
@@ -242,42 +299,6 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Boltgun",
-            "modifiers": [],
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Cyclone missile launcher – frag",
-            "modifiers": "BLAST",
-            "attacks": "2D6",
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Infernus heavy bolter – heavy bolter",
-            "modifiers": "HEAVY,SUSTAINEDHITS1",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
-            "name": "Plasma cannon – standard",
-            "modifiers": "BLAST,HEAVY",
-            "attacks": "D3",
-            "weapons-skills": 4,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
-        {
             "name": "Close combat weapon",
             "modifiers": [],
             "attacks": 3,
@@ -288,7 +309,9 @@
         },
         {
             "name": "Chainfist",
-            "modifiers": "anti-vehicle3+",
+            "modifiers": [
+                "anti-vehicle 3+"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
@@ -297,7 +320,9 @@
         },
         {
             "name": "Deathwatch thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 10,
@@ -333,7 +358,9 @@
         },
         {
             "name": "Terminator thunder hammer",
-            "modifiers": ["devastating wounds"],
+            "modifiers": [
+                "devastating wounds"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 8,
@@ -342,7 +369,7 @@
         },
         {
             "name": "Twin lightning claws",
-            "modifiers": "twin-linked",
+            "modifiers": ["twin-linked"],
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 5,

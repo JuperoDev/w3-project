@@ -1,5 +1,9 @@
 <template>
-  <NuxtPage />
+  <!-- THIS MIGHT BE PROBLEMATIC. KEEP IT IN MIND  -->
+  <GeneralPurposePasswordProtection>
+    <NuxtPage />
+    
+  </GeneralPurposePasswordProtection>
 </template>
 
 <style>

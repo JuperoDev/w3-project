@@ -16,7 +16,7 @@
       </div>
     </div>
     <div v-if="!!hasEnteredPassword">
-      <slot />
+      <slot></slot>
     </div>
   </div>
 </template>

@@ -1,0 +1,141 @@
+{
+  "parentUnit": "Inquisitor",
+  "factionKeywords": [
+    "agents of the imperium"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "It is the Inquisitors’ task to investigate xenos plots, corruption, mutation, heresy, cults, rogue psykers and anything else they deem worthy of scrutiny. Such is their power, nothing is beyond their authority and no one is beyond their justice. If they deem it necessary, they can order the destruction of entire worlds.",
+  "keywords": [
+    "infantry",
+    "character",
+    "grenades",
+    "imperium",
+    "inquisitor"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 4,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": [
+        "anti-infantry 4+",
+        "devastating wounds",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Psychic Shock Wave",
+      "modifiers": [
+        "devastating wounds",
+        "psychic",
+        "torrent"
+      ],
+      "range": 18,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Assigned Agents"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Authority of the Inquisition:",
+        "description": "While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within."
+      },
+      {
+        "name": "Power of the Rosette:",
+        "description": "Each time you target this model’s unit with a Stratagem , roll one D6: on a 3+, you gain 1CP."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "If this model is equipped with 1 psychic gifts, its Inquisitorial melee weapon can be replaced with 1 force weapon.",
+      "items": []
+    },
+    {
+      "description": "This model’s blessed wardings can be replaced with 1 psychic gifts and 1 Psychic Shock Wave.",
+      "items": []
+    },
+    {
+      "description": "This model’s bolt pistol can be replaced with 1 combi-weapon.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Combi-weapon",
+      "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
+      "attacks": "1",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Inquisitorial melee weapon",
+      "modifiers": "",
+      "attacks": "5",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Force weapon",
+      "modifiers": "psychic",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "D3"
+    }
+  ]
+}

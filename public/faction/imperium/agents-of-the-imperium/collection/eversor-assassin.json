@@ -1,0 +1,96 @@
+{
+  "parentUnit": "Eversor Assassin",
+  "factionKeywords": [
+    "agents of the imperium"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Berserk killers fuelled by unstable chemical stimms, Eversor Assassins are hurricanes of bladed and clawed destruction. They are unleashed as weapons of terror and annihilation, set loose to murder not only their intended target but anyone around them as well.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "grenades",
+    "imperium",
+    "eversor assassin"
+  ],
+  "attributes": {
+    "movement": 9,
+    "toughness": 4,
+    "salvation": 6,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Executioner pistol",
+      "modifiers": [
+        "anti-infantry 3+",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deadly Demise D3",
+      "Lone Operative",
+      "Scouts 9\""
+    ],
+    "faction": [
+      "Assigned Agents"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Frenzon:",
+        "description": "In your Command phase"
+      },
+      {
+        "name": ", select one of the effects below to apply until the start of your next Command phase:",
+        "description": ""
+      },
+      {
+        "name": "Adrenal Surge:",
+        "description": "This model is eligible to shoot and declare a charge in a turn in which it Advanced ."
+      },
+      {
+        "name": "Predatory Focus:",
+        "description": "This model’s weapons have the [PRECISION] ability."
+      },
+      {
+        "name": "Killing Rampage:",
+        "description": "This model’s weapons have the [SUSTAINED HITS 3] ability."
+      },
+      {
+        "name": "Sentinel Array:",
+        "description": "Once per battle round , you can target this model with the Fire Overwatch or Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Power sword and neuro gauntlet",
+      "modifiers": "anti-infantry3+",
+      "attacks": "6",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

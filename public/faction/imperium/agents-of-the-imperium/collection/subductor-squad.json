@@ -1,0 +1,79 @@
+{
+  "parentUnit": "Subductor Squad",
+  "factionKeywords": [
+    "agents of the imperium"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Subductors possess one of the most recognisable – and feared – silhouettes to the Imperium’s criminal classes. Bearing Subjugation-pattern assault shields and crackling shock mauls, they are brutal front-line brawlers capable of crushing the most stubborn dissent.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "retinue",
+    "subductor squad"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 3,
+    "wounds": 1,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Arbites shotpistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Assigned Agents"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Nuncio Aquila (Aura):",
+        "description": "While an enemy unit is within 3\" of the bearer, each time that unit takes a Battle-shock test , subtract 1 from that test."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "The Proctor-Subductor can be equipped with 1 nuncio aquila.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Mechanical bite",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Shock maul",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

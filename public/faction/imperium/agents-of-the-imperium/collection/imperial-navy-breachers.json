@@ -1,0 +1,280 @@
+{
+  "parentUnit": "Imperial Navy Breachers",
+  "factionKeywords": [
+    "agents of the imperium"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Experienced in hazardous boarding actions, these elite Armsmen are aggressive and blunt instruments of their warship’s commander. They wear fully enclosed void armour and wield robust weapons optimised for close-confines fighting, while some carry more specialised gear for cracking enemy bulkheads.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "navis imperialis",
+    "retinue",
+    "imperial navy breachers"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 4,
+    "wounds": 1,
+    "leadership": 8,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Autopistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 3,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Demolition charge",
+      "modifiers": [
+        "assault",
+        "blast",
+        "hazardous",
+        "one shot"
+      ],
+      "range": 6,
+      "strength": 12,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": [
+        "melta 2"
+      ],
+      "range": 12,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Navis heavy shotgun",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Navis shotgun",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma gun - standard",
+      "modifiers": [
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma gun - supercharge",
+      "modifiers": [
+        "hazardous",
+        "rapid fire 1"
+      ],
+      "range": 24,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Assigned Agents"
+    ],
+    "faction": [
+      "Assigned Agents"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Breaching Team:",
+        "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker , you can re-roll the Wound roll instead."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "1 Navis Armsman can be equipped with 1 demolition charge and 1 grenade belts.",
+      "items": []
+    },
+    {
+      "description": "1 Navis Armsman’s Navis las-volley can be replaced with one of the following",
+      "items": [
+        "1 meltagun",
+        "1 plasma gun"
+      ]
+    },
+    {
+      "description": "1 Navis Armsman’s Navis shotgun can be replaced with 1 autopistol and 1 chainfist.",
+      "items": []
+    },
+    {
+      "description": "1 Navis Armsman’s Navis shotgun can be replaced with 1 autopistol and 1 power weapon.",
+      "items": []
+    },
+    {
+      "description": "The Navis Sergeant-at-Arms’ Navis shotgun can be replaced with one of the following",
+      "items": [
+        "1 autopistol and 1 chainsword",
+        "1 bolt pistol and 1 power weapon"
+      ]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Autopistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Bolt pistol",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Demolition charge",
+      "modifiers": "assault,blast,hazardous, one shot",
+      "attacks": "D6+3",
+      "weapons-skills": "4+",
+      "strength": 12,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Meltagun",
+      "modifiers": "melta2",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Navis heavy shotgun",
+      "modifiers": "assault",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Navis las-volley",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Navis shotgun",
+      "modifiers": "assault",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Chainfist",
+      "modifiers": "anti-vehicle3+",
+      "attacks": "1",
+      "weapons-skills": "5+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Power weapon",
+      "modifiers": "",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 2,
+      "damage": "1"
+    },
+    {
+      "name": "Close combat weapon",
+      "modifiers": "",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Chainsword",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    }
+  ]
+}

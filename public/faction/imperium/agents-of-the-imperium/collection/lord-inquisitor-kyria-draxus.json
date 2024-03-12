@@ -1,0 +1,109 @@
+{
+  "parentUnit": "Lord Inquisitor Kyria Draxus",
+  "factionKeywords": [
+    "agents of the imperium"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "An audacious and committed Ordo Xenos Inquisitor, Kyria Draxus is a specialist in hunting Necrons. Radical in her outlook, she accepts the necessity of working with some aliens to protect the Imperium. She has learned about the Necrons from the Aeldari and honed her psychic abilities through xenos, as well as Human, tuition.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "psyker",
+    "grenades",
+    "imperium",
+    "inquisitor",
+    "lord inquisitor kyria draxus"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 3,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Dirgesinger",
+      "modifiers": [
+        "anti-infantry 4+",
+        "assault",
+        "devastating wounds"
+      ],
+      "range": 18,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Psychic Tempest",
+      "modifiers": [
+        "indirect fire",
+        "psychic",
+        "sustained hits 2"
+      ],
+      "range": 18,
+      "strength": 6,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Leader"
+    ],
+    "faction": [
+      "Assigned Agents"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Authority of the Inquisition:",
+        "description": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
+      },
+      {
+        "name": "Xenos Hunter:",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit (excluding IMPERIUM and CHAOS units), add 1 to the Hit roll ."
+      },
+      {
+        "name": "Psychic Veil (Psychic):",
+        "description": "In your Command phase , this PSYKER can use this ability. If it does, roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the start of your next Command phase, this PSYKER ’s unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Dirgesinger",
+      "modifiers": "anti-infantry4+,assault,devastatingwounds",
+      "attacks": "4",
+      "weapons-skills": "3+",
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": "2"
+    },
+    {
+      "name": "Power fist",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    }
+  ]
+}

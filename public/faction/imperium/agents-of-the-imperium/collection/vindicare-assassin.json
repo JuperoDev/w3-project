@@ -1,0 +1,107 @@
+{
+  "parentUnit": "Vindicare Assassin",
+  "factionKeywords": [
+    "agents of the imperium"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "The muffled crack of a Vindicare Assassin’s exitus rifle is all that most ever detect of its presence – that, and the spray of their victim’s brain matter. They are lethal marksmen who find the perfect firing position from which to pinpoint their quarry, while against more numerous foes they swiftly rack up high body counts with shot after expert shot.",
+  "keywords": [
+    "infantry",
+    "character",
+    "epic hero",
+    "smoke",
+    "imperium",
+    "vindicare assassin"
+  ],
+  "attributes": {
+    "movement": 7,
+    "toughness": 4,
+    "salvation": 6,
+    "wounds": 4,
+    "leadership": 6,
+    "objectiveControl": 1,
+    "invulnerableSave": 4
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Exitus pistol",
+      "modifiers": [
+        "devastating wounds",
+        "ignores cover",
+        "pistol",
+        "precision"
+      ],
+      "range": 12,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Exitus rifle",
+      "modifiers": [
+        "devastating wounds",
+        "heavy",
+        "ignores cover",
+        "precision"
+      ],
+      "range": 48,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Lone Operative",
+      "Stealth"
+    ],
+    "faction": [
+      "Assigned Agents"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Deadshot:",
+        "description": "Each time this model makes a ranged attack, if a Critical Hit is scored, add 3 to the Damage characteristic of that attack. After this model has resolved its ranged attacks, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test ."
+      },
+      {
+        "name": "Shieldbreaker:",
+        "description": "Once per battle, when selecting targets for this model’s exitus rifle, it can fire a shieldbreaker round. If it does, until the end of the phase, each time this model makes an attack with that weapon, no saving throws of any kind can be made against that attack."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "None",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Exitus pistol",
+      "modifiers": "devastatingwounds,ignorescover,pistol,precision",
+      "attacks": "3",
+      "weapons-skills": "2+",
+      "strength": 5,
+      "armor-penetration": 2,
+      "damage": "3"
+    },
+    {
+      "name": "Vindicare combat knife",
+      "modifiers": "",
+      "attacks": "4",
+      "weapons-skills": "2+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    }
+  ]
+}

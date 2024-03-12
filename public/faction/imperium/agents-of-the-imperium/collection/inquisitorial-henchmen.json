@@ -1,0 +1,267 @@
+{
+  "parentUnit": "Inquisitorial Henchmen",
+  "factionKeywords": [
+    "agents of the imperium"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "To aid them in their esoteric and complex missions, many Inquisitors maintain retinues of select individuals of rare talent, skill and power. Motley collections of fighters, fanatics, savants and psykers, they work ceaselessly in the shadows to protect the Imperium.",
+  "keywords": [
+    "infantry",
+    "grenades",
+    "imperium",
+    "retinue",
+    "inquisitorial henchmen"
+  ],
+  "attributes": {
+    "movement": 6,
+    "toughness": 3,
+    "salvation": 5,
+    "wounds": 2,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Acolyte firearm",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": [
+        "heavy",
+        "sustained hits 1"
+      ],
+      "range": 36,
+      "strength": 5,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": [
+        "heavy",
+        "melta 2"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - standard",
+      "modifiers": [
+        "blast",
+        "heavy"
+      ],
+      "range": 36,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma cannon - supercharge",
+      "modifiers": [
+        "blast",
+        "hazardous",
+        "heavy"
+      ],
+      "range": 36,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - standard",
+      "modifiers": [
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 7,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Plasma pistol - supercharge",
+      "modifiers": [
+        "hazardous",
+        "pistol"
+      ],
+      "range": 12,
+      "strength": 8,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    },
+    {
+      "name": "Unholy Gaze",
+      "modifiers": [
+        "psychic",
+        "sustained hits d3"
+      ],
+      "range": 18,
+      "strength": 9,
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "armor-penetration": 1,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "FACTION: Assigned Agents"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Every Inquisitorial Acolyte is equipped with:",
+        "description": "Acolyte firearm; Acolyte melee weapon."
+      },
+      {
+        "name": "Every Gun Servitor is equipped with:",
+        "description": "heavy bolter; Acolyte melee weapon."
+      },
+      {
+        "name": "Every Mystic is equipped with:",
+        "description": "Acolyte firearm; Acolyte melee weapon."
+      },
+      {
+        "name": "A Jokaero Weaponsmith is equipped with:",
+        "description": "Jokaero weapons; Acolyte melee weapon."
+      },
+      {
+        "name": "A Daemonhost is equipped with:",
+        "description": "Unholy Gaze; warp grasp."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "1 Gun Servitor’s heavy bolter can be replaced with one of the following",
+      "items": [
+        "1 multi-melta",
+        "1 plasma cannon"
+      ]
+    },
+    {
+      "description": "1 Inquisitorial Acolyte can be equipped with 1 eviscerator.",
+      "items": []
+    },
+    {
+      "description": "1 Inquisitorial Acolyte can be equipped with 1 plasma pistol.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Acolyte firearm",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Heavy bolter",
+      "modifiers": "heavy,sustainedhits1",
+      "attacks": "3",
+      "weapons-skills": "5+",
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Jokaero weapons",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "3+",
+      "strength": 6,
+      "armor-penetration": 1,
+      "damage": "2"
+    },
+    {
+      "name": "Multi-melta",
+      "modifiers": "heavy,melta2",
+      "attacks": "2",
+      "weapons-skills": "5+",
+      "strength": 9,
+      "armor-penetration": 4,
+      "damage": "D6"
+    },
+    {
+      "name": "Plasma cannon – standard",
+      "modifiers": "blast,heavy",
+      "attacks": "D3",
+      "weapons-skills": "5+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Plasma pistol – standard",
+      "modifiers": "pistol",
+      "attacks": "1",
+      "weapons-skills": "4+",
+      "strength": 7,
+      "armor-penetration": 1,
+      "damage": "1"
+    },
+    {
+      "name": "Acolyte melee weapon",
+      "modifiers": "",
+      "attacks": "3",
+      "weapons-skills": "4+",
+      "strength": 3,
+      "armor-penetration": 0,
+      "damage": "1"
+    },
+    {
+      "name": "Eviscerator",
+      "modifiers": "devastatingwounds",
+      "attacks": "2",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "2"
+    },
+    {
+      "name": "Warp grasp",
+      "modifiers": "psychic",
+      "attacks": "4",
+      "weapons-skills": "4+",
+      "strength": 6,
+      "armor-penetration": 2,
+      "damage": "1"
+    }
+  ]
+}

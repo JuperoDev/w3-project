@@ -1,96 +1,118 @@
 {
-  "parentUnit": "Inquisitor Eisenhorn",
-  "factionKeywords": [
-    "agents of the imperium"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Inquisitor Eisenhorn of the Ordo Xenos is a man of great willpower and resolve. He will go to any lengths to preserve the Imperium, and for his actions has been declared a traitor twice – he was found to be loyal on both occasions. Eisenhorn is also a potent telepath, with the power to compel individuals, or even groups, to follow his instructions.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "grenades",
-    "imperium",
-    "inquisitor",
-    "eisenhorn"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Mind Assault",
-      "modifiers": [
-        "devastating wounds",
-        "precision",
-        "psychic",
-        "sustained hits 1"
-      ],
-      "range": 18,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Feel No Pain 6+",
-      "Leader"
+    "parentUnit": "Inquisitor Eisenhorn",
+    "factionKeywords": [
+        "agents of the imperium"
     ],
-    "faction": [
-      "Assigned Agents"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Inquisitor Eisenhorn of the Ordo Xenos is a man of great willpower and resolve. He will go to any lengths to preserve the Imperium, and for his actions has been declared a traitor twice – he was found to be loyal on both occasions. Eisenhorn is also a potent telepath, with the power to compel individuals, or even groups, to follow his instructions.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "grenades",
+        "imperium",
+        "inquisitor",
+        "eisenhorn"
     ],
-    "otherAbilities": [
-      {
-        "name": "Authority of the Inquisition:",
-        "description": "While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within."
-      },
-      {
-        "name": "Malus Codicium:",
-        "description": "While this model is leading a unit, double the Attacks characteristic of weapons equipped by DAEMONHOST models in that unit."
-      },
-      {
-        "name": "Dominate Will (Psychic):",
-        "description": "At the start of your opponent’s Shooting phase , select one enemy INFANTRY unit that is within 12\" of and visible to this model and roll one D6: on a 1, this model suffers D3 mortal wounds ; on a 2-5, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll ; on a 6, until the end of the phase, that unit is not eligible to shoot."
-      }
-    ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Artificer bolt pistol",
-      "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "2"
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Mind Assault",
+            "modifiers": [
+                "devastating wounds",
+                "precision",
+                "psychic",
+                "sustained hits 1"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+",
+            "Leader"
+        ],
+        "faction": [
+            "Assigned Agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Authority of the Inquisition:",
+                "description": "While this model is leading a unit, it can embark within any Transport that its Bodyguard unit can embark within."
+            },
+            {
+                "name": "Malus Codicium:",
+                "description": "While this model is leading a unit, double the Attacks characteristic of weapons equipped by DAEMONHOST models in that unit."
+            },
+            {
+                "name": "Dominate Will (Psychic):",
+                "description": "At the start of your opponent's Shooting phase , select one enemy INFANTRY unit that is within 12\" of and visible to this model and roll one D6: on a 1, this model suffers D3 mortal wounds ; on a 2-5, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll ; on a 6, until the end of the phase, that unit is not eligible to shoot."
+            }
+        ]
     },
-    {
-      "name": "Runestaff and Barbarisater",
-      "modifiers": "psychic",
-      "attacks": "5",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Artificer bolt pistol",
+             "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 2
+        },
+        {
+            "name": "Runestaff and Barbarisater",
+            "modifiers": "psychic",
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ]
 }

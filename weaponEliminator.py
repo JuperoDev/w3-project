@@ -19,5 +19,5 @@ def remove_duplicates(folder_path):
                 json.dump(data, file, indent=4)
                 file.truncate()
 
-folder_path = r"C:\Users\JPR\Documents\GitHub\w3-project\public\faction\xenos\aeldari\collection"  # Change this to the path of your JSON folder
+folder_path = r"C:\Users\JPR\Documents\GitHub\w3-project\public\faction\imperium\agents-of-the-imperium\collection"  # Change this to the path of your JSON folder
 remove_duplicates(folder_path)

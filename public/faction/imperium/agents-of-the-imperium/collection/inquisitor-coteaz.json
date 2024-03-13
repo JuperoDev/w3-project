@@ -1,106 +1,119 @@
 {
-  "parentUnit": "Inquisitor Coteaz",
-  "factionKeywords": [
-    "agents of the imperium"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "A puritan of the Ordo Malleus, Inquisitor Coteaz spends every waking moment studying reports made by his countless agents, or facing down daemons, heretics and aliens in open battle. He refuses to harness the power of the warp for his own ends, wiedling it instead to combat the daemonic and prosecute those who lack purity.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "imperium",
-    "inquisitor",
-    "coteaz"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 2,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Inquisitor Coteaz",
+    "factionKeywords": [
+        "agents of the imperium"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A puritan of the Ordo Malleus, Inquisitor Coteaz spends every waking moment studying reports made by his countless agents, or facing down daemons, heretics and aliens in open battle. He refuses to harness the power of the warp for his own ends, wiedling it instead to combat the daemonic and prosecute those who lack purity.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "imperium",
+        "inquisitor",
+        "coteaz"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Psychic Blast",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Assigned Agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Authority of the Inquisition:",
+                "description": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
+            },
+            {
+                "name": "Malefic Wardings (Psychic):",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and attacks made by Daemon models."
+            },
+            {
+                "name": "Spy Network:",
+                "description": "Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP."
+            }
+        ]
     },
-    {
-      "name": "Psychic Blast",
-      "modifiers": [
-        "anti-infantry 4+",
-        "devastating wounds",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
     ],
-    "faction": [
-      "Assigned Agents"
+    "meleeWeapons": [
+        {
+            "name": "Nemesis daemon hammer",
+            "modifiers": "psychic",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 3,
+            "damage": 3
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Authority of the Inquisition:",
-        "description": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
-      },
-      {
-        "name": "Malefic Wardings (Psychic):",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and attacks made by Daemon models."
-      },
-      {
-        "name": "Spy Network:",
-        "description": "Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP."
-      }
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Bolt pistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Nemesis daemon hammer",
-      "modifiers": "psychic",
-      "attacks": "3",
-      "weapons-skills": "3+",
-      "strength": 9,
-      "armor-penetration": 3,
-      "damage": "3"
-    }
-  ]
 }

@@ -35,19 +35,26 @@ content_to_add = """
             ],
             "points": 85
         }
-    ],
+    ]
 """
 
 # Specify the directory containing the files
-directory = r'C:\Users\JPR\Documents\GitHub\w3-project\public\faction\xenos\tau-empire\collection'
+directory = r'C:\Users\JPR\Documents\GitHub\w3-project\public\faction\imperium\agents-of-the-imperium\collection'
 
 # Iterate through each file in the directory
 for filename in os.listdir(directory):
     if filename.endswith(".json"):  # Assuming the files have a .json extension
         filepath = os.path.join(directory, filename)
-        # Open the file and append the content at the end
-        with open(filepath, 'a') as file:
-            file.write(content_to_add)
+        # Read the content of the file
+        with open(filepath, 'r') as file:
+            file_content = file.read()
+        # Find the index of the last occurrence of '}'
+        last_brace_index = file_content.rfind('}')
+        # Insert the content just before the last brace
+        updated_content = file_content[:last_brace_index] + content_to_add + file_content[last_brace_index:]
+        # Write the updated content back to the file
+        with open(filepath, 'w') as file:
+            file.write(updated_content)
         print(f"Content added to {filename}")
 
 print("All files processed.")

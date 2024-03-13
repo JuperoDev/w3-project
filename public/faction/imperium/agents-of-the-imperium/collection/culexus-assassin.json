@@ -1,76 +1,98 @@
 {
-  "parentUnit": "Culexus Assassin",
-  "factionKeywords": [
-    "agents of the imperium"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "A Culexus Assassin projects an aura of unsettling fear all around them. Their primary targets are psykers, who are wracked with agony from these soulless assassins’ mere presence, and against the arcane blasts of a Culexus’ animus speculum, no witch long survives.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "grenades",
-    "imperium",
-    "culexus assassin"
-  ],
-  "attributes": {
-    "movement": 7,
-    "toughness": 4,
-    "salvation": 6,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Animus speculum",
-      "modifiers": [
-        "anti-psyker 2+",
-        "assault",
-        "precision",
-        "psychic assassin"
-      ],
-      "range": 24,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deep Strike",
-      "Lone Operative",
-      "Stealth"
+    "parentUnit": "Culexus Assassin",
+    "factionKeywords": [
+        "agents of the imperium"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "FACTION:",
-        "description": "Assigned Agents"
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A Culexus Assassin projects an aura of unsettling fear all around them. Their primary targets are psykers, who are wracked with agony from these soulless assassins' mere presence, and against the arcane blasts of a Culexus' animus speculum, no witch long survives.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "grenades",
+        "imperium",
+        "culexus assassin"
+    ],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 4,
+            "salvation": 6,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Animus speculum",
+            "modifiers": [
+                "anti-psyker 2+",
+                "assault",
+                "precision",
+                "psychic assassin"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Lone Operative",
+            "Stealth"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "FACTION:",
+                "description": "Assigned Agents"
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Life-draining touch",
+            "modifiers": "anti-psyker2+,devastatingwounds,precision",
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Life-draining touch",
-      "modifiers": "anti-psyker2+,devastatingwounds,precision",
-      "attacks": "4",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
 }

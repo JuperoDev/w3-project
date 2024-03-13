@@ -1,160 +1,155 @@
 {
-  "parentUnit": "Voidsmen-at-arms",
-  "factionKeywords": [
-    "agents of the imperium"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Voidsmen-at-Arms provide security on the ships of many Rogue Traders. Well drilled and often well equipped, they are highly adept at fighting in vessel corridors and other close-quarters environments.",
-  "keywords": [
-    "infantry",
-    "battleline",
-    "grenades",
-    "imperium",
-    "navis imperialis",
-    "retinue",
-    "voidsmen-at-arms"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 1,
-    "leadership": 8,
-    "objectiveControl": 2,
-    "invulnerableSave": 0
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Artificer shotgun",
-      "modifiers": [
-        "assault"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Lasgun",
-      "modifiers": [
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Laspistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Voidsman rotor cannon",
-      "modifiers": [
-        "heavy",
-        "sustained hits 1"
-      ],
-      "range": 24,
-      "strength": 6,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "FACTION: Assigned Agents"
+    "parentUnit": "Voidsmen-at-arms",
+    "factionKeywords": [
+        "agents of the imperium"
     ],
-    "faction": [],
-    "otherAbilities": [
-      {
-        "name": "The Voidmaster is equipped with:",
-        "description": "artificer shotgun; laspistol; close combat weapon."
-      },
-      {
-        "name": "For every 5 models in this unit, 1 Voidsman is equipped with:",
-        "description": "laspistol; Voidsman rotor cannon; close combat weapon."
-      },
-      {
-        "name": "Every other Voidsman is equipped with:",
-        "description": "lasgun; laspistol; close combat weapon."
-      },
-      {
-        "name": "The Canid is equipped with:",
-        "description": "vicious bite."
-      }
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Voidsmen-at-Arms provide security on the ships of many Rogue Traders. Well drilled and often well equipped, they are highly adept at fighting in vessel corridors and other close-quarters environments.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "imperium",
+        "navis imperialis",
+        "retinue",
+        "voidsmen-at-arms"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 1,
+            "leadership": 8,
+            "objectiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Artificer shotgun",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Voidsman rotor cannon",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Assigned Agents"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "The Voidmaster is equipped with:",
+                "description": "artificer shotgun; laspistol; close combat weapon."
+            },
+            {
+                "name": "For every 5 models in this unit, 1 Voidsman is equipped with:",
+                "description": "laspistol; Voidsman rotor cannon; close combat weapon."
+            },
+            {
+                "name": "Every other Voidsman is equipped with:",
+                "description": "lasgun; laspistol; close combat weapon."
+            },
+            {
+                "name": "The Canid is equipped with:",
+                "description": "vicious bite."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+             "modifiers": [ ],
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Vicious bite",
+             "modifiers": [ ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Artificer shotgun",
-      "modifiers": "assault",
-      "attacks": "2",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "2"
-    },
-    {
-      "name": "Lasgun",
-      "modifiers": "rapidfire1",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Laspistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Vicious bite",
-      "modifiers": "",
-      "attacks": "3",
-      "weapons-skills": "4+",
-      "strength": 4,
-      "armor-penetration": 0,
-      "damage": "1"
-    }
-  ]
 }

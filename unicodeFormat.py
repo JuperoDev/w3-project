@@ -2,7 +2,7 @@ import os
 import json
 
 # Define the directory path
-directory = r"C:\Users\JPR\Documents\GitHub\w3-project\public\faction\astartes\death-watch"
+directory = r"C:\Users\JPR\Documents\GitHub\w3-project\public\faction\imperium\agents-of-the-imperium\collection"
 
 # Function to replace unicode character with apostrophe in JSON
 def replace_unicode_in_json(json_data):

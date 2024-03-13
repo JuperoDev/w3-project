@@ -1,165 +1,160 @@
 {
-  "parentUnit": "Rogue Trader Entourage",
-  "factionKeywords": [
-    "agents of the imperium"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Rogue Traders are daring explorers, ruthless conquerors and cunning merchants, exploring and exploiting the uncharted regions of the galaxy in the name of the Imperium. Their families bear a Warrant of Trade, which helps to identify them as Imperial elites. Some command whole armadas, while others have only a small retinue of followers.",
-  "keywords": [
-    "keywords – all models: infantry",
-    "grenades",
-    "imperium",
-    "navis imperialis",
-    "rogue trader entouragerogue trader: character"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 4,
-    "wounds": 4,
-    "leadership": 6,
-    "objectiveControl": 1,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Dartmask",
-      "modifiers": [
-        "anti-infantry 2+",
-        "pistol",
-        "precision"
-      ],
-      "range": 12,
-      "strength": 2,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Household pistol",
-      "modifiers": [
-        "devastating wounds",
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 5,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Laspistol",
-      "modifiers": [
-        "pistol"
-      ],
-      "range": 12,
-      "strength": 3,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    },
-    {
-      "name": "Voltaic pistol",
-      "modifiers": [
-        "pistol",
-        "sustained hits 2"
-      ],
-      "range": 12,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Infiltrators",
-      "Leader"
+    "parentUnit": "Rogue Trader Entourage",
+    "factionKeywords": [
+        "agents of the imperium"
     ],
-    "faction": [
-      "Assigned Agents"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Rogue Traders are daring explorers, ruthless conquerors and cunning merchants, exploring and exploiting the uncharted regions of the galaxy in the name of the Imperium. Their families bear a Warrant of Trade, which helps to identify them as Imperial elites. Some command whole armadas, while others have only a small retinue of followers.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "grenades",
+        "imperium",
+        "navis imperialis",
+        "rogue trader entouragerogue trader: character"
     ],
-    "otherAbilities": [
-      {
-        "name": "Backroom Deals:",
-        "description": "While this unit is leading a unit, models in that unit have the Infiltrators ability."
-      },
-      {
-        "name": "Warrant of Trade:",
-        "description": "If your army includes one or more units with this ability, after players have deployed, select D3 IMPERIUM BATTLELINE units from your army and redeploy them. You can use this ability to place those selected units into Strategic Reserves , regardless of how many units are already in Strategic Reserves. If both players have abilities that redeploy units, roll off the winner chooses who redeploys units first."
-      }
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Dartmask",
+            "modifiers": [
+                "anti-infantry 2+",
+                "pistol",
+                "precision"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": "D3",
+            "singleChoice": false
+        },
+        {
+            "name": "Household pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Voltaic pistol",
+            "modifiers": [
+                "pistol",
+                "sustained hits 2"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Leader"
+        ],
+        "faction": [
+            "Assigned Agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Backroom Deals:",
+                "description": "While this unit is leading a unit, models in that unit have the Infiltrators ability."
+            },
+            {
+                "name": "Warrant of Trade:",
+                "description": "If your army includes one or more units with this ability, after players have deployed, select D3 IMPERIUM BATTLELINE units from your army and redeploy them. You can use this ability to place those selected units into Strategic Reserves , regardless of how many units are already in Strategic Reserves. If both players have abilities that redeploy units, roll off the winner chooses who redeploys units first."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+             "modifiers": [ ],
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Death Cult power blade",
+            "modifiers": "precision",
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Monomolecular cane-rapier",
+             "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Dartmask",
-      "modifiers": "anti-infantry2+,pistol,precision",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 2,
-      "armor-penetration": 1,
-      "damage": "D3"
-    },
-    {
-      "name": "Household pistol",
-      "modifiers": "devastatingwounds,pistol",
-      "attacks": "2",
-      "weapons-skills": "3+",
-      "strength": 5,
-      "armor-penetration": 2,
-      "damage": "2"
-    },
-    {
-      "name": "Laspistol",
-      "modifiers": "pistol",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Close combat weapon",
-      "modifiers": "",
-      "attacks": "1",
-      "weapons-skills": "4+",
-      "strength": 3,
-      "armor-penetration": 0,
-      "damage": "1"
-    },
-    {
-      "name": "Death Cult power blade",
-      "modifiers": "precision",
-      "attacks": "5",
-      "weapons-skills": "2+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "1"
-    },
-    {
-      "name": "Monomolecular cane-rapier",
-      "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 1,
-      "damage": "1"
-    }
-  ]
 }

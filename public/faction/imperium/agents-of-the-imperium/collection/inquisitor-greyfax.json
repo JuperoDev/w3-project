@@ -1,111 +1,124 @@
 {
-  "parentUnit": "Inquisitor Greyfax",
-  "factionKeywords": [
-    "agents of the imperium"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Inquisitor Greyfax is feared even by many in her own order, the Ordo Hereticus. Devoid of mercy or remorse, she is an iron-willed warrior. She is also a powerful psyker, with telepathic abilities that enable her to detect lies in those she questions. Some brand Greyfax a dangerous radical for this, but her commitment to the Imperium is undeniable.",
-  "keywords": [
-    "infantry",
-    "character",
-    "epic hero",
-    "psyker",
-    "grenades",
-    "imperium",
-    "inquisitor",
-    "greyfax"
-  ],
-  "attributes": {
-    "movement": 6,
-    "toughness": 3,
-    "salvation": 3,
-    "wounds": 4,
-    "leadership": 4,
-    "objectiveControl": 1,
-    "invulnerableSave": 5
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Castigation",
-      "modifiers": [
-        "anti-character 4+",
-        "devastating wounds",
-        "precision",
-        "psychic"
-      ],
-      "range": 18,
-      "strength": 8,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
+    "parentUnit": "Inquisitor Greyfax",
+    "factionKeywords": [
+        "agents of the imperium"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Inquisitor Greyfax is feared even by many in her own order, the Ordo Hereticus. Devoid of mercy or remorse, she is an iron-willed warrior. She is also a powerful psyker, with telepathic abilities that enable her to detect lies in those she questions. Some brand Greyfax a dangerous radical for this, but her commitment to the Imperium is undeniable.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "psyker",
+        "grenades",
+        "imperium",
+        "inquisitor",
+        "greyfax"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "salvation": 3,
+            "wounds": 4,
+            "leadership": 4,
+            "objectiveControl": 1,
+            "invulnerableSave": 5
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Castigation",
+            "modifiers": [
+                "anti-character 4+",
+                "devastating wounds",
+                "precision",
+                "psychic"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Condemnor stake",
+            "modifiers": [
+                "anti-psyker 2+",
+                "devastating wounds",
+                "precision",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Assigned Agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Authority of the Inquisition:",
+                "description": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
+            },
+            {
+                "name": "Psyoculum:",
+                "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ANTI-PSYKER 4+] ability."
+            },
+            {
+                "name": "No Escape:",
+                "description": "Each time an enemy unit (excluding MONSTER and VEHICLE units) that is within Engagement Range of one or more units with this ability is selected to Fall Back , models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked . When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+            }
+        ]
     },
-    {
-      "name": "Condemnor stake",
-      "modifiers": [
-        "anti-psyker 2+",
-        "devastating wounds",
-        "precision",
-        "rapid fire 1"
-      ],
-      "range": 24,
-      "strength": 4,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Leader"
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
     ],
-    "faction": [
-      "Assigned Agents"
+    "meleeWeapons": [
+        {
+            "name": "Master-crafted power sword",
+             "modifiers": [ ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 2
+        }
     ],
-    "otherAbilities": [
-      {
-        "name": "Authority of the Inquisition:",
-        "description": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
-      },
-      {
-        "name": "Psyoculum:",
-        "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ANTI-PSYKER 4+] ability."
-      },
-      {
-        "name": "No Escape:",
-        "description": "Each time an enemy unit (excluding MONSTER and VEHICLE units) that is within Engagement Range of one or more units with this ability is selected to Fall Back , models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked . When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
-      }
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Castigation",
-      "modifiers": "anti-character4+,devastatingwounds,precision,psychic",
-      "attacks": "1",
-      "weapons-skills": "3+",
-      "strength": 8,
-      "armor-penetration": 2,
-      "damage": "3"
-    },
-    {
-      "name": "Master-crafted power sword",
-      "modifiers": "",
-      "attacks": "4",
-      "weapons-skills": "3+",
-      "strength": 4,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
 }

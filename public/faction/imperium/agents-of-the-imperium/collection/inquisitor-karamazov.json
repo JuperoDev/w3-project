@@ -1,78 +1,100 @@
 {
-  "parentUnit": "Inquisitor Karamazov",
-  "factionKeywords": [
-    "agents of the imperium"
-  ],
-  "damaged": {},
-  "supremeCommander": false,
-  "lore": "Inquisitor Karamazov is amongst the most ruthless and uncompromising of the Ordo Hereticus. His actions have no guile or subterfuge, and he has no time for clemency. Karamazov has led vast crusading armies, as well as presided over the trials of heretics from his Throne of Judgement – an ancient bipedal battle-shrine.",
-  "keywords": [
-    "vehicle",
-    "walker",
-    "character",
-    "epic hero",
-    "imperium",
-    "inquisitor",
-    "karamazov"
-  ],
-  "attributes": {
-    "movement": 5,
-    "toughness": 8,
-    "salvation": 3,
-    "wounds": 9,
-    "leadership": 6,
-    "objectiveControl": 3,
-    "invulnerableSave": 4
-  },
-  "leader": [],
-  "rangedWeapons": [
-    {
-      "name": "Master-crafted multi-melta",
-      "modifiers": [
-        "melta 3"
-      ],
-      "range": 18,
-      "strength": 10,
-      "attacks": 2,
-      "ballistic-skills": 3,
-      "armor-penetration": 1,
-      "damage": 1,
-      "singleChoice": false
-    }
-  ],
-  "abilities": {
-    "core": [
-      "Deadly Demise 1"
+    "parentUnit": "Inquisitor Karamazov",
+    "factionKeywords": [
+        "agents of the imperium"
     ],
-    "faction": [
-      "Assigned Agents"
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Inquisitor Karamazov is amongst the most ruthless and uncompromising of the Ordo Hereticus. His actions have no guile or subterfuge, and he has no time for clemency. Karamazov has led vast crusading armies, as well as presided over the trials of heretics from his Throne of Judgement – an ancient bipedal battle-shrine.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "character",
+        "epic hero",
+        "imperium",
+        "inquisitor",
+        "karamazov"
     ],
-    "otherAbilities": [
-      {
-        "name": "Throne of Judgement (Aura):",
-        "description": "While a friendly unit is within 6\" of this model, add 1 to Battle-shock and Leadership tests taken for that unit. While an enemy unit is within 6\" of this model, subtract 1 from Battle-shock and Leadership tests taken for that enemy unit."
-      },
-      {
-        "name": "Dread Reputation:",
-        "description": "At the start of your Shooting phase , select one enemy unit within 12\" of this model. That unit must take a Battle-shock test ."
-      }
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 8,
+            "salvation": 3,
+            "wounds": 9,
+            "leadership": 6,
+            "objectiveControl": 3,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Master-crafted multi-melta",
+            "modifiers": [
+                "melta 3"
+            ],
+            "range": 18,
+            "strength": 10,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1"
+        ],
+        "faction": [
+            "Assigned Agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Throne of Judgement (Aura):",
+                "description": "While a friendly unit is within 6\" of this model, add 1 to Battle-shock and Leadership tests taken for that unit. While an enemy unit is within 6\" of this model, subtract 1 from Battle-shock and Leadership tests taken for that enemy unit."
+            },
+            {
+                "name": "Dread Reputation:",
+                "description": "At the start of your Shooting phase , select one enemy unit within 12\" of this model. That unit must take a Battle-shock test ."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "None",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Master-crafted power sword",
+             "modifiers": [ ],
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": " Adrax Agatone � EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " Drakkis",
+                "Malleus Noctum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
     ]
-  },
-  "wargear": [
-    {
-      "description": "None",
-      "items": []
-    }
-  ],
-  "meleeWeapons": [
-    {
-      "name": "Master-crafted power sword",
-      "modifiers": "",
-      "attacks": "6",
-      "weapons-skills": "3+",
-      "strength": 6,
-      "armor-penetration": 2,
-      "damage": "2"
-    }
-  ]
 }

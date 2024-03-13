@@ -1,6 +1,6 @@
 {
     "parentUnit": "Culexus Assassin",
-    "factionKeywords": [
+    "factionKeyword": [
         "agents of the imperium"
     ],
     "damaged": {},
@@ -50,12 +50,16 @@
             "Lone Operative",
             "Stealth"
         ],
-        "faction": [],
+        "faction": ["Assigned Agents"],
         "otherAbilities": [
             {
-                "name": "FACTION:",
-                "description": "Assigned Agents"
-            }
+                "name": "Abomination",
+                "description": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            },
+            {
+              "name": "Soulless Horror (Aura)",
+              "description": "While an enemy unit is within 6'' of this model, worsen that unit’s Leadership characteristic by 1, or by 2 instead if that unit is a PSYKER. In addition, once per battle, at the start of any Command phase, this model can use this ability. If it does, each enemy unit within 6'' of this model must take a Battle-shock test."
+          }
         ]
     },
     "wargear": [

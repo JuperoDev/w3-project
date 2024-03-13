@@ -64,15 +64,12 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+       
     ],
     "meleeWeapons": [
         {
             "name": "Phase sword and poison blades",
-            "modifiers": "lethalhits,precision",
+            "modifiers": ["lethal hits","precision"],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 5,

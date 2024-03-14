@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Inquisitor Karamazov is amongst the most ruthless and uncompromising of the Ordo Hereticus. His actions have no guile or subterfuge, and he has no time for clemency. Karamazov has led vast crusading armies, as well as presided over the trials of heretics from his Throne of Judgement – an ancient bipedal battle-shrine.",
+    "lore": "Inquisitor Karamazov is amongst the most ruthless and uncompromising of the Ordo Hereticus. His actions have no guile or subterfuge, and he has no time for clemency. Karamazov has led vast crusading armies, as well as presided over the trials of heretics from his Throne of Judgement \u2013 an ancient bipedal battle-shrine.",
     "keywords": [
         "vehicle",
         "walker",
@@ -35,10 +35,10 @@
             ],
             "range": 18,
             "strength": 10,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         }
     ],
@@ -60,13 +60,11 @@
             }
         ]
     },
-    "wargear": [
-       
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Master-crafted power sword",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 6,
             "weapons-skills": 3,
             "strength": 6,
@@ -77,7 +75,7 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": " Adrax Agatone \ufffd EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

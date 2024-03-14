@@ -7,7 +7,7 @@
     "supremeCommander": false,
     "lore": "Rogue Traders are daring explorers, ruthless conquerors and cunning merchants, exploring and exploiting the uncharted regions of the galaxy in the name of the Imperium. Their families bear a Warrant of Trade, which helps to identify them as Imperial elites. Some command whole armadas, while others have only a small retinue of followers.",
     "keywords": [
-        "keywords – all models: infantry",
+        "keywords \u2013 all models: infantry",
         "grenades",
         "imperium",
         "navis imperialis",
@@ -15,10 +15,21 @@
     ],
     "attributes": [
         {
+            "name": "rogue trader",
             "movement": 6,
             "toughness": 3,
             "save": 4,
             "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        },
+        {
+            "name": "rogue trader specialist",
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 2,
             "leadership": 6,
             "objetiveControl": 1,
             "invulnerableSave": 4
@@ -76,9 +87,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
             "singleChoice": false
         }
@@ -102,13 +113,11 @@
             }
         ]
     },
-    "wargear": [
-       
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Close combat weapon",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 1,
             "weapons-skills": 4,
             "strength": 3,
@@ -126,7 +135,7 @@
         },
         {
             "name": "Monomolecular cane-rapier",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 4,
@@ -137,7 +146,7 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": " Adrax Agatone \ufffd EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -152,6 +161,12 @@
                 1
             ],
             "points": 85
+        }
+    ],
+    "wargearAbilities": [
+        {
+            "wargear": "Healing Serum",
+            "abilities": "Models in the bearer\u2019s unit have the Feel No Pain 5+ ability."
         }
     ]
 }

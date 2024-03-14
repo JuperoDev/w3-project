@@ -40,15 +40,25 @@
             "singleChoice": false
         },
         {
+            "name": "Arbites grenade launcher \u2013 krak",
+            "range": 24,
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "D3"
+        },
+        {
             "name": "Arbites grenade launcher - frag",
             "modifiers": [
                 "blast"
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -101,22 +111,22 @@
             ],
             "range": 12,
             "strength": 2,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Assigned Agents"
+        "core": [],
+        "faction": [
+            "Assigned Agents"
         ],
-        "faction": [],
         "otherAbilities": [
             {
-                "name": "Arbites Medi-kit:",
-                "description": "Models in the bearer's unit have the Feel No Pain 5+ ability."
+                "name": "Imperial Law",
+                "description": "At the start of the first battle round, select one enemy unit to be this unit\u2019s quarry. Each time a model in this unit makes an attack that targets its quarry, add 1 to the Hit roll."
             }
         ]
     },
@@ -149,17 +159,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Arbites grenade launcher – krak",
-             "modifiers": [ ],
-            "attacks": 1,
-            "weapons-skills": 4,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": "D3"
-        },
-        {
             "name": "Close combat weapon",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 3,
@@ -168,7 +169,7 @@
         },
         {
             "name": "Excruciator maul",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 4,
@@ -177,7 +178,7 @@
         },
         {
             "name": "Mechanical bite",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 4,
@@ -188,7 +189,7 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": " Adrax Agatone \ufffd EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -203,6 +204,20 @@
                 1
             ],
             "points": 85
+        }
+    ],
+    "wargearAbilities": [
+        {
+            "wargear": "Nuncio Aquila (Aura)",
+            "abilities": "While an enemy unit is within 3'' of the bearer, each time that unit takes a Battle-shock test, subtract 1 from that test."
+        },
+        {
+            "wargear": "Arbites Medi-kit",
+            "abilities": "Models in the bearer\u2019s unit have the Feel No Pain 5+ ability."
+        },
+        {
+            "wargear": "Soulguilt Scanner",
+            "abilities": "Ranged weapons equipped by models in the bearer\u2019s unit have the [IGNORES COVER] ability."
         }
     ]
 }

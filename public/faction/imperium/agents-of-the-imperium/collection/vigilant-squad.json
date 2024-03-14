@@ -47,11 +47,24 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Arbites grenade launcher \u2013 krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Arbites shotpistol",
@@ -102,22 +115,22 @@
             ],
             "range": 12,
             "strength": 2,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Assigned Agents"
+        "core": [],
+        "faction": [
+            "Assigned Agents"
         ],
-        "faction": [],
         "otherAbilities": [
             {
-                "name": "Nuncio Aquila (Aura):",
-                "description": "While an enemy unit is within 3\" of the bearer, each time that unit takes a Battle-shock test , subtract 1 from that test."
+                "name": "Merciless Judgement",
+                "description": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
             }
         ]
     },
@@ -138,17 +151,8 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Arbites grenade launcher – frag",
-            "modifiers": "blast",
-            "attacks": "D3",
-            "weapons-skills": 4,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
             "name": "Close combat weapon",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 3,
@@ -157,7 +161,7 @@
         },
         {
             "name": "Mechanical bite",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 4,
@@ -168,7 +172,7 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": " Adrax Agatone \ufffd EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -183,6 +187,12 @@
                 1
             ],
             "points": 85
+        }
+    ],
+    "wargearAbilities": [
+        {
+            "wargear": "Nuncio Aquila (Aura)",
+            "abilities": "While an enemy unit is within 3'' of the bearer, each time that unit takes a Battle-shock test, subtract 1 from that test."
         }
     ]
 }

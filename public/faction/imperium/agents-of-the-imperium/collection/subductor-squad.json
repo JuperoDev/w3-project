@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Subductors possess one of the most recognisable – and feared – silhouettes to the Imperium's criminal classes. Bearing Subjugation-pattern assault shields and crackling shock mauls, they are brutal front-line brawlers capable of crushing the most stubborn dissent.",
+    "lore": "Subductors possess one of the most recognisable \u2013 and feared \u2013 silhouettes to the Imperium's criminal classes. Bearing Subjugation-pattern assault shields and crackling shock mauls, they are brutal front-line brawlers capable of crushing the most stubborn dissent.",
     "keywords": [
         "infantry",
         "grenades",
@@ -33,22 +33,22 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
-        "core": [
-            "FACTION: Assigned Agents"
+        "core": [],
+        "faction": [
+            "Dedication to Duty"
         ],
-        "faction": [],
         "otherAbilities": [
             {
-                "name": "Nuncio Aquila (Aura):",
-                "description": "While an enemy unit is within 3\" of the bearer, each time that unit takes a Battle-shock test , subtract 1 from that test."
+                "name": "Dedication to Duty",
+                "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model\u2019s unit has finished making its attacks, and is then removed from play."
             }
         ]
     },
@@ -61,7 +61,7 @@
     "meleeWeapons": [
         {
             "name": "Mechanical bite",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 4,
@@ -70,7 +70,7 @@
         },
         {
             "name": "Shock maul",
-             "modifiers": [ ],
+            "modifiers": [],
             "attacks": 2,
             "weapons-skills": 4,
             "strength": 4,
@@ -81,7 +81,7 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": " Adrax Agatone \ufffd EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -96,6 +96,12 @@
                 1
             ],
             "points": 85
+        }
+    ],
+    "wargearAbilities": [
+        {
+            "wargear": "Nuncio Aquila (Aura)",
+            "abilities": "While an enemy unit is within 3'' of the bearer, each time that unit takes a Battle-shock test, subtract 1 from that test."
         }
     ]
 }

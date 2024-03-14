@@ -26,7 +26,10 @@
             "invulnerableSave": 5
         }
     ],
-    "leader": [],
+    "leader": [
+        "Inquisitorial Henchmen",
+        " IMPERIUM BATTLELINE INFANTRY"
+    ],
     "rangedWeapons": [
         {
             "name": "Bolt pistol",
@@ -50,10 +53,10 @@
             ],
             "range": 18,
             "strength": 3,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -79,13 +82,13 @@
             }
         ]
     },
-    "wargear": [
-       
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Nemesis daemon hammer",
-            "modifiers": "psychic",
+            "modifiers": [
+                "psychic"
+            ],
             "attacks": 3,
             "weapons-skills": 3,
             "strength": 9,
@@ -96,7 +99,7 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": " Adrax Agatone \ufffd EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

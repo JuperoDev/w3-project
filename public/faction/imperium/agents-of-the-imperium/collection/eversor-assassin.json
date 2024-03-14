@@ -54,7 +54,7 @@
         "otherAbilities": [
             {
                 "name": "Frenzon:",
-                "description": "In your Command phase"
+                "description": "In your Command phase, select one until next /// Adrenal Surge: This model is eligible to shoot and declare a charge in a turn in which it Advanced./// Predatory Focus: This model\u2019s weapons have the [PRECISION] ability./// Killing Rampage: This model\u2019s weapons have the [SUSTAINED HITS 3] ability."
             },
             {
                 "name": "Sentinel Array:",
@@ -62,13 +62,13 @@
             }
         ]
     },
-    "wargear": [
-       
-    ],
+    "wargear": [],
     "meleeWeapons": [
         {
             "name": "Power sword and neuro gauntlet",
-            "modifiers": ["anti-infantry3+"],
+            "modifiers": [
+                "anti-infantry3+"
+            ],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 5,
@@ -79,7 +79,7 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": " Adrax Agatone \ufffd EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [

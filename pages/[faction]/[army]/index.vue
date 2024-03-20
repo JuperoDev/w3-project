@@ -157,28 +157,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Add transparency to the background */
 
-/* Apply a blur effect to the background */
-.collection-container {
-  /* background-image: url('https://www.wargamer.com/wp-content/sites/wargamer/2023/05/warhammer-40k-10th-edition-world-eaters-art.jpg'); */
-
-  /* top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; */
-}
-
-.inner-container {
-  /* height: 500px;
-  width: 700px; */
-}
-
-div {
-}
-
-img {
-}
 
 .collection-container {
   max-width: 1000px;

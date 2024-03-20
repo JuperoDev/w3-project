@@ -41,7 +41,7 @@
 
           <!-- detachment -->
 
-          <!-- <div class="detachment-container px-10">
+           <div class="detachment-container px-10 mb-10">
             <div class="flex items-center justify-center">
               <h2 class="text-3xl text-zinc-800 font-bebas">Detachments</h2>
             </div>
@@ -54,11 +54,16 @@
                 :key="detachment"
               >
                 <nuxt-link :to="generateDetachment(faction, army, detachment)">
-                  <v-btn>{{ detachment }}</v-btn>
+                  <v-btn>
+                <p class="w-48 lg:w-60"
+                >
+                  {{ detachment }}
+                </p>
+              </v-btn>
                 </nuxt-link>
               </div>
             </div>
-          </div> -->
+          </div> 
 
 
         </div>
@@ -71,6 +76,9 @@
 
       <!-- unit list  -->
       <div class="unit-list">
+        <div class="flex items-center justify-center">
+              <h2 class="text-3xl text-zinc-800 font-bebas">Units</h2>
+            </div>
         <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">
           <div v-for="unit in armyData.units" :key="unit" class="m-5">
             <nuxt-link :to="generateLink(faction, army, unit)">

@@ -2,7 +2,7 @@
   <div>
     <v-dialog width="500">
       <template v-slot:activator="{ props }">
-        <v-btn v-if="unitStore.elements.length > 0" v-bind="props" text="Saved"> </v-btn>
+        <v-btn v-if="unitStore.elements.length > 0" v-bind="props" >Favorite Units</v-btn>
       </template>
 
       <template v-slot:default="{ isActive }">

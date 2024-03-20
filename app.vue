@@ -2,7 +2,7 @@
   <!-- THIS MIGHT BE PROBLEMATIC. KEEP IT IN MIND  -->
    <GeneralPurposePasswordProtection>
     <NuxtPage />
-    
+    <!-- <RouterView /> -->
    </GeneralPurposePasswordProtection> 
 </template>
 

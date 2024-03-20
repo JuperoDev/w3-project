@@ -1,0 +1,116 @@
+{
+    "detachmentName": "realspace riders",
+    "detachmentRule": [
+        {
+            "name": "realspace riders",
+            "lore": "The three factions of the Drukhari are constantly vying for supremacy, each convinced beyond doubt of their own innate superiority. This struggle manifests during their realspace raids as a frenzy of murderously sadistic competition.",
+            "description": "At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Crucible of Malediction",
+            "points": 10,
+            "lore": "When opened, the souls of tortured psykers spew outward, driving any nearby warp-wielders insane.",
+            "description": "HAEMONCULUS model only. Once per battle, at the start of any Shooting phase, the bearer can use this Enhancement. When it does, every enemy unit within 12'' must take a Battle-shock test, subtracting 1 from that test if the bearer’s unit is currently Empowered. Each time a PSYKER unit fails this test, it suffers D3 mortal wounds."
+        },
+        {
+            "name": "Labyrinthine Cunning",
+            "points": 30,
+            "lore": "This Archon has a mind like steel traps, assimilating every detail of a situation.",
+            "description": "Archon model only. Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 3 to the result if the Stratagem being used is Alliance of Agony. On a 4+, you gain 1 Command Point."
+        },
+        {
+            "name": "Blood Dancer",
+            "points": 20,
+            "lore": "This Succubus is renowned for their expertise at close-quarters combat within the arenas of Commorragh. The skills they display before the baying crowds on the blood-soaked sands are equally deadly on the battlefield.",
+            "description": "SUCCUBUS model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+        },
+        {
+            "name": "The Art of Pain",
+            "points": 25,
+            "lore": "Some Drukhari elevate their battle plans to another level by creating a spectacle of torment that maims and cripples every foe in order to draw out the moment of the kill, heightening the pleasure they derive before the fatal blow falls.",
+            "description": "DRUKHARI model only. In your Command phase, if the bearer is on the battlefield, you gain 1 Pain token."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "bloodguard impulse",
+            "subindex": "epic deed stratagem",
+            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
+            "when": "Any phase.",
+            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "reclaim biomass",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
+            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
+            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
+            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "tyrannoformed",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
+            "when": " Command phase.",
+            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
+            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "ablative carapace",
+            "subindex": "epic deed stratagem",
+            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "when": "Your Movement phase.",
+            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "secure biomass",
+            "subindex": "strategic ploy stratagem",
+            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
+            "when": "Fight phase.",
+            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "rapacious hunger",
+            "subindex": "battle tactic stratagem",
+            "lore": "The hunger of the Tyranids can never be satiated.",
+            "when": "Your Fight phase.",
+            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
+            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

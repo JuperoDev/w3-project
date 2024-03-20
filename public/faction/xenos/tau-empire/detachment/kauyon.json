@@ -1,0 +1,117 @@
+{
+    "detachmentName": "kauyon",
+    "detachmentRule": [
+        {
+            "name": "kauyon",
+            "lore": "The tactical philosophy known as the Kauyon allows for T’au commanders to draw the enemy into a deadly trap, springing it at the prefect moment to deliver a storm of fatal strikes against which none can escape.",
+            "description": "From the third battle round onwards, all ranged weapons equipped by T’AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability. While a unit is a Guided unit (see For the Greater Good), weapons in that unit have the [SUSTAINED HITS 2] ability instead.",
+            "restrictions":["If your army includes any ETHEREAL units, it cannot include a COMMANDER FARSIGHT model.", "If your army includes a COMMANDER FARSIGHT model, it cannot include any ETHEREAL units."]
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Exemplar of the Kauyon",
+            "points": 15,
+            "lore": "Long meditation upon the tenets of the Patient Hunter has seen this warrior master the application of this cunning ambush strategy. When they take to the battlefield, they embody the teachings of the Kauyon, much to the dismay of their luckless prey.",
+            "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, that unit’s Kauyon Detachment rule takes effect from the second battle round onwards instead of the third."
+        },
+        {
+            "name": "Precision of the Patient Hunter",
+            "points": 20,
+            "lore": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
+            "description": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well."
+        },
+        {
+            "name": "Puretide Engram Neurochip",
+            "points": 25,
+            "lore": "Commander Puretide was undoubtedly the most gifted T’au war leader of all time. The T’au were unwilling to lose his tactical and strategic brilliance, and upon his death, his mind was scanned and his accumulated memories committed to a holostorage personality unit on his birth world of Dal’yth. A sliver of that genius has been crafted into a neurochip. When surgically implanted into the brain of a Fire Caste Commander, the bearer can access much of the wisdom of Puretide himself, drawing upon a great reservoir of tactical acumen.",
+            "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). Once per turn, you can use a Stratagem on the bearer’s unit, even if you have already used that Stratagem on a different unit this phase."
+        },
+        {
+            "name": "Through Unity, Devastation",
+            "points": 20,
+            "lore": "Having studied every nuance of the art of applied mass-firepower, this warrior has mastered its deployment. Under their calm tutelage and stern gaze, warriors of the Fire Caste maximise every shot they fire, creating a blizzard of deadly-accurate energy that can pick apart even the most heavily armoured targets.",
+            "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "bloodguard impulse",
+            "subindex": "epic deed stratagem",
+            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
+            "when": "Any phase.",
+            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "reclaim biomass",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
+            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
+            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
+            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "tyrannoformed",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
+            "when": " Command phase.",
+            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
+            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "ablative carapace",
+            "subindex": "epic deed stratagem",
+            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "when": "Your Movement phase.",
+            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "secure biomass",
+            "subindex": "strategic ploy stratagem",
+            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
+            "when": "Fight phase.",
+            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "rapacious hunger",
+            "subindex": "battle tactic stratagem",
+            "lore": "The hunger of the Tyranids can never be satiated.",
+            "when": "Your Fight phase.",
+            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
+            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

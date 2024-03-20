@@ -3,7 +3,7 @@
     <input
       v-model="searchQuery"
       type="text"
-      placeholder="Search"
+      placeholder="Search Unit"
       class="bg-gray-100"
       @input="onSearch"
       @blur="onBlur"

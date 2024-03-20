@@ -1,8 +1,8 @@
 <template>
         <div class="enhacements">
-      <h3 class="text-3xl mt-5">Enhacements</h3>
+      <h3 class="text-2xl font-bebas mt-5 px-3">Enhacements</h3>
       <div class="" v-for="enhacement in enhacements">
-        <div class="enhacement--element font-semibold">
+        <div class="enhacement--element font-semibold ">
           {{ enhacement.name }}
           {{ enhacement.points }}
         </div>

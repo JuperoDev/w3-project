@@ -1,46 +1,46 @@
 {
-    "detachmentName": "rad-cohort",
+    "detachmentName": "data-psalm conclave",
     "detachmentRule": [
         {
-            "name": "rad-bombardment",
-            "lore": "Whether as a result of natural phenomena, apocalyptic internecine strife or calamitous accidents, many forge worlds are heavily irradiated. When holy wars of requisition are unleashed, the Tech-Priests think nothing of turning this invisible curse upon their foes, bombarding the battlefield with deadly radiation prior to an assault.",
-            "description": "At the start of the first battle round, select one of the following Hyper-adaptations to be active for TYRANIDS units from your army until the end of the battle:"
+            "name": "benedictions of the omnissiah",
+            "lore": "The Tech-Priests of the Omnissiah lead their disciples in a cortege of war. The buzz of static psalms chanted in synchronicity unites all in the stately eradication of the heretic and blasphemer.",
+            "description": "At the start of the first battle round, select one of the following Benedictions of the Omnissiah to be active for CULT MECHANICUS units from your army until the end of the battle:"
         }
     ],
     "enhacements": [
         {
-            "name": "Archived Purge Protocols",
+            "name": "Mechanicus Locum",
             "points": 10,
-            "lore": "Having witnessed the rad-bombardment of a hundred battlefields, this experienced commander can call upon the minutiae of those servo-recorded conflicts, feeding adjusted protocols into the data-nets of their warriors, granting them a hyper-predictive combat awareness to perfectly defeat the foe as they stumble out from their irradiated positions.",
-            "description": "SKITARII MARSHAL model only. At the start of the battle round, you can select one friendly SKITARII unit within 12'' of the bearer. Until the start of the next battle round, if the Protector Imperative is active for your army, the Conqueror Imperative is active for that unit instead, and if the Conqueror Imperative is active for your army, the Protector Imperative is active for that unit instead."
+            "lore": "Amongst every congregation of Tech-Priests are masters of arcane knowledge - inspirational leaders of the cybernetic and the mechanical.",
+            "description": "TECH-PRIEST model only. The bearer has a Leadership characteristic of 6+ and, once per battle, at the start of any phase, you can select one friendly CULT MECHANICUS unit that is Battle-shocked and within 12'' of the bearer. That unit is no longer Battle-shocked."
         },
         {
-            "name": "Excoriating Emanation",
-            "points": 25,
-            "lore": "This devoted follower of the Machine God is wreathed in a dense, radioactive fog that shrouds their allies from the sights and scanners of the foe.",
-            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
+            "name": "Mantle Of the Gnosticarch",
+            "points": 15,
+            "lore": "The toughened weave of this hooded robe includes hypo-ceramic threads, thermoplastics and terranic polymers that create a holy shroud capable of resisting the infernos of plasma reactors.",
+            "description": "TECH-PRIEST model only. Each time an attack is allocated to the bearer, change the Damage characteristic of that attack to 1."
         },
         {
-            "name": "Master Annihilator",
-            "points": 35,
-            "lore": "With a mind blissfully unsullied by the passions common to the flesh, this zealot has become a peerless annihilator, commanding ruthless technology to eliminate all life before them. So blessed, they impart the detached logic of their priorities unto their minions.",
-            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-        },
-        {
-            "name": "Omni-steriliser",
+            "name": "Data-blessed Autosermon",
             "points": 20,
-            "lore": "This weapon exemplifies the Adeptus Mechanicus' disdain for organic life. All flesh, blood and bone caught in its searing beams are reduced to inert atoms in an instant.",
-            "description": "ADEPTUS MECHANICUS model only. Add 3 to the Attacks characteristic of the bearer’s ranged weapons. In addition, the bearer’s ranged weapons have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities."
+            "lore": "Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom.",
+            "description": "TECH-PRIEST model only. Once per battle, at the start of your Command phase, you can select the Benediction of the Omnissiah you did not select at the start of the first battle round. Until the start of your next Command phase, that Benediction of the Omnissiah is active for the bearer’s unit in addition to the one that is currently active for your army."
+        },
+        {
+            "name": "Temporcopia",
+            "points": 25,
+            "lore": "The Temporcopia is a relic from the Dark Age of Technology that releases a swarm of nano-engineered machines. These invisible devices seek out nearby prey, briefly draining electro-chemical potential before their power expires. Enemy warriors slow and stumble, at the mercy of the Tech-Priest’s bodyguard.",
+            "description": "TECH-PRIEST model only. The bearer’s unit has the Fights First ability"
         }
     ],
     "stratagems": [
         {
-            "name": "rapid regeneration",
+            "name": "incantation of the iron soul",
             "subindex": "battle tactic stratagem",
-            "lore": "Prey stare in horror as chitinous armour regrows and flesh, muscle and sinew knots back together.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead.",
+            "lore": "Raising their voices in binharic praise, the Machine God's disciples bolster their spirits - as well as those that inhabit their augmentations - with iron surety.",
+            "when": "Any phase, just after you allocate a mortal wound to a CULT MECHANICUS model from your army.",
+            "target": "That CULT MECHANICUS model’s unit.",
+            "effect": "Until the end of the phase, CULT MECHANICUS models in your unit have the Feel No Pain 4+ ability against mortal wounds.",
             "icon": [
                 ""
             ],
@@ -48,7 +48,7 @@
             "color": "green"
         },
         {
-            "name": "adrenal surge",
+            "name": "chant of the remorseless fist",
             "subindex": "battle tactic stratagem",
             "lore": "These warrior organisms destroy all as their adrenaline surges.",
             "when": "Fight phase.",

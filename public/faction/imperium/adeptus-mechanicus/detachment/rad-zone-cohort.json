@@ -1,0 +1,116 @@
+{
+    "detachmentName": "rad-zone cohort",
+    "detachmentRule": [
+        {
+            "name": "rad-bombardment",
+            "lore": "Whether as a result of natural phenomena, apocalyptic internecine strife or calamitous accidents, many forge worlds are heavily irradiated. When holy wars of requisition are unleashed, the Tech-Priests think nothing of turning this invisible curse upon their foes, bombarding the battlefield with deadly radiation prior to an assault.",
+            "description": "At the start of the first battle round, for each enemy unit within your opponents deployment zone, your opponent must decide whether that unit will take cover or stand firm. You then roll one D6 for each of those enemy units and apply the relevant result below: TENGO QUE DARLE FORMATO AL HTML NO ME JUSGUEN"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Radial Suffusion",
+            "points": 25,
+            "lore": "By transmitting their precision battlefield observations, this servant of the Omnissiah ensures the saturation of the enemy position is a creeping curse, spreading a hazardous suffusion towards those foes seeking to outrun the vengeance of the Machine God.",
+            "description": "ADEPTUS MECHANICUS model only. From the second battle round onwards, when resolving the Fallout effect of the Rad-bombardment Detachment rule, if the bearer is on the battlefield, roll one D6 for each enemy unit within 6'' of your opponent’s deployment zone, in addition to those that are within your opponent’s deployment zone."
+        },
+        {
+            "name": "Malphonic Susurrus",
+            "points": 20,
+            "lore": "This master of splintered choruses leads their followers in a projection of clashing frequencies. Scanners and sensoriums trained in their direction are befouled by the disruptive input.",
+            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
+        },
+        {
+            "name": "Peerless Eradicator",
+            "points": 20,
+            "lore": "This perfectionist zealot directs their minions in the rapid and single-minded termination of all enemies of the Omnissiah.",
+            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+            "name": "Autoclavic Denunciation",
+            "points": 15,
+            "lore": "This devotee harbours a fanatical hatred of the biological. They have learned the secret weaknesses inherent in all flesh and do not hesitate to exploit them.",
+            "description": "ADEPTUS MECHANICUS model only. Ranged weapons equipped by the bearer have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Baleful halo",
+            "subindex": "battle tactic stratagem",
+            "lore": "By briefly unshielding the most corrosive or irradiated components of their being, the warriors of a Rad-Zone Corps can exhale on isotopic fog, sapping the strength of those not inured to its effects.",
+            "when": "Fight phase, just after an enemy unit has selected its targets. ",
+            "target": "One ADEPTUS MECHANICUS unit from your army (excluding VEHICLE units) that was selected as the target of one or more of that enemy unit’s attacks. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6'' of it.",
+            "effect": "Until the end of the turn, each time an attack is made that targets your unit, subtract 1 from the Wound roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "extincion order",
+            "subindex": "strategic ploy stratagem",
+            "lore": "As Tech-Priests order the purge of an area of the battlefield, rad-bombardments are redoubled in the hopes of turning it into a wasteland.",
+            "when": "Your Command phase.",
+            "target": "One TECH-PRIEST model from your army and one objective marker within 24'' of that model.",
+            "effect": "Roll one D6 for each enemy unit within range of that objective marker. On a 4+, that unit suffers 1 mortal wound and it must take a Battle-shock test.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "aggresor imperative",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Skitarii feel the press of an invisible hand upon their minds as the Machine God drives them forward. Servos are pushed to their structural limits as fibre bundles fill with the boundless energy of the Motive Force and propel the faithful on an unstoppable crusade.",
+            "when": "Your Movement phase.",
+            "target": "One SKITARII unit from your army that has not been selected to move this phase. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6'' of it.",
+            "effect": "Until the end of the phase, each time one of those units Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in that unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "pre-calibrated purge solution",
+            "subindex": "battle tactic stratagem",
+            "lore": "Employing targeting data collated by a swarm of servo-skulls released over the enemy's battle lines, the Machine God’s faithful purge the foe stumbling amidst rad-scourged positions.",
+            "when": "Your Shooting phase.",
+            "target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to shoot this phase. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6'' of it.",
+            "effect": "Until the end of the phase, each time a model in one of those units makes a ranged attack, if the target of that attack is within your opponent’s deployment zone, you can re-roll the Hit roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "lethal dosage",
+            "subindex": "wargear stratagem",
+            "lore": "Tri-fold sanctified power cells, fue l canisters and solid slugs have spent a decade in the most irradiated forge temple to certify their lethality.",
+            "when": "Your Shooting phase.",
+            "target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "bulwark imperative",
+            "subindex": "battle tactic stratagem",
+            "lore": "With a pulse of force-loaded wisdom, microactuators lock into bracing positions, reserve power cells are brought online and the Omnissiah's holy crusaders are bestowed with a sensation of sacred invulnerability.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One SKITARII unit from your army that was selected as the target of one or more of the attacking unit’s attacks. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6'' of it.",
+            "effect": "Until the end of the phase, models in those units from your army have a 4+ invulnerable save.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "red"
+        }
+    ]
+}

@@ -21,9 +21,9 @@
     </div>
 
 
+    <DetachmentsDesktopStratagems :stratagems="collectionData.stratagems"/> 
     <DetachmentsDesktopEnhacements :enhacements="collectionData.enhacements"/> 
-  <!-- 
-  <DetachmentsDesktopStratagems :stratagems="collectionData.stratagems"/> -->
+   
   </div>
 
   <div v-if="!collectionData">

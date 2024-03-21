@@ -50,23 +50,23 @@
         {
             "name": "chant of the remorseless fist",
             "subindex": "battle tactic stratagem",
-            "lore": "These warrior organisms destroy all as their adrenaline surges.",
+            "lore": "In spitting out a staccato chant to the Motive Force, the faithful warriors of the Cult Mechanicus are filled with merciless surety as well as intent.",
             "when": "Fight phase.",
-            "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army and are eligible to fight, or one other TYRANIDS unit from your army that is eligible to fight.",
-            "effect": "Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+            "target": "One CULT MECHANICUS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a CULT MECHANICUS model in your unit makes a melee attack, add 1 to the Wound roll.",
             "icon": [
                 ""
             ],
-            "cp": 2,
+            "cp": 1,
             "color": "green"
         },
         {
-            "name": "death frenzy",
+            "name": "verse of vengeance",
             "subindex": "strategic ploy stratagem",
-            "lore": "Tyranids care nothing for self-preservation, lashing out even in death.",
+            "lore": "Rousing code in binharic duometer incites fury for the lost fragments of technological lore. In the grip of vengeance, the devoted extend their remaining functions for one last act of retribution.",
             "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+            "target": "One CULT MECHANICUS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a CULT MECHANICUS model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
             "icon": [
                 ""
             ],
@@ -74,26 +74,12 @@
             "color": "green"
         },
         {
-            "name": "overrun",
+            "name": "tribute of emphatic veneration",
             "subindex": "strategic ploy stratagem",
-            "lore": "Tyranids in battle form an unstoppable avalanche of flesh and chitin that buries the foe alive.",
-            "when": "Fight phase, just before a TYRANIDS unit from your army Consolidates.",
-            "target": "That TYRANIDS unit.",
-            "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3'' as long as your unit can end that move within Engagement Range of one or more enemy units. If your unit is within Synapse Range of your army and not within Engagement Range of any enemy units, instead of making that Consolidation move, it can make a Normal move of up to 6''",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "predatory imperative",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Guided by the instincts of leader-beasts, the swarm can be tasked with focusing its hunting instincts.",
-            "when": "Your Command phase.",
-            "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.",
-            "effect": "Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
-            "restrictions": "You cannot select the same Hyper-adaptation you selected at the start of the first battle round.",
+            "lore": "A cacophonous chorale pours from the emitters and augmented throats of the Cult Mechanicus’ faithful, venerating the Omnissiah in deafening and disconcerting frequencies of praise.",
+            "when": "Start of your Movement phase.",
+            "target": "One CULT MECHANICUS unit from your army and one enemy unit within 18'' of it. ",
+            "effect": "That enemy unit must take a Battle-shock test. If that test is failed, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
             "icon": [
                 ""
             ],
@@ -101,17 +87,30 @@
             "color": "blue"
         },
         {
-            "name": "endless swarm",
+            "name": "litany of the electromancer",
             "subindex": "strategic ploy stratagem",
-            "lore": "As the battle rages, more organisms pour in to bolster the swarms.",
-            "when": "Your Command phase.",
-            "target": "Up to two ENDLESS MULTITUDE units from your army that are within Synapse Range of your army, or one other ENDLESS MULTITUDE unit from your army.",
-            "effect": "You can return up to D3+3 destroyed models to each of the selected units.",
+            "lore": "Summoning the spark of the Machine God's divinity that burns within them, the Omnissiah’s faithful manifest blazing auras of energy that lay low the unbeliever.",
+            "when": "Your Shooting phase.",
+            "target": "One CULT MECHANICUS unit from your army.",
+            "effect": "Roll one D6 for each enemy unit within 6'' of one or more CULT MECHANICUS models in your unit, adding 1 to the result if that model is an ELECTRO-PRIEST. On a 5+, that enemy unit suffers D3 mortal wounds.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
+        },
+        {
+            "name": "luminescent blessing",
+            "subindex": "battle tactic stratagem",
+            "lore": "As the cohorts of the Omnissiah recite their dazzling consecration, energy is redirected to infuse masterwork bionics and even the lambent glow of protective fields ignites in a halo of divine defence.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One CULT MECHANICUS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, CULT MECHANICUS models in your unit have a 4+ invulnerable save.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         }
     ]
 }

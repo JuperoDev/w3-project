@@ -1,36 +1,36 @@
 {
-    "detachmentName": "rad-cohort",
+    "detachmentName": "explorator maniple",
     "detachmentRule": [
         {
-            "name": "rad-bombardment",
-            "lore": "Whether as a result of natural phenomena, apocalyptic internecine strife or calamitous accidents, many forge worlds are heavily irradiated. When holy wars of requisition are unleashed, the Tech-Priests think nothing of turning this invisible curse upon their foes, bombarding the battlefield with deadly radiation prior to an assault.",
-            "description": "At the start of the first battle round, select one of the following Hyper-adaptations to be active for TYRANIDS units from your army until the end of the battle:"
+            "name": "acquisition at any cost",
+            "lore": "In their eternal quest for the acquisition of knowledge and technology, Tech-Priests require superhuman efforts from the troops under their command.",
+            "description": "At the start of your Command phase, select one objective marker. Until the start of your next Command phase, that objective marker is your Acquisition objective marker. Each time an ADEPTUS MECHANICUS model from your army makes an attack, if that model’s unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
         }
     ],
     "enhacements": [
         {
-            "name": "Archived Purge Protocols",
-            "points": 10,
-            "lore": "Having witnessed the rad-bombardment of a hundred battlefields, this experienced commander can call upon the minutiae of those servo-recorded conflicts, feeding adjusted protocols into the data-nets of their warriors, granting them a hyper-predictive combat awareness to perfectly defeat the foe as they stumble out from their irradiated positions.",
-            "description": "SKITARII MARSHAL model only. At the start of the battle round, you can select one friendly SKITARII unit within 12'' of the bearer. Until the start of the next battle round, if the Protector Imperative is active for your army, the Conqueror Imperative is active for that unit instead, and if the Conqueror Imperative is active for your army, the Protector Imperative is active for that unit instead."
+            "name": "Magos",
+            "points": 15,
+            "lore": "Magi are masters of fiercely guarded knowledge, pursuing esoteric agendas at all costs. No risk is too great and no gambit too unwise in their ceaseless and predatory acquisition of ancient lore.",
+            "description": "TECH-PRIEST model only. At the end of your Command phase, if the bearer is within range of your Acquisition objective marker, roll one D6: on a 4+, you gain 1CP."
         },
         {
-            "name": "Excoriating Emanation",
+            "name": "Genetor",
             "points": 25,
-            "lore": "This devoted follower of the Machine God is wreathed in a dense, radioactive fog that shrouds their allies from the sights and scanners of the foe.",
-            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
+            "lore": "Cyborg interfaces, genetic manipulation and alchemical behavioural modification are all avenues of interest to Genetors, and their enhanced creations are formidable in protecting their master’s divine work.",
+            "description": "TECH-PRIEST model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, models in that unit have a 4+ invulnerable save."
         },
         {
-            "name": "Master Annihilator",
-            "points": 35,
-            "lore": "With a mind blissfully unsullied by the passions common to the flesh, this zealot has become a peerless annihilator, commanding ruthless technology to eliminate all life before them. So blessed, they impart the detached logic of their priorities unto their minions.",
-            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-        },
-        {
-            "name": "Omni-steriliser",
+            "name": "Logis",
             "points": 20,
-            "lore": "This weapon exemplifies the Adeptus Mechanicus' disdain for organic life. All flesh, blood and bone caught in its searing beams are reduced to inert atoms in an instant.",
-            "description": "ADEPTUS MECHANICUS model only. Add 3 to the Attacks characteristic of the bearer’s ranged weapons. In addition, the bearer’s ranged weapons have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities."
+            "lore": "Data-vores and biocogitators, logi amass huge stores of information. They analyse data from thousands of sources, rationalising every weak point the foe has. It is a fool indeed that stands before a logi and their prize.",
+            "description": "TECH-PRIEST model only. While the bearer is leading a unit, each time a model in that unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
+        },
+        {
+            "name": "Artisan",
+            "points": 15,
+            "lore": "Artisans create wondrous artefacts of war. They install circuits of such beauty, and capacitor-nodes of such fine calibration, that their machine spirits respond with divine gratitude.",
+            "description": "TECH-PRIEST model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, once per phase, you can change the result of one Hit roll, one Wound roll or one saving throw made for that unit to an unmodified 6."
         }
     ],
     "stratagems": [

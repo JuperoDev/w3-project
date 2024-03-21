@@ -1,0 +1,116 @@
+{
+    "detachmentName": "berzerker warband",
+    "detachmentRule": [
+        {
+            "name": "relentless rage",
+            "lore": "The World Eaters fight in a perpetual fury, driven ever onwards to slaughter all who stand in their way. All of their warriors have been subject to horrific psycho-surgery, implanted with crude devices that amplify their aggression, while some also submit to possession by the raging daemons of the Blood God. Whatever drives their berserk rage, these warriors only stop killing when every foe lies in ruin at their feet – and sometimes not even then.",
+            "description": "Each time a WORLD EATERS unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Favoured of Khorne",
+            "points": 20,
+            "lore": "This warrior has the favour of Khorne; the Blood God seems to aid him in his slaughter with a portion of his own power.",
+            "description": "WORLD EATERS model only. Once per battle, when you make a Blessings of Khorne roll, before doing anything else, the bearer can use this Enhancement. If it does, discard all of the dice from that roll and make a new Blessings of Khorne roll. This new roll does not count as a re-roll, so any rules that enable you to re-roll or manipulate individual dice (e.g. Icon of Khorne) can still be used."
+        },
+        {
+            "name": "Berzerker Glaive",
+            "points": 25,
+            "lore": "The bearer of this daemon-infested weapon is driven to a state of apoplectic frenzy by the proximity of its red-hot steel.",
+            "description": "WORLD EATERS model only. Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+            "name": "Helm of Brazen Ire",
+            "points": 25,
+            "lore": "This helm is forged from unbreakable brass from the Blood God’s own throne. Any who seek to take the bearer’s skull find that their blades break upon it.",
+            "description": "WORLD EATERS model only. Each time an attack is allocated to the bearer, halve the Damage characteristic of that attack."
+        },
+        {
+            "name": "Battle-lust",
+            "points": 15,
+            "lore": "This veteran killer’s lust for battle draws him into any and all fights, his thirst driving him to new heights of battlefield frenzy.",
+            "description": "WORLD EATERS model only. You can select the bearer’s unit for the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "gory massacre",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Those who witness the massacres inflicted by the World Eaters flee to avoid being the next victims.",
+            "when": "Fight phase.",
+            "target": "One WORLD EATERS unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.",
+            "effect": "In your opponent’s next Command phase, each enemy unit within 6'' of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "for the skull throne!",
+            "subindex": "battle tactic stratagem",
+            "lore": "Khorne rewards those who test their might against the strongest foes, blessing the greatest warriors with his favour.",
+            "when": "Fight phase.",
+            "target": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "for the blood god!",
+            "subindex": "battle tactic stratagem",
+            "lore": "When blood spills, the blessings of the Blood God are bountiful.",
+            "when": "Fight phase, just after a WORLD EATERS unit from your army destroys an enemy unit.",
+            "target": "That WORLD EATERS unit.",
+            "effect": "Make a Blessings of Khorne roll. You can use the results of this roll to activate one Blessing of Khorne. That Blessing of Khorne does not count towards your maximum number of activated Blessings of Khorne, but all other rules for Blessings of Khorne apply.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "khorne cares not",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Khorne cares not from whence the blood flows, so long as it flows, and mere flesh wounds will not stay the wrath of the World Eaters.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One WORLD EATERS unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "blood offering",
+            "subindex": "epic deed stratagem",
+            "lore": "The blood of Khorne’s devoted warriors is still blood, and when the battleground runs red, it is still a worthy addition to the Blood God’s domain.",
+            "when": "Any phase.",
+            "target": "One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "apoplectic frenzy",
+            "subindex": "battle tactic stratagem",
+            "lore": "Those who fight for Khorne are driven to even greater depths of rage, surging towards the foe in a barely controlled tide.",
+            "when": "Your Movement phase.",
+            "target": "One WORLD EATERS unit from your army that has not been selected to move this phase.",
+            "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in your unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

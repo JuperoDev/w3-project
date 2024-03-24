@@ -1,0 +1,116 @@
+{
+    "detachmentName": "assimilation swarm",
+    "detachmentRule": [
+        {
+            "name": "templar vows",
+            "lore": "On the eve of battle, the warriors of a Black Templars crusade gather together to be led in prayer and contemplation by their Chaplains. In their righteous zeal, united in their hatred of the foe, they swear a mighty vow to uphold in the battle ahead.",
+            "description": "At the start of the first battle round, select one of the four Templar Vows below to be active for ADEPTUS ASTARTES units from your army until the end of the battle."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Archangel’s Shard",
+            "points": 25,
+            "lore": "When Sanguinius battled Horus, his magnificent blade was tragically shattered against the Warmaster’s profane battle plate. The shards were gathered up and new swords forged to incorporate them, each one gifted to a different successor Chapter.",
+            "description": "ADEPTUS ASTARTES model only. The bearer’s melee weapons have the [ANTI-CHAOS 5+] and [LANCE] abilities."
+        },
+        {
+            "name": "Artisan of War",
+            "points": 20,
+            "lore": "This warrior is a true artist both on and off the battlefield. His talents are reflected in the exquisite workmanship of his wargear, for he insists upon personally crafting his weapons of war.",
+            "description": "ADEPTUS ASTARTES model only. Improve the Armour Penetration characteristic of the bearer’s weapons by 1, and the bearer has a Save characteristic of 2+."
+        },
+        {
+            "name": "Icon of the Angel",
+            "points":10,
+            "lore": "Entrusted to one whose faith in the primogenitor is profound, the Icon of the Angel takes the form of a small shrine upon the bearer’s backpack. Through displaying it, this warrior reminds his brothers of the heretics who fled after laying low the Angel, exhorting them to let no enemy escape their grasp again.",
+            "description": "ADEPTUS ASTARTES model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of the bearer’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+            "name": "Visage of Death",
+            "points": 15,
+            "lore": "This exquisitely crafted mask is a thing of dark beauty to the Blood Angels, and a sign of impending doom to their enemies. The unchanging expression of the mask inspires fear and uncertainty even in confident enemies. They see no anger, pain or elation on the wearer’s face – clues as to the warrior’s state of mind in a duel.",
+            "description": "ADEPTUS ASTARTES model only. While an enemy unit (excluding MONSTERS and VEHICLES) is within Engagement Range of the bearer’s unit, halve the Objective Control characteristic of models in that unit."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "angel's sacrifice",
+            "subindex": "epic deed stratagem",
+            "lore": "The Blood Angels would gladly put themselves in harm’s way to protect others, exemplifying the sacrifice of Sanguinius.",
+            "when": "Any phase.",
+            "target": "One ADEPTUS ASTARTES CHARACTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Until the end of the battle, each time a friendly ADEPTUS ASTARTES unit makes an attack that targets the enemy unit that just destroyed your CHARACTER unit, you can re-roll the Hit roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Armour of contempt",
+            "subindex": "battle tactic stratagem",
+            "lore": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
+            "when": " Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "aggresive onslaught",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Sons of Sanguinius constantly push towards new foes, the bloodlust singing in their veins unleashed in a controlled dynamism.",
+            "when": "Fight phase.",
+            "target": "One ADEPTUS ASTARTES unit from your army, just before that unit Consolidates.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6'' instead of up to 3'', provided your unit ends that Consolidation move in Unit Coherency and within Engagement Range of one or more enemy units.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "red rampage",
+            "subindex": "battle tactic stratagem",
+            "lore": "In times of great desperation, fury and ferocity can be a warrior’s strongest allies.",
+            "when": "Fight phase.",
+            "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] and [LETHAL HITS] abilities.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "only in death does duty end",
+            "subindex": "epic deed stratagem",
+            "lore": "Imminent death does not prevent a Space Marine from enacting his final justice upon the enemies of the Imperium.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "relentless assault",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The Blood Angels are loathe to resort to the defensive strategies favoured by other Chapters, and a tactical withdrawal is but a prelude to re-entering the fray.",
+            "when": "Your Movement phase, just after an ADEPTUS ASTARTES unit from your army Falls Back.",
+            "target": "That ADEPTUS ASTARTES unit.",
+            "effect": "Until the end of the turn, your unit is eligible to declare a charge even though it Fell Back this phase.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

@@ -35,82 +35,85 @@
     ],
     "stratagems": [
         {
-            "name": "bloodguard impulse",
+            "name": "prey on the weak",
             "subindex": "epic deed stratagem",
-            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
-            "when": "Any phase.",
-            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "reclaim biomass",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
-            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
-            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
-            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "tyrannoformed",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
-            "when": " Command phase.",
-            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
-            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "ablative carapace",
-            "subindex": "epic deed stratagem",
-            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "when": "Your Movement phase.",
-            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
-            "icon": [
-                ""
-            ],
-            "cp": 2,
-            "color": "green"
-        },
-        {
-            "name": "secure biomass",
-            "subindex": "strategic ploy stratagem",
-            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
-            "when": "Fight phase.",
-            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "rapacious hunger",
-            "subindex": "battle tactic stratagem",
-            "lore": "The hunger of the Tyranids can never be satiated.",
-            "when": "Your Fight phase.",
-            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
-            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+            "lore": "The scent of a foe in pain draws Drukhari to it like hungry predators to an injured beast, their senses sharpening at its tang.",
+            "when": "Your Shooting phase.",
+            "target": "One KABAL unit from your army and one enemy unit that is Below Half-strength.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
+        },
+        {
+            "name": "strike and fade",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Drukhari are masters at using hit-and-run tactics, engaging a target with a flurry of shots before quickly manoeuvring into cover or out of sight.",
+            "when": "End of your Shooting phase.",
+            "target": "One DRUKHARI unit from your army (excluding AIRCRAFT).",
+            "effect": "Your unit can immediately make a Normal move.",
+            "restrictions":"Until the end of the turn, your unit is not eligible to declare a charge and that unit cannot embark within a TRANSPORT at the end of this move.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "blue"
+        },
+        {
+            "name": "acrobatic display",
+            "subindex": "epic deed stratagem",
+            "lore": "Many Wych Cults favour spectacular gymnastic displays. Their fighters are never still, springing from one foot to the other at blinding speed.",
+            "when": "Your Charge phase.",
+            "target": "One WYCH CULT unit from your army.",
+            "effect": "Until the end of the phase, your unit is eligible to declare a charge even if it Fell Back or Advanced this turn.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "alliance of agony",
+            "subindex": "epic deed stratagem",
+            "lore": "Even the most bloodthirsty Drukhari will veil their enmity to work together against a shared enemy for the same gruesome purpose.",
+            "when": "Start of any phase.",
+            "target": "One ARCHON, one SUCCUBUS and one HAEMONCULUS from your army.",
+            "effect": "Discard one Pain token from your Pain token pool. Until the end of the phase, all three of those models’ units are Empowered.",
+            "restrictions":"You can only use this Stratagem if you are able to select all three of the target models stated above.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "quicksilver reactions",
+            "subindex": "battle tactic stratagem",
+            "lore": "The hyper-fast reflexes of the Drukhari allow them to duck and weave to avoid all but the swiftest enemy strikes.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One DRUKHARI unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack that targets your unit, subtract 1 from the Hit roll.",
+            "restrictions":"You cannot target a HAEMONCULUS COVENS unit from your army for this Stratagem.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "insensible to pain",
+            "subindex": "battle tactic stratagem",
+            "lore": "The twisted creations of the Haemonculus Covens are insensible to all but the most mortal injuries.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         }
     ]
 }

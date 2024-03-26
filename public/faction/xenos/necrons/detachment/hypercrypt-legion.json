@@ -2,9 +2,9 @@
     "detachmentName": "hypercrypt legion",
     "detachmentRule": [
         {
-            "name": "feed the swarm",
-            "lore": "Even as the beasts of the Assimilation Swarm stalk across the battlefield they make use of the abundant biomass yielded up by the prey worlds slow demise. Warrior organisms heal even the most grievous wounds in moments, or stagger upright and return to the fight after they seemed slain. A strain of revolting vitality flows through the Tyranid broods as though leeched direct from their dismayed victims.",
-            "description": "In your Command phase, each HARVESTER unit from your army that is within range of an objective marker you control can Regenerate one friendly TYRANIDS unit that is within 6'' of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:"
+            "name": "hyperphasing",
+            "lore": "Employing fractal corridors, dolmen gates and ancient translocation science, the Necrons are able to phase in and out of existence. Nowhere is safe for the terrified foe as mechanoid hunters appear from unfolding planar lattices to slaughter or escape retribution into gulfs of darkness, only to materialise elsewhere to kill anew.",
+            "description": "At the end of your opponents turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:"
         }
     ],
     "enhacements": [
@@ -15,45 +15,32 @@
             "description": "NECRONS model only. While the bearer is on the battlefield or in Strategic Reserves, add one to the number of units from your army that you can select for the Hyperphasing rule."
         },
         {
-            "name": "Instinctive defence",
+            "name": "Arisen Tyrant",
             "points": 25,
             "lore": "This ancient being will suffer no threats to their rule, stepping imperiously from twisting nightmare dimensions to annihilate any who dare to oppose them.",
+            "description": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. If the bearer’s unit was set up on the battlefield this turn, you can re-roll the Hit roll instead."
+        },
+        {
+            "name": "Hyperspatial Transfer Node",
+            "points": 15,
+            "lore": "Wound with filaments of temporal circuitry, this amulet enables the bearer to accelerate themselves and their closest guardians in stuttering bursts of compressed time.",
             "description": "NECRONS model only. Each time the bearer’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in the bearer’s unit."
         },
         {
-            "name": "Biophagic Flow (Aura)",
-            "points": 15,
+            "name": "Osteoclave Fulcrum",
+            "points": 20,
             "lore": "This hypermaterial key unlocks portals between transpatial dimensions embedded into a tomb’s architecture. Through such limitless doorways, the Necrons can pursue their quarry wherever they hide.",
             "description": "NECRONS model only. Models in the bearer’s unit have the Deep Strike ability."
-        },
-        {
-            "name": "Parasitic Biomorphology",
-            "points": 20,
-            "lore": "These warrior organisms boast additional fanged maws, jabbing probosci and haemophagic membranes that consume the fluids of their prey.",
-            "description": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6'' of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
         }
     ],
     "stratagems": [
         {
-            "name": "bloodguard impulse",
-            "subindex": "epic deed stratagem",
-            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
-            "when": "Any phase.",
-            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "reclaim biomass",
+            "name": "hyperphasic recall",
             "subindex": "strategic ploy stratagem",
-            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
-            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
-            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
-            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
+            "lore": "Obeying recall protocols, threatened tomb defenders will phase out of existence, only to be relocated to a more advantageous position by the tomb's hulking Monoliths.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has shot or fought.",
+            "target": "One NECRONS INFANTRY unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks and one friendly MONOLITH model.",
+            "effect": "Remove your INFANTRY unit from the battlefield and then set it back up anywhere on the battlefield that is wholly within 6'' of your MONOLITH model and not within Engagement Range of one or more enemy units..",
             "icon": [
                 ""
             ],
@@ -61,25 +48,39 @@
             "color": "green"
         },
         {
-            "name": "tyrannoformed",
+            "name": "quantom deflection",
+            "subindex": "wargear stratagem",
+            "lore": "Necron quantum shielding is a true marvel of techno-arcana. Channelled with energy reserves from the rising tomb structures, the shielding is capable of adaptive remodulation to diffuse and deflect the most powerful enemy attacks.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One NECRONS VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "reanimation crypts",
             "subindex": "strategic ploy stratagem",
-            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
-            "when": " Command phase.",
-            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
-            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "lore": "There is no rest for Necrons who fall in the service of their master. In dark crypts, their bodies are repaired and they are dispatched once more to war.",
+            "when": "Your Command phase.",
+            "target": "Your NECRONS WARLORD",
+            "effect": "For each of your NECRONS units in Reserves, that Reserves unit’s Reanimation Protocols activate.",
             "icon": [
                 ""
             ],
             "cp": 1,
-            "color": "green"
+            "color": "blue"
         },
         {
-            "name": "ablative carapace",
-            "subindex": "epic deed stratagem",
-            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "name": "cosmic precision",
+            "subindex": "strategic ploy stratagem",
+            "lore": "With a sanity-defying mechanism at the heart of the tomb, dynastic astromancers divine the pre-aligned point in space and time where a crucial role can be played in the wider battle plan.",
             "when": "Your Movement phase.",
-            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
+            "target": "One NECRONS unit from your army that is arriving using the Deep Strike or Hyperphasing abilities this phase.",
+            "effect": "Your unit can be set up anywhere on the battlefield that is more than 3'' horizontally away from all enemy models.",
+            "restrictions":"A unit targeted with this Stratagem is not eligible to declare a charge in the same turn.",
             "icon": [
                 ""
             ],
@@ -87,30 +88,30 @@
             "color": "green"
         },
         {
-            "name": "secure biomass",
+            "name": "dimensional corridor",
             "subindex": "strategic ploy stratagem",
-            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
-            "when": "Fight phase.",
-            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "rapacious hunger",
-            "subindex": "battle tactic stratagem",
-            "lore": "The hunger of the Tyranids can never be satiated.",
-            "when": "Your Fight phase.",
-            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
-            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+            "lore": "As the tomb's warriors pass through a dimensional displacement corridor, the passage’s surface is lit with data-glyphs providing hyperlogical tactical information. When they step from an eternity gate, they are already prepared for the hunt.",
+            "when": "Your Charge phase.",
+            "target": "One NECRONS unit from your army that was set up on the battlefield this turn using the Eternity Gate ability of a MONOLITH model that started the turn on the battlefield.",
+            "effect": "Your unit is eligible to charge this phase.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
+        },
+        {
+            "name": "entropic damping",
+            "subindex": "wargear stratagem",
+            "lore": "Towering war engines rise from an erupting tomb in its defence, directing entropic energies to weaken and fracture the enemies' own weapons and turning them into dangerous tools only the desperate would use.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": " One TITANIC model from your army that was selected as the target of one or more of the attacking unit’s attacks and is within 18'' of the attacking unit.",
+            "effect": "Until the end of the phase, weapons equipped by models in the attacking unit have the [HAZARDOUS] ability.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         }
     ]
 }

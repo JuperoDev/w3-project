@@ -1,59 +1,46 @@
 {
-    "detachmentName": "assimilation swarm",
+    "detachmentName": "annihilation legion",
     "detachmentRule": [
         {
-            "name": "feed the swarm",
-            "lore": "Even as the beasts of the Assimilation Swarm stalk across the battlefield they make use of the abundant biomass yielded up by the prey worlds slow demise. Warrior organisms heal even the most grievous wounds in moments, or stagger upright and return to the fight after they seemed slain. A strain of revolting vitality flows through the Tyranid broods as though leeched direct from their dismayed victims.",
-            "description": "In your Command phase, each HARVESTER unit from your army that is within range of an objective marker you control can Regenerate one friendly TYRANIDS unit that is within 6'' of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:"
+            "name": "annihilation protocol",
+            "lore": "The most murderous Necrons of an Annihilation Legion retain no thought processes beyond destroying anything in reach. They are mechanised death, echoes of the industrialised and brutal processes of bio transference made manifest. Whether soullessly efficient or frenziedly deluded, these killing machines follow protocols that have atrophied into a singular and all-consuming insanity.",
+            "description": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well."
         }
     ],
     "enhacements": [
         {
-            "name": "Regenerating Monstrosity",
-            "points": 20,
-            "lore": "This nightmarish creature seems virtually unkillable, its every hurt healing in moments as it guzzles down the hunks of bubbling biomatter that were once foes.",
-            "description": "TYRANIDS model only (excluding MONSTERS models). The bearer’s unit can be regenerated up to twice per phase, instead of once."
-        },
-        {
-            "name": "Instinctive defence",
-            "points": 15,
-            "lore": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
-            "description": "TYRANIDS model only. While the bearer is within 6'' of one or more friendly HARVESTER units, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP. In addition, while the bearer is within 6'' of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability."
-        },
-        {
-            "name": "Biophagic Flow (Aura)",
-            "points": 10,
-            "lore": "Parasitised biomass and revivifying fluids flow through the Assimilation Swarm like lifeblood.",
-            "description": "TYRANIDS model only. While a friendly HARVESTER model is within 12'' of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9'' of it, instead of one within 6''."
-        },
-        {
-            "name": "Parasitic Biomorphology",
+            "name": "Eternal Madness",
             "points": 25,
-            "lore": "These warrior organisms boast additional fanged maws, jabbing probosci and haemophagic membranes that consume the fluids of their prey.",
-            "description": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6'' of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
+            "lore": "This Necrons sanity suffered during the Great Sleep. Now they are driven by a wrathful zeal, one which has seeped through the carrier waves of their commandments and into their followers.",
+            "description": "NECRONS model only. In the Fight phase, each time a model in the bearer’s unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking models unit has finished making its attacks, and is then removed from play."
+        },
+        {
+            "name": "Ingrained Superiority",
+            "points": 10,
+            "lore": "An immortal destroyer, this war leaders every victim is etched irrevocably into their cognitive engrams. Every weakness they ever overcame is recalled, frailties they can exploit on each new battlefield.",
+            "description": "NECRONS model only. Each time a model in the bearer’s unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+            "name": "Soulless Reaper",
+            "points": 20,
+            "lore": "This deathly killer exudes a soul-sapping presence, the promise of lifes’ end so explicit in their chilling gaze that few can muster the strength of will to evade it.",
+            "description": "DESTROYER CULT model only. Each time an enemy unit within Engagement Range of the bearer’s unit is selected to Fall Back, roll one D6: on a 3+, that unit cannot Fall Back this phase and must Remain Stationary."
+        },
+        {
+            "name": "Eldritch Nightmare",
+            "points": 15,
+            "lore": "Atavistic fears are summoned from the pits of nightmare and thrust into the minds of all foes near this metal-skinned horror.",
+            "description": "DESTROYER CULT model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test."
         }
     ],
     "stratagems": [
         {
-            "name": "bloodguard impulse",
-            "subindex": "epic deed stratagem",
-            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
-            "when": "Any phase.",
-            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "reclaim biomass",
+            "name": "masks of death",
             "subindex": "strategic ploy stratagem",
-            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
-            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
-            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
-            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
+            "lore": "Wreathed in tendrils of transdimensional shadow that intensify their deathly visages, these killing machines evoke such terror that steady aims tremble and blade arms are sapped of strength.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One DESTROYER CULT or FLAYED ONES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll..",
             "icon": [
                 ""
             ],
@@ -61,56 +48,69 @@
             "color": "green"
         },
         {
-            "name": "tyrannoformed",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
-            "when": " Command phase.",
-            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
-            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "ablative carapace",
-            "subindex": "epic deed stratagem",
-            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "when": "Your Movement phase.",
-            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
-            "icon": [
-                ""
-            ],
-            "cp": 2,
-            "color": "green"
-        },
-        {
-            "name": "secure biomass",
-            "subindex": "strategic ploy stratagem",
-            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
-            "when": "Fight phase.",
-            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "rapacious hunger",
+            "name": "the spoor of frailty",
             "subindex": "battle tactic stratagem",
-            "lore": "The hunger of the Tyranids can never be satiated.",
-            "when": "Your Fight phase.",
-            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
-            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+            "lore": "Where one foe falls, logic dictates all others must follow. Where blood is shed, ever must more flow.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model from your unit makes an attack that targets a unit below Starting Strength, add 1 to the Hit roll. If the target is Below Half-strength, add 1 to the Wound roll as well.",
             "icon": [
                 ""
             ],
             "cp": 1,
-            "color": "blue"
+            "color": "green"
+        },
+        {
+            "name": "murderous reanimation",
+            "subindex": "battle tactic stratagem",
+            "lore": "Through some quirk of their kind's shared insanity, a spark of gruesome satisfaction surges through them with every enemy life snuffed out, triggering quiescent power reserves that drive them onwards.",
+            "when": "Fight phase.",
+            "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has just destroyed an enemy unit, or just caused an enemy unit that was not Below Half-strength to become Below Half-strength.",
+            "effect": "Your unit’s Reanimation Protocols activate.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "pitiless hunters",
+            "subindex": "battle tactic stratagem",
+            "lore": "Driven into a state of hyperaggression, an Annihilation Legion's most eager hunters plunge into their prey's midst to maximise their butchery.",
+            "when": "Fight phase.",
+            "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6'' instead of up to 3''.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "blood-fuelled cruelty",
+            "subindex": "battle tactic stratagem",
+            "lore": "Whatever strange afflictions eat away at the sanity of Destroyers and Flayed Ones, mercy is not one of them.",
+            "when": "Your opponent’s Movement phase, just after an enemy unit ends a Fall Back move.",
+            "target": "One DESTROYER CULT or FLAYED ONES unit from your army that started the phase within Engagement Range of that enemy unit.",
+            "effect": "Roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds. Your unit can then make a Normal move, but must end that move as close as possible to that enemy unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "insanity's ire",
+            "subindex": "strategic ploy stratagem",
+            "lore": "To strike down one horror is merely to draw the rest of the pack's insane and murderous focus.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+            "target": "One DESTROYER CULT or FLAYED ONES unit from your army that had one or more of its models destroyed by the attacking unit’s attacks.",
+            "effect": "Your unit can make a Normal move, but must end that move as close as possible to that enemy unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         }
     ]
 }

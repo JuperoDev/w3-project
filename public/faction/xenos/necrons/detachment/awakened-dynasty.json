@@ -1,46 +1,47 @@
 {
-    "detachmentName": "assimilation swarm",
+    "detachmentName": "awakened dynasty",
     "detachmentRule": [
         {
-            "name": "feed the swarm",
-            "lore": "Even as the beasts of the Assimilation Swarm stalk across the battlefield they make use of the abundant biomass yielded up by the prey worlds slow demise. Warrior organisms heal even the most grievous wounds in moments, or stagger upright and return to the fight after they seemed slain. A strain of revolting vitality flows through the Tyranid broods as though leeched direct from their dismayed victims.",
-            "description": "In your Command phase, each HARVESTER unit from your army that is within range of an objective marker you control can Regenerate one friendly TYRANIDS unit that is within 6'' of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:"
+            "name": "command protocols",
+            "lore": "The Necron nobility and their high-ranking courtiers make war in a codified and relentless fashion. Their command protocols crackle out across multi-dimensional spectra from carrier-wave projectors, compelling their semi-sentient soldiery into battle one overriding directive at a time",
+            "description": "While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
         }
     ],
     "enhacements": [
         {
-            "name": "Regenerating Monstrosity",
+            "name": "Veil of Darkness",
             "points": 20,
-            "lore": "This nightmarish creature seems virtually unkillable, its every hurt healing in moments as it guzzles down the hunks of bubbling biomatter that were once foes.",
-            "description": "TYRANIDS model only (excluding MONSTERS models). The bearer’s unit can be regenerated up to twice per phase, instead of once."
+            "lore": "With this device the bearer can twist space and time about them, enfolding them in a swirling darkness. When it fades, they have vanished, rematerialising elsewhere through a miracle of arcane science.",
+            "description": "NECRONS model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of any enemy units, the bearer can use this Enhancement. If it does, remove that unit from the battlefield. Then, in the Reinforcements step of your next Movement phase, set up that unit anywhere on the battlefield that is more than 9'' horizontally away from all enemy models."
         },
         {
-            "name": "Instinctive defence",
+            "name": "Nether-realm Casket",
             "points": 15,
-            "lore": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
-            "description": "TYRANIDS model only. While the bearer is within 6'' of one or more friendly HARVESTER units, you can target the bearer’s unit with the Heroic Intervention Stratagem for 0CP. In addition, while the bearer is within 6'' of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability."
+            "lore": "Clouds of hyper-dense particles billow from this small artefact, to obscure and shield the bearer from the foe.",
+            "description": "NECRONS model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
         },
         {
-            "name": "Biophagic Flow (Aura)",
-            "points": 10,
-            "lore": "Parasitised biomass and revivifying fluids flow through the Assimilation Swarm like lifeblood.",
-            "description": "TYRANIDS model only. While a friendly HARVESTER model is within 12'' of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9'' of it, instead of one within 6''."
+            "name": "Phasal Subjugator (Aura)",
+            "points": 35,
+            "lore": "This engraved sigil-circuitry transforms the fierce will of the bearer into a surging lash across every phasal state.",
+            "description": "NECRONS model only. While a friendly NECRONS unit (excluding CHARACTER units) is within 6'' of the bearer, each time a model in that unit makes an attack, add 1 to the Hit roll."
         },
         {
-            "name": "Parasitic Biomorphology",
-            "points": 25,
-            "lore": "These warrior organisms boast additional fanged maws, jabbing probosci and haemophagic membranes that consume the fluids of their prey.",
-            "description": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6'' of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
+            "name": "Enaegic Dermal Bond",
+            "points": 15,
+            "lore": "The bearers living metal mantle is bonded to mirror versions of itself across many dimensional thresholds.",
+            "description": "NECRONS model only. The bearer has the Feel No Pain 4+ ability."
         }
     ],
     "stratagems": [
         {
-            "name": "bloodguard impulse",
+            "name": "protocol of the eternal revenant",
             "subindex": "epic deed stratagem",
-            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
+            "lore": "Necron rulers possess enhanced self-repair systems.",
             "when": "Any phase.",
-            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
+            "target": "One NECRONS INFANTRY CHARACTER model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+            "effect": "At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with half of its starting number of wounds remaining.",
+            "restrictions":"Each model can only be targeted with this Stratagem once per battle.",
             "icon": [
                 ""
             ],
@@ -48,12 +49,12 @@
             "color": "green"
         },
         {
-            "name": "reclaim biomass",
+            "name": "protocol of the undying legions",
             "subindex": "strategic ploy stratagem",
-            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
-            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
-            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
-            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
+            "lore": "Nanoscarabs are released in boiling black clouds that whirl about the legions and effect rapid repairs",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.",
+            "target": "One NECRONS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks",
+            "effect": "Your unit activates its Reanimation Protocols and reanimates D3 wounds (or D3+1 wounds if a NECRONS CHARACTER is leading your unit].",
             "icon": [
                 ""
             ],
@@ -61,56 +62,56 @@
             "color": "green"
         },
         {
-            "name": "tyrannoformed",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
-            "when": " Command phase.",
-            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
-            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "ablative carapace",
-            "subindex": "epic deed stratagem",
-            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "when": "Your Movement phase.",
-            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
-            "icon": [
-                ""
-            ],
-            "cp": 2,
-            "color": "green"
-        },
-        {
-            "name": "secure biomass",
-            "subindex": "strategic ploy stratagem",
-            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
-            "when": "Fight phase.",
-            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "rapacious hunger",
+            "name": "protocol of the hungry void",
             "subindex": "battle tactic stratagem",
-            "lore": "The hunger of the Tyranids can never be satiated.",
-            "when": "Your Fight phase.",
-            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
-            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+            "lore": "Necrons strike with data-augmented accuracy.",
+            "when": " Fight phase.",
+            "target": "One NECRONS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in your unit. In addition, If a NECRONS CHARACTER is leading your unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1. (this is not cumulative with any other modifiers that improve Armour Penetration].",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "protocol of the sudden storm",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Arcing energies leap from one Necron to the next, lending them unnatural speed and surety",
+            "when": " Your Movement phase.",
+            "target": "One NECRONS unit from your army.",
+            "effect": "Until the end of the turn, ranged weapons equipped by models in your unit have the [ASSAULT] ability. In addition, if a NECRONS CHARACTER is leading your unit, until the end of the phase, you can re-roll Advance rolls made for your unit.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
+        },
+        {
+            "name": "protocol of the conquering tyrant",
+            "subindex": "battle tactic stratagem",
+            "lore": "The legions employ the strategies of their masters in perfect synchronicity, laying down hails of mechanically coordinated fire.",
+            "when": "Your Shooting phase.",
+            "target": "One NECRONS unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within half range, re-roll a Hit roll of 1. If a NECRONS CHARACTER is leading your unit, until the end of the phase, you can re-roll the Hit roll for that attack instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "protocol of the vengeful stars",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Criss-crossfire leaps from the Necron ranks, forming a blazing corona of deadly energy to punish those who dare threaten the indignant nobility's legions.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit destroys a NECRONS unit from your army.",
+            "target": "One NECRONS CHARACTER unit from your army that was within 6'' of that NECRONS unit when it was destroyed.",
+            "effect": "After the attacking unit has resolved its attacks, your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "red"
         }
     ]
 }

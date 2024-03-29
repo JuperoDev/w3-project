@@ -4,6 +4,8 @@
     <NuxtPage />
     <!-- <RouterView /> -->
    </GeneralPurposePasswordProtection> 
+
+
 </template>
 
 <style>

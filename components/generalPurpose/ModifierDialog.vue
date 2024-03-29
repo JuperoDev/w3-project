@@ -12,9 +12,8 @@
           </div>
         </v-card-text>
 
-        <v-card-text class="description">
-          {{ filteredModifiers[filteredModifier].description }}
-        </v-card-text>
+        <v-card-text class="description" v-html="renderHtml(filteredModifiers[filteredModifier].description)"></v-card-text>
+
 
         <v-card-text class="summary">
           <div class="menu-holder_highlight">
@@ -68,11 +67,11 @@ const filteredModifier = computed(() => {
     keyword = "sustained hits";
   } else if (keyword.includes("deadly")) {
     keyword = "deadly demise";
-  }else if (keyword.includes("scouts")) {
+  } else if (keyword.includes("scouts")) {
     keyword = "scouts";
-  }else if (keyword.includes("firing deck")) {
+  } else if (keyword.includes("firing deck")) {
     keyword = "firing deck";
-  } else if (keyword.includes("pain")) {
+  } else if (keyword.includes("feel no pain")) {
     keyword = "feel no pain";
   }
   
@@ -89,6 +88,11 @@ const filteredModifiers = computed(() => {
     return acc;
   }, {});
 });
+
+// Method to render HTML content from a string
+const renderHtml = (htmlString) => {
+  return htmlString;
+};
 </script>
 
 <style scoped>

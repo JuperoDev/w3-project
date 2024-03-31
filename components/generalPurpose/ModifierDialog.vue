@@ -71,6 +71,8 @@ const filteredModifier = computed(() => {
     keyword = "scouts";
   } else if (keyword.includes("firing deck")) {
     keyword = "firing deck";
+  } else if (keyword.includes("cabal of")) {
+    keyword = "cabal of sorcerers";
   } else if (keyword.includes("feel no pain")) {
     keyword = "feel no pain";
   }

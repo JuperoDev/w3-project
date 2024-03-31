@@ -1,0 +1,118 @@
+{
+    "detachmentName": "battle host",
+    "detachmentRule": [
+        {
+            "name": "unparalleled foresight",
+            "lore": "When the Aeldari take to the battlefield, any who oppose them are left confounded by their grace, elegance and martial skill. Where lesser beings would falter, the Aeldari move with a surety of purpose that can only be perceived as preordained.",
+            "description": "Each time an AELDARI unit from your army is selected to shoot or fight, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "The Phoenix Gem",
+            "points": 25,
+            "lore": "At the height of the War in Heaven, Isha drew down the heat of a hundred stars into a glittering gem to save Asuryan. It is said that the Phoenix Gem is the only surviving fragment of this ancient stone, and still retains the power to return life to the fallen.",
+            "description": "AELDARI model only. The first time the bearer is destroyed, roll one D6: on a 2+, keep it to one side. At the end of the phase, set the bearer back up again, as close as possible to its previous position and not within Engagement Range of any enemy models, with its full wounds remaining."
+        },
+        {
+            "name": "The Weeping Stones",
+            "points": 15,
+            "lore": "Carved from psychoactive rubies, these runic stones resemble the beads of blood that drip from the hand of Khaine. In battle, these stones rearrange themselves, revealing elements of the future.",
+            "description": "AELDARI model only. Each time the bearer’s unit destroys an enemy unit, roll one D6 and add it to your Fate dice pool displaying the result you just rolled."
+        },
+        {
+            "name": "Reader of the Runes",
+            "points": 20,
+            "lore": "Using their prescience to discern the enemy commander’s intentions, this psyker can react before the foe’s plans even come into action.",
+            "description": "AELDARI PSYKER model only. In your Command phase, you can select one dice in your Fate dice pool, re-roll it, then add it back to your Fate dice pool displaying the result you just rolled."
+        },
+        {
+            "name": "Fate’s Messenger",
+            "points": 15,
+            "lore": "The strands of fate coil and twist around this warrior, the paths of destiny manipulated to keep them from harm so that they might strike back at their foes.",
+            "description": "AELDARI model only. Once per turn, just after making a Hit roll, a Wound roll or a saving throw for the bearer, you can treat the result as an unmodified roll of 6 instead."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "bladestorm",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The well-trained Aeldari are able to lay down a hail of fire from their weapons, their superior reflexes allowing them to track even the most sudden movement and place every shot perfectly.",
+            "when": "Your Shooting phase.",
+            "target": "One AELDARI unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "lighting-fast reactions",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Aeldari can process battlefield events at baffling speed, making their physical reactions so fast that they are able to dodge attacks that would hit any other target.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One AELDARI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "matchless agility",
+            "subindex": "battle tactic stratagem",
+            "lore": "Grace in battle and merciless efficiency are prized virtues in craftworld armies. Like the shimmering blades of Khaine, the Asuryani carve through the ranks of their enemies.",
+            "when": "Your Movement phase.",
+            "target": "One AELDARI unit from your army that has not been selected to move this phase.",
+            "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in your unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "phantasm",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The Aeldari are masters of misdirection, and they employ holo-emitters and psychic phantasms to fool enemy scouts.",
+            "when": "End of your opponent’s Movement phase",
+            "target": "One AELDARI INFANTRY unit from your army",
+            "effect": "Your unit can make a Normal move of up to D6''. It cannot embark within a TRANSPORT at the end of this move.",
+            "restrictions":"You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "feigned retreat",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The Aeldari are forever elusive, and their actions are unpredictable and deceptive. What appears to be a full retreat one moment is revealed as the prelude to a devastating attack the next.",
+            "when": "Your Movement phase, just after an AELDARI unit from your army makes a Fall Back move.",
+            "target": "That AELDARI unit.",
+            "effect": "Your unit is eligible to shoot and declare a charge this turn even though it Fell Back.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "fire and fade",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The Aeldari are masters of hit-and-run tactics, engaging a target with a flurry of shots before quickly manoeuvring into cover or out of sight.",
+            "when": "End of your Shooting phase.",
+            "target": "One AELDARI unit from your army.",
+            "effect": "Your unit can make a Normal move. It cannot embark within a TRANSPORT at the end of this move.",
+            "restrictions":"You cannot select an AIRCRAFT unit or a unit within Engagement Range of one or more enemy units, and until the end of the turn, the unit you selected is not eligible to declare a charge.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "blue"
+        }
+    ]
+}

@@ -5,9 +5,9 @@
       <div class="grid grid-cols-1 mt-5 md:grid-cols-2 md:gap-10 ">
       <div class="" v-for="enhacement in enhacements">
         <div class="enhacement--element font-semibold mb-4 flex">
-          <div class="w-2/5"> {{ enhacement.name }}</div>
-          <div class="w-2/5 "> </div>
-          <div class="w-1/5"> {{ enhacement.points }} <span> pts </span></div>
+          <div class="w-2/5 border-b-2 border-dotted border-zinc-500"> <p class="uppercase">{{ enhacement.name }}</p></div>
+          <div class="w-2/5 border-b-2 border-dotted border-zinc-500 "> </div>
+          <div class="w-1/5 ml-3"> {{ enhacement.points }} <span> pts </span></div>
           
           
         </div>

@@ -4,16 +4,16 @@
       <div class="flex">
         <div class="w-16 bg-white"></div>
         <div
-          class="red-stripe border-solid border-l-8 ml-2 mr-5  relative"
+          class="red-stripe border-solid border-l-8 ml-2 mr-5 relative"
           :class="{
-                'border-red-600': stratagem.color === 'red',
-                'border-blue-600': stratagem.color === 'blue',
-                'border-green-600': stratagem.color === 'green',
-              }"
-          >
+            'border-red-600': stratagem.color === 'red',
+            'border-blue-600': stratagem.color === 'blue',
+            'border-green-600': stratagem.color === 'green',
+          }"
+        >
           <div class="absolute top-1/2 left-0 transform -translate-y-1/2">
             <div
-              class="mt-10 -ml-1 w-10 h-10  transform -translate-x-1/2 -translate-y-1/2 rotate-45 p-5"
+              class="mt-10 -ml-1 w-10 h-10 transform -translate-x-1/2 -translate-y-1/2 rotate-45 p-5"
               :class="{
                 'bg-red-600': stratagem.color === 'red',
                 'bg-blue-600': stratagem.color === 'blue',
@@ -26,7 +26,7 @@
             </div>
 
             <div
-              class="mt-10 -ml-1 w-10 h-10  transform -translate-x-1/2 -translate-y-1/2 rotate-45 p-5"
+              class="mt-10 -ml-1 w-10 h-10 transform -translate-x-1/2 -translate-y-1/2 rotate-45 p-5"
               :class="{
                 'bg-red-600': stratagem.color === 'red',
                 'bg-blue-600': stratagem.color === 'blue',
@@ -36,15 +36,25 @@
               <div
                 class="transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-zinc-100"
               >
-                <div class="transform -rotate-45 uppercase "><p>{{ stratagem.cp }}cp</p>  </div>
+                <div class="transform -rotate-45 uppercase">
+                  <p>{{ stratagem.cp }}cp</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="p-4 ml-5">
-            <h2 :class="'text-lg mb-2 font-bold text-' + stratagem.color + '-600 border-solid border-b-2 border-' + stratagem.color + '-600 uppercase'">
-  {{ stratagem.name }}
-</h2>
+          <h2
+            :class="
+              'text-lg mb-2 font-bold text-' +
+              stratagem.color +
+              '-600 border-solid border-b-2 border-' +
+              stratagem.color +
+              '-600 uppercase'
+            "
+          >
+            {{ stratagem.name }}
+          </h2>
 
           <p
             class="text-gray-600 border-dotted border-b-2 border-gray-500 mb-2 capitalize"
@@ -88,6 +98,20 @@
             >
             {{ stratagem.effect }}
           </p>
+
+          <p v-if="stratagem.restrictions"  class="my-2">
+            <span
+              :class="{
+                'text-red-600': stratagem.color === 'red',
+                'text-blue-600': stratagem.color === 'blue',
+                'text-green-600': stratagem.color === 'green',
+              }"
+            >
+              <strong>Restrictions: </strong></span
+            >
+            {{ stratagem.restrictions }}
+          </p>
+
         </div>
       </div>
     </div>

@@ -1,0 +1,117 @@
+{
+    "detachmentName": "inner circle task force",
+    "detachmentRule": [
+        {
+            "name": "vowed target",
+            "lore": "Whether its true significance is kept a secret or not, there is a singular prize here that the Inner Circle have come to either secure or destroy. They will pursue this strategic objective with cold ferocity.",
+            "description": "At the start of your Command phase, select one objective marker. Until the start of your next Command phase, that objective marker is your Vowed objective marker. Each time a DEATHWING INFANTRY unit from your army makes an attack that targets a unit within range of your Vowed objective marker, add 1 to the Wound roll. Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Champion Of The Deathwing",
+            "points": 15,
+            "lore": "Even amongst the elite of the Unforgiven, this warrior is a paragon of duty and martial might.",
+            "description": "DEATHWING model only. Melee weapons equipped by the bearer have the [LETHAL HITS] ability, and each time the bearer makes a melee attack, if it is within range of your Vowed objective marker, a Critical Hit is scored on an unmodified Hit roll of 5+."
+        },
+        {
+            "name": "Eye Of The Unseen",
+            "points": 10,
+            "lore": "It is said that no secret can escape the gaze of this ocular augmetic, which belonged first to the feared Interrogator-Chaplain Enoch.",
+            "description": "DEATHWING model only. Each time you target the bearer s unit with a Stratagem, roll one D6, adding 1 if the bearer is within range of your Vowed objective marker: on a 5+, you gain 1CP"
+        },
+        {
+            "name": "Singular Will",
+            "points":20,
+            "lore": "This warrior lets nothing stand in their way or slow their advance, closing swiftly and relentlessly with their quarry",
+            "description": "DEATHWING model only. Each time the bearer’s unit Piles In or Consolidates, models in that unit can move an additional 3''"
+        },
+        {
+            "name": "Deathwing Assault",
+            "points": 30,
+            "lore": "Employing shock assault doctrines requiring ancient technology and immense tactical skill, the Deathwing are masters of catching their foes wholly unawares.",
+            "description": "DEATHWING model with the Deep Strike ability only. The bearers unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+        }
+    ],
+    "stratagems": [
+        
+        {
+            "name": "Armour of contempt",
+            "subindex": "battle tactic stratagem",
+            "lore": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
+            "when": " Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "go for the throat",
+            "subindex": "battle tactic stratagem",
+            "lore": "With the scent of blood in the air and the rushing joy of battle surging through every true warrior’s hearts, even the greatest quarry can be brought down.",
+            "when": " Fight phase.",
+            "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1. If the Saga of the Beastslayer has been completed by your army, until the end of the phase, such weapons have the [LANCE] ability as well.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "runic wards",
+            "subindex": "wargear stratagem",
+            "lore": "Imbued as they are with the cunning psychic might of the Rune Priests, shamanistic totems, tattoos and fetishes are a potent shield against baleful attacks and the foul sorcery of witches.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks. If the Saga of the Bear has been completed by your army, until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "red rampage",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Having stalked their prey or run them to ground, all that remains is to go for the enemy’s weakest points, to rip them apart in a furious bloodletting. Onlookers are stricken with terror at the bloody spectacle, an instant before the sons of Russ pounce upon them.",
+            "when": "Fight phase.",
+            "target": "One ADEPTUS ASTARTES unit from your army that destroyed one or more enemy units this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6'' instead of up to 3'', provided your unit ends that Consolidation move in Unit Coherency and within Engagement Range of one or more enemy units. In addition, if the Saga of Majesty has been completed by your army, each enemy unit within 6'' of your unit when it ends that Consolidation move must take a Battle-shock test",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "warrior pride",
+            "subindex": "epic deed stratagem",
+            "lore": "The greatest champions amongst the sons of Russ must take the fight to the enemy, leading by example to uphold the honour of their Chapter.",
+            "when": "Your Command phase.",
+            "target": "One ADEPTUS ASTARTES CHARACTER model from your army.",
+            "effect": "Select one Saga that has not yet been completed by your army. Until the end of the turn, models in your CHARACTER’s unit have the benefit of the selected Saga as if it had been completed by your army.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "relentless assault",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Once their blades and claws run red with the enemy’s blood, nothing will hold the savage sons of Russ back from new prey.",
+            "when": "Your Movement phase, just after an ADEPTUS ASTARTES unit from your army Falls Back.",
+            "target": "That ADEPTUS ASTARTES unit.",
+            "effect": "Until the end of the turn, your unit is eligible to shoot even though it Fell Back or Advanced this phase. If the Saga of the Warrior Born has been completed by your army, until the end of the turn, your unit is also eligible to declare a charge.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

@@ -49,25 +49,12 @@
             "color": "green"
         },
         {
-            "name": "go for the throat",
-            "subindex": "battle tactic stratagem",
-            "lore": "With the scent of blood in the air and the rushing joy of battle surging through every true warrior’s hearts, even the greatest quarry can be brought down.",
-            "when": " Fight phase.",
-            "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1. If the Saga of the Beastslayer has been completed by your army, until the end of the phase, such weapons have the [LANCE] ability as well.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "runic wards",
-            "subindex": "wargear stratagem",
-            "lore": "Imbued as they are with the cunning psychic might of the Rune Priests, shamanistic totems, tattoos and fetishes are a potent shield against baleful attacks and the foul sorcery of witches.",
+            "name": "hunter's trail",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Using augur beacons, servo-skulls and the like, the Ravenwing mark locations they have passed through and cleansed of foes, laying a trial their fellows can follow on the hunt.",
             "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
             "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks. If the Saga of the Bear has been completed by your army, until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks instead.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
             "icon": [
                 ""
             ],
@@ -75,12 +62,12 @@
             "color": "green"
         },
         {
-            "name": "red rampage",
+            "name": "talon strike",
             "subindex": "strategic ploy stratagem",
-            "lore": "Having stalked their prey or run them to ground, all that remains is to go for the enemy’s weakest points, to rip them apart in a furious bloodletting. Onlookers are stricken with terror at the bloody spectacle, an instant before the sons of Russ pounce upon them.",
-            "when": "Fight phase.",
-            "target": "One ADEPTUS ASTARTES unit from your army that destroyed one or more enemy units this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6'' instead of up to 3'', provided your unit ends that Consolidation move in Unit Coherency and within Engagement Range of one or more enemy units. In addition, if the Saga of Majesty has been completed by your army, each enemy unit within 6'' of your unit when it ends that Consolidation move must take a Battle-shock test",
+            "lore": "Be it their true quarry or simply one who possesses knowledge that will lead them to their apprehension, when the Ravenwing strike at a priority target they do so with unmerciful surety.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One RAVENWING MOUNTED unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an INFANTRY CHARACTER or MOUNTED CHARACTER unit, add 1 to the Wound roll.",
             "icon": [
                 ""
             ],
@@ -88,30 +75,43 @@
             "color": "green"
         },
         {
-            "name": "warrior pride",
-            "subindex": "epic deed stratagem",
-            "lore": "The greatest champions amongst the sons of Russ must take the fight to the enemy, leading by example to uphold the honour of their Chapter.",
-            "when": "Your Command phase.",
-            "target": "One ADEPTUS ASTARTES CHARACTER model from your army.",
-            "effect": "Select one Saga that has not yet been completed by your army. Until the end of the turn, models in your CHARACTER’s unit have the benefit of the selected Saga as if it had been completed by your army.",
+            "name": "death on the wind",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Ravenwing employ shock tactics and focussed firepower to tear bloody paths through the enemy ranks, shattering resistance and clearing the way to their true quarry.",
+            "when": "Your Shooting phase.",
+            "target": "One RAVENWING unit from your army that has just shot.",
+            "effect": "Select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test. When doing so, if one or more RAVENWING units from your army are within 6'' of that enemy unit, subtract 1 from the test.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
+        },
+        {
+            "name": "high-speed focus",
+            "subindex": "battle tactic stratagem",
+            "lore": "Even when travelling at breakneck pace, the Ravenwing control their vehicles with consummate skill and are able to jink and dodge around incoming enemy fire.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One RAVENWING unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         },
         {
             "name": "relentless assault",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Once their blades and claws run red with the enemy’s blood, nothing will hold the savage sons of Russ back from new prey.",
-            "when": "Your Movement phase, just after an ADEPTUS ASTARTES unit from your army Falls Back.",
-            "target": "That ADEPTUS ASTARTES unit.",
-            "effect": "Until the end of the turn, your unit is eligible to shoot even though it Fell Back or Advanced this phase. If the Saga of the Warrior Born has been completed by your army, until the end of the turn, your unit is also eligible to declare a charge.",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Ravenwing scan and analyse their foes’ strategic dispositions constantly, augury and aerial surveillance helping to watch that no quarry slips their closing net. They are quick to redirect combat assets should such a risk present itself",
+            "when": "End of your opponent’s Fight phase.",
+            "target": "One RAVENWING unit from your army that is not within Engagement Range of one or more enemy units.",
+            "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
             "icon": [
                 ""
             ],
-            "cp": 1,
-            "color": "blue"
+            "cp": 2,
+            "color": "red"
         }
     ]
 }

@@ -15,7 +15,7 @@
         <v-card-text class="description" v-html="renderHtml(filteredModifiers[filteredModifier].description)"></v-card-text>
 
 
-        <v-card-text class="summary">
+        <v-card-text   class="summary">
           <div class="menu-holder_highlight">
             <ul>
               <li v-for="item in filteredModifiers[filteredModifier].summary" :key="item">

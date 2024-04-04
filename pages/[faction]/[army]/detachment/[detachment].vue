@@ -15,7 +15,7 @@
       </div>
       
         <p class="px-3 py-2 italic"> {{ rule.lore }}</p>
-      <p class="px-3 py-2"><span >{{ rule.description }}</span></p>
+      <p class="px-3 py-2" v-html="rule.description"></p>
       
       
     </div>

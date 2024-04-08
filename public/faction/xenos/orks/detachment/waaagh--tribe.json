@@ -1,0 +1,118 @@
+{
+    "detachmentName": "waaagh! tribe",
+    "detachmentRule": [
+        {
+            "name": "get stuck in",
+            "lore": "Once an Ork gets stuck into hand-to-hand combat, they quickly overwhelm their enemies through sheer ferocity",
+            "description": "Melee weapons equipped by <strong>ORKS</strong> models from your army have the [SUSTAINED HITS 1] ability."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Follow Me Ladz",
+            "points": 25,
+            "lore": "Always found at the forefront of an assault, this Ork likes to be the first into the fray.",
+            "description": "ORKS model only. While the bearer is leading a unit, add 2'' to the Move characteristic of models in that unit."
+        },
+        {
+            "name": "Headwoppa’s Killchoppa",
+            "points": 20,
+            "lore": "Grand Warboss Headwoppa and his tribe were last seen charging headlong into a horde of Khornate daemons, but legend speaks of a blood-slick choppa that still turns up occasionally. Though this weapon looks normal, a dark voice is said to growl in the mind of its wielder, driving them on to ever greater excesses of violence.",
+            "description": "ORKS model only. Melee weapons equipped by the bearer that do not have the [EXTRA ATTACKS] ability have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+            "name": "Kunnin’ but Brutal",
+            "points": 15,
+            "lore": "Feigning weakness, this greenskin allows his foes to close in before delivering a brutal flurry of attacks.",
+            "description": "ORKS model only. While the bearer is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+            "name": "Supa-cybork Body",
+            "points": 15,
+            "lore": "The original owner of this one-of-a-kind endoskeleton became the envy of every Warboss around, and was soon gutted and stripped for parts by a stronger rival. The Supa-Cybork Body has been retransplanted several times since then, filling its new owner with confidence, resilience and a belated hope that the Painboyz gave it a quick clean before shoving it back in place…",
+            "description": "ORKS model only. The bearer has the Feel No Pain 4+ ability."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "unquestioning loyalty",
+            "subindex": "epic deed stratagem",
+            "lore": "Broodkin are so fanatically loyal that they do not hesitate to sacrifice themselves to protect their leaders.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One GENESTEALER CULTS CHARACTER unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+            "effect": "Until the end of the phase, each time a CHARACTER model in your unit would lose a wound, select one friendly GENESTEALER CULTS unit within 3'' of it (excluding VEHICLE units). Your CHARACTER model does not lose that wound and that selected unit suffers one mortal wound instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "coordinated trap",
+            "subindex": "epic deed stratagem",
+            "lore": "Broodkin are so fanatically loyal that they do not hesitate to sacrifice themselves to protect their leaders.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": " One GENESTEALER CULTS CHARACTER unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+            "effect": "Until the end of the phase, each time a CHARACTER model in your unit would lose a wound, select one friendly GENESTEALER CULTS unit within 3'' of it (excluding VEHICLE units). Your CHARACTER model does not lose that wound and that selected unit suffers one mortal wound instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "tunnel crawlers",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Squirming, crawling and scrabbling through confined spaces is second nature to many broodkin, and is a skill they use to assail seemingly impregnable enemy positions.",
+            "when": " Your Movement phase.",
+            "target": "One GENESTEALER CULTS unit from your army that is arriving using the Deep Strike ability this phase.",
+            "effect": "Your unit can be set up anywhere on the battlefield that is more than 3'' horizontally away from all enemy models.",
+            "restrictions":"A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "a perfect ambush",
+            "subindex": "battle tactic stratagem",
+            "lore": "These Cultists have tracked their enemies tirelessly, as predatory beasts stalk their prey. Only when their position is perfect do they strike, engulfing their victims in a hail of unexpected firepower.",
+            "when": "Your Shooting phase.",
+            "target": "One GENESTEALER CULTS unit from your army that arrived from Reserves this turn and has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, improve the Ballistic Skill and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "one with the darkness",
+            "subindex": "strategic ploy stratagem",
+            "lore": "In dark nooks and crevices the true believers of the cult whisper and skulk, all but invisible to those who approach.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One GENESTEALER CULTS INFANTRY unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+            "effect": "Until the end of the phase, your unit has the Stealth ability and can only be selected as the target of a ranged attack if the attacking model is within 12''",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "return to the shadows",
+            "subindex": "battle tactic stratagem",
+            "lore": "Ever cunning and duplicitous, broods of the faithful often vanish back into tunnels and vents after their initial strike, ready to regroup and attack again elsewhere.",
+            "when": "End of your opponent’s turn.",
+            "target": "Up to two GENESTEALER CULTS BATTLELINE units from your army, or one other GENESTEALER CULTS INFANTRY unit from your army.",
+            "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.",
+            "restrictions":"The targeted units must have the Deep Strike ability and cannot be within Engagement Range of any enemy units when targeted.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

@@ -4,8 +4,7 @@
         {
             "name": "kauyon",
             "lore": "The tactical philosophy known as the Kauyon allows for T’au commanders to draw the enemy into a deadly trap, springing it at the prefect moment to deliver a storm of fatal strikes against which none can escape.",
-            "description": "From the third battle round onwards, all ranged weapons equipped by T’AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability. While a unit is a Guided unit (see For the Greater Good), weapons in that unit have the [SUSTAINED HITS 2] ability instead.",
-            "restrictions":["If your army includes any ETHEREAL units, it cannot include a COMMANDER FARSIGHT model.", "If your army includes a COMMANDER FARSIGHT model, it cannot include any ETHEREAL units."]
+            "description": "From the third battle round onwards, all ranged weapons equipped by <strong>T’AU EMPIRE</strong> models from your army have the [SUSTAINED HITS 1] ability. While a unit is a Guided unit (see For the Greater Good), weapons in that unit have the [SUSTAINED HITS 2] ability instead. <br/> <br/> <p><strong>RESTRICTIONS </strong> </p><br/><li>If your army includes any <strong>ETHEREAL<strong> units, it cannot include a COMMANDER FARSIGHT model. </li> <li>If your army includes a <strong>COMMANDER FARSIGHT</strong> model, it cannot include any <strong>ETHEREAL</strong> units. </li>"
         }
     ],
     "enhacements": [
@@ -36,12 +35,12 @@
     ],
     "stratagems": [
         {
-            "name": "bloodguard impulse",
-            "subindex": "epic deed stratagem",
-            "lore": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn..",
-            "when": "Any phase.",
-            "target": "One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-            "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
+            "name": "stimm injectors",
+            "subindex": "wargear stratagem",
+            "lore": "This system injects the battlesuit pilot with a measured dose of chemical stimulants intended to temporarily accelerate their physical aptitude and pain tolerances.",
+            "when": "Fight phase or your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One T’AU EMPIRE BATTLESUIT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability.",
             "icon": [
                 ""
             ],
@@ -49,69 +48,71 @@
             "color": "green"
         },
         {
-            "name": "reclaim biomass",
+            "name": "strike and fade",
             "subindex": "strategic ploy stratagem",
-            "lore": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
-            "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
-            "target": "One HARVESTER unit from your army that is within 6'' of that destroyed unit.",
-            "effect": "Regenerate one friendly TYRANIDS unit within 6'' of your HARVESTER unit (See Feed the Swarm).",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "tyrannoformed",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
-            "when": " Command phase.",
-            "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
-            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "ablative carapace",
-            "subindex": "epic deed stratagem",
-            "lore": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "when": "Your Movement phase.",
-            "target": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
+            "lore": "T’au are experts at harrying and outmanoeuvring their foes, bleeding them with accurate fire before fading away into the shadows and luring the foe into a trap.",
+            "when": "Your Shooting phase.",
+            "target": "One T’AU EMPIRE BATTLESUIT unit from your army that can FLY whose attacks have been resolved this phase.",
+            "effect": "If your unit is not within Engagement Range of any enemy units, it can make a Normal move. If it does, your unit cannot declare a charge this turn.",
             "icon": [
                 ""
             ],
             "cp": 2,
-            "color": "green"
+            "color": "blue"
         },
         {
-            "name": "secure biomass",
-            "subindex": "strategic ploy stratagem",
-            "lore": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
-            "when": "Fight phase.",
-            "target": "One TYRANIDS unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "rapacious hunger",
+            "name": "coordinate to engage",
             "subindex": "battle tactic stratagem",
-            "lore": "The hunger of the Tyranids can never be satiated.",
-            "when": "Your Fight phase.",
-            "target": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
-            "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+            "lore": "T’au combined arms groups are called Hunter Cadres for good reason. Working in close coordination, they hunt and destroy the most dangerous enemy targets.",
+            "when": "Your Shooting phase.",
+            "target": "One T’AU EMPIRE unit from your army that has just been selected as an Observer unit (see For the Greater Good).",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the MARKERLIGHT keyword, that attack has the [IGNORES COVER] ability.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
+        },
+        {
+            "name": "point-blank ambush",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Kauyon teaches to lure the enemy into deadly point-blank ambushes.",
+            "when": "Your Shooting phase.",
+            "target": "One T’AU EMPIRE unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9'', improve the Armour Penetration characteristic of that attack by 1.",
+            "restrictions":"You cannot use this Stratagem during the first or second battle rounds.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "photon grenades",
+            "subindex": "wargear stratagem",
+            "lore": "Hurling a volley of photon grenades, the T’au leave their enemies dazzled and disorientated, unable to close the distance into combat at a crucial moment.",
+            "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
+            "target": "One T’AU EMPIRE GRENADES unit from your army that was selected as one of the targets of that charge.",
+            "effect": "That enemy unit must immediately take a Battle-shock test, and until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "combat embarkation",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Those who act as the lure in the Kauyon must be ready to make a hasty withdrawal once the enemy closes into killing range, lest they be trapped.",
+            "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
+            "target": "One T’AU EMPIRE INFANTRY unit from your army that was selected as one of the targets of that charge, and one friendly TRANSPORT.",
+            "effect": "Your unit can embark within that TRANSPORT. If it does, your opponent can select new targets for that charge.",
+            "restrictions": "Every model in your T’AU EMPIRE INFANTRY unit must be within 3'' of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         }
     ]
 }

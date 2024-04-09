@@ -37,10 +37,10 @@
         {
             "name": "careen!",
             "subindex": "epic deed stratagem",
-            "lore": "Broodkin are so fanatically loyal that they do not hesitate to sacrifice themselves to protect their leaders.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One GENESTEALER CULTS CHARACTER unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
-            "effect": "Until the end of the phase, each time a CHARACTER model in your unit would lose a wound, select one friendly GENESTEALER CULTS unit within 3'' of it (excluding VEHICLE units). Your CHARACTER model does not lose that wound and that selected unit suffers one mortal wound instead.",
+            "lore": "If their vehicle is on its last legs, any Ork worth their steering wheel will aim its blazing remains into the nearest cluster of enemies. The ensuing explosions never fail to raise a rousing cheer from nearby Ork onlookers.",
+            "when": "Any phase, just after an ORKS VEHICLE unit from your army with the Deadly Demise ability is destroyed.",
+            "target": "That destroyed ORKS VEHICLE unit, if you roll a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move over enemy units (excluding MONSTERS and VEHICLES) as if they were not there.",
             "icon": [
                 ""
             ],
@@ -50,10 +50,10 @@
         {
             "name": "orks is never beaten",
             "subindex": "epic deed stratagem",
-            "lore": "Broodkin are so fanatically loyal that they do not hesitate to sacrifice themselves to protect their leaders.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": " One GENESTEALER CULTS CHARACTER unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
-            "effect": "Until the end of the phase, each time a CHARACTER model in your unit would lose a wound, select one friendly GENESTEALER CULTS unit within 3'' of it (excluding VEHICLE units). Your CHARACTER model does not lose that wound and that selected unit suffers one mortal wound instead.",
+            "lore": "So resilient is Ork physiology – and so slow are Orks on the uptake – that even killing wounds can take a while to register.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks, and is then removed from play.",
             "icon": [
                 ""
             ],
@@ -62,57 +62,56 @@
         },
         {
             "name": "unbridled carnage",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Squirming, crawling and scrabbling through confined spaces is second nature to many broodkin, and is a skill they use to assail seemingly impregnable enemy positions.",
-            "when": " Your Movement phase.",
-            "target": "One GENESTEALER CULTS unit from your army that is arriving using the Deep Strike ability this phase.",
-            "effect": "Your unit can be set up anywhere on the battlefield that is more than 3'' horizontally away from all enemy models.",
-            "restrictions":"A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.",
+            "subindex": "battle tactic stratagem",
+            "lore": "When Orks get stuck into the foe, the carnage is wonderful to behold, at least for other Orks.",
+            "when": "Fight phase.",
+            "target": "One ORKS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time an ORKS model in your unit makes a melee attack, an unmodified hit roll of 5+ scores a Critical Hit.",
             "icon": [
                 ""
             ],
             "cp": 1,
-            "color": "blue"
+            "color": "green"
         },
         {
             "name": "'ard as nails'",
             "subindex": "battle tactic stratagem",
-            "lore": "These Cultists have tracked their enemies tirelessly, as predatory beasts stalk their prey. Only when their position is perfect do they strike, engulfing their victims in a hail of unexpected firepower.",
-            "when": "Your Shooting phase.",
-            "target": "One GENESTEALER CULTS unit from your army that arrived from Reserves this turn and has not been selected to shoot this phase.",
-            "effect": "Until the end of the phase, improve the Ballistic Skill and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1.",
+            "lore": "Even the lowliest Ork Boy can take a tremendous amount of punishment before being slain.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+            "restrictions": " You cannot select a VEHICLE or GRETCHIN unit for this Stratagem.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "mob rule",
+            "subindex": "battle tactic stratagem",
+            "lore": "The more Orks that gather in one place the more the Waaagh! energy flows, and the more fearless they all become.",
+            "when": "Your Command phase.",
+            "target": "One MOB unit from your army that contains 10 or more models and is not Below Half-strength.",
+            "effect": "Until the start of your next Command phase, while a friendly ORKS INFANTRY unit is within 6'' of that MOB unit, that ORKS INFANTRY unit can still be selected as the target of your Stratagems even if it is Battle-shocked.’",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
-        },
-        {
-            "name": "mob rule",
-            "subindex": "strategic ploy stratagem",
-            "lore": "In dark nooks and crevices the true believers of the cult whisper and skulk, all but invisible to those who approach.",
-            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-            "target": "One GENESTEALER CULTS INFANTRY unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
-            "effect": "Until the end of the phase, your unit has the Stealth ability and can only be selected as the target of a ranged attack if the attacking model is within 12''",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "red"
         },
         {
             "name": "ere we go",
             "subindex": "battle tactic stratagem",
             "lore": "Ever cunning and duplicitous, broods of the faithful often vanish back into tunnels and vents after their initial strike, ready to regroup and attack again elsewhere.",
-            "when": "End of your opponent’s turn.",
-            "target": "Up to two GENESTEALER CULTS BATTLELINE units from your army, or one other GENESTEALER CULTS INFANTRY unit from your army.",
-            "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.",
-            "restrictions":"The targeted units must have the Deep Strike ability and cannot be within Engagement Range of any enemy units when targeted.",
+            "when": "Start of your Movement phase.",
+            "target": "One ORKS INFANTRY unit from your army. ",
+            "effect": "Until the end of the turn, add 2 to Advance and Charge rolls made for your unit.",
             "icon": [
                 ""
             ],
             "cp": 1,
-            "color": "red"
+            "color": "blue"
         }
     ]
 }

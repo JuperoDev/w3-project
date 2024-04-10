@@ -1,6 +1,6 @@
 <template>
         <div class="enhacements px-15">
-      <h3 class="text-2xl font-bebas mt-5 px-3">Enhacements</h3>
+      <h3 class="text-2xl font-bebas mt-5 px-3">Enhancements</h3>
       
       <div class="grid grid-cols-1 mt-5 md:grid-cols-2 md:gap-10 ">
       <div class="" v-for="enhacement in enhacements">

@@ -2,98 +2,45 @@
     "detachmentName": "rad-cohort",
     "detachmentRule": [
         {
-            "name": "rad-bombardment",
-            "lore": "Whether as a result of natural phenomena, apocalyptic internecine strife or calamitous accidents, many forge worlds are heavily irradiated. When holy wars of requisition are unleashed, the Tech-Priests think nothing of turning this invisible curse upon their foes, bombarding the battlefield with deadly radiation prior to an assault.",
-            "description": "At the start of the first battle round, select one of the following Hyper-adaptations to be active for TYRANIDS units from your army until the end of the battle:"
+            "name": "cyber-psalm programming",
+            "lore": "In advance of a Cohort Cyberneticas battles, the Legios most talented Datasmiths will feed dogmatic auto-scripture into the programming cores of their robotic charges, as well as oracular schematics and tactical hymnals that delineate the strategy to come. So blessed, the Cohorts robots add their own grinding chants of static to a systematic chorus of praise in the Omnissiah’s name.",
+            "description": "<strong>LEGIO CYBERNETICA</strong> units from your army gain the Doctrina Imperatives army rule"
         }
     ],
     "enhacements": [
         {
-            "name": "Archived Purge Protocols",
-            "points": 10,
-            "lore": "Having witnessed the rad-bombardment of a hundred battlefields, this experienced commander can call upon the minutiae of those servo-recorded conflicts, feeding adjusted protocols into the data-nets of their warriors, granting them a hyper-predictive combat awareness to perfectly defeat the foe as they stumble out from their irradiated positions.",
-            "description": "SKITARII MARSHAL model only. At the start of the battle round, you can select one friendly SKITARII unit within 12'' of the bearer. Until the start of the next battle round, if the Protector Imperative is active for your army, the Conqueror Imperative is active for that unit instead, and if the Conqueror Imperative is active for your army, the Protector Imperative is active for that unit instead."
-        },
-        {
-            "name": "Excoriating Emanation",
+            "name": "Necromechanic",
             "points": 25,
-            "lore": "This devoted follower of the Machine God is wreathed in a dense, radioactive fog that shrouds their allies from the sights and scanners of the foe.",
-            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
+            "lore": "The blessed healing of machinery is the sign of a true shepherd of the Omnissiah’s flock.",
+            "description": "TECH-PRIEST model only. Once per battle round, when a saving throw made for a friendly LEGIO CYBERNETICA or ADEPTUS MECHANICUS VEHICLE model within 12'' of the bearer is failed, the bearer can use this Enhancement. If they do, change the Damage characteristic of that attack to 0."
         },
         {
-            "name": "Master Annihilator",
-            "points": 35,
-            "lore": "With a mind blissfully unsullied by the passions common to the flesh, this zealot has become a peerless annihilator, commanding ruthless technology to eliminate all life before them. So blessed, they impart the detached logic of their priorities unto their minions.",
-            "description": "ADEPTUS MECHANICUS model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-        },
-        {
-            "name": "Omni-steriliser",
+            "name": "Lord of Machines",
             "points": 20,
-            "lore": "This weapon exemplifies the Adeptus Mechanicus' disdain for organic life. All flesh, blood and bone caught in its searing beams are reduced to inert atoms in an instant.",
-            "description": "ADEPTUS MECHANICUS model only. Add 3 to the Attacks characteristic of the bearer’s ranged weapons. In addition, the bearer’s ranged weapons have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities."
+            "lore": "An intense burst of viral static can overload those machine spirits yoked to the service of the enemy.",
+            "description": "TECH-PRIEST model only. Once per turn, at the start of your opponent’s Shooting phase, select one enemy VEHICLE unit within 12'' of and visible to the bearer. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase."
+        },
+        {
+            "name": "Emotionless Clarity",
+            "points": 15,
+            "lore": "With a mind unsullied by the passions common to the flesh, a Tech-Priest can entreat the machine spirit of a dying war engine to enact one final triumph.",
+            "description": "TECH-PRIEST model only. Once per turn, when a friendly LEGIO CYBERNETICA or ADEPTUS MECHANICUS VEHICLE model with the Deadly Demise ability that is within 12'' of the bearer is destroyed, the bearer can use this Enhancement. If it does, do not roll to determine whether any mortal wounds are inflicted as a result of that model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted."
+        },
+        {
+            "name": "Arch-Negator",
+            "points": 10,
+            "lore": "Feeding magneto-voltaic arcs and deadly frequencies into their weapons, the Tech-Priest is death incarnate to blasphemies against the Machine God.",
+            "description": "TECH-PRIEST model only. Ranged weapons equipped by the bearer have the [ANTI-VEHICLE 4+] ability."
         }
     ],
     "stratagems": [
         {
-            "name": "rapid regeneration",
+            "name": "motive imperative",
             "subindex": "battle tactic stratagem",
-            "lore": "Prey stare in horror as chitinous armour regrows and flesh, muscle and sinew knots back together.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "adrenal surge",
-            "subindex": "battle tactic stratagem",
-            "lore": "These warrior organisms destroy all as their adrenaline surges.",
-            "when": "Fight phase.",
-            "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army and are eligible to fight, or one other TYRANIDS unit from your army that is eligible to fight.",
-            "effect": "Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
-            "icon": [
-                ""
-            ],
-            "cp": 2,
-            "color": "green"
-        },
-        {
-            "name": "death frenzy",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Tyranids care nothing for self-preservation, lashing out even in death.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "overrun",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Tyranids in battle form an unstoppable avalanche of flesh and chitin that buries the foe alive.",
-            "when": "Fight phase, just before a TYRANIDS unit from your army Consolidates.",
-            "target": "That TYRANIDS unit.",
-            "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3'' as long as your unit can end that move within Engagement Range of one or more enemy units. If your unit is within Synapse Range of your army and not within Engagement Range of any enemy units, instead of making that Consolidation move, it can make a Normal move of up to 6''",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "predatory imperative",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Guided by the instincts of leader-beasts, the swarm can be tasked with focusing its hunting instincts.",
+            "lore": "Intensifying the locomotive protocols of a war engine - while not dishonouring its machine spirit - is a millennia-proven method to hasten the foe’s demise.",
             "when": "Your Command phase.",
-            "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.",
-            "effect": "Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
-            "restrictions": "You cannot select the same Hyper-adaptation you selected at the start of the first battle round.",
+            "target": "One ADEPTUS MECHANICUS VEHICLE unit from your army. ",
+            "effect": "Until the start of your next Command phase, add 3'' to the Move characteristic of models in your unit and add 1 to Advance and Charge rolls made for it.",
             "icon": [
                 ""
             ],
@@ -101,12 +48,64 @@
             "color": "blue"
         },
         {
-            "name": "endless swarm",
-            "subindex": "strategic ploy stratagem",
-            "lore": "As the battle rages, more organisms pour in to bolster the swarms.",
+            "name": "auto-divinatory targeting",
+            "subindex": "battle tactic stratagem",
+            "lore": "Encoded with the schemata of the enemy's fortified battle lines and auto-codified vectors of attack, the Cohort's war engines are perfectly aligned to deliver the Machine God's wrath.",
+            "when": " Your Command phase.",
+            "target": "One LEGIO CYBERNETICA or ADEPTUS MECHANICUS VEHICLE unit from your army, and one objective marker.",
+            "effect": "Until the start of your next Command phase, ranged weapons equipped by models in your unit have a Ballistic Skill characteristic of 3+ and the [IGNORES COVER] ability, but they can only target units within range of the selected objective marker.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "machine spirit resurgent",
+            "subindex": "epic deed stratagem",
+            "lore": "To invigorate the failing machine spirit of a damaged vehicle is a sacred task, greatly aided by certain data-hymns transmitted in the correct sequence.",
             "when": "Your Command phase.",
-            "target": "Up to two ENDLESS MULTITUDE units from your army that are within Synapse Range of your army, or one other ENDLESS MULTITUDE unit from your army.",
-            "effect": "You can return up to D3+3 destroyed models to each of the selected units.",
+            "target": "One LEGIO CYBERNETICA or ADEPTUS MECHANICUS VEHICLE unit from your army that is below its Starting Strength.",
+            "effect": "Until the start of your next Command phase, each time a model in your unit makes an attack, you can re-roll the Hit roll. If your unit is Below Half-strength, you can re-roll the Wound roll as well.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "machine superiority",
+            "subindex": "epic deed stratagem",
+            "lore": "Let the unenlightened be cast down! Let all feel the fire of the Motive Force, and may the sacred engines crunch over their weak bones without impediment!",
+            "when": "Your Command phase.",
+            "target": "One LEGIO CYBERNETICA or ADEPTUS MECHANICUS VEHICLE unit from your army.",
+            "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back and you can ignore any or all modifiers to its characteristics and/or to any roll or test made for it (excluding modifiers to saving throws).",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "trascendent cogitation",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Enhanced static chants can briefly raise a war engine's machine spirits to exultant heights of cogitation and multi-tactical capacity.",
+            "when": "Your Command phase.",
+            "target": "One LEGIO CYBERNETICA or ADEPTUS MECHANICUS VEHICLE unit from your army.",
+            "effect": "Until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for your unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "benevolence of the omnissiah",
+            "subindex": "battle tactic stratagem",
+            "lore": "A protective blessing chanted in pentakairic Novabyte moves machine spirits to defy the most esoteric of assaults.",
+            "when": "Your Command phase.",
+            "target": "One LEGIO CYBERNETICA or ADEPTUS MECHANICUS VEHICLE unit from your army.",
+            "effect": "Until the start of your next Command phase, models in your unit have the Feel No Pain 6+ ability, which is improved to Feel No Pain 5+ against mortal wounds.",
             "icon": [
                 ""
             ],

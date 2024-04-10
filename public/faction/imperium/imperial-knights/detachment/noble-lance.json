@@ -1,0 +1,137 @@
+{
+    "detachmentName": "noble lance",
+    "detachmentRule": [
+        {
+            "name": "indomitable heroes",
+            "lore": "Gathered into a powerful formation known as a lance, Imperial Knights and the Nobles who pilot them wage their honour-driven assaults with renowned resilience and bloody-minded determination.",
+            "description": "All <strong>IMPERIAL KNIGHTS</strong> models from your army have the Feel No Pain 6+ ability. If your army is Honoured, those models have the Feel No Pain 5+ ability."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Revered Knight (Aura)",
+            "points": 20,
+            "lore": "Never hesitating before tyrannical invaders, this Knight is beheld as the very epitome of honour – a monolithic incarnation of the Imperium. While they stand, courage is inviolate and victory is assured.",
+            "description": "IMPERIAL KNIGHTS model only. While a friendly IMPERIAL KNIGHTS model is within 6'' of the bearer, improve that model’s Leadership characteristic by 1. If your army is Honoured, increase the range of this Aura ability to 12''."
+        },
+        {
+            "name": "Mysterious Guardian",
+            "points": 35,
+            "lore": "Manifesting as though from nowhere, this Noble’s titanic steed is an elemental force of vengeance against the Emperor of Mankind’s foes. At battle’s end, it disappears as mysteriously as it arrived",
+            "description": "IMPERIAL KNIGHTS model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of any enemy units, it can fade away. If it does, remove it from the battlefield then, in the Reinforcements step of your subsequent Movement phase, set it up anywhere on the battlefield that is more than 9'' horizontally away from all enemy models. If the battle ends and the bearer is not on the battlefield, it is destroyed."
+        },
+        {
+            "name": "Mythic Hero",
+            "points": 25,
+            "lore": "This warrior is a legendary figure who embodies the Code Chivalric, and tales of their deeds have spread far and wide. To be a Bondsman to such a warrior is a great honour indeed.",
+            "description": "QUESTORIS model with a Bondsman ability only. Each time the bearer uses its Bondsman ability, you can select one additional friendly ARMIGER model within 12'' of the bearer that is not already being affected by a Bondsman ability. Until the start of your next Command phase, that model is also affected by that Bondsman ability."
+        },
+        {
+            "name": "Banner of Macharius Triumphant",
+            "points": 30,
+            "lore": "A gift from Lord Solar Macharius himself to honour the noble houses that accompanied his crusade, legend has it that this banner has never seen defeat: every time a Knight has carried it to war, a great victory has been won.",
+            "description": "IMPERIAL KNIGHTS model only. If you control an objective marker at the end of your Command phase and the bearer is within range of that objective marker, that objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn.. "
+        },
+        {
+            "name": "Unyielding Paragon",
+            "points": 40,
+            "lore": "This Knight is an unyielding army unto themselves, capable of engaging entire enemy forces and holding their ground, emerging through the fiercest firestorms bloodied, but unbowed.",
+            "description": "QUESTORIS model only. Each time an attack is allocated to the bearer, worsen the Armour Penetration characteristic of that attack by 1. "
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "squire's duty",
+            "subindex": "battle tactic stratagem",
+            "lore": "Under the scrutiny and judgement of their Noble betters, Armiger pilots will redouble their efforts, attacking as one to smash aside their foes.",
+            "when": "The start of your Shooting phase or the start of the Fight phase.",
+            "target": "Two or more ARMIGER models from your army and one enemy unit that is an eligible target for all of those ARMIGER models.",
+            "effect": "Until the end of the phase, when resolving attacks that target that enemy unit, improve the Strength and Armour Penetration characteristics of weapons equipped by those ARMIGER models by 1. If your army is Honoured, until the end of the phase, add 1 to the Damage characteristic of those weapons as well.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "rotate ion shields",
+            "subindex": "battle tactic stratagem",
+            "lore": "Veteran Knight pilots can swiftly angle their ion shields to better deflect incoming fire.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One IMPERIAL KNIGHTS model from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, that IMPERIAL KNIGHTS model has a 4+ invulnerable save against ranged attacks.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "thunderstomp",
+            "subindex": "epic deed stratagem",
+            "lore": "The Noble brings their Knight suit’s full weight crashing down with the force of an industrial piledriver. Few can survive such a blow.",
+            "when": "Fight phase.",
+            "target": "One IMPERIAL KNIGHTS model from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, your model cannot target MONSTER or VEHICLE units, but all melee weapons equipped by your model have the [DEVASTATING WOUNDS] ability.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "death frenzy",
+            "subindex": "epic deed stratagem",
+            "lore": "Tyranids care nothing for self-preservation, lashing out even in death.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "valiant last stand",
+            "subindex": "epic deed stratagem",
+            "lore": "Badly wounded, their Knight’s generator on the verge of overload, still the Noble fights on, drawing upon their reserves of chivalric heroism to sell their life as dearly as they can.",
+            "when": "Fight phase.",
+            "target": "One IMPERIAL KNIGHTS model from your army that was just destroyed and that is eligible to fight but has not been selected to fight this phase. You can use this Stratagem on that model even though it was just destroyed.",
+            "effect": "Before rolling to see if this model deals any mortal wounds as a result of its Deadly Demise ability, it can fight; when doing so, it is assumed to have 1 wound remaining, or all its wounds remaining if your army is Honoured. After it has finished resolving its attacks, resolve its Deadly Demise ability as normal.",
+            "restrictions": "You cannot target SIR HEKHTUR with this Stratagem. ",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "trophy claim",
+            "subindex": "epic deed stratagem",
+            "lore": "Once a mighty foe is laid low, the victorious Knight’s emitters blare its triumph, announcing the glory brought to the Imperium, but shame awaits those who fail in such confrontations.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One IMPERIAL KNIGHTS model from your army that has not been selected to shoot or fight this phase, and one enemy MONSTER or VEHICLE unit.",
+            "effect": "Until the end of the phase, each time your model makes an attack that targets that enemy unit, add 1 to the Wound roll. If your model destroys that enemy unit this phase, you gain 1CP, but if your model does not destroy that enemy unit this phase, you cannot use this Stratagem again for the rest of the battle.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "endless swarm",
+            "subindex": "battle tactic stratagem",
+            "lore": "When faced with their darkest hour, knightly Nobles rise to the challenge, for nothing shall deter them from fulfilling their duty.",
+            "when": "Your Command phase.",
+            "target": "One IMPERIAL KNIGHTS model from your army that has lost one or more wounds.",
+            "effect": "Until the start of your next Command phase, improve your model’s Move, Toughness, Save, Leadership and Objective Control characteristics by 1 and each time your model makes an attack, add 1 to the Hit roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "blue",
+            "restrictions":"You can only use this Stratagem once per battle. If your army is Honoured, you can use this Stratagem one additional time."
+        }
+    ]
+}

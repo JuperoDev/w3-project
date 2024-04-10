@@ -35,12 +35,12 @@
     ],
     "stratagems": [
         {
-            "name": "rapid regeneration",
-            "subindex": "battle tactic stratagem",
-            "lore": "Prey stare in horror as chitinous armour regrows and flesh, muscle and sinew knots back together.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead.",
+            "name": "cached acquisition",
+            "subindex": "epic deed stratagem",
+            "lore": "Death is irrelevant compared to the hallowed duty of securing the Omnissiah's knowledge for future retrieval.",
+            "when": "Any phase.",
+            "target": "One ADEPTUS MECHANICUS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
             "icon": [
                 ""
             ],
@@ -48,70 +48,71 @@
             "color": "green"
         },
         {
-            "name": "adrenal surge",
+            "name": "priority reclamation",
             "subindex": "battle tactic stratagem",
-            "lore": "These warrior organisms destroy all as their adrenaline surges.",
-            "when": "Fight phase.",
-            "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army and are eligible to fight, or one other TYRANIDS unit from your army that is eligible to fight.",
-            "effect": "Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+            "lore": "Retrieval of the most sacred and ancient fragments of technology is embedded in loops of alpha-logic.",
+            "when": "Fight phase, just before an ADEPTUS MECHANICUS unit from your army Consolidates.",
+            "target": "That ADEPTUS MECHANICUS unit.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6'' instead of up to 3'', provided your unit ends that Consolidation move within range of your Acquisition objective marker.",
+            "restrictions":"You cannot target a unit with this Stratagem if it is within 3'' of one or more enemy units.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "infoslave skull",
+            "subindex": "wargear stratagem",
+            "lore": "Mono-task infoslave skulls range ahead to assess potential sites that must be investigated.",
+            "when": "Your Command phase.",
+            "target": "One TECH-PRIEST model from your army and one objective marker within 24'' of that model (excluding your Acquisition objective marker].",
+            "effect": "Until the start of your next Command phase, that objective marker is also considered to be one of your Acquisition objective markers for all rules purposes.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "auto-oracular retrieval",
+            "subindex": "battle tactic stratagem",
+            "lore": "With a surge of targeting data from the war engine as its hatches slam open, the warriors inside pour out with weapons already trained unerringly on the foe.",
+            "when": "Your Shooting phase.",
+            "target": "One ADEPTUS MECHANICUS unit from your army that disembarked from a TRANSPORT this turn.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Acquisition objective marker, add 1 to the Wound roll.",
             "icon": [
                 ""
             ],
             "cp": 2,
-            "color": "green"
-        },
-        {
-            "name": "death frenzy",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Tyranids care nothing for self-preservation, lashing out even in death.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "overrun",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Tyranids in battle form an unstoppable avalanche of flesh and chitin that buries the foe alive.",
-            "when": "Fight phase, just before a TYRANIDS unit from your army Consolidates.",
-            "target": "That TYRANIDS unit.",
-            "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3'' as long as your unit can end that move within Engagement Range of one or more enemy units. If your unit is within Synapse Range of your army and not within Engagement Range of any enemy units, instead of making that Consolidation move, it can make a Normal move of up to 6''",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "predatory imperative",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Guided by the instincts of leader-beasts, the swarm can be tasked with focusing its hunting instincts.",
-            "when": "Your Command phase.",
-            "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.",
-            "effect": "Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
-            "restrictions": "You cannot select the same Hyper-adaptation you selected at the start of the first battle round.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
             "color": "blue"
         },
         {
-            "name": "endless swarm",
-            "subindex": "strategic ploy stratagem",
-            "lore": "As the battle rages, more organisms pour in to bolster the swarms.",
-            "when": "Your Command phase.",
-            "target": "Up to two ENDLESS MULTITUDE units from your army that are within Synapse Range of your army, or one other ENDLESS MULTITUDE unit from your army.",
-            "effect": "You can return up to D3+3 destroyed models to each of the selected units.",
+            "name": "incense exhausts",
+            "subindex": "wargear stratagem",
+            "lore": "The machine spirits of sanctified war engines can be entreated to release clouds of incense laced with radioactive particles, veiling the faithful from the foe.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS MECHANICUS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly ADEPTUS MECHANICUS SMOKE unit within 6'' of it.",
+            "effect": "Until the end of the phase, both of those units have the Stealth ability and the Benefit of Cover.",
             "icon": [
                 ""
             ],
             "cp": 1,
-            "color": "blue"
+            "color": "red"
+        },
+        {
+            "name": "reactive safeguard",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Holy data must be hoarded at all costs, and thickly armoured war engines offer swift and secure vaults.",
+            "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
+            "target": "One ADEPTUS MECHANICUS INFANTRY nit from your army within range of your Acquisition objective marker that was selected as a target of that charge, and one friendly ADEPTUS MECHANICUS TRANSPORT.",
+            "effect": "Your unit can embark within that TRANSPORT.",
+            "restrictions":"Every model in your unit must be within 3'' of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         }
     ]
 }

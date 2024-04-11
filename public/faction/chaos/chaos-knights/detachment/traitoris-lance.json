@@ -1,0 +1,98 @@
+{
+    "detachmentName": "traitoris lance",
+    "detachmentRule": [
+        {
+            "name": "forged in terror (aura)",
+            "lore": "Chaos Knights are servants of shadow and terror; wherever they stride, fear and madness spread.",
+            "description": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12'' of a <strong>CHAOS KNIGHTS</strong> model from your army, that enemy unit must take a Battleshock test. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Lord of Dread",
+            "points": 35,
+            "lore": "This tyrannical Knight is the epitome of dread power, instilling as much fear in their minions as they do over the enemy, ensuring unwavering obedience.",
+            "description": "CHAOS KNIGHTS model only. At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that enemy unit must take a Battle-shock test."
+        },
+        {
+            "name": "Aura of Terror",
+            "points": 25,
+            "lore": "This towering Knight is wreathed in tendrils of warp energy that caress the minds of any enemy who draws near, driving those touched into a state of abject fear. Wherever this Knight treads, this aura of terror permeates and corrupts the land until it can be cleansed.",
+            "description": "CHAOS KNIGHTS model only. If you control an objective marker at the end of your Command phase, and the bearer is within range of that objective marker, that objective marker is said to be Tainted and remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Tainted and under your control and the Despair Dread ability is active for your army, that objective marker has the Despair Dread ability as if it was a CHAOS KNIGHTS model from your army (so subtract 1 from Battle-shock and Leadership tests taken for enemy units within 12\" of it)."
+        },
+        {
+            "name": "The Traitor's Mark",
+            "points": 30,
+            "lore": "The dark deeds and bloodstained heraldry of this Chaos Knight are whispered far and wide. Rumours spread that to confront it is to face a painful death. Each blazon borne upon its hull proclaims the unholy atrocities committed by the bearer, and even to look upon these loathsome sigils is to be gripped by unnatural terror and beset by swarming nightmares.",
+            "description": "CHAOS KNIGHTS model only. The Doom and Darkness ability is active for the bearer from the first battle round onwards, instead of from the third."
+        },
+        {
+            "name": "Panoply of the Cursed Knights",
+            "points": 40,
+            "lore": "Borne within an unmarked casket by an order of silent Idolators, this collection of tattered pennants, chain-strung charms and armour scraps represent the last remains of the Knight Carnivus Grymm. It is said that festooning one’s Knight suit with these charms instils the legendary fortitude of that doomed war engine. Yet it is whispered that doing so also invites the attentions of the same dread curse that eventually led to Carnivus Grymm’s ghastly end.",
+            "description": "CHAOS KNIGHTS model only. Each time an attack is made against the bearer, subtract 1 from the Armour Penetration characteristic of that attack."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "dread hounds",
+            "lore": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
+            "subindex": "Battle Tactic Stratagem",
+            "when": "The start of your Shooting phase or the start of the Fight phase.",
+            "target": "Two or more WAR DOG units from your army and one enemy unit that is an eligible target for each of those selected WAR DOG units.",
+            "effect": "Until the end of the phase, the selected WAR DOG units can only target that enemy unit, but all weapons equipped by those WAR DOG models gain the [SUSTAINED HITS 1] ability. In addition, if that enemy unit is Battle-shocked, until the end of the phase, each time a selected WAR DOG model makes an attack against that enemy unit, an unmodified Hit roll of 5+ scores a Critical Hit.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "disdain for the weak",
+            "lore": "Chaos Knight pilots refuse to yield while foes remain to be slain, disdainfully ignoring those who succumb to fear.",
+            "subindex": "Battle Tactic Stratagem",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "pterrorshades",
+            "lore": "Shrieking with ghoulish hunger, daemonic entities descend in a tatterwinged whirlwind to rend apart the souls of those enemies who show even a moment’s fear. The soul-raptors tear apart their victims’ animus and, as they feed, this life force is channelled to regenerate the battle damage or heal the pilot of the Knight in which these creatures roost.",
+            "subindex": "Wargear Stratagem",
+            "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
+            "target": "One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.",
+            "effect": "Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "a long leash",
+            "lore": "The War Dogs of the Chaos Knights are more terrified of their lords than they are the enemy, and they heed their masters well, for they know the price of disobedience or disloyalty.",
+            "subindex": "Strategic Ploy Stratagem",
+            "when": "Your Command phase.",
+            "target": "One ABHORRENT model from your army and up to three WAR DOG models from your army.",
+            "effect": "Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "knights of shade",
+            "lore": "Like dark phantoms, some Chaos Knights can move through solid walls without hindrance.",
+            "subindex": "Epic Deed Stratagem",
+            "when": "Your Movement phase or your Charge phase.",
+            "target": "Up to two WAR DOG models from your army or one TITANIC CHAOS KNIGHTS model from your army.",
+            "effect": "Until the end of the phase, the selected models can move horizontally through models and terrain features as if they were not there.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "diabolic bulwark",
+            "lore": "Ectoplasmic blood surges hot through glowing conduits as the Chaos Knight feeds power to its shield emitters.",
+            "subindex": "Wargear Stratagem",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks.",
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

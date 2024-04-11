@@ -1,0 +1,98 @@
+{
+    "detachmentName": "cult of magic",
+    "detachmentRule": [
+        {
+            "name": "kindred sorcery",
+            "lore": "For an instant, the chanting voices of the Thousand Sons achieve perfect synchronisation, words of malign incantation rolling out like the peal of some cursed bell amidst the empyrean.",
+            "description": "<p>In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase.</p> <br/> <p><strong>MALEVOLENT CHARGE </strong></p> <p>Psychic weapons equipped by <strong>THOUSAND SONS</strong> models from your army have the [LETHAL HITS] ability.</p> <br/>  <p><strong>PSYCHIC MAELSTROM </strong></p> <p>Psychic weapons equipped by <strong>THOUSAND SONS</strong> models from your army have the [SUSTAINED HITS 1] ability.</p> <br/>  <p><strong>WRATH OF THE IMMATERIUM </strong></p> <p>Psychic weapons equipped by <strong>THOUSAND SONS</strong> models from your army have the [DEVASTATING WOUNDS] ability.</p> <br/>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Lord of Forbidden Lore",
+            "points": 25,
+            "lore": "This sorcerer has committed many a grimoire and unholy tome to memory, giving him unparalleled knowledge of hexes, curses and destructive rites.",
+            "description": "THOUSAND SONS PSYKER model only. The bearer can be selected to use a Ritual even if another PSYKER from your army has already been selected to use that Ritual this phase."
+        },
+        {
+            "name": "Athenaean Scrolls",
+            "points": 20,
+            "lore": "Ahriman consumed the knowledge contained in the Athenaeum of Kallimakus long ago, but not all of the Athenaeum’s founders were slain when their repository of knowledge was destroyed. Some of their lore has since been transcribed to keep an echo of that great library in existence. One who possesses these texts has access to techniques that make his spells exceptionally potent.",
+            "description": "THOUSAND SONS PSYKER model only. In your Command phase, if the bearer is on the battlefield and is not Battle-shocked, it generates you 1 additional Cabal point this phase."
+        },
+        {
+            "name": "Umbralefic Crystal",
+            "points": 20,
+            "lore": "By siphoning the perpetual gloom from the location where the cursed planet Mangel III once existed in realspace, a cabal of sorcerers from the Cult of Magic created the Umbralefic Crystal. One in command of this powerful relic can use its energies to temporarily fold space, creating a gate of sorcerous translocation through which he or his allies can step.",
+            "description": "THOUSAND SONS model only. Once per battle, in your Command phase, you can remove the bearer’s unit from the battlefield. If you do, in the Reinforcements step of your next Movement phase, set that unit back up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+        },
+        {
+            "name": "Arcane Vortex",
+            "points": 15,
+            "lore": "This ritualistic locus is formed from the matter of arcane objects, their substance broken down at a molecular level and added to a nexus of energy surrounding the creator. When battle is joined, the sorcerer draws upon this power, all the better to unleash warp-fuelled destruction upon the enemy.",
+            "description": "THOUSAND SONS model only. Add 1 to the Strength and Damage characteristics of Psychic weapons equipped by the bearer."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "psychic dominion",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "To pit one’s own psychic prowess against the sorcerous might of the Thousand Sons is to be trapped, helpless and screaming, within one’s own mind.",
+            "when": "Any phase, just after an enemy unit has selected its targets.",
+            "target": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, all attacks made against your unit with Psychic weapons have the [HAZARDOUS] ability and all models in your unit have the Feel No Pain 4+ ability against Psychic Attacks",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "destined by fate",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "The Architect of Fate has great designs for his pawns, which do not include their untimely demise just yet…",
+            "when": "Any phase, when a saving throw is failed for a THOUSAND SONS PSYKER model from your army.",
+            "target": "That PSYKER model.",
+            "effect": "Change the Damage characteristic of that attack to 0.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "devastating sorcery",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "This warrior’s veins burn with raw sorcery. The sheer unstoppable might of their conjurations is such that, when unleashed with destructive intent, there is little that can prevent them from devastating manifestation.",
+            "when": "Your Shooting phase.",
+            "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a Psychic Attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "ensorcelled infusion",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Utilising the fell powers of the warp, Thousand Sons Sorcerers infuse their minions’ bolter rounds with empyric energies to render them even deadlier.",
+            "when": "Your Shooting phase.",
+            "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, all inferno bolt pistols, inferno boltguns, inferno combi-bolters and inferno combi-weapons equipped by models in your unit have the [PSYCHIC] ability and a Strength characteristic of 5.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "sorcerous might",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "The most powerful sorcerers of the Thousand Sons are battle-psykers who can, if the need is dire enough, siphon a sliver of their corrupted souls into their eldritch assaults to temporarily boost their potency.",
+            "when": "Your Shooting phase.",
+            "target": "One THOUSAND SONS PSYKER unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, add 9\" to the range of Psychic weapons equipped by your unit.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "warp sight",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "With their tainted souls melded as one in the warp, what one champion of the cabal sees, all their fellows see also.",
+            "when": "Your Shooting phase.",
+            "target": "One THOUSAND SONS PSYKER unit from your army and one enemy unit that is visible to that unit.",
+            "effect": "Until the end of the phase, each time a friendly THOUSAND SONS PSYKER model makes an attack with a Psychic weapon that targets that enemy unit, that attack has the [INDIRECT FIRE] and [IGNORES COVER] abilities.",
+            "cp": 2,
+            "color": "blue"
+        }
+    ]
+}

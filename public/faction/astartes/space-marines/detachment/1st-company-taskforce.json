@@ -35,80 +35,63 @@
     ],
     "stratagems": [
         {
-            "name": "no escape",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Glowing blades and revving chainswords close off the foe’s every avenue of escape.",
-            "when": "Your opponent’s Movement phase, when an enemy unit (excluding VEHICLES and MONSTERS) is selected to Fall Back.",
-            "target": "One ADEPTUS ASTARTES unit from your army that is within Engagement Range of that enemy unit.",
-            "effect": "Roll one D6, adding 1 to the result if the Accept Any Challenge, No Matter the Odds vow is active for your army. On a 4+, that enemy unit cannot Fall Back this phase and must Remain Stationary. Otherwise, that enemy unit can Fall Back this phase, but if it does, all models in that unit must take a Desperate Escape test.",
-            "icon": [
-                ""
-            ],
+            "name": "armour of contempt",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
             "cp": 1,
-            "color": "red"
+            "color": "green"
         },
         {
-            "name": "fervent acclamation",
-            "subindex": "epic deed stratagem",
-            "lore": "The magnetic force of this Black Templar’s oratory inspires his fellow warriors to swear great vows, even in the midst of the battle.",
-            "when": "Your Command phase.",
-            "target": "One ADEPTUS ASTARTES CHARACTER unit from your army.",
-            "effect": "Select one Templar Vow that is not active for your army. Until the start of your next Command phase, while that Character is leading a unit, models in that unit gain the benefits of that vow in addition to the vow selected to be active for your army at the start of the battle.",
-            "icon": [
-                ""
-            ],
+            "name": "heroes of the chapter",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "When the fighting is at its fiercest, the veteran warriors of the Chapter truly show their quality.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your unit is Below Half-strength, add 1 to the Wound roll as well.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "terrifying proficiency",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "The 1st Company's veterans unleash their skills with an efficiency that is harrowing to witness.",
+            "when": "Your Fight phase.",
+            "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.",
+            "effect": "In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
             "cp": 1,
             "color": "blue"
         },
         {
-            "name": "vicious riposte",
-            "subindex": "epic deed stratagem",
-            "lore": "Every blow struck against a Black Templar is answered in kind. Even as they are laid low, their blades still lash out at the enemies of the divine Emperor.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if the Uphold the Honour of the Emperor vow is active for your army. On a 4+, do not remove the destroyed model from play; it can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-            "icon": [
-                ""
-            ],
+            "name": "duty and honour",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Adeptus Astartes veterans claim critical objectives in daring strikes, annihilating resistance in their Chapter’s name before sweeping onto their next target.",
+            "when": "Your Movement phase.",
+            "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within range of an objective marker you control.",
+            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
             "cp": 1,
-            "color": "green"
+            "color": "blue"
         },
         {
-            "name": "crusader's wrath",
-            "subindex": "battle tactic stratagem",
-            "lore": "The Black Templars channel their fervour into a hate-fuelled flurry of blows.",
-            "when": "Fight phase.",
-            "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, improve the Armour Penetration characteristic of that attack by 1. If the Suffer Not The Unclean to Live vow is active for your army, add 1 to the Strength characteristic of that attack as well.",
-            "icon": [
-                ""
-            ],
+            "name": "orbital teleportarium",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Teleportarium chambers within orbiting strike cruisers are able to perform site-to-strike teleportations for Terminator-armoured battle-brothers in extremis.",
+            "when": "End of your opponent’s Fight phase.",
+            "target": "One ADEPTUS ASTARTES TERMINATOR unit from your army.",
+            "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability.",
+            "restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units.",
             "cp": 1,
-            "color": "green"
+            "color": "red"
         },
         {
-            "name": "Armour of contempt",
-            "subindex": "battle tactic stratagem",
-            "lore": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
-            "when": " Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "devout push",
-            "subindex": "strategic ploy stratagem",
-            "lore": "With a zealous cry, the Black Templars press forward towards victory.",
-            "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-            "target": "One ADEPTUS ASTARTES unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
-            "effect": "Your unit can make a Normal move of up to D6'', but it must end that move closer to the enemy unit that just shot. If the Abhor the Witch, Destroy the Witch vow is active for your army, your unit can make a Normal move of up to 6'' instead, but it must end that move either closer to the enemy unit that just shot, or closer to the closest enemy PSYKER unit.",
-            "icon": [
-                ""
-            ],
+            "name": "legendary fortitude",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Many are the legendary tales of the 1st Company holding their ground against the odds, weathering assaults that would have swept away lesser warriors.",
+            "when": "Your opponent’s Charge phase, just after an enemy unit ends a Charge move.",
+            "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within Engagement Range of that enemy unit.",
+            "effect": "Until the end of the turn, each time an attack is allocated to a model in your unit, subtra",
             "cp": 1,
             "color": "red"
         }

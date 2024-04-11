@@ -35,80 +35,62 @@
     ],
     "stratagems": [
         {
-            "name": "no escape",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Glowing blades and revving chainswords close off the foe’s every avenue of escape.",
-            "when": "Your opponent’s Movement phase, when an enemy unit (excluding VEHICLES and MONSTERS) is selected to Fall Back.",
-            "target": "One ADEPTUS ASTARTES unit from your army that is within Engagement Range of that enemy unit.",
-            "effect": "Roll one D6, adding 1 to the result if the Accept Any Challenge, No Matter the Odds vow is active for your army. On a 4+, that enemy unit cannot Fall Back this phase and must Remain Stationary. Otherwise, that enemy unit can Fall Back this phase, but if it does, all models in that unit must take a Desperate Escape test.",
-            "icon": [
-                ""
-            ],
+            "name": "unbowed conviction",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Space Marines exemplify obdurate tenacity. Even injured, they will never abandon their oaths.",
+            "when": "Command phase.",
+            "target": "One ADEPTUS ASTARTES unit from your army that is below its Starting Strength.",
+            "effect": "Until the end of the turn, your unit can ignore any or all modifiers to its characteristics and/or to any roll or test made for it (excluding modifiers to saving throws).",
             "cp": 1,
-            "color": "red"
+            "color": "green"
         },
         {
-            "name": "fervent acclamation",
-            "subindex": "epic deed stratagem",
-            "lore": "The magnetic force of this Black Templar’s oratory inspires his fellow warriors to swear great vows, even in the midst of the battle.",
+            "name": "armour of contempt",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "The belligerence of the Adeptus Astartes combined with their post-human physiology makes them unyielding foes to face.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "mercy is weakness",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Once a foe is marked for destruction, the Angels of Death must not relent until the target is annihilated.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its Starting Strength, that attack has the [SUSTAINED HITS 1] ability, and when making such an attack, if the attacking model is a VEHICLE, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "vengeful animus",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "Carefully cogitated binharic prayers can focus a machine spirit’s ire into near-obsessive hatred of its slayers, ensuring that vengeance is meted out even in death.",
+            "when": "Any phase, just after an ADEPTUS ASTARTES VEHICLE model from your army with the Deadly Demise ability is destroyed.",
+            "target": "That ADEPTUS ASTARTES VEHICLE model. You can use this Stratagem on that model even though it was just destroyed.",
+            "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "ancient fury",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "The heroes entombed within Dreadnoughts have fought across countless war zones throughout their extended existences, perfecting their martial prowess beyond mortal limits.",
             "when": "Your Command phase.",
-            "target": "One ADEPTUS ASTARTES CHARACTER unit from your army.",
-            "effect": "Select one Templar Vow that is not active for your army. Until the start of your next Command phase, while that Character is leading a unit, models in that unit gain the benefits of that vow in addition to the vow selected to be active for your army at the start of the battle.",
-            "icon": [
-                ""
-            ],
+            "target": "One ADEPTUS ASTARTES WALKER model from your army.",
+            "effect": "Until the start of your next Command phase, improve your model’s Move, Toughness, Leadership and Objective Control characteristics by 1 and each time your model makes an attack, add 1 to the Hit roll.",
             "cp": 1,
             "color": "blue"
         },
         {
-            "name": "vicious riposte",
-            "subindex": "epic deed stratagem",
-            "lore": "Every blow struck against a Black Templar is answered in kind. Even as they are laid low, their blades still lash out at the enemies of the divine Emperor.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if the Uphold the Honour of the Emperor vow is active for your army. On a 4+, do not remove the destroyed model from play; it can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "crusader's wrath",
-            "subindex": "battle tactic stratagem",
-            "lore": "The Black Templars channel their fervour into a hate-fuelled flurry of blows.",
-            "when": "Fight phase.",
-            "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, improve the Armour Penetration characteristic of that attack by 1. If the Suffer Not The Unclean to Live vow is active for your army, add 1 to the Strength characteristic of that attack as well.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "Armour of contempt",
-            "subindex": "battle tactic stratagem",
-            "lore": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
-            "when": " Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "devout push",
-            "subindex": "strategic ploy stratagem",
-            "lore": "With a zealous cry, the Black Templars press forward towards victory.",
-            "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-            "target": "One ADEPTUS ASTARTES unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
-            "effect": "Your unit can make a Normal move of up to D6'', but it must end that move closer to the enemy unit that just shot. If the Abhor the Witch, Destroy the Witch vow is active for your army, your unit can make a Normal move of up to 6'' instead, but it must end that move either closer to the enemy unit that just shot, or closer to the closest enemy PSYKER unit.",
-            "icon": [
-                ""
-            ],
+            "name": "power of the machine spirit",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "There are many tales of machine spirits wreaking havoc on the foe, even after the crew of their vehicle are slain and critical systems are failing.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.",
+            "target": "One ADEPTUS ASTARTES VEHICLE unit from your army that was reduced to Below Half-strength as a result of the attacking unit’s attacks.",
+            "effect": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
             "cp": 1,
             "color": "red"
         }

@@ -1,0 +1,104 @@
+{
+    "detachmentName": "daemonic incursion",
+    "detachmentRule": [
+        {
+            "name": "warp rifts",
+            "lore": "Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp.",
+            "description": "Each time a LEGIONES DAEMONICA unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within your army’s Shadow of Chaos, it can be set up anywhere that is more than 6'' horizontally away from all enemy models, instead of more than 9''."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "A’rgath, the King of Blades",
+            "points": 20,
+            "lore": "When a daemon is bound within a weapon by its infernal master, it rarely submits willingly to this terrible incarceration. The same cannot be said for A’rgath. A lifetime of slaughter and zealous dedication saw this butcher granted daemonhood. Such was his devotion to Khorne that instead of accepting immortality as a Daemon Prince, he instead chose to take the form of a deadly blade so that he could spill the lifeblood of Khorne’s greatest enemies. Their hand guided by A’rgath’s spirit, this weapon’s wielder becomes nigh on unstoppable. Countless are the rival champions and mortal heroes that have fallen to his power.",
+            "description": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead."
+        },
+        {
+            "name": "The Everstave",
+            "points": 25,
+            "lore": "This staff blazes with vibrant warpflame. As soon as its master takes up the eldritch weapon, they too are wreathed in the same daemonic fire. From within this magenta inferno, the Everstave’s daemonic bearer hurls searing gouts of Tzeentch’s pink fire, turning armour to ash and immolating or irrevocably mutating the flesh beneath.",
+            "description": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead."
+        },
+        {
+            "name": "The Endless Gift",
+            "points": 30,
+            "lore": "Only the most accomplished plague daemons are granted the Endless Gift. A disease of unutterable malignancy and repulsive beneficence, it changes form constantly from plague to infestation to malaise. The one constant is its ability to reknit its sufferer’s corporeal form from even the most catastrophic of wounds.",
+            "description": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability. While the bearer is within your army’s Shadow of Chaos, the bearer has the Feel No Pain 4+ ability instead."
+        },
+        {
+            "name": "Soulstealer",
+            "points": 15,
+            "lore": "This gluttonous blade gulps down the souls of its victims before invigorating the corporeal form of its wielder. Its greed stems from the starving Keeper of Secrets bound within – an arrogant entity that sought to devour enough Aeldari souls to challenge Slaanesh itself.",
+            "description": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound."
+        }
+    ]
+    
+    ,
+    
+    "stratagems": [
+        {
+            "name": "corrupt realspace",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms.",
+            "when": "Start of any Command phase.",
+            "target": "One LEGIONES DAEMONICA unit from your army that is within range of an objective marker you control.",
+            "effect": "That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6\" of that objective marker is considered to be within your army’s Shadow of Chaos.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "warp surge",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "The winds of the warp blow strong, invigorating daemonkind and lending them supernatural speed and ferocity.",
+            "when": "Your Charge phase.",
+            "target": "One LEGIONES DAEMONICA unit from your army that is within your army’s Shadow of Chaos.",
+            "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "draught of terror",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "The swelling fear of their mortal prey serves as an intoxicating elixir to the daemonic followers, each draught invigorating their forms with deadly power.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One LEGIONES DAEMONICA unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1. In addition, until the end of the phase, each time such a weapon targets a unit that is Battle-shocked, you can re-roll the Wound roll.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "denizens of the warp",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Ever lurking in the warp, daemons will wait until the barriers between realms thin before tearing their way into realspace.",
+            "when": "Your Movement phase.",
+            "target": "One LEGIONES DAEMONICA unit from your army that is arriving using the Deep Strike ability this phase.",
+            "effect": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+            "restrictions": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "the realm of chaos",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "When the energies of the warp bleed into realspace, the Legiones Daemonica can rip open portals in seeming thin-air, returning to their hellscapes only to rematerialise amidst their foes a heartbeat later.",
+            "when": "End of your opponent’s turn.",
+            "target": "Up to two LEGIONES DAEMONICA units from your army that are within your army’s Shadow of Chaos, or one other LEGIONES DAEMONICA unit from your army.",
+            "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves. They will arrive back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability.",
+            "restrictions": "You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem.",
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "daemonic invulnerability",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Daemons are madness given form. Their very bodies are fashioned from the stuff of the warp, and are difficult to destroy through conventional means.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One LEGIONES DAEMONICA unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+            "effect": "Until the end of the phase, each time an invulnerable saving throw is made for a model in your unit, re-roll a saving throw of 1.",
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+    }
+    

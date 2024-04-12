@@ -1,21 +1,12 @@
 <template>
-  <!-- THIS MIGHT BE PROBLEMATIC. KEEP IT IN MIND  -->
-   <GeneralPurposePasswordProtection>
-    <NuxtPage />
-    <!-- <RouterView /> -->
-   </GeneralPurposePasswordProtection> 
-
-
+  <div>
+    <GeneralPurposePasswordProtection>
+      <NuxtPage />
+    </GeneralPurposePasswordProtection>
+    <GeneralPurposeScrollToTopArrow />
+  </div>
 </template>
 
-<style>
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.3s;
-}
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  filter: blur(1rem);
-}
-</style>
+<script setup>
+
+</script>

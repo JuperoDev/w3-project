@@ -1,5 +1,5 @@
 <template>
-    <div class="p-5  bg-zinc-900 navigation-bar">
+    <div class= "sticky top-0 z-50 p-5  bg-zinc-900 navigation-bar">
     <div class=" flex flex-row">
         <GeneralPurposeBackButton class="mx-2"/> 
         

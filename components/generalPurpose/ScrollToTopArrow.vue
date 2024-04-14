@@ -40,10 +40,10 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background-color: #080808;
+    background-color: #323232;
     color: #fff;
     border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
   }
   </style>
   

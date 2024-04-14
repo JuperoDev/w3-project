@@ -39,6 +39,10 @@
             <v-btn>detachments</v-btn> -->
           <!-- </div> -->
 
+
+      <!-- army rules  -->
+      <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" /> 
+
           <!-- detachment -->
 
            <div class="detachment-container px-10 mb-10">
@@ -69,10 +73,8 @@
         </div>
       </div>
 
-      <!-- <DesktopArmyComponentsIntroduction /> -->
+      
 
-      <!-- army rules  -->
-      <!-- <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" /> -->
 
       <!-- unit list  -->
       <div class="unit-list">

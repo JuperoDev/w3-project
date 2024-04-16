@@ -2,7 +2,7 @@
   <div>
    
 
-     <NavbarComponentsArmyButtonGrid/>
+    <NavbarComponentsButtonGrid />
    
 
     <div v-if="factionData && factionData.army">

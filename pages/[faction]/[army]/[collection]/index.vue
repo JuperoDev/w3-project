@@ -2,6 +2,7 @@
   <div>
     <!-- <GeneralPurposePasswordProtection>  -->
     <NavbarComponentsButtonGrid />
+   
     <!-- {{ urlStore }} -->
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container max-lg:hidden">

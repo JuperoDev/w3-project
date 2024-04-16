@@ -42,7 +42,7 @@ const middleware = [passwordProtection];
 
 <style scoped>
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   color: #191919;
   text-transform: uppercase;

@@ -1,5 +1,5 @@
 <template>
-  <div class="datasheet-desktop__container mt-5">
+  <div class="datasheet-desktop__container ">
    
     <div class="datasheet-desktop__header py-5 bg-zinc-900">
       <div class="color-stripe bg-zinc-500 h-20 z-1">

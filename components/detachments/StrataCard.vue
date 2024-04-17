@@ -1,23 +1,24 @@
 <template>
   <div>
     <div class="bg-white shadow-lg">
-      <div class="flex">
-        
+      <div class="">
         <div class="p-4 ml-5">
+          <div  class="
+              
+            ">
           <h2
             :class="
               'text-lg mb-2 font-bold text-' +
               stratagem.color +
-              '-600 border-solid border-b-2 border-' +
+              '-600 border-solid border-b-2 border-' + 
               stratagem.color +
               '-600 uppercase'
             "
-          >
-            {{ stratagem.name }}
+          >  {{ stratagem.name }} <span class="mx-2">{{ stratagem.cp }} cp</span>
           </h2>
-          <p>{{ stratagem.cp }}cp</p>
+        </div>
           <p
-            class="text-gray-600 border-dotted border-b-2 border-gray-500 mb-2 capitalize"
+            class="text-gray-600 py-2 border-dotted border-b-2 border-gray-500 mb-2 capitalize"
           >
             {{ stratagem.subindex }}
           </p>
@@ -59,7 +60,7 @@
             {{ stratagem.effect }}
           </p>
 
-          <p v-if="stratagem.restrictions"  class="my-2">
+          <p v-if="stratagem.restrictions" class="my-2">
             <span
               :class="{
                 'text-red-600': stratagem.color === 'red',
@@ -71,7 +72,6 @@
             >
             {{ stratagem.restrictions }}
           </p>
-
         </div>
       </div>
     </div>

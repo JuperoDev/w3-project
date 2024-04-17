@@ -2,7 +2,11 @@
   <div class="wrapper ">
     
     <NavbarComponentsButtonGrid />
-    <div class="flex items-center justify-center">
+
+    <!-- flex items-center justify-center -->
+    <div class="army_main 
+   
+    ">
     <div class="collection-container">
       <div class="collection-container__left-column">
         <div
@@ -45,8 +49,8 @@
 
           <!-- detachment -->
 
-           <div class="detachment-container px-10 mb-10">
-            <div class="flex items-center justify-center">
+           <div class="detachment-container  ">
+            <div class="flex items-center justify-center  my-3">
               <h2 class="text-3xl text-zinc-800 font-bebas">Detachments</h2>
             </div>
             <div
@@ -79,7 +83,7 @@
       <!-- unit list  -->
       <div class="unit-list">
         <div class="flex items-center justify-center">
-              <h2 class="text-3xl text-zinc-800 font-bebas">Units</h2>
+              <h2 class="text-3xl text-zinc-800 font-bebas my-3">Units</h2>
             </div>
         <div v-if="armyData" class="grid grid-cols-1 md:grid-cols-3">
           <div v-for="unit in armyData.units" :key="unit" class="m-5">

@@ -5,7 +5,7 @@
     <!-- boxes -->
     <div class="datasheet__header--stats grid grid-cols-6 place-items-center text-zinc-100 font-semibold "  v-for="attribute in attributes">
       <!-- Single Box -->
-      <div class="datasheet__header--stats-single grid place-items-center z-50">
+      <div class="datasheet__header--stats-single grid place-items-center z-40">
         <p>M</p>
         <div
           class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"
@@ -20,7 +20,7 @@
       <!-- end Single Box  -->
 
             <!-- Single Box -->
-            <div class="datasheet__header--stats-single grid place-items-center z-50">
+            <div class="datasheet__header--stats-single grid place-items-center z-40">
         T
         <div
           class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"
@@ -35,7 +35,7 @@
       <!-- end Single Box  -->
 
             <!-- Single Box -->
-            <div class="datasheet__header--stats-single grid place-items-center z-50">
+            <div class="datasheet__header--stats-single grid place-items-center z-40">
         SV
         <div
           class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"
@@ -50,7 +50,7 @@
       <!-- end Single Box  -->
 
             <!-- Single Box -->
-            <div class="datasheet__header--stats-single grid place-items-center z-50">
+            <div class="datasheet__header--stats-single grid place-items-center z-40">
         W
         <div
           class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"
@@ -65,7 +65,7 @@
       <!-- end Single Box  -->
 
             <!-- Single Box -->
-            <div class="datasheet__header--stats-single grid place-items-center z-50">
+            <div class="datasheet__header--stats-single grid place-items-center z-40">
         LD
         <div
           class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"
@@ -80,7 +80,7 @@
       <!-- end Single Box  -->
 
             <!-- Single Box -->
-            <div class="datasheet__header--stats-single grid place-items-center z-50">
+            <div class="datasheet__header--stats-single grid place-items-center z-40">
         OC
         <div
           class="datasheet__header--stats-single-box p-1 w-11 h-11 bg-zinc-500 text-zinc-900"

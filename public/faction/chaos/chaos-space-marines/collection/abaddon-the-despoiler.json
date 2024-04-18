@@ -54,8 +54,12 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Lord of the Traitor Legions (Aura):",
+                "name": "Lord of the Traitor Legions (Aura)",
                 "description": "While a friendly HERETIC ASTARTES unit is within 6\" of this model, you can re-roll Leadership and Battle-shock test s taken for that unit."
+            },
+            {
+                "name": "Dark Destiny",
+                "description": "Each time this model makes a Dark Pact and does not fail the resulting Leadership test, roll one D6: on a 2+, you gain 1CP."
             }
         ]
     },
@@ -102,5 +106,21 @@
             "points": 90
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {
+        "title": "Warmaster",
+        "abilities": [
+            {
+                "name": "Paragon of Hatred (Aura)",
+                "description": "While a friendly HERETIC ASTARTES unit is within 6'' of this model, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+            },
+            {
+                "name": "Mark of Chaos Ascendant (Aura)",
+                "description": "While a friendly HERETIC ASTARTES INFANTRY or HERETIC ASTARTES MOUNTED unit is within 6'' of this model, models in that unit have a 4+ invulnerable save."
+            },
+            {
+                "name": "Lord of the Traitor Legions (Aura)",
+                "description": "While a friendly HERETIC ASTARTES unit is within 6'' of this model, you can re-roll Leadership and Battle-shock tests taken for that unit."
+            }
+        ]
+    }
 }

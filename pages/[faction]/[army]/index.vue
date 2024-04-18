@@ -5,10 +5,10 @@
 
     <!-- flex items-center justify-center -->
     <div class="army_main 
-    flex items-center justify-center
+    flex items-center justify-center bg-stone-100
     ">
-    <div class="collection-container w-full">
-      <div class="collection-container__left-column">
+    <div class="collection-container w-full p-2 m-2 bg-white border border-black-500">
+      <div class="collection-container__left-column ">
         <div
           class="inner-container text-justify rounded-sm bg-white bg-opacity-70"
         >

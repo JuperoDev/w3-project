@@ -1,8 +1,8 @@
 <template>
-  <div class="datasheet-desktop__container ">
+  <div class="datasheet-desktop__container pb-5 pt-2">
    
     <div class="datasheet-desktop__header py-5 bg-zinc-900">
-      <div class="color-stripe bg-zinc-500 h-20 z-1">
+      <div class="color-stripe bg-zinc-500 h-20 ">
         <h1 class="uppercase font-bebas text-4xl text-zinc-200 px-5 py-3">
           {{ parentUnit }}
           
@@ -14,9 +14,9 @@
       <DesktopComponentsAttributes :attributes="attributes" />
     </div>
     <div
-      class="datasheet-desktop--grid-container grid grid-cols-5 border-t-0 border-r-2 border-b-2 border-l-2 border-solid border-slate-700 mx-2"
+      class="datasheet-desktop--grid-container grid grid-cols-5 border-t-0  bg-white border-r-2 border-b-2 border-l-2 border-solid border-slate-700"
     >
-      <div class="datasheet-desktop__grid-container--left col-span-3">
+      <div class="datasheet-desktop__grid-container--left col-span-3 ">
         
         <DesktopComponentsRangedWeapons
           :rangedWeapons="rangedWeapons"
@@ -60,7 +60,7 @@
       </div>
     </div>
 
-    <div class="keywords-container">
+    <div class="keywords-container ">
       <DesktopComponentsKeywords
         :keywords="keywords"
         :factionKeyword="factionKeyword"
@@ -112,27 +112,6 @@ const isEmptyObject = (obj) => {
   margin: 0 auto;
 }
 
-/* .datasheet-desktop__header {
-  
-} */
-
-/* .color-stripe {
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 43%,
-    49.06% 43%,
-    47.3% 44%,
-    45.8% 49.37%,
-    44.3% 59.49%,
-    42.6% 73.42%,
-    41.27% 85.24%,
-    39.83% 93.24%,
-    38.1% 97.47%,
-    36% 100%,
-    0% 100%
-  );
-} */
 
 
 </style>

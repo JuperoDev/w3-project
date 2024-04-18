@@ -1,14 +1,18 @@
 <template>
   <div class="army-rules-container">
-    <h2 class="text-3xl uppercase px-10">Army Rules</h2>
+  
     
 
     
 <div class=" containerpanel  mx-2 my-5">
-  <v-expansion-panels v-for="rule in armyRules"
-        :key="rule.id">
+  <v-expansion-panels >
      
-        <v-expansion-panel class="rules_expansion" :title="rule.name.toUpperCase()">
+        <v-expansion-panel v-for="rule in armyRules"
+        :key="rule.id" class="rules_expansion my-1" >
+
+        <v-expansion-panel-title>
+            <div class="uppercase font-semibold">{{ rule.name }}</div>
+          </v-expansion-panel-title>
           <v-expansion-panel-text>
           
              <p class="italic" v-html="rule.lore"></p> 
@@ -45,7 +49,5 @@ h2 {
 }
 
 
-.containerpanel {
- 
-}
+
 </style>

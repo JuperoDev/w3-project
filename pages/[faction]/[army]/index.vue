@@ -5,9 +5,9 @@
 
     <!-- flex items-center justify-center -->
     <div class="army_main 
-   
+    flex items-center justify-center
     ">
-    <div class="collection-container">
+    <div class="collection-container w-full">
       <div class="collection-container__left-column">
         <div
           class="inner-container text-justify rounded-sm bg-white bg-opacity-70"
@@ -45,7 +45,20 @@
 
 
       <!-- army rules  -->
-      <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" /> 
+    
+
+
+      <div class="armyrules-container  ">
+            <div class="flex items-center justify-center  my-3">
+              <h2 class="text-3xl text-zinc-800 font-bebas">Army Rules</h2>
+            </div>
+            <div
+              class="collection-container__right-column--detachments grid grid-cols-1 "
+            >
+            <DesktopArmyComponentsArmyRules :armyRules="armyData.rules" /> 
+            </div>
+          </div> 
+
 
           <!-- detachment -->
 

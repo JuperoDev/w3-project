@@ -6,7 +6,7 @@
         class="war-card__cover-image"
       />
     </div>
-    <h1>{{logoCaption}}</h1>
+    <h2 class="text-slate-900  text-2xl font-bebas m-5">{{logoCaption.toUpperCase()}}</h2>
     <img
       :src="characterSrc"
       class="war-card__character"
@@ -24,20 +24,20 @@ export default {
     },
     imgSrc: {
       type: String,
-      default: "https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg"
+      default: "https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg"
 
     },
     characterSrc: {
       type: String,
-      default: "/tyranid.png"
+      default: "https://www.warhammer-community.com/wp-content/uploads/2023/06/uxhoUvvVGETrsFTA.png"
     },
   },
 };
 </script>
-<style>
+<style scoped>
 .war-card {
   width: 200px;
-  height: 300px;
+  height: 200px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -45,6 +45,7 @@ export default {
   padding: 0 36px;
   perspective: 2500px;
   margin: 0 50px;
+ 
 }
 
 .war-card__cover-image {
@@ -58,6 +59,7 @@ export default {
   position: absolute;
   width: 100%;
   z-index: -1;
+  
 }
 
 .war-card:hover .war-card__wrapper {
@@ -76,6 +78,7 @@ export default {
   transition: all 0.5s;
   position: absolute;
   left: 0;
+  
 }
 .war-card__wrapper::before {
   top: 0;
@@ -94,7 +97,7 @@ export default {
     to bottom,
     transparent 46%,
     rgba(12, 13, 19, 0.5) 68%,
-    rgba(12, 13, 19) 97%
+    rgb(36, 36, 36) 97%
   );
 }
 

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    
+  <div class=" bg-stone-100 p-2 h-screen">
+    <div class=" bg-white border border-black-500">
      <!-- <GeneralPurposePasswordProtection>     -->
 
    
@@ -20,14 +20,15 @@
       </div>
       <div class=" flex items-center justify-center">
         
-      <FactionFetch />
+       <FactionFetch /> 
 
+      
 
-     
+    </div> 
 
-
-    </div>
+    
      <!-- </GeneralPurposePasswordProtection>    -->
+    </div>
   </div>
 </template>
 
@@ -48,62 +49,6 @@ h2 {
   text-transform: uppercase;
   
 }
-
-.army__card {
-  background-color: rgb(255, 255, 255);
-  margin: 0 auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 6px;
-  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.15),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-  transition: 0.4s;
-  /* background-color: #fff; */
-}
-
-.army__card .army__card_image {
-  width: 130px;
-  height: 130px;
-  border-radius: 40px;
-  margin: 0 auto;
-}
-
-.army__card .army__card_image img {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
-  object-fit: cover;
-}
-
-.army__card .army__card_title {
-  text-align: center;
-  border-radius: 0px 0px 40px 40px;
-  font-family: Impact, sans-serif;
-  text-transform: uppercase;
-  font-size: 17px;
-  margin-top: -15px;
-  height: 40px;
-}
-
-.army__card:hover {
-  transform: scale(1.1, 1.1);
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-  background-color: rgb(255, 255, 255);
-}
-
-.title-white {
-  font-size: 20px;
-
-  color: rgb(25, 25, 25);
-}
-
-.title-black {
-  color: black;
-
-}
-
 
 
 

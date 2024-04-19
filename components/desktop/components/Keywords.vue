@@ -44,7 +44,5 @@ const props = defineProps({
   height: 80px;
 }
 
-div {
-/* border: solid 1px red; */
-}
+
 </style>

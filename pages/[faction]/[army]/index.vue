@@ -181,4 +181,8 @@ onMounted(() => {
 .collection-container {
   max-width: 1000px;
 }
+
+img{
+  transform: scale(90%);
+}
 </style>

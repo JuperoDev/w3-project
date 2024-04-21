@@ -15,11 +15,22 @@
     ],
     "attributes": [
         {
+            "name":"fabius bile",
             "movement": 6,
             "toughness": 4,
             "save": 3,
             "wounds": 5,
             "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        },
+        {
+            "name":"Surgeon Acolyte",
+            "movement": 6,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 7,
             "objetiveControl": 1,
             "invulnerableSave": 0
         }
@@ -34,10 +45,10 @@
             ],
             "range": 18,
             "strength": 2,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 3,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],

@@ -41,6 +41,16 @@
             "singleChoice": false
         },
         {
+            "name": "Helstalker autocannon",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 2,
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 3
+        },
+        {
             "name": "Bolt pistol",
             "modifiers": [
                 "pistol"
@@ -62,20 +72,24 @@
             "strength": 9,
             "attacks": 2,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Dark Pacts"
+       
         ],
-        "faction": [],
+        "faction": [     "Dark Pacts"],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "bolt pistol; Helstalker autocannon; techno-virus injector; bladed limbs; impaler chainglaive."
+                "name": "Corrupt Machine Spirits",
+                "description": "Once per turn, at the start of your opponent’s Shooting phase, select one enemy VEHICLE unit within 12'' of and visible to one or more models from your army with this ability. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase"
+            },
+            {
+                "name": "Spirit Thief",
+                "description": "At the start of your Shooting phase, select one enemy VEHICLE unit within 12'' of this model. Until the end of the phase, each time a friendly HERETIC ASTARTES model makes an attack that targets that unit, re-roll a Wound roll of 1."
             }
         ]
     },
@@ -90,15 +104,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Helstalker autocannon",
-            "modifiers": [],
-            "attacks": 3,
-            "weapons-skills": 2,
-            "strength": 9,
-            "armor-penetration": 1,
-            "damage": 3
-        },
+       
         {
             "name": "Bladed limbs",
             "modifiers": [

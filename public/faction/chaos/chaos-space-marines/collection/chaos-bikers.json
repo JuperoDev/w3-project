@@ -100,11 +100,11 @@
             ],
             "range": 24,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma gun - supercharge",
@@ -114,11 +114,11 @@
             ],
             "range": 24,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - standard",
@@ -141,18 +141,18 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Dark Pacts"
+            
         ],
-        "faction": [],
+        "faction": ["Dark Pacts"],
         "otherAbilities": [
             {
                 "name": "Chaos Icon:",

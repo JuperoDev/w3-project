@@ -39,6 +39,16 @@
             "singleChoice": false
         },
         {
+            "name": "Boltgun",
+            "modifiers": [],
+            "range": 24,
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
             "name": "Combi-weapon",
             "modifiers": [
                 "anti-infantry 4+",
@@ -74,22 +84,22 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Dark Pacts"
+            
         ],
-        "faction": [],
+        "faction": ["Dark Pacts"],
         "otherAbilities": [
             {
-                "name": "Chaos Icon:",
-                "description": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                "name": "Chosen Marauders",
+                "description": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
             }
         ]
     },
@@ -116,15 +126,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Boltgun",
-            "modifiers": [],
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
+        
         {
             "name": "Accursed weapon",
             "modifiers": [],

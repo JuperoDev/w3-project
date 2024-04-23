@@ -83,17 +83,26 @@
             "singleChoice": false
         },
         {
-            "name": "Predator autocannon",
+            "name": "lascannon",
+            "range": 48,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "strength": 14,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "modifiers": []
+        },
+        {
+            "name": "predator autocannon",
+            "range": 48,
+            "attacks": 4,
+            "ballistic-skills": 3,
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 3,
             "modifiers": [
                 "rapid fire 2"
-            ],
-            "range": 48,
-            "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            ]
         }
     ],
     "abilities": {
@@ -131,15 +140,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Lascannon",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 12,
-            "armor-penetration": 3,
-            "damage": "D6+1"
-        },
+       
         {
             "name": "Armoured tracks",
             "modifiers": [],

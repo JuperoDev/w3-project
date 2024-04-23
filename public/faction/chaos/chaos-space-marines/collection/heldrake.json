@@ -43,6 +43,16 @@
             "armor-penetration": 1,
             "damage": 2,
             "singleChoice": false
+        },
+        {
+            "name": "hades autocannon",
+            "range": 36,
+            "attacks": 6,
+            "ballistic-skills": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
         }
     ],
     "abilities": {
@@ -69,12 +79,16 @@
     "meleeWeapons": [
         {
             "name": "Heldrake claws",
-            "modifiers": "anti-fly2+,devastatingwounds",
             "attacks": 5,
             "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 1,
-            "damage": 2
+            "damage": 2,
+            "modifiers": [
+                "anti-fly 2+",
+                "devastating wounds"
+            ],
+            "singleChoice": false
         }
     ],
     "unitComposition": [

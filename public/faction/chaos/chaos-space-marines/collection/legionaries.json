@@ -53,6 +53,16 @@
             "singleChoice": false
         },
         {
+            "name": "Boltgun",
+            "range": 24,
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
             "name": "Flamer",
             "modifiers": [
                 "ignores cover",
@@ -122,29 +132,29 @@
         {
             "name": "Missile launcher - frag",
             "modifiers": [
-                "BLAST",
-                "HEAVY"
+                "blast",
+                "heavy"
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Missile launcher - krak",
             "modifiers": [
-                "HEAVY"
+                "heavy"
             ],
             "range": 48,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
         },
         {
             "name": "Plasma gun - standard",
@@ -153,11 +163,11 @@
             ],
             "range": 24,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma gun - supercharge",
@@ -167,11 +177,11 @@
             ],
             "range": 24,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - standard",
@@ -194,11 +204,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Reaper chaincannon",
@@ -207,22 +217,22 @@
             ],
             "range": 24,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": 8,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Dark Pacts"
+            
         ],
-        "faction": [],
+        "faction": ["Dark Pacts"],
         "otherAbilities": [
             {
-                "name": "Chaos Icon:",
-                "description": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                "name": "Veterans of the Long War",
+                "description": "Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
             }
         ]
     },
@@ -277,42 +287,8 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Boltgun",
-            "modifiers": [],
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Missile launcher Ã¢â‚¬â€œ frag",
-            "modifiers": "BLAST,HEAVY",
-            "attacks": "D6",
-            "weapons-skills": 4,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Plasma gun Ã¢â‚¬â€œ standard",
-            "modifiers": "RAPIDFIRE1",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
-        {
-            "name": "Plasma pistol Ã¢â‚¬â€œ standard",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
+        
+       
         {
             "name": "Accursed weapon",
             "modifiers": [],

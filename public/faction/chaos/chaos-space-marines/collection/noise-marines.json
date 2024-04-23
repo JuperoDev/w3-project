@@ -33,7 +33,20 @@
             ],
             "range": 48,
             "strength": 9,
-            "attacks": 2,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Blastmaster - varied frequency",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 6,
+            "attacks": 6,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -51,6 +64,15 @@
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
         },
         {
             "name": "Doom siren",
@@ -86,11 +108,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Sonic blaster",
@@ -99,22 +121,22 @@
             ],
             "range": 24,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Dark Pacts"
+           
         ],
-        "faction": [],
+        "faction": [ "Dark Pacts"],
         "otherAbilities": [
             {
-                "name": "Chaos Icon:",
-                "description": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                "name": "Riotous Cacophony",
+                "description": "In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
             }
         ]
     },
@@ -159,33 +181,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Blastmaster Ã¢â‚¬â€œ single frequency",
-            "modifiers": "heavy",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 9,
-            "armor-penetration": 2,
-            "damage": 3
-        },
-        {
-            "name": "Boltgun",
-            "modifiers": [],
-            "attacks": 2,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Plasma pistol Ã¢â‚¬â€œ standard",
-            "modifiers": "pistol",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": 1
-        },
+       
         {
             "name": "Accursed weapon",
             "modifiers": [],

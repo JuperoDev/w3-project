@@ -28,6 +28,11 @@
         "description": "Weapons with [IGNORES COVER] in their profile are known as Ignores Cover weapons. Each time an attack is made with such a weapon, the target cannot have the Benefit of Cover against that attack.",
         "summary": []
     },
+    "conversion": {
+        "lore": "",
+        "description": "Each time an attack made with this weapon targets a unit more than 12'' from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.",
+        "summary": []
+    },
     "heavy": {
         "lore": "Heavy weapons are amongst the biggest guns on the battlefield, but require bracing to fire at full effect and are unwieldy to bring to bear at close quarters.",
         "description": "Weapons with [HEAVY] in their profile are known as Heavy weapons. Each time an attack is made with such a weapon, if the attacking model’s unit Remained Stationary this turn, add 1 to that attack’s Hit roll.",
@@ -89,7 +94,8 @@
             "When targeting an Attached unit, the attacking model’s player can have the attack allocated to a CHARACTER model in that unit visible to the bearer."
         ]
     },
-    "harponeed": {
+    
+    "harpooned": {
         "lore": "",
         "description": "After the bearer has shot with this weapon, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the end of the turn, each time the bearer selects that unit as a target of a charge, add 2 to the Charge roll.",
         "summary": []

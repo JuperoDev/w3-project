@@ -47,9 +47,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -61,9 +61,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -74,11 +74,24 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d3",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Lasgun",
@@ -113,24 +126,38 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         },
         {
             "name": "Plasma gun - standard",
             "modifiers": [
+                
                 "rapid fire 1"
             ],
             "range": 24,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma gun - supercharge",
@@ -140,11 +167,11 @@
             ],
             "range": 24,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - standard",
@@ -153,11 +180,11 @@
             ],
             "range": 12,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - supercharge",
@@ -167,11 +194,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
         }
     ],
     "abilities": {

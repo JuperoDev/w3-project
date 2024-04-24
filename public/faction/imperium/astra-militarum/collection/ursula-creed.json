@@ -38,22 +38,26 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 4,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "FACTION: Voice of Command"
+            "Leader"
         ],
-        "faction": [],
+        "faction": ["Voice of Command"],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "Duty and Vengeance; power weapon."
+                "name": "Lord Castellan",
+                "description": "While this model is leading a unit, that unit can be affected by up to two different Orders at the same time."
+            },
+            {
+                "name": "Tactical Genius",
+                "description": "Once per battle round, one REGIMENT unit from your army within 12'' of this model can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
             }
         ]
     },

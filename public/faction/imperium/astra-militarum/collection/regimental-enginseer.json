@@ -40,9 +40,9 @@
             ],
             "range": 12,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -54,8 +54,15 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "archeotech pistol; Enginseer axe; servo-arm."
+                "name": "Enginseer",
+                "description": "While this model is within 3'' of one or more friendly ASTRA MILITARUM VEHICLE units, this model has the Lone Operative ability. "
+            },
+            {
+                "name": "Omnissiah’s Blessing",
+                "description": "In your Command phase, select one friendly ASTRA MILITARUM VEHICLE model within 3'' of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, that VEHICLE model has a 4+ invulnerable save. Each model can only be selected for this ability once per turn."
+            },{
+                "name": "Vengeance for the Omnissiah",
+                "description": "If a friendly ASTRA MILITARUM VEHICLE model is destroyed within 12'' of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6."
             }
         ]
     },

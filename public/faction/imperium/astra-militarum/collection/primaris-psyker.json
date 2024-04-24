@@ -55,11 +55,11 @@
             ],
             "range": 18,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Psychic Maelstrom - focused witchfire",
@@ -71,11 +71,11 @@
             ],
             "range": 18,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": "d6+1",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -85,8 +85,12 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "laspistol; Psychic Maelstrom; force weapon."
+                "name": "Malign Wardings(Psychic)",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+            },
+            {
+                "name": "Psychic Barrier (Psychic)",
+                "description": "At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save."
             }
         ]
     },
@@ -94,7 +98,7 @@
     "meleeWeapons": [
         {
             "name": "Force weapon",
-            "modifiers": "psychic",
+            "modifiers": ["psychic"],
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 6,

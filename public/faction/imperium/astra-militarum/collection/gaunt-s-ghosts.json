@@ -34,10 +34,10 @@
             ],
             "range": 48,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": 4,
+            "ballistic-skills": 5,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -47,9 +47,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -60,8 +60,8 @@
             ],
             "range": 24,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -74,10 +74,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 2,
+            "damage": 4,
             "singleChoice": false
         },
         {
@@ -87,9 +87,9 @@
             ],
             "range": 24,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -101,9 +101,9 @@
             ],
             "range": 24,
             "strength": 3,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -151,7 +151,7 @@
         },
         {
             "name": "Mkoll’s straight silver knife",
-            "modifiers": "devastatingwounds,precision",
+            "modifiers": ["devastating wounds","precision"],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 3,

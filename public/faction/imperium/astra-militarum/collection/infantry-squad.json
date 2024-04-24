@@ -36,9 +36,9 @@
             "range": 48,
             "strength": 9,
             "attacks": 2,
-            "ballistic-skills": 4,
+            "ballistic-skills": 5,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage":3,
             "singleChoice": false
         },
         {
@@ -48,9 +48,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -61,9 +61,9 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -75,9 +75,9 @@
             ],
             "range": 12,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -88,11 +88,24 @@
             ],
             "range": 24,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d3",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Heavy bolter",
@@ -102,10 +115,10 @@
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": 3,
+            "ballistic-skills": 5,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -115,10 +128,10 @@
             ],
             "range": 48,
             "strength": 12,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {
@@ -154,10 +167,10 @@
             ],
             "range": 12,
             "strength": 9,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -205,15 +218,16 @@
         {
             "name": "Plasma gun - standard",
             "modifiers": [
+                
                 "rapid fire 1"
             ],
             "range": 24,
             "strength": 7,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma gun - supercharge",
@@ -223,11 +237,11 @@
             ],
             "range": 24,
             "strength": 8,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - standard",
@@ -236,11 +250,11 @@
             ],
             "range": 12,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Plasma pistol - supercharge",
@@ -250,11 +264,11 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
         },
         {
             "name": "Sniper rifle",
@@ -264,32 +278,22 @@
             ],
             "range": 36,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 2,
+            "damage": 2,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "Defenders of Humanity: Each time a ranged attack targets this unit",
-            "if this unit is within range of an objective marker you control",
-            "models in this unit have the Benefit of Cover against that attack."
+           
         ],
         "faction": [],
         "otherAbilities": [
             {
-                "name": "One of the following:",
-                "description": "1 Sergeant and 9 Guardsmen 1 Sergeant, 7 Guardsmen and 1 Heavy Weapons Team 2 Sergeants and 18 Guardsmen 2 Sergeants, 16 Guardsmen and 1 Heavy Weapons Team 2 Sergeants, 14 Guardsmen and 2 Heavy Weapons Teams Every Sergeant is equipped with: laspistol; close combat weapon. Every Guardsman is equipped with: lasgun; close combat weapon."
-            },
-            {
-                "name": "Every Heavy Weapons Team is equipped with:",
-                "description": "heavy bolter; laspistol; close combat weapon. This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths ."
-            },
-            {
-                "name": "Designer’s Note:",
-                "description": "Each Heavy Weapons Team model in this unit counts as 2 models for the purposes of wargear options."
+                "name": "Defenders of Humanity",
+                "description": "Each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack."
             }
         ]
     },

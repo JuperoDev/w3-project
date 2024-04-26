@@ -1,0 +1,98 @@
+{
+    "detachmentName": "null maiden vigil",
+    "detachmentRule": [
+        {
+            "name": "creeping dread (aura)",
+            "lore": "The instictive fear caused by the Pariah gene spreads like a terrible pall before the cadres of the Silent Sisterhood",
+            "description": "<p>In the Battle-shock step of your opponent's Command phase, if an enemy unit that is either a <strong>PSYKER</strong> unit or below its Starting Strength is within 12'' of one or more <strong>ANATHEMA PSYKANA</strong> models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.</p> <br/> <p><strong>Designer's Note:</strong> This means that all enemy <strong>PSYKER</strong> units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent's Command phase, not just those that are Below Half-strength.</p>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Raptor Blade",
+            "points": 5,
+            "lore": "The Raptor Blade is an ancient relic of the Null Maidens, as razor sharp now as it was on the day of its forging and ever the bane of witches.",
+            "description": "ANATHEMA PSYKANA model only. Add 1 to the Attack’s, Strength and Damage characteristics of the bearer’s melee weapons. While the bearer is within Engagement Range of one or more enemy PSYKER units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons instead."
+        },
+        {
+            "name": "Enhanced Voidsheen Cloak",
+            "points": 10,
+            "lore": "Now rare, enhanced voidsheen cloaks were worn by commanders of the Sisters of Silence during the Great Crusade. They are made from micro-vitrious mesh designed to diffract and absorb attacks, and include inbuilt refractor fields.",
+            "description": "ANATHEMA PSYKANA model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a PSYKER or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+            "name": "Huntress' Eye",
+            "points": 25,
+            "lore": "This ancient bionic acts like a miniature animus speculum, focusing the bearer’s null abilities into a beam that can literally terrify foes to death.",
+            "description": "ANATHEMA PSYKANA model only. In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+            "name": "Oblivion Knight",
+            "points": 25,
+            "lore": "Oblivion Knights are among the most powerful and revered Sisters of Silence. When one experiences the field, witches must truly beware their sisters in the field.",
+            "description": "ANATHEMA PSYKANA model only. While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target of an enemy PSYKER unit, add 1 to the Wound roll as well."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Desperation's Price",
+            "subindex": "strategic ploy stratagem",
+            "lore": "To overcome the Null Maidens’ aura, enemy psykers overstretch themselves with horrible consequences.",
+            "when": "Any phase, just after an enemy PSYKER unit has either finished using a Psychic ability that targets a unit, or finished making Psychic Attacks.",
+            "target": "One ANATHEMA PSYKANA unit from your army within 18\" of that enemy PSYKER unit.",
+            "effect": "That enemy PSYKER unit must take a Leadership test. If the test is passed, that PSYKER unit is Battle-shocked; if the test is failed that PSYKER unit suffers 3 mortal wounds and is Battle-shocked.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Witch Hunters",
+            "subindex": "battle tactic stratagem",
+            "lore": "Null Maidens train to slay psykers with swift martial efficiency, for they know their prey have many weapons beyond just their powers and must not be allowed time or opportunity to employ them.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One ANATHEMA PSYKANA unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Select either the [LETHAL HITS] or [SUSTAINED HITS] 1 ability. Until the end of the phase, weapons equipped by models in your unit can have the selected ability, but models in your unit can only target PSYKER units with their attacks.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Anathema Blademastery",
+            "subindex": "battle tactic stratagem",
+            "lore": "Null Maidens train tirelessly in the art of the swift, beheading strike, with a particular emphasis on the swift elimination of enemy witches.",
+            "when": "Fight phase.",
+            "target": "One VIGILATORS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the Hit roll. If the target of that attack is Battle-shocked or a PSYKER, you can re-roll the Wound roll as well.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Psy-Chaff Volley",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Emissions can fire psy-chaff bolts whose esoteric payloads weaken those targets not slain outright.",
+            "when": "Your Shooting phase.",
+            "target": "One PROSECUTORS unit from your army that has just shot.",
+            "effect": "Select one enemy unit hit by one or more of those attacks. Until the start of your next turn, while your unit is on the battlefield, that enemy unit is prosecuted. While a unit is prosecuted, each time an ANATHEMA PSYKANA model makes an attack against that unit, improve the Armour Penetration characteristic of that attack by 1. While a PSYKER or Battle-shocked unit is prosecuted, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Purgation Sweep",
+            "subindex": "battle tactic stratagem",
+            "lore": "Witchseekers know their role in combat is to spread indiscriminate carnage through the foe’s ranks.",
+            "when": "Your Shooting phase.",
+            "target": "One WITCHSEEKERS unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit. If such a weapon targets a PSYKER or Battle-shocked unit this phase, add 2 to its Attacks characteristic instead.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Psychic Abominations",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Null Maidens move disorienting waves of revulsion in order to even focus upon Null Maidens.",
+            "when": "When your opponent's Shooting phase has just ended after an enemy unit has selected its targets.",
+            "target": "One ANATHEMA PSYKANA INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks, and your PSYKER unit that is within 12\" of the enemy unit.",
+            "effect": "Until the end of the phase, your unit has the Stealth ability, and Battle-shock as a target of a model can only select your unit if no other Adeptus Custodes unit is within 12\".",
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

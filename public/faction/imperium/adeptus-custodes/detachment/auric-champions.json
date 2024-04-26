@@ -1,0 +1,100 @@
+{
+    "detachmentName": "auric champions",
+    "detachmentRule": [
+        {
+            "name": "assemblage of might",
+            "lore": "when such excepcional warriors as these gather to quest in the Emperor's name, even the most dreadful foes of Humanity are right to fear for their lives",
+            "description": "<p>At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time an <strong>ADEPTUS CUSTODES CHARACTER</strong> model from your army makes an attack that targets that enemy unit, add 1 to the Wound Roll.</p>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Blade Imperator",
+            "points": 25,
+            "lore": "This warrior is the Emperor’s own wrath made manifest, the living weapon of the Master of Mankind.",
+            "description": "ADEPTUS CUSTODES model only. Each time the bearer’s unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, after the bearer’s unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+            "name": "Inspirational Exemplar",
+            "points": 10,
+            "lore": "Here is a singular being even the mighty Custodians can look up to and be inspired by.",
+            "description": "ADEPTUS CUSTODES model only. The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly ADEPTUS CUSTODES unit that is Battle-shocked and within 12\" of the bearer; that unit is no longer Battle-shocked."
+        },
+        {
+            "name": "Veiled Blade",
+            "points": 25,
+            "lore": "Said to have been fashioned for dark deeds during the Horus Heresy, this blade is an icon of vengeance.",
+            "description": "ADEPTUS CUSTODES model only. Add 2 to the Attacks characteristic of the bearer’s melee weapons. Once per battle, at the start of any Command phase, triple the bearer’s Objective Control characteristic until the end of the turn."
+        },
+        {
+            "name": "Martial Philosopher",
+            "points": 30,
+            "lore": "Few in the history of the Imperium have been so skilled in reading – and directing – the ebb and flow of battle.",
+            "description": "ADEPTUS CUSTODES model only. The bearer’s unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Slayer of Champions",
+            "subindex": "epic deed stratagem",
+            "lore": "Who can withstand a warrior who has so tested the fates against the Throne-world itself?",
+            "when": "Any phase.",
+            "target": "One ADEPTUS CUSTODES CHARACTER unit from your army that has just destroyed the unit it selected at the start of your Command phase as the target of your Assemble the Legion ability.",
+            "effect": "Select one enemy unit on the battlefield. Until the start of your next Command phase, each time an ADEPTUS CUSTODES CHARACTER model from your army makes an attack that target that enemy unit, add 1 to the Wound roll. In addition, if the destroyed unit was a CHARACTER unit, gain 1 CP.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Superhuman Reserves",
+            "subindex": "epic deed stratagem",
+            "lore": "The greatest of the Custodians bring incredible reserves of stamina and ability to bear.",
+            "when": "Any phase, just after an ADEPTUS CUSTODES WARLORD model from your army has used an ability on its datasheet or from an Enhancement that says it can only be used 'Once per battle'.",
+            "target": "That ADEPTUS CUSTODES WARLORD model.",
+            "effect": "Your model can use its 'Once per battle' ability one additional time during this battle (but not in the same phase).",
+            "restrictions": "You cannot use this Stratagem more than once per battle.",
+            "cp": 2,
+            "color": "blue"
+        },
+        {
+            "name": "The Emperor's Auspice",
+            "subindex": "epic deed stratagem",
+            "lore": "In an age plagued by monsters, when primordial horror from the darkest void circle Humanity’s dying light, still the Adeptus Custodes stand strong.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS CUSTODES CHARACTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit have the Feel No Pain 4+ ability.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Earning of a Name",
+            "subindex": "epic deed stratagem",
+            "lore": "To lay low the greatest and most terrible monsters and heretics is to earn new names for a Custodian’s mighty tally.",
+            "when": "Fight phase.",
+            "target": "Up to two ADEPTUS CUSTODES CHARACTER units from your army that have not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a CHARACTER model in either of your units makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Vigil Unending",
+            "subindex": "epic deed stratagem",
+            "lore": "The Custodes do not yield while their duty remains unfulfilled.",
+            "when": "Fight phase.",
+            "target": "One ADEPTUS CUSTODES CHARACTER model from your army that was just destroyed and has not fought this phase. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Do not remove your destroyed model from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play.",
+            "cp": 2,
+            "color": "blue"
+        },
+        {
+            "name": "Shoulder the Mantle",
+            "subindex": "epic deed stratagem",
+            "lore": "The greatest Custodians know when it is both their duty and their right to command their comrades.",
+            "when": "End of your Movement phase.",
+            "target": "One ADEPTUS CUSTODES CHARACTER model from your army that is within 2'' of a friendly unit that could lose (as described on the Leadership section) its leader.",
+            "effect": "That CHARACTER model attaches to that unit for an Attack and, once the unit’s Starting Strength accordingly.",
+            "restrictions": "Your CHARACTER model cannot attach to a unit that is already an Attached unit.",
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

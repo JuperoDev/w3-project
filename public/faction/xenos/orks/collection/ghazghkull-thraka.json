@@ -60,7 +60,7 @@
         "otherAbilities": [
             {
                 "name": "Prophet of Da Great Waaagh!:",
-                "description": "While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll ."
+                "description": "While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll and if you called a Waaagh! this battle round, a Critical Hitis scored on a successful unmodified Hit roll of 5+. "
             },
             {
                 "name": "Ghazghkull's Waaagh! Banner (Aura):",
@@ -71,13 +71,22 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Gork's Klaw",
+            "name": "Gork's Klaw - strike",
             "modifiers": [],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 14,
             "armor-penetration": 3,
             "damage": 4
+        },
+        {
+            "name": "Gork's Klaw - sweep",
+            "modifiers": [],
+            "attacks": 12,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
         },
         {
             "name": "Makari's stabba",

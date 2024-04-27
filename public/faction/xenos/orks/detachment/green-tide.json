@@ -1,0 +1,117 @@
+{
+    "detachmentName": "green tide",
+    "detachmentRule": [
+        {
+            "name": "mob mentality",
+            "lore": "Caught up in the infectious and nigh supernatural belligerence that suffuses such large hordes of Orks on the warpath, the Boyz tend to push through lethal wounds, being too immersed in the energetic riot to worry about such things as long as they have a load of mates to enjoy the fight with. ",
+            "description": "Each time an attack targets a <strong>Boyz</strong> unit from your army, models in that unit have a 5+ invulnerable save against that attack. In addition, each time an attack targets an <strong>ORks</strong> unit from your army, if it contains 10 or more models, re-roll a saving throw of 1 made against that attack."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Ferocious Show Off",
+            "points": 10,
+            "lore": "This brutal fighter is even more dangerous with a raucous audience of chanting Orks as he displays his violent abilities as a warning to all.",
+            "description": "Orks Infantry model only. Each time the bearer fights, while resolving those attacks, add 1 to the Strength characteristic of the bearer’s melee weapons. If the bearer’s unit contains 10 or more models, while resolving those attacks, add 3 to the Strength characteristic instead."
+          },
+          {
+            "name": "Brutal But Kunnin’",
+            "points":25,
+            "lore": "What tactics occasionally pop into this Ork’s head revolve purely around throwing as many Boyz into the enemy’ face as possible.",
+            "description": "Orks Infantry model only. In your Command phase, if the bearer is on the battlefield (or is embarked within a TRANSPORT that is on the battlefield), roll one D6, adding 2 to the result if the bearer’s unit contains 10 or more models: on a 5+, you gain 1CP."
+          },
+          {
+            "name": "Bloodthirsty Belligerence",
+            "points": 15,
+            "lore": "Buoyed on by his chanting ladz and eager to smash into his enemies first, this boss leads the way, racing towards one fight after the next.",
+            "description": "Orks Infantry model only. While the bearer is leading a unit, you can re-roll Advance rolls made for that unit. While that unit contains 10 or more models, you can re-roll Charge rolls made for that unit as well."
+          },
+          {
+            "name": "Raucous Warcaller",
+            "points": 20,
+            "lore": "This hulking boss is a focal point of violent enthusiasm. Orks flocking to his bosspole feel emboldened, the boss exuding an energetic dynamism that keeps his ladz at the height of rampaging excitement.",
+            "description": "Orks Infantry model only. While the bearer is leading a unit, that unit always counts as containing 10 or more models for the purposes of your Detachment rule and any Stratagems you use."
+          }
+    ],
+    "stratagems": [
+        {
+            "name": "Competitive Streak",
+            "subindex": "battle tactic stratagem",
+            "lore": "Galvanised by the rest of their mates fighting around them, Orks will redouble their efforts to outdo each other.",
+            "when": "Fight phase.",
+            "target": "One Boyz unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit contains 10 or more models, re-roll the Wound roll instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Bulldozer Brutality",
+            "subindex": "battle tactic stratagem",
+            "lore": "Given fights that Orks enjoy, the only way to ensure a slice of the action is to bludgeon a path through the press to get a hand on the enemy.",
+            "when": "Fight phase.",
+            "target": "One Boyz unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
+            "effect": "Until the end of the phase, each time your unit is selected to fight, when determining which models in your unit are eligible to fight, any models in your unit that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Braggin' Rights",
+            "subindex": "strategic ploy stratagem",
+            "lore": "With volleys of wagers, threats, insults, dung and the occasional hurled rock, mobs of Orks bolster each other's spirits in the most Orky ways possible.",
+            "when": "Your Command phase.",
+            "target": "Two Boyz units from your army that are within 6\" of each other.",
+            "effect": "Until the start of your next Command phase, while those two units are within 6\" of each other, they both count as containing 10 or more models for the purposes of your Detachment rule, any Enhancements models from your army have and Stratagems you use.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Come on Ladz!",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Orks are drawn to conflict and constantly race into battle at the merest hint of violence.",
+            "when": "Your Command phase.",
+            "target": "Return up to D3+2 destroyed models to your unit (excluding CHARACTER models).",
+            "target_description": "One Boyz unit from your army.",
+            "effect": "",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Tide of Muscle",
+            "subindex": "epic deed stratagem",
+            "lore": "Once a horde of Orks get a sight of the foe, nothing can stop them.",
+            "when": "Your Charge phase.",
+            "target": "One Boyz unit from your army that has not declared a charge this phase.",
+            "effect": "Until the end of the phase, each time your unit declares a charge, add the current battle round number to the Charge roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Go Get 'Em!",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Keeping Orks at arm's length and pummeling them with as much firepower as possible is often the safest tactic for their victims. Unfortunately, it can also draw their attention and give them the urge to re-educate the gitz in the joys of up-close savagery.",
+            "when": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One Boyz unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+            "effect": "After the attacking unit has shot, your unit can make a 6\" Get 'Em! move. To do so, roll one D6: each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit contains 10 or more models, it can move up to 6\" when making that move instead.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

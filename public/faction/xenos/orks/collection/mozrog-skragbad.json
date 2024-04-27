@@ -16,9 +16,9 @@
     "attributes": [
         {
             "movement": 10,
-            "toughness": 10,
+            "toughness": 8,
             "save": 3,
-            "wounds": 9,
+            "wounds": 8,
             "leadership": 6,
             "objetiveControl": 3,
             "invulnerableSave": 4
@@ -42,8 +42,8 @@
     ],
     "abilities": {
         "core": [
-            "Deadly Demise 1",
-            "Feel No Pain 4+"
+            "Leader",
+            "Feel No Pain 5+"
         ],
         "faction": [
             "Waaagh!"
@@ -54,8 +54,8 @@
                 "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack. Each time this model makes an attack that targets a TITANIC unit, add 2 to the Damage characteristic of that attack instead."
             },
             {
-                "name": "Hungry Chompa:",
-                "description": "Each time this model declares a charge , until the end of the turn, each time this model makes an attack, an unmodified successful Wound roll of 5+ scores a Critical Wound ."
+                "name": "One Last Kill",
+                "description": "While this unit is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has  not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play. "
             }
         ]
     },

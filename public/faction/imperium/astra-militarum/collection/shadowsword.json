@@ -30,6 +30,19 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
             "name": "Twin heavy bolter",
             "modifiers": [
                 "sustained hits 1",
@@ -66,10 +79,10 @@
             ],
             "range": 96,
             "strength": 24,
-            "attacks": 2,
+            "attacks": "d3+1",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 5,
+            "damage": 12,
             "singleChoice": false
         }
     ],
@@ -78,7 +91,10 @@
             "Deadly Demise D6+2"
         ],
         "faction": [],
-        "otherAbilities": []
+        "otherAbilities": [ {
+            "name": "Titan-killer",
+            "description": "Each time this model makes a ranged attack with its volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability."
+        }]
     },
     "wargear": [
         {

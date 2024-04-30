@@ -30,6 +30,32 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
             "name": "Stormsword siege cannon",
             "modifiers": [
                 "blast",
@@ -37,10 +63,10 @@
             ],
             "range": 48,
             "strength": 16,
-            "attacks": 2,
+            "attacks": "d6+6",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": "d6+2",
             "singleChoice": false
         },
         {
@@ -66,8 +92,8 @@
             ],
             "range": 12,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -80,8 +106,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "2 lascannons; Stormsword siege cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+                "name": "Concussive Wave",
+                "description": "In your Shooting phase, just after selecting a target for this model’s Stormsword siege cannon, roll one D6 for the target unit and every other unit within 3'' of that unit: on a 5+, the unit being rolled for is struck by a concussive wave. After this model has finished making its attacks against that target unit this phase, each unit struck by a concussive wave suffers D3 mortal wounds."
             }
         ]
     },

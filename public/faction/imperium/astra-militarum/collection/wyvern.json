@@ -30,17 +30,17 @@
     ],
     "leader": [],
     "rangedWeapons": [
-        {
+         {
             "name": "Heavy bolter",
             "modifiers": [
                 "sustained hits 1"
             ],
             "range": 36,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -81,9 +81,9 @@
             ],
             "range": 48,
             "strength": 5,
-            "attacks": 2,
+            "attacks": "2d6",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }

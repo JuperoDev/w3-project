@@ -1,0 +1,116 @@
+{
+    "detachmentName": "combined regiment",
+    "detachmentRule": [
+        {
+            "name": "born soldiers",
+            "lore": "Regiments of numerous origins and tactical roles inculcate their soldiers from an early age with the legendary doctrines of the Tactica Imperium. Infantry and tank crews are drilled in close-range fire patterns in the expectation of being thrust into the front lines.",
+            "description": "Each time an <strong>ASTRA MILITARUM</strong> unit from your army Remains Stationary, until the end of the turn, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Death Mask of Ollanius",
+            "points": 10,
+            "lore": "Ollanius the Pious is the epitome of Imperial sainthood, believed martyred at the hands of Horus himself. His death mask is a terrifying piece of craftsmanship, depicting in obsidian and void-fired bronze the agonised visage of a tortured angel. In the millennia since his passing, Ollanius’ death mask has been revered as a holy relic; loyal soldiers in the ancient artefact’s presence are granted the determination of the famous martyr himself.",
+            "description": "OFFICER model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0."
+        },
+        {
+            "name": "Drill Commander",
+            "points": 20,
+            "lore": "Expertly guiding their elite soldiers’ fire, this officer’s stentorian orders reinforce years of indoctrinated drills concerning the relentless application of accurate long-range volleys.",
+            "description": "OFFICER model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
+        },
+        {
+            "name": "Grand Strategist",
+            "points": 15,
+            "lore": "Having commanded troops on countless battlefields, this veteran officer has borne witness to the manifold caprices of war. They have perfected just as many strategic responses, and bark out a constant stream of rapidly evolving orders as the situation demands.",
+            "description": "OFFICER model only. In your Command phase, the bearer can issue one additional Order."
+        },
+        {
+            "name": "Kurov’s Aquila",
+            "points": 40,
+            "lore": "General Kurov was one of the most gifted officers in Imperial history. Upon retirement, he recorded dozens of tactical treatises that were translated into vox-ghosts and uploaded into a two-headed avian servitor referred to as Kurov’s Aquila. An officer who possesses this prestigious tool can turn to it for guidance. In response, the servitor’s blindfolded head will vocalise the most relevant vox-ghost in Kurov’s commanding tones, lecturing its owner on counter-tactics. The other head’s eyes glow above its bound-shut beak as they project a hololithic display of Kurov himself, his image flickering as it reveals the manoeuvres of wars long past.",
+            "description": "OFFICER model only. Once per battle, just after your opponent has used a Stratagem, the bearer can use this Enhancement. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "reinforcements",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The Astra Militarum can call upon a nearly inexhaustible supply of warriors.",
+            "when": "Any phase.",
+            "target": "One REGIMENT unit from your army that was just destroyed.",
+            "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.",
+            "icon": [
+              ""
+            ],
+            "cp": 2,
+            "color": "green"
+          },
+          {
+            "name": "fields of fire",
+            "subindex": "battle tactic stratagem",
+            "lore": "Astra Militarum combat doctrine utilises the concentration of focused firepower to hammer the foe from multiple angles.",
+            "when": "Your Shooting phase.",
+            "target": "One REGIMENT or SQUADRON unit from your army that has not been selected to shoot this phase.",
+            "effect": "After your unit has resolved its attacks, select one enemy unit that was targeted by one or more of those attacks. Until the end of the phase, each time an attack is made against that enemy unit by a REGIMENT or SQUADRON model from your army, unless the attacking unit is Battle-shocked, improve the Armour Penetration characteristic of that attack by 1.",
+            "icon": [
+              ""
+            ],
+            "cp": 2,
+            "color": "blue"
+          },
+          {
+            "name": "suppression fire",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Ordered to focus a rapid and repeated volley of fire, soldiers are able to rattle even the staunchest foe with a blizzard of shots.",
+            "when": "Your Shooting phase.",
+            "target": "One Astra Militarum INFANTRY unit from your army that has not been selected to shoot this phase, and one enemy unit.",
+            "effect": "If your Astra Militarum unit scores one or more hits against that enemy unit this phase, until the end of your opponent's next turn, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+            "icon": [
+              ""
+            ],
+            "cp": 1,
+            "color": "blue"
+          },
+          {
+            "name": "expert bombardiers",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Skilled in coordinating their targeting with forward spotter elements, this regiment’s artillery crews are capable of devastating precision shelling.",
+            "when": "Start of your Shooting phase.",
+            "target": "One Astra Militarum model from your army equipped with a vox-caster, and one enemy unit that is visible to that unit.",
+            "effect": "Until the end of the phase, each time an Astra Militarum model from your army makes an attack with an Indirect Fire weapon that targets that enemy unit, unless the attacking model is Battle-shocked, add 1 to the Hit roll.",
+            "icon": [
+              ""
+            ],
+            "cp": 1,
+            "color": "blue"
+          },
+          {
+            "name": "inspired command",
+            "subindex": "epic deed stratagem",
+            "lore": "This officer is known for their strategic excellence, as are those they command. Honed over many years, their curt, well-established battle cant is wielded with consummate efficiency, reinforced by the inspirational example they themselves set.",
+            "when": "Your opponent’s Command phase.",
+            "target": "One Astra Militarum OFFICER unit from your army.",
+            "effect": "Your OFFICER can issue one Order as if it were your Command phase.",
+            "icon": [
+              ""
+            ],
+            "cp": 1,
+            "color": "red"
+          },
+          {
+            "name": "armoured might",
+            "subindex": "wargear stratagem",
+            "lore": "The tanks of the Imperial Guard are armoured not only in reinforced plas-steel, but with devout faith in the Emperor and utter contempt for their foes.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One Astra Militarum VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack.",
+            "icon": [
+              ""
+            ],
+            "cp": 2,
+            "color": "red"
+          }
+    ]
+}

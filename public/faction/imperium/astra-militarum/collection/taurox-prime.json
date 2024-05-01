@@ -35,7 +35,7 @@
             "range": 24,
             "strength": 4,
             "attacks": 2,
-            "ballistic-skills": 4,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
@@ -49,6 +49,19 @@
             "strength": 8,
             "attacks": "d6",
             "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Taurox gatling cannon",
+            "modifiers": [
+                
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 12,
+            "ballistic-skills": 3,
             "armor-penetration": 0,
             "damage": 2,
             "singleChoice": false
@@ -60,10 +73,23 @@
             ],
             "range": 48,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
             "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Taurox missile launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -74,9 +100,9 @@
             "range": 48,
             "strength": 9,
             "attacks": 2,
-            "ballistic-skills": 4,
+            "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 3,
             "singleChoice": false
         },
         {
@@ -87,8 +113,8 @@
             ],
             "range": 30,
             "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -101,8 +127,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "Taurox battle cannon; twin Taurox hot-shot volley gun; armoured tracks."
+                "name": "Fire Support",
+                "description": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
             }
         ]
     },

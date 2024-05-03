@@ -1,0 +1,126 @@
+{
+  "parentUnit": "Plague Drones",
+  "factionKeywords": [
+    "legiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Plague Drones ride monstrous Rot Flies to war. These vile steeds scrabble and bite at their prey, impaling them on dripping probosces or biting off the heads of their victims. The finest stolen craniums are recovered and fashioned into filth-swollen projectiles – death’s heads – for the daemonic riders to hurl at their foes.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "chaos",
+    "daemon",
+    "nurgle",
+    "plague drones"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 8,
+    "salvation": 6,
+    "wounds": 5,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Death’s heads",
+      "modifiers": [
+        "blast",
+        "lethal hits"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": "d3",
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Death’s Heads:",
+        "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "1 Plague Drone that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+      "items": []
+    },
+    {
+      "description": "1 Plague Drone that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Foul mouthparts",
+      "modifiers": [
+        "extra attacks",
+        "lethal hits"
+      ],
+      "attacks": 2,
+      "weapons-skills": 4,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Plaguesword",
+      "modifiers": [
+        "lethal hits"
+      ],
+      "attacks": 2,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 1
+    }
+  ],
+  "additionalParameter": {},
+  "unitComposition": [
+    {
+      "unitType": "Pink Horrors",
+      "minQuantity": 10,
+      "maxQuantity": 10,
+      "equipment": [
+        "Coruscating pink Flames",
+        "pink claws"
+      ]
+    },
+    {
+      "unitType": "Blue Horrors",
+      "equipment": [
+        "Coruscating Blue Flames",
+        "blue claws"
+      ]
+    },
+    {
+      "unitType": "Brimstone Horror ",
+      "equipment": [
+        "Coruscating yellow Flames",
+        "yellow claws"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "count": [
+        10
+      ],
+      "points": 140
+    }
+  ]
+}

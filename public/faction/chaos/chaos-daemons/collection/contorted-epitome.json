@@ -1,7 +1,7 @@
 {
     "parentUnit": "Contorted Epitome",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -44,32 +44,30 @@
             }
         ]
     },
+    "additionalParameter": {},
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Coiled tentacles",
-            "modifiers": "extraattacks",
+            "modifiers": ["extra attacks"],
             "attacks": "D6",
-            "weapons-skills": "4+",
+            "weapons-skills": 4,
             "strength": 5,
             "armor-penetration": 1,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Ravaging claws",
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "8",
-            "weapons-skills": "2+",
+            "attacks": 8,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

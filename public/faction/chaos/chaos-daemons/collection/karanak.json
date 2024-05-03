@@ -1,7 +1,7 @@
 {
     "parentUnit": "Karanak",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -46,22 +46,20 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
         {
             "name": "Soul-rending fangs",
             "modifiers": [
                 "precision"
             ],
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 1,
-            "damage": "2"
+            "damage": 2
         }
     ]
 }

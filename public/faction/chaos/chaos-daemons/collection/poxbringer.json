@@ -1,11 +1,11 @@
 {
     "parentUnit": "Poxbringer",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Failed to fetch URL. Status code: 520",
+    "lore": "Poxbringers are the largest and foulest of Plaguebearers, their corporeal forms brimming with unclean vitality even as they exude an air of feculent despair. A miasmal haze of disease hangs about them, clotting upon the plagueswords of their fellow daemons and rendering their touch all the more infectious.",
     "keywords": [
         "infantry",
         "character",
@@ -26,6 +26,7 @@
     }],
     "leader": [],
     "rangedWeapons": [],
+    "additionalParameter": {},
     "abilities": {
         "core": [
             "Deep Strike",
@@ -47,20 +48,17 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Foul balesword",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ]
 }

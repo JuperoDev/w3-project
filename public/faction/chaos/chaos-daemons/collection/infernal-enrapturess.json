@@ -1,7 +1,7 @@
 {
     "parentUnit": "Infernal Enrapturess",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -32,11 +32,11 @@
             ],
             "range": 18,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 6,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Heartstring lyre - euphonic blast",
@@ -45,11 +45,11 @@
             ],
             "range": 24,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -72,22 +72,20 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
         {
             "name": "Ravaging claws",
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "5",
-            "weapons-skills": "2+",
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

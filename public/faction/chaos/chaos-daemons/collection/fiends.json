@@ -1,9 +1,10 @@
 {
     "parentUnit": "Fiends",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Few daemonic entities approach the sheer disturbing horror of the Fiends of Slaanesh. Malicious hunting beasts that croon their delight across the battlefield, these ghastly abominations are wreathed in a soporific musk that leaves their prey witless and helpless before their flashing talons and stabbing tails.",
     "keywords": [
@@ -39,10 +40,7 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
@@ -50,11 +48,11 @@
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ]
 }

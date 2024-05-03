@@ -1,8 +1,9 @@
 {
     "parentUnit": "Changecaster",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
+    "additionalParameter": {},
     "damaged": {},
     "supremeCommander": false,
     "lore": "Whirling amidst capering masses of daemonic Horrors, these Heralds are potent sorcerers whose presence causes the fires of their fellow daemons to spread with infernal vigour. Changecasters unleash storms of mutating sorcery against their enemies, jabbering and cackling as they wreak gruesome havoc.",
@@ -33,11 +34,11 @@
             ],
             "range": 18,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Arcane Fireball - focused witchfire",
@@ -48,11 +49,11 @@
             ],
             "range": 18,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -75,20 +76,17 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Herald combat weapon",
-            "modifiers": "psychic",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": ["psychic"],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

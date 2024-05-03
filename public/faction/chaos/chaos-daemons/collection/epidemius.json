@@ -1,7 +1,7 @@
 {
     "parentUnit": "Epidemius",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -26,6 +26,7 @@
     }],
     "leader": [],
     "rangedWeapons": [],
+    "additionalParameter": {},
     "abilities": {
         "core": [
             "Deep Strike",
@@ -46,20 +47,17 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Balesword and Nurgling attendants",
-            "modifiers": "lethalhits",
+            "modifiers": ["lethal hits"],
             "attacks": "D6+3",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ]
 }

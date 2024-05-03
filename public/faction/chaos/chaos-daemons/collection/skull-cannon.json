@@ -1,9 +1,10 @@
 {
     "parentUnit": "Skull Cannon",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Grotesque brazen war engines that rumble into battle with obscene eagerness, Skull Cannons are fed the corpses of the fallen to fuel their charnel fury. When they fire, these infernal weapons spit blazing skulls that arc through the air like meteors before exploding with thunderous violence upon impact.",
     "keywords": [
@@ -53,29 +54,26 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Attendants’ hellblades",
-            "modifiers": "extraattacks",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["extra attacks"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Biting maw",
-            "modifiers": "",
-            "attacks": "2",
-            "weapons-skills": "4+",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 0,
-            "damage": "2"
+            "damage": 2
         }
     ]
 }

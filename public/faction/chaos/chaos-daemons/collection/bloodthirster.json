@@ -1,7 +1,7 @@
 {
     "parentUnit": "Bloodthirster",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {
         "remainingWounds": 6,
@@ -36,10 +36,10 @@
             ],
             "range": 12,
             "strength": 16,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {
@@ -50,10 +50,23 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
             "armor-penetration": 1,
             "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lash of Khorne",
+            "modifiers": [
+               
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 6,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -85,44 +98,49 @@
             ]
         }
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
         {
             "name": "Bloodflail",
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "1",
-            "weapons-skills": "2+",
+            "attacks": 1,
+            "weapons-skills": 2,
             "strength": 16,
             "armor-penetration": 3,
-            "damage": "D6+1"
+            "damage": "D6+1",
+            "singleChoice": true
         },
         {
             "name": "Hellfire breath",
-            "modifiers": "ignorescover,torrent",
+            "modifiers": ["ignores cover","torrent"],
             "attacks": "D6",
             "weapons-skills": "N/A",
             "strength": 5,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1,
+            "singleChoice": true
         },
         {
             "name": "Axe of Khorne – strike",
-            "modifiers": "",
-            "attacks": "8",
-            "weapons-skills": "2+",
+            "modifiers": [],
+            "attacks": 8,
+            "weapons-skills": 2,
             "strength": 14,
             "armor-penetration": 4,
-            "damage": "D6"
+            "damage": "D6",
+            "singleChoice": true
         },
         {
             "name": "Great axe of Khorne – strike",
-            "modifiers": "",
-            "attacks": "7",
-            "weapons-skills": "2+",
+            "modifiers": [],
+            "attacks": 7,
+            "weapons-skills": 2,
             "strength": 16,
             "armor-penetration": 4,
-            "damage": "D6+2"
+            "damage": "D6+2",
+            "singleChoice": true
         }
     ]
 }

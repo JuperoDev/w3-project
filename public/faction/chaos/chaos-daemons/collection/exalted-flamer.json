@@ -1,7 +1,7 @@
 {
     "parentUnit": "Exalted Flamer",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -34,11 +34,11 @@
             ],
             "range": 18,
             "strength": 9,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice":true
         },
         {
             "name": "Fire of Tzeentch - pink fire",
@@ -49,11 +49,11 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
+            "attacks": "2d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -75,21 +75,19 @@
             }
         ]
     },
+    "additionalParameter": {},
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Flamer mouths",
-            "modifiers": "",
-            "attacks": "4",
-            "weapons-skills": "4+",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 4,
             "strength": 5,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

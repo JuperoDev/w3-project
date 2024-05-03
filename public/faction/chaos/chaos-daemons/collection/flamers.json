@@ -1,9 +1,10 @@
 {
     "parentUnit": "Flamers",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "These bizarre daemons bound through the air in convulsive leaps. The warpflame that drools from their many maws seethes with the raw power of change. When spat forth in roaring sheets, it sends its victims into agonies of mutation, their forms altering again and again before collapsing into distorted ruin.",
     "keywords": [
@@ -56,20 +57,17 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Flamer mouths",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

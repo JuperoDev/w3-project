@@ -1,7 +1,7 @@
 {
     "parentUnit": "Fateskimmer",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -34,11 +34,11 @@
             ],
             "range": 18,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Arcane Fireball - focused witchfire",
@@ -49,11 +49,11 @@
             ],
             "range": 18,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "armor-penetration":2,
+            "damage": "d3",
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -76,29 +76,27 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
         {
             "name": "Herald combat weapon",
-            "modifiers": "psychic",
-            "attacks": "3",
-            "weapons-skills": "4+",
+            "modifiers": ["psychic"],
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Screamer bites",
-            "modifiers": "extraattacks",
-            "attacks": "6",
-            "weapons-skills": "4+",
+            "modifiers": ["extra attacks"],
+            "attacks": 6,
+            "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "parentUnit": "Kairos Fateweaver",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {
         "remainingWounds": 7,
@@ -40,11 +40,11 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": "d6+3",
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
         },
         {
             "name": "Infernal Gateway - focused witchfire",
@@ -56,11 +56,11 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "attacks": "d3+6",
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d3",
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -83,17 +83,15 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
         {
             "name": "Staff of Tomorrow",
-            "modifiers": "psychic",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["psychic"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
             "damage": "2D3"

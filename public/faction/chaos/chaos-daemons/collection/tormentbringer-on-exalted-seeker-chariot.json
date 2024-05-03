@@ -1,9 +1,10 @@
 {
     "parentUnit": "Tormentbringer On Exalted Seeker Chariot",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Riding to battle above the clatter-slash blades of their Exalted Seeker Chariot, these wilfully vicious entities delight in ploughing screaming souls into the churned dirt of the battlefield. They strive to travel faster, strike harder, and leave even their lightning-fast fellow charioteers envious in their wakes.",
     "keywords": [
@@ -35,9 +36,9 @@
             ],
             "range": 6,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 6,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -61,20 +62,17 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Exalted Seeker tongues",
-            "modifiers": "extraattacks,lethalhits",
-            "attacks": "8",
-            "weapons-skills": "4+",
+            "modifiers": ["extraattacks","lethalhits"],
+            "attacks": 8,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Ravaging claws",
@@ -82,10 +80,10 @@
                 "devastating wounds"
             ],
             "attacks": "15",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

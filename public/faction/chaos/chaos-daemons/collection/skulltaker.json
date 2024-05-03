@@ -1,9 +1,10 @@
 {
     "parentUnit": "Skulltaker",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Skulltaker is Khorne’s executioner. Wielding the terrifying Slayer Sword, Skulltaker’s every blow lops another head from an enemy’s shoulders. Fighting at the head of the Cohort of Blood – a dread assemblage of the mightiest Bloodletters – Skulltaker reaps an ever greater tally of worthy skulls for Khorne.",
     "keywords": [
@@ -46,20 +47,17 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "The Slayer Sword",
-            "modifiers": "devastatingwounds,precision",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": ["devastatin gwounds","precision"],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "3"
+            "damage": 3
         }
     ]
 }

@@ -1,9 +1,10 @@
 {
     "parentUnit": "Skullmaster",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Skullmasters ride daemon steeds known as Juggernauts. Mounted upon these beasts of living brass and molten fury, Skullmasters lead the Khornate cavalry charge into the heart of the enemy lines, hacking, beheading, impaling and crushing. Few are the foes that can stand against this devastating stampede.",
     "keywords": [
@@ -45,29 +46,26 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Blade of blood",
-            "modifiers": "",
-            "attacks": "5",
-            "weapons-skills": "2+",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "3"
+            "damage": 3
         },
         {
             "name": "Juggernaut’s bladed horn",
-            "modifiers": "extraattacks,lance",
-            "attacks": "4",
-            "weapons-skills": "4+",
+            "modifiers": ["extra attacks","lance"],
+            "attacks": 4,
+            "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

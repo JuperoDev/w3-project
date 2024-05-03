@@ -1,7 +1,7 @@
 {
     "parentUnit": "Great Unclean One",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {
         "remainingWounds": 7,
@@ -30,6 +30,20 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Plague flail",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 6,
+            "strength": 7,
+            "attacks": "d6+1",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
             "name": "Putrid vomit",
             "modifiers": [
                 "ignores cover",
@@ -37,9 +51,9 @@
             ],
             "range": 12,
             "strength": 5,
-            "attacks": 2,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "attacks": "d6+3",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 2,
             "damage": 1,
             "singleChoice": false
         }
@@ -52,8 +66,12 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "FACTION:",
-                "description": "The Shadow of Chaos"
+                "name": "Daemon Lord of Nurgle (Aura)",
+                "description": "While a friendly NURGLE LEGIONES DAEMONICA unit is within 6'' of this model, models in that unit have the Feel No Pain 6+ ability."
+            },
+            {
+                "name": "Nurgle’s Rot (Psychic)",
+                "description": "At the end of your Movement phase, you can select one enemy unit within 12'' of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit."
             }
         ]
     },
@@ -67,42 +85,47 @@
             "items": []
         }
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
-        {
-            "name": "Plague flail",
-            "modifiers": "",
-            "attacks": "D6+1",
-            "weapons-skills": "3+",
-            "strength": 7,
-            "armor-penetration": 2,
-            "damage": "2"
-        },
+       
         {
             "name": "Bileblade",
-            "modifiers": "extraattacks,lethalhits",
-            "attacks": "3",
-            "weapons-skills": "2+",
+            "modifiers": ["extra attacks","lethal hits"],
+            "attacks": 3,
+            "weapons-skills": 2,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2,
+            "singleChoice": true
         },
         {
             "name": "Bilesword – strike",
-            "modifiers": "lethalhits",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": ["lethal hits"],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 8,
             "armor-penetration": 2,
-            "damage": "D6"
+            "damage": "D6",
+            "singleChoice": true
+        },
+        {
+            "name": "Bilesword – sweep",
+            "modifiers": ["lethal hits"],
+            "attacks": 12,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
         },
         {
             "name": "Doomsday bell",
-            "modifiers": "lethalhits, Reverberating summons",
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "modifiers": ["lethal hits", "Reverberating summons"],
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 7,
             "armor-penetration": 1,
-            "damage": "2"
+            "damage": 2
         }
     ]
 }

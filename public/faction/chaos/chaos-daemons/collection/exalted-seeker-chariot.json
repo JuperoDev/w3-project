@@ -1,7 +1,7 @@
 {
     "parentUnit": "Exalted Seeker Chariot",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -23,6 +23,7 @@
         "invulnerableSave": 4
     }],
     "leader": [],
+    "additionalParameter": {},
     "rangedWeapons": [
         {
             "name": "Lashes of torment",
@@ -55,31 +56,28 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Exalted Seeker tongues",
             "modifiers": "extraattacks,lethalhits",
-            "attacks": "8",
-            "weapons-skills": "4+",
+            "attacks": 8,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Slashing claws",
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "14",
-            "weapons-skills": "3+",
+            "attacks": 14,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

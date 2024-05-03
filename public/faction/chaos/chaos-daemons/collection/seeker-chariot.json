@@ -1,9 +1,10 @@
 {
     "parentUnit": "Seeker Chariot",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Lightweight, swift and completely deadly, entire cavalcades of Seeker Chariots tear through the veil of reality to bear down upon the enemies of Slaanesh. Their crews race wildly to be first into battle, their eagerness for speed turning to wild bloodlust the moment their clattering charge crashes home.",
     "keywords": [
@@ -55,31 +56,28 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Seeker tongues",
             "modifiers": "extraattacks,lethalhits",
-            "attacks": "4",
-            "weapons-skills": "4+",
+            "attacks": 4,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Slashing claws",
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "9",
-            "weapons-skills": "3+",
+            "attacks": 9,
+            "weapons-skills": 3,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

@@ -1,9 +1,10 @@
 {
     "parentUnit": "Tranceweaver",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "These favoured daemons of Slaanesh are raw manifestations of sensory excess and wilful cruelty. Heralds of the Dark Prince, they flow across the battlefield with inhuman grace, keening gleeful war cries as they exhort their fellows to greater acts of sadistic bliss-giving and lay enemies low with the razor caress of their talons.",
     "keywords": [
@@ -46,10 +47,7 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
@@ -57,11 +55,11 @@
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "6",
-            "weapons-skills": "2+",
+            "attacks": 6,
+            "weapons-skills": 2,
             "strength": 4,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

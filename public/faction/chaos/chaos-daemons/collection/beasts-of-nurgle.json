@@ -1,7 +1,7 @@
 {
     "parentUnit": "Beasts Of Nurgle",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -40,10 +40,7 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
@@ -51,11 +48,12 @@
             "modifiers": [
                 "devastating wounds"
             ],
-            "attacks": "6",
-            "weapons-skills": "4+",
+            "attacks": 6,
+            "weapons-skills": 4,
             "strength": 6,
             "armor-penetration": 1,
-            "damage": "2"
+            "damage": 2
         }
-    ]
+    ],
+    "additionalParameter": {}
 }

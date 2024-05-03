@@ -1,7 +1,7 @@
 {
     "parentUnit": "Lord Of Change",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {
         "remainingWounds": 6,
@@ -37,10 +37,10 @@
             ],
             "range": 12,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 6,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": "d3",
             "singleChoice": false
         },
         {
@@ -50,11 +50,11 @@
             ],
             "range": 18,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 9,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Bolt of Change - focused witchfire",
@@ -64,11 +64,11 @@
             ],
             "range": 18,
             "strength": 9,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "attacks": 9,
+            "ballistic-skills": 2,
             "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false
+            "damage": "d3",
+            "singleChoice": true
         }
     ],
     "abilities": {
@@ -86,11 +86,7 @@
             },
             {
                 "name": "Master of Magicks (Psychic):",
-                "description": "In your Shooting phase"
-            },
-            {
-                "name": ", select one of the following abilities:",
-                "description": "[IGNORES COVER] ; [LETHAL HITS] ; [SUSTAINED HITS D3] . Until the end of the phase, this model’s Bolt of Change has that ability."
+                "description": "In your Shooting phase, select one of the following abilities: [IGNORES COVER] ; [LETHAL HITS] ; [SUSTAINED HITS D3] . Until the end of the phase, this model’s Bolt of Change has that ability."
             }
         ]
     },
@@ -103,33 +99,26 @@
             ]
         }
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
-        {
-            "name": "Rod of sorcery",
-            "modifiers": "psychic",
-            "attacks": "6",
-            "weapons-skills": "2+",
-            "strength": 8,
-            "armor-penetration": 1,
-            "damage": "D3"
-        },
+       
         {
             "name": "Baleful sword",
-            "modifiers": "extraattacks",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": ["extra attacks"],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 2,
-            "damage": "3"
+            "damage": 3
         },
         {
             "name": "Staff of Tzeentch",
-            "modifiers": "psychic",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": ["psychic"],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 1,
-            "damage": "3"
+            "damage": 3
         }
     ]
 }

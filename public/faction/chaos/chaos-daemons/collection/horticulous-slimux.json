@@ -1,7 +1,7 @@
 {
     "parentUnit": "Horticulous Slimux",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -46,29 +46,27 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
+    "additionalParameter": {},
     "meleeWeapons": [
         {
             "name": "Acidic maw",
-            "modifiers": "devastatingwounds,extraattacks",
-            "attacks": "2",
-            "weapons-skills": "4+",
+            "modifiers": ["devastatin gwounds","extra attacks"],
+            "attacks": 2,
+            "weapons-skills": 4,
             "strength": 7,
             "armor-penetration": 4,
-            "damage": "3"
+            "damage": 3
         },
         {
             "name": "Lopping shears",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 6,
             "armor-penetration": 2,
-            "damage": "3"
+            "damage": 3
         }
     ]
 }

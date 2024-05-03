@@ -1,12 +1,13 @@
 {
     "parentUnit": "Soul Grinder",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonicalegiones daemonicalegiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonicalegiones daemonicalegiones daemonica"
     ],
     "damaged": {
         "remainingWounds": 5,
         "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     },
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Daemons desperate to gain power above their station may strike an unwise bargain with the master of the Forge of Souls. Thus are they remade into the hulking war engines known as Soul Grinders, and given the might to crush and blast all in their path – for a steep and ultimately never-ending price…",
     "keywords": [
@@ -106,12 +107,12 @@
     "meleeWeapons": [
         {
             "name": "Harvester cannon",
-            "modifiers": "",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 10,
             "armor-penetration": 1,
-            "damage": "3"
+            "damage": 3
         },
         {
             "name": "Torrent of burning blood",
@@ -120,49 +121,49 @@
             "weapons-skills": "N/A",
             "strength": 5,
             "armor-penetration": 1,
-            "damage": "1"
+            "damage": 1
         },
         {
             "name": "Phlegm bombardment",
             "modifiers": "blast,indirectfire,lethalhits",
             "attacks": "D6+1",
-            "weapons-skills": "3+",
+            "weapons-skills": 3,
             "strength": 7,
             "armor-penetration": 1,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Scream of despair",
             "modifiers": "devastatingwounds,sustainedhits1",
-            "attacks": "6",
-            "weapons-skills": "3+",
+            "attacks": 6,
+            "weapons-skills": 3,
             "strength": 9,
             "armor-penetration": 2,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Iron claw",
-            "modifiers": "",
-            "attacks": "5",
-            "weapons-skills": "3+",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 3,
             "strength": 16,
             "armor-penetration": 3,
             "damage": "D6+2"
         },
         {
             "name": "Warpclaw",
-            "modifiers": "extraattacks",
-            "attacks": "6",
-            "weapons-skills": "3+",
+            "modifiers": ["extra attacks"],
+            "attacks": 6,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 1,
-            "damage": "2"
+            "damage": 2
         },
         {
             "name": "Warpsword",
-            "modifiers": "extraattacks",
-            "attacks": "3",
-            "weapons-skills": "3+",
+            "modifiers": ["extra attacks"],
+            "attacks": 3,
+            "weapons-skills": 3,
             "strength": 8,
             "armor-penetration": 2,
             "damage": "D6"

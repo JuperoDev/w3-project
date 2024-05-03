@@ -1,9 +1,10 @@
 {
     "parentUnit": "Sloppity Bilepiper",
-    "factionKeywords": [
-        "legiones daemonicalegiones daemonica"
+    "factionKeyword": [
+        "legiones daemonica"
     ],
     "damaged": {},
+    "additionalParameter": {},
     "supremeCommander": false,
     "lore": "Infected with the Chortling Murrain, these desperately grinning daemons caper and quip as they play discordant dirges on their foul gutpipes. Their antics either amuse or irritate their fellow daemons so much that they hasten into the press of battle, while mortals infected with the murrain may literally laugh themselves to death.",
     "keywords": [
@@ -45,20 +46,17 @@
         ]
     },
     "wargear": [
-        {
-            "description": "None",
-            "items": []
-        }
+        
     ],
     "meleeWeapons": [
         {
             "name": "Marotter",
-            "modifiers": "lethalhits",
-            "attacks": "4",
-            "weapons-skills": "3+",
+            "modifiers": ["lethal hits"],
+            "attacks": 4,
+            "weapons-skills": 3,
             "strength": 5,
             "armor-penetration": 0,
-            "damage": "1"
+            "damage": 1
         }
     ]
 }

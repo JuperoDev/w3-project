@@ -34,9 +34,9 @@
             ],
             "range": 6,
             "strength": 4,
-            "attacks": 2,
+            "attacks": 6,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -61,7 +61,7 @@
     "meleeWeapons": [
         {
             "name": "Exalted Seeker tongues",
-            "modifiers": "extraattacks,lethalhits",
+            "modifiers": ["extra attacks","lethal hits"],
             "attacks": 8,
             "weapons-skills": 4,
             "strength": 4,

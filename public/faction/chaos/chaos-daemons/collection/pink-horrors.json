@@ -93,7 +93,15 @@
         ]
     },
     "wargear": [],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Horrors are pink...",
+        "abilities": [
+            {
+                "name": "Horrors are pink. horrors are blue. whereonce there was one, now there are two.",
+                "description": "If, at any point, this unit contains no PINK HORROR models, use the BLUE HORRORS datasheet for this unit"
+            }
+        ]
+    },
     "unitComposition": [
         {
             "unitType": "Pink Horrors",
@@ -129,14 +137,31 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Armoured tracks",
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 6,
-            "armor-penetration": 0,
-            "damage": 1,
+            "name": "Pink Claws",
             "modifiers": [],
-            "singleChoice": false
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Blue Claws",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 5,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Yellow Claws",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 5,
+            "strength": 2,
+            "armor-penetration": 1,
+            "damage": 1
         }
     ]
 }

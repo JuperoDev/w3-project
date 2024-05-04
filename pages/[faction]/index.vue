@@ -33,13 +33,13 @@ onMounted(async () => {
     const factionParam = useRoute().params.faction;
     const res = await fetch(`/faction/${factionParam}/army.json`);
     factionData.value = await res.json();
-    console.log("Fetched Faction Data: ", factionData.value);
+ 
   } catch (error) {
     console.error("Fetch Error: ", error);
   }
 });
 
 onMounted(() => {
-  console.log("Faction mounted");
+ 
 });
 </script>

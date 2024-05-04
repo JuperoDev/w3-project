@@ -160,19 +160,13 @@ onMounted(async () => {
       `/faction/${sanitizedFaction}/${sanitizedArmy}/collection.json`
     );
     armyData.value = await res.json();
-    console.log(
-      "Fetching URL:",
-      `/faction/${sanitizedFaction}/${sanitizedArmy}/collection.json`
-    ); // Log the URL being fetched
-    console.log("Fetched Army Data: ", armyData.value);
+
   } catch (error) {
     console.error("Fetch Error: ", error);
   }
 });
 
-onMounted(() => {
-  console.log("Army mounted");
-});
+
 </script>
 
 <style scoped>

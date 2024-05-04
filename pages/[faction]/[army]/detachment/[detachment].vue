@@ -53,7 +53,7 @@
       `/faction/${faction}/${army}/detachment/${sanitizedDetachment}.json`
      );
      collectionData.value = await res.json();
-    console.log("Fetched Collection Data:", collectionData.value);
+  
    } catch (error) {
      console.error("Fetch Collection Data Error:", error);
    }

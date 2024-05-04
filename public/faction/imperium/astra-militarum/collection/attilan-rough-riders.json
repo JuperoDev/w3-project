@@ -56,10 +56,12 @@
     "abilities": {
         "core": [],
         "faction": [],
-        "otherAbilities": [{
-            "name": "Horsemasters",
-            "description": "You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for it. In addition, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-        }]
+        "otherAbilities": [
+            {
+                "name": "Horsemasters",
+                "description": "You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for it. In addition, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+            }
+        ]
     },
     "wargear": [
         {
@@ -72,6 +74,35 @@
         }
     ],
     "meleeWeapons": [
+        {
+            "name": "Goad lance",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "hunting lance – frag tip",
+            "modifiers": ["lance"],
+            "attacks": "d6",
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "hunting lance – melta tip",
+            "modifiers": ["lance"],
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": true
+        },
         {
             "name": "Power sabre",
             "modifiers": [],

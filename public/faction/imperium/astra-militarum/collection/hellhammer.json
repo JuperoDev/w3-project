@@ -30,16 +30,29 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "co-axial autocannon",
+            "modifiers": [
+                
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
             "name": "Demolisher cannon",
             "modifiers": [
                 "blast"
             ],
             "range": 24,
             "strength": 14,
-            "attacks": 2,
+            "attacks": "d6+3",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -56,17 +69,29 @@
             "singleChoice": false
         },
         {
-            "name": "Hellhammer cannon",
+            "name": "hellhammer cannon",
             "modifiers": [
-                "blast",
-                "ignores cover"
+                "blast","ignores cover"
             ],
-            "range": 30,
+            "range": 36,
             "strength": 7,
-            "attacks": 2,
+            "attacks": "4d6",
             "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {
@@ -106,8 +131,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "co-axial autocannon; demolisher cannon; heavy stubber; Hellhammer cannon; 2 lascannons; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+                "name": "Close-quarters Warfare",
+                "description": "This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it"
             }
         ]
     },

@@ -34,9 +34,9 @@
             ],
             "range": 18,
             "strength": 4,
-            "attacks": 2,
+            "attacks": "d6",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         },
@@ -47,10 +47,10 @@
             ],
             "range": 18,
             "strength": 5,
-            "attacks": 2,
+            "attacks": 3,
             "ballistic-skills": 4,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         }
     ],
@@ -61,8 +61,12 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Brute Shield:",
-                "description": "The bearer has a 4+ invulnerable save ."
+                "name": "Ogryn Bodyguard:",
+                "description": "While one or more OFFICER models are in the same unit as this model, those Officer models have the Feel No Pain 4+ ability."
+            },
+            {
+                "name": "Redoubled Loyalty",
+                "description": "While this model’s unit contains an OFFICER model that has lost one or more wounds, each time this model makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll."
             }
         ]
     },

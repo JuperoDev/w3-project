@@ -33,7 +33,7 @@
             "range": 36,
             "strength": 5,
             "attacks": 3,
-            "ballistic-skills": 5,
+            "ballistic-skills": 6,
             "armor-penetration": 1,
             "damage": 2,
             "singleChoice": false
@@ -47,9 +47,9 @@
             "range": 18,
             "strength": 9,
             "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "ballistic-skills": 6,
+            "armor-penetration": 4,
+            "damage": "d6",
             "singleChoice": false
         },
         {
@@ -60,9 +60,9 @@
             ],
             "range": 36,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
+            "attacks": "d3",
+            "ballistic-skills": 6,
+            "armor-penetration": 2,
             "damage": 1,
             "singleChoice": false
         },
@@ -75,20 +75,22 @@
             ],
             "range": 36,
             "strength": 8,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "attacks": "d3",
+            "ballistic-skills": 6,
+            "armor-penetration": 3,
+            "damage": 2,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "Mindlock: While a friendly REGIMENTAL ENGINSEER model is leading this unit",
-            "improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by MUNITORUM SERVITOR models in this unit by 1."
+            
         ],
         "faction": [],
-        "otherAbilities": []
+        "otherAbilities": [ {
+            "name": "Mindlock",
+            "description": "While a friendly REGIMENTAL ENGINSEER model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by MUNITORUM SERVITOR models in this unit by 1."
+        }]
     },
     "wargear": [
         {

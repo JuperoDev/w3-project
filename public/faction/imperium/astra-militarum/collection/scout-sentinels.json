@@ -29,6 +29,19 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Autocannon",
+            "modifiers": [
+                
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 5,
+            "armor-penetration": 1,
+            "damage":3,
+            "singleChoice": false
+        },
+        {
             "name": "Heavy flamer",
             "modifiers": [
                 "ignores cover",
@@ -53,6 +66,19 @@
             "ballistic-skills": 4,
             "armor-penetration": 3,
             "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {

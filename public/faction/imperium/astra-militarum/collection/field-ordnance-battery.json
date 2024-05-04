@@ -36,10 +36,10 @@
             ],
             "range": 48,
             "strength": 7,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": "d6",
+            "ballistic-skills": 5,
             "armor-penetration": 1,
-            "damage": 1,
+            "damage": 2,
             "singleChoice": false
         },
         {
@@ -50,9 +50,9 @@
             "range": 48,
             "strength": 14,
             "attacks": 2,
-            "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {
@@ -89,8 +89,8 @@
             ],
             "range": 48,
             "strength": 6,
-            "attacks": 2,
-            "ballistic-skills": 4,
+            "attacks": "d6+6",
+            "ballistic-skills": 5,
             "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
@@ -98,14 +98,13 @@
     ],
     "abilities": {
         "core": [
-            "Rearm",
-            "Reload",
-            "Fire: While this unit is being affected by an Order",
-            "provided it Remained Stationary this turn",
-            "all Heavy weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+           
         ],
         "faction": [],
-        "otherAbilities": []
+        "otherAbilities": [ {
+            "name": "Rearm, Reload, Fire",
+            "description": "While this unit is being affected by an Order, provided it Remained Stationary this turn, all Heavy weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        }]
     },
     "wargear": [
         {

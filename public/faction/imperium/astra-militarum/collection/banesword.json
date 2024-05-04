@@ -30,6 +30,19 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
             "name": "Quake cannon",
             "modifiers": [
                 "blast",
@@ -37,10 +50,10 @@
             ],
             "range": 72,
             "strength": 16,
-            "attacks": 2,
+            "attacks": "d6+6",
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 4,
+            "damage": 4,
             "singleChoice": false
         },
         {
@@ -80,8 +93,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "2 lascannons; quake cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+                "name": "Armour Obliteration",
+                "description": "Each time an attack made with this model’s quake cannon destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6."
             }
         ]
     },

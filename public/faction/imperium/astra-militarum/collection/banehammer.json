@@ -31,16 +31,29 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
             "name": "Tremor cannon",
             "modifiers": [
                 "blast"
             ],
             "range": 36,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {
@@ -81,8 +94,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "2 lascannons; tremor cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+                "name": "Tremor Quake",
+                "description": "In your Shooting phase, just after selecting a target for this model’s tremor cannon, the target unit and every other enemy INFANTRY unit within 3'' of that unit must take a Battle-shock test."
             }
         ]
     },

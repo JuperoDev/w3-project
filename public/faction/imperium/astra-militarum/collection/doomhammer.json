@@ -31,6 +31,19 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
             "name": "Magma cannon",
             "modifiers": [
                 "blast",
@@ -38,10 +51,10 @@
             ],
             "range": 24,
             "strength": 12,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 4,
-            "armor-penetration": 1,
-            "damage": 1,
+            "armor-penetration": 3,
+            "damage": "d6+1",
             "singleChoice": false
         },
         {
@@ -82,8 +95,8 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "This model is equipped with:",
-                "description": "2 lascannons; magma cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks."
+                "name": "Close-range Titan Killer",
+                "description": "Each time this model’s magma cannon targets an enemy MONSTER or VEHICLE unit, that target is always considered to be within half range of that weapon."
             }
         ]
     },

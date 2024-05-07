@@ -21,14 +21,17 @@
       <div class=" flex items-center justify-center">
         
        <FactionFetch /> 
-
+      
       
 
     </div> 
-
+    
     
      <!-- </GeneralPurposePasswordProtection>    -->
     </div>
+    <nuxt-link>
+          <v-btn class="w-56 m-5">Army Builder</v-btn>
+        </nuxt-link>
   </div>
 </template>
 

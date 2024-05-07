@@ -20,14 +20,15 @@
         </div>
 
     <br />
-    <p>Equipment: </p>
+    <div class="datasheet-desktop__section-header bg-zinc-900 text-zinc-100 rounded-t-lg p-3">
+          <p>Equipment</p>
+        </div>
         <p v-for="(unit, index) in unitComposition" :key="index" class="capitalize">
     <b>{{ unit.unitType }}:</b> {{ unit.equipment.join(', ') }}
    
   </p>
 
-    <br />
-    <br />
+    
 
     <br />
     <div class="grid grid-cols-4 bg-zinc-900 text-zinc-100 rounded-t-lg p-3">

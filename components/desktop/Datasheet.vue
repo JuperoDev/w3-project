@@ -43,11 +43,11 @@
 
 <!-- REMOVE FOR ALPHA -->
 
-        <!-- <DesktopComponentsUnitComposition
+         <DesktopComponentsUnitComposition
           :options="options"
           :unitComposition="unitComposition"
           :equipment="equipment"
-        /> -->
+        /> 
 
 <!-- *********************** -->
 

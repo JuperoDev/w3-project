@@ -1,0 +1,99 @@
+{
+    "name": "nueva lista",
+    "army": "tyranids",
+    "detachment": "invasion fleet",
+    "pointMax": 2000,
+    "pointList": 2000,
+    "characters": [
+        {
+            "name": "Broodlord",
+            "points":"80",
+            "warlord": true,
+            "enhancements": "Synaptic Lynchpin",
+            "enhancementPoints":"20",
+            "epicCharacter": false,
+            "composition": [
+                {
+                    "name": "Broodlord",
+                    "miniatures": 1,
+                    "equipment": [
+                        {
+                            "name": "Broodlord claws and talons",
+                            "amount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Swarmlord",
+            "points":"240",
+            "warlord": false,
+            "enhancements": "",
+            "enhancementPoints":"",
+            "epicCharacter": true,
+            "composition": [
+                {
+                    "name": "The Swarmlord",
+                    
+                    "miniatures": 1,
+                    "equipment": [
+                        {
+                            "name": "Bone sabres",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Synaptic pulse",
+                            "amount": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "battleline": [
+        {
+            "name": "Gargoyles",
+            "points":"85",
+            "composition": [
+                {
+                    "name": "Gargoyle",
+                    "miniatures": 10,
+                    "equipment": [
+                        {
+                            "name": "Blinding venom",
+                            "amount": 10
+                        },
+                        {
+                            "name": "Fleshborer",
+                            "amount": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gargoyles",
+            "points":"85",
+            "composition": [
+                {
+                    "name": "Gargoyle",
+                    "miniatures": 10,
+                    "equipment": [
+                        {
+                            "name": "Blinding venom",
+                            "amount": 10
+                        },
+                        {
+                            "name": "Fleshborer",
+                            "amount": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dedicatedTransports":[],
+    "otherDatasheets":[],
+    "alliedUnits":[]
+}

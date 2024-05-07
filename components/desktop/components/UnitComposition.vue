@@ -32,13 +32,16 @@
      
 
         </div>
-        <p>Equipment: </p>
+        
+        <div class="datasheet-desktop__section-header bg-zinc-900 text-zinc-100 rounded-t-lg p-3">
+          <p>Equipment</p>
+        </div>
         <p v-for="(unit, index) in unitComposition" :key="index" class="capitalize">
     <b>{{ unit.unitType }}:</b> {{ unit.equipment.join(', ') }}
    
   </p>
 
-    <br />
+ 
     <!-- <p class="py-2">Every model is equipped with:</p>
     <div v-for="equip in equipment" class="px-5 capitalize">
       <ul>

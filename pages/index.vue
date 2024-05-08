@@ -29,9 +29,9 @@
     
      <!-- </GeneralPurposePasswordProtection>    -->
     </div>
-    <nuxt-link>
+    <!-- <nuxt-link>
           <v-btn class="w-56 m-5">Army Builder</v-btn>
-        </nuxt-link>
+        </nuxt-link> -->
   </div>
 </template>
 

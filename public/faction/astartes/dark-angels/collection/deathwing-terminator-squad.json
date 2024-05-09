@@ -213,21 +213,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone - EPIC HERO",
+            "unitType": "Deathwing Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                " Drakkis",
-                "Malleus Noctum"
+                "storm bolter", "power weapon"
+            ]
+        },
+        {
+            "unitType": "Deathwing Terminators",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "storm bolter", "power weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 85
+            "points": 190
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 380
         }
     ],
     "additionalParameter": {},

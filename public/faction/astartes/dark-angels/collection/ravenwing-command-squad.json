@@ -26,7 +26,10 @@
             "invulnerableSave": 5
         }
     ],
-    "leader": [],
+    "leader": [
+        "Outrider Squad",
+        "Ravenwing Black Knights"
+    ],
     "rangedWeapons": [
         {
             "name": "Astartes grenade launcher - frag",
@@ -141,21 +144,44 @@
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone - EPIC HERO",
+            "unitType": "Ravenwing Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                " Drakkis",
-                "Malleus Noctum"
+                "bolt pistol",
+                "plasma talon",
+                "master-crafted power weapon"
+            ]
+        },
+        {
+            "unitType": "Ravenwing Apothecary",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "plasma talon",
+                "Black Knight combat weapon"
+            ]
+        },
+        {
+            "unitType": "Ravenwing Ancient",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "plasma talon",
+                "Black Knight combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
+                1,
+                1,
                 1
             ],
-            "points": 85
+            "points": 130
         }
     ],
     "additionalParameter": {}

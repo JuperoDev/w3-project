@@ -23,7 +23,7 @@ content_to_add = """
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                " Drakkis",
+                "Drakkis",
                 "Malleus Noctum"
             ]
         }

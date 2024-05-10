@@ -121,20 +121,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Striking Scorpion Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "shuriken pistol","Scorpion chainsword", "mandiblasters"
+            ]
+        },
+        {
+            "unitType": "Striking Scorpions",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "shuriken pistol","Scorpion chainsword", "mandiblasters"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 75
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 150
         }
     ],
     "additionalParameter": {}

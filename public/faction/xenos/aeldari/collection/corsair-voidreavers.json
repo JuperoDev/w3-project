@@ -198,20 +198,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Voidreaver Felarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "shuriken pistol", "Aeldari power sword", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Corsair Voidreavers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "shuriken pistol", "Aeldari power sword", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 70
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 140
         }
     ],
     "additionalParameter": {}

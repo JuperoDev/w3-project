@@ -111,20 +111,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Fire Dragon Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "Dragon fusion gun", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Fire Dragon",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "Dragon fusion gun", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points":85
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points":170
         }
     ],
     "additionalParameter": {}

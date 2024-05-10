@@ -267,11 +267,44 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Shade Runner",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "shuriken pistol", "close combat weapon", "paired Hekatarii blades"
+            ]
+        },
+        {
+            "unitType": "Soul Weaver",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "shuriken pistol", "Aeldari power sword", "close combat weapon", "channeller stones"
+
+            ]
+        },
+        {
+            "unitType": "Way Seeker",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "shuriken pistol", "Executioner", "close combat weapon", "witch staff"
+            ]
+        },
+        {
+            "unitType": "Voidscarred Felarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "shuriken pistol", "Aeldari power sword", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Corsair Voidscarred",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "shuriken pistol", "Aeldari power sword", "close combat weapon"
             ]
         }
     ],
@@ -292,10 +325,17 @@
     "options": [
         {
             "count": [
-                1
+                1,4,0,0,0
             ],
             "points": 90
+        },
+        {
+            "count": [
+                1,"5-9","0-1","0-1","0-1"
+            ],
+            "points": 180
         }
+
     ],
     "additionalParameter": {}
 }

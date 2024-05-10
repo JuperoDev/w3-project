@@ -93,20 +93,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Warp Spider Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "death spinner", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Warp Spiders",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "death spinner", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 115
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 230
         }
     ],
     "additionalParameter": {}

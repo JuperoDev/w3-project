@@ -134,20 +134,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Dire Avenger Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "Avenger shuriken catapult", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Dire Avengers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "Avenger shuriken catapult", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 70
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 140
         }
     ],
     "additionalParameter": {}

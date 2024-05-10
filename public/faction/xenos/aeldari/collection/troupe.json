@@ -137,20 +137,46 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Lead Player",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "shuriken pistol", "Harlequin’s blade"
+            ]
+        },
+        {
+            "unitType": "Players",
+            "minQuantity": 4,
+            "maxQuantity": 11,
+            "equipment": [
+                "shuriken pistol", "Harlequin’s blade"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
+            ],
+            "points": 75
+        },
+        {
+            "count": [
+                1,5
             ],
             "points": 90
+        },
+        {
+            "count": [
+                1,10
+            ],
+            "points": 165
+        },
+        {
+            "count": [
+                1,11
+            ],
+            "points": 180
         }
     ],
     "additionalParameter": {}

@@ -151,20 +151,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Dark Reaper Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "Reaper launcher", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Dark Reapers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "Reaper launcher", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 80
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 160
         }
     ],
     "additionalParameter": {}

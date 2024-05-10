@@ -129,20 +129,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Howling Banshee Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "shuriken pistol", "Banshee blade"
+            ]
+        },
+        {
+            "unitType": "Howling Banshees",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "shuriken pistol", "Banshee blade"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 85
+        },
+        {
+            "count": [
+                1,4
+            ],
+            "points": 170
         }
     ],
     "additionalParameter": {}

@@ -112,20 +112,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Swooping Hawk Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "lasblaster","close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Swooping Hawk",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "lasblaster","close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 75
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 150
         }
     ],
     "additionalParameter": {}

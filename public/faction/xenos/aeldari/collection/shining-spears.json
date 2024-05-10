@@ -159,20 +159,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Shining Spear Exarch",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "laser lance", "twin shuriken catapult"
+            ]
+        },
+        {
+            "unitType": "Shining Spears",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "laser lance", "twin shuriken catapult"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 90
+            "points": 120
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 240
         }
     ],
     "additionalParameter": {}

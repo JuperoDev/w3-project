@@ -56,20 +56,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Possessed Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "hideous mutations"
+            ]
+        },
+        {
+            "unitType": "Possessed",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "hideous mutations"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 130
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 260
         }
     ],
     "additionalParameter": {},

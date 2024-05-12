@@ -225,20 +225,28 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Traitor Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "corrupted pistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Traitor Guardsmen",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "lasgun","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,9
             ],
-            "points": 90
+            "points": 70
         }
     ],
     "additionalParameter": {}

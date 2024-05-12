@@ -57,20 +57,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Warp Talon Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "warp claws"
+            ]
+        },
+        {
+            "unitType": "Warp Talons",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "warp claws"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 110
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 220
         }
     ],
     "additionalParameter": {}

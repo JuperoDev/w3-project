@@ -277,20 +277,37 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Havoc Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "flamer","Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Havocs",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "Havoc autocannon","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Havocs",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "Havoc lascannon","close combat weapon"
             ]
         }
+
     ],
     "options": [
         {
             "count": [
-                1
+                1,2,2
             ],
-            "points": 90
+            "points": 120
         }
     ],
     "additionalParameter": {}

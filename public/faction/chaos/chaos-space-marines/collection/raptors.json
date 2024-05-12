@@ -201,20 +201,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Raptor Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol","Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Raptors",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol","Astartes chainsword"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 85
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 170
         }
     ],
     "additionalParameter": {}

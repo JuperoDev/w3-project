@@ -165,20 +165,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Terminator Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "combi-bolter","accursed weapon"
+            ]
+        },
+        {
+            "unitType": "Chaos Terminators",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "combi-bolter","accursed weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 185
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 370
         }
     ],
     "additionalParameter": {}

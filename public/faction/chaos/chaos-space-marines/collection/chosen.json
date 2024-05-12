@@ -159,20 +159,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Chosen Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "boltgun","bolt pistol","accursed weapon"
+            ]
+        },
+        {
+            "unitType": "Chosen",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "boltgun","bolt pistol","accursed weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 130
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 260
         }
     ],
     "additionalParameter": {},

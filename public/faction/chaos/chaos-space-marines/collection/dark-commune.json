@@ -131,20 +131,44 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Cult Demagogue",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "autopistol","Commune stave."
+            ]
+        },
+        {
+            "unitType": "Mindwitch",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Iconarch",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "close combat weapon","Chaos icon"
+            ]
+        },
+        {
+            "unitType": "Blessed Blades",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "Commune blade"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,1,1,2
             ],
-            "points": 90
+            "points": 65
         }
     ],
     "additionalParameter": {},

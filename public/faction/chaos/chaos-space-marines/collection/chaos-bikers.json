@@ -227,20 +227,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Biker Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol","combi-bolter","close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Chaos Bikers",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "bolt pistol","combi-bolter","close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 90
+            "points": 75
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 150
         }
     ],
     "additionalParameter": {},

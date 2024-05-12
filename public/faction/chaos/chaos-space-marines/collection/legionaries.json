@@ -328,20 +328,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Aspiring Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol","boltgun", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Legionaries",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol","boltgun", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 80
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 160
         }
     ],
     "additionalParameter": {},

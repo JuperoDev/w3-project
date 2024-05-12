@@ -18,15 +18,17 @@
         "nurgle",
         "great unclean one"
     ],
-    "attributes": [{
-        "movement": 7,
-        "toughness": 12,
-        "save": 5,
-        "wounds": 20,
-        "leadership": 6,
-        "objetiveControl": 5,
-        "invulnerableSave": 4
-    }],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 12,
+            "save": 5,
+            "wounds": 20,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 4
+        }
+    ],
     "leader": [],
     "rangedWeapons": [
         {
@@ -87,10 +89,12 @@
     ],
     "additionalParameter": {},
     "meleeWeapons": [
-       
         {
             "name": "Bileblade",
-            "modifiers": ["extra attacks","lethal hits"],
+            "modifiers": [
+                "extra attacks",
+                "lethal hits"
+            ],
             "attacks": 3,
             "weapons-skills": 2,
             "strength": 6,
@@ -100,7 +104,9 @@
         },
         {
             "name": "Bilesword – strike",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 8,
@@ -110,7 +116,9 @@
         },
         {
             "name": "Bilesword – sweep",
-            "modifiers": ["lethal hits"],
+            "modifiers": [
+                "lethal hits"
+            ],
             "attacks": 12,
             "weapons-skills": 2,
             "strength": 6,
@@ -120,12 +128,35 @@
         },
         {
             "name": "Doomsday bell",
-            "modifiers": ["lethal hits", "Reverberating summons"],
+            "modifiers": [
+                "lethal hits",
+                "Reverberating summons"
+            ],
             "attacks": 6,
             "weapons-skills": 2,
             "strength": 7,
             "armor-penetration": 1,
             "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Great Unclean One",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plague flail",
+                "putrid vomit",
+                "bilesword"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 230
         }
     ]
 }

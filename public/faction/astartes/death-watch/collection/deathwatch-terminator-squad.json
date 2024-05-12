@@ -213,21 +213,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone - EPIC HERO",
+            "unitType": "Deathwatch Terminator Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "power fist", "storm bolter"
+            ]
+        },
+        {
+            "unitType": "Deathwatch Terminators",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "power fist", "storm bolter"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 85
+            "points": 210
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 420
         }
     ],
     "additionalParameter": {},

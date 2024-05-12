@@ -132,21 +132,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone - EPIC HERO",
+            "unitType": "Veteran Biker Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "bolt pistol", "close combat weapon", "twin boltgun"
+            ]
+        },
+        {
+            "unitType": "Veteran Bikers",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "bolt pistol", "close combat weapon", "twin boltgun"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 85
+            "points": 80
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 160
         }
     ],
     "additionalParameter": {}

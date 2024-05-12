@@ -72,5 +72,37 @@
             "armor-penetration": 1,
             "damage": 1
         }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Heartseeker",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lashing tongue","slashing claws"
+            ]
+        },
+        {
+            "unitType": "Seekers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "lashing tongue","slashing claws"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 80
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 160
+        }
     ]
 }

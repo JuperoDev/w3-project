@@ -69,5 +69,37 @@
             "armor-penetration": 0,
             "damage": 1
         }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Pyrocaster",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Flickering Flames","Flamer mouths."
+            ]
+        },
+        {
+            "unitType": "Flamers",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "Flickering Flames","Flamer mouths."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 75
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 75
+        }
     ]
 }

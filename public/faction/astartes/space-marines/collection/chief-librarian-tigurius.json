@@ -34,7 +34,18 @@
         "Devastator Squad",
         "Intercessor Squad",
         "Sternguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Crusader Squad",
+        "Primaris Crusader Squad",
+        "Primaris Sword Brethren",
+        "Inner Circle Companions",
+        "Deathwatch Veterans",
+        "Fortis Kill Team",
+        "Proteus Kill Team",
+        "Blood Claws",
+        "Grey Hunters",
+        "Long Fangs",
+        "Wolf Guard"
     ],
     "rangedWeapons": [
         {
@@ -94,11 +105,7 @@
             },
             {
                 "name": "Master of Prescience (Psychic):",
-                "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll . In addition, once per battle round"
-            },
-            {
-                "name": ", you can target that unit with one of the following Stratagems for OCP:",
-                "description": "Counter-offensive ; Fire Overwatch ; Go to Ground ; Heroic Intervention"
+                "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll . In addition, once per battle round, you can target that unit with one of the following Stratagems for OCP : Counter-offensive ; Fire Overwatch ; Go to Ground ; Heroic Intervention"
             }
         ]
     },
@@ -118,11 +125,13 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Chief Librarian Tigurius – EPIC HERO",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol",
+                "Storm of the Emperor’s Wrath",
+                "Rod of Tigurius"
             ]
         }
     ],
@@ -131,7 +140,7 @@
             "count": [
                 1
             ],
-            "points": 90
+            "points": 75
         }
     ],
     "additionalParameter": {}

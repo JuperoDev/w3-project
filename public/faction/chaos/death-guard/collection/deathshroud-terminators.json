@@ -91,21 +91,32 @@
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 455
+            "points": 120
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 240
         }
     ],
     "unitComposition": [
         {
-            "unitType": "Knight Abominant",
+            "unitType": "Deathshroud Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "diabolus heavy stubber",
-                "volkite combustor",
-                "balemace",
-                "electroscourge"
+                "plaguespurt gauntlet","manreaper"
+            ]
+        },
+        {
+            "unitType": "Deathshroud Terminators",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "plaguespurt gauntlet","manreaper"
             ]
         }
     ]

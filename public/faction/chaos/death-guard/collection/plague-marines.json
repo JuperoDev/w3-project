@@ -257,21 +257,38 @@
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 455
+            "points": 90
+        },
+        {
+            "count": [
+                1,6
+            ],
+            "points": 125
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 180
         }
     ],
     "unitComposition": [
         {
-            "unitType": "Knight Abominant",
+            "unitType": "Plague Champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "diabolus heavy stubber",
-                "volkite combustor",
-                "balemace",
-                "electroscourge"
+                "plague boltgun","plague knives"
+            ]
+        },
+        {
+            "unitType": "Plague Marines",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "plague boltgun","plague knives"
             ]
         }
     ]

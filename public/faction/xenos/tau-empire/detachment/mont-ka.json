@@ -1,0 +1,117 @@
+{
+    "detachmentName": "mont'ka",
+    "detachmentRule": [
+        {
+            "name": "killing blow",
+            "lore": "Mont’ka is the most aggressive style of T’au warfare. Its singular focus is the art of identifying a target of opportunity and attacking it swiftly with an overwhelming application of force.",
+            "description": "During the first, second and third battle rounds, ranged weapons equipped by <strong>T’AU EMPIRE</strong> models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit, its ranged weapons have the [LETHAL HITS] ability."
+        }
+    ],
+    "enhancements": [
+        {
+            "name": "Coordinated Exploitation",
+            "points": 20,
+            "lore": "This leader eschews their own martial glory in favour of seeking out an advanced vantage point then exploiting it to guide in the firepower of their fellows.",
+            "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [SUSTAINED HITS 1] ability while targeting their Spotted unit."
+        },
+        {
+            "name": "Exemplar of the Mont’ka",
+            "points": 10,
+            "lore": "This warrior has perfected the art of the Killing Blow, formulating swift and decisive battle plans and leading their cadres from the front in aggressive strikes.",
+            "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well."
+        },
+        {
+            "name": "Strategic Conqueror",
+            "points": 15,
+            "lore": "A wise commander appreciates the strategic value of seizing a vital battlefield asset swiftly to establish a foothold, employing it as a jumping off point for further assaults or a rallying post for a swift retreat.",
+            "description": "T’AU EMPIRE model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly T’AU EMPIRE model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model’s Objective Control characteristic."
+        },
+        {
+            "name": "Strike Swiftly",
+            "points": 25,
+            "lore": "This commander knows victory is best assured by taking the fight to the enemy as soon as battle is joined.",
+            "description": "T’AU EMPIRE model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly T’AU EMPIRE units within 6” of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6” ability."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "pinpoint counter-offensive",
+            "subindex": "battle tactic stratagem",
+            "lore": "Mont’ka emphasises rapid evolving threat-analysis and the application of overwhelming firepower to eliminate emergent high-priority targets.",
+            "when": "Any phase.",
+            "target": "One T’AU EMPIRE unit (excluding KROOT units) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Until the end of the battle, each time a T’AU EMPIRE unit (excluding KROOT units) from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "combat debarkation",
+            "subindex": "battle tactic stratagem",
+            "lore": "The most aggressive Fire caste warriors sometimes spring from moving transports, roll with the impact of landing, and come up with weapons already blazing.",
+            "when": "Your Shooting phase.",
+            "target": "One T’AU EMPIRE INFANTRY unit from your army that disembarked from a TRANSPORT this turn.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets the closest enemy unit, you can re-roll the Wound roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "aggressive mobility",
+            "subindex": "battle tactic stratagem",
+            "lore": "By advancing swiftly into commanding positions, Mont’ka forces maximise the benefits of their enemies’ shock and disorientation.",
+            "when": "Your Movement phase.",
+            "target": "One T’AU EMPIRE unit from your army that has not been selected to move this phase.",
+            "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6” to the Move characteristic of models in your unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "pulse onslaught",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Rather than charge into hand-to-hand combat, T’au soldiery instead intensify their fire patterns, pinning their advancing foes and staving off their onslaught.",
+            "when": "Your Shooting phase.",
+            "target": "One T’AU EMPIRE INFANTRY unit (excluding KROOT units) from your army that has just shot, and one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks.",
+            "effect": "Until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "blue"
+        },
+        {
+            "name": "focused fire",
+            "subindex": "battle tactic stratagem",
+            "lore": "Mont’ka doctrine heavily emphasises the massed concentration of fire upon a single target at a time, obliterating each component of the enemy force in succession with a series of unrelenting barrages.",
+            "when": "Start of your Shooting phase.",
+            "target": "Two T’AU EMPIRE units from your army that have not been selected to shoot this phase, and one enemy unit.",
+            "effect": "Until the end of the phase, each time a model in either of your units makes an attack, it can only target the enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, improve the Armour Penetration characteristic by 1.",
+            "restrictions": "You cannot use this Stratagem during the fourth or fifth battle rounds.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "counterfire defence systems",
+            "subindex": "wargear stratagem",
+            "lore": "Point-defence systems trigger as incoming fire is detected, blasting projectiles from the air and lessening the power of the enemy fusillade.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One T’AU EMPIRE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "red"
+        }
+    ]
+}

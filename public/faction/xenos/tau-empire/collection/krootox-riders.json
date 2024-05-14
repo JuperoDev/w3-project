@@ -8,6 +8,7 @@
     "lore": "Krootox make excellent living gun platforms, lumbering into battle with cannons strapped to their backs, their Kroot gunners swaying atop their steeds in primitive harnesses. Though not in themselves aggressive, Krootox view the Kroot Carnivores they fight alongside as packmates, and will employ their great strength to defend their kin.",
     "keywords": [
         "mounted",
+        "grenades",
         "kroot",
         "krootox riders"
     ],
@@ -25,14 +26,24 @@
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Kroot gun",
+            "name": "Repeater cannon",
             "range": 36,
             "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "strength": 7,
-            "armor-penetration": 0,
+            "armor-penetration": 1,
             "damage": 2,
-            "modifiers": []
+            "modifiers": ["rapid fire 2"]
+        },
+        {
+            "name": "Tanglecanno",
+            "range": 36,
+            "attacks": "d6+1",
+            "ballistic-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": ["blast","heavy"]
         }
     ],
     "abilities": {
@@ -43,11 +54,13 @@
         "otherAbilities": [
             {
                 "name": "Kroot Packmates",
-                "description": "While one or more friendly KROOT CARNIVORE units are within 6'' of this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
+                "description": "Once per turn, in your opponent’s Shooting phase, when a friendly KROOT INFANTRY unit within 6'' of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that unit with this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)"
             }
         ]
     },
-    "wargear": [],
+    "wargear": [{
+        "description": "Any number of models can each have their repeater cannon replaced with 1 tanglecannon"
+    }],
     "meleeWeapons": [
         {
             "name": "Krootox fists",
@@ -62,12 +75,11 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": "Krootox Riders",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 3,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "repeater cannon", "close combat weapon","Krootox fists"
             ]
         }
     ],
@@ -76,7 +88,19 @@
             "count": [
                 1
             ],
-            "points": 85
+            "points": 35
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                3
+            ],
+            "points": 105
         }
     ]
 }

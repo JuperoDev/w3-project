@@ -1,0 +1,128 @@
+{
+    "parentUnit": "Crisis Battlesuits",
+    "factionKeyword": [
+        "t’au empire"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wherever the battle rages most fiercely, there the Crisis Battlesuits strike. Piloted by courageous Fire Caste veterans, these suits are as tough and well-armed as many races’ light tanks, yet they also boast jet-assisted speed that allows them to cross the battlefield in bounding leaps or drop in from Manta Gunships.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "battlesuit",
+        "crisis"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        
+        {
+            "name": "Burst cannon",
+            "modifiers": [],
+            "range": 24,
+            "strength": 5,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "T’au flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Starscythe",
+                "description": "Each time a model in this unit makes a ranged attack (excluding attacks that target MONSTERS and VEHICLES), improve the Armour Penetration characteristic of that attack by 1"
+            },
+            {
+                "name": "Battlesuit Support System",
+                "description": "This unit is eligible to shoot in a turn in which it Fell Back."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their burst cannon replaced with 1 T’au flamer"
+        },
+        {
+            "description": "Any number of models can each have their T’au flamer replaced with 1 burst cannon"
+        },
+        {
+            "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Battlesuit fists",
+            "attacks": 3,
+            "weapons-skills": 5,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Crisis Starscythe Shas’vre",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "burst cannon","T’au flamer","battlesuit fists"
+            ]
+        },
+        {
+            "unitType": "Crisis Starscythe Shas’ui",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "burst cannon","T’au flamer","battlesuit fists"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 130
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+  "parentUnit": "Kroot Lone-Spear",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Whether loners or grizzled mercenaries unable to fit within Kroot society, Lone-spears prefer the company of beasts and the surrounds of the wild. Mounted upon chameleonic Kalamondras, they make for talented long-range scouts. Moreover, armed with suitably potent firearms the Lone-spears excel in picking off valuable enemy targets and even eliminating armoured fighting vehicles.",
+  "keywords": [
+    "mounted",
+    "character",
+    "kroot",
+    "lone-spear"
+  ],
+  "attributes": [{
+    "movement": 12,
+    "toughness": 5,
+    "salvation": 5,
+    "wounds": 6,
+    "leadership": 7,
+    "objectiveControl": 2,
+    "invulnerableSave": 0
+  }],
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Blast javelin",
+      "modifiers": [
+        "assault",
+        "blast"
+      ],
+      "range": 18,
+      
+      "attacks": 2,
+      "ballistic-skills": 3,
+      "strength": 10,
+      "armor-penetration": 2,
+      "damage": 2,
+      "singleChoice": false
+    },
+    {
+      "name": "Kroot long gun",
+      "modifiers": [
+        "heavy",
+        "precision"
+      ],
+      "range": 36,
+      "strength": 6,
+      "attacks": 1,
+      "ballistic-skills": 3,
+      "armor-penetration": 2,
+      "damage": 3,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Lone Operative",
+      "Scouts 7\"",
+      "Stealth"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Advanced Scouting",
+        "description": "Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+      },
+      {
+        "name": "Fire and Fade",
+        "description": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6''. If it does, until the end of the turn, this model is not eligible to declare a charge."
+      }
+    ]
+  },
+  "wargear": [
+    {
+      "description": "This model’s Kroot long gun can be replaced with 1 blast javelin and 1 hunting javelin.",
+      "items": []
+    }
+  ],
+  "meleeWeapons": [
+   
+    {
+      "name": "Close combat weapon",
+      "modifiers": [],
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 0,
+      "damage": 1
+    },
+    {
+      "name": "Hunting javelin",
+      "modifiers": ["lance"],
+      "attacks": 3,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 1
+    },
+    {
+      "name": "Kalamandra’s bite",
+      "modifiers": ["extra attacks"],
+      "attacks": 4,
+      "weapons-skills": 4,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 1
+    }
+  ],
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+          "unitType": "Kroot Lone-Spear",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+              "Kroot long gun; close combat weapon","Kalamandra’s bite."
+          ]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 90
+      }
+  ]
+}

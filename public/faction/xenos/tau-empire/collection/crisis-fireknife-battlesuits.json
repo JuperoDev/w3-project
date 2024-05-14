@@ -1,0 +1,125 @@
+{
+    "parentUnit": "Crisis Battlesuits",
+    "factionKeyword": [
+        "t’au empire"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wherever the battle rages most fiercely, there the Crisis Battlesuits strike. Piloted by courageous Fire Caste veterans, these suits are as tough and well-armed as many races’ light tanks, yet they also boast jet-assisted speed that allows them to cross the battlefield in bounding leaps or drop in from Manta Gunships.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "battlesuit",
+        "crisis"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        
+        {
+            "name": "Missile pod",
+            "modifiers": [],
+            "range": 30,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma rifle",
+            "modifiers": [],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Fireknife",
+                "description": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead."
+            },
+            {
+                "name": "Weapon Support System",
+                "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "description": "Any number of models can each have their plasma rifle replaced with 1 missile pod"
+        },
+        {
+            "description": "Any number of models can each have their missile pod replaced with 1 plasma rifle"
+        },
+        {
+            "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Battlesuit fists",
+            "attacks": 3,
+            "weapons-skills": 5,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Crisis Fireknife Shas’vre",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plasma rifle","missile pod","battlesuit fists"
+            ]
+        },
+        {
+            "unitType": "Crisis Fireknife Shas’ui",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "plasma rifle","missile pod","battlesuit fists"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 150
+        }
+    ]
+}

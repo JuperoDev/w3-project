@@ -1,0 +1,121 @@
+{
+    "parentUnit": "Crisis Battlesuits",
+    "factionKeyword": [
+        "t’au empire"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Wherever the battle rages most fiercely, there the Crisis Battlesuits strike. Piloted by courageous Fire Caste veterans, these suits are as tough and well-armed as many races’ light tanks, yet they also boast jet-assisted speed that allows them to cross the battlefield in bounding leaps or drop in from Manta Gunships.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "fly",
+        "battlesuit",
+        "crisis"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+       
+        {
+            "name": "Fusion blaster",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "For the Greater Good"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Sunforge",
+                "description": "Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+            }
+        ]
+    },
+    "wargear": [
+       
+        {
+            "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates:",
+            "items": [
+                "1 gun drone",
+                "1 marker drone",
+                "1 shield drone"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Battlesuit fists",
+            "attacks": 3,
+            "weapons-skills": 5,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Crisis Sunforge Shas’vre",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 fusion blasters","battlesuit fists"
+            ]
+        },
+        {
+            "unitType": "Crisis Sunforge Shas’ui",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "2 fusion blasters","battlesuit fists"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 170
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Battlesuit Support System",
+            "ability": "The bearer’s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
+        },
+        {
+            "wargear": "Shield Generator",
+            "ability": "The bearer has a 4+ invulnerable save."
+        },
+        {
+            "wargear": "Weapon Support System",
+            "ability": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        }
+    ]
+}

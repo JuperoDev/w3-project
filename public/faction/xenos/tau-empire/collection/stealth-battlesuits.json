@@ -97,21 +97,34 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": "Stealth Shas’vre",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "burst cannon", "battlesuit fists","homing beacon"
+            ]
+        },
+        {
+            "unitType": "Stealth Shas’ui",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "burst cannon","battlesuit fists"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 85
+            "points": 60
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 120
         }
     ],
     "warGearAbilities": [

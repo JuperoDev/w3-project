@@ -1,0 +1,92 @@
+{
+  "parentUnit": "Kroot Flesh Shaper",
+  "factionKeywords": [
+    "t’au empire"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "All Shapers bear some responsibility for the gradual guidance of their fellows’ genetic makeup through ingestion of selected preg. The Flesh Shapers take this art to a more immediate and visceral extreme through the use of gruesome flesh-fetishes and ritualised butchery whose psychosomatic impact upon the Kroot is remarkable.",
+  "keywords": [
+    "infantry",
+    "character",
+    "kroot",
+    "shaper",
+    "flesh shaper"
+  ],
+  "attributes": [{
+    "movement": 7,
+    "toughness": 3,
+    "salvation": 6,
+    "wounds": 3,
+    "leadership": 7,
+    "objectiveControl": 1,
+    "invulnerableSave": 0
+  }],
+  "leader": ["Kroot Carnivores",
+  "Kroot Farstalkers"],
+  "rangedWeapons": [
+    {
+      "name": "Kroot scattergun",
+      "modifiers": [
+        "assault"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": 2,
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Infiltrators",
+      "Leader",
+      "Scouts 7\"",
+      "Stealth"
+    ],
+    "faction": [],
+    "otherAbilities": [
+      {
+        "name": "Ritual Butchery",
+        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. "
+      },
+      {
+        "name": "Rites of Feasting",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
+      }
+    ]
+  },
+  "wargear": [],
+  "meleeWeapons": [
+    {
+      "name": "Twin ritualistic blades",
+      "modifiers": ["twin-linked"],
+      "attacks": 4,
+      "weapons-skills": 2,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 1
+    }
+  ],
+  "additionalParameter": {},
+  "unitComposition": [
+      {
+          "unitType": "Kroot Flesh Shaper",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "equipment": [
+              "Kroot scattergun","twin ritualistic blades"
+          ]
+      }
+  ],
+  "options": [
+      {
+          "count": [
+              1
+          ],
+          "points": 55
+      }
+  ]
+}

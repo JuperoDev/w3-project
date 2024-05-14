@@ -32,8 +32,12 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Hunting Pack",
-                "description": "While one or more friendly KROOT CARNIVORE units within 6'' of this unit are within Engagement Range of one or more enemy units, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+                "name": "Loping Pounce",
+                "description": "At the start of your Command phase, if this unit is within 6'' of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
+            },
+            {
+                "name": "Hunting Hounds",
+                "description": "While this unit is within 12'' of one or more friendly KROOT CHARACTER models, the Objective Control characteristic of models in this unit is 1."
             }
         ]
     },
@@ -52,21 +56,26 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
-            "minQuantity": 1,
-            "maxQuantity": 1,
+            "unitType": "Kroot Hounds",
+            "minQuantity": 5,
+            "maxQuantity": 10,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "ripping fangs"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+               5
             ],
-            "points": 85
+            "points": 40
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 80
         }
     ]
 }

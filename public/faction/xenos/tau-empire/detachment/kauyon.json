@@ -2,85 +2,74 @@
     "detachmentName": "kauyon",
     "detachmentRule": [
         {
-            "name": "kauyon",
+            "name": "patient hunter",
             "lore": "The tactical philosophy known as the Kauyon allows for T’au commanders to draw the enemy into a deadly trap, springing it at the prefect moment to deliver a storm of fatal strikes against which none can escape.",
-            "description": "From the third battle round onwards, all ranged weapons equipped by <strong>T’AU EMPIRE</strong> models from your army have the [SUSTAINED HITS 1] ability. While a unit is a Guided unit (see For the Greater Good), weapons in that unit have the [SUSTAINED HITS 2] ability instead. <br/> <br/> <p><strong>RESTRICTIONS </strong> </p><br/><li>If your army includes any <strong>ETHEREAL<strong> units, it cannot include a COMMANDER FARSIGHT model. </li> <li>If your army includes a <strong>COMMANDER FARSIGHT</strong> model, it cannot include any <strong>ETHEREAL</strong> units. </li>"
+            "description": "From the third battle round onwards, all ranged weapons equipped by <strong>T’AU EMPIRE</strong> models from your army have the [SUSTAINED HITS 1] ability, or the [SUSTAINED HITS 2] ability instead while targeting their unit’s Spotted unit."
         }
     ],
     "enhacements": [
         {
             "name": "Exemplar of the Kauyon",
-            "points": 15,
+            "points": 20,
             "lore": "Long meditation upon the tenets of the Patient Hunter has seen this warrior master the application of this cunning ambush strategy. When they take to the battlefield, they embody the teachings of the Kauyon, much to the dismay of their luckless prey.",
             "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, that unit’s Kauyon Detachment rule takes effect from the second battle round onwards instead of the third."
         },
         {
             "name": "Precision of the Patient Hunter",
-            "points": 20,
+            "points": 15,
             "lore": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
             "description": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well."
         },
         {
             "name": "Puretide Engram Neurochip",
-            "points": 25,
+            "points": 30,
             "lore": "Commander Puretide was undoubtedly the most gifted T’au war leader of all time. The T’au were unwilling to lose his tactical and strategic brilliance, and upon his death, his mind was scanned and his accumulated memories committed to a holostorage personality unit on his birth world of Dal’yth. A sliver of that genius has been crafted into a neurochip. When surgically implanted into the brain of a Fire Caste Commander, the bearer can access much of the wisdom of Puretide himself, drawing upon a great reservoir of tactical acumen.",
             "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). Once per turn, you can use a Stratagem on the bearer’s unit, even if you have already used that Stratagem on a different unit this phase."
         },
         {
             "name": "Through Unity, Devastation",
-            "points": 20,
+            "points": 25,
             "lore": "Having studied every nuance of the art of applied mass-firepower, this warrior has mastered its deployment. Under their calm tutelage and stern gaze, warriors of the Fire Caste maximise every shot they fire, creating a blizzard of deadly-accurate energy that can pick apart even the most heavily armoured targets.",
             "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in their Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit."
         }
     ],
     "stratagems": [
         {
-            "name": "stimm injectors",
-            "subindex": "wargear stratagem",
-            "lore": "This system injects the battlesuit pilot with a measured dose of chemical stimulants intended to temporarily accelerate their physical aptitude and pain tolerances.",
-            "when": "Fight phase or your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-            "target": "One T’AU EMPIRE BATTLESUIT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "strike and fade",
-            "subindex": "strategic ploy stratagem",
-            "lore": "T’au are experts at harrying and outmanoeuvring their foes, bleeding them with accurate fire before fading away into the shadows and luring the foe into a trap.",
-            "when": "Your Shooting phase.",
-            "target": "One T’AU EMPIRE BATTLESUIT unit from your army that can FLY whose attacks have been resolved this phase.",
-            "effect": "If your unit is not within Engagement Range of any enemy units, it can make a Normal move. If it does, your unit cannot declare a charge this turn.",
-            "icon": [
-                ""
-            ],
-            "cp": 2,
-            "color": "blue"
-        },
-        {
-            "name": "coordinate to engage",
+            "name": "a tempting trap",
             "subindex": "battle tactic stratagem",
-            "lore": "T’au combined arms groups are called Hunter Cadres for good reason. Working in close coordination, they hunt and destroy the most dangerous enemy targets.",
+            "lore": "Kauyon teaches that many things can be used to bait a trap, luring the foe into position.",
             "when": "Your Shooting phase.",
-            "target": "One T’AU EMPIRE unit from your army that has just been selected as an Observer unit (see For the Greater Good).",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the MARKERLIGHT keyword, that attack has the [IGNORES COVER] ability.",
+            "target": "One T’AU EMPIRE unit from your army that has not been selected to shoot this phase. The first time you use this Stratagem, you must also select one objective marker that is not in your opponent's deployment zone; until the end of the battle, this becomes your Trap objective marker.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Trap objective marker, add 1 to the Wound roll.",
+            "restrictions": "You cannot use this Stratagem during the first or second battle rounds.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "blue"
+        },
+        {
+            "name": "combat embarkation",
+            "subindex": "wargear stratagem",
+            "lore": "Those who act as the lure in the Kauyon must be ready to make a hasty withdrawal once the enemy closes into killing range, lest they be trapped.",
+            "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
+            "target": "One T’AU EMPIRE INFANTRY unit from your army that was selected as one of the targets of that charge, and one friendly TRANSPORT.",
+            "effect": "Your unit can embark within that TRANSPORT. If it does, your opponent can select new targets for that charge.",
+            "restrictions": "Every model in your T’AU EMPIRE INFANTRY unit must be within 3'' of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
         },
         {
             "name": "point-blank ambush",
             "subindex": "battle tactic stratagem",
-            "lore": "The Kauyon teaches to lure the enemy into deadly point-blank ambushes.",
+            "lore": "Devastating firepower need not be applied from afar, especially when striking an unsuspecting foe.",
             "when": "Your Shooting phase.",
             "target": "One T’AU EMPIRE unit from your army that has not been selected to shoot this phase.",
             "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9'', improve the Armour Penetration characteristic of that attack by 1.",
-            "restrictions":"You cannot use this Stratagem during the first or second battle rounds.",
+            "restrictions": "You cannot use this Stratagem during the first or second battle rounds.",
             "icon": [
                 ""
             ],
@@ -101,13 +90,26 @@
             "color": "red"
         },
         {
-            "name": "combat embarkation",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Those who act as the lure in the Kauyon must be ready to make a hasty withdrawal once the enemy closes into killing range, lest they be trapped.",
-            "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
-            "target": "One T’AU EMPIRE INFANTRY unit from your army that was selected as one of the targets of that charge, and one friendly TRANSPORT.",
-            "effect": "Your unit can embark within that TRANSPORT. If it does, your opponent can select new targets for that charge.",
-            "restrictions": "Every model in your T’AU EMPIRE INFANTRY unit must be within 3'' of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit.",
+            "name": "coordinate to engage",
+            "subindex": "battle tactic stratagem",
+            "lore": "Tau Hunter Cadres work in close coordination to destroy the most dangerous enemy targets.",
+            "when": "Your Shooting phase.",
+            "target": "One T’AU EMPIRE unit from your army that has just been selected as an Observer unit (see For the Greater Good).",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the MARKERLIGHT keyword, that attack has the [IGNORES COVER] ability.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "wall of mirrors",
+            "subindex": "battle tactic stratagem",
+            "lore": "Tau Stealth Cadres utilize obfuscation fields and wide-band refraction beams to mask their advance.",
+            "when": "End of your opponent’s Fight phase.",
+            "target": "One STEALTH, GHOSTKEEL or COMMANDER SHADOWSUN unit from your army.",
+            "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+            "restrictions": "You cannot target a unit that is within Engagement Range of one or more enemy units.",
             "icon": [
                 ""
             ],

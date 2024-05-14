@@ -26,6 +26,32 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Tanglebomb launcher",
+            "modifiers": [
+               "blast"
+            ],
+            "range": 24,
+            "strength": 5,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Kroot pisto",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
             "name": "Kroot rifle",
             "modifiers": [
                 "rapid fire 1"
@@ -37,6 +63,19 @@
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
+        },
+        {
+            "name": "Kroot carbine",
+            "modifiers": [
+               
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
         }
     ],
     "abilities": {
@@ -47,15 +86,15 @@
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Grisly Feast",
-                "description": "If this unit destroys an enemy unit in the Fight phase, until the end of the battle, models in this unit have the Feel No Pain 5+ ability."
+                "name": "Fieldcraft",
+                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
             }
         ]
     },
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Kroot Rifle",
+            "name": "Close combat weapon",
             "attacks": 2,
             "weapons-skills": 3,
             "strength": 4,
@@ -64,24 +103,45 @@
             "modifiers": []
         }
     ],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Bodyguard",
+        "abilities": [
+            {
+                "name": "",
+                "description": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
+            }
+        ]
+    },
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone � EPIC HERO",
+            "unitType": "Long-quill",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "Kroot pistol","Kroot rifle","close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Kroot Carnivores",
+            "minQuantity": 9,
+            "maxQuantity": 19,
+            "equipment": [
+                "Kroot rifle","close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,9
             ],
-            "points": 85
+            "points": 75
+        },
+        {
+            "count": [
+                1,19
+            ],
+            "points": 75
         }
     ]
 }

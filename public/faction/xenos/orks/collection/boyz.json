@@ -107,13 +107,13 @@
     ],
     "abilities": {
         "core": [
-            "FACTION: Waaagh!"
+            "Waaagh!"
         ],
         "faction": [],
         "otherAbilities": [
             {
-                "name": "Breakin’ Heads",
-                "description": "While a WARBOSS model is leading this unit, in your Command phase, the first time a Battle-shock test is failed for this unit that phase, if it is within range of an objective marker, you can choose to break some heads. If you do, 1 Bodyguard model in this unit is destroyed and you can re-roll that test."
+                "name": "Get Da Good Bitz",
+                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
             }
         ]
     },
@@ -178,20 +178,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Boss Nob",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "slugga","big choppa"
+            ]
+        },
+        {
+            "unitType": "Boyz",
+            "minQuantity": 9,
+            "maxQuantity": 19,
+            "equipment": [
+                "slugga","choppa"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,9
             ],
-            "points": 90
+            "points": 85
+        },
+        {
+            "count": [
+                1,19
+            ],
+            "points": 170
         }
     ],
     "additionalParameter": {}

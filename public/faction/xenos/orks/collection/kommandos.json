@@ -9,7 +9,8 @@
     "keywords": [
         "infantry",
         "grenades",
-        "kommandos"
+        "kommandos",
+        "smoke"
     ],
     "attributes": [
         {
@@ -186,20 +187,28 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Boss Nob",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "slugga","choppa"
+            ]
+        },
+        {
+            "unitType": "Kommandos",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "slugga","choppa"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,9
             ],
-            "points": 90
+            "points": 135
         }
     ],
     "additionalParameter": {},

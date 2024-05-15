@@ -75,7 +75,7 @@
             "strength": 12,
             "attacks": "D6",
             "ballistic-skills": 4,
-            "armor-penetration": 2,
+            "armor-penetration": 1,
             "damage": "D6",
             "singleChoice": false
         },
@@ -86,7 +86,7 @@
             ],
             "range": 48,
             "strength": 9,
-            "attacks": "D3",
+            "attacks": "D3+1",
             "ballistic-skills": 4,
             "armor-penetration": 3,
             "damage": 3,
@@ -115,7 +115,7 @@
         "otherAbilities": [
             {
                 "name": "Splat!:",
-                "description": "Each time a model in this unit makes a ranged attack that targets a unit containing 10 or more models, re-roll a Hit roll of 1."
+                "description": "Each time a model in this unit makes a ranged attack that targets a unit that is at its Starting Strength (excluding MONSTERS and VEHICLES), re-roll a Hit roll of 1."
             }
         ]
     },
@@ -142,11 +142,11 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Mek Gunz",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 3,
             "equipment": [
-                ""
+                "smasha gun","grot crew"
             ]
         }
     ],
@@ -155,7 +155,19 @@
             "count": [
                 1
             ],
-            "points": 90
+            "points": 50
+        },
+        {
+            "count": [
+                2
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                3
+            ],
+            "points": 150
         }
     ],
     "additionalParameter": {}

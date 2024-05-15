@@ -79,9 +79,9 @@
     ],
     "abilities": {
         "core": [
-            "FACTION: Waaagh!"
+            
         ],
-        "faction": [],
+        "faction": ["Waaagh!"],
         "otherAbilities": [
             {
                 "name": "Pyromaniaks",
@@ -120,20 +120,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Spanners",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 2,
             "equipment": [
-                ""
+                "close combat weapon","big shoota"
+            ]
+        },
+        {
+            "unitType": "Burna Boyz",
+            "minQuantity": 4,
+            "maxQuantity": 8,
+            "equipment": [
+                "burna","cuttin’ flames"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 60
+        },
+        {
+            "count": [
+                1,4
+            ],
+            "points": 120
         }
     ],
     "additionalParameter": {}

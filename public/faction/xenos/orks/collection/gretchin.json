@@ -102,20 +102,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Runtherds",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "slugga","Runtherd tools"
+            ]
+        },
+        {
+            "unitType": "Gretchin",
+            "minQuantity": 10,
+            "maxQuantity": 20,
+            "equipment": [
+                "grot blasta","close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,10
             ],
-            "points": 90
+            "points": 40
+        },
+        {
+            "count": [
+                2,20
+            ],
+            "points": 80
         }
     ],
     "additionalParameter": {}

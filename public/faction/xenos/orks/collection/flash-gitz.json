@@ -48,10 +48,6 @@
             {
                 "name": "Ammo Runt:",
                 "description": "Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
-            },
-            {
-                "name": "Designer's Note:",
-                "description": "Place an Ammo Runt token next to the unit, removing it after this ability has been used."
             }
         ]
     },
@@ -74,20 +70,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Kaptin",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "snazzgun; choppa"
+            ]
+        },
+        {
+            "unitType": "Flash Gitz",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "snazzgun; choppa"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 80
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 160
         }
     ],
     "additionalParameter": {},

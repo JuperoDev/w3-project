@@ -79,10 +79,10 @@
     ],
     "abilities": {
         "core": [
-            "FACTION: Waaagh!"
+           
         ],
         "faction": [
-            " Waaagh!"
+            "Waaagh!"
         ],
         "otherAbilities": [
             {
@@ -113,20 +113,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Spanners",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 2,
             "equipment": [
-                ""
+                "big shoota","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Lootas",
+            "minQuantity": 4,
+            "maxQuantity": 8,
+            "equipment": [
+                "deffgun","close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 50
+        },
+        {
+            "count": [
+                2,8
+            ],
+            "points": 100
         }
     ],
     "additionalParameter": {}

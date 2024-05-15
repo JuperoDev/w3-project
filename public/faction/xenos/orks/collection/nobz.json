@@ -60,8 +60,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Ammo Runt:",
-                "description": "Once per battle for each ammo runt this unit has, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+                "name": "Da Boss’ Ladz",
+                "description": "While a WARBOSS model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
             }
         ]
     },
@@ -110,20 +110,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Boss Nob",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "slugga","big choppa"
+            ]
+        },
+        {
+            "unitType": "Nobz",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "slugga","big choppa"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 105
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 210
         }
     ],
     "additionalParameter": {},

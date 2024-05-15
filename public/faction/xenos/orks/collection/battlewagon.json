@@ -46,8 +46,8 @@
                 "blast"
             ],
             "range": 36,
-            "strength": 5,
-            "attacks": "d6",
+            "strength": 6,
+            "attacks": "d6+3",
             "ballistic-skills": 5,
             "armor-penetration": 0,
             "damage": 1,
@@ -57,7 +57,7 @@
             "name": "Kannon - shell",
             "modifiers": [],
             "range": 36,
-            "strength": 9,
+            "strength": 10,
             "attacks": 1,
             "ballistic-skills": 5,
             "armor-penetration": 2,
@@ -71,7 +71,7 @@
             ],
             "range": 24,
             "strength": 9,
-            "attacks": "D6+3",
+            "attacks": "D6",
             "ballistic-skills": 5,
             "armor-penetration": 2,
             "damage": 2,
@@ -94,10 +94,10 @@
         {
             "name": "Zzap gun",
             "modifiers": [
-                "devastating wounds"
+                "anti-vehicle 4+"
             ],
             "range": 36,
-            "strength": "2d6",
+            "strength": "d6+6",
             "attacks": 1,
             "ballistic-skills": 5,
             "armor-penetration": 3,
@@ -196,11 +196,11 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Battlewagon",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "tracks and wheels"
             ]
         }
     ],
@@ -209,7 +209,7 @@
             "count": [
                 1
             ],
-            "points": 90
+            "points": 160
         }
     ],
     "additionalParameter": {},

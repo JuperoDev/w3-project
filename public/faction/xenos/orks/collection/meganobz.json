@@ -62,7 +62,7 @@
         "otherAbilities": [
             {
                 "name": "Krumpin’ Time",
-                "description": "During the battle round in which you call a Waaagh!, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+                "description": "During the battle round in which you call a Waaagh!, models in this unit have the Feel No Pain 4+ ability."
             }
         ]
     },
@@ -111,21 +111,40 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
-            "minQuantity": 1,
-            "maxQuantity": 1,
+            "unitType": "Meganobz",
+            "minQuantity": 2,
+            "maxQuantity": 6,
             "equipment": [
-                ""
+                "kustom shoota","power klaw"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                2
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                3
             ],
             "points": 90
+        },
+        {
+            "count": [
+                5
+            ],
+            "points": 150
+        },
+        {
+            "count": [
+                6
+            ],
+            "points": 180
         }
+        
     ],
     "additionalParameter": {}
 }

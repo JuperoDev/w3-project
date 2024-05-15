@@ -133,20 +133,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Boss Nob on Warbike",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "twin dakkagun","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Warbikers",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "twin dakkagun","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 90
+            "points": 70
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 70
         }
     ],
     "additionalParameter": {}

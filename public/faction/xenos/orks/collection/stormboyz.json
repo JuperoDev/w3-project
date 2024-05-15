@@ -61,7 +61,7 @@
         "otherAbilities": [
             {
                 "name": "Full Throttle:",
-                "description": "This unit is eligible to declare a charge in a turn in which it Advanced . If it does, before making that Charge move , roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound . You cannot use this ability during the battle round in which you call a Waaagh! ."
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back."
             }
         ]
     },
@@ -93,20 +93,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Boss Nob",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "slugga; choppa"
+            ]
+        },
+        {
+            "unitType": "Stormboyz",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "slugga; choppa"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 65
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 130
         }
     ],
     "additionalParameter": {}

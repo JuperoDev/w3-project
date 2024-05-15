@@ -1,0 +1,88 @@
+{
+    "detachmentName": "Fellhammer Siege-Host",
+    "detachmentRule": [
+        {
+            "name": "Iron Fortitude",
+            "lore": "Implacable and resilient, the Heretic Astartes of the Fellhammer Siege-Host are known for their determination and unyielding defense. Their warriors withstand the fiercest of assaults, standing firm against the enemy’s most determined efforts.",
+            "description": "<p>Each time a ranged attack targets a HERETIC ASTARTES unit from your army, if that attack’s Strength characteristic is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.</p>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Bastion Plate",
+            "lore": "Despite the pits and dents that mar its surface, this suit of relic armor is as resilient as the walls of any grand fortress.",
+            "description": "CHAOS LORD model only (excluding JUMP PACK models). Once per battle round, when a saving throw is failed for the bearer’s unit, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+            "name": "Warp Tracer",
+            "lore": "Crafted by the feared Warpsmith Kraalax, these shells leave a trail of warped reality, allowing a warp trace to be made through the strongest systems of Heretic Astartes.",
+            "description": "HERETIC ASTARTES model only. In your Shooting phase, select one enemy unit hit by one or more of the bearer’s attacks. Until the end of the turn, those enemy units cannot have the Benefit of Cover."
+        },
+        {
+            "name": "Ironbound Enmity",
+            "lore": "A reflection of his ironclad determination and pitiless hatred, the Heretic Astartes' wrath will not be abated by any fear or retreat from ironclad and rampant foes.",
+            "description": "HERETIC ASTARTES model only. Each time the bearer makes an attack while within range of an objective marker, add 1 to the Wound roll."
+        },
+        {
+            "name": "Iron Artifice",
+            "lore": "Forged by a Hellforge and wielded by a veteran of countless battles, the bearer’s weapons are particularly suited to breaching the toughest armor.",
+            "description": "HERETIC ASTARTES INFANTRY model only. The bearer’s weapons have the [ANTI-INFANTRY 4+] and [ANTI-FORTIFICATION 4+] abilities."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Persistent Assailants",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Fellhammer Siege-Host warriors press the attack with relentless determination, moving forward and firing continuously, until the enemy is utterly obliterated.",
+            "when": "Your Shooting phase.",
+            "target": "One HERETIC ASTARTES unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack with a Rapid Fire or Pistol weapon, you can re-roll the Hit roll.",
+            "cp": 1
+        },
+        {
+            "name": "Brutal Attrition",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "Fellhammer warriors isolate and eliminate the enemy’s hardiest units, grinding them down through sheer endurance and firepower.",
+            "when": "Fight phase.",
+            "target": "One HERETIC ASTARTES unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is below its Starting Strength, improve the Armour Penetration characteristic of that attack by 1 and add 1 to the Damage characteristic of that attack.",
+            "cp": 1
+        },
+        {
+            "name": "Pitiless Cannonade",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "These Heretic Astartes bombard their enemies with a relentless barrage, pulverizing defenses and shredding bodies.",
+            "when": "Your Shooting phase.",
+            "target": "One HERETIC ASTARTES unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack with a Heavy weapon, you can re-roll the Hit roll. If that attack targets a unit within half range, you can re-roll the Wound roll as well.",
+            "cp": 1
+        },
+        {
+            "name": "Point-Blank Destruction",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "In close quarters, these warriors unleash devastating volleys of point-blank firepower, tearing their foes to shreds.",
+            "when": "Your Shooting phase.",
+            "target": "One HERETIC ASTARTES unit from your army that is within Engagement Range of one or more enemy units.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack, you can re-roll the Hit roll.",
+            "cp": 1
+        },
+        {
+            "name": "Steadfast Determination",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "The unyielding nature of the Fellhammer Siege-Host is exemplified in their determination to hold their ground against all odds.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One HERETIC ASTARTES unit from your army.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack (to a minimum of 1).",
+            "cp": 1
+        },
+        {
+            "name": "Siegecraft",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Fellhammer Siege-Host warriors employ expert siegecraft tactics, coordinating their fire to devastating effect against fortified positions.",
+            "when": "Your Shooting phase.",
+            "target": "One HERETIC ASTARTES unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1.",
+            "cp": 1
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "detachmentName": "Chaos Cult",
+    "detachmentRule": [
+        {
+            "name": "Desperate Devotion",
+            "lore": "Utterly dedicated to the worship and dark rituals of the Ruinous Powers, these cultists throw themselves into battle with reckless abandon, driven by the hope of earning their dark gods' favor.",
+            "description": "<p>Each time a DAMNED unit from your army makes an attack, re-roll a Wound roll of 1.<br>Each time a model in a DAMNED unit from your army would lose a wound as a result of a mortal wound, roll one D6: on a 5+, that wound is not lost.</p>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Cultist's Brand",
+            "lore": "The masters of heretic cults are given to branding their underlings with arcane sigils of command.",
+            "description": "DARK APOSTLE or DAMNED model only. If every other model in the bearer’s unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for the bearer’s unit."
+        },
+        {
+            "name": "Amulet of Tainted Vigour",
+            "lore": "Continuing the noisome energy of Human sacrifices, this icon grants new life to the fallen.",
+            "description": "DARK APOSTLE model only. In your Command phase, you can return up to D3 destroyed DAMNED models (excluding CHARACTER models) to the bearer’s unit."
+        },
+        {
+            "name": "Incendiary Goad",
+            "lore": "The bearer of this balefire-wreathed implement may use its burning wrath to incite their followers to acts of unholy aggression.",
+            "description": "DARK APOSTLE or DAMNED model only. While the bearer is within range of an objective marker, melee weapons equipped by DAMNED models in the bearer’s unit have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+            "name": "Warped Foresight",
+            "lore": "The priesthood of the Chaos pantheon use their sorcerous gifts to reveal the future and position their followers accordingly.",
+            "description": "DARK APOSTLE or DAMNED model only. The bearer has the Scouts 6\" ability."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Chosen for Glory",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Within the resonant ranks of a heretic cult, only a few are marked for greatness.",
+            "when": "Your Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One DAMNED unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll. If your unit contains a LEGIONARIES model, you can re-roll the Leadership tests for your unit as well.",
+            "cp": 1
+        },
+        {
+            "name": "Selfless Demise",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "The zealous devotees of the Dark Gods are destined to die in His service. This stratagem ensures their ultimate demise has purpose.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One DAMNED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed by an attack made by an enemy model, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+            "cp": 1
+        },
+        {
+            "name": "Infernal Sacrifice",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "Those in thrall to the Dark Gods will gladly sacrifice their lives to draw the eyes of their darkling patrons.",
+            "when": "Fight phase.",
+            "target": "One DAMNED unit from your army that has not been selected to fight this phase.",
+            "effect": "Your unit can make a Desperate Pact. If it does, your unit suffers D3 mortal wounds. In addition, until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is below Half-strength, you can re-roll the Hit roll and improve the Strength characteristic of those weapons by 1.",
+            "cp": 1
+        },
+        {
+            "name": "Crazed Focus",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Driven to mad fanaticism by their faith, these heretic cultists unleash a storm of ranged attacks on the foe.",
+            "when": "Your Shooting phase.",
+            "target": "One DAMNED unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack with a ranged weapon, add 1 to the Hit roll.",
+            "cp": 1
+        },
+        {
+            "name": "Reckless Haste",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Convulsed by a drive to shed blood, these fanatical cultists throw themselves into the melee.",
+            "when": "Your Charge phase.",
+            "target": "One DAMNED unit from your army.",
+            "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+            "cp": 1
+        },
+        {
+            "name": "Mortal Thrills",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Disciples of the Chaos Gods think nothing of sacrificing their comrades to bring ruination to the enemy.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One DAMNED unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1 and add 1 to the Damage characteristic of that attack.",
+            "cp": 1
+        }
+    ]
+}

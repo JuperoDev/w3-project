@@ -1,0 +1,88 @@
+{
+    "detachmentName": "Veterans of the Long War",
+    "detachmentRule": [
+        {
+            "name": "Focus of Hatred",
+            "lore": "The bodies of the Chaos Space Marines are riddled with corruption and malice, harboring within them a hatred for their enemies. This seething vengeance is what they unleash against all who oppose them, turning their rage into an unrelenting assault. These warriors rise against their foes with a fury that overwhelms, ensuring their victims meet their last foes head-on.",
+            "description": "<p>At the start of your Command phase, select one unit from your opponent’s army and record its name. Until the start of your next Command phase, each time a <strong>HERETIC ASTARTES</strong> model from your army (excluding <strong>DAMNED</strong> models) makes an attack that targets your focus of hatred, you can re-roll the Hit roll.</p>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Warmaster's Gift",
+            "lore": "This warrior bears a daemonic weapon of great power, gifted unto them by the Despoiler himself.",
+            "description": "CHAOS LORD model only. Each time the bearer makes an attack that targets your focus of hatred, an unmodified successful Wound roll of 5+ scores a Critical Wound."
+        },
+        {
+            "name": "Eager for Vengeance",
+            "lore": "The desire for vengeance and bloodshed has festered within this warrior’s heart for millennia. The opportunity to unleash it upon the foe is eagerly embraced.",
+            "description": "HERETIC ASTARTES model only (excluding DAMNED models). The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back. While the bearer’s unit is within Engagement Range of that target and makes an attack that targets your focus of hatred, add 1 to the Hit roll, and each time you select your focus of hatred as a target of that unit’s charge, add 1 to the Charge roll."
+        },
+        {
+            "name": "Eye of Abaddon",
+            "lore": "The Warmaster observes all. He bestows his favour only upon those who slaughter his most hated enemies.",
+            "description": "HERETIC ASTARTES model only (excluding DAMNED models). While the bearer is on the battlefield, each time your focus of hatred is destroyed, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+            "name": "Mark of Legend",
+            "lore": "This warrior has earned the patronage of a powerful daemonic entity and been rewarded with unholy powers.",
+            "description": "HERETIC ASTARTES model only (excluding DAMNED models). Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for the bearer."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Endless Ire",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "No amount of bloodshed can truly satisfy this bitter champion’s desire for vengeance.",
+            "when": "Fight phase, just after your focus of hatred is destroyed.",
+            "target": "One HERETIC ASTARTES CHARACTER unit from your army (excluding DAMNED units).",
+            "effect": "Select one enemy unit within 12\" of and visible to your unit. Until the end of your next Command phase, that enemy unit is considered to be your focus of hatred.",
+            "cp": 2
+        },
+        {
+            "name": "Contemptuous Disregard",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Such embittered warriors as these shrug off hails of enemy fire with apparent disdain.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "cp": 1
+        },
+        {
+            "name": "Bringers of Despair",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "Fuelled by contempt, these ancient warriors are a relentless force whose presence exudes a horrifying sense of impending doom.",
+            "when": "Start of the Fight phase.",
+            "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that is within Engagement Range of your focus of hatred.",
+            "effect": "Until the end of the phase, your unit has the Fights First ability.",
+            "cp": 2
+        },
+        {
+            "name": "Black Crusade",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "The Warmaster’s Black Crusades grind ever onwards against the Imperium.",
+            "when": "Movement phase.",
+            "target": "One HERETIC ASTARTES INFANTRY unit or HERETIC ASTARTES MOUNTED unit from your army (excluding DAMNED units).",
+            "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced. In addition, add 2\" to the Move characteristic of your unit and, until the end of the turn, add 2 to Advance rolls made for your unit.",
+            "cp": 1
+        },
+        {
+            "name": "Let the Galaxy Burn",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "No barricade or fortification is proof against the wrathful fire of the Heretic Astartes.",
+            "when": "Your Shooting phase.",
+            "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack with a flame or melta weapon, you can re-roll the Wound roll and any invulnerable saving throws made against that attack are taken with a -1 penalty.",
+            "cp": 2
+        },
+        {
+            "name": "Millennia of Experience",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "Thousands of years of battle, bloodshed, and conquest have made these warriors living legends whose martial prowess is unmatched.",
+            "when": "Movement phase.",
+            "target": "One HERETIC ASTARTES INFANTRY or HERETIC ASTARTES MOUNTED unit from your army (excluding DAMNED units).",
+            "effect": "Your unit can make a Normal move of up to 6\".",
+            "cp": 1
+        }
+    ]
+}

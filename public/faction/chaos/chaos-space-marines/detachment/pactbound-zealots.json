@@ -1,0 +1,88 @@
+{
+    "detachmentName": "Pactbound Zealots",
+    "detachmentRule": [
+        {
+            "name": "Marks of Chaos",
+            "lore": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one or more of the keywords listed below, you must select one of the keywords listed below for that unit to gain (note which units gain which keywords in this way on your Army Roster). Each time a unit with one of these keywords makes a Dark Pact, it gains the associated ability below until the end of the phase.",
+            "description": "<p><strong>Khorne:</strong> Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.<br><strong>Tzeentch:</strong> Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit.<br><strong>Nurgle:</strong> Each time a model in this unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Wound.<br><strong>Slaanesh:</strong> Each time a model in this unit makes an attack, you can re-roll the Hit roll.<br><strong>Chaos Undivided:</strong> Each time a model in this unit makes an attack, re-roll a Hit roll of 1.</p>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Talisman of Burning Blood",
+            "lore": "This crimson amulet radiates malice, granting its bearer but a sliver of Khorne’s boundless fury.",
+            "description": "HERETIC ASTARTES KHORNE model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. Each time the bearer makes a melee attack, you can re-roll the resulting Leadership test. Roll one D3: until the end of the phase, add the result to the Attacks and Strength characteristics of the bearer’s melee weapons."
+        },
+        {
+            "name": "Eye of Tzeentch",
+            "lore": "No secret is safe from Tzeentch’s searching gaze. To those who have his favour, priceless knowledge may be revealed.",
+            "description": "HERETIC ASTARTES TZEENTCH model only. Each time the bearer’s unit makes a Dark Pact and does not fail the resulting Leadership test, if the result of that test was 8 or more, you gain 1CP."
+        },
+        {
+            "name": "Orbs of Unlife",
+            "lore": "Nurgle’s malignance fortifies his chosen and bestows upon them the gift of terrible contagion.",
+            "description": "HERETIC ASTARTES NURGLE model only. At the end of the Fight phase, roll one D6 for every enemy unit within 6\" of the bearer, adding 1 to the result if the bearer’s unit made a Dark Pact that phase and did not fail the resulting Leadership test: on a 4+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+            "name": "Intoxicating Elixir",
+            "lore": "This intoxicating potion fortifies the imbiber and causes them to emit a toxic stench that drives foes to madness.",
+            "description": "HERETIC ASTARTES SLAANESH model only. The bearer has the Feel No Pain 5+ ability. Each time the bearer shoots or fights, if the bearer’s unit made a Dark Pact this phase and did not fail the resulting Leadership test, after the bearer has resolved those attacks, select one enemy unit that was hit by one or more of those attacks; that enemy unit must take a Battle-shock test."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Eye of the Gods",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "The gaze of the Dark Gods falls upon those who slaughter in their name.",
+            "when": "Fight phase, just after a HERETIC ASTARTES DAMNED, DAEMON or EPIC HERO unit (excluding CHAOS DAEMON units) destroys an enemy unit.",
+            "target": "One HERETIC ASTARTES CHARACTER model in that unit.",
+            "effect": "Until the end of the battle, the bearer has a 4+ invulnerable save. In addition, add 1 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons.",
+            "cp": 1
+        },
+        {
+            "name": "Eternal Hate",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "The Blood God’s ire burns ever unkindled.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if it is a KHORNE model: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+            "cp": 1
+        },
+        {
+            "name": "Profane Zeal",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "These Heretic Astartes serve at the service of the Dark Gods through undying violence.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One HERETIC ASTARTES CHAOS UNDIVIDED unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.",
+            "cp": 1
+        },
+        {
+            "name": "Skinshift",
+            "subindex": "Epic Deed Stratagem",
+            "lore": "With the Dark Gods and the powers of the warp on their side, Heretic Astartes can cheat death altogether.",
+            "when": "Your Command phase.",
+            "target": "One HERETIC ASTARTES unit from your army.",
+            "effect": "One model in your unit regains up to 3 lost wounds. In addition, if your unit is a TZEENTCH unit below its Starting Strength, one destroyed model (excluding CHARACTER models) is returned to your unit with its full wounds remaining.",
+            "cp": 1
+        },
+        {
+            "name": "Torpefying Refrain",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "A hauntingly sorrowful tune fills the air, sapping the will of all who hear it.",
+            "when": "Your opponent’s Movement phase.",
+            "target": "One HERETIC ASTARTES unit from your army.",
+            "effect": "Until the end of the phase, each time an enemy unit starts or ends any kind of move within 6\" of your unit, roll one D6: on a 4+, subtract 2 from the Move characteristic of that enemy unit until the end of the turn, and if that enemy unit is a VEHICLE or MONSTER, halve its Move characteristic instead of subtracting 2.",
+            "cp": 1
+        },
+        {
+            "name": "Festering Miasma",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "A noxious smog of vile toxins and foul vapors clouds the battlefield, rendering it all but impossible for the enemy to see.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One HERETIC ASTARTES NURGLE unit from your army.",
+            "effect": "Until the end of the phase, subtract 1 from the Ballistic Skill characteristic of ranged weapons that target your unit.",
+            "cp": 1
+        }
+    ]
+}

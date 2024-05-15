@@ -1,0 +1,88 @@
+{
+    "detachmentName": "Renegade Raiders",
+    "detachmentRule": [
+        {
+            "name": "Raiders and Reavers",
+            "lore": "Some Heretic Astartes warbands are known for their swift, brutal assaults. These warriors strike from the shadows, employing guerrilla tactics and hit-and-run strategies to outmaneuver their enemies. With a focus on mobility and surprise, they can overwhelm even the most prepared foes.",
+            "description": "<p>Ranged weapons equipped by HERETIC ASTARTES models from your army have the [ASSAULT] and [PISTOL] abilities. In addition, each time a model in your army makes an attack that targets an enemy unit within half range, improve the Armour Penetration characteristic of that attack by 1.</p>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Despot's Claim",
+            "lore": "This champion is a conqueror of worlds and will not rest until they have claimed their prize.",
+            "description": "HERETIC ASTARTES model only. At the start of your Command phase, if the bearer is on the battlefield, roll one D6: adding 1 to the result if the bearer is wholly within 12\" of your opponent’s deployment zone: on a 5+, you gain 1CP."
+        },
+        {
+            "name": "Dread Reaver",
+            "lore": "A crazed and violent fighter of great renown, this champion of Chaos is pitiless in the pursuit of plunder and infamy.",
+            "description": "HERETIC ASTARTES model only. Each time the bearer makes a melee attack, if the bearer is wholly within 12\" of your opponent’s deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+            "name": "Mark of the Hound",
+            "lore": "This unit of warriors act as their master’s eyes and ears, seeking out targets of opportunity.",
+            "description": "HERETIC ASTARTES model only. Models in the bearer’s unit have the [SCOUT 6\"] ability."
+        },
+        {
+            "name": "Tyrant's Lash",
+            "lore": "Pain provides excellent motivation. The crack of this tyrant’s whip spurs his bond, driving the hesitant forwards with a vigour borne of anguish.",
+            "description": "HERETIC ASTARTES model only. You can re-roll Advance rolls made for the bearer’s unit, and the bearer’s unit is eligible to shoot in a turn in which it Fell Back."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Unfailingly Obdurate",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Such is their determination to claim what they see as theirs that even walls of steel will not slow them down.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "cp": 1
+        },
+        {
+            "name": "Scour and Seize",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "The plunder is there to be claimed, the fount just waiting to be tapped.",
+            "when": "Fight phase.",
+            "target": "One HERETIC ASTARTES unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, that attack has the [PRECISION] ability.",
+            "cp": 1
+        },
+        {
+            "name": "Opportunistic Raiders",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Heretic Astartes strike when the enemy is weakest, moving with uncanny speed and discipline to be in a position to maximize the damage they can inflict.",
+            "when": "End of the Fight phase.",
+            "target": "One HERETIC ASTARTES unit from your army that is eligible to fight in the Fight phase.",
+            "effect": "Your unit can make a Normal move of up to 6\". If no enemy units are within Engagement Range of your unit, until the end of the turn, your unit can Advance or Fall Back. If your unit is within 3\" of an objective marker at the start or end of this move, it can take that objective from an opponent’s unit. A model that is equipped with a Transporter or that is within a Transporter cannot make this move if disembarked from a Transporter that turn.",
+            "cp": 1
+        },
+        {
+            "name": "Warpcharged Engines",
+            "subindex": "Wargear Stratagem",
+            "lore": "The energies of the warp can concentrate within certain Heretic Astartes machines, propelling it into the fray with speed and violence.",
+            "when": "Movement phase, just after a HERETIC ASTARTES VEHICLE model from your army makes a Normal, Advance or Fall Back move.",
+            "target": "One HERETIC ASTARTES VEHICLE model from your army that has not been selected to move this phase.",
+            "effect": "That model can make a second move. If it Advanced, it does not receive a -1 penalty for advancing. If it Fell Back, it can shoot without a -1 penalty for falling back. If it charges after moving, add 1 to its Charge roll.",
+            "cp": 1
+        },
+        {
+            "name": "Ruinous Raid",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Sweeping into the enemy, these renegade warriors press the attack with unholy fervour, leaving devastation in their wake.",
+            "when": "Your Shooting phase or Fight phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+            "target": "One HERETIC ASTARTES unit from your army that is within 6\" of that enemy unit.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
+            "cp": 1
+        },
+        {
+            "name": "Reavers' Haste",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "The prospect of fresh plunder drives these warriors into a frenzy, spurring them to greater acts of mayhem.",
+            "when": "Start of your Charge phase.",
+            "target": "One HERETIC ASTARTES INFANTRY or HERETIC ASTARTES MOUNTED unit from your army that is within 9\" of one or more enemy units.",
+            "effect": "Until the end of the phase, add 2 to Charge rolls made for your unit.",
+            "cp": 1
+        }
+    ]
+}

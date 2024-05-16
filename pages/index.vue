@@ -1,7 +1,7 @@
 <template>
   <div class=" bg-stone-100 p-2 h-screen">
     <div class=" bg-white border border-black-500">
-     <!-- <GeneralPurposePasswordProtection>     -->
+    <GeneralPurposePasswordProtection>   
 
    
     
@@ -27,7 +27,7 @@
     </div> 
     
     
-     <!-- </GeneralPurposePasswordProtection>    -->
+     </GeneralPurposePasswordProtection>  
     </div>
     <!-- <nuxt-link>
           <v-btn class="w-56 m-5">Army Builder</v-btn>
@@ -36,13 +36,7 @@
 </template>
 
 
-<script setup>
 
-import passwordProtection from '~/middleware/passwordProtection';
-
-// Specify middleware for protected routes
-const middleware = [passwordProtection];
-</script>
 
 <style scoped>
 h2 {

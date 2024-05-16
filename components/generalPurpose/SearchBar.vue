@@ -14,9 +14,10 @@
       <li
         v-for="(option, index) in filteredOptions"
         :key="index"
-        @click="navigate(option)"
+        @click="navigate(option.unit)"
       >
-        {{ option }}
+        <div>{{ option.unit }}</div>
+        <small>{{ option.group }}</small>
       </li>
       <li v-if="moreElementsMessage" class="more-elements">
         {{ moreElementsMessage }}
@@ -38,10 +39,12 @@ const moreElementsMessage = ref("");
 const options = [];
 let lastSearchQuery = ""; // To store the last search query
 
-// Flatten the nested object structure into a single array
+// Flatten the nested object structure into a single array with group information
 for (const category in searchResults) {
   for (const subCategory in searchResults[category]) {
-    options.push(...searchResults[category][subCategory]);
+    for (const unit of searchResults[category][subCategory]) {
+      options.push({ unit, group: `${category} > ${subCategory}` });
+    }
   }
 }
 
@@ -51,7 +54,7 @@ const filteredOptions = computed(() => {
   }
 
   const filtered = options.filter((option) =>
-    option.toLowerCase().includes(searchQuery.value.toLowerCase())
+    option.unit.toLowerCase().includes(searchQuery.value.toLowerCase())
   );
 
   if (filtered.length > 8) {
@@ -66,7 +69,6 @@ const filteredOptions = computed(() => {
 const onSearch = () => {
   isOpen.value = true;
   moreElementsMessage.value = "";
-
 };
 
 const onBlur = () => {
@@ -77,9 +79,6 @@ const onBlur = () => {
     isOpen.value = false;
   }, 200);
 };
-
-
-
 
 const navigate = (option) => {
   const currentRoute = router.currentRoute.value;

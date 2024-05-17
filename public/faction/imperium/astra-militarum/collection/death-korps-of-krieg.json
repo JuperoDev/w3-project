@@ -290,21 +290,34 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Angron – Epic Hero",
+            "unitType": "Death Korps Watchmaster",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 2,
             "equipment": [
-                "Samni’arius",
-                "Spinegrinder"
+                "laspistol; chainsword"
+            ]
+        },
+        {
+            "unitType": "Death Korps Troopers",
+            "minQuantity": 9,
+            "maxQuantity": 18,
+            "equipment": [
+                "lasgun","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,9
             ],
-            "points": 415
+            "points":65
+        },
+        {
+            "count": [
+                2,18
+            ],
+            "points":130
         }
     ]
 }

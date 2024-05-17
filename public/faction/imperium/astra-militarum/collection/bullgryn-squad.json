@@ -94,21 +94,35 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Angron – Epic Hero",
+            "unitType": "Bullgryn Bone ‘ead",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Samni’arius",
-                "Spinegrinder"
+                "grenadier gauntlet", "close combat weapon","slabshield"
+            ]
+        },
+        {
+            "unitType": "Bullgryns",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "grenadier gauntlet","close combat weapon", "slabshield"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 415
+            "points": 90
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 180
         }
+    
     ]
 }

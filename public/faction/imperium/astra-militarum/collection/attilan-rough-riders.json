@@ -127,21 +127,34 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Angron – Epic Hero",
+            "unitType": "Rough Rider Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Samni’arius",
-                "Spinegrinder"
+                "lasgun", "laspistol", "hunting lance","steed’s hooves"
+            ]
+        },
+        {
+            "unitType": "Rough Riders",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "lasgun", "laspistol", "hunting lance","steed’s hooves"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 415
+            "points": 60
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 60
         }
     ]
 }

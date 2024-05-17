@@ -276,21 +276,34 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Angron – Epic Hero",
+            "unitType": "Tempestor",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Samni’arius",
-                "Spinegrinder"
+                "hot-shot laspistol","chainsword"
+            ]
+        },
+        {
+            "unitType": "Tempestus Scions",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "hot-shot lasgun","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 415
+            "points": 50
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points":100
         }
     ]
 }

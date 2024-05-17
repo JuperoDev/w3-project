@@ -374,21 +374,60 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Angron – Epic Hero",
+            "unitType": "Sergeant",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 2,
             "equipment": [
-                "Samni’arius",
-                "Spinegrinder"
+                "laspistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Guardsmen",
+            "minQuantity": 7,
+            "maxQuantity": 18,
+            "equipment": [
+                "lasgun","close combat weapon"
+            ]
+        },
+        {
+            "unitType": " Heavy Weapons Team",
+            "minQuantity": 0,
+            "maxQuantity": 2,
+            "equipment": [
+                "heavy bolter", "laspistol","close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,9,0
             ],
-            "points": 415
+            "points": 60
+        },
+        {
+            "count": [
+                1,7,1
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                2,18,0
+            ],
+            "points": 120
+        },
+        {
+            "count": [
+                2,16,1
+            ],
+            "points": 120
+        },
+        {
+            "count": [
+                2,14,2
+            ],
+            "points": 120
         }
     ]
 }

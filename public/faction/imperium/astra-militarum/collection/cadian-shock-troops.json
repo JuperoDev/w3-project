@@ -231,21 +231,34 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Angron – Epic Hero",
+            "unitType": "Shock Trooper Sergeant",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 2,
             "equipment": [
-                "Samni’arius",
-                "Spinegrinder"
+                "laspistol","chainsword"
+            ]
+        },
+        {
+            "unitType": "Shock Troopers",
+            "minQuantity": 9,
+            "maxQuantity": 18,
+            "equipment": [
+                "lasgun","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,9
             ],
-            "points": 415
+            "points":60
+        },
+        {
+            "count": [
+                2,18
+            ],
+            "points":120
         }
     ]
 }

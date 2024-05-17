@@ -3,7 +3,7 @@
     <div class="nft">
       <div class="main flex flex-row">
         <img
-          class="tokenImage w-1/3 md:w-1/3 h-auto object-cover"
+          class="tokenImage mx-3 py-4 w-1/4 md:w-1/4 h-auto object-cover -mt-5"
           :src="imageUrl"
           :alt="armyName"
         />
@@ -41,7 +41,7 @@ const props = defineProps({
 <style scoped>
 .all-wrap {
   margin: 0;
-  color: #eee;
+  color: #2b2b2b;
   user-select: none;
 }
 
@@ -51,10 +51,10 @@ const props = defineProps({
   margin: 10px;
   background: linear-gradient(
     0deg,
-    rgba(40, 44, 52, 1) 0%,
-    rgba(101, 102, 106, 0.5) 100%
+    rgb(231, 231, 231) 0%,
+    rgba(232, 232, 232, 0.5) 100%
   );
-  box-shadow: 0 7px 20px 5px #00000088;
+  box-shadow: 0 2px 10px 0px #00000088;
   border-radius: 0.7rem;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
@@ -66,19 +66,19 @@ const props = defineProps({
 .nft hr {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #efefef78;
+  border-bottom: 2px solid #87878778;
   margin: 5px;
 }
 
 .description {
   margin: 0.5rem 0;
-  color: #cecdd0;
+  color: #373737;
 }
 
 .nft::before {
   position: absolute;
   content: "";
-  box-shadow: 0 0 100px 40px #ffffff08;
+  box-shadow: 0 0 100px 40px #eaeaea7e;
   top: -10%;
   left: -100%;
   transform: rotate(-45deg);
@@ -88,7 +88,7 @@ const props = defineProps({
 }
 
 .nft:hover::before {
-  filter: brightness(0.5);
+  filter: brightness(0.3);
   top: -100%;
   left: 200%;
 }

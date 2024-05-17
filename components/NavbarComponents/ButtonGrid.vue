@@ -1,14 +1,18 @@
 <template>
-    <div class= "py-5 sticky top-0 z-50  bg-zinc-900 navigation-bar">
-    <div class=" flex flex-row">
+    <div class= "py-5 sticky top-0 z-50  bg-zinc-900 navigation-bar ">
+    <div class=" flex items-center justify-center">
        
         <GeneralPurposeSearchBar class="ml-2"/>
     <GeneralPurposeFavDialog class="mx-2"/>
+    
          
         
         
     </div>
-    <GeneralPurposeBreadCrumbs/>
+    
+        <div class="sm:ml-2 md:ml-24">
+        <GeneralPurposeBreadCrumbs/>
+    </div>
     <!-- <GeneralPurposePopMenu/> -->
 </div>
 </template>

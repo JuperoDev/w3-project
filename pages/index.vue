@@ -1,9 +1,9 @@
 
-import ArmyButton from '~/components/generalPurpose/ArmyButton.vue';
+
 <template>
   <div class=" bg-stone-100 p-2 h-screen">
     <div class=" bg-white border border-black-500">
-    <GeneralPurposePasswordProtection>   
+
 
    
     
@@ -30,7 +30,7 @@ import ArmyButton from '~/components/generalPurpose/ArmyButton.vue';
     </div> 
     
     
-     </GeneralPurposePasswordProtection>  
+    
     </div>
     <!-- <nuxt-link>
           <v-btn class="w-56 m-5">Army Builder</v-btn>

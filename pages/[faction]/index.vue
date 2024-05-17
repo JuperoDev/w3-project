@@ -1,9 +1,15 @@
 <template>
   <div>
+    
     <NavbarComponentsButtonGrid />
 
     <div v-if="factionData && factionData.armies">
-      <div v-for="army in factionData.armies" :key="army.name" class="flex items-center justify-center">
+      <div class="grid
+      grid-cols-1 md:grid-cols-2 gap-3"> 
+      <div v-for="army in factionData.armies" :key="army.name" class="
+      flex items-center justify-center">
+      <!--  -->
+      
         <nuxt-link :to="`/${faction}/${sanitizeArmyName(army.name)}`">
           <GeneralPurposeArmyButton
             :armyName="army.name"
@@ -11,7 +17,9 @@
             :imageUrl="army.imageUrl"
           />
         </nuxt-link>
+      
       </div>
+    </div>
     </div>
   </div>
 </template>

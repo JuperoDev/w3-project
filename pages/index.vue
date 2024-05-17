@@ -1,3 +1,5 @@
+
+import ArmyButton from '~/components/generalPurpose/ArmyButton.vue';
 <template>
   <div class=" bg-stone-100 p-2 h-screen">
     <div class=" bg-white border border-black-500">
@@ -21,6 +23,7 @@
       <div class=" flex items-center justify-center">
         
        <FactionFetch /> 
+      
       
       
 

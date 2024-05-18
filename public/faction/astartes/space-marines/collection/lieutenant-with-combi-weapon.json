@@ -82,11 +82,11 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Lieutenant with Combi-weapon",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "combi-weapon","paired combat blades"
             ]
         }
     ],
@@ -95,8 +95,16 @@
             "count": [
                 1
             ],
-            "points": 90
+            "points": 70
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {
+        "title": "Last Survivor",
+        "abilities": [
+            {
+                
+                "description": "This model cannot be selected as your Warlord."
+            }
+        ]
+    }
 }

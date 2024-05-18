@@ -210,20 +210,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Intercessor Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol; bolt rifle; close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Intercessors",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol; bolt rifle; close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 80
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 160
         }
     ],
     "additionalParameter": {}

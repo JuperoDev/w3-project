@@ -2,6 +2,7 @@
 
 <template>
   <div class=" bg-stone-100 p-2 h-screen">
+    <GeneralPurposePasswordProtection>
     <div class=" bg-white border border-black-500">
 
 
@@ -35,6 +36,7 @@
     <!-- <nuxt-link>
           <v-btn class="w-56 m-5">Army Builder</v-btn>
         </nuxt-link> -->
+      </GeneralPurposePasswordProtection>
   </div>
 </template>
 

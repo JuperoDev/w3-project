@@ -104,6 +104,7 @@
     </div>
     <div class="invulnerable-save text-slate-900 col-span-3 italic mt-3 ml-5" v-if="attribute.invulnerableSave">
       <p>Invulnerable save: {{ attribute.invulnerableSave }}+</p>
+    <small><p>{{ attribute.invulnerableSaveMod }}</p></small>
     </div>
     <!-- end boxes  -->
 </div>

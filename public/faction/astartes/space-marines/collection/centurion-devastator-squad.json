@@ -131,20 +131,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Devastator Centurion Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "grav-cannon", "Centurion bolters","Centurion fists"
+            ]
+        },
+        {
+            "unitType": "Devastator Centurions",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "grav-cannon", "Centurion bolters","Centurion fists"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 90
+            "points":185
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 370
         }
     ],
     "additionalParameter": {}

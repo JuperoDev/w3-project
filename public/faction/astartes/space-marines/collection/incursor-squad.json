@@ -96,20 +96,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Incursor Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol", "occulus bolt carbine","paired combat blades"
+            ]
+        },
+        {
+            "unitType": "Incursors",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol", "occulus bolt carbine","paired combat blades"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 80
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 160
         }
     ],
     "additionalParameter": {}

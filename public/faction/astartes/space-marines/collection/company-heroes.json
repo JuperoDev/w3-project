@@ -119,20 +119,44 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Ancient",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol", "bolt rifle","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Company Champion",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol","master-crafted power weapon"
+            ]
+        },
+        {
+            "unitType": "Company Veterans",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "master-crafted heavy bolter","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Company Veterans",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "master-crafted bolt rifle","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,1,1,1
             ],
-            "points": 90
+            "points": 95
         }
     ],
     "additionalParameter": {}

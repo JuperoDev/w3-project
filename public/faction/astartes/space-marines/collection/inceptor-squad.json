@@ -108,20 +108,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Inceptor Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "assault bolters","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Inceptors",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "assault bolters","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 90
+            "points": 130
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 260
         }
     ],
     "additionalParameter": {}

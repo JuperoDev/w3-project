@@ -410,20 +410,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Devastator Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol","boltgun", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Devastator Marines",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol","boltgun", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 120
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 200
         }
     ],
     "additionalParameter": {}

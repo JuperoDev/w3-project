@@ -127,20 +127,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Hellblaster Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "bolt pistol","plasma incinerator","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Hellblasters",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol","plasma incinerator","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 115
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 230
         }
     ],
     "additionalParameter": {}

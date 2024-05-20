@@ -112,20 +112,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Assault Centurion Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "twin flamer", "siege drills","Centurion bolters"
+            ]
+        },
+        {
+            "unitType": "Assault Centurions",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "twin flamer", "siege drills","Centurion bolters"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 90
+            "points":150
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 300
         }
     ],
     "additionalParameter": {}

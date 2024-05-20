@@ -115,20 +115,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Bladeguard Veteran Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "heavy bolt pistol","master-crafted power weapon"
+            ]
+        },
+        {
+            "unitType": "Bladeguard Veterans",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "heavy bolt pistol","master-crafted power weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
             "points": 90
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 180
         }
     ],
     "additionalParameter": {}

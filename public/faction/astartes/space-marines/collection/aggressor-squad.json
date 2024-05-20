@@ -100,21 +100,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Brother-Captain Stern – EPIC HERO",
+            "unitType": "Aggressor Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "storm bolter",
-                "Nemesis force sword"
+                "flamestorm gauntlets","twin power fist"
+            ]
+        },
+        {
+            "unitType": "Aggressors",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "flamestorm gauntlets","twin power fist"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2
             ],
-            "points": 90
+            "points": 120
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 240
         }
     ],
     "additionalParameter": {}

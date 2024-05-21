@@ -172,21 +172,42 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \ufffd EPIC HERO",
+            "unitType": "Cyber-mastiff",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "mechanical bite"
+            ]
+        },
+        {
+            "unitType": "Proctor-Vigilant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "Arbites combat shotgun", "Arbites shotpistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Vigilants",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "Arbites combat shotgun", "Arbites shotpistol","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                0,1,9
             ],
-            "points": 85
+            "points": 105
+        },
+        {
+            "count": [
+                1,1,9
+            ],
+            "points": 105
         }
     ],
     "wargearAbilities": [

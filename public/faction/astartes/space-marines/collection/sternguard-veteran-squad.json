@@ -178,20 +178,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Sternguard Veteran Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "Sternguard bolt pistol", "Sternguard bolt rifle","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Sternguard Veterans",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "Sternguard bolt pistol", "Sternguard bolt rifle","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
             "points": 90
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 180
         }
     ],
     "additionalParameter": {}

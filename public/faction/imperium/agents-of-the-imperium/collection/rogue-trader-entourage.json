@@ -35,7 +35,8 @@
             "invulnerableSave": 4
         }
     ],
-    "leader": [],
+    "leader": ["Imperial Navy Breachers",
+    "Voidsmen-at-arms"],
     "rangedWeapons": [
         {
             "name": "Dartmask",
@@ -146,21 +147,44 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \ufffd EPIC HERO",
+            "unitType": "Rogue Trader",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "household pistol","monomolecular cane-rapier"
+            ]
+        },
+        {
+            "unitType": "Rogue Trader Specialists",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "dartmask","Death Cult power blade."
+            ]
+        },
+        {
+            "unitType": "Rogue Trader Specialists",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "voltaic pistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Rogue Trader Specialists",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "laspistol","close combat weapon", "healing serum"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,1,1,1
             ],
-            "points": 85
+            "points": 105
         }
     ],
     "wargearAbilities": [

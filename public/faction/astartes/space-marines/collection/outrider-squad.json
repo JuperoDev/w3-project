@@ -142,20 +142,54 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Outrider Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "heavy bolt pistol", "twin bolt rifle","Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Outriders",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "heavy bolt pistol", "twin bolt rifle","Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Invader ATV",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "twin bolt rifle", "onslaught gatling cannon","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,2,0
             ],
-            "points": 90
+            "points": 80
+        },
+        {
+            "count": [
+                1,5,0
+            ],
+            "points": 160
+        },
+        {
+            "count": [
+                1,2,1
+            ],
+            "points": 150
+        },
+        {
+            "count": [
+                1,5,1
+            ],
+            "points": 230
         }
     ],
     "additionalParameter": {}

@@ -94,7 +94,10 @@
             }
         ]
     },
-    "wargear": [],
+    "wargear": [ {
+        "description": "For every 5 models in this unit, 1 Voidsman is equipped with: laspistol; Voidsman rotor cannon; close combat weapon.",
+        "items": []
+    }],
     "meleeWeapons": [
         {
             "name": "Close combat weapon",
@@ -118,21 +121,42 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \ufffd EPIC HERO",
+            "unitType": "Canid",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "vicious bite"
+            ]
+        },
+        {
+            "unitType": "Voidmaster",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "artificer shotgun","laspistol", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Voidsmen",
+            "minQuantity": 4,
+            "maxQuantity": 8,
+            "equipment": [
+                "lasgun", "laspistol", "close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                0,1,4
             ],
-            "points": 85
+            "points": 50
+        },
+        {
+            "count": [
+                1,1,8
+            ],
+            "points": 100
         }
     ]
 }

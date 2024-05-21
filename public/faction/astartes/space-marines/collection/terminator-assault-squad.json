@@ -81,20 +81,34 @@
     ],
     "unitComposition": [
         {
-            "unitType": "",
+            "unitType": "Assault Terminator Sergeant",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                ""
+                "thunder hammer","storm shield"
+            ]
+        },
+        {
+            "unitType": "Assault Terminators",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "thunder hammer","storm shield"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 90
+            "points": 185
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 370
         }
     ],
     "additionalParameter": {}

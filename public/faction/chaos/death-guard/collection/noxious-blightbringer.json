@@ -27,6 +27,7 @@
     "leader": [
         "Plague Marines"
     ],
+    "leaderInfo": "You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
     "rangedWeapons": [
         {
             "name": "Plasma pistol - standard",
@@ -103,7 +104,8 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "plasma pistol", "cursed plague bell"
+                "plasma pistol",
+                "cursed plague bell"
             ]
         }
     ]

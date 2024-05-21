@@ -8,11 +8,13 @@
             </li>
           </ul>
         </div>
+        <p><i><small>{{ leaderInfo }}</small></i></p>
     </div>
 </template>
 <script setup>
 const props = defineProps({
-  leader: Array
+  leader: Array,
+  leaderInfo: String
 });
 </script>
 <style >

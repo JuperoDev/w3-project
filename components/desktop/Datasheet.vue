@@ -54,7 +54,7 @@
 <DesktopComponentsTransport :transport="transport" v-if="transport"/>
       
 
-        <DesktopComponentsLeader :leader="leader" v-if="leader.length > 0" />
+        <DesktopComponentsLeader :leader="leader" :leaderInfo="leaderInfo" v-if="leader.length > 0" />
 
         <DesktopComponentsSupremeCommander v-if="supremeCommander" />
       </div>
@@ -84,8 +84,10 @@ const props = defineProps({
   rangedWeapons: Array,
   wargear: Array,
   leader: Array,
+  leaderInfo: String,
   supremeCommander: Boolean,
   transport: String,
+  
   equipment: {
     type: Array,
     default: () => [],

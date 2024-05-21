@@ -14,13 +14,14 @@
       </div>
 
     </ul>
-
+    <p><i><small>{{ leaderInfo }}</small></i></p>
 </div>
   </div>
 </template>
 
 <script setup>
 const props = defineProps({
-  leader: Array, Boolean
+  leader: Array, Boolean,
+  leaderInfo: String
 });
 </script>

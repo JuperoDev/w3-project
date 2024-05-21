@@ -18,6 +18,7 @@
         :attributes="attributes"
         :wargear="wargear"
         :leader="leader"
+        :leaderInfo="leaderInfo"
         :abilities="abilities"
         :supremeCommander="supremeCommander"
         :options="options"
@@ -163,7 +164,7 @@
           </v-expansion-panel-title>
           <v-expansion-panel-text>
            
-              <MobileLeader :leader="leader" />
+              <MobileLeader :leader="leader" :leaderInfo="leaderInfo" />
             
             
           </v-expansion-panel-text>
@@ -222,6 +223,7 @@ const attributes = ref([]);
 const parentUnit = ref("");
 const lore = ref("");
 const leader = ref([]);
+const leaderInfo = ref("");
 const rangedWeapons = ref(null);
 const meleeWeapons = ref([]);
 const additionalParameter = ref({});
@@ -263,6 +265,7 @@ onMounted(async () => {
     transport.value = unitData.transport;
     parentUnit.value = unitData.parentUnit;
     leader.value = unitData.leader;
+    leaderInfo.value=unitData.leaderInfo;
     rangedWeapons.value = unitData.rangedWeapons;
     meleeWeapons.value = unitData.meleeWeapons;
     additionalParameter.value = unitData.additionalParameter;
@@ -287,6 +290,6 @@ onMounted(async () => {
 // Set document title and meta description based on armyUnit
 onMounted(() => {
   document.title = `${armyUnit} Datasheet`;
-  // Set meta description
+  
 });
 </script>

@@ -222,24 +222,82 @@
             "damage": 1
         }
     ],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Jokaero and Daemonhost",
+        "abilities": [
+            {
+                
+                "description": "You can add a Jokaero for 10 points. You can add a Daemonhost for 10 points"
+            }
+        ]
+    },
     "unitComposition": [
+        
         {
-            "unitType": " Adrax Agatone \ufffd EPIC HERO",
+            "unitType": "Daemonhost",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "Unholy Gaze","warp grasp"
+            ]
+        },
+        {
+            "unitType": "Jokaero Weaponsmith",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "Jokaero weapons","Acolyte melee weapon"
+            ]
+        },
+        {
+            "unitType": "Gun Servitors",
+            "minQuantity": 0,
+            "maxQuantity": 2,
+            "equipment": [
+                "heavy bolter","Acolyte melee weapon"
+            ]
+        },
+        {
+            "unitType": "Mystics",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "Acolyte firearm","Acolyte melee weapon"
+            ]
+        },
+        {
+            "unitType": "Inquisitorial Acolytes",
+            "minQuantity": 4,
+            "maxQuantity": 10,
+            "equipment": [
+                "Acolyte firearm","Acolyte melee weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                0,0,0,0,4
             ],
-            "points": 85
+            "points": 50
+        },
+        {
+            "count": [
+                0,0,1,1,4
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                0,0,0,0,10
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                0,0,2,2,10
+            ],
+            "points": 140
         }
     ]
 }

@@ -81,21 +81,42 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \ufffd EPIC HERO",
+            "unitType": "Cyber-mastiff",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "mechanical bite"
+            ]
+        },
+        {
+            "unitType": "Proctor-Subductor",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "Arbites shotpistol","shock maul."
+            ]
+        },
+        {
+            "unitType": "Subductors",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "Arbites shotpistol","shock maul."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                0,1,9
             ],
-            "points": 85
+            "points": 110
+        },
+        {
+            "count": [
+                1,1,9
+            ],
+            "points": 110
         }
     ],
     "wargearAbilities": [

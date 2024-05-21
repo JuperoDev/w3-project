@@ -229,21 +229,36 @@
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": " Adrax Agatone \ufffd EPIC HERO",
+            "unitType": "Navis Sergeant-at-Arms",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Drakkis",
-                "Malleus Noctum"
+                "Navis las-volley", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Navis Armsmen",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Navis heavy shotgun", "close combat weapon","endurant shield"
+            ]
+        },
+        {
+            "unitType": "Navis Armsmen",
+            "minQuantity": 8,
+            "maxQuantity": 8,
+            "equipment": [
+                "Navis shotgun","close combat weapon"
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1
+                1,1,8
             ],
-            "points": 85
+            "points": 105
         }
     ],
     "wargearAbilities": [

@@ -37,56 +37,62 @@
         {
             "name": "Eye of the Gods",
             "subindex": "Epic Deed Stratagem",
-            "lore": "The gaze of the Dark Gods falls upon those who slaughter in their name.",
-            "when": "Fight phase, just after a HERETIC ASTARTES DAMNED, DAEMON or EPIC HERO unit (excluding CHAOS DAEMON units) destroys an enemy unit.",
-            "target": "One HERETIC ASTARTES CHARACTER model in that unit.",
-            "effect": "Until the end of the battle, the bearer has a 4+ invulnerable save. In addition, add 1 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons.",
-            "cp": 1
-        },
-        {
-            "name": "Eternal Hate",
-            "subindex": "Strategic Ploy Stratagem",
-            "lore": "The Blood God’s ire burns ever unkindled.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if it is a KHORNE model: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-            "cp": 1
-        },
-        {
-            "name": "Profane Zeal",
-            "subindex": "Battle Tactic Stratagem",
-            "lore": "These Heretic Astartes serve at the service of the Dark Gods through undying violence.",
-            "when": "Your Shooting phase or the Fight phase.",
-            "target": "One HERETIC ASTARTES CHAOS UNDIVIDED unit from your army.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.",
-            "cp": 1
+            "lore": "The eyes of the Dark Gods fall upon those who slaughter in their name.",
+            "when": "Fight phase, just after a Heretic Astartes Character unit from your army (excluding Damned, Daemon and Epic Hero units) destroys an enemy unit.",
+            "target": "One Heretic Astartes Character model in that unit.",
+            "effect": "Until the end of the battle, add 1 to the Move, Toughness and Wounds characteristics of that Character model, and add 1 to the Attacks, Strength and Damage characteristics of that Character model's melee weapons.",
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "Skinshift",
             "subindex": "Epic Deed Stratagem",
-            "lore": "With the Dark Gods and the powers of the warp on their side, Heretic Astartes can cheat death altogether.",
+            "lore": "Those who offer praise to the God of Change may gain the benefits of his mutagenic powers.",
             "when": "Your Command phase.",
-            "target": "One HERETIC ASTARTES unit from your army.",
-            "effect": "One model in your unit regains up to 3 lost wounds. In addition, if your unit is a TZEENTCH unit below its Starting Strength, one destroyed model (excluding CHARACTER models) is returned to your unit with its full wounds remaining.",
-            "cp": 1
+            "target": "One Heretic Astartes unit from your army.",
+            "effect": "One model in your unit regains up to 3 lost wounds. In addition, if your unit is a Tzeentch unit and below its Starting Strength, one destroyed model (excluding Character models) is returned to your unit with its full wounds remaining.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Eternal Hate",
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "The Blood God's thirst can never be slaked.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought in this phase, roll one D6, adding 1 to the result if it is a Khorne unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model's unit has finished making its attacks, and is then removed from play.",
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "Torpefying Refrain",
             "subindex": "Strategic Ploy Stratagem",
-            "lore": "A hauntingly sorrowful tune fills the air, sapping the will of all who hear it.",
-            "when": "Your opponent’s Movement phase.",
-            "target": "One HERETIC ASTARTES unit from your army.",
-            "effect": "Until the end of the phase, each time an enemy unit starts or ends any kind of move within 6\" of your unit, roll one D6: on a 4+, subtract 2 from the Move characteristic of that enemy unit until the end of the turn, and if that enemy unit is a VEHICLE or MONSTER, halve its Move characteristic instead of subtracting 2.",
-            "cp": 1
+            "lore": "As these warriors traverse the battlefield, an unnatural symphony of hypnotic music accompanies their every move, stupefying their enemies.",
+            "when": "Your Movement phase.",
+            "target": "One Heretic Astartes unit from your army.",
+            "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If your unit is a Slaanesh unit, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Profane Zeal",
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "Those Heretic Astartes sworn to the service of the Dark Gods display zeal through violence.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One Heretic Astartes Chaos Undivided unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.",
+            "cp": 1,
+            "color": "blue"
         },
         {
             "name": "Festering Miasma",
             "subindex": "Strategic Ploy Stratagem",
-            "lore": "A noxious smog of vile toxins and foul vapors clouds the battlefield, rendering it all but impossible for the enemy to see.",
-            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-            "target": "One HERETIC ASTARTES NURGLE unit from your army.",
-            "effect": "Until the end of the phase, subtract 1 from the Ballistic Skill characteristic of ranged weapons that target your unit.",
-            "cp": 1
+            "lore": "A roiling storm of warp energy obscures the Heretic Astartes, leaving their foes shooting at indistinct shadows.",
+            "when": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+            "effect": "Until the end of the phase, your unit has the Stealth ability. In addition, if your unit is a Nurgle unit, it can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+            "cp": 1,
+            "color": "red"
         }
     ]
 }

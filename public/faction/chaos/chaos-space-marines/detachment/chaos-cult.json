@@ -34,59 +34,68 @@
         }
     ],
     "stratagems": [
-        {
-            "name": "Chosen for Glory",
-            "subindex": "Battle Tactic Stratagem",
-            "lore": "Within the resonant ranks of a heretic cult, only a few are marked for greatness.",
-            "when": "Your Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One DAMNED unit from your army that has not been selected to shoot or fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll. If your unit contains a LEGIONARIES model, you can re-roll the Leadership tests for your unit as well.",
-            "cp": 1
-        },
-        {
-            "name": "Selfless Demise",
-            "subindex": "Strategic Ploy Stratagem",
-            "lore": "The zealous devotees of the Dark Gods are destined to die in His service. This stratagem ensures their ultimate demise has purpose.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One DAMNED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed by an attack made by an enemy model, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
-            "cp": 1
-        },
-        {
-            "name": "Infernal Sacrifice",
-            "subindex": "Epic Deed Stratagem",
-            "lore": "Those in thrall to the Dark Gods will gladly sacrifice their lives to draw the eyes of their darkling patrons.",
-            "when": "Fight phase.",
-            "target": "One DAMNED unit from your army that has not been selected to fight this phase.",
-            "effect": "Your unit can make a Desperate Pact. If it does, your unit suffers D3 mortal wounds. In addition, until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is below Half-strength, you can re-roll the Hit roll and improve the Strength characteristic of those weapons by 1.",
-            "cp": 1
-        },
-        {
-            "name": "Crazed Focus",
-            "subindex": "Battle Tactic Stratagem",
-            "lore": "Driven to mad fanaticism by their faith, these heretic cultists unleash a storm of ranged attacks on the foe.",
-            "when": "Your Shooting phase.",
-            "target": "One DAMNED unit from your army.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack with a ranged weapon, add 1 to the Hit roll.",
-            "cp": 1
-        },
-        {
-            "name": "Reckless Haste",
-            "subindex": "Strategic Ploy Stratagem",
-            "lore": "Convulsed by a drive to shed blood, these fanatical cultists throw themselves into the melee.",
-            "when": "Your Charge phase.",
-            "target": "One DAMNED unit from your army.",
-            "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
-            "cp": 1
-        },
-        {
-            "name": "Mortal Thrills",
-            "subindex": "Strategic Ploy Stratagem",
-            "lore": "Disciples of the Chaos Gods think nothing of sacrificing their comrades to bring ruination to the enemy.",
-            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-            "target": "One DAMNED unit from your army.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1 and add 1 to the Damage characteristic of that attack.",
-            "cp": 1
-        }
+        [
+            {
+                "name": "Chosen for Glory",
+                "subindex": "Battle Tactic Stratagem",
+                "lore": "Within the massed ranks of a heretic cult, only a few are marked for greatness.",
+                "when": "Your Shooting phase or the Fight phase.",
+                "target": "One DAMNED unit from your army that has not been selected to shoot or fight this phase.",
+                "effect": "Your unit can make a Desperate Pact. If it does, until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, you can re-roll the Wound roll as well.",
+                "cp": 1,
+                "color": "green"
+            },
+            {
+                "name": "Crazed Focus",
+                "subindex": "Battle Tactic Stratagem",
+                "lore": "Even in the grip of frothing madness, these heretics are murderous in the extreme.",
+                "when": "Your Shooting phase.",
+                "target": "One DAMNED unit from your army that has not been selected to shoot this phase.",
+                "effect": "Your unit can make a Desperate Pact. If it does, until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, improve the Strength characteristic of that attack by 1 as well.",
+                "cp": 1,
+                "color": "blue"
+            },
+            {
+                "name": "Selfless Demise",
+                "subindex": "Strategic Ploy Stratagem",
+                "lore": "The zealous followers of the Dark Gods are devoted to the last. As death comes they strike a desperate final blow in hope of reward.",
+                "when": "Fight phase, just after an enemy unit has selected its targets.",
+                "target": "One DAMNED unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+                "effect": "Until the attacking unit has resolved all of its attacks, each time a model in your unit is destroyed, roll one D6: on a 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved.",
+                "cp": 1,
+                "color": "green"
+            },
+            {
+                "name": "Reckless Haste",
+                "subindex": "Strategic Ploy Stratagem",
+                "lore": "Consumed by a desire to spill blood, these fanatical heretics hurl themselves towards the foe.",
+                "when": "Your Charge phase.",
+                "target": "One DAMNED unit from your army.",
+                "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
+                "cp": 1,
+                "color": "blue"
+            },
+            {
+                "name": "Infernal Sacrifice",
+                "subindex": "Battle Tactic Stratagem",
+                "lore": "Those in thrall to the Dark Gods will gladly sacrifice their lives to draw the eye of their darkling patrons.",
+                "when": "Fight phase.",
+                "target": "One DAMNED unit from your army that has not been selected to fight this phase.",
+                "effect": "Your unit can make a Desperate Pact. If it does, your unit suffers D3 mortal wounds (in addition to any suffered for failing the resulting Leadership test), and until the end of the phase, add 1 to the Attacks characteristic of the melee weapons equipped by models in your unit, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, until the end of the phase, improve the Strength characteristic of those weapons by 1 as well.",
+                "cp": 1,
+                "color": "green"
+            },
+            {
+                "name": "Mortal Thralls",
+                "subindex": "Strategic Ploy Stratagem",
+                "lore": "Disciples of the Chaos Gods think nothing of sacrificing their lesser thralls to protect those of greater worth.",
+                "when": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+                "target": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks, and one friendly DAMNED unit within 3\" of your unit and visible to both your unit and the attacking unit.",
+                "effect": "Until the end of the phase, while your DAMNED unit is on the battlefield, each time your opponent would make a Wound roll for an attack that targets your Heretic Astartes unit, if your DAMNED unit is visible to the attacking model and is an eligible target for that attack, roll D6; on a 4+, instead, your DAMNED unit suffers a number of mortal wounds equal to the Damage characteristic of that attack.",
+                "cp": 1,
+                "color": "red"
+            }
+        ]
+        
     ]
 }

@@ -12,25 +12,25 @@
             "name": "Night's Shroud",
             "lore": "This cloak is as black as a moonless night and radiates an all-enveloping aura of impenetrable darkness.",
             "description": "CHAOS LORD model only (excluding TERMINATOR models). Models in the bearer’s unit have the Stealth ability.",
-            "points":20
+            "points": 20
         },
         {
             "name": "Willbreaker",
             "lore": "This daemonic weapon assists the psyches of those it strikes, causing ripples of abject terror to grip their victim’s minds.",
             "description": "HERETIC ASTARTES model only. In the Fight phase, after the bearer has resolved its attacks, select one enemy unit within Engagement Range of the bearer’s unit. That unit must take a Battle-shock test.",
-            "points":10
+            "points": 10
         },
         {
             "name": "Warp-fuelled Thrusters",
             "lore": "Bound with warp energies, this Lord’s jump pack propels him to unnatural heights, allowing him to withdraw at a moment’s notice.",
             "description": "JUMP PACK CHAOS LORD model only. At the end of your opponent’s turn, if the bearer is not within Engagement Range of any enemy units, you can remove the bearer from the battlefield and place it into Strategic Reserves.",
-            "points":20
+            "points": 20
         },
         {
             "name": "Eater of Dread",
             "lore": "As trophies of terror spread through the ranks of the enemy, this champion draws power from the fear his very presence inspires.",
             "description": "HERETIC ASTARTES model only. At the start of your Command phase, if the bearer is on the battlefield, roll one D6, adding 1 to the result for each enemy unit within 12\" of the bearer: on a 5+, you gain 1CP.",
-            "points":15
+            "points": 15
         }
     ],
     "stratagems": [
@@ -40,17 +40,19 @@
             "lore": "Heretic Astartes strike with visceral precision upon those they consider weak, slaughtering the vulnerable with merciless efficiency.",
             "when": "Fight phase.",
             "target": "One HERETIC ASTARTES INFANTRY unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is below its Starting Strength, you can re-roll the Wound roll.",
-            "cp": 1
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle-Shocked and/or Below Half-strength, improve the Armour Penetration of that attack by 1 ",
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "Bloody Example",
             "subindex": "Epic Deed Stratagem",
-            "lore": "The slaying of an enemy leader sends a powerful message to their followers, driving home the futility of resistance.",
-            "when": "Fight phase, just after an enemy CHARACTER model is destroyed by an attack made by a HERETIC ASTARTES model from your army.",
-            "target": "The HERETIC ASTARTES unit from your army that contains the model that destroyed that enemy CHARACTER model.",
-            "effect": "Until the end of the battle, the models in your unit have the Battle-shock ability.",
-            "cp": 1
+            "lore": "The violent and bloody slaughter of the enemy's leadership hurls their followers into abject panic",
+            "when": "Fight phase, just after a Heretic Astartes unit from your army destroys a CHARACTER unit",
+            "target": "That HERETIC ASTARTES unit.",
+            "effect": "Each enemy unit within 12'' of and visible to your unit mus ttake a Battle-shock test",
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "Pitiless Hunters",
@@ -59,34 +61,38 @@
             "when": "Your Shooting phase.",
             "target": "One HERETIC ASTARTES INFANTRY unit from your army.",
             "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is below Half-strength, you can re-roll the Hit roll. Each time a model in your unit makes an attack that targets an enemy unit that is Battle-shocked, you can re-roll the Wound roll.",
-            "cp": 1
+            "cp": 1,
+            "color": "green"
         },
         {
             "name": "Relentless Terror",
-            "subindex": "Epic Deed Stratagem",
-            "lore": "The mere presence of these warriors is enough to send enemies fleeing in blind panic.",
-            "when": "Your opponent’s Command phase, just after an enemy unit within 12\" of one or more HERETIC ASTARTES units from your army has failed a Battle-shock test.",
-            "target": "That enemy unit.",
-            "effect": "Until the end of the turn, that enemy unit is not eligible to shoot or declare a charge, and it cannot be affected by the Insane Bravery Stratagem.",
-            "cp": 1
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "These warriors strike in screaming waves, each charge as brutal as the last.",
+            "when": "Your Movement phase, just after a Heretic Astartes Infantry unit from your army Falls Back.",
+            "target": "That Heretic Astartes Infantry unit.",
+            "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back.",
+            "cp": 1,
+            "color": "blue"
         },
         {
             "name": "Screaming Descent",
             "subindex": "Strategic Ploy Stratagem",
-            "lore": "These warriors plummet from the sky with a deafening screech, crashing into their enemies with a ferocity that scatters them in terror.",
-            "when": "Your Movement phase, when a HERETIC ASTARTES unit from your army is set up on the battlefield using the Deep Strike ability.",
-            "target": "That HERETIC ASTARTES unit.",
-            "effect": "Until the end of the turn, subtract 1 from the Leadership characteristic of models in enemy units while their unit is within 12\" of your unit. In addition, until the end of the turn, each time a model in your unit makes a melee attack, improve the Armour Penetration characteristic of that attack by 1.",
-            "cp": 1
+            "lore": "Jump pack borne warriors descend from the skies, terrifying screams emanating from their vox-grilles as they plummet towards their prey.",
+            "when": "Reinforcements step of your Movement phase, from the second battle round onwards.",
+            "target": "One Heretic Astartes Jump Pack unit from your army that is in Reserves.",
+            "effect": "Set your unit up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge. Then select one enemy Infantry or Mounted unit within 6\" of and visible to your unit: that unit must take a Battle-shock test.",
+            "cp": 1,
+            "color": "blue"
         },
         {
             "name": "Merciless Pursuit",
             "subindex": "Strategic Ploy Stratagem",
-            "lore": "These Heretic Astartes are tireless in their pursuit of the foe, never relenting until their quarry is utterly destroyed.",
-            "when": "Start of your Charge phase.",
-            "target": "One HERETIC ASTARTES unit from your army.",
-            "effect": "Until the end of the phase, add 2 to Charge rolls made for your unit.",
-            "cp": 1
+            "lore": "The Heretic Astartes allow none to flee the battle, pursuing their broken foes with relentless savagery.",
+            "when": "End of your opponent’s Movement phase.",
+            "target": "One Heretic Astartes Infantry unit from your army that is not within Engagement Range of one or more enemy units.",
+            "effect": "Select one enemy unit that Fell Back this turn and is within 6\" of your unit. Your unit can declare a charge as if it were your Charge phase. When doing so, you can only select that enemy unit as the target of that charge (and only if it is an eligible target). Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
+            "cp": 1,
+            "color": "red"
         }
     ]
 }

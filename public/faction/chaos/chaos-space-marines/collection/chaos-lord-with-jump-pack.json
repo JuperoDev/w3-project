@@ -5,26 +5,28 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Chaos Lords have spent countless spans of mortal lives leading their traitorous warriors, demanding nothing but utter ruthlessness from those they command. Each heretic aspires to this chilling mastery, knowing there is no prize beyond their Lord's grasp and no enemy they cannot slay with pre-eminent skill.",
+    "lore": "Chaos Lords go to war equipped with jump packs, favouring the mobility these devices provide. Leading packs of Raptors, these cruel hunters descend upon their victims with savage hunger before bringing to bear an array of accursed weapons as they relentlessly pursue their quarry across the battlefield.",
     "keywords": [
         "infantry",
         "character",
+        "jump pack",
+        "fly",
         "grenades",
         "chaos",
         "chaos lord"
     ],
     "attributes": [
         {
-            "movement": 6,
+            "movement": 12,
             "toughness": 4,
             "save": 3,
             "wounds": 5,
             "leadership": 6,
-            "objetiveControl": 1,
+            "objectiveControl": 1,
             "invulnerableSave": 4
         }
     ],
-    "leader": ["Chosen","Legionaries"],
+    "leader": ["Raptors"],
     "rangedWeapons": [
         {
             "name": "Bolt pistol",
@@ -69,6 +71,7 @@
     ],
     "abilities": {
         "core": [
+            "Deep Strike",
             "Leader"
         ],
         "faction": [
@@ -76,32 +79,33 @@
         ],
         "otherAbilities": [
             {
-                "name": "Lord of Chaos:",
-                "description": "Once per battle round , one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+                "name": "Lord of Chaos",
+                "description": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if a different unit from your army has already been targeted with that Stratagem this phase."
             },
             {
-                "name": "Chance for Glory:",
-                "description": "Once per battle, at the start of the Fight phase , this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1."
+                "name": "Cruel Hunter",
+                "description": "While this model is leading a unit, each time that unit Piles In or Consolidates, each model in that unit can move up to 6\" instead of up to 3\"."
             }
         ]
     },
     "wargear": [
         {
-            "description": "This model's daemon hammer can be replaced with one of the following",
+            "description": "This model's bolt pistol can be replaced with one of the following:",
             "items": [
-                "1 accursed weapon",
-                "1 Astartes chainsword",
-                "1 power fist"
+                "1 plasma pistol"
             ]
         },
         {
-            "description": "This model's plasma pistol can be replaced with one of the following",
+            "description": "This model's accursed weapon can be replaced with one of the following:",
             "items": [
-                "1 bolt pistol",
-                "1 accursed weapon",
-                "1 Astartes chainsword",
-                "1 daemon hammer",
-                "1 power fist"
+                "1 power fist",
+                "1 twin lightning claws"
+            ]
+        },
+        {
+            "description": "This model's bolt pistol and accursed weapon can be replaced with the following:",
+            "items": [
+                "1 twin lightning claws"
             ]
         }
     ],
@@ -116,26 +120,6 @@
             "damage": 1
         },
         {
-            "name": "Astartes chainsword",
-            "modifiers": [],
-            "attacks": 7,
-            "weapons-skills": 2,
-            "strength": 4,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Daemon hammer",
-            "modifiers": [
-                "devastating wounds"
-            ],
-            "attacks": 5,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 2,
-            "damage": 2
-        },
-        {
             "name": "Power fist",
             "modifiers": [],
             "attacks": 5,
@@ -143,25 +127,30 @@
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
+        },
+        {
+            "name": "Twin lightning claws",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
         }
     ],
     "unitComposition": [
         {
-            "unitType": "Chaos Lord",
+            "unitType": "Chaos Lord with Jump Pack",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "plasma pistol","daemon hammer."
+                "bolt pistol",
+                "accursed weapon"
             ]
         }
     ],
-    "options": [
-        {
-            "count": [
-                1
-            ],
-            "points": 90
-        }
-    ],
+    "options": [],
     "additionalParameter": {}
 }

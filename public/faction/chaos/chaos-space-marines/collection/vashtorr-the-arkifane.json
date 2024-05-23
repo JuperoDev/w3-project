@@ -21,7 +21,7 @@
     "attributes": [
         {
             "movement": 12,
-            "toughness": 9,
+            "toughness": 10,
             "save": 2,
             "wounds": 14,
             "leadership": 6,
@@ -34,7 +34,7 @@
         {
             "name": "Vashtorr's claw",
             "modifiers": [
-                "torrent"
+                "torrent","anti-vehicle 4+"
             ],
             "range": 12,
             "strength": 5,
@@ -59,8 +59,8 @@
                 "description": "While a friendly DAEMON VEHICLE unit is within 6\" of this model, add 1 to the Strength characteristic of weapons equipped by models in that unit."
             },
             {
-                "name": "Agonise Machine Spirits:",
-                "description": "At the end of your Movement phase , select one enemy VEHICLE unit within 18\" of and visible to this model. Until the start of your next Movement phase, halve the Move characteristic of models in that unit and subtract 1 from the Attacks characteristic of melee weapons equipped by models in that unit."
+                "name": "Reorder Reality",
+                "description": "Each time an enemy unit within 18'' of this model targets this model, until the end of the phase, that enemy unit's ranged weapons have the [HAZARDOUS] ability"
             }
         ]
     },
@@ -71,8 +71,8 @@
             "modifiers": ["anti-vehicle 4+","devastating wounds"],
             "attacks": 6,
             "weapons-skills": 2,
-            "strength": 9,
-            "armor-penetration": 1,
+            "strength": 14,
+            "armor-penetration": 2,
             "damage": 3,
             "singleChoice": true
         },
@@ -81,7 +81,7 @@
             "modifiers": ["anti-vehicle 4+"],
             "attacks": 14,
             "weapons-skills": 2,
-            "strength": 7,
+            "strength": 8,
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": true

@@ -1,211 +1,92 @@
 {
-    "parentUnit": "Cultist Mob",
+    "parentUnit": "Cultist Firebrand",
     "factionKeyword": [
         "heretic astartes"
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Chaos Cultists are the mortal devotees of the Dark Gods, ordinary men and women fallen to promises of temporal power who take to battle in huge numbers. Bearing a motley collection of improvised, stolen and makeshift weapons, they can overwhelm even determined enemies with sheer weight of numbers.",
+    "lore": "Their bodies swollen with unholy power, Cultist Firebrands are pyromaniacal champions of Chaos. Their very presence upon the battlefield inflames the zeal of nearby cultists, driving them to ever-escalating acts of brutality and depravity.",
     "keywords": [
         "infantry",
-        "battleline",
+        "character",
         "grenades",
         "chaos",
-        "cultist mob"
+        "damned",
+        "cultist firebrand"
     ],
     "attributes": [
         {
             "movement": 6,
-            "toughness": 3,
-            "save": 6,
-            "wounds": 1,
-            "leadership": 7,
-            "objetiveControl": 1,
-            "invulnerableSave": 0
+            "toughness": 4,
+            "save": 4,
+            "wounds": 4,
+            "leadership": 6,
+            "objectiveControl": 1
         }
     ],
-    "leader": [],
+    "leader": ["Accursed Cultists", "Cultist Mob"],
     "rangedWeapons": [
         {
-            "name": "Autopistol",
-            "modifiers": [
-                "pistol"
-            ],
-            "range": 12,
-            "strength": 3,
-            "attacks": 1,
-            "ballistic-skills": 4,
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false
-        },
-        {
-            "name": "Bolt pistol",
-            "modifiers": [
-                "pistol"
-            ],
-            "range": 12,
-            "strength": 4,
-            "attacks": 1,
-            "ballistic-skills": 4,
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false
-        },
-        {
-            "name": "Cultist firearm",
-            "modifiers": [
-                "rapid fire 1"
-            ],
-            "range": 24,
-            "strength": 3,
-            "attacks": 1,
-            "ballistic-skills": 4,
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false
-        },
-        {
-            "name": "Cultist grenade launcher - frag",
-            "modifiers": [
-                "blast"
-            ],
-            "range": 24,
-            "strength": 4,
-            "attacks": "d3",
-            "ballistic-skills": 4,
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": true
-        },
-        {
-            "name": "Cultist grenade launcher - krak",
-            "modifiers": [
-                "blast"
-            ],
-            "range": 24,
-            "strength": 4,
-            "attacks": 1,
-            "ballistic-skills": 4,
-            "armor-penetration": 2,
-            "damage": "d3",
-            "singleChoice": true
-        },
-        {
-            "name": "Flamer",
+            "name": "Balefire pike",
             "modifiers": [
                 "ignores cover",
                 "torrent"
             ],
             "range": 12,
-            "strength": 4,
-            "attacks": "D6",
+            "strength": 5,
+            "attacks": "D6+3",
             "ballistic-skills": "N/A",
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false
-        },
-        {
-            "name": "Heavy stubber",
-            "modifiers": [
-                "heavy",
-                "rapid fire 3"
-            ],
-            "range": 36,
-            "strength": 4,
-            "attacks": 4,
-            "ballistic-skills": 5,
-            "armor-penetration": 0,
+            "armor-penetration": -1,
             "damage": 1,
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            
+            "Leader"
         ],
-        "faction": ["Dark Pacts"],
+        "faction": [
+            "Dark Pacts"
+        ],
         "otherAbilities": [
             {
-                "name": "For the Dark Gods",
-                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+                "name": "Fiery Faith",
+                "description": "While this model is leading a unit, you can re-roll Leadership tests taken for that unit."
+            },
+            {
+                "name": "Cursed Flames",
+                "description": "In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must take a Battle-shock test."
             }
         ]
     },
-    "wargear": [
-        {
-            "description": "The Cultist Champion's autopistol can be replaced with 1 bolt pistol.",
-            "items": []
-        },
-        {
-            "description": "Any number of models can each have their autopistol and brutal assault weapon replaced with 1 Cultist firearm and 1 close combat weapon.",
-            "items": []
-        },
-        {
-            "description": "For every 10 models in this unit, 1 Chaos Cultist's autopistol and brutal assault weapon can be replaced with 1 flamer and 1 close combat weapon.",
-            "items": []
-        },
-        {
-            "description": "For every 10 models in this unit, 1 Chaos Cultist's autopistol and brutal assault weapon can be replaced with 1 heavy stubber and 1 close combat weapon.",
-            "items": []
-        },
-        {
-            "description": "For every 10 models in this unit, 1 Chaos Cultist's autopistol and brutal assault weapon can be replaced with 1 Cultist grenade launcher and 1 close combat weapon.",
-            "items": []
-        }
-    ],
+    "wargear": [],
     "meleeWeapons": [
-        
-        {
-            "name": "Brutal assault weapon",
-            "modifiers": [],
-            "attacks": 2,
-            "weapons-skills": 4,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 1
-        },
         {
             "name": "Close combat weapon",
             "modifiers": [],
-            "attacks": 1,
+            "attacks": 4,
             "weapons-skills": 4,
-            "strength": 3,
+            "strength": 4,
             "armor-penetration": 0,
             "damage": 1
         }
     ],
     "unitComposition": [
         {
-            "unitType": "Cultist Champion",
+            "unitType": "Cultist Firebrand",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "autopistol","brutal assault weapon"
-            ]
-        },
-        {
-            "unitType": "Chaos Cultists",
-            "minQuantity": 9,
-            "maxQuantity": 19,
-            "equipment": [
-                "autopistol","brutal assault weapon"
+                "balefire pike",
+                "close combat weapon"
             ]
         }
     ],
-    "options": [
-        {
-            "count": [
-                1,9
-            ],
-            "points": 50
-        },
-        {
-            "count": [
-                1,19
-            ],
-            "points": 100
-        }
-    ],
+    "options": [{
+        "count": [
+            1
+        ],
+        "points": 45
+    }],
     "additionalParameter": {}
 }

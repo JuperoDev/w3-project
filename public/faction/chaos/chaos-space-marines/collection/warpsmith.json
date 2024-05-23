@@ -105,29 +105,15 @@
         ]
     },
     "wargear": [
-        {
-            "description": "This model's exalted weapon can be replaced with 1 warp hammer.",
-            "items": []
-        }
+      
     ],
     "meleeWeapons": [
         {
-            "name": "Exalted weapon",
-            "modifiers": [],
+            "name": "Forgeweapon",
+            "modifiers": ["anti-vehicle 4+"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 6,
-            "armor-penetration": 2,
-            "damage": 2
-        },
-        {
-            "name": "Warp hammer",
-            "modifiers": [
-                "devastating wounds"
-            ],
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 8,
             "armor-penetration": 2,
             "damage": 2
         }

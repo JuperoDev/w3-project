@@ -29,9 +29,9 @@
 
     </div>
 
-    <div class="other-abilities-container" v-if="abilities.otherAbilities && abilities.otherAbilities.length > 0" >
+    <div class="other-abilities-container mx-2" v-if="abilities.otherAbilities && abilities.otherAbilities.length > 0" >
       <div v-for="(otherAbility, index) in abilities.otherAbilities" :key="'misc-' + index">
-          <span class="font-semibold">{{ otherAbility.name }} : </span> <span>{{ otherAbility.description }}</span>
+          <span class="font-semibold">{{ otherAbility.name }} : </span> <span v-html="otherAbility.description"></span>
       </div>
     </div>
         </div>

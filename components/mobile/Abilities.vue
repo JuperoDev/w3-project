@@ -32,7 +32,7 @@
         :key="'misc-' + index"
       >
         <span class="font-semibold">{{ otherAbility.name }} : </span>
-        <span>{{ otherAbility.description }}</span>
+        <span v-html="otherAbility.description"></span>
       </div>
     </div>
   </div>

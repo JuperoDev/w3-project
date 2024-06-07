@@ -1,26 +1,40 @@
 <template>
     <div>
     <h1>Army Builder</h1>
-    <v-btn>hola</v-btn>
-    <v-carousel>
-  <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-    cover
-  ></v-carousel-item>
 
-  <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
-    cover
-  ></v-carousel-item>
+    <v-stepper :items="['', '', '','']">
+        <template v-slot:item.1>
+          <v-card title="Choose Army" flat>
+            <p>Tyranids</p>
+        <p>Necrons</p>
+        <p>Orks</p>
+          </v-card>
+        </template>
+      
+        <template v-slot:item.2>
+          <v-card title="Choose Battle Size" flat>
+          
+            <ArmyBuilderSize/>
+          </v-card>
+        </template>
+      
+        <template v-slot:item.3>
+          <v-card title="Choose Detachment" flat><ArmyBuilderDetachment/></v-card>
+        </template>
+     
 
-  <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-    cover
-  ></v-carousel-item>
-</v-carousel>
+      <template v-slot:item.4>
+          <v-card title="Summary" flat>...</v-card>
+        </template>
+        
+      </v-stepper>
     </div>
 </template>
 
 <style>
     
 </style>
+
+<script setup>
+  import { VStepper } from 'vuetify/labs/VStepper'
+</script>

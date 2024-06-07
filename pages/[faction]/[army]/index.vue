@@ -31,18 +31,7 @@
             /> 
           </div>
 
-          <p class="text-xl text-zinc-900 px-10">
-            <!-- {{ armyData.description }} -->
-          </p>
-          <br />
-
-          <!-- <div
-            class="collection__button-menu grid md:grid-cols-2 md:gap-20 mb-20 p-10"
-          > -->
-            <!-- <v-btn class="mb-5">Datasheets</v-btn>
-            <v-btn>detachments</v-btn> -->
-          <!-- </div> -->
-
+         
 
       <!-- army rules  -->
     
@@ -70,13 +59,13 @@
               class="collection-container__right-column--detachments grid grid-cols-1 md:grid-cols-3"
             >
               <div
-                class="detachment-button-grid my-3 flex items-center justify-center"
+                class="detachment-button-grid md:my-3 p-3"
                 v-for="detachment in armyData.detachments"
                 :key="detachment"
               >
                 <nuxt-link :to="generateDetachment(faction, army, detachment)">
-                  <v-btn>
-                <p class="w-48 lg:w-60"
+                  <v-btn class="max-button ">
+                <p 
                 >
                   {{ detachment }}
                 </p>

@@ -12,9 +12,12 @@
               :label="faction"
               :value="faction"
             ></v-radio>
+            
           </v-radio-group>
         </v-card>
       </template>
+
+      
 
       <template v-slot:item.2>
         <v-card title="Choose Army" flat>
@@ -40,6 +43,8 @@
           <ArmyBuilderDetachment />
         </v-card>
       </template>
+
+
     </v-stepper>
   </div>
 </template>
@@ -67,6 +72,12 @@ const filteredArmies = computed(() => {
   }
   return [];
 });
+
+//alert
+
+const alerta = () =>{
+  alert('alerta')
+}
 </script>
 
 <style>

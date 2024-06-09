@@ -27,6 +27,7 @@
               :label="faction"
               :value="faction"
             ></v-radio>
+
             
           </v-radio-group>
         </v-card>
@@ -42,6 +43,7 @@
               :value="army"
             ></v-radio>
           </v-radio-group>
+       
         </v-card>
           </v-stepper-window-item>
          
@@ -55,6 +57,8 @@
         :value="detachment"
       ></v-radio>
     </v-radio-group>
+
+   
   </v-card>
 </v-stepper-window-item>
 
@@ -127,7 +131,22 @@ const customActionForPrev = () => {
 const customActionForNext = () => {
   // write custom login here like validation and some state changes if needed
   // alert("hola"); A CUSTOM EVENT
-  step.value++;
+  // step.value++;
+
+ 
+    
+ 
+    if (
+      
+    (step.value == 0)&&(!!selectedFaction.value) ||
+    (step.value == 1)&&(!!selectedArmy.value) ||
+    (step.value == 2)&&(!!selectedDetachment.value)
+  ){
+      step.value++;
+
+    }
+ 
+  
 }
 
 

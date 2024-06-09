@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Army Builder</h1>
+    
 
     <v-stepper :items="['', '', '', '']">
       <template v-slot:item.1>
@@ -16,8 +16,6 @@
           </v-radio-group>
         </v-card>
       </template>
-
-      
 
       <template v-slot:item.2>
         <v-card title="Choose Army" flat>
@@ -43,8 +41,6 @@
           <ArmyBuilderDetachment />
         </v-card>
       </template>
-
-
     </v-stepper>
   </div>
 </template>
@@ -78,6 +74,8 @@ const filteredArmies = computed(() => {
 const alerta = () =>{
   alert('alerta')
 }
+
+
 </script>
 
 <style>

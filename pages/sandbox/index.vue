@@ -144,7 +144,7 @@ const customActionForNext = () => {
   ){
       step.value++;
 
-    }
+    } alert("Please, pick an option.");
  
   
 }

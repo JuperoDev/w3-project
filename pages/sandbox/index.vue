@@ -72,6 +72,8 @@
           </v-stepper-window>
 
           <!-- Stepper Actions -->
+
+          <!-- 
           <v-stepper-actions @click:next="customActionForNext" @click:prev="customActionForPrev">
             <template #prev="{ props }">
               <v-btn @click="() => props.onClick()">Back</v-btn>
@@ -79,7 +81,19 @@
             <template #next="{ props }">
               <v-btn @click="() => props.onClick()">Next</v-btn>
             </template>
+
+            
           </v-stepper-actions>
+           -->
+
+
+          <v-stepper-actions
+              @click:next="customActionForNext(next)"
+              @click:prev="customActionForPrev(prev)"
+               
+            >
+            </v-stepper-actions>
+
         </v-stepper>
      
      
@@ -92,8 +106,8 @@
       <p><strong>Name:</strong> {{ selectedArmy }}</p>
       <p><strong>Point List:</strong> {{ pointList }}</p>
     </div>
-
-    <ArmyBuilderArmyComposer/>
+    <p><strong>URL to pass to Army Composer</strong> {{ factionAndArmyUrl }}</p>
+    <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
   </div>
 </template>
 
@@ -144,6 +158,12 @@ const filteredDetachments = computed(() => {
   }
   return [];
 });
+// Computed to generate URL 
+const factionAndArmyUrl = computed(() => {
+  
+  return `${selectedFaction.value}/${selectedArmy.value}`;
+});
+
 
 // Custom function for previous action
 const customActionForPrev = () => {

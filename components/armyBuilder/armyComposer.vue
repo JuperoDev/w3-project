@@ -5,5 +5,13 @@
             
             character 160 points<v-btn>+</v-btn> </div>
     </div>
+{{ url }}
+    <p>Unit 1</p> <p>70</p>
 </template>
 
+<script setup>
+//props
+const props = defineProps({
+  url: String
+});
+</script>

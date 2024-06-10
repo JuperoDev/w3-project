@@ -1,113 +1,94 @@
 <template>
   <div>
-   
-      
-        <v-stepper v-model="step">
-          <!-- Stepper Header -->
-          <v-stepper-header>
-            <v-stepper-item title="" value="1"></v-stepper-item>
-            <v-divider></v-divider>
-            <v-stepper-item title="" value="2"></v-stepper-item>
-            <v-divider></v-divider>
-            <v-stepper-item title="" value="3"></v-stepper-item>
-            <v-divider></v-divider>
-            <v-stepper-item title="" value="4"></v-stepper-item>
-          </v-stepper-header>
+    <v-stepper v-model="step">
+      <!-- Stepper Header -->
+      <v-stepper-header>
+        <v-stepper-item title="" value="1"></v-stepper-item>
+        <v-divider></v-divider>
+        <v-stepper-item title="" value="2"></v-stepper-item>
+        <v-divider></v-divider>
+        <v-stepper-item title="" value="3"></v-stepper-item>
+        <v-divider></v-divider>
+        <v-stepper-item title="" value="4"></v-stepper-item>
+      </v-stepper-header>
 
-          <!-- Stepper Windows -->
-          <v-stepper-window>
-            <v-stepper-window-item value="1">
-              <v-card title="Choose Faction" flat>
-                <!-- Faction selection -->
-                <v-radio-group v-model="selectedFaction">
-                  <v-radio
-                    v-for="(faction, index) in factions"
-                    :key="index"
-                    :label="faction"
-                    :value="faction"
-                  ></v-radio>
-                </v-radio-group>
-              </v-card>
-            </v-stepper-window-item>
+      <!-- Stepper Windows -->
+      <v-stepper-window>
+        <v-stepper-window-item value="1">
+          <v-card title="Choose Faction" flat>
+            <!-- Faction selection -->
+            <v-radio-group v-model="selectedFaction">
+              <v-radio
+                v-for="(faction, index) in factions"
+                :key="index"
+                :label="faction"
+                :value="faction"
+              ></v-radio>
+            </v-radio-group>
+          </v-card>
+        </v-stepper-window-item>
 
-            <v-stepper-window-item value="2">
-              <v-card title="Choose Army" flat>
-                <!-- Army selection -->
-                <v-radio-group v-model="selectedArmy">
-                  <v-radio
-                    v-for="(army, index) in filteredArmies"
-                    :key="index"
-                    :label="army"
-                    :value="army"
-                  ></v-radio>
-                </v-radio-group>
-              </v-card>
-            </v-stepper-window-item>
+        <v-stepper-window-item value="2">
+          <v-card title="Choose Army" flat>
+            <!-- Army selection -->
+            <v-radio-group v-model="selectedArmy">
+              <v-radio
+                v-for="(army, index) in filteredArmies"
+                :key="index"
+                :label="army"
+                :value="army"
+              ></v-radio>
+            </v-radio-group>
+          </v-card>
+        </v-stepper-window-item>
 
-            <v-stepper-window-item value="3">
-              <v-card title="Choose Detachment" flat>
-                <!-- Detachment selection -->
-                <v-radio-group v-model="selectedDetachment">
-                  <v-radio
-                    v-for="(detachment, index) in filteredDetachments"
-                    :key="index"
-                    :label="detachment"
-                    :value="detachment"
-                  ></v-radio>
-                </v-radio-group>
-              </v-card>
-            </v-stepper-window-item>
+        <v-stepper-window-item value="3">
+          <v-card title="Choose Detachment" flat>
+            <!-- Detachment selection -->
+            <v-radio-group v-model="selectedDetachment">
+              <v-radio
+                v-for="(detachment, index) in filteredDetachments"
+                :key="index"
+                :label="detachment"
+                :value="detachment"
+              ></v-radio>
+            </v-radio-group>
+          </v-card>
+        </v-stepper-window-item>
 
-            <v-stepper-window-item value="4">
-              <v-card title="Details" flat>
-                <!-- Details input -->
-                <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
-                <v-radio-group v-model="pointList" label="Army Size" class="mt-8">
-                  <v-radio label="1000 points" value="1000"></v-radio>
-                  <v-radio label="2000 points" value="2000"></v-radio>
-                  <v-radio label="3000 points" value="3000"></v-radio>
-                </v-radio-group>
-              </v-card>
-            </v-stepper-window-item>
-          </v-stepper-window>
+        <v-stepper-window-item value="4">
+          <v-card title="Details" flat>
+            <!-- Details input -->
+            <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
+            <v-radio-group v-model="pointList" label="Army Size" class="mt-8">
+              <v-radio label="1000 points" value="1000"></v-radio>
+              <v-radio label="2000 points" value="2000"></v-radio>
+              <v-radio label="3000 points" value="3000"></v-radio>
+            </v-radio-group>
+            <v-btn class="m-3" @click="showArmyComposer">Create</v-btn>
+          </v-card>
+        </v-stepper-window-item>
+      </v-stepper-window>
 
-          <!-- Stepper Actions -->
-
-          <!-- 
-          <v-stepper-actions @click:next="customActionForNext" @click:prev="customActionForPrev">
-            <template #prev="{ props }">
-              <v-btn @click="() => props.onClick()">Back</v-btn>
-            </template>
-            <template #next="{ props }">
-              <v-btn @click="() => props.onClick()">Next</v-btn>
-            </template>
-
-            
-          </v-stepper-actions>
-           -->
-
-
-          <v-stepper-actions
-              @click:next="customActionForNext(next)"
-              @click:prev="customActionForPrev(prev)"
-               
-            >
-            </v-stepper-actions>
-
-        </v-stepper>
-     
-     
-    
+      <!-- Stepper Actions -->
+      <v-stepper-actions
+        prev-text="Previous"
+        next-text="Next"
+        @click:next="customActionForNext"
+        @click:prev="customActionForPrev"
+      >
+      </v-stepper-actions>
+    </v-stepper>
 
     <!-- Display WHArmyList -->
-    <div>
+    <div v-if="armyComposerVisible">
       <h2>Selected Options:</h2>
       <p><strong>Name:</strong> {{ name }}</p>
-      <p><strong>Name:</strong> {{ selectedArmy }}</p>
+      <p><strong>Army:</strong> {{ selectedArmy }}</p>
       <p><strong>Point List:</strong> {{ pointList }}</p>
+      <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
+      <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
     </div>
-    <p><strong>URL to pass to Army Composer</strong> {{ factionAndArmyUrl }}</p>
-    <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
   </div>
 </template>
 
@@ -144,7 +125,7 @@ const filteredArmies = computed(() => {
   if (selectedFaction.value && armiesData[selectedFaction.value]) {
     const selectedFactionLower = selectedFaction.value.toLowerCase();
     const armies = armiesData[selectedFactionLower];
-    return armies ? armies.map(army => army.toLowerCase()) : [];
+    return armies ? armies.map((army) => army.toLowerCase()) : [];
   }
   return [];
 });
@@ -154,16 +135,20 @@ const filteredDetachments = computed(() => {
   if (selectedArmy.value && detachmentsData[selectedArmy.value]) {
     const selectedArmyLower = selectedArmy.value.toLowerCase();
     const detachments = detachmentsData[selectedArmyLower];
-    return detachments ? detachments.map(detachment => detachment.toLowerCase()) : [];
+    return detachments ? detachments.map((detachment) => detachment.toLowerCase()) : [];
   }
   return [];
 });
-// Computed to generate URL 
+
+// Computed to generate URL
 const factionAndArmyUrl = computed(() => {
-  
-  return `${selectedFaction.value}/${selectedArmy.value}`;
+  if (selectedFaction.value && selectedArmy.value) {
+    return `${selectedFaction.value}/${selectedArmy.value}`;
+  }
+  return null;
 });
 
+const armyComposerVisible = ref(false);
 
 // Custom function for previous action
 const customActionForPrev = () => {
@@ -173,18 +158,24 @@ const customActionForPrev = () => {
 // Custom function for next action
 const customActionForNext = () => {
   if (
-    (step.value == 0 && !!selectedFaction.value) ||
-    (step.value == 1 && !!selectedArmy.value) ||
-    (step.value == 2 && !!selectedDetachment.value)
+    (step.value === 0 && !!selectedFaction.value) ||
+    (step.value === 1 && !!selectedArmy.value) ||
+    (step.value === 2 && !!selectedDetachment.value)
   ) {
-    // Update the name and pointList variables
-    name.value = selectedFaction.value;
-    pointList.value = selectedDetachment.value; // Assuming selectedDetachment holds the pointList value
     step.value++;
+  }
+};
+
+// Show the army composer only when all information is available
+const showArmyComposer = () => {
+  if (name.value && selectedArmy.value && pointList.value) {
+    armyComposerVisible.value = true;
+  } else {
+    armyComposerVisible.value = false;
   }
 };
 </script>
 
 <style>
-/* Add your custom styles here */
+
 </style>

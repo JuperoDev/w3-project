@@ -4,8 +4,8 @@
         character 160 points
         <v-btn @click="openDialog">+</v-btn>
       </div>
-  
-      {{ url }}
+  <p>passed prop: {{ url }}</p>
+     
       <p>Unit 1</p>
       <p>70</p>
   
@@ -13,9 +13,11 @@
         <template v-slot:default="{ isActive }">
           <v-card title="Dialog">
             <v-card-text>
-              <div v-for="character in characters" :key="character.unitName">
+              <!-- <div v-for="character in characters" :key="character.unitName">
                 {{ character.unitName }}: {{ character.basicPoints }} points
-              </div>
+              </div> -->
+
+              {{ characters }}
             </v-card-text>
   
             <v-card-actions>
@@ -45,6 +47,16 @@
   };
   
   // Import JSON data when the component is mounted
+  onMounted(async () => {
+  if (!props.url) return; // Check if url is defined
+  try {
+    const res = await fetch(`/faction/${props.url}/collection.json`);
+    const data = await res.json();
+    characters.value = data.characters; // Update characters with fetched data
+  } catch (error) {
+    console.error("Fetch Error: ", error);
+  }
+});
 
   </script>
   

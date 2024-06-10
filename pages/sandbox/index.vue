@@ -140,10 +140,20 @@ const filteredDetachments = computed(() => {
   return [];
 });
 
+// Function to sanitize URL parts
+const sanitize = (str) => {
+  return str
+    .toLowerCase()
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/[^a-z0-9-]/g, '-'); // Replace non-alphanumeric characters with hyphens
+};
+
 // Computed to generate URL
 const factionAndArmyUrl = computed(() => {
   if (selectedFaction.value && selectedArmy.value) {
-    return `${selectedFaction.value}/${selectedArmy.value}`;
+    const sanitizedFaction = sanitize(selectedFaction.value);
+    const sanitizedArmy = sanitize(selectedArmy.value);
+    return `${sanitizedFaction}/${sanitizedArmy}`;
   }
   return null;
 });

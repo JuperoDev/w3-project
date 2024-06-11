@@ -13,8 +13,8 @@
       <template v-slot:default="{ isActive }">
         <v-card title="Dialog">
           <v-card-text>
-            <!-- Print the constructed URL -->
-            <!-- {{ constructedURL }} -->
+            <!-- Print the fetched data -->
+            {{ jsonData }}
           </v-card-text>
 
           <v-card-actions>
@@ -31,18 +31,39 @@
 </template>
 
 <script setup>
-  // Define props
-   const props = defineProps({
-    url: String,
-     unit: Object
-   });
+  import { ref, onMounted } from 'vue';
 
-  // Construct the URL
-  // const constructedURL = `faction/${props.url}/${unitURLName(props.unit.unitName)}.json`;
+  // Define props
+  const props = defineProps({
+    url: String,
+    unit: Object
+  });
+
+  // Reactive variable to store JSON data
+  const jsonData = ref(null);
 
   // Function to convert unit name to URL-friendly format
-  // const unitURLName = (name) => {
+  const unitURLName = (name) => {
+    if (!name) return ''; // If name is not defined, return an empty string
+    
     // Replace spaces and special characters with hyphens and convert to lowercase
-    // return name.replace(/[^\w\s]/gi, '').replace(/\s+/g, '-').toLowerCase();
-  // };
+    return name.replace(/[^\w\s]/gi, '').replace(/\s+/g, '-').toLowerCase();
+  };
+
+  // Constructed URL
+  const constructedURL = `faction/${props.url}/collection/${unitURLName(props.unit.unitType)}.json`;
+
+  // Fetch JSON data on component mount
+  onMounted(async () => {
+    try {
+      const response = await fetch(constructedURL);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      jsonData.value = data;
+    } catch (error) {
+      console.error('Fetch error:', error);
+    }
+  });
 </script>

@@ -8,7 +8,7 @@
     
     <v-dialog v-model="isDialogOpen" max-width="500">
       <template v-slot:default="{ isActive }">
-        <v-card title="Dialog">
+        <v-card title="Select Character">
           <v-card-text>
             <div v-for="character in characters" :key="character.unitName">
               {{ character.unitName }}: {{ character.basicPoints }} points
@@ -32,7 +32,7 @@
       <h3>Saved Characters</h3>
       <div v-for="(savedCharacter, index) in savedCharacters" :key="savedCharacter.unitName">
         {{ savedCharacter.unitName }}: {{ savedCharacter.basicPoints }} points
-        <v-btn @click="deleteCharacter(index)">Delete</v-btn>
+        <v-btn @click="deleteCharacter(index)">Delete</v-btn>  
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>

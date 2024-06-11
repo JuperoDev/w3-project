@@ -29,13 +29,13 @@
     </v-dialog>
 
     <div class="saved-characters">
-      <h3>Saved Characters</h3>
+     
       <div v-for="(savedCharacter, index) in savedCharacters" :key="savedCharacter.unitName">
         {{ savedCharacter.unitName }}: {{ savedCharacter.basicPoints }} points
         <v-btn @click="deleteCharacter(index)">Delete</v-btn>  
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
-         hola
+        
          <ArmyBuilderAdditionalData :url="url" :unit="unit" />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">

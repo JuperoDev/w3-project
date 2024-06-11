@@ -23,10 +23,7 @@
       >
         <h1>
           {{ parentUnit }}
-          <GeneralPurposeFavIcon
-            :parentUnit="parentUnit"
-            :urlStore="urlStore"
-          />
+          
         </h1>
       </div>
 
@@ -201,7 +198,7 @@
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn
-              text="Close Dialog"
+              text="Close"
               @click="isActive.value = false"
             ></v-btn>
           </v-card-actions>
@@ -252,6 +249,7 @@ const unitURLName = (name) => {
 // Constructed URL
 const constructedURL = `faction/${props.url}/collection/${unitURLName(props.unit.unitType)}.json`;
 
+
 // Fetch JSON data on component mount
 onMounted(async () => {
   try {
@@ -285,4 +283,17 @@ onMounted(async () => {
     console.error('Fetch error:', error);
   }
 });
+
+
+// Check if additionalParameter is not an empty object
+const hasAdditionalParameter = computed(() => {
+  return Object.keys(additionalParameter.value).length > 0;
+});
+
+// Check if damaged is not an empty object
+
+const hasDamaged = computed(() => {
+  return Object.keys(damaged.value).length > 0;
+});
+
 </script>

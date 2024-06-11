@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-dialog max-width="500">
+    <v-dialog max-width="600">
       <template v-slot:activator="{ props: activatorProps }">
         <v-btn
           v-bind="activatorProps"
@@ -56,6 +56,8 @@
         </v-expansion-panel>
 
         <!-- Abilities  -->
+
+       
         <v-expansion-panel>
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Abilities</div>
@@ -76,8 +78,9 @@
         </v-expansion-panel>
 
         <!-- Wargear Abilities -->
-        <v-expansion-panel v-if="warGearAbilities">
-        <!-- <v-expansion-panel v-if="warGearAbilities"> -->
+         
+        <!-- <v-expansion-panel v-if="warGearAbilities">
+        
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Wargear Abilities</div>
           </v-expansion-panel-title>
@@ -87,7 +90,7 @@
             
            
           </v-expansion-panel-text>
-        </v-expansion-panel>
+        </v-expansion-panel> -->
 
         <!-- Additional Parameter -->
         <v-expansion-panel v-if="hasAdditionalParameter">
@@ -114,7 +117,8 @@
         </v-expansion-panel>
 
         <!-- Damaged -->
-        <v-expansion-panel v-if="hasDamaged">
+        
+         <v-expansion-panel v-if="hasDamaged">
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">
               Damaged: 1 - {{ damaged.remainingWounds }} wounds remaining
@@ -123,7 +127,7 @@
           <v-expansion-panel-text>
             <p>{{ damaged.description }}</p>
           </v-expansion-panel-text>
-        </v-expansion-panel>
+        </v-expansion-panel> 
 
         <!-- Wargear Options  -->
         <v-expansion-panel>

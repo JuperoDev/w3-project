@@ -86,6 +86,7 @@
       <p><strong>Name:</strong> {{ name }}</p>
       <p><strong>Army:</strong> {{ selectedArmy }}</p>
       <p><strong>Point List:</strong> {{ pointList }}</p>
+      <p><strong>Detachment:</strong> {{ selectedDetachment}}</p>
       <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
       <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
     </div>

@@ -1,10 +1,11 @@
 <template>
     <div class="armyComposer_container">
+        <p>passed prop: {{ url }}</p>
       <div class="armyComposer_container_character bg-zinc-800 text-zinc-50 uppercase">
         character {{ totalPoints }} points
         <v-btn @click="openDialog">+</v-btn>
       </div>
-      <p>passed prop: {{ url }}</p>
+      
       
       <v-dialog v-model="isDialogOpen" max-width="500">
         <template v-slot:default="{ isActive }">
@@ -29,7 +30,7 @@
       </v-dialog>
   
       <div class="saved-characters">
-        <h3>Saved Characters</h3>
+       
         <div v-for="(savedCharacter, index) in savedCharacters" :key="savedCharacter.unitName">
           {{ savedCharacter.unitName }}: {{ savedCharacter.basicPoints }} points
           <v-btn @click="deleteCharacter(index)">Delete</v-btn>

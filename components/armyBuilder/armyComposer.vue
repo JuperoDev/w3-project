@@ -100,9 +100,9 @@
   </script>
   
   <style scoped>
-  .armyComposer_container {
-    /* your styles */
-  }
+  /* .armyComposer_container {
+  
+  } */
   
   .saved-characters {
     margin-top: 20px;

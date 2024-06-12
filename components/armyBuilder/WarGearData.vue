@@ -35,15 +35,13 @@
                   <!-- Loop through gear.items -->
                   <li v-for="(item, itemIndex) in gear.items" :key="itemIndex">
                     {{ item }}
-                    <v-btn icon small @click="increaseItem(gear, item)">
+                    <v-btn icon small @click="increaseItem(item)">
                       <v-icon>mdi-plus</v-icon>
                     </v-btn>
-                    <v-btn icon small @click="decreaseItem(gear, item)">
+                    <v-btn icon small @click="decreaseItem(item)">
                       <v-icon>mdi-minus</v-icon>
                     </v-btn>
-                    <span v-if="selectedItems[gear.description] && selectedItems[gear.description][item]">
-                      ({{ selectedItems[gear.description][item] }})
-                    </span>
+                    <span v-if="selectedItems[item]">{{ selectedItems[item] }}</span>
                   </li>
                 </ul>
               </div>
@@ -53,6 +51,9 @@
               <v-spacer></v-spacer>
               <v-btn text="Close" @click="isActive.value = false"></v-btn>
             </v-card-actions>
+  
+            <!-- Debugging information -->
+            <p>Selected Items: {{ selectedItems }}</p>
           </v-card>
         </template>
       </v-dialog>
@@ -60,7 +61,7 @@
   </template>
   
   <script setup>
-  import { computed, onMounted, ref, watch } from "vue";
+  import { onMounted, ref, watch } from "vue";
   
   // Define props
   const props = defineProps({
@@ -128,23 +129,20 @@
   }, { deep: true });
   
   // Method to increase item count
-  const increaseItem = (gear, item) => {
-    if (!selectedItems.value[gear.description]) {
-      selectedItems.value[gear.description] = {};
+  const increaseItem = (item) => {
+    if (!selectedItems.value[item]) {
+      selectedItems.value[item] = 0;
     }
-    if (!selectedItems.value[gear.description][item]) {
-      selectedItems.value[gear.description][item] = 0;
-    }
-    selectedItems.value[gear.description][item]++;
+    selectedItems.value[item]++;
   };
   
   // Method to decrease item count
-  const decreaseItem = (gear, item) => {
-    if (selectedItems.value[gear.description] && selectedItems.value[gear.description][item]) {
-      if (selectedItems.value[gear.description][item] > 0) {
-        selectedItems.value[gear.description][item]--;
-        if (selectedItems.value[gear.description][item] === 0) {
-          delete selectedItems.value[gear.description][item];
+  const decreaseItem = (item) => {
+    if (selectedItems.value[item]) {
+      if (selectedItems.value[item] > 0) {
+        selectedItems.value[item]--;
+        if (selectedItems.value[item] === 0) {
+          delete selectedItems.value[item];
         }
       }
     }

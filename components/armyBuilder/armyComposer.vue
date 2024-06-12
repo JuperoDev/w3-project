@@ -5,7 +5,7 @@
       <v-btn @click="openDialog">+</v-btn>
     </div>
     <p>passed prop: {{ url }}</p>
-    
+
     <v-dialog v-model="isDialogOpen" max-width="500">
       <template v-slot:default="{ isActive }">
         <v-card title="Select Character">
@@ -18,10 +18,9 @@
               </div>
             </div>
           </v-card-text>
-  
+
           <v-card-actions>
             <v-spacer></v-spacer>
-  
             <v-btn text="Close Dialog" @click="isDialogOpen = false"></v-btn>
           </v-card-actions>
         </v-card>
@@ -29,17 +28,21 @@
     </v-dialog>
 
     <div class="saved-characters">
-     
       <div v-for="(savedCharacter, index) in savedCharacters" :key="savedCharacter.unitName">
         {{ savedCharacter.unitName }}: {{ savedCharacter.basicPoints }} points
-        <v-btn @click="deleteCharacter(index)">Delete</v-btn>  
+        <v-btn @click="deleteCharacter(index)">Delete</v-btn>
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
-        
-         <ArmyBuilderAdditionalData :url="url" :unit="unit" />
+            <ArmyBuilderAdditionalData :url="url" :unit="unit" />
+            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear" />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
               - {{ equipment }}
+            </div>
+            <div v-if="unit.selectedWargear" class="selected-wargear">
+              <div v-for="(count, gear) in unit.selectedWargear" :key="gear">
+                {{ gear }}: {{ count }}
+              </div>
             </div>
           </div>
         </div>
@@ -47,7 +50,7 @@
     </div>
   </div>
 </template>
-  
+
 <script setup>
 import { ref, onMounted, computed } from 'vue';
 
@@ -71,7 +74,15 @@ const saveCharacter = async (character) => {
     const res = await fetch(`/faction/${props.url}/collection/${characterJsonFileName}`);
     const data = await res.json();
     const unitComposition = data.unitComposition || [];
-    savedCharacters.value.push({ ...character, unitComposition });
+
+    // Add parentUnit field to each unit in unitComposition
+    const unitsWithParentUnit = unitComposition.map(unit => ({
+      ...unit,
+      parentUnit: character.unitName, // Assuming character.unitName is the parent unit name
+      selectedWargear: {}
+    }));
+
+    savedCharacters.value.push({ ...character, unitComposition: unitsWithParentUnit });
   } catch (error) {
     console.error("Fetch Error: ", error);
     savedCharacters.value.push(character); // Add without equipment if fetch fails
@@ -104,13 +115,17 @@ const totalPoints = computed(() => {
   return savedCharacters.value.reduce((sum, character) => sum + character.basicPoints, 0);
 });
 
+// Method to update wargear in savedCharacters
+const updateWargear = (wargear) => {
+  savedCharacters.value.forEach(character => {
+    character.unitComposition.forEach(unit => {
+      unit.selectedWargear = { ...unit.selectedWargear, ...wargear };
+    });
+  });
+};
 </script>
 
 <style scoped>
-/* .armyComposer_container {
- 
-} */
-
 .saved-characters {
   margin-top: 20px;
 }
@@ -144,5 +159,11 @@ const totalPoints = computed(() => {
   font-size: 0.875rem;
   color: #555;
   margin-left: 10px;
+}
+
+.selected-wargear {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #000;
 }
 </style>

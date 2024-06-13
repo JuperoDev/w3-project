@@ -1,107 +1,119 @@
 <template>
   <div class="grid grid-cols-2">
-    <!-- column for debug -->
-  <div>
-    <div class="stepper-army-builder">
-    <v-stepper v-model="step">
-      <!-- Stepper Header -->
-      <v-stepper-header>
-        <v-stepper-item title="" value="1"></v-stepper-item>
-        <v-divider></v-divider>
-        <v-stepper-item title="" value="2"></v-stepper-item>
-        <v-divider></v-divider>
-        <v-stepper-item title="" value="3"></v-stepper-item>
-        <v-divider></v-divider>
-        <v-stepper-item title="" value="4"></v-stepper-item>
-      </v-stepper-header>
+    <!-- Conditionally display the stepper or the stored armies -->
+    <div>
+      <div v-if="stepperVisible" class="stepper-army-builder">
+        <v-stepper v-model="step">
+          <!-- Stepper Header -->
+          <v-stepper-header>
+            <v-stepper-item title="" value="1"></v-stepper-item>
+            <v-divider></v-divider>
+            <v-stepper-item title="" value="2"></v-stepper-item>
+            <v-divider></v-divider>
+            <v-stepper-item title="" value="3"></v-stepper-item>
+            <v-divider></v-divider>
+            <v-stepper-item title="" value="4"></v-stepper-item>
+          </v-stepper-header>
 
-      <!-- Stepper Windows -->
-      <v-stepper-window>
-        <v-stepper-window-item value="1">
-          <v-card title="Choose Faction" flat>
-            <!-- Faction selection -->
-            <v-radio-group v-model="selectedFaction">
-              <v-radio
-                v-for="(faction, index) in factions"
-                :key="index"
-                :label="faction"
-                :value="faction"
-              ></v-radio>
-            </v-radio-group>
-          </v-card>
-        </v-stepper-window-item>
+          <!-- Stepper Windows -->
+          <v-stepper-window>
+            <v-stepper-window-item value="1">
+              <v-card title="Choose Faction" flat>
+                <v-radio-group v-model="selectedFaction">
+                  <v-radio
+                    v-for="(faction, index) in factions"
+                    :key="index"
+                    :label="faction"
+                    :value="faction"
+                  ></v-radio>
+                </v-radio-group>
+              </v-card>
+            </v-stepper-window-item>
 
-        <v-stepper-window-item value="2">
-          <v-card title="Choose Army" flat>
-            <!-- Army selection -->
-            <v-radio-group v-model="selectedArmy">
-              <v-radio
-                v-for="(army, index) in filteredArmies"
-                :key="index"
-                :label="army"
-                :value="army"
-              ></v-radio>
-            </v-radio-group>
-          </v-card>
-        </v-stepper-window-item>
+            <v-stepper-window-item value="2">
+              <v-card title="Choose Army" flat>
+                <v-radio-group v-model="selectedArmy">
+                  <v-radio
+                    v-for="(army, index) in filteredArmies"
+                    :key="index"
+                    :label="army"
+                    :value="army"
+                  ></v-radio>
+                </v-radio-group>
+              </v-card>
+            </v-stepper-window-item>
 
-        <v-stepper-window-item value="3">
-          <v-card title="Choose Detachment" flat>
-            <!-- Detachment selection -->
-            <v-radio-group v-model="selectedDetachment">
-              <v-radio
-                v-for="(detachment, index) in filteredDetachments"
-                :key="index"
-                :label="detachment"
-                :value="detachment"
-              ></v-radio>
-            </v-radio-group>
-          </v-card>
-        </v-stepper-window-item>
+            <v-stepper-window-item value="3">
+              <v-card title="Choose Detachment" flat>
+                <v-radio-group v-model="selectedDetachment">
+                  <v-radio
+                    v-for="(detachment, index) in filteredDetachments"
+                    :key="index"
+                    :label="detachment"
+                    :value="detachment"
+                  ></v-radio>
+                </v-radio-group>
+              </v-card>
+            </v-stepper-window-item>
 
-        <v-stepper-window-item value="4">
-          <v-card title="Details" flat>
-            <!-- Details input -->
-            <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
-            <v-radio-group v-model="pointList" label="Army Size" class="mt-8">
-              <v-radio label="1000 points" value="1000"></v-radio>
-              <v-radio label="2000 points" value="2000"></v-radio>
-              <v-radio label="3000 points" value="3000"></v-radio>
-            </v-radio-group>
-            <v-btn class="m-3" @click="showArmyComposer">Create</v-btn>
-          </v-card>
-        </v-stepper-window-item>
-      </v-stepper-window>
+            <v-stepper-window-item value="4">
+              <v-card title="Details" flat>
+                <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
+                <v-radio-group v-model="pointList" label="Army Size" class="mt-8">
+                  <v-radio label="1000 points" value="1000"></v-radio>
+                  <v-radio label="2000 points" value="2000"></v-radio>
+                  <v-radio label="3000 points" value="3000"></v-radio>
+                </v-radio-group>
+                <v-btn class="m-3" @click="createArmy">Create</v-btn>
+              </v-card>
+            </v-stepper-window-item>
+          </v-stepper-window>
 
-      <!-- Stepper Actions -->
-      <v-stepper-actions
-        prev-text="Previous"
-        next-text="Next"
-        @click:next="customActionForNext"
-        @click:prev="customActionForPrev"
-      >
-      </v-stepper-actions>
-    </v-stepper>
-  </div>
-    <!-- Display WHArmyList -->
-    <div v-if="armyComposerVisible">
-      <h2>Selected Options:</h2>
-      <p><strong>Name:</strong> {{ name }}</p>
-      <p><strong>Army:</strong> {{ selectedArmy }}</p>
-      <p><strong>Point List:</strong> {{ pointList }}</p>
-      <p><strong>Detachment:</strong> {{ selectedDetachment}}</p>
-      <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
-      <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
+          <!-- Stepper Actions -->
+          <v-stepper-actions
+            prev-text="Previous"
+            next-text="Next"
+            @click:next="customActionForNext"
+            @click:prev="customActionForPrev"
+          ></v-stepper-actions>
+        </v-stepper>
+      </div>
+
+      <!-- Display WHArmyList -->
+      <div v-if="armyComposerVisible">
+        <h2>Selected Options:</h2>
+        <p><strong>Name:</strong> {{ name }}</p>
+        <p><strong>Army:</strong> {{ selectedArmy }}</p>
+        <p><strong>Point List:</strong> {{ pointList }}</p>
+        <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
+        <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
+        <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
+      </div>
+
+      <!-- Button to show stepper for creating a new army -->
+      <div v-if="!stepperVisible">
+        <v-btn @click="showStepper">Create New Army</v-btn>
+      </div>
+    </div>
+
+    <!-- Display stored armies -->
+    <div class="right">
+      <h2>Stored Armies</h2>
+      <div v-for="(army, index) in armies" :key="index">
+        <p><strong>Name:</strong> {{ army.name }}</p>
+        <p><strong>Army:</strong> {{ army.selectedArmy }}</p>
+        <p><strong>Point List:</strong> {{ army.pointList }}</p>
+        <p><strong>Detachment:</strong> {{ army.selectedDetachment }}</p>
+        <v-btn @click="removeArmy(index)">Delete</v-btn>
+        <v-btn @click="loadArmy(index)">Go to Army</v-btn>
+      </div>
     </div>
   </div>
-  <!-- column for debug -->
-<div class="right"></div>
-</div>
-
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
+import { useArmyStore } from "@/stores/armyStore";
 import {
   VStepper,
   VStepperHeader,
@@ -115,15 +127,14 @@ const step = ref(0);
 const name = ref("");
 const pointList = ref("");
 
+const selectedFaction = ref(null);
+const selectedArmy = ref(null);
+const selectedDetachment = ref(null);
+
 // Import the JSON data
 import factionsData from "./faction.json";
 import armiesData from "./army.json";
 import detachmentsData from "./detachment.json";
-
-// Reactive variables
-const selectedFaction = ref(null);
-const selectedArmy = ref(null);
-const selectedDetachment = ref(null);
 
 // Extract factions from JSON data
 const factions = ref(factionsData.faction);
@@ -167,6 +178,7 @@ const factionAndArmyUrl = computed(() => {
 });
 
 const armyComposerVisible = ref(false);
+const stepperVisible = ref(false); // Controls visibility of the stepper
 
 // Custom function for previous action
 const customActionForPrev = () => {
@@ -192,8 +204,65 @@ const showArmyComposer = () => {
     armyComposerVisible.value = false;
   }
 };
+
+// Use the army store
+const armyStore = useArmyStore();
+const armies = computed(() => armyStore.armies);
+
+// Ensure armies are only accessed on the client side
+onMounted(() => {
+  armyStore.initializeStore();
+  stepperVisible.value = armies.value.length === 0; // Show stepper if no armies exist
+});
+
+// Function to create an army
+const createArmy = () => {
+  if (name.value && selectedArmy.value && pointList.value && selectedDetachment.value) {
+    const newArmy = {
+      name: name.value,
+      selectedFaction: selectedFaction.value,
+      selectedArmy: selectedArmy.value,
+      pointList: pointList.value,
+      selectedDetachment: selectedDetachment.value,
+    };
+    armyStore.addArmy(newArmy);
+    armyComposerVisible.value = true;
+    stepperVisible.value = false; // Hide the stepper after creating an army
+  }
+};
+
+// Function to remove an army
+const removeArmy = (index) => {
+  armyStore.removeArmy(index);
+  stepperVisible.value = armyStore.armies.length === 0; // Show the stepper if no armies are left
+};
+
+// Function to load an army into the main builder
+const loadArmy = (index) => {
+  const army = armies.value[index];
+  name.value = army.name;
+  selectedFaction.value = army.selectedFaction;
+  selectedArmy.value = army.selectedArmy;
+  pointList.value = army.pointList;
+  selectedDetachment.value = army.selectedDetachment;
+  step.value = 0; // Optionally reset the step to the beginning
+  showArmyComposer();
+};
+
+// Function to show the stepper for creating a new army
+const showStepper = () => {
+  name.value = "";
+  selectedFaction.value = null;
+  selectedArmy.value = null;
+  pointList.value = "";
+  selectedDetachment.value = null;
+  step.value = 0;
+  armyComposerVisible.value = false;
+  stepperVisible.value = true; // Show the stepper
+};
+
 </script>
 
 <style>
-
+/* Your CSS styles */
 </style>

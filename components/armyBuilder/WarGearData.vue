@@ -21,7 +21,12 @@
               <p>this unit is equipped with</p>
               <ul>
                 <!-- Loop through unit equipment -->
-                <li v-for="(equipment, equipmentIndex) in unit.equipment" :key="equipmentIndex">{{ equipment }}</li>
+                <li
+                  v-for="(equipment, equipmentIndex) in unit.equipment"
+                  :key="equipmentIndex"
+                >
+                  {{ equipment }}
+                </li>
               </ul>
             </div>
           </div>
@@ -35,13 +40,16 @@
                 <!-- Loop through gear.items -->
                 <li v-for="(item, itemIndex) in gear.items" :key="itemIndex">
                   {{ item }}
-                  <v-btn icon small @click="increaseItem(item)">
-                    <v-icon>mdi-plus</v-icon>
-                  </v-btn>
-                  <v-btn icon small @click="decreaseItem(item)">
+
+                  <div class="small-icon" @click="decreaseItem(item)">
                     <v-icon>mdi-minus</v-icon>
-                  </v-btn>
-                  <span v-if="getItemAmount(item)">{{ getItemAmount(item) }}</span>
+                  </div>
+                  <div class="small-icon" @click="increaseItem(item)">
+                    <v-icon>mdi-plus</v-icon>
+                  </div>
+                  <span v-if="getItemAmount(item)">{{
+                    getItemAmount(item)
+                  }}</span>
                 </li>
               </ul>
             </div>
@@ -52,15 +60,15 @@
             <v-btn text="Close" @click="closeDialog(isActive)"></v-btn>
           </v-card-actions>
 
-          <!-- Styled selected items list -->
-          <div class="selected-items">
+          <!-- Styled selected items list for debug -->
+          <!-- <div class="selected-items">
             <p>Selected Items:</p>
             <ul>
               <li v-for="item in selectedItems" :key="item.item">
                 {{ item.item }} x{{ item.amount }}
               </li>
             </ul>
-          </div>
+          </div> -->
         </v-card>
       </template>
     </v-dialog>
@@ -77,7 +85,7 @@ const props = defineProps({
   parentUnit: String,
 });
 
-const emit = defineEmits(['updateWargear']);
+const emit = defineEmits(["updateWargear"]);
 
 // Define a ref for storing the transformed parentUnit
 const transformedParentUnit = ref("");
@@ -131,10 +139,14 @@ onMounted(() => {
 });
 
 // Watch for changes in selectedItems and emit the updated data
-watch(selectedItems, (newVal) => {
-  emit('updateWargear', newVal);
-  console.log(selectedItems);
-}, { deep: true });
+watch(
+  selectedItems,
+  (newVal) => {
+    emit("updateWargear", newVal);
+    console.log(selectedItems);
+  },
+  { deep: true }
+);
 
 // Method to increase item count
 const increaseItem = (item) => {
@@ -166,7 +178,7 @@ const getItemAmount = (item) => {
 // Method to close the dialog and emit the wargear data
 const closeDialog = (isActive) => {
   isActive.value = false;
-  emit('updateWargear', selectedItems.value);
+  emit("updateWargear", selectedItems.value);
 };
 </script>
 
@@ -183,5 +195,12 @@ const closeDialog = (isActive) => {
 .selected-items li {
   margin: 8px 0;
   font-weight: bold;
+}
+
+.small-icon {
+  font-size: 16px; /* Adjust the size as needed */
+  cursor: pointer;
+  display: inline-block;
+  padding: 4px; /* Adjust padding as needed */
 }
 </style>

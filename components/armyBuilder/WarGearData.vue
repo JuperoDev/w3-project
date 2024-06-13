@@ -49,7 +49,7 @@
 
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn text="Close" @click="isActive.value = false"></v-btn>
+            <v-btn text="Close" @click="closeDialog(isActive)"></v-btn>
           </v-card-actions>
 
           <!-- Styled selected items list -->
@@ -161,6 +161,12 @@ const decreaseItem = (item) => {
 const getItemAmount = (item) => {
   const existingItem = selectedItems.value.find((i) => i.item === item);
   return existingItem ? existingItem.amount : 0;
+};
+
+// Method to close the dialog and emit the wargear data
+const closeDialog = (isActive) => {
+  isActive.value = false;
+  emit('updateWargear', selectedItems.value);
 };
 </script>
 

@@ -34,18 +34,16 @@
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
             <ArmyBuilderAdditionalData :url="url" :unit="unit" />
-            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit"  />
-            <!-- @updateWargear="updateWargear" -->
+            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event)" />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
               - {{ equipment }}
             </div>
-            <!-- <div v-if="unit.selectedWargear" class="selected-wargear">
-              {{ unit.selectedWargear }}
+            <div v-if="unit.selectedWargear && Object.keys(unit.selectedWargear).length" class="selected-wargear">
               <div v-for="(count, gear) in unit.selectedWargear" :key="gear">
                 {{ gear }}: {{ count }}
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -118,13 +116,13 @@ const totalPoints = computed(() => {
 });
 
 // Method to update wargear in savedCharacters
-// const updateWargear = (wargear) => {
-//   savedCharacters.value.forEach(character => {
-//     character.unitComposition.forEach(unit => {
-//       unit.selectedWargear = { ...unit.selectedWargear, ...wargear };
-//     });
-//   });
-// };
+const updateWargear = (index, wargear) => {
+  const updatedUnits = savedCharacters.value[index].unitComposition.map(unit => {
+    unit.selectedWargear = wargear;
+    return unit;
+  });
+  savedCharacters.value[index].unitComposition = updatedUnits;
+};
 </script>
 
 <style scoped>

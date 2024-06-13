@@ -1,5 +1,8 @@
 <template>
+  <div class="grid grid-cols-2">
+    <!-- column for debug -->
   <div>
+    <div class="stepper-army-builder">
     <v-stepper v-model="step">
       <!-- Stepper Header -->
       <v-stepper-header>
@@ -79,7 +82,7 @@
       >
       </v-stepper-actions>
     </v-stepper>
-
+  </div>
     <!-- Display WHArmyList -->
     <div v-if="armyComposerVisible">
       <h2>Selected Options:</h2>
@@ -91,6 +94,10 @@
       <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
     </div>
   </div>
+  <!-- column for debug -->
+<div class="right"></div>
+</div>
+
 </template>
 
 <script setup>

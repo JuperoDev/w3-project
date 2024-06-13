@@ -39,9 +39,9 @@
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
               - {{ equipment }}
             </div>
-            <div v-if="unit.selectedWargear && Object.keys(unit.selectedWargear).length" class="selected-wargear">
-              <div v-for="(count, gear) in unit.selectedWargear" :key="gear">
-                {{ gear }}: {{ count }}
+            <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
+              <div v-for="gear in unit.selectedWargear" :key="gear.item">
+                {{ gear.item }} x{{ gear.amount }}
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const saveCharacter = async (character) => {
     const unitsWithParentUnit = unitComposition.map(unit => ({
       ...unit,
       parentUnit: character.unitName, // Assuming character.unitName is the parent unit name
-      selectedWargear: {}
+      selectedWargear: []
     }));
 
     savedCharacters.value.push({ ...character, unitComposition: unitsWithParentUnit });

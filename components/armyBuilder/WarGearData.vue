@@ -52,8 +52,15 @@
             <v-btn text="Close" @click="isActive.value = false"></v-btn>
           </v-card-actions>
 
-          <!-- Debugging information -->
-          <p>Selected Items: {{ selectedItems }}</p>
+          <!-- Styled selected items list -->
+          <div class="selected-items">
+            <p>Selected Items:</p>
+            <ul>
+              <li v-for="item in selectedItems" :key="item.item">
+                {{ item.item }} x{{ item.amount }}
+              </li>
+            </ul>
+          </div>
         </v-card>
       </template>
     </v-dialog>
@@ -156,3 +163,19 @@ const getItemAmount = (item) => {
   return existingItem ? existingItem.amount : 0;
 };
 </script>
+
+<style scoped>
+.selected-items {
+  margin-top: 16px;
+}
+
+.selected-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-items li {
+  margin: 8px 0;
+  font-weight: bold;
+}
+</style>

@@ -2,9 +2,15 @@ import { defineStore } from 'pinia';
 
 export const useArmyStore = defineStore('armyStore', {
   state: () => ({
-    armies: (typeof window !== 'undefined' && localStorage.getItem('armies')) ? JSON.parse(localStorage.getItem('armies')) : [],
+    armies: [],
   }),
   actions: {
+    initializeStore() {
+      const storedArmies = localStorage.getItem('armies');
+      if (storedArmies) {
+        this.armies = JSON.parse(storedArmies);
+      }
+    },
     addArmy(army) {
       this.armies.push(army);
       this.saveArmies();
@@ -14,9 +20,7 @@ export const useArmyStore = defineStore('armyStore', {
       this.saveArmies();
     },
     saveArmies() {
-      if (typeof window !== 'undefined' && localStorage) {
-        localStorage.setItem('armies', JSON.stringify(this.armies));
-      }
+      localStorage.setItem('armies', JSON.stringify(this.armies));
     },
   },
 });

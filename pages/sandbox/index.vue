@@ -1,8 +1,8 @@
 <template>
   <div class="grid grid-cols-2">
-    <!-- Stepper and Army creation -->
+    <!-- Conditionally display the stepper or the stored armies -->
     <div>
-      <div class="stepper-army-builder">
+      <div v-if="stepperVisible" class="stepper-army-builder">
         <v-stepper v-model="step">
           <!-- Stepper Header -->
           <v-stepper-header>
@@ -78,6 +78,7 @@
           ></v-stepper-actions>
         </v-stepper>
       </div>
+
       <!-- Display WHArmyList -->
       <div v-if="armyComposerVisible">
         <h2>Selected Options:</h2>
@@ -88,7 +89,13 @@
         <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
         <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
       </div>
+
+      <!-- Button to show stepper for creating a new army -->
+      <div v-if="!stepperVisible">
+        <v-btn @click="showStepper">Create New Army</v-btn>
+      </div>
     </div>
+
     <!-- Display stored armies -->
     <div class="right">
       <h2>Stored Armies</h2>
@@ -171,6 +178,7 @@ const factionAndArmyUrl = computed(() => {
 });
 
 const armyComposerVisible = ref(false);
+const stepperVisible = ref(false); // Controls visibility of the stepper
 
 // Custom function for previous action
 const customActionForPrev = () => {
@@ -199,11 +207,12 @@ const showArmyComposer = () => {
 
 // Use the army store
 const armyStore = useArmyStore();
-const armies = ref([]);
+const armies = computed(() => armyStore.armies);
 
 // Ensure armies are only accessed on the client side
 onMounted(() => {
-  armies.value = armyStore.armies;
+  armyStore.initializeStore();
+  stepperVisible.value = armies.value.length === 0; // Show stepper if no armies exist
 });
 
 // Function to create an army
@@ -218,12 +227,14 @@ const createArmy = () => {
     };
     armyStore.addArmy(newArmy);
     armyComposerVisible.value = true;
+    stepperVisible.value = false; // Hide the stepper after creating an army
   }
 };
 
 // Function to remove an army
 const removeArmy = (index) => {
   armyStore.removeArmy(index);
+  stepperVisible.value = armyStore.armies.length === 0; // Show the stepper if no armies are left
 };
 
 // Function to load an army into the main builder
@@ -238,8 +249,20 @@ const loadArmy = (index) => {
   showArmyComposer();
 };
 
+// Function to show the stepper for creating a new army
+const showStepper = () => {
+  name.value = "";
+  selectedFaction.value = null;
+  selectedArmy.value = null;
+  pointList.value = "";
+  selectedDetachment.value = null;
+  step.value = 0;
+  armyComposerVisible.value = false;
+  stepperVisible.value = true; // Show the stepper
+};
+
 </script>
 
 <style>
-
+/* Your CSS styles */
 </style>

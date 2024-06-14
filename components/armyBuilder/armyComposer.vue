@@ -54,10 +54,11 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue';
 
-// props
 const props = defineProps({
   url: String
 });
+
+const emit = defineEmits(['add-character']);
 
 const isDialogOpen = ref(false);
 const characters = ref([]);
@@ -68,24 +69,30 @@ const openDialog = () => {
 };
 
 const saveCharacter = async (character) => {
-  // Fetch the character details
   const characterJsonFileName = character.unitName.replace(/\s+/g, '-').toLowerCase() + '.json';
   try {
     const res = await fetch(`/faction/${props.url}/collection/${characterJsonFileName}`);
     const data = await res.json();
     const unitComposition = data.unitComposition || [];
 
-    // Add parentUnit field to each unit in unitComposition
     const unitsWithParentUnit = unitComposition.map(unit => ({
       ...unit,
-      parentUnit: character.unitName, // Assuming character.unitName is the parent unit name
+      parentUnit: character.unitName,
       selectedWargear: []
     }));
 
-    savedCharacters.value.push({ ...character, unitComposition: unitsWithParentUnit });
+    const newCharacter = { ...character, unitComposition: unitsWithParentUnit };
+    savedCharacters.value.push(newCharacter);
+    emit('add-character', newCharacter);
+    isDialogOpen.value = false;
+    console.log("Character added:", newCharacter);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    savedCharacters.value.push(character); // Add without equipment if fetch fails
+    const newCharacter = { ...character, unitComposition: [] };
+    savedCharacters.value.push(newCharacter);
+    emit('add-character', newCharacter);
+    isDialogOpen.value = false;
+    console.log("Character added without unit composition due to fetch error:", newCharacter);
   }
 };
 
@@ -93,29 +100,25 @@ const deleteCharacter = (index) => {
   savedCharacters.value.splice(index, 1);
 };
 
-// Import JSON data when the component is mounted
 onMounted(async () => {
-  if (!props.url) return; // Check if url is defined
+  if (!props.url) return;
   try {
     const res = await fetch(`/faction/${props.url}/collection.json`);
     const data = await res.json();
-    characters.value = data.characters; // Update characters with fetched data
+    characters.value = data.characters;
   } catch (error) {
     console.error("Fetch Error: ", error);
   }
 });
 
-// Computed property to count occurrences of each character
 const characterCount = (character) => {
   return savedCharacters.value.filter(saved => saved.unitName === character.unitName).length;
 };
 
-// Computed property to calculate total points
 const totalPoints = computed(() => {
   return savedCharacters.value.reduce((sum, character) => sum + character.basicPoints, 0);
 });
 
-// Method to update wargear in savedCharacters
 const updateWargear = (index, wargear) => {
   const updatedUnits = savedCharacters.value[index].unitComposition.map(unit => {
     unit.selectedWargear = wargear;

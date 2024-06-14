@@ -1,10 +1,8 @@
 <template>
   <div class="grid grid-cols-2">
-    <!-- Conditionally display the stepper or the stored armies -->
     <div>
       <div v-if="stepperVisible" class="stepper-army-builder">
         <v-stepper v-model="step">
-          <!-- Stepper Header -->
           <v-stepper-header>
             <v-stepper-item title="" value="1"></v-stepper-item>
             <v-divider></v-divider>
@@ -14,48 +12,28 @@
             <v-divider></v-divider>
             <v-stepper-item title="" value="4"></v-stepper-item>
           </v-stepper-header>
-
-          <!-- Stepper Windows -->
           <v-stepper-window>
             <v-stepper-window-item value="1">
               <v-card title="Choose Faction" flat>
                 <v-radio-group v-model="selectedFaction">
-                  <v-radio
-                    v-for="(faction, index) in factions"
-                    :key="index"
-                    :label="faction"
-                    :value="faction"
-                  ></v-radio>
+                  <v-radio v-for="(faction, index) in factions" :key="index" :label="faction" :value="faction"></v-radio>
                 </v-radio-group>
               </v-card>
             </v-stepper-window-item>
-
             <v-stepper-window-item value="2">
               <v-card title="Choose Army" flat>
                 <v-radio-group v-model="selectedArmy">
-                  <v-radio
-                    v-for="(army, index) in filteredArmies"
-                    :key="index"
-                    :label="army"
-                    :value="army"
-                  ></v-radio>
+                  <v-radio v-for="(army, index) in filteredArmies" :key="index" :label="army" :value="army"></v-radio>
                 </v-radio-group>
               </v-card>
             </v-stepper-window-item>
-
             <v-stepper-window-item value="3">
               <v-card title="Choose Detachment" flat>
                 <v-radio-group v-model="selectedDetachment">
-                  <v-radio
-                    v-for="(detachment, index) in filteredDetachments"
-                    :key="index"
-                    :label="detachment"
-                    :value="detachment"
-                  ></v-radio>
+                  <v-radio v-for="(detachment, index) in filteredDetachments" :key="index" :label="detachment" :value="detachment"></v-radio>
                 </v-radio-group>
               </v-card>
             </v-stepper-window-item>
-
             <v-stepper-window-item value="4">
               <v-card title="Details" flat>
                 <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
@@ -68,18 +46,9 @@
               </v-card>
             </v-stepper-window-item>
           </v-stepper-window>
-
-          <!-- Stepper Actions -->
-          <v-stepper-actions
-            prev-text="Previous"
-            next-text="Next"
-            @click:next="customActionForNext"
-            @click:prev="customActionForPrev"
-          ></v-stepper-actions>
+          <v-stepper-actions prev-text="Previous" next-text="Next" @click:next="customActionForNext" @click:prev="customActionForPrev"></v-stepper-actions>
         </v-stepper>
       </div>
-
-      <!-- Display WHArmyList -->
       <div v-if="armyComposerVisible">
         <h2>Selected Options:</h2>
         <p><strong>Name:</strong> {{ name }}</p>
@@ -87,16 +56,38 @@
         <p><strong>Point List:</strong> {{ pointList }}</p>
         <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
         <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
-        <ArmyBuilderArmyComposer :url="factionAndArmyUrl" />
-      </div>
+        
+        <ArmyBuilderArmyComposer :url="factionAndArmyUrl" @add-character="addCharacterToCurrentArmy" />
+        
+        <div class="characters-list">
+          <h3>Characters in Current Army:</h3>
+          <div v-for="(character, charIndex) in currentArmy.characters" :key="charIndex">
+            <p>{{ character.unitName }}: {{ character.basicPoints }} points</p>
+            <v-btn @click="removeCharacter(charIndex)">Delete</v-btn>
+            <div v-if="character.unitComposition" class="unit-composition-list">
+              <div v-for="unit in character.unitComposition" :key="unit.unitType" class="unit-composition">
+                <ArmyBuilderAdditionalData :url="factionAndArmyUrl" :unit="unit" />
+                <ArmyBuilderWarGearData :url="factionAndArmyUrl" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(charIndex, $event)" />
+                <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
+                <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
+                  - {{ equipment }}
+                </div>
+                <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
+                  <div v-for="gear in unit.selectedWargear" :key="gear.item">
+                    {{ gear.item }} x{{ gear.amount }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <!-- Button to show stepper for creating a new army -->
+        <v-btn class="m-3" @click="saveCurrentArmy">Save Army</v-btn>
+      </div>
       <div v-if="!stepperVisible">
         <v-btn @click="showStepper">Create New Army</v-btn>
       </div>
     </div>
-
-    <!-- Display stored armies -->
     <div class="right">
       <h2>Stored Armies</h2>
       <div v-for="(army, index) in armies" :key="index">
@@ -112,7 +103,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from "vue";
+import { ref, computed, onMounted, reactive } from "vue";
 import { useArmyStore } from "@/stores/armyStore";
 import {
   VStepper,
@@ -130,16 +121,14 @@ const pointList = ref("");
 const selectedFaction = ref(null);
 const selectedArmy = ref(null);
 const selectedDetachment = ref(null);
+const currentArmy = reactive({ characters: [] });
 
-// Import the JSON data
 import factionsData from "./faction.json";
 import armiesData from "./army.json";
 import detachmentsData from "./detachment.json";
 
-// Extract factions from JSON data
 const factions = ref(factionsData.faction);
 
-// Computed property to filter armies based on the selected faction
 const filteredArmies = computed(() => {
   if (selectedFaction.value && armiesData[selectedFaction.value]) {
     const selectedFactionLower = selectedFaction.value.toLowerCase();
@@ -149,7 +138,6 @@ const filteredArmies = computed(() => {
   return [];
 });
 
-// Computed property to filter detachments based on the selected army
 const filteredDetachments = computed(() => {
   if (selectedArmy.value && detachmentsData[selectedArmy.value]) {
     const selectedArmyLower = selectedArmy.value.toLowerCase();
@@ -159,15 +147,10 @@ const filteredDetachments = computed(() => {
   return [];
 });
 
-// Function to sanitize URL parts
 const sanitize = (str) => {
-  return str
-    .toLowerCase()
-    .replace(/\s+/g, '-') // Replace spaces with hyphens
-    .replace(/[^a-z0-9-]/g, '-'); // Replace non-alphanumeric characters with hyphens
+  return str.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '-');
 };
 
-// Computed to generate URL
 const factionAndArmyUrl = computed(() => {
   if (selectedFaction.value && selectedArmy.value) {
     const sanitizedFaction = sanitize(selectedFaction.value);
@@ -178,14 +161,12 @@ const factionAndArmyUrl = computed(() => {
 });
 
 const armyComposerVisible = ref(false);
-const stepperVisible = ref(false); // Controls visibility of the stepper
+const stepperVisible = ref(false);
 
-// Custom function for previous action
 const customActionForPrev = () => {
   step.value--;
 };
 
-// Custom function for next action
 const customActionForNext = () => {
   if (
     (step.value === 0 && !!selectedFaction.value) ||
@@ -196,7 +177,6 @@ const customActionForNext = () => {
   }
 };
 
-// Show the army composer only when all information is available
 const showArmyComposer = () => {
   if (name.value && selectedArmy.value && pointList.value) {
     armyComposerVisible.value = true;
@@ -205,17 +185,15 @@ const showArmyComposer = () => {
   }
 };
 
-// Use the army store
 const armyStore = useArmyStore();
 const armies = computed(() => armyStore.armies);
 
-// Ensure armies are only accessed on the client side
 onMounted(() => {
   armyStore.initializeStore();
-  stepperVisible.value = armies.value.length === 0; // Show stepper if no armies exist
+  stepperVisible.value = armies.value.length === 0;
+  console.log("Loaded armies on mount:", armies.value);
 });
 
-// Function to create an army
 const createArmy = () => {
   if (name.value && selectedArmy.value && pointList.value && selectedDetachment.value) {
     const newArmy = {
@@ -224,20 +202,19 @@ const createArmy = () => {
       selectedArmy: selectedArmy.value,
       pointList: pointList.value,
       selectedDetachment: selectedDetachment.value,
+      characters: [],
     };
     armyStore.addArmy(newArmy);
     armyComposerVisible.value = true;
-    stepperVisible.value = false; // Hide the stepper after creating an army
+    stepperVisible.value = false;
   }
 };
 
-// Function to remove an army
 const removeArmy = (index) => {
   armyStore.removeArmy(index);
-  stepperVisible.value = armyStore.armies.length === 0; // Show the stepper if no armies are left
+  stepperVisible.value = armyStore.armies.length === 0;
 };
 
-// Function to load an army into the main builder
 const loadArmy = (index) => {
   const army = armies.value[index];
   name.value = army.name;
@@ -245,24 +222,98 @@ const loadArmy = (index) => {
   selectedArmy.value = army.selectedArmy;
   pointList.value = army.pointList;
   selectedDetachment.value = army.selectedDetachment;
-  step.value = 0; // Optionally reset the step to the beginning
-  showArmyComposer();
+  currentArmy.characters = [];
+  nextTick(() => {
+    currentArmy.characters = [...army.characters];
+  });
+  step.value = 0;
+  armyComposerVisible.value = true; // Ensure the composer is visible
+  console.log("Loaded army:", army);
 };
 
-// Function to show the stepper for creating a new army
 const showStepper = () => {
   name.value = "";
   selectedFaction.value = null;
   selectedArmy.value = null;
   pointList.value = "";
   selectedDetachment.value = null;
+  currentArmy.characters = [];
   step.value = 0;
   armyComposerVisible.value = false;
-  stepperVisible.value = true; // Show the stepper
+  stepperVisible.value = true;
 };
 
+const addCharacterToCurrentArmy = (character) => {
+  const currentIndex = armies.value.findIndex(army => army.name === name.value);
+  if (currentIndex !== -1) {
+    console.log(`Adding character to army at index ${currentIndex}:`, character);
+    const existingCharacterIndex = currentArmy.characters.findIndex(c => c.unitName === character.unitName && c.basicPoints === character.basicPoints);
+    if (existingCharacterIndex === -1) {
+      currentArmy.characters.push(character); // Update current army in the UI
+      armyStore.addCharacterToArmy(currentIndex, character); // Ensure this method exists in your store
+      console.log("Current state of armies after adding character:", JSON.stringify(armyStore.armies, null, 2));
+      nextTick(() => {
+        currentArmy.characters = [...armyStore.armies[currentIndex].characters];
+      });
+    } else {
+      console.log("Character already exists in the current army.");
+    }
+  }
+};
+
+const saveCurrentArmy = () => {
+  const currentIndex = armies.value.findIndex(army => army.name === name.value);
+  if (currentIndex !== -1) {
+    armyStore.armies[currentIndex] = JSON.parse(JSON.stringify(currentArmy)); // Update the store with the current army
+    armyStore.saveArmies(); // Explicitly save the current state to local storage
+    console.log("Saved Armies:", JSON.stringify(armyStore.armies, null, 2)); // Log the current state of armies
+  }
+};
+
+const removeCharacter = (charIndex) => {
+  currentArmy.characters.splice(charIndex, 1); // Update current army in the UI
+  saveCurrentArmy(); // Save changes after removing character
+  nextTick(() => {
+    currentArmy.characters = [...currentArmy.characters];
+  });
+};
+
+const updateWargear = (charIndex, wargear) => {
+  currentArmy.characters[charIndex].unitComposition.forEach(unit => {
+    unit.selectedWargear = wargear;
+  });
+  saveCurrentArmy(); // Save changes after updating wargear
+  nextTick(() => {
+    currentArmy.characters = [...currentArmy.characters];
+  });
+};
 </script>
 
 <style>
-/* Your CSS styles */
+.characters-list {
+  margin-top: 20px;
+}
+
+.unit-composition-list {
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.unit-composition {
+  font-size: 0.875rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.equipment {
+  font-size: 0.875rem;
+  color: #555;
+  margin-left: 10px;
+}
+
+.selected-wargear {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #000;
+}
 </style>

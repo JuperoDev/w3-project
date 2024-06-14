@@ -57,7 +57,7 @@
         <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
         <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
         
-        <ArmyBuilderArmyComposer ref="armyComposerRef" :url="factionAndArmyUrl" :armyIndex="currentArmyIndex" @add-character="addCharacterToCurrentArmy" />
+        <ArmyBuilderArmyComposer ref="armyComposerRef" :url="factionAndArmyUrl" :armyIndex="currentArmyIndex"  />
      
       </div>
      
@@ -90,7 +90,6 @@ import {
   VStepperWindow,
   VStepperWindowItem,
 } from "vuetify/labs/VStepper";
-
 
 const step = ref(0);
 const name = ref("");
@@ -158,14 +157,6 @@ const customActionForNext = () => {
   }
 };
 
-const showArmyComposer = () => {
-  if (name.value && selectedArmy.value && pointList.value) {
-    armyComposerVisible.value = true;
-  } else {
-    armyComposerVisible.value = false;
-  }
-};
-
 const armyStore = useArmyStore();
 const armies = computed(() => armyStore.armies);
 
@@ -206,14 +197,23 @@ const loadArmy = (index) => {
   selectedDetachment.value = army.selectedDetachment;
   currentArmy.characters = [...army.characters];
   currentArmyIndex.value = index;
+
   nextTick(() => {
-    currentArmy.characters = [...army.characters];
-    if (armyComposerVisible.value && armyComposerRef.value) {
+    armyComposerVisible.value = true;
+    if (armyComposerRef.value) {
       armyComposerRef.value.loadCharacters(currentArmy.characters);
     }
+
+    // Simulate the second click by calling the loadArmy method again. Im sorry I use such a cheap hack :(
+    nextTick(() => {
+      armyComposerVisible.value = true;
+      if (armyComposerRef.value) {
+        armyComposerRef.value.loadCharacters(currentArmy.characters);
+      }
+    });
   });
+
   step.value = 0;
-  armyComposerVisible.value = true;
   console.log("Loaded army:", army);
 };
 
@@ -228,32 +228,6 @@ const showStepper = () => {
   step.value = 0;
   armyComposerVisible.value = false;
   stepperVisible.value = true;
-};
-
-const addCharacterToCurrentArmy = (character) => {
-  const currentIndex = armies.value.findIndex(army => army.name === name.value);
-  if (currentIndex !== -1) {
-    currentArmy.characters.push(character); // Update current army in the UI
-    armyStore.addCharacterToArmy(currentIndex, character); // Update store
-    console.log("Current state of armies after adding character:", JSON.stringify(armyStore.armies, null, 2));
-
-    // Force Vue to update the UI
-    currentArmy.characters = [...currentArmy.characters];
-  }
-};
-
-const removeCharacter = (charIndex) => {
-  currentArmy.characters.splice(charIndex, 1); // Update current army in the UI
-  const currentIndex = armies.value.findIndex(army => army.name === name.value);
-  if (currentIndex !== -1) {
-    armyStore.armies[currentIndex].characters = [...currentArmy.characters];
-    armyStore.saveArmies(); // Explicitly save the current state to local storage
-    console.log("Current state of armies after removing character:", JSON.stringify(armyStore.armies, null, 2)); // Log the current state of armies
-    nextTick(() => {
-      currentArmy.characters = [];
-      currentArmy.characters = [...armyStore.armies[currentIndex].characters];
-    });
-  }
 };
 
 const updateWargear = (charIndex, wargear) => {

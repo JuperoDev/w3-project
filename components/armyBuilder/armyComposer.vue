@@ -13,7 +13,7 @@
             <div v-for="character in characters" :key="character.unitName">
               {{ character.unitName }}: {{ character.basicPoints }} points
               <div class="text-sm text-gray-500">Count in army: {{ countInArmy(character.unitName) }}</div>
-              <v-btn @click="saveCharacter(character)">Add</v-btn>
+              <v-btn :id="'add-' + character.unitName" @click="saveCharacter(character)">Add</v-btn>
             </div>
           </v-card-text>
 
@@ -63,6 +63,7 @@ const emit = defineEmits(['add-character']);
 const isDialogOpen = ref(false);
 const characters = ref([]);
 const savedCharacters = ref([]);
+const isSaving = ref(false); // Add this to prevent multiple saves
 
 const armyStore = useArmyStore();
 
@@ -71,7 +72,11 @@ const openDialog = () => {
 };
 
 const saveCharacter = async (character) => {
+  if (isSaving.value) return; // Prevent further clicks while saving
+  isSaving.value = true;
+
   const characterJsonFileName = character.unitName.replace(/\s+/g, '-').toLowerCase() + '.json';
+
   try {
     const res = await fetch(`/faction/${props.url}/collection/${characterJsonFileName}`);
     const data = await res.json();
@@ -95,6 +100,8 @@ const saveCharacter = async (character) => {
     armyStore.addCharacterToArmy(props.armyIndex, newCharacter);
     emit('add-character', newCharacter);
     console.log("Character added without unit composition due to fetch error:", newCharacter);
+  } finally {
+    isSaving.value = false; // Reset saving state
   }
 };
 

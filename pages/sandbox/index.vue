@@ -60,7 +60,7 @@
         <ArmyBuilderArmyComposer :url="factionAndArmyUrl" @add-character="addCharacterToCurrentArmy" />
         
         <div class="characters-list">
-          <h3>Characters in Current Army:</h3>
+          <!-- <h3>Characters in Current Army:</h3> -->
           <div v-for="(character, charIndex) in currentArmy.characters" :key="charIndex">
             <p>{{ character.unitName }}: {{ character.basicPoints }} points</p>
             <v-btn @click="removeCharacter(charIndex)">Delete</v-btn>
@@ -81,15 +81,14 @@
             </div>
           </div>
         </div>
-
-        <v-btn class="m-3" @click="saveCurrentArmy">Save Army</v-btn>
       </div>
-      <div v-if="!stepperVisible">
-        <v-btn @click="showStepper">Create New Army</v-btn>
-      </div>
+     
     </div>
     <div class="right">
       <h2>Stored Armies</h2>
+      <div v-if="!stepperVisible">
+        <v-btn @click="showStepper">Create New Army</v-btn>
+      </div>
       <div v-for="(army, index) in armies" :key="index">
         <p><strong>Name:</strong> {{ army.name }}</p>
         <p><strong>Army:</strong> {{ army.selectedArmy }}</p>
@@ -103,7 +102,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, reactive } from "vue";
+import { ref, computed, onMounted, reactive, nextTick } from "vue";
 import { useArmyStore } from "@/stores/armyStore";
 import {
   VStepper,
@@ -246,46 +245,51 @@ const showStepper = () => {
 const addCharacterToCurrentArmy = (character) => {
   const currentIndex = armies.value.findIndex(army => army.name === name.value);
   if (currentIndex !== -1) {
-    console.log(`Adding character to army at index ${currentIndex}:`, character);
-    const existingCharacterIndex = currentArmy.characters.findIndex(c => c.unitName === character.unitName && c.basicPoints === character.basicPoints);
+    const existingCharacterIndex = currentArmy.characters.findIndex(c =>
+      c.unitName === character.unitName && c.basicPoints === character.basicPoints
+    );
     if (existingCharacterIndex === -1) {
       currentArmy.characters.push(character); // Update current army in the UI
-      armyStore.addCharacterToArmy(currentIndex, character); // Ensure this method exists in your store
+      armyStore.addCharacterToArmy(currentIndex, character); // Update store
       console.log("Current state of armies after adding character:", JSON.stringify(armyStore.armies, null, 2));
-      nextTick(() => {
-        currentArmy.characters = [...armyStore.armies[currentIndex].characters];
-      });
+
+      // Force Vue to update the UI
+      currentArmy.characters = [...currentArmy.characters];
     } else {
       console.log("Character already exists in the current army.");
     }
   }
 };
 
-const saveCurrentArmy = () => {
-  const currentIndex = armies.value.findIndex(army => army.name === name.value);
-  if (currentIndex !== -1) {
-    armyStore.armies[currentIndex] = JSON.parse(JSON.stringify(currentArmy)); // Update the store with the current army
-    armyStore.saveArmies(); // Explicitly save the current state to local storage
-    console.log("Saved Armies:", JSON.stringify(armyStore.armies, null, 2)); // Log the current state of armies
-  }
-};
 
 const removeCharacter = (charIndex) => {
   currentArmy.characters.splice(charIndex, 1); // Update current army in the UI
-  saveCurrentArmy(); // Save changes after removing character
-  nextTick(() => {
-    currentArmy.characters = [...currentArmy.characters];
-  });
+  const currentIndex = armies.value.findIndex(army => army.name === name.value);
+  if (currentIndex !== -1) {
+    armyStore.armies[currentIndex].characters = [...currentArmy.characters];
+    armyStore.saveArmies(); // Explicitly save the current state to local storage
+    console.log("Current state of armies after removing character:", JSON.stringify(armyStore.armies, null, 2)); // Log the current state of armies
+    nextTick(() => {
+      currentArmy.characters = [];
+      currentArmy.characters = [...armyStore.armies[currentIndex].characters];
+    });
+  }
 };
 
 const updateWargear = (charIndex, wargear) => {
   currentArmy.characters[charIndex].unitComposition.forEach(unit => {
     unit.selectedWargear = wargear;
   });
-  saveCurrentArmy(); // Save changes after updating wargear
-  nextTick(() => {
-    currentArmy.characters = [...currentArmy.characters];
-  });
+  const currentIndex = armies.value.findIndex(army => army.name === name.value);
+  if (currentIndex !== -1) {
+    armyStore.armies[currentIndex].characters = [...currentArmy.characters];
+    armyStore.saveArmies(); // Explicitly save the current state to local storage
+    console.log("Current state of armies after updating wargear:", JSON.stringify(armyStore.armies, null, 2)); // Log the current state of armies
+    nextTick(() => {
+      currentArmy.characters = [];
+      currentArmy.characters = [...armyStore.armies[currentIndex].characters];
+    });
+  }
 };
 </script>
 

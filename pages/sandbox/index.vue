@@ -1,5 +1,6 @@
 <template>
   <div class="grid grid-cols-2">
+    
     <div>
       <div v-if="stepperVisible" class="stepper-army-builder">
         <v-stepper v-model="step">

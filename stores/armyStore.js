@@ -21,6 +21,9 @@ export const useArmyStore = defineStore('armyStore', {
       this.saveArmies();
     },
     addCharacterToArmy(armyIndex, character) {
+      if (!this.armies[armyIndex].characters) {
+        this.armies[armyIndex].characters = [];
+      }
       this.armies[armyIndex].characters.push(character);
       this.saveArmies();
     },

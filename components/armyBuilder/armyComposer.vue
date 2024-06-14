@@ -12,6 +12,7 @@
           <v-card-text>
             <div v-for="character in characters" :key="character.unitName">
               {{ character.unitName }}: {{ character.basicPoints }} points
+              <div class="text-sm text-gray-500">Count in army: {{ countInArmy(character.unitName) }}</div>
               <v-btn @click="saveCharacter(character)">Add</v-btn>
             </div>
           </v-card-text>
@@ -95,7 +96,6 @@ const saveCharacter = async (character) => {
     emit('add-character', newCharacter);
     console.log("Character added without unit composition due to fetch error:", newCharacter);
   }
-  isDialogOpen.value = false;
 };
 
 const deleteCharacter = (index) => {
@@ -130,6 +130,10 @@ const updateWargear = (index, wargear) => {
 // Expose the loadCharacters method to be called from the parent
 const loadCharacters = (characters) => {
   savedCharacters.value = characters;
+};
+
+const countInArmy = (unitName) => {
+  return savedCharacters.value.filter(character => character.unitName === unitName).length;
 };
 
 defineExpose({ loadCharacters });
@@ -169,5 +173,13 @@ defineExpose({ loadCharacters });
   margin-top: 10px;
   font-size: 0.875rem;
   color: #000;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-gray-500 {
+  color: #6b7280;
 }
 </style>

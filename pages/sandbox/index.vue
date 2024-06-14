@@ -57,30 +57,8 @@
         <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
         <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
         
-        <ArmyBuilderArmyComposer :url="factionAndArmyUrl" @add-character="addCharacterToCurrentArmy" />
-        
-        <div class="characters-list">
-          <!-- <h3>Characters in Current Army:</h3> -->
-          <div v-for="(character, charIndex) in currentArmy.characters" :key="charIndex">
-            <p>{{ character.unitName }}: {{ character.basicPoints }} points</p>
-            <v-btn @click="removeCharacter(charIndex)">Delete</v-btn>
-            <div v-if="character.unitComposition" class="unit-composition-list">
-              <div v-for="unit in character.unitComposition" :key="unit.unitType" class="unit-composition">
-                <ArmyBuilderAdditionalData :url="factionAndArmyUrl" :unit="unit" />
-                <ArmyBuilderWarGearData :url="factionAndArmyUrl" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(charIndex, $event)" />
-                <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
-                <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
-                  - {{ equipment }}
-                </div>
-                <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
-                  <div v-for="gear in unit.selectedWargear" :key="gear.item">
-                    {{ gear.item }} x{{ gear.amount }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ArmyBuilderArmyComposer ref="armyComposerRef" :url="factionAndArmyUrl" :armyIndex="currentArmyIndex" @add-character="addCharacterToCurrentArmy" />
+     
       </div>
      
     </div>
@@ -113,6 +91,7 @@ import {
   VStepperWindowItem,
 } from "vuetify/labs/VStepper";
 
+
 const step = ref(0);
 const name = ref("");
 const pointList = ref("");
@@ -121,6 +100,9 @@ const selectedFaction = ref(null);
 const selectedArmy = ref(null);
 const selectedDetachment = ref(null);
 const currentArmy = reactive({ characters: [] });
+const currentArmyIndex = ref(null);
+
+const armyComposerRef = ref(null);  // Correctly define the ref
 
 import factionsData from "./faction.json";
 import armiesData from "./army.json";
@@ -206,6 +188,7 @@ const createArmy = () => {
     armyStore.addArmy(newArmy);
     armyComposerVisible.value = true;
     stepperVisible.value = false;
+    currentArmyIndex.value = armies.value.length - 1;
   }
 };
 
@@ -221,12 +204,16 @@ const loadArmy = (index) => {
   selectedArmy.value = army.selectedArmy;
   pointList.value = army.pointList;
   selectedDetachment.value = army.selectedDetachment;
-  currentArmy.characters = [];
+  currentArmy.characters = [...army.characters];
+  currentArmyIndex.value = index;
   nextTick(() => {
     currentArmy.characters = [...army.characters];
+    if (armyComposerVisible.value && armyComposerRef.value) {
+      armyComposerRef.value.loadCharacters(currentArmy.characters);
+    }
   });
   step.value = 0;
-  armyComposerVisible.value = true; // Ensure the composer is visible
+  armyComposerVisible.value = true;
   console.log("Loaded army:", army);
 };
 
@@ -237,6 +224,7 @@ const showStepper = () => {
   pointList.value = "";
   selectedDetachment.value = null;
   currentArmy.characters = [];
+  currentArmyIndex.value = null;
   step.value = 0;
   armyComposerVisible.value = false;
   stepperVisible.value = true;
@@ -245,22 +233,14 @@ const showStepper = () => {
 const addCharacterToCurrentArmy = (character) => {
   const currentIndex = armies.value.findIndex(army => army.name === name.value);
   if (currentIndex !== -1) {
-    const existingCharacterIndex = currentArmy.characters.findIndex(c =>
-      c.unitName === character.unitName && c.basicPoints === character.basicPoints
-    );
-    if (existingCharacterIndex === -1) {
-      currentArmy.characters.push(character); // Update current army in the UI
-      armyStore.addCharacterToArmy(currentIndex, character); // Update store
-      console.log("Current state of armies after adding character:", JSON.stringify(armyStore.armies, null, 2));
+    currentArmy.characters.push(character); // Update current army in the UI
+    armyStore.addCharacterToArmy(currentIndex, character); // Update store
+    console.log("Current state of armies after adding character:", JSON.stringify(armyStore.armies, null, 2));
 
-      // Force Vue to update the UI
-      currentArmy.characters = [...currentArmy.characters];
-    } else {
-      console.log("Character already exists in the current army.");
-    }
+    // Force Vue to update the UI
+    currentArmy.characters = [...currentArmy.characters];
   }
 };
-
 
 const removeCharacter = (charIndex) => {
   currentArmy.characters.splice(charIndex, 1); // Update current army in the UI

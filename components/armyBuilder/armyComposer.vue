@@ -13,22 +13,19 @@
             <div v-for="character in characters" :key="character.unitName">
               {{ character.unitName }}: {{ character.basicPoints }} points
               <v-btn @click="saveCharacter(character)">Add</v-btn>
-              <div v-if="characterCount(character) > 0" class="character-count">
-                Already in army: {{ characterCount(character) }}
-              </div>
             </div>
           </v-card-text>
 
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn text="Close Dialog" @click="isDialogOpen = false"></v-btn>
+            <v-btn text="Close Dialog" @click="isDialogOpen = false">Close</v-btn>
           </v-card-actions>
         </v-card>
       </template>
     </v-dialog>
 
     <div class="saved-characters">
-      <div v-for="(savedCharacter, index) in savedCharacters" :key="savedCharacter.unitName">
+      <div v-for="(savedCharacter, index) in savedCharacters" :key="index">
         {{ savedCharacter.unitName }}: {{ savedCharacter.basicPoints }} points
         <v-btn @click="deleteCharacter(index)">Delete</v-btn>
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
@@ -52,10 +49,12 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, computed, defineExpose } from 'vue';
+import { useArmyStore } from '@/stores/armyStore';
 
 const props = defineProps({
-  url: String
+  url: String,
+  armyIndex: Number
 });
 
 const emit = defineEmits(['add-character']);
@@ -63,6 +62,8 @@ const emit = defineEmits(['add-character']);
 const isDialogOpen = ref(false);
 const characters = ref([]);
 const savedCharacters = ref([]);
+
+const armyStore = useArmyStore();
 
 const openDialog = () => {
   isDialogOpen.value = true;
@@ -83,21 +84,23 @@ const saveCharacter = async (character) => {
 
     const newCharacter = { ...character, unitComposition: unitsWithParentUnit };
     savedCharacters.value.push(newCharacter);
+    armyStore.addCharacterToArmy(props.armyIndex, newCharacter);
     emit('add-character', newCharacter);
-    isDialogOpen.value = false;
     console.log("Character added:", newCharacter);
   } catch (error) {
     console.error("Fetch Error: ", error);
     const newCharacter = { ...character, unitComposition: [] };
     savedCharacters.value.push(newCharacter);
+    armyStore.addCharacterToArmy(props.armyIndex, newCharacter);
     emit('add-character', newCharacter);
-    isDialogOpen.value = false;
     console.log("Character added without unit composition due to fetch error:", newCharacter);
   }
+  isDialogOpen.value = false;
 };
 
 const deleteCharacter = (index) => {
   savedCharacters.value.splice(index, 1);
+  armyStore.removeCharacterFromArmy(props.armyIndex, index);
 };
 
 onMounted(async () => {
@@ -111,10 +114,6 @@ onMounted(async () => {
   }
 });
 
-const characterCount = (character) => {
-  return savedCharacters.value.filter(saved => saved.unitName === character.unitName).length;
-};
-
 const totalPoints = computed(() => {
   return savedCharacters.value.reduce((sum, character) => sum + character.basicPoints, 0);
 });
@@ -125,7 +124,15 @@ const updateWargear = (index, wargear) => {
     return unit;
   });
   savedCharacters.value[index].unitComposition = updatedUnits;
+  armyStore.saveArmies();
 };
+
+// Expose the loadCharacters method to be called from the parent
+const loadCharacters = (characters) => {
+  savedCharacters.value = characters;
+};
+
+defineExpose({ loadCharacters });
 </script>
 
 <style scoped>
@@ -139,12 +146,6 @@ const updateWargear = (index, wargear) => {
 
 .saved-characters div {
   margin-bottom: 5px;
-}
-
-.character-count {
-  font-size: 0.875rem;
-  color: #888;
-  margin-top: 5px;
 }
 
 .unit-composition-list {

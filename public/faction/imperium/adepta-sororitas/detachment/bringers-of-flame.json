@@ -1,0 +1,82 @@
+{
+    "stratagems": [
+        {
+            "name": "shield of aversion",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Sisters of Battle gird themselves with the strength of their faith. It is a shield of repulsion that rejects the heretical cunning of their enemies.",
+            "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "cleansing flames",
+            "subindex": "battle tactic stratagem",
+            "lore": "Burn the mutant. Burn the heretic. Burn the witch.",
+            "when": "Your Shooting phase.",
+            "target": "One ADEPTA SORORITAS unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, Torrent weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "righteous blows",
+            "subindex": "battle tactic stratagem",
+            "lore": "As the faithful strike their foes in righteous anger, they feel the Emperor's hand adding strength to their blows.",
+            "when": "Fight phase.",
+            "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If one or more enemy models are destroyed as the result of attacks made by those weapons this phase, select one of those destroyed models; that destroyed model's unit must take a Battle-shock test.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "rites of fire",
+            "subindex": "battle tactic stratagem",
+            "lore": "At close range, the Adepta Sororitas unleash the full devastating potential of their blessed weapons.",
+            "when": "Your Shooting phase.",
+            "target": "One ADEPTA SORORITAS unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 12\" that is also within range of an objective marker, add 1 to the Wound roll. If one or more enemy models are destroyed as the result of those attacks, select one of those destroyed models; that destroyed model's unit must take a Battle-shock test.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "carry forth the faithful",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Congregated within a transport, the Battle Sisters recite bellowing prayers so that the whole vehicle echoes to furious piety.",
+            "when": "Your Movement phase, just before an ADEPTA SORORITAS TRANSPORT model from your army Advances.",
+            "target": "That ADEPTA SORORITAS TRANSPORT model.",
+            "effect": "Until the end of the turn, you can re-roll Advance rolls made for your TRANSPORT, and units can disembark from your TRANSPORT even though it Advanced. Units that do so count as having made a Normal move, and cannot declare a charge this turn.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "blazing ire",
+            "subindex": "battle tactic stratagem",
+            "lore": "The transports of the Adepta Sororitas are mobile shrines. The Sisters within this vehicle recite psalms of righteous hatred and destruction before emerging to obliterate their foes.",
+            "when": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+            "target": "One ADEPTA SORORITAS TRANSPORT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+            "effect": "One unit embarked within your TRANSPORT can disembark as if it were your Movement phase, and can then shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

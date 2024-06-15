@@ -1,0 +1,83 @@
+{
+    "stratagems": [
+        {
+            "name": "shield of faith",
+            "subindex": "battle tactic stratagem",
+            "lore": "There is no armour as resilient as conviction itself.",
+            "when": "Any phase, just after an ADEPTA SORORITAS unit from your army suffers a mortal wound.",
+            "target": "That ADEPTA SORORITAS unit, or one friendly ADEPTA SORORITAS JUMP PACK unit within 3\" of that unit.",
+            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds. If you targeted an ADEPTA SORORITAS JUMP PACK unit from your army with this Stratagem, then until the end of the phase, while a friendly ADEPTA SORORITAS unit is within 3\" of your unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "light of the emperor",
+            "subindex": "battle tactic stratagem",
+            "lore": "The Emperor's radiance shines upon his warriors, magnifying their purity in their darkest hour.",
+            "when": "Command phase.",
+            "target": "One ADEPTA SORORITAS unit from your army.",
+            "effect": "Until the end of the turn, your unit is blessed. While a unit is blessed, it can ignore any or all modifiers to the following: the profile characteristics of its models; the Weapon Skill or Ballistic Skill characteristics of weapons equipped by its models; any roll or test made for it (excluding modifiers to saving throws). If your unit has the JUMP PACK keyword, until the end of the turn, while a friendly ADEPTA SORORITAS unit is within 3\" of your unit, that friendly unit is also blessed.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "faith and fury",
+            "subindex": "battle tactic stratagem",
+            "lore": "The righteous zeal of the Sisters of Battle burns bright as they charge towards their foes.",
+            "when": "Fight phase.",
+            "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If one or more enemy models are destroyed as the result of your unit's attacks this phase, you gain 1 Miracle dice.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "blinding radiance",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The Emperor's divinity manifests in golden halos, blinding the enemy with radiant light.",
+            "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit's attacks, or one friendly ADEPTA SORORITAS JUMP PACK unit within 3\" of such a unit.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. If you targeted an ADEPTA SORORITAS JUMP PACK unit from your army with this Stratagem, then until the end of the phase, while a friendly ADEPTA SORORITAS unit is within 3\" of your unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "divine guidance",
+            "subindex": "battle tactic stratagem",
+            "lore": "With miraculous precision, the blows of the Sisters of Battle strike the weak points of enemy armour.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One ADEPTA SORORITAS unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1. If one or more enemy models are destroyed as the result of any of those attacks, you gain 1 Miracle dice.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "angelic descent",
+            "subindex": "strategic ploy stratagem",
+            "lore": "On wings of fire do the angelic warriors of the Orders Militant descend to battle.",
+            "when": "End of your opponent's Fight phase.",
+            "target": "One ADEPTA SORORITAS JUMP PACK unit from your army.",
+            "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+            "restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

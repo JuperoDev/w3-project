@@ -35,57 +35,82 @@
     ],
     "stratagems": [
         {
-            "name": "Unfailingly Obdurate",
-            "subindex": "Battle Tactic Stratagem",
-            "lore": "Such is their determination to claim what they see as theirs that even walls of steel will not slow them down.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit’s attacks.",
+            "name": "unfailingly obdurate",
+            "subindex": "battle tactic stratagem",
+            "lore": "Such is their determination to claim their due that these warriors will gladly weather a storm of fire.",
+            "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit's attacks.",
             "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
-            "cp": 1,"color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
-            "name": "Scour and Seize",
-            "subindex": "Battle Tactic Stratagem",
-            "lore": "The plunder is there to be claimed, the fount just waiting to be tapped.",
+            "name": "warpcharged engines",
+            "subindex": "wargear stratagem",
+            "lore": "The engines of this vehicle or construct crackle with the raw energies of the immaterium, propelling it forward at incredible speed.",
+            "when": "Your Movement phase.",
+            "target": "One HERETIC ASTARTES TRANSPORT or HERETIC ASTARTES MOUNTED unit from your army that has not been selected to move this phase.",
+            "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "scour and seize",
+            "subindex": "battle tactic stratagem",
+            "lore": "If the bounty is to be claimed, the foe must first be purged.",
             "when": "Fight phase.",
             "target": "One HERETIC ASTARTES unit from your army that has not been selected to fight this phase.",
             "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, that attack has the [PRECISION] ability.",
-            "cp": 1,"color":"green"
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "green"
         },
         {
-            "name": "Opportunistic Raiders",
-            "subindex": "Strategic Ploy Stratagem",
-            "lore": "Heretic Astartes strike when the enemy is weakest, moving with uncanny speed and discipline to be in a position to maximize the damage they can inflict.",
+            "name": "ruinous raid",
+            "subindex": "battle tactic stratagem",
+            "lore": "Utilising their swift transports, these ravagers plunge through the enemy lines to assault key positions.",
+            "when": "Your Shooting phase or your Fight phase.",
+            "target": "One HERETIC ASTARTES unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the target of that attack is within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "opportunistic raiders",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Mobility is the key to victory. These Heretic Astartes ride outmaneuver and outflank the foe in order to achieve victory.",
             "when": "End of the Fight phase.",
-            "target": "One HERETIC ASTARTES unit from your army that is eligible to fight in the Fight phase.",
-            "effect": "Your unit can make a Normal move of up to 6\". If no enemy units are within Engagement Range of your unit, until the end of the turn, your unit can Advance or Fall Back. If your unit is within 3\" of an objective marker at the start or end of this move, it can take that objective from an opponent’s unit. A model that is equipped with a Transporter or that is within a Transporter cannot make this move if disembarked from a Transporter that turn.",
-            "cp": 1,"color":"blue"
+            "target": "One HERETIC ASTARTES unit from your army that was eligible to fight this phase.",
+            "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\", or up to 12\" if it is a MOUNTED unit. Otherwise, your unit can make a Fall Back move. It cannot embark within a TRANSPORT at the end of this move if it disembarked from a TRANSPORT this turn.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
         },
         {
-            "name": "Warpcharged Engines",
-            "subindex": "Wargear Stratagem",
-            "lore": "The energies of the warp can concentrate within certain Heretic Astartes machines, propelling it into the fray with speed and violence.",
-            "when": "Movement phase, just after a HERETIC ASTARTES VEHICLE model from your army makes a Normal, Advance or Fall Back move.",
-            "target": "One HERETIC ASTARTES VEHICLE model from your army that has not been selected to move this phase.",
-            "effect": "That model can make a second move. If it Advanced, it does not receive a -1 penalty for advancing. If it Fell Back, it can shoot without a -1 penalty for falling back. If it charges after moving, add 1 to its Charge roll.",
-            "cp": 1,"color":"blue"
-        },
-        {
-            "name": "Ruinous Raid",
-            "subindex": "Battle Tactic Stratagem",
-            "lore": "Sweeping into the enemy, these renegade warriors press the attack with unholy fervour, leaving devastation in their wake.",
-            "when": "Your Shooting phase or Fight phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-            "target": "One HERETIC ASTARTES unit from your army that is within 6\" of that enemy unit.",
-            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
-            "cp": 1,"color":"blue"
-        },
-        {
-            "name": "Reavers' Haste",
-            "subindex": "Strategic Ploy Stratagem",
-            "lore": "The prospect of fresh plunder drives these warriors into a frenzy, spurring them to greater acts of mayhem.",
-            "when": "Start of your Charge phase.",
-            "target": "One HERETIC ASTARTES INFANTRY or HERETIC ASTARTES MOUNTED unit from your army that is within 9\" of one or more enemy units.",
-            "effect": "Until the end of the phase, add 2 to Charge rolls made for your unit.",
-            "cp": 1,"color":"blue"}
+            "name": "reavers' haste",
+            "subindex": "strategic ploy stratagem",
+            "lore": "The prospect of riches spurs these renegade warriors forwards. Woe betide any in their path.",
+            "when": "Your Charge phase.",
+            "target": "One HERETIC ASTARTES INFANTRY or HERETIC ASTARTES MOUNTED unit from your army.",
+            "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced. If you select one or more units within range of an objective marker as a target of that charge, add 1 to the Charge roll.",
+            "icon": [
+                ""
+            ],
+            "cp": 1,
+            "color": "blue"
+        }
     ]
 }

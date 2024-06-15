@@ -37,11 +37,11 @@
         {
             "name": "divine intervention",
             "subindex": "epic deed stratagem",
-            "lore": "Sometimes, a brush with death is so close the only explanation is divine intervention.",
+            "lore": "The pious believe that, in their moment of greatest need, the Emperor protects.",
             "when": "Any phase.",
             "target": "One ADEPTA SORORITAS CHARACTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-            "effect": "Discard 1-3 Miracle dice. At the end of the phase, set the last destroyed model from your unit back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models. That model is set back up with a number of wounds remaining equal to the number of Miracle dice you discarded.",
-            "restrictions":"You cannot select SAINT CELESTINE as the target of this Stratagem. You cannot select the same CHARACTER as the target of this Stratagem more than once per battle.",
+            "effect": "Discard 1-3 Miracle dice. At the end of the phase, set the last destroyed model from your unit back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models. The model is set back up with that number of wounds remaining (up to its starting number of wounds).",
+            "restrictions": "You cannot select SAINT CELESTINE as the target of this Stratagem. You cannot select the same CHARACTER as the target of this Stratagem more than once per battle.",
             "icon": [
                 ""
             ],
@@ -49,12 +49,12 @@
             "color": "green"
         },
         {
-            "name": "holy rage",
+            "name": "sanctified immolation",
             "subindex": "strategic ploy stratagem",
-            "lore": "With psalms on their lips, the faithful hurl themselves forward, striking the foe down with the inner strength born of faith in the Emperor.",
-            "when": "Fight phase.",
-            "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, add 1 to the Wound roll.",
+            "lore": "The enemy must perish, even if we perish with them. The enemy must burn, even if we burn with them.",
+            "when": "Any phase.",
+            "target": "One ADEPTA SORORITAS VEHICLE model from your army with the Deadly Demise ability that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+            "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model's Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
             "icon": [
                 ""
             ],
@@ -62,12 +62,12 @@
             "color": "green"
         },
         {
-            "name": "suffering & sacrifice",
+            "name": "suffering and sacrifice",
             "subindex": "strategic ploy stratagem",
-            "lore": "Suffering is a staple prayer for the Adepta Sororitas, and a martyr’s fate only brings greater glory to the God-Emperor.",
+            "lore": "Suffering is a staple for the Adepta Sororitas, and a martyr's fate only brings glory to the God-Emperor.",
             "when": "Start of the Fight phase.",
             "target": "One ADEPTA SORORITAS INFANTRY or ADEPTA SORORITAS WALKER unit from your army.",
-            "effect": "Until the end of the phase, each time an enemy model within Engagement range of your unit selects targets, it must select your unit as the target of its attacks.",
+            "effect": "Until the end of the phase, each time an enemy model whose unit is within Engagement Range of your unit selects its targets, it must select your unit as the target of its attacks.",
             "icon": [
                 ""
             ],
@@ -75,12 +75,12 @@
             "color": "green"
         },
         {
-            "name": "light of the emperor",
+            "name": "righteous vengeance",
             "subindex": "battle tactic stratagem",
-            "lore": "The Emperor’s radiance shines upon his warriors, emboldening them amidst the thick of battle in their darkest hour.",
-            "when": "Command phase.",
-            "target": "One ADEPTA SORORITAS unit from your army that is below its Starting Strength. For the purposes of this Stratagem, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds.",
-            "effect": "Until the end of the turn, your unit can ignore any or all modifiers to its characteristics and/or to any roll or test made for it (excluding modifiers to saving throws).",
+            "lore": "With the Emperor's light upon them, the righteous vengeance of the Sisters of Battle burns brighter.",
+            "when": "Fight phase.",
+            "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the Hit roll and, if your unit is Below Half-strength, you can re-roll the Wound roll as well.",
             "icon": [
                 ""
             ],
@@ -88,30 +88,30 @@
             "color": "green"
         },
         {
-            "name": "rejoice the fallen",
+            "name": "spirit of the martyr",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Even with their dying act, the Adepta Sororitas mete out the Emperor's judgement.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+            "icon": [
+                ""
+            ],
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "praise the fallen",
             "subindex": "strategic ploy stratagem",
             "lore": "The death of a Battle Sister only stirs the survivors to fight harder to exact swift vengeance.",
-            "when": "Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks. ",
-            "target": "One ADEPTA SORORITAS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks. ",
+            "when": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+            "target": "One ADEPTA SORORITAS unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
             "effect": "Your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
             "icon": [
                 ""
             ],
             "cp": 1,
             "color": "red"
-        },
-        {
-            "name": "spirit of the martyr",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Even with their dying act, the Sororitas mete out the Emperor’s judgement.",
-            "when": "Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks, and is then removed from play.",
-            "icon": [
-                ""
-            ],
-            "cp": 2,
-            "color": "green"
         }
     ]
 }

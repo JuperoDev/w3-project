@@ -19,7 +19,7 @@
 
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn text="Close Dialog" @click="isDialogOpen = false">Close</v-btn>
+            <v-btn text="Close" @click="isDialogOpen = false">Close</v-btn>
           </v-card-actions>
         </v-card>
       </template>

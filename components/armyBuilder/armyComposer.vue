@@ -6,7 +6,7 @@
     </div>
     <p>passed prop: {{ url }}</p>
 
-    <v-dialog v-model="isDialogOpen" max-width="500">
+    <v-dialog v-model="isDialogOpen" max-width="800" min-width="380" height="600">
       <template v-slot:default="{ isActive }">
         <v-card title="Select Character">
           <v-card-text>

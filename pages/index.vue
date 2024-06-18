@@ -30,7 +30,7 @@
 
     </div> 
     <div class="flex justify-center items-center my-5">
-    <v-btn><nuxt-link to="/sandbox" class="">LAB MODE: ARMY BUILDER</nuxt-link></v-btn>
+    <v-btn><nuxt-link to="/armybuilder" class="">LAB MODE: ARMY BUILDER</nuxt-link></v-btn>
   </div>
     </div>
     <!-- <nuxt-link>

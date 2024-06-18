@@ -9,7 +9,7 @@ export const useArmyStore = defineStore('armyStore', {
       const storedArmies = localStorage.getItem('armies');
       if (storedArmies) {
         this.armies = JSON.parse(storedArmies);
-        console.log("Loaded armies from local storage:", this.armies);
+        // console.log("Loaded armies from local storage:", this.armies);
       }
     },
     addArmy(army) {
@@ -33,7 +33,7 @@ export const useArmyStore = defineStore('armyStore', {
     },
     saveArmies() {
       localStorage.setItem('armies', JSON.stringify(this.armies));
-      console.log("Saved armies to local storage:", this.armies);
+      // console.log("Saved armies to local storage:", this.armies);
     },
   },
 });

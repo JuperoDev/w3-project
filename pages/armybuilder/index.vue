@@ -1,123 +1,99 @@
 <template>
-  <div class="main-container">
-    <v-layout>
-      <v-navigation-drawer v-model="drawer" temporary>
-  
-
-    <v-divider></v-divider>
-
-    <v-list density="compact" nav>
+  <v-app>
+    <v-app-bar app  elevation="0">
+      <v-toolbar-title>Army Builder</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn icon @click="drawer = !drawer">
+        <v-icon>mdi-menu</v-icon>
+      </v-btn>
+    </v-app-bar>
+    <v-navigation-drawer v-model="drawer" app right >
       <div class="right">
-        <v-card class="pa-4 mb-4">
-          <v-card-title>
-            <h2>Stored Armies</h2>
-          </v-card-title>
-          <v-card-actions>
-            <v-btn @click="showStepper" color="primary" class="ml-auto">
-              Create New Army
-            </v-btn>
-          </v-card-actions>
-        </v-card>
-
-        <v-card
-          v-for="(army, index) in armies"
-          :key="index"
-          class="mb-3"
-          outlined
-        >
-          <v-card-title class="headline">{{ army.name }}</v-card-title>
-          <v-card-subtitle>{{ army.selectedArmy }}</v-card-subtitle>
-          <v-card-text>
-            <p><strong>Point List:</strong> {{ army.pointList }}</p>
-            <p><strong>Detachment:</strong> {{ army.selectedDetachment }}</p>
-          </v-card-text>
-          <v-card-actions>
-            <v-btn @click="removeArmy(index)" color="error">
-              Delete
-            </v-btn>
-            <v-btn @click="loadArmy(index)" color="primary">
-              Go to Army
-            </v-btn>
-          </v-card-actions>
-        </v-card>
-      </div>
-    </v-list>
-  </v-navigation-drawer>
-      <v-main>
-        <div class="d-flex justify-center align-center h-10">
-          <v-btn
-            @click.stop="drawer = !drawer"
-          >
-            Toggle
+        <h2>Stored Armies</h2>
+        <div v-if="!stepperVisible">
+          <v-btn @click="showStepper">Create New Army</v-btn>
+        </div>
+        <div v-for="(army, index) in armies" :key="index">
+          <p><strong>Name:</strong> {{ army.name }}</p>
+          <p><strong>Army:</strong> {{ army.selectedArmy }}</p>
+          <p><strong>Point List:</strong> {{ army.pointList }}</p>
+          <p><strong>Detachment:</strong> {{ army.selectedDetachment }}</p>
+          <v-btn icon small @click="removeArmy(index)" class="btn-icon">
+            <v-icon small>mdi-delete</v-icon>
+          </v-btn>
+          <v-btn icon small @click="viewArmy(index)" class="btn-icon">
+            <v-icon small>mdi-arrow-right</v-icon>
           </v-btn>
         </div>
-      </v-main>
-    </v-layout>
-  </div>
-  <div class="grid grid-cols-1 lg:grid-cols-2">
-    <div>
-      <div v-if="stepperVisible" class="stepper-army-builder">
-        <v-stepper v-model="step">
-          <v-stepper-header>
-            <v-stepper-item title="" value="1"></v-stepper-item>
-            <v-divider></v-divider>
-            <v-stepper-item title="" value="2"></v-stepper-item>
-            <v-divider></v-divider>
-            <v-stepper-item title="" value="3"></v-stepper-item>
-            <v-divider></v-divider>
-            <v-stepper-item title="" value="4"></v-stepper-item>
-          </v-stepper-header>
-          <v-stepper-window>
-            <v-stepper-window-item value="1">
-              <v-card title="Choose Faction" flat>
-                <v-radio-group v-model="selectedFaction">
-                  <v-radio v-for="(faction, index) in factions" :key="index" :label="faction" :value="faction"></v-radio>
-                </v-radio-group>
-              </v-card>
-            </v-stepper-window-item>
-            <v-stepper-window-item value="2">
-              <v-card title="Choose Army" flat>
-                <v-radio-group v-model="selectedArmy">
-                  <v-radio v-for="(army, index) in filteredArmies" :key="index" :label="army" :value="army"></v-radio>
-                </v-radio-group>
-              </v-card>
-            </v-stepper-window-item>
-            <v-stepper-window-item value="3">
-              <v-card title="Choose Detachment" flat>
-                <v-radio-group v-model="selectedDetachment">
-                  <v-radio v-for="(detachment, index) in filteredDetachments" :key="index" :label="detachment" :value="detachment"></v-radio>
-                </v-radio-group>
-              </v-card>
-            </v-stepper-window-item>
-            <v-stepper-window-item value="4">
-              <v-card title="Details" flat>
-                <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
-                <v-radio-group v-model="pointList" label="Army Size" class="mt-8">
-                  <v-radio label="1000 points" value="1000"></v-radio>
-                  <v-radio label="2000 points" value="2000"></v-radio>
-                  <v-radio label="3000 points" value="3000"></v-radio>
-                </v-radio-group>
-                <v-btn class="m-3" @click="createArmy">Create</v-btn>
-              </v-card>
-            </v-stepper-window-item>
-          </v-stepper-window>
-          <v-stepper-actions prev-text="Previous" next-text="Next" @click:next="customActionForNext" @click:prev="customActionForPrev"></v-stepper-actions>
-        </v-stepper>
       </div>
-      <div v-if="armyComposerVisible">
-        <h2>Selected Options:</h2>
-        <p><strong>Name:</strong> {{ name }}</p>
-        <p><strong>Army:</strong> {{ selectedArmy }}</p>
-        <p><strong>Point List:</strong> {{ pointList }}</p>
-        <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-        <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p>
-        <div class="armyBuilder_armyComponerContainer m-5">
-        <ArmyBuilderArmyComposer ref="armyComposerRef" :url="factionAndArmyUrl" :armyIndex="currentArmyIndex" /> </div> 
+    </v-navigation-drawer>
+    <v-main>
+      <div class="">
+        <div>
+          <div v-if="stepperVisible" class="stepper-army-builder">
+            <v-stepper v-model="step">
+              <v-stepper-header>
+                <v-stepper-item title="" value="1"></v-stepper-item>
+                <v-divider></v-divider>
+                <v-stepper-item title="" value="2"></v-stepper-item>
+                <v-divider></v-divider>
+                <v-stepper-item title="" value="3"></v-stepper-item>
+                <v-divider></v-divider>
+                <v-stepper-item title="" value="4"></v-stepper-item>
+              </v-stepper-header>
+              <v-stepper-window>
+                <v-stepper-window-item value="1">
+                  <v-card title="Choose Faction" flat>
+                    <v-radio-group v-model="selectedFaction">
+                      <v-radio v-for="(faction, index) in factions" :key="index" :label="faction" :value="faction"></v-radio>
+                    </v-radio-group>
+                  </v-card>
+                </v-stepper-window-item>
+                <v-stepper-window-item value="2">
+                  <v-card title="Choose Army" flat>
+                    <v-radio-group v-model="selectedArmy">
+                      <v-radio v-for="(army, index) in filteredArmies" :key="index" :label="army" :value="army"></v-radio>
+                    </v-radio-group>
+                  </v-card>
+                </v-stepper-window-item>
+                <v-stepper-window-item value="3">
+                  <v-card title="Choose Detachment" flat>
+                    <v-radio-group v-model="selectedDetachment">
+                      <v-radio v-for="(detachment, index) in filteredDetachments" :key="index" :label="detachment" :value="detachment"></v-radio>
+                    </v-radio-group>
+                  </v-card>
+                </v-stepper-window-item>
+                <v-stepper-window-item value="4">
+                  <v-card title="Details" flat>
+                    <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
+                    <v-radio-group v-model="pointList" label="Army Size" class="mt-8">
+                      <v-radio label="1000 points" value="1000"></v-radio>
+                      <v-radio label="2000 points" value="2000"></v-radio>
+                      <v-radio label="3000 points" value="3000"></v-radio>
+                    </v-radio-group>
+                    <v-btn class="m-3" @click="createArmy">Create</v-btn>
+                  </v-card>
+                </v-stepper-window-item>
+              </v-stepper-window>
+              <v-stepper-actions prev-text="Previous" next-text="Next" @click:next="customActionForNext" @click:prev="customActionForPrev"></v-stepper-actions>
+            </v-stepper>
+          </div>
+          <div v-if="armyComposerVisible">
+            <!-- <h2>Selected Options:</h2> -->
+            <p><strong>Name:</strong> {{ name }}</p>
+            <p><strong>Army:</strong> {{ selectedArmy }}</p>
+            <p><strong>Point List:</strong> {{ pointList }}</p>
+            <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
+            <!-- <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p> -->
+            
+            <ArmyBuilderArmyComposer ref="armyComposerRef" :url="factionAndArmyUrl" :armyIndex="currentArmyIndex"  />
+         
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </v-main>
+  </v-app>
 </template>
-
 
 <script setup>
 import { ref, computed, onMounted, reactive, nextTick } from "vue";
@@ -258,6 +234,11 @@ const loadArmy = (index) => {
   console.log("Loaded army:", army);
 };
 
+const viewArmy = (index) => {
+  loadArmy(index);
+  toggleDrawer();
+};
+
 const showStepper = () => {
   name.value = "";
   selectedFaction.value = null;
@@ -269,6 +250,10 @@ const showStepper = () => {
   step.value = 0;
   armyComposerVisible.value = false;
   stepperVisible.value = true;
+};
+
+const toggleDrawer = () => {
+  drawer.value = !drawer.value;
 };
 
 const updateWargear = (charIndex, wargear) => {
@@ -314,5 +299,22 @@ const updateWargear = (charIndex, wargear) => {
   margin-top: 10px;
   font-size: 0.875rem;
   color: #000;
+}
+
+.btn-icon {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  min-width: 0;
+}
+
+.btn-icon:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.v-btn--icon .v-icon {
+  font-size: 20px; /* Smaller icon size */
 }
 </style>

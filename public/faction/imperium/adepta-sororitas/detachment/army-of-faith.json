@@ -1,4 +1,37 @@
-{
+{"detachmentName": "Army of Faith",
+    "detachmentRule": [
+        {
+            "name": "Sacred Rites",
+            "lore": "At times of war, the Adepta Sororitas make offerings to the Emperor in prayer, incense and blood. In such pious devotion, they may attract his blessing and enact miraculous deeds in his holy name.",
+            "description": "Each ADEPTA SORORITAS unit from your army can perform up to two Acts of Faith per phase, instead of one."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Litanies of Faith",
+            "points": 15,
+            "lore": "This unassuming parchment is one of the holiest relics in the Ministorum's charge, its mere presence enough to fill the hearts of the faithful with righteous fervour.",
+            "description": "CANONESS or PALATINE model only. At the start of your Command phase, if the bearer is on the battlefield, and has a Leadership test for the bearer. If that test is passed, you gain 1 Miracle dice."
+        },
+        {
+            "name": "Blade of Saint Ellynor",
+            "points": 10,
+            "lore": "Forged from thrice-blessed silver, this blade has the names and deeds of a thousand saints inscribed on one side on the molecular level, while the other has the entire Fede Imperialis etched into its form. The blade glows with righteous power and has slain heretics, mutants and xenos beyond counting.",
+            "description": "ADEPTA SORORITAS model only. Improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 1, and those weapons have the [PRECISION] ability. In addition, each time the bearer fights, if one or more enemy models are destroyed by those attacks, you gain 1 Miracle dice."
+        },
+        {
+            "name": "Divine Aspect",
+            "points": 5,
+            "lore": "Enemy warriors tremble before the radiant majesty of one blessed by the Emperor.",
+            "description": "ADEPTA SORORITAS model only. In your Movement phase, you can select one enemy unit within 12\" of the bearer; that unit must take a Battle-shock test. If that test is failed, you gain 1 Miracle dice."
+        },
+        {
+            "name": "Triptych of the Macharian Crusade",
+            "points": 20,
+            "lore": "Carried onto the most fire-swept of battlefields, the images of the Macharian Trinity glorifies three missionaries who saved thousands of lives. This adamantine-sheathed relic reminds the bearer that faith alone can weather the most grievous adversities.",
+            "description": "ADEPTA SORORITAS model only. Each time the bearer uses an Act of Faith to substitute a saving throw, that saving throw is successful, irrespective of the value of the Miracle dice used."
+        }
+    ],
     "stratagems": [
         {
             "name": "shield of faith",
@@ -50,7 +83,7 @@
                 ""
             ],
             "cp": 1,
-            "color": "red"
+            "color": "green"
         },
         {
             "name": "divine guidance",

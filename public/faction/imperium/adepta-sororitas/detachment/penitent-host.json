@@ -1,4 +1,54 @@
 {
+    "detachmentName": "Penitent Host",
+    "detachmentRule": [
+        {
+            "name": "Desperate for Redemption",
+            "lore": "The penitent masses vow to wash clean their dishonour with their foe's blood.",
+            "description": "At the start of the battle round, select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You may only select each Vow of Atonement once per battle.
+            
+            <div>
+    <strong>The Path of the Penitent</strong>
+    <p><em>With psalms on their lips, the faithful hurl themselves forward.</em></p>
+    <p>Add 3'' to the Move characteristic of PENITENT models from your army.</p>
+</div>
+<div>
+    <strong>Absolution in Battle</strong>
+    <p><em>The penitents smite the Emperor's foes with unmatched zeal.</em></p>
+    <p>Each time a unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit.</p>
+</div>
+<div>
+    <strong>Death Before Disgrace</strong>
+    <p><em>Even the most grievous wound cannot stop a penitent warrior in their quest to earn redemption in the eyes of the Emperor.</em></p>
+    <p>Each time a PENITENT model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play: the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.</p>
+</div>"
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Psalm of Righteous Judgement",
+            "points": 20,
+            "lore": "Invoking the wrath of the God-Emperor, this warrior bellows psalms, which drown the din of battle. Incited by fire and brimstone recitations, the penitent warriors carve apart their enemies, every kill bringing them closer to redemption.",
+            "description": "ADEPTA SORORITAS model only. While the bearer is on the battlefield, each time an enemy unit is destroyed by a PENITENT unit from your army, you can discard 1 Miracle dice then gain 1 Miracle dice showing a value of 6."
+        },
+        {
+            "name": "Verse of Holy Piety",
+            "points": 15,
+            "lore": "As the sanctified verses of the Ecclesiarchy's holy psalms roar across the battlefield, divine might infuses the devout.",
+            "description": "PENITENT model only. Once per battle, at the start of the battle round, select one Vow of Atonement (see left). Until the start of the next battle round, that Vow of Atonement is active for the bearer's unit in addition to any that is active for your army, even if you have already selected that Vow of Atonement this battle."
+        },
+        {
+            "name": "Refrain of Enduring Faith",
+            "points": 10,
+            "lore": "Faith is the shield of the righteous. The passionate benedictions of the pious may bestow the blessings of the God-Emperor.",
+            "description": "PENITENT model only. While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+        },
+        {
+            "name": "Catechism of Divine Penitence",
+            "points": 5,
+            "lore": "To share in the agonies of the penitent and guide them to redemption is a most holy undertaking. Thus do many of the Adepta Sororitas' commanders willingly fight by the side of those cast out by the Sisterhood.",
+            "description": "CANONESS, PALATINE or MINISTORUM PRIEST model only. The bearer gains the PENITENT keyword and, during the Declare Battle Formations step, can be attached to a REPENTIA SQUAD unit."
+        }
+    ],
     "stratagems": [
         {
             "name": "final redemption",
@@ -63,7 +113,7 @@
                 ""
             ],
             "cp": 1,
-            "color": "green"
+            "color": "blue"
         },
         {
             "name": "devout fanaticism",

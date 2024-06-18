@@ -1,0 +1,98 @@
+{
+    "detachmentName": "Xenocreed Congregation",
+    "detachmentRule": [
+        {
+            "name": "Unquestioning Fanaticism",
+            "lore": "Downtrodden by the oppressors for so long, a cult's lowly broodkin are fanatically devoted to their leaders, for those hallowed individuals serve the Patriarchs will more directly. The masses draw upon energy reserves in their desire to heed their masters' wishes, surging selflessly into the fray, ready to hurl themselves in harm's way for the Patriarch's chosen.",
+            "description": "For each ACOLYTE HYBRIDS, HYBRID METAMORPHS and NEOPHYTE HYBRIDS unit from your army, while one or more CHARACTER models are leading that unit, you can re-roll Advance and Charge rolls made for it. If that CHARACTER model is a MAGUS, PRIMUS or ACOLYTE ICONWARD, that model has the Feel No Pain 3+ ability while leading that unit."
+        }
+    ],
+    "enhancements": [
+        {
+            "name": "Gene-sire's Reliquant",
+            "points": 15,
+            "lore": "This war leader carries a gift from their Patriarch: a talismanic shard of a chitinous claw, a vial of the liquid that seeps into the genesis pools or a psionic growth within the chosen one's brain. Its form matters less than its effect, for it radiates an inspirational wave of the Broodmind that focuses the minds of the faithful on their duties to the cult above all else.",
+            "description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You can re-roll Battle-shock tests taken for the bearer’s unit."
+        },
+        {
+            "name": "Denunciator of Tyrants",
+            "points": 20,
+            "lore": "With vitriol and passion do the cult's leaders castigate the foe's champions, casting them as the most hated architects of oppression and inciting their comrades to murderous intent.",
+            "description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Each time a model in the bearer’s unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+            "name": "Deeds that Speak to the Masses",
+            "points": 25,
+            "lore": "This agent of the Star Children is a living legend known amongst the entire cult. Their reputation as a spiritual orator, undefeated liberator or sanctified warden is mythic, and their very presence draws the faithful to their side for a chance to fight alongside them.",
+            "description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Once per turn, when rolling for a BATTLELINE unit for the Cult Ambush army rule, if the bearer is on the battlefield, you can re-roll the result."
+        },
+        {
+            "name": "Incendiary Inspiration",
+            "points": 30,
+            "lore": "This insurgent is a font of aggressive encouragement. As some supernatural vitality their broodkin feel in their souls, the leader's words and deeds rouse them with fresh energy and stir them to charge forth in blind fury.",
+            "description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Vengeance for the Martyr!",
+            "subindex": "epic deed stratagem",
+            "lore": "Should one of the Patriarch’s inner coven fall, those that remain are swift to call for lethal retribution.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit destroys a GENESTEALER CULTS CHARACTER model from your army.",
+            "target": "One other GENESTEALER CULTS CHARACTER model from your army.",
+            "effect": "Until the end of the battle, each time a friendly ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS model makes an attack that targets that enemy unit, re-roll a Hit roll of 1. If the destroyed model was a MAGUS, PRIMUS or ACOLYTE ICONWARD, you can re-roll the Hit roll instead.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Frenzied Devotion",
+            "subindex": "battle tactic stratagem",
+            "lore": "The faithful will gladly hurl themselves into harm’s way, frenziedly dragging the foe down with them.",
+            "when": "Fight phase.",
+            "target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, improve the Weapon Skills and Weapon Skill characteristics of melee weapons equipped by models (excluding CHARACTER models) in your unit by 1 and those weapons have the [HAZARDOUS] ability.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Tireless Fervour",
+            "subindex": "strategic ploy stratagem",
+            "lore": "When the cult’s leaders demand devotion, danger and exhaustion are forgotten in the rush to serve.",
+            "when": "Your Charge phase.",
+            "target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that declared a charge this phase.",
+            "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced. When doing so, if it starts the enemy unit within Engagement Range of one or more friendly CHARACTER units, you can re-roll the Charge roll.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Transcendent Celerity",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Owing to their hypersensory reactions, the cult’s rate of fire is increased.",
+            "when": "Your Shooting phase.",
+            "target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] ability.",
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "The Downtrodden Rise",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Such is the creed’s inspirational call to arms that as the foe fall in their incursion, another rises for the cause.",
+            "when": "End of the Reinforcement step of your opponent’s Movement phase.",
+            "target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has a Cult Ambush marker on the battlefield.",
+            "effect": "Set up your unit anywhere on the battlefield that is more than 9'' horizontally away from all enemy models, or more than 3'' horizontally away if your unit has the BATTLELINE keyword.",
+            "cp": 2,
+            "color": "red"
+        },
+        {
+            "name": "The Path of Anguish",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Blood offerings to the oppressors is grist for the mill for the cult’s believers, their suffering paving the way for a future of blissful freedom.",
+            "when": "Your opponent’s Charge phase, just after an enemy unit declares a charge.",
+            "target": "One ACOLYTE HYBRIDS or NEOPHYTE HYBRIDS unit from your army that was selected as a target of that charge.",
+            "effect": "Until the end of the phase, your unit can make a move of up to D6'', but it must end that move closer to the closest enemy unit. This move cannot end within Engagement Range of any enemy units.",
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

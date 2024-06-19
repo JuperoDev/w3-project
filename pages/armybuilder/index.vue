@@ -1,13 +1,13 @@
 <template>
   <v-app>
-    <v-app-bar app  elevation="0">
+    <v-app-bar app elevation="0">
       <v-toolbar-title>Army Builder</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click="drawer = !drawer">
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" app right >
+    <v-navigation-drawer v-model="drawer" app right>
       <div class="right">
         <h2>Stored Armies</h2>
         <div v-if="!stepperVisible">
@@ -45,28 +45,51 @@
                 <v-stepper-window-item value="1">
                   <v-card title="Choose Faction" flat>
                     <v-radio-group v-model="selectedFaction">
-                      <v-radio v-for="(faction, index) in factions" :key="index" :label="faction" :value="faction"></v-radio>
+                      <v-radio
+                        v-for="(faction, index) in factions"
+                        :key="index"
+                        :label="faction"
+                        :value="faction"
+                      ></v-radio>
                     </v-radio-group>
                   </v-card>
                 </v-stepper-window-item>
                 <v-stepper-window-item value="2">
                   <v-card title="Choose Army" flat>
                     <v-radio-group v-model="selectedArmy">
-                      <v-radio v-for="(army, index) in filteredArmies" :key="index" :label="army" :value="army"></v-radio>
+                      <v-radio
+                        v-for="(army, index) in filteredArmies"
+                        :key="index"
+                        :label="army"
+                        :value="army"
+                      ></v-radio>
                     </v-radio-group>
                   </v-card>
                 </v-stepper-window-item>
                 <v-stepper-window-item value="3">
                   <v-card title="Choose Detachment" flat>
                     <v-radio-group v-model="selectedDetachment">
-                      <v-radio v-for="(detachment, index) in filteredDetachments" :key="index" :label="detachment" :value="detachment"></v-radio>
+                      <v-radio
+                        v-for="(detachment, index) in filteredDetachments"
+                        :key="index"
+                        :label="detachment"
+                        :value="detachment"
+                      ></v-radio>
                     </v-radio-group>
                   </v-card>
                 </v-stepper-window-item>
                 <v-stepper-window-item value="4">
                   <v-card title="Details" flat>
-                    <v-text-field v-model="name" hide-details="auto" label="Name"></v-text-field>
-                    <v-radio-group v-model="pointList" label="Army Size" class="mt-8">
+                    <v-text-field
+                      v-model="name"
+                      hide-details="auto"
+                      label="Name"
+                    ></v-text-field>
+                    <v-radio-group
+                      v-model="pointList"
+                      label="Army Size"
+                      class="mt-8"
+                    >
                       <v-radio label="1000 points" value="1000"></v-radio>
                       <v-radio label="2000 points" value="2000"></v-radio>
                       <v-radio label="3000 points" value="3000"></v-radio>
@@ -75,19 +98,25 @@
                   </v-card>
                 </v-stepper-window-item>
               </v-stepper-window>
-              <v-stepper-actions prev-text="Previous" next-text="Next" @click:next="customActionForNext" @click:prev="customActionForPrev"></v-stepper-actions>
+              <v-stepper-actions
+                prev-text="Previous"
+                next-text="Next"
+                @click:next="customActionForNext"
+                @click:prev="customActionForPrev"
+              ></v-stepper-actions>
             </v-stepper>
           </div>
-          <div v-if="armyComposerVisible">
-            <!-- <h2>Selected Options:</h2> -->
+          <div v-if="armyComposerVisible && !stepperVisible">
             <p><strong>Name:</strong> {{ name }}</p>
             <p><strong>Army:</strong> {{ selectedArmy }}</p>
             <p><strong>Point List:</strong> {{ pointList }}</p>
             <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-            <!-- <p><strong>URL to pass to Army Composer:</strong> {{ factionAndArmyUrl }}</p> -->
-            
-            <ArmyBuilderArmyComposer ref="armyComposerRef" :url="factionAndArmyUrl" :armyIndex="currentArmyIndex"  />
-         
+
+            <ArmyBuilderArmyComposer
+              ref="armyComposerRef"
+              :url="factionAndArmyUrl"
+              :armyIndex="currentArmyIndex"
+            />
           </div>
         </div>
       </div>
@@ -118,7 +147,7 @@ const selectedDetachment = ref(null);
 const currentArmy = reactive({ characters: [] });
 const currentArmyIndex = ref(null);
 
-const armyComposerRef = ref(null);  // Correctly define the ref
+const armyComposerRef = ref(null); // Correctly define the ref
 
 import factionsData from "./faction.json";
 import armiesData from "./army.json";
@@ -139,13 +168,18 @@ const filteredDetachments = computed(() => {
   if (selectedArmy.value && detachmentsData[selectedArmy.value]) {
     const selectedArmyLower = selectedArmy.value.toLowerCase();
     const detachments = detachmentsData[selectedArmyLower];
-    return detachments ? detachments.map((detachment) => detachment.toLowerCase()) : [];
+    return detachments
+      ? detachments.map((detachment) => detachment.toLowerCase())
+      : [];
   }
   return [];
 });
 
 const sanitize = (str) => {
-  return str.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '-');
+  return str
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "-");
 };
 
 const factionAndArmyUrl = computed(() => {
@@ -184,7 +218,12 @@ onMounted(() => {
 });
 
 const createArmy = () => {
-  if (name.value && selectedArmy.value && pointList.value && selectedDetachment.value) {
+  if (
+    name.value &&
+    selectedArmy.value &&
+    pointList.value &&
+    selectedDetachment.value
+  ) {
     const newArmy = {
       name: name.value,
       selectedFaction: selectedFaction.value,
@@ -237,6 +276,8 @@ const loadArmy = (index) => {
 const viewArmy = (index) => {
   loadArmy(index);
   toggleDrawer();
+  stepperVisible.value = false; // Hide the army creator
+  armyComposerVisible.value = true; // Show the army composer
 };
 
 const showStepper = () => {
@@ -254,17 +295,25 @@ const showStepper = () => {
 
 const toggleDrawer = () => {
   drawer.value = !drawer.value;
+  if (!drawer.value) {
+    stepperVisible.value = false; // Hide the stepper when the drawer is closed
+  }
 };
 
 const updateWargear = (charIndex, wargear) => {
-  currentArmy.characters[charIndex].unitComposition.forEach(unit => {
+  currentArmy.characters[charIndex].unitComposition.forEach((unit) => {
     unit.selectedWargear = wargear;
   });
-  const currentIndex = armies.value.findIndex(army => army.name === name.value);
+  const currentIndex = armies.value.findIndex(
+    (army) => army.name === name.value
+  );
   if (currentIndex !== -1) {
     armyStore.armies[currentIndex].characters = [...currentArmy.characters];
     armyStore.saveArmies(); // Explicitly save the current state to local storage
-    console.log("Current state of armies after updating wargear:", JSON.stringify(armyStore.armies, null, 2)); // Log the current state of armies
+    console.log(
+      "Current state of armies after updating wargear:",
+      JSON.stringify(armyStore.armies, null, 2)
+    ); // Log the current state of armies
     nextTick(() => {
       currentArmy.characters = [];
       currentArmy.characters = [...armyStore.armies[currentIndex].characters];

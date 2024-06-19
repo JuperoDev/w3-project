@@ -321,7 +321,7 @@ const toggleDrawer = () => {
 };
 </script>
 
-<style>
+<style scoped>
 .characters-list {
   margin-top: 20px;
 }

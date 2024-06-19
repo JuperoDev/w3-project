@@ -1,19 +1,28 @@
 <template>
   <v-app>
     <v-app-bar app elevation="0">
-      <v-toolbar-title>Army Builder</v-toolbar-title>
-      <v-spacer></v-spacer>
-      
+      <v-toolbar-title
+        ><div class="font-bebas flex items-center justify-center">
+          <h2>Army Builder</h2>
+        </div></v-toolbar-title
+      >
+     
+
       <v-btn icon @click="drawer = !drawer">
         <v-icon>mdi-menu</v-icon>
       </v-btn>
-      
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" app right>
       <div class="right">
-        <h2>Stored Armies</h2>
+        <h3>Stored Armies</h3>
         <div v-if="!stepperVisible">
-          <v-btn @click="showStepper(); closeDrawer()">Create New Army</v-btn>
+          <v-btn
+            @click="
+              showStepper();
+              closeDrawer();
+            "
+            >Create New Army</v-btn
+          >
         </div>
         <div v-for="(army, index) in armies" :key="index">
           <p><strong>Name:</strong> {{ army.name }}</p>
@@ -123,7 +132,7 @@
         </div>
       </div>
     </v-main>
-    <GeneralPurposeFloatingFooter/>
+    <GeneralPurposeFloatingFooter />
   </v-app>
 </template>
 
@@ -217,14 +226,12 @@ const armies = computed(() => armyStore.armies);
 onMounted(() => {
   armyStore.initializeStore();
   stepperVisible.value = armies.value.length === 0;
-  drawer.value = true; 
+  drawer.value = true;
   // console.log("Loaded armies on mount:", armies.value);
 });
 const closeDrawer = () => {
-
-  drawer.value=false;
- 
-}
+  drawer.value = false;
+};
 const createArmy = () => {
   if (
     name.value &&
@@ -312,8 +319,6 @@ const toggleDrawer = () => {
     stepperVisible.value = false; // Hide the stepper when the drawer is closed
   }
 };
-
-
 </script>
 
 <style>
@@ -360,4 +365,12 @@ const toggleDrawer = () => {
 .v-btn--icon .v-icon {
   font-size: 20px; /* Smaller icon size */
 }
+
+ h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #191919;
+  margin-left: 30px;
+  text-transform: uppercase;
+} 
 </style>

@@ -3,15 +3,17 @@
     <v-app-bar app elevation="0">
       <v-toolbar-title>Army Builder</v-toolbar-title>
       <v-spacer></v-spacer>
+      
       <v-btn icon @click="drawer = !drawer">
         <v-icon>mdi-menu</v-icon>
       </v-btn>
+      
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" app right>
       <div class="right">
         <h2>Stored Armies</h2>
         <div v-if="!stepperVisible">
-          <v-btn @click="showStepper">Create New Army</v-btn>
+          <v-btn @click="showStepper(); closeDrawer()">Create New Army</v-btn>
         </div>
         <div v-for="(army, index) in armies" :key="index">
           <p><strong>Name:</strong> {{ army.name }}</p>
@@ -140,7 +142,7 @@ import {
 const step = ref(0);
 const name = ref("");
 const pointList = ref("");
-const drawer = ref(null);
+const drawer = ref(false);
 
 const selectedFaction = ref(null);
 const selectedArmy = ref(null);
@@ -218,7 +220,11 @@ onMounted(() => {
   drawer.value = true; 
   // console.log("Loaded armies on mount:", armies.value);
 });
+const closeDrawer = () => {
 
+  drawer.value=false;
+ 
+}
 const createArmy = () => {
   if (
     name.value &&
@@ -238,6 +244,11 @@ const createArmy = () => {
     armyComposerVisible.value = true;
     stepperVisible.value = false;
     currentArmyIndex.value = armies.value.length - 1;
+
+    // Hide drawer, stepper, and show army composer
+    drawer.value = false;
+    stepperVisible.value = false;
+    armyComposerVisible.value = true;
   }
 };
 
@@ -302,28 +313,7 @@ const toggleDrawer = () => {
   }
 };
 
-const updateWargear = (charIndex, wargear) => {
-  currentArmy.characters[charIndex].unitComposition.forEach((unit) => {
-    unit.selectedWargear = wargear;
-  });
-  const currentIndex = armies.value.findIndex(
-    (army) => army.name === name.value
-  );
-  if (currentIndex !== -1) {
-    armyStore.armies[currentIndex].characters = [...currentArmy.characters];
-    armyStore.saveArmies(); // Explicitly save the current state to local storage
-    // console.log(
-    //   "Current state of armies after updating wargear:",
-    //   JSON.stringify(armyStore.armies, null, 2)
-    // ); 
-    
-    // Log the current state of armies
-    nextTick(() => {
-      currentArmy.characters = [];
-      currentArmy.characters = [...armyStore.armies[currentIndex].characters];
-    });
-  }
-};
+
 </script>
 
 <style>

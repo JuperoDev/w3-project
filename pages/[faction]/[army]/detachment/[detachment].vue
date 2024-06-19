@@ -23,7 +23,7 @@
 
     <DetachmentsDesktopStratagems :stratagems="collectionData.stratagems"/> 
     <DetachmentsDesktopEnhacements :enhacements="collectionData.enhacements"/> 
-   
+    <GeneralPurposeFloatingFooter/>
   </div>
 
   <div v-if="!collectionData">

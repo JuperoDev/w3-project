@@ -106,6 +106,7 @@
       </div>
     </div>
   </div>
+  <GeneralPurposeFloatingFooter/>
   </div>
 </template>
 

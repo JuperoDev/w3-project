@@ -121,6 +121,7 @@
         </div>
       </div>
     </v-main>
+    <GeneralPurposeFloatingFooter/>
   </v-app>
 </template>
 
@@ -214,7 +215,8 @@ const armies = computed(() => armyStore.armies);
 onMounted(() => {
   armyStore.initializeStore();
   stepperVisible.value = armies.value.length === 0;
-  console.log("Loaded armies on mount:", armies.value);
+  drawer.value = true; 
+  // console.log("Loaded armies on mount:", armies.value);
 });
 
 const createArmy = () => {
@@ -270,7 +272,7 @@ const loadArmy = (index) => {
   });
 
   step.value = 0;
-  console.log("Loaded army:", army);
+  // console.log("Loaded army:", army);
 };
 
 const viewArmy = (index) => {
@@ -310,10 +312,12 @@ const updateWargear = (charIndex, wargear) => {
   if (currentIndex !== -1) {
     armyStore.armies[currentIndex].characters = [...currentArmy.characters];
     armyStore.saveArmies(); // Explicitly save the current state to local storage
-    console.log(
-      "Current state of armies after updating wargear:",
-      JSON.stringify(armyStore.armies, null, 2)
-    ); // Log the current state of armies
+    // console.log(
+    //   "Current state of armies after updating wargear:",
+    //   JSON.stringify(armyStore.armies, null, 2)
+    // ); 
+    
+    // Log the current state of armies
     nextTick(() => {
       currentArmy.characters = [];
       currentArmy.characters = [...armyStore.armies[currentIndex].characters];

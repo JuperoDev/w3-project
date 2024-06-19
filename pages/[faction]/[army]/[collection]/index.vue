@@ -204,7 +204,7 @@
       <MobileLore :lore="lore" />
     </div>
 
-    
+    <GeneralPurposeFloatingFooter/>
   </div>
 </template>
 

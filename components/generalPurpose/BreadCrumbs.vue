@@ -6,7 +6,7 @@
         </span>
       </template>
   
-      <!-- Customizing the divider -->
+     
       <template v-slot:divider>
         <span class="breadcrumb-divider">/</span>
       </template>
@@ -16,16 +16,16 @@
   
   <style>
   .greyish-font {
-    color: #888; /* Change this to the desired greyish color */
+    color: #888; 
   }
   
   .white-font {
-    color: #fff; /* Change this to the desired white color */
+    color: #fff; 
   }
   
   .breadcrumb-divider {
-    color: white; /* Set the color of the divider */
-    margin: 0 5px; /* Adjust spacing as needed */
+    color: white; 
+    margin: 0 5px; 
   }
   </style>
   

@@ -137,7 +137,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, reactive, nextTick } from "vue";
+import { ref, computed, onMounted, reactive, nextTick, watch } from "vue";
 import { useArmyStore } from "@/stores/armyStore";
 import {
   VStepper,
@@ -298,6 +298,13 @@ const viewArmy = (index) => {
   toggleDrawer();
   stepperVisible.value = false; // Hide the army creator
   armyComposerVisible.value = true; // Show the army composer
+
+  // Reload characters based on the selected army
+  nextTick(() => {
+    if (armyComposerRef.value) {
+      armyComposerRef.value.reloadCharacters();
+    }
+  });
 };
 
 const showStepper = () => {
@@ -319,6 +326,13 @@ const toggleDrawer = () => {
     stepperVisible.value = false; // Hide the stepper when the drawer is closed
   }
 };
+
+// Watchers to reload characters when selectedFaction or selectedArmy changes
+watch([selectedFaction, selectedArmy], () => {
+  if (armyComposerRef.value) {
+    armyComposerRef.value.reloadCharacters();
+  }
+});
 </script>
 
 <style scoped>

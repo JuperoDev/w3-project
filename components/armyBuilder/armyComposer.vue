@@ -110,7 +110,15 @@ const deleteCharacter = (index) => {
   armyStore.removeCharacterFromArmy(props.armyIndex, index);
 };
 
-onMounted(async () => {
+const loadCharacters = (characters) => {
+  savedCharacters.value = characters;
+};
+
+const countInArmy = (unitName) => {
+  return savedCharacters.value.filter(character => character.unitName === unitName).length;
+};
+
+const reloadCharacters = async () => {
   if (!props.url) return;
   try {
     const res = await fetch(`/faction/${props.url}/collection.json`);
@@ -119,6 +127,10 @@ onMounted(async () => {
   } catch (error) {
     console.error("Fetch Error: ", error);
   }
+};
+
+onMounted(async () => {
+  reloadCharacters();
 });
 
 const totalPoints = computed(() => {
@@ -134,16 +146,8 @@ const updateWargear = (index, wargear) => {
   armyStore.saveArmies();
 };
 
-// Expose the loadCharacters method to be called from the parent
-const loadCharacters = (characters) => {
-  savedCharacters.value = characters;
-};
-
-const countInArmy = (unitName) => {
-  return savedCharacters.value.filter(character => character.unitName === unitName).length;
-};
-
-defineExpose({ loadCharacters });
+// Expose the loadCharacters and reloadCharacters methods to be called from the parent
+defineExpose({ loadCharacters, reloadCharacters });
 </script>
 
 <style scoped>

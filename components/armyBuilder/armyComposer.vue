@@ -1,5 +1,7 @@
 <template>
   <div class="armyComposer_container">
+
+    <!-- CHARACTER TODO: Make this into components  -->
     <div class="armyComposer_container_character bg-zinc-800 text-zinc-50 uppercase">
       character {{ totalPoints }} points
       <v-btn @click="openDialog">+</v-btn>
@@ -45,6 +47,13 @@
           </div>
         </div>
       </div>
+    </div>
+
+
+<!-- Battle Line TODO: Make this into components  -->
+    <div class="armyComposer_container_character bg-zinc-800 text-zinc-50 uppercase">
+      Battleline {{ totalPoints }} points
+      <v-btn @click="openDialog">+</v-btn>
     </div>
   </div>
 </template>

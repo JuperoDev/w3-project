@@ -209,13 +209,13 @@ const saveBattleline = async (battleline) => {
       selectedWargear: []
     }));
 
-    const newBattleline = { ...battleline, unitComposition: unitsWithParentUnit };
+    const newBattleline = { ...battleline, unitComposition: unitsWithParentUnit, options: data.options };
     savedBattlelines.value.push(newBattleline);
     armyStore.addBattlelineToArmy(props.armyIndex, newBattleline);
     emit('add-character', newBattleline);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    const newBattleline = { ...battleline, unitComposition: [] };
+    const newBattleline = { ...battleline, unitComposition: [], options: [] };
     savedBattlelines.value.push(newBattleline);
     armyStore.addBattlelineToArmy(props.armyIndex, newBattleline);
     emit('add-character', newBattleline);
@@ -275,6 +275,7 @@ const loadUnitOptions = async (unitName) => {
 const saveOption = () => {
   if (selectedOption.value) {
     currentUnit.value.basicPoints = selectedOption.value.points;
+    currentUnit.value.unitComposition[0].minQuantity = selectedOption.value.count[0];
     isOptionsDialogOpen.value = false;
   }
 };

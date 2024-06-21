@@ -96,6 +96,54 @@
       </div>
     </div>
 
+    <!-- OTHER UNITS -->
+    <div class="armyComposer_container_other bg-zinc-800 text-zinc-50 uppercase">
+      Other Units {{ totalOtherPoints }} points
+      <v-btn @click="openOtherDialog">+</v-btn>
+    </div>
+
+    <!-- Other Dialog -->
+    <v-dialog v-model="isOtherDialogOpen" max-width="800" min-width="380" height="600">
+      <template v-slot:default="{ isActive }">
+        <v-card title="Select Other Unit">
+          <v-card-text>
+            <div v-for="other in others" :key="other.unitName">
+              {{ other.unitName }}: {{ other.basicPoints }} points
+              <div class="text-sm text-gray-500">Count in army: {{ countInArmy(other.unitName, 'other') }}</div>
+              <v-btn :id="'add-' + other.unitName" @click="addOtherUnit(other)">Add</v-btn>
+            </div>
+          </v-card-text>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn text="Close" @click="isOtherDialogOpen = false">Close</v-btn>
+          </v-card-actions>
+        </v-card>
+      </template>
+    </v-dialog>
+
+    <div class="saved-others">
+      <div v-for="(savedOther, index) in savedOthers" :key="savedOther.unitName + index">
+        {{ savedOther.unitName }}: {{ savedOther.basicPoints }} points
+        <v-btn @click="deleteOther(index)">Delete</v-btn>
+        <v-btn @click="openOptionsDialog(savedOther)">Options</v-btn>
+        <div v-if="savedOther.unitComposition" class="unit-composition-list">
+          <div v-for="unit in savedOther.unitComposition" :key="unit.unitType" class="unit-composition">
+            <ArmyBuilderAdditionalData :url="url" :unit="unit" />
+            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'other')" />
+            <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
+            <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
+              - {{ equipment }}
+            </div>
+            <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
+              <div v-for="gear in unit.selectedWargear" :key="gear.item">
+                {{ gear.item }} x{{ gear.amount }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Options Dialog -->
     <v-dialog v-model="isOptionsDialogOpen" max-width="800" min-width="380" height="600">
       <template v-slot:default="{ isActive }">
@@ -134,11 +182,14 @@ const emit = defineEmits(['add-character']);
 
 const isCharacterDialogOpen = ref(false);
 const isBattlelineDialogOpen = ref(false);
+const isOtherDialogOpen = ref(false);
 const isOptionsDialogOpen = ref(false);
 const characters = ref([]);
 const battlelines = ref([]);
+const others = ref([]);
 const savedCharacters = ref([]);
 const savedBattlelines = ref([]);
+const savedOthers = ref([]);
 const unitOptions = ref([]);
 const selectedOption = ref(null);
 const currentUnit = ref({});
@@ -152,6 +203,10 @@ const openCharacterDialog = () => {
 
 const openBattlelineDialog = () => {
   isBattlelineDialogOpen.value = true;
+};
+
+const openOtherDialog = () => {
+  isOtherDialogOpen.value = true;
 };
 
 const openOptionsDialog = (unit) => {
@@ -224,6 +279,42 @@ const saveBattleline = async (battleline) => {
   }
 };
 
+const addOtherUnit = async (other) => {
+  if (isSaving.value) return; // Prevent further clicks while saving
+  isSaving.value = true;
+
+  const otherJsonFileName = other.unitName.replace(/\s+/g, '-').toLowerCase() + '.json';
+
+  try {
+    const res = await fetch(`/faction/${props.url}/collection/${otherJsonFileName}`);
+    const data = await res.json();
+    const unitComposition = data.unitComposition || [];
+
+    const unitsWithParentUnit = unitComposition.map(unit => ({
+      ...unit,
+      parentUnit: other.unitName,
+      selectedWargear: []
+    }));
+
+    const newOther = { ...other, unitComposition: unitsWithParentUnit };
+    if (!savedOthers.value.some(unit => unit.unitName === newOther.unitName)) {
+      savedOthers.value.push(newOther); // Add the new unit only if it's not already in the list
+    }
+    armyStore.addOtherToArmy(props.armyIndex, newOther);
+    emit('add-other', newOther);
+  } catch (error) {
+    console.error("Fetch Error: ", error);
+    const newOther = { ...other, unitComposition: [] };
+    if (!savedOthers.value.some(unit => unit.unitName === newOther.unitName)) {
+      savedOthers.value.push(newOther); // Add the new unit only if it's not already in the list
+    }
+    armyStore.addOtherToArmy(props.armyIndex, newOther);
+    emit('add-other', newOther);
+  } finally {
+    isSaving.value = false; // Reset saving state
+  }
+};
+
 const deleteCharacter = (index, type) => {
   if (type === 'character') {
     savedCharacters.value.splice(index, 1);
@@ -234,6 +325,11 @@ const deleteCharacter = (index, type) => {
   }
 };
 
+const deleteOther = (index) => {
+  savedOthers.value.splice(index, 1);
+  armyStore.removeOtherFromArmy(props.armyIndex, index);
+};
+
 const loadCharacters = (characters) => {
   savedCharacters.value = characters;
 };
@@ -242,11 +338,17 @@ const loadBattlelines = (battlelines) => {
   savedBattlelines.value = battlelines;
 };
 
+const loadOthers = (others) => {
+  savedOthers.value = others;
+};
+
 const countInArmy = (unitName, type) => {
   if (type === 'character') {
     return savedCharacters.value.filter(character => character.unitName === unitName).length;
   } else if (type === 'battleline') {
     return savedBattlelines.value.filter(battleline => battleline.unitName === unitName).length;
+  } else if (type === 'other') {
+    return savedOthers.value.filter(other => other.unitName === unitName).length;
   }
 };
 
@@ -257,6 +359,7 @@ const reloadCharacters = async () => {
     const data = await res.json();
     characters.value = data.characters;
     battlelines.value = data.battleline;
+    others.value = data.other;
   } catch (error) {
     console.error("Fetch Error: ", error);
   }
@@ -292,6 +395,10 @@ const totalBattlelinePoints = computed(() => {
   return savedBattlelines.value.reduce((sum, battleline) => sum + battleline.basicPoints, 0);
 });
 
+const totalOtherPoints = computed(() => {
+  return savedOthers.value.reduce((sum, other) => sum + other.basicPoints, 0);
+});
+
 const updateWargear = (index, wargear, type) => {
   if (type === 'character') {
     const updatedUnits = savedCharacters.value[index].unitComposition.map(unit => {
@@ -305,24 +412,30 @@ const updateWargear = (index, wargear, type) => {
       return unit;
     });
     savedBattlelines.value[index].unitComposition = updatedUnits;
+  } else if (type === 'other') {
+    const updatedUnits = savedOthers.value[index].unitComposition.map(unit => {
+      unit.selectedWargear = wargear;
+      return unit;
+    });
+    savedOthers.value[index].unitComposition = updatedUnits;
   }
   armyStore.saveArmies();
 };
 
-// Expose the loadCharacters, loadBattlelines and reloadCharacters methods to be called from the parent
-defineExpose({ loadCharacters, reloadCharacters, loadBattlelines });
+// Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent
+defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
 
 <style scoped>
-.saved-characters, .saved-battlelines {
+.saved-characters, .saved-battlelines, .saved-others {
   margin-top: 20px;
 }
 
-.saved-characters h3, .saved-battlelines h3 {
+.saved-characters h3, .saved-battlelines h3, .saved-others h3 {
   margin-bottom: 10px;
 }
 
-.saved-characters div, .saved-battlelines div {
+.saved-characters div, .saved-battlelines div, .saved-others div {
   margin-bottom: 5px;
 }
 

@@ -33,12 +33,23 @@ export const useArmyStore = defineStore('armyStore', {
       this.armies[armyIndex].battlelines.push(battleline);
       this.saveArmies();
     },
+    addOtherToArmy(armyIndex, other) {
+      if (!this.armies[armyIndex].others) {
+        this.armies[armyIndex].others = [];
+      }
+      this.armies[armyIndex].others.push(other);
+      this.saveArmies();
+    },
     removeCharacterFromArmy(armyIndex, characterIndex) {
       this.armies[armyIndex].characters.splice(characterIndex, 1);
       this.saveArmies();
     },
     removeBattlelineFromArmy(armyIndex, battlelineIndex) {
       this.armies[armyIndex].battlelines.splice(battlelineIndex, 1);
+      this.saveArmies();
+    },
+    removeOtherFromArmy(armyIndex, otherIndex) {
+      this.armies[armyIndex].others.splice(otherIndex, 1);
       this.saveArmies();
     },
     saveArmies() {

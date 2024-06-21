@@ -5,7 +5,7 @@
       character {{ totalCharacterPoints }} points
       <v-btn @click="openCharacterDialog">+</v-btn>
     </div>
-    <p>passed prop: {{ url }}</p>
+    <!-- <p>passed prop: {{ url }}</p> -->
 
     <!-- Character Dialog -->
     <v-dialog v-model="isCharacterDialogOpen" max-width="800" min-width="380" height="600">
@@ -178,7 +178,7 @@ const props = defineProps({
   armyIndex: Number
 });
 
-const emit = defineEmits(['add-character']);
+const emit = defineEmits(['add-character', 'add-other']); // Declare the events here
 
 const isCharacterDialogOpen = ref(false);
 const isBattlelineDialogOpen = ref(false);
@@ -194,6 +194,8 @@ const unitOptions = ref([]);
 const selectedOption = ref(null);
 const currentUnit = ref({});
 const isSaving = ref(false); // Add this to prevent multiple saves
+
+const debounceTimers = {}; // Tracking object for unit debounce
 
 const armyStore = useArmyStore();
 
@@ -279,40 +281,46 @@ const saveBattleline = async (battleline) => {
   }
 };
 
-const addOtherUnit = async (other) => {
-  if (isSaving.value) return; // Prevent further clicks while saving
-  isSaving.value = true;
+const addOtherUnit = (other) => {
+  const otherUnitName = other.unitName;
 
-  const otherJsonFileName = other.unitName.replace(/\s+/g, '-').toLowerCase() + '.json';
-
-  try {
-    const res = await fetch(`/faction/${props.url}/collection/${otherJsonFileName}`);
-    const data = await res.json();
-    const unitComposition = data.unitComposition || [];
-
-    const unitsWithParentUnit = unitComposition.map(unit => ({
-      ...unit,
-      parentUnit: other.unitName,
-      selectedWargear: []
-    }));
-
-    const newOther = { ...other, unitComposition: unitsWithParentUnit };
-    if (!savedOthers.value.some(unit => unit.unitName === newOther.unitName)) {
-      savedOthers.value.push(newOther); // Add the new unit only if it's not already in the list
-    }
-    armyStore.addOtherToArmy(props.armyIndex, newOther);
-    emit('add-other', newOther);
-  } catch (error) {
-    console.error("Fetch Error: ", error);
-    const newOther = { ...other, unitComposition: [] };
-    if (!savedOthers.value.some(unit => unit.unitName === newOther.unitName)) {
-      savedOthers.value.push(newOther); // Add the new unit only if it's not already in the list
-    }
-    armyStore.addOtherToArmy(props.armyIndex, newOther);
-    emit('add-other', newOther);
-  } finally {
-    isSaving.value = false; // Reset saving state
+  if (debounceTimers[otherUnitName]) {
+    // If a debounce timer exists, prevent adding the unit
+    return;
   }
+
+  isSaving.value = true;
+  const otherJsonFileName = otherUnitName.replace(/\s+/g, '-').toLowerCase() + '.json';
+
+  fetch(`/faction/${props.url}/collection/${otherJsonFileName}`)
+    .then((res) => res.json())
+    .then((data) => {
+      const unitComposition = data.unitComposition || [];
+      const unitsWithParentUnit = unitComposition.map(unit => ({
+        ...unit,
+        parentUnit: other.unitName,
+        selectedWargear: []
+      }));
+
+      const newOther = { ...other, unitComposition: unitsWithParentUnit };
+
+      savedOthers.value.push(newOther); // Directly push without check
+      armyStore.addOtherToArmy(props.armyIndex, newOther);
+      emit('add-other', newOther);
+    })
+    .catch((error) => {
+      console.error("Fetch Error: ", error);
+      const newOther = { ...other, unitComposition: [] };
+      savedOthers.value.push(newOther); // Directly push without check
+      armyStore.addOtherToArmy(props.armyIndex, newOther);
+      emit('add-other', newOther);
+    })
+    .finally(() => {
+      isSaving.value = false;
+      debounceTimers[otherUnitName] = setTimeout(() => {
+        delete debounceTimers[otherUnitName]; // Clear the timer after 500ms
+      }, 500);
+    });
 };
 
 const deleteCharacter = (index, type) => {

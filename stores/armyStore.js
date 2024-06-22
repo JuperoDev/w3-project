@@ -19,37 +19,15 @@ export const useArmyStore = defineStore('armyStore', {
       this.armies.splice(index, 1);
       this.saveArmies();
     },
-    addCharacterToArmy(armyIndex, character) {
-      if (!this.armies[armyIndex].characters) {
-        this.armies[armyIndex].characters = [];
+    addUnitToArmy(armyIndex, unit) {
+      if (!this.armies[armyIndex].units) {
+        this.armies[armyIndex].units = [];
       }
-      this.armies[armyIndex].characters.push(character);
+      this.armies[armyIndex].units.push(unit);
       this.saveArmies();
     },
-    addBattlelineToArmy(armyIndex, battleline) {
-      if (!this.armies[armyIndex].battlelines) {
-        this.armies[armyIndex].battlelines = [];
-      }
-      this.armies[armyIndex].battlelines.push(battleline);
-      this.saveArmies();
-    },
-    addOtherToArmy(armyIndex, other) {
-      if (!this.armies[armyIndex].others) {
-        this.armies[armyIndex].others = [];
-      }
-      this.armies[armyIndex].others.push(other);
-      this.saveArmies();
-    },
-    removeCharacterFromArmy(armyIndex, characterIndex) {
-      this.armies[armyIndex].characters.splice(characterIndex, 1);
-      this.saveArmies();
-    },
-    removeBattlelineFromArmy(armyIndex, battlelineIndex) {
-      this.armies[armyIndex].battlelines.splice(battlelineIndex, 1);
-      this.saveArmies();
-    },
-    removeOtherFromArmy(armyIndex, otherIndex) {
-      this.armies[armyIndex].others.splice(otherIndex, 1);
+    removeUnitFromArmy(armyIndex, unitIndex) {
+      this.armies[armyIndex].units.splice(unitIndex, 1);
       this.saveArmies();
     },
     saveArmies() {

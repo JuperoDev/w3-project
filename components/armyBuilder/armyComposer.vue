@@ -26,9 +26,9 @@
     </v-dialog>
 
     <div class="saved-characters">
-      <div v-for="(savedCharacter, index) in savedCharacters.filter(character => !character.isBattleline && !character.isOtherUnit)" :key="index">
+      <div v-for="(savedCharacter, index) in savedCharacters.filter(character => !character.isBattleline && !character.isOtherUnit)" :key="savedCharacter.id">
         {{ savedCharacter.unitName }}: {{ savedCharacter.basicPoints }} points
-        <v-btn @click="deleteCharacter(index, 'character')">Delete</v-btn>
+        <v-btn @click="deleteCharacter(savedCharacter.id)">Delete</v-btn>
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
             <ArmyBuilderAdditionalData :url="url" :unit="unit" />
@@ -73,9 +73,9 @@
     </v-dialog>
 
     <div class="saved-battlelines">
-      <div v-for="(savedBattleline, index) in savedCharacters.filter(character => character.isBattleline)" :key="index">
+      <div v-for="(savedBattleline, index) in savedCharacters.filter(character => character.isBattleline)" :key="savedBattleline.id">
         {{ savedBattleline.unitName }}: {{ savedBattleline.basicPoints }} points
-        <v-btn @click="deleteCharacter(index, 'battleline')">Delete</v-btn>
+        <v-btn @click="deleteCharacter(savedBattleline.id)">Delete</v-btn>
         <v-btn @click="openOptionsDialog(savedBattleline)">Options</v-btn>
         <div v-if="savedBattleline.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedBattleline.unitComposition" :key="unit.unitType" class="unit-composition">
@@ -121,9 +121,9 @@
     </v-dialog>
 
     <div class="saved-others">
-      <div v-for="(savedOther, index) in savedCharacters.filter(character => character.isOtherUnit)" :key="index">
+      <div v-for="(savedOther, index) in savedCharacters.filter(character => character.isOtherUnit)" :key="savedOther.id">
         {{ savedOther.unitName }}: {{ savedOther.basicPoints }} points
-        <v-btn @click="deleteCharacter(index, 'other')">Delete</v-btn>
+        <v-btn @click="deleteCharacter(savedOther.id)">Delete</v-btn>
         <v-btn @click="openOptionsDialog(savedOther)">Options</v-btn>
         <div v-if="savedOther.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedOther.unitComposition" :key="unit.unitType" class="unit-composition">
@@ -167,6 +167,7 @@
     </v-dialog>
   </div>
 </template>
+
 
 <script setup>
 import { ref, onMounted, computed, defineExpose } from 'vue';
@@ -214,6 +215,10 @@ const openOptionsDialog = (unit) => {
   isOptionsDialogOpen.value = true;
 };
 
+const generateUniqueId = () => {
+  return Math.floor(1000 + Math.random() * 9000);
+};
+
 const saveCharacter = async (character) => {
   if (isSaving.value) return; // Prevent further clicks while saving
   isSaving.value = true;
@@ -231,13 +236,13 @@ const saveCharacter = async (character) => {
       selectedWargear: []
     }));
 
-    const newCharacter = { ...character, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: false };
+    const newCharacter = { ...character, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: false, id: generateUniqueId() };
     savedCharacters.value.push(newCharacter);
     armyStore.addCharacterToArmy(props.armyIndex, newCharacter);
     emit('add-character', newCharacter);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    const newCharacter = { ...character, unitComposition: [], isBattleline: false, isOtherUnit: false };
+    const newCharacter = { ...character, unitComposition: [], isBattleline: false, isOtherUnit: false, id: generateUniqueId() };
     savedCharacters.value.push(newCharacter);
     armyStore.addCharacterToArmy(props.armyIndex, newCharacter);
     emit('add-character', newCharacter);
@@ -263,13 +268,13 @@ const saveBattleline = async (battleline) => {
       selectedWargear: []
     }));
 
-    const newBattleline = { ...battleline, unitComposition: unitsWithParentUnit, isBattleline: true, isOtherUnit: false };
+    const newBattleline = { ...battleline, unitComposition: unitsWithParentUnit, isBattleline: true, isOtherUnit: false, id: generateUniqueId() };
     savedCharacters.value.push(newBattleline);
     armyStore.addCharacterToArmy(props.armyIndex, newBattleline);
     emit('add-character', newBattleline);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    const newBattleline = { ...battleline, unitComposition: [], isBattleline: true, isOtherUnit: false };
+    const newBattleline = { ...battleline, unitComposition: [], isBattleline: true, isOtherUnit: false, id: generateUniqueId() };
     savedCharacters.value.push(newBattleline);
     armyStore.addCharacterToArmy(props.armyIndex, newBattleline);
     emit('add-character', newBattleline);
@@ -295,13 +300,13 @@ const saveOtherUnit = async (other) => {
       selectedWargear: []
     }));
 
-    const newOther = { ...other, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: true };
+    const newOther = { ...other, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: true, id: generateUniqueId() };
     savedCharacters.value.push(newOther);
     armyStore.addCharacterToArmy(props.armyIndex, newOther);
     emit('add-character', newOther);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    const newOther = { ...other, unitComposition: [], isBattleline: false, isOtherUnit: true };
+    const newOther = { ...other, unitComposition: [], isBattleline: false, isOtherUnit: true, id: generateUniqueId() };
     savedCharacters.value.push(newOther);
     armyStore.addCharacterToArmy(props.armyIndex, newOther);
     emit('add-character', newOther);
@@ -310,25 +315,8 @@ const saveOtherUnit = async (other) => {
   }
 };
 
-const deleteCharacter = (index, type) => {
-  let targetIndex;
-
-  if (type === 'character') {
-    targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && !character.isBattleline && !character.isOtherUnit);
-  } else if (type === 'battleline') {
-    targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && character.isBattleline);
-  } else if (type === 'other') {
-    targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && character.isOtherUnit);
-  }
-
-  if (targetIndex !== -1) {
-    savedCharacters.value.splice(targetIndex, 1);
-    armyStore.removeCharacterFromArmy(props.armyIndex, targetIndex);
-  }
-};
-
-const deleteOther = (index) => {
-  const targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && character.isOtherUnit);
+const deleteCharacter = (id) => {
+  const targetIndex = savedCharacters.value.findIndex(character => character.id === id);
 
   if (targetIndex !== -1) {
     savedCharacters.value.splice(targetIndex, 1);
@@ -431,6 +419,8 @@ const updateWargear = (index, wargear, type) => {
 // Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
+
+
 
 
 <style scoped>

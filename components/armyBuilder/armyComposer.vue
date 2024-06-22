@@ -1,5 +1,10 @@
 <template>
   <div class="armyComposer_container">
+    <!-- Total Points -->
+    <div class="total-points bg-zinc-700 text-zinc-50 uppercase">
+      Total Points: {{ totalPoints }} points
+    </div>
+
     <!-- CHARACTER -->
     <div class="armyComposer_container_character bg-zinc-800 text-zinc-50 uppercase">
       character {{ totalCharacterPoints }} points
@@ -393,6 +398,10 @@ const totalOtherPoints = computed(() => {
   return savedCharacters.value.filter(character => character.isOtherUnit).reduce((sum, other) => sum + other.basicPoints, 0);
 });
 
+const totalPoints = computed(() => {
+  return totalCharacterPoints.value + totalBattlelinePoints.value + totalOtherPoints.value;
+});
+
 const updateWargear = (index, wargear, type) => {
   if (type === 'character') {
     const updatedUnits = savedCharacters.value[index].unitComposition.map(unit => {
@@ -419,6 +428,7 @@ const updateWargear = (index, wargear, type) => {
 // Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
+
 
 
 

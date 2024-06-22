@@ -311,7 +311,15 @@ const saveOtherUnit = async (other) => {
 };
 
 const deleteCharacter = (index, type) => {
-  const targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && character.isBattleline === (type === 'battleline') && character.isOtherUnit === (type === 'other'));
+  let targetIndex;
+
+  if (type === 'character') {
+    targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && !character.isBattleline && !character.isOtherUnit);
+  } else if (type === 'battleline') {
+    targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && character.isBattleline);
+  } else if (type === 'other') {
+    targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && character.isOtherUnit);
+  }
 
   if (targetIndex !== -1) {
     savedCharacters.value.splice(targetIndex, 1);
@@ -321,7 +329,7 @@ const deleteCharacter = (index, type) => {
 
 const deleteOther = (index) => {
   const targetIndex = savedCharacters.value.findIndex((character, idx) => idx === index && character.isOtherUnit);
-  
+
   if (targetIndex !== -1) {
     savedCharacters.value.splice(targetIndex, 1);
     armyStore.removeCharacterFromArmy(props.armyIndex, targetIndex);
@@ -423,6 +431,7 @@ const updateWargear = (index, wargear, type) => {
 // Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
+
 
 <style scoped>
 .saved-characters, .saved-battlelines, .saved-others {

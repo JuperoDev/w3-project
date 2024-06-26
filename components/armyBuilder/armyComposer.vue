@@ -48,6 +48,11 @@
             <div v-else>
               <v-btn @click="openEnhancementDialog(savedCharacter)">Enhancement</v-btn>
             </div>
+            <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
+              <div v-for="gear in unit.selectedWargear" :key="gear.item">
+                {{ gear.item }} x{{ gear.amount }}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -427,23 +432,17 @@ const totalPoints = computed(() => {
 
 const updateWargear = (index, wargear, type) => {
   if (type === 'character') {
-    const updatedUnits = savedCharacters.value[index].unitComposition.map(unit => {
+    savedCharacters.value[index].unitComposition.forEach(unit => {
       unit.selectedWargear = wargear;
-      return unit;
     });
-    savedCharacters.value[index].unitComposition = updatedUnits;
   } else if (type === 'battleline') {
-    const updatedUnits = savedCharacters.value[index].unitComposition.map(unit => {
+    savedCharacters.value[index].unitComposition.forEach(unit => {
       unit.selectedWargear = wargear;
-      return unit;
     });
-    savedCharacters.value[index].unitComposition = updatedUnits;
   } else if (type === 'other') {
-    const updatedUnits = savedCharacters.value[index].unitComposition.map(unit => {
+    savedCharacters.value[index].unitComposition.forEach(unit => {
       unit.selectedWargear = wargear;
-      return unit;
     });
-    savedCharacters.value[index].unitComposition = updatedUnits;
   }
   armyStore.saveArmies();
 };
@@ -451,10 +450,6 @@ const updateWargear = (index, wargear, type) => {
 // Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
-
-
-
-
 
 <style scoped>
 .saved-characters, .saved-battlelines, .saved-others {

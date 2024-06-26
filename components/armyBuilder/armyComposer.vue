@@ -36,19 +36,34 @@
         <v-btn @click="deleteCharacter(savedCharacter.id)">Delete</v-btn>
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
-  <ArmyBuilderAdditionalData :url="url" :unit="unit" />
-  <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'character')" />
-  <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
-  <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
-    - {{ equipment }}
-  </div>
-  <div v-if="containsEpic(unit.unitType)">
-    <v-btn>Enhancement</v-btn>
-  </div>
-</div>
+            <ArmyBuilderAdditionalData :url="url" :unit="unit" />
+            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'character')" />
+            <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
+            <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
+              - {{ equipment }}
+            </div>
+            <div v-if="savedCharacter.isEpicHero">
+              <span>Epic Hero</span>
+            </div>
+            <div v-else>
+              <v-btn @click="openEnhancementDialog(savedCharacter)">Enhancement</v-btn>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Enhancement Dialog -->
+    <v-dialog v-model="isEnhancementDialogOpen" max-width="300">
+      <v-card>
+        <v-card-title class="text-h6">Enhancement</v-card-title>
+        <v-card-text>Enhancement details for {{ currentUnit.unitName }}</v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn text @click="isEnhancementDialogOpen = false">Close</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
 
     <!-- BATTLELINE -->
     <div class="armyComposer_container_battleline bg-zinc-800 text-zinc-50 uppercase">
@@ -187,6 +202,7 @@ const isCharacterDialogOpen = ref(false);
 const isBattlelineDialogOpen = ref(false);
 const isOtherDialogOpen = ref(false);
 const isOptionsDialogOpen = ref(false);
+const isEnhancementDialogOpen = ref(false); // State for Enhancement Dialog
 const characters = ref([]);
 const battlelines = ref([]);
 const others = ref([]);
@@ -195,8 +211,6 @@ const unitOptions = ref([]);
 const selectedOption = ref(null);
 const currentUnit = ref({});
 const isSaving = ref(false); // Add this to prevent multiple saves
-
-const debounceTimers = {}; // Tracking object for unit debounce
 
 const armyStore = useArmyStore();
 
@@ -218,6 +232,11 @@ const openOptionsDialog = (unit) => {
   isOptionsDialogOpen.value = true;
 };
 
+const openEnhancementDialog = (unit) => {
+  currentUnit.value = unit;
+  isEnhancementDialogOpen.value = true;
+};
+
 const generateUniqueId = () => {
   return Math.floor(1000 + Math.random() * 9000);
 };
@@ -231,6 +250,8 @@ const saveCharacter = async (character) => {
   try {
     const res = await fetch(`/faction/${props.url}/collection/${characterJsonFileName}`);
     const data = await res.json();
+    character.keywords = data.keywords || [];
+    const isEpicHero = character.keywords.includes('epic hero');
     const unitComposition = data.unitComposition || [];
 
     const unitsWithParentUnit = unitComposition.map(unit => ({
@@ -239,13 +260,13 @@ const saveCharacter = async (character) => {
       selectedWargear: []
     }));
 
-    const newCharacter = { ...character, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: false, id: generateUniqueId() };
+    const newCharacter = { ...character, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: false, id: generateUniqueId(), isEpicHero: isEpicHero };
     savedCharacters.value.push(newCharacter);
     armyStore.addCharacterToArmy(props.armyIndex, newCharacter);
     emit('add-character', newCharacter);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    const newCharacter = { ...character, unitComposition: [], isBattleline: false, isOtherUnit: false, id: generateUniqueId() };
+    const newCharacter = { ...character, unitComposition: [], isBattleline: false, isOtherUnit: false, id: generateUniqueId(), isEpicHero: false };
     savedCharacters.value.push(newCharacter);
     armyStore.addCharacterToArmy(props.armyIndex, newCharacter);
     emit('add-character', newCharacter);
@@ -263,6 +284,8 @@ const saveBattleline = async (battleline) => {
   try {
     const res = await fetch(`/faction/${props.url}/collection/${battlelineJsonFileName}`);
     const data = await res.json();
+    battleline.keywords = data.keywords || [];
+    const isEpicHero = battleline.keywords.includes('epic hero');
     const unitComposition = data.unitComposition || [];
 
     const unitsWithParentUnit = unitComposition.map(unit => ({
@@ -271,13 +294,13 @@ const saveBattleline = async (battleline) => {
       selectedWargear: []
     }));
 
-    const newBattleline = { ...battleline, unitComposition: unitsWithParentUnit, isBattleline: true, isOtherUnit: false, id: generateUniqueId() };
+    const newBattleline = { ...battleline, unitComposition: unitsWithParentUnit, isBattleline: true, isOtherUnit: false, id: generateUniqueId(), isEpicHero: isEpicHero };
     savedCharacters.value.push(newBattleline);
     armyStore.addCharacterToArmy(props.armyIndex, newBattleline);
     emit('add-character', newBattleline);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    const newBattleline = { ...battleline, unitComposition: [], isBattleline: true, isOtherUnit: false, id: generateUniqueId() };
+    const newBattleline = { ...battleline, unitComposition: [], isBattleline: true, isOtherUnit: false, id: generateUniqueId(), isEpicHero: false };
     savedCharacters.value.push(newBattleline);
     armyStore.addCharacterToArmy(props.armyIndex, newBattleline);
     emit('add-character', newBattleline);
@@ -295,6 +318,8 @@ const saveOtherUnit = async (other) => {
   try {
     const res = await fetch(`/faction/${props.url}/collection/${otherJsonFileName}`);
     const data = await res.json();
+    other.keywords = data.keywords || [];
+    const isEpicHero = other.keywords.includes('epic hero');
     const unitComposition = data.unitComposition || [];
 
     const unitsWithParentUnit = unitComposition.map(unit => ({
@@ -303,13 +328,13 @@ const saveOtherUnit = async (other) => {
       selectedWargear: []
     }));
 
-    const newOther = { ...other, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: true, id: generateUniqueId() };
+    const newOther = { ...other, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: true, id: generateUniqueId(), isEpicHero: isEpicHero };
     savedCharacters.value.push(newOther);
     armyStore.addCharacterToArmy(props.armyIndex, newOther);
     emit('add-character', newOther);
   } catch (error) {
     console.error("Fetch Error: ", error);
-    const newOther = { ...other, unitComposition: [], isBattleline: false, isOtherUnit: true, id: generateUniqueId() };
+    const newOther = { ...other, unitComposition: [], isBattleline: false, isOtherUnit: true, id: generateUniqueId(), isEpicHero: false };
     savedCharacters.value.push(newOther);
     armyStore.addCharacterToArmy(props.armyIndex, newOther);
     emit('add-character', newOther);
@@ -347,10 +372,6 @@ const countInArmy = (unitName, type) => {
   } else if (type === 'other') {
     return savedCharacters.value.filter(character => character.unitName === unitName && character.isOtherUnit).length;
   }
-};
-
-const containsEpic = (unitType) => {
-  return !unitType.toLowerCase().includes('epic');
 };
 
 const reloadCharacters = async () => {

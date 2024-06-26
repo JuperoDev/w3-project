@@ -36,18 +36,16 @@
         <v-btn @click="deleteCharacter(savedCharacter.id)">Delete</v-btn>
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
-            <ArmyBuilderAdditionalData :url="url" :unit="unit" />
-            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'character')" />
-            <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
-            <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
-              - {{ equipment }}
-            </div>
-            <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
-              <div v-for="gear in unit.selectedWargear" :key="gear.item">
-                {{ gear.item }} x{{ gear.amount }}
-              </div>
-            </div>
-          </div>
+  <ArmyBuilderAdditionalData :url="url" :unit="unit" />
+  <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'character')" />
+  <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
+  <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
+    - {{ equipment }}
+  </div>
+  <div v-if="containsEpic(unit.unitType)">
+    <v-btn>Enhancement</v-btn>
+  </div>
+</div>
         </div>
       </div>
     </div>
@@ -349,6 +347,10 @@ const countInArmy = (unitName, type) => {
   } else if (type === 'other') {
     return savedCharacters.value.filter(character => character.unitName === unitName && character.isOtherUnit).length;
   }
+};
+
+const containsEpic = (unitType) => {
+  return !unitType.toLowerCase().includes('epic');
 };
 
 const reloadCharacters = async () => {

@@ -42,10 +42,7 @@
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
               - {{ equipment }}
             </div>
-            <div v-if="savedCharacter.isEpicHero">
-              <span>Epic Hero</span>
-            </div>
-            <div v-else>
+            <div v-if="!savedCharacter.isEpicHero">
               <v-btn @click="openEnhancementDialog(savedCharacter)">Enhancement</v-btn>
             </div>
             <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
@@ -58,17 +55,8 @@
       </div>
     </div>
 
-    <!-- Enhancement Dialog -->
-    <v-dialog v-model="isEnhancementDialogOpen" max-width="300">
-      <v-card>
-        <v-card-title class="text-h6">Enhancement</v-card-title>
-        <v-card-text>Enhancement details for {{ currentUnit.unitName }}</v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn text @click="isEnhancementDialogOpen = false">Close</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
+    <!-- Enhancement Dialog Component -->
+    <ArmyBuilderEnhancements :unit="currentUnit" :isOpen="isEnhancementDialogOpen" />
 
     <!-- BATTLELINE -->
     <div class="armyComposer_container_battleline bg-zinc-800 text-zinc-50 uppercase">
@@ -190,7 +178,6 @@
     </v-dialog>
   </div>
 </template>
-
 
 <script setup>
 import { ref, onMounted, computed, defineExpose } from 'vue';

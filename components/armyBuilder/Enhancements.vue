@@ -13,13 +13,15 @@
                     {{ enhancement.name }} ({{ enhancement.points }} points)
                   </v-expansion-panel-title>
                   <v-expansion-panel-text>
-                    <p v-html="enhancement.lore"></p>
-                    <p v-html="enhancement.description"></p>
-                    <v-radio
+                    <p><i>{{ enhancement.lore }}</i></p>
+                    <br/>
+                    <p>{{enhancement.description}}</p>
+                    <v-checkbox
                       :label="'Include this enhancement'"
                       :value="enhancement"
-                      v-model="selectedEnhancement"
-                    ></v-radio>
+                      :input-value="selectedEnhancement === enhancement"
+                      @change="toggleEnhancement(enhancement)"
+                    ></v-checkbox>
                   </v-expansion-panel-text>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -49,7 +51,7 @@ import {
   VCardText,
   VCardActions,
   VSpacer,
-  VRadio,
+  VCheckbox,
   VExpansionPanels,
   VExpansionPanel,
   VExpansionPanelTitle,
@@ -86,6 +88,14 @@ export default {
       }
     };
 
+    const toggleEnhancement = (enhancement) => {
+      if (selectedEnhancement.value === enhancement) {
+        selectedEnhancement.value = null;
+      } else {
+        selectedEnhancement.value = enhancement;
+      }
+    };
+
     const saveEnhancement = () => {
       if (selectedEnhancement.value) {
         emit('save-enhancement', selectedEnhancement.value);
@@ -102,6 +112,7 @@ export default {
       expandedPanels,
       openDialog,
       saveEnhancement,
+      toggleEnhancement,
     };
   },
   components: {
@@ -112,7 +123,7 @@ export default {
     VCardText,
     VCardActions,
     VSpacer,
-    VRadio,
+    VCheckbox,
     VExpansionPanels,
     VExpansionPanel,
     VExpansionPanelTitle,

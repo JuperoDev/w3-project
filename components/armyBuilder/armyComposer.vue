@@ -44,7 +44,7 @@
             </div>
             <div v-if="!savedCharacter.isEpicHero">
              
-
+              <ArmyBuilderEnhancements />
 
             </div>
             <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">

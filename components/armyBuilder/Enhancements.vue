@@ -1,28 +1,37 @@
 <template>
-    <v-dialog v-model="isEnhancementDialogOpen" max-width="300">
-      <v-card>
-        <v-card-title class="text-h6">Enhancement</v-card-title>
-        <v-card-text>Enhancement details for {{ unit.unitName }}</v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn text @click="isEnhancementDialogOpen = false">Close</v-btn>
-        </v-card-actions>
-      </v-card>
+  <div>
+    <v-btn @click="openDialog">Open Dialog</v-btn>
+    <v-dialog v-model="isDialogOpen" max-width="500">
+      <template v-slot:default="{ isActive }">
+        <v-card>
+          <v-card-title>Dialog</v-card-title>
+          <v-card-text>This is a simple dialog.</v-card-text>
+          <v-card-actions>
+            <v-btn text="Close" @click="isDialogOpen = false">Close</v-btn>
+          </v-card-actions>
+        </v-card>
+      </template>
     </v-dialog>
-  </template>
-  
-  <script setup>
-  import { ref, watch } from 'vue';
-  
-  const props = defineProps({
-    unit: Object,
-    isOpen: Boolean,
-  });
-  
-  const isEnhancementDialogOpen = ref(props.isOpen);
-  
-  watch(() => props.isOpen, (newVal) => {
-    isEnhancementDialogOpen.value = newVal;
-  });
-  </script>
-  
+  </div>
+</template>
+
+<script>
+import { ref } from 'vue';
+
+export default {
+  name: 'DialogButton',
+  setup() {
+    const isDialogOpen = ref(false);
+
+    const openDialog = () => {
+      isDialogOpen.value = true;
+    };
+
+    return {
+      isDialogOpen,
+      openDialog,
+    };
+  },
+};
+</script>
+

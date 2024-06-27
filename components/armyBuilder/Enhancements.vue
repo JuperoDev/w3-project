@@ -57,7 +57,7 @@ import {
 } from 'vuetify/components';
 
 export default {
-  name: 'DialogButton',
+  name: 'ArmyBuilderEnhancements',
   props: {
     url: String,
     detachment: String,

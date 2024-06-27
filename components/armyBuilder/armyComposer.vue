@@ -43,9 +43,10 @@
               - {{ equipment }}
             </div>
             <div v-if="!savedCharacter.isEpicHero">
-             
-              <ArmyBuilderEnhancements :url="props.url" :detachment="detachment"  />
-
+              <ArmyBuilderEnhancements :url="url" :detachment="props.detachment" @save-enhancement="addEnhancementToCharacter(savedCharacter, index)" />
+            </div>
+            <div v-if="savedCharacter.enhancements" class="enhancements">
+              Enhancement: {{ savedCharacter.enhancements }} ({{ savedCharacter.enhancementPoints }} points)
             </div>
             <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
               <div v-for="gear in unit.selectedWargear" :key="gear.item">
@@ -58,7 +59,6 @@
     </div>
 
     <!-- Enhancement Dialog Component -->
-   
 
     <!-- BATTLELINE -->
     <div class="armyComposer_container_battleline bg-zinc-800 text-zinc-50 uppercase">
@@ -188,10 +188,10 @@ import { useArmyStore } from '@/stores/armyStore';
 const props = defineProps({
   url: String,
   armyIndex: Number,
-  detachment: String
+  detachment: String,
 });
 
-const emit = defineEmits(['add-character', 'add-other']); // Declare the events here
+const emit = defineEmits(['add-character']); // Declare the events here
 
 const isCharacterDialogOpen = ref(false);
 const isBattlelineDialogOpen = ref(false);
@@ -226,8 +226,6 @@ const openOptionsDialog = (unit) => {
   loadUnitOptions(unit.unitName);
   isOptionsDialogOpen.value = true;
 };
-
-
 
 const generateUniqueId = () => {
   return Math.floor(1000 + Math.random() * 9000);
@@ -434,6 +432,14 @@ const updateWargear = (index, wargear, type) => {
   armyStore.saveArmies();
 };
 
+const addEnhancementToCharacter = (character, index) => (enhancement) => {
+  character.enhancements = enhancement.name;
+  character.enhancementPoints = enhancement.points;
+  savedCharacters.value[index] = character;
+  armyStore.updateCharacterEnhancement(props.armyIndex, index, enhancement);
+  armyStore.saveArmies(); // Save to localStorage
+};
+
 // Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
@@ -480,5 +486,11 @@ defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 
 .text-gray-500 {
   color: #6b7280;
+}
+
+.enhancements {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #000;
 }
 </style>

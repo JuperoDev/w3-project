@@ -43,7 +43,9 @@
               - {{ equipment }}
             </div>
             <div v-if="!savedCharacter.isEpicHero">
-              <v-btn @click="openEnhancementDialog(savedCharacter)">Enhancement</v-btn>
+             
+              <ArmyBuilderEnhancements :url="props.url" :detachment="detachment"  />
+
             </div>
             <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
               <div v-for="gear in unit.selectedWargear" :key="gear.item">
@@ -56,7 +58,7 @@
     </div>
 
     <!-- Enhancement Dialog Component -->
-    <ArmyBuilderEnhancements :unit="currentUnit" :isOpen="isEnhancementDialogOpen" />
+   
 
     <!-- BATTLELINE -->
     <div class="armyComposer_container_battleline bg-zinc-800 text-zinc-50 uppercase">
@@ -185,7 +187,8 @@ import { useArmyStore } from '@/stores/armyStore';
 
 const props = defineProps({
   url: String,
-  armyIndex: Number
+  armyIndex: Number,
+  detachment: String
 });
 
 const emit = defineEmits(['add-character', 'add-other']); // Declare the events here
@@ -194,7 +197,7 @@ const isCharacterDialogOpen = ref(false);
 const isBattlelineDialogOpen = ref(false);
 const isOtherDialogOpen = ref(false);
 const isOptionsDialogOpen = ref(false);
-const isEnhancementDialogOpen = ref(false); // State for Enhancement Dialog
+
 const characters = ref([]);
 const battlelines = ref([]);
 const others = ref([]);
@@ -224,10 +227,7 @@ const openOptionsDialog = (unit) => {
   isOptionsDialogOpen.value = true;
 };
 
-const openEnhancementDialog = (unit) => {
-  currentUnit.value = unit;
-  isEnhancementDialogOpen.value = true;
-};
+
 
 const generateUniqueId = () => {
   return Math.floor(1000 + Math.random() * 9000);

@@ -15,7 +15,7 @@
                   <v-expansion-panel-text>
                     <p><i>{{ enhancement.lore }}</i></p>
                     <br/>
-                    <p>{{enhancement.description}}</p>
+                    <p>{{ enhancement.description }}</p>
                     <v-checkbox
                       :label="'Include this enhancement'"
                       :value="enhancement"
@@ -41,95 +41,53 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref, watch } from 'vue';
-import {
-  VBtn,
-  VDialog,
-  VCard,
-  VCardTitle,
-  VCardText,
-  VCardActions,
-  VSpacer,
-  VCheckbox,
-  VExpansionPanels,
-  VExpansionPanel,
-  VExpansionPanelTitle,
-  VExpansionPanelText
-} from 'vuetify/components';
 
-export default {
-  name: 'ArmyBuilderEnhancements',
-  props: {
-    url: String,
-    detachment: String,
-  },
-  emits: ['save-enhancement'],
-  setup(props, { emit }) {
-    const isDialogOpen = ref(false);
-    const enhancements = ref([]);
-    const selectedEnhancement = ref(null);
-    const expandedPanels = ref([]);
+const props = defineProps({
+  url: String,
+  detachment: String,
+});
 
-    const openDialog = async () => {
-      isDialogOpen.value = true;
-      await fetchEnhancements();
-    };
+const isDialogOpen = ref(false);
+const enhancements = ref([]);
+const selectedEnhancement = ref(null);
+const expandedPanels = ref([]);
 
-    const fetchEnhancements = async () => {
-      try {
-        const detachmentFile = `${props.url}/detachment/${props.detachment.replace(/\s+/g, '-').toLowerCase()}.json`;
-        const res = await fetch(`/faction/${detachmentFile}`);
-        const data = await res.json();
-        enhancements.value = data.enhacements || [];
-      } catch (error) {
-        console.error("Fetch Error: ", error);
-        enhancements.value = [];
-      }
-    };
+const openDialog = async () => {
+  isDialogOpen.value = true;
+  await fetchEnhancements();
+};
 
-    const toggleEnhancement = (enhancement) => {
-      if (selectedEnhancement.value === enhancement) {
-        selectedEnhancement.value = null;
-      } else {
-        selectedEnhancement.value = enhancement;
-      }
-    };
-
-    const saveEnhancement = () => {
-      if (selectedEnhancement.value) {
-        emit('save-enhancement', selectedEnhancement.value);
-      }
-      isDialogOpen.value = false;
-    };
-
-    watch(() => props.detachment, fetchEnhancements);
-
-    return {
-      isDialogOpen,
-      enhancements,
-      selectedEnhancement,
-      expandedPanels,
-      openDialog,
-      saveEnhancement,
-      toggleEnhancement,
-    };
-  },
-  components: {
-    VBtn,
-    VDialog,
-    VCard,
-    VCardTitle,
-    VCardText,
-    VCardActions,
-    VSpacer,
-    VCheckbox,
-    VExpansionPanels,
-    VExpansionPanel,
-    VExpansionPanelTitle,
-    VExpansionPanelText
+const fetchEnhancements = async () => {
+  try {
+    const detachmentFile = `${props.url}/detachment/${props.detachment.replace(/\s+/g, '-').toLowerCase()}.json`;
+    const res = await fetch(`/faction/${detachmentFile}`);
+    const data = await res.json();
+    enhancements.value = data.enhacements || [];
+  } catch (error) {
+    console.error("Fetch Error: ", error);
+    enhancements.value = [];
   }
 };
+
+const toggleEnhancement = (enhancement) => {
+  if (selectedEnhancement.value === enhancement) {
+    selectedEnhancement.value = null;
+  } else {
+    selectedEnhancement.value = enhancement;
+  }
+};
+
+const saveEnhancement = () => {
+  if (selectedEnhancement.value) {
+    emit('save-enhancement', selectedEnhancement.value);
+  }
+  isDialogOpen.value = false;
+};
+
+watch(() => props.detachment, fetchEnhancements);
+
 </script>
 
 <style scoped>

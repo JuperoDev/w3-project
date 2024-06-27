@@ -127,6 +127,7 @@
               ref="armyComposerRef"
               :url="factionAndArmyUrl"
               :armyIndex="currentArmyIndex"
+              :detachment="selectedDetachment"
             />
           </div>
         </div>

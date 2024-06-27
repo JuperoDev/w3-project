@@ -44,7 +44,7 @@
             </div>
             <div v-if="!savedCharacter.isEpicHero">
              
-              <ArmyBuilderEnhancements />
+              <ArmyBuilderEnhancements :url="props.url" :detachment="detachment"  />
 
             </div>
             <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
@@ -187,7 +187,8 @@ import { useArmyStore } from '@/stores/armyStore';
 
 const props = defineProps({
   url: String,
-  armyIndex: Number
+  armyIndex: Number,
+  detachment: String
 });
 
 const emit = defineEmits(['add-character', 'add-other']); // Declare the events here

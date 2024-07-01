@@ -6,7 +6,7 @@
     </div>
 
     <!-- CHARACTER -->
-    <div class="armyComposer_container_character bg-zinc-800 text-zinc-50 uppercase">
+    <div class="armyComposer_container_character bg-zinc-800  uppercase">
       character {{ totalCharacterPoints }} points
       <v-btn @click="openCharacterDialog">+</v-btn>
     </div>
@@ -43,10 +43,10 @@
               - {{ equipment }}
             </div>
             <div v-if="!savedCharacter.isEpicHero">
-              <ArmyBuilderEnhancements :url="url" :detachment="props.detachment" @save-enhancement="addEnhancementToCharacter(savedCharacter, index)" />
+              <v-btn @click="openEnhancementDialog(savedCharacter, index)">Enhancement</v-btn>
             </div>
             <div v-if="savedCharacter.enhancements" class="enhancements">
-              Enhancement: {{ savedCharacter.enhancements }} ({{ savedCharacter.enhancementPoints }} points)
+              Enhancement: {{ savedCharacter.enhancements.name }} ({{ savedCharacter.enhancementPoints }} points)
             </div>
             <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
               <div v-for="gear in unit.selectedWargear" :key="gear.item">
@@ -58,7 +58,44 @@
       </div>
     </div>
 
-    <!-- Enhancement Dialog Component -->
+    <!-- Enhancement Dialog -->
+    <v-dialog v-model="isEnhancementDialogOpen" max-width="800" min-width="380">
+      <template v-slot:default="{ isActive }">
+        <v-card>
+          <v-card-title>Enhancements</v-card-title>
+          <v-card-text>
+            <div v-if="enhancements.length">
+              <v-expansion-panels v-model="expandedPanels">
+                <v-expansion-panel v-for="(enhancement, index) in enhancements" :key="index">
+                  <v-expansion-panel-title>
+                    {{ enhancement.name }} ({{ enhancement.points }} points)
+                  </v-expansion-panel-title>
+                  <v-expansion-panel-text>
+                    <p><i>{{ enhancement.lore }}</i></p>
+                    <br/>
+                    <p>{{ enhancement.description }}</p>
+                    <v-checkbox
+                      :label="'Include this enhancement'"
+                      :value="enhancement"
+                      :input-value="selectedEnhancement === enhancement"
+                      @change="toggleEnhancement(enhancement)"
+                    ></v-checkbox>
+                  </v-expansion-panel-text>
+                </v-expansion-panel>
+              </v-expansion-panels>
+            </div>
+            <div v-else>
+              No enhancements found.
+            </div>
+          </v-card-text>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn text="Close" @click="isEnhancementDialogOpen = false">Close</v-btn>
+            <v-btn text="Save" @click="saveEnhancement">Save</v-btn>
+          </v-card-actions>
+        </v-card>
+      </template>
+    </v-dialog>
 
     <!-- BATTLELINE -->
     <div class="armyComposer_container_battleline bg-zinc-800 text-zinc-50 uppercase">
@@ -196,6 +233,7 @@ const emit = defineEmits(['add-character']); // Declare the events here
 const isCharacterDialogOpen = ref(false);
 const isBattlelineDialogOpen = ref(false);
 const isOtherDialogOpen = ref(false);
+const isEnhancementDialogOpen = ref(false);
 const isOptionsDialogOpen = ref(false);
 
 const characters = ref([]);
@@ -206,8 +244,29 @@ const unitOptions = ref([]);
 const selectedOption = ref(null);
 const currentUnit = ref({});
 const isSaving = ref(false); // Add this to prevent multiple saves
+const enhancements = ref([]); // Store enhancements
+const selectedEnhancement = ref(null);
+const expandedPanels = ref([]);
+let currentCharacterIndex = ref(null);
 
 const armyStore = useArmyStore();
+
+// Fetch enhancements data based on the detachment
+const fetchEnhancements = async () => {
+  try {
+    const res = await fetch(`/faction/${props.url}/detachment/${props.detachment.toLowerCase().replace(/\s+/g, '-')}.json`);
+    const data = await res.json();
+    enhancements.value = data.enhacements || [];
+  } catch (error) {
+    console.error("Fetch Error: ", error);
+  }
+};
+
+// Call fetchEnhancements when the component is mounted
+onMounted(async () => {
+  reloadCharacters();
+  fetchEnhancements();
+});
 
 const openCharacterDialog = () => {
   isCharacterDialogOpen.value = true;
@@ -225,6 +284,12 @@ const openOptionsDialog = (unit) => {
   currentUnit.value = unit;
   loadUnitOptions(unit.unitName);
   isOptionsDialogOpen.value = true;
+};
+
+const openEnhancementDialog = (character, index) => {
+  currentCharacterIndex.value = index;
+  selectedEnhancement.value = character.selectedEnhancement || null;
+  isEnhancementDialogOpen.value = true;
 };
 
 const generateUniqueId = () => {
@@ -395,20 +460,16 @@ const saveOption = () => {
   }
 };
 
-onMounted(async () => {
-  reloadCharacters();
-});
-
 const totalCharacterPoints = computed(() => {
-  return savedCharacters.value.filter(character => !character.isBattleline && !character.isOtherUnit).reduce((sum, character) => sum + character.basicPoints, 0);
+  return savedCharacters.value.filter(character => !character.isBattleline && !character.isOtherUnit).reduce((sum, character) => sum + character.basicPoints + (character.enhancementPoints || 0), 0);
 });
 
 const totalBattlelinePoints = computed(() => {
-  return savedCharacters.value.filter(character => character.isBattleline).reduce((sum, battleline) => sum + battleline.basicPoints, 0);
+  return savedCharacters.value.filter(character => character.isBattleline).reduce((sum, battleline) => sum + battleline.basicPoints + (battleline.enhancementPoints || 0), 0);
 });
 
 const totalOtherPoints = computed(() => {
-  return savedCharacters.value.filter(character => character.isOtherUnit).reduce((sum, other) => sum + other.basicPoints, 0);
+  return savedCharacters.value.filter(character => character.isOtherUnit).reduce((sum, other) => sum + other.basicPoints + (other.enhancementPoints || 0), 0);
 });
 
 const totalPoints = computed(() => {
@@ -432,12 +493,23 @@ const updateWargear = (index, wargear, type) => {
   armyStore.saveArmies();
 };
 
-const addEnhancementToCharacter = (character, index) => (enhancement) => {
-  character.enhancements = enhancement.name;
-  character.enhancementPoints = enhancement.points;
-  savedCharacters.value[index] = character;
-  armyStore.updateCharacterEnhancement(props.armyIndex, index, enhancement);
-  armyStore.saveArmies(); // Save to localStorage
+const toggleEnhancement = (enhancement) => {
+  if (selectedEnhancement.value === enhancement) {
+    selectedEnhancement.value = null;
+  } else {
+    selectedEnhancement.value = enhancement;
+  }
+};
+
+const saveEnhancement = () => {
+  if (selectedEnhancement.value) {
+    const index = currentCharacterIndex.value;
+    savedCharacters.value[index].enhancements = selectedEnhancement.value;
+    savedCharacters.value[index].enhancementPoints = selectedEnhancement.value.points;
+    armyStore.updateCharacterEnhancement(props.armyIndex, index, selectedEnhancement.value);
+    armyStore.saveArmies();
+  }
+  isEnhancementDialogOpen.value = false;
 };
 
 // Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent

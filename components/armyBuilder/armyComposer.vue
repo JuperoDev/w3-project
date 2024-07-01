@@ -6,7 +6,7 @@
     </div>
 
     <!-- CHARACTER -->
-    <div class="armyComposer_container_character bg-zinc-800  uppercase">
+    <div class="armyComposer_container_character bg-zinc-700 text-zinc-50 uppercase">
       character {{ totalCharacterPoints }} points
       <v-btn @click="openCharacterDialog">+</v-btn>
     </div>
@@ -46,7 +46,7 @@
               <v-btn @click="openEnhancementDialog(savedCharacter, index)">Enhancement</v-btn>
             </div>
             <div v-if="savedCharacter.enhancements" class="enhancements">
-              Enhancement: {{ savedCharacter.enhancements.name }} ({{ savedCharacter.enhancementPoints }} points)
+              Enhancement: {{ savedCharacter.enhancementName }} ({{ savedCharacter.enhancementPoints }} points)
             </div>
             <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
               <div v-for="gear in unit.selectedWargear" :key="gear.item">
@@ -77,7 +77,7 @@
                     <v-checkbox
                       :label="'Include this enhancement'"
                       :value="enhancement"
-                      :input-value="selectedEnhancement === enhancement"
+                      :input-value="selectedEnhancement === enhancement || (savedCharacters[currentCharacterIndex]?.enhancements && savedCharacters[currentCharacterIndex].enhancements.name === enhancement.name)"
                       @change="toggleEnhancement(enhancement)"
                     ></v-checkbox>
                   </v-expansion-panel-text>
@@ -288,7 +288,7 @@ const openOptionsDialog = (unit) => {
 
 const openEnhancementDialog = (character, index) => {
   currentCharacterIndex.value = index;
-  selectedEnhancement.value = character.selectedEnhancement || null;
+  selectedEnhancement.value = character.enhancements || null;
   isEnhancementDialogOpen.value = true;
 };
 
@@ -506,6 +506,7 @@ const saveEnhancement = () => {
     const index = currentCharacterIndex.value;
     savedCharacters.value[index].enhancements = selectedEnhancement.value;
     savedCharacters.value[index].enhancementPoints = selectedEnhancement.value.points;
+    savedCharacters.value[index].enhancementName = selectedEnhancement.value.name; // Add this line to store the enhancement name
     armyStore.updateCharacterEnhancement(props.armyIndex, index, selectedEnhancement.value);
     armyStore.saveArmies();
   }

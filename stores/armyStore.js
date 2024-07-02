@@ -31,12 +31,16 @@ export const useArmyStore = defineStore('armyStore', {
       this.saveArmies();
     },
     updateCharacterEnhancement(armyIndex, characterIndex, enhancement) {
-      if (this.armies[armyIndex] && this.armies[armyIndex].characters[characterIndex]) {
-        this.armies[armyIndex].characters[characterIndex].enhancements = enhancement.name;
-        this.armies[armyIndex].characters[characterIndex].enhancementPoints = enhancement.points;
-        this.saveArmies();
+      const army = this.armies[armyIndex];
+      const character = army.characters[characterIndex];
+      if (enhancement && enhancement.name) {
+        character.enhancement = enhancement;
+      } else {
+        // Handle the case where the enhancement is removed
+        character.enhancement = { name: '', points: 0 };
       }
-    },
+    }
+    ,
     saveArmies() {
       localStorage.setItem('armies', JSON.stringify(this.armies));
     },

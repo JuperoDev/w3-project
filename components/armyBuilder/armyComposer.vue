@@ -65,24 +65,15 @@
           <v-card-title>Enhancements</v-card-title>
           <v-card-text>
             <div v-if="enhancements.length">
-              <v-expansion-panels v-model="expandedPanels">
-                <v-expansion-panel v-for="(enhancement, index) in enhancements" :key="index">
-                  <v-expansion-panel-title>
-                    {{ enhancement.name }} ({{ enhancement.points }} points)
-                  </v-expansion-panel-title>
-                  <v-expansion-panel-text>
-                    <p><i>{{ enhancement.lore }}</i></p>
-                    <br/>
-                    <p>{{ enhancement.description }}</p>
-                    <v-checkbox
-                      :label="'Include this enhancement'"
-                      :value="enhancement"
-                      :input-value="selectedEnhancement === enhancement || (savedCharacters[currentCharacterIndex]?.enhancements && savedCharacters[currentCharacterIndex].enhancements.name === enhancement.name)"
-                      @change="toggleEnhancement(enhancement)"
-                    ></v-checkbox>
-                  </v-expansion-panel-text>
-                </v-expansion-panel>
-              </v-expansion-panels>
+              <v-radio-group v-model="selectedEnhancement" class="my-2">
+                <v-radio
+                  v-for="(enhancement, index) in enhancements"
+                  :key="index"
+                  :label="`${enhancement.name} (${enhancement.points} points)`"
+                  :value="enhancement"
+                  @click="handleRadioClick(enhancement)"
+                ></v-radio>
+              </v-radio-group>
             </div>
             <div v-else>
               No enhancements found.
@@ -219,7 +210,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, defineExpose } from 'vue';
+import { ref, onMounted, computed, defineExpose, watch } from 'vue';
 import { useArmyStore } from '@/stores/armyStore';
 
 const props = defineProps({
@@ -246,7 +237,7 @@ const currentUnit = ref({});
 const isSaving = ref(false); // Add this to prevent multiple saves
 const enhancements = ref([]); // Store enhancements
 const selectedEnhancement = ref(null);
-const expandedPanels = ref([]);
+const expandedPanels = ref([]); // Ensure expandedPanels is initialized as an empty array
 let currentCharacterIndex = ref(null);
 
 const armyStore = useArmyStore();
@@ -266,6 +257,13 @@ const fetchEnhancements = async () => {
 onMounted(async () => {
   reloadCharacters();
   fetchEnhancements();
+});
+
+// Watch the armyIndex prop to refetch enhancements when it changes
+watch(() => props.armyIndex, async (newIndex, oldIndex) => {
+  if (newIndex !== oldIndex) {
+    fetchEnhancements();
+  }
 });
 
 const openCharacterDialog = () => {
@@ -289,6 +287,9 @@ const openOptionsDialog = (unit) => {
 const openEnhancementDialog = (character, index) => {
   currentCharacterIndex.value = index;
   selectedEnhancement.value = character.enhancements || null;
+  expandedPanels.value = []; // Reset expanded panels when the dialog is opened
+  console.log('Opening enhancement dialog for:', character);
+  console.log('Selected enhancement:', selectedEnhancement.value);
   isEnhancementDialogOpen.value = true;
 };
 
@@ -493,7 +494,7 @@ const updateWargear = (index, wargear, type) => {
   armyStore.saveArmies();
 };
 
-const toggleEnhancement = (enhancement) => {
+const handleRadioClick = (enhancement) => {
   if (selectedEnhancement.value === enhancement) {
     selectedEnhancement.value = null;
   } else {
@@ -502,18 +503,23 @@ const toggleEnhancement = (enhancement) => {
 };
 
 const saveEnhancement = () => {
+  const index = currentCharacterIndex.value;
   if (selectedEnhancement.value) {
-    const index = currentCharacterIndex.value;
     savedCharacters.value[index].enhancements = selectedEnhancement.value;
     savedCharacters.value[index].enhancementPoints = selectedEnhancement.value.points;
     savedCharacters.value[index].enhancementName = selectedEnhancement.value.name; // Add this line to store the enhancement name
     armyStore.updateCharacterEnhancement(props.armyIndex, index, selectedEnhancement.value);
-    armyStore.saveArmies();
+  } else {
+    savedCharacters.value[index].enhancements = null;
+    savedCharacters.value[index].enhancementPoints = 0;
+    savedCharacters.value[index].enhancementName = ''; // Reset the enhancement name
+    armyStore.updateCharacterEnhancement(props.armyIndex, index, { name: '', points: 0 });
   }
+  armyStore.saveArmies();
   isEnhancementDialogOpen.value = false;
 };
 
-// Expose the loadCharacters, loadBattlelines, loadOthers, reloadCharacters methods to be called from the parent
+// Expose the loadCharacters, reloadCharacters, loadBattlelines, loadOthers methods to be called from the parent
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
 

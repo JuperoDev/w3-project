@@ -202,28 +202,16 @@
       </div>
     </div>
 
-    <!-- Options Dialog -->
-    <v-dialog v-model="isOptionsDialogOpen" max-width="800" min-width="380" height="600">
-      <template v-slot:default="{ isActive }">
-        <v-card title="Unit Options">
-          <v-card-text>
-            <div v-for="option in unitOptions" :key="option.count[0]">
-              <v-radio-group v-model="selectedOption" :label="`Choose ${currentUnit.unitName} option`">
-                <v-radio
-                  :label="`${option.count[0]} models for ${option.points} points`"
-                  :value="option"
-                ></v-radio>
-              </v-radio-group>
-            </div>
-          </v-card-text>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn text="Close" @click="isOptionsDialogOpen = false">Close</v-btn>
-            <v-btn text="Save" @click="saveOption">Save</v-btn>
-          </v-card-actions>
-        </v-card>
-      </template>
-    </v-dialog>
+    <!-- Options Dialog Component -->
+    <ArmyBuilderOptionsDialog
+      :isOpen="isOptionsDialogOpen"
+      :unitOptions="unitOptions"
+      :currentUnit="currentUnit"
+      :selectedOption="selectedOption"
+      @update:isOpen="isOptionsDialogOpen = $event"
+      @update:selectedOption="selectedOption = $event"
+      @save-option="saveOption"
+    />
   </div>
 </template>
 
@@ -471,10 +459,10 @@ const loadUnitOptions = async (unitName) => {
   }
 };
 
-const saveOption = () => {
-  if (selectedOption.value) {
-    currentUnit.value.basicPoints = selectedOption.value.points;
-    currentUnit.value.unitComposition[0].minQuantity = selectedOption.value.count[0];
+const saveOption = (selectedOption) => {
+  if (selectedOption) {
+    currentUnit.value.basicPoints = selectedOption.points;
+    currentUnit.value.unitComposition[0].minQuantity = selectedOption.count[0];
     isOptionsDialogOpen.value = false;
   }
 };

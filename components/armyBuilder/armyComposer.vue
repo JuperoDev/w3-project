@@ -42,7 +42,7 @@
               :unit="unit" 
               :parentUnit="unit.parentUnit" 
               :unitId="savedCharacter.id" 
-              @updateWargear="updateWargear(index, $event.wargear, $event.unitId)" 
+              @updateWargear="updateWargear($event.wargear, $event.unitId)" 
             />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
@@ -132,7 +132,7 @@
               :unit="unit" 
               :parentUnit="unit.parentUnit" 
               :unitId="savedBattleline.id" 
-              @updateWargear="updateWargear(index, $event.wargear, $event.unitId)" 
+              @updateWargear="updateWargear($event.wargear, $event.unitId)" 
             />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
@@ -186,7 +186,7 @@
               :unit="unit" 
               :parentUnit="unit.parentUnit" 
               :unitId="savedOther.id" 
-              @updateWargear="updateWargear(index, $event.wargear, $event.unitId)" 
+              @updateWargear="updateWargear($event.wargear, $event.unitId)" 
             />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
@@ -217,7 +217,7 @@
             </div>
           </v-card-text>
           <v-card-actions>
-            <v-spacer></v-spacer>
+          
             <v-btn text="Close" @click="isOptionsDialogOpen = false">Close</v-btn>
             <v-btn text="Save" @click="saveOption">Save</v-btn>
           </v-card-actions>
@@ -495,11 +495,14 @@ const totalPoints = computed(() => {
   return totalCharacterPoints.value + totalBattlelinePoints.value + totalOtherPoints.value;
 });
 
-const updateWargear = (index, wargear, unitId) => {
+const updateWargear = (wargear, unitId) => {
   const targetUnit = savedCharacters.value.find(character => character.id === unitId);
   if (targetUnit) {
     targetUnit.unitComposition.forEach(unit => {
-      unit.selectedWargear = wargear;
+      const matchingWargear = wargear.filter(w => w.miniature.toLowerCase() === unit.unitType.toLowerCase());
+      if (matchingWargear.length > 0) {
+        unit.selectedWargear = matchingWargear;
+      }
     });
     armyStore.saveArmies();
   }

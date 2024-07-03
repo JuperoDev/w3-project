@@ -37,7 +37,13 @@
         <div v-if="savedCharacter.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedCharacter.unitComposition" :key="unit.unitType" class="unit-composition">
             <ArmyBuilderAdditionalData :url="url" :unit="unit" />
-            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'character')" />
+            <ArmyBuilderWarGearData 
+              :url="url" 
+              :unit="unit" 
+              :parentUnit="unit.parentUnit" 
+              :unitId="savedCharacter.id" 
+              @updateWargear="updateWargear(index, $event.wargear, $event.unitId)" 
+            />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
               - {{ equipment }}
@@ -121,7 +127,13 @@
         <div v-if="savedBattleline.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedBattleline.unitComposition" :key="unit.unitType" class="unit-composition">
             <ArmyBuilderAdditionalData :url="url" :unit="unit" />
-            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'battleline')" />
+            <ArmyBuilderWarGearData 
+              :url="url" 
+              :unit="unit" 
+              :parentUnit="unit.parentUnit" 
+              :unitId="savedBattleline.id" 
+              @updateWargear="updateWargear(index, $event.wargear, $event.unitId)" 
+            />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
               - {{ equipment }}
@@ -169,7 +181,13 @@
         <div v-if="savedOther.unitComposition" class="unit-composition-list">
           <div v-for="unit in savedOther.unitComposition" :key="unit.unitType" class="unit-composition">
             <ArmyBuilderAdditionalData :url="url" :unit="unit" />
-            <ArmyBuilderWarGearData :url="url" :unit="unit" :parentUnit="unit.parentUnit" @updateWargear="updateWargear(index, $event, 'other')" />
+            <ArmyBuilderWarGearData 
+              :url="url" 
+              :unit="unit" 
+              :parentUnit="unit.parentUnit" 
+              :unitId="savedOther.id" 
+              @updateWargear="updateWargear(index, $event.wargear, $event.unitId)" 
+            />
             <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
             <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
               - {{ equipment }}
@@ -477,21 +495,14 @@ const totalPoints = computed(() => {
   return totalCharacterPoints.value + totalBattlelinePoints.value + totalOtherPoints.value;
 });
 
-const updateWargear = (index, wargear, type) => {
-  if (type === 'character') {
-    savedCharacters.value[index].unitComposition.forEach(unit => {
+const updateWargear = (index, wargear, unitId) => {
+  const targetUnit = savedCharacters.value.find(character => character.id === unitId);
+  if (targetUnit) {
+    targetUnit.unitComposition.forEach(unit => {
       unit.selectedWargear = wargear;
     });
-  } else if (type === 'battleline') {
-    savedCharacters.value[index].unitComposition.forEach(unit => {
-      unit.selectedWargear = wargear;
-    });
-  } else if (type === 'other') {
-    savedCharacters.value[index].unitComposition.forEach(unit => {
-      unit.selectedWargear = wargear;
-    });
+    armyStore.saveArmies();
   }
-  armyStore.saveArmies();
 };
 
 const handleRadioClick = (enhancement) => {

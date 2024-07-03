@@ -1,74 +1,43 @@
 <template>
   <div>
-    <!-- Dialog for displaying wargear -->
     <v-dialog max-width="500">
       <template v-slot:activator="{ props: activatorProps }">
-        <v-btn
-          v-bind="activatorProps"
-          color="surface-variant"
-          text="Wargear"
-          variant="flat"
-        ></v-btn>
+        <v-btn v-bind="activatorProps" color="surface-variant" text="Wargear" variant="flat"></v-btn>
       </template>
-
       <template v-slot:default="{ isActive }">
         <v-card title="Wargear Options">
-          <!-- basic wargear -->
-          <!-- Conditional rendering based on unitComposition -->
           <div v-if="unitComposition">
             <div v-for="(unit, unitIndex) in unitComposition" :key="unitIndex">
               <p>{{ unit.unitType }}</p>
               <p>this unit is equipped with</p>
               <ul>
-                <!-- Loop through unit equipment -->
-                <li
-                  v-for="(equipment, equipmentIndex) in unit.equipment"
-                  :key="equipmentIndex"
-                >
+                <li v-for="(equipment, equipmentIndex) in unit.equipment" :key="equipmentIndex">
                   {{ equipment }}
                 </li>
               </ul>
             </div>
           </div>
-
-          <!-- plus wargear -->
-          <!-- Conditional rendering based on wargearData -->
           <div v-if="wargearData">
             <div v-for="(gear, index) in wargearData" :key="index">
               <p>{{ gear.description }}</p>
               <ul>
-                <!-- Loop through gear.items -->
                 <li v-for="(item, itemIndex) in gear.items" :key="itemIndex">
                   {{ item }}
-
                   <div class="small-icon" @click="decreaseItem(item)">
                     <v-icon>mdi-minus</v-icon>
                   </div>
                   <div class="small-icon" @click="increaseItem(item)">
                     <v-icon>mdi-plus</v-icon>
                   </div>
-                  <span v-if="getItemAmount(item)">{{
-                    getItemAmount(item)
-                  }}</span>
+                  <span v-if="getItemAmount(item)">{{ getItemAmount(item) }}</span>
                 </li>
               </ul>
             </div>
           </div>
-
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn text="Close" @click="closeDialog(isActive)"></v-btn>
           </v-card-actions>
-
-          <!-- Styled selected items list for debug -->
-          <!-- <div class="selected-items">
-            <p>Selected Items:</p>
-            <ul>
-              <li v-for="item in selectedItems" :key="item.item">
-                {{ item.item }} x{{ item.amount }}
-              </li>
-            </ul>
-          </div> -->
         </v-card>
       </template>
     </v-dialog>
@@ -83,6 +52,7 @@ const props = defineProps({
   url: String,
   unit: Object,
   parentUnit: String,
+  unitId: Number,
 });
 
 const emit = defineEmits(["updateWargear"]);
@@ -104,32 +74,22 @@ const selectedItems = ref([]);
 
 // Function to transform the parentUnit
 const transformParentUnit = () => {
-  // Replace spaces with hyphens and weird characters with underscores
-  transformedParentUnit.value = props.parentUnit
-    .replace(/\s+/g, "-")
-    .replace(/[^a-zA-Z0-9-_]/g, "_");
+  transformedParentUnit.value = props.parentUnit.replace(/\s+/g, "-").replace(/[^a-zA-Z0-9-_]/g, "_");
 };
 
 // Run the transformation on mounted
 onMounted(() => {
   transformParentUnit();
 
-  // Compute the constructed URL
   constructedURL.value = `faction/${props.url}/collection/${transformedParentUnit.value}.json`;
 
-  // Fetch the data from the constructed URL
   fetch(constructedURL.value)
     .then((response) => response.json())
     .then((data) => {
-      // Check if wargear is available in the JSON data
       if (data && data.wargear && data.wargear.length > 0) {
-        // If wargear exists, assign it to wargearData
         wargearData.value = data.wargear;
       }
-
-      // Check if unitComposition is available in the JSON data
       if (data && data.unitComposition && data.unitComposition.length > 0) {
-        // If unitComposition exists, assign it to unitComposition
         unitComposition.value = data.unitComposition;
       }
     })
@@ -142,8 +102,7 @@ onMounted(() => {
 watch(
   selectedItems,
   (newVal) => {
-    emit("updateWargear", newVal);
-    console.log(selectedItems);
+    emit("updateWargear", { wargear: newVal, unitId: props.unitId });
   },
   { deep: true }
 );
@@ -178,7 +137,7 @@ const getItemAmount = (item) => {
 // Method to close the dialog and emit the wargear data
 const closeDialog = (isActive) => {
   isActive.value = false;
-  emit("updateWargear", selectedItems.value);
+  emit("updateWargear", { wargear: selectedItems.value, unitId: props.unitId });
 };
 </script>
 
@@ -198,9 +157,9 @@ const closeDialog = (isActive) => {
 }
 
 .small-icon {
-  font-size: 16px; /* Adjust the size as needed */
+  font-size: 16px;
   cursor: pointer;
   display: inline-block;
-  padding: 4px; /* Adjust padding as needed */
+  padding: 4px;
 }
 </style>

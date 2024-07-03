@@ -218,6 +218,7 @@
 <script setup>
 import { ref, onMounted, computed, defineExpose, watch } from 'vue';
 import { useArmyStore } from '@/stores/armyStore';
+import './ArmyComposerStyles.css';
 
 const props = defineProps({
   url: String,
@@ -522,53 +523,4 @@ const saveEnhancement = () => {
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
 
-<style scoped>
-.saved-characters, .saved-battlelines, .saved-others {
-  margin-top: 20px;
-}
 
-.saved-characters h3, .saved-battlelines h3, .saved-others h3 {
-  margin-bottom: 10px;
-}
-
-.saved-characters div, .saved-battlelines div, .saved-others div {
-  margin-bottom: 5px;
-}
-
-.unit-composition-list {
-  margin-top: 10px;
-  padding-left: 15px;
-}
-
-.unit-composition {
-  font-size: 0.875rem;
-  color: #555;
-  margin-top: 5px;
-}
-
-.equipment {
-  font-size: 0.875rem;
-  color: #555;
-  margin-left: 10px;
-}
-
-.selected-wargear {
-  margin-top: 10px;
-  font-size: 0.875rem;
-  color: #000;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-}
-
-.text-gray-500 {
-  color: #6b7280;
-}
-
-.enhancements {
-  margin-top: 10px;
-  font-size: 0.875rem;
-  color: #000;
-}
-</style>

@@ -149,58 +149,14 @@
     </div>
 
     <!-- OTHER UNITS -->
-    <div class="armyComposer_container_other bg-zinc-800 text-zinc-50 uppercase">
-      Other Units {{ totalOtherPoints }} points
-      <v-btn @click="openOtherDialog">+</v-btn>
-    </div>
-
-    <!-- Other Dialog -->
-    <v-dialog v-model="isOtherDialogOpen" max-width="800" min-width="380" height="600">
-      <template v-slot:default="{ isActive }">
-        <v-card title="Select Other Unit">
-          <v-card-text>
-            <div v-for="other in others" :key="other.unitName">
-              {{ other.unitName }}: {{ other.basicPoints }} points
-              <div class="text-sm text-gray-500">Count in army: {{ countInArmy(other.unitName, 'other') }}</div>
-              <v-btn :id="'add-' + other.unitName" @click="saveOtherUnit(other)">Add</v-btn>
-            </div>
-          </v-card-text>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn text="Close" @click="isOtherDialogOpen = false">Close</v-btn>
-          </v-card-actions>
-        </v-card>
-      </template>
-    </v-dialog>
-
-    <div class="saved-others">
-      <div v-for="(savedOther, index) in savedCharacters.filter(character => character.isOtherUnit)" :key="savedOther.id">
-        {{ savedOther.unitName }}: {{ savedOther.basicPoints }} points
-        <v-btn @click="deleteCharacter(savedOther.id)">Delete</v-btn>
-        <v-btn @click="openOptionsDialog(savedOther)">Options</v-btn>
-        <div v-if="savedOther.unitComposition" class="unit-composition-list">
-          <div v-for="unit in savedOther.unitComposition" :key="unit.unitType" class="unit-composition">
-            <ArmyBuilderAdditionalData :url="url" :unit="unit" />
-            <ArmyBuilderWarGearData 
-              :url="url" 
-              :unit="unit" 
-              :parentUnit="unit.parentUnit" 
-              :unitId="savedOther.id" 
-              @updateWargear="updateWargear(index, $event.wargear, $event.unitId)" 
-            />
-            <div>{{ unit.minQuantity }} x {{ unit.unitType }}:</div>
-            <div v-for="equipment in unit.equipment" :key="equipment" class="equipment">
-              - {{ equipment }}
-            </div>
-            <div v-if="unit.selectedWargear && unit.selectedWargear.length" class="selected-wargear">
-              <div v-for="gear in unit.selectedWargear" :key="gear.item">
-                {{ gear.item }} x{{ gear.amount }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ArmyBuilderOtherUnits
+      :url="url"
+      :armyIndex="armyIndex"
+      :others="others"
+      :savedCharacters="savedCharacters"
+      @updateSavedCharacters="savedCharacters = $event"
+      @openOptionsDialog="openOptionsDialog"
+    />
 
     <!-- Options Dialog Component -->
     <ArmyBuilderOptionsDialog
@@ -230,7 +186,6 @@ const emit = defineEmits(['add-character']); // Declare the events here
 
 const isCharacterDialogOpen = ref(false);
 const isBattlelineDialogOpen = ref(false);
-const isOtherDialogOpen = ref(false);
 const isEnhancementDialogOpen = ref(false);
 const isOptionsDialogOpen = ref(false);
 
@@ -522,5 +477,4 @@ const saveEnhancement = () => {
 // Expose the loadCharacters, reloadCharacters, loadBattlelines, loadOthers methods to be called from the parent
 defineExpose({ loadCharacters, reloadCharacters, loadBattlelines, loadOthers });
 </script>
-
 

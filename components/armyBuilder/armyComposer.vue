@@ -236,9 +236,6 @@ const openBattlelineDialog = () => {
   isBattlelineDialogOpen.value = true;
 };
 
-const openOtherDialog = () => {
-  isOtherDialogOpen.value = true;
-};
 
 const openOptionsDialog = (unit) => {
   currentUnit.value = unit;

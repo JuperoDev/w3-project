@@ -174,7 +174,6 @@
 <script setup>
 import { ref, onMounted, computed, defineExpose, watch } from 'vue';
 import { useArmyStore } from '@/stores/armyStore';
-import './ArmyComposerStyles.css';
 
 const props = defineProps({
   url: String,

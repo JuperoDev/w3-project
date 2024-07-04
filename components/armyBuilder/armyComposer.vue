@@ -327,39 +327,7 @@ const saveBattleline = async (battleline) => {
   }
 };
 
-const saveOtherUnit = async (other) => {
-  if (isSaving.value) return; // Prevent further clicks while saving
-  isSaving.value = true;
 
-  const otherJsonFileName = other.unitName.replace(/\s+/g, '-').toLowerCase() + '.json';
-
-  try {
-    const res = await fetch(`/faction/${props.url}/collection/${otherJsonFileName}`);
-    const data = await res.json();
-    other.keywords = data.keywords || [];
-    const isEpicHero = other.keywords.includes('epic hero');
-    const unitComposition = data.unitComposition || [];
-
-    const unitsWithParentUnit = unitComposition.map(unit => ({
-      ...unit,
-      parentUnit: other.unitName,
-      selectedWargear: []
-    }));
-
-    const newOther = { ...other, unitComposition: unitsWithParentUnit, isBattleline: false, isOtherUnit: true, id: generateUniqueId(), isEpicHero: isEpicHero };
-    savedCharacters.value.push(newOther);
-    armyStore.addCharacterToArmy(props.armyIndex, newOther);
-    emit('add-character', newOther);
-  } catch (error) {
-    console.error("Fetch Error: ", error);
-    const newOther = { ...other, unitComposition: [], isBattleline: false, isOtherUnit: true, id: generateUniqueId(), isEpicHero: false };
-    savedCharacters.value.push(newOther);
-    armyStore.addCharacterToArmy(props.armyIndex, newOther);
-    emit('add-character', newOther);
-  } finally {
-    isSaving.value = false; // Reset saving state
-  }
-};
 
 const deleteCharacter = (id) => {
   const targetIndex = savedCharacters.value.findIndex(character => character.id === id);

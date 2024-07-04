@@ -6,7 +6,7 @@
     <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
     <p><strong>URL:</strong> {{ url }}</p> <!-- Display the passed URL -->
 
-    <Character :url="url" class="mt-4"/>
+    <Characters :url="url" class="mt-4"/>
     <Battleline :url="url" class="mt-4"/>
     <Other :url="url" class="mt-4"/>
   </div>
@@ -14,7 +14,7 @@
 
 <script setup>
 import { defineProps } from 'vue';
-import Character from './Character.vue';
+import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';
 

@@ -19,7 +19,6 @@
             Create New Army
           </v-btn>
         </div>
-        <!-- here goes armies  -->
         <div v-for="(army, index) in armies" :key="index">
           <p><strong>Name:</strong> {{ army.name }}</p>
           <p><strong>Army:</strong> {{ army.selectedArmy }}</p>
@@ -113,7 +112,6 @@
               ></v-stepper-actions>
             </v-stepper>
           </div>
-          <!-- displayed army   -->
           <div>
             <ArmyCreatorArmyComposer 
               v-if="!stepperVisible && currentArmyIndex !== null"
@@ -121,6 +119,7 @@
               :selectedArmy="selectedArmy"
               :pointList="pointList"
               :selectedDetachment="selectedDetachment"
+              :url="armyUrl"
             />
           </div>
         </div>
@@ -129,6 +128,7 @@
     <GeneralPurposeFloatingFooter />
   </v-app>
 </template>
+
 
 <script setup>
 import { ref, computed, onMounted, reactive } from "vue";
@@ -201,11 +201,12 @@ onMounted(() => {
   armyStore.initializeStore();
   stepperVisible.value = armies.value.length === 0;
   drawer.value = true;
-  // console.log("Loaded armies on mount:", armies.value);
 });
+
 const closeDrawer = () => {
   drawer.value = false;
 };
+
 const createArmy = () => {
   if (
     name.value &&
@@ -226,7 +227,6 @@ const createArmy = () => {
     stepperVisible.value = false;
     currentArmyIndex.value = armies.value.length - 1;
 
-    // Hide drawer, stepper, and show army composer
     drawer.value = false;
     stepperVisible.value = false;
   }
@@ -248,15 +248,12 @@ const loadArmy = (index) => {
   currentArmyIndex.value = index;
 
   step.value = 0;
-  // console.log("Loaded army:", army);
 };
 
 const viewArmy = (index) => {
   loadArmy(index);
   toggleDrawer();
-  stepperVisible.value = false; // Hide the army creator
-
-  // Reload characters based on the selected army
+  stepperVisible.value = false;
 };
 
 const showStepper = () => {
@@ -274,10 +271,18 @@ const showStepper = () => {
 const toggleDrawer = () => {
   drawer.value = !drawer.value;
   if (!drawer.value) {
-    stepperVisible.value = false; // Hide the stepper when the drawer is closed
+    stepperVisible.value = false;
   }
 };
+
+const armyUrl = computed(() => {
+  if (selectedFaction.value && selectedArmy.value) {
+    return `/faction/${selectedFaction.value.toLowerCase()}/${selectedArmy.value.toLowerCase()}/collection.json`;
+  }
+  return '';
+});
 </script>
+
 
 <style scoped>
 .characters-list {

@@ -17,7 +17,7 @@
             <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2">
               <p><strong>{{ unit.unitName }}:</strong> {{ unit.basicPoints }} points</p>
               <p>Count in army: 0</p>
-              <v-btn small @click="addUnit" class="mb-2">Add</v-btn>
+              <v-btn small @click="() => addUnit(unit)" class="mb-2">Add</v-btn>
             </div>
           </v-card-text>
           <v-card-actions>
@@ -43,7 +43,7 @@
     }
   });
   
-  const emit = defineEmits(['close']);
+  const emit = defineEmits(['close', 'add-unit']);
   
   const dialog = ref(false);
   const search = ref('');
@@ -64,10 +64,19 @@
     emit('close');
   };
   
-  const addUnit = () => {
-    // Add unit logic here
-    console.log('Add Unit');
+  const generateUniqueId = () => {
+    return Math.floor(1000 + Math.random() * 9000).toString();
+  };
+  
+  const addUnit = (unit) => {
+    const unitWithId = {
+      ...unit,
+      id: generateUniqueId(),
+      type: props.title.replace('Select ', '')
+    };
+    emit('add-unit', unitWithId);
   };
   </script>
-
+  
+ 
   

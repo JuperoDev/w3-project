@@ -5,7 +5,13 @@
       </div>
       <p><strong>URL:</strong> {{ url }}</p>
   
-      <UnitDialog :title="'Select Other Units'" :units="units" />
+      <UnitDialog :title="'Select Other Units'" :units="units" @add-unit="addUnitToArmy" />
+      <div v-if="army.length" class="mt-4">
+        <h3 class="text-lg font-semibold">Army Units:</h3>
+        <ul>
+          <li v-for="unit in army" :key="unit.id">{{ unit.unitName }} ({{ unit.basicPoints }} points)</li>
+        </ul>
+      </div>
     </div>
   </template>
   
@@ -21,6 +27,12 @@
   });
   
   const units = ref([]);
+  const army = ref([]);
+  
+  const addUnitToArmy = (unit) => {
+    army.value.push(unit);
+    console.log('Updated army:', army.value);
+  };
   
   onMounted(() => {
     fetch(props.url)

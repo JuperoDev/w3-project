@@ -5,7 +5,13 @@
     </div>
     <p><strong>URL:</strong> {{ url }}</p>
 
-    <UnitDialog :title="'Select Characters'" :units="units" @close="handleDialogClose" />
+    <UnitDialog :title="'Select Characters'" :units="units" @add-unit="addUnitToArmy" />
+    <div v-if="army.length" class="mt-4">
+      <h3 class="text-lg font-semibold">Army Units:</h3>
+      <ul>
+        <li v-for="unit in army" :key="unit.id">{{ unit.unitName }} ({{ unit.basicPoints }} points)</li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -21,9 +27,11 @@ const props = defineProps({
 });
 
 const units = ref([]);
+const army = ref([]);
 
-const handleDialogClose = () => {
-  console.log('Dialog closed');
+const addUnitToArmy = (unit) => {
+  army.value.push(unit);
+  console.log('Updated army:', army.value);
 };
 
 onMounted(() => {

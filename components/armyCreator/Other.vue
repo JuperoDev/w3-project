@@ -9,7 +9,12 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="(unit, index) in army" :key="index">{{ unit.unitName }} ({{ unit.basicPoints }} points)</li>
+        <li v-for="(unit, index) in army" :key="index">
+          {{ unit.unitName }} ({{ unit.basicPoints }} points)
+          <v-btn icon small @click="removeUnitFromArmy(index)">
+            <v-icon small>mdi-delete</v-icon>
+          </v-btn>
+        </li>
       </ul>
     </div>
   </div>
@@ -43,6 +48,11 @@ const addUnitToArmy = (unit) => {
   } else {
     console.warn(`Unit with id ${unit.id} is already in the army`);
   }
+};
+
+const removeUnitFromArmy = (index) => {
+  armyStore.removeOtherUnitFromArmy(props.armyIndex, index);
+  army.value.splice(index, 1);
 };
 
 const loadUnits = () => {

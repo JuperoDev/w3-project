@@ -31,9 +31,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.battlelineUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.battlelineUnits.push(unit);
         this.saveArmies();
-      } else {
-        console.warn(`Unit with id ${unit.id} is already in the army`);
-      }
+      } 
     },
     loadBattlelineUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];
@@ -42,14 +40,19 @@ export const useArmyStorage = defineStore('armyStorage', {
       }
       return army.battlelineUnits;
     },
+    removeBattlelineUnitFromArmy(armyIndex, unitIndex) {
+      const army = this.armies[armyIndex];
+      if (army.battlelineUnits && army.battlelineUnits.length > unitIndex) {
+        army.battlelineUnits.splice(unitIndex, 1);
+        this.saveArmies();
+      }
+    },
     addCharacterUnitToArmy(armyIndex, unit) {
       const army = this.armies[armyIndex];
       if (!army.characterUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.characterUnits.push(unit);
         this.saveArmies();
-      } else {
-        console.warn(`Unit with id ${unit.id} is already in the army`);
-      }
+      } 
     },
     loadCharacterUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];
@@ -58,14 +61,19 @@ export const useArmyStorage = defineStore('armyStorage', {
       }
       return army.characterUnits;
     },
+    removeCharacterUnitFromArmy(armyIndex, unitIndex) {
+      const army = this.armies[armyIndex];
+      if (army.characterUnits && army.characterUnits.length > unitIndex) {
+        army.characterUnits.splice(unitIndex, 1);
+        this.saveArmies();
+      }
+    },
     addOtherUnitToArmy(armyIndex, unit) {
       const army = this.armies[armyIndex];
       if (!army.otherUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.otherUnits.push(unit);
         this.saveArmies();
-      } else {
-        console.warn(`Unit with id ${unit.id} is already in the army`);
-      }
+      } 
     },
     loadOtherUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];
@@ -73,6 +81,13 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.otherUnits = [];
       }
       return army.otherUnits;
+    },
+    removeOtherUnitFromArmy(armyIndex, unitIndex) {
+      const army = this.armies[armyIndex];
+      if (army.otherUnits && army.otherUnits.length > unitIndex) {
+        army.otherUnits.splice(unitIndex, 1);
+        this.saveArmies();
+      }
     },
   },
 });

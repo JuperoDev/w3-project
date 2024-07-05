@@ -1,45 +1,64 @@
 <template>
-    <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
-      <div class="flex justify-between items-center">
-        <h2 class="text-lg font-semibold">Battleline</h2>
-      </div>
-      <p><strong>URL:</strong> {{ url }}</p>
-  
-      <UnitDialog :title="'Select Battleline'" :units="units" @add-unit="addUnitToArmy" />
-      <div v-if="army.length" class="mt-4">
-        <h3 class="text-lg font-semibold">Army Units:</h3>
-        <ul>
-          <li v-for="unit in army" :key="unit.id">{{ unit.unitName }} ({{ unit.basicPoints }} points)</li>
-        </ul>
-      </div>
+  <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
+    <div class="flex justify-between items-center">
+      <h2 class="text-lg font-semibold">Battleline</h2>
     </div>
-  </template>
-  
-  <script setup>
-  import { ref, onMounted } from 'vue';
-  import UnitDialog from './UnitDialog.vue';
-  
-  const props = defineProps({
-    url: {
-      type: String,
-      required: true
-    }
-  });
-  
-  const units = ref([]);
-  const army = ref([]);
-  
-  const addUnitToArmy = (unit) => {
+    <p><strong>URL:</strong> {{ url }}</p>
+
+    <UnitDialog :title="'Select Battleline'" :units="units" @add-unit="addUnitToArmy" />
+    <div v-if="army.length" class="mt-4">
+      <h3 class="text-lg font-semibold">Army Units:</h3>
+      <ul>
+        <li v-for="(unit, index) in army" :key="index">{{ unit.unitName }} ({{ unit.basicPoints }} points)</li>
+      </ul>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, onMounted, watch } from 'vue';
+import { useArmyStorage } from '@/stores/armyStorage';
+import UnitDialog from './UnitDialog.vue';
+
+const props = defineProps({
+  url: {
+    type: String,
+    required: true
+  },
+  armyIndex: {
+    type: Number,
+    required: true
+  }
+});
+
+const units = ref([]);
+const army = ref([]);
+const armyStore = useArmyStorage();
+
+const addUnitToArmy = (unit) => {
+  // Check for duplicates before adding
+  if (!army.value.some(existingUnit => existingUnit.id === unit.id)) {
     army.value.push(unit);
+    armyStore.addBattlelineUnitToArmy(props.armyIndex, unit);
     console.log('Updated army:', army.value);
-  };
-  
-  onMounted(() => {
-    fetch(props.url)
-      .then(response => response.json())
-      .then(data => {
-        units.value = data.battleline;
-      });
-  });
-  </script>
-  
+  } else {
+    console.warn(`Unit with id ${unit.id} is already in the army`);
+  }
+};
+
+const loadUnits = () => {
+  fetch(props.url)
+    .then(response => response.json())
+    .then(data => {
+      units.value = data.battleline;
+    });
+
+  army.value = armyStore.loadBattlelineUnitsForArmy(props.armyIndex);
+};
+
+onMounted(() => {
+  loadUnits();
+});
+
+watch(() => props.armyIndex, loadUnits);
+</script>

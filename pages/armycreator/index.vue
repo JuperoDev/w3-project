@@ -34,101 +34,99 @@
       </div>
     </v-navigation-drawer>
     <v-main>
-      <div class="">
+      <div>
+        <div v-if="stepperVisible" class="stepper-army-builder">
+          <v-stepper v-model="step">
+            <v-stepper-header>
+              <v-stepper-item title="" value="1"></v-stepper-item>
+              <v-divider></v-divider>
+              <v-stepper-item title="" value="2"></v-stepper-item>
+              <v-divider></v-divider>
+              <v-stepper-item title="" value="3"></v-stepper-item>
+              <v-divider></v-divider>
+              <v-stepper-item title="" value="4"></v-stepper-item>
+            </v-stepper-header>
+            <v-stepper-window>
+              <v-stepper-window-item value="1">
+                <v-card title="Choose Faction" flat>
+                  <v-radio-group v-model="selectedFaction">
+                    <v-radio
+                      v-for="(faction, index) in factions"
+                      :key="index"
+                      :label="faction"
+                      :value="faction"
+                    ></v-radio>
+                  </v-radio-group>
+                </v-card>
+              </v-stepper-window-item>
+              <v-stepper-window-item value="2">
+                <v-card title="Choose Army" flat>
+                  <v-radio-group v-model="selectedArmy">
+                    <v-radio
+                      v-for="(army, index) in filteredArmies"
+                      :key="index"
+                      :label="army"
+                      :value="army"
+                    ></v-radio>
+                  </v-radio-group>
+                </v-card>
+              </v-stepper-window-item>
+              <v-stepper-window-item value="3">
+                <v-card title="Choose Detachment" flat>
+                  <v-radio-group v-model="selectedDetachment">
+                    <v-radio
+                      v-for="(detachment, index) in filteredDetachments"
+                      :key="index"
+                      :label="detachment"
+                      :value="detachment"
+                    ></v-radio>
+                  </v-radio-group>
+                </v-card>
+              </v-stepper-window-item>
+              <v-stepper-window-item value="4">
+                <v-card title="Details" flat>
+                  <v-text-field
+                    v-model="name"
+                    hide-details="auto"
+                    label="Name"
+                  ></v-text-field>
+                  <v-radio-group
+                    v-model="pointList"
+                    label="Army Size"
+                    class="mt-8"
+                  >
+                    <v-radio label="1000 points" value="1000"></v-radio>
+                    <v-radio label="2000 points" value="2000"></v-radio>
+                    <v-radio label="3000 points" value="3000"></v-radio>
+                  </v-radio-group>
+                  <v-btn class="m-3" @click="createArmy">Create</v-btn>
+                </v-card>
+              </v-stepper-window-item>
+            </v-stepper-window>
+            <v-stepper-actions
+              prev-text="Previous"
+              next-text="Next"
+              @click:next="customActionForNext"
+              @click:prev="customActionForPrev"
+            ></v-stepper-actions>
+          </v-stepper>
+        </div>
         <div>
-          <div v-if="stepperVisible" class="stepper-army-builder">
-            <v-stepper v-model="step">
-              <v-stepper-header>
-                <v-stepper-item title="" value="1"></v-stepper-item>
-                <v-divider></v-divider>
-                <v-stepper-item title="" value="2"></v-stepper-item>
-                <v-divider></v-divider>
-                <v-stepper-item title="" value="3"></v-stepper-item>
-                <v-divider></v-divider>
-                <v-stepper-item title="" value="4"></v-stepper-item>
-              </v-stepper-header>
-              <v-stepper-window>
-                <v-stepper-window-item value="1">
-                  <v-card title="Choose Faction" flat>
-                    <v-radio-group v-model="selectedFaction">
-                      <v-radio
-                        v-for="(faction, index) in factions"
-                        :key="index"
-                        :label="faction"
-                        :value="faction"
-                      ></v-radio>
-                    </v-radio-group>
-                  </v-card>
-                </v-stepper-window-item>
-                <v-stepper-window-item value="2">
-                  <v-card title="Choose Army" flat>
-                    <v-radio-group v-model="selectedArmy">
-                      <v-radio
-                        v-for="(army, index) in filteredArmies"
-                        :key="index"
-                        :label="army"
-                        :value="army"
-                      ></v-radio>
-                    </v-radio-group>
-                  </v-card>
-                </v-stepper-window-item>
-                <v-stepper-window-item value="3">
-                  <v-card title="Choose Detachment" flat>
-                    <v-radio-group v-model="selectedDetachment">
-                      <v-radio
-                        v-for="(detachment, index) in filteredDetachments"
-                        :key="index"
-                        :label="detachment"
-                        :value="detachment"
-                      ></v-radio>
-                    </v-radio-group>
-                  </v-card>
-                </v-stepper-window-item>
-                <v-stepper-window-item value="4">
-                  <v-card title="Details" flat>
-                    <v-text-field
-                      v-model="name"
-                      hide-details="auto"
-                      label="Name"
-                    ></v-text-field>
-                    <v-radio-group
-                      v-model="pointList"
-                      label="Army Size"
-                      class="mt-8"
-                    >
-                      <v-radio label="1000 points" value="1000"></v-radio>
-                      <v-radio label="2000 points" value="2000"></v-radio>
-                      <v-radio label="3000 points" value="3000"></v-radio>
-                    </v-radio-group>
-                    <v-btn class="m-3" @click="createArmy">Create</v-btn>
-                  </v-card>
-                </v-stepper-window-item>
-              </v-stepper-window>
-              <v-stepper-actions
-                prev-text="Previous"
-                next-text="Next"
-                @click:next="customActionForNext"
-                @click:prev="customActionForPrev"
-              ></v-stepper-actions>
-            </v-stepper>
-          </div>
-          <div>
-            <ArmyCreatorArmyComposer 
-              v-if="!stepperVisible && currentArmyIndex !== null"
-              :name="name"
-              :selectedArmy="selectedArmy"
-              :pointList="pointList"
-              :selectedDetachment="selectedDetachment"
-              :url="armyUrl"
-            />
-          </div>
+          <ArmyCreatorArmyComposer 
+            v-if="!stepperVisible && currentArmyIndex !== null"
+            :name="name"
+            :selectedArmy="selectedArmy"
+            :pointList="pointList"
+            :selectedDetachment="selectedDetachment"
+            :url="armyUrl"
+            :armyIndex="currentArmyIndex"
+          />
         </div>
       </div>
     </v-main>
     <GeneralPurposeFloatingFooter />
   </v-app>
 </template>
-
 
 <script setup>
 import { ref, computed, onMounted, reactive } from "vue";
@@ -221,6 +219,7 @@ const createArmy = () => {
       pointList: pointList.value,
       selectedDetachment: selectedDetachment.value,
       characters: [],
+      battlelineUnits: [], // Ensure battlelineUnits is initialized
     };
     armyStore.addArmy(newArmy);
 
@@ -282,7 +281,6 @@ const armyUrl = computed(() => {
   return '';
 });
 </script>
-
 
 <style scoped>
 .characters-list {

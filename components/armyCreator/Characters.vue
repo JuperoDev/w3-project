@@ -9,36 +9,56 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="unit in army" :key="unit.id">{{ unit.unitName }} ({{ unit.basicPoints }} points)</li>
+        <li v-for="(unit, index) in army" :key="index">{{ unit.unitName }} ({{ unit.basicPoints }} points)</li>
       </ul>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
+import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 
 const props = defineProps({
   url: {
     type: String,
     required: true
+  },
+  armyIndex: {
+    type: Number,
+    required: true
   }
 });
 
 const units = ref([]);
 const army = ref([]);
+const armyStore = useArmyStorage();
 
 const addUnitToArmy = (unit) => {
-  army.value.push(unit);
-  console.log('Updated army:', army.value);
+  // Check for duplicates before adding
+  if (!army.value.some(existingUnit => existingUnit.id === unit.id)) {
+    army.value.push(unit);
+    armyStore.addCharacterUnitToArmy(props.armyIndex, unit);
+    console.log('Updated army:', army.value);
+  } else {
+    console.warn(`Unit with id ${unit.id} is already in the army`);
+  }
 };
 
-onMounted(() => {
+const loadUnits = () => {
   fetch(props.url)
     .then(response => response.json())
     .then(data => {
       units.value = data.characters;
     });
+
+  army.value = armyStore.loadCharacterUnitsForArmy(props.armyIndex);
+};
+
+onMounted(() => {
+  loadUnits();
 });
+
+watch(() => props.armyIndex, loadUnits);
 </script>

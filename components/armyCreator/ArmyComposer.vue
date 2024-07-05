@@ -4,11 +4,11 @@
     <p><strong>Army:</strong> {{ selectedArmy }}</p>
     <p><strong>Point List:</strong> {{ pointList }}</p>
     <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-    <p><strong>URL:</strong> {{ url }}</p> <!-- Display the passed URL -->
+    <p><strong>URL:</strong> {{ url }}</p>
 
-    <Characters :url="url" class="mt-4"/>
-    <Battleline :url="url" class="mt-4"/>
-    <Other :url="url" class="mt-4"/>
+    <Characters :url="url" :armyIndex="armyIndex" class="mt-4"/>
+    <Battleline :url="url" :armyIndex="armyIndex" class="mt-4"/>
+    <Other :url="url" :armyIndex="armyIndex" class="mt-4"/>
   </div>
 </template>
 
@@ -37,6 +37,10 @@ const props = defineProps({
   },
   url: {
     type: String,
+    required: true
+  },
+  armyIndex: {
+    type: Number,
     required: true
   }
 });

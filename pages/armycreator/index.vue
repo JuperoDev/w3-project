@@ -112,9 +112,10 @@
           </v-stepper>
         </div>
         <div>
-          <ArmyCreatorArmyComposer 
+          <ArmyCreatorArmyComposer
             v-if="!stepperVisible && currentArmyIndex !== null"
             :name="name"
+            :selectedFaction="selectedFaction"
             :selectedArmy="selectedArmy"
             :pointList="pointList"
             :selectedDetachment="selectedDetachment"

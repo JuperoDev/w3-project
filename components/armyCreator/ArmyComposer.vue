@@ -1,12 +1,19 @@
 <template>
   <div>
     <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>Faction:</strong> {{ selectedFaction }}</p>
     <p><strong>Army:</strong> {{ selectedArmy }}</p>
     <p><strong>Point List:</strong> {{ pointList }}</p>
     <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
     <p><strong>URL:</strong> {{ url }}</p>
 
-    <Characters :url="url" :armyIndex="armyIndex" :selectedDetachment="selectedDetachment" class="mt-4"/>
+    <Characters 
+      :url="url" 
+      :armyIndex="armyIndex" 
+      :selectedDetachment="selectedDetachment"
+      :selectedFaction="selectedFaction"
+      :selectedArmy="selectedArmy"
+      class="mt-4"/>
     <Battleline :url="url" :armyIndex="armyIndex" class="mt-4"/>
     <Other :url="url" :armyIndex="armyIndex" class="mt-4"/>
   </div>
@@ -20,6 +27,10 @@ import Other from './Other.vue';
 
 const props = defineProps({
   name: {
+    type: String,
+    required: true
+  },
+  selectedFaction: {
     type: String,
     required: true
   },

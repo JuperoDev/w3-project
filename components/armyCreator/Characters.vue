@@ -4,7 +4,9 @@
       <h2 class="text-lg font-semibold">Characters</h2>
     </div>
     <p><strong>URL:</strong> {{ url }}</p>
-    <p><strong>Detachment:</strong> {{ selectedDetachment }}</p> <!-- Added line -->
+    <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
+    <p><strong>Faction:</strong> {{ selectedFaction }}</p> <!-- Added line -->
+    <p><strong>Army:</strong> {{ selectedArmy }}</p> <!-- Added line -->
 
     <UnitDialog :title="'Select Characters'" :units="units" @add-unit="addUnitToArmy" />
     <div v-if="army.length" class="mt-4">
@@ -43,6 +45,14 @@ const props = defineProps({
     required: true
   },
   selectedDetachment: {
+    type: String,
+    required: true
+  },
+  selectedFaction: {  // Added prop
+    type: String,
+    required: true
+  },
+  selectedArmy: {  // Added prop
     type: String,
     required: true
   }
@@ -101,7 +111,6 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
-
 
 <style scoped>
 .mb-4 {

@@ -5,8 +5,8 @@
     </div>
     <p><strong>URL:</strong> {{ url }}</p>
     <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-    <p><strong>Faction:</strong> {{ selectedFaction }}</p> <!-- Added line -->
-    <p><strong>Army:</strong> {{ selectedArmy }}</p> <!-- Added line -->
+    <p><strong>Faction:</strong> {{ selectedFaction }}</p>
+    <p><strong>Army:</strong> {{ selectedArmy }}</p>
 
     <UnitDialog :title="'Select Characters'" :units="units" @add-unit="addUnitToArmy" />
     <div v-if="army.length" class="mt-4">
@@ -20,7 +20,9 @@
             </v-btn>
           </div>
           <template v-if="!unit.isEpicHero">
-            <Enhancements />
+            <Enhancements 
+              :enhancementUrl="generateEnhancementUrl(selectedFaction, selectedArmy, selectedDetachment)"
+            />
           </template>
           <div v-if="unit.isEpicHero" class="text-red-500">Epic Hero</div>
         </li>
@@ -48,11 +50,11 @@ const props = defineProps({
     type: String,
     required: true
   },
-  selectedFaction: {  // Added prop
+  selectedFaction: {
     type: String,
     required: true
   },
-  selectedArmy: {  // Added prop
+  selectedArmy: {
     type: String,
     required: true
   }
@@ -103,6 +105,14 @@ const fetchUnitDetails = async (unit, index) => {
 
 const updateUnit = (index, updatedUnit) => {
   army.value = army.value.map((unit, i) => i === index ? updatedUnit : unit);
+};
+
+const generateEnhancementUrl = (faction, army, detachment) => {
+  const formatString = (value) => value.toLowerCase().replace(/[^a-z0-9]/g, '-');
+  const formattedFaction = formatString(faction);
+  const formattedArmy = formatString(army);
+  const formattedDetachment = formatString(detachment);
+  return `public/${formattedFaction}/${formattedArmy}/detachment/${formattedDetachment}.json`;
 };
 
 onMounted(() => {

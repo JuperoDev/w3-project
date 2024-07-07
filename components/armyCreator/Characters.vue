@@ -9,11 +9,12 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="(unit, index) in army" :key="index">
+        <li v-for="(unit, index) in army" :key="index" class="mb-4">
           {{ unit.unitName }} ({{ unit.basicPoints }} points)
           <v-btn icon small @click="removeUnitFromArmy(index)">
             <v-icon small>mdi-delete</v-icon>
           </v-btn>
+          <KeywordChecker :unit="unit" :url="url" />
         </li>
       </ul>
     </div>
@@ -24,6 +25,7 @@
 import { ref, onMounted, watch } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
+import KeywordChecker from './KeywordChecker.vue';
 
 const props = defineProps({
   url: {
@@ -71,3 +73,9 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
+
+<style scoped>
+.mb-4 {
+  margin-bottom: 1rem;
+}
+</style>

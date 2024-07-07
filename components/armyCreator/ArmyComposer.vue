@@ -6,7 +6,7 @@
     <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
     <p><strong>URL:</strong> {{ url }}</p>
 
-    <Characters :url="url" :armyIndex="armyIndex" class="mt-4"/>
+    <Characters :url="url" :armyIndex="armyIndex" :selectedDetachment="selectedDetachment" class="mt-4"/>
     <Battleline :url="url" :armyIndex="armyIndex" class="mt-4"/>
     <Other :url="url" :armyIndex="armyIndex" class="mt-4"/>
   </div>

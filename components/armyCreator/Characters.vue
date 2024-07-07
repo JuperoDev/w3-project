@@ -10,11 +10,16 @@
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
         <li v-for="(unit, index) in army" :key="index" class="mb-4">
-          {{ unit.unitName }} ({{ unit.basicPoints }} points)
-          <v-btn icon small @click="removeUnitFromArmy(index)">
-            <v-icon small>mdi-delete</v-icon>
-          </v-btn>
-          <KeywordChecker :unit="unit" :url="url" />
+          <div>
+            {{ unit.unitName }} ({{ unit.basicPoints }} points)
+            <v-btn icon small @click="removeUnitFromArmy(index)">
+              <v-icon small>mdi-delete</v-icon>
+            </v-btn>
+          </div>
+          <template v-if="!unit.isEpicHero">
+            <Enhancements />
+          </template>
+          <div v-if="unit.isEpicHero" class="text-red-500">Epic Hero</div>
         </li>
       </ul>
     </div>
@@ -25,7 +30,7 @@
 import { ref, onMounted, watch } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
-import KeywordChecker from './KeywordChecker.vue';
+import Enhancements from './Enhancements.vue';
 
 const props = defineProps({
   url: {
@@ -47,6 +52,7 @@ const addUnitToArmy = (unit) => {
     army.value.push(unit);
     armyStore.addCharacterUnitToArmy(props.armyIndex, unit);
     console.log('Updated army:', army.value);
+    fetchUnitDetails(unit, army.value.length - 1);
   } else {
     console.warn(`Unit with id ${unit.id} is already in the army`);
   }
@@ -64,7 +70,24 @@ const loadUnits = () => {
       units.value = data.characters;
     });
 
-  army.value = armyStore.loadCharacterUnitsForArmy(props.armyIndex);
+  const loadedArmy = armyStore.loadCharacterUnitsForArmy(props.armyIndex);
+  army.value = loadedArmy;
+
+  loadedArmy.forEach((unit, index) => {
+    fetchUnitDetails(unit, index);
+  });
+};
+
+const fetchUnitDetails = async (unit, index) => {
+  const unitUrl = `${props.url.replace('collection.json', `collection/${unit.unitName}.json`)}`;
+  const response = await fetch(unitUrl);
+  const data = await response.json();
+  const isEpicHero = data.keywords?.includes('epic hero') || false;
+  updateUnit(index, { ...unit, isEpicHero });
+};
+
+const updateUnit = (index, updatedUnit) => {
+  army.value = army.value.map((unit, i) => i === index ? updatedUnit : unit);
 };
 
 onMounted(() => {

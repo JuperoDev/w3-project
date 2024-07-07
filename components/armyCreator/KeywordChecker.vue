@@ -18,6 +18,7 @@
     }
   });
   
+  const emit = defineEmits(['update:unit']);
   const isEpicHero = ref(false);
   
   const fetchUnitDetails = async () => {
@@ -25,6 +26,7 @@
     const response = await fetch(unitUrl);
     const data = await response.json();
     isEpicHero.value = data.keywords?.includes('epic hero') || false;
+    emit('update:unit', { ...props.unit, isEpicHero: isEpicHero.value });
   };
   
   onMounted(fetchUnitDetails);

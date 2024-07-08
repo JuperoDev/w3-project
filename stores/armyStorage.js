@@ -31,7 +31,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.battlelineUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.battlelineUnits.push(unit);
         this.saveArmies();
-      } 
+      }
     },
     loadBattlelineUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];
@@ -53,7 +53,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.characterUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.characterUnits.push(unit);
         this.saveArmies();
-      } 
+      }
     },
     loadCharacterUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];
@@ -81,7 +81,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.otherUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.otherUnits.push(unit);
         this.saveArmies();
-      } 
+      }
     },
     loadOtherUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];

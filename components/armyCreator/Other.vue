@@ -4,7 +4,6 @@
       <h2 class="text-lg font-semibold">Other</h2>
     </div>
     <p><strong>URL:</strong> {{ url }}</p>
-
     <UnitDialog 
       :title="'Select Other Units'" 
       :units="units" 
@@ -14,9 +13,9 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="(unit, index) in army" :key="unit.id">
+        <li v-for="unit in army" :key="unit.id">
           {{ unit.unitName }} ({{ unit.basicPoints }} points)
-          <v-btn icon small @click="() => debouncedRemoveUnit(unit.id)">
+          <v-btn icon small @click="removeUnitFromArmy(unit.id)">
             <v-icon small>mdi-delete</v-icon>
           </v-btn>
         </li>
@@ -26,7 +25,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from 'vue';
+import { ref, onMounted, watch, computed, nextTick } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 
@@ -53,33 +52,26 @@ const unitCounts = computed(() => {
   return counts;
 });
 
-const addUnitToArmy = (unit) => {
+const syncArmyWithStore = () => {
+  army.value = armyStore.loadOtherUnitsForArmy(props.armyIndex);
+};
+
+const addUnitToArmy = async (unit) => {
   const uniqueId = generateUniqueId();
   const unitWithId = { ...unit, id: uniqueId };
-  army.value.push(unitWithId);
+  
+  await nextTick();
   armyStore.addOtherUnitToArmy(props.armyIndex, unitWithId);
+  syncArmyWithStore();
+  
   console.log('Updated army:', army.value);
 };
 
-const removeUnitFromArmy = (id) => {
-  const index = army.value.findIndex(unit => unit.id === id);
-  if (index !== -1) {
-    armyStore.removeOtherUnitFromArmy(props.armyIndex, id);
-    army.value.splice(index, 1);
-  }
+const removeUnitFromArmy = async (id) => {
+  await nextTick();
+  armyStore.removeOtherUnitFromArmy(props.armyIndex, id);
+  syncArmyWithStore();
 };
-
-const debounce = (func, wait) => {
-  let timeout;
-  return (...args) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => {
-      func.apply(this, args);
-    }, wait);
-  };
-};
-
-const debouncedRemoveUnit = debounce(removeUnitFromArmy, 300);
 
 const loadUnits = () => {
   fetch(props.url)
@@ -87,12 +79,11 @@ const loadUnits = () => {
     .then(data => {
       units.value = data.other;
     });
-
-  army.value = armyStore.loadOtherUnitsForArmy(props.armyIndex);
+  syncArmyWithStore();
 };
 
 const generateUniqueId = () => {
-  return Math.floor(1000 + Math.random() * 9000).toString();
+  return Date.now().toString(36) + Math.random().toString(36).substr(2);
 };
 
 onMounted(() => {
@@ -101,6 +92,3 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
-
-<style scoped>
-</style>

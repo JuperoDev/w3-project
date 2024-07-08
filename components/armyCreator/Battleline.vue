@@ -5,7 +5,12 @@
     </div>
     <p><strong>URL:</strong> {{ url }}</p>
 
-    <UnitDialog :title="'Select Battleline'" :units="units" @add-unit="addUnitToArmy" />
+    <UnitDialog 
+      :title="'Select Battleline'" 
+      :units="units" 
+      :unitCounts="unitCounts"
+      @add-unit="addUnitToArmy" 
+    />
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
@@ -21,7 +26,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 
@@ -39,6 +44,14 @@ const props = defineProps({
 const units = ref([]);
 const army = ref([]);
 const armyStore = useArmyStorage();
+
+const unitCounts = computed(() => {
+  const counts = {};
+  army.value.forEach(unit => {
+    counts[unit.unitName] = (counts[unit.unitName] || 0) + 1;
+  });
+  return counts;
+});
 
 const addUnitToArmy = (unit) => {
   if (!army.value.some(existingUnit => existingUnit.id === unit.id)) {

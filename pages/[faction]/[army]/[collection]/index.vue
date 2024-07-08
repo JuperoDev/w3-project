@@ -170,7 +170,6 @@
           </v-expansion-panel-text>
         </v-expansion-panel>
 
-        <!-- NOT SHOWING ON PREALPHA  -->
         
           <v-expansion-panel>
           <v-expansion-panel-title>

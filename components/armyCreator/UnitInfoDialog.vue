@@ -3,24 +3,96 @@
       <v-btn icon small @click="openDialog">
         <v-icon small>mdi-information</v-icon>
       </v-btn>
-      <v-dialog v-model="dialog" max-width="500px" @open="fetchJsonData">
+      <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
         <v-card>
-          <v-card-title class="headline">Unit Info</v-card-title>
-          <v-card-text>
-            <pre v-if="jsonData" class="json-display">{{ formattedJson }}</pre>
-            <p v-else>Loading...</p>
+          <v-toolbar dark color="primary">
+            <v-btn icon dark @click="dialog = false">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+            <v-toolbar-title>{{ jsonData?.parentUnit || 'Unit Info' }}</v-toolbar-title>
+          </v-toolbar>
+          <v-card-text v-if="jsonData" class="pa-0">
+            <div class="mobile-datasheet">
+              <MobileAttributes :attributes="jsonData.attributes" />
+  
+              <v-expansion-panels>
+                <!-- Ranged weapons -->
+                <v-expansion-panel v-if="jsonData.rangedWeapons && jsonData.rangedWeapons.length > 0">
+                  <v-expansion-panel-title>
+                    <div class="uppercase font-semibold">Ranged weapons</div>
+                  </v-expansion-panel-title>
+                  <v-expansion-panel-text>
+                    <MobileRangedWeapons :rangedWeapons="jsonData.rangedWeapons" />
+                  </v-expansion-panel-text>
+                </v-expansion-panel>
+  
+                <!-- Melee weapons -->
+                <v-expansion-panel v-if="jsonData.meleeWeapons && jsonData.meleeWeapons.length > 0">
+                  <v-expansion-panel-title>
+                    <div class="uppercase font-semibold">Melee Weapons</div>
+                  </v-expansion-panel-title>
+                  <v-expansion-panel-text>
+                    <MobileMeleeWeapons :meleeWeapons="jsonData.meleeWeapons" />
+                  </v-expansion-panel-text>
+                </v-expansion-panel>
+  
+                <!-- Abilities -->
+                <v-expansion-panel v-if="jsonData.abilities">
+                  <v-expansion-panel-title>
+                    <div class="uppercase font-semibold">Abilities</div>
+                  </v-expansion-panel-title>
+                  <v-expansion-panel-text>
+                    <MobileAbilities :abilities="jsonData.abilities" />
+                  </v-expansion-panel-text>
+                </v-expansion-panel>
+  
+                <!-- Transport -->
+                <v-expansion-panel v-if="jsonData.transport">
+                  <v-expansion-panel-title>
+                    <div class="uppercase font-semibold">Transport</div>
+                  </v-expansion-panel-title>
+                  <v-expansion-panel-text>
+                    <MobileTransport :transport="jsonData.transport" />
+                  </v-expansion-panel-text>
+                </v-expansion-panel>
+  
+                <!-- Wargear Abilities -->
+                <v-expansion-panel v-if="jsonData.warGearAbilities">
+                  <v-expansion-panel-title>
+                    <div class="uppercase font-semibold">Wargear Abilities</div>
+                  </v-expansion-panel-title>
+                  <v-expansion-panel-text>
+                    <MobileWarGearAbilities :warGearAbilities="jsonData.warGearAbilities" />
+                  </v-expansion-panel-text>
+                </v-expansion-panel>
+  
+                <!-- Keywords -->
+                <v-expansion-panel>
+                  <v-expansion-panel-title>
+                    <div class="uppercase font-semibold">Keywords</div>
+                  </v-expansion-panel-title>
+                  <v-expansion-panel-text>
+                    <MobileKeywords
+                      :keywords="jsonData.keywords"
+                      :factionKeyword="jsonData.factionKeyword"
+                    />
+                  </v-expansion-panel-text>
+                </v-expansion-panel>
+              </v-expansion-panels>
+  
+              <MobileLore :lore="jsonData.lore" />
+            </div>
           </v-card-text>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn color="primary" text @click="dialog = false">Close</v-btn>
-          </v-card-actions>
+          <v-card-text v-else>
+            <p>Loading...</p>
+          </v-card-text>
         </v-card>
       </v-dialog>
     </div>
   </template>
   
   <script setup>
-  import { ref, computed } from 'vue';
+  import { ref } from 'vue';
   
   const props = defineProps({
     url: {
@@ -39,10 +111,10 @@
       if (response.ok) {
         jsonData.value = await response.json();
       } else {
-        jsonData.value = { error: 'Failed to load data' };
+        console.error('Failed to load data');
       }
     } catch (error) {
-      jsonData.value = { error: error.message };
+      console.error('Error:', error);
     }
   };
   
@@ -50,18 +122,18 @@
     dialog.value = true;
     fetchJsonData();
   };
-  
-  const formattedJson = computed(() => {
-    return JSON.stringify(jsonData.value, null, 2);
-  });
   </script>
   
   <style scoped>
-  .json-display {
-    background-color: #2e2e2e;
-    color: white;
-    padding: 10px;
-    white-space: pre-wrap; /* To preserve formatting */
+  .mobile-datasheet {
+    background-color: white;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
   }
   </style>
-  

@@ -7,7 +7,7 @@
         <v-card>
           <v-card-title class="headline">Unit Info</v-card-title>
           <v-card-text>
-            <p>{{ url }} {{ unitName }}</p>
+            <p>{{ url }}</p>
           </v-card-text>
           <v-card-actions>
             <v-spacer></v-spacer>

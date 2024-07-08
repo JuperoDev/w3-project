@@ -3,10 +3,7 @@
     <div class="flex justify-between items-center">
       <h2 class="text-lg font-semibold">Characters</h2>
     </div>
-    <p><strong>URL:</strong> {{ url }}</p>
-    <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-    <p><strong>Faction:</strong> {{ selectedFaction }}</p>
-    <p><strong>Army:</strong> {{ selectedArmy }}</p>
+ 
 
     <UnitDialog :title="'Select Characters'" :units="units" @add-unit="addUnitToArmy" />
     <div v-if="army.length" class="mt-4">

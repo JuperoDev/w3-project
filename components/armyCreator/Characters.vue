@@ -112,7 +112,7 @@ const generateEnhancementUrl = (faction, army, detachment) => {
   const formattedFaction = formatString(faction);
   const formattedArmy = formatString(army);
   const formattedDetachment = formatString(detachment);
-  return `public/${formattedFaction}/${formattedArmy}/detachment/${formattedDetachment}.json`;
+  return `faction/${formattedFaction}/${formattedArmy}/detachment/${formattedDetachment}.json`;
 };
 
 onMounted(() => {

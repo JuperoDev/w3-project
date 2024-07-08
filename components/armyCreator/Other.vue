@@ -13,11 +13,14 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="unit in army" :key="unit.id">
-          {{ unit.unitName }} ({{ unit.basicPoints }} points)
-          <v-btn icon small @click="removeUnitFromArmy(unit.id)">
-            <v-icon small>mdi-delete</v-icon>
-          </v-btn>
+        <li v-for="unit in army" :key="unit.id" class="flex items-center">
+          <span>{{ unit.unitName }} ({{ unit.basicPoints }} points)</span>
+          <div class="flex ml-auto">
+            <v-btn icon small @click="removeUnitFromArmy(unit.id)">
+              <v-icon small>mdi-delete</v-icon>
+            </v-btn>
+            <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
+          </div>
         </li>
       </ul>
     </div>
@@ -28,6 +31,7 @@
 import { ref, onMounted, watch, computed, nextTick } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
+import UnitInfoDialog from './UnitInfoDialog.vue';
 
 const props = defineProps({
   url: {
@@ -84,6 +88,17 @@ const loadUnits = () => {
 
 const generateUniqueId = () => {
   return Date.now().toString(36) + Math.random().toString(36).substr(2);
+};
+
+const formattedUnitName = (unitName) => {
+  return unitName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+};
+
+const constructUnitUrl = (baseUrl, unitName) => {
+  const sanitizedUnitName = formattedUnitName(unitName);
+  const baseUrlParts = baseUrl.split('/');
+  baseUrlParts.pop(); 
+  return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;
 };
 
 onMounted(() => {

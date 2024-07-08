@@ -15,7 +15,7 @@
               :key="index"
               :label="`${enhancement.name} (${enhancement.points} points)`"
               :value="enhancement.name"
-              @click="handleRadioClick(enhancement.name)"
+              @click="handleRadioClick(enhancement)"
             ></v-radio>
           </v-radio-group>
         </v-card-text>
@@ -39,11 +39,18 @@ const props = defineProps({
   enhancementUrl: {
     type: String,
     required: true
+  },
+  initialSelectedEnhancement: {
+    type: Object,
+    default: null
   }
 });
 
+const emits = defineEmits(['update-enhancement']);
+
 const openDialog = () => {
   dialog.value = true;
+  selectedEnhancement.value = props.initialSelectedEnhancement ? props.initialSelectedEnhancement.name : '';
   fetchFileContent();
 };
 
@@ -61,12 +68,17 @@ const fetchFileContent = async () => {
   }
 };
 
-const handleRadioClick = (value) => {
-  if (selectedEnhancement.value === value) {
+const handleRadioClick = (enhancement) => {
+  if (selectedEnhancement.value === enhancement.name) {
     selectedEnhancement.value = null;
+    emits('update-enhancement', null); // Emit null for de-selection
+  } else {
+    selectedEnhancement.value = enhancement.name;
+    emits('update-enhancement', enhancement);
   }
 };
 
+// Optionally, you can watch the enhancementUrl prop and refetch if it changes
 watch(() => props.enhancementUrl, fetchFileContent);
 </script>
 

@@ -68,6 +68,13 @@ export const useArmyStorage = defineStore('armyStorage', {
         this.saveArmies();
       }
     },
+    updateCharacterUnitEnhancement(armyIndex, unitIndex, enhancement) {
+      const army = this.armies[armyIndex];
+      if (army.characterUnits && army.characterUnits.length > unitIndex) {
+        army.characterUnits[unitIndex].selectedEnhancement = enhancement;
+        this.saveArmies();
+      }
+    },
     addOtherUnitToArmy(armyIndex, unit) {
       const army = this.armies[armyIndex];
       if (!army.otherUnits.some(existingUnit => existingUnit.id === unit.id)) {

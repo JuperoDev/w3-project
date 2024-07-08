@@ -22,9 +22,14 @@
           <template v-if="!unit.isEpicHero">
             <Enhancements 
               :enhancementUrl="generateEnhancementUrl(selectedFaction, selectedArmy, selectedDetachment)"
+              :initialSelectedEnhancement="unit.selectedEnhancement"
+              @update-enhancement="updateEnhancement(index, $event)"
             />
           </template>
           <div v-if="unit.isEpicHero" class="text-red-500">Epic Hero</div>
+          <div v-if="unit.selectedEnhancement">
+            <strong>Selected Enhancement:</strong> {{ unit.selectedEnhancement.name }} ({{ unit.selectedEnhancement.points }} points)
+          </div>
         </li>
       </ul>
     </div>
@@ -113,6 +118,12 @@ const generateEnhancementUrl = (faction, army, detachment) => {
   const formattedArmy = formatString(army);
   const formattedDetachment = formatString(detachment);
   return `faction/${formattedFaction}/${formattedArmy}/detachment/${formattedDetachment}.json`;
+};
+
+const updateEnhancement = (index, enhancement) => {
+  const updatedUnit = { ...army.value[index], selectedEnhancement: enhancement || null };
+  updateUnit(index, updatedUnit);
+  armyStore.updateCharacterUnitEnhancement(props.armyIndex, index, enhancement || null);
 };
 
 onMounted(() => {

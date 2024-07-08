@@ -40,10 +40,11 @@ export const useArmyStorage = defineStore('armyStorage', {
       }
       return army.battlelineUnits;
     },
-    removeBattlelineUnitFromArmy(armyIndex, unitIndex) {
+    removeBattlelineUnitFromArmy(armyIndex, unitId) {
       const army = this.armies[armyIndex];
-      if (army.battlelineUnits && army.battlelineUnits.length > unitIndex) {
-        army.battlelineUnits.splice(unitIndex, 1);
+      const index = army.battlelineUnits.findIndex(unit => unit.id === unitId);
+      if (index !== -1) {
+        army.battlelineUnits.splice(index, 1);
         this.saveArmies();
       }
     },
@@ -89,10 +90,11 @@ export const useArmyStorage = defineStore('armyStorage', {
       }
       return army.otherUnits;
     },
-    removeOtherUnitFromArmy(armyIndex, unitIndex) {
+    removeOtherUnitFromArmy(armyIndex, unitId) {
       const army = this.armies[armyIndex];
-      if (army.otherUnits && army.otherUnits.length > unitIndex) {
-        army.otherUnits.splice(unitIndex, 1);
+      const index = army.otherUnits.findIndex(unit => unit.id === unitId);
+      if (index !== -1) {
+        army.otherUnits.splice(index, 1);
         this.saveArmies();
       }
     },

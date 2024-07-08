@@ -5,13 +5,18 @@
     </div>
     <p><strong>URL:</strong> {{ url }}</p>
 
-    <UnitDialog :title="'Select Other Units'" :units="units" @add-unit="addUnitToArmy" />
+    <UnitDialog 
+      :title="'Select Other Units'" 
+      :units="units" 
+      :unitCounts="unitCounts"
+      @add-unit="addUnitToArmy" 
+    />
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="(unit, index) in army" :key="index">
+        <li v-for="(unit, index) in army" :key="unit.id">
           {{ unit.unitName }} ({{ unit.basicPoints }} points)
-          <v-btn icon small @click="removeUnitFromArmy(index)">
+          <v-btn icon small @click="() => debouncedRemoveUnit(unit.id)">
             <v-icon small>mdi-delete</v-icon>
           </v-btn>
         </li>
@@ -21,7 +26,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 
@@ -40,20 +45,41 @@ const units = ref([]);
 const army = ref([]);
 const armyStore = useArmyStorage();
 
+const unitCounts = computed(() => {
+  const counts = {};
+  army.value.forEach(unit => {
+    counts[unit.unitName] = (counts[unit.unitName] || 0) + 1;
+  });
+  return counts;
+});
+
 const addUnitToArmy = (unit) => {
-  if (!army.value.some(existingUnit => existingUnit.id === unit.id)) {
-    army.value.push(unit);
-    armyStore.addOtherUnitToArmy(props.armyIndex, unit);
-    console.log('Updated army:', army.value);
-  } else {
-    console.warn(`Unit with id ${unit.id} is already in the army`);
+  const uniqueId = generateUniqueId();
+  const unitWithId = { ...unit, id: uniqueId };
+  army.value.push(unitWithId);
+  armyStore.addOtherUnitToArmy(props.armyIndex, unitWithId);
+  console.log('Updated army:', army.value);
+};
+
+const removeUnitFromArmy = (id) => {
+  const index = army.value.findIndex(unit => unit.id === id);
+  if (index !== -1) {
+    armyStore.removeOtherUnitFromArmy(props.armyIndex, id);
+    army.value.splice(index, 1);
   }
 };
 
-const removeUnitFromArmy = (index) => {
-  armyStore.removeOtherUnitFromArmy(props.armyIndex, index);
-  army.value.splice(index, 1);
+const debounce = (func, wait) => {
+  let timeout;
+  return (...args) => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      func.apply(this, args);
+    }, wait);
+  };
 };
+
+const debouncedRemoveUnit = debounce(removeUnitFromArmy, 300);
 
 const loadUnits = () => {
   fetch(props.url)
@@ -65,9 +91,16 @@ const loadUnits = () => {
   army.value = armyStore.loadOtherUnitsForArmy(props.armyIndex);
 };
 
+const generateUniqueId = () => {
+  return Math.floor(1000 + Math.random() * 9000).toString();
+};
+
 onMounted(() => {
   loadUnits();
 });
 
 watch(() => props.armyIndex, loadUnits);
 </script>
+
+<style scoped>
+</style>

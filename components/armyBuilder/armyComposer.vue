@@ -246,8 +246,7 @@ const openEnhancementDialog = (character, index) => {
   currentCharacterIndex.value = index;
   selectedEnhancement.value = character.enhancements || null;
   expandedPanels.value = []; // Reset expanded panels when the dialog is opened
-  console.log('Opening enhancement dialog for:', character);
-  console.log('Selected enhancement:', selectedEnhancement.value);
+
   isEnhancementDialogOpen.value = true;
 };
 

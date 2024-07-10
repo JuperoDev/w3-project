@@ -77,7 +77,7 @@ const addUnitToArmy = async (unit) => {
   armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
   syncArmyWithStore();
   
-  console.log('Updated army:', army.value);
+  
 };
 
 const removeUnitFromArmy = async (id) => {

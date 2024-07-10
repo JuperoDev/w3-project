@@ -228,7 +228,7 @@ onMounted(() => {
   armyStore.initializeStore();
   stepperVisible.value = armies.value.length === 0;
   drawer.value = true;
-  // console.log("Loaded armies on mount:", armies.value);
+
 });
 const closeDrawer = () => {
   drawer.value = false;
@@ -291,7 +291,7 @@ const loadArmy = (index) => {
   });
 
   step.value = 0;
-  // console.log("Loaded army:", army);
+ 
 };
 
 const viewArmy = (index) => {

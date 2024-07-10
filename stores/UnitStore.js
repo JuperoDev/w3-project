@@ -13,7 +13,7 @@ export const useUnitStore = defineStore('savedUnits', {
       if (storedElements && storedInfo) {
         this.elements = JSON.parse(storedElements);
         this.info = JSON.parse(storedInfo);
-        // console.log('Loaded elements and info from local storage:', this.elements, this.info);
+       
       }
     },
     addOrRemoveElement(elementName, isAdd, urlStore) {
@@ -36,7 +36,7 @@ export const useUnitStore = defineStore('savedUnits', {
     saveData() {
       localStorage.setItem('elements', JSON.stringify(this.elements));
       localStorage.setItem('info', JSON.stringify(this.info));
-      console.log('Saved elements and info to local storage:', this.elements, this.info);
+   
     },
   },
 

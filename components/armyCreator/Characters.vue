@@ -33,7 +33,7 @@
           </template>
           <div v-if="unit.isEpicHero" class="text-red-500">Epic Hero</div>
           <div v-if="unit.selectedEnhancement">
-            <strong>Selected Enhancement:</strong> {{ unit.selectedEnhancement.name }} ({{ unit.selectedEnhancement.points }} points)
+            <strong>Enhancement:</strong> {{ unit.selectedEnhancement.name }} ({{ unit.selectedEnhancement.points }} points)
           </div>
         </li>
       </ul>

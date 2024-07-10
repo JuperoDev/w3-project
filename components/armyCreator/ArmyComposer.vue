@@ -6,6 +6,7 @@
     <p><strong>Point List:</strong> {{ pointList }}</p>
     <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
     <p><strong>URL:</strong> {{ url }}</p>
+    <p><strong>Total Points:</strong> {{ totalPoints }}</p>
 
     <Characters 
       :url="url" 
@@ -13,14 +14,26 @@
       :selectedDetachment="selectedDetachment"
       :selectedFaction="selectedFaction"
       :selectedArmy="selectedArmy"
-      class="mt-4"/>
-    <Battleline :url="url" :armyIndex="armyIndex" class="mt-4"/>
-    <Other :url="url" :armyIndex="armyIndex" class="mt-4"/>
+      class="mt-4"
+      @update-total-points="updateCharacterPoints"
+    />
+    <Battleline 
+      :url="url" 
+      :armyIndex="armyIndex" 
+      class="mt-4"
+      @update-total-points="updateBattlelinePoints"
+    />
+    <Other 
+      :url="url" 
+      :armyIndex="armyIndex" 
+      class="mt-4"
+      @update-total-points="updateOtherPoints"
+    />
   </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
+import { ref } from 'vue';
 import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';
@@ -55,4 +68,24 @@ const props = defineProps({
     required: true
   }
 });
+
+const characterPoints = ref(0);
+const battlelinePoints = ref(0);
+const otherPoints = ref(0);
+
+const totalPoints = computed(() => {
+  return characterPoints.value + battlelinePoints.value + otherPoints.value;
+});
+
+const updateCharacterPoints = (points) => {
+  characterPoints.value = points;
+};
+
+const updateBattlelinePoints = (points) => {
+  battlelinePoints.value = points;
+};
+
+const updateOtherPoints = (points) => {
+  otherPoints.value = points;
+};
 </script>

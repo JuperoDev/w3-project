@@ -2,8 +2,8 @@
   <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
     <div class="flex justify-between items-center">
       <h2 class="text-lg font-semibold">Battleline</h2>
+      <span>Total Points: {{ totalPoints }}</span>
     </div>
-    <p><strong>URL:</strong> {{ url }}</p>
     <UnitDialog 
       :title="'Select Battleline'" 
       :units="units" 
@@ -19,7 +19,7 @@
             <v-btn icon small @click="removeUnitFromArmy(unit.id)">
               <v-icon small>mdi-delete</v-icon>
             </v-btn>
-            <UnitInfoDialog :url="constructUnitUrl(unit.url, unit.unitName)" />
+            <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
           </div>
         </li>
       </ul>
@@ -31,7 +31,7 @@
 import { ref, onMounted, watch, computed, nextTick } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
-import UnitInfoDialog from './UnitInfoDialog.vue'; // Import the new component
+import UnitInfoDialog from './UnitInfoDialog.vue'; // Import the component
 
 const props = defineProps({
   url: {
@@ -44,9 +44,12 @@ const props = defineProps({
   }
 });
 
+const emit = defineEmits(['update-total-points']);
+
 const units = ref([]);
 const army = ref([]);
 const armyStore = useArmyStorage();
+const totalPoints = ref(0);
 
 const unitCounts = computed(() => {
   const counts = {};
@@ -58,6 +61,12 @@ const unitCounts = computed(() => {
 
 const syncArmyWithStore = () => {
   army.value = armyStore.loadBattlelineUnitsForArmy(props.armyIndex);
+  calculateTotalPoints();
+};
+
+const calculateTotalPoints = () => {
+  totalPoints.value = army.value.reduce((sum, unit) => sum + unit.basicPoints, 0);
+  emit('update-total-points', totalPoints.value);
 };
 
 const addUnitToArmy = async (unit) => {
@@ -86,12 +95,8 @@ const loadUnits = () => {
   syncArmyWithStore();
 };
 
-const formattedUnitName = (unitName) => {
-  return unitName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-};
-
 const constructUnitUrl = (baseUrl, unitName) => {
-  const sanitizedUnitName = formattedUnitName(unitName);
+  const sanitizedUnitName = unitName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   const baseUrlParts = baseUrl.split('/');
   baseUrlParts.pop(); 
   return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;

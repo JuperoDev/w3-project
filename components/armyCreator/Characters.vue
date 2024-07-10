@@ -2,6 +2,7 @@
   <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
     <div class="flex justify-between items-center">
       <h2 class="text-lg font-semibold">Characters</h2>
+      <span>Total Points: {{ totalPoints }}</span>
     </div>
 
     <UnitDialog 
@@ -15,10 +16,11 @@
       <ul>
         <li v-for="(unit, index) in army" :key="index" class="mb-4">
           <div>
-            {{ unit.unitName }} ({{ unit.basicPoints }} points)
+            {{ unit.unitName }} ({{ unitPoints(unit) }} points)
             <v-btn icon small @click="removeUnitFromArmy(index)">
               <v-icon small>mdi-delete</v-icon>
             </v-btn>
+            <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
           </div>
           <template v-if="!unit.isEpicHero">
             <Enhancements 
@@ -38,9 +40,10 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from 'vue';
+import { ref, onMounted, watch, computed, nextTick } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
+import UnitInfoDialog from './UnitInfoDialog.vue'; // Import the component
 import Enhancements from './Enhancements.vue';
 
 const props = defineProps({
@@ -66,9 +69,12 @@ const props = defineProps({
   }
 });
 
+const emit = defineEmits(['update-total-points']);
+
 const units = ref([]);
 const army = ref([]);
 const armyStore = useArmyStorage();
+const totalPoints = ref(0);
 
 const unitCounts = computed(() => {
   const counts = {};
@@ -78,20 +84,30 @@ const unitCounts = computed(() => {
   return counts;
 });
 
+const unitPoints = (unit) => {
+  return unit.basicPoints + (unit.selectedEnhancement ? unit.selectedEnhancement.points : 0);
+};
+
+const calculateTotalPoints = () => {
+  totalPoints.value = army.value.reduce((sum, unit) => sum + unitPoints(unit), 0);
+  emit('update-total-points', totalPoints.value);
+};
+
 const addUnitToArmy = (unit) => {
   if (!army.value.some(existingUnit => existingUnit.id === unit.id)) {
     army.value.push(unit);
     armyStore.addCharacterUnitToArmy(props.armyIndex, unit);
-    console.log('Updated army:', army.value);
     fetchUnitDetails(unit, army.value.length - 1);
   } else {
     console.warn(`Unit with id ${unit.id} is already in the army`);
   }
+  calculateTotalPoints();
 };
 
 const removeUnitFromArmy = (index) => {
   armyStore.removeCharacterUnitFromArmy(props.armyIndex, index);
   army.value.splice(index, 1);
+  calculateTotalPoints();
 };
 
 const loadUnits = () => {
@@ -107,6 +123,8 @@ const loadUnits = () => {
   loadedArmy.forEach((unit, index) => {
     fetchUnitDetails(unit, index);
   });
+
+  calculateTotalPoints();
 };
 
 const fetchUnitDetails = async (unit, index) => {
@@ -119,6 +137,7 @@ const fetchUnitDetails = async (unit, index) => {
 
 const updateUnit = (index, updatedUnit) => {
   army.value = army.value.map((unit, i) => i === index ? updatedUnit : unit);
+  calculateTotalPoints();
 };
 
 const generateEnhancementUrl = (faction, army, detachment) => {
@@ -133,6 +152,14 @@ const updateEnhancement = (index, enhancement) => {
   const updatedUnit = { ...army.value[index], selectedEnhancement: enhancement || null };
   updateUnit(index, updatedUnit);
   armyStore.updateCharacterUnitEnhancement(props.armyIndex, index, enhancement || null);
+  calculateTotalPoints();
+};
+
+const constructUnitUrl = (baseUrl, unitName) => {
+  const sanitizedUnitName = unitName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  const baseUrlParts = baseUrl.split('/');
+  baseUrlParts.pop();
+  return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;
 };
 
 onMounted(() => {

@@ -15,12 +15,14 @@
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
         <li v-for="(unit, index) in army" :key="index" class="mb-4">
-          <div>
-            {{ unit.unitName }} ({{ unitPoints(unit) }} points)
-            <v-btn icon small @click="removeUnitFromArmy(index)">
-              <v-icon small>mdi-delete</v-icon>
-            </v-btn>
-            <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
+          <div class="flex items-center">
+            <span>{{ unit.unitName }} ({{ unitPoints(unit) }} points)</span>
+            <div class="flex ml-auto">
+              <v-btn icon small @click="removeUnitFromArmy(index)">
+                <v-icon small>mdi-delete</v-icon>
+              </v-btn>
+              <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
+            </div>
           </div>
           <template v-if="!unit.isEpicHero">
             <Enhancements 

@@ -78,7 +78,6 @@ const handleRadioClick = (enhancement) => {
   }
 };
 
-// Optionally, you can watch the enhancementUrl prop and refetch if it changes
 watch(() => props.enhancementUrl, fetchFileContent);
 </script>
 

@@ -13,13 +13,25 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="unit in army" :key="unit.id" class="flex items-center">
-          <span>{{ unit.unitName }} ({{ unit.basicPoints }} points)</span>
+        <li v-for="unit in army" :key="unit.id" class="flex items-center mb-2">
+          <span>
+            {{ unit.unitName }} 
+            ({{ unit.basicPoints }} points)
+            <span v-if="unit.composition">
+              - {{ getCompositionString(unit.composition) }}
+            </span>
+          </span>
           <div class="flex ml-auto">
             <v-btn icon small @click="removeUnitFromArmy(unit.id)">
               <v-icon small>mdi-delete</v-icon>
             </v-btn>
             <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
+            <UnitOptionsDialog 
+              :unitName="unit.unitName"
+              :url="constructUnitUrl(url, unit.unitName)"
+              :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
+              @update-unit-option="updateUnitOption(unit.id, $event)"
+            />
           </div>
         </li>
       </ul>
@@ -28,10 +40,11 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed, nextTick } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
-import UnitInfoDialog from './UnitInfoDialog.vue'; // Import the component
+import UnitInfoDialog from './UnitInfoDialog.vue';
+import UnitOptionsDialog from './UnitOptionsDialog.vue';
 
 const props = defineProps({
   url: {
@@ -70,20 +83,47 @@ const calculateTotalPoints = () => {
 };
 
 const addUnitToArmy = async (unit) => {
-  const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
-  const unitWithId = { ...unit, id: uniqueId, url: unit.url || props.url };
-  
-  await nextTick();
-  armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
-  syncArmyWithStore();
-  
-  
+  try {
+    const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+    const response = await fetch(constructUnitUrl(props.url, unit.unitName));
+    const unitData = await response.json();
+
+    const selectedOption = unitData.options[0];
+    const unitWithId = { 
+      ...unit, 
+      id: uniqueId, 
+      url: unit.url || props.url,
+      composition: selectedOption.count.map((count, index) => ({
+        unitType: unitData.unitComposition[index].unitType,
+        quantity: count
+      })),
+      basicPoints: selectedOption.points
+    };
+    
+    armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
+    syncArmyWithStore();
+  } catch (error) {
+    console.error('Error adding unit to army:', error);
+  }
 };
 
-const removeUnitFromArmy = async (id) => {
-  await nextTick();
+const removeUnitFromArmy = (id) => {
   armyStore.removeBattlelineUnitFromArmy(props.armyIndex, id);
   syncArmyWithStore();
+};
+
+const updateUnitOption = (unitId, optionData) => {
+  const unitIndex = army.value.findIndex(unit => unit.id === unitId);
+  if (unitIndex !== -1) {
+    const updatedUnit = {
+      ...army.value[unitIndex],
+      composition: optionData.composition,
+      basicPoints: optionData.points
+    };
+    
+    armyStore.updateBattlelineUnitInArmy(props.armyIndex, unitId, updatedUnit);
+    syncArmyWithStore();
+  }
 };
 
 const loadUnits = () => {
@@ -91,6 +131,9 @@ const loadUnits = () => {
     .then(response => response.json())
     .then(data => {
       units.value = data.battleline;
+    })
+    .catch(error => {
+      console.error('Error loading units:', error);
     });
   syncArmyWithStore();
 };
@@ -100,6 +143,11 @@ const constructUnitUrl = (baseUrl, unitName) => {
   const baseUrlParts = baseUrl.split('/');
   baseUrlParts.pop(); 
   return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;
+};
+
+const getCompositionString = (composition) => {
+  if (!composition) return '';
+  return composition.map(unit => `${unit.quantity} ${unit.unitType}`).join(', ');
 };
 
 onMounted(() => {

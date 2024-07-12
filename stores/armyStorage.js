@@ -12,7 +12,6 @@ export const useArmyStorage = defineStore('armyStorage', {
       }
     },
     addArmy(army) {
-      // Ensure each new army has empty arrays for each unit type
       army.battlelineUnits = [];
       army.characterUnits = [];
       army.otherUnits = [];
@@ -45,6 +44,14 @@ export const useArmyStorage = defineStore('armyStorage', {
       const index = army.battlelineUnits.findIndex(unit => unit.id === unitId);
       if (index !== -1) {
         army.battlelineUnits.splice(index, 1);
+        this.saveArmies();
+      }
+    },
+    updateBattlelineUnitInArmy(armyIndex, unitId, updatedUnit) {
+      const army = this.armies[armyIndex];
+      const unitIndex = army.battlelineUnits.findIndex(unit => unit.id === unitId);
+      if (unitIndex !== -1) {
+        army.battlelineUnits[unitIndex] = { ...army.battlelineUnits[unitIndex], ...updatedUnit };
         this.saveArmies();
       }
     },
@@ -95,6 +102,14 @@ export const useArmyStorage = defineStore('armyStorage', {
       const index = army.otherUnits.findIndex(unit => unit.id === unitId);
       if (index !== -1) {
         army.otherUnits.splice(index, 1);
+        this.saveArmies();
+      }
+    },
+    updateOtherUnitInArmy(armyIndex, unitId, updatedUnit) {
+      const army = this.armies[armyIndex];
+      const unitIndex = army.otherUnits.findIndex(unit => unit.id === unitId);
+      if (unitIndex !== -1) {
+        army.otherUnits[unitIndex] = { ...army.otherUnits[unitIndex], ...updatedUnit };
         this.saveArmies();
       }
     },

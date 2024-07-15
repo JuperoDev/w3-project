@@ -12,8 +12,8 @@ export const useArmyStorage = defineStore('armyStorage', {
       }
     },
     addArmy(army) {
-      army.battlelineUnits = [];
       army.characterUnits = [];
+      army.battlelineUnits = [];
       army.otherUnits = [];
       this.armies.push(army);
       this.saveArmies();
@@ -25,16 +25,64 @@ export const useArmyStorage = defineStore('armyStorage', {
     saveArmies() {
       localStorage.setItem('armies', JSON.stringify(this.armies));
     },
+
+    // Character Units
+    addCharacterUnitToArmy(armyIndex, unit) {
+      const army = this.armies[armyIndex];
+      if (!army.characterUnits.some(existingUnit => existingUnit.id === unit.id)) {
+        army.characterUnits.push({
+          ...unit,
+          basicPoints: parseInt(unit.basicPoints) || 0
+        });
+        this.saveArmies();
+      }
+    },
+    loadCharacterUnitsForArmy(armyIndex) {
+      const army = this.armies[armyIndex];
+      if (!army.characterUnits) {
+        army.characterUnits = [];
+      }
+      return army.characterUnits;
+    },
+    removeCharacterUnitFromArmy(armyIndex, unitId) {
+      const army = this.armies[armyIndex];
+      const index = army.characterUnits.findIndex(unit => unit.id === unitId);
+      if (index !== -1) {
+        army.characterUnits.splice(index, 1);
+        this.saveArmies();
+      }
+    },
+    updateCharacterUnitInArmy(armyIndex, unitId, updatedUnit) {
+      const army = this.armies[armyIndex];
+      const unitIndex = army.characterUnits.findIndex(unit => unit.id === unitId);
+      if (unitIndex !== -1) {
+        army.characterUnits[unitIndex] = { 
+          ...army.characterUnits[unitIndex], 
+          ...updatedUnit,
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0,
+          selectedEnhancement: updatedUnit.selectedEnhancement ? {
+            ...updatedUnit.selectedEnhancement,
+            points: parseInt(updatedUnit.selectedEnhancement.points) || 0
+          } : null
+        };
+        this.saveArmies();
+      }
+    },
+
+    // Battleline Units
     addBattlelineUnitToArmy(armyIndex, unit) {
       const army = this.armies[armyIndex];
       if (!army.battlelineUnits.some(existingUnit => existingUnit.id === unit.id)) {
-        army.battlelineUnits.push(unit);
+        army.battlelineUnits.push({
+          ...unit,
+          basicPoints: parseInt(unit.basicPoints) || 0
+        });
         this.saveArmies();
       }
     },
     loadBattlelineUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];
-      if (army.battlelineUnits === undefined) {
+      if (!army.battlelineUnits) {
         army.battlelineUnits = [];
       }
       return army.battlelineUnits;
@@ -51,48 +99,29 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.battlelineUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-        army.battlelineUnits[unitIndex] = { ...army.battlelineUnits[unitIndex], ...updatedUnit };
+        army.battlelineUnits[unitIndex] = { 
+          ...army.battlelineUnits[unitIndex], 
+          ...updatedUnit,
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0
+        };
         this.saveArmies();
       }
     },
-    addCharacterUnitToArmy(armyIndex, unit) {
-      const army = this.armies[armyIndex];
-      if (!army.characterUnits.some(existingUnit => existingUnit.id === unit.id)) {
-        army.characterUnits.push(unit);
-        this.saveArmies();
-      }
-    },
-    loadCharacterUnitsForArmy(armyIndex) {
-      const army = this.armies[armyIndex];
-      if (army.characterUnits === undefined) {
-        army.characterUnits = [];
-      }
-      return army.characterUnits;
-    },
-    removeCharacterUnitFromArmy(armyIndex, unitIndex) {
-      const army = this.armies[armyIndex];
-      if (army.characterUnits && army.characterUnits.length > unitIndex) {
-        army.characterUnits.splice(unitIndex, 1);
-        this.saveArmies();
-      }
-    },
-    updateCharacterUnitEnhancement(armyIndex, unitIndex, enhancement) {
-      const army = this.armies[armyIndex];
-      if (army.characterUnits && army.characterUnits.length > unitIndex) {
-        army.characterUnits[unitIndex].selectedEnhancement = enhancement;
-        this.saveArmies();
-      }
-    },
+
+    // Other Units
     addOtherUnitToArmy(armyIndex, unit) {
       const army = this.armies[armyIndex];
       if (!army.otherUnits.some(existingUnit => existingUnit.id === unit.id)) {
-        army.otherUnits.push(unit);
+        army.otherUnits.push({
+          ...unit,
+          basicPoints: parseInt(unit.basicPoints) || 0
+        });
         this.saveArmies();
       }
     },
     loadOtherUnitsForArmy(armyIndex) {
       const army = this.armies[armyIndex];
-      if (army.otherUnits === undefined) {
+      if (!army.otherUnits) {
         army.otherUnits = [];
       }
       return army.otherUnits;
@@ -109,9 +138,28 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.otherUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-        army.otherUnits[unitIndex] = { ...army.otherUnits[unitIndex], ...updatedUnit };
+        army.otherUnits[unitIndex] = { 
+          ...army.otherUnits[unitIndex], 
+          ...updatedUnit,
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0
+        };
         this.saveArmies();
       }
+    },
+
+    // General methods
+    getTotalPoints(armyIndex) {
+      const army = this.armies[armyIndex];
+      const characterPoints = army.characterUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0) + (unit.selectedEnhancement ? (parseInt(unit.selectedEnhancement.points) || 0) : 0), 0);
+      const battlelinePoints = army.battlelineUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
+      const otherPoints = army.otherUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
+      return characterPoints + battlelinePoints + otherPoints;
+    },
+
+    updateArmyDetails(armyIndex, details) {
+      const army = this.armies[armyIndex];
+      Object.assign(army, details);
+      this.saveArmies();
     },
   },
 });

@@ -1,3 +1,4 @@
+<!-- Other.vue -->
 <template>
   <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
     <div class="flex justify-between items-center">
@@ -32,6 +33,7 @@
               :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
               @update-unit-option="updateUnitOption(unit.id, $event)"
             />
+            <WargearOptionsButton />
           </div>
         </li>
       </ul>
@@ -45,6 +47,7 @@ import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 import UnitInfoDialog from './UnitInfoDialog.vue';
 import UnitOptionsDialog from './UnitOptionsDialog.vue';
+import WargearOptionsButton from './WargearOptionsButton.vue';
 
 const props = defineProps({
   url: {

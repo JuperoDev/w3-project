@@ -33,7 +33,9 @@
                 :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
                 @update-unit-option="updateUnitOption(unit.id, $event)"
               />
-              <WargearOptionsButton />
+              <template v-if="unit.hasWargear">
+                <WargearOptionsButton :url="constructUnitUrl(url, unit.unitName)" />
+              </template>
             </div>
           </div>
           <div class="mt-2 ml-4">
@@ -83,6 +85,7 @@ const unitCounts = computed(() => {
 const syncArmyWithStore = () => {
   army.value = armyStore.loadBattlelineUnitsForArmy(props.armyIndex);
   calculateTotalPoints();
+  checkWargearOptionsForUnits();
 };
 
 const calculateTotalPoints = () => {
@@ -107,7 +110,8 @@ const addUnitToArmy = async (unit) => {
       })),
       basicPoints: selectedOption.points,
       equipment: unitData.unitComposition[0].equipment,
-      minQuantity: unitData.unitComposition[0].minQuantity
+      minQuantity: unitData.unitComposition[0].minQuantity,
+      hasWargear: unitData.wargear && unitData.wargear.length > 0
     };
     
     armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
@@ -153,6 +157,20 @@ const constructUnitUrl = (baseUrl, unitName) => {
   const baseUrlParts = baseUrl.split('/');
   baseUrlParts.pop(); 
   return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;
+};
+
+const checkWargearOptionsForUnits = async () => {
+  for (const unit of army.value) {
+    const url = constructUnitUrl(props.url, unit.unitName);
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      unit.hasWargear = data.wargear && data.wargear.length > 0;
+    } catch (error) {
+      console.error('Error checking wargear options:', error);
+      unit.hasWargear = false;
+    }
+  }
 };
 
 const getCompositionString = (composition) => {

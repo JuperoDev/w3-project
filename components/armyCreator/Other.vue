@@ -33,7 +33,9 @@
                 :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
                 @update-unit-option="updateUnitOption(unit.id, $event)"
               />
-              <WargearOptionsButton />
+              <template v-if="unit.hasWargear">
+                <WargearOptionsButton :url="constructUnitUrl(url, unit.unitName)" />
+              </template>
             </div>
           </div>
           <div class="mt-2 ml-4">
@@ -83,6 +85,7 @@ const unitCounts = computed(() => {
 const syncArmyWithStore = () => {
   army.value = armyStore.loadOtherUnitsForArmy(props.armyIndex);
   calculateTotalPoints();
+  checkWargearOptionsForUnits();
 };
 
 const calculateTotalPoints = () => {
@@ -107,7 +110,8 @@ const addUnitToArmy = async (unit) => {
       })),
       basicPoints: selectedOption.points,
       equipment: unitData.unitComposition[0].equipment,
-      minQuantity: unitData.unitComposition[0].minQuantity
+      minQuantity: unitData.unitComposition[0].minQuantity,
+      hasWargear: unitData.wargear && unitData.wargear.length > 0
     };
     
     armyStore.addOtherUnitToArmy(props.armyIndex, unitWithId);
@@ -155,6 +159,20 @@ const constructUnitUrl = (baseUrl, unitName) => {
   return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;
 };
 
+const checkWargearOptionsForUnits = async () => {
+  for (const unit of army.value) {
+    const url = constructUnitUrl(props.url, unit.unitName);
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      unit.hasWargear = data.wargear && data.wargear.length > 0;
+    } catch (error) {
+      console.error('Error checking wargear options:', error);
+      unit.hasWargear = false;
+    }
+  }
+};
+
 const getCompositionString = (composition) => {
   if (!composition) return '';
   return composition.map(unit => `${unit.quantity} ${unit.unitType}`).join(', ');
@@ -166,3 +184,9 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
+
+<style scoped>
+.mb-4 {
+  margin-bottom: 1rem;
+}
+</style>

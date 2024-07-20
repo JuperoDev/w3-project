@@ -33,6 +33,7 @@
                 :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
                 @update-unit-option="updateUnitOption(unit.id, $event)"
               />
+              <WargearOptionsButton />
             </div>
           </div>
           <div class="mt-2 ml-4">
@@ -50,6 +51,7 @@ import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 import UnitInfoDialog from './UnitInfoDialog.vue';
 import UnitOptionsDialog from './UnitOptionsDialog.vue';
+import WargearOptionsButton from './WargearOptionsButton.vue';
 import EquipmentList from './EquipmentList.vue';
 
 const props = defineProps({
@@ -164,3 +166,9 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
+
+<style scoped>
+.mb-4 {
+  margin-bottom: 1rem;
+}
+</style>

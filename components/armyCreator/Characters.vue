@@ -47,6 +47,9 @@
           <div v-if="unit.selectedEnhancement">
             <strong>Enhancement:</strong> {{ unit.selectedEnhancement.name }} ({{ unit.selectedEnhancement.points }} points)
           </div>
+          <div class="mt-2 ml-4">
+            <EquipmentList :equipment="unit.equipment" :minQuantity="unit.minQuantity" />
+          </div>
         </li>
       </ul>
     </div>
@@ -60,6 +63,7 @@ import UnitDialog from './UnitDialog.vue';
 import UnitInfoDialog from './UnitInfoDialog.vue';
 import UnitOptionsDialog from './UnitOptionsDialog.vue';
 import Enhancements from './Enhancements.vue';
+import EquipmentList from './EquipmentList.vue';
 
 const props = defineProps({
   url: {
@@ -131,7 +135,9 @@ const addUnitToArmy = async (unit) => {
         quantity: count
       })),
       basicPoints: parseInt(selectedOption.points) || 0,
-      isEpicHero: unitData.keywords?.includes('epic hero') || false
+      isEpicHero: unitData.keywords?.includes('epic hero') || false,
+      equipment: unitData.unitComposition[0].equipment,
+      minQuantity: unitData.unitComposition[0].minQuantity
     };
     
     armyStore.addCharacterUnitToArmy(props.armyIndex, unitWithId);

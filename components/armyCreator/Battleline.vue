@@ -13,25 +13,30 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Units:</h3>
       <ul>
-        <li v-for="unit in army" :key="unit.id" class="flex items-center mb-2">
-          <span>
-            {{ unit.unitName }} 
-            ({{ unit.basicPoints }} points)
-            <span v-if="unit.composition">
-              - {{ getCompositionString(unit.composition) }}
+        <li v-for="unit in army" :key="unit.id" class="flex flex-col mb-4">
+          <div class="flex items-center">
+            <span>
+              {{ unit.unitName }} 
+              ({{ unit.basicPoints }} points)
+              <span v-if="unit.composition">
+                - {{ getCompositionString(unit.composition) }}
+              </span>
             </span>
-          </span>
-          <div class="flex ml-auto">
-            <v-btn icon small @click="removeUnitFromArmy(unit.id)">
-              <v-icon small>mdi-delete</v-icon>
-            </v-btn>
-            <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
-            <UnitOptionsDialog 
-              :unitName="unit.unitName"
-              :url="constructUnitUrl(url, unit.unitName)"
-              :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
-              @update-unit-option="updateUnitOption(unit.id, $event)"
-            />
+            <div class="flex ml-auto">
+              <v-btn icon small @click="removeUnitFromArmy(unit.id)">
+                <v-icon small>mdi-delete</v-icon>
+              </v-btn>
+              <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
+              <UnitOptionsDialog 
+                :unitName="unit.unitName"
+                :url="constructUnitUrl(url, unit.unitName)"
+                :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
+                @update-unit-option="updateUnitOption(unit.id, $event)"
+              />
+            </div>
+          </div>
+          <div class="mt-2 ml-4">
+            <EquipmentList :equipment="unit.equipment" :minQuantity="unit.minQuantity" />
           </div>
         </li>
       </ul>
@@ -45,6 +50,7 @@ import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 import UnitInfoDialog from './UnitInfoDialog.vue';
 import UnitOptionsDialog from './UnitOptionsDialog.vue';
+import EquipmentList from './EquipmentList.vue';
 
 const props = defineProps({
   url: {
@@ -97,7 +103,9 @@ const addUnitToArmy = async (unit) => {
         unitType: unitData.unitComposition[index].unitType,
         quantity: count
       })),
-      basicPoints: selectedOption.points
+      basicPoints: selectedOption.points,
+      equipment: unitData.unitComposition[0].equipment,
+      minQuantity: unitData.unitComposition[0].minQuantity
     };
     
     armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);

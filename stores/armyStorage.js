@@ -32,7 +32,11 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.characterUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.characterUnits.push({
           ...unit,
-          basicPoints: parseInt(unit.basicPoints) || 0
+          basicPoints: parseInt(unit.basicPoints) || 0,
+          selectedEnhancement: unit.selectedEnhancement ? {
+            ...unit.selectedEnhancement,
+            points: parseInt(unit.selectedEnhancement.points) || 0
+          } : null
         });
         this.saveArmies();
       }

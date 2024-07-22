@@ -28,12 +28,6 @@
                 <v-icon small>mdi-delete</v-icon>
               </v-btn>
               <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
-              <!-- <UnitOptionsDialog 
-                :unitName="unit.unitName"
-                :url="constructUnitUrl(url, unit.unitName)"
-                :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
-                @update-unit-option="updateUnitOption(unit.id, $event)"
-              /> -->
               <template v-if="unit.hasWargear">
                 <WargearOptionsButton 
                   :url="constructUnitUrl(url, unit.unitName)" 

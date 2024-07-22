@@ -46,7 +46,6 @@
   
   const formatArmyDetails = (army) => {
     let result = `${army.name} (${armyStore.getTotalPoints(props.armyIndex)} Points)\n\n`;
-    // result += `Faction: ${army.selectedFaction}\n`;
     result += `Army: ${army.selectedArmy}\n`;
     result += `Detachment: ${army.selectedDetachment}\n`;
     result += `Strike Force (${army.pointList} Points)\n\n`;
@@ -66,6 +65,8 @@
       result += formatUnitDetails(unit) + '\n\n';
     });
   
+    result += `Created with Rapid Ingress`;
+  
     return result.trim();
   };
   
@@ -79,6 +80,9 @@
         }
       });
     });
+    if (unit.selectedEnhancement) {
+      result += `    • Enhancements: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)\n`;
+    }
     return result.trim();
   };
   

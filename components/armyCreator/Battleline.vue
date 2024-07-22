@@ -34,12 +34,20 @@
                 @update-unit-option="updateUnitOption(unit.id, $event)"
               />
               <template v-if="unit.hasWargear">
-                <WargearOptionsButton :url="constructUnitUrl(url, unit.unitName)" />
+                <WargearOptionsButton 
+                  :url="constructUnitUrl(url, unit.unitName)" 
+                  @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
+                />
               </template>
             </div>
           </div>
           <div class="mt-2 ml-4">
-            <EquipmentList :equipment="unit.equipment" :minQuantity="unit.minQuantity" />
+            <EquipmentList 
+              :equipment="unit.equipment" 
+              :minQuantity="unit.minQuantity"
+              :equipmentQuantities="unit.equipmentQuantities || {}"
+              :generalEquipment="unit.generalEquipment || {}"
+            />
           </div>
         </li>
       </ul>
@@ -111,7 +119,9 @@ const addUnitToArmy = async (unit) => {
       basicPoints: selectedOption.points,
       equipment: unitData.unitComposition[0].equipment,
       minQuantity: unitData.unitComposition[0].minQuantity,
-      hasWargear: unitData.wargear && unitData.wargear.length > 0
+      hasWargear: unitData.wargear && unitData.wargear.length > 0,
+      equipmentQuantities: {},
+      generalEquipment: unitData.equipmentQuantities || {} // Add default equipment quantities
     };
     
     armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
@@ -176,6 +186,20 @@ const checkWargearOptionsForUnits = async () => {
 const getCompositionString = (composition) => {
   if (!composition) return '';
   return composition.map(unit => `${unit.quantity} ${unit.unitType}`).join(', ');
+};
+
+const updateWargearQuantities = (unitId, quantities) => {
+  const unitIndex = army.value.findIndex(unit => unit.id === unitId);
+  if (unitIndex !== -1) {
+    const updatedUnit = {
+      ...army.value[unitIndex],
+      equipmentQuantities: quantities,
+      generalEquipment: quantities // Save quantities in generalEquipment
+    };
+    army.value[unitIndex] = updatedUnit; // Ensure the unit is updated with new quantities
+    armyStore.updateBattlelineUnitInArmy(props.armyIndex, unitId, updatedUnit);
+    syncArmyWithStore();
+  }
 };
 
 onMounted(() => {

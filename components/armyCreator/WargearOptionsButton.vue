@@ -13,13 +13,25 @@
             <div v-for="wargear in wargearOptions" :key="wargear.description" class="my-2">
               <p><strong>{{ wargear.description }}</strong></p>
               <ul>
-                <li v-for="item in wargear.items" :key="item">{{ item }}</li>
+                <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
+                  <span>{{ item }}</span>
+                  <div>
+                    <v-btn icon small @click="decreaseQuantity(item)">
+                      <v-icon small>mdi-minus</v-icon>
+                    </v-btn>
+                    <span>{{ equipmentQuantities[item] || 0 }}</span>
+                    <v-btn icon small @click="increaseQuantity(item)">
+                      <v-icon small>mdi-plus</v-icon>
+                    </v-btn>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
+          <v-btn color="blue darken-1" text @click="saveWargear">Save</v-btn>
           <v-btn color="blue darken-1" text @click="dialog = false">Close</v-btn>
         </v-card-actions>
       </v-card>
@@ -34,6 +46,7 @@ const dialog = ref(false);
 const wargearOptions = ref([]);
 const loading = ref(true);
 const error = ref(null);
+const equipmentQuantities = ref({});
 
 const props = defineProps({
   url: {
@@ -41,6 +54,8 @@ const props = defineProps({
     required: true
   }
 });
+
+const emit = defineEmits(['update-wargear-quantities']);
 
 const fetchWargearData = async () => {
   try {
@@ -50,11 +65,37 @@ const fetchWargearData = async () => {
     }
     const data = await response.json();
     wargearOptions.value = data.wargear || [];
+    initializeQuantities();
   } catch (err) {
     error.value = `Error fetching wargear data: ${err.message}`;
   } finally {
     loading.value = false;
   }
+};
+
+const initializeQuantities = () => {
+  wargearOptions.value.forEach(option => {
+    option.items.forEach(item => {
+      if (!equipmentQuantities.value[item]) {
+        equipmentQuantities.value[item] = 0;
+      }
+    });
+  });
+};
+
+const increaseQuantity = (item) => {
+  equipmentQuantities.value[item] = (equipmentQuantities.value[item] || 0) + 1;
+};
+
+const decreaseQuantity = (item) => {
+  if (equipmentQuantities.value[item] > 0) {
+    equipmentQuantities.value[item] -= 1;
+  }
+};
+
+const saveWargear = () => {
+  emit('update-wargear-quantities', equipmentQuantities.value);
+  dialog.value = false;
 };
 
 onMounted(fetchWargearData);

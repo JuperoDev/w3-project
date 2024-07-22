@@ -2,7 +2,7 @@
   <div>
     <h4 class="text-md font-semibold">Equipment:</h4>
     <ul>
-      <li v-for="(quantity, item) in equipmentList" :key="item" class="ml-2">
+      <li v-for="(quantity, item) in filteredEquipment" :key="item" class="ml-2">
         {{ item }} x{{ quantity }}
       </li>
     </ul>
@@ -17,36 +17,23 @@ const props = defineProps({
     type: Array,
     required: true
   },
-  minQuantity: {
-    type: Number,
-    required: true
-  },
   equipmentQuantities: {
-    type: Object,
-    default: () => ({})
-  },
-  generalEquipment: {
     type: Object,
     default: () => ({})
   }
 });
 
-const equipmentList = computed(() => {
-  const list = { ...props.generalEquipment };
-  
-  // Update quantities based on equipmentQuantities
-  Object.keys(props.equipmentQuantities).forEach(item => {
-    list[item] = props.equipmentQuantities[item];
-  });
+// Compute filtered equipment quantities, excluding those with zero quantities
+const filteredEquipment = computed(() => {
+  const list = { ...props.equipmentQuantities };
 
-  // Ensure all equipment from the equipment prop is included
   props.equipment.forEach(item => {
     if (list[item] === undefined) {
-      list[item] = props.minQuantity;
+      list[item] = 0;
     }
   });
 
-  // Filter out items with a quantity of 0
+  // Only include items with quantities greater than zero
   return Object.fromEntries(
     Object.entries(list).filter(([_, quantity]) => quantity > 0)
   );

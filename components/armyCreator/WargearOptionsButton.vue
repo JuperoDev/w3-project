@@ -27,17 +27,17 @@
                 </li>
               </ul>
             </div>
-            <div class="my-4">
+            <div v-if="defaultWargear.length" class="my-4">
               <h3>Default Equipment</h3>
               <ul>
-                <li v-for="item in defaultEquipment" :key="item" class="flex items-center justify-between">
+                <li v-for="item in defaultWargear" :key="item" class="flex items-center justify-between">
                   <span>{{ item }}</span>
                   <div>
-                    <v-btn icon small @click="decreaseDefaultQuantity(item)" :disabled="defaultEquipmentQuantities[item] <= 0">
+                    <v-btn icon small @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
                       <v-icon small>mdi-minus</v-icon>
                     </v-btn>
-                    <span>{{ defaultEquipmentQuantities[item] }}</span>
-                    <v-btn icon small @click="increaseDefaultQuantity(item)">
+                    <span>{{ equipmentQuantities[item] || 0 }}</span>
+                    <v-btn icon small @click="increaseQuantity(item)">
                       <v-icon small>mdi-plus</v-icon>
                     </v-btn>
                   </div>
@@ -61,10 +61,8 @@ import { ref, onMounted, watch } from 'vue';
 
 const props = defineProps({
   url: { type: String, required: true },
-  defaultWargear: { type: Object, default: () => ({}) },
-  defaultEquipment: { type: Array, default: () => [] },
-  minQuantity: { type: Number, required: true },
-  armyIndex: { type: Number, required: true }
+  armyIndex: { type: Number, required: true },
+  initialWargear: { type: Object, default: () => ({}) }
 });
 
 const emit = defineEmits(['update-wargear-quantities']);
@@ -73,8 +71,8 @@ const dialog = ref(false);
 const wargearOptions = ref([]);
 const loading = ref(true);
 const error = ref(null);
-const equipmentQuantities = ref({});
-const defaultEquipmentQuantities = ref({});
+const equipmentQuantities = ref({ ...props.initialWargear });
+const defaultWargear = ref([]);
 
 const fetchWargearData = async () => {
   try {
@@ -84,7 +82,7 @@ const fetchWargearData = async () => {
     }
     const data = await response.json();
     wargearOptions.value = data.wargear || [];
-    initializeQuantities();
+    initializeQuantities(data.unitComposition);
   } catch (err) {
     error.value = `Error fetching wargear data: ${err.message}`;
   } finally {
@@ -92,8 +90,7 @@ const fetchWargearData = async () => {
   }
 };
 
-const initializeQuantities = () => {
-  equipmentQuantities.value = { ...props.defaultWargear };
+const initializeQuantities = (unitComposition) => {
   wargearOptions.value.forEach(option => {
     option.items.forEach(item => {
       if (equipmentQuantities.value[item] === undefined) {
@@ -101,9 +98,16 @@ const initializeQuantities = () => {
       }
     });
   });
-  defaultEquipmentQuantities.value = {};
-  props.defaultEquipment.forEach(item => {
-    defaultEquipmentQuantities.value[item] = props.minQuantity;
+
+  unitComposition.forEach(composition => {
+    composition.equipment.forEach(equip => {
+      if (equipmentQuantities.value[equip] === undefined) {
+        equipmentQuantities.value[equip] = composition.minQuantity;
+      }
+      if (!defaultWargear.value.includes(equip)) {
+        defaultWargear.value.push(equip);
+      }
+    });
   });
 };
 
@@ -117,19 +121,8 @@ const decreaseQuantity = (item) => {
   }
 };
 
-const increaseDefaultQuantity = (item) => {
-  defaultEquipmentQuantities.value[item] = (defaultEquipmentQuantities.value[item] || 0) + 1;
-};
-
-const decreaseDefaultQuantity = (item) => {
-  if (defaultEquipmentQuantities.value[item] > 0) {
-    defaultEquipmentQuantities.value[item] -= 1;
-  }
-};
-
 const saveWargear = () => {
-  const combinedQuantities = { ...defaultEquipmentQuantities.value, ...equipmentQuantities.value };
-  emit('update-wargear-quantities', combinedQuantities);
+  emit('update-wargear-quantities', { ...equipmentQuantities.value });
   dialog.value = false;
 };
 

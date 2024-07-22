@@ -36,10 +36,8 @@
               <template v-if="unit.hasWargear">
                 <WargearOptionsButton 
                   :url="constructUnitUrl(url, unit.unitName)" 
-                  :defaultWargear="unit.generalEquipment || {}"
-                  :defaultEquipment="unit.equipment || []"
-                  :minQuantity="unit.minQuantity"
                   :armyIndex="armyIndex"
+                  :initialWargear="unit.equipmentQuantities"
                   @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
                 />
               </template>
@@ -48,9 +46,7 @@
           <div class="mt-2 ml-4">
             <EquipmentList 
               :equipment="unit.equipment" 
-              :minQuantity="unit.minQuantity"
               :equipmentQuantities="unit.equipmentQuantities || {}"
-              :generalEquipment="unit.generalEquipment || {}"
             />
           </div>
         </li>
@@ -116,24 +112,14 @@ const addUnitToArmy = async (unit) => {
       })),
       basicPoints: selectedOption.points,
       equipment: unitData.unitComposition[0].equipment,
-      minQuantity: unitData.unitComposition[0].minQuantity,
       hasWargear: unitData.wargear && unitData.wargear.length > 0,
-      equipmentQuantities: {},
-      generalEquipment: unitData.unitComposition[0].equipment.reduce((acc, item) => {
-        acc[item] = unitData.unitComposition[0].minQuantity;
+      equipmentQuantities: unitData.unitComposition.reduce((acc, composition) => {
+        composition.equipment.forEach(equip => {
+          acc[equip] = composition.minQuantity;
+        });
         return acc;
       }, {})
     };
-
-    if (unitData.wargear) {
-      unitData.wargear.forEach(option => {
-        option.items.forEach(item => {
-          if (!unitWithId.generalEquipment[item]) {
-            unitWithId.generalEquipment[item] = 0;
-          }
-        });
-      });
-    }
 
     armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
     syncArmyWithStore();
@@ -204,8 +190,7 @@ const updateWargearQuantities = (unitId, quantities) => {
   if (unitIndex !== -1) {
     const updatedUnit = {
       ...army.value[unitIndex],
-      equipmentQuantities: quantities,
-      generalEquipment: { ...quantities }
+      equipmentQuantities: quantities
     };
     army.value[unitIndex] = updatedUnit;
     armyStore.updateBattlelineUnitInArmy(props.armyIndex, unitId, updatedUnit);

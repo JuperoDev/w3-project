@@ -16,11 +16,28 @@
                 <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
                   <span>{{ item }}</span>
                   <div>
-                    <v-btn icon small @click="decreaseQuantity(item)">
+                    <v-btn icon small @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
                       <v-icon small>mdi-minus</v-icon>
                     </v-btn>
                     <span>{{ equipmentQuantities[item] || 0 }}</span>
                     <v-btn icon small @click="increaseQuantity(item)">
+                      <v-icon small>mdi-plus</v-icon>
+                    </v-btn>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="my-4">
+              <h3>Default Equipment</h3>
+              <ul>
+                <li v-for="item in defaultEquipment" :key="item" class="flex items-center justify-between">
+                  <span>{{ item }}</span>
+                  <div>
+                    <v-btn icon small @click="decreaseDefaultQuantity(item)" :disabled="defaultEquipmentQuantities[item] <= 0">
+                      <v-icon small>mdi-minus</v-icon>
+                    </v-btn>
+                    <span>{{ defaultEquipmentQuantities[item] }}</span>
+                    <v-btn icon small @click="increaseDefaultQuantity(item)">
                       <v-icon small>mdi-plus</v-icon>
                     </v-btn>
                   </div>
@@ -42,20 +59,22 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue';
 
+const props = defineProps({
+  url: { type: String, required: true },
+  defaultWargear: { type: Object, default: () => ({}) },
+  defaultEquipment: { type: Array, default: () => [] },
+  minQuantity: { type: Number, required: true },
+  armyIndex: { type: Number, required: true }
+});
+
+const emit = defineEmits(['update-wargear-quantities']);
+
 const dialog = ref(false);
 const wargearOptions = ref([]);
 const loading = ref(true);
 const error = ref(null);
 const equipmentQuantities = ref({});
-
-const props = defineProps({
-  url: {
-    type: String,
-    required: true
-  }
-});
-
-const emit = defineEmits(['update-wargear-quantities']);
+const defaultEquipmentQuantities = ref({});
 
 const fetchWargearData = async () => {
   try {
@@ -74,12 +93,17 @@ const fetchWargearData = async () => {
 };
 
 const initializeQuantities = () => {
+  equipmentQuantities.value = { ...props.defaultWargear };
   wargearOptions.value.forEach(option => {
     option.items.forEach(item => {
-      if (!equipmentQuantities.value[item]) {
+      if (equipmentQuantities.value[item] === undefined) {
         equipmentQuantities.value[item] = 0;
       }
     });
+  });
+  defaultEquipmentQuantities.value = {};
+  props.defaultEquipment.forEach(item => {
+    defaultEquipmentQuantities.value[item] = props.minQuantity;
   });
 };
 
@@ -93,8 +117,19 @@ const decreaseQuantity = (item) => {
   }
 };
 
+const increaseDefaultQuantity = (item) => {
+  defaultEquipmentQuantities.value[item] = (defaultEquipmentQuantities.value[item] || 0) + 1;
+};
+
+const decreaseDefaultQuantity = (item) => {
+  if (defaultEquipmentQuantities.value[item] > 0) {
+    defaultEquipmentQuantities.value[item] -= 1;
+  }
+};
+
 const saveWargear = () => {
-  emit('update-wargear-quantities', equipmentQuantities.value);
+  const combinedQuantities = { ...defaultEquipmentQuantities.value, ...equipmentQuantities.value };
+  emit('update-wargear-quantities', combinedQuantities);
   dialog.value = false;
 };
 

@@ -36,6 +36,10 @@
               <template v-if="unit.hasWargear">
                 <WargearOptionsButton 
                   :url="constructUnitUrl(url, unit.unitName)" 
+                  :defaultWargear="unit.generalEquipment || {}"
+                  :defaultEquipment="unit.equipment || []"
+                  :minQuantity="unit.minQuantity"
+                  :armyIndex="armyIndex"
                   @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
                 />
               </template>
@@ -65,14 +69,8 @@ import WargearOptionsButton from './WargearOptionsButton.vue';
 import EquipmentList from './EquipmentList.vue';
 
 const props = defineProps({
-  url: {
-    type: String,
-    required: true
-  },
-  armyIndex: {
-    type: Number,
-    required: true
-  }
+  url: { type: String, required: true },
+  armyIndex: { type: Number, required: true }
 });
 
 const emit = defineEmits(['update-total-points']);
@@ -121,9 +119,22 @@ const addUnitToArmy = async (unit) => {
       minQuantity: unitData.unitComposition[0].minQuantity,
       hasWargear: unitData.wargear && unitData.wargear.length > 0,
       equipmentQuantities: {},
-      generalEquipment: unitData.equipmentQuantities || {} // Add default equipment quantities
+      generalEquipment: unitData.unitComposition[0].equipment.reduce((acc, item) => {
+        acc[item] = unitData.unitComposition[0].minQuantity;
+        return acc;
+      }, {})
     };
-    
+
+    if (unitData.wargear) {
+      unitData.wargear.forEach(option => {
+        option.items.forEach(item => {
+          if (!unitWithId.generalEquipment[item]) {
+            unitWithId.generalEquipment[item] = 0;
+          }
+        });
+      });
+    }
+
     armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
     syncArmyWithStore();
   } catch (error) {
@@ -194,9 +205,9 @@ const updateWargearQuantities = (unitId, quantities) => {
     const updatedUnit = {
       ...army.value[unitIndex],
       equipmentQuantities: quantities,
-      generalEquipment: quantities // Save quantities in generalEquipment
+      generalEquipment: { ...quantities }
     };
-    army.value[unitIndex] = updatedUnit; // Ensure the unit is updated with new quantities
+    army.value[unitIndex] = updatedUnit;
     armyStore.updateBattlelineUnitInArmy(props.armyIndex, unitId, updatedUnit);
     syncArmyWithStore();
   }

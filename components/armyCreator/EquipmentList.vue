@@ -32,33 +32,24 @@ const props = defineProps({
 });
 
 const equipmentList = computed(() => {
-  const list = {};
-  // Include all items from generalEquipment, overriding with equipmentQuantities if present
-  Object.keys(props.generalEquipment).forEach(item => {
-    list[item] = props.generalEquipment[item];
+  const list = { ...props.generalEquipment };
+  
+  // Update quantities based on equipmentQuantities
+  Object.keys(props.equipmentQuantities).forEach(item => {
+    list[item] = props.equipmentQuantities[item];
   });
 
-  // Ensure default equipment items are added with the minimum quantity
+  // Ensure all equipment from the equipment prop is included
   props.equipment.forEach(item => {
     if (list[item] === undefined) {
       list[item] = props.minQuantity;
     }
   });
 
-  // Override with specific equipment quantities
-  Object.keys(props.equipmentQuantities).forEach(item => {
-    list[item] = props.equipmentQuantities[item];
-  });
-
   // Filter out items with a quantity of 0
-  const filteredList = {};
-  Object.keys(list).forEach(item => {
-    if (list[item] > 0) {
-      filteredList[item] = list[item];
-    }
-  });
-
-  return filteredList;
+  return Object.fromEntries(
+    Object.entries(list).filter(([_, quantity]) => quantity > 0)
+  );
 });
 </script>
 

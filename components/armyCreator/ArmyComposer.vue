@@ -33,7 +33,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';

@@ -14,8 +14,8 @@
     <div v-if="army.length" class="mt-4">
       <h3 class="text-lg font-semibold">Army Characters:</h3>
       <ul>
-        <li v-for="unit in army" :key="unit.id" class="mb-4">
-          <div class="flex items-center">
+        <li v-for="unit in army" :key="unit.id" class="flex flex-col mb-4">
+          <div>
             <span>
               {{ unit.unitName }} 
               ({{ unitPoints(unit) }} points)
@@ -23,21 +23,30 @@
                 - {{ getCompositionString(unit.composition) }}
               </span>
             </span>
-            <div class="flex ml-auto">
-              <v-btn icon small @click="removeUnitFromArmy(unit.id)">
-                <v-icon small>mdi-delete</v-icon>
-              </v-btn>
-              <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
-              <template v-if="unit.hasWargear">
-                <WargearOptionsButton 
-                  :url="constructUnitUrl(url, unit.unitName)" 
-                  :armyIndex="armyIndex"
-                  :initialWargear="unit.equipmentQuantities"
-                  :unitName="unit.unitName"
-                  @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
-                />
-              </template>
-            </div>
+          </div>
+          <div class="flex items-center mt-2 space-x-2">
+            <span 
+              class="text-sm text-blue-500 cursor-pointer hover:underline" 
+              @click="removeUnitFromArmy(unit.id)"
+            >
+              Delete
+            </span>
+            <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
+            <!-- <UnitOptionsDialog 
+              :unitName="unit.unitName"
+              :url="constructUnitUrl(url, unit.unitName)"
+              :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
+              @update-unit-option="updateUnitOption(unit.id, $event)"
+            /> -->
+            <template v-if="unit.hasWargear">
+              <WargearOptionsButton 
+                :url="constructUnitUrl(url, unit.unitName)" 
+                :armyIndex="armyIndex"
+                :initialWargear="unit.equipmentQuantities"
+                :unitName="unit.unitName"
+                @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
+              />
+            </template>
           </div>
           <template v-if="!unit.isEpicHero">
             <Enhancements 

@@ -1,8 +1,11 @@
 <template>
+  <span 
+    class="text-sm text-blue-500 cursor-pointer hover:underline" 
+    @click="dialog = true"
+  >
+    Options
+  </span>
   <v-dialog v-model="dialog" max-width="500px">
-    <template v-slot:activator="{ props }">
-      <v-btn small v-bind="props">Unit Options</v-btn>
-    </template>
     <v-card>
       <v-card-title>Unit Options for {{ unitName }}</v-card-title>
       <v-card-text>
@@ -23,6 +26,7 @@
     </v-card>
   </v-dialog>
 </template>
+
 
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue';

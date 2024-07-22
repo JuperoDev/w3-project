@@ -1,8 +1,11 @@
 <template>
   <div>
-    <v-btn icon small @click="dialog = true">
-      <v-icon small>mdi-cog</v-icon>
-    </v-btn>
+    <span 
+      class="text-sm text-blue-500 cursor-pointer hover:underline" 
+      @click="dialog = true"
+    >
+      Wargear
+    </span>
     <v-dialog v-model="dialog" max-width="500px">
       <v-card>
         <v-card-title class="headline">Wargear Options</v-card-title>
@@ -10,42 +13,44 @@
           <div v-if="error" class="error">{{ error }}</div>
           <div v-if="loading">Loading...</div>
           <div v-else>
-            <div v-for="(wargearGroup, index) in groupedWargear" :key="index" class="my-2">
-              <h3>{{ wargearGroup.miniature }}</h3>
-              <div v-for="wargear in wargearGroup.items" :key="wargear.description" class="my-2">
-                <p><strong>{{ wargear.description }}</strong></p>
-                <ul>
-                  <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
-                    <span>{{ item }}</span>
-                    <div>
-                      <v-btn icon small @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
-                        <v-icon small>mdi-minus</v-icon>
-                      </v-btn>
-                      <span>{{ equipmentQuantities[item] || 0 }}</span>
-                      <v-btn icon small @click="increaseQuantity(item)">
-                        <v-icon small>mdi-plus</v-icon>
-                      </v-btn>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
             <div v-if="defaultWargear.length" class="my-4">
               <h3>Default Equipment</h3>
               <ul>
                 <li v-for="item in defaultWargear" :key="item" class="flex items-center justify-between">
                   <span>{{ item }}</span>
                   <div>
-                    <v-btn icon small @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
-                      <v-icon small>mdi-minus</v-icon>
+                    <v-btn icon small class="small-btn" @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
+                      <v-icon class="small-icon">mdi-minus</v-icon>
                     </v-btn>
                     <span>{{ equipmentQuantities[item] || 0 }}</span>
-                    <v-btn icon small @click="increaseQuantity(item)">
-                      <v-icon small>mdi-plus</v-icon>
+                    <v-btn icon small class="small-btn" @click="increaseQuantity(item)">
+                      <v-icon class="small-icon">mdi-plus</v-icon>
                     </v-btn>
                   </div>
                 </li>
               </ul>
+            </div>
+            <div class="wargear-options">
+              <div v-for="(wargearGroup, index) in groupedWargear" :key="index" class="wargear-group">
+                <h3>{{ wargearGroup.miniature }}</h3>
+                <div v-for="wargear in wargearGroup.items" :key="wargear.description" class="my-2">
+                  <p><strong>{{ wargear.description }}</strong></p>
+                  <ul>
+                    <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
+                      <span>{{ item }}</span>
+                      <div>
+                        <v-btn icon small class="small-btn" @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
+                          <v-icon class="small-icon">mdi-minus</v-icon>
+                        </v-btn>
+                        <span>{{ equipmentQuantities[item] || 0 }}</span>
+                        <v-btn icon small class="small-btn" @click="increaseQuantity(item)">
+                          <v-icon class="small-icon">mdi-plus</v-icon>
+                        </v-btn>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </v-card-text>
@@ -151,5 +156,26 @@ watch(() => props.url, fetchWargearData);
 }
 .error {
   color: red;
+}
+.small-btn {
+  padding: 2px !important;
+  min-width: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+.small-icon {
+  font-size: 16px !important;
+}
+.wargear-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.wargear-group {
+  flex: 1 1 calc(50% - 1rem);
+  box-sizing: border-box;
 }
 </style>

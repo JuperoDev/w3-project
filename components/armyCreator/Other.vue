@@ -34,12 +34,22 @@
                 @update-unit-option="updateUnitOption(unit.id, $event)"
               />
               <template v-if="unit.hasWargear">
-                <WargearOptionsButton :url="constructUnitUrl(url, unit.unitName)" />
+                <WargearOptionsButton 
+                  :url="constructUnitUrl(url, unit.unitName)" 
+                  :armyIndex="armyIndex"
+                  :initialWargear="unit.equipmentQuantities"
+                  :unitName="unit.unitName"
+                  @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
+                />
               </template>
             </div>
           </div>
           <div class="mt-2 ml-4">
-            <EquipmentList :equipment="unit.equipment" :minQuantity="unit.minQuantity" />
+            <EquipmentList 
+              :equipment="unit.equipment" 
+              :equipmentQuantities="unit.equipmentQuantities || {}"
+              :unitName="unit.unitName"
+            />
           </div>
         </li>
       </ul>
@@ -57,14 +67,8 @@ import WargearOptionsButton from './WargearOptionsButton.vue';
 import EquipmentList from './EquipmentList.vue';
 
 const props = defineProps({
-  url: {
-    type: String,
-    required: true
-  },
-  armyIndex: {
-    type: Number,
-    required: true
-  }
+  url: { type: String, required: true },
+  armyIndex: { type: Number, required: true }
 });
 
 const emit = defineEmits(['update-total-points']);
@@ -111,9 +115,15 @@ const addUnitToArmy = async (unit) => {
       basicPoints: selectedOption.points,
       equipment: unitData.unitComposition[0].equipment,
       minQuantity: unitData.unitComposition[0].minQuantity,
-      hasWargear: unitData.wargear && unitData.wargear.length > 0
+      hasWargear: unitData.wargear && unitData.wargear.length > 0,
+      equipmentQuantities: unitData.unitComposition.reduce((acc, composition) => {
+        composition.equipment.forEach(equip => {
+          acc[equip] = composition.minQuantity;
+        });
+        return acc;
+      }, {})
     };
-    
+
     armyStore.addOtherUnitToArmy(props.armyIndex, unitWithId);
     syncArmyWithStore();
   } catch (error) {
@@ -176,6 +186,19 @@ const checkWargearOptionsForUnits = async () => {
 const getCompositionString = (composition) => {
   if (!composition) return '';
   return composition.map(unit => `${unit.quantity} ${unit.unitType}`).join(', ');
+};
+
+const updateWargearQuantities = (unitId, quantities) => {
+  const unitIndex = army.value.findIndex(unit => unit.id === unitId);
+  if (unitIndex !== -1) {
+    const updatedUnit = {
+      ...army.value[unitIndex],
+      equipmentQuantities: quantities
+    };
+    army.value[unitIndex] = updatedUnit;
+    armyStore.updateOtherUnitInArmy(props.armyIndex, unitId, updatedUnit);
+    syncArmyWithStore();
+  }
 };
 
 onMounted(() => {

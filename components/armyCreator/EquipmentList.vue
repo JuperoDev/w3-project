@@ -1,11 +1,14 @@
 <template>
   <div>
     <h4 class="text-md font-semibold">Equipment:</h4>
-    <ul>
-      <li v-for="(quantity, item) in filteredEquipment" :key="item" class="ml-2">
-        {{ item }} x{{ quantity }}
-      </li>
-    </ul>
+    <div v-for="(items, miniature) in groupedEquipment" :key="miniature">
+      <h5>{{ miniature }}</h5>
+      <ul>
+        <li v-for="(quantity, item) in items" :key="item" class="ml-2">
+          {{ item }} x{{ quantity }}
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -20,12 +23,19 @@ const props = defineProps({
   equipmentQuantities: {
     type: Object,
     default: () => ({})
+  },
+  unitName: {
+    type: String,
+    required: true
   }
 });
 
-// Compute filtered equipment quantities, excluding those with zero quantities
-const filteredEquipment = computed(() => {
+// Compute grouped equipment quantities, excluding those with zero quantities
+const groupedEquipment = computed(() => {
   const list = { ...props.equipmentQuantities };
+  const grouped = {
+    [props.unitName]: {}
+  };
 
   props.equipment.forEach(item => {
     if (list[item] === undefined) {
@@ -33,10 +43,16 @@ const filteredEquipment = computed(() => {
     }
   });
 
-  // Only include items with quantities greater than zero
-  return Object.fromEntries(
-    Object.entries(list).filter(([_, quantity]) => quantity > 0)
-  );
+  Object.entries(list).forEach(([item, quantity]) => {
+    if (quantity > 0) {
+      if (!grouped[props.unitName]) {
+        grouped[props.unitName] = {};
+      }
+      grouped[props.unitName][item] = quantity;
+    }
+  });
+
+  return grouped;
 });
 </script>
 

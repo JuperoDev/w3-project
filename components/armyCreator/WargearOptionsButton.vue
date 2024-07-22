@@ -10,22 +10,25 @@
           <div v-if="error" class="error">{{ error }}</div>
           <div v-if="loading">Loading...</div>
           <div v-else>
-            <div v-for="wargear in wargearOptions" :key="wargear.description" class="my-2">
-              <p><strong>{{ wargear.description }}</strong></p>
-              <ul>
-                <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
-                  <span>{{ item }}</span>
-                  <div>
-                    <v-btn icon small @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
-                      <v-icon small>mdi-minus</v-icon>
-                    </v-btn>
-                    <span>{{ equipmentQuantities[item] || 0 }}</span>
-                    <v-btn icon small @click="increaseQuantity(item)">
-                      <v-icon small>mdi-plus</v-icon>
-                    </v-btn>
-                  </div>
-                </li>
-              </ul>
+            <div v-for="(wargearGroup, index) in groupedWargear" :key="index" class="my-2">
+              <h3>{{ wargearGroup.miniature }}</h3>
+              <div v-for="wargear in wargearGroup.items" :key="wargear.description" class="my-2">
+                <p><strong>{{ wargear.description }}</strong></p>
+                <ul>
+                  <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
+                    <span>{{ item }}</span>
+                    <div>
+                      <v-btn icon small @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
+                        <v-icon small>mdi-minus</v-icon>
+                      </v-btn>
+                      <span>{{ equipmentQuantities[item] || 0 }}</span>
+                      <v-btn icon small @click="increaseQuantity(item)">
+                        <v-icon small>mdi-plus</v-icon>
+                      </v-btn>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div v-if="defaultWargear.length" class="my-4">
               <h3>Default Equipment</h3>
@@ -73,6 +76,7 @@ const loading = ref(true);
 const error = ref(null);
 const equipmentQuantities = ref({ ...props.initialWargear });
 const defaultWargear = ref([]);
+const groupedWargear = ref([]);
 
 const fetchWargearData = async () => {
   try {
@@ -91,13 +95,22 @@ const fetchWargearData = async () => {
 };
 
 const initializeQuantities = (unitComposition) => {
+  const grouped = {};
+
   wargearOptions.value.forEach(option => {
     option.items.forEach(item => {
       if (equipmentQuantities.value[item] === undefined) {
         equipmentQuantities.value[item] = 0;
       }
     });
+
+    if (!grouped[option.miniature]) {
+      grouped[option.miniature] = { miniature: option.miniature, items: [] };
+    }
+    grouped[option.miniature].items.push(option);
   });
+
+  groupedWargear.value = Object.values(grouped);
 
   unitComposition.forEach(composition => {
     composition.equipment.forEach(equip => {

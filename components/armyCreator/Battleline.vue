@@ -38,6 +38,7 @@
                   :url="constructUnitUrl(url, unit.unitName)" 
                   :armyIndex="armyIndex"
                   :initialWargear="unit.equipmentQuantities"
+                  :unitName="unit.unitName"
                   @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
                 />
               </template>
@@ -47,6 +48,7 @@
             <EquipmentList 
               :equipment="unit.equipment" 
               :equipmentQuantities="unit.equipmentQuantities || {}"
+              :unitName="unit.unitName"
             />
           </div>
         </li>

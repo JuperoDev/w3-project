@@ -19,14 +19,14 @@
                 <div v-if="wargearGroup.defaultWargear.length" class="my-2">
                   <h4> <strong>Default Equipment</strong></h4>
                   <ul>
-                    <li v-for="item in wargearGroup.defaultWargear" :key="item" class="flex items-center justify-between">
+                    <li v-for="item in wargearGroup.defaultWargear" :key="getUniqueKey(wargearGroup.miniature, item)" class="flex items-center justify-between">
                       <span><small>{{ item }}</small></span>
                       <div>
-                        <v-btn icon small class="small-btn" @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
+                        <v-btn icon small class="small-btn" @click="decreaseQuantity(wargearGroup.miniature, item)" :disabled="getQuantity(wargearGroup.miniature, item) <= 0">
                           <v-icon class="small-icon">mdi-minus</v-icon>
                         </v-btn>
-                        <span>{{ equipmentQuantities[item] || 0 }}</span>
-                        <v-btn icon small class="small-btn" @click="increaseQuantity(item)">
+                        <span>{{ getQuantity(wargearGroup.miniature, item) || 0 }}</span>
+                        <v-btn icon small class="small-btn" @click="increaseQuantity(wargearGroup.miniature, item)">
                           <v-icon class="small-icon">mdi-plus</v-icon>
                         </v-btn>
                       </div>
@@ -36,14 +36,14 @@
                 <div v-for="wargear in wargearGroup.items" :key="wargear.description" class="my-2">
                   <h4><strong>{{ wargear.description }}</strong></h4>
                   <ul>
-                    <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
+                    <li v-for="item in wargear.items" :key="getUniqueKey(wargearGroup.miniature, item)" class="flex items-center justify-between">
                       <span><small>{{ item }}</small></span>
                       <div>
-                        <v-btn icon small class="small-btn" @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
+                        <v-btn icon small class="small-btn" @click="decreaseQuantity(wargearGroup.miniature, item)" :disabled="getQuantity(wargearGroup.miniature, item) <= 0">
                           <v-icon class="small-icon">mdi-minus</v-icon>
                         </v-btn>
-                        <span>{{ equipmentQuantities[item] || 0 }}</span>
-                        <v-btn icon small class="small-btn" @click="increaseQuantity(item)">
+                        <span>{{ getQuantity(wargearGroup.miniature, item) || 0 }}</span>
+                        <v-btn icon small class="small-btn" @click="increaseQuantity(wargearGroup.miniature, item)">
                           <v-icon class="small-icon">mdi-plus</v-icon>
                         </v-btn>
                       </div>
@@ -79,7 +79,7 @@ const dialog = ref(false);
 const wargearOptions = ref([]);
 const loading = ref(true);
 const error = ref(null);
-const equipmentQuantities = ref({ ...props.initialWargear });
+const equipmentQuantities = ref({});
 const groupedWargear = ref([]);
 
 const fetchWargearData = async () => {
@@ -106,8 +106,9 @@ const initializeQuantities = (unitComposition) => {
       grouped[composition.unitType] = { miniature: composition.unitType, items: [], defaultWargear: [] };
     }
     composition.equipment.forEach(equip => {
-      if (equipmentQuantities.value[equip] === undefined) {
-        equipmentQuantities.value[equip] = composition.minQuantity;
+      const key = `${composition.unitType}_${equip}`;
+      if (equipmentQuantities.value[key] === undefined) {
+        equipmentQuantities.value[key] = composition.minQuantity;
       }
       if (!grouped[composition.unitType].defaultWargear.includes(equip)) {
         grouped[composition.unitType].defaultWargear.push(equip);
@@ -125,13 +126,19 @@ const initializeQuantities = (unitComposition) => {
   groupedWargear.value = Object.values(grouped);
 };
 
-const increaseQuantity = (item) => {
-  equipmentQuantities.value[item] = (equipmentQuantities.value[item] || 0) + 1;
+const getUniqueKey = (miniature, item) => `${miniature}_${item}`;
+
+const getQuantity = (miniature, item) => equipmentQuantities.value[getUniqueKey(miniature, item)];
+
+const increaseQuantity = (miniature, item) => {
+  const key = getUniqueKey(miniature, item);
+  equipmentQuantities.value[key] = (equipmentQuantities.value[key] || 0) + 1;
 };
 
-const decreaseQuantity = (item) => {
-  if (equipmentQuantities.value[item] > 0) {
-    equipmentQuantities.value[item] -= 1;
+const decreaseQuantity = (miniature, item) => {
+  const key = getUniqueKey(miniature, item);
+  if (equipmentQuantities.value[key] > 0) {
+    equipmentQuantities.value[key] -= 1;
   }
 };
 

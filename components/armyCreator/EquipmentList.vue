@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h4 class="text-md font-semibold">Equipment:</h4>
-    <div v-for="(items, miniature) in groupedEquipment" :key="miniature">
-      <h5>{{ miniature }}</h5>
+    <!-- <h4 class="text-md font-semibold">Equipment:</h4> -->
+    <div v-for="(items, unitType) in groupedEquipment" :key="unitType">
+      <h5>{{ unitType }}</h5>
       <ul>
         <li v-for="(quantity, item) in items" :key="item" class="ml-2">
           {{ item }} x{{ quantity }}
@@ -24,8 +24,8 @@ const props = defineProps({
     type: Object,
     default: () => ({})
   },
-  unitName: {
-    type: String,
+  unitTypes: {
+    type: Array,
     required: true
   }
 });
@@ -33,9 +33,11 @@ const props = defineProps({
 // Compute grouped equipment quantities, excluding those with zero quantities
 const groupedEquipment = computed(() => {
   const list = { ...props.equipmentQuantities };
-  const grouped = {
-    [props.unitName]: {}
-  };
+  const grouped = {};
+
+  props.unitTypes.forEach(unitType => {
+    grouped[unitType] = {};
+  });
 
   props.equipment.forEach(item => {
     if (list[item] === undefined) {
@@ -45,10 +47,11 @@ const groupedEquipment = computed(() => {
 
   Object.entries(list).forEach(([item, quantity]) => {
     if (quantity > 0) {
-      if (!grouped[props.unitName]) {
-        grouped[props.unitName] = {};
+      const [unitType, equipment] = item.split('_');
+      if (!grouped[unitType]) {
+        grouped[unitType] = {};
       }
-      grouped[props.unitName][item] = quantity;
+      grouped[unitType][equipment] = quantity;
     }
   });
 

@@ -37,21 +37,19 @@
               :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
               @update-unit-option="updateUnitOption(unit.id, $event)"
             />
-           
-              <WargearOptionsButton 
-                :url="constructUnitUrl(url, unit.unitName)" 
-                :armyIndex="armyIndex"
-                :initialWargear="unit.equipmentQuantities"
-                :unitName="unit.unitName"
-                @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
-              />
-          
+            <WargearOptionsButton 
+              :url="constructUnitUrl(url, unit.unitName)" 
+              :armyIndex="armyIndex"
+              :initialWargear="unit.equipmentQuantities"
+              :unitName="unit.unitName"
+              @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
+            />
           </div>
           <div class="mt-2 ml-4">
             <EquipmentList 
               :equipment="unit.equipment" 
               :equipmentQuantities="unit.equipmentQuantities || {}"
-              :unitName="unit.unitName"
+              :unitTypes="unit.unitTypes"
             />
           </div>
         </li>
@@ -59,8 +57,6 @@
     </div>
   </div>
 </template>
-
-
 
 <script setup>
 import { ref, onMounted, watch, computed } from 'vue';
@@ -117,12 +113,13 @@ const addUnitToArmy = async (unit) => {
         unitType: unitData.unitComposition[index].unitType,
         quantity: count
       })),
+      unitTypes: unitData.unitComposition.map(comp => comp.unitType),
       basicPoints: selectedOption.points,
-      equipment: unitData.unitComposition[0].equipment,
+      equipment: unitData.unitComposition.flatMap(comp => comp.equipment),
       hasWargear: unitData.wargear && unitData.wargear.length > 0,
       equipmentQuantities: unitData.unitComposition.reduce((acc, composition) => {
         composition.equipment.forEach(equip => {
-          acc[equip] = composition.minQuantity;
+          acc[`${composition.unitType}_${equip}`] = composition.minQuantity;
         });
         return acc;
       }, {})

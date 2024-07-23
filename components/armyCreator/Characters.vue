@@ -32,21 +32,13 @@
               Delete
             </span>
             <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
-            <!-- <UnitOptionsDialog 
+            <WargearOptionsButton 
+              :url="constructUnitUrl(url, unit.unitName)" 
+              :armyIndex="armyIndex"
+              :initialWargear="unit.equipmentQuantities"
               :unitName="unit.unitName"
-              :url="constructUnitUrl(url, unit.unitName)"
-              :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
-              @update-unit-option="updateUnitOption(unit.id, $event)"
-            /> -->
-            
-              <WargearOptionsButton 
-                :url="constructUnitUrl(url, unit.unitName)" 
-                :armyIndex="armyIndex"
-                :initialWargear="unit.equipmentQuantities"
-                :unitName="unit.unitName"
-                @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
-              />
-           
+              @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
+            />
           </div>
           <template v-if="!unit.isEpicHero">
             <Enhancements 
@@ -64,6 +56,7 @@
               :equipment="unit.equipment" 
               :equipmentQuantities="unit.equipmentQuantities || {}"
               :unitName="unit.unitName"
+              :unitTypes="unit.unitTypes"
             />
           </div>
         </li>
@@ -77,7 +70,6 @@ import { ref, onMounted, watch, computed } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 import UnitDialog from './UnitDialog.vue';
 import UnitInfoDialog from './UnitInfoDialog.vue';
-import UnitOptionsDialog from './UnitOptionsDialog.vue';
 import Enhancements from './Enhancements.vue';
 import EquipmentList from './EquipmentList.vue';
 import WargearOptionsButton from './WargearOptionsButton.vue';
@@ -158,10 +150,11 @@ const addUnitToArmy = async (unit) => {
       hasWargear: unitData.wargear && unitData.wargear.length > 0,
       equipmentQuantities: unitData.unitComposition.reduce((acc, composition) => {
         composition.equipment.forEach(equip => {
-          acc[equip] = composition.minQuantity;
+          acc[`${composition.unitType}_${equip}`] = composition.minQuantity;
         });
         return acc;
-      }, {})
+      }, {}),
+      unitTypes: unitData.unitComposition.map(comp => comp.unitType)
     };
 
     armyStore.addCharacterUnitToArmy(props.armyIndex, unitWithId);

@@ -37,21 +37,20 @@
               :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
               @update-unit-option="updateUnitOption(unit.id, $event)"
             />
-            
-              <WargearOptionsButton 
-                :url="constructUnitUrl(url, unit.unitName)" 
-                :armyIndex="armyIndex"
-                :initialWargear="unit.equipmentQuantities"
-                :unitName="unit.unitName"
-                @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
-              />
-           
+            <WargearOptionsButton 
+              :url="constructUnitUrl(url, unit.unitName)" 
+              :armyIndex="armyIndex"
+              :initialWargear="unit.equipmentQuantities"
+              :unitName="unit.unitName"
+              @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
+            />
           </div>
           <div class="mt-2 ml-4">
             <EquipmentList 
               :equipment="unit.equipment" 
               :equipmentQuantities="unit.equipmentQuantities || {}"
               :unitName="unit.unitName"
+              :unitTypes="unit.unitTypes"
             />
           </div>
         </li>
@@ -121,10 +120,11 @@ const addUnitToArmy = async (unit) => {
       hasWargear: unitData.wargear && unitData.wargear.length > 0,
       equipmentQuantities: unitData.unitComposition.reduce((acc, composition) => {
         composition.equipment.forEach(equip => {
-          acc[equip] = composition.minQuantity;
+          acc[`${composition.unitType}_${equip}`] = composition.minQuantity;
         });
         return acc;
-      }, {})
+      }, {}),
+      unitTypes: unitData.unitComposition.map(comp => comp.unitType)
     };
 
     armyStore.addOtherUnitToArmy(props.armyIndex, unitWithId);

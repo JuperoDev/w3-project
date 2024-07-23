@@ -102,31 +102,33 @@ const initializeQuantities = (unitComposition) => {
   const grouped = {};
 
   unitComposition.forEach(composition => {
-    if (!grouped[composition.unitType]) {
-      grouped[composition.unitType] = { miniature: composition.unitType, items: [], defaultWargear: [] };
+    const unitTypeKey = composition.unitType.toLowerCase();
+    if (!grouped[unitTypeKey]) {
+      grouped[unitTypeKey] = { miniature: composition.unitType, items: [], defaultWargear: [] };
     }
     composition.equipment.forEach(equip => {
-      const key = `${composition.unitType}_${equip}`;
+      const key = `${unitTypeKey}_${equip}`;
       if (equipmentQuantities.value[key] === undefined) {
         equipmentQuantities.value[key] = composition.minQuantity;
       }
-      if (!grouped[composition.unitType].defaultWargear.includes(equip)) {
-        grouped[composition.unitType].defaultWargear.push(equip);
+      if (!grouped[unitTypeKey].defaultWargear.includes(equip)) {
+        grouped[unitTypeKey].defaultWargear.push(equip);
       }
     });
   });
 
   wargearOptions.value.forEach(option => {
-    if (!grouped[option.miniature]) {
-      grouped[option.miniature] = { miniature: option.miniature, items: [], defaultWargear: [] };
+    const miniatureKey = option.miniature.toLowerCase();
+    if (!grouped[miniatureKey]) {
+      grouped[miniatureKey] = { miniature: option.miniature, items: [], defaultWargear: [] };
     }
-    grouped[option.miniature].items.push(option);
+    grouped[miniatureKey].items.push(option);
   });
 
   groupedWargear.value = Object.values(grouped);
 };
 
-const getUniqueKey = (miniature, item) => `${miniature}_${item}`;
+const getUniqueKey = (miniature, item) => `${miniature.toLowerCase()}_${item}`;
 
 const getQuantity = (miniature, item) => equipmentQuantities.value[getUniqueKey(miniature, item)];
 

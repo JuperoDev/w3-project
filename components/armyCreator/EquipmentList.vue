@@ -32,16 +32,21 @@ const props = defineProps({
 
 // Compute grouped equipment quantities, excluding those with zero quantities
 const groupedEquipment = computed(() => {
-  const list = { ...props.equipmentQuantities };
+  const list = {};
+  Object.entries(props.equipmentQuantities).forEach(([key, value]) => {
+    list[key.toLowerCase()] = value;
+  });
+
   const grouped = {};
 
   props.unitTypes.forEach(unitType => {
-    grouped[unitType] = {};
+    grouped[unitType.toLowerCase()] = {};
   });
 
   props.equipment.forEach(item => {
-    if (list[item] === undefined) {
-      list[item] = 0;
+    const lowerItem = item.toLowerCase();
+    if (list[lowerItem] === undefined) {
+      list[lowerItem] = 0;
     }
   });
 

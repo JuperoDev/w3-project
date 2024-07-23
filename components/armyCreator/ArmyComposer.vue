@@ -7,7 +7,7 @@
         <p><strong>Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>
         <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-        <p><strong>URL:</strong> {{ sanitizedUrl }}</p>
+        <!-- <p><strong>URL:</strong> {{ sanitizedUrl }}</p> -->
         <p><strong>Total Points:</strong> {{ totalPoints }}</p>
       </div>
       <ArmyExporter :armyIndex="armyIndex" :totalPoints="totalPoints" />

@@ -1,3 +1,4 @@
+<!-- army exporter  -->
 <template>
   <div>
     <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600" min-width="380px">

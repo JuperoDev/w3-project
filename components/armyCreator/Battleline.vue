@@ -1,3 +1,4 @@
+<!-- battle line  -->
 <template>
   <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
     <div class="flex justify-between items-center">

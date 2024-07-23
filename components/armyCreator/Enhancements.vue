@@ -1,23 +1,20 @@
 <template>
   <div>
-    <!-- <v-btn @click="openDialog">Enhancements</v-btn> -->
-
     <span 
-      class="text-sm text-blue-500 cursor-pointer hover:underline" 
-      @click="dialog = true"
-    >
-      Enhancements
-    </span>
-
-
+    class="text-sm text-blue-500 cursor-pointer hover:underline" 
+    @click="openDialog"
+  >
+    Enhancements
+  </span>
+    <!-- <v-btn @click="openDialog">Enhancements</v-btn> -->
     <v-dialog v-model="dialog" max-width="600px">
       <v-card>
         <v-card-title>
           Enhancements
         </v-card-title>
         <v-card-text>
-          <p>Here you can add enhancement options for the character.</p>
-          <p>Generated Route: {{ enhancementUrl }}</p> <!-- Display the generated route -->
+         
+        <!--  <p>Generated Route: {{ enhancementUrl }}</p>  Display the generated route -->
           <v-radio-group v-model="selectedEnhancement">
             <v-radio
               v-for="(enhancement, index) in enhancements"

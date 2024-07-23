@@ -42,11 +42,13 @@
         ]
     },
     "wargear": [
-        {
-            "description": "1 Daemonette that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."
+        { "miniature": "Daemonette",
+            "description": "1 Daemonette that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+            "items": ["instrument of Chaos"]
         },
-        {
-            "description": "1 Daemonette that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."
+        { "miniature": "Daemonette",
+            "description": "1 Daemonette that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon.",
+            "items": ["daemonic icon"]
         }
     ],
     "additionalParameter": {},
@@ -60,7 +62,7 @@
             ]
         },
         {
-            "unitType": "Daemonettes",
+            "unitType": "Daemonette",
             "minQuantity": 9,
             "maxQuantity": 9,
             "equipment": [

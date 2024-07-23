@@ -1,6 +1,15 @@
 <template>
   <div>
-    <v-btn @click="openDialog">Enhancements</v-btn>
+    <!-- <v-btn @click="openDialog">Enhancements</v-btn> -->
+
+    <span 
+      class="text-sm text-blue-500 cursor-pointer hover:underline" 
+      @click="dialog = true"
+    >
+      Enhancements
+    </span>
+
+
     <v-dialog v-model="dialog" max-width="600px">
       <v-card>
         <v-card-title>

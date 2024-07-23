@@ -3,14 +3,14 @@
     <div class="header flex justify-between items-center mb-4">
       <div>
         <p><strong>Name:</strong> {{ name }}</p>
-        <p><strong>Faction:</strong> {{ selectedFaction }}</p>
+        <!-- <p><strong>Faction:</strong> {{ selectedFaction }}</p> -->
         <p><strong>Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>
         <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
         <p><strong>URL:</strong> {{ url }}</p>
         <p><strong>Total Points:</strong> {{ totalPoints }}</p>
       </div>
-      <ArmyExporter :armyIndex="armyIndex" />
+      <ArmyExporter :armyIndex="armyIndex" :totalPoints="totalPoints" />
     </div>
 
     <Characters 
@@ -36,6 +36,7 @@
     />
   </div>
 </template>
+
 
 <script setup>
 import { ref, computed } from 'vue';
@@ -95,6 +96,13 @@ const updateOtherPoints = (points) => {
   otherPoints.value = points;
 };
 </script>
+
+<style scoped>
+.header {
+  margin-bottom: 1rem;
+}
+</style>
+
 
 <style scoped>
 .header {

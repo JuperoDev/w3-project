@@ -37,7 +37,7 @@
               :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
               @update-unit-option="updateUnitOption(unit.id, $event)"
             />
-            <template v-if="unit.hasWargear">
+            
               <WargearOptionsButton 
                 :url="constructUnitUrl(url, unit.unitName)" 
                 :armyIndex="armyIndex"
@@ -45,7 +45,7 @@
                 :unitName="unit.unitName"
                 @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
               />
-            </template>
+           
           </div>
           <div class="mt-2 ml-4">
             <EquipmentList 

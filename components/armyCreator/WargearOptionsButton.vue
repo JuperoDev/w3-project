@@ -6,38 +6,38 @@
     >
       Wargear
     </span>
-    <v-dialog v-model="dialog" max-width="500px">
+    <v-dialog v-model="dialog" max-width="800px" min-width="350px">
       <v-card>
         <v-card-title class="headline">Wargear Options</v-card-title>
         <v-card-text>
           <div v-if="error" class="error">{{ error }}</div>
           <div v-if="loading">Loading...</div>
           <div v-else>
-            <div v-if="defaultWargear.length" class="my-4">
-              <h3>Default Equipment</h3>
-              <ul>
-                <li v-for="item in defaultWargear" :key="item" class="flex items-center justify-between">
-                  <span>{{ item }}</span>
-                  <div>
-                    <v-btn icon small class="small-btn" @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
-                      <v-icon class="small-icon">mdi-minus</v-icon>
-                    </v-btn>
-                    <span>{{ equipmentQuantities[item] || 0 }}</span>
-                    <v-btn icon small class="small-btn" @click="increaseQuantity(item)">
-                      <v-icon class="small-icon">mdi-plus</v-icon>
-                    </v-btn>
-                  </div>
-                </li>
-              </ul>
-            </div>
             <div class="wargear-options">
               <div v-for="(wargearGroup, index) in groupedWargear" :key="index" class="wargear-group">
                 <h3>{{ wargearGroup.miniature }}</h3>
+                <div v-if="wargearGroup.defaultWargear.length" class="my-2">
+                  <h4> <strong>Default Equipment</strong></h4>
+                  <ul>
+                    <li v-for="item in wargearGroup.defaultWargear" :key="item" class="flex items-center justify-between">
+                      <span><small>{{ item }}</small></span>
+                      <div>
+                        <v-btn icon small class="small-btn" @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
+                          <v-icon class="small-icon">mdi-minus</v-icon>
+                        </v-btn>
+                        <span>{{ equipmentQuantities[item] || 0 }}</span>
+                        <v-btn icon small class="small-btn" @click="increaseQuantity(item)">
+                          <v-icon class="small-icon">mdi-plus</v-icon>
+                        </v-btn>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
                 <div v-for="wargear in wargearGroup.items" :key="wargear.description" class="my-2">
-                  <p><strong>{{ wargear.description }}</strong></p>
+                  <h4><strong>{{ wargear.description }}</strong></h4>
                   <ul>
                     <li v-for="item in wargear.items" :key="item" class="flex items-center justify-between">
-                      <span>{{ item }}</span>
+                      <span><small>{{ item }}</small></span>
                       <div>
                         <v-btn icon small class="small-btn" @click="decreaseQuantity(item)" :disabled="equipmentQuantities[item] <= 0">
                           <v-icon class="small-icon">mdi-minus</v-icon>
@@ -80,7 +80,6 @@ const wargearOptions = ref([]);
 const loading = ref(true);
 const error = ref(null);
 const equipmentQuantities = ref({ ...props.initialWargear });
-const defaultWargear = ref([]);
 const groupedWargear = ref([]);
 
 const fetchWargearData = async () => {
@@ -102,31 +101,28 @@ const fetchWargearData = async () => {
 const initializeQuantities = (unitComposition) => {
   const grouped = {};
 
-  wargearOptions.value.forEach(option => {
-    option.items.forEach(item => {
-      if (equipmentQuantities.value[item] === undefined) {
-        equipmentQuantities.value[item] = 0;
+  unitComposition.forEach(composition => {
+    if (!grouped[composition.unitType]) {
+      grouped[composition.unitType] = { miniature: composition.unitType, items: [], defaultWargear: [] };
+    }
+    composition.equipment.forEach(equip => {
+      if (equipmentQuantities.value[equip] === undefined) {
+        equipmentQuantities.value[equip] = composition.minQuantity;
+      }
+      if (!grouped[composition.unitType].defaultWargear.includes(equip)) {
+        grouped[composition.unitType].defaultWargear.push(equip);
       }
     });
+  });
 
+  wargearOptions.value.forEach(option => {
     if (!grouped[option.miniature]) {
-      grouped[option.miniature] = { miniature: option.miniature, items: [] };
+      grouped[option.miniature] = { miniature: option.miniature, items: [], defaultWargear: [] };
     }
     grouped[option.miniature].items.push(option);
   });
 
   groupedWargear.value = Object.values(grouped);
-
-  unitComposition.forEach(composition => {
-    composition.equipment.forEach(equip => {
-      if (equipmentQuantities.value[equip] === undefined) {
-        equipmentQuantities.value[equip] = composition.minQuantity;
-      }
-      if (!defaultWargear.value.includes(equip)) {
-        defaultWargear.value.push(equip);
-      }
-    });
-  });
 };
 
 const increaseQuantity = (item) => {
@@ -177,5 +173,22 @@ watch(() => props.url, fetchWargearData);
 .wargear-group {
   flex: 1 1 calc(50% - 1rem);
   box-sizing: border-box;
+}
+.default-equipment {
+  margin-top: 1rem;
+}
+@media (max-width: 600px) {
+  .wargear-options {
+    flex-direction: column;
+  }
+  .wargear-group {
+    flex: 1 1 100%;
+  }
+  .wargear-group h3,
+  .wargear-group h4,
+  .wargear-options ul,
+  .wargear-options li {
+    font-size: 0.875rem;
+  }
 }
 </style>

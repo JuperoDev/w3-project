@@ -1,6 +1,6 @@
 <template>
     <div>
-      <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600">
+      <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600" min-width="380px">
         <v-card>
           <v-card-title>
             <span class="headline">Army Details</span>
@@ -33,6 +33,10 @@
     armyIndex: {
       type: Number,
       required: true
+    },
+    totalPoints: {
+      type: Number,
+      required: true
     }
   });
   
@@ -45,7 +49,7 @@
   });
   
   const formatArmyDetails = (army) => {
-    let result = `${army.name} (${armyStore.getTotalPoints(props.armyIndex)} Points)\n\n`;
+    let result = `${army.name} (${props.totalPoints} Points)\n\n`;
     result += `Army: ${army.selectedArmy}\n`;
     result += `Detachment: ${army.selectedDetachment}\n`;
     result += `Strike Force (${army.pointList} Points)\n\n`;
@@ -73,10 +77,10 @@
   const formatUnitDetails = (unit) => {
     let result = `${unit.unitName} (${unit.basicPoints} Points)\n`;
     unit.composition.forEach(comp => {
-      result += `    • ${comp.quantity}x ${comp.unitType}\n`;
+      result += ` • ${comp.quantity}x ${comp.unitType}\n`;
       unit.equipment.forEach(equip => {
         if (unit.equipmentQuantities[equip] > 0) {
-          result += `        • ${unit.equipmentQuantities[equip]}x ${equip}\n`;
+          result += `    • ${unit.equipmentQuantities[equip]}x ${equip}\n`;
         }
       });
     });
@@ -98,10 +102,12 @@
   };
   </script>
   
+  
   <style scoped>
   .formatted-army-details {
     background-color: #f8f8f8;
-    padding: 1rem;
+    padding: 10px;
+    margin: -8px;
     border-radius: 0.5rem;
     white-space: pre-wrap;
   }

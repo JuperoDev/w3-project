@@ -1,4 +1,4 @@
-<!-- army exporter  -->
+<!-- ArmyExporter.vue -->
 <template>
   <div>
     <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600" min-width="380px">
@@ -50,25 +50,31 @@ const army = computed(() => {
 });
 
 const formatArmyDetails = (army) => {
-  let result = `${army.name} (${props.totalPoints} Points)\n\n`;
+  let result = `${army.name} (${props.totalPoints} Points)\n`;
   result += `Army: ${army.selectedArmy}\n`;
   result += `Detachment: ${army.selectedDetachment}\n`;
   result += `Strike Force (${army.pointList} Points)\n\n`;
 
-  result += `CHARACTERS\n`;
-  army.characterUnits.forEach(unit => {
-    result += formatUnitDetails(unit) + '\n\n';
-  });
+  if (army.characterUnits.length > 0) {
+    result += `CHARACTERS\n`;
+    army.characterUnits.forEach(unit => {
+      result += formatUnitDetails(unit) + '\n';
+    });
+  }
 
-  result += `BATTLELINE\n`;
-  army.battlelineUnits.forEach(unit => {
-    result += formatUnitDetails(unit) + '\n\n';
-  });
+  if (army.battlelineUnits.length > 0) {
+    result += `BATTLELINE\n`;
+    army.battlelineUnits.forEach(unit => {
+      result += formatUnitDetails(unit) + '\n';
+    });
+  }
 
-  result += `OTHER DATASHEETS\n`;
-  army.otherUnits.forEach(unit => {
-    result += formatUnitDetails(unit) + '\n\n';
-  });
+  if (army.otherUnits.length > 0) {
+    result += `OTHER DATASHEETS\n`;
+    army.otherUnits.forEach(unit => {
+      result += formatUnitDetails(unit) + '\n';
+    });
+  }
 
   result += `Created with Rapid Ingress`;
 
@@ -78,39 +84,36 @@ const formatArmyDetails = (army) => {
 const formatUnitDetails = (unit) => {
   let result = `${unit.unitName} (${unit.basicPoints} Points)\n`;
   
-  const groupedEquipment = unit.unitTypes.reduce((acc, type) => {
-    acc[type] = {};
-    Object.entries(unit.equipmentQuantities).forEach(([key, quantity]) => {
-      if (quantity > 0) {  // Exclude items with quantity 0
-        const [unitType, item] = key.split('_');
-        if (unitType === type) {
-          if (!acc[unitType]) acc[unitType] = {};
-          acc[unitType][item] = (acc[unitType][item] || 0) + quantity;
-        }
+  if (unit.composition && unit.composition.length > 0) {
+    unit.composition.forEach(comp => {
+      result += `• ${comp.quantity}x ${comp.unitType}\n`;
+      
+      // Group equipment by unit type
+      const equipmentForType = Object.entries(unit.equipmentQuantities)
+        .filter(([key, quantity]) => key.startsWith(comp.unitType) && quantity > 0)
+        .map(([key, quantity]) => {
+          const equipment = key.split('_')[1];
+          return `${quantity}x ${equipment}`;
+        });
+      
+      if (equipmentForType.length > 0) {
+        result += equipmentForType.map(item => `  ◦ ${item}`).join('\n') + '\n';
       }
     });
-    return acc;
-  }, {});
-
-  Object.entries(groupedEquipment).forEach(([type, items]) => {
-    result += ` • ${type}\n`;
-    Object.entries(items).forEach(([item, quantity]) => {
-      result += `    • ${quantity}x ${item}\n`;
-    });
-  });
+  }
 
   if (unit.selectedEnhancement) {
-    result += `    • Enhancements: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)\n`;
+    result += `• Enhancements: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)\n`;
   }
   
-  return result.trim();
+  return result;
 };
 
 const copyFormattedArmyDetails = () => {
-    navigator.clipboard.writeText(formattedDetails.value).then(() => {
-      alert('Army details copied to clipboard!');
-    });
-  };
+  navigator.clipboard.writeText(formattedDetails.value).then(() => {
+    alert('Army details copied to clipboard!');
+  });
+};
 
 const openDialog = () => {
   formattedDetails.value = formatArmyDetails(army.value);
@@ -125,5 +128,6 @@ const openDialog = () => {
   margin: -8px;
   border-radius: 0.5rem;
   white-space: pre-wrap;
+  font-family: monospace;
 }
 </style>

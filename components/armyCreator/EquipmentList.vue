@@ -1,3 +1,4 @@
+<!-- equipment list  -->
 <template>
   <div>
     <div v-for="(details, unitType) in formattedEquipment" :key="unitType">

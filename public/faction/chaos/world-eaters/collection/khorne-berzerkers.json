@@ -45,17 +45,25 @@
         "World Eaters"
     ],
     "wargear": [
-        {
-            "description": "The Khorne Berzerker Champion’s bolt pistol can be replaced with 1 plasma pistol."
+        {"miniature": "khorne berzerker champion",
+            "description": "The Khorne Berzerker Champion’s bolt pistol can be replaced with 1 plasma pistol.","items": [
+                "plasma pistol"
+            ]
         },
-        {
-            "description": "For every 5 models in this unit, 1 Khorne Berzerker’s bolt pistol can be replaced with 1 plasma pistol."
+        {"miniature": "khorne berzerker",
+            "description": "For every 5 models in this unit, 1 Khorne Berzerker’s bolt pistol can be replaced with 1 plasma pistol.","items": [
+                "plasma pistol"
+            ]
         },
-        {
-            "description": "For every 5 models in this unit, 1 Khorne Berzerker’s Berzerker chainblade can be replaced with 1 Khornate eviscerator."
+        {"miniature": "khorne berzerker",
+            "description": "For every 5 models in this unit, 1 Khorne Berzerker’s Berzerker chainblade can be replaced with 1 Khornate eviscerator.","items": [
+                "Khornate eviscerator"
+            ]
         },
-        {
-            "description": "1 model can be equipped with 1 icon of Khorne."
+        {"miniature": "khorne berzerker",
+            "description": "1 model can be equipped with 1 icon of Khorne.","items": [
+                "icon of Khorne"
+            ]
         }
     ],
     "abilities": {
@@ -73,7 +81,7 @@
     "damaged": {},
     "unitComposition": [
         {
-            "unitType": "khorne berzerkers champion",
+            "unitType": "khorne berzerker champion",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -82,7 +90,7 @@
             ]
         },
         {
-            "unitType": "khorne berzerkers",
+            "unitType": "khorne berzerker",
             "minQuantity": 4,
             "maxQuantity": 9,
             "equipment": [

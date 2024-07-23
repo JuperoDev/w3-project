@@ -7,14 +7,14 @@
         <p><strong>Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>
         <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-        <p><strong>URL:</strong> {{ url }}</p>
+        <p><strong>URL:</strong> {{ sanitizedUrl }}</p>
         <p><strong>Total Points:</strong> {{ totalPoints }}</p>
       </div>
       <ArmyExporter :armyIndex="armyIndex" :totalPoints="totalPoints" />
     </div>
 
     <Characters 
-      :url="url" 
+      :url="sanitizedUrl" 
       :armyIndex="armyIndex" 
       :selectedDetachment="selectedDetachment"
       :selectedFaction="selectedFaction"
@@ -23,20 +23,19 @@
       @update-total-points="updateCharacterPoints"
     />
     <Battleline 
-      :url="url" 
+      :url="sanitizedUrl" 
       :armyIndex="armyIndex" 
       class="mt-4"
       @update-total-points="updateBattlelinePoints"
     />
     <Other 
-      :url="url" 
+      :url="sanitizedUrl" 
       :armyIndex="armyIndex" 
       class="mt-4"
       @update-total-points="updateOtherPoints"
     />
   </div>
 </template>
-
 
 <script setup>
 import { ref, computed } from 'vue';
@@ -95,14 +94,11 @@ const updateBattlelinePoints = (points) => {
 const updateOtherPoints = (points) => {
   otherPoints.value = points;
 };
+
+const sanitizedUrl = computed(() => {
+  return props.url.replace(/\s+/g, '-');
+});
 </script>
-
-<style scoped>
-.header {
-  margin-bottom: 1rem;
-}
-</style>
-
 
 <style scoped>
 .header {

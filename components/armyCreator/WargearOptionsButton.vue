@@ -14,8 +14,8 @@
           <div v-if="loading">Loading...</div>
           <div v-else>
             <div class="wargear-options">
-              <div v-for="(wargearGroup, index) in groupedWargear" :key="index" class="wargear-group">
-                <h3>{{ wargearGroup.miniature }}</h3>
+              <div v-for="(wargearGroup, index) in groupedWargear" :key="index" class="wargear-group dark-border">
+                <h3 class="miniature-name">{{ wargearGroup.miniature }}</h3>
                 <div v-if="wargearGroup.defaultWargear.length" class="my-2">
                   <h4> <strong>Default Equipment</strong></h4>
                   <ul>
@@ -173,6 +173,14 @@ watch(() => props.url, fetchWargearData);
 .wargear-group {
   flex: 1 1 calc(50% - 1rem);
   box-sizing: border-box;
+  border: 1px solid #cdcdcd; /* Dark border */
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.miniature-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 .default-equipment {
   margin-top: 1rem;

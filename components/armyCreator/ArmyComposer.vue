@@ -3,14 +3,18 @@
     <div class="header flex justify-between items-center mb-4">
       <div>
         <p><strong>Name:</strong> {{ name }}</p>
-        <!-- <p><strong>Faction:</strong> {{ selectedFaction }}</p> -->
         <p><strong>Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>
         <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
-        <!-- <p><strong>URL:</strong> {{ sanitizedUrl }}</p> -->
         <p><strong>Total Points:</strong> {{ totalPoints }}</p>
       </div>
-      <ArmyExporter :armyIndex="armyIndex" :totalPoints="totalPoints" />
+      <ArmyExporter 
+        :armyIndex="armyIndex" 
+        :totalPoints="totalPoints"
+        :characterUnits="characterUnits"
+        :battlelineUnits="battlelineUnits"
+        :otherUnits="otherUnits"
+      />
     </div>
 
     <Characters 
@@ -21,18 +25,21 @@
       :selectedArmy="selectedArmy"
       class="mt-4"
       @update-total-points="updateCharacterPoints"
+      @update-units="updateCharacterUnits"
     />
     <Battleline 
       :url="sanitizedUrl" 
       :armyIndex="armyIndex" 
       class="mt-4"
       @update-total-points="updateBattlelinePoints"
+      @update-units="updateBattlelineUnits"
     />
     <Other 
       :url="sanitizedUrl" 
       :armyIndex="armyIndex" 
       class="mt-4"
       @update-total-points="updateOtherPoints"
+      @update-units="updateOtherUnits"
     />
   </div>
 </template>
@@ -79,6 +86,10 @@ const characterPoints = ref(0);
 const battlelinePoints = ref(0);
 const otherPoints = ref(0);
 
+const characterUnits = ref([]);
+const battlelineUnits = ref([]);
+const otherUnits = ref([]);
+
 const totalPoints = computed(() => {
   return characterPoints.value + battlelinePoints.value + otherPoints.value;
 });
@@ -93,6 +104,18 @@ const updateBattlelinePoints = (points) => {
 
 const updateOtherPoints = (points) => {
   otherPoints.value = points;
+};
+
+const updateCharacterUnits = (units) => {
+  characterUnits.value = units;
+};
+
+const updateBattlelineUnits = (units) => {
+  battlelineUnits.value = units;
+};
+
+const updateOtherUnits = (units) => {
+  otherUnits.value = units;
 };
 
 const sanitizedUrl = computed(() => {

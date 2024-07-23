@@ -51,6 +51,7 @@
               :equipmentQuantities="unit.equipmentQuantities || {}"
               :unitName="unit.unitName"
               :unitTypes="unit.unitTypes"
+               :unitComposition="unit.composition"
             />
           </div>
         </li>

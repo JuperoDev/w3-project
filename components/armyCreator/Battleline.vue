@@ -18,9 +18,9 @@
             <span>
               {{ unit.unitName }} 
               ({{ unit.basicPoints }} points)
-              <span v-if="unit.composition">
+              <!-- <span v-if="unit.composition">
                 - {{ getCompositionString(unit.composition) }}
-              </span>
+              </span> -->
             </span>
           </div>
           <div class="flex items-center mt-2 space-x-2">
@@ -50,6 +50,7 @@
               :equipment="unit.equipment" 
               :equipmentQuantities="unit.equipmentQuantities || {}"
               :unitTypes="unit.unitTypes"
+              :unitComposition="unit.composition"
             />
           </div>
         </li>

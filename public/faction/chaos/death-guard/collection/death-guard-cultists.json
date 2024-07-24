@@ -96,24 +96,21 @@
             "Nurgle's Gift (Aura)"
         ],
         "otherAbilities": [
-            {
-                "name": "Every model is equipped with:",
-                "description": "Cultist firearm; brutal assault weapon."
-            }
+            
         ]
     },
     "wargear": [
-        {
+        {"miniature": "Death Guard Cultist",
             "description": "For every 10 models in the unit, 1 Death Guard Cultist's Cultist firearm can be replaced with 1 flamer.",
-            "items": []
+            "items": ["flamer"]
         },
         {
             "description": "For every 10 models in the unit, 1 Death Guard Cultist's Cultist firearm can be replaced with 1 heavy stubber.",
-            "items": []
+            "items": ["heavy stubber"]
         },
         {
             "description": "For every 10 models in the unit, 1 Death Guard Cultist's Cultist firearm can be replaced with 1 grenade launcher.",
-            "items": []
+            "items": ["grenade launcher"]
         }
     ],
     "meleeWeapons": [

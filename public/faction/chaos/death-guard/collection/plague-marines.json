@@ -179,43 +179,50 @@
     },
     "wargear": [
         {
+            "miniature": "Plague Champion",
             "description": "The Plague Champion's plague boltgun can be replaced with one of the following",
             "items": [
-                "1 plague bolt pistol",
-                "1 plasma gun",
-                "1 plasma pistol"
+                "plague bolt pistol",
+                "plasma gun",
+                "plasma pistol"
             ]
         },
         {
+            "miniature": "Plague Champion",
             "description": "The Plague Champion's plague knives can be replaced with one of the following",
             "items": [
-                "1 bubotic weapons",
-                "1 heavy plague weapon"
+                "bubotic weapons",
+                "heavy plague weapon"
             ]
         },
         {
+            "miniature": "plague marines",
             "description": "For every 5 models in this unit, 1 Plague Marine's plague boltgun can be replaced with 1 blight launcher.",
-            "items": []
+            "items": ["blight launcher"]
         },
         {
+            "miniature": "plague marines",
             "description": "For every 5 models in this unit, 1 Plague Marine's plague boltgun can be replaced with 1 plague spewer.",
-            "items": []
+            "items": ["plague spewer"]
         },
         {
+            "miniature": "plague marines",
             "description": "For every 5 models in this unit, 1 Plague Marine's plague boltgun can be replaced with one of the following",
             "items": [
-                "1 meltagun",
-                "1 plague belcher",
-                "1 plasma gun"
+                "meltagun",
+                "plague belcher",
+                "plasma gun"
             ]
         },
         {
+            "miniature": "plague marines",
             "description": "For every 5 models in this unit, up to 2 Plague Marines can each have their plague boltgun replaced with 1 bubotic weapons.",
-            "items": []
+            "items": ["bubotic weapons"]
         },
         {
+            "miniature": "plague marines",
             "description": "For every 5 models in this unit, up to 2 Plague Marines can each have their plague boltgun replaced with 1 heavy plague weapon.",
-            "items": []
+            "items": ["heavy plague weapon"]
         }
     ],
     "meleeWeapons": [
@@ -257,19 +264,22 @@
     "options": [
         {
             "count": [
-                1,4
+                1,
+                4
             ],
             "points": 90
         },
         {
             "count": [
-                1,6
+                1,
+                6
             ],
             "points": 125
         },
         {
             "count": [
-                1,9
+                1,
+                9
             ],
             "points": 180
         }
@@ -280,7 +290,8 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "plague boltgun","plague knives"
+                "plague boltgun",
+                "plague knives"
             ]
         },
         {
@@ -288,7 +299,8 @@
             "minQuantity": 4,
             "maxQuantity": 9,
             "equipment": [
-                "plague boltgun","plague knives"
+                "plague boltgun",
+                "plague knives"
             ]
         }
     ]

@@ -114,13 +114,24 @@
     },
     "wargear": [
         {
-            "description": "For every 5 models in this unit",
-            "items": [
-                "Up to 3 models' plague combi-bolters can each be replaced with 1 combi-weapon.",
-                "1 Blightlord Terminator's plague combi-bolter can be replaced with one of the following: 1 blight launcher; 1 reaper autocannon.",
-                "1 Blightlord Terminator's plague combi-bolter can be replaced with 1 plague spewer.",
-                "1 Blightlord Terminator's plague combi-bolter and bubotic blade can be replaced with 1 flail of corruption."
-            ]
+            "miniature": "blightlord terminators",
+            "description": "For every 5 models in this unit Up to 3 models' plague combi-bolters can each be replaced with 1 combi-weapon.",
+            "item": ["combi-weapon"]
+        },
+        {
+            "miniature": "blightlord terminators",
+            "description": "For every 5 models in this unit 1 Blightlord Terminator's plague combi-bolter can be replaced with one of the following: 1 blight launcher; 1 reaper autocannon.",
+            "item": ["blight launcher" , "reaper autocannon"]
+        },
+        {
+            "miniature": "blightlord terminators",
+            "description": "For every 5 models in this unit 1 Blightlord Terminator's plague combi-bolter can be replaced with 1 plague spewer.",
+            "item": ["plague spewer"]
+        },
+        {
+            "miniature": "blightlord terminators",
+            "description": "For every 5 models in this unit 1 Blightlord Terminator's plague combi-bolter and bubotic blade can be replaced with 1 flail of corruption.",
+            "item": ["flail of corruption"]
         }
     ],
     "meleeWeapons": [

@@ -89,8 +89,13 @@ const unitCounts = computed(() => {
   return counts;
 });
 
+const sortArmyByUnitName = () => {
+  army.value.sort((a, b) => a.unitName.localeCompare(b.unitName));
+};
+
 const syncArmyWithStore = () => {
   army.value = armyStore.loadBattlelineUnitsForArmy(props.armyIndex);
+  sortArmyByUnitName();
   calculateTotalPoints();
   checkWargearOptionsForUnits();
 };
@@ -210,6 +215,7 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
+
 
 <style scoped>
 .mb-4 {

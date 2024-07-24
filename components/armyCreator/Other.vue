@@ -1,4 +1,4 @@
-<!-- other  -->
+<!-- other -->
 <template>
   <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
     <div class="flex justify-between items-center">
@@ -52,7 +52,7 @@
               :equipmentQuantities="unit.equipmentQuantities || {}"
               :unitName="unit.unitName"
               :unitTypes="unit.unitTypes"
-               :unitComposition="unit.composition"
+              :unitComposition="unit.composition"
             />
           </div>
         </li>
@@ -90,8 +90,13 @@ const unitCounts = computed(() => {
   return counts;
 });
 
+const sortArmyByUnitName = () => {
+  army.value.sort((a, b) => a.unitName.localeCompare(b.unitName));
+};
+
 const syncArmyWithStore = () => {
   army.value = armyStore.loadOtherUnitsForArmy(props.armyIndex);
+  sortArmyByUnitName();
   calculateTotalPoints();
   checkWargearOptionsForUnits();
 };

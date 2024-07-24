@@ -125,8 +125,13 @@ const calculateTotalPoints = () => {
   emit('update-total-points', totalPoints.value);
 };
 
+const sortArmyByUnitName = () => {
+  army.value.sort((a, b) => a.unitName.localeCompare(b.unitName));
+};
+
 const syncArmyWithStore = () => {
   army.value = armyStore.loadCharacterUnitsForArmy(props.armyIndex);
+  sortArmyByUnitName();
   calculateTotalPoints();
 };
 
@@ -251,6 +256,7 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
+
 
 <style scoped>
 .mb-4 {

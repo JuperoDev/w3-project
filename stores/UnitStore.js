@@ -45,4 +45,6 @@ export const useUnitStore = defineStore('savedUnits', {
       return state.elements.includes(elementName);
     },
   },
+  
+  persist: true,
 });

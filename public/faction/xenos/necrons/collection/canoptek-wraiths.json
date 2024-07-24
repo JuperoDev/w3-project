@@ -65,15 +65,19 @@
     },
     "additionalParameter": {},
     "wargear": [
-        {
+        {"miniature":"canoptek wraiths",
             "description": "Any number of models can each be equipped with one of the following:",
             "items": [
-                "1 particle caster",
-                "1 transdimensional beamer"
+                "particle caster",
+                "transdimensional beamer"
             ]
         },
-        {
-            "description": "Any number of models can each have their vicious claws replaced with whip coils."
+        {"miniature":"canoptek wraiths",
+            "description": "Any number of models can each have their vicious claws replaced with whip coils.",
+            
+            "items": [
+                "whip coils"
+            ]
         }
     ],
     "unitComposition": [
@@ -91,13 +95,13 @@
             "count": [
                 3
             ],
-            "points": 110
+            "points": 125
         },
         {
             "count": [
                 6
             ],
-            "points": 220
+            "points": 250
         }
     ],
     "meleeWeapons": [

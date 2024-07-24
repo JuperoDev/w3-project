@@ -3,7 +3,7 @@
     <v-app-bar app elevation="0">
       <v-toolbar-title>
         <div class="font-bebas flex items-center justify-center">
-          <h2>Army Builder</h2>
+          <h2>Army Creator</h2>
         </div>
       </v-toolbar-title>
 

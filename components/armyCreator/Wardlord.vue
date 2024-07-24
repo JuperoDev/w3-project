@@ -4,7 +4,7 @@
       class="text-sm text-blue-500 cursor-pointer hover:underline" 
       @click="toggleWarlord"
     >
-      {{ isWarlord ? 'Remove Warlord' : 'Set as Warlord' }}
+      {{ isWarlord ? '' : 'Set as Warlord' }}
     </span>
   </template>
   

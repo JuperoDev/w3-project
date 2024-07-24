@@ -46,7 +46,7 @@
               class="text-sm text-blue-500 cursor-pointer hover:underline" 
               @click="toggleWarlord(unit.id)"
             >
-              {{ unit.isWarlord ? 'Remove Warlord' : 'Set as Warlord' }}
+              {{ unit.isWarlord ? '' : 'Set as Warlord' }}
             </span>
           </div>
           <template v-if="!unit.isEpicHero">

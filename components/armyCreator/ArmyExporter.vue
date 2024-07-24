@@ -84,6 +84,10 @@ const formatArmyDetails = (army) => {
 const formatUnitDetails = (unit) => {
   let result = `${unit.unitName} (${unit.basicPoints} Points)\n`;
   
+  if (unit.isWarlord) {
+    result += `[Warlord]\n`;
+  }
+  
   if (unit.composition && unit.composition.length > 0) {
     unit.composition.forEach(comp => {
       result += `• ${comp.quantity}x ${comp.unitType}\n`;

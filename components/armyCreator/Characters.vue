@@ -1,4 +1,3 @@
-<!-- characters  -->
 <template>
   <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
     <div class="flex justify-between items-center">
@@ -23,6 +22,9 @@
               <span v-if="unit.composition">
                 - {{ getCompositionString(unit.composition) }}
               </span>
+              <span v-if="unit.isWarlord" class="text-yellow-500 font-bold ml-2">
+                [Warlord]
+              </span>
             </span>
           </div>
           <div class="flex items-center mt-2 space-x-2">
@@ -40,6 +42,12 @@
               :unitName="unit.unitName"
               @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
             />
+            <span 
+              class="text-sm text-blue-500 cursor-pointer hover:underline" 
+              @click="toggleWarlord(unit.id)"
+            >
+              {{ unit.isWarlord ? 'Remove Warlord' : 'Set as Warlord' }}
+            </span>
           </div>
           <template v-if="!unit.isEpicHero">
             <Enhancements 
@@ -161,7 +169,8 @@ const addUnitToArmy = async (unit) => {
         });
         return acc;
       }, {}),
-      unitTypes: unitData.unitComposition.map(comp => comp.unitType)
+      unitTypes: unitData.unitComposition.map(comp => comp.unitType),
+      isWarlord: false
     };
 
     armyStore.addCharacterUnitToArmy(props.armyIndex, unitWithId);
@@ -250,13 +259,32 @@ const updateWargearQuantities = (unitId, quantities) => {
   }
 };
 
+const toggleWarlord = (unitId) => {
+  const unitIndex = army.value.findIndex(unit => unit.id === unitId);
+  if (unitIndex !== -1) {
+    // Remove warlord status from all units
+    army.value.forEach(unit => {
+      unit.isWarlord = false;
+    });
+
+    // Set the new warlord
+    army.value[unitIndex].isWarlord = true;
+
+    // Update all units in the store
+    army.value.forEach(unit => {
+      armyStore.updateCharacterUnitInArmy(props.armyIndex, unit.id, unit);
+    });
+
+    syncArmyWithStore();
+  }
+};
+
 onMounted(() => {
   loadUnits();
 });
 
 watch(() => props.armyIndex, loadUnits);
 </script>
-
 
 <style scoped>
 .mb-4 {

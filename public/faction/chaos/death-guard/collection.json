@@ -1,93 +1,219 @@
 {
-    "background": "bg-tyranids",
-    
-    "rules": [
-        {
-            "name": "nurgle's gift (aura)",
-            "lore": "The Death Guard are carriers of countless infections and contagions, each a gift from Nurgle. Whenever they march to war, they contaminate all around them, overwhelming their victims’ immune systems and undoing metallic bonds, alien psychic materials and all manner of other components, rendering even armoured vehicles vulnerable.",
-            "description": "<p> If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of this unit, subtract 1 from the Toughness characteristic of models in that enemy unit. Contagion Range changes over the course of the battle, as shown below.</p> <br/> <p><strong> CONTAGION RANGE </strong></p> <br/> <img src='https://wahapedia.ru/wh40k10ed/img/ContagionRange1.png'> <br/> <img src='https://wahapedia.ru/wh40k10ed/img/ContagionRange2.png'> <br/> <img src='https://wahapedia.ru/wh40k10ed/img/ContagionRange3.png'>"
-        }
-    ],
-    
-    "detachments": [
-        "plague company"
-    ],
-    "symbol": "deathguard-symbol",
-    "description": "Drifting through the void come star-eclipsing shoals of immense creatures whose cephalopodic forms bristle with spines and feeder tendrils. Each of these living vessels is host to thousands upon thousands of dormant warrior-forms, ready to wake from their slumber when the hive fleet locates its next meal.",
-    "units": [
-        "biologus putrifier",
-        "blightlord terminators",
-        "death guard chaos lord",
-        "death guard chaos lord in terminator armour",
-        "death guard chaos spawn",
-        "death guard cultists",
-        "death guard daemon prince",
-        "death guard daemon prince with wings",
-        "death guard defiler",
-        "death guard helbrute",
-        "death guard icon bearer",
-        "death guard land raider",
-        "death guard predator annihilator",
-        "death guard rhino",
-        "guard predator destructor",
-        "death guard sorcerer in terminator armour",
-        "deathshroud terminators",
-        "foetid bloat-drone",
-        "foul blightspawn",
-        "lord of contagion",
-        "lord of virulence",
-        "malignant plaguecaster",
-        "miasmic malignifier",
-        "mortarion",
-        "myphitic blight-haulers",
-        "noxious blightbringer",
-        "plague marines",
-        "plague surgeon",
-        "plagueburst crawler",
-        "poxwalkers",
-        "tallyman",
-        "typhus"
-    ],
-    "characters": [
-        "Biologus Putrifier",
-        "Death Guard Chaos Lord",
-        "Death Guard Chaos Lord In Terminator Armour",
-        "Death Guard Daemon Prince",
-        "Death Guard Daemon Prince With Wings",
-        "Death Guard Icon Bearer",
-        "Death Guard Sorcerer In Terminator Armour",
-        "Foul Blightspawn",
-        "Lord Of Contagion",
-        "Lord Of Virulence",
-        "Malignant Plaguecaster",
-        "Mortarion",
-        "Noxious Blightbringer",
-        "Plague Surgeon",
-        "Tallyman",
-        "Typhus"
-      ],
-      "battleline": [
-        "Plague Marines"
-      ],
-      "dedicatedTransports": [
-        "Death Guard Rhino"
-      ],
-      "Fortifications": [
-        "Miasmic Malignifier"
-      ],
-      "other": [
-        "Blightlord Terminators",
-        "Death Guard Chaos Spawn",
-        "Death Guard Cultists",
-        "Death Guard Defiler",
-        "Death Guard Helbrute",
-        "Death Guard Land Raider",
-        "Death Guard Predator Annihilator",
-        "Death Guard Predator Destructor",
-        "Deathshroud Terminators",
-        "Foetid Bloat-drone",
-        "Myphitic Blight-haulers",
-        "Plagueburst Crawler",
-        "Poxwalkers"
-      ]
+  "background": "bg-tyranids",
+  "rules": [
+    {
+      "name": "nurgle's gift (aura)",
+      "lore": "The Death Guard are carriers of countless infections and contagions, each a gift from Nurgle. Whenever they march to war, they contaminate all around them, overwhelming their victims’ immune systems and undoing metallic bonds, alien psychic materials and all manner of other components, rendering even armoured vehicles vulnerable.",
+      "description": "<p> If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of this unit, subtract 1 from the Toughness characteristic of models in that enemy unit. Contagion Range changes over the course of the battle, as shown below.</p> <br/> <p><strong> CONTAGION RANGE </strong></p> <br/> <img src='https://wahapedia.ru/wh40k10ed/img/ContagionRange1.png'> <br/> <img src='https://wahapedia.ru/wh40k10ed/img/ContagionRange2.png'> <br/> <img src='https://wahapedia.ru/wh40k10ed/img/ContagionRange3.png'>"
+    }
+  ],
+  "detachments": [
+    "plague company"
+  ],
+  "symbol": "deathguard-symbol",
+  "description": "Drifting through the void come star-eclipsing shoals of immense creatures whose cephalopodic forms bristle with spines and feeder tendrils. Each of these living vessels is host to thousands upon thousands of dormant warrior-forms, ready to wake from their slumber when the hive fleet locates its next meal.",
+  "units": [
+    "biologus putrifier",
+    "blightlord terminators",
+    "death guard chaos lord",
+    "death guard chaos lord in terminator armour",
+    "death guard chaos spawn",
+    "death guard cultists",
+    "death guard daemon prince",
+    "death guard daemon prince with wings",
+    "death guard defiler",
+    "death guard helbrute",
+    "death guard icon bearer",
+    "death guard land raider",
+    "death guard predator annihilator",
+    "death guard rhino",
+    "guard predator destructor",
+    "death guard sorcerer in terminator armour",
+    "deathshroud terminators",
+    "foetid bloat-drone",
+    "foul blightspawn",
+    "lord of contagion",
+    "lord of virulence",
+    "malignant plaguecaster",
+    "miasmic malignifier",
+    "mortarion",
+    "myphitic blight-haulers",
+    "noxious blightbringer",
+    "plague marines",
+    "plague surgeon",
+    "plagueburst crawler",
+    "poxwalkers",
+    "tallyman",
+    "typhus"
+  ],
+  "characters": [
+    {
+      "unitName": "Biologus Putrifier",
+      "basicPoints": 60
+    },
+    {
+      "unitName": "Death Guard Chaos Lord",
+      "basicPoints": 65
+    },
+    {
+      "unitName": "Death Guard Chaos Lord In Terminator Armour",
+      "basicPoints": 85
+    },
+    {
+      "unitName": "Death Guard Daemon Prince",
+      "basicPoints": 160
+    },
+    {
+      "unitName": "Death Guard Daemon Prince With Wings",
+      "basicPoints": 195
+    },
+    {
+      "unitName": "Death Guard Icon Bearer",
+      "basicPoints": 45
+    },
+    {
+      "unitName": "Death Guard Sorcerer In Terminator Armour",
+      "basicPoints": 70
+    },
+    {
+      "unitName": "Foul Blightspawn",
+      "basicPoints": 60
+    },
+    {
+      "unitName": "Lord Of Contagion",
+      "basicPoints": 80
+    },
+    {
+      "unitName": "Lord Of Virulence",
+      "basicPoints": 80
+    },
+    {
+      "unitName": "Malignant Plaguecaster",
+      "basicPoints": 65
+    },
+    {
+      "unitName": "Mortarion",
+      "basicPoints": 325
+    },
+    {
+      "unitName": "Noxious Blightbringer",
+      "basicPoints": 45
+    },
+    {
+      "unitName": "Plague Surgeon",
+      "basicPoints": 50
+    },
+    {
+      "unitName": "Tallyman",
+      "basicPoints": 45
+    },
+    {
+      "unitName": "Typhus",
+      "basicPoints": 80
+    }
+  ],
+  "battleline": [
+    {
+      "unitName": "Plague Marines",
+      "basicPoints": 90
+    },
+    {
+      "unitName": "Plague Marines",
+      "basicPoints": 125
+    },
+    {
+      "unitName": "Plague Marines",
+      "basicPoints": 180
+    }
+  ],
+  "dedicatedTransports": [
+    {
+      "unitName": "Death Guard Rhino",
+      "basicPoints": 75
+    }
+  ],
+  "Fortifications": [
+    {
+      "unitName": "Miasmic Malignifier",
+      "basicPoints": 115
+    }
+  ],
+  "other": [
+    {
+      "unitName": "Blightlord Terminators",
+      "basicPoints": 155
+    },
+    {
+      "unitName": "Blightlord Terminators",
+      "basicPoints": 310
+    },
+    {
+      "unitName": "Death Guard Chaos Spawn",
+      "basicPoints": 70
+    },
+    {
+      "unitName": "Death Guard Cultists",
+      "basicPoints": 50
+    },
+    {
+      "unitName": "Death Guard Cultists",
+      "basicPoints": 100
+    },
+    {
+      "unitName": "Death Guard Defiler",
+      "basicPoints": 190
+    },
+    {
+      "unitName": "Death Guard Helbrute",
+      "basicPoints": 130
+    },
+    {
+      "unitName": "Death Guard Land Raider",
+      "basicPoints": 240
+    },
+    {
+      "unitName": "Death Guard Predator Annihilator",
+      "basicPoints": 130
+    },
+    {
+      "unitName": "Death Guard Predator Destructor",
+      "basicPoints": 130
+    },
+    {
+      "unitName": "Deathshroud Terminators",
+      "basicPoints": 120
+    },
+    {
+      "unitName": "Deathshroud Terminators",
+      "basicPoints": 240
+    },
+    {
+      "unitName": "Foetid Bloat-drone",
+      "basicPoints": 90
+    },
+    {
+      "unitName": "Myphitic Blight-haulers",
+      "basicPoints": 90
+    },
+    {
+      "unitName": "Myphitic Blight-haulers",
+      "basicPoints": 180
+    },
+    {
+      "unitName": "Myphitic Blight-haulers",
+      "basicPoints": 270
+    },
+    {
+      "unitName": "Plagueburst Crawler",
+      "basicPoints": 180
+    },
+    {
+      "unitName": "Poxwalkers",
+      "basicPoints": 50
+    },
+    {
+      "unitName": "Poxwalkers",
+      "basicPoints": 100
+    }
+  ]
 }

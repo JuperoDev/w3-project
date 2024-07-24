@@ -159,7 +159,7 @@ const addUnitToArmy = async (unit) => {
         quantity: count
       })),
       basicPoints: parseInt(selectedOption.points) || 0,
-      isEpicHero: unitData.keywords?.includes('epic hero') || false,
+      isEpicHero: unitData.keywords?.some(keyword => keyword.toLowerCase() === 'epic hero') || false,
       equipment: unitData.unitComposition[0].equipment,
       minQuantity: unitData.unitComposition[0].minQuantity,
       hasWargear: unitData.wargear && unitData.wargear.length > 0,

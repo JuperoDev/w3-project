@@ -1,0 +1,212 @@
+{
+    "parentUnit": "Sternguard Veteran Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Sternguard Veterans are possessed of an unshakeable calm, and are renowned amongst their brothers for their exemplary marksmanship in the fiercest battles. Proficient in all of the Chapter’s ranged weaponry, they can always be found where their pinpoint volleys will best shatter the foe.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "sternguard veteran squad"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 4
+        },
+        {
+            "name": "Pyrecannon",
+            "modifiers": [
+                "IGNORES COVER",
+                "torrent"
+            ],
+            "range": 12,
+            "attacks": "D6+1",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Sternguard bolt pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Sternguard bolt rifle",
+            "modifiers": [
+                "assault",
+                "devastating wounds",
+                "heavy",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Sternguard heavy bolter",
+            "modifiers": [
+                "devastating wounds",
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Every model is equipped with:",
+                "description": "Sternguard bolt pistol; Sternguard bolt rifle; close combat weapon."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"",
+            "description": "The Sternguard Veteran Sergeant’s Sternguard bolt rifle can be replaced with one of the following",
+            "items": [
+                "Astartes chainsword",
+                "combi-weapon",
+                "power weapon",
+                "power fist",
+                "Astartes chainsword and 1 Sternguard bolt rifle*",
+                "power weapon and 1 Sternguard bolt rifle*",
+                "power fist and 1 Sternguard bolt rifle*"
+            ]
+        },
+        {"miniature":"",
+            "description": "Any number of Sternguard Veterans can each have their Sternguard bolt rifle replaced with 1 combi-weapon.",
+            "items": []
+        },
+        {"miniature":"",
+            "description": "For every 5 models in this unit, 1 Sternguard Veteran’s Sternguard bolt rifle can be replaced with one of the following",
+            "items": [
+                "pyrecannon",
+                "Sternguard heavy bolter"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Sternguard Veteran Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Sternguard bolt pistol", "Sternguard bolt rifle","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Sternguard Veterans",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "Sternguard bolt pistol", "Sternguard bolt rifle","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 180
+        }
+    ],
+    "additionalParameter": {}
+}

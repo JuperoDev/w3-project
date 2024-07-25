@@ -1,0 +1,163 @@
+{
+    "parentUnit": "Company Heroes",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A company’s most heroic battle-brothers fight alongside a Chapter’s high-ranking officers. These veterans and specialists serve as honour guards and provide vital support to a commander. Company Champions defend their Company’s honour with martial excellence, Ancients guard its inspirational banners and Company Veterans lay down hails o ffire from relic bolt weapons.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "company heroes"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt Pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Bolt rifle",
+            "range": 24,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Master-crafted bolt rifle",
+            "modifiers": [
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Master-crafted heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 2"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Astartes Banner",
+                "description": "While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit."
+            },
+            {
+                "name": "Command Squad",
+                "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Master-crafted power weapon",
+            "modifiers": [
+                "precision"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Ancient",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "bolt rifle","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Company Champion",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol","master-crafted power weapon"
+            ]
+        },
+        {
+            "unitType": "Company Veterans",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "master-crafted heavy bolter","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Company Veterans",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "master-crafted bolt rifle","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,1,1,1
+            ],
+            "points": 95
+        }
+    ],
+    "additionalParameter": {}
+}

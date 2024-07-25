@@ -76,40 +76,32 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Wolf Guard Battle Leader in Terminator Armour",
             "description": "This model’s power weapon can be replaced with one of the following",
             "items": [
                 "chainfist",
-                "1 power fist",
-                "1 relic shield and 1 close combat weapon",
-                "1 thunder hammer"
+                "power fist",
+                "relic shield and 1 close combat weapon",
+                "thunder hammer"
             ]
         },
-        {
+        {"miniature":"Wolf Guard Battle Leader in Terminator Armour",
             "description": "This model’s storm bolter and power weapon can be replaced with 1 twin lightning claws.",
-            "items": []
+            "items": ["twin lightning claws"]
         },
-        {
+        {"miniature":"Wolf Guard Battle Leader in Terminator Armour",
             "description": "This model’s storm bolter can be replaced with one of the following",
             "items": [
                 "chainfist",
-                "1 power fist",
-                "1 power weapon",
-                "1 thunder hammer",
+                "power fist",
+                "power weapon",
+                "thunder hammer",
                 "combi-weapon"
             ]
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Combi-weapon",
-            "modifiers": "anti-infantry4+,devastatingwounds,rapidfire1",
-            "attacks": 1,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
+       
         {
             "name": "Chainfist",
             "modifiers": [

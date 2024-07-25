@@ -126,14 +126,27 @@
     },
     "wargear": [
         {
+            "miniature": "Wolf Guard Pack Leader",
             "description": "Any number of models can have their bolt pistol replaced with one of the following",
             "items": [
-                "1 boltgun",
+                "boltgun",
                 "combi-weapon",
                 "plasma pistol",
-                "1 storm bolter",
-                "1 storm shield"
+                "storm bolter",
+                "storm shield"
             ]
+        },
+        {
+            "miniature": "Wolf Guards",
+            "description": "Any number of models can have their bolt pistol replaced with one of the following",
+            "items": [
+                "boltgun",
+                "combi-weapon",
+                "plasma pistol",
+                "storm bolter",
+                "storm shield"
+            ],
+            "hideInDatasheet": true
         }
     ],
     "meleeWeapons": [

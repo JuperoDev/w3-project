@@ -148,26 +148,32 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Grey Hunters",
             "description": "1 Grey Hunter’s bolt pistol can be replaced with 1 plasma pistol.",
-            "items": []
+            "items": ["plasma pistol"]
         },
-        {
+        {"miniature":"Grey Hunters",
             "description": "Any number of models can each be equipped with 1 Astartes chainsword.",
-            "items": []
+            "items": ["Astartes chainsword"]
         },
-        {
+        {"miniature":"Grey Hunters",
+        "description": "Any number of models can each be equipped with 1 Astartes chainsword.",
+        "items": ["Astartes chainsword"],"hideInDatasheet":true
+    },
+
+
+        {"miniature":"Grey Hunter Pack Leader",
             "description": "The Grey Hunter Pack Leader’s close combat weapon can be replaced with one of the following",
             "items": [
-                "1 power fist",
-                "1 power weapon"
+                "power fist",
+                "power weapon"
             ]
         },
-        {
+        {"miniature":"Grey Hunters",
             "description": "Up to 2 Grey Hunters can each have their boltgun replaced with one of the following",
             "items": [
-                "1 flamer",
-                "1 grav-gun",
+                "flamer",
+                "grav-gun",
                 "meltagun",
                 "plasma gun"
             ]

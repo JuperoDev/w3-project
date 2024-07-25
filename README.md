@@ -246,16 +246,16 @@ _This String is not a part of the Wargear Array, but for information purposes it
       "items": [
         "1 Astartes chainsword",
         "1 bolt pistol",
-        "1 boltgun",
+        "boltgun",
         "combi-weapon",
         "1 grav-pistol",
         "1 hand flamer",
         "1 inferno pistol",
         "plasma pistol",
-        "1 power fist",
-        "1 power weapon",
-        "1 storm bolter",
-        "1 thunder hammer"
+        "power fist",
+        "power weapon",
+        "storm bolter",
+        "thunder hammer"
       ]
     },
     {
@@ -263,16 +263,16 @@ _This String is not a part of the Wargear Array, but for information purposes it
       "items": [
         "1 Astartes chainsword",
         "1 bolt pistol",
-        "1 boltgun",
+        "boltgun",
         "combi-weapon",
         "1 grav-pistol",
         "1 hand flamer",
         "1 inferno pistol",
         "plasma pistol",
-        "1 power fist",
-        "1 power weapon",
-        "1 storm bolter",
-        "1 thunder hammer"
+        "power fist",
+        "power weapon",
+        "storm bolter",
+        "thunder hammer"
       ]
     },
     {
@@ -284,24 +284,24 @@ _This String is not a part of the Wargear Array, but for information purposes it
     {
       "description": "1 Initiate’s boltgun can be replaced with one of the following:",
       "items": [
-        "1 flamer",
+        "flamer",
         "plasma gun",
         "meltagun",
-        "1 grav-gun"
+        "grav-gun"
       ]
     },
     {
       "description": "1 Initiate’s boltgun can be replaced with one of the following",
       "items": [
-        "1 power weapon",
-        "1 power fist",
-        "1 heavy bolter",
+        "power weapon",
+        "power fist",
+        "heavy bolter",
         "heavy flamer",
-        "1 grav-cannon",
-        "1 lascannon",
-        "1 missile launcher",
-        "1 multi-melta",
-        "1 plasma cannon"
+        "grav-cannon",
+        "lascannon",
+        "missile launcher",
+        "multi-melta",
+        "plasma cannon"
       ]
     },
   ],

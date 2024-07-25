@@ -1,4 +1,3 @@
-<!-- army composer  -->
 <template>
   <div>
     <div class="header flex justify-between items-center mb-4">
@@ -40,10 +39,13 @@
       :url="sanitizedUrl" 
       :selectedDetachment="selectedDetachment"
       :armyIndex="armyIndex" 
-      class="mt-4"
+      class="mt-4 mb-24"
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />
+
+    <!-- PointStatus component -->
+    <PointStatus :totalPoints="totalPoints" :pointList="pointList" />
   </div>
 </template>
 
@@ -53,6 +55,7 @@ import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';
 import ArmyExporter from './ArmyExporter.vue';
+import PointStatus from './PointStatus.vue';  // Import the new component
 
 const props = defineProps({
   name: {

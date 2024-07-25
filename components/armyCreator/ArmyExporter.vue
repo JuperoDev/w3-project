@@ -76,7 +76,7 @@ const formatArmyDetails = (army) => {
     });
   }
 
-  result += `Created with Rapid Ingress`;
+  result += `Created with RI`;
 
   return result.trim();
 };

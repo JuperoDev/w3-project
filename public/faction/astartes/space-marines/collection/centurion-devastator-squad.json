@@ -106,14 +106,27 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Assault Centurion sergeant",
             "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion missile launcher.",
-            "items": []
+            "items": ["centurion missile launcher"],
+            "hideInDatasheet":true
         },
-        {
+        {"miniature":"Assault Centurion sergeant",
             "description": "Any number of models can each have their grav-cannon replaced with one of the following",
             "items": [
-                "1 twin heavy bolter",
+                "twin heavy bolter",
+                "twin lascannon"
+            ],
+            "hideInDatasheet":true
+        },
+        {"miniature":"Assault Centurions",
+            "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion missile launcher.",
+            "items": ["centurion missile launcher"]
+        },
+        {"miniature":"Assault Centurions",
+            "description": "Any number of models can each have their grav-cannon replaced with one of the following",
+            "items": [
+                "twin heavy bolter",
                 "twin lascannon"
             ]
         }

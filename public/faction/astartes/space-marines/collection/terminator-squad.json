@@ -111,19 +111,24 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Terminators",
             "description": "For every 5 models in this unit, 1 Terminator’s storm bolter can be replaced with one of the following",
             "items": [
-                "1 assault cannon",
+                "assault cannon",
                 "heavy flamer",
-                "1 cyclone missile launcher and 1 storm bolter.*"
+                "cyclone missile launcher and 1 storm bolter.*"
             ]
         },
-        {
+        {"miniature":"Terminator Sergeant",
             "description": "Any number of models can each have their power fist replaced with 1 chainfist.",
-            "items": []
+            "items": ["chainfist"]
         },
-        {
+        {"miniature":"Terminators",
+            "description": "Any number of models can each have their power fist replaced with 1 chainfist.",
+            "items": ["chainfist"],
+            "hideInDatasheet":true
+        },
+        {"miniature":"Terminator Sergeant",
             "description": "The Terminator Sergeant’s power fist can be replaced with 1 power weapon.",
             "items": []
         }

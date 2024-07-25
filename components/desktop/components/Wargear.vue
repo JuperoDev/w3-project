@@ -8,9 +8,9 @@
 
     <div
       class="datasheet-desktop__leader--body my-3 pl-5"
-      v-if="!!wargear?.length"
+      v-if="filteredWargear.length"
     >
-      <div v-for="(wargearSet, index) in wargear" :key="index">
+      <div v-for="(wargearSet, index) in filteredWargear" :key="index">
         <p>{{ wargearSet.description }}</p>
         <ul class="pt-2">
           <li
@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div v-if="!wargear?.length" class="px-5 py-2">
+    <div v-if="!filteredWargear.length" class="px-5 py-2">
       <!-- If wargear is false, display "none" -->
       <ul>
         <li>None</li>
@@ -34,7 +34,16 @@
 </template>
 
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
-  wargear: Array,
+  wargear: {
+    type: Array,
+    default: () => []
+  },
+});
+
+const filteredWargear = computed(() => {
+  return props.wargear.filter(wargearSet => !wargearSet.hideInDatasheet);
 });
 </script>

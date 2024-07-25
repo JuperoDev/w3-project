@@ -63,27 +63,27 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"ancient in terminator armour",
             "description": "This model’s power fist can be replaced with one of the following",
             "items": [
                 "chainfist",
-                "1 close combat weapon",
-                "1 power weapon",
-                "1 thunder hammer"
+                "close combat weapon",
+                "power weapon",
+                "thunder hammer"
             ]
         },
-        {
-            "description": "This model’s storm bolter and power fist can be replaced with one of the following",
+        {"miniature":"ancient in terminator armour",
+            "description": "This model’s storm bolter and power fist can be replaced with one of the following: twin lightning claws, thunder hammer and 1 Terminator storm shield",
             "items": [
-                "1 twin lightning claws",
-                "1 thunder hammer and 1 Terminator storm shield"
+                "twin lightning claws",
+                "thunder hammer", "Terminator storm shield"
             ]
         }
     ],
     "meleeWeapons": [
         {
             "name": "Chainfist",
-            "modifiers": "anti-vehicle 3+",
+            "modifiers": ["anti-vehicle 3+"],
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 8,

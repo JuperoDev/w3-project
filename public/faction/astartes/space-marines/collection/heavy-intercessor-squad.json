@@ -83,9 +83,14 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Heavy Intercessors",
             "description": "For every 5 models in this unit, 1 Heavy Intercessor’s heavy bolt rifle can be replaced with 1 heavy bolter.",
-            "items": []
+            "items": ["heavy bolter"]
+        },
+        {"miniature":"Heavy Intercessor Sergeant",
+            "description": "For every 5 models in this unit, 1 Heavy Intercessor’s heavy bolt rifle can be replaced with 1 heavy bolter.",
+            "items": ["heavy bolter"],
+            "hideInDatasheet":true
         }
     ],
     "meleeWeapons": [
@@ -105,15 +110,15 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "heavy bolt pistol","Astartes chainsword"
+                "bolt pistol","heavy bolt rifle", "close combat weapon"
             ]
         },
         {
-            "unitType": "Assault Intercessors",
+            "unitType": "Heavy Intercessors",
             "minQuantity": 4,
             "maxQuantity": 9,
             "equipment": [
-                "heavy bolt pistol","Astartes chainsword"
+                "bolt pistol","heavy bolt rifle", "close combat weapon"
             ]
         }
     ],

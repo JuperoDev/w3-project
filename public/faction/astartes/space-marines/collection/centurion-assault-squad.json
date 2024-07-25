@@ -88,13 +88,23 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Assault Centurion sergeant",
             "description": "Any number of models can each have their twin flamer replaced with 1 twin meltagun.",
-            "items": []
+            "items": ["twin meltagun"],
+            "hideInDatasheet":true
         },
-        {
+        {"miniature":"Assault Centurion sergeant",
             "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion assault launcher.",
-            "items": []
+            "items": ["centurion assault launcher"],
+            "hideInDatasheet":true
+        },
+        {"miniature":"Assault Centurions",
+            "description": "Any number of models can each have their twin flamer replaced with 1 twin meltagun.",
+            "items": ["twin meltagun"]
+        },
+        {"miniature":"Assault Centurions",
+            "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion assault launcher.",
+            "items": ["centurion assault launcher"]
         }
     ],
     "meleeWeapons": [

@@ -90,9 +90,14 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Inceptors",
             "description": "All models in this unit can each have their assault bolters replaced with 1 plasma exterminators.",
-            "items": []
+            "items": ["plasma exterminators"],
+            "hideInDatasheet":true
+        },
+        {"miniature":"Inceptor Sergeant",
+            "description": "All models in this unit can each have their assault bolters replaced with 1 plasma exterminators.",
+            "items": ["plasma exterminators"]
         }
     ],
     "meleeWeapons": [

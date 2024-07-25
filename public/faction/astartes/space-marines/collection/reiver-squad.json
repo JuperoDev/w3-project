@@ -84,21 +84,34 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Reiver Sergeant",
             "description": "All models in this unit can each have their combat knife replaced with 1 bolt carbine and 1 close combat weapon.",
-            "items": []
+            "items": ["bolt carbine","close combat weapon"]
         },
-        {
+        {"miniature":"Reiver Sergeant",
             "description": "If the Reiver Sergeant is equipped with 1 bolt carbine, it can be equipped with 1 combat knife.",
-            "items": []
+            "items": ["combat knife"]
         },
-        {
+        {"miniature":"Reiver Sergeant",
             "description": "All models in this unit can each be equipped with 1 Reiver grav-chute.",
-            "items": []
+            "items": ["Reiver grav-chute"]
         },
-        {
+        {"miniature":"Reiver Sergeant",
             "description": "All models in this unit can each be equipped with 1 grapnel launcher.",
-            "items": []
+            "items": ["grapnel launcher"]
+        },
+        {"miniature":"Reivers",
+            "description": "All models in this unit can each have their combat knife replaced with 1 bolt carbine and 1 close combat weapon.",
+            "items": ["bolt carbine","close combat weapon"],"hideInDatasheet":true
+        }
+        ,
+        {"miniature":"Reivers",
+            "description": "All models in this unit can each be equipped with 1 Reiver grav-chute.",
+            "items": ["Reiver grav-chute"],"hideInDatasheet":true
+        },
+        {"miniature":"Reivers",
+            "description": "All models in this unit can each be equipped with 1 grapnel launcher.",
+            "items": ["grapnel launcher"],"hideInDatasheet":true
         }
     ],
     "meleeWeapons": [

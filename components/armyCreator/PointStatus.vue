@@ -40,8 +40,8 @@
   <style scoped>
   .status {
     position: fixed;
-    bottom: 5rem;  
-    right: 1rem;   
+    bottom:4rem;  
+    right: 5rem;   
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -5,7 +5,10 @@
       <h2 class="text-lg font-semibold">Other</h2>
       <span>Total Points: {{ totalPoints }}</span>
     </div>
+    {{ selectedDetachment }}
     <UnitDialog 
+    
+      :selectedDetachment="selectedDetachment"
       :title="'Select Other Units'" 
       :units="units" 
       :unitCounts="unitCounts"
@@ -72,7 +75,11 @@ import EquipmentList from './EquipmentList.vue';
 
 const props = defineProps({
   url: { type: String, required: true },
-  armyIndex: { type: Number, required: true }
+  armyIndex: { type: Number, required: true },
+  selectedDetachment: {
+    type: String,
+    required: true
+  }
 });
 
 const emit = defineEmits(['update-total-points']);

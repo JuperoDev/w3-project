@@ -13,6 +13,7 @@
           </v-btn>
         </v-card-title>
         <v-card-text>
+          {{ selectedDetachment }}
           <v-text-field v-model="search" label="Search" class="mb-4"></v-text-field>
           <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2">
             <p><strong>{{ unit.unitName }}:</strong> {{ unit.basicPoints }} points</p>
@@ -44,6 +45,10 @@ const props = defineProps({
   unitCounts: {
     type: Object,
     default: () => ({})
+  },
+  selectedDetachment: {
+    type: String,
+    required: true
   }
 });
 
@@ -52,11 +57,25 @@ const emit = defineEmits(['close', 'add-unit']);
 const dialog = ref(false);
 const search = ref('');
 
+// Function to sanitize detachment names
+const sanitizeDetachmentName = (name) => {
+  return name.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+};
+
 const filteredUnits = computed(() => {
-  if (!search.value) return props.units;
-  return props.units.filter(unit =>
-    unit.unitName.toLowerCase().includes(search.value.toLowerCase())
-  );
+  const sanitizedDetachment = sanitizeDetachmentName(props.selectedDetachment);
+
+  return props.units.filter(unit => {
+    const showInDetachment = unit.showInDetachment ? unit.showInDetachment.split(',') : [];
+    const hideInDetachment = unit.hideInDetachment ? unit.hideInDetachment.split(',') : [];
+
+    // Check if the unit should be shown based on showInDetachment and hideInDetachment fields
+    const isShown = (showInDetachment.length === 0 || showInDetachment.includes(sanitizedDetachment))
+      && !hideInDetachment.includes(sanitizedDetachment);
+
+    // Filter by search query
+    return isShown && (!search.value || unit.unitName.toLowerCase().includes(search.value.toLowerCase()));
+  });
 });
 
 const openDialog = () => {
@@ -84,3 +103,4 @@ const addUnit = (unit) => {
 
 <style scoped>
 </style>
+

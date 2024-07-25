@@ -5,8 +5,10 @@
       <h2 class="text-lg font-semibold">Battleline</h2>
       <span>Total Points: {{ totalPoints }}</span>
     </div>
+    {{ selectedDetachment }}
     <UnitDialog 
-      :title="'Select Battleline'" 
+      :title="'Select Battleline'"
+      :selectedDetachment="selectedDetachment" 
       :units="units" 
       :unitCounts="unitCounts"
       @add-unit="addUnitToArmy" 
@@ -71,7 +73,11 @@ import EquipmentList from './EquipmentList.vue';
 
 const props = defineProps({
   url: { type: String, required: true },
-  armyIndex: { type: Number, required: true }
+  armyIndex: { type: Number, required: true },
+  selectedDetachment: {
+    type: String,
+    required: true
+  }
 });
 
 const emit = defineEmits(['update-total-points']);

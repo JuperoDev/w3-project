@@ -31,12 +31,14 @@
     <Battleline 
       :url="sanitizedUrl" 
       :armyIndex="armyIndex" 
+      :selectedDetachment="selectedDetachment"
       class="mt-4"
       @update-total-points="updateBattlelinePoints"
       @update-units="updateBattlelineUnits"
     />
     <Other 
       :url="sanitizedUrl" 
+      :selectedDetachment="selectedDetachment"
       :armyIndex="armyIndex" 
       class="mt-4"
       @update-total-points="updateOtherPoints"

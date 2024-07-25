@@ -5,7 +5,7 @@
       <h2 class="text-lg font-semibold">Other</h2>
       <span>Total Points: {{ totalPoints }}</span>
     </div>
-    {{ selectedDetachment }}
+    <!-- {{ selectedDetachment }} -->
     <UnitDialog 
     
       :selectedDetachment="selectedDetachment"

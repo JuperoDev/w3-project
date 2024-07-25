@@ -4,7 +4,7 @@
       <h2 class="text-lg font-semibold">Characters</h2>
       <span>Total Points: {{ totalPoints }}</span>
     </div>
-    {{ selectedDetachment }}
+    <!-- {{ selectedDetachment }} -->
 
     <UnitDialog 
     

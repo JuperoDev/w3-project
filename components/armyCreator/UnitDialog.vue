@@ -13,7 +13,7 @@
           </v-btn>
         </v-card-title>
         <v-card-text>
-          {{ selectedDetachment }}
+          <!-- {{ selectedDetachment }} -->
           <v-text-field v-model="search" label="Search" class="mb-4"></v-text-field>
           <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2">
             <p><strong>{{ unit.unitName }}:</strong> {{ unit.basicPoints }} points</p>

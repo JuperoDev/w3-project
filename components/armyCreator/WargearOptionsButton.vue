@@ -1,6 +1,7 @@
 <template>
   <div>
     <span 
+      v-if="hasWargear"
       class="text-sm text-blue-500 cursor-pointer hover:underline" 
       @click="dialog = true"
     >
@@ -17,7 +18,7 @@
               <div v-for="(wargearGroup, index) in groupedWargear" :key="index" class="wargear-group dark-border">
                 <h3 class="miniature-name">{{ wargearGroup.miniature }}</h3>
                 <div v-if="wargearGroup.defaultWargear.length" class="my-2">
-                  <h4> <strong>Default Equipment</strong></h4>
+                  <h4><strong>Default Equipment</strong></h4>
                   <ul>
                     <li v-for="item in wargearGroup.defaultWargear" :key="getUniqueKey(wargearGroup.miniature, item)" class="flex items-center justify-between">
                       <span><small>{{ item }}</small></span>
@@ -65,7 +66,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 
 const props = defineProps({
   url: { type: String, required: true },
@@ -152,6 +153,8 @@ const saveWargear = () => {
 onMounted(fetchWargearData);
 
 watch(() => props.url, fetchWargearData);
+
+const hasWargear = computed(() => wargearOptions.value.length > 0);
 </script>
 
 <style scoped>

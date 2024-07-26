@@ -14,6 +14,7 @@
         :characterUnits="characterUnits"
         :battlelineUnits="battlelineUnits"
         :otherUnits="otherUnits"
+        :dedicatedTransportUnits="dedicatedTransportUnits"
       />
     </div>
 
@@ -35,6 +36,15 @@
       @update-total-points="updateBattlelinePoints"
       @update-units="updateBattlelineUnits"
     />
+    <DedicatedTransports
+      :url="sanitizedUrl"
+      :selectedDetachment="selectedDetachment"
+      :armyIndex="armyIndex"
+      class="mt-4"
+      @update-total-points="updateDedicatedTransportPoints"
+      @update-units="updateDedicatedTransportUnits"
+    />
+    
     <Other 
       :url="sanitizedUrl" 
       :selectedDetachment="selectedDetachment"
@@ -43,6 +53,7 @@
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />
+   
 
     <!-- PointStatus component -->
     <PointStatus :totalPoints="totalPoints" :pointList="pointList" />
@@ -54,6 +65,7 @@ import { ref, computed } from 'vue';
 import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';
+import DedicatedTransports from './DedicatedTransports.vue';  // Import the new component
 import ArmyExporter from './ArmyExporter.vue';
 import PointStatus from './PointStatus.vue';  // Import the new component
 
@@ -91,13 +103,15 @@ const props = defineProps({
 const characterPoints = ref(0);
 const battlelinePoints = ref(0);
 const otherPoints = ref(0);
+const dedicatedTransportPoints = ref(0); // Add this
 
 const characterUnits = ref([]);
 const battlelineUnits = ref([]);
 const otherUnits = ref([]);
+const dedicatedTransportUnits = ref([]); // Add this
 
 const totalPoints = computed(() => {
-  return characterPoints.value + battlelinePoints.value + otherPoints.value;
+  return characterPoints.value + battlelinePoints.value + otherPoints.value + dedicatedTransportPoints.value; // Include this
 });
 
 const updateCharacterPoints = (points) => {
@@ -112,6 +126,10 @@ const updateOtherPoints = (points) => {
   otherPoints.value = points;
 };
 
+const updateDedicatedTransportPoints = (points) => { // Add this
+  dedicatedTransportPoints.value = points;
+};
+
 const updateCharacterUnits = (units) => {
   characterUnits.value = units;
 };
@@ -122,6 +140,10 @@ const updateBattlelineUnits = (units) => {
 
 const updateOtherUnits = (units) => {
   otherUnits.value = units;
+};
+
+const updateDedicatedTransportUnits = (units) => { // Add this
+  dedicatedTransportUnits.value = units;
 };
 
 const sanitizedUrl = computed(() => {

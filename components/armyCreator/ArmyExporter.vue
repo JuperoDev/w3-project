@@ -1,4 +1,3 @@
-<!-- ArmyExporter.vue -->
 <template>
   <div>
     <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600" min-width="380px">
@@ -69,6 +68,13 @@ const formatArmyDetails = (army) => {
     });
   }
 
+  if (army.dedicatedTransportUnits.length > 0) { // Add this section
+    result += `DEDICATED TRANSPORTS\n`;
+    army.dedicatedTransportUnits.forEach(unit => {
+      result += formatUnitDetails(unit) + '\n';
+    });
+  }
+
   if (army.otherUnits.length > 0) {
     result += `OTHER DATASHEETS\n`;
     army.otherUnits.forEach(unit => {
@@ -83,15 +89,15 @@ const formatArmyDetails = (army) => {
 
 const formatUnitDetails = (unit) => {
   let result = `${unit.unitName} (${unit.basicPoints} Points)\n`;
-  
+
   if (unit.isWarlord) {
     result += `[Warlord]\n`;
   }
-  
+
   if (unit.composition && unit.composition.length > 0) {
     unit.composition.forEach(comp => {
       result += `• ${comp.quantity}x ${comp.unitType}\n`;
-      
+
       // Group equipment by unit type
       const equipmentForType = Object.entries(unit.equipmentQuantities)
         .filter(([key, quantity]) => key.startsWith(comp.unitType) && quantity > 0)
@@ -99,7 +105,7 @@ const formatUnitDetails = (unit) => {
           const equipment = key.split('_')[1];
           return `${quantity}x ${equipment}`;
         });
-      
+
       if (equipmentForType.length > 0) {
         result += equipmentForType.map(item => `  ◦ ${item}`).join('\n') + '\n';
       }
@@ -109,7 +115,16 @@ const formatUnitDetails = (unit) => {
   if (unit.selectedEnhancement) {
     result += `• Enhancements: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)\n`;
   }
-  
+
+  // Add wargear information
+  if (unit.equipmentQuantities && Object.keys(unit.equipmentQuantities).length > 0) {
+    result += `• Wargear:\n`;
+    Object.entries(unit.equipmentQuantities).forEach(([key, quantity]) => {
+      const equipment = key.split('_')[1];
+      result += `  ◦ ${quantity}x ${equipment}\n`;
+    });
+  }
+
   return result;
 };
 

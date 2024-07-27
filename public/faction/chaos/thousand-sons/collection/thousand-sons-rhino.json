@@ -11,7 +11,6 @@
             "invulnerableSave": 0
         }
     ],
-    "lore": "Many of the Rhino APCs employed by the Thousand Sons are ancient vehicles, their once-noble machine spirits saturated by the malice of the warp, their hulls mutated and discoloured by the energies of unfettered change. Still they bear the foot soldiers of Tzeentch swiftly into battle, guns hammering as they go.",
     "meleeWeapons": [
         {
             "name": "Armoured tracks",
@@ -37,15 +36,18 @@
         "Thousand Sons"
     ],
     "wargear": [
-        {
+        { "miniature": "thousand sons rhino",
             "description": "This model can be equipped with one of the following:",
             "items": [
-                "1 additional combi-bolter",
+                "additional combi-bolter",
                 "combi-weapon"
             ]
         },
-        {
-            "description": "This model can be equipped with 1 havoc launcher."
+        { "miniature": "thousand sons rhino",
+            "description": "This model can be equipped with 1 havoc launcher.",
+            "items": [
+                "havoc launcher"
+            ]
         }
     ],
     "abilities": {
@@ -53,7 +55,8 @@
             "Deadly Demise D3",
             "Firing Deck 2"
         ],
-        "faction": [],
+        "faction": [
+        ],
         "otherAbilities": [
             {
                 "name": "Self Repair",
@@ -64,9 +67,12 @@
     "damaged": {},
     "unitComposition": [
         {
-            "unitType": "Thousand Sons Rhino",
+            "unitType": "thousand sons rhino",
             "minQuantity": 1,
-            "maxQuantity": 1
+            "maxQuantity": 1,
+            "equipment": [
+                " inferno combi-bolter","armoured tracks"
+            ]
         }
     ],
     "options": [
@@ -82,24 +88,24 @@
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Inferno Combi-bolter",
+            "name": "Combi-bolter",
             "range": 24,
             "attacks": 2,
             "ballistic-skills": 3,
             "strength": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "modifiers": [
                 "rapid fire 2"
             ]
         },
         {
-            "name": "Inferno Combi-weapon",
+            "name": "Combi-weapon",
             "range": 24,
             "attacks": 1,
             "ballistic-skills": 4,
             "strength": 4,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "modifiers": [
                 "anti-infantry 4+",
@@ -120,5 +126,5 @@
             ]
         }
     ],
-    "transport": "This model has a transport capacity of 12 Thousand Sons INFANTRY models. (excluding CULTIST, TZAANGOR and TERMINATOR models)."
+    "transport": "This model has a transport capacity of 12 Thousand Sons INFANTRY models. (excluding CULTIST, TZAANGOR and TERMINATOR models)"
 }

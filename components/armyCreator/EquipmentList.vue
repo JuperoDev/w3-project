@@ -2,9 +2,9 @@
 <template>
   <div>
     <div v-for="(details, unitType) in formattedEquipment" :key="unitType">
-      <h5>{{ details.count }}x {{ unitType }}</h5>
+      <h5 class="my-2">{{ details.count }}x {{ unitType }}</h5>
       <ul>
-        <li v-for="(quantity, item) in details.equipment" :key="item" class="ml-2">
+        <li v-for="(quantity, item) in details.equipment" :key="item" class="ml-5">
           {{ item }} x{{ quantity }}
         </li>
       </ul>

@@ -1,15 +1,16 @@
 <template>
   <div class="bg-gray-50 m-2 p-2  rounded-lg shadow-md text-zinc-900">
-    <div class="armyType__container rounded-md bg-zinc-700 text-white flex justify-between items-center p-2 sticky-container">
+    <div class="armyType__container  bg-zinc-700 text-white flex justify-between items-center p-2 sticky-container">
       <div class="armytype-button__container">
+        <!-- rounded-md -->
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-3">Characters</h2>
-          <UnitDialog 
+          <UnitDialog
             :selectedDetachment="selectedDetachment"
-            :title="'Select Characters'" 
-            :units="units" 
+            :title="'Select Characters'"
+            :units="units"
             :unitCounts="unitCounts"
-            @add-unit="addUnitToArmy" 
+            @add-unit="addUnitToArmy"
           />
         </div>
         <span><small>Total Points: {{ totalPoints }}</small></span>
@@ -17,6 +18,7 @@
     </div>
     <!-- {{ selectedDetachment }} -->
     <div v-if="army.length" class="mt-4 p-2">
+      <!-- <h3 class="text-lg font-semibold">Army Characters:</h3> -->
       <ul>
         <li v-for="unit in army" :key="unit.id" class="border-solid rounded-t-lg border-b-2 border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
@@ -35,8 +37,8 @@
               Delete
             </span>
             <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
-            <WargearOptionsButton 
-              :url="constructUnitUrl(url, unit.unitName)" 
+            <WargearOptionsButton
+              :url="constructUnitUrl(url, unit.unitName)"
               :armyIndex="armyIndex"
               :initialWargear="unit.equipmentQuantities"
               :unitName="unit.unitName"
@@ -47,7 +49,7 @@
             </span>
           </div>
           <template v-if="!unit.isEpicHero">
-            <Enhancements 
+            <Enhancements
               :enhancementUrl="generateEnhancementUrl(selectedFaction, selectedArmy, selectedDetachment)"
               :initialSelectedEnhancement="unit.selectedEnhancement"
               @update-enhancement="updateEnhancement(unit.id, $event)"
@@ -58,8 +60,8 @@
             <strong>Enhancement:</strong> {{ unit.selectedEnhancement.name }} ({{ unit.selectedEnhancement.points }} points)
           </div>
           <div class="mt-2 ml-4">
-            <EquipmentList 
-              :equipment="unit.equipment" 
+            <EquipmentList
+              :equipment="unit.equipment"
               :equipmentQuantities="unit.equipmentQuantities || {}"
               :unitName="unit.unitName"
               :unitTypes="unit.unitTypes"
@@ -147,9 +149,9 @@ const addUnitToArmy = async (unit) => {
     const unitData = await response.json();
 
     const selectedOption = unitData.options[0];
-    const unitWithId = { 
-      ...unit, 
-      id: uniqueId, 
+    const unitWithId = {
+      ...unit,
+      id: uniqueId,
       url: unit.url || props.url,
       composition: selectedOption.count.map((count, index) => ({
         unitType: unitData.unitComposition[index].unitType,
@@ -190,7 +192,7 @@ const updateUnitOption = (unitId, optionData) => {
       composition: optionData.composition,
       basicPoints: parseInt(optionData.points) || 0
     };
-    
+
     armyStore.updateCharacterUnitInArmy(props.armyIndex, unitId, updatedUnit);
     syncArmyWithStore();
   }
@@ -211,7 +213,7 @@ const loadUnits = () => {
 const constructUnitUrl = (baseUrl, unitName) => {
   const sanitizedUnitName = unitName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   const baseUrlParts = baseUrl.split('/');
-  baseUrlParts.pop(); 
+  baseUrlParts.pop();
   return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;
 };
 
@@ -231,12 +233,12 @@ const generateEnhancementUrl = (faction, army, detachment) => {
 const updateEnhancement = (unitId, enhancement) => {
   const unitIndex = army.value.findIndex(unit => unit.id === unitId);
   if (unitIndex !== -1) {
-    const updatedUnit = { 
-      ...army.value[unitIndex], 
+    const updatedUnit = {
+      ...army.value[unitIndex],
       selectedEnhancement: enhancement ? {
         ...enhancement,
         points: parseInt(enhancement.points) || 0
-      } : null 
+      } : null
     };
     armyStore.updateCharacterUnitInArmy(props.armyIndex, unitId, updatedUnit);
     syncArmyWithStore();

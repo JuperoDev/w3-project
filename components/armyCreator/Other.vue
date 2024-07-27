@@ -1,7 +1,7 @@
 <!-- other -->
 <template>
   <div class="bg-gray-50 p-2 m-2 rounded-lg shadow-md text-zinc-900">
-    <div class="armyType__container sticky-container rounded-md p-2 bg-zinc-700 text-white flex justify-between items-center">
+    <div class="armyType__container sticky-container p-2 bg-zinc-700 text-white flex justify-between items-center">
       <div class="armytype-button__container">
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-5">Other</h2>

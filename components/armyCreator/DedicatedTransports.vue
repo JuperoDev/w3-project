@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-50 m-2 p-2 rounded-lg shadow-md text-zinc-900">
-    <div class="armyType__container sticky-container bg-zinc-700 text-white flex justify-between items-center rounded-md p-2">
+    <div class="armyType__container sticky-container bg-zinc-700 text-white flex justify-between items-center  p-2">
       <div class="armytype-button__container">
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-3">Dedicated Transports</h2>

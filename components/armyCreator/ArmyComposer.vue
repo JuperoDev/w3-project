@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header flex justify-between items-center mb-4">
-      <div class="px-3 py-2">
+      <div class="px-3 py-2 ml-1">
         <p><strong>Name:</strong> {{ name }}</p>
         <p class="capitalize"><strong >Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>

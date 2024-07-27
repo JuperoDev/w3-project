@@ -6,14 +6,14 @@
           <span class="headline">Army Details</span>
         </v-card-title>
         <v-card-text>
-          <v-btn color="primary" @click="copyFormattedArmyDetails" class="mb-4">
+          <v-btn  @click="copyFormattedArmyDetails" class="mb-4">
             Copy to Clipboard
           </v-btn>
           <pre class="formatted-army-details">{{ formattedDetails }}</pre>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn color="primary" @click="dialog = false">
+          <v-btn  @click="dialog = false">
             Close
           </v-btn>
         </v-card-actions>

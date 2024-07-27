@@ -28,7 +28,7 @@
             <span>
               <span class="font-semibold">{{ unit.unitName }}</span
                 >
-              ({{ unitPoints(unit) }} points) <span v-if="unit.isWarlord" class="text-yellow-500 font-bold ml-2">
+              ({{ unitPoints(unit) }} points) <span v-if="unit.isWarlord" class="text-zinc-800 font-bold ml-2">
                 [Warlord]
               </span>
               <p v-if="unit.composition">

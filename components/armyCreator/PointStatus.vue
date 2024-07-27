@@ -50,6 +50,7 @@
     border: solid rgb(55, 55, 55) 1px;
     /* border-radius: 0.5rem; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 11;
   }
   .icon-container {
     width: 25%;

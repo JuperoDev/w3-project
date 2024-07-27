@@ -1,39 +1,31 @@
 <!-- other -->
 <template>
- <div class="bg-gray-50 p-2 m-2 rounded-lg shadow-md text-zinc-900">
-    <div
-      class="armyType__container rounded-md p-2 bg-zinc-700 text-white flex justify-between items-center"
-    >
+  <div class="bg-gray-50 p-2 m-2 rounded-lg shadow-md text-zinc-900">
+    <div class="armyType__container sticky-container rounded-md p-2 bg-zinc-700 text-white flex justify-between items-center">
       <div class="armytype-button__container">
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-5">Other</h2>
           <UnitDialog 
-    
-    :selectedDetachment="selectedDetachment"
-    :title="'Select Other Units'" 
-    :units="units" 
-    :unitCounts="unitCounts"
-    @add-unit="addUnitToArmy" 
-  />
+            :selectedDetachment="selectedDetachment"
+            :title="'Select Other Units'" 
+            :units="units" 
+            :unitCounts="unitCounts"
+            @add-unit="addUnitToArmy" 
+          />
         </div>
-
-        <span
-          ><small>Total Points: {{ totalPoints }}</small></span
-        >
+        <span><small>Total Points: {{ totalPoints }}</small></span>
       </div>
     </div>
     <!-- {{ selectedDetachment }} -->
-   
     <div v-if="army.length" class="mt-4">
       <!-- <h3 class="text-lg font-semibold">Army Units:</h3> -->
       <ul>
-        <li v-for="unit in army" :key="unit.id" class="border-solid border-b-2 border-zinc-500 rounded-t-lg bg-zinc-100 p-2 flex flex-col mb-4"
-        >
+        <li v-for="unit in army" :key="unit.id" class="border-solid border-b-2 border-zinc-500 rounded-t-lg bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
             <span>
               <p>
-                <span class="font-semibold">{{ unit.unitName }}</span
-                ><span> ({{ unit.basicPoints }} points)</span>
+                <span class="font-semibold">{{ unit.unitName }}</span>
+                <span> ({{ unit.basicPoints }} points)</span>
               </p>
               <p v-if="unit.composition">
                 {{ getCompositionString(unit.composition) }}
@@ -241,5 +233,12 @@ watch(() => props.armyIndex, loadUnits);
 <style scoped>
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.sticky-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  z-index: 10;
 }
 </style>

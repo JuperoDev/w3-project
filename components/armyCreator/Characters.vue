@@ -1,47 +1,37 @@
 <template>
-   <div class="bg-gray-50 m-2 p-2  rounded-lg shadow-md text-zinc-900">
-    <div class="armyType__container rounded-md bg-zinc-700 text-white flex justify-between items-center p-2">
+  <div class="bg-gray-50 m-2 p-2  rounded-lg shadow-md text-zinc-900">
+    <div class="armyType__container rounded-md bg-zinc-700 text-white flex justify-between items-center p-2 sticky-container">
       <div class="armytype-button__container">
-  <div class="flex items-center">
-    <h2 class="text-lg font-semibold mr-3">Characters</h2>
-    <UnitDialog 
-    
-    :selectedDetachment="selectedDetachment"
-    :title="'Select Characters'" 
-    :units="units" 
-    :unitCounts="unitCounts"
-    @add-unit="addUnitToArmy" 
-  />
-  </div>
- 
-  <span><small>Total Points: {{ totalPoints }}</small></span>
-</div>
+        <div class="flex items-center">
+          <h2 class="text-lg font-semibold mr-3">Characters</h2>
+          <UnitDialog 
+            :selectedDetachment="selectedDetachment"
+            :title="'Select Characters'" 
+            :units="units" 
+            :unitCounts="unitCounts"
+            @add-unit="addUnitToArmy" 
+          />
+        </div>
+        <span><small>Total Points: {{ totalPoints }}</small></span>
+      </div>
     </div>
     <!-- {{ selectedDetachment }} -->
-
-   
     <div v-if="army.length" class="mt-4 p-2">
-      <!-- <h3 class="text-lg font-semibold">Army Characters:</h3> -->
       <ul>
         <li v-for="unit in army" :key="unit.id" class="border-solid rounded-t-lg border-b-2 border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
             <span>
-              <span class="font-semibold">{{ unit.unitName }}</span
-                >
+              <span class="font-semibold">{{ unit.unitName }}</span>
               ({{ unitPoints(unit) }} points) <span v-if="unit.isWarlord" class="text-zinc-800 font-bold ml-2">
                 [Warlord]
               </span>
               <p v-if="unit.composition">
                 {{ getCompositionString(unit.composition) }}
               </p>
-              
             </span>
           </div>
           <div class="flex items-center mt-2 space-x-2">
-            <span 
-              class="text-sm text-blue-500 cursor-pointer hover:underline" 
-              @click="removeUnitFromArmy(unit.id)"
-            >
+            <span class="text-sm text-blue-500 cursor-pointer hover:underline" @click="removeUnitFromArmy(unit.id)">
               Delete
             </span>
             <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
@@ -52,10 +42,7 @@
               :unitName="unit.unitName"
               @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
             />
-            <span 
-              class="text-sm text-blue-500 cursor-pointer hover:underline" 
-              @click="toggleWarlord(unit.id)"
-            >
+            <span class="text-sm text-blue-500 cursor-pointer hover:underline" @click="toggleWarlord(unit.id)">
               {{ unit.isWarlord ? '' : 'Set as Warlord' }}
             </span>
           </div>
@@ -299,5 +286,14 @@ watch(() => props.armyIndex, loadUnits);
 <style scoped>
 .mb-4 {
   margin-bottom: 1rem;
+}
+</style>
+
+<style scoped>
+.sticky-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  z-index: 10;
 }
 </style>

@@ -1,9 +1,6 @@
-<!-- battle line  -->
 <template>
   <div class="bg-gray-50 m-2 p-2 rounded-lg shadow-md text-zinc-900">
-    <div
-      class="armyType__container rounded-md p-2 bg-zinc-700 text-white flex justify-between items-center"
-    >
+    <div class="armyType__container sticky-container rounded-md p-2 bg-zinc-700 text-white flex justify-between items-center">
       <div class="armytype-button__container">
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-5">Battleline</h2>
@@ -15,10 +12,7 @@
             @add-unit="addUnitToArmy"
           />
         </div>
-
-        <span
-          ><small>Total Points: {{ totalPoints }}</small></span
-        >
+        <span><small>Total Points: {{ totalPoints }}</small></span>
       </div>
     </div>
     <!-- {{ selectedDetachment }} -->
@@ -26,16 +20,12 @@
     <div v-if="army.length" class="mt-4">
       <!-- <h3 class="text-lg font-semibold">Army Units:</h3> -->
       <ul>
-        <li
-          v-for="unit in army"
-          :key="unit.id"
-          class="border-solid border-b-2 rounded-t-lg border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4"
-        >
+        <li v-for="unit in army" :key="unit.id" class="border-solid border-b-2 rounded-t-lg border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
             <span>
               <p>
-                <span class="font-semibold">{{ unit.unitName }}</span
-                ><span> ({{ unit.basicPoints }} points)</span>
+                <span class="font-semibold">{{ unit.unitName }}</span>
+                <span> ({{ unit.basicPoints }} points)</span>
               </p>
               <p v-if="unit.composition">
                 {{ getCompositionString(unit.composition) }}
@@ -43,20 +33,14 @@
             </span>
           </div>
           <div class="flex items-center mt-2 space-x-2">
-            <span
-              class="text-sm text-blue-500 cursor-pointer hover:underline"
-              @click="removeUnitFromArmy(unit.id)"
-            >
+            <span class="text-sm text-blue-500 cursor-pointer hover:underline" @click="removeUnitFromArmy(unit.id)">
               Delete
             </span>
             <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
             <UnitOptionsDialog
               :unitName="unit.unitName"
               :url="constructUnitUrl(url, unit.unitName)"
-              :currentOption="{
-                points: unit.basicPoints,
-                composition: unit.composition,
-              }"
+              :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
               @update-unit-option="updateUnitOption(unit.id, $event)"
             />
             <WargearOptionsButton
@@ -64,9 +48,7 @@
               :armyIndex="armyIndex"
               :initialWargear="unit.equipmentQuantities"
               :unitName="unit.unitName"
-              @update-wargear-quantities="
-                updateWargearQuantities(unit.id, $event)
-              "
+              @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
             />
           </div>
           <div class="mt-2 ml-4 mb-1">
@@ -258,5 +240,14 @@ watch(() => props.armyIndex, loadUnits);
 <style scoped>
 .mb-4 {
   margin-bottom: 1rem;
+}
+</style>
+
+<style scoped>
+.sticky-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  z-index: 10;
 }
 </style>

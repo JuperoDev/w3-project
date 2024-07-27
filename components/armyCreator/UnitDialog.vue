@@ -1,20 +1,23 @@
 <template>
   <div>
     <button @click="openDialog" class="border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded my-2 text-sm">
-  +
-</button>
+      +
+    </button>
     <v-dialog v-model="dialog" max-width="600px">
       <v-card>
-        <v-card-title>
-          <span class="text-h5">{{ title }}</span>
-          <v-spacer></v-spacer>
-          <v-btn icon @click="closeDialog">
-            <v-icon>mdi-close</v-icon>
-          </v-btn>
-        </v-card-title>
+        <div class="sticky-header">
+          <v-card-title class="d-flex justify-space-between align-center">
+            <span class="text-h5" style="margin-top: 20px;">{{ title }}</span>
+            <v-spacer></v-spacer>
+            <button @click="closeDialog" class="plain-button">
+              &times;
+            </button>
+          </v-card-title>
+          <div class="sticky-search">
+            <v-text-field v-model="search" label="Search" class=" centered-search"></v-text-field>
+          </div>
+        </div>
         <v-card-text>
-          <!-- {{ selectedDetachment }} -->
-          <v-text-field v-model="search" label="Search" class="mb-4"></v-text-field>
           <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2">
             <p><strong>{{ unit.unitName }}:</strong> {{ unit.basicPoints }} points</p>
             <p>Count in army: {{ unitCounts[unit.unitName] || 0 }}</p>
@@ -102,5 +105,33 @@ const addUnit = (unit) => {
 </script>
 
 <style scoped>
-</style>
+.plain-button {
+  border: none;
+  background: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
+.plain-button:hover {
+  color: grey;
+}
 
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  padding-top: 10px; /* Adjust padding for when it gets sticky */
+  padding-bottom: 10px;
+}
+
+.sticky-search {
+  background-color: white;
+  z-index: 1;
+}
+
+.centered-search {
+  width: 95%; 
+  margin: 0 auto; /* Center div */
+}
+</style>

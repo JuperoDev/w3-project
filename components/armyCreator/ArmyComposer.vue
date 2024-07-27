@@ -1,14 +1,13 @@
 <template>
   <div>
     <div class="header flex justify-between items-center mb-4">
-      <div>
+      <div class="px-3 py-2">
         <p><strong>Name:</strong> {{ name }}</p>
-        <p><strong>Army:</strong> {{ selectedArmy }}</p>
+        <p class="capitalize"><strong >Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>
-        <p><strong>Detachment:</strong> {{ selectedDetachment }}</p>
+        <p class="capitalize"><strong >Detachment:</strong> {{ selectedDetachment }}</p>
         <p><strong>Total Points:</strong> {{ totalPoints }}</p>
-      </div>
-      <ArmyExporter 
+        <ArmyExporter 
         :armyIndex="armyIndex" 
         :totalPoints="totalPoints"
         :characterUnits="characterUnits"
@@ -16,6 +15,8 @@
         :otherUnits="otherUnits"
         :dedicatedTransportUnits="dedicatedTransportUnits"
       />
+      </div>
+      
     </div>
 
     <Characters 
@@ -154,5 +155,12 @@ const sanitizedUrl = computed(() => {
 <style scoped>
 .header {
   margin-bottom: 1rem;
+}
+</style>
+
+<style>
+.armyType__container{
+
+padding: 15px 15px 15px 15px;
 }
 </style>

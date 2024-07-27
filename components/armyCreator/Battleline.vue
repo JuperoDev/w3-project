@@ -1,56 +1,77 @@
 <!-- battle line  -->
 <template>
-  <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
-    <div class="flex justify-between items-center">
-      <h2 class="text-lg font-semibold">Battleline</h2>
-      <span>Total Points: {{ totalPoints }}</span>
+  <div class="bg-gray-50 m-2 p-2 rounded-lg shadow-md text-zinc-900">
+    <div
+      class="armyType__container rounded-md p-2 bg-zinc-700 text-white flex justify-between items-center"
+    >
+      <div class="armytype-button__container">
+        <div class="flex items-center">
+          <h2 class="text-lg font-semibold mr-5">Battleline</h2>
+          <UnitDialog
+            :title="'Select Battleline'"
+            :selectedDetachment="selectedDetachment"
+            :units="units"
+            :unitCounts="unitCounts"
+            @add-unit="addUnitToArmy"
+          />
+        </div>
+
+        <span
+          ><small>Total Points: {{ totalPoints }}</small></span
+        >
+      </div>
     </div>
     <!-- {{ selectedDetachment }} -->
-    <UnitDialog 
-      :title="'Select Battleline'"
-      :selectedDetachment="selectedDetachment" 
-      :units="units" 
-      :unitCounts="unitCounts"
-      @add-unit="addUnitToArmy" 
-    />
+
     <div v-if="army.length" class="mt-4">
-      <h3 class="text-lg font-semibold">Army Units:</h3>
+      <!-- <h3 class="text-lg font-semibold">Army Units:</h3> -->
       <ul>
-        <li v-for="unit in army" :key="unit.id" class="flex flex-col mb-4">
+        <li
+          v-for="unit in army"
+          :key="unit.id"
+          class="border-solid border-b-2 rounded-t-lg border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4"
+        >
           <div>
             <span>
-              {{ unit.unitName }} 
-              ({{ unit.basicPoints }} points)
-               <p v-if="unit.composition">
-                 {{ getCompositionString(unit.composition) }}
-              </p> 
+              <p>
+                <span class="font-semibold">{{ unit.unitName }}</span
+                ><span> ({{ unit.basicPoints }} points)</span>
+              </p>
+              <p v-if="unit.composition">
+                {{ getCompositionString(unit.composition) }}
+              </p>
             </span>
           </div>
           <div class="flex items-center mt-2 space-x-2">
-            <span 
-              class="text-sm text-blue-500 cursor-pointer hover:underline" 
+            <span
+              class="text-sm text-blue-500 cursor-pointer hover:underline"
               @click="removeUnitFromArmy(unit.id)"
             >
               Delete
             </span>
             <UnitInfoDialog :url="constructUnitUrl(url, unit.unitName)" />
-            <UnitOptionsDialog 
+            <UnitOptionsDialog
               :unitName="unit.unitName"
               :url="constructUnitUrl(url, unit.unitName)"
-              :currentOption="{ points: unit.basicPoints, composition: unit.composition }"
+              :currentOption="{
+                points: unit.basicPoints,
+                composition: unit.composition,
+              }"
               @update-unit-option="updateUnitOption(unit.id, $event)"
             />
-            <WargearOptionsButton 
-              :url="constructUnitUrl(url, unit.unitName)" 
+            <WargearOptionsButton
+              :url="constructUnitUrl(url, unit.unitName)"
               :armyIndex="armyIndex"
               :initialWargear="unit.equipmentQuantities"
               :unitName="unit.unitName"
-              @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
+              @update-wargear-quantities="
+                updateWargearQuantities(unit.id, $event)
+              "
             />
           </div>
-          <div class="mt-2 ml-4">
-            <EquipmentList 
-              :equipment="unit.equipment" 
+          <div class="mt-2 ml-4 mb-1">
+            <EquipmentList
+              :equipment="unit.equipment"
               :equipmentQuantities="unit.equipmentQuantities || {}"
               :unitTypes="unit.unitTypes"
               :unitComposition="unit.composition"
@@ -63,24 +84,24 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from 'vue';
-import { useArmyStorage } from '@/stores/armyStorage';
-import UnitDialog from './UnitDialog.vue';
-import UnitInfoDialog from './UnitInfoDialog.vue';
-import UnitOptionsDialog from './UnitOptionsDialog.vue';
-import WargearOptionsButton from './WargearOptionsButton.vue';
-import EquipmentList from './EquipmentList.vue';
+import { ref, onMounted, watch, computed } from "vue";
+import { useArmyStorage } from "@/stores/armyStorage";
+import UnitDialog from "./UnitDialog.vue";
+import UnitInfoDialog from "./UnitInfoDialog.vue";
+import UnitOptionsDialog from "./UnitOptionsDialog.vue";
+import WargearOptionsButton from "./WargearOptionsButton.vue";
+import EquipmentList from "./EquipmentList.vue";
 
 const props = defineProps({
   url: { type: String, required: true },
   armyIndex: { type: Number, required: true },
   selectedDetachment: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 });
 
-const emit = defineEmits(['update-total-points']);
+const emit = defineEmits(["update-total-points"]);
 
 const units = ref([]);
 const army = ref([]);
@@ -89,7 +110,7 @@ const totalPoints = ref(0);
 
 const unitCounts = computed(() => {
   const counts = {};
-  army.value.forEach(unit => {
+  army.value.forEach((unit) => {
     counts[unit.unitName] = (counts[unit.unitName] || 0) + 1;
   });
   return counts;
@@ -107,41 +128,48 @@ const syncArmyWithStore = () => {
 };
 
 const calculateTotalPoints = () => {
-  totalPoints.value = army.value.reduce((sum, unit) => sum + unit.basicPoints, 0);
-  emit('update-total-points', totalPoints.value);
+  totalPoints.value = army.value.reduce(
+    (sum, unit) => sum + unit.basicPoints,
+    0
+  );
+  emit("update-total-points", totalPoints.value);
 };
 
 const addUnitToArmy = async (unit) => {
   try {
-    const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+    const uniqueId =
+      Date.now().toString(36) + Math.random().toString(36).substr(2);
     const response = await fetch(constructUnitUrl(props.url, unit.unitName));
     const unitData = await response.json();
 
     const selectedOption = unitData.options[0];
-    const unitWithId = { 
-      ...unit, 
-      id: uniqueId, 
+    const unitWithId = {
+      ...unit,
+      id: uniqueId,
       url: unit.url || props.url,
       composition: selectedOption.count.map((count, index) => ({
         unitType: unitData.unitComposition[index].unitType,
-        quantity: count
+        quantity: count,
       })),
-      unitTypes: unitData.unitComposition.map(comp => comp.unitType),
+      unitTypes: unitData.unitComposition.map((comp) => comp.unitType),
       basicPoints: selectedOption.points,
-      equipment: unitData.unitComposition.flatMap(comp => comp.equipment),
+      equipment: unitData.unitComposition.flatMap((comp) => comp.equipment),
       hasWargear: unitData.wargear && unitData.wargear.length > 0,
-      equipmentQuantities: unitData.unitComposition.reduce((acc, composition) => {
-        composition.equipment.forEach(equip => {
-          acc[`${composition.unitType}_${equip}`] = composition.minQuantity;
-        });
-        return acc;
-      }, {})
+      equipmentQuantities: unitData.unitComposition.reduce(
+        (acc, composition) => {
+          composition.equipment.forEach((equip) => {
+            acc[`${composition.unitType}_${equip}`] = composition.minQuantity;
+          });
+          return acc;
+        },
+        {}
+      ),
     };
 
     armyStore.addBattlelineUnitToArmy(props.armyIndex, unitWithId);
     syncArmyWithStore();
   } catch (error) {
-    console.error('Error adding unit to army:', error);
+    console.error("Error adding unit to army:", error);
   }
 };
 
@@ -151,14 +179,14 @@ const removeUnitFromArmy = (id) => {
 };
 
 const updateUnitOption = (unitId, optionData) => {
-  const unitIndex = army.value.findIndex(unit => unit.id === unitId);
+  const unitIndex = army.value.findIndex((unit) => unit.id === unitId);
   if (unitIndex !== -1) {
     const updatedUnit = {
       ...army.value[unitIndex],
       composition: optionData.composition,
-      basicPoints: optionData.points
+      basicPoints: optionData.points,
     };
-    
+
     armyStore.updateBattlelineUnitInArmy(props.armyIndex, unitId, updatedUnit);
     syncArmyWithStore();
   }
@@ -166,21 +194,24 @@ const updateUnitOption = (unitId, optionData) => {
 
 const loadUnits = () => {
   fetch(props.url)
-    .then(response => response.json())
-    .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
       units.value = data.battleline;
     })
-    .catch(error => {
-      console.error('Error loading units:', error);
+    .catch((error) => {
+      console.error("Error loading units:", error);
     });
   syncArmyWithStore();
 };
 
 const constructUnitUrl = (baseUrl, unitName) => {
-  const sanitizedUnitName = unitName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-  const baseUrlParts = baseUrl.split('/');
-  baseUrlParts.pop(); 
-  return `${baseUrlParts.join('/')}/collection/${sanitizedUnitName}.json`;
+  const sanitizedUnitName = unitName
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  const baseUrlParts = baseUrl.split("/");
+  baseUrlParts.pop();
+  return `${baseUrlParts.join("/")}/collection/${sanitizedUnitName}.json`;
 };
 
 const checkWargearOptionsForUnits = async () => {
@@ -191,23 +222,25 @@ const checkWargearOptionsForUnits = async () => {
       const data = await response.json();
       unit.hasWargear = data.wargear && data.wargear.length > 0;
     } catch (error) {
-      console.error('Error checking wargear options:', error);
+      console.error("Error checking wargear options:", error);
       unit.hasWargear = false;
     }
   }
 };
 
 const getCompositionString = (composition) => {
-  if (!composition) return '';
-  return composition.map(unit => `${unit.quantity} ${unit.unitType}`).join(', ');
+  if (!composition) return "";
+  return composition
+    .map((unit) => `${unit.quantity} ${unit.unitType}`)
+    .join(", ");
 };
 
 const updateWargearQuantities = (unitId, quantities) => {
-  const unitIndex = army.value.findIndex(unit => unit.id === unitId);
+  const unitIndex = army.value.findIndex((unit) => unit.id === unitId);
   if (unitIndex !== -1) {
     const updatedUnit = {
       ...army.value[unitIndex],
-      equipmentQuantities: quantities
+      equipmentQuantities: quantities,
     };
     army.value[unitIndex] = updatedUnit;
     armyStore.updateBattlelineUnitInArmy(props.armyIndex, unitId, updatedUnit);
@@ -221,7 +254,6 @@ onMounted(() => {
 
 watch(() => props.armyIndex, loadUnits);
 </script>
-
 
 <style scoped>
 .mb-4 {

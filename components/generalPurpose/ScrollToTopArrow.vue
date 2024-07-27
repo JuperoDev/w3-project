@@ -32,8 +32,9 @@
   <style scoped>
   .scroll-to-top {
     position: fixed;
-    bottom: 60px;
-    right: 5px;
+    
+    right: 1rem;    bottom:4rem;  
+    
     cursor: pointer;
     font-size: 24px;
     width: 40px;

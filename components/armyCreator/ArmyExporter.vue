@@ -19,7 +19,7 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-    <v-btn color="red" @click="openDialog">
+    <v-btn color="grey-darken-3 mt-4" @click="openDialog">
       EXPORT
     </v-btn>
   </div>

@@ -1,25 +1,37 @@
 <template>
-    <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
-      <div class="flex justify-between items-center">
-        <h2 class="text-lg font-semibold">Dedicated Transports</h2>
-        <span>Total Points: {{ totalPoints }}</span>
-      </div>
-      <!-- {{ selectedDetachment }} -->
-      <UnitDialog 
+  <div class="bg-gray-50 m-2 p-2  rounded-lg shadow-md text-zinc-900">
+    <div class="armyType__container bg-zinc-700 text-white flex justify-between items-center rounded-md p-2">
+      <div class="armytype-button__container">
+  <div class="flex items-center">
+    <h2 class="text-lg font-semibold mr-3">Dedicated Transports</h2>
+    <UnitDialog 
         :title="'Select Dedicated Transports'"
         :selectedDetachment="selectedDetachment" 
         :units="units" 
         :unitCounts="unitCounts"
         @add-unit="addUnitToArmy" 
       />
+  </div>
+ 
+  <span><small>Total Points: {{ totalPoints }}</small></span>
+</div>
+
+</div>
+      <!-- {{ selectedDetachment }} -->
+      
       <div v-if="army.length" class="mt-4">
-        <h3 class="text-lg font-semibold">Army Units:</h3>
+        <!-- <h3 class="text-lg font-semibold">Army Units:</h3> -->
         <ul>
-          <li v-for="unit in army" :key="unit.id" class="flex flex-col mb-4">
+          <li v-for="unit in army" :key="unit.id" class="border-solid border-b-2 border-zinc-500 rounded-t-lg bg-zinc-100 p-2 flex flex-col mb-4">
             <div>
               <span>
-                {{ unit.unitName }} 
-                ({{ unit.basicPoints }} points)
+                <p>
+                <span class="font-semibold">{{ unit.unitName }}</span
+                ><span> ({{ unit.basicPoints }} points)</span>
+              </p>
+              <p v-if="unit.composition">
+                {{ getCompositionString(unit.composition) }}
+              </p>
               </span>
             </div>
             <div class="flex items-center mt-2 space-x-2">

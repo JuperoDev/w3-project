@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button @click="openDialog" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Add Unit
-    </button>
+    <button @click="openDialog" class="border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded my-2 text-sm">
+  +
+</button>
     <v-dialog v-model="dialog" max-width="600px">
       <v-card>
         <v-card-title>

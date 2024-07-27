@@ -1,26 +1,33 @@
 <template>
-  <div class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
-    <div class="flex justify-between items-center">
-      <h2 class="text-lg font-semibold">Characters</h2>
-      <span>Total Points: {{ totalPoints }}</span>
+   <div class="bg-gray-50 m-2 p-2  rounded-lg shadow-md text-zinc-900">
+    <div class="armyType__container rounded-md bg-zinc-700 text-white flex justify-between items-center p-2">
+      <div class="armytype-button__container">
+  <div class="flex items-center">
+    <h2 class="text-lg font-semibold mr-3">Characters</h2>
+    <UnitDialog 
+    
+    :selectedDetachment="selectedDetachment"
+    :title="'Select Characters'" 
+    :units="units" 
+    :unitCounts="unitCounts"
+    @add-unit="addUnitToArmy" 
+  />
+  </div>
+ 
+  <span><small>Total Points: {{ totalPoints }}</small></span>
+</div>
     </div>
     <!-- {{ selectedDetachment }} -->
 
-    <UnitDialog 
-    
-      :selectedDetachment="selectedDetachment"
-      :title="'Select Characters'" 
-      :units="units" 
-      :unitCounts="unitCounts"
-      @add-unit="addUnitToArmy" 
-    />
-    <div v-if="army.length" class="mt-4">
-      <h3 class="text-lg font-semibold">Army Characters:</h3>
+   
+    <div v-if="army.length" class="mt-4 p-2">
+      <!-- <h3 class="text-lg font-semibold">Army Characters:</h3> -->
       <ul>
-        <li v-for="unit in army" :key="unit.id" class="flex flex-col mb-4">
+        <li v-for="unit in army" :key="unit.id" class="border-solid rounded-t-lg border-b-2 border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
             <span>
-              {{ unit.unitName }} 
+              <span class="font-semibold">{{ unit.unitName }}</span
+                >
               ({{ unitPoints(unit) }} points) <span v-if="unit.isWarlord" class="text-yellow-500 font-bold ml-2">
                 [Warlord]
               </span>

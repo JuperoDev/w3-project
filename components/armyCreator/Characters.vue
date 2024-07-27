@@ -21,13 +21,13 @@
           <div>
             <span>
               {{ unit.unitName }} 
-              ({{ unitPoints(unit) }} points)
-              <span v-if="unit.composition">
-                - {{ getCompositionString(unit.composition) }}
-              </span>
-              <span v-if="unit.isWarlord" class="text-yellow-500 font-bold ml-2">
+              ({{ unitPoints(unit) }} points) <span v-if="unit.isWarlord" class="text-yellow-500 font-bold ml-2">
                 [Warlord]
               </span>
+              <p v-if="unit.composition">
+                {{ getCompositionString(unit.composition) }}
+              </p>
+              
             </span>
           </div>
           <div class="flex items-center mt-2 space-x-2">
@@ -59,7 +59,7 @@
               @update-enhancement="updateEnhancement(unit.id, $event)"
             />
           </template>
-          <div v-if="unit.isEpicHero" class="text-red-500">Epic Hero</div>
+          <!-- <div v-if="unit.isEpicHero" class="text-red-500">Epic Hero</div> -->
           <div v-if="unit.selectedEnhancement">
             <strong>Enhancement:</strong> {{ unit.selectedEnhancement.name }} ({{ unit.selectedEnhancement.points }} points)
           </div>

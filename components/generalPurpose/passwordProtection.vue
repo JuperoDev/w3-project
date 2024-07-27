@@ -2,6 +2,7 @@
   <div>
     <div v-if="!hasEnteredPassword" class="p-5">
       <p>The file you want to see is password protected</p>
+      <p><strong>I have changed the password</strong></p>
       <label for="password">Enter the password: </label>
       <input
         type="password"
@@ -22,24 +23,37 @@
 </template>
 
 <script>
+import { ref, onMounted } from 'vue';
+import { useWh40kPasswordStore } from '@/stores/wh40kPasswordStore';
+
 export default {
-  data() {
-    return {
-      password: "",
-      hasEnteredPassword: false,
-    };
-  },
-  methods: {
-    checkPassword() {
-      if (this.password === "gato") {
-        this.hasEnteredPassword = true;
-        localStorage.setItem("hasEnteredPassword", "true");
+  setup() {
+    const wh40kPasswordStore = useWh40kPasswordStore();
+    const password = ref('');
+    const hasEnteredPassword = ref(false);
+
+    const checkPassword = () => {
+      if (password.value === 'cobra') {
+        wh40kPasswordStore.setPassword(password.value);
+        hasEnteredPassword.value = true;
       }
-    },
-  },
-  mounted() {
-    this.hasEnteredPassword =
-      localStorage.getItem("hasEnteredPassword") === "true";
+    };
+
+    const initialize = () => {
+      if (wh40kPasswordStore.password && !wh40kPasswordStore.isPasswordExpired()) {
+        hasEnteredPassword.value = true;
+      } else {
+        wh40kPasswordStore.resetPassword();
+      }
+    };
+
+    onMounted(initialize);
+
+    return {
+      password,
+      hasEnteredPassword,
+      checkPassword,
+    };
   },
 };
 </script>

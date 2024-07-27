@@ -1,30 +1,37 @@
-<!-- enhancement -->
 <template>
   <div>
     <span 
-    class="text-sm text-blue-500 cursor-pointer hover:underline" 
-    @click="openDialog"
-  >
-    Enhancements
-  </span>
-    <!-- <v-btn @click="openDialog">Enhancements</v-btn> -->
+      class="text-sm text-blue-500 cursor-pointer hover:underline" 
+      @click="openDialog"
+    >
+      Enhancements
+    </span>
     <v-dialog v-model="dialog" max-width="600px">
       <v-card>
         <v-card-title>
           Enhancements
         </v-card-title>
         <v-card-text>
-         
-        <!--  <p>Generated Route: {{ enhancementUrl }}</p>  Display the generated route -->
-          <v-radio-group v-model="selectedEnhancement">
-            <v-radio
+          <v-expansion-panels v-model="expandedPanel">
+            <v-expansion-panel
               v-for="(enhancement, index) in enhancements"
               :key="index"
-              :label="`${enhancement.name} (${enhancement.points} points)`"
-              :value="enhancement.name"
-              @click="handleRadioClick(enhancement)"
-            ></v-radio>
-          </v-radio-group>
+            >
+              <v-expansion-panel-title :class="{'selected-title': isSelected(enhancement.name)}">
+                {{ enhancement.name }} ({{ enhancement.points }} points)
+              </v-expansion-panel-title>
+              <v-expansion-panel-text>
+                <p class="mb-4"><em>{{ enhancement.lore }}</em></p>
+                <p v-html="enhancement.description" class="mb-4"></p>
+                <v-radio
+                  :label="`Select ${enhancement.name}`"
+                  :value="enhancement.name"
+                  v-model="selectedEnhancement"
+                  @click="handleRadioClick(enhancement)"
+                ></v-radio>
+              </v-expansion-panel-text>
+            </v-expansion-panel>
+          </v-expansion-panels>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -36,11 +43,12 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, computed } from 'vue';
 
 const dialog = ref(false);
 const enhancements = ref([]);
 const selectedEnhancement = ref('');
+const expandedPanel = ref(null);
 
 const props = defineProps({
   enhancementUrl: {
@@ -77,7 +85,7 @@ const fetchFileContent = async () => {
 
 const handleRadioClick = (enhancement) => {
   if (selectedEnhancement.value === enhancement.name) {
-    selectedEnhancement.value = null;
+    selectedEnhancement.value = '';
     emits('update-enhancement', null); // Emit null for de-selection
   } else {
     selectedEnhancement.value = enhancement.name;
@@ -85,8 +93,16 @@ const handleRadioClick = (enhancement) => {
   }
 };
 
+const isSelected = (name) => {
+  return selectedEnhancement.value === name;
+};
+
 watch(() => props.enhancementUrl, fetchFileContent);
 </script>
 
 <style scoped>
+.selected-title {
+  background-color: #555; /* Dark greyish color */
+  color: white; /*text color for better contrast */
+}
 </style>

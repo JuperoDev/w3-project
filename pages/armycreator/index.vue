@@ -12,7 +12,7 @@
       </v-btn>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" app right>
-      <div class="right">
+      <div class="right ml-3">
         <h3>Stored Armies</h3>
         <div v-if="!stepperVisible">
           <v-btn @click="showStepper(); closeDrawer();">

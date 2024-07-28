@@ -1,0 +1,147 @@
+{
+    "parentUnit": "Inceptor Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Equipped with heavy jump packs, Inceptor Squads are superb spearhead troops that deliver overwhelming blows to the enemy. Plummeting to the surface from the very edge of a world’s atmosphere, they strike with devastating force, unleashing a hurricane of fire that turns whole squads of enemy infantry to bloody mist.",
+    "keywords": [
+        "infantry",
+        "jump pack",
+        "fly",
+        "imperium",
+        "gravis",
+        "inceptor squad"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Assault bolters",
+            "modifiers": [
+                "assault",
+                "pistol",
+                "sustained hits 2",
+                "twin-linked"
+            ],
+            "range": 18,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Plasma exterminators - standard",
+            "modifiers": [
+                "assault",
+                "pistol",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma exterminators - supercharge",
+            "modifiers": [
+                "assault",
+                "pistol",
+                "hazardous",
+                "twin-linked"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Meteoric Descent:",
+                "description": "When this unit is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Inceptors",
+            "description": "All models in this unit can each have their assault bolters replaced with 1 plasma exterminators.",
+            "items": ["plasma exterminators"],
+            "hideInDatasheet":true
+        },
+        {"miniature":"Inceptor Sergeant",
+            "description": "All models in this unit can each have their assault bolters replaced with 1 plasma exterminators.",
+            "items": ["plasma exterminators"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Inceptor Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "assault bolters","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Inceptors",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "assault bolters","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 130
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 260
+        }
+    ],
+    "additionalParameter": {}
+}

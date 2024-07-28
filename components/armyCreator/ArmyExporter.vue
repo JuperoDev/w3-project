@@ -117,13 +117,15 @@ const formatUnitDetails = (unit) => {
   }
 
   // Add wargear information
-  if (unit.equipmentQuantities && Object.keys(unit.equipmentQuantities).length > 0) {
+ /* 
+ if (unit.equipmentQuantities && Object.keys(unit.equipmentQuantities).length > 0) {
     result += `• Wargear:\n`;
     Object.entries(unit.equipmentQuantities).forEach(([key, quantity]) => {
       const equipment = key.split('_')[1];
       result += `  ◦ ${quantity}x ${equipment}\n`;
     });
-  }
+  } */
+
 
   return result;
 };

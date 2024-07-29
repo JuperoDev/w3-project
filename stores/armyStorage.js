@@ -15,7 +15,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       army.characterUnits = [];
       army.battlelineUnits = [];
       army.otherUnits = [];
-      army.dedicatedTransportUnits = []; // Add this line
+      army.dedicatedTransportUnits = [];
       this.armies.push(army);
       this.saveArmies();
     },
@@ -119,7 +119,9 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.otherUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.otherUnits.push({
           ...unit,
-          basicPoints: parseInt(unit.basicPoints) || 0
+          basicPoints: parseInt(unit.basicPoints) || 0,
+          equipmentQuantities: unit.equipmentQuantities || {},
+          wargearAbilities: unit.wargearAbilities || {}
         });
         this.saveArmies();
       }
@@ -146,7 +148,9 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.otherUnits[unitIndex] = { 
           ...army.otherUnits[unitIndex], 
           ...updatedUnit,
-          basicPoints: parseInt(updatedUnit.basicPoints) || 0
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0,
+          equipmentQuantities: updatedUnit.equipmentQuantities || {},
+          wargearAbilities: updatedUnit.wargearAbilities || {}
         };
         this.saveArmies();
       }
@@ -206,5 +210,15 @@ export const useArmyStorage = defineStore('armyStorage', {
       Object.assign(army, details);
       this.saveArmies();
     },
+
+    updateWargearQuantitiesInUnit(armyIndex, unitId, quantities, abilities) {
+      const army = this.armies[armyIndex];
+      const unitIndex = army.otherUnits.findIndex(unit => unit.id === unitId);
+      if (unitIndex !== -1) {
+        army.otherUnits[unitIndex].equipmentQuantities = quantities;
+        army.otherUnits[unitIndex].wargearAbilities = abilities;
+        this.saveArmies();
+      }
+    }
   },
 });

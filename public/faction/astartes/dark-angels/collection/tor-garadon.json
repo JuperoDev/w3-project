@@ -1,0 +1,99 @@
+{
+    "parentUnit": "Tor Garadon",
+    "factionKeyword": [
+        "imperial fists",
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Shot after shot bounces from the indomitable plate of Tor Garadon’s Gravis armour as he advances across the battlefield. Sharp-minded and possessing a knack for improvised warfare, Garadon directs the lethal fire of his warriors through a combination of natural skill and the advanced targeting data fed to him by his signum array.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "gravis",
+        "captain",
+        "tor garadon"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Artificer grav-gun",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Signum Array:",
+                "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+            },
+            {
+                "name": "Siege Captain:",
+                "description": "Each time this model makes an attack that targets a MONSTER , VEHICLE , or FORTIFICATION unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Hand of Defiance",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 12,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Tor Garadon – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "artificer grav-gun","Hand of Defiance"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

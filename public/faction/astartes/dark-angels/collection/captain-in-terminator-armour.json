@@ -1,0 +1,129 @@
+{
+    "parentUnit": "Captain In Terminator Armour",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Space Marine Captains are expected to fight from the front, and few kinds of armour enable them to do so as effectively as Terminator plate. Formidably resilient, such a suit protects the Captain against all but the most devastating enemy fire and enables him to deploy by teleport strike right into the heart of the foe.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "terminator",
+        "captain"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Terminator Assault Squad",
+        " Terminator Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rites of Battle:",
+                "description": "Once per battle round , one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+            },
+            {
+                "name": "The Imperium’s Sword:",
+                "description": "You can re-roll Charge rolls made for this model’s unit."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"captain in terminator armour",
+            "description": "This model’s storm bolter can be replaced with 1 combi-weapon",
+            "items": ["combi-weapon"]
+        },
+        {"miniature":"captain in terminator armour",
+            "description": "This model’s relic weapon can be replaced with 1 relic fist",
+            "items": ["relic fist"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Relic fist",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Relic weapon",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Captain in Terminator Armour",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter","relic weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 95
+        }
+    ],
+    "additionalParameter": {}
+}

@@ -105,10 +105,14 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Ravenwing Huntmaster",
             "description": "For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher.",
-            "items": []
-        }
+            "items": ["Astartes grenade launcher"]
+        },
+        {"miniature":"Ravenwing Black Knights",
+        "description": "For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher.",
+        "items": ["Astartes grenade launcher"],"hideInDatasheet":true
+    }
     ],
     "meleeWeapons": [
         {

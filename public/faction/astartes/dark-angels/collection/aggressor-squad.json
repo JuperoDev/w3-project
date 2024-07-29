@@ -1,0 +1,139 @@
+{
+    "parentUnit": "Aggressor Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Capable of spearheading devastating offensives or shattering the most determined enemy assaults, Aggressors are walking ceramite strongpoints. They excel at close-quarters combat and laying down torrents of devastating fire before crushing their foes beneath their energised fists.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "gravis",
+        "aggressor squad"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Auto boltstorm gauntlets",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 18,
+            "attacks": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Flamestorm gauntlets",
+            "modifiers": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+            ],
+            "range": 12,
+            "attacks": "D6+1",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Fragstorm grenade launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Close-quarters Firepower",
+                "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"aggressors",
+            "description": "All models in this unit can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher.",
+            "items": ["auto boltstorm gauntlet","fragstorm grenade launcher"],
+            "hideInDatasheet":true
+        },
+        {"miniature":"aggressor sergeant",
+            "description": "All models in this unit can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher.",
+            "items": ["auto boltstorm gauntlet","fragstorm grenade launcher"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Twin power fists",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Aggressor Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "flamestorm gauntlets","twin power fist"
+            ]
+        },
+        {
+            "unitType": "Aggressors",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "flamestorm gauntlets","twin power fist"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 120
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 240
+        }
+    ],
+    "additionalParameter": {}
+}

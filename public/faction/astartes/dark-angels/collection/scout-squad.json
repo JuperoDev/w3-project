@@ -1,0 +1,222 @@
+{
+    "parentUnit": "Scout Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Space Marine neophytes, Scouts learn their deadly craft in daring missions independent of the main force. Led by seasoned Veteran Sergeants, they infiltrate enemy positions, clear potential drop zones, set ambushes, sabotage supply lines and complete all manner of other objectives to weaken the foe.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "smoke",
+        "imperium",
+        "scout squad"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Astartes shotgun",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 18,
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [],
+            "range": 24,
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - frag",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 48,
+            "attacks": "D6",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 4
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Scout sniper rifle",
+            "modifiers": [
+                "heavy",
+                "PRECISION"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Guerrilla Tactics:",
+                "description": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy models, you can remove this unit from the battlefield and place it into Strategic Reserves ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"",
+            "description": "The Scout Sergeant's boltgun can be replaced with 1 Astartes chainsword.",
+            "items": []
+        },
+        {"miniature":"",
+            "description": "Any number of models can each have their boltgun replaced with one of the following",
+            "items": [
+                "Astartes shotgun",
+                "combat knife"
+            ]
+        },
+        {"miniature":"Scouts",
+            "description": "For every 5 models in this unit, 1 Scout’s boltgun can be replaced with 1 Scout sniper rifle.",
+            "items": ["Scout sniper rifle"]
+        },
+        {"miniature":"Scouts",
+            "description": "For every 5 models in this unit, 1 Scout’s boltgun can be replaced with one of the following",
+            "items": [
+                "heavy bolter",
+                "missile launcher"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Combat knife",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Scout Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "boltgun","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Scouts",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol", "boltgun","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 65
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 130
+        }
+    ],
+    "additionalParameter": {}
+}

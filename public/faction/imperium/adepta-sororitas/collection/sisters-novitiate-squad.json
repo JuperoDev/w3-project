@@ -172,24 +172,28 @@
         }
     ],
     "wargear": [
-        {
+        {"miniature":"Novitiate Superior",
             "description": "The Novitiate Superior’s bolt pistol and boltgun can be replaced with one of the following",
             "items": [
-                "1 bolt pistol and 1 power weapon",
-                "1 plasma pistol and 1 power weapon"
+                "bolt pistol and 1 power weapon",
+                "plasma pistol and 1 power weapon"
             ]
         },
-        {
-            "description": "1 Sister Novitiate’s autogun can be replaced with 1 sacred banner."
+        {"miniature":"Sisters Novitiate",
+            "description": "1 Sister Novitiate’s autogun can be replaced with 1 sacred banner.",
+            "items":["sacred banner"]
         },
-        {
-            "description": "1 Sister Novitiate’s autogun can be replaced with 1 simulacrum imperialis."
+        {"miniature":"Sisters Novitiate",
+            "description": "1 Sister Novitiate’s autogun can be replaced with 1 simulacrum imperialis.",
+            "items":["simulacrum imperialis"]
         },
-        {
-            "description": "Up to 2 Sisters Novitiate can each have their autogun replaced with 1 Ministorum flamer."
+        {"miniature":"Sisters Novitiate",
+            "description": "Up to 2 Sisters Novitiate can each have their autogun replaced with 1 Ministorum flamer.",
+            "items":["ministorum flamer"]
         },
-        {
-            "description": "Any number of Sisters Novitiate can each have their autogun and close combat weapon replaced with 1 Novitiate melee weapons."
+        {"miniature":"Sisters Novitiate",
+            "description": "Any number of Sisters Novitiate can each have their autogun and close combat weapon replaced with 1 Novitiate melee weapons.",
+            "items":["novitiate melee weapons"]
         }
     ],
     "additionalParameter": {},

@@ -231,7 +231,7 @@
         }
     ],
     "wargear": [
-        {
+        {"miniature":"Dominion Superior",
             "description": "The Dominion Superior’s boltgun can be replaced with one of the following",
             "items": [
                 "bolt pistol",
@@ -242,23 +242,24 @@
                 "plasma pistol"
             ]
         },
-        {
+        {"miniature":"Dominion Superior",
             "description": "The Dominion Superior can be equipped with one of the following",
             "items": [
                 "chainsword",
                 "power weapon"
             ]
         },
-        {
+        {"miniature":"Dominions",
             "description": "Up to 4 Dominions can each have their boltgun replaced with one of the following:",
             "items": [
-                "1 artificer-crafted storm bolter",
+                "artificer-crafted storm bolter",
                 "meltagun",
                 "Ministorum flamer"
             ]
         },
-        {
-            "description": "1 Dominion equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced)."
+        {"miniature":"Dominions",
+            "description": "1 Dominion equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced).",
+            "items":["simulacrum imperialis"]
         }
     ],
     "additionalParameter": {},

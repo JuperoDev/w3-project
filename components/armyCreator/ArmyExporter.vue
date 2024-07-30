@@ -6,14 +6,14 @@
           <span class="headline">Army Details</span>
         </v-card-title>
         <v-card-text>
-          <v-btn  @click="copyFormattedArmyDetails" class="mb-4">
+          <v-btn @click="copyFormattedArmyDetails" class="mb-4">
             Copy to Clipboard
           </v-btn>
           <pre class="formatted-army-details">{{ formattedDetails }}</pre>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn  @click="dialog = false">
+          <v-btn @click="dialog = false">
             Close
           </v-btn>
         </v-card-actions>
@@ -68,7 +68,7 @@ const formatArmyDetails = (army) => {
     });
   }
 
-  if (army.dedicatedTransportUnits.length > 0) { // Add this section
+  if (army.dedicatedTransportUnits.length > 0) {
     result += `DEDICATED TRANSPORTS\n`;
     army.dedicatedTransportUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n';
@@ -98,9 +98,9 @@ const formatUnitDetails = (unit) => {
     unit.composition.forEach(comp => {
       result += `• ${comp.quantity}x ${comp.unitType}\n`;
 
-      // Group equipment by unit type
+      // Group equipment by unit type in a case-insensitive manner
       const equipmentForType = Object.entries(unit.equipmentQuantities)
-        .filter(([key, quantity]) => key.startsWith(comp.unitType) && quantity > 0)
+        .filter(([key, quantity]) => key.toLowerCase().startsWith(comp.unitType.toLowerCase()) && quantity > 0)
         .map(([key, quantity]) => {
           const equipment = key.split('_')[1];
           return `${quantity}x ${equipment}`;

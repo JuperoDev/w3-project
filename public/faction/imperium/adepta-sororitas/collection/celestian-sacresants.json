@@ -137,10 +137,15 @@
         }
     ],
     "wargear": [
-        {
-            "description": "Any number of models can each have their hallowed mace replaced with 1 anointed halberd."
+        {"miniature":"celestial sacresants",
+            "description": "Any number of models can each have their hallowed mace replaced with 1 anointed halberd.",
+            "items":["antoined halberd"]
         },
-        {
+        {"miniature":"sacrestan superior",
+            "description": "Any number of models can each have their hallowed mace replaced with 1 anointed halberd.",
+            "items":["antoined halberd"], "hideInDatasheet":true
+        },
+        {"miniature":"celestial sacresants",
             "description": "This model’s immolation flamers can be replaced with one of the following:",
             "items": [
                 "inferno pistol",
@@ -148,8 +153,9 @@
                 "plasma pistol"
             ]
         },
-        {
-            "description": "The Sacresant Superior’s hallowed mace can be replaced with 1 spear of the faithful."
+        {"miniature":"Sacresant Superior",
+            "description": "The Sacresant Superior’s hallowed mace can be replaced with 1 spear of the faithful.",
+            "items":["spear of the faithful"]
         }
     ],
     "additionalParameter": {},

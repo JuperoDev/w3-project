@@ -1,90 +1,258 @@
 {
-    "symbol": "admech-symbol",
-    
-    "background": "bg-admech",
-    "description": "The Adeptus Mechanicus is an ancient and powerful institution that traces its roots to the very founding of the Imperium. Acquisitive and ambitious, the Tech-Priests of Mars are obsessed with the idea that knowledge is power – though whether they put that knowledge to good use is another matter.",
-    "rules": [
+  "symbol": "admech-symbol",
+  "background": "bg-admech",
+  "description": "The Adeptus Mechanicus is an ancient and powerful institution that traces its roots to the very founding of the Imperium. Acquisitive and ambitious, the Tech-Priests of Mars are obsessed with the idea that knowledge is power – though whether they put that knowledge to good use is another matter.",
+  "rules": [
+    {
+      "name": "doctrina imperatives",
+      "lore": "An Adeptus Mechanicus army marching to war is a sight both terrifying and glorious, each holy warrior a disturbing fusion of Human and machine. While the ruling Tech-Priests and their fanatical followers raise modified voices in praise of the Machine God, their Skitarii soldiery and Servitor creations are controlled by doctrina imperatives loaded by their masters to augment and adapt the warriors’ abilities.",
+      "description": "<p>At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below. </p> <br/> <strong>Protector Imperative </strong> <br/> <li>Ranged weapons equipped by models in this unit have the [HEAVY] ability. </li>  <li>Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1 </li> <li>Each time a ranged attack targets this unit, if this unit is within your deployment zone, worsen the Armour Penetration characteristic of that attack by 1. </li> <li>Each time a melee attack targets this unit, if this unit has the Battleline keyword and/or it is within 6'' of one or more friendly Adeptus Mechanicus Battleline units, subtract 1 from the Hit roll.</li>  <br/>  <strong>Conqueror Imperative </strong>  <br/> <li>Ranged weapons equipped by models in this unit have the [ASSAULT] ability.</li> <li>Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1</li>  <li>Each time a model in this unit makes an attack, if this unit has the Battleline keyword and/or it is within 6'' of one or more friendly Adeptus Mechanicus Battleline units, improve the Armour Penetration characteristic of that attack by 1. </li> "
+    }
+  ],
+  "detachments": [
+    "rad-zone cohort",
+    "Skitarii hunter cohort",
+    "data-psalm conclave",
+    "explorator maniple",
+    "cohort Cybernetica"
+  ],
+  "units": [
+    "Belisarius Cawl",
+    "Cybernetica Datasmith",
+    "Skitarii Marshal",
+    "Tech-priest Dominus",
+    "Tech-priest Enginseer",
+    "Tech-priest Manipulus",
+    "Technoarcheologist",
+    "Skitarii Rangers",
+    "Skitarii Vanguard",
+    "dedicatedTransports",
+    "Skorpius Dunerider",
+    "Archaeopter Fusilave",
+    "Archaeopter Stratoraptor",
+    "Archaeopter Transvector",
+    "Corpuscarii Electro-priests",
+    "Fulgurite Electro-priests",
+    "Ironstrider Ballistarii",
+    "Kastelan Robots",
+    "Kataphron Breachers",
+    "Kataphron Destroyers",
+    "Onager Dunecrawler",
+    "Pteraxii Skystalkers",
+    "Pteraxii Sterylizors",
+    "Serberys Raiders",
+    "Serberys Sulphurhounds",
+    "Sicarian Infiltrators",
+    "Sicarian Ruststalkers",
+    "Skorpius Disintegrator",
+    "Sydonian Dragoons"
+  ],
+  "characters": [
+    {
+      "unitName": "Belisarius Cawl",
+      "basicPoints": 150
+    },
+    {
+      "unitName": "Cybernetica Datasmith",
+      "basicPoints": 35
+    },
+    {
+      "unitName": "Skitarii Marshal",
+      "basicPoints": 35
+    },
+    {
+      "unitName": "Sydonian Skatros",
+      "basicPoints": 60
+    },
+    {
+      "unitName": "Tech-priest Dominus",
+      "basicPoints": 75
+    },
+    {
+      "unitName": "Tech-priest Enginseer",
+      "basicPoints": 60
+    },
+    {
+      "unitName": "Tech-priest Manipulus",
+      "basicPoints": 65
+    },
+    {
+      "unitName": "Technoarcheologist",
+      "basicPoints": 45
+    }
+  ],
+  "battleline": [
+    {
+      "unitName": "Skitarii Rangers",
+      "basicPoints": 85
+    },
+    {
+      "unitName": "Skitarii Vanguard",
+      "basicPoints": 90
+    }
+  ],
+  "dedicatedTransports": [
+    {
+      "unitName": "Skorpius Dunerider",
+      "basicPoints": 85
+    }
+  ],
+  "other": [
+    {
+      "unitName": "Archaeopter Fusilave",
+      "basicPoints": 160
+    },
+    {
+      "unitName": "Archaeopter Stratoraptor",
+      "basicPoints": 185
+    },
+    {
+      "unitName": "Archaeopter Transvector",
+      "basicPoints": 150
+    },
+    {
+      "unitName": "Corpuscarii Electro-priests",
+      "basicPoints": 70
+    },
+    {
+      "unitName": "Fulgurite Electro-priests",
+      "basicPoints": 75
+    },
+    {
+      "unitName": "Ironstrider Ballistarii",
+      "basicPoints": 70
+    },
+    {
+      "unitName": "Kastelan Robots",
+      "basicPoints": 190
+    },
+    {
+      "unitName": "Kataphron Breachers",
+      "basicPoints": 160
+    },
+    {
+      "unitName": "Kataphron Destroyers",
+      "basicPoints": 105
+    },
+    {
+      "unitName": "Onager Dunecrawler",
+      "basicPoints": 160
+    },
+    {
+      "unitName": "Pteraxii Skystalkers",
+      "basicPoints": 65
+    },
+    {
+      "unitName": "Pteraxii Sterylizors",
+      "basicPoints": 75
+    },
+    {
+      "unitName": "Serberys Raiders",
+      "basicPoints": 60
+    },
+    {
+      "unitName": "Serberys Sulphurhounds",
+      "basicPoints": 60
+    },
+    {
+      "unitName": "Sicarian Infiltrators",
+      "basicPoints": 70
+    },
+    {
+      "unitName": "Sicarian Ruststalkers",
+      "basicPoints": 75
+    },
+    {
+      "unitName": "Skorpius Disintegrator",
+      "basicPoints": 175
+    },
+    {
+      "unitName": "Sydonian Dragoons with Radium Jezzails",
+      "basicPoints": 55
+    },
+    {
+      "unitName": "Sydonian Dragoons with Taser Lances",
+      "basicPoints": 70
+    }
+  ],
+  "alliedUnits": [
+    {
+      "name": "agents of the imperium",
+      "routeOfAlly":"/faction/imperium/agents-of-the-imperium",
+      "characters": [
         {
-            "name": "doctrina imperatives",
-            "lore": "An Adeptus Mechanicus army marching to war is a sight both terrifying and glorious, each holy warrior a disturbing fusion of Human and machine. While the ruling Tech-Priests and their fanatical followers raise modified voices in praise of the Machine God, their Skitarii soldiery and Servitor creations are controlled by doctrina imperatives loaded by their masters to augment and adapt the warriors’ abilities.",
-            "description": "<p>At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below. </p> <br/> <strong>Protector Imperative </strong> <br/> <li>Ranged weapons equipped by models in this unit have the [HEAVY] ability. </li>  <li>Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1 </li> <li>Each time a ranged attack targets this unit, if this unit is within your deployment zone, worsen the Armour Penetration characteristic of that attack by 1. </li> <li>Each time a melee attack targets this unit, if this unit has the Battleline keyword and/or it is within 6'' of one or more friendly Adeptus Mechanicus Battleline units, subtract 1 from the Hit roll.</li>  <br/>  <strong>Conqueror Imperative </strong>  <br/> <li>Ranged weapons equipped by models in this unit have the [ASSAULT] ability.</li> <li>Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1</li>  <li>Each time a model in this unit makes an attack, if this unit has the Battleline keyword and/or it is within 6'' of one or more friendly Adeptus Mechanicus Battleline units, improve the Armour Penetration characteristic of that attack by 1. </li> "
+          "unitName": "Callidus Assassin",
+          "basicPoints": 100
+        },
+        {
+          "unitName": "Culexus Assassin",
+          "basicPoints": 85
+        },
+        {
+          "unitName": "Eversor Assassin",
+          "basicPoints": 75
+        },
+        {
+          "unitName": "Inquisitor",
+          "basicPoints": 55
+        },
+        {
+          "unitName": "Inquisitor Coteaz",
+          "basicPoints": 75
+        },
+        {
+          "unitName": "Inquisitor Eisenhorn",
+          "basicPoints": 65
+        },
+        {
+          "unitName": "Inquisitor Greyfax",
+          "basicPoints": 65
+        },
+        {
+          "unitName": "Inquisitor Karamazov",
+          "basicPoints": 130
+        },
+        {
+          "unitName": "Lord Inquisitor Kyria Draxus",
+          "basicPoints": 85
+        },
+        {
+          "unitName": "Rogue Trader Entourage",
+          "basicPoints": 105
+        },
+        {
+          "unitName": "Vindicare Assassin",
+          "basicPoints": 80
         }
-    ],
-    "detachments": [
-        "rad-zone cohort",
-        "Skitarii hunter cohort",
-        "data-psalm conclave",
-        "explorator maniple",
-        "cohort Cybernetica"
-    ],
-    "units": [
-        "Belisarius Cawl",
-        "Cybernetica Datasmith",
-        "Skitarii Marshal",
-        "Tech-priest Dominus",
-        "Tech-priest Enginseer",
-        "Tech-priest Manipulus",
-        "Technoarcheologist",
-        "Skitarii Rangers",
-        "Skitarii Vanguard",
-        "dedicatedTransports",
-        "Skorpius Dunerider",
-        "Archaeopter Fusilave",
-        "Archaeopter Stratoraptor",
-        "Archaeopter Transvector",
-        "Corpuscarii Electro-priests",
-        "Fulgurite Electro-priests",
-        "Ironstrider Ballistarii",
-        "Kastelan Robots",
-        "Kataphron Breachers",
-        "Kataphron Destroyers",
-        "Onager Dunecrawler",
-        "Pteraxii Skystalkers",
-        "Pteraxii Sterylizors",
-        "Serberys Raiders",
-        "Serberys Sulphurhounds",
-        "Sicarian Infiltrators",
-        "Sicarian Ruststalkers",
-        "Skorpius Disintegrator",
-        "Sydonian Dragoons"
-    ],
-
-    "characters": [
-      {"unitName": "Belisarius Cawl", "basicPoints": 150},
-      {"unitName": "Cybernetica Datasmith", "basicPoints": 35},
-      {"unitName": "Skitarii Marshal", "basicPoints": 35},
-      {"unitName": "Sydonian Skatros", "basicPoints": 60},
-      {"unitName": "Tech-priest Dominus", "basicPoints": 75},
-      {"unitName": "Tech-priest Enginseer", "basicPoints": 60},
-      {"unitName": "Tech-priest Manipulus", "basicPoints": 65},
-      {"unitName": "Technoarcheologist", "basicPoints": 45}
-    ],
-    "battleline": [
-      {"unitName": "Skitarii Rangers", "basicPoints": 85},
-      {"unitName": "Skitarii Vanguard", "basicPoints": 90}
-    ],
-    "dedicatedTransports": [
-      {"unitName": "Skorpius Dunerider", "basicPoints": 85}
-    ],
-    "other": [
-      {"unitName": "Archaeopter Fusilave", "basicPoints": 160},
-      {"unitName": "Archaeopter Stratoraptor", "basicPoints": 185},
-      {"unitName": "Archaeopter Transvector", "basicPoints": 150},
-      {"unitName": "Corpuscarii Electro-priests", "basicPoints": 70},
-      {"unitName": "Fulgurite Electro-priests", "basicPoints": 75},
-      {"unitName": "Ironstrider Ballistarii", "basicPoints": 70},
-      {"unitName": "Kastelan Robots", "basicPoints": 190},
-      {"unitName": "Kataphron Breachers", "basicPoints": 160},
-      {"unitName": "Kataphron Destroyers", "basicPoints": 105},
-      {"unitName": "Onager Dunecrawler", "basicPoints": 160},
-      {"unitName": "Pteraxii Skystalkers", "basicPoints": 65},
-      {"unitName": "Pteraxii Sterylizors", "basicPoints": 75},
-      {"unitName": "Serberys Raiders", "basicPoints": 60},
-      {"unitName": "Serberys Sulphurhounds", "basicPoints": 60},
-      {"unitName": "Sicarian Infiltrators", "basicPoints": 70},
-      {"unitName": "Sicarian Ruststalkers", "basicPoints": 75},
-      {"unitName": "Skorpius Disintegrator", "basicPoints": 175},
-      {"unitName": "Sydonian Dragoons with Radium Jezzails", "basicPoints": 55},
-      {"unitName": "Sydonian Dragoons with Taser Lances", "basicPoints": 70}
-    ]
+      ],
+      "battleline": [
+        {
+          "unitName": "Vigilant Squad",
+          "basicPoints": 105
+        },
+        {
+          "unitName": "Voidsmen-at-arms",
+          "basicPoints": 50
+        }
+      ],
+      "other": [
+        {
+          "unitName": "Exaction Squad",
+          "basicPoints": 110
+        },
+        {
+          "unitName": "Imperial Navy Breachers",
+          "basicPoints": 105
+        },
+        {
+          "unitName": "Inquisitorial Henchmen",
+          "basicPoints": 50
+        },
+        {
+          "unitName": "Subductor Squad",
+          "basicPoints": 110
+        }
+      ]
+    }
+  ]
 }

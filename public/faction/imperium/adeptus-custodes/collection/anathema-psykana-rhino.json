@@ -5,7 +5,7 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "The Rhinos of the Silent Sisterhood are more than just armoured personnel carriers. Many have served the Imperium for hundreds, if not thousands of years. Highly rugged vehicles, their spacious capacity and powerful engines help them to safely carry their deadly cargo of Sisters into the fiercest of battles.",
+    "lore": "The Rhinos of the Silent Sisterhood are more than just armoured personnel carriers. Many have served the Imperium for hundreds, if not thousands of years. Highly rugged vehicles, their spacious capacity and powerful engines help them to safely carry their deadly cargo of Sisters into the fiercest of battles",
     "keywords": [
         "vehicle",
         "transport",
@@ -35,7 +35,7 @@
             ],
             "range": 48,
             "strength": 14,
-            "attacks": 2,
+            "attacks": 1,
             "ballistic-skills": 2,
             "armor-penetration": 3,
             "damage": "d6",
@@ -60,20 +60,22 @@
             "Deadly Demise D3",
             "Firing Deck 2"
         ],
-        "faction": [],
+        "faction": [
+            
+        ],
         "otherAbilities": [
+            {
+                "name": "Self Repair",
+                "description": "At the end of your Command phase, this model regains 1 lost wound."
+            },
             {
                 "name": "Daughters of the Abyss",
                 "description": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and Mortal Wounds "
-            },
-            {
-                "name": "Self Repair:",
-                "description": "At the start of your Command phase , this model regains 1 lost wound."
             }
         ]
     },
     "wargear": [
-        {"miniature":"anathema psykana rhino",
+        {"miniature":"rhino",
             "description": "This model can be equipped with 1 hunter-killer missile.",
             "items": ["hunter-killer missile"]
         }
@@ -95,10 +97,7 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                [
-                    "storm bolter",
-                    " armoured tracks"
-                ]
+                "storm bolter","armoured tracks"
             ]
         }
     ],

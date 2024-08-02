@@ -102,35 +102,7 @@
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Incinerator",
-            "modifiers": "ignorescover,torrent",
-            "attacks": "D6",
-            "weapons-skills": "N/A",
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 1
-        },
-        {
-            "name": "Psilencer",
-            "modifiers": "psychic,sustainedhits1",
-            "attacks": 6,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Psycannon",
-            "modifiers": [
-                "psychic"
-            ],
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 8,
-            "armor-penetration": 1,
-            "damage": 2
-        },
+       
         {
             "name": "Close combat weapon",
             "modifiers": [],
@@ -175,9 +147,15 @@
     "options": [
         {
             "count": [
-                1
+                1,4
             ],
-            "points": 75
+            "points": 120
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 240
         }
     ],
     "additionalParameter": {}

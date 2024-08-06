@@ -77,9 +77,17 @@
     ],
     "unitComposition": [
         {
-            "unitType": "Hellions",
+            "unitType": "Helliarch",
             "minQuantity": 1,
-            "maxQuantity": 4,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol","huskblade"
+            ]
+        },
+        {
+            "unitType": "Hellions",
+            "minQuantity": 4,
+            "maxQuantity": 9,
             "equipment": [
                 "splinter pistol","huskblade"
             ]
@@ -128,11 +136,12 @@
     ],
     "additionalParameter": {},
     "wargear": [
-        {
-            "description": "The Helliarch can be equipped with 1 phantasm grenade launcher."
+        {"miniature":"Helliarch",
+            "description": "The Helliarch can be equipped with 1 phantasm grenade launcher.",
+            "items":["phantasm grenade launcher"]
         },
-        {
-            "description": "The Helliarch’s hellglaive can be replaced with 1 splinter pistol and 1 Helliarch weapon."
+        {"miniature":"Helliarch",
+            "description": "The Helliarch’s hellglaive can be replaced with 1 splinter pistol and 1 Helliarch weapon.","items":["Helliarch weapon"]
         }
     ]
 }

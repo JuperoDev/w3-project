@@ -106,29 +106,54 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
+        {"miniature":"Broadside Shas’ui",
             "description": "Any number of models can each have their heavy rail rifle replaced with 1 high-yield missile pods.",
-            "items": []
+            "items": ["high-yield missile pods"]
         },
-        {"miniature":"",
+        {"miniature":"Broadside Shas’ui",
             "description": "Any number of models can each be equipped with up to two of the following, but cannot take duplicates",
             "items": [
-                "1 battlesuit support system",
-                "1 seeker missile",
-                "1 twin plasma rifle*",
-                "1 twin smart missile system*",
-                "1 weapon support system"
+                "battlesuit support system",
+                "seeker missile",
+                "twin plasma rifle*",
+                "twin smart missile system*",
+                "weapon support system"
             ]
         },
-        {"miniature":"",
+        {"miniature":"Broadside Shas’ui",
             "description": "Any number of models can each be equipped with up to two of the following, and can take duplicates",
             "items": [
-                "1 gun drone",
-                "1 marker drone",
-                "1 missile drone",
-                "1 shield drone"
+                "gun drone",
+                "marker drone",
+                "missile drone",
+                "shield drone"
             ]
-        }
+        },
+
+
+        {"miniature":"Broadside Shas’vre",
+        "description": "Any number of models can each have their heavy rail rifle replaced with 1 high-yield missile pods.",
+        "items": ["high-yield missile pods"],"hideInDatasheet":true
+    },
+    {"miniature":"Broadside Shas’vre",
+        "description": "Any number of models can each be equipped with up to two of the following, but cannot take duplicates",
+        "items": [
+            "battlesuit support system",
+            "seeker missile",
+            "twin plasma rifle*",
+            "twin smart missile system*",
+            "weapon support system"
+        ],"hideInDatasheet":true
+    },
+    {"miniature":"Broadside Shas’vre",
+        "description": "Any number of models can each be equipped with up to two of the following, and can take duplicates",
+        "items": [
+            "gun drone",
+            "marker drone",
+            "missile drone",
+            "shield drone"
+        ],"hideInDatasheet":true
+    }
     ],
     "meleeWeapons": [
         {

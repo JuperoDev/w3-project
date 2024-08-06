@@ -147,23 +147,23 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
+        {"miniature":"armoured sentinels",
             "description": "Any number of models can each have their Militarum multi-laser replaced with one of the following",
             "items": [
-                "1 autocannon",
+                "autocannon",
                 "heavy flamer",
                 "lascannon",
                 "missile launcher",
                 "plasma cannon"
             ]
         },
-        {
+        {"miniature":"armoured sentinels",
             "description": "Any number of models can each be equipped with 1 Sentinel chainsaw.",
-            "items": []
+            "items": ["Sentinel chainsaw"]
         },
-        {
+        {"miniature":"armoured sentinels",
             "description": "Any number of models can each be equipped with 1 hunter-killer missile.",
-            "items": []
+            "items": ["hunter-killer missile"]
         }
     ],
     "meleeWeapons": [
@@ -188,7 +188,7 @@
     ],
     "unitComposition": [
         {
-            "unitType": " Armoured Sentinels",
+            "unitType": "Armoured Sentinels",
             "minQuantity": 1,
             "maxQuantity": 3,
             "equipment": [

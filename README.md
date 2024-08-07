@@ -244,7 +244,7 @@ _This String is not a part of the Wargear Array, but for information purposes it
     {
       "description": "The Sword Brother’s bolt pistol and boltgun can be replaced with 1 twin lightning claws or two different weapons from the following list",
       "items": [
-        "1 Astartes chainsword",
+        "Astartes chainsword",
         "bolt pistol",
         "boltgun",
         "combi-weapon",
@@ -261,7 +261,7 @@ _This String is not a part of the Wargear Array, but for information purposes it
     {
       "description": "Any number of Neophytes can each have their boltgun replaced with one of the following: ",
       "items": [
-        "1 Astartes chainsword",
+        "Astartes chainsword",
         "bolt pistol",
         "boltgun",
         "combi-weapon",

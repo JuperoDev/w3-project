@@ -114,29 +114,29 @@
         ],
         "otherAbilities": [
             {
-                "name": "Destructor:",
+                "name": "Destructor",
                 "description": "Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
             }
         ]
     },
     "wargear": [
-        {
+        {"miniature":"chaos predator destructor",
             "description": "This model can be equipped with one of the following",
             "items": [
                 "2 heavy bolters",
                 "2 lascannons"
             ]
         },
-        {
+        {"miniature":"chaos predator destructor",
             "description": "This model can be equipped with one of the following",
             "items": [
-                "1 combi-bolter",
+                "combi-bolter",
                 "combi-weapon"
             ]
         },
-        {
-            "description": "This model can be equipped with 1 Havoc launcher.",
-            "items": []
+        {"miniature":"chaos predator destructor",
+            "description": "This model can be equipped with 1 havoc launcher.",
+            "items": ["havoc launcher"]
         }
     ],
     "meleeWeapons": [

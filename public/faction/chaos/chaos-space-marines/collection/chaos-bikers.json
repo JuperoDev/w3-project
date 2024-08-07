@@ -161,20 +161,20 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Biker Champion",
             "description": "The Biker Champion's bolt pistol can be replaced with one of the following",
             "items": [
                 "plasma pistol",
-                "1 accursed weapon",
-                "1 Astartes chainsword",
+                "accursed weapon",
+                "Astartes chainsword",
                 "power fist"
             ]
         },
-        {
+        {"miniature":"Chaos Bikers",
             "description": "Any number of Chaos Bikers can each have their bolt pistol replaced with 1 Astartes chainsword.",
-            "items": []
+            "items": ["Astartes chainsword"]
         },
-        {
+        {"miniature":"Chaos Bikers",
             "description": "Up to 2 Chaos Bikers can each have their combi-bolter replaced with 1 combi-weapon, or can be equipped with one of the following",
             "items": [
                 "flamer",
@@ -182,9 +182,9 @@
                 "plasma gun"
             ]
         },
-        {
+        {"miniature":"Chaos Bikers",
             "description": "1 model can be equipped with 1 Chaos icon.",
-            "items": []
+            "items": ["Chaos icon"]
         }
     ],
     "meleeWeapons": [

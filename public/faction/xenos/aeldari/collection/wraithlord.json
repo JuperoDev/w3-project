@@ -105,44 +105,27 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Wraithlord",
             "description": "Each of this model's shuriken catapults can be replaced with 1 Aeldari flamer.",
-            "items": []
+            "items": ["Aeldari flamer"]
         },
-        {
+        {"miniature":"Wraithlord",
             "description": "This model can be equipped with 1 ghostglaive.",
-            "items": []
+            "items": ["ghostglaive"]
         },
-        {
+        {"miniature":"Wraithlord",
             "description": "This model can be equipped with up to two of the following",
             "items": [
-                "1 Aeldari missile launcher",
-                "1 bright lance",
-                "1 scatter laser",
-                "1 shuriken cannon",
-                "1 starcannon"
+                "Aeldari missile launcher",
+                "bright lance",
+                "scatter laser",
+                "shuriken cannon",
+                "starcannon"
             ]
         }
     ],
     "meleeWeapons": [
-        {
-            "name": "Bright lance",
-            "modifiers": [],
-            "attacks": 1,
-            "weapons-skills": 4,
-            "strength": 12,
-            "armor-penetration": 3,
-            "damage": "D6+2"
-        },
-        {
-            "name": "Scatter laser",
-            "modifiers": [],
-            "attacks": 6,
-            "weapons-skills": 4,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1
-        },
+        
         {
             "name": "Ghostglaive - strike",
             "modifiers": [],
@@ -150,7 +133,18 @@
             "weapons-skills": 4,
             "strength": 10,
             "armor-penetration": 3,
-            "damage": "D6+1"
+            "damage": "D6+1",
+            "singleChoice":true
+        },
+        {
+            "name": "Ghostglaive - sweep",
+            "modifiers": [],
+            "attacks": 8,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice":true
         },
         {
             "name": "Wraithbone fists",

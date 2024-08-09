@@ -72,20 +72,39 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
-            "description": "Any number of models can each have their burst cannon replaced with 1 T’au flamer"
+        {"miniature":"Crisis Starscythe Shas’vre",
+            "description": "Any number of models can each have their burst cannon replaced with 1 T’au flamer","items":["T’au flamer"]
         },
-        {"miniature":"",
-            "description": "Any number of models can each have their T’au flamer replaced with 1 burst cannon"
+        {"miniature":"Crisis Starscythe Shas’vre",
+            "description": "Any number of models can each have their T’au flamer replaced with 1 burst cannon","items":["burst cannon"]
         },
-        {"miniature":"",
+        {"miniature":"Crisis Starscythe Shas’vre",
             "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates",
             "items": [
-                "1 gun drone",
-                "1 marker drone",
-                "1 shield drone"
+                "gun drone",
+                "marker drone",
+                "shield drone"
             ]
+        },
+
+
+
+
+        {"miniature":"Crisis Starscythe Shas’ui",
+            "description": "Any number of models can each have their burst cannon replaced with 1 T’au flamer","items":["T’au flamer"],"hideInDatasheet":true
+        },
+        {"miniature":"Crisis Starscythe Shas’ui",
+            "description": "Any number of models can each have their T’au flamer replaced with 1 burst cannon","items":["burst cannon"],"hideInDatasheet":true
+        },
+        {"miniature":"Crisis Starscythe Shas’ui",
+            "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates",
+            "items": [
+                "gun drone",
+                "marker drone",
+                "shield drone"
+            ],"hideInDatasheet":true
         }
+
     ],
     "meleeWeapons": [
         {

@@ -142,7 +142,7 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
+        {"miniature":"Pathfinder Shas’ui",
             "description": "The Pathfinder Shas’ui can be equipped with one of the following",
             "items": [
                 "1 grav-inhibitor drone",
@@ -150,18 +150,22 @@
                 "1 recon drone"
             ]
         },
-        {"miniature":"",
+        {"miniature":"Pathfinders",
             "description": "Up to 3 Pathfinders can each have their pulse carbine replaced with one of the following",
             "items": [
                 "1 ion rifle",
                 "1 rail rifle"
             ]
         },
-        {"miniature":"",
+        {"miniature":"Pathfinder Shas’ui",
             "description": "1 model in this unit equipped with a pulse carbine can be equipped with 1 semi-automatic grenade launcher. That model’s pulse carbine cannot be replaced.",
-            "items": []
+            "items": ["semi-automatic grenade launcher"], "hideInDatasheet":true
         },
-        {"miniature":"",
+        {"miniature":"Pathfinders",
+            "description": "1 model in this unit equipped with a pulse carbine can be equipped with 1 semi-automatic grenade launcher. That model’s pulse carbine cannot be replaced.",
+            "items": ["semi-automatic grenade launcher"]
+        },
+        {"miniature":"Pathfinders",
             "description": "1 model in this unit can be equipped with up to two of the following, and can take duplicates",
             "items": [
                 "1 gun drone",

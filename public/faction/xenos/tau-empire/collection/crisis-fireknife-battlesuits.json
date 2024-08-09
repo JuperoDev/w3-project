@@ -69,20 +69,40 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
-            "description": "Any number of models can each have their plasma rifle replaced with 1 missile pod"
+        {"miniature":"Crisis Fireknife Shas’vre",
+            "description": "Any number of models can each have their plasma rifle replaced with 1 missile pod","items":["missile pod"]
         },
-        {"miniature":"",
-            "description": "Any number of models can each have their missile pod replaced with 1 plasma rifle"
+        {"miniature":"Crisis Fireknife Shas’vre",
+            "description": "Any number of models can each have their missile pod replaced with 1 plasma rifle","items":["plasma rifle"]
         },
-        {"miniature":"",
+        {"miniature":"Crisis Fireknife Shas’vre",
             "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates",
             "items": [
-                "1 gun drone",
-                "1 marker drone",
-                "1 shield drone"
+                "gun drone",
+                "marker drone",
+                "shield drone"
             ]
+        },
+
+
+
+        {"miniature":"Crisis Fireknife Shas’ui",
+            "description": "Any number of models can each have their plasma rifle replaced with 1 missile pod","items":["missile pod"],"hideInDatasheet":true
+        },
+        {"miniature":"Crisis Fireknife Shas’ui",
+            "description": "Any number of models can each have their missile pod replaced with 1 plasma rifle","items":["plasma rifle"],"hideInDatasheet":true
+        },
+        {"miniature":"Crisis Fireknife Shas’ui",
+            "description": "Any number of models can be equipped with up to two of the following, but cannot take duplicates",
+            "items": [
+                "gun drone",
+                "marker drone",
+                "shield drone"
+            ],"hideInDatasheet":true
         }
+
+
+
     ],
     "meleeWeapons": [
         {

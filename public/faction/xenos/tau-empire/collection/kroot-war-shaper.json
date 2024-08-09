@@ -63,15 +63,19 @@
     "faction": [],
     "otherAbilities": [
       {
-        "name": "This model is equipped with:",
-        "description": "dart-bow and tri-blade; Kroot pistol; Shaper’s blade."
+        "name": "War Leader",
+        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Root of Honour",
+        "description": "Once per battle, at the start of any phase, you can select one friendly KOOT unit that is Battle-shocked and within 12'' of this model. That unit is no longer Battle-shocked."
       }
     ]
   },
   "wargear": [
-    {"miniature":"",
+    {"miniature":"Kroot Flesh Shaper",
       "description": "This model’s dart-bow and tri-bade can be replaced with 1 bladestave and prey-hook.",
-      "items": []
+      "items": ["bladestave" , "prey-hook"]
     }
   ],
   "meleeWeapons": [
@@ -98,11 +102,11 @@
   "additionalParameter": {},
   "unitComposition": [
       {
-          "unitType": "Kroot Flesh Shaper",
+          "unitType": "Kroot War Shaper",
           "minQuantity": 1,
           "maxQuantity": 1,
           "equipment": [
-              "Kroot scattergun","twin ritualistic blades."
+            "dart-bow and tri-blade","Kroot pistol; Shaper’s blade"
           ]
       }
   ],

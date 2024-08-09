@@ -66,7 +66,7 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
+        {"miniature":"Stealth Shas’vre",
             "description": "The Stealth Shas’vre can be equipped with up to two of the following, and can take duplicates",
             "items": [
                 "1 gun drone",
@@ -74,14 +74,30 @@
                 "1 shield drone"
             ]
         },
-        {"miniature":"",
+        {"miniature":"Stealth Shas’vre",
             "description": "For every 3 models in the unit, 1 model’s burst cannon can be replaced with 1 fusion blaster.",
-            "items": []
+            "items": ["fusion blaster"]
         },
-        {"miniature":"",
+        {"miniature":"Stealth Shas’vre",
             "description": "For every 3 models in the unit, 1 model can be equipped with 1 battlesuit support system.",
-            "items": []
-        }
+            "items": ["battlesuit support system"]
+        },
+        {"miniature":"Stealth Shas’vre",
+        "description": "The Stealth Shas’vre can be equipped with up to two of the following, and can take duplicates",
+        "items": [
+            "1 gun drone",
+            "1 marker drone",
+            "1 shield drone"
+        ]
+    },
+    {"miniature":"Stealth Shas’ui",
+        "description": "For every 3 models in the unit, 1 model’s burst cannon can be replaced with 1 fusion blaster.",
+        "items": ["fusion blaster"], "hideInDatasheet":true
+    },
+    {"miniature":"Stealth Shas’ui",
+        "description": "For every 3 models in the unit, 1 model can be equipped with 1 battlesuit support system.",
+        "items": ["battlesuit support system"], "hideInDatasheet":true
+    }
     ],
     "meleeWeapons": [
         {

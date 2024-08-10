@@ -100,10 +100,7 @@
           </v-expansion-panel-title>
           <v-expansion-panel-text>
               <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
-              <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
             
-           
-            <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
             
            
           </v-expansion-panel-text>

@@ -29,7 +29,8 @@
           :additionalParameter="additionalParameter"
         />
 
-        <DesktopComponentsWargear :wargear="wargear" />
+        <!-- Conditional rendering for wargear component -->
+        <DesktopComponentsWargear v-if="wargear && wargear.length > 0" :wargear="wargear" />
       </div>
       <div
         class="datasheet-desktop__grid-container--right border-l-2 border-slate-700 col-span-2"
@@ -82,7 +83,10 @@ const props = defineProps({
   meleeWeapons: Array,
   additionalParameter: Object,
   rangedWeapons: Array,
-  wargear: Array,
+  wargear: {
+    type: Array,
+    default: () => [],
+  },
   leader: Array,
   leaderInfo: String,
   supremeCommander: Boolean,
@@ -113,7 +117,4 @@ const isEmptyObject = (obj) => {
    width: 1200px; 
   margin: 0 auto;
 }
-
-
-
 </style>

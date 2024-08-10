@@ -3,7 +3,6 @@
     
     <NavbarComponentsButtonGrid />
    
-    
     <!--  desktop datasheet  -->
     <div class="desktop-datasheet-container max-lg:hidden">
       <DesktopDatasheet
@@ -64,8 +63,6 @@
 
         <!-- Melee weapons  -->
 
-       
-
         <v-expansion-panel>
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Melee Weapons</div>
@@ -97,13 +94,16 @@
 
         <!-- Wargear Abilities -->
         <v-expansion-panel v-if="warGearAbilities">
-        <!-- <v-expansion-panel v-if="warGearAbilities"> -->
+      
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Wargear Abilities</div>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
-            
               <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
+              <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
+            
+           
+            <MobileWarGearAbilities :warGearAbilities="warGearAbilities" />
             
            
           </v-expansion-panel-text>
@@ -146,7 +146,7 @@
         </v-expansion-panel>
 
         <!-- Wargear Options  -->
-        <v-expansion-panel>
+        <v-expansion-panel v-if="wargear && wargear.length > 0">
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">wargear options</div>
           </v-expansion-panel-title>
@@ -156,22 +156,23 @@
         </v-expansion-panel>
 
         <!-- leader  -->
-      
-          
         <v-expansion-panel v-if="!!leader?.length">
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">Leader</div>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
-           
               <MobileLeader :leader="leader" :leaderInfo="leaderInfo" />
+              <MobileLeader :leader="leader" :leaderInfo="leaderInfo" />
+            
+            
+            <MobileLeader :leader="leader" :leaderInfo="leaderInfo" />
             
             
           </v-expansion-panel-text>
         </v-expansion-panel>
 
-        
-          <v-expansion-panel>
+        <!-- Unit Composition -->
+        <v-expansion-panel>
           <v-expansion-panel-title>
             <div class="uppercase font-semibold">unit composition</div>
           </v-expansion-panel-title>
@@ -208,7 +209,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
 import { useRoute } from "vue-router";
 
 // params
@@ -264,7 +265,7 @@ onMounted(async () => {
     transport.value = unitData.transport;
     parentUnit.value = unitData.parentUnit;
     leader.value = unitData.leader;
-    leaderInfo.value=unitData.leaderInfo;
+    leaderInfo.value = unitData.leaderInfo;
     rangedWeapons.value = unitData.rangedWeapons;
     meleeWeapons.value = unitData.meleeWeapons;
     additionalParameter.value = unitData.additionalParameter;
@@ -282,7 +283,7 @@ onMounted(async () => {
     console.error("Fetch Error: ", error);
     supremeCommander.value = false;
     wargear.value = [];
-    warGearAbilities = [];
+    warGearAbilities.value = [];
   }
 });
 

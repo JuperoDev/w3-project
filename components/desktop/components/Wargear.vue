@@ -12,15 +12,18 @@
     >
       <div v-for="(wargearSet, index) in filteredWargear" :key="index">
         <p>{{ wargearSet.description }}</p>
-        <ul class="pt-2">
+        <div class="desktop-wargear__ul-wrapper bg-zinc-200 px-4 py-2  my-3 mr-5">
+        <ul>
           <li
             v-for="(item, itemIndex) in wargearSet.items"
             :key="itemIndex"
-            class="capitalize"
+            class="capitalize "
           >
             {{ item }}
           </li>
         </ul>
+        </div>
+        <hr class="my-3"/>
       </div>
     </div>
 
@@ -47,3 +50,24 @@ const filteredWargear = computed(() => {
   return props.wargear.filter(wargearSet => !wargearSet.hideInDatasheet);
 });
 </script>
+
+<style scoped>
+
+li::before {
+  content: "■";
+  list-style-type: square;
+  color: rgb(218, 0, 0);
+  display: inline-block;
+  width: 1em;
+  margin-right: 1em;
+
+  font-size: 15px;
+}
+
+ul {
+  /* min-width: 700px; */
+  list-style: none;
+}
+
+
+</style>

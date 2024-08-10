@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-stone-100 p-2 h-screen relative">
+  <div class="bg-stone-100 p-2 lg:px-64 h-screen relative">
     <GeneralPurposePasswordProtection>
       <div class="bg-white border border-black-500 pb-16">
         <!-- Main Content -->

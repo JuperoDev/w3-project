@@ -149,21 +149,22 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Aspiring Sorcerer",
             "description": "The Aspiring Sorcerer’s inferno bolt pistol can be replaced with one of the following:",
             "items": [
                 "plasma pistol",
-                "1 warpflame pistol"
+                "warpflame pistol"
             ]
         },
-        {
-            "description": "Any number of Rubric Marines can each have their inferno boltgun replaced with 1 warpflamer."
+        {"miniature":"Rubric Marines",
+            "description": "Any number of Rubric Marines can each have their inferno boltgun replaced with 1 warpflamer.",
+            "items":["warpflamer"]
         },
-        {
-            "description": "1 Rubric Marine’s inferno boltgun can be replaced with 1 soulreaper cannon."
+        {"miniature":"Rubric Marines",
+            "description": "1 Rubric Marine’s inferno boltgun can be replaced with 1 soulreaper cannon.","items":["soulreaper cannon"]
         },
-        {
-            "description": "1 Rubric Marine can be equipped with 1 icon of flame."
+        {"miniature":"Rubric Marines",
+            "description": "1 Rubric Marine can be equipped with 1 icon of flame.","items":["icon of flame"]
         }
     ],
     "unitComposition": [

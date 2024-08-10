@@ -65,12 +65,20 @@
         ]
     },
     "wargear": [
-        {
-            "description": "Any number of models can each have their divining spear replaced with one of the following:",
+        {"miniature":"Enlightened",
+            "description": "Any number of models can each have their divining spear replaced with one of the following:", "subDescription":["autopistol and 1 chainsword", "fatecaster greatbow and 1 close combat weapon"],
             "items": [
-                "1 autopistol and 1 chainsword",
-                "1 fatecaster greatbow and 1 close combat weapon"
+                "autopistol and 1 chainsword",
+                "fatecaster greatbow and 1 close combat weapon"
             ]
+        },
+        {"miniature":"Enlightened",
+            "description": "Any number of models can each have their divining spear replaced with one of the following:",
+            "subDescription":["autopistol and 1 chainsword", "fatecaster greatbow and 1 close combat weapon"],
+            "items": [
+                "autopistol and 1 chainsword",
+                "fatecaster greatbow and 1 close combat weapon"
+            ],"hideInDatasheet":true
         }
     ],
     "unitComposition": [

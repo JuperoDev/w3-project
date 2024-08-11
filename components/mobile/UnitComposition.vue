@@ -59,26 +59,34 @@
       <p class="m-auto">Points</p>
     </div>
 
-    <div class="grid grid-row grid-cols-4" v-for="option in options">
-      <div class="col-span-2">
-        <div class=" items-center capitalize p-3">
-          <div v-for="unit in unitComposition">
-            <p>{{ unit.unitType }} </p>
-            <br/>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="p-3 flex justify-center" v-for="count in option.count">
-          <p>{{ count }}</p>
-        </div>
-      </div>
-
-      <div class="p-3 flex justify-center">
-        <p class="-ml-4">{{ option.points }}</p>
+    <div
+  class="grid grid-row grid-cols-4"
+  v-for="(option, index) in options"
+  :key="index"
+  :class="{
+        'bg-zinc-200 capitalize text-gray-900 py-2 px-2  border-b-2 border-solid border-zinc-400': (index + 1) % 2 === 0,
+        'bg-white capitalize text-gray-900 py-2 px-2 border-b-2 border-solid border-zinc-400': (index + 1) % 2 !== 0,
+      }"
+>
+  <div class="col-span-2">
+    <div class="items-center capitalize p-3">
+      <div v-for="unit in unitComposition" :key="unit.unitType">
+        <p>{{ unit.unitType }}</p>
+        <br />
       </div>
     </div>
+  </div>
+
+  <div>
+    <div class="p-3 flex justify-center" v-for="(count, countIndex) in option.count" :key="countIndex">
+      <p>{{ count }}</p>
+    </div>
+  </div>
+
+  <div class="p-3 flex justify-center">
+    <p class="-ml-4">{{ option.points }}</p>
+  </div>
+</div>
   </div>
 </template>
 <script setup>

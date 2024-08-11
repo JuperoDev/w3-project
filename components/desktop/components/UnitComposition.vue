@@ -51,7 +51,15 @@
       <p class="m-auto">Points</p>
     </div>
 
-    <div class="grid grid-row grid-cols-4" v-for="option in options">
+    <div
+  class="grid grid-row grid-cols-4"
+  v-for="(option, index) in options"
+  :key="index"
+  :class="{
+        'bg-zinc-200 capitalize text-gray-900 py-2 px-2  border-b-2 border-solid border-zinc-400': (index + 1) % 2 === 0,
+        'bg-white capitalize text-gray-900 py-2 px-2 border-b-2 border-solid border-zinc-400': (index + 1) % 2 !== 0,
+      }"
+>
       <div class="col-span-2">
         <div class="items-center capitalize p-3">
           <div v-for="unit in unitComposition">

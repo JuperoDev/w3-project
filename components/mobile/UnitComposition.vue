@@ -54,7 +54,7 @@
 
     <br />
     <div class="grid grid-cols-4 bg-zinc-900 text-zinc-100 rounded-t-lg p-3">
-      <p class="col-span-2 m-auto">Model name</p>
+      <p class="col-span-2">Model name</p>
       <p class="m-auto">Count</p>
       <p class="m-auto">Points</p>
     </div>

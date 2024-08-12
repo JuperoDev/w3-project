@@ -1,7 +1,9 @@
 <template>
   <div>
+    <!-- v-if="hasWargear" THIS CAN GO IN SPAN TO HIDE THE WARGEAR OPTIONS -->
     <span 
-      v-if="hasWargear"
+    
+      
       class="text-sm text-blue-500 cursor-pointer hover:underline" 
       @click="dialog = true"
     >

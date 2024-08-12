@@ -21,36 +21,39 @@
     </div>
 
     <div
-      class="ranged-weapons__weapon border-b-2 border-dotted border-slate-400 m-3 grid grid-cols-2"
-      v-for="weapon in meleeWeapons"
+  class="melee-weapons__weapon pt-2 pb-5 pl-5 grid grid-cols-2 border-b-2 border-dotted border-slate-400"
+  v-for="(weapon, index) in meleeWeapons"
+  :key="weapon.name"
+  :class="{
+    'bg-zinc-200 text-gray-700 ' : (index + 1) % 2 === 0,
+    'bg-white text-gray-700  ': (index + 1) % 2 !== 0,
+  }"
+>
+  <div class="datasheet-desktop__section-title flex">
+    <div class="arrow bg-zinc-900 mt-1 mr-1" v-if="weapon.singleChoice"></div>
+    <p class="capitalize">{{ weapon.name }}</p>
+  </div>
+
+  <div class="datasheet-desktop__section-stats grid grid-cols-6 ">
+    <p>Melee</p>
+    <p>{{ weapon.attacks }}</p>
+    <p>{{ weapon["weapons-skills"] }}</p>
+    <p>{{ weapon.strength }}</p>
+    <p>{{ weapon["armor-penetration"] }}</p>
+    <p>{{ weapon.damage }}</p>
+  </div>
+  
+  <div class="flex flex-wrap mt-2">
+    <span
+      v-for="(modifier, index) in weapon.modifiers"
+      :key="index"
+      class="modifiers border-dashed border-2 border-zinc-400 p-1 mr-2 mb-2 hover:border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
+      style="cursor: pointer;"
     >
-      <div class="datasheet-desktop__section-title flex">
-        <div class="arrow bg-zinc-900 mt-1 mr-1" v-if="weapon.singleChoice"></div>
-        <p class="capitalize">{{ weapon.name }}</p>
-      </div>
-
-      <div
-        class="datasheet-desktop__section-stats grid grid-cols-6 text-center"
-      >
-        <p>Melee</p>
-
-        <p>{{ weapon.attacks }}</p>
-        <p>{{ weapon["weapons-skills"] }}</p>
-        <p>{{ weapon.strength }}</p>
-        <p>{{ weapon["armor-penetration"] }}</p>
-        <p>{{ weapon.damage }}</p>
-      </div>
-      <div class="flex flex-wrap">
-              <span
-                v-for="(modifier, index) in weapon.modifiers"
-                :key="index"
-                class="modifiers border-dashed border-2 mx-2 border-zinc-400 p-1 mr-2 mb-2 hover:border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
-                style="cursor: pointer;">
-                <!-- {{ modifier }} -->
-                <GeneralPurposeModifierDialog :modifier="modifier"/>
-              </span>
-            </div>
-    </div>
+      <GeneralPurposeModifierDialog :modifier="modifier" />
+    </span>
+  </div>
+</div>
     
     <div class="downarrow flex mt-10 ml-3" v-if="showDownArrow">
       <div class="arrow bg-zinc-900 mt-1 mr-3"></div>

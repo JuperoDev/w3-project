@@ -33,3 +33,11 @@ h2 {
 
 
 </style>
+
+<script setup>
+
+// Set document title and meta description based on armyUnit
+onMounted(() => {
+  document.title = `Deep Strike`;
+  
+});</script>

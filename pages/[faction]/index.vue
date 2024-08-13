@@ -46,4 +46,10 @@ onMounted(async () => {
     console.error("Fetch Error: ", error);
   }
 });
+
+// Set document title and meta description based on armyUnit
+onMounted(() => {
+  document.title = `Deep Strike`;
+  
+});
 </script>

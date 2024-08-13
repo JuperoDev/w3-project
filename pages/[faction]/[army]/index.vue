@@ -156,6 +156,11 @@ onMounted(async () => {
   }
 });
 
+// Set document title and meta description based on armyUnit
+onMounted(() => {
+  document.title = `Deep Strike`;
+  
+});
 
 </script>
 

@@ -285,6 +285,14 @@ const armyUrl = computed(() => {
   }
   return '';
 });
+
+// Set document title and meta description based on page
+onMounted(() => {
+  document.title = `Army Creator`;
+  
+});
+
+
 </script>
 
 <style scoped>

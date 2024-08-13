@@ -62,6 +62,13 @@
  onMounted(() => {
   fetchCollectionData();
  });
+
+ // Set document title and meta description based on armyUnit
+onMounted(() => {
+  document.title = `Detachment`;
+  
+});
+
 </script>
 
 <style scoped>

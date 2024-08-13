@@ -82,7 +82,7 @@ const formatArmyDetails = (army) => {
     });
   }
 
-  result += `Created with RI`;
+  result += `Created with Deep Strike Army Builder`;
 
   return result.trim();
 };

@@ -3,7 +3,7 @@
     <div v-if="data && data.faction" class="grid grid-cols-2 mt-5">
       <div v-for="factionName in data.faction" :key="factionName" class="m-1 px-2 pb-3 card">
         <nuxt-link :to="`/${factionName}`">
-          <img :src="getFactionImage(factionName)" alt=""/>
+          <!-- <img :src="getFactionImage(factionName)" alt=""/> -->
           <v-btn class="w-56">{{ factionName }}</v-btn>
         </nuxt-link>
       </div>

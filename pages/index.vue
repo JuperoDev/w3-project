@@ -36,8 +36,23 @@ h2 {
 
 <script setup>
 
-// Set document title and meta description based on armyUnit
 onMounted(() => {
-  document.title = `Deep Strike`;
-  
-});</script>
+  // Set the document title
+  document.title = 'Deep Strike';
+
+  // Create or update the meta description tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+
+  if (!metaDescription) {
+    // If the meta description tag doesn't exist, create it
+    metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    document.head.appendChild(metaDescription);
+  }
+
+  // Set the content of the meta description
+  metaDescription.content = 'Warhammer rules and army builder';
+});
+
+
+</script>

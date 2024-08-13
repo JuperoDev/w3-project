@@ -25,8 +25,11 @@
         "canoness"
     ],
     "leader": [
-        "battle sisters squad",
-        "celestian sacresants"
+        "Battle Sisters Squad",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
     ],
     "rangedWeapons": [
         {
@@ -124,12 +127,12 @@
         ],
         "otherAbilities": [
             {
-                "name": "Lead the Righteous",
-                "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+                "name": "Rites of Battle",
+                "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP"
             },
             {
                 "name": "The Emperor’s Grace",
-                "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save."
+                "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save"
             }
         ]
     },
@@ -144,11 +147,11 @@
             "modifiers": []
         },
         {
-            "name": "Chainsword",
+            "name": "Hallowed Chainsword",
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 3,
-            "armor-penetration": 0,
+            "armor-penetration": 1,
             "damage": 1,
             "modifiers": []
         },
@@ -164,7 +167,7 @@
     ],
     "wargear": [
         {"miniature":"canoness",
-            "description": "If this model is equipped with a chainsword, it can be equipped with one of the following:",
+            "description": "If this model is equipped with a hallowed chainsword, it can be equipped with one of the following:",
             "items": [
                 "brazier of holy fire",
                 "null rod"

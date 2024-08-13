@@ -65,7 +65,7 @@
         "otherAbilities": [
             {
                 "name": "Anguish of the Unredeemed:",
-                "description": "Each time this unit makes a Charge move , until the end of the turn, melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+                "description": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play"
             }
         ]
     },
@@ -148,19 +148,19 @@
             "count": [
                 1
             ],
-            "points": 55
+            "points": 70
         },
         {
             "count": [
                 2
             ],
-            "points": 110
+            "points": 140
         }
     ],
     "warGearAbilities": [
         {
             "wargear": "Anchorite Sarcophagus",
-            "ability": "The bearer has a Save characteristic of 3+."
+            "ability": "The bearer has a Move characteristic of 7'' and a Save characteristic of 3+"
         }
     ]
 }

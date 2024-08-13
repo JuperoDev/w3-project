@@ -55,8 +55,12 @@
         ],
         "otherAbilities": [
             {
-                "name": "Relics of the Matriarchs:",
-                "description": "At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs section (see left). Until the start of the next battle round, this model has those abilities."
+                "name": "Relics of the Matriarchs",
+                "description": "At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs section (see section). Until the start of the next battle round, this model has those abilities"
+            },
+            {
+                "name": "Solemn Procession",
+                "description": "At the start of the battle round, if this model is on the battlefield, you gain 1 Miracle Dice showing a value of 6"
             }
         ]
     },
@@ -76,28 +80,28 @@
         "title": "Relics of the Matriarchs",
         "abilities": [
             {
-                "name": "Simulacrum of the Argent Shroud (Aura)",
-                "description": "While a friendly ADEPTA SORORITAS unit is within 6'' of this model, add 1 to the Attacks characteristic of Rapid Fire weapons equipped by models in that unit"
-            },
-            {
                 "name": "The Fiery Heart (Aura)",
-                "description": "While a friendly ADEPTA SORORITAS unit is within 6'' of this model, if that unit is destroyed, the Miracle dice you gain as a result is automatically a 6"
+                "description": "While a friendly AEPTA SRORITAS unit is within 6\" of this model, add 2\" to that unit's Move characteristic and add 1 to Advance and Charge rolls made for that unit."
             },
             {
                 "name": "Censer of the Sacred Rose (Aura)",
-                "description": "While a friendly ADEPTA SORORITAS unit is within 6'' of this model, improve that unit’s Leadership characteristic by 1"
-            },
-            {
-                "name": "Petals of the Bloody Rose (Aura)",
-                "description": "While a friendly ADEPTA SORORITAS unit is within 6'' of this model, melee weapons equipped by models in that unit have the [LETHAL HITS] ability"
+                "description": "While a friendly AEPTA SRORITAS unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
             },
             {
                 "name": "Simulacrum of the Ebon Chalice (Aura)",
-                "description": "While a friendly ADEPTA SORORITAS unit is within 6'' of this model, that unit can perform any number of Acts of Faith per phase, instead of only one"
+                "description": "While a friendly AEPTA SRORITAS unit is within 6\" of this model, that unit can perform up to two Acts of Faith per phase, instead of only one."
+            },
+            {
+                "name": "Simulacrum of the Argent Shroud (Aura)",
+                "description": "While a friendly AEPTA SRORITAS unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Wound roll of 1."
             },
             {
                 "name": "Icon of the Valorous Heart (Aura)",
-                "description": "While a friendly ADEPTA SORORITAS unit is within 6'' of this model, that unit has the Feel No Pain 6+ ability"
+                "description": "While a friendly AEPTA SRORITAS unit is within 6\" of this model, models in that unit have the Feel No Pain 6+ ability."
+            },
+            {
+                "name": "Petals of the Bloody Rose (Aura)",
+                "description": "While a friendly AEPTA SRORITAS unit is within 6\" of this model, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
             }
         ]
     },
@@ -117,7 +121,7 @@
             "count": [
                 1
             ],
-            "points": 140
+            "points": 190
         }
     ]
 }

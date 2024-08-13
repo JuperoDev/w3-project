@@ -38,7 +38,7 @@
             "strength": 10,
             "attacks": "d6+2",
             "ballistic-skills": 3,
-            "armor-penetration": 2,
+            "armor-penetration": 3,
             "damage": "d6",
             "singleChoice": false
         },
@@ -51,10 +51,10 @@
                 "indirect fire"
             ],
             "range": 36,
-            "strength": 5,
+            "strength": 6,
             "attacks": "3d6",
             "ballistic-skills": 3,
-            "armor-penetration": 0,
+            "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
         },
@@ -94,8 +94,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Mobile Shrine (Aura)",
-                "description": " While a friendly ADEPTA SORORITAS INFANTRY unit is within 6'' of this model, improve the Leadership characteristic of models in that unit by 1."
+                "name": "Devastating Refrain",
+                "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of on a 6"
             }
         ]
     },
@@ -138,7 +138,7 @@
             "count": [
                 1
             ],
-            "points": 180
+            "points": 190
         }
     ]
 }

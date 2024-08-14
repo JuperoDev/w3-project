@@ -3,20 +3,20 @@
     <div class="header flex justify-between items-center mb-4">
       <div class="px-3 py-2 ml-1">
         <p><strong>Name:</strong> {{ name }}</p>
-        <p class="capitalize"><strong >Army:</strong> {{ selectedArmy }}</p>
+        <p class="capitalize"><strong>Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>
-        <p class="capitalize"><strong >Detachment:</strong> {{ selectedDetachment }}</p>
+        <p class="capitalize"><strong>Detachment:</strong> {{ selectedDetachment }}</p>
         <p><strong>Total Points:</strong> {{ totalPoints }}</p>
         <ArmyExporter 
-        :armyIndex="armyIndex" 
-        :totalPoints="totalPoints"
-        :characterUnits="characterUnits"
-        :battlelineUnits="battlelineUnits"
-        :otherUnits="otherUnits"
-        :dedicatedTransportUnits="dedicatedTransportUnits"
-      />
+          :armyIndex="armyIndex" 
+          :totalPoints="totalPoints"
+          :characterUnits="characterUnits"
+          :battlelineUnits="battlelineUnits"
+          :otherUnits="otherUnits"
+          :dedicatedTransportUnits="dedicatedTransportUnits"
+          :alliedUnits="alliedUnits"
+        />
       </div>
-      
     </div>
 
     <Characters 
@@ -45,7 +45,6 @@
       @update-total-points="updateDedicatedTransportPoints"
       @update-units="updateDedicatedTransportUnits"
     />
-    
     <Other 
       :url="sanitizedUrl" 
       :selectedDetachment="selectedDetachment"
@@ -54,9 +53,10 @@
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />
-   
+  
+    <!-- Include the AlliedUnits component here -->
+    <AlliedUnits :url="sanitizedUrl" />
 
-    <!-- PointStatus component -->
     <PointStatus :totalPoints="totalPoints" :pointList="pointList" />
   </div>
 </template>
@@ -66,9 +66,10 @@ import { ref, computed } from 'vue';
 import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';
-import DedicatedTransports from './DedicatedTransports.vue';  // Import the new component
+import DedicatedTransports from './DedicatedTransports.vue';
 import ArmyExporter from './ArmyExporter.vue';
-import PointStatus from './PointStatus.vue';  // Import the new component
+import PointStatus from './PointStatus.vue';
+import AlliedUnits from './AlliedUnits.vue';  // Import the AlliedUnits component
 
 const props = defineProps({
   name: {
@@ -104,15 +105,17 @@ const props = defineProps({
 const characterPoints = ref(0);
 const battlelinePoints = ref(0);
 const otherPoints = ref(0);
-const dedicatedTransportPoints = ref(0); // Add this
+const dedicatedTransportPoints = ref(0);
+const alliedPoints = ref(0);
 
 const characterUnits = ref([]);
 const battlelineUnits = ref([]);
 const otherUnits = ref([]);
-const dedicatedTransportUnits = ref([]); // Add this
+const dedicatedTransportUnits = ref([]);
+const alliedUnits = ref([]);
 
 const totalPoints = computed(() => {
-  return characterPoints.value + battlelinePoints.value + otherPoints.value + dedicatedTransportPoints.value; // Include this
+  return characterPoints.value + battlelinePoints.value + otherPoints.value + dedicatedTransportPoints.value + alliedPoints.value;
 });
 
 const updateCharacterPoints = (points) => {
@@ -127,8 +130,12 @@ const updateOtherPoints = (points) => {
   otherPoints.value = points;
 };
 
-const updateDedicatedTransportPoints = (points) => { // Add this
+const updateDedicatedTransportPoints = (points) => {
   dedicatedTransportPoints.value = points;
+};
+
+const updateAlliedPoints = (points) => {
+  alliedPoints.value = points;
 };
 
 const updateCharacterUnits = (units) => {
@@ -143,13 +150,39 @@ const updateOtherUnits = (units) => {
   otherUnits.value = units;
 };
 
-const updateDedicatedTransportUnits = (units) => { // Add this
+const updateDedicatedTransportUnits = (units) => {
   dedicatedTransportUnits.value = units;
+};
+
+const updateAlliedUnits = (units) => {
+  alliedUnits.value = units;
 };
 
 const sanitizedUrl = computed(() => {
   return props.url.replace(/\s+/g, '-');
 });
+
+// Load Allied Units
+const loadAlliedUnits = () => {
+  fetch(sanitizedUrl.value)
+    .then(response => response.json())
+    .then(data => {
+      if (data.alliedUnits) {
+        const allAlliedUnits = data.alliedUnits.flatMap(alliedArmy => 
+          alliedArmy.alliedUnits.map(unit => ({
+            ...unit,
+            alliedArmyName: alliedArmy.alliedArmy, // Capture allied army name
+            id: Date.now() + unit.unitName
+          }))
+        );
+        alliedUnits.value = allAlliedUnits;
+        alliedPoints.value = alliedUnits.value.reduce((total, unit) => total + unit.basicPoints, 0);
+      }
+    })
+    .catch(error => console.error("Error loading allied units:", error));
+};
+
+loadAlliedUnits();
 </script>
 
 <style scoped>
@@ -159,8 +192,7 @@ const sanitizedUrl = computed(() => {
 </style>
 
 <style>
-.armyType__container{
-
-padding: 15px 15px 15px 15px;
+.armyType__container {
+  padding: 15px 15px 15px 15px;
 }
 </style>

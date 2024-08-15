@@ -82,9 +82,33 @@ const formatArmyDetails = (army) => {
     });
   }
 
+  // Add Allied Units
+  if (army.alliedUnits && army.alliedUnits.length > 0) {
+    result += `\nALLIED UNITS\n`;
+    const groupedAlliedUnits = groupAlliedUnitsByArmy(army.alliedUnits);
+    for (const [alliedArmy, units] of Object.entries(groupedAlliedUnits)) {
+      result += `\n${alliedArmy.toUpperCase()}\n`;
+      units.forEach(unit => {
+        result += formatUnitDetails(unit) + '\n';
+      });
+    }
+  }
+
   result += `Created with Deep Strike Army Builder`;
 
   return result.trim();
+};
+
+// Function to group allied units by their alliedArmy field
+const groupAlliedUnitsByArmy = (units) => {
+  return units.reduce((acc, unit) => {
+    const army = unit.alliedArmy || 'Other';
+    if (!acc[army]) {
+      acc[army] = [];
+    }
+    acc[army].push(unit);
+    return acc;
+  }, {});
 };
 
 const formatUnitDetails = (unit) => {
@@ -115,17 +139,6 @@ const formatUnitDetails = (unit) => {
   if (unit.selectedEnhancement) {
     result += `• Enhancements: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)\n`;
   }
-
-  // Add wargear information
- /* 
- if (unit.equipmentQuantities && Object.keys(unit.equipmentQuantities).length > 0) {
-    result += `• Wargear:\n`;
-    Object.entries(unit.equipmentQuantities).forEach(([key, quantity]) => {
-      const equipment = key.split('_')[1];
-      result += `  ◦ ${quantity}x ${equipment}\n`;
-    });
-  } */
-
 
   return result;
 };

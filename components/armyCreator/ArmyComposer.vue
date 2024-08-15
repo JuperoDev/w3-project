@@ -49,7 +49,7 @@
       :url="sanitizedUrl" 
       :selectedDetachment="selectedDetachment"
       :armyIndex="armyIndex" 
-      class="mt-4 mb-24"
+      class="mt-4"
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />

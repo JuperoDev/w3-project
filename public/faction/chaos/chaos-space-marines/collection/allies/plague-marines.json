@@ -1,0 +1,307 @@
+{
+    "parentUnit": "Plague Marines",
+    "factionKeyword": [
+        "death guard"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The mainstay of Death Guard vectoriums, Plague Marines excel in short-ranged firefights and relentless assaults that grind the enemy down. They are tactically astute, deploying plague spewers to drown hordes of enemies in noxious slime, and blight launchers to release crippling ironblight into armoured vehicles.",
+    "keywords": [
+        "infantry",
+        "chaos",
+        "nurgle",
+        "grenades",
+        "battleline",
+        "plague marines"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Blight launcher",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plague belcher",
+            "modifiers": [
+                "anti-infantry 4+",
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague bolt pistol",
+            "modifiers": [
+                "lethal hits",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague boltgun",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plague spewer",
+            "modifiers": [
+                "anti-infantry 2+",
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Nurgle's Gift (Aura)"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Remorseless",
+                "description": "While this unit is within range of an objective marker you control, each time you take a Battle-shock test for this unit, add 1 to that test."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "miniature": "Plague Champion",
+            "description": "The Plague Champion's plague boltgun can be replaced with one of the following",
+            "items": [
+                "plague bolt pistol",
+                "plasma gun",
+                "plasma pistol"
+            ]
+        },
+        {
+            "miniature": "Plague Champion",
+            "description": "The Plague Champion's plague knives can be replaced with one of the following",
+            "items": [
+                "bubotic weapons",
+                "heavy plague weapon"
+            ]
+        },
+        {
+            "miniature": "plague marines",
+            "description": "For every 5 models in this unit, 1 Plague Marine's plague boltgun can be replaced with 1 blight launcher.",
+            "items": ["blight launcher"]
+        },
+        {
+            "miniature": "plague marines",
+            "description": "For every 5 models in this unit, 1 Plague Marine's plague boltgun can be replaced with 1 plague spewer.",
+            "items": ["plague spewer"]
+        },
+        {
+            "miniature": "plague marines",
+            "description": "For every 5 models in this unit, 1 Plague Marine's plague boltgun can be replaced with one of the following",
+            "items": [
+                "meltagun",
+                "plague belcher",
+                "plasma gun"
+            ]
+        },
+        {
+            "miniature": "plague marines",
+            "description": "For every 5 models in this unit, up to 2 Plague Marines can each have their plague boltgun replaced with 1 bubotic weapons.",
+            "items": ["bubotic weapons"]
+        },
+        {
+            "miniature": "plague marines",
+            "description": "For every 5 models in this unit, up to 2 Plague Marines can each have their plague boltgun replaced with 1 heavy plague weapon.",
+            "items": ["heavy plague weapon"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Bubotic weapons",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Heavy plague weapon",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Plague knives",
+            "modifiers": [
+                "lethal hits"
+            ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                1,
+                6
+            ],
+            "points": 125
+        },
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 180
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Plague Champion",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "plague boltgun",
+                "plague knives"
+            ]
+        },
+        {
+            "unitType": "Plague Marines",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "plague boltgun",
+                "plague knives"
+            ]
+        }
+    ]
+}

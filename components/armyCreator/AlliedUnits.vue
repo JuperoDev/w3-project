@@ -4,7 +4,7 @@
         <div class="armytype-button__container">
           <div class="flex items-center">
             <h2 class="text-lg font-semibold mr-5">Allied Units</h2>
-            <UnitDialog
+            <AlliedUnitDialog
               :title="'Select Allied Unit'"
               :selectedDetachment="selectedDetachment"
               :units="units"
@@ -66,7 +66,7 @@
   <script setup>
   import { ref, onMounted, watch, computed } from "vue";
   import { useArmyStorage } from "@/stores/armyStorage";
-  import UnitDialog from "./UnitDialog.vue";
+  import AlliedUnitDialog from "./AlliedUnitDialog.vue";
   import UnitInfoDialog from "./UnitInfoDialog.vue";
   import UnitOptionsDialog from "./UnitOptionsDialog.vue";
   import WargearOptionsButton from "./WargearOptionsButton.vue";

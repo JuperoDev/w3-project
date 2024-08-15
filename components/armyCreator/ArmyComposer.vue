@@ -3,9 +3,9 @@
     <div class="header flex justify-between items-center mb-4">
       <div class="px-3 py-2 ml-1">
         <p><strong>Name:</strong> {{ name }}</p>
-        <p class="capitalize"><strong >Army:</strong> {{ selectedArmy }}</p>
+        <p class="capitalize"><strong>Army:</strong> {{ selectedArmy }}</p>
         <p><strong>Point List:</strong> {{ pointList }}</p>
-        <p class="capitalize"><strong >Detachment:</strong> {{ selectedDetachment }}</p>
+        <p class="capitalize"><strong>Detachment:</strong> {{ selectedDetachment }}</p>
         <p><strong>Total Points:</strong> {{ totalPoints }}</p>
         <ArmyExporter 
           :armyIndex="armyIndex" 
@@ -53,6 +53,7 @@
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />
+
     {{ selectedArmy }} 
       {{ selectedFaction }} 
     <AlliedUnits
@@ -64,6 +65,7 @@
       @update-total-points="updateAlliedPoints"
       @update-units="updateAlliedUnits"
     />
+
     <PointStatus :totalPoints="totalPoints" :pointList="pointList" />
   </div>
 </template>
@@ -74,9 +76,11 @@ import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';
 import DedicatedTransports from './DedicatedTransports.vue';
+
 import AlliedUnits from './AlliedUnits.vue';
 import ArmyExporter from './ArmyExporter.vue';
 import PointStatus from './PointStatus.vue';
+
 
 const props = defineProps({
   name: String,
@@ -147,6 +151,7 @@ const updateAlliedUnits = (units) => {
 const sanitizedUrl = computed(() => {
   return props.url.replace(/\s+/g, '-');
 });
+
 </script>
 
 <style scoped>
@@ -156,8 +161,7 @@ const sanitizedUrl = computed(() => {
 </style>
 
 <style>
-.armyType__container{
-
-padding: 15px 15px 15px 15px;
+.armyType__container {
+  padding: 15px 15px 15px 15px;
 }
 </style>

@@ -1,4 +1,5 @@
 <template>
+
     <div>
       <button @click="openDialog" class="border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded my-2 text-sm">
         +

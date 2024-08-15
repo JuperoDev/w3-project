@@ -4,6 +4,7 @@
       <div class="armytype-button__container">
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-5">Allied Units</h2>
+
           <AlliedUnitDialog
             :title="'Select Allied Unit'"
             :selectedDetachment="selectedDetachment"
@@ -18,6 +19,7 @@
 
     <div v-if="army.length" class="mt-4">
       <ul>
+
         <li
           v-for="unit in army"
           :key="unit.id"
@@ -64,6 +66,7 @@
               :unitComposition="unit.composition"
             />
           </div>
+
         </li>
       </ul>
     </div>
@@ -71,6 +74,7 @@
 </template>
 
 <script setup>
+
 import { ref, onMounted, watch, computed } from "vue";
 import { useArmyStorage } from "@/stores/armyStorage";
 import AlliedUnitDialog from "./AlliedUnitDialog.vue";
@@ -261,10 +265,13 @@ watch(() => props.armyIndex, loadUnits);
 </style>
 
 <style scoped>
+
 .sticky-container {
   position: -webkit-sticky;
   position: sticky;
   top: 50px;
   z-index: 10;
 }
+
+
 </style>

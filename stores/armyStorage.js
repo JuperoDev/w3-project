@@ -16,6 +16,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       army.battlelineUnits = [];
       army.otherUnits = [];
       army.dedicatedTransportUnits = [];
+      army.alliedUnits = [];  // Add this line to initialize alliedUnits
       this.armies.push(army);
       this.saveArmies();
     },
@@ -195,6 +196,45 @@ export const useArmyStorage = defineStore('armyStorage', {
       }
     },
 
+    // Allied Units
+    addAlliedUnitToArmy(armyIndex, unit) {
+      const army = this.armies[armyIndex];
+      if (!army.alliedUnits.some(existingUnit => existingUnit.id === unit.id)) {
+        army.alliedUnits.push({
+          ...unit,
+          basicPoints: parseInt(unit.basicPoints) || 0
+        });
+        this.saveArmies();
+      }
+    },
+    loadAlliedUnitsForArmy(armyIndex) {
+      const army = this.armies[armyIndex];
+      if (!army.alliedUnits) {
+        army.alliedUnits = [];
+      }
+      return army.alliedUnits;
+    },
+    removeAlliedUnitFromArmy(armyIndex, unitId) {
+      const army = this.armies[armyIndex];
+      const index = army.alliedUnits.findIndex(unit => unit.id === unitId);
+      if (index !== -1) {
+        army.alliedUnits.splice(index, 1);
+        this.saveArmies();
+      }
+    },
+    updateAlliedUnitInArmy(armyIndex, unitId, updatedUnit) {
+      const army = this.armies[armyIndex];
+      const unitIndex = army.alliedUnits.findIndex(unit => unit.id === unitId);
+      if (unitIndex !== -1) {
+        army.alliedUnits[unitIndex] = { 
+          ...army.alliedUnits[unitIndex], 
+          ...updatedUnit,
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0
+        };
+        this.saveArmies();
+      }
+    },
+
     // General methods
     getTotalPoints(armyIndex) {
       const army = this.armies[armyIndex];
@@ -202,7 +242,8 @@ export const useArmyStorage = defineStore('armyStorage', {
       const battlelinePoints = army.battlelineUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
       const otherPoints = army.otherUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
       const dedicatedTransportPoints = army.dedicatedTransportUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
-      return characterPoints + battlelinePoints + otherPoints + dedicatedTransportPoints;
+      const alliedPoints = army.alliedUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
+      return characterPoints + battlelinePoints + otherPoints + dedicatedTransportPoints + alliedPoints;
     },
 
     updateArmyDetails(armyIndex, details) {

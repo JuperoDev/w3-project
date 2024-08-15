@@ -55,7 +55,7 @@
     />
   
     <!-- Include the AlliedUnits component here -->
-    <AlliedUnits :url="sanitizedUrl" />
+    <AlliedUnits :url="sanitizedUrl" :armyIndex="armyIndex" />
 
     <PointStatus :totalPoints="totalPoints" :pointList="pointList" />
   </div>
@@ -162,27 +162,6 @@ const sanitizedUrl = computed(() => {
   return props.url.replace(/\s+/g, '-');
 });
 
-// Load Allied Units
-const loadAlliedUnits = () => {
-  fetch(sanitizedUrl.value)
-    .then(response => response.json())
-    .then(data => {
-      if (data.alliedUnits) {
-        const allAlliedUnits = data.alliedUnits.flatMap(alliedArmy => 
-          alliedArmy.alliedUnits.map(unit => ({
-            ...unit,
-            alliedArmyName: alliedArmy.alliedArmy, // Capture allied army name
-            id: Date.now() + unit.unitName
-          }))
-        );
-        alliedUnits.value = allAlliedUnits;
-        alliedPoints.value = alliedUnits.value.reduce((total, unit) => total + unit.basicPoints, 0);
-      }
-    })
-    .catch(error => console.error("Error loading allied units:", error));
-};
-
-loadAlliedUnits();
 </script>
 
 <style scoped>

@@ -16,7 +16,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       army.battlelineUnits = [];
       army.otherUnits = [];
       army.dedicatedTransportUnits = [];
- allied-units-experimental
+
       army.alliedUnits = [];
 
       this.armies.push(army);

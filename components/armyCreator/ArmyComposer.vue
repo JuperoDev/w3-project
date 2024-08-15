@@ -53,11 +53,11 @@
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />
-
+<!-- 
     {{ selectedArmy }} 
-      {{ selectedFaction }} 
+      {{ selectedFaction }}  -->
     <AlliedUnits
-    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'orks' "
+    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'orks' && selectedArmy !== 'death guard' && selectedArmy !== 'world eaters' && selectedArmy !== 'thousand sons' && selectedArmy !== 'death guard' && selectedArmy !== 'chaos knights' && selectedArmy !== 'chaos daemons'"
       :url="sanitizedUrl"
       :armyIndex="armyIndex"
       :selectedDetachment="selectedDetachment"

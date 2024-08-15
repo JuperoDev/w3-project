@@ -53,7 +53,10 @@
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />
+    {{ selectedArmy }} 
+      {{ selectedFaction }} 
     <AlliedUnits
+    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'orks' "
       :url="sanitizedUrl"
       :armyIndex="armyIndex"
       :selectedDetachment="selectedDetachment"

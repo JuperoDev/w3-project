@@ -120,13 +120,24 @@
       const uniqueId =
         Date.now().toString(36) + Math.random().toString(36).substr(2);
       const response = await fetch(constructUnitUrl(props.url, unit.unitName));
+      
+      if (!response.ok) {
+        console.error(`Failed to fetch data for unit ${unit.unitName}`);
+        return;
+      }
+      
       const unitData = await response.json();
+  
+      if (!unitData || !unitData.options || !unitData.options[0]) {
+        console.error("Invalid unit data:", unitData);
+        return;
+      }
   
       const selectedOption = unitData.options[0];
       const unitWithId = {
         ...unit,
         id: uniqueId,
-        url: unit.url || props.url,
+        url: constructUnitUrl(props.url, unit.unitName),
         composition: selectedOption.count.map((count, index) => ({
           unitType: unitData.unitComposition[index].unitType,
           quantity: count,
@@ -191,7 +202,7 @@
       .replace(/^-+|-+$/g, "");
     const baseUrlParts = baseUrl.split("/");
     baseUrlParts.pop();
-    return `${baseUrlParts.join("/")}/collection/${sanitizedUnitName}.json`;
+    return `${baseUrlParts.join("/")}/collection/allies/${sanitizedUnitName}.json`; // Always point to the allies folder
   };
   
   const checkWargearOptionsForUnits = async () => {

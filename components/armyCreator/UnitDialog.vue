@@ -14,10 +14,11 @@
             </button>
           </v-card-title>
           <div class="sticky-search">
-            <v-text-field v-model="search" label="Search" class=" centered-search"></v-text-field>
+            <v-text-field v-model="search" label="Search" class="centered-search"></v-text-field>
           </div>
         </div>
         <v-card-text>
+          <!-- List of units -->
           <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2">
             <p><strong>{{ unit.unitName }}:</strong> {{ unit.basicPoints }} points</p>
             <p>Count in army: {{ unitCounts[unit.unitName] || 0 }}</p>
@@ -65,6 +66,7 @@ const sanitizeDetachmentName = (name) => {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
 };
 
+// Filter units based on the search query and detachment filters
 const filteredUnits = computed(() => {
   const sanitizedDetachment = sanitizeDetachmentName(props.selectedDetachment);
 

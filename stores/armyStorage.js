@@ -16,7 +16,9 @@ export const useArmyStorage = defineStore('armyStorage', {
       army.battlelineUnits = [];
       army.otherUnits = [];
       army.dedicatedTransportUnits = [];
-      army.alliedUnits = [];  // Add this line to initialize alliedUnits
+ allied-units-experimental
+      army.alliedUnits = [];
+
       this.armies.push(army);
       this.saveArmies();
     },
@@ -226,8 +228,10 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.alliedUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-        army.alliedUnits[unitIndex] = { 
-          ...army.alliedUnits[unitIndex], 
+
+        army.alliedUnits[unitIndex] = {
+          ...army.alliedUnits[unitIndex],
+
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0
         };

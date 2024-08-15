@@ -49,13 +49,22 @@
       :url="sanitizedUrl" 
       :selectedDetachment="selectedDetachment"
       :armyIndex="armyIndex" 
-      class="mt-4 mb-24"
+      class="mt-4"
       @update-total-points="updateOtherPoints"
       @update-units="updateOtherUnits"
     />
-  
-    <!-- Include the AlliedUnits component here -->
-    <AlliedUnits :url="sanitizedUrl" :armyIndex="armyIndex" />
+
+    {{ selectedArmy }} 
+      {{ selectedFaction }} 
+    <AlliedUnits
+    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'orks' "
+      :url="sanitizedUrl"
+      :armyIndex="armyIndex"
+      :selectedDetachment="selectedDetachment"
+      class="mt-4 mb-24"
+      @update-total-points="updateAlliedPoints"
+      @update-units="updateAlliedUnits"
+    />
 
     <PointStatus :totalPoints="totalPoints" :pointList="pointList" />
   </div>
@@ -67,39 +76,20 @@ import Characters from './Characters.vue';
 import Battleline from './Battleline.vue';
 import Other from './Other.vue';
 import DedicatedTransports from './DedicatedTransports.vue';
+
+import AlliedUnits from './AlliedUnits.vue';
 import ArmyExporter from './ArmyExporter.vue';
 import PointStatus from './PointStatus.vue';
-import AlliedUnits from './AlliedUnits.vue';  // Import the AlliedUnits component
+
 
 const props = defineProps({
-  name: {
-    type: String,
-    required: true
-  },
-  selectedFaction: {
-    type: String,
-    required: true
-  },
-  selectedArmy: {
-    type: String,
-    required: true
-  },
-  pointList: {
-    type: String,
-    required: true
-  },
-  selectedDetachment: {
-    type: String,
-    required: true
-  },
-  url: {
-    type: String,
-    required: true
-  },
-  armyIndex: {
-    type: Number,
-    required: true
-  }
+  name: String,
+  selectedFaction: String,
+  selectedArmy: String,
+  pointList: String,
+  selectedDetachment: String,
+  url: String,
+  armyIndex: Number
 });
 
 const characterPoints = ref(0);

@@ -1,0 +1,140 @@
+{
+    "parentUnit": "War Dog Huntsman",
+    "factionKeyword": [
+        "chaos knights"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Like hounds on the scent, Huntsmen often pursue hulking enemies, hunting them down as prey. Their daemonbreath spears melt through the thickest armour while chaintalons are employed to drive deeply into gushing innards, tearing through organs and crew alike.",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "battleline",
+        "chaos",
+        "war dog",
+        "huntsman"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 12,
+            "leadership": 7,
+            "objetiveControl": 8,
+            "invulnerableSave": 5,
+            "invulnerableSaveMod": "This model has a 5+ invulnerable save against ranged attacks"
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Daemonbreath meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Daemonbreath spear",
+            "modifiers": [
+                "melta 4"
+            ],
+            "range": 24,
+            "strength": 12,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Diabolus heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Harbingers of Dread"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Huntsman:",
+                "description": "Each time this model makes an attack against a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 and re-roll a Damage roll of 1."
+            }
+        ]
+    },
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 150
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "War Dog Huntsman",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "daemonbreath spear",
+                "diabolus heavy stubber",
+                "reaper chaintalon"
+            ]
+        }
+    ],
+    "wargear": [
+        {
+            "miniature": "wardog huntsman",
+            "description": "This model’s diabolus heavy stubber can be replaced with 1 daemonbreath meltagun.",
+            "items": [
+                "daemonbreath meltagun"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Reaper chaintalon – strike",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Reaper chaintalon – sweep",
+            "attacks": 8,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],
+    "additionalParameter": {}
+}

@@ -57,7 +57,7 @@
     {{ selectedArmy }} 
       {{ selectedFaction }}  -->
     <AlliedUnits
-    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'orks' && selectedArmy !== 'death guard' && selectedArmy !== 'world eaters' && selectedArmy !== 'thousand sons' && selectedArmy !== 'death guard' && selectedArmy !== 'chaos knights' && selectedArmy !== 'chaos daemons'"
+    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'orks' && selectedArmy !== 'world eaters' && selectedArmy !== 'thousand sons'  && selectedArmy !== 'chaos knights' && selectedArmy !== 'chaos daemons'"
       :url="sanitizedUrl"
       :armyIndex="armyIndex"
       :selectedDetachment="selectedDetachment"

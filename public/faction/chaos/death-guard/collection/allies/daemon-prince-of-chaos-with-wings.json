@@ -1,0 +1,117 @@
+{
+    "parentUnit": "Daemon Prince Of Chaos With Wings",
+    "factionKeyword": [
+        "legiones daemonica"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A Daemon Prince’s obsessive greed and desire to inflict ever more destruction, bloodshed and misery can manifest in the form of hideous wings that speed them from one slaughter to the next. A servant of the Dark Gods so blessed is a horrifying harbinger of death drawn from insane nightmare.",
+    "keywords": [
+        "monster",
+        "character",
+        "fly",
+        "chaos",
+        "daemon",
+        "daemon prince of chaos with wings"
+    ],
+    "attributes": [{
+        "movement": 12,
+        "toughness": 9,
+        "save": 2,
+        "wounds": 10,
+        "leadership": 6,
+        "objetiveControl": 3,
+        "invulnerableSave": 4
+    }],
+    "leader": [],
+    "rangedWeapons": [ {
+        "name": "infernal cannon",
+        "range": 24,
+        "attacks": 3,
+        "ballistic-skills": 2,
+        "strength": 5,
+        "armor-penetration": 1,
+        "damage": 2,
+        "modifiers": []
+    }],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Malefic Destruction",
+                "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model’s hellforged weapons."
+            },
+            {
+                "name": "Harbinger of Death",
+                "description": "Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model’s hellforged weapons have that ability: [LETHAL HITS], [PRECISION], [SUSTAINED HITS 1]"
+            }
+        ]
+    },
+    "wargear": [
+        
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Hellforged weapons – strike",
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 3,
+            "modifiers": [],
+            "singleChoice": true
+        },
+        {
+            "name": "Hellforged weapons – sweep",
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [],
+            "singleChoice": true
+        }
+    ],"additionalParameter": {
+        "title": "Daemonic Allegiance",
+        "abilities": [
+            {
+                "name": "Daemon Prince of Khorne",
+                "description": " If this model has the KHORNE keyword, add 2 to the Strength characteristic of this model’s hellforged weapons."
+            },
+            {
+                "name": "Daemon Prince of Tzeentch",
+                "description": "If this model has the TZEENTCH keyword, add 3 to the Attacks characteristic of this model’s infernal cannon."
+            },
+            {
+                "name": "Daemon Prince of Nurgle",
+                "description": " If this model has the NURGLE keyword, add 1 to this model’s Toughness characteristic."
+            },
+            {
+                "name": "Daemon Prince of Slaanesh",
+                "description": "If this model has the SLAANESH keyword, add 2'' to this model’s Move characteristic."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Daemon Prince of Chaos with Wings",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "infernal cannon", "hellforged weapons"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 195
+        }
+    ]
+}

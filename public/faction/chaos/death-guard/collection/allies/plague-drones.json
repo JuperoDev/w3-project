@@ -1,0 +1,134 @@
+{
+  "parentUnit": "Plague Drones",
+  "factionKeywords": [
+    "legiones daemonica"
+  ],
+  "damaged": {},
+  "supremeCommander": false,
+  "lore": "Plague Drones ride monstrous Rot Flies to war. These vile steeds scrabble and bite at their prey, impaling them on dripping probosces or biting off the heads of their victims. The finest stolen craniums are recovered and fashioned into filth-swollen projectiles – death’s heads – for the daemonic riders to hurl at their foes.",
+  "keywords": [
+    "mounted",
+    "fly",
+    "chaos",
+    "daemon",
+    "nurgle",
+    "plague drones"
+  ],
+  "attributes": {
+    "movement": 10,
+    "toughness": 8,
+    "save": 6,
+    "wounds": 5,
+    "leadership": 7,
+    "objetiveControl": 2,
+    "invulnerableSave": 5
+  },
+  "leader": [],
+  "rangedWeapons": [
+    {
+      "name": "Death’s heads",
+      "modifiers": [
+        "blast",
+        "lethal hits"
+      ],
+      "range": 12,
+      "strength": 4,
+      "attacks": "d3",
+      "ballistic-skills": 4,
+      "armor-penetration": 0,
+      "damage": 1,
+      "singleChoice": false
+    }
+  ],
+  "abilities": {
+    "core": [
+      "Deep Strike"
+    ],
+    "faction": [
+      "The Shadow of Chaos"
+    ],
+    "otherAbilities": [
+      {
+        "name": "Death’s Heads:",
+        "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll ."
+      }
+    ]
+  },
+  "wargear": [
+    { "miniature": "Plague Drones",
+      "description": "1 Plague Drone that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+      "items": ["instrument of Chaos"]
+    },
+    {"miniature": "Plague Drones",
+      "description": "1 Plague Drone that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon.",
+      "items": ["daemonic icon"]
+    }
+  ],
+  "meleeWeapons": [
+    {
+      "name": "Foul mouthparts",
+      "modifiers": [
+        "extra attacks",
+        "lethal hits"
+      ],
+      "attacks": 2,
+      "weapons-skills": 4,
+      "strength": 5,
+      "armor-penetration": 1,
+      "damage": 2
+    },
+    {
+      "name": "Plaguesword",
+      "modifiers": [
+        "lethal hits"
+      ],
+      "attacks": 2,
+      "weapons-skills": 3,
+      "strength": 4,
+      "armor-penetration": 1,
+      "damage": 1
+    }
+  ],
+  "additionalParameter": {},
+  "unitComposition": [
+    {
+      "unitType": "Plaguebringer",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "equipment": [
+        "death’s heads","foul mouthparts","plaguesword."
+      ]
+    },
+    {
+      "unitType": "Plague Drones",
+      "minQuantity": 2,
+      "maxQuantity": 5,
+      "equipment": [
+        "death’s heads","foul mouthparts","plaguesword."
+      ]
+    }
+  ],"warGearAbilities": [
+    {
+      "wargear": "Daemonic Icon",
+      "ability": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+  },
+  {
+      "wargear": "Instrument of Chaos",
+      "ability": " Add 1 to Charge rolls made for the bearer’s unit."
+  }
+],
+  "options": [
+    {
+      "count": [
+        1,2
+      ],
+      "points": 120
+    },
+    {
+      "count": [
+        1,5
+      ],
+      "points": 240
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+    "parentUnit": "Rotigus",
+    "factionKeyword": [
+        "legiones daemonica"
+    ],
+    "damaged": {
+        "remainingWounds": 7,
+        "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Rotigus Rainfather lumbers into battle vomiting jetting rivers of corrosive, plague-laden filth across all who stand in its path. In its bloated fist it clutches a gnarlrod, while an endless and infectious downpour accompanies the daemon, a fecund flood fit to drown, corrupt and mutate all it touches.",
+    "keywords": [
+        "monster",
+        "character",
+        "epic hero",
+        "psyker",
+        "chaos",
+        "daemon",
+        "nurgle",
+        "rotigus"
+    ],
+    "attributes": [{
+        "movement": 7,
+        "toughness": 12,
+        "save": 5,
+        "wounds": 22,
+        "leadership": 6,
+        "objetiveControl": 5,
+        "invulnerableSave": 4
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Streams of brackish filth",
+            "modifiers": [
+                "devastating wounds",
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": "2d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Deep Strike"
+        ],
+        "faction": [
+            "The Shadow of Chaos"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Virulent Blessing (Psychic):",
+                "description": "At the start of the Fight phase , you can select one enemy unit within 18\" and visible to this model. Until the end of the phase, each time an attack made by a NURGLE LEGIONES DAEMONICA LEGIONES DAEMONICA model is allocated to a model in that unit, add 1 to the Damage characteristic of that attack."
+            },
+            {
+                "name": "Deluge of Nurgle (Aura):",
+                "description": "While an enemy unit is within 6\" of this model, halve the Move and Objective Control characteristics of models in that unit."
+            }
+        ]
+    },
+    "wargear": [
+        
+    ],
+    "additionalParameter": {},
+    "meleeWeapons": [
+        {
+            "name": "Gnarlrod – strike",
+            "modifiers": ["lethal hits","psychic"],
+            "attacks": 7,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 3
+        },
+        {
+            "name": "Gnarlrod – sweep",
+            "modifiers": ["lethal hits","psychic"],
+            "attacks": 14,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Rotigus – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "streams of brackish filth","gnarlrod."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 230
+        }
+    ]
+}

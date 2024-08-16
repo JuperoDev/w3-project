@@ -1,0 +1,175 @@
+{
+    "parentUnit": "Stormhawk Interceptor",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Stormhawk Interceptors are high-altitude fighter craft designed solely for achieving aerial supremacy. Dropped from mag-cradles aboard orbiting craft, these ceramite-plated vehicles engage enemy air assets in brutal dogfights and are protected by countermeasures that launch blazing flares.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "aircraft",
+        "imperium",
+        "smoke",
+        "stormhawk interceptor"
+    ],
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Icarus stormcannon",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 48,
+            "attacks": 6,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Las-talon",
+            "range": 36,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 10,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Skyhammer missile launcher",
+            "range": 48,
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "attacks": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": "D3",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin assault cannon",
+            "range": 24,
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "attacks": 6,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "range": 36,
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Typhoon missile launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Typhoon missile launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Hover"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Interceptor:",
+                "description": "Each time this model makes a ranged attack that targets a unit that can Fly , add 1 to the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"stormhawk interceptor",
+            "description": "This model’s skyhammer missile launcher can be replaced with one of the following",
+            "items": [
+                "twin heavy bolter",
+                "typhoon missile launcher"
+            ]
+        },
+        {"miniature":"stormhawk interceptor",
+            "description": "This model’s las-talon can be replaced with 1 Icarus stormcannon.",
+            "items": ["Icarus stormcannon"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Stormhawk Interceptor",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "twin assault cannon", "skyhammer missile launcher", "las-talon","armoured hull"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 155
+        }
+    ],
+    "additionalParameter": {}
+}

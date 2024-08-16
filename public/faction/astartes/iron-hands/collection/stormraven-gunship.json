@@ -1,0 +1,229 @@
+{
+    "parentUnit": "Stormraven Gunship",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Stormraven superbly combines the role of reliable combat drop-ship and deadly aerial combatant. A capacious troop bay and thick layers of armour allow it to effectively transport squads of Space Marines – and, thanks to its magna-grapples, even a Dreadnought – into the very heart of battle.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "aircraft",
+        "transport",
+        "imperium",
+        "stormraven gunship"
+    ],
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Hurricane bolter",
+            "modifiers": [
+                "rapid fire 6",
+                "twin-linked"
+            ],
+            "range": 24,
+            "attacks": 6,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Stormstrike missile launcher",
+            "modifiers": [],
+            "range": 48,
+            "attacks": 1,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin assault cannon",
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "range": 24,
+            "attacks": 6,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy plasma cannon – standard",
+            "range": 36,
+            "modifiers": [
+                "blast",
+                "twin-linked"
+            ],
+            "attacks": "D3",
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy plasma cannon – supercharge",
+            "range": 36,
+            "modifiers": [
+                "blast",
+                "twin-linked",
+                "hazardous"
+            ],
+            "attacks": "D3",
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 3,
+            "singleChoice": true,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "attacks": 1,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin multi-melta",
+            "modifiers": [
+                "melta2",
+                "twin-linked"
+            ],
+            "attacks": 2,
+            "range": 18,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Typhoon missile launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Typhoon missile launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Hover"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Armoured Resilience:",
+                "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"stormraven gunship",
+            "description": "This model’s twin assault cannon can be replaced with one of the following",
+            "items": [
+                "twin heavy plasma cannon",
+                "twin lascannon"
+            ]
+        },
+        {"miniature":"stormraven gunship",
+            "description": "This model’s typhoon missile launcher can be replaced with one of the following",
+            "items": [
+                "twin heavy bolter",
+                "twin multi-melta"
+            ]
+        },
+        {"miniature":"stormraven gunship",
+            "description": "This model can be equipped with 2 hurricane bolters.",
+            "items": ["hurricane bolters"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Stormraven Gunship",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 stormstrike missile launchers", "twin assault cannon", "typhoon missile launcher","armoured hull"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 260
+        }
+    ],
+    "additionalParameter": {},
+    "transport":"This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models and 1 DREADNOUGHT model. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+}

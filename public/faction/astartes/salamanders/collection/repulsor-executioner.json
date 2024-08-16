@@ -1,0 +1,200 @@
+{
+    "parentUnit": "Repulsor Executioner",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Based on the Repulsor chassis, the Repulsor Executioner sacrifices some transport capacity to accommodate powerful turret weaponry. Even the largest battle tanks can be crippled by the beam of a heavy laser destroyer, while the incinerating blasts of a macro plasma incinerator can obliterate infantry formations.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "transport",
+        "imperium",
+        "repulsor executioner"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 3,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy laser destroyer",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 72,
+            "attacks": 2,
+            "strength": 16,
+            "armor-penetration": 4,
+            "damage": "D6+4",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Heavy onslaught gatling cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "attacks": 12,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Icarus rocket pod",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 24,
+            "attacks": "D3",
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Ironhail heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Macro plasma incinerator - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "attacks": "D6+1",
+            "strength": 8,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Macro plasma incinerator - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 36,
+            "attacks": "D6+1",
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": 3,
+            "singleChoice": true,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin Icarus ironhail heavy stubber",
+            "modifiers": [
+                "anti-fly 4+",
+                "rapid fire 3",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Executioner:",
+                "description": "Each time this model makes an attack that targets a unit that is Below Half-strength , add 1 to the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"repulsor executioner",
+            "description": "This model’s macro plasma incinerator can be replaced with 1 heavy laser destroyer.",
+            "items": ["heavy laser destroyer"]
+        },
+        {"miniature":"repulsor executioner",
+            "description": "This model can be equipped with 1 ironhail heavy stubber.",
+            "items": ["ironhail heavy stubber"]
+        },
+        {"miniature":"repulsor executioner",
+            "description": "This model can be equipped with 1 Icarus rocket pod.",
+            "items": ["Icarus rocket pod"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Repulsor Executioner",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heavy onslaught gatling cannon", "macro plasma incinerator", "Repulsor Executioner defensive array", "twin heavy bolter", "twin Icarus ironhail heavy stubber","armoured hull"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 220
+        }
+    ],
+    "additionalParameter": {},
+    "transport":"This model has a transport capacity of 6 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+}

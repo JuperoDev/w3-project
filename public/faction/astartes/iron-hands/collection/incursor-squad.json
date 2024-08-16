@@ -1,0 +1,130 @@
+{
+    "parentUnit": "Incursor Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Aggressive light infantry, Incursors specialise in storming enemy defences and destroying essential assets. With a formidable array of auspexes and sensory equipment, they can see their enemies through walls and predict their movements – and with a burst of carbine fire or knife thrusts, cut them down.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "smoke",
+        "imperium",
+        "phobos",
+        "incursor squad"
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Haywire Mine",
+            "ability": "Once per battle, at the start of any phase, you can select one enemy unit within 3'' of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a VEHICLE unit."
+        }
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Occulus bolt carbine",
+            "modifiers": [
+                "assault",
+                "ignores cover"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Multi-spectrum Array:",
+                "description": "In your Shooting phase , after this unit has shot, select one enemy unit that was hit by one or more attacks made by this unit this phase. Until the end of the phase, each time a friendly adeptus astartes unit makes an attack that targets that enemy unit, add 1 to the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Incursors",
+            "description": "One Incusor can be equipped with 1 haywire mine.",
+            "items": ["haywire mine"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Paired combat blades",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Incursor Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "occulus bolt carbine","paired combat blades"
+            ]
+        },
+        {
+            "unitType": "Incursors",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol", "occulus bolt carbine","paired combat blades"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 80
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 160
+        }
+    ],
+    "additionalParameter": {}
+}

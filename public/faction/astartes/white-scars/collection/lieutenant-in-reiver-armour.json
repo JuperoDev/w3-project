@@ -1,0 +1,101 @@
+{
+    "parentUnit": "Lieutenant In Reiver Armour",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "When a Space Marine commander needs the enemy broken in terror, he unleashes detachments led by Lieutenants clad in the wargear of the Reiver Squads. With the masterful leadership of the Lieutenant, these forces become more powerful than the sum of their parts, and drive contingents of the foe to flight.",
+    "keywords": [
+        "infantry",
+        "character",
+        "smoke",
+        "grenades",
+        "imperium",
+        "phobos",
+        "lieutenant",
+        "lieutenant in reiver armour"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Reiver Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Master-crafted special issue bolt pistol",
+            "modifiers": [
+                "pistol",
+                "precision"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader",
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Tactical Precision:",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Deadly Terror:",
+                "description": "While this model is leading a unit, increase the range of that unit’s Terror Troops ability by 3\"."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Combat knife",
+            "modifiers": [
+                "precision"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Lieutenant in Reiver Armour",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "master-crafted special issue bolt pistol","combat knife"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

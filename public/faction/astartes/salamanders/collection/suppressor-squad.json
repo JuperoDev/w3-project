@@ -1,0 +1,111 @@
+{
+    "parentUnit": "Suppressor Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Girded in armour that can tolerate the vicious recoil of their weapons and the terrible stresses of grav-drops, Suppressors rapidly take up key positions on the battlefield. From there, they unleash deluges of armour-piercing rounds that decimate enemy infantry and force the survivors to dive for cover.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "smoke",
+        "jump pack",
+        "fly",
+        "imperium",
+        "suppressor squad"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Accelerator autocannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 8,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Suppression Fire:",
+                "description": "In your Shooting phase , after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Suppressor Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "accelerator autocannon", "bolt pistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Suppressors",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "accelerator autocannon", "bolt pistol","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
+}

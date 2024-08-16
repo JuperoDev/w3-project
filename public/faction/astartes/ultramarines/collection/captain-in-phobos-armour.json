@@ -1,0 +1,114 @@
+{
+    "parentUnit": "Captain In Phobos Armour",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "All Primaris Space Marines are trained in reconnaissance, stealth and sabotage while in the 10th Company. Donning his Phobos armour, a Captain will combine these skills with his incredible martial prowess and hard-won strategic expertise to lead strike forces of Vanguard warriors on dangerous covert missions.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "phobos",
+        "captain"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        " Scout Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Instigator bolt carbine",
+            "modifiers": [
+                "precision"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Leader",
+            "Stealth"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rites of Battle:",
+                "description": "Once per battle round , one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+            },
+            {
+                "name": "Master of Deceit:",
+                "description": "After both players have deployed their armies and determined who has the first turn, if your army includes one or more models with this ability, you can select up to three friendly adeptus astartes PHOBOS or ADEPTUS ASTARTES SCOUT SQUAD units and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves , regardless of how many units are already in Strategic Reserves."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Combat knife",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Captain in Phobos Armour",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "instigator bolt carbine","combat knife"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "additionalParameter": {}
+}

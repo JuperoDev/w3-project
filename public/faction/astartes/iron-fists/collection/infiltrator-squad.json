@@ -1,0 +1,135 @@
+{
+    "parentUnit": "Infiltrator Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Infiltrator Squads are experts in covert operations and are drilled extensively in self-sufficiency and survival skills. Equipped with omni-scramblers that cripple enemy communications, they wreak havoc amongst their foes before cutting them down with hails of accurate bolt fire.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "smoke",
+        "imperium",
+        "phobos",
+        "infiltrator squad"
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Helix Gauntlet",
+            "ability": "Models in the bearer’s unit have the Feel No Pain 6+ ability."
+        },
+        {
+            "wargear": "Infiltrator Comms Array",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        }
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Marksman bolt carbine",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Omni-scramblers:",
+                "description": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this unit."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Infiltrators",
+            "description": "1 Infiltrator can be equipped with 1 helix gauntlet.*",
+            "items": ["helix gauntlet"]
+        },
+        {"miniature":"Infiltrators",
+            "description": "1 Infiltrator can be equipped with 1 Infiltrator comms array.*",
+            "items": ["Infiltrator comms array"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Infiltrator Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol","marksman bolt carbine","close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Infiltrators",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol","marksman bolt carbine","close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 200
+        }
+    ],
+    "additionalParameter": {}
+}

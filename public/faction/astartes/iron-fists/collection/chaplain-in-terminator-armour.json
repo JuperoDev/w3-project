@@ -1,0 +1,107 @@
+{
+    "parentUnit": "Chaplain In Terminator Armour",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Every Space Marine is roused to war by the litanies of their Chaplains, and never is this spiritual fortification more vital than amidst the blood and horror of boarding actions and beachhead strikes. Thus, Chaplains are trained to wear formidable Terminator armour so they can fight alongside Veteran battle-brothers.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "terminator",
+        "chaplain"
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Relic Shield",
+            "ability": "The bearer has a Wounds characteristic of 6."
+        }
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 5,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Terminator Assault Squad",
+        "Terminator Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Litany of Hate:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+            },
+            {
+                "name": "Recitation of Faith:",
+                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"chaplain in terminator armour",
+            "description": "This model’s storm bolter can be replaced with 1 relic shield.",
+            "items": ["relic shield"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Crozius arcanum",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Chaplain in Terminator Armour",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter","crozius arcanum"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "additionalParameter": {}
+}

@@ -1,0 +1,162 @@
+{
+    "parentUnit": "Ancient In Terminator Armour",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Carrying the Space Marines’ sacred banners is a most vital task. Symbols of the Chapter’s might, Space Marines will gladly die to preserve them. This makes Ancients frequent targets. Clad in Terminator armour, they are near impervious to enemy fire, ensuring the standard always flies proud.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "terminator",
+        "ancient"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Terminator Assault Squad",
+        "Terminator Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Astartes Banner:",
+                "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+            },
+            {
+                "name": "Keep the Banner High:",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength , and add 1 to the Wound roll as well if that unit is Below Half-strength ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"ancient in terminator armour",
+            "description": "This model’s power fist can be replaced with one of the following",
+            "items": [
+                "chainfist",
+                "close combat weapon",
+                "power weapon",
+                "thunder hammer"
+            ]
+        },
+        {"miniature":"ancient in terminator armour",
+            "description": "This model’s storm bolter and power fist can be replaced with one of the following: twin lightning claws, thunder hammer and 1 Terminator storm shield",
+            "items": [
+                "twin lightning claws",
+                "thunder hammer", "Terminator storm shield"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainfist",
+            "modifiers": ["anti-vehicle 3+"],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Thunder hammer",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Twin lightning claws",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Ancient in Terminator Armour",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter","power fist"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "additionalParameter": {}
+}

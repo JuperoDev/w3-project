@@ -1,0 +1,150 @@
+{
+    "parentUnit": "Stormtalon Gunship",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Fast and manoeuvrable, the Stormtalon is an aerial interceptor optimised for escorting Stormraven Gunships. While fast enough to engage in aerial combat, its pilot can switch on the Stormtalon’s repulsor systems, making it agile enough to closely support infantry in defence or on the attack.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "aircraft",
+        "imperium",
+        "stormtalon gunship"
+    ],
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 6,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Skyhammer missile launcher",
+            "modifiers": [
+                "anti-fly 2+",
+                "twin-linked"
+            ],
+            "attacks": 3,
+            "range": 48,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": "D3",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin assault cannon",
+            "modifiers": [
+                "devastating wounds",
+                "twin-linked"
+            ],
+            "range": 24,
+            "attacks": 6,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Typhoon missile launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": "2d6",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Typhoon missile launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Hover"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Strafing Run:",
+                "description": "Each time this model makes a ranged attack that targets a unit that cannot Fly , add 1 to the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"stormtalon gunship",
+            "description": "This model’s skyhammer missile launcher can be replaced with one of the following",
+            "items": [
+                "twin heavy bolter",
+                "twin lascannon",
+                "typhoon missile launcher"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Stormtalon Gunship",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "skyhammer missile launcher", "twin assault cannon","armoured hul"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 165
+        }
+    ],
+    "additionalParameter": {}
+}

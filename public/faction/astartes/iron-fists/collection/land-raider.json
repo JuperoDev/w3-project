@@ -1,0 +1,155 @@
+{
+    "parentUnit": "Land Raider",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Land Raiders are mobile fortresses that bear squads of Space Marines through the most furious firestorms without so much as a scratch. Their machine spirits are so potent that if the crew are slain they will take over, making the tank a truly formidable asset.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "transport",
+        "imperium",
+        "land raider"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 12,
+            "save": 2,
+            "wounds": 16,
+            "leadership": 6,
+            "objetiveControl": 5,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Godhammer lascannon",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "attacks": 1,
+            "strength": 14,
+            "armor-penetration": 3,
+            "damage": "D6",
+            "singleChoice": false,
+            "ballistic-skills": 2
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "attacks": 2,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Assault Ramp",
+                "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"landraider",
+        "description": "This model can be equipped with 1 hunter-killer missile.",
+        "items": ["hunter-killer missile"]
+    },
+    {"miniature":"landraider",
+        "description": "This model can be equipped with 1 multi-melta.",
+        "items": ["multi-melta"]
+    },
+    {"miniature":"landraider",
+        "description": "This model can be equipped with 1 storm bolter.",
+        "items": ["storm bolter"]
+    }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 8,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Land Raider",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "twin heavy bolter", "2 godhammer lascannons","armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 240
+        }
+    ],
+    "additionalParameter": {},
+    "transport":"This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+}

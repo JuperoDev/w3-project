@@ -1,0 +1,196 @@
+{
+    "parentUnit": "Outrider Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Outrider Squads advance ahead of the main Space Marine lines, guard flanks of larger formations and hunt down enemy infiltrators. When battle is joined, they conduct lightning-fast hit-and-run attacks on defended positions, and run down those who would try to escape the vengeance of the Chapter.",
+    "keywords": [
+        "mounted",
+        "grenades",
+        "imperium",
+        "outrider squad"
+    ],
+    "attributes": [
+        {
+            "name": "outrider",
+            "movement": 12,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        },
+        {
+            "name": "invader atv",
+            "movement": 12,
+            "toughness": 5,
+            "save": 3,
+            "wounds": 8,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt Pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "attacks": 2,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Onslaught gatling cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "attacks": 8,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin bolt rifle",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Turbo-boost",
+                "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6'' to the Move characteristic of models in this unit."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Invader ATV",
+            "description": "An Invader ATV’s onslaught gatling cannon can be replaced with 1 multi-melta.",
+            "items": ["multi-melta"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Outrider Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heavy bolt pistol", "twin bolt rifle","Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Outriders",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "heavy bolt pistol", "twin bolt rifle","Astartes chainsword"
+            ]
+        },
+        {
+            "unitType": "Invader ATV",
+            "minQuantity": 0,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "twin bolt rifle", "onslaught gatling cannon","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2,0
+            ],
+            "points": 80
+        },
+        {
+            "count": [
+                1,5,0
+            ],
+            "points": 160
+        },
+        {
+            "count": [
+                1,2,1
+            ],
+            "points": 150
+        },
+        {
+            "count": [
+                1,5,1
+            ],
+            "points": 230
+        }
+    ],
+    "additionalParameter": {}
+}

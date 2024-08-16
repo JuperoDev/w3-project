@@ -57,7 +57,7 @@
     {{ selectedArmy }} 
       {{ selectedFaction }}  -->
     <AlliedUnits
-    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'orks' && selectedArmy !== 'world eaters' && selectedArmy !== 'thousand sons'  && selectedArmy !== 'chaos knights' && selectedArmy !== 'chaos daemons'"
+    v-if="selectedArmy !== 'tyranids' && selectedArmy !== 'aeldari' && selectedArmy !== 'drukhari' && selectedArmy !== 'genestealers cults' && selectedArmy !== 'orks' && selectedArmy !== 'tau empire' && selectedArmy !== 'leagues of votann' && selectedArmy !== 'necrons' && selectedArmy !== 'world eaters' && selectedArmy !== 'thousand sons'  && selectedArmy !== 'chaos knights' && selectedArmy !== 'chaos daemons'"
       :url="sanitizedUrl"
       :armyIndex="armyIndex"
       :selectedDetachment="selectedDetachment"

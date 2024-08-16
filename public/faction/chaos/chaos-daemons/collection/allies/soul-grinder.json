@@ -1,0 +1,167 @@
+{
+    "parentUnit": "Soul Grinder",
+    "factionKeyword": [
+        "legiones daemonica"
+    ],
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Daemons desperate to gain power above their station may strike an unwise bargain with the master of the Forge of Souls. Thus are they remade into the hulking war engines known as Soul Grinders, and given the might to crush and blast all in their path – for a steep and ultimately never-ending price…",
+    "keywords": [
+        "vehicle",
+        "walker",
+        "chaos",
+        "daemon",
+        "soul grinder"
+    ],
+    "attributes": [{
+        "movement": 8,
+        "toughness": 11,
+        "save": 3,
+        "wounds": 14,
+        "leadership": 7,
+        "objetiveControl": 5,
+        "invulnerableSave": 4
+    }],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Harvester cannon",
+            "modifiers": [],
+            "attacks": 3,"range": 36,
+            "ballistic-skills": 3,
+            "strength": 10,
+            "armor-penetration": 1,
+            "damage": 3
+        },
+        {
+            "name": "Torrent of burning blood",
+            "modifiers": ["ignores cover","torrent"],
+            "attacks": "2D6","range": 12,
+            "ballistic-skills": "N/A",
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Phlegm bombardment",
+            "modifiers": ["blast","indirect fire","lethal hits"],
+            "attacks": "D6+1","range": 36,
+            "ballistic-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Scream of despair",
+            "modifiers": ["devastating wounds","sustained hits1"],
+            "attacks": 6,"range": 24,
+            "ballistic-skills": 3,
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Warp gaze",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d6+2",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Scuttling Walker",
+                "description": "Each time this model makes a Normal or Advance move, it can move over friendly MONSTER and VEHICLE models and terrain features that are 4'' or less in height as if they were not there."
+            }
+        ]
+    },
+    "wargear": [
+        { "miniature": "Soul Grinder",
+            "description": "This model’s warpsword can be replaced with 1 warpclaw.",
+            "items": ["warpclaw"]
+        }
+    ],
+    "meleeWeapons": [
+        
+        {
+            "name": "Iron claw",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 3,
+            "strength": 16,
+            "armor-penetration": 3,
+            "damage": "D6+2"
+        },
+        {
+            "name": "Warpclaw",
+            "modifiers": ["extra attacks"],
+            "attacks": 6,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Warpsword",
+            "modifiers": ["extra attacks"],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": "D6"
+        }
+    ],"additionalParameter": {
+        "title": "Daemonic Allegiance",
+        "abilities": [
+            {
+                "name": "Khorne",
+                "description": "This model is additionally equipped with: torrent of burning blood"
+            },
+            {
+                "name": "Tzeentch",
+                "description": "This model is additionally equipped with: warp gaze"
+            },
+            {
+                "name": "Nurgle",
+                "description": "This model is additionally equipped with: phlegm bombardment"
+            },
+            {
+                "name": "Slaanesh",
+                "description": "This model is additionally equipped with: scream of despair"
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Soul Grinder",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "harvester cannon","iron claw","warpsword."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 190
+        }
+    ]
+}

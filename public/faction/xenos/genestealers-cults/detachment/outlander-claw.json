@@ -35,84 +35,70 @@
     ],
     "stratagems": [
         {
-            "name": "unquestioning loyalty",
-            "subindex": "epic deed stratagem",
-            "lore": "Broodkin are so fanatically loyal that they do not hesitate to sacrifice themselves to protect their leaders.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": "One GENESTEALER CULTS CHARACTER unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
-            "effect": "Until the end of the phase, each time a CHARACTER model in your unit would lose a wound, select one friendly GENESTEALER CULTS unit within 3'' of it (excluding VEHICLE units). Your CHARACTER model does not lose that wound and that selected unit suffers one mortal wound instead.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "coordinated trap",
-            "subindex": "epic deed stratagem",
-            "lore": "Broodkin are so fanatically loyal that they do not hesitate to sacrifice themselves to protect their leaders.",
-            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-            "target": " One GENESTEALER CULTS CHARACTER unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
-            "effect": "Until the end of the phase, each time a CHARACTER model in your unit would lose a wound, select one friendly GENESTEALER CULTS unit within 3'' of it (excluding VEHICLE units). Your CHARACTER model does not lose that wound and that selected unit suffers one mortal wound instead.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
-        },
-        {
-            "name": "tunnel crawlers",
+            "name": "along shadowed trails",
             "subindex": "strategic ploy stratagem",
-            "lore": "Squirming, crawling and scrabbling through confined spaces is second nature to many broodkin, and is a skill they use to assail seemingly impregnable enemy positions.",
-            "when": " Your Movement phase.",
-            "target": "One GENESTEALER CULTS unit from your army that is arriving using the Deep Strike ability this phase.",
-            "effect": "Your unit can be set up anywhere on the battlefield that is more than 3'' horizontally away from all enemy models.",
-            "restrictions":"A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.",
-            "icon": [
-                ""
-            ],
+            "lore": "With raw speed and subtle misdirection, Atalan Jackals outflank those who believe them trapped.",
+            "when": "Any phase, just after an enemy unit ends a move within 9\" of one or more of your Cult Ambush markers.",
+            "target": "One ATALAN JACKALS unit from your army in Cult Ambush.",
+            "effect": "Select one of those Cult Ambush markers. You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9” horizontally away from all enemy units and wholly within 6\" of one or more battlefield edges. Until the end of the battle, you can only select ATALAN JACKALS units from your army to set up using that Cult Ambush marker.",
+            "icon": [""],
             "cp": 1,
             "color": "blue"
         },
         {
-            "name": "a perfect ambush",
+            "name": "devoted crew",
             "subindex": "battle tactic stratagem",
-            "lore": "These Cultists have tracked their enemies tirelessly, as predatory beasts stalk their prey. Only when their position is perfect do they strike, engulfing their victims in a hail of unexpected firepower.",
+            "lore": "With evasive manoeuvres and split-second repairs, Outlander Claws marshal their rugged vehicles through the worst the foe can throw at them.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One GOLIATH ROCKGRINDER or GOLIATH TRUCK unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.",
+            "icon": [""],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "close-range shoot-out",
+            "subindex": "battle tactic stratagem",
+            "lore": "A cult’s experienced outriders are experts in hit-and-run attacks and close-range firefights. These skills are deadly when combined.",
             "when": "Your Shooting phase.",
-            "target": "One GENESTEALER CULTS unit from your army that arrived from Reserves this turn and has not been selected to shoot this phase.",
-            "effect": "Until the end of the phase, improve the Ballistic Skill and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1.",
-            "icon": [
-                ""
-            ],
+            "target": "One GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability while targeting an enemy unit within 18\".",
+            "icon": [""],
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "rapid feint",
+            "subindex": "strategic ploy stratagem",
+            "lore": "An Outlander Claw’s skilled riders and crews can use their enhanced hybrid reactions to rapidly alter speed and course, roaring after fleeing prey or luring enemy out of position and leaving them flat-footed.",
+            "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+            "target": "One ACHILLES RIDGERUNNERS or ATALAN JACKALS unit from your army that is within 9\" of that enemy unit.",
+            "effect": "Your unit can make a Normal move of up to 6\".",
+            "icon": [""],
             "cp": 1,
             "color": "blue"
         },
         {
-            "name": "one with the darkness",
-            "subindex": "strategic ploy stratagem",
-            "lore": "In dark nooks and crevices the true believers of the cult whisper and skulk, all but invisible to those who approach.",
-            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-            "target": "One GENESTEALER CULTS INFANTRY unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
-            "effect": "Until the end of the phase, your unit has the Stealth ability and can only be selected as the target of a ranged attack if the attacking model is within 12''",
-            "icon": [
-                ""
-            ],
+            "name": "deft manoeuvring",
+            "subindex": "battle tactic stratagem",
+            "lore": "Serpent-fast, jinking and swerving with incredible skill, the cult’s light vehicles appear to slide through the oppressors' gunfire.",
+            "when": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One ACHILLES RIDGERUNNERS or ATALAN JACKALS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+            "icon": [""],
             "cp": 1,
-            "color": "red"
+            "color": "green"
         },
         {
-            "name": "return to the shadows",
-            "subindex": "battle tactic stratagem",
-            "lore": "Ever cunning and duplicitous, broods of the faithful often vanish back into tunnels and vents after their initial strike, ready to regroup and attack again elsewhere.",
-            "when": "End of your opponent’s turn.",
-            "target": "Up to two GENESTEALER CULTS BATTLELINE units from your army, or one other GENESTEALER CULTS INFANTRY unit from your army.",
-            "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves.",
-            "restrictions":"The targeted units must have the Deep Strike ability and cannot be within Engagement Range of any enemy units when targeted.",
-            "icon": [
-                ""
-            ],
+            "name": "encircling the prey",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Skirting the edge of battle, an Outlander Claw's raiders watch keenly for vulnerabilities, ready to throw themselves back into the fight to exploit any weaknesses in the enemy.",
+            "when": "End of your opponent's Fight phase.",
+            "target": "One GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE unit from your army that is not within Engagement Range of one or more enemy units and is wholly within 9\" of one or more battlefield edges.",
+            "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+            "icon": [""],
             "cp": 1,
-            "color": "red"
+            "color": "blue"
         }
     ]
 }

@@ -1,0 +1,264 @@
+{
+    "parentUnit": "Cadian Shock Troops",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {}, "warGearAbilities": [
+        {
+            "wargear": "Vox-caster",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6'': on a 5+, you gain 1CP."
+        }
+    ],
+    "supremeCommander": false,
+    "lore": "Born soldiers, the Shock Troops of Cadia have trained their entire lives for military service with the Astra Militarum. Decades of rigorous firing drills have forged them into expert sharpshooters. Skilled in both dogged defence and storming assaults, Cadian Shock Troops are held by many as being the ideal soldiers.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "imperium",
+        "grenades",
+        "regiment",
+        "platoon",
+        "cadian",
+        "cadian shock troops"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Drum-fed autogun",
+            "modifiers": [
+            
+            ],
+            "range": 12,
+            "strength": 24,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
+        },
+        {
+            "name": "Lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+       
+        ],
+        "faction": [],
+        "otherAbilities": [
+            
+            {
+                "name": "Shock Troops",
+                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Shock Troopers",
+            "description": "For every 10 models in this unit, up to 2 Shock Troopers can each have their lasgun replaced with one of the following",
+            "items": [
+                "flamer",
+                "grenade launcher",
+                "meltagun",
+                "plasma gun"
+            ]
+        },
+        {"miniature":"Shock Troopers",
+            "description": "For every 10 models in this unit, 1 Shock Trooper equipped with a lasgun can be equipped with 1 vox-caster (that model’s lasgun cannot be replaced).",
+            "items": ["vox-caster"]
+        },
+        {"miniature":"Shock Trooper Sergeants",
+            "description": "Any number of Shock Trooper Sergeants can each have their laspistol replaced with 1 bolt pistol.",
+            "items": ["bolt pistol"]
+        },
+        {"miniature":"Shock Trooper Sergeants",
+            "description": "Any number of Shock Trooper Sergeants can each have their laspistol and chainsword replaced with 1 drum-fed autogun and 1 close combat weapon.",
+            "items": ["close combat weapon"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Shock Trooper Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "laspistol","chainsword"
+            ]
+        },
+        {
+            "unitType": "Shock Troopers",
+            "minQuantity": 9,
+            "maxQuantity": 18,
+            "equipment": [
+                "lasgun","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,9
+            ],
+            "points":60
+        },
+        {
+            "count": [
+                2,18
+            ],
+            "points":120
+        }
+    ]
+}

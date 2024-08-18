@@ -1,0 +1,160 @@
+{
+    "parentUnit": "Attilan Rough Riders",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Hailing from the steppes of Attila, these horsemasters are potent cavalry troops. Their mobility makes them a powerful force, whether spearheading an attack or outflanking the foe. Though also equipped with grenades and sidearms, their deadliest weapon is their hunting lance, capable of bearing one of several deadly tips.",
+    "keywords": [
+        "mounted",
+        "imperium",
+        "grenades",
+        "regiment",
+        "attilan rough riders"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Horsemasters",
+                "description": "You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for it. In addition, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"attilan rough riders",
+            "description": "For every 5 models in this unit, 1 model’s hunting lance can be replaced with 1 goad lance.",
+            "items": ["goad lance"]
+        },
+        {"miniature":"attilan rough riders",
+            "description": "The Rough Rider Sergeant can be equipped with 1 power sabre.",
+            "items": ["power sabre"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Goad lance",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "hunting lance – frag tip",
+            "modifiers": ["lance"],
+            "attacks": "d6",
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "hunting lance – melta tip",
+            "modifiers": ["lance"],
+            "attacks": 1,
+            "weapons-skills": 3,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": true
+        },
+        {
+            "name": "Power sabre",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Steed’s hooves",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Rough Rider Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lasgun", "laspistol", "hunting lance","steed’s hooves"
+            ]
+        },
+        {
+            "unitType": "Rough Riders",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "lasgun", "laspistol", "hunting lance","steed’s hooves"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points": 60
+        }
+    ]
+}

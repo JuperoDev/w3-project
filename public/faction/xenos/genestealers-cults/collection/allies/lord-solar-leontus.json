@@ -1,0 +1,112 @@
+{
+    "parentUnit": "Lord Solar Leontus",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": true,
+    "lore": "Arcadian Leontus wields entire armies of the Astra Militarum against apocalyptic invasions and sector-wide insurgencies. A war scholar and master tactician, the Lord Commander Solar bestrides the battlefield on his cybernetic stallion, Konstantin, levelling his blade at the foe as he bellows his orders.",
+    "keywords": [
+        "mounted",
+        "character",
+        "epic hero",
+        "imperium",
+        "officer",
+        "lord solar leontus"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 8,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Attilan Rough Riders",
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Infantry Squad",
+        "Kasrkin"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Sol’s Righteous Gaze",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Voice of Command"
+        ],
+        "otherAbilities": [
+            {
+                "name": "The Lord Solar:",
+                "description": "At the start of your Command phase , If this model is on the battlefield, you gain 1CP."
+            },
+            {
+                "name": "The Collegiate Astrolex:",
+                "description": "After both players have deployed their armies, select up to three ASTRA MILITARUM units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Conquest",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Konstantin’s hooves",
+            "modifiers": [
+                "extra attacks"
+            ],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Lord Solar Leontus – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Sol’s Righteous Gaze",
+                "Conquest; Konstantin’s hooves"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 125
+        }
+    ]
+}

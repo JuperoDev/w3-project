@@ -1,0 +1,148 @@
+{
+    "parentUnit": "Field Ordnance Battery",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Amongst the largest man-portable weapons fielded by the Astra Militarum are those crewed by Ordnance Teams. From bombast field guns that fire heavy shells indirectly, to the multiple warheads of the malleus rocket launcher or the searing energy lances unleashed by heavy lascannons, such batteries are powerful assets.",
+    "keywords": [
+        "infantry",
+        "artillery",
+        "imperium",
+        "grenades",
+        "regiment",
+        "field ordnance battery"
+    ],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 5,
+            "save": 4,
+            "wounds": 6,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bombast field gun",
+            "modifiers": [
+                "blast",
+                "heavy",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 7,
+            "attacks": "d6",
+            "ballistic-skills": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy lascannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 2,
+            "ballistic-skills": 5,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Malleus rocket launcher",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 6,
+            "attacks": "d6+6",
+            "ballistic-skills": 5,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+           
+        ],
+        "faction": [],
+        "otherAbilities": [ {
+            "name": "Rearm, Reload, Fire",
+            "description": "While this unit is being affected by an Order, provided it Remained Stationary this turn, all Heavy weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        }]
+    },
+    "wargear": [
+        {"miniature":"Ordnance Teams",
+            "description": "Any number of models can each have their malleus rocket launcher replaced with one of the following",
+            "items": [
+                "bombast field gun",
+                "heavy lascannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Battery close combat weapons",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Ordnance Teams",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "malleus rocket launcher", "lasgun", "laspistol", "battery close combat weapons"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                2
+            ],
+            "points": 120
+        }
+    ]
+}

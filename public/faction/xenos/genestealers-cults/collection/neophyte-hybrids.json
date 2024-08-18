@@ -169,8 +169,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "A Plan Generations in the Making:",
-                "description": "At the start of your Command phase , roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
+                "name": "A Plan Generations in the Making",
+                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn"
             }
         ]
     },
@@ -203,14 +203,14 @@
                 1,
                 9
             ],
-            "points": 90
+            "points": 70
         },
         {
             "count": [
                 1,
                 19
             ],
-            "points": 180
+            "points":140
         }
     ],
     "wargear": [
@@ -273,7 +273,7 @@
     "warGearAbilities": [
         {
             "wargear": "Cult Icon",
-            "ability": "In the Reinforcements step of your Movement phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units."
+            "ability": " In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
         }
     ]
 }

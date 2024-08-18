@@ -1,0 +1,113 @@
+{
+    "parentUnit": "Regimental Attachés",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Experienced officers know the value of drawing upon the advice of varied attachés. From void-hardened Officers of the Fleet to soot-stained Masters of Ordnance and psychic Astropaths, such specialists bring their expertise to bear in support of an officer’s grand strategies.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "imperium",
+        "regimental attachésastropath: psyker"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+          
+        ],
+        "faction": [],
+        "otherAbilities": [ {
+            "name": "Artillery Commander",
+            "description": "At the start of your Shooting phase, select one enemy unit within 30'' of and visible to this unit’s Master of Ordnance model that has not already been selected for this ability this phase. Until the end of the phase, Blast weapons equipped by friendly ASTRA MILITARUM ARTILLERY models have the [SUSTAINED HITS 1] ability when targeting that unit."
+        }, {
+            "name": "Aeronautica Commander",
+            "description": "At the start of your Shooting phase, select one enemy unit within 30'' of and visible to this unit’s Officer of the Fleet model. Until the end of the phase, each time a friendly ASTRA MILITARUM AIRCRAFT model makes a ranged attack that targets that unit, add 1 to the Hit roll."
+        }, {
+            "name": "Divination (Psychic)",
+            "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12'' of this unit’s Astropath model."
+        }]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Astropath’s stave",
+            "modifiers": "psychic",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": "D3"
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Master of Ordnance",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "laspistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Officer of the Fleet",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "laspistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Astropath",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "laspistol","Astropath’s stave"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 40
+        }
+    ]
+}

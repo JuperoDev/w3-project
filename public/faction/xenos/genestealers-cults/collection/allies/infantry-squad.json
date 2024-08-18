@@ -1,0 +1,433 @@
+{
+    "parentUnit": "Infantry Squad",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The backbone of countless Astra Militarum regiments, these soldiers fight in huge numbers. Armed with the ubiquitous lasgun, often supplemented with specialist weapons, they hold defensive lines, conduct massed assaults across no man’s land and, if well led, will hold their ground to the last.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "imperium",
+        "grenades",
+        "regiment",
+        "platoon",
+        "infantry squad"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [], "warGearAbilities": [
+        {
+            "wargear": "Vox-caster",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6'': on a 5+, you gain 1CP."
+        }
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Autocannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 5,
+            "armor-penetration": 1,
+            "damage":3,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 5,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Missile launcher - frag",
+            "modifiers": [
+                "blast",
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Missile launcher - krak",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": true
+        },
+        {
+            "name": "Mortar",
+            "modifiers": [
+                "blast",
+                "heavy",
+                "indirect fire"
+            ],
+            "range": 48,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Sniper rifle",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+           
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Defenders of Humanity",
+                "description": "Each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Guardsmen",
+            "description": "For every 10 models in this unit, 1 Guardsman’s lasgun can be replaced with one of the following",
+            "items": [
+                "flamer",
+                "grenade launcher",
+                "meltagun",
+                "plasma gun",
+                "sniper rifle"
+            ]
+        },
+        {"miniature":"Guardsmen",
+            "description": "For every 10 models in this unit, 1 Guardsman equipped with a lasgun can be equipped with 1 vox-caster (that model’s lasgun cannot be replaced).",
+            "items": []
+        },
+        {"miniature":"Sergeant",
+            "description": "Each Sergeant’s close combat weapon can be replaced with one of the following",
+            "items": [
+                "chainsword",
+                "power weapon"
+            ]
+        },
+        {"miniature":"Heavy Weapons Team",
+            "description": "Each Sergeant’s laspistol can be replaced with one of the following",
+            "items": [
+                "bolt pistol",
+                "boltgun",
+                "plasma pistol"
+            ]
+        },
+        {"miniature":"Heavy Weapons Team",
+            "description": "Each Heavy Weapons Team’s heavy bolter can be replaced with one of the following",
+            "items": [
+                "autocannon",
+                "lascannon",
+                "missile launcher",
+                "mortar"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "laspistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Guardsmen",
+            "minQuantity": 7,
+            "maxQuantity": 18,
+            "equipment": [
+                "lasgun","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Heavy Weapons Team",
+            "minQuantity": 0,
+            "maxQuantity": 2,
+            "equipment": [
+                "heavy bolter", "laspistol","close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,9,0
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                1,7,1
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                2,18,0
+            ],
+            "points": 120
+        },
+        {
+            "count": [
+                2,16,1
+            ],
+            "points": 120
+        },
+        {
+            "count": [
+                2,14,2
+            ],
+            "points": 120
+        }
+    ]
+}

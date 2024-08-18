@@ -1,0 +1,126 @@
+{
+    "parentUnit": "‘Iron Hand’ Straken",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Commanding the Catachan II – the ‘Green Vipers’ – Colonel ‘Iron Hand’ Straken is a bullish, practical and cunning officer. Having survived dire wounds, Straken’s extensive bionics magnify his innate strength. He leads from the front, loudly encouraging his troops as he visibly crushes the enemy with sweeping blows.",
+    "keywords": [
+        "infantry",
+        "character",
+        "epic hero",
+        "imperium",
+        "grenades",
+        "officer",
+        "‘iron hand’ straken"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Catachan Jungle Fighters"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Auto shotgun",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader",
+            "Scouts 6\""
+        ],
+        "faction": [
+            "Voice of Command"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Cold Steel and Courage:",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Been There, Seen it, Killed it:",
+                "description": "Each time this model makes a melee attack, if it made a Charge move this turn, you can re-roll the Hit roll and you can re-roll the Wound roll ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Bionic arm with devil’s claw",
+            "modifiers": ["anti-monster 4+"],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "‘Iron Hand’ Straken – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "auto shotgun",
+                "plasma pistol",
+                "bionic arm with devil’s claw"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 55
+        }
+    ]
+}

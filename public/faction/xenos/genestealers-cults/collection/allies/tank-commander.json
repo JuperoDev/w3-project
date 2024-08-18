@@ -1,0 +1,348 @@
+{
+    "parentUnit": "Tank Commander",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Tank Commanders lead squadrons, companies or even whole regiments of armoured behemoths. From within their tank, they task their gunners with pinpoint targeting actions and broadcast orders to the crews of other war engines, or, in a visible symbol of Imperial power, bellow commands from the cupola.",
+    "keywords": [
+        "vehicle",
+        "character",
+        "imperium",
+        "smoke",
+        "officer",
+        "tank commander"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 13,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Demolisher battle cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 14,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Eradicator nova cannon",
+            "modifiers": [
+                "blast",
+                "ignores cover"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": "d3+6",
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Executioner plasma cannon - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Executioner plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Exterminator autocannon",
+            "modifiers": [
+                "rapid fire 4",
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Leman Russ battle cannon",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": "d6+3",
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Militarum plasma cannon - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Militarum plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Punisher gatling cannon",
+            "modifiers": [],
+            "range": 20,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Vanquisher battle cannon",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 72,
+            "strength": 18,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6+6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "voice of command"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Vox-net",
+                "description": "Each time this model issues an Order, it can issue it to an eligible unit up to 12'' away."
+            },
+            {
+                "name": "Death Befitting An Officer",
+                "description": "When this model is destroyed , roll one D6: on a 2+, do not remove it from play – it can, after the attacking model’s unit has finished making its attacks, shoot as if it were your Shooting phase and as if it had its full wounds remaining. This model is then removed from play."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"tank commander",
+            "description": "This model’s Leman Russ battle cannon can be replaced with one of the following",
+            "items": [
+                "demolisher battle cannon",
+                "eradicator nova cannon",
+                "executioner plasma cannon",
+                "exterminator autocannon",
+                "punisher gatling cannon",
+                "vanquisher battle cannon"
+            ]
+        },
+        {"miniature":"tank commander",
+            "description": "This model’s lascannon can be replaced with one of the following",
+            "items": [
+                "heavy bolter",
+                "heavy flamer"
+            ]
+        },
+        {"miniature":"tank commander",
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 heavy bolters",
+                "2 heavy flamers",
+                "2 multi-meltas",
+                "2 Militarum plasma cannons"
+            ]
+        },
+        {"miniature":"tank commander",
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "heavy stubber",
+                "storm bolter"
+            ]
+        },
+        {"miniature":"tank commander",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": ["hunter-killer missile"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Tank Commander",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lascannon",
+                "Leman Russ battle cannon",
+                "armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 205
+        }
+    ]
+}

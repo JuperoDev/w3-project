@@ -1,0 +1,235 @@
+{
+    "parentUnit": "Leman Russ Punisher",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The Punisher variant of the Leman Russ holds a dreaded reputation for mowing down enemy infantry in vast quantities. Its turret-mounted multi-barrelled cannon is an unsubtle sprayer of solid ammunition that applies the maxim of overwhelming firepower to overcome hordes of foes.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "squadron",
+        "smoke",
+        "leman russ punisher"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 11,
+            "save": 2,
+            "wounds": 13,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+         {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma cannon - standard",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 7,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma cannon - supercharge",
+            "modifiers": [
+                "blast",
+                "hazardous"
+            ],
+            "range": 36,
+            "strength": 8,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },{
+            "name": "Punisher gatling cannon",
+            "modifiers": [
+               
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 20,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Mow Down the Enemy:",
+                "description": "Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding MONSTERS and VEHICLES ), that attack has the [DEVASTATING WOUNDS] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"leman russ punisher",
+            "description": "This model’s lascannon can be replaced with one of the following",
+            "items": [
+                "heavy bolter",
+                "heavy flamer"
+            ]
+        },
+        {"miniature":"leman russ punisher",
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 heavy bolters",
+                "2 heavy flamers",
+                "2 multi-meltas",
+                "2 plasma cannons"
+            ]
+        },
+        {"miniature":"leman russ punisher",
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "heavy stubber",
+                "storm bolter"
+            ]
+        },
+        {"miniature":"leman russ punisher",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": ["hunter-killer missile"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Leman Russ Punisher",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lascannon","punisher gatling cannon", "armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 150
+        }
+    ]
+}

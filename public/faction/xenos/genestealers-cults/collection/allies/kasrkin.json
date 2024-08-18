@@ -1,0 +1,317 @@
+{
+    "parentUnit": "Kasrkin",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Amongst the lauded regiments of Cadia, the Kasrkin are the elite of the elite. These special operatives bear high-powered hot-shot lasguns and wear thick carapace armour. Disciplined and professional, the Kasrkin are peerless shots, and the equals or superiors of any unaugmented Human warriors.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "grenades",
+        "regiment",
+        "kasrkin"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
+        },
+        {
+            "name": "Hot-shot lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hot-shot laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hot-shot marksman rifle",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hot-shot laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+       
+        {
+            "name": "Hot-shot volleygun",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 6\""
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Warrior Elite",
+                "description": " In your Command phase, you can select one Order to affect this unit until the start of your next Command phase, in addition to any other Orders issued to this unit by an OFFICER model this turn."
+            }
+        ]
+    }, "warGearAbilities": [
+        {
+            "wargear": "Vox-caster",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6'': on a 5+, you gain 1CP."
+        },
+        {
+            "wargear": "Melta Mine",
+            "ability": "Once per battle, at the start of any phase, you can select one enemy unit within 3'' of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a VEHICLE unit."
+        }
+    ],
+    "wargear": [
+        {"miniature":"Kasrkin Troopers",
+            "description": "Up to 4 Kasrkin Troopers can each have their hot-shot lasgun replaced with one of the following",
+            "items": [
+                "flamer",
+                "grenade launcher",
+                "hot-shot volley gun",
+                "meltagun",
+                "plasma gun"
+            ]
+        },
+        {"miniature":"Kasrkin Troopers",
+            "description": "1 Kasrkin Trooper’s hot-shot lasgun can be replaced with 1 hot-shot marksman rifle.",
+            "items": ["hot-shot marksman rifle"]
+        },
+        {"miniature":"Kasrkin Troopers",
+            "description": "1 Kasrkin Trooper’s hot-shot lasgun can be replaced with 1 hot-shot laspistol and 1 melta mine.",
+            "items": ["hot-shot laspistol","melta mine"]
+        },
+        {"miniature":"Kasrkin Troopers",
+            "description": "1 Kasrkin Trooper equipped with a hot-shot lasgun can be equipped with 1 vox-caster (that model’s hot-shot lasgun cannot be replaced).",
+            "items": ["vox-caster"]
+        },
+        {"miniature":"Kasrkin Sergeant",
+            "description": "The Kasrkin Sergeant’s chainsword can be replaced with 1 power weapon.",
+            "items": ["power weapon"]
+        },
+        {"miniature":"Kasrkin Sergeant",
+            "description": "The Kasrkin Sergeant’s hot-shot laspistol can be replaced with one of the following",
+            "items": [
+                "bolt pistol",
+                "plasma pistol"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Kasrkin Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "hot-shot laspistol; chainsword"
+            ]
+        },
+        {
+            "unitType": "Kasrkin Troopers",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                " hot-shot lasgun; close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 120
+        }
+    ]
+}

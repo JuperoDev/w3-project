@@ -1,0 +1,157 @@
+{
+    "parentUnit": "Valkyrie",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {
+        "remainingWounds": 5,
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Well-armed and heavily armoured, Valkyries are agile carrier-gunships with experienced crews. Their pilots weave them through enemy fighters and ground fire to deliver their payload of soldiers, dropping them from high altitude via grav-chutes or hovering at lower levels while the troops jump out to storm the landing zone.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "aircraft",
+        "imperium",
+        "transport",
+        "valkyrie"
+    ],
+    "attributes": [
+        {
+            "movement": 20,
+            "toughness": 10,
+            "save": 2,
+            "wounds": 14,
+            "leadership": 7,
+            "objetiveControl": 0,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+         {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Hellstrike missiles",
+            "modifiers": [
+                "anti-fly 2+"
+            ],
+            "range": 48,
+            "strength": 10,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "modifiers": [
+              
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Militarum multi-laser",
+            "modifiers": [
+              
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Multiple rocket pod",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6",
+            "Hover"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Grav Chute Insertion",
+                "description": "At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"valkyrie",
+            "description": "This model’s Militarum multi-laser can be replaced with 1 lascannon.",
+            "items": ["lascannon"]
+        },
+        {"miniature":"valkyrie",
+            "description": "This model’s hellstrike missiles can be replaced with 2 multiple rocket pods.",
+            "items": ["multiple rocket pods"]
+        },
+        {"miniature":"valkyrie",
+            "description": "This model can be equipped with 2 heavy bolters.",
+            "items": ["heavy bolters"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured hull",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Valkyrie",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "hellstrike missiles","Militarum multi-laser", "armoured hull"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 190
+        }
+    ],
+    "transport":"This model has a transport capacity of 12 ASTRA MILITARUM INFANTRY models. Each HEAVY WEAPONS TEAM model and VETERAN HEAVY WEAPONS TEAM model takes up the space of 2 models. Each OGRYN model takes up the space of 3 models. It cannot transport ARTILLERY models"
+}

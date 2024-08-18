@@ -1,0 +1,139 @@
+{
+    "parentUnit": "Hydra",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "A primary anti-aircraft asset, the Hydra is a flak tank equipped with an array of specially adapted autocannons. As many allied tanks are vulnerable from the air, the Hydra is highly valuable. Once it locks on to enemy aircraft, even the most evasive targets cannot escape its storm of shells.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "squadron",
+        "smoke",
+        ""
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+         {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Hydra autocannon",
+            "modifiers": [
+                "anti-fly 2+",
+                "twin-linked"
+            ],
+            "range": 72,
+            "strength": 9,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Flak Battery:",
+                "description": "Each time this model makes an attack that targets a unit that can FLY , you can re-roll the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"hydra",
+            "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
+            "items": ["heavy flamer"]
+        },
+        {"miniature":"hydra",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": ["hunter-killer missile"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Hydra",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heavy bolter", "Hydra autocannon","armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 85
+        }
+    ]
+}

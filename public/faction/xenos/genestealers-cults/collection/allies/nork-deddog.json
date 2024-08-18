@@ -1,0 +1,99 @@
+{
+    "parentUnit": "Nork Deddog",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Nork Deddog’s loyalty and his skills as a bodyguard are beyond question. The hulking Ogryn would rather sustain terrible wounds than permit a single scratch on those he protects. Dozens of victories have been achieved thanks to his unthinking heroism as he shoots, eviscerates or head-butts any threat to his charges.",
+    "keywords": [
+        "infantry",
+        "epic hero",
+        "imperium",
+        "grenades",
+        "loyal protector",
+        "ogryn",
+        "nork deddog"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 6,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Ripper gun",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 5+"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Ogryn Bodyguard:",
+                "description": " While one or more OFFICER models are in the same unit as this model, those Officer models have the Feel No Pain 4+ ability."
+            },
+            {
+                "name": "Thunderous Head-butt",
+                "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Huge knife",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2
+        }
+    ],
+    "additionalParameter": { "title": "Loyal protector",
+    "abilities": [
+        {
+            "name": "",
+            "description": "At the start of the Declare Battle Formations step, this model must join one CMMAND SUAD unit from your army (a CMMAND SUAD cannot have more than one LYAL POTECTOR model joined to it). This model then counts as part of that CMMAND SUAD for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a CMMAND SUAD, it does not take part in the battle and counts as having been destroyed. While this model is joined to a unit, it can embark within any TANSPORT that unit can embark within, and takes up the space of 3 models"
+        }]},
+    "unitComposition": [
+        {
+            "unitType": "Nork Deddog – EPIC HERO",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "ripper gun","huge knife"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 60
+        }
+    ]
+}

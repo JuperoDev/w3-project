@@ -1,0 +1,141 @@
+{
+    "parentUnit": "Manticore",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Capable of firing its limited supply of storm eagle rockets to unleash furious barrages at incredible distances, the Manticore can lay waste to enemy formations. Multiple warheads release a moment before each rocket’s impact, signalling the panicking foe’s doom no matter how far they try to flee at the last moment.",
+    "keywords": [
+        "vehicle",
+        "artillery",
+        "imperium",
+        "squadron",
+        "smoke",
+        "manticore"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+         {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Storm eagle rockets",
+            "modifiers": [
+                "blast",
+                "heavy",
+                "indirect fire"
+            ],
+            "range": 120,
+            "strength": 10,
+            "attacks": "d6+1",
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Furious Barrage:",
+                "description": "Each time this model makes an attack with its storm eagle rockets that targets an enemy unit that contains five or more models, you can re-roll the Hit roll ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"manticore",
+            "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
+            "items": ["heavy flamer"]
+        },
+        {"miniature":"manticore",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": ["hunter-killer missile"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Manticore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heavy bolter", "storm eagle rockets","armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 190
+        }
+    ]
+}

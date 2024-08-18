@@ -1,0 +1,141 @@
+{
+    "parentUnit": "Regimental Preacher",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Serving amongst the Imperial Guard’s regiments to bolster the spiritual strength of its soldiers, Regimental Preachers are fiery zealots and fanatical orators. They do not shy away from combat, but wade amongst the foe, their voices raised in prayer to the God-Emperor and in furious castigation of the enemy.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "grenades",
+        "regimental preacher"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Infantry Squad",
+        "Kasrkin",
+        "Tempestus Scions"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Autogun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Holy pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Preacher shotgun",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "War Hymns",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Holy Piety",
+                "description": "Each time this model makes a melee attack, unless this model’s unit is Battle-shocked, you can re-roll the Hit roll."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"regimental preacher",
+            "description": "This model’s power weapon can be replaced with one of the following",
+            "items": [
+                "autogun and 1 chainsword",
+                "Preacher shotgun and 1 chainsword"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Regimental Preacher",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "holy pistol",
+                "power weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 35
+        }
+    ]
+}

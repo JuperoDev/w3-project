@@ -1,0 +1,143 @@
+{
+    "parentUnit": "Catachan Jungle Fighters",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {}, "warGearAbilities": [
+        {
+            "wargear": "Vox-caster",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6'': on a 5+, you gain 1CP."
+        }
+    ],
+    "supremeCommander": false,
+    "lore": "These heavily muscled soldiers are drawn from a warrior people that survive on the most infamous of death worlds. Skilled in deadly close combat with the fiercest of beasts amidst hazardous terrain, Jungle Fighters are also skilled infiltrators and trackers, adept at luring their prey into fiendish traps.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "imperium",
+        "regiment",
+        "grenades",
+        "platoon",
+        "catachan jungle fighters"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 6\""
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Jungle Fighters",
+                "description": "Each time a model in this unit makes a melee attack, if this unit made a Charge move or was charged this turn, improve the Strength and Armour Penetration characteristics of that attack by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Jungle Fighters",
+            "description": "For every 5 models in this unit, 1 Jungle Fighter’s lasgun can be replaced with 1 flamer.",
+            "items": ["flamer"]
+        },
+        {"miniature":"Jungle Fighters",
+            "description": "For every 10 models in this unit, 1 Jungle Fighter equipped with a lasgun can be equipped with 1 vox-caster (that model’s lasgun cannot be replaced).",
+            "items": ["vox-caster"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Jungle Fighter Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "laspistol","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Jungle Fighters",
+            "minQuantity": 9,
+            "maxQuantity": 18,
+            "equipment": [
+                "lasgun","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,9
+            ],
+            "points":55
+        },
+        {
+            "count": [
+                2,18
+            ],
+            "points":110
+        }
+    ]
+}

@@ -1,0 +1,309 @@
+{
+    "parentUnit": "Tempestus Scions",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Tempestus Scions are elite soldiers, well-trained in numerous combat styles, equipped to the highest standard and protected by reinforced carapace armour. Primed for a wide variety of specialist missions, their most common armament is an armour-piercing hotshot lasgun fitted with advanced sights.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "grenades",
+        "regiment",
+        "militarum tempestus",
+        "tempestus scions"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
+        },
+        {
+            "name": "Hot-shot lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hot-shot laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hot-shot volley gun",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 30,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Storm Troopers",
+                "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Tempestus Scions",
+            "description": "For every 5 models in this unit, up to two Tempestus Scions can each have their hot-shot lasgun replaced with one of the following",
+            "items": [
+                "flamer",
+                "grenade launcher",
+                "hot-shot volley gun",
+                "meltagun",
+                "plasma gun"
+            ]
+        },
+        {"miniature":"Tempestus Scions",
+            "description": "1 Tempestus Scion’s hot-shot lasgun can be replaced with 1 hot-shot laspistol and 1 vox-caster.",
+            "items": ["hot-shot laspistol","vox-caster"]
+        },
+        {"miniature":"Tempestor",
+            "description": "The Tempestor’s chainsword can be replaced with one of the following",
+            "items": [
+                "power fist",
+                "power weapon"
+            ]
+        },
+        {"miniature":"Tempestor",
+            "description": "The Tempestor’s hot-shot laspistol can be replaced with one of the following",
+            "items": [
+                "bolt pistol",
+                "plasma pistol"
+            ]
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Vox-caster",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6'': on a 5+, you gain 1CP."
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Tempestor",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "hot-shot laspistol","chainsword"
+            ]
+        },
+        {
+            "unitType": "Tempestus Scions",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "hot-shot lasgun","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 50
+        },
+        {
+            "count": [
+                1,9
+            ],
+            "points":100
+        }
+    ]
+}

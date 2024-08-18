@@ -1,0 +1,306 @@
+{
+    "parentUnit": "Militarum Tempestus Command Squad",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Led by driven officers known as Tempestor Primes, the Command Squads of the Militarum Tempestus comprise veteran Tempestus Scions. These specialists guard and support the Tempestor Prime while the officer marshals their elite soldiers into the perfect positions for the mission at hand.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "imperium",
+        "grenades",
+        "regiment",
+        "militarum tempestus",
+        "command squadtempestor prime: character",
+        "officer"
+    ],
+    "attributes": [
+        {
+            "name": "tempestor prime",
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        },
+        {
+            "name": "tempestor prime",
+            "movement": 6,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Tempestus Scions"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Hot-shot lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hot-shot laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hot-shot volleygun",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        }
+    ], "warGearAbilities": [
+        {
+            "wargear": "Master Vox",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6'': on a 5+, you gain 1CP."
+        },
+        {
+            "wargear": "Medi-pack",
+            "ability": "The bearer’s unit has the Feel No Pain 6+ ability."
+        },
+        {
+            "wargear": "Regimental Standard",
+            "ability": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+        },
+        {
+            "wargear": "Command Rod",
+            "ability": "While the bearer is leading a unit, that unit can be affected by up to two different Orders at the same time."
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Leader"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Tempestor Prime",
+                "description": "While this unit contains a TEMPESTOR PRIME, ranged weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Tempestus Scions",
+            "description": "Any number of Tempestus Scions can each have their hot-shot lasgun replaced with one of the following",
+            "items": [
+                "flamer",
+                "grenade launcher",
+                "hot-shot volley gun",
+                "meltagun",
+                "plasma gun"
+            ]
+        },
+        {"miniature":"Tempestus Scions",
+            "description": "1 Tempestus Scion equipped with a hot-shot lasgun can be equipped with 1 regimental standard.**",
+            "items": ["regimental standard"]
+        },
+        {"miniature":"Tempestus Scions",
+            "description": "1 Tempestus Scion’s hot-shot lasgun can be replaced with 1 hot-shot laspistol and 1 master vox.",
+            "items": ["hot-shot laspistol","master vox"]
+        },
+        {"miniature":"Tempestus Scions",
+            "description": "1 Tempestus Scion’s hot-shot lasgun can be replaced with one of the following",
+            "items": [
+                "hot-shot laspistol and 1 medi-pack",
+                "hot-shot lasgun, 1 hot-shot laspistol and 1 medi-pack**"
+            ]
+        },
+        {"miniature":"Tempestor Prime",
+            "description": "The Tempestor Prime’s bolt pistol can be replaced with one of the following",
+            "items": [
+                "plasma pistol",
+                "command rod"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Tempestus dagger",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Tempestor Prime",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "Tempestus dagger"
+            ]
+        },
+        {
+            "unitType": "Tempestus Scion",
+            "minQuantity": 4,
+            "maxQuantity": 4,
+            "equipment": [
+                "hot-shot lasgun",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 80
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "parentUnit": "Deathstrike",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "The sanctioned use of a Deathstrike – designated ‘Ordnance Extremis’ – is often an excessive measure to combat the Imperial Guard’s most heinous enemies. Its huge missile, capable of mounting various catastrophic payloads, is able to visit the undimmed wrath of the Emperor on a foe half a world away.",
+    "keywords": [
+        "vehicle",
+        "artillery",
+        "imperium",
+        "squadron",
+        "smoke",
+        "deathstrike"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "deathstrike missile",
+            "modifiers": [
+                "blast", "one shot","plasma warhead"
+            ],
+            "range": "n/a",
+            "strength": 16,
+            "attacks": "2d6",
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": 1,
+            "singleChoice": false
+        },
+         {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D6"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "CORE:",
+                "description": "Deadly Demise D6"
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"deathstrike",
+            "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
+            "items": ["heavy flamer"]
+        },
+        {"miniature":"deathstrike",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": ["hunter-killer missile"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Deathstrike",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "heavy bolter","Deathstrike missile", "armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 160
+        }
+    ]
+}

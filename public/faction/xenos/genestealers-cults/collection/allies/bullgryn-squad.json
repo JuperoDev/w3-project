@@ -1,0 +1,136 @@
+{
+    "parentUnit": "Bullgryn Squad",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The most obstinate of the Ogryn strain of abhumans, Bullgryns are clad in heavy armour and carry crude assault weaponry built to withstand the thunderous blows Bullgryns strike with them. A line of these heavily muscled humanoids, advancing in shield-lines from which shots bounce harmlessly, is a frightening sight.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "grenades",
+        "ogryn",
+        "bullgryn squad"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Grenadier gauntlet",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Wall of Muscle",
+                "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack (to a minimum of 1)."
+            }
+        ]
+    }, "warGearAbilities": [
+        {
+            "wargear": "Brute Shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        },
+        {
+            "wargear": "Slabshield",
+            "ability": "The bearer has a Wounds characteristic of 4."
+        }
+    ],
+    "wargear": [
+        {"miniature":"Bullgryn Bone ‘ead",
+            "description": "Any number of models can each have their grenadier gauntlet replaced with 1 Bullgryn maul.",
+            "items": ["Bullgryn maul"]
+        },
+        {"miniature":"Bullgryn Bone ‘ead",
+            "description": "Any number of models can each have their slabshield replaced with 1 brute shield.",
+            "items": ["brute shield"]
+        },
+        {"miniature":"Bullgryns",
+            "description": "Any number of models can each have their grenadier gauntlet replaced with 1 Bullgryn maul.",
+            "items": ["Bullgryn maul"],"hideInDatasheet":true
+        },
+        {"miniature":"Bullgryns",
+            "description": "Any number of models can each have their slabshield replaced with 1 brute shield.",
+            "items": ["brute shield"],"hideInDatasheet":true
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Bullgryn maul",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Bullgryn Bone ‘ead",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "grenadier gauntlet", "close combat weapon","slabshield"
+            ]
+        },
+        {
+            "unitType": "Bullgryns",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "grenadier gauntlet","close combat weapon", "slabshield"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 90
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 180
+        }
+    
+    ]
+}

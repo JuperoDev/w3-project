@@ -1,0 +1,375 @@
+{
+    "parentUnit": "Cadian Command Squad",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Cadia’s officers are exceptional leaders of Humanity. Trained to be the best, they expect no less from their troops. They are as inspiring as the standards carried in their wake, and as motivational as the orders issued by their vox operators.",
+    "keywords": [
+        "keywords – all models: infantry",
+        "imperium",
+        "grenades",
+        "cadian",
+        "command squadcadian commander: character",
+        "officer"
+    ], "warGearAbilities": [
+        {
+            "wargear": "Master Vox",
+            "ability": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6'': on a 5+, you gain 1CP."
+        },
+        {
+            "wargear": "Medi-pack",
+            "ability": "The bearer’s unit has the Feel No Pain 6+ ability."
+        },
+        {
+            "wargear": "Regimental Standard",
+            "ability": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+        }
+    ],
+    "attributes": [
+        {
+            "name": "cadian commander",
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        },
+        {
+            "name": "veteran guardsman",
+            "movement": 6,
+            "toughness": 3,
+            "save": 5,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Cadian Shock Troops"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Grenade launcher - frag",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": "d3",
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Grenade launcher - krak",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 24,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d3",
+            "singleChoice": true
+        },
+        {
+            "name": "Lasgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Laspistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma gun - standard",
+            "modifiers": [
+                
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma gun - supercharge",
+            "modifiers": [
+                "hazardous",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Voice of Command"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Cadia Stands!:",
+                "description": "While this unit contains a CADIAN OFFICER , you can ignore any or all modifiers to the characteristics of models in this unit and to any roll or test made for models in this unit (excluding modifiers to saving throws )."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Cadian Veteran Guardsman",
+            "description": "1 Cadian Veteran Guardsman’s lasgun and regimental standard can be replaced with one of the following",
+            "items": [
+                "flamer",
+                "grenade launcher",
+                "meltagun",
+                "plasma gun"
+            ]
+        },
+        {"miniature":"Cadian Veteran Guardsman",
+            "description": "1 Cadian Veteran Guardsman’s chainsword can be replaced with one of the following",
+            "items": [
+                "flamer",
+                "grenade launcher",
+                "meltagun",
+                "plasma gun",
+                "power fist",
+                "power weapon"
+            ]
+        },
+        {"miniature":"Cadian Veteran Guardsman",
+            "description": "1 Cadian Veteran Guardsman’s laspistol can be replaced with one of the following",
+            "items": [
+                "bolt pistol",
+                "plasma pistol"
+            ]
+        },
+        {"miniature":"Cadian Commander",
+            "description": "The Cadian Commander’s laspistol can be replaced with one of the following",
+            "items": [
+                "bolt pistol",
+                "plasma pistol"
+            ]
+        },
+        {"miniature":"Cadian Commander",
+            "description": "The Cadian Commander’s chainsword can be  replaced with one of the following",
+            "items": [
+                "power fist",
+                "power weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Cadian Commander",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "laspistol",
+                "chainsword"
+            ]
+        },
+        {
+            "unitType": "Cadian Veteran Guardsman",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lasgun",
+                "master vox",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Cadian Veteran Guardsman",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lasgun",
+                "medi-pack",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Cadian Veteran Guardsman",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "lasgun",
+                "regimental standard",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Cadian Veteran Guardsman",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "laspistol",
+                "chainsword"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "points": 65
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "parentUnit": "Taurox",
+    "factionKeyword": [
+        "astra militarum"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Designed to exploit gaps in the enemy battle line or plug holes torn in the Astra Militarum’s own, the Taurox is a swift armoured transport, its rugged tracks enabling it to cross difficult terrain with ease. The Taurox’s autocannons mow down the foe as it roars forward, eliminating threats to its passengers as they rapidly deploy.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "squadron",
+        "transport",
+        "dedicated transport",
+        "taurox"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 8,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Twin autocannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Rapid Deployment",
+                "description": "Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"taurox",
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": []
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Taurox",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "twin autocannon","armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 65
+        }
+    ],
+    "transport":"This model has a transport capacity of 12 ASTRA MILITARUM INFANTRY models. Each HEAVY WEAPONS TEAM model and VETERAN HEAVY WEAPONS TEAM model takes up the space of 2 models. Each OGRYN model takes up the space of 3 models. It cannot transport ARTILLERY models."
+}

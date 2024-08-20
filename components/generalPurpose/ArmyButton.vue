@@ -1,16 +1,16 @@
 <template>
   <div class="all-wrap">
     <div class="nft">
-      <div class="main flex flex-row">
+      <div class="main flex flex-row items-center">
         <img
-          class="tokenImage mx-3 py-4 w-1/4 md:w-1/4 h-auto object-cover -mt-5"
+          class="tokenImage mx-3 py-4 w-1/4 md:w-1/4 h-auto object-cover"
           :src="imageUrl"
           :alt="armyName"
         />
         <div class="textContent w-2/3 md:w-2/3 p-4">
-          <h2 class="uppercase">{{ armyName }}</h2>
-          <hr />
-          <p class="description">
+          <h2 v-if="armyName" class="uppercase">{{ armyName }}</h2>
+          <hr v-if="armyName" />
+          <p v-if="description" class="description">
             {{ description }}
           </p>
         </div>
@@ -25,11 +25,11 @@ import { defineProps } from 'vue';
 const props = defineProps({
   armyName: {
     type: String,
-    required: true,
+    required: false,
   },
   description: {
     type: String,
-    required: true,
+    required: false,
   },
   imageUrl: {
     type: String,
@@ -40,15 +40,18 @@ const props = defineProps({
 
 <style scoped>
 .all-wrap {
-  margin: 0;
+  
   color: #2b2b2b;
   user-select: none;
+ 
 }
 
 .nft {
   user-select: none;
+  
   max-width: 600px;
   margin: 10px;
+ 
   background: linear-gradient(
     0deg,
     rgb(231, 231, 231) 0%,
@@ -73,6 +76,11 @@ const props = defineProps({
 .description {
   margin: 0.5rem 0;
   color: #373737;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nft::before {
@@ -98,4 +106,5 @@ const props = defineProps({
   transform: scale(1.015);
   filter: brightness(1.3);
 }
+
 </style>

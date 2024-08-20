@@ -1,9 +1,9 @@
 <template>
   <div class="all-wrap">
-    <div class="nft">
+    <div class="containment">
       <div class="main flex flex-row items-center">
         <img
-          class="tokenImage mx-3 py-4 w-1/4 md:w-1/4 h-auto object-cover"
+          class="tokenImage mx-1 py-2 md:mx-3 md:py-4 w-1/4 md:w-1/4 h-auto object-cover"
           :src="imageUrl"
           :alt="armyName"
         />
@@ -46,7 +46,7 @@ const props = defineProps({
  
 }
 
-.nft {
+.containment {
   user-select: none;
   
   max-width: 600px;
@@ -66,7 +66,7 @@ const props = defineProps({
   position: relative;
 }
 
-.nft hr {
+.containment hr {
   width: 100%;
   border: none;
   border-bottom: 2px solid #87878778;
@@ -83,7 +83,7 @@ const props = defineProps({
   text-overflow: ellipsis;
 }
 
-.nft::before {
+.containment::before {
   position: absolute;
   content: "";
   box-shadow: 0 0 100px 40px #eaeaea7e;
@@ -95,13 +95,13 @@ const props = defineProps({
   transition: 0.7s all;
 }
 
-.nft:hover::before {
+.containment:hover::before {
   filter: brightness(0.3);
   top: -100%;
   left: 200%;
 }
 
-.nft:hover {
+.containment:hover {
   box-shadow: 0 7px 50px 10px #000000aa;
   transform: scale(1.015);
   filter: brightness(1.3);

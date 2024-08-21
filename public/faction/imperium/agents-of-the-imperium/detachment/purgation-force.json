@@ -1,0 +1,98 @@
+{
+    "detachmentName": "Ordo Hereticus: Purgation Force",
+    "detachmentRule": [
+        {
+            "name": "Root Out Heresy",
+            "lore": "No matter how cunningly their heretical prey hides, they cannot escape the zealous retribution of the Ordo Hereticus.",
+            "description": "Ranged weapons equipped by Adeptus Arbites, Inquisitor, Inquisitorial Agents, and Ordo Hereticus models from your army have the [IGNORES COVER] ability. <br/><br/>Each time an Adeptus Arbites, Inquisitor, Inquisitorial Agents, or Ordo Hereticus model from your army makes an attack that targets a CHAOS unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
+        }
+    ],
+    "enhancements": [
+        {
+            "name": "Liber Heresius",
+            "points": 30,
+            "lore": "This ancient grimoire contains the collected accounts of many Inquisitorial purges, and is a trove of lore for those seeking to ambush and entrap heretics.",
+            "description": "Inquisitor or Ministorum Priest model only. After both players have deployed their armies, select up to three AGENTS OF THE IMPERIUM units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+            "name": "No Escape (Aura)",
+            "points": 30,
+            "lore": "None but the most diabolical or desperate stand any chance of slipping through this Inquisitor’s grasp.",
+            "description": "Inquisitor model only. While an enemy unit is within 6'' of the bearer, each time it is selected to Fall Back it must first take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+        },
+        {
+            "name": "Witch Hunter",
+            "points": 30,
+            "lore": "This merciless Imperial agent is monomaniacally focused upon hunting and slaying psykers.",
+            "description": "Inquisitor or Ministorum Priest model only. While the bearer is leading a unit, each time a model in that unit makes an attack that targets a PSYKER unit, you can re-roll the Hit roll."
+        },
+        {
+            "name": "Ignis Judicium",
+            "points": 30,
+            "lore": "An artificer-crafted flame projector of focused and terrible vehemence, this weapon has been the bane of countless heretics across the ages.",
+            "description": "Inquisitor or Ministorum Priest model only. The bearer’s ranged weapons have the [DEVASTATING WOUNDS], [MELTA 1] and [PRECISION] abilities."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Stun Grenades",
+            "subindex": "wargear stratagem",
+            "lore": "Emitting blasts of light, sound and blinding smoke, these devices disorient the foe.",
+            "when": "Start of any phase (excluding the Command phase).",
+            "target": "One Adeptus Arbites, Inquisitorial Agents, or Ordo Hereticus GRENADES unit from your army that is not within Engagement Range of one or more enemy units.",
+            "effect": "Select one enemy unit (excluding MONSTERS or VEHICLES) within 8'' of and visible to your unit. That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Execution Order",
+            "subindex": "epic deed stratagem",
+            "lore": "There can be no mercy for heretic leaders.",
+            "when": "Your Command phase.",
+            "target": "One Adeptus Arbites, Inquisitorial Agents, or Ordo Hereticus INFANTRY unit from your army.",
+            "effect": "Select one enemy CHARACTER unit on the battlefield. Until the start of your next Command phase, each time a model in your unit targets that CHARACTER unit, its weapons have the [PRECISION] ability.",
+            "cp": 2,
+            "color": "blue"
+        },
+        {
+            "name": "Dispense Justice",
+            "subindex": "battle tactic stratagem",
+            "lore": "Agents of the Ordo Hereticus are unmerciful in meting out what they see as the Emperor’s justice.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One Adeptus Arbites, Inquisitorial Agents, or Ordo Hereticus unit from your army that has not been selected to shoot or fight this phase.",
+            "effect": "Until the end of the phase, weapons equipped by models in your unit have the [LETHAL HITS] ability.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Inviolate Jurisdiction",
+            "subindex": "strategic ploy stratagem",
+            "lore": "These warriors defend the sanctity of the Emperor’s realm with unwavering determination, no matter the odds stacked against them.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One Adeptus Arbites, Inquisitorial Agents, or Ordo Hereticus INFANTRY unit from your army within range of an objective marker and that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Line of Fire",
+            "subindex": "strategic ploy stratagem",
+            "lore": "These ruthless warriors will risk firing into their own ranks if it ensures the deaths of heretics.",
+            "when": "Your Shooting phase.",
+            "target": "One Adeptus Arbites, Inquisitorial Agents, or Ordo Hereticus unit from your army that has not been selected to shoot this phase.",
+            "effect": "Until the end of the phase, models in your unit can target enemy units that are within Engagement Range of one or more friendly units with ranged weapons (excluding Blast weapons), provided the target is within 12''.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Exact Punishment",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Vengeance is swift and unforgiving for those who attack the servants of the Emperor.",
+            "when": "Your opponent’s Shooting phase, just after an AGENTS OF THE IMPERIUM unit from your army is destroyed as the result of an enemy unit’s attacks.",
+            "target": "One Adeptus Arbites, Inquisitorial Agents, or Ordo Hereticus unit from your army that was within 6'' of the destroyed unit (you cannot target the destroyed unit with the Stratagem).",
+            "effect": "After the attacking unit has shot, your unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

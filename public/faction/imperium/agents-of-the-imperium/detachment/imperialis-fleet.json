@@ -1,0 +1,98 @@
+{
+    "detachmentName": "Imperialis Fleet",
+    "detachmentRule": [
+        {
+            "name": "At All Costs",
+            "lore": "While the nature of the missions undertaken by Imperial agents is as varied as they are, the vital importance of these tasks rarely changes. The enemies they face are the most unholy. The prizes they seek are as priceless as they are nightmarishly dangerous. Thus, when such warriors of the Imperium identify a priority target for elimination or acquisition, no effort is too great nor price too high to see their aims achieved.",
+            "description": "At the start of your Command phase, you can select one of the following to apply: <br/><br/><strong>Eliminate At All Costs:</strong> <br/>Select one enemy unit on the battlefield. Until the start of your next Command phase, each time an AGENTS OF THE IMPERIUM model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll. <br/><br/><strong>Acquire At All Costs:</strong> <br/>Select one objective marker on the battlefield. Until the start of your next Command phase, while an AGENTS OF THE IMPERIUM unit from your army is within range of that objective marker, improve the Leadership and Objective Control characteristics of models in that unit by 1 and models in that unit have a 5+ invulnerable save."
+        }
+    ],
+    "enhancements": [
+        {
+            "name": "Digital Weapons",
+            "points": 10,
+            "lore": "These potent, short-ranged energy weapons are concealed in precious items of jewellery, the better to lethally surprise the foe.",
+            "description": "AGENTS OF THE IMPERIUM model only. Each time the bearer is selected to fight, roll three D6: for each 4+, one enemy unit within Engagement Range of the bearer suffers 1 mortal wound. Mortal wounds inflicted by this Enhancement are allocated as if they had the [PRECISION] ability."
+        },
+        {
+            "name": "Clandestine Operation",
+            "points": 15,
+            "lore": "This war leader prefers to strike with subtlety and precision, working their forces into advanced positions before commencing hostilities.",
+            "description": "AGENTS OF THE IMPERIUM model only. At the start of the Declare Battle Formations step, you can select up to three AGENTS OF THE IMPERIUM INFANTRY units from your army (excluding GREY KNIGHTS TERMINATOR SQUAD units) – those units gain the Infiltrators ability."
+        },
+        {
+            "name": "Fleetmaster",
+            "points": 20,
+            "lore": "Be they a Rogue Trader or some agent of the Imperial Navy, this warrior draws upon a wealth of shrewd voidfarer strategies to aid them in battle.",
+            "description": "VOIDFARERS model only. Once per battle round, you can target the bearer’s unit with the Violent Acquisition, Masters of the Void or Close-quarters Barrage Stratagems for 0CP."
+        },
+        {
+            "name": "Combat Landers",
+            "points": 10,
+            "lore": "This commander has access to swift drop craft that can bear portions of their forces directly into the heart of the most ferocious battles.",
+            "description": "VOIDFARERS model only. At the start of the Declare Battle Formations step, you can select up to three VOIDFARERS units from your army – those units gain the Deep Strike ability."
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Violent Acquisition",
+            "subindex": "strategic ploy stratagem",
+            "lore": "If a high-ranking Imperial agent locates something they wish to acquire, nothing will stop them from unleashing all the forces at their command to seize it.",
+            "when": "Your Shooting phase or the Fight phase.",
+            "target": "One AGENTS OF THE IMPERIUM unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, that attack has the [SUSTAINED HITS 1], [LANCE] and [IGNORES COVER] abilities.",
+            "cp": 2,
+            "color": "green"
+        },
+        {
+            "name": "Masters of the Void",
+            "subindex": "epic deed stratagem",
+            "lore": "With command of the orbital engagement zone comes the ability to strike at the enemy from unexpected angles.",
+            "when": "Your Movement phase.",
+            "target": "One VOIDFARERS CHARACTER unit from your army.",
+            "effect": "Until the end of the phase, each AGENTS OF THE IMPERIUM unit from your army that is arriving from Strategic Reserves this turn can be set up within your opponent’s deployment zone (all other restrictions still apply).",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Close-Quarters Barrage",
+            "subindex": "battle tactic stratagem",
+            "lore": "Soldiers trained in shipboard warfare and chamber-by-chamber clearance know how best to focus their firepower during close-range firefights.",
+            "when": "Your Shooting phase.",
+            "target": "One VOIDFARERS unit from your army.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets a unit within 12'', improve the Strength and Armour Penetration characteristics of that attack by 1.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Emperor’s Will",
+            "subindex": "strategic ploy stratagem",
+            "lore": "Believing they fight for the safety of the Golden Throne motivates warriors to exceptional deeds.",
+            "when": "Your Movement phase.",
+            "target": "One AGENTS OF THE IMPERIUM unit from your army.",
+            "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced or Fell Back.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Displacer Field",
+            "subindex": "wargear stratagem",
+            "lore": "These rare protective fields perform microteleport displacements to remove their bearers from harm.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One AGENTS OF THE IMPERIUM CHARACTER unit from your army (excluding OFFICIO ASSASSINORUM units) that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save, and after the attacking unit has resolved its attacks, unless your unit is within Engagement Range of one or more enemy units, it can make a Normal move of up to 6'' (when doing so, models in this unit move as if they have the FLY keyword).",
+            "cp": 1,
+            "color": "red"
+        },
+        {
+            "name": "Selfless Bodyguard",
+            "subindex": "epic deed stratagem",
+            "lore": "Loyal Imperial warriors will martyr themselves gladly to protect high-ranking Imperial agents.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One AGENTS OF THE IMPERIUM ATTACHED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack with the [PRECISION] ability is allocated to a CHARACTER model in your unit, if there are one or more Bodyguard models in your unit, roll one D6: on a 2+, that attack is allocated to a Bodyguard model of your choice in your unit instead.",
+            "cp": 1,
+            "color": "red"
+        }
+    ]
+}

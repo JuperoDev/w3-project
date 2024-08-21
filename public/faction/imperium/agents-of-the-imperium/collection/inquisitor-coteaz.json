@@ -27,8 +27,14 @@
         }
     ],
     "leader": [
-        "Inquisitorial Henchmen",
-        " IMPERIUM BATTLELINE INFANTRY"
+       
+        "exaction squad",
+        "grey knights terminator squad",
+        "imperium battleline infantry",
+        "imperial navy breachers",
+        "inquisitorial agents",
+        "subductor squad",
+        "vigilant squad"
     ],
     "rangedWeapons": [
         {
@@ -47,7 +53,8 @@
         {
             "name": "Psychic Blast",
             "modifiers": [
-                "anti-infantry 4+",
+                "anti-daemon 4+",
+                "anti-infantry 5+",
                 "devastating wounds",
                 "psychic"
             ],
@@ -56,7 +63,7 @@
             "attacks": "d6",
             "ballistic-skills": 3,
             "armor-penetration": 1,
-            "damage": 2,
+            "damage": 1,
             "singleChoice": false
         }
     ],
@@ -69,15 +76,15 @@
         ],
         "otherAbilities": [
             {
-                "name": "Authority of the Inquisition:",
+                "name": "Authority of the Inquisition",
                 "description": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
             },
             {
-                "name": "Malefic Wardings (Psychic):",
-                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and attacks made by Daemon models."
+                "name": "Malefic Wardings (Psychic)",
+                "description": "While this model is leading a unit, models in that unit have 6+ invulnerable save and a 4+ invulnerable save against psychic attacks and attacks made by DAEMON models."
             },
             {
-                "name": "Spy Network:",
+                "name": "Spy Network",
                 "description": "Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP."
             }
         ]

@@ -1,0 +1,130 @@
+{
+    "parentUnit": "Ministorum Priest",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 3,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "factionKeyword": [
+        "adepta sororitas"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "It is the role of Ministorum Priests to harness the faith of Imperial warriors in battle. Often they join Wars of Faith – though it is not unheard of for a Preacher to lead one. They are filled with a fearsome religious fervour that incites the faithful as they bellow catechisms of hatred.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "preacher"
+    ],
+    "leader": [
+        "Arco-flagellants",
+"Battle Sisters Squad",
+"Dominion Squad",
+"Sisters Novitiate Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "holy pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Zealot’s vindictor",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Righteous Smiting:",
+                "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll ."
+            },
+            {
+                "name": "Zealot",
+                "description": "Once per battle, in the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3"
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Power Weapon",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Zealot’s vindictor",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {"miniature":"Ministorum priest",
+            "description": "This model’s zealot’s vindictor can be replaced with 1 holy pistol and 1 power weapon",
+            "items":["autopistol","power weapon"]
+        }
+    ],
+    "additionalParameter": {"title": "holy mission",
+        "abilities": [
+            {
+                "name": "",
+                "description": "If this model is attached to a DMINION SUAD during the Declare Battle Formations step, it gains the Scouts 6'' ability. If this model is attached to a SSTERS NVITIATE SUAD during the Declare Battle Formations step, it gains the Infiltrators ability."
+            }
+        ]},
+    "unitComposition": [
+        {
+            "unitType": "Ministorum priest",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "zealot’s vindictor"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 50
+        }
+    ]
+}

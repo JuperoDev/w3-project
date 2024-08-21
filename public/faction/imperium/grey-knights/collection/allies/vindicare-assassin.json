@@ -71,12 +71,12 @@
         ],
         "otherAbilities": [
             {
-                "name": "Deadshot:",
-                "description": "Each time this model makes a ranged attack, if a Critical Hit is scored, add 3 to the Damage characteristic of that attack. After this model has resolved its ranged attacks, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test ."
+                "name": "Deadshot",
+                "description": "Each time this model makes a ranged attack, when selecting targets for that attack, you can ignore the Lone Operative ability"
             },
             {
                 "name": "Shieldbreaker:",
-                "description": "Once per battle, when selecting targets for this model's exitus rifle, it can fire a shieldbreaker round. If it does, until the end of the phase, each time this model makes an attack with that weapon, no saving throws of any kind can be made against that attack."
+                "description": "Once per battle, when selecting targets for this model's exitus rifle, it can fire a shieldbreaker round. If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound"
             }
         ]
     },
@@ -92,7 +92,15 @@
             "damage": 1
         }
     ],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Shadow Assignment",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be selected to be your WARLORD. Also, If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more than 1 CULEXUS ASSASSIN, it cannot have more than 1 EVERSOR ASSASSIN and it cannot have more than 1 CALLIDUS ASSASSIN)"
+            }
+        ]
+    },
     "unitComposition": [
         {
             "unitType": "Vindicare Assassin – EPIC HERO",
@@ -108,7 +116,7 @@
             "count": [
                 1
             ],
-            "points": 80
+            "points": 150
         }
     ]
 }

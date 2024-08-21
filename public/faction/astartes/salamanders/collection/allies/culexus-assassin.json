@@ -55,12 +55,16 @@
         ],
         "otherAbilities": [
             {
-                "name": "Abomination",
-                "description": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+                "name": "Etheric Emergence",
+                "description": "When this model is set up on the battlefield using the Deep Strike ability, it can perform an etheric emergence. If it does, this model can be set up anywhere on the battlefield that is more than 3'' horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
             },
             {
-                "name": "Soulless Horror (Aura)",
-                "description": "While an enemy unit is within 6'' of this model, worsen that unit\u2019s Leadership characteristic by 1, or by 2 instead if that unit is a PSYKER. In addition, once per battle, at the start of any Command phase, this model can use this ability. If it does, each enemy unit within 6'' of this model must take a Battle-shock test."
+                "name": "Abomination",
+                "description": "This model has the Feel No Pain 2+ ability against Psychic Attacks"
+            },
+{
+                "name": "Soulless Horror",
+                "description": "Once per battle, at the start of any Command phase, this model can use this ability. If it does, each enemy unit within 9'' of this model must take a Battle-shock test, subtracting 1 from that test (or subtracting 2 if that unit is a PSYKER)"
             }
         ]
     },
@@ -80,7 +84,15 @@
             "damage": 2
         }
     ],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Shadow Assignment",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be selected to be your WARLORD. Also, If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more than 1 CULEXUS ASSASSIN, it cannot have more than 1 EVERSOR ASSASSIN and it cannot have more than 1 CALLIDUS ASSASSIN)"
+            }
+        ]
+    },
     "unitComposition": [
         {
             "unitType": "Culexus Assassin – EPIC HERO",
@@ -96,7 +108,7 @@
             "count": [
                 1
             ],
-            "points": 85
+            "points": 100
         }
     ]
 }

@@ -53,12 +53,12 @@
         ],
         "otherAbilities": [
             {
-                "name": "Frenzon:",
-                "description": "In your Command phase, select one until next /// Adrenal Surge: This model is eligible to shoot and declare a charge in a turn in which it Advanced./// Predatory Focus: This model\u2019s weapons have the [PRECISION] ability./// Killing Rampage: This model\u2019s weapons have the [SUSTAINED HITS 3] ability."
+                "name": "Frenzon",
+                "description": "This model is eligible to shoot and declare a charge in a turn in which it Advanced"
             },
             {
-                "name": "Sentinel Array:",
-                "description": "Once per battle round , you can target this model with the Fire Overwatch or Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+                "name": "Overkil",
+                "description": "Once per battle, in your Movement phase, this model can use this ability before it makes a Normal move. If it does, until the end of the turn, add 6'' to this model's Move characteristic and 3 to the Attacks characteristic of this model's melee weapon"
             }
         ]
     },
@@ -76,7 +76,15 @@
             "damage": 2
         }
     ],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Shadow Assignment",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be selected to be your WARLORD. Also, If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more than 1 CULEXUS ASSASSIN, it cannot have more than 1 EVERSOR ASSASSIN and it cannot have more than 1 CALLIDUS ASSASSIN)"
+            }
+        ]
+    },
     "unitComposition": [
         {
             "unitType": "Eversor Assassin – EPIC HERO",
@@ -92,7 +100,7 @@
             "count": [
                 1
             ],
-            "points": 75
+            "points": 120
         }
     ]
 }

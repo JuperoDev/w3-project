@@ -58,8 +58,8 @@
                 "description": "Once per battle, after your opponent uses a Stratagem , this model can use this ability. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP."
             },
             {
-                "name": "Polymorphine:",
-                "description": "At the end of your opponent's turn, if this model is not within Engagement Range of any enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase , set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed."
+                "name": "Acrobatic Escape",
+                "description": "At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to D6''. In addition, at the end of your opponent's turn, if this model is not within 3'' of one or more enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9'' horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed"
             }
         ]
     },
@@ -78,7 +78,15 @@
             "damage": 2
         }
     ],
-    "additionalParameter": {},
+    "additionalParameter": {
+        "title": "Shadow Assignment",
+        "abilities": [
+            {
+                "name": "",
+                "description": "This model cannot be selected to be your WARLORD. Also, If your army faction is AGENTS OF THE IMPERIUM, then during the Declare Battle Formations step, you can replace this model with a different OFFICIO ASSASSINORUM model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 VINDICARE ASSASSIN, it cannot have more than 1 CULEXUS ASSASSIN, it cannot have more than 1 EVERSOR ASSASSIN and it cannot have more than 1 CALLIDUS ASSASSIN)"
+            }
+        ]
+    },
     "unitComposition": [
         {
             "unitType": "Callidus Assassin – EPIC HERO",

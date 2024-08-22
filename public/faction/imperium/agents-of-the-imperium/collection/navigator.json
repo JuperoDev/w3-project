@@ -1,0 +1,110 @@
+{
+    "parentUnit": "sororitas rhino",
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 10,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "transport":"This model has a transport capacity of 12 ADEPTA SORORITAS INFANTRY models. It cannot transport JUMP PACK models or the TRIUMPH OF SATHERINE",
+    "factionKeyword": [
+        "adepta sororitas"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Rhinos are the mainstay transport of the Adepta Sororitas, and before battle are blessed by Enginseers and Ministorum priests. They are durable, robust and easy to operate. Thanks to their indomitable machine spirits they rarely break down, and speed the warriors inside them across the battlefield wherever they are needed.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "smoke",
+        "imperium",
+        "sororitas rhino"
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Firing Deck 2"
+        ],
+        "faction": [
+            "Acts of Faith"
+        ],
+        "otherAbilities": [
+            {
+                "name": "self Repair",
+                "description": "At the start of your Command phase, this model regains 1 lost wound."
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {"miniature":"sororitas rhino",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items":["hunter-killer missile"]
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Sororitas Rhino",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter",
+                "armoured tracks."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ]
+}

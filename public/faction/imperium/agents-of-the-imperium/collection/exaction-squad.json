@@ -40,14 +40,15 @@
             "singleChoice": false
         },
         {
-            "name": "Arbites grenade launcher \u2013 krak",
+            "name": "Arbites grenade launcher - krak",
             "range": 24,
             "modifiers": [],
             "attacks": 1,
-            "weapons-skills": 4,
+            "ballistic-skills": 4,
             "strength": 9,
             "armor-penetration": 2,
-            "damage": "D3"
+            "damage": "D3",
+            "singleChoice": true
         },
         {
             "name": "Arbites grenade launcher - frag",
@@ -60,7 +61,7 @@
             "ballistic-skills": 4,
             "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false
+            "singleChoice": true
         },
         {
             "name": "Arbites shotpistol",
@@ -126,7 +127,7 @@
         "otherAbilities": [
             {
                 "name": "Imperial Law",
-                "description": "At the start of the first battle round, select one enemy unit to be this unit\u2019s quarry. Each time a model in this unit makes an attack that targets its quarry, add 1 to the Hit roll."
+                "description": "At the start of the battle, select one unit from your opponet's army. Each time a model in this unit makes an attack that targets that unit, that attack has the [lethal hits] and [precision] abilities"
             }
         ]
     },
@@ -206,7 +207,7 @@
         },
         {
             "unitType": "Cyber-mastiff",
-            "minQuantity": 0,
+            "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
                 "mechanical bite"
@@ -214,12 +215,7 @@
         }
     ],
     "options": [
-        {
-            "count": [
-                1,9,0
-            ],
-            "points": 110
-        },
+        
         {
             "count": [
                 1,9,1
@@ -234,11 +230,11 @@
         },
         {
             "wargear": "Arbites Medi-kit",
-            "ability": "Models in the bearer\u2019s unit have the Feel No Pain 5+ ability."
+            "ability": "Models in the bearer's unit have the Feel No Pain 5+ ability."
         },
         {
             "wargear": "Soulguilt Scanner",
-            "ability": "Ranged weapons equipped by models in the bearer\u2019s unit have the [IGNORES COVER] ability."
+            "ability": "Ranged weapons equipped by models in the bearer's unit have the [IGNORES COVER] ability."
         }
     ]
 }

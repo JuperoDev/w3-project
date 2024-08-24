@@ -1,8 +1,10 @@
 <template>
   <div>
      <!-- <GeneralPurposePasswordProtection>  -->
+      
       <NuxtPage />
-    <!-- </GeneralPurposePasswordProtection>  -->
+      
+    <!-- </GeneralPurposePasswordProtection>   -->
     <GeneralPurposeScrollToTopArrow />
   </div>
 </template>

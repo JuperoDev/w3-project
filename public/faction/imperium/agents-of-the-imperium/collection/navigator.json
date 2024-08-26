@@ -1,5 +1,5 @@
 {
-    "parentUnit": "sororitas rhino",
+    "parentUnit": "navigator",
     "attributes": [
         {
             "movement": 12,
@@ -11,45 +11,34 @@
             "invulnerableSave": 6
         }
     ],
-    "transport":"This model has a transport capacity of 12 ADEPTA SORORITAS INFANTRY models. It cannot transport JUMP PACK models or the TRIUMPH OF SATHERINE",
     "factionKeyword": [
-        "adepta sororitas"
+        "agents of the imperium"
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Rhinos are the mainstay transport of the Adepta Sororitas, and before battle are blessed by Enginseers and Ministorum priests. They are durable, robust and easy to operate. Thanks to their indomitable machine spirits they rarely break down, and speed the warriors inside them across the battlefield wherever they are needed.",
+    "lore": "Haughty nobles whose value to the Imperium is huge, Navigators take to the battlefield only rarely, typically to complete some vital mission for their voidship's master. At such times, their ability to perceive the shifting tides of the warp makes them powerful assets, as does the soul-blasting gaze of their mutant third eye",
     "keywords": [
-        "vehicle",
-        "transport",
-        "dedicated transport",
-        "smoke",
+      "infantry",
+        "character",
+        "psyker",
         "imperium",
-        "sororitas rhino"
+        "voidfarers",
+        "navigator"
     ],
-    "leader": [],
+    "leader": [ 
+    "imperial navy breachers",
+    "voidsmen-at-arms"],
+      "leaderInfo": "You can attach this model to an INQUISITORIAL AGENTS unit, even if one INQUISITOR has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengt",
     "rangedWeapons": [
         {
-            "name": "Hunter-killer missile",
+            "name": "Laspistol",
             "modifiers": [
-                "one shot"
+                "pistol"
             ],
-            "range": 48,
-            "strength": 14,
+            "range": 12,
+            "strength": 3,
             "attacks": 1,
-            "ballistic-skills": 2,
-            "armor-penetration": 3,
-            "damage": "d6",
-            "singleChoice": false
-        },
-        {
-            "name": "Storm bolter",
-            "modifiers": [
-                "rapid fire 2"
-            ],
-            "range": 24,
-            "strength": 4,
-            "attacks": 2,
-            "ballistic-skills": 3,
+            "ballistic-skills": 4,
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
@@ -57,45 +46,44 @@
     ],
     "abilities": {
         "core": [
-            "Deadly Demise D3",
-            "Firing Deck 2"
+            "Leader"
         ],
         "faction": [
-            "Acts of Faith"
+            "Assignated Agents"
         ],
         "otherAbilities": [
             {
-                "name": "self Repair",
-                "description": "At the start of your Command phase, this model regains 1 lost wound."
+                "name": "Gaze into the Empyrean (Psychic)",
+                "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12'' of this model."
+            },
+            {
+                "name": "Third Eye (Psychic)",
+                "description": "Third Eye (Psychic): At the start of your Shooting phase, select one enemy unit within 12'' of and visible to this model. That unit must take a Battle-shock test, subtracting 2 from the result if it is an INFANTRY unit. If the test is failed, that enemy unit suffers 3 mortal wounds"
             }
         ]
     },
     "meleeWeapons": [
         {
-            "name": "Armoured tracks",
+            "name": "Force-orb cane",
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 6,
-            "armor-penetration": 0,
-            "damage": 1,
-            "modifiers": []
+            "armor-penetration": 1,
+            "damage": "d3",
+            "modifiers": ["psychic"]
         }
     ],
     "wargear": [
-        {"miniature":"sororitas rhino",
-            "description": "This model can be equipped with 1 hunter-killer missile.",
-            "items":["hunter-killer missile"]
-        }
+       
     ],
     "additionalParameter": {},
     "unitComposition": [
         {
-            "unitType": "Sororitas Rhino",
+            "unitType": "Navigator",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "storm bolter",
-                "armoured tracks."
+                "laspistol","force-orb cane"
             ]
         }
     ],

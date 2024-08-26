@@ -54,16 +54,6 @@
             "singleChoice": false
         },
         {
-            "name": "Jokaero weapons",
-            "range": 18,
-            "modifiers": [],
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
-        },
-        {
             "name": "Multi-melta",
             "modifiers": [
                 "heavy",
@@ -132,20 +122,6 @@
             "armor-penetration": 3,
             "damage": 2,
             "singleChoice": true
-        },
-        {
-            "name": "Unholy Gaze",
-            "modifiers": [
-                "psychic",
-                "sustained hits d3"
-            ],
-            "range": 18,
-            "strength": 9,
-            "attacks": 1,
-            "ballistic-skills": 4,
-            "armor-penetration": 2,
-            "damage": 3,
-            "singleChoice": false
         }
     ],
     "abilities": {
@@ -155,20 +131,8 @@
         ],
         "otherAbilities": [
             {
-                "name": "Acolytes",
-                "description": "While an INQUISITOR model is leading this unit, each time an attack is made against this unit, subtract 1 from the Wound roll."
-            },
-            {
-                "name": "Mystics",
-                "description": "While an INQUISITOR model is leading this unit, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12'' of one or more of this unit\u2019s Mystic models."
-            },
-            {
-                "name": "Jokaero",
-                "description": "While an INQUISITOR model is leading this unit, if it contains a Jokaero model, each time a model in this unit makes a ranged attack, add 1 to the Wound roll."
-            },
-            {
-                "name": "Daemonhost",
-                "description": "While an INQUISITOR model is leading this unit, if it contains a Daemonhost model, models in this unit have a 5+ invulnerable save."
+                "name": "Loyal Henchmen",
+                "description": "While and INQUISITOR model is leading this unit, each time an attack targets this unit, substract 1 from the Wound roll"
             }
         ]
     },
@@ -223,51 +187,28 @@
         }
     ],
     "additionalParameter": {
-        "title": "Jokaero and Daemonhost",
+        "title": "Inquisitorial Henchmen",
         "abilities": [
             {
                 
-                "description": "You can add a Jokaero for 10 points. You can add a Daemonhost for 10 points"
+                "description": "If you attach one or more INQUISITOR units to this unit, this unit does not count towards the total number of RETINUE selections in your army."
             }
         ]
     },
     "unitComposition": [
         
-        {
-            "unitType": "Daemonhost",
-            "minQuantity": 0,
-            "maxQuantity": 1,
-            "equipment": [
-                "Unholy Gaze","warp grasp"
-            ]
-        },
-        {
-            "unitType": "Jokaero Weaponsmith",
-            "minQuantity": 0,
-            "maxQuantity": 1,
-            "equipment": [
-                "Jokaero weapons","Acolyte melee weapon"
-            ]
-        },
+     
         {
             "unitType": "Gun Servitors",
-            "minQuantity": 0,
+            "minQuantity": 1,
             "maxQuantity": 2,
             "equipment": [
                 "heavy bolter","Acolyte melee weapon"
             ]
         },
         {
-            "unitType": "Mystics",
-            "minQuantity": 1,
-            "maxQuantity": 1,
-            "equipment": [
-                "Acolyte firearm","Acolyte melee weapon"
-            ]
-        },
-        {
-            "unitType": "Inquisitorial Acolytes",
-            "minQuantity": 4,
+            "unitType": "Inquisitorial Agents",
+            "minQuantity": 5,
             "maxQuantity": 10,
             "equipment": [
                 "Acolyte firearm","Acolyte melee weapon"
@@ -277,27 +218,15 @@
     "options": [
         {
             "count": [
-                0,0,0,0,4
+                1,5
             ],
             "points": 50
         },
         {
             "count": [
-                0,0,1,1,4
-            ],
-            "points": 60
-        },
-        {
-            "count": [
-                0,0,0,0,10
+                2,10
             ],
             "points": 100
-        },
-        {
-            "count": [
-                0,0,2,2,10
-            ],
-            "points": 140
         }
     ]
 }

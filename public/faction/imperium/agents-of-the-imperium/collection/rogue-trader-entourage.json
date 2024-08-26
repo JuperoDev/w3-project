@@ -97,7 +97,6 @@
     ],
     "abilities": {
         "core": [
-            "Infiltrators",
             "Leader"
         ],
         "faction": [
@@ -106,11 +105,11 @@
         "otherAbilities": [
             {
                 "name": "Backroom Deals:",
-                "description": "While this unit is leading a unit, models in that unit have the Infiltrators ability."
+                "description": "If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability"
             },
             {
                 "name": "Warrant of Trade:",
-                "description": "If your army includes one or more units with this ability, after players have deployed, select D3 IMPERIUM BATTLELINE units from your army and redeploy them. You can use this ability to place those selected units into Strategic Reserves , regardless of how many units are already in Strategic Reserves. If both players have abilities that redeploy units, roll off the winner chooses who redeploys units first."
+                "description": "If your army includes one or more units with this ability, after both players have deployed their armies, select up to D3 IMPERIUM BATTLELINE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves"
             }
         ]
     },
@@ -127,7 +126,7 @@
         },
         {
             "name": "Death Cult power blade",
-            "modifiers": "precision",
+            "modifiers": ["precision"],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 4,
@@ -155,7 +154,7 @@
             ]
         },
         {
-            "unitType": "Rogue Trader Specialists",
+            "unitType": "Death Cult Assasin",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -163,7 +162,7 @@
             ]
         },
         {
-            "unitType": "Rogue Trader Specialists",
+            "unitType": "Lectro-Maester",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -171,7 +170,7 @@
             ]
         },
         {
-            "unitType": "Rogue Trader Specialists",
+            "unitType": "Rejuvenat Adept",
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
@@ -190,7 +189,7 @@
     "warGearAbilities": [
         {
             "wargear": "Healing Serum",
-            "ability": "Models in the bearer\u2019s unit have the Feel No Pain 5+ ability."
+            "ability": "At the start of your Command phase, if the bearer's unit is below its Starting Strength, you can return up to D3 destroyed models (excluding CHARACTERS) to the bearer's unit"
         }
     ]
 }

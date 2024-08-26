@@ -82,7 +82,6 @@ const formatArmyDetails = (army) => {
     });
   }
 
-  // Add Allied Units
   if (army.alliedUnits && army.alliedUnits.length > 0) {
     result += `\nALLIED UNITS\n`;
     const groupedAlliedUnits = groupAlliedUnitsByArmy(army.alliedUnits);
@@ -120,18 +119,25 @@ const formatUnitDetails = (unit) => {
 
   if (unit.composition && unit.composition.length > 0) {
     unit.composition.forEach(comp => {
+      // Display the unit type and quantity
       result += `• ${comp.quantity}x ${comp.unitType}\n`;
 
-      // Group equipment by unit type in a case-insensitive manner
+      // Group equipment by unit type
       const equipmentForType = Object.entries(unit.equipmentQuantities)
-        .filter(([key, quantity]) => key.toLowerCase().startsWith(comp.unitType.toLowerCase()) && quantity > 0)
+        .filter(([key, quantity]) => {
+          // Filter equipment based on the unit type
+          const equipmentUnitType = key.split('_')[0].toLowerCase();
+          return equipmentUnitType === comp.unitType.toLowerCase() && quantity > 0;
+        })
         .map(([key, quantity]) => {
-          const equipment = key.split('_')[1];
-          return `${quantity}x ${equipment}`;
+          // Format equipment with quantity
+          const equipment = key.split('_')[1]; // Extract equipment name
+          return `  ◦ ${quantity}x ${equipment}`;
         });
 
       if (equipmentForType.length > 0) {
-        result += equipmentForType.map(item => `  ◦ ${item}`).join('\n') + '\n';
+        // Append equipment list to result
+        result += equipmentForType.join('\n') + '\n';
       }
     });
   }
@@ -140,7 +146,7 @@ const formatUnitDetails = (unit) => {
     result += `• Enhancements: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)\n`;
   }
 
-  return result;
+  return result.trim();
 };
 
 const copyFormattedArmyDetails = () => {

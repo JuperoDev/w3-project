@@ -20,9 +20,6 @@
           </div>
 
 
-          
-
-
           <div
             class="allContainer grid grid-cols-6 px-3 py-2 bg-zinc-300 font-semibold"
           >
@@ -55,8 +52,8 @@
             </div>
           </div>
 
-          <div>
-            <div class="flex flex-wrap">
+          
+          <div class="flex flex-wrap">
               <span
                 v-for="(modifier, index) in weapon.modifiers"
                 :key="index"
@@ -65,8 +62,8 @@
                 <!-- {{ modifier }} -->
                 <GeneralPurposeModifierDialog :modifier="modifier"/>
               </span>
-            </div>
           </div>
+          
         </div>
      
         <div class="downarrow flex mt-10 ml-3" v-if="showDownArrow">

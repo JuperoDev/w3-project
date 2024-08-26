@@ -2,7 +2,7 @@
   <div class="">
     <NavbarComponentsPrincipalNav/>
     <div class="bg-stone-100 p-2 md:px-2 lg:px-16 h-screen relative">
-    <GeneralPurposeFireSparks/>
+    <!-- <GeneralPurposeFireSparks/> -->
 
       <div class="bg-white border border-black-500 pb-16">
         <!-- Main Content -->

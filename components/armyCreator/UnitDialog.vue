@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="openDialog" class="border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded my-2 text-sm">
+    <button @click="openDialog" class="unitdialog__add-plus-button border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded my-2 text-sm">
       +
     </button>
     <v-dialog v-model="dialog" max-width="600px">
@@ -19,10 +19,22 @@
         </div>
         <v-card-text>
           <!-- List of units -->
-          <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2">
-            <p><strong>{{ unit.unitName }}:</strong> {{ unit.basicPoints }} points</p>
-            <p>Count in army: {{ unitCounts[unit.unitName] || 0 }}</p>
-            <v-btn small @click="() => addUnit(unit)" class="mb-2">Add</v-btn>
+          <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2 grid grid-cols-4 my-5 border-b-2 py-4">
+            <div class="col-left col-span-3 pr-2"><p><strong>{{ unit.unitName }} <br/></strong> {{ unit.basicPoints }} points</p>
+              <p>Count in army: {{ unitCounts[unit.unitName] || 0 }}</p></div>
+
+              
+            <div class="col-right flex flex-row-reverse">
+              
+              <!-- <v-btn small @click="() => addUnit(unit)" class="mb-2 ">Add</v-btn> -->
+            
+              <button @click="() => addUnit(unit)" class="unitdialog__add-plus-button border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded my-5  mr-3 text-sm">
+      +
+    </button>
+            
+            
+            </div>
+            
           </div>
         </v-card-text>
         <v-card-actions>

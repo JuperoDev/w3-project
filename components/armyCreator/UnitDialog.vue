@@ -27,11 +27,11 @@
             <div class="col-right flex flex-row-reverse">
               
               <!-- <v-btn small @click="() => addUnit(unit)" class="mb-2 ">Add</v-btn> -->
-            
-              <button @click="() => addUnit(unit)" class="unitdialog__add-plus-button border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded my-5  mr-3 text-sm">
+            <div class="py-5">
+              <button @click="() => addUnit(unit)" class="unitdialog__add-plus-button border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded   mr-3 text-sm">
       +
     </button>
-            
+  </div>
             
             </div>
             

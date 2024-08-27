@@ -22,7 +22,7 @@
             <!-- Iterate through the grouped units by alliedArmy -->
             <div v-for="(units, army) in groupedUnits" :key="army" class="mb-4">
               <!-- Group Title -->
-              <h3 class="text-lg font-semibold mb-2">{{ army }}</h3>
+              <h3 class="text-lg font-semibold mb-2 uppercase bg-zinc-900 text-zinc-50 p-3 rounded-lg">{{ army }}</h3>
               <!-- Units in the group -->
               <div v-for="unit in units" :key="unit.unitName" class="mb-2">
                 <p><strong>{{ unit.unitName }}:</strong> {{ unit.basicPoints }} points</p>

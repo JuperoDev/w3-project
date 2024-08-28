@@ -1,0 +1,92 @@
+{
+    "parentUnit": "Starweaver",
+    "factionKeyword": [
+        "aeldari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "These agile and nimble anti-grav transport craft swoop and spiral effortlessly through incoming fire, their flickering holo-fields giving them polychromatic camouflage. Armed with multiple heavy weapons, they provide great volumes of supporting fire for the troops they carry, scything down the foe with withering hails of shurikens.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "smoke",
+        "fly",
+        "harlequins",
+        "starweaver"
+    ],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Shuriken cannon",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Firing Deck 6"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rapid Embarkation:",
+                "description": "At the end of the Fight phase , if there are no models currently embarked within this TRANSPORT , you can select one friendly HARLEQUINS INFANTRY unit that has 6 or fewer models that is wholly within 6\" of this TRANSPORT . Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Starweaver",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 shuriken cannons", "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 80
+        }
+    ],
+    "additionalParameter": {},
+    "transport": "This model has a transport capacity of 6 HARLEQUINS INFANTRY models."
+}

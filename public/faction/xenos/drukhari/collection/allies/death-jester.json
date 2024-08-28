@@ -1,0 +1,87 @@
+{
+    "parentUnit": "Death Jester",
+    "factionKeyword": [
+        "aeldari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The arrival of a Death Jester upon the battlefield is announced by a hissing storm of shrieker cannon fire. Enemy infantry are torn apart in sprays of blood and scalded flesh as the weapon's gene-toxins cause them to combust horrifically from within. Adding insult to injury, the Death Jester ensures every demise is as cruelly ironic as possible.",
+    "keywords": [
+        "infantry",
+        "character",
+        "harlequins",
+        "death jester"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Shrieker cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Lone Operative"
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Death is Not Enough:",
+                "description": "In your Shooting phase , after this model has shot, if one or more of those attacks destroyed an enemy model, that enemy model's unit must take a Battle-shock test ."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Jester's blade",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Death Jester",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "shrieker cannon", "Jester’s blade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 90
+        }
+    ],
+    "additionalParameter": {}
+}

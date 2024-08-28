@@ -1,0 +1,232 @@
+{
+    "parentUnit": "Corsair Voidreavers",
+    "factionKeyword": [
+        "aeldari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The skilled and agile warriors known as Voidreavers make up the bulk of most Corsair warbands. With precise volleys of lethal shuriken fire they can tear through enemy infantry, or draw their power swords and storm hostile positions to engage in furious hand-to-hand fighting.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "grenades",
+        "anhrathe",
+        "corsair voidreavers"
+    ],
+    "attributes": [
+        {
+            "movement": 7,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "warGearAbilities": [
+        {
+            "wargear": "Mistshield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Corsair shredder",
+            "modifiers": [
+                "assault",
+                "torrent"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "D6",
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Neuro disruptor",
+            "modifiers": [
+                "anti-infantry 2+",
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Corsair blaster",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "D6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken cannon",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken pistol",
+            "modifiers": [
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Shuriken rifle",
+            "modifiers": [
+                "assault",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Wraithcannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 18,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 7\""
+        ],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Reavers of the Void",
+                "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Corsair Voidreavers",
+            "description": "All of the Corsair Voidreavers in this unit can each have their shuriken pistol and Aeldari power sword replaced with 1 shuriken rifle.",
+            "items": ["shuriken rifle"]
+        },
+        {"miniature":"Corsair Voidreavers",
+            "description": "For every 5 models in this unit, 1 Corsair Voidreaver's Aeldari power sword or shuriken rifle can be replaced with one of the following",
+            "items": [
+                "Corsair blaster",
+                "Corsair shredder"
+            ]
+        },
+        {"miniature":"Corsair Voidreavers",
+            "description": "If this unit contains 10 models, 1 Corsair Voidreaver's shuriken rifle can be replaced with one of the following",
+            "items": [
+                "shuriken cannon",
+                "wraithcannon"
+            ]
+        },
+        {"miniature":"Voidreaver Felarch",
+            "description": "The Voidreaver Felarch can be equipped with",
+            "items": [
+                "mistshield"
+            ]
+        },
+        {"miniature":"Voidreaver Felarch",
+            "description": "The Voidreaver Felarch's shuriken pistol can be replaced with one of the following",
+            "items": [
+                "neuro disruptor",
+                "shuriken rifle"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Aeldari power sword",
+            "modifiers": [],
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Voidreaver Felarch",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "shuriken pistol", "Aeldari power sword", "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Corsair Voidreavers",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "shuriken pistol", "Aeldari power sword", "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,4
+            ],
+            "points": 70
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 140
+        }
+    ],
+    "additionalParameter": {}
+}

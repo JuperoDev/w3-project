@@ -1,0 +1,137 @@
+{
+    "parentUnit": "Skyweavers",
+    "factionKeyword": [
+        "aeldari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Skyweavers shoot through the air in a prismatic storm of hallucinatory colour and light. While the riders known as Skyborne Princes pilot each jetbike and operate its guns, those called Great Falcons ride pillion, poised to cut down the foe with their star bolas or bisect them with their sweeping zephyrglaives.",
+    "keywords": [
+        "mounted",
+        "fly",
+        "smoke",
+        "harlequins",
+        "skyweavers"
+    ],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Shuriken cannon",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "star bolas",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": "d3",
+            "ballistic-skills": 3,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Skyweaver haywire cannon",
+            "modifiers": [
+                "anti-vehicle 4+",
+                "devastating wounds"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Strands of Fate"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Scything Swipes",
+                "description": "Each time this unit ends a Normal move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"skyweavers",
+            "description": "Any number of models can each have their shuriken cannon replaced with 1 Skyweaver haywire cannon.",
+            "items": ["Skyweaver haywire cannon"]
+        },
+        {"miniature":"skyweavers",
+            "description": "Any number of models can each have their star bolas replaced with 1 zephyrglaive.",
+            "items": ["zephyrglaive"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Zephyrglaive",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Skyweavers",
+            "minQuantity": 2,
+            "maxQuantity": 4,
+            "equipment": [
+                "shuriken cannon", "star bolas", "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                2
+            ],
+            "points": 95
+        },
+        {
+            "count": [
+                4
+            ],
+            "points": 190
+        }
+    ],
+    "additionalParameter": {}
+}

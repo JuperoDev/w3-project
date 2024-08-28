@@ -55,28 +55,28 @@ const formatArmyDetails = (army) => {
   result += `Strike Force (${army.pointList} Points)\n\n`;
 
   if (army.characterUnits.length > 0) {
-    result += `CHARACTERS\n`;
+    result += `\nCHARACTERS\n`;
     army.characterUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n';
     });
   }
 
   if (army.battlelineUnits.length > 0) {
-    result += `BATTLELINE\n`;
+    result += `\nBATTLELINE\n`;
     army.battlelineUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n';
     });
   }
 
   if (army.dedicatedTransportUnits.length > 0) {
-    result += `DEDICATED TRANSPORTS\n`;
+    result += `\nDEDICATED TRANSPORTS\n`;
     army.dedicatedTransportUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n';
     });
   }
 
   if (army.otherUnits.length > 0) {
-    result += `OTHER DATASHEETS\n`;
+    result += `\nOTHER DATASHEETS\n`;
     army.otherUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n';
     });

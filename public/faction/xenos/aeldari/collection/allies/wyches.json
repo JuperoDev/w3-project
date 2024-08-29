@@ -1,0 +1,125 @@
+{
+    "parentUnit": "Wyches",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The dancers of death, Wyches are acrobatic murder-artists, exhibiting their incredible arena skills to slay with precision and élan. They wield exotic weapons – hooks, barbed chains or flensing blades – that require superior ability. These are deadly in Wyches’ hands as they dart, twist and blur around their foes’ clumsy attacks.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "wych cult",
+        "aeldari",
+        "wyches"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "save": 6,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Blast pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter pistol",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "No Escape",
+                "description": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+            }
+        ]
+    },
+    "warGearAbilities": [
+        {
+            "wargear": "Phantasm Grenade Launcher",
+            "ability": "The bearer’s unit has the Grenades keyword."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Hekatrix",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol",
+                "Hekatarii blade."
+            ]
+        },
+        {
+            "unitType": "Wyches",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "splinter pistol",
+                "huskblade"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 90
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Hekatarii blade",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {"miniature":"Hekatrix",
+            "description": "The Hekatrix can be equipped with 1 phantasm grenade launcher.","items":["phantasm grenade launcher"]
+        },
+        {"miniature":"Hekatrix",
+            "description": "The Hekatrix’s splinter pistol can be replaced with 1 blast pistol.","items":["blast pistol"]
+        }
+    ]
+}

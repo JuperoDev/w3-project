@@ -1,0 +1,224 @@
+{
+    "parentUnit": "Kabalite Warriors",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Clad from head to foot in blade-edged, segmented armour, Kabalite Warriors are an intimidating, arachnoid presence. They are highly skilled, cruel enforcers who unleash hails of toxin-coated shards during swift and agile advances, driving terrified prey before them at their master’s whim.",
+    "keywords": [
+        "infantry",
+        "kabal",
+        "battleline",
+        "aeldari",
+        "kabalite warriors"
+    ],
+    "attributes": [
+        {
+            "movement": 8,
+            "toughness": 3,
+            "save": 4,
+            "wounds": 1,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Blast pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Blaster",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Dark lance",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6+2",
+            "singleChoice": false
+        },
+        {
+            "name": "Shredder",
+            "modifiers": [
+                "assault",
+                "torrent"
+            ],
+            "range": 18,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": "/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter cannon",
+            "modifiers": [
+                "anti-infantry 3+",
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 3,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter pistol",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter rifle",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault"
+            ],
+            "range": 24,
+            "strength": 2,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "FACTION: Power From Pain"
+        ],
+        "faction": [],
+        "otherAbilities": [
+            {
+                "name": "Sadistic Raiders",
+                "description": "If you control an objective marker at the end of your Command phase, and this unit (or any TRANSPORT it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+            }
+        ]
+    },
+    "warGearAbilities": [
+        {
+            "wargear": "Phantasm Grenade Launcher",
+            "ability": "The bearer’s unit has the Grenades keyword."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Sybarite",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter rifle",
+                "close combat weapon."
+            ]
+        },
+        {
+            "unitType": "Kabalite Warriors",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "splinter rifle",
+                "close combat weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 110
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Sybarite weapon",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 3+"
+            ]
+        },
+        {
+            "name": "Close combat weapon",
+            "attacks": 2,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 2,
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {"miniature":"Sybarite",
+            "description": "The Sybarite’s close combat weapon can be replaced with 1 Sybarite weapon.","items":["Sybarite weapon"]
+        },
+        {"miniature":"Sybarite",
+            "description": "The Sybarite can be equipped with 1 phantasm grenade launcher.","items":["phantasm grenade launcher"]
+        },
+        {"miniature":"Sybarite",
+            "description": "The Sybarite’s splinter rifle can be replaced with one of the following:",
+            "items": [
+                "blast pistol",
+                "splinter pistol"
+            ]
+        },
+        {"miniature":"Kabalite Warriors",
+            "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 blaster.","items":["blaster"]
+        },
+        {"miniature":"Kabalite Warriors",
+            "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 dark lance.","items":["dark lance"]
+        },
+        {"miniature":"Kabalite Warriors",
+            "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 shredder.","items":["shredder"]
+        },
+        {"miniature":"Kabalite Warriors",
+            "description": "1 Kabalite Warrior’s splinter rifle can be replaced with 1 splinter cannon.","items":["splinter cannon"]
+        }
+    ]
+}

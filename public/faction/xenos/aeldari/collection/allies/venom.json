@@ -1,0 +1,115 @@
+{
+    "parentUnit": "Venom",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Raw speed delivers countless light Venom transports to the heart of the enemy’s defence, and sees them chase down stragglers and encircle the foe’s outriders. For the clique of warriors on board, Venoms are mobile firebases and gore-splashed chariots in one, with flickering shields that confound attempts to bring them down.",
+    "keywords": [
+        "vehicle",
+        "transport",
+        "dedicated transport",
+        "fly",
+        "aeldari",
+        "venom"
+    ],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 6,
+            "save": 4,
+            "wounds": 6,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Splinter cannon",
+            "modifiers": [
+                "anti-infantry 3+",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 3,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin splinter rifle",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "rapid fire 1",
+                "twin-linked"
+            ],
+            "range": 24,
+            "strength": 2,
+            "attacks": 3,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise 1",
+            "Deep Strike",
+            "Firing Deck 6",
+            "Stealth"
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "Athletic Aerialists:": "At the end of the Fight phase , if there are no models currently embarked within this Transport , you can select one friendly DRUKHARI INFANTRY unit that has 6 or fewer models that is wholly within 6\" of this TRANSPORT (you cannot select a GROTESQUES unit or a unit that can FLY ). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Venom",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter cannon",
+                "twin splinter rifle",
+                "bladevanes."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 70
+        }
+    ],
+    "transport": "This model has a transport capacity of 6 DRUKHARI INFANTRY models. This model cannot transport GROTESQUE models or models that can FLY./nBefore the battle, at the start of the Declare Battle Formations step, you can select one KABALITE WARRIORS or WYCHES unit from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.",
+    "meleeWeapons": [
+        {
+            "name": "Bladevanes",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {"miniature":"venom",
+            "description": "This model’s twin splinter rifle can be replaced with 1 splinter cannon.","item":["splinter cannon"]
+        }
+    ]
+}

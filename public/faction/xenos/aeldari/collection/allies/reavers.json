@@ -1,0 +1,202 @@
+{
+    "parentUnit": "Reavers",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Reaver jetbikes streak across the battlefield with the same speed and agility they display during their lethal races around the Commorrite arenas. Whether jinking around incoming enemy fire, decapitating foes with vicious bladevanes or culling their victims with ferocious firepower, these high-speed killers are lethal in the extreme.",
+    "keywords": [
+        "mounted",
+        "wych cult",
+        "fly",
+        "aeldari",
+        "reavers"
+    ],
+    "attributes": [
+        {
+            "movement": 16,
+            "toughness": 4,
+            "save": 4,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Blaster",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 18,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6+1",
+            "singleChoice": false
+        },
+        {
+            "name": "Heat lance",
+            "modifiers": [
+                "assault",
+                "melta 3"
+            ],
+            "range": 18,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter pistol",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 2,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Splinter rifle",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault"
+            ],
+            "range": 24,
+            "strength": 2,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Cluster Caltrops:",
+                "description": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
+            }
+        ]
+    },
+    "warGearAbilities": [
+        {
+            "wargear": "Phantasm Grenade Launcher",
+            "ability": "The bearer’s unit has the Grenades keyword."
+        },
+        {
+            "wargear": "Grav-talon",
+            "ability": "The bearer’s melee weapons have the [LANCE] ability."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Arena Champion",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pistol",
+                "splinter rifle",
+                "bladevanes."
+            ]
+        },
+        {
+            "unitType": "Reavers",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "splinter pistol",
+                "splinter rifle",
+                "bladevanes."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                2
+            ],
+            "points": 60
+        },
+        {
+            "count": [
+                1,
+                5
+            ],
+            "points": 120
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Agoniser",
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 2+"
+            ]
+        },
+        {
+            "name": "Bladevanes",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [
+        {"miniature":"Arena Champion",
+            "description": "For every 3 models in this unit, 1 model can be equipped with one of the following:",
+            "items": [
+                "grav-talon",
+                "cluster caltrops]"
+            ]
+        },
+        {"miniature":"Arena Champion",
+            "description": "For every 3 models in this unit, 1 model’s splinter rifle can be replaced with one of the following:",
+            "items": [
+                "blaster",
+                "heat lance"
+            ]
+        },
+        {"miniature":"Reavers",
+            "description": "For every 3 models in this unit, 1 model can be equipped with one of the following:",
+            "items": [
+                "grav-talon",
+                "cluster caltrops]"
+            ],"hideInDatasheet":true
+        },
+        {"miniature":"Reavers",
+            "description": "For every 3 models in this unit, 1 model’s splinter rifle can be replaced with one of the following:",
+            "items": [
+                "blaster",
+                "heat lance"
+            ],"hideInDatasheet":true
+        },
+        {"miniature":"Arena Champion",
+            "description": "The Arena Champion can be equipped with 1 agoniser."
+        }
+    ]
+}

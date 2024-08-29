@@ -1,0 +1,183 @@
+{
+    "parentUnit": "Beastmaster",
+    "factionKeyword": [
+        "drukhari"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "On thrumming skyboards that spit venom-laced shards, Beastmasters hover above the frenzied bloodletting of their thrall-creatures, goading them on with the cruel lashes of a nerve-inflaming agoniser. Many wear shamanistic masks that augment the wearer’s natural dominance with sub-vocal emissions and subjugating pheromones.",
+    "keywords": [
+        "keywords – all models: beasts",
+        "aeldarirazorwing flocks: fly",
+        "beastmaster: mounted",
+        "character",
+        "fly",
+        "beastmaster"
+    ],
+    "attributes": [
+        {
+            "name": "beastmaster",
+            "movement": 12,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        },
+        {
+            "name": "clawed fiend",
+            "movement": 12,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 5,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        },
+        {
+            "name": "khymerae",
+            "movement": 12,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 2,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        },
+        {
+            "name": "razorwing flock",
+            "movement": 12,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 3,
+            "leadership": 8,
+            "objetiveControl": 1,
+            "invulnerableSave": 6
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Splinter pods",
+            "modifiers": [
+                "anti-infantry 3+",
+                "assault"
+            ],
+            "range": 18,
+            "strength": 2,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Scouts 9\""
+        ],
+        "faction": [
+            "Power From Pain"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Beastmaster:",
+                "description": "While this unit contains a Beastmaster model, you can re-roll Charge rolls made for this unit, and each time a BEAST model in this unit makes an attack, re-roll a Hit roll of 1."
+            }
+        ]
+    },
+    "unitComposition": [
+        {
+            "unitType": "Beastmaster",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "splinter pods","agoniser"
+            ]
+        },
+        {
+            "unitType": "Clawed Fiends",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Clawed Fiend fists"
+            ]
+        },
+        {
+            "unitType": "Khymerae",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "Khymerae talons"
+            ]
+        },
+        {
+            "unitType": "Razorwing Flocks",
+            "minQuantity": 3,
+            "maxQuantity": 3,
+            "equipment": [
+                "Razorwing feathers"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                1,
+                2,
+                3
+            ],
+            "points": 105
+        }
+    ],
+    "additionalParameter": {},
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Agoniser",
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "modifiers": [
+                "anti-infantry 3+"
+            ]
+        },
+        {
+            "name": "Clawed Fiend fists",
+            "attacks": 5,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "modifiers": [
+                "devastating wounds"
+            ]
+        },
+        {
+            "name": "Khymerae talons",
+            "attacks": 4,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "lethal hits"
+            ]
+        },
+        {
+            "name": "Razorwing feathers",
+            "attacks": 6,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": [
+                "sustained hits 1"
+            ]
+        }
+    ]
+}

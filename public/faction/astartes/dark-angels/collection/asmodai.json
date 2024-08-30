@@ -42,7 +42,7 @@
     ],
     "rangedWeapons": [
         {
-            "name": "Bolt pistol",
+            "name": "Heavy Bolt pistol",
             "modifiers": [
                 "pistol"
             ],
@@ -50,7 +50,7 @@
             "strength": 4,
             "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 0,
+            "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
         }
@@ -76,26 +76,28 @@
     "wargear": [],
     "meleeWeapons": [
         {
-            "name": "Blades of Reason",
+            "name": "Crozius arcanum and power weapon - strike",
             "modifiers": [
                 "anti-character 2+",
                 "extra attacks",
                 "precision"
             ],
-            "attacks": 3,
-            "weapons-skills": 2,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
-        },
-        {
-            "name": "Crozius arcanum",
-            "modifiers": [],
             "attacks": 5,
             "weapons-skills": 2,
             "strength": 6,
-            "armor-penetration": 1,
-            "damage": 2
+            "armor-penetration":2,
+            "damage": 2,
+            "singleChoice":true
+        },
+        {
+            "name": "Crozius arcanum and power weapon - sweep",
+            "modifiers": [],
+            "attacks": 8,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice":true
         }
     ],
     "unitComposition": [
@@ -105,8 +107,7 @@
             "maxQuantity": 1,
             "equipment": [
                 "heavy bolt pistol",
-                "crozius arcanum",
-                "power weapon"
+                "crozius arcanum and power weapon"
             ]
         }
     ],

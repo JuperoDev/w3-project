@@ -133,24 +133,18 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
-            "description": "Any number of Deathwing Terminators can each have their storm bolter and power fist replaced with one of the following",
-            "items": [
-                "twin lightning claws",
-                "1 thunder hammer and 1 storm shield"
-            ]
-        },
-        {"miniature":"",
+       
+        {"miniature":"Deathwing Terminators",
             "description": "Any number of Deathwing Terminators can each have their power fist replaced with 1 chainfist.",
-            "items": []
+            "items": ["chainfist"]
         },
-        {"miniature":"",
-            "description": "For every 5 models in this unit, 1 Deathwing Terminator can replace its storm bolter with one of the following",
+        {"miniature":"Deathwing Terminators",
+            "description": "For every 5 models in this unit, 1 Deathwing Terminator can replace its storm bolter with one of the following if; carrying cyclone missile launcher this model's storm bolter cannot be replaced",
             "items": [
                 "assault cannon",
                 "heavy flamer",
                 "plasma cannon",
-                "1 storm bolter and 1 cyclone missile launcher (this model's storm bolter cannot be replaced)"
+                "1 storm bolter and 1 cyclone missile launcher"
             ]
         },
         {"miniature":"Deathwing Terminators",
@@ -187,28 +181,6 @@
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1
-        },
-        {
-            "name": "Thunder hammer",
-            "modifiers": [
-                "devastating wounds"
-            ],
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 8,
-            "armor-penetration": 2,
-            "damage": 2
-        },
-        {
-            "name": "Twin lightning claws",
-            "modifiers": [
-                "twin-linked"
-            ],
-            "attacks": 5,
-            "weapons-skills": 3,
-            "strength": 5,
-            "armor-penetration": 2,
-            "damage": 1
         }
     ],
     "unitComposition": [
@@ -225,7 +197,7 @@
             "minQuantity": 4,
             "maxQuantity": 9,
             "equipment": [
-                "storm bolter", "power weapon"
+                "storm bolter", "power fist"
             ]
         }
     ],

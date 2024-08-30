@@ -46,6 +46,10 @@
         ],
         "otherAbilities": [
             {
+                "name": "Teleport Homer",
+                "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3'' horizontally of that token and not within 9'' horizontally of any enemy models. That token is then removed"
+            },
+            {
                 "name": "Inner Circle",
                 "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
             }
@@ -59,7 +63,7 @@
     ],
     "meleeWeapons": [
         {
-            "name": "Flail of the Unforgiven",
+            "name": "Great weapon of the Unforgiven",
             "modifiers": [
                 "devastating wounds",
                 "sustained hits 1"
@@ -72,12 +76,30 @@
         },
         {
             "name": "Mace of absolution",
-            "modifiers": [],
+            "modifiers": ["anti monster 4+","anti-vehicle 4+"],
             "attacks": 4,
             "weapons-skills": 2,
             "strength": 6,
-            "armor-penetration": 1,
-            "damage": 3
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "power weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "relic weapon",
+            "modifiers": ["lethal hits"],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2
         }
     ],
     "unitComposition": [

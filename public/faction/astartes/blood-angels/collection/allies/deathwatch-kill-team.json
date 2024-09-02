@@ -1,0 +1,302 @@
+{
+    "parentUnit": "Deathwatch Veterans",
+    "factionKeywords": [
+        "agents of the imperium"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Deathwatch Veterans’ skills have been honed in their former Chapter for decades, sometimes centuries. Throughout their long vigil against the manifold xenos threats, each Veteran learns to arm himself so as to best contribute to the mission at hand, and squads carry an array of weapons to fell any foe.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "kill team",
+        "grenades",
+        "ordo xenos","Retinue",
+        "imperium",
+        "deathwatch"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Boltgun",
+            "range": 24,
+            "modifiers": [],
+            "attacks": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Frag cannon",
+            "modifiers": [
+                "blast",
+                "heavy",
+                "rapid fire d3"
+            ],
+            "range": 18,
+            "strength": 7,
+            "attacks": "D3",
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Infernus heavy bolter - heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": true
+        },
+        {
+            "name": "Infernus heavy bolter - heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "stalker-pattern boltgun",
+            "modifiers": [
+                "heavy","precision"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Deathwatch shotgun",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "assigned agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Death to the Alien",
+                "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Deathwatch Veterans",
+            "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following:",
+            "items": [
+                "1 boltgun and 1 Astartes shield",
+                "1 power weapon and 1 Astartes shield"
+            ],"hideInDatasheet":true
+        },
+        {"miniature":"Deathwatch Veterans",
+            "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer.",
+            "items": ["Deathwatch thunder hammer."],"hideInDatasheet":true
+        },
+        {"miniature":"Deathwatch Veterans",
+            "description": "For every 5 models in this unit, 1 model can have their boltgun and power weapon replaced with 1 stalker-pattern boltgun and 1 close combat weapon.",
+            "items": ["stalker-pattern boltgun and 1 close combat weapon"],"hideInDatasheet":true
+        },
+        {"miniature":"Deathwatch Veterans",
+            "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch shotgun and 1 close combat weapon.",
+            "items": ["Deathwatch shotgun and 1 close combat weapon"],"hideInDatasheet":true
+        },
+        {"miniature":"Deathwatch Veterans",
+            "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 frag cannon and 1 close combat weapon.",
+            "items": ["frag cannon and 1 close combat weapon"],"hideInDatasheet":true
+        },
+        {"miniature":"Deathwatch Veterans",
+            "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with one of the following:",
+            "items": [
+                "infernus heavy bolter and 1 close combat weapon",
+                "missile launcher and 1 close combat weapon"
+            ],"hideInDatasheet":true
+        },
+        {"miniature":"Deathwatch Veterans",
+            "description": "One model's boltgun and power weapon can be replaced with 1 Black Shield blades.",
+            "items": ["Black Shield blades"],"hideInDatasheet":true
+        },
+
+
+        {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following:",
+        "items": [
+            "1 boltgun and 1 Astartes shield",
+            "1 power weapon and 1 Astartes shield"
+        ],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer.",
+        "items": ["Deathwatch thunder hammer."],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, 1 model can have their boltgun and power weapon replaced with 1 stalker-pattern boltgun and 1 close combat weapon.",
+        "items": ["stalker-pattern boltgun and 1 close combat weapon"],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch shotgun and 1 close combat weapon.",
+        "items": ["Deathwatch shotgun and 1 close combat weapon"],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 frag cannon and 1 close combat weapon.",
+        "items": ["frag cannon and 1 close combat weapon"],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with one of the following:",
+        "items": [
+            "infernus heavy bolter and 1 close combat weapon",
+            "missile launcher and 1 close combat weapon"
+        ],"hideInDatasheet":true
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "One model's boltgun and power weapon can be replaced with 1 Black Shield blades.",
+        "items": ["Black Shield blades"],"hideInDatasheet":false
+    },
+
+
+
+        {"miniature":"Watch Sergeant",
+            "description": "The Watch Sergeant’s power weapon can be replaced with 1 xenophase blade.",
+            "items": ["xenophase blade"]
+        },
+        {"miniature":"Watch Sergeant",
+            "description": "The Watch Sergeant’s boltgun can be replaced with 1 combi-weapon.",
+            "items": ["combi-weapon"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Deathwatch thunder hammer",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 10,
+            "armor-penetration": 2,
+            "damage": 3
+        },
+        {
+            "name": "Long Vigil melee weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        },
+        {
+            "name": "Xenophase blade",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Watch Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "boltgun","Long Vigil melee weapon"
+            ]
+        },
+        {
+            "unitType": "Deathwatch Veterans",
+            "minQuantity": 4,
+            "maxQuantity": 9,
+            "equipment": [
+                "boltgun","Long Vigil melee weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 110
+        },
+        {
+            "count": [
+                10
+            ],
+            "points": 220
+        }
+    ],
+    "additionalParameter": {},
+    "warGearAbilities": [
+        {
+            "wargear": "Astartes shield",
+            "ability": "The bearer has a 4+ invulnerable save."
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "parentUnit": "Grey Knights Terminator Squad",
+    "factionKeyword": [
+        "agents of the imperium"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Brotherhood Terminators form the steel heart of many Grey Knights strikes. Shielded by thick armour plates, each is a warrior of immense physical and mental fortitude. They often teleport directly into battle, unleashing sanctified bolts before cleaving apart the spawn of the warp with blazing Nemesis force weapons.",
+    "keywords": [
+        "infantry",
+        "battleline",
+        "psyker",
+        "terminator",
+        "grenades",
+        "imperium",
+        "brotherhood terminator squad"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 5,
+            "save": 2,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Incinerator",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "attacks": "D6",
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 1,
+            "ballistic-skills": "N/A"
+        },
+        {
+            "name": "Psilencer",
+            "modifiers": [
+                "psychic",
+                "sustained hits 1"
+            ],
+            "attacks": 6,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Psycannon",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 3,
+            "strength": 8,
+            "armor-penetration": 1,
+            "damage": 2,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike"
+        ],
+        "faction": [
+            "assigned agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Hammerhand (Psychic)",
+                "description": "Each time a model in this unit makes a Charge move , until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Grey Knights Terminators",
+            "description": "For every 5 models in this unit, 1 Brotherhood Terminator’s storm bolter can be replaced with one of the following",
+            "items": [
+                "incinerator",
+                "psilencer",
+                "psycannon"
+            ]
+        },
+        {"miniature":"Grey Knights Terminators",
+            "description": "1 Brotherhood Terminator can have its storm bolter replaced with 1 narthecium.*",
+            "items": []
+        },
+        {"miniature":"Grey Knights Terminators",
+            "description": "1 Brotherhood Terminator equipped with a storm bolter can be equipped with 1 Ancient’s banner.*",
+            "items": ["Ancient’s banner"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Nemesis force weapon",
+            "modifiers": [
+                "psychic"
+            ],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 6,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Ancient's Banner",
+            "ability": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+        },
+        {
+            "wargear": "Narthecium",
+            "ability": "In your Command phase, you can return 1 destroyed model (excluding CHARACTERS) to the bearer’s unit."
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Terminator Justicar",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "storm bolter",
+                "Nemesis force weapon."
+            ]
+        },
+        {
+            "unitType": "Grey Knights Terminators",
+            "minQuantity": 4,
+            "maxQuantity": 4,
+            "equipment": [
+                "storm bolter",
+                "Nemesis force weapon."
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                4
+            ],
+            "points": 210
+        }
+    ],
+    "additionalParameter": {  "title": "Rites of teleportation",
+    "abilities": [
+        {
+            "name": "",
+            "description": "If one or more INQUISITOR units are attached to this unit during the Declare Battle formations step, models in those units have the Deep Strike ability."
+        }
+    ]
+}
+}

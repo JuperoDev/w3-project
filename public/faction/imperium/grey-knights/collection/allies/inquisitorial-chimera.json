@@ -1,0 +1,206 @@
+{
+    "parentUnit": "Chimera",
+    "factionKeyword": [
+        "agents of the imperium"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "A workhorse armoured troop carrier, the Chimera is a durable and practical tank, employed to ferry infantry into the harshest war zones. While embarked, its passengers operate the tank’s in-built lasgun arrays in safety; once they dismount, the Chimera provides fire support with its versatile heavy weapons.",
+    "keywords": [
+        "vehicle",
+        "imperium",
+        "squadron",
+        "transport",
+        "dedicated transport",
+        "smoke",
+        "chimera"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "multi-laser",
+            "modifiers": [
+               
+            ],
+            "range": 36,
+            "strength": 6,
+            "attacks": 4,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy stubber",
+            "modifiers": [
+                "rapid fire 3"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Lasgun array",
+            "modifiers": [
+                "rapid fire 6"
+            ],
+            "range": 24,
+            "strength": 3,
+            "attacks": 6,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Firing Deck 2"
+        ],
+        "faction": ["assigned agents"],
+        "otherAbilities": [
+            {
+                "name": "Rapid deployment",
+                "description": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally"
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"chimera",
+            "description": "This model’s heavy bolter can be replaced with 1 heavy flamer.",
+            "items": ["heavy flamer"]
+        },
+        {"miniature":"chimera",
+            "description": "This model’s multi-laser can be replaced with one of the following",
+            "items": [
+                "heavy bolter",
+                "heavy flamer"
+            ]
+        },
+        {"miniature":"chimera",
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "heavy stubber",
+                "storm bolter"
+            ]
+        },
+        {"miniature":"chimera",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": ["hunter-killer missile"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Chimera",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "multi-laser", "heavy bolter", "lasgun array", "armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 70
+        }
+    ],
+    "transport":"This model has a transport capacity of 13 INQUISITOR INFANTRY and INQUISITORIAL AGENT models. It cannot transport TERMINATOR models."
+}

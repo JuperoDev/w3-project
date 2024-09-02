@@ -1,0 +1,355 @@
+{
+    "parentUnit": "sisters of battle squad",
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 3,
+            "save": 3,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 2,
+            "invulnerableSave": 6
+        }
+    ],
+    "factionKeyword": [
+        "adepta sororitas"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Battle Sisters of the Orders Militant are skilled and devout warriors. Wherever they advance, the light of the Emperor spreads like a holy dawn. Miracles manifest in their presence that turn aside the enemy’s strikes, or consume foes in fires of retribution as the Sisters cut down heretics with thundering salvoes from their boltguns.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "battleline",
+        "imperium",
+        "sisters of battle squad",
+        "ordo Hereticus","requisitioned"
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Artificer-crafted storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Boltgun",
+            "modifiers": [
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Combi-weapon",
+            "modifiers": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Condemnor boltgun",
+            "modifiers": [
+                "anti-psyker 2+",
+                "devastating wounds",
+                "precision",
+                "rapid fire 1"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "heavy",
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "strength": 5,
+            "attacks": 3,
+            "ballistic-skills": 4,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno pistol",
+            "modifiers": [
+                "melta 2",
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d3",
+            "singleChoice": false
+        },
+        {
+            "name": "Meltagun",
+            "modifiers": [
+                "melta 2"
+            ],
+            "range": 12,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Ministorum flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Ministorum heavy flamer",
+            "modifiers": [
+                "ignores cover",
+                "torrent"
+            ],
+            "range": 12,
+            "strength": 6,
+            "attacks": "d6",
+            "ballistic-skills": "n/a",
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Ministorum hand flamer",
+            "modifiers": [
+                "IGNORES COVER",
+                "pistol",
+                "TORRENT"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 0,
+            "ballistic-skills": 0,
+            "armor-penetration": 0,
+            "damage": 0,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "assigned agents"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Incensor Cherub",
+                "description": "Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase"
+            },
+            {
+                "name": "Defenders of the Faith",
+                "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn"
+            }
+        ]
+    },
+    "meleeWeapons": [
+        {
+            "name": "Chainsword",
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Power weapon",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ],
+    "wargear": [
+        {"miniature":"Sister Superior",
+            "description": "The Sister Superior’s boltgun can be replaced with one of the following:",
+            "items": [
+                "bolt pistol",
+                "combi-weapon",
+                "condemnor boltgun",
+                "inferno pistol",
+                "Ministorum hand flamer",
+                "plasma pistol"
+            ]
+        },
+        {"miniature":"Sister Superior",
+            "description": "The Sister Superior can be equipped with one of the following:",
+            "items": [
+                "chainsword",
+                "power weapon"
+            ]
+        },
+        {"miniature":"Battle Sisters",
+            "description": "1 Battle Sister’s boltgun can be replaced with one of the following:",
+            "items": [
+                "artificer-crafted storm bolter",
+                "meltagun",
+                "Ministorum flamer"
+            ]
+        },
+        {"miniature":"Battle Sisters",
+            "description": "1 Battle Sister’s boltgun can be replaced with one of the following",
+            "items": [
+                "artificer-crafted storm bolter",
+                "heavy bolter",
+                "meltagun",
+                "Ministorum flamer",
+                "Ministorum heavy flamer",
+                "multi-melta"
+            ]
+        },
+        {"miniature":"Battle Sisters",
+            "description": "1 Battle Sister equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced).",
+            
+            "items": [
+                "simulacrum imperialis"
+            ]
+        }
+    ],
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Sister Superior",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol",
+                "boltgun",
+                "close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Battle Sisters",
+            "minQuantity": 9,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt pistol",
+                "boltgun",
+                "close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,
+                9
+            ],
+            "points": 115
+        }
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Simulacrum Imperialis",
+            "ability": "Improve the Leadership characteristic of models in the bearer's unit by 1"
+        }
+    ]
+}

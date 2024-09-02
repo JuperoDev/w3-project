@@ -1,5 +1,5 @@
 {
-    "parentUnit": "battle sisters squad",
+    "parentUnit": "sisters of battle squad",
     "attributes": [
         {
             "movement": 6,
@@ -22,7 +22,8 @@
         "grenades",
         "battleline",
         "imperium",
-        "battle sisters squad"
+        "sisters of battle squad",
+        "ordo Hereticus","requisitioned"
     ],
     "leader": [],
     "rangedWeapons": [
@@ -225,16 +226,16 @@
     "abilities": {
         "core": [],
         "faction": [
-            "Acts of Faith"
+            "assigned agents"
         ],
         "otherAbilities": [
             {
-                "name": "Cherub",
-                "description": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+                "name": "Incensor Cherub",
+                "description": "Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase"
             },
             {
                 "name": "Defenders of the Faith",
-                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn"
+                "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn"
             }
         ]
     },
@@ -348,7 +349,7 @@
     "warGearAbilities": [
         {
             "wargear": "Simulacrum Imperialis",
-            "ability": "At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result"
+            "ability": "Improve the Leadership characteristic of models in the bearer's unit by 1"
         }
     ]
 }

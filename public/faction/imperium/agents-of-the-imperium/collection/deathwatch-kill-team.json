@@ -1,8 +1,7 @@
 {
     "parentUnit": "Deathwatch Veterans",
     "factionKeywords": [
-        "adeptus astartes",
-        "deathwatch"
+        "agents of the imperium"
     ],
     "damaged": {},
     "supremeCommander": false,
@@ -12,8 +11,9 @@
         "battleline",
         "kill team",
         "grenades",
+        "ordo xenos","Retinue",
         "imperium",
-        "deathwatch veterans"
+        "deathwatch"
     ],
     "attributes": [
         {
@@ -136,47 +136,86 @@
         ]
     },
     "wargear": [
-        {
+        {"miniature":"Deathwatch Veterans",
             "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following:",
             "items": [
                 "1 boltgun and 1 Astartes shield",
                 "1 power weapon and 1 Astartes shield"
-            ]
+            ],"hideInDatasheet":true
         },
-        {
+        {"miniature":"Deathwatch Veterans",
             "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer.",
-            "items": []
+            "items": ["Deathwatch thunder hammer."],"hideInDatasheet":true
         },
-        {
+        {"miniature":"Deathwatch Veterans",
             "description": "For every 5 models in this unit, 1 model can have their boltgun and power weapon replaced with 1 stalker-pattern boltgun and 1 close combat weapon.",
-            "items": []
+            "items": ["stalker-pattern boltgun and 1 close combat weapon"],"hideInDatasheet":true
         },
-        {
+        {"miniature":"Deathwatch Veterans",
             "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch shotgun and 1 close combat weapon.",
-            "items": []
+            "items": ["Deathwatch shotgun and 1 close combat weapon"],"hideInDatasheet":true
         },
-        {
+        {"miniature":"Deathwatch Veterans",
             "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 frag cannon and 1 close combat weapon.",
-            "items": []
+            "items": ["frag cannon and 1 close combat weapon"],"hideInDatasheet":true
         },
-        {
+        {"miniature":"Deathwatch Veterans",
             "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with one of the following:",
             "items": [
-                "1 infernus heavy bolter and 1 close combat weapon",
-                "1 missile launcher and 1 close combat weapon"
-            ]
+                "infernus heavy bolter and 1 close combat weapon",
+                "missile launcher and 1 close combat weapon"
+            ],"hideInDatasheet":true
         },
-        {
+        {"miniature":"Deathwatch Veterans",
             "description": "One model's boltgun and power weapon can be replaced with 1 Black Shield blades.",
-            "items": []
+            "items": ["Black Shield blades"],"hideInDatasheet":true
         },
-        {
+
+
+        {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following:",
+        "items": [
+            "1 boltgun and 1 Astartes shield",
+            "1 power weapon and 1 Astartes shield"
+        ],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer.",
+        "items": ["Deathwatch thunder hammer."],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, 1 model can have their boltgun and power weapon replaced with 1 stalker-pattern boltgun and 1 close combat weapon.",
+        "items": ["stalker-pattern boltgun and 1 close combat weapon"],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch shotgun and 1 close combat weapon.",
+        "items": ["Deathwatch shotgun and 1 close combat weapon"],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 frag cannon and 1 close combat weapon.",
+        "items": ["frag cannon and 1 close combat weapon"],"hideInDatasheet":false
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with one of the following:",
+        "items": [
+            "infernus heavy bolter and 1 close combat weapon",
+            "missile launcher and 1 close combat weapon"
+        ],"hideInDatasheet":true
+    },
+    {"miniature":"Watch Sergeant",
+        "description": "One model's boltgun and power weapon can be replaced with 1 Black Shield blades.",
+        "items": ["Black Shield blades"],"hideInDatasheet":false
+    },
+
+
+
+        {"miniature":"Watch Sergeant",
             "description": "The Watch Sergeant’s power weapon can be replaced with 1 xenophase blade.",
-            "items": []
+            "items": ["xenophase blade"]
         },
-        {
+        {"miniature":"Watch Sergeant",
             "description": "The Watch Sergeant’s boltgun can be replaced with 1 combi-weapon.",
-            "items": []
+            "items": ["combi-weapon"]
         }
     ],
     "meleeWeapons": [

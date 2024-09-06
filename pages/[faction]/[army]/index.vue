@@ -7,7 +7,7 @@
     <div class="army_main 
     flex items-center justify-center bg-stone-100
     ">
-    <div class="collection-container w-full p-2 m-2 bg-white border border-black-500">
+    <div class="collection-container w-full px-2 pt-2 pb-20 m-2 bg-white border border-black-500">
       <div class="collection-container__left-column ">
         <div
           class="inner-container text-justify rounded-sm bg-white bg-opacity-70"
@@ -56,10 +56,10 @@
               <h2 class="text-3xl text-zinc-800 font-bebas">Detachments</h2>
             </div>
             <div
-              class="collection-container__right-column--detachments grid grid-cols-1 md:grid-cols-3"
+              class="collection-container__right-column--detachments grid grid-cols-1 md:grid-cols-3 "
             >
               <div
-                class="detachment-button-grid md:my-3 p-3"
+                class="detachment-button-grid md:my-3 p-3 " 
                 v-for="detachment in armyData.detachments"
                 :key="detachment"
               >

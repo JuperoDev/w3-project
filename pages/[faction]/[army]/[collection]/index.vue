@@ -4,7 +4,7 @@
     <NavbarComponentsButtonGrid />
    
     <!--  desktop datasheet  -->
-    <div class="desktop-datasheet-container max-lg:hidden">
+    <div class="desktop-datasheet-container max-lg:hidden pb-20">
       <DesktopDatasheet
         :parentUnit="parentUnit"
         :urlStore="urlStore"
@@ -33,7 +33,7 @@
 
     <!-- MOBILE  -->
 
-    <div class="mobile-datasheet lg:hidden bg-white">
+    <div class="mobile-datasheet lg:hidden bg-white pb-20">
       <div
         class="army-unit-container uppercase text-4xl font-bebas px-5 pb-2 flex justify-center items-center text-zinc-200 bg-zinc-900"
       >

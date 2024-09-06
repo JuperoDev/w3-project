@@ -3,7 +3,7 @@
     
     <NavbarComponentsButtonGrid />
 
-    <div v-if="factionData && factionData.armies">
+    <div v-if="factionData && factionData.armies" class="pb-20">
       <div class="grid
       grid-cols-1 md:grid-cols-2 gap-3 mt-5"> 
       <div v-for="army in factionData.armies" :key="army.name" class="
@@ -21,7 +21,7 @@
       </div>
     </div>
     </div>
-    <GeneralPurposeFloatingFooter/>
+     <GeneralPurposeFloatingFooter/> 
   </div>
 </template>
 

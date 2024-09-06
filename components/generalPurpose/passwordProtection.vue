@@ -22,40 +22,30 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref, onMounted } from 'vue';
 import { useWh40kPasswordStore } from '@/stores/wh40kPasswordStore';
 
-export default {
-  setup() {
-    const wh40kPasswordStore = useWh40kPasswordStore();
-    const password = ref('');
-    const hasEnteredPassword = ref(false);
+const wh40kPasswordStore = useWh40kPasswordStore();
+const password = ref('');
+const hasEnteredPassword = ref(false);
 
-    const checkPassword = () => {
-      if (password.value === 'cobra') {
-        wh40kPasswordStore.setPassword(password.value);
-        hasEnteredPassword.value = true;
-      }
-    };
-
-    const initialize = () => {
-      if (wh40kPasswordStore.password && !wh40kPasswordStore.isPasswordExpired()) {
-        hasEnteredPassword.value = true;
-      } else {
-        wh40kPasswordStore.resetPassword();
-      }
-    };
-
-    onMounted(initialize);
-
-    return {
-      password,
-      hasEnteredPassword,
-      checkPassword,
-    };
-  },
+const checkPassword = () => {
+  if (password.value === 'cobra') {
+    wh40kPasswordStore.setPassword(password.value);
+    hasEnteredPassword.value = true;
+  }
 };
+
+const initialize = () => {
+  if (wh40kPasswordStore.password && !wh40kPasswordStore.isPasswordExpired()) {
+    hasEnteredPassword.value = true;
+  } else {
+    wh40kPasswordStore.resetPassword();
+  }
+};
+
+onMounted(initialize);
 </script>
 
 <style scoped>

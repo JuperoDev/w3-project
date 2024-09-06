@@ -57,28 +57,28 @@ const formatArmyDetails = (army) => {
   if (army.characterUnits.length > 0) {
     result += `\nCHARACTERS\n`;
     army.characterUnits.forEach(unit => {
-      result += formatUnitDetails(unit) + '\n';
+      result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
   if (army.battlelineUnits.length > 0) {
     result += `\nBATTLELINE\n`;
     army.battlelineUnits.forEach(unit => {
-      result += formatUnitDetails(unit) + '\n';
+      result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
   if (army.dedicatedTransportUnits.length > 0) {
     result += `\nDEDICATED TRANSPORTS\n`;
     army.dedicatedTransportUnits.forEach(unit => {
-      result += formatUnitDetails(unit) + '\n';
+      result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
   if (army.otherUnits.length > 0) {
     result += `\nOTHER DATASHEETS\n`;
     army.otherUnits.forEach(unit => {
-      result += formatUnitDetails(unit) + '\n';
+      result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
@@ -88,7 +88,7 @@ const formatArmyDetails = (army) => {
     for (const [alliedArmy, units] of Object.entries(groupedAlliedUnits)) {
       result += `\n${alliedArmy.toUpperCase()}\n`;
       units.forEach(unit => {
-        result += formatUnitDetails(unit) + '\n';
+        result += formatUnitDetails(unit) + '\n\n';
       });
     }
   }

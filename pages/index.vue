@@ -39,7 +39,7 @@ h2 {
 
 
 .img-logo {
-  /* border: red 1px solid;  */
+
   /* Default max-width */
   max-width: 200px; 
   opacity: 0.8;

@@ -19,7 +19,7 @@
         </div>
         <v-card-text>
           <!-- List of units -->
-          <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2 grid grid-cols-4 my-5 border-b-2 py-4">
+          <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2 grid grid-cols-4  border-b-2 pb-4">
             <div class="col-left col-span-3 pr-2"><p><strong>{{ unit.unitName }} <br/></strong> {{ unit.basicPoints }} points</p>
               <p>Count in army: {{ unitCounts[unit.unitName] || 0 }}</p></div>
 

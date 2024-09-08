@@ -20,11 +20,11 @@
           </template>
         </p>
 
-        <p class="capitalize px-2">
+        <div class="capitalize px-2">
           <div class="unit-composition__equiment-grid">
             {{ unit.unitType }}
           </div>
-        </p>
+        </div>
       </div>
    
    

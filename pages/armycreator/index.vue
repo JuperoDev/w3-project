@@ -13,16 +13,16 @@
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" app right>
       <div class="right ml-3">
-        <div class=" text-xl my-2  ">
+        <div class=" text-xl my-2   ">
 
-          <h3>Stored Armies</h3>
+          <h3 class="uppercase font-bebas mb-5">Stored Armies</h3>
         </div>
         <div v-if="!stepperVisible">
           <v-btn @click="showStepper(); closeDrawer();">
             Create New Army
           </v-btn>
         </div>
-        <div v-for="(army, index) in armies" :key="index" class="armycreator__saved-army my-4">
+        <div v-for="(army, index) in armies" :key="index" class="armycreator__saved-army my-4 pr-3">
           <p><strong>Name:</strong> {{ army.name }}</p>
           <p><strong>Army:</strong> {{ army.selectedArmy }}</p>
           <p><strong>Point List:</strong> {{ army.pointList }}</p>

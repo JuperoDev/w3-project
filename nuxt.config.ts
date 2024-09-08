@@ -4,7 +4,9 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
   },
-   pages: true,
+
+  pages: true,
+
   css: [
     'vuetify/lib/styles/main.sass',
     '@mdi/font/css/materialdesignicons.min.css',
@@ -20,12 +22,12 @@ export default defineNuxtConfig({
   },
 
   modules: ["@nuxtjs/tailwindcss", '@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt'],
-  
 
   build: {
      transpile: ["vuetify"],
     
   },
+
   experimental: {
     /**
      * see: https://v3.nuxtjs.org/api/configuration/nuxt.config#inlinessrstyles
@@ -33,10 +35,12 @@ export default defineNuxtConfig({
     // inlineSSRStyles: false
     inlineSSRStyles: id => !id?.includes('entry')
   },
- 
+
   vite: {
     define: {
       "process.env.DEBUG": false,
     },
   },
+
+  compatibilityDate: '2024-09-09',
 });

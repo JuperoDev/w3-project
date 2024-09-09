@@ -5,7 +5,7 @@
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-3">Dedicated Transports</h2>
           <UnitDialog 
-            :title="'Select Dedicated Transports'"
+            :title="'Dedicated Transports'"
             :selectedDetachment="selectedDetachment" 
             :units="units" 
             :unitCounts="unitCounts"

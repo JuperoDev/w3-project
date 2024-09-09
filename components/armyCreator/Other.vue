@@ -7,7 +7,7 @@
           <h2 class="text-lg font-semibold mr-5">Other</h2>
           <UnitDialog 
             :selectedDetachment="selectedDetachment"
-            :title="'Select Other Units'" 
+            :title="'Other Units'" 
             :units="units" 
             :unitCounts="unitCounts"
             @add-unit="addUnitToArmy" 

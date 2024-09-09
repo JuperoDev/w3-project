@@ -5,7 +5,7 @@
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-5">Battleline</h2>
           <UnitDialog
-            :title="'Select Battleline'"
+            :title="'Battleline'"
             :selectedDetachment="selectedDetachment"
             :units="units"
             :unitCounts="unitCounts"

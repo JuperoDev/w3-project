@@ -6,7 +6,7 @@
           <h2 class="text-lg font-semibold mr-5">Allied Units</h2>
 
           <AlliedUnitDialog
-            :title="'Select Allied Unit'"
+            :title="'Allied Unit'"
             :selectedDetachment="selectedDetachment"
             :units="units || []"
             :unitCounts="unitCounts"

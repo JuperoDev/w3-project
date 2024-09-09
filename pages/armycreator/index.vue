@@ -59,6 +59,7 @@
                       :key="index"
                       :label="faction"
                       :value="faction"
+                      class="capitalize"
                     ></v-radio>
                   </v-radio-group>
                 </v-card>
@@ -71,6 +72,7 @@
                       :key="index"
                       :label="army"
                       :value="army"
+                      class="capitalize"
                     ></v-radio>
                   </v-radio-group>
                 </v-card>
@@ -83,6 +85,7 @@
                       :key="index"
                       :label="detachment"
                       :value="detachment"
+                      class="capitalize"
                     ></v-radio>
                   </v-radio-group>
                 </v-card>

@@ -159,10 +159,6 @@
           </v-expansion-panel-title>
           <v-expansion-panel-text>
               <MobileLeader :leader="leader" :leaderInfo="leaderInfo" />
-              <MobileLeader :leader="leader" :leaderInfo="leaderInfo" />
-            
-            
-            <MobileLeader :leader="leader" :leaderInfo="leaderInfo" />
             
             
           </v-expansion-panel-text>

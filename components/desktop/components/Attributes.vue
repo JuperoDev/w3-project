@@ -1,9 +1,11 @@
 <template>
-  <div class ="attributes-desktop-container -mt-8 grid grid-cols-3">
+  <div class ="attributes-desktop-container  grid grid-cols-3">
    
     <div class="datasheet__header" >
     <!-- boxes -->
     <div v-for="attribute in attributes" :key="attribute.id">
+      <div class="bg-zinc-900 capitalize px-3 py-2 mt-2 text-zinc-50 rounded-md"><h2>{{ attribute.name }}</h2></div>
+      
   <div class="datasheet__header--stats grid grid-cols-6 place-items-center text-zinc-100 font-semibold">
     <!-- Single Box -->
     <div class="datasheet__header--stats-single grid place-items-center z-40">

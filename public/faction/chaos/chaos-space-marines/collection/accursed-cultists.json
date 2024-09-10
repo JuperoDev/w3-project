@@ -9,14 +9,26 @@
     "keywords": [
         "infantry",
         "chaos",
+        "damned",
         "accursed cultists"
     ],
     "attributes": [
         {
+            "name":"mutant",
             "movement": 6,
             "toughness": 4,
             "save": 6,
             "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        },
+        {
+            "name":"torment",
+            "movement": 6,
+            "toughness": 4,
+            "save": 6,
+            "wounds": 3,
             "leadership": 7,
             "objetiveControl": 1,
             "invulnerableSave": 0
@@ -33,7 +45,7 @@
         ],
         "otherAbilities": [
             {
-                "name": "Howling Horde",
+                "name": "Accursed Horde",
                 "description": "Each time an enemy unit has shot, if one or more models from this unit were destroyed as a result of those attacks, this unit can make a Horde move. Todo so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that unit. A unit cannot make a Horde move while it is Battle-Shocked"
             }
         ]

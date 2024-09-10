@@ -18,8 +18,8 @@
     ],
     "keywords": [
         "infantry",
-        "synapse",
-        "tyranid warrior with melee bio-weapons"
+        "synapse","great devourer",
+        "tyranid warriors with melee bio-weapons"
     ],
     "wargear": [],
     "meleeWeapons": [
@@ -39,22 +39,30 @@
     "options": [
         {
             "count": [
-                3
+                1,2
             ],
             "points": 75
         },
         {
             "count": [
-                6
+                1,5
             ],
             "points": 150
         }
     ],
     "unitComposition": [
         {
+            "unitType": "tyranid prime",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "tyranid warrior claws and talons"
+            ]
+        },
+        {
             "unitType": "tyranid warriors",
-            "minQuantity": 3,
-            "maxQuantity": 6,
+            "minQuantity": 2,
+            "maxQuantity": 5,
             "equipment": [
                 "tyranid warrior claws and talons"
             ]
@@ -70,7 +78,7 @@
         "otherAbilities": [
             {
                 "name": "Adaptive Instincts",
-                "description": "At the start of the Fight phase, select one of the following: <li> <b>Aggression Imperative:<b> Until the end of the phase, each time a model in this unit makes an attack, re-roll a Hit roll of 1.</li> <li> <b>Bioregeneration: </b>Until the end of the phase, each time a saving throw is made for a model in this unit, re-roll a saving throw of 1.</li>"
+                "description": "At the start of the Fight phase, select one of the following: <li> <b>Aggression Imperative:</b> Until the end of the phase, each time a model in this unit makes an attack, re-roll a Hit roll of 1.</li> <li> <b>Bioregeneration: </b>Until the end of the phase, each time a saving throw is made for a model in this unit, re-roll a saving throw of 1.</li>"
             }
         ]
     },

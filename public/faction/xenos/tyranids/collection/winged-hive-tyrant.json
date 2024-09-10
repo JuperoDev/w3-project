@@ -18,34 +18,35 @@
         "fly",
         "great devourer",
         "synapse",
-        "winged hive tyrant"
+        "winged hive tyrant",
+        "vanguard invader"
     ],
     "rangedWeapons": [
         {
-            "name": "fleshborer",
-            "range": 18,
-            "attacks": 1,
-            "ballistic-skills": 4,
-            "strength": 5,
-            "armor-penetration": 0,
-            "damage": 1,
+            "name": "Heavy venom cannon",
+            "range": 36,
+            "attacks": "d3",
+            "ballistic-skills": 2,
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 2,
             "modifiers": [
-                "assault"
-            ]
+                "blast"
+            ],
+            "singleChoice": false
         },
         {
-            "name": "termagant spinefists",
-            "range": 12,
-            "attacks": 2,
-            "ballistic-skills": 4,
-            "strength": 3,
-            "armor-penetration": 0,
-            "damage": 1,
+            "name": "Stranglethorn cannon",
+            "range": 36,
+            "attacks": "d6+1",
+            "ballistic-skills": 2,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 3,
             "modifiers": [
-                "assault",
-                "pistol",
-                "twin-linked"
-            ]
+                "blast"
+            ],
+            "singleChoice": false
         }
     ],
     "meleeWeapons": [

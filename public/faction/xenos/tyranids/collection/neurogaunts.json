@@ -38,22 +38,30 @@
     "options": [
         {
             "count": [
-                11
+                1,10
             ],
             "points": 45
         },
         {
             "count": [
-                22
+                2,20
             ],
             "points": 90
         }
     ],
     "unitComposition": [
         {
-            "unitType": "neurogaunts",
-            "minQuantity": 11,
-            "maxQuantity": 22,
+            "unitType": "neurogaunts nodebeasts",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "equipment": [
+                "chitinous claws and teeth"
+            ]
+        },
+        {
+            "unitType": "neurogaunts nodebeasts",
+            "minQuantity": 10,
+            "maxQuantity": 20,
             "equipment": [
                 "chitinous claws and teeth"
             ]

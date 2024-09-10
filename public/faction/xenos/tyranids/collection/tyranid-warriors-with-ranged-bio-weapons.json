@@ -36,13 +36,13 @@
     "options": [
         {
             "count": [
-                3
+                1,2
             ],
             "points": 65
         },
         {
             "count": [
-                6
+                1,5
             ],
             "points": 130
         }
@@ -68,13 +68,46 @@
             
             "items": [
                 "venom cannon"]
-        }
+        },
+        
+
+
+        {"miniature": "tyranid prime",
+        "description": "Any number of models can each have their devourer replaced with one of the following:",
+        "items": [
+            "deathspitter",
+            "spinefists"
+        ], "hideInDatasheet":true
+    },
+    {"miniature": "tyranid prime",
+        "description": "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 barbed strangler",
+        
+        
+        "items": [
+            "barbed strangler"], "hideInDatasheet":true
+    },
+    {"miniature": "tyranid prime",
+        "description": "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 venom cannon.",
+        
+        
+        "items": [
+            "venom cannon"], "hideInDatasheet":true
+    }
     ],
     "unitComposition": [
         {
+            "unitType": "tyranid prime",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "devourer",
+                "tyranid warrior claws and talons"
+            ]
+        },
+        {
             "unitType": "tyranid warriors",
-            "minQuantity": 3,
-            "maxQuantity": 6,
+            "minQuantity": 2,
+            "maxQuantity": 5,
             "equipment": [
                 "devourer",
                 "tyranid warrior claws and talons"

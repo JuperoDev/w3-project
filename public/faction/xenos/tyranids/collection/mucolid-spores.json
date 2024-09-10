@@ -50,26 +50,19 @@
     ],
     "abilities": {
         "core": [
-            "Infiltrators",
-            "Lone Operative",
-            "Stealth"
+            "deep strike"
         ],
         "faction": [
-            "Shadow in the Warp",
             "Synapse"
         ],
         "otherAbilities": [
             {
-                "name": "Feeder Tendrils:",
-                "description": "Each time this model destroys an enemy CHARACTER model, you gain 1CP."
+                "name": "Bio-minefield",
+                "description": "Enemy units cannot start or end an Advance move within 6'' of this unit"
             },
             {
-                "name": "Neural Disruption:",
-                "description": "In your Command phase , select one enemy unit within 12\" of this model. That unit must take a Battle-shock test ."
-            },
-            {
-                "name": "Psychological Saboteur (Aura):",
-                "description": "While an enemy unit is within 12'' of this model, if that unit is Battle-shocked, Each time a model in that unit makes an attack, subtract 1 from the Hit roll . Each time a friendly TYRANIDS  model makes an attack that targets that unit, add 1 to the Wound roll ."
+                "name": "Floating Death",
+                "description": "Each time this unit or an enemy unit ends a move, for each model in this unit that is within 3'' of one or more enemy units, select one of those enemy units. That model in this unit is destroyed, then roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D6 mortal wounds"
             }
         ]
     },

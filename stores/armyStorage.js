@@ -16,7 +16,6 @@ export const useArmyStorage = defineStore('armyStorage', {
       army.battlelineUnits = [];
       army.otherUnits = [];
       army.dedicatedTransportUnits = [];
-
       army.alliedUnits = [];
 
       this.armies.push(army);
@@ -37,10 +36,12 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.characterUnits.push({
           ...unit,
           basicPoints: parseInt(unit.basicPoints) || 0,
-          selectedEnhancement: unit.selectedEnhancement ? {
-            ...unit.selectedEnhancement,
-            points: parseInt(unit.selectedEnhancement.points) || 0
-          } : null
+          selectedEnhancement: unit.selectedEnhancement
+            ? {
+                ...unit.selectedEnhancement,
+                points: parseInt(unit.selectedEnhancement.points) || 0,
+              }
+            : null,
         });
         this.saveArmies();
       }
@@ -64,14 +65,16 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.characterUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-        army.characterUnits[unitIndex] = { 
-          ...army.characterUnits[unitIndex], 
+        army.characterUnits[unitIndex] = {
+          ...army.characterUnits[unitIndex],
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0,
-          selectedEnhancement: updatedUnit.selectedEnhancement ? {
-            ...updatedUnit.selectedEnhancement,
-            points: parseInt(updatedUnit.selectedEnhancement.points) || 0
-          } : null
+          selectedEnhancement: updatedUnit.selectedEnhancement
+            ? {
+                ...updatedUnit.selectedEnhancement,
+                points: parseInt(updatedUnit.selectedEnhancement.points) || 0,
+              }
+            : null,
         };
         this.saveArmies();
       }
@@ -83,7 +86,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.battlelineUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.battlelineUnits.push({
           ...unit,
-          basicPoints: parseInt(unit.basicPoints) || 0
+          basicPoints: parseInt(unit.basicPoints) || 0,
         });
         this.saveArmies();
       }
@@ -107,10 +110,10 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.battlelineUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-        army.battlelineUnits[unitIndex] = { 
-          ...army.battlelineUnits[unitIndex], 
+        army.battlelineUnits[unitIndex] = {
+          ...army.battlelineUnits[unitIndex],
           ...updatedUnit,
-          basicPoints: parseInt(updatedUnit.basicPoints) || 0
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0,
         };
         this.saveArmies();
       }
@@ -124,7 +127,7 @@ export const useArmyStorage = defineStore('armyStorage', {
           ...unit,
           basicPoints: parseInt(unit.basicPoints) || 0,
           equipmentQuantities: unit.equipmentQuantities || {},
-          wargearAbilities: unit.wargearAbilities || {}
+          wargearAbilities: unit.wargearAbilities || {},
         });
         this.saveArmies();
       }
@@ -148,12 +151,12 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.otherUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-        army.otherUnits[unitIndex] = { 
-          ...army.otherUnits[unitIndex], 
+        army.otherUnits[unitIndex] = {
+          ...army.otherUnits[unitIndex],
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0,
           equipmentQuantities: updatedUnit.equipmentQuantities || {},
-          wargearAbilities: updatedUnit.wargearAbilities || {}
+          wargearAbilities: updatedUnit.wargearAbilities || {},
         };
         this.saveArmies();
       }
@@ -165,7 +168,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.dedicatedTransportUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.dedicatedTransportUnits.push({
           ...unit,
-          basicPoints: parseInt(unit.basicPoints) || 0
+          basicPoints: parseInt(unit.basicPoints) || 0,
         });
         this.saveArmies();
       }
@@ -189,10 +192,10 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.dedicatedTransportUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-        army.dedicatedTransportUnits[unitIndex] = { 
-          ...army.dedicatedTransportUnits[unitIndex], 
+        army.dedicatedTransportUnits[unitIndex] = {
+          ...army.dedicatedTransportUnits[unitIndex],
           ...updatedUnit,
-          basicPoints: parseInt(updatedUnit.basicPoints) || 0
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0,
         };
         this.saveArmies();
       }
@@ -204,7 +207,7 @@ export const useArmyStorage = defineStore('armyStorage', {
       if (!army.alliedUnits.some(existingUnit => existingUnit.id === unit.id)) {
         army.alliedUnits.push({
           ...unit,
-          basicPoints: parseInt(unit.basicPoints) || 0
+          basicPoints: parseInt(unit.basicPoints) || 0,
         });
         this.saveArmies();
       }
@@ -228,12 +231,10 @@ export const useArmyStorage = defineStore('armyStorage', {
       const army = this.armies[armyIndex];
       const unitIndex = army.alliedUnits.findIndex(unit => unit.id === unitId);
       if (unitIndex !== -1) {
-
         army.alliedUnits[unitIndex] = {
           ...army.alliedUnits[unitIndex],
-
           ...updatedUnit,
-          basicPoints: parseInt(updatedUnit.basicPoints) || 0
+          basicPoints: parseInt(updatedUnit.basicPoints) || 0,
         };
         this.saveArmies();
       }
@@ -242,17 +243,45 @@ export const useArmyStorage = defineStore('armyStorage', {
     // General methods
     getTotalPoints(armyIndex) {
       const army = this.armies[armyIndex];
-      const characterPoints = army.characterUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0) + (unit.selectedEnhancement ? (parseInt(unit.selectedEnhancement.points) || 0) : 0), 0);
-      const battlelinePoints = army.battlelineUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
-      const otherPoints = army.otherUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
-      const dedicatedTransportPoints = army.dedicatedTransportUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
-      const alliedPoints = army.alliedUnits.reduce((sum, unit) => sum + (parseInt(unit.basicPoints) || 0), 0);
-      return characterPoints + battlelinePoints + otherPoints + dedicatedTransportPoints + alliedPoints;
+      const characterPoints = army.characterUnits.reduce(
+        (sum, unit) =>
+          sum +
+          (parseInt(unit.basicPoints) || 0) +
+          (unit.selectedEnhancement
+            ? parseInt(unit.selectedEnhancement.points) || 0
+            : 0),
+        0
+      );
+      const battlelinePoints = army.battlelineUnits.reduce(
+        (sum, unit) => sum + (parseInt(unit.basicPoints) || 0),
+        0
+      );
+      const otherPoints = army.otherUnits.reduce(
+        (sum, unit) => sum + (parseInt(unit.basicPoints) || 0),
+        0
+      );
+      const dedicatedTransportPoints = army.dedicatedTransportUnits.reduce(
+        (sum, unit) => sum + (parseInt(unit.basicPoints) || 0),
+        0
+      );
+      const alliedPoints = army.alliedUnits.reduce(
+        (sum, unit) => sum + (parseInt(unit.basicPoints) || 0),
+        0
+      );
+      return (
+        characterPoints +
+        battlelinePoints +
+        otherPoints +
+        dedicatedTransportPoints +
+        alliedPoints
+      );
     },
 
+    // The updated method to replace the army object
     updateArmyDetails(armyIndex, details) {
       const army = this.armies[armyIndex];
-      Object.assign(army, details);
+      // Replace the entire army object to ensure reactivity
+      this.armies[armyIndex] = { ...army, ...details };
       this.saveArmies();
     },
 
@@ -264,6 +293,6 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.otherUnits[unitIndex].wargearAbilities = abilities;
         this.saveArmies();
       }
-    }
+    },
   },
 });

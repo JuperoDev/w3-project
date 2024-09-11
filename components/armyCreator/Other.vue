@@ -1,4 +1,3 @@
-<!-- other -->
 <template>
   <div class="bg-gray-50 p-2 m-2 rounded-lg shadow-md text-zinc-900">
     <div class="armyType__container sticky-container p-2 bg-zinc-700 text-white flex justify-between items-center">
@@ -16,9 +15,7 @@
         <span><small>Total Points: {{ totalPoints }}</small></span>
       </div>
     </div>
-    <!-- {{ selectedDetachment }} -->
     <div v-if="army.length" class="mt-4">
-      <!-- <h3 class="text-lg font-semibold">Army Units:</h3> -->
       <ul>
         <li v-for="unit in army" :key="unit.id" class="border-solid border-b-2 border-zinc-500 rounded-t-lg bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
@@ -53,6 +50,8 @@
               :unitName="unit.unitName"
               @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
             />
+            <!-- Duplicate Unit Button -->
+            <DuplicateUnit @duplicate-unit="duplicateUnit(unit)" />
           </div>
           <div class="mt-2 ml-4">
             <EquipmentList 
@@ -77,6 +76,7 @@ import UnitInfoDialog from './UnitInfoDialog.vue';
 import UnitOptionsDialog from './UnitOptionsDialog.vue';
 import WargearOptionsButton from './WargearOptionsButton.vue';
 import EquipmentList from './EquipmentList.vue';
+import DuplicateUnit from './DuplicateUnit.vue';
 
 const props = defineProps({
   url: { type: String, required: true },
@@ -221,6 +221,25 @@ const updateWargearQuantities = (unitId, quantities) => {
     armyStore.updateOtherUnitInArmy(props.armyIndex, unitId, updatedUnit);
     syncArmyWithStore();
   }
+};
+
+// Duplicate the unit with a new ID
+const duplicateUnit = (unit) => {
+  const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+
+  // Create a deep clone of the unit and assign a new ID
+  const duplicatedUnit = {
+    ...unit,
+    id: uniqueId,
+    equipmentQuantities: { ...unit.equipmentQuantities },
+    composition: unit.composition.map((comp) => ({ ...comp })),
+  };
+
+  // Push the duplicated unit into the store
+  armyStore.addOtherUnitToArmy(props.armyIndex, duplicatedUnit);
+
+  // Sync the UI with the updated store
+  syncArmyWithStore();
 };
 
 onMounted(() => {

@@ -2,7 +2,6 @@
   <div class="bg-gray-50 m-2 p-2  rounded-lg shadow-md text-zinc-900">
     <div class="armyType__container  bg-zinc-700 text-white flex justify-between items-center p-2 sticky-container">
       <div class="armytype-button__container">
-        <!-- rounded-md -->
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-3">Characters</h2>
           <UnitDialog
@@ -16,15 +15,14 @@
         <span><small>Total Points: {{ totalPoints }}</small></span>
       </div>
     </div>
-    <!-- {{ selectedDetachment }} -->
     <div v-if="army.length" class="mt-4 p-2">
-      <!-- <h3 class="text-lg font-semibold">Army Characters:</h3> -->
       <ul>
         <li v-for="unit in army" :key="unit.id" class="border-solid rounded-t-lg border-b-2 border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
             <span>
               <span class="font-semibold">{{ unit.unitName }}</span>
-              ({{ unitPoints(unit) }} points) <span v-if="unit.isWarlord" class="text-zinc-800 font-bold ml-2">
+              ({{ unitPoints(unit) }} points)
+              <span v-if="unit.isWarlord" class="text-zinc-800 font-bold ml-2">
                 [Warlord]
               </span>
               <p v-if="unit.composition">
@@ -47,6 +45,8 @@
             <span class="text-sm text-blue-500 cursor-pointer hover:underline" @click="toggleWarlord(unit.id)">
               {{ unit.isWarlord ? '' : 'Set as Warlord' }}
             </span>
+            <!-- Duplicate Unit Button -->
+            <DuplicateUnit @duplicate-unit="duplicateUnit(unit)" />
           </div>
           <template v-if="!unit.isEpicHero">
             <Enhancements
@@ -55,7 +55,6 @@
               @update-enhancement="updateEnhancement(unit.id, $event)"
             />
           </template>
-          <!-- <div v-if="unit.isEpicHero" class="text-red-500">Epic Hero</div> -->
           <div v-if="unit.selectedEnhancement">
             <strong>Enhancement:</strong> {{ unit.selectedEnhancement.name }} ({{ unit.selectedEnhancement.points }} points)
           </div>
@@ -82,6 +81,7 @@ import UnitInfoDialog from './UnitInfoDialog.vue';
 import Enhancements from './Enhancements.vue';
 import EquipmentList from './EquipmentList.vue';
 import WargearOptionsButton from './WargearOptionsButton.vue';
+import DuplicateUnit from './DuplicateUnit.vue';
 
 const props = defineProps({
   url: {
@@ -256,6 +256,26 @@ const updateWargearQuantities = (unitId, quantities) => {
     armyStore.updateCharacterUnitInArmy(props.armyIndex, unitId, updatedUnit);
     syncArmyWithStore();
   }
+};
+
+// Duplicate the unit with a new ID and exclude the enhancement
+const duplicateUnit = (unit) => {
+  const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+
+  // Create a deep clone of the unit and assign a new ID, but reset `selectedEnhancement`
+  const duplicatedUnit = {
+    ...unit,
+    id: uniqueId,
+    equipmentQuantities: { ...unit.equipmentQuantities },
+    composition: unit.composition.map((comp) => ({ ...comp })),
+    selectedEnhancement: null // Exclude the enhancement during duplication
+  };
+
+  // Push the duplicated unit into the store
+  armyStore.addCharacterUnitToArmy(props.armyIndex, duplicatedUnit);
+
+  // Sync the UI with the updated store
+  syncArmyWithStore();
 };
 
 const toggleWarlord = (unitId) => {

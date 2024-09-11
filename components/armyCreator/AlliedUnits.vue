@@ -57,6 +57,13 @@
               :unitName="unit.unitName"
               @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
             />
+            <!-- Duplicate Unit Button -->
+            <span
+              class="text-sm text-blue-500 cursor-pointer hover:underline"
+              @click="duplicateUnit(unit)"
+            >
+              Duplicate
+            </span>
           </div>
           <div class="mt-2 ml-4 mb-1">
             <EquipmentList
@@ -66,7 +73,6 @@
               :unitComposition="unit.composition"
             />
           </div>
-
         </li>
       </ul>
     </div>
@@ -194,6 +200,25 @@ const updateUnitOption = (unitId, optionData) => {
   }
 };
 
+// Duplicate the unit with a new ID
+const duplicateUnit = (unit) => {
+  const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+
+  // Create a deep clone of the unit and assign a new ID
+  const duplicatedUnit = {
+    ...unit,
+    id: uniqueId,
+    equipmentQuantities: { ...unit.equipmentQuantities },
+    composition: unit.composition.map((comp) => ({ ...comp })),
+  };
+
+  // Push the duplicated unit into the store
+  armyStore.addAlliedUnitToArmy(props.armyIndex, duplicatedUnit);
+
+  // Sync the UI with the updated store
+  syncArmyWithStore();
+};
+
 const loadUnits = () => {
   fetch(props.url)
     .then((response) => response.json())
@@ -262,9 +287,6 @@ watch(() => props.armyIndex, loadUnits);
 .mb-4 {
   margin-bottom: 1rem;
 }
-</style>
-
-<style scoped>
 
 .sticky-container {
   position: -webkit-sticky;
@@ -272,6 +294,4 @@ watch(() => props.armyIndex, loadUnits);
   top: 50px;
   z-index: 10;
 }
-
-
 </style>

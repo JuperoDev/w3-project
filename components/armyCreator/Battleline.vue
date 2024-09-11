@@ -15,10 +15,8 @@
         <span><small>Total Points: {{ totalPoints }}</small></span>
       </div>
     </div>
-    <!-- {{ selectedDetachment }} -->
 
     <div v-if="army.length" class="mt-4">
-      <!-- <h3 class="text-lg font-semibold">Army Units:</h3> -->
       <ul>
         <li v-for="unit in army" :key="unit.id" class="border-solid border-b-2 rounded-t-lg border-zinc-500 bg-zinc-100 p-2 flex flex-col mb-4">
           <div>
@@ -50,6 +48,8 @@
               :unitName="unit.unitName"
               @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
             />
+            <!-- Duplicate Unit Button -->
+            <DuplicateUnit @duplicate-unit="duplicateUnit(unit)" />
           </div>
           <div class="mt-2 ml-4 mb-1">
             <EquipmentList
@@ -73,6 +73,7 @@ import UnitInfoDialog from "./UnitInfoDialog.vue";
 import UnitOptionsDialog from "./UnitOptionsDialog.vue";
 import WargearOptionsButton from "./WargearOptionsButton.vue";
 import EquipmentList from "./EquipmentList.vue";
+import DuplicateUnit from "./DuplicateUnit.vue";
 
 const props = defineProps({
   url: { type: String, required: true },
@@ -104,7 +105,7 @@ const sortArmyByUnitName = () => {
 
 const syncArmyWithStore = () => {
   army.value = armyStore.loadBattlelineUnitsForArmy(props.armyIndex);
-  sortArmyByUnitName();
+  sortArmyByUnitName();  // Correct reference here
   calculateTotalPoints();
   checkWargearOptionsForUnits();
 };
@@ -230,6 +231,25 @@ const updateWargearQuantities = (unitId, quantities) => {
   }
 };
 
+// Duplicate the unit with a new ID
+const duplicateUnit = (unit) => {
+  const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+
+  // Create a deep clone of the unit and assign a new ID
+  const duplicatedUnit = {
+    ...unit,
+    id: uniqueId,
+    equipmentQuantities: { ...unit.equipmentQuantities },
+    composition: unit.composition.map((comp) => ({ ...comp })),
+  };
+
+  // Push the duplicated unit into the store
+  armyStore.addBattlelineUnitToArmy(props.armyIndex, duplicatedUnit);
+
+  // Sync the UI with the updated store
+  syncArmyWithStore();
+};
+
 onMounted(() => {
   loadUnits();
 });
@@ -241,9 +261,7 @@ watch(() => props.armyIndex, loadUnits);
 .mb-4 {
   margin-bottom: 1rem;
 }
-</style>
 
-<style scoped>
 .sticky-container {
   position: -webkit-sticky;
   position: sticky;

@@ -55,35 +55,35 @@ const formatArmyDetails = (army) => {
   result += `Strike Force (${army.pointList} Points)\n\n`;
 
   if (army.characterUnits.length > 0) {
-    result += `\n + CHARACTERS + \n`;
+    result += `\n + CHARACTERS + \n \n`;
     army.characterUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
   if (army.battlelineUnits.length > 0) {
-    result += `\n + BATTLELINE + \n`;
+    result += `\n + BATTLELINE + \n \n`;
     army.battlelineUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
   if (army.dedicatedTransportUnits.length > 0) {
-    result += `\n + DEDICATED TRANSPORTS + \n`;
+    result += `\n + DEDICATED TRANSPORTS + \n \n`;
     army.dedicatedTransportUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
   if (army.otherUnits.length > 0) {
-    result += `\n + OTHER DATASHEETS + \n`;
+    result += `\n + OTHER DATASHEETS + \n \n`;
     army.otherUnits.forEach(unit => {
       result += formatUnitDetails(unit) + '\n\n';
     });
   }
 
   if (army.alliedUnits && army.alliedUnits.length > 0) {
-    result += `\n + ALLIED UNITS + \n`;
+    result += `\n + ALLIED UNITS + \n \n`;
     const groupedAlliedUnits = groupAlliedUnitsByArmy(army.alliedUnits);
     for (const [alliedArmy, units] of Object.entries(groupedAlliedUnits)) {
       result += `\n${alliedArmy.toUpperCase()}\n`;

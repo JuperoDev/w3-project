@@ -12,105 +12,81 @@
             "name": "Glory Hog",
             "points": 30,
             "lore": "Obsessed with being the first to make a kill, this hunter spurs his unruly mount ahead of the warband, coaxing his mob to follow him with the explicit threat of feeding them to his squigosaur if they don’t keep up.",
-            "description": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer's unit have the Scouts 9\" ability."
-          },
-          {
-            "name": "Skrag Every Stash",
-            "points": 25,
-            "lore": "Successful hunt leaders are never short of a kunnin’ plan to flush out the prey. This sneaky git has mastered the art of ransacking whatever the prey values, luring the quarry in to retaliate or else ensuring they're cornered, with no bolthole or gear to fall back on.",
-            "description": "BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-          },
-          {
+            "description": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer’s unit have the Scouts 9\" ability."
+        },
+        {
             "name": "Proper Killy",
             "points": 15,
             "lore": "This Beast Snagga is an unstoppable engine of destructive butchery who has left the brutalised corpses of his huge prey piled in his wake on world after world.",
             "description": "BEAST SNAGGA model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer."
-          },
-          {
-            "name": "Surly as a Squiggoth",
+        },
+        {
+            "name": "Skrag Every Stash!",
+            "points": 25,
+            "lore": "Successful hunt leaders are never short of a kunnin' plan to flush out the prey. This sneaky git has mastered the art of ransacking whatever the prey values, luring the quarry in to retaliate or else ensuring they’re cornered, with no bolthole or gear to fall back on.",
+            "description": "BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        },
+        {
+            "name": "Surly As A Squiggoth",
             "points": 20,
             "lore": "With a lifetime of leading notoriously deadly Beast Snagga hunts behind them, and gnarled hides thicker than Battlewagon armour, this Ork and his favoured Boyz have survived blows that would fell a Gargant.",
             "description": "BEASTBOSS ON SQUIGOSAUR model only. While the bearer is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
-          }
+        }
     ],
     "stratagems": [
         {
-            "name": "Drag it Down",
-            "subindex": "battle tactic stratagem",
+            "name": "Drag It Down",
+            "cp": 1,
+            "subindex": "Battle Tactic Stratagem",
             "lore": "Beast Snaggas have many tales of the times they took on the biggest prey, clobbering them with so many blows that what was left was a crumpled mass of broken hide and squished innards.",
             "when": "Fight phase.",
-            "target": "One Beast Snagga unit from your army that has not been selected to fight this phase.",
-            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [Sustained Hits 1] ability. In addition, each time a model in your unit makes a melee attack that targets your Prey, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "green"
+            "target": "One BEAST SNAGGA unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, each time a model in your unit makes a melee attack that targets your Prey, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.","color":"green"
         },
         {
             "name": "Unstoppable Momentum",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Smasha squigs are essentially battering rams on legs. Driven on by the squiggly pilots lying in behind them, they plunge headlong into the foe, trampling one after the next.",
-            "when": "Your Charge phase, just after a Beast Snagga Mounted unit from your army ends a Charge move.",
-            "target": "That Beast Snagga unit.",
-            "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit (for each 4+, that enemy unit suffers 1 mortal wound; to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6.",
-            "icon": [
-                ""
-            ],
             "cp": 1,
-            "color": "blue"
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Smasha squigs are essentially battering rams on legs. Driven on by the squighogs piling in behind them, they plunge headlong into the foe, trampling one after the next.",
+            "when": "Your Charge phase, just after a BEAST SNAGGA MOUNTED unit from your army ends a Charge move.",
+            "target": "That BEAST SNAGGA unit.",
+            "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6.","color":"blue"
         },
         {
-            "name": "Dat One's Even Bigga!",
-            "subindex": "strategic ploy stratagem",
-            "lore": "When bigger prey is sighted, nothing can keep a mob of Beast Snaggas from it. A great hunting chant erupts, and lesser gitza are swiftly forgotten in the enthusiastic impulses to pile into a bigger challenge.",
+            "name": "Dat One’s Even Bigga!",
+            "cp": 1,
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "When bigger prey is sighted, nothing can keep a mob of Beast Snaggas from it. A great hunting chant erupts, and lesser gitz are swiftly forgotten in the enthusiastic impetus to pile into a bigger challenge.",
             "when": "Your Charge phase.",
-            "target": "One Beast Snagga unit from your army.",
-            "effect": "Until the end of the phase, use your unit is eligible to charge in a turn in which it Advanced or Fell Back, provided one of the targets of that charge is your Prey.",
-            "icon": [
-                ""
-            ],
-            "cp": 1,
-            "color": "blue"
+            "target": "One BEAST SNAGGA unit from your army.",
+            "effect": "Until the end of the phase, your unit is eligible to charge in a turn in which it Advanced or Fell Back, provided one of the targets of that charge is your Prey.","color":"blue"
         },
         {
-            "name": "Where D'ya Fink You're Going?",
-            "subindex": "strategic ploy stratagem",
-            "lore": "Beast Snagga victims often make a break for it before the Orks have had their full of fighting. With a roar, the Orks immediately give chase, or else lose interest and lunge after other potential trophies.",
-            "when": "Your opponent's Movement phase, just after an enemy unit ends a Fall Back move.",
-            "target": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was within Engagement Range of that enemy unit at the start of the phase.",
-            "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
-            "icon": [
-                ""
-            ],
+            "name": "Where D’ya Fink You’re Going?",
             "cp": 1,
-            "color": "red"
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "Beast Snagga victims often make a break for it before the Orks have had their fill of fighting. With a roar, the Orks immediately give chase, or else lose interest and lunge after other potential trophies.",
+            "when": "Your opponent’s Movement phase, just after an enemy unit ends a Fall Back move.",
+            "target": "One BEAST SNAGGA INFANTRY or BEAST SNAGGA MOUNTED unit from your army that was within Engagement Range of that enemy unit at the start of the phase.",
+            "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".","color":"red"
         },
         {
-            "name": "Stalkin' Taktiks",
-            "subindex": "battle tactic stratagem",
-            "lore": "There is no hiding a Beast Snagga stampede, but the more agile amongst the hunters know how to evade the worst of an unsporting prey's dakka.",
-            "when": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
-            "target": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-            "effect": "Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the Infantry keyword, until the end of the phase, models in your unit have the Stealth ability.",
-            "icon": [
-                ""
-            ],
+            "name": "Stalkin’ Taktiks",
             "cp": 1,
-            "color": "red"
+            "subindex": "Battle Tactic Stratagem",
+            "lore": "There is no hiding a Beast Snagga stampede, but the more agile amongst the hunters know how to evade the worst of an unsporting prey’s dakka.",
+            "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+            "target": "One BEAST SNAGGA INFANTRY or BEAST SNAGGA MOUNTED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the INFANTRY keyword, until the end of the phase, models in your unit have the Stealth ability.","color":"red"
         },
         {
             "name": "Instinctive Hunters",
-            "subindex": "strategic ploy stratagem",
-            "lore": "With a keen eye for tracking their prey, especially kunnin' Beast Snaggas will circle around the hunt site to ambush the luckless gitz from another angle.",
-            "when": "End of your opponent's Fight phase.",
-            "target": "One Beast Snagga unit from your army that is not within Engagement Range of one or more enemy units.",
-            "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
-            "icon": [
-                ""
-            ],
             "cp": 1,
-            "color": "red"
+            "subindex": "Strategic Ploy Stratagem",
+            "lore": "With a keen eye for tracking their prey, especially kunnin' Beast Snaggas will circle round the hunt site to ambush the luckless gitz from another angle.",
+            "when": "End of your opponent’s Fight phase.",
+            "target": "One BEAST SNAGGA unit from your army that is not within Engagement Range of one or more enemy unit.",
+            "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.","color":"red"
         }
     ]
 }

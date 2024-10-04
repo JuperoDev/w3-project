@@ -108,10 +108,14 @@
         "faction": [
             "Cabal of Sorcerers 2"
         ],
-        "otherAbilities": {
-            "Arcane Shield (Psychic):": "While this model is leading a unit, models in that unit a 4+ invulnerable save .",
-            "Binding Tendrils (Psychic):": "At the end of your Movement phase , you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER ’s unit suffers D3 mortal wounds ; on a 2+, until the start of your next Movement phase, halve the Move characteristic of models in that unit and halve Advance and Charge rolls made for that unit."
-        }
+        "otherAbilities": [{
+           "name": "Arcane Shield (Psychic):",
+            "description": "While this model is leading a unit, models in that unit a 4+ invulnerable save ."},
+            
+            {
+            "name":"Binding Tendrils (Psychic):", 
+            "description" : "In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks made with its Arcane Fire; until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from its Move characteristic and subtract 2 from Charge rolls made for it."
+        }]
     },
     "additionalParameter": {},
     "unitComposition": [

@@ -108,10 +108,16 @@
         "faction": [
             "Cabal of Sorcerers 2"
         ],
-        "otherAbilities": {
-            "Arcane Shield (Psychic):": "While this model is leading a unit, models in that unit have a 4+ invulnerable save .",
-            "Rebind Rubricae (Psychic):": "In your Command phase , if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds ; on a 2-5, you can return 1 destroyed Bodyguard model to that unit; on a 6, you can return up to 2 destroyed Bodyguard models to that unit."
-        }
+        "otherAbilities": 
+           [ {
+                "name": "Arcane Shield (Psychic):",
+                 "description": "While this model is leading a unit, models in that unit a 4+ invulnerable save ."},
+                 
+                 {
+                 "name":"Rebind Rubricae (Psychic)", 
+                 "description" : " In your Command phase, if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds; on a 2-5, you can return 1 destroyed Bodyguard model to that unit; on a 6, you can return up to 2 destroyed Bodyguard models to that unit."
+             }]
+            
     },
     "additionalParameter": {},
     "unitComposition": [

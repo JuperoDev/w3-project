@@ -2,23 +2,26 @@ import { defineStore } from 'pinia';
 
 export const useUnitStore = defineStore('savedUnits', {
   state: () => ({
-    elements: [], // Array to store elements
-    info: [], // Array to store info (url)
+    elements: [], // Array to store elements (unit names)
+    info: [], // Array to store info (corresponding URLs)
   }),
 
   actions: {
     initializeStore() {
       const storedElements = localStorage.getItem('elements');
       const storedInfo = localStorage.getItem('info');
-      if (storedElements && storedInfo) {
+      
+      if (storedElements) {
         this.elements = JSON.parse(storedElements);
+      }
+      if (storedInfo) {
         this.info = JSON.parse(storedInfo);
-       
       }
     },
+
     addOrRemoveElement(elementName, isAdd, urlStore) {
       if (isAdd) {
-        // Check if the elementName is not already in the array
+        // Check if the element is not already in the array
         if (!this.elements.includes(elementName)) {
           this.elements.push(elementName);
           this.info.push(urlStore);
@@ -33,10 +36,10 @@ export const useUnitStore = defineStore('savedUnits', {
         }
       }
     },
+
     saveData() {
       localStorage.setItem('elements', JSON.stringify(this.elements));
       localStorage.setItem('info', JSON.stringify(this.info));
-   
     },
   },
 
@@ -45,6 +48,4 @@ export const useUnitStore = defineStore('savedUnits', {
       return state.elements.includes(elementName);
     },
   },
-  
-  persist: true,
 });

@@ -3,13 +3,16 @@ import { defineStore } from 'pinia';
 export const useWh40kPasswordStore = defineStore('wh40kpassword', {
   state: () => ({
     password: '', // Store the current password
+    timestamp: 0, // Timestamp to track when the password was set
   }),
 
   actions: {
-    // Set a new password and save it to localStorage
+    // Set a new password and save it to localStorage with a timestamp
     setPassword(password) {
       this.password = password;
-      localStorage.setItem('wh40kpassword', password); // Save manually to localStorage
+      this.timestamp = Date.now();
+      localStorage.setItem('wh40kpassword', password); // Save password
+      localStorage.setItem('wh40kpasswordTimestamp', this.timestamp); // Save timestamp
     },
 
     // Verify if the given password matches the stored password
@@ -20,15 +23,26 @@ export const useWh40kPasswordStore = defineStore('wh40kpassword', {
     // Remove the password from the store and localStorage
     resetPassword() {
       this.password = '';
-      localStorage.removeItem('wh40kpassword'); // Remove from localStorage
+      this.timestamp = 0;
+      localStorage.removeItem('wh40kpassword');
+      localStorage.removeItem('wh40kpasswordTimestamp');
     },
 
-    // Load the password from localStorage if available
+    // Load the password and timestamp from localStorage if available
     initializeStore() {
       const storedPassword = localStorage.getItem('wh40kpassword');
-      if (storedPassword) {
+      const storedTimestamp = localStorage.getItem('wh40kpasswordTimestamp');
+      if (storedPassword && storedTimestamp) {
         this.password = storedPassword;
+        this.timestamp = parseInt(storedTimestamp, 10);
       }
+    },
+
+    // Check if the stored password is expired (e.g., 1 day expiration)
+    isPasswordExpired() {
+      const oneDayInMilliseconds = 30 * 60 * 60 * 1000;
+      const currentTime = Date.now();
+      return (currentTime - this.timestamp) > oneDayInMilliseconds;
     },
   },
 });

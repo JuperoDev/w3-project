@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="!hasEnteredPassword" class="p-5">
-      <p>The file you want to see is password protected</p>
+      <p>The file you want to see is password protected.</p>
       <p><strong>I have changed the password</strong></p>
       <label for="password">Enter the password: </label>
       <input
@@ -30,6 +30,7 @@ const wh40kPasswordStore = useWh40kPasswordStore();
 const password = ref('');
 const hasEnteredPassword = ref(false);
 
+// Function to check the password and update the status
 const checkPassword = () => {
   if (password.value === 'cobra') {
     wh40kPasswordStore.setPassword(password.value);
@@ -37,11 +38,13 @@ const checkPassword = () => {
   }
 };
 
+// Initialization logic to load stored password and validate expiration
 const initialize = () => {
+  wh40kPasswordStore.initializeStore(); // Initialize store from localStorage
   if (wh40kPasswordStore.password && !wh40kPasswordStore.isPasswordExpired()) {
     hasEnteredPassword.value = true;
   } else {
-    wh40kPasswordStore.resetPassword();
+    wh40kPasswordStore.resetPassword(); // Reset if expired
   }
 };
 

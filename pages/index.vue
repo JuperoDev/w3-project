@@ -1,31 +1,30 @@
 <template>
   <div class="">
-    <NavbarComponentsPrincipalNav/>
-    <div class="bg-stone-100 p-2 md:px-2 lg:px-16 h-screen relative">
-     <GeneralPurposeFireSparks/>  
+    <NavbarComponentsPrincipalNav />
+    <!-- <div class="bg-stone-100 p-2 md:px-2 lg:px-16 h-full relative pb-20">  -->
+      <div class="bg-orange-500 p-6 md:px-10 lg:px-16 h-full relative pb-20"> 
+
+      <!-- <GeneralPurposeFireSparks /> -->
 
       <div class="bg-white border border-black-500 pb-16">
         <!-- Main Content -->
-        <div class="principal__hero--img flex items-center justify-center"> <img class="img-logo " src="https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_warhammer_icon_158628.png" alt="logo"></div>
+        <div class="principal__hero--img flex items-center justify-center">
+          <img class="img-logo " src="https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_warhammer_icon_158628.png" alt="logo" />
+        </div>
 
         <div class="font-bebas flex items-center justify-center">
-          <h2>Wargaming Assistant</h2>
+          <h2>Deep Strike</h2>
         </div>
-        <!-- <div class="flex items-center justify-center">
-          <GeneralPurposeSearchBar/>
-        </div> -->
+
         <div class="flex items-center justify-center">
-          <FactionFetch/>
+          <FactionFetch />
         </div>
-        <div class="flex justify-center items-center my-5">
-          
-
-
-        </div>
+        
       </div>
-      <GeneralPurposeFloatingFooter/>
+      <LandingPageInfoboard />
+      <LandingPageLandingFooter />
     </div>
-
+    <GeneralPurposeFloatingFooter />
   </div>
 </template>
 
@@ -37,71 +36,38 @@ h2 {
   text-transform: uppercase;
 }
 
-
 .img-logo {
-
-  /* Default max-width */
-  max-width: 200px; 
+  max-width: 200px;
   opacity: 0.8;
-  
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .img-logo {
-    max-width: 300px; /* Default size for large desktops */
+    max-width: 300px;
   }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .img-logo {
-    max-width: 250px; /* Slightly smaller for desktops */
+    max-width: 250px;
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .img-logo {
-    max-width: 220px; /* Adjusted size for tablets */
+    max-width: 220px;
   }
 }
 
-/* Small devices (phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .img-logo {
-    max-width: 180px; /* Smaller size for phones */
+    max-width: 180px;
   }
 }
 
-/* Extra small devices (phones, 599px and down) */
 @media only screen and (max-width: 599px) {
   .img-logo {
-    max-width: 150px; /* Smallest size for extra small devices */
+    max-width: 150px;
   }
 }
-
 </style>
-
-<script setup>
-
-onMounted(() => {
-  // Set the document title
-  document.title = 'Deep Strike';
-
-  // Create or update the meta description tag
-  let metaDescription = document.querySelector('meta[name="description"]');
-
-  if (!metaDescription) {
-    // If the meta description tag doesn't exist, create it
-    metaDescription = document.createElement('meta');
-    metaDescription.name = 'description';
-    document.head.appendChild(metaDescription);
-  }
-
-  // Set the content of the meta description
-  metaDescription.content = 'Warhammer rules and army builder';
-});
-
-
-</script>

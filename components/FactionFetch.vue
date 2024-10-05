@@ -6,7 +6,7 @@
     </div>
 
     <!-- Display armies if data is loaded -->
-    <div v-if="data && data.faction" class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+    <div v-if="data && data.faction" class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10">
       <div v-for="army in data.faction" :key="army.name" class="">
         <nuxt-link :to="`/${army.name}`">
           <GeneralPurposeArmyButton

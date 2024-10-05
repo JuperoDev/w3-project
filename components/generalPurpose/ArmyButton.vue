@@ -34,54 +34,8 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.all-wrap {
-  color: #2b2b2b;
-  user-select: none;
-}
 
-.containment {
-  user-select: none;
-  max-width: 600px;
-  margin: 10px;
-  background: linear-gradient(0deg, rgb(231, 231, 231) 0%, rgba(232, 232, 232, 0.5) 100%);
-  box-shadow: 0 2px 10px 0px #00000088;
-  border-radius: 0.7rem;
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-  overflow: hidden;
-  transition: 0.5s all;
-  position: relative;
-}
 
-.containment hr {
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid #87878778;
-  margin: 5px;
-}
-
-.containment::before {
-  position: absolute;
-  content: "";
-  box-shadow: 0 0 100px 40px #eaeaea7e;
-  top: -10%;
-  left: -100%;
-  transform: rotate(-45deg);
-  height: 60rem;
-  width: 200%;
-  transition: 0.7s all;
-}
-
-.containment:hover::before {
-  filter: brightness(0.3);
-  top: -100%;
-  left: 200%;
-}
-
-.containment:hover {
-  box-shadow: 0 7px 50px 10px #000000aa;
-  filter: brightness(1.3);
-}
 
 .armyButton,
 .armyButton:after {
@@ -183,7 +137,7 @@ const props = defineProps({
   .armyButton,
   .armyButton:after {
     width: 350px; /* Increased width for mobile screens */
-    height: 96px; /* Increased height for mobile screens */
+    height: 86px; /* Increased height for mobile screens */
     line-height: 98px; /* Adjusted line-height */
   }
 }

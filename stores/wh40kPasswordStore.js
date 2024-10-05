@@ -38,9 +38,10 @@ export const useWh40kPasswordStore = defineStore('wh40kpassword', {
       }
     },
 
-    // Check if the stored password is expired (e.g., 1 day expiration)
+    // Check if the stored password is expired 
+    // days * hours * min * sec * milisec  (e.g., 30 day expiration = 30 * 24 * 60 * 60 * 1000)
     isPasswordExpired() {
-      const oneDayInMilliseconds = 30 * 60 * 60 * 1000;
+      const oneDayInMilliseconds = 30 * 24 * 60 * 60 * 1000;
       const currentTime = Date.now();
       return (currentTime - this.timestamp) > oneDayInMilliseconds;
     },

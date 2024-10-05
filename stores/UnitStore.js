@@ -10,7 +10,7 @@ export const useUnitStore = defineStore('savedUnits', {
     initializeStore() {
       const storedElements = localStorage.getItem('elements');
       const storedInfo = localStorage.getItem('info');
-      
+
       if (storedElements) {
         this.elements = JSON.parse(storedElements);
       }
@@ -21,7 +21,6 @@ export const useUnitStore = defineStore('savedUnits', {
 
     addOrRemoveElement(elementName, isAdd, urlStore) {
       if (isAdd) {
-        // Check if the element is not already in the array
         if (!this.elements.includes(elementName)) {
           this.elements.push(elementName);
           this.info.push(urlStore);

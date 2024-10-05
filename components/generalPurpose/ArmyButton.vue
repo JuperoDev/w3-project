@@ -5,7 +5,7 @@
         <div class="w-2/3 md:w-2/3 p-4">
           <hr v-if="armyName" />
           <!-- Updated button displaying armyName -->
-          <button class="button-49 uppercase" role="button" :data-content="armyName || 'No Army Name'">
+          <button class="armyButton uppercase mr-2 " role="button" :data-content="armyName || 'No Army Name'">
             {{ armyName || 'No Army Name' }}
           </button>
         </div>
@@ -83,8 +83,8 @@ const props = defineProps({
   filter: brightness(1.3);
 }
 
-.button-49,
-.button-49:after {
+.armyButton,
+.armyButton:after {
   width: 250px; /* Button width */
   height: 76px; /* Button height */
   line-height: 78px; /* Line height */
@@ -94,7 +94,8 @@ const props = defineProps({
   border: 0;
   color: #fff;
   letter-spacing: 3px;
-  box-shadow: 6px 0px 0px #f85e05; /* Make shadow consistent on x and y axis */
+  /* box-shadow: 6px 0px 0px #f85e05; */
+   /* Make shadow consistent on x and y axis */
   outline: transparent;
   position: relative;
   user-select: none;
@@ -103,7 +104,7 @@ const props = defineProps({
   transition: 0.3s ease;
 }
 
-.button-49:after {
+.armyButton:after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
   --slice-2: inset(50% -6px 30% 0);
@@ -123,11 +124,11 @@ const props = defineProps({
   clip-path: var(--slice-0);
 }
 
-.button-49:hover {
+.armyButton:hover {
   box-shadow: 6px 0px 0px #f85e05;
 }
 
-.button-49:hover:after {
+.armyButton:hover:after {
   animation: glitch 1s steps(2, end) infinite; /* Make the animation loop infinitely */
 }
 
@@ -179,8 +180,8 @@ const props = defineProps({
 }
 
 @media (max-width: 768px) {
-  .button-49,
-  .button-49:after {
+  .armyButton,
+  .armyButton:after {
     width: 350px; /* Increased width for mobile screens */
     height: 96px; /* Increased height for mobile screens */
     line-height: 98px; /* Adjusted line-height */
@@ -188,8 +189,8 @@ const props = defineProps({
 }
 
 @media (min-width: 768px) {
-  .button-49,
-  .button-49:after {
+  .armyButton,
+  .armyButton:after {
     width: 400px; /* Larger width for larger screens */
     height: 86px;
     line-height: 88px;

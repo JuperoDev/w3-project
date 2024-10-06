@@ -11,22 +11,22 @@
         </div>
   
         <!-- Grid Layout for Features -->
-        <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-3">
+        <div class="mt-20 grid gap-8 sm:grid-cols-1 md:grid-cols-3">
           <!-- RAW Column -->
           <div class="flex flex-col items-center text-center">
-            <div class="font-bold text-xl mb-2">Rules as Written</div>
+            <div class="font-bold text-xl mb-2 uppercase">Rules as Written</div>
             <p class="text-gray-400">No interpretation, no house rules. No Artwork </p>
           </div>
   
           <!-- Mobile-Friendly Column -->
           <div class="flex flex-col items-center text-center">
-            <div class="font-bold text-xl mb-2">MOBILE-FRIENDLY</div>
+            <div class="font-bold text-xl mb-2 uppercase">MOBILE-FRIENDLY</div>
             <p class="text-gray-400">Responsive design & friendly access on the web app.</p>
           </div>
   
           <!-- No Lore or Artworks Column -->
           <div class="flex flex-col items-center text-center">
-            <div class="font-bold text-xl mb-2">Army Builder</div>
+            <div class="font-bold text-xl mb-2 uppercase">Army Builder</div>
             <p class="text-gray-400">Free army builder tool</p>
           </div>
         </div>

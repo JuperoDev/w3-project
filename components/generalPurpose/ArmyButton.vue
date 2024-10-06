@@ -136,7 +136,7 @@ const props = defineProps({
 @media (max-width: 768px) {
   .armyButton,
   .armyButton:after {
-    width: 350px; /* Increased width for mobile screens */
+    width: 250px; /* Increased width for mobile screens */
     height: 86px; /* Increased height for mobile screens */
     line-height: 98px; /* Adjusted line-height */
   }

@@ -2,10 +2,14 @@
   <div>
     
     <NavbarComponentsButtonGrid />
+    <div class="bg-orange-100 p-2 md:px-10 lg:px-16 h-full relative pb-20">  
 
+<!-- <GeneralPurposeFireSparks /> -->
+
+<div class="bg-white border border-black-500 pb-16"> 
     <div v-if="factionData && factionData.armies" class="pb-20">
       <div class="grid
-      grid-cols-1 md:grid-cols-2 gap-3 mt-5"> 
+      grid-cols-1 md:grid-cols-2 md:gap-3 mt-5"> 
       <div v-for="army in factionData.armies" :key="army.name" class="
       flex items-center justify-center">
       <!--  -->
@@ -21,6 +25,8 @@
       </div>
     </div>
     </div>
+  </div>
+</div>
      <GeneralPurposeFloatingFooter/> 
   </div>
 </template>

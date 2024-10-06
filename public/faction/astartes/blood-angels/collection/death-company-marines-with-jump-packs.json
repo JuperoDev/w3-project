@@ -6,13 +6,15 @@
     ],
     "damaged": {},
     "supremeCommander": false,
-    "lore": "Possessed of a near peerless ferocity and berserk fury created by horrific hallucinations, Death Company warriors are living weapons. When equipped with jump packs they are more lethal still, capable of bringing their terrible wrath upon the enemy that much more quickly.",
+    "lore": "The savagery induced by the Black Rage cannot be contained or used to its fullest extent. When equipped with jump packs, Death Company Marines are lent great speed and mobility that, when allied to their vengeful rage, renders them lethal shock troops.",
     "keywords": [
         "infantry",
         "fly",
         "jump pack",
         "grenades",
         "imperium",
+        "tacticius",
+        "death company",
         "death company marines with jump packs"
     ],
     "attributes": [
@@ -22,35 +24,12 @@
             "save": 3,
             "wounds": 2,
             "leadership": 6,
-            "objetiveControl": 1,
+            "objectiveControl": 1,
             "invulnerableSave": 0
         }
     ],
     "leader": [],
     "rangedWeapons": [
-        {
-            "name": "Bolt pistol",
-            "modifiers": [
-                "pistol"
-            ],
-            "range": 12,
-            "strength": 4,
-            "attacks": 1,
-            "ballistic-skills": 3,
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false
-        },
-        {
-            "name": "Boltgun",
-            "range": "24",
-            "modifiers": [],
-            "attacks": 2,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1,
-            "ballistic-skills": 3
-        },
         {
             "name": "Hand flamer",
             "modifiers": [
@@ -61,47 +40,60 @@
             "range": 12,
             "attacks": "D6",
             "strength": 3,
+            "ballistic-skills": "N/A",
             "armor-penetration": 0,
             "damage": 1,
-            "singleChoice": false,
-            "ballistic-skills": "N/A"
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "attacks": 1,
+            "strength": 4,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
         },
         {
             "name": "Inferno pistol",
             "modifiers": [
-                "melta 2",
-                "pistol"
+                "pistol",
+                "melta 2"
             ],
             "range": 6,
             "attacks": 1,
             "strength": 8,
+            "ballistic-skills": 3,
             "armor-penetration": 4,
             "damage": "D3",
-            "singleChoice": false,
-            "ballistic-skills": 3
+            "singleChoice": false
         },
         {
-            "name": "Plasma pistol - standard",
+            "name": "Plasma pistol – standard",
             "modifiers": [
                 "pistol"
             ],
             "range": 12,
-            "strength": 7,
             "attacks": 1,
+            "strength": 7,
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": 1,
             "singleChoice": true
         },
         {
-            "name": "Plasma pistol - supercharge",
+            "name": "Plasma pistol – supercharge",
             "modifiers": [
                 "hazardous",
                 "pistol"
             ],
             "range": 12,
-            "strength": 8,
             "attacks": 1,
+            "strength": 8,
             "ballistic-skills": 3,
             "armor-penetration": 3,
             "damage": 2,
@@ -118,36 +110,46 @@
         ],
         "otherAbilities": [
             {
-                "name": "Black Rage:",
-                "description": "Each time a model in this unit makes an attack, you can re-roll the Hit roll . While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+                "name": "Black Rage",
+                "description": "Each time a model in this unit makes a melee attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
             },
             {
-                "name": "Berserk Fury:",
+                "name": "Savage Fury",
                 "description": "You can re-roll Charge rolls made for this unit."
             }
         ]
     },
     "wargear": [
-        {"miniature":"death company marines with jump packs",
-            "description": "Any number of models can each have their boltgun and close combat weapon replaced with one of the following",
+        {
+            "miniature": "Death Company Marines With Jump Packs",
+            "description": "For every 5 models in this unit, 1 model’s heavy bolt pistol can be replaced with one of the following:",
             "items": [
-                "Astartes chainsword and 1 bolt pistol",
-                "thunder hammer"
+                "1 plasma pistol",
+                "1 hand flamer"
             ]
         },
-        {"miniature":"death company marines with jump packs",
-            "description": "Any number of models can each have their bolt pistol replaced with one of the following",
+        {
+            "miniature": "Death Company Marines With Jump Packs",
+            "description": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with one of the following:",
             "items": [
-                "hand flamer",
-                "inferno pistol",
-                "plasma pistol"
+                "1 eviscerator",
+                "1 power fist",
+                "1 power weapon"
             ]
         },
-        {"miniature":"death company marines with jump packs",
-            "description": "Any number of models can each have their Astartes chainsword replaced with one of the following",
+        {
+            "miniature": "Death Company Marines With Jump Packs",
+            "description": "This model’s heavy bolt pistol and Astartes chainsword can be replaced with one of the following:",
             "items": [
-                "power fist",
-                "power weapon"
+                "1 hand flamer and 1 Astartes chainsword",
+                "1 hand flamer and 1 power fist",
+                "1 hand flamer and 1 power weapon",
+                "1 inferno pistol and 1 Astartes chainsword",
+                "1 inferno pistol and 1 power fist",
+                "1 inferno pistol and 1 power weapon",
+                "1 plasma pistol and 1 Astartes chainsword",
+                "1 plasma pistol and 1 power fist",
+                "1 plasma pistol and 1 power weapon"
             ]
         }
     ],
@@ -162,10 +164,21 @@
             "damage": 1
         },
         {
+            "name": "Eviscerator",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": 4,
+            "damage": 2
+        },
+        {
             "name": "Power fist",
             "modifiers": [],
             "attacks": 3,
-            "weapons-skills": 3,
+            "weapons-skills": 4,
             "strength": 8,
             "armor-penetration": 2,
             "damage": 2
@@ -178,52 +191,40 @@
             "strength": 5,
             "armor-penetration": 2,
             "damage": 1
-        },
-        {
-            "name": "Thunder hammer",
-            "modifiers": [
-                "devastating wounds"
-            ],
-            "attacks": 3,
-            "weapons-skills": 4,
-            "strength": 8,
-            "armor-penetration": 2,
-            "damage": 2
-        },
-        {
-            "name": "Close combat weapon",
-            "modifiers": [],
-            "attacks": 3,
-            "weapons-skills": 3,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1
         }
     ],
     "unitComposition": [
         {
             "unitType": "Death Company Marines with Jump Packs",
-            "minQuantity": 1,
-            "maxQuantity": 1,
+            "minQuantity": 5,
+            "maxQuantity": 10,
             "equipment": [
-                "boltgun",
-                "close combat weapon."
+                "Heavy bolt pistol",
+                "Astartes chainsword"
             ]
         }
     ],
+    "additionalParameter": {
+        "title": "Attached Unit",
+        "abilities": [
+            {
+                "name": "",
+                "description": "If a CHAPLAIN model from your army with the Leader ability can be attached to an Assault Intercessors with Jump Packs unit, it can be attached to this unit instead."
+            }
+        ]
+    },
     "options": [
         {
             "count": [
                 5
             ],
-            "points": 140
+            "points": 75
         },
         {
             "count": [
                 10
             ],
-            "points": 280
+            "points": 150
         }
-    ],
-    "additionalParameter": {}
+    ]
 }

@@ -1,0 +1,180 @@
+{
+    "parentUnit": "Death Company Captain with Jump Pack",
+    "factionKeyword": [
+        "adeptus astartes",
+        "blood angels"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The inductees of the Death Company seek only to sate their burning desire for vengeance. When equipped with jump packs, Death Company Captains hurl themselves into the enemy ranks with reckless abandon, slashing and bludgeoning a bloody path through all who stand before them.",
+    "keywords": [
+        "infantry",
+        "character",
+        "jump pack",
+        "fly",
+        "grenades",
+        "imperium",
+        "tacticius",
+        "death company",
+        "captain"
+    ],
+    "attributes": [
+        {
+            "movement": 12,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Death Company Marines with Jump Packs"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Hand flamer",
+            "modifiers": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+            ],
+            "range": 12,
+            "attacks": "D6",
+            "strength": 3,
+            "ballistic-skills": "N/A",
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "attacks": 1,
+            "strength": 4,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol – standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "strength": 7,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol – supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "attacks": 1,
+            "strength": 8,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deep Strike",
+            "Feel No Pain 6+",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Lost to Fury",
+                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+            },
+            {
+                "name": "Black Rage",
+                "description": "Each time this model makes a melee attack, you can re-roll the Hit roll. While this model’s unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+            },
+            {
+                "name": "Death Vision of Sanguinius",
+                "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy WARLORD: on a 2-3, that enemy unit suffers D3 mortal wounds, on a 4-5, that enemy unit suffers 3 mortal wounds, on a 6+, that enemy unit suffers D3+3 mortal wounds."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "minuature": "Death Company Captain with Jump Pack",
+            "option": "This model’s heavy bolt pistol can be replaced with one of the following:",
+            "items": [
+                "plasma pistol",
+                "hand flamer"
+            ]
+        },
+        {
+            "minuature": "Death Company Captain with Jump Pack",
+            "option": "This model’s Astartes chainsword can be replaced with one of the following:",
+            "items": [
+                "power fist",
+                "relic weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Astartes chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 1
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Relic weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Death Company Captain with Jump Pack",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Heavy bolt pistol",
+                "Astartes chainsword"
+            ]
+        }
+    ],
+    "options": [ {
+        "count": [
+            1
+        ],
+        "points": 120
+    }]
+}

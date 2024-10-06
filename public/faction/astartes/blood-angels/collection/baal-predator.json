@@ -33,7 +33,7 @@
             "name": "Baal flamestorm cannon",
             "modifiers": [
                 "ignores cover",
-                "torrent"
+                "torrent","assault"
             ],
             "range": 18,
             "attacks": "D6+3",
@@ -104,9 +104,9 @@
             ],
             "range": 24,
             "strength": 6,
-            "attacks": 2,
+            "attacks": 6,
             "ballistic-skills": 3,
-            "armor-penetration": 1,
+            "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
         }
@@ -121,7 +121,7 @@
         "otherAbilities": [
             {
                 "name": "Overcharged Engines",
-                "description": "You can re-roll Advance rolls made for this model. Each time this model Advances, until the end of the turn, ranged weapons equipped by this model have the [ASSAULT] ability but they can only target Infantry units."
+                "description": "You can re-roll Advance rolls made for this model"
             }
         ]
     },
@@ -136,7 +136,7 @@
         },
         {"miniature":"baal predator",
             "description": "This model can be equipped with 1 storm bolter.",
-            "items": []
+            "items": ["storm bolter"]
         },
         {"miniature":"baal predator",
             "description": "This model can be equipped with one of the following",

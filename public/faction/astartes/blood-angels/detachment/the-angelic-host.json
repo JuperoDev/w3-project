@@ -1,0 +1,103 @@
+{
+    "detachmentName": "The Angelic Host",
+    "detachmentRule": [
+        {
+            "name": "Upon Wings of Fire",
+            "lore": "The Blood Angels soar high above the battlefield before plummeting to strike their foes with bone-shattering force. They are the masters of the war-torn skies.",
+            "description": "At the end of your opponent’s turn, you can select a number of ADEPTUS ASTARTES JUMP PACK units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:  <br/> <strong>Incursion</strong><br/>  <p> Up to 1 units. </p>    <br/> <strong> Strike Force </strong><br/>  <p>Up to 2 units </p>   <br/> <strong> Onslaught </strong><br/>  <p> Up to 3 units </p>   <br/> Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves. In the Reinforcements step of your next Movement phase, set each of those units up using their Deep Strike ability."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Artisan of War",
+            "points": 15,
+            "lore": "This warrior is a true artist both on and off the battlefield. His talents are reflected in the exquisite workmanship of his wargear, for he insists upon personally crafting his weapons of war.",
+            "description": "ADEPTUS ASTARTES JUMP PACK model only. Improve the Armour Penetration characteristic of the bearer’s weapons by 1, and the bearer has a Save characteristic of 2+.",
+            "color": "red"
+        },
+        {
+            "name": "Visage of Death",
+            "points": 10,
+            "lore": "This exquisitely crafted death mask is a thing of dark beauty to the Blood Angels, and a sign of impending doom to their enemies. A neural amplifier embedded within the expressionless face of this macabre item serves to magnify the aura of fear it projects.",
+            "description": "ADEPTUS ASTARTES JUMP PACK model only. In the Battle-shock step of your opponent’s Command phase, each enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of the bearer must take a Battle-shock test.",
+            "color": "red"
+        },
+        {
+            "name": "Archangel’s Shard",
+            "points": 20,
+            "lore": "When Sanguinius battled Horus, his magnificent blade was tragically shattered against the Warmaster’s profane battle plate. The shards were gathered up and new swords forged to incorporate them, each one gifted to a different successor Chapter.",
+            "description": "ADEPTUS ASTARTES JUMP PACK model only. The bearer’s melee weapons have the [ANTI-CHAOS 5+] and [LANCE] abilities.",
+            "color": "red"
+        },
+        {
+            "name": "Gleaming Pinions",
+            "points": 10,
+            "lore": "The elaborately crafted ailerons of this jump pack allow the wearer to maneuver, twist and bank at incredible speeds.",
+            "description": "ADEPTUS ASTARTES JUMP PACK model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if this bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
+            "color": "red"
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Unbridled Ardour",
+            "subindex": "THE ANGELIC HOST – EPIC DEED STRATAGEM",
+            "lore": "The Sanguinary Guard exemplify the noble heritage of Sanguinius, leaping to avenge their battle-brothers without hesitation.",
+            "when": "Any phase.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "Until the end of the battle, each time a friendly SANGUINARY GUARD unit makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Armour of Contempt",
+            "subindex": "THE ANGELIC HOST – BATTLE TACTIC STRATAGEM",
+            "lore": "The belligerence of the Adeptus Astartes combined with their enhanced physiology makes them unyielding foes to face.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Angel’s Sacrifice",
+            "subindex": "THE ANGELIC HOST – BATTLE TACTIC STRATAGEM",
+            "lore": "The Blood Angels would gladly put themselves in harm’s way to protect others, just as Sanguinius sacrificed his own life.",
+            "when": "Start of the Fight phase.",
+            "target": "One ADEPTUS ASTARTES JUMP PACK unit from your army.",
+            "effect": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects its targets, it must select your unit as the target of all of its attacks.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Martial Exemplars",
+            "subindex": "THE ANGELIC HOST – BATTLE TACTIC STRATAGEM",
+            "lore": "The Blood Angels are mighty warriors indeed, and wield their gilded and shimmering blades with consummate skill.",
+            "when": "Fight phase.",
+            "target": "One ADEPTUS ASTARTES JUMP PACK unit from your army that has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] and [PRECISION] abilities.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Descent of Angels",
+            "subindex": "THE ANGELIC HOST – EPIC DEED STRATAGEM",
+            "lore": "The Blood Angels are masters of aerial assault, leaping from airborne transports with jump packs roaring to plunge into the heat of battle.",
+            "when": "Your Movement phase.",
+            "target": "One ADEPTUS ASTARTES JUMP PACK unit from your army that is using the Deep Strike ability this phase.",
+            "effect": "You can set up that unit anywhere on the battlefield that is more than 3\" horizontally away from all enemy units.",
+            "restrictions": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.",
+            "cp": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Death from the Skies",
+            "subindex": "THE ANGELIC HOST – EPIC DEED STRATAGEM",
+            "lore": "The roar of the Blood Angels jump packs is as a funeral dirge for their foes.",
+            "when": "Your Charge phase.",
+            "target": "One ADEPTUS ASTARTES JUMP PACK unit from your army that Advanced or Fell Back this turn.",
+            "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

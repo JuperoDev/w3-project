@@ -1,0 +1,149 @@
+{
+    "parentUnit": "Death Company Captain",
+    "factionKeyword": [
+        "adeptus astartes",
+        "blood angels"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "None of Sanguinius’ sons are immune to the effects of the Black Rage. Should a Captain succumb to the Flaw, he will don the black and be outfitted with relic weapons for one final battle. Empowered by the depths of their madness, Death Company Captains slaughter their foes with violent fury as they seek absolution in death.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "tacticius",
+        "death company",
+        "captain"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Death Company Marines",
+        "Death Company Marines with Bolt Rifles"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "attacks": 1,
+            "strength": 4,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno pistol",
+            "modifiers": [
+                "melta",
+                "pistol"
+            ],
+            "range": 6,
+            "attacks": 1,
+            "strength": 8,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "D3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Feel No Pain 6+",
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Forlorn Hero",
+                "description": "While this model is leading a unit, unless that unit starts the battle embarked within a TRANSPORT, models in that unit have the Scouts 6\" ability."
+            },
+            {
+                "name": "Black Rage",
+                "description": "Each time this model makes a melee attack, you can re-roll the Hit roll. While this model’s unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+            },
+            {
+                "name": "Death Vision of Sanguinius",
+                "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy WARLORD: on a 2-3, that enemy unit suffers D3 mortal wounds, on a 4-5, that enemy unit suffers 3 mortal wounds, on a 6+, that enemy unit suffers D3+3 mortal wounds."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "minuature": "Death Company Captain",
+            "option": "This model’s heavy bolt pistol can be replaced with 1 inferno pistol.",
+            "items": [
+                "inferno pistol"
+            ]
+        },
+        {
+            "minuature": "Death Company Captain",
+            "option": "This model’s master-crafted chainsword can be replaced with one of the following:",
+            "items": [
+                "power fist",
+                "relic weapon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Master-crafted chainsword",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Relic weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Death Company Captain",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Heavy bolt pistol",
+                "Master-crafted chainsword"
+            ]
+        }
+    ],
+    "options": [{
+        "count": [
+            1
+        ],
+        "points": 155
+    }]
+}

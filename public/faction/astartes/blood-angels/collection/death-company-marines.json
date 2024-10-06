@@ -27,27 +27,17 @@
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Bolt pistol",
+            "name": "Heavy Bolt pistol",
             "modifiers": [
                 "pistol"
             ],
-            "range": 12,
+            "range": 18,
             "strength": 4,
             "attacks": 1,
             "ballistic-skills": 3,
-            "armor-penetration": 0,
+            "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
-        },
-        {
-            "name": "Boltgun",
-            "range": 24,
-            "modifiers": [],
-            "attacks": 2,
-            "strength": 4,
-            "armor-penetration": 0,
-            "damage": 1,
-            "ballistic-skills": 3
         },
         {
             "name": "Hand flamer",
@@ -123,28 +113,30 @@
                 "description": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength , or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength ."
             }
         ]
-    },
-    "wargear": [
-        {"miniature":"death company marines",
-            "description": "Any number of models can each have their boltgun and close combat weapon replaced with one of the following",
+    }, "wargear": [
+        {
+            "miniature": "Death Company Marines",
+            "description": "1 model’s heavy bolt pistol can be replaced with one of the following:",
             "items": [
-                "Astartes chainsword and 1 bolt pistol",
-                "thunder hammer"
+                "1 hand flamer",
+                "1 inferno pistol",
+                "1 plasma pistol"
             ]
         },
-        {"miniature":"death company marines",
-            "description": "Any number of models can each have their bolt pistol replaced with one of the following",
+        {
+            "miniature": "Death Company Marines",
+            "description": "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with one of the following:",
             "items": [
-                "hand flamer",
-                "inferno pistol",
-                "plasma pistol"
+                "1 eviscerator"
             ]
         },
-        {"miniature":"death company marines",
-            "description": "Any number of models can each have their Astartes chainsword replaced with one of the following",
+        {
+            "miniature": "Death Company Marines",
+            "description": "1 model’s Astartes chainsword can be replaced with one of the following:",
             "items": [
-                "power fist",
-                "power weapon"
+                "1 power fist",
+                "1 power weapon",
+                "1 thunder hammer"
             ]
         }
     ],
@@ -222,5 +214,13 @@
             "points": 250
         }
     ],
-    "additionalParameter": {}
+    "additionalParameter": {
+        "title": "Attached Unit",
+        "abilities": [
+            {
+                "name": "",
+                "description": "If a CHAPLAIN model from your army with the Leader ability can be attached to an Assault Intercessors with Jump Packs unit, it can be attached to this unit instead."
+            }
+        ]
+    }
 }

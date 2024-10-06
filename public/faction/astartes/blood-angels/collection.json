@@ -2,7 +2,7 @@
     "background": "bg-tyranids",
     
     "detachments": [
-        "sons of sanguinius"
+        "liberator assault group","the angelic host","the lost brethren"
     ],
     "rules": [
         {
@@ -21,23 +21,17 @@
     "units": [
         "Astorath",
         "Baal Predator",
-        "Brother Corbulo",
-        "Captain Tycho",
         "Chief Librarian Mephiston",
         "Commander Dante",
         "Death Company Dreadnought",
-        "Death Company Intercessors",
         "Death Company Marines",
         "Death Company Marines with Jump Packs",
-        "Furioso Dreadnought",
         "Gabriel Seth",
         "Lemartes",
-        "Librarian Dreadnought",
         "Sanguinary Guard",
         "Sanguinary Priest",
         "Sanguinary Priest with Jump Pack",
-        "The Sanguinor",
-        "Tycho the Lost"
+        "The Sanguinor"
     ],
     "characters": [
         {"unitName": "Ancient", "basicPoints": 50},
@@ -64,16 +58,13 @@
         {"unitName": "Lieutenant With Combi-weapon", "basicPoints": 70},
         {"unitName": "Techmarine", "basicPoints": 55},
         {"unitName": "Astorath", "basicPoints": 85},
-        {"unitName": "Brother Corbulo", "basicPoints": 75},
-        {"unitName": "Captain Tycho", "basicPoints": 75},
         {"unitName": "Chief Librarian Mephiston", "basicPoints": 100},
         {"unitName": "Commander Dante", "basicPoints": 120},
         {"unitName": "Gabriel Seth", "basicPoints": 90},
         {"unitName": "Lemartes", "basicPoints": 120},
         {"unitName": "Sanguinary Priest", "basicPoints": 90},
         {"unitName": "Sanguinary Priest With Jump Pack", "basicPoints": 100},
-        {"unitName": "The Sanguinor", "basicPoints": 140},
-        {"unitName": "Tycho The Lost", "basicPoints": 90}
+        {"unitName": "The Sanguinor", "basicPoints": 140}
       ],
       "battleline": [
         {"unitName": "Assault Intercessor Squad", "basicPoints": 75},
@@ -141,11 +132,9 @@
         {"unitName": "Whirlwind", "basicPoints": 180},
         {"unitName": "Baal Predator", "basicPoints": 125},
         {"unitName": "Death Company Dreadnought", "basicPoints": 145},
-        {"unitName": "Death Company Intercessors", "basicPoints": 75},
-        {"unitName": "Death Company Marines", "basicPoints": 125},
+        {"unitName": "Death Company Marines", "basicPoints": 125,"hideInDetachment":"dread-mob"},
+        {"unitName": "Death Company Marines with bolt rifles", "basicPoints": 125,"hideInDetachment":"dread-mob"},
         {"unitName": "Death Company Marines With Jump Packs", "basicPoints": 140},
-        {"unitName": "Furioso Dreadnought", "basicPoints": 150},
-        {"unitName": "Librarian Dreadnought", "basicPoints": 170},
         {"unitName": "Sanguinary Guard", "basicPoints": 155}
       ],
 

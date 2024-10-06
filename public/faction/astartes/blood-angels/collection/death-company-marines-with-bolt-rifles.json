@@ -1,5 +1,5 @@
 {
-    "parentUnit": "Death Company Intercessors",
+    "parentUnit": "Death Company Marines with Bolt Rifles",
     "factionKeyword": [
         "adeptus astartes",
         "blood angels"
@@ -11,8 +11,9 @@
         "infantry",
         "grenades",
         "imperium",
-        "tacticus",
-        "death company intercessors"
+        "tacticius",
+        "death company",
+        "death company marines with bolt rifles"
     ],
     "attributes": [
         {
@@ -21,36 +22,33 @@
             "save": 3,
             "wounds": 2,
             "leadership": 6,
-            "objetiveControl": 1,
+            "objectiveControl": 1,
             "invulnerableSave": 0
         }
     ],
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Astartes grenade launcher - frag",
+            "name": "Astartes grenade launcher – frag",
             "modifiers": [
                 "blast"
             ],
             "range": 24,
-            "strength": 4,
-            "attacks": "d3",
+            "attacks": "D3",
+            "strength": 3,
             "ballistic-skills": 3,
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": true
         },
         {
-            "name": "Astartes grenade launcher - krak",
-            "modifiers": [
-                "blast"
-            ],
+            "name": "Astartes grenade launcher – krak",
             "range": 24,
-            "strength": 4,
             "attacks": 1,
+            "strength": 6,
             "ballistic-skills": 3,
-            "armor-penetration": 2,
-            "damage": "d3",
+            "armor-penetration": -1,
+            "damage": "D3",
             "singleChoice": true
         },
         {
@@ -59,8 +57,8 @@
                 "pistol"
             ],
             "range": 12,
-            "strength": 4,
             "attacks": 1,
+            "strength": 4,
             "ballistic-skills": 3,
             "armor-penetration": 0,
             "damage": 1,
@@ -69,11 +67,12 @@
         {
             "name": "Bolt rifle",
             "modifiers": [
-                "pistol"
+                "assault",
+                "heavy"
             ],
             "range": 24,
-            "strength": 4,
             "attacks": 2,
+            "strength": 4,
             "ballistic-skills": 3,
             "armor-penetration": 1,
             "damage": 1,
@@ -89,46 +88,47 @@
             "range": 12,
             "attacks": "D6",
             "strength": 3,
+            "ballistic-skills": "N/A",
             "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false,
-            "ballistic-skills": "N/A"
-        },
-        {
-            "name": "Heavy bolt pistol",
-            "modifiers": [
-                "pistol"
-            ],
-            "range": 18,
-            "strength": 4,
-            "attacks": 1,
-            "ballistic-skills": 3,
-            "armor-penetration": 1,
             "damage": 1,
             "singleChoice": false
         },
         {
-            "name": "Plasma pistol - standard",
+            "name": "Inferno pistol",
+            "modifiers": [
+                "pistol",
+                "melta 2"
+            ],
+            "range": 6,
+            "attacks": 1,
+            "strength": 8,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "D3",
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol – standard",
             "modifiers": [
                 "pistol"
             ],
             "range": 12,
-            "strength": 7,
             "attacks": 1,
+            "strength": 7,
             "ballistic-skills": 3,
             "armor-penetration": 2,
             "damage": 1,
             "singleChoice": true
         },
         {
-            "name": "Plasma pistol - supercharge",
+            "name": "Plasma pistol – supercharge",
             "modifiers": [
                 "hazardous",
                 "pistol"
             ],
             "range": 12,
-            "strength": 8,
             "attacks": 1,
+            "strength": 8,
             "ballistic-skills": 3,
             "armor-penetration": 3,
             "damage": 2,
@@ -144,37 +144,48 @@
         ],
         "otherAbilities": [
             {
-                "name": "Black Rage:",
-                "description": "Each time a model in this unit makes an attack, you can re-roll the Hit roll . While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+                "name": "Black Rage",
+                "description": "Each time a model in this unit makes a melee attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
             },
             {
-                "name": "Visions of Heresy:",
-                "description": "Once per turn, you can target this unit with the Fire Overwatch Stratagem or the Heroic Intervention Stratagem for 0CP."
+                "name": "Visions of Heresy",
+                "description": "Once per turn, you can target this unit with the Fire Overwatch or the Heroic Intervention Stratagem for 0CP. While resolving that Stratagem, each time a model in this unit makes a ranged attack you can re-roll the Hit roll, or you can re-roll the Charge roll made for this unit (whichever applies)."
             }
         ]
     },
     "wargear": [
-        {"miniature":"death company intercessors",
-            "description": "All models in this unit can each have their bolt pistol and bolt rifle replaced with 1 heavy bolt pistol and 1 Astartes chainsword.",
-            "items": []
-        },
-        {"miniature":"death company intercessors",
-            "description": "1 model’s heavy bolt pistol can be replaced with one of the following",
+        {
+            "miniature": "Death Company Marines with Bolt Rifles",
+            "description": "1 model’s bolt rifle can be replaced with one of the following:",
             "items": [
-                "hand flamer",
-                "plasma pistol"
+                "1 Astartes chainsword",
+                "1 hand flamer",
+                "1 inferno pistol",
+                "1 plasma pistol"
             ]
         },
-        {"miniature":"death company intercessors",
-            "description": "For every 5 models in this unit, 1 model equipped with a bolt rifle can be equipped with 1 Astartes grenade launcher.",
-            "items": []
-        },
-        {"miniature":"death company intercessors",
-            "description": "1 model can replace its bolt rifle or Astartes chainsword with one of the following",
+        {
+            "miniature": "Death Company Marines with Bolt Rifles",
+            "description": "For every 5 models in this unit, 1 model’s bolt rifle and close combat weapon can be replaced with 1 eviscerator.",
             "items": [
-                "power fist",
-                "power weapon",
-                "thunder hammer"
+                "eviscerator"
+            ]
+        },
+        {
+            "miniature": "Death Company Marines with Bolt Rifles",
+            "description": "For every 5 models in this unit, 1 model equipped with a bolt rifle can be equipped with 1 Astartes grenade launcher.",
+            "items": [
+                "Astartes grenade launcher"
+            ]
+        },
+        {
+            "miniature": "Death Company Marines with Bolt Rifles",
+            "description": "1 model’s close combat weapon can be replaced with one of the following:",
+            "items": [
+                "1 Astartes chainsword",
+                "1 power fist",
+                "1 power weapon",
+                "1 thunder hammer"
             ]
         }
     ],
@@ -192,18 +203,29 @@
             "name": "Close combat weapon",
             "modifiers": [],
             "attacks": 3,
-            "weapons-skills": 3,
+            "weapons-skills": 4,
             "strength": 4,
             "armor-penetration": 0,
             "damage": 1
         },
         {
+            "name": "Eviscerator",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 7,
+            "armor-penetration": -4,
+            "damage": 2
+        },
+        {
             "name": "Power fist",
             "modifiers": [],
             "attacks": 3,
-            "weapons-skills": 3,
+            "weapons-skills": 4,
             "strength": 8,
-            "armor-penetration": 2,
+            "armor-penetration": -2,
             "damage": 2
         },
         {
@@ -212,7 +234,7 @@
             "attacks": 4,
             "weapons-skills": 3,
             "strength": 5,
-            "armor-penetration": 2,
+            "armor-penetration": -2,
             "damage": 1
         },
         {
@@ -223,35 +245,41 @@
             "attacks": 3,
             "weapons-skills": 4,
             "strength": 8,
-            "armor-penetration": 2,
+            "armor-penetration": -2,
             "damage": 2
         }
     ],
     "unitComposition": [
         {
-            "unitType": "Death Company Intercessors",
+            "unitType": "Death Company Marines with Bolt Rifles",
             "minQuantity": 5,
             "maxQuantity": 10,
             "equipment": [
-                "bolt pistol",
-                "bolt rifle",
-                "close combat weapon."
+                "Bolt pistol",
+                "Bolt rifle",
+                "Close combat weapon"
             ]
         }
     ],
-    "options": [
-        {
-            "count": [
-                5
-            ],
-            "points": 75
-        },
-        {
-            "count": [
-                10
-            ],
-            "points": 150
-        }
-    ],
-    "additionalParameter": {}
+    "options": [{
+        "count": [
+            5
+        ],
+        "points": 155
+    },
+    {
+        "count": [
+            10
+        ],
+        "points": 310
+    }],
+    "additionalParameter": {
+        "title": "Attached Unit",
+        "abilities": [
+            {
+                "name": "",
+                "description": "If a CHAPLAIN model from your army with the Leader ability can be attached to an Assault Intercessors with Jump Packs unit, it can be attached to this unit instead."
+            }
+        ]
+    }
 }

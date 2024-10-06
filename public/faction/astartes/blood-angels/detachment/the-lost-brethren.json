@@ -1,0 +1,106 @@
+{
+    "detachmentName": "The Lost Brethren",
+    "detachmentRule": [
+        {
+            "name": "A Noble Death in Combat",
+            "lore": "For the lost brothers of the Death Company one final battle remains. The sacrifice of each fallen warrior inspires his surviving brothers to ever greater acts of savage violence.",
+            "description": "Each time a DEATH COMPANY model from your army makes a melee attack, re-roll a Wound roll of 1 if that model’s unit is below its Starting Strength; if that model’s unit is Below Half-strength, you can re-roll the Wound roll instead."
+        },
+        {
+            "name": "keywords",
+            "description": "If you select this Detachment, DEATH COMPANY MARINES and DEATH COMPANY MARINES with BOLT RIFLES units from your army have the Battleline keyword."
+        }
+    ],
+    "enhacements": [
+        {
+            "name": "Sanguinius’ Grace",
+            "points": 20,
+            "lore": "As maddening hallucinatory memories of long-forgotten battles flash across this warrior’s mind, he is granted a sliver of the Primarch’s combat prowess.",
+            "description": "DEATH COMPANY model only. Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, the bearer can fight one additional time.",
+            "color": "red"
+        },
+        {
+            "name": "Blood Shard",
+            "points": 25,
+            "lore": "Spiritual energy flows from this crimson gem, filling its bearer with a ferocious desire to tear their foes limb from limb. Those infused with its energies may fight on despite suffering seemingly mortal wounds.",
+            "description": "DEATH COMPANY model only. The first time the bearer is destroyed, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining.",
+            "color": "red"
+        },
+        {
+            "name": "To Slay the Warmaster",
+            "points": 15,
+            "lore": "Overcome by maddening hallucinations, this warrior sees in all enemy champions glimmers of Horus’ dark majesty and thus strives to destroy them.",
+            "description": "DEATH COMPANY model only. Once per battle, at the start of the Fight phase, if the bearer is within Engagement Range of one or more enemy CHARACTER units, you can select one of those CHARACTER units and roll six D6: for each 4+, one CHARACTER model in that unit suffers 1 mortal wound.",
+            "color": "red"
+        },
+        {
+            "name": "Vengeful Onslaught",
+            "points": 10,
+            "lore": "This Son of Sanguinius appears to the brothers of the Death Company as a paragon of their Primarch’s martial prowess. Should he fall in battle, the vengeful fury of the Lost will be inflamed.",
+            "description": "DEATH COMPANY model only. If the bearer is destroyed, until the end of your next turn, each time a friendly DEATH COMPANY model makes an attack, add 1 to the Hit roll.",
+            "color": "red"
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Glorious Sacrifice",
+            "subindex": "THE LOST BRETHREN – EPIC DEED STRATAGEM",
+            "lore": "Even in death, the Lost bring victory to their Chapter.",
+            "when": "Any phase.",
+            "target": "One DEATH COMPANY unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+            "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Armour of Contempt",
+            "subindex": "THE LOST BRETHREN – BATTLE TACTIC STRATAGEM",
+            "lore": "The belligerence of the Adeptus Astartes combined with their enhanced physiology makes them unyielding foes to face.",
+            "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Final Retribution",
+            "subindex": "THE LOST BRETHREN – EPIC DEED STRATAGEM",
+            "lore": "These battle-brothers have already accepted their deaths. They now seek to strike one last, telling blow against the enemy.",
+            "when": "Fight phase, just after an enemy unit has selected its targets.",
+            "target": "One DEATH COMPANY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+            "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is within 12\" of one or more friendly LEMARTES models; on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Furious Onslaught",
+            "subindex": "THE LOST BRETHREN – BATTLE TACTIC STRATAGEM",
+            "lore": "The Lost push towards new foes, the bloodlust in their veins enhancing their preternatural speed.",
+            "when": "Fight phase.",
+            "target": "One DEATH COMPANY unit from your army, just before that unit Piles-In.",
+            "effect": "Until the end of the phase, each time a model in your unit makes a Pile-In move, it can move up to D3+3\" instead of up to 3\". If your unit is within 12\" of one or more friendly CHAPLAIN models, or it is Below Starting Strength, it can move up to 6\" instead. In either case, it can only do so provided it ends that Pile-In move in Unit Coherency and within Engagement Range of one or more enemy units.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Lost to Rage",
+            "subindex": "THE LOST BRETHREN – BATTLE TACTIC STRATAGEM",
+            "lore": "The Lost are consumed utterly by rage.",
+            "when": "Fight phase.",
+            "target": "One DEATH COMPANY unit from your army that is below Starting Strength and has not been selected to fight this phase.",
+            "effect": "Until the end of the phase, improve the Attacks, Strength and Armour Penetration characteristics of melee weapons equipped by models in your unit by 1 and, unless your unit is within 12\" of one or more friendly CHAPLAIN models, until the end of the phase, those weapons have the [HAZARDOUS] ability.",
+            "cp": 1,
+            "color": "green"
+        },
+        {
+            "name": "Wrathful Rampage",
+            "subindex": "THE LOST BRETHREN – STRATEGIC PLOY STRATAGEM",
+            "lore": "So lost to rage are the Death Company that they are unstoppable juggernauts, eagerly outpacing their brothers.",
+            "when": "Your Movement phase, just after a DEATH COMPANY unit from your army Advances.",
+            "target": "That DEATH COMPANY unit.",
+            "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced. If your unit is within 12\" of one or more friendly CHAPLAIN models, or it is Below Starting Strength, until the end of the turn, your unit is eligible to both shoot and declare a charge, even though it Advanced.",
+            "cp": 1,
+            "color": "blue"
+        }
+    ]
+}

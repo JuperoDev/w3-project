@@ -4,74 +4,93 @@
         "adeptus astartes",
         "blood angels"
     ],
-    "damaged": {},
+    "damaged": {
+        "woundsRemaining": "1-4",
+        "effect": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
     "supremeCommander": false,
     "lore": "Even being interred in a Dreadnought’s sarcophagus is insufficient to keep the Black Rage at bay. Death Company Dreadnoughts are like furious battering rams, desperate to smash into the enemy and tear them apart. They are potent terror weapons, unleashed to inflict as much damage as possible.",
     "keywords": [
         "vehicle",
         "walker",
-        "smoke",
         "imperium",
         "dreadnought",
+        "death company",
         "death company dreadnought"
     ],
     "attributes": [
         {
             "movement": 8,
-            "toughness": 9,
+            "toughness": 10,
             "save": 2,
-            "wounds": 8,
+            "wounds": 12,
             "leadership": 6,
-            "objetiveControl": 3,
+            "objectiveControl": 4,
             "invulnerableSave": 0
         }
     ],
     "leader": [],
     "rangedWeapons": [
         {
-            "name": "Heavy flamer",
+            "name": "Blood fist bolt rifles",
             "modifiers": [
-                "ignores cover",
-                "torrent"
-            ],
-            "range": 12,
-            "attacks": "D6",
-            "strength": 5,
-            "armor-penetration": 1,
-            "damage": 1,
-            "singleChoice": false,
-            "ballistic-skills": "N/A"
-        },
-        {
-            "name": "Meltagun",
-            "modifiers": [
-                "melta 2"
-            ],
-            "range": 12,
-            "attacks": 1,
-            "strength": 9,
-            "armor-penetration": 4,
-            "damage": "D6",
-            "singleChoice": false,
-            "ballistic-skills": 3
-        },
-        {
-            "name": "Storm bolter",
-            "modifiers": [
-                "rapid fire 2"
+                "twin-linked"
             ],
             "range": 24,
+            "attacks": 4,
             "strength": 4,
-            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin Icarus ironhail heavy stubber",
+            "modifiers": [
+                "anti-fly 4+",
+                "rapid fire 3",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 6,
+            "strength": 4,
             "ballistic-skills": 3,
             "armor-penetration": 0,
             "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Twin multi-melta",
+            "modifiers": [
+                "melta 2",
+                "twin-linked"
+            ],
+            "range": 18,
+            "attacks": 2,
+            "strength": 9,
+            "ballistic-skills": 3,
+            "armor-penetration": 4,
+            "damage": "D6",
             "singleChoice": false
         }
     ],
     "abilities": {
         "core": [
-            "Deadly Demise 1",
+            "Deadly Demise D3",
             "Feel No Pain 6+"
         ],
         "faction": [
@@ -79,55 +98,66 @@
         ],
         "otherAbilities": [
             {
-                "name": "Black Rage:",
-                "description": "Each time this model makes an attack, you can re-roll the Hit roll . While this model is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+                "name": "Black Rage",
+                "description": "Each time this model makes a melee attack, you can re-roll the Hit roll. While this model is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
             },
             {
-                "name": "Frenzied Reprisal:",
-                "description": "Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase ."
+                "name": "Driven by Fury",
+                "description": "In your opponent’s Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll. This model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding AIRCRAFT]. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase."
             }
         ]
     },
     "wargear": [
-        {"miniature":"death company dreadnought",
-            "description": "This model’s storm bolter can be replaced with 1 heavy flamer.",
-            "items": ["heavy flamer"]
+        {
+            "minuature": "Death Company Dreadnought",
+            "option": "This model’s twin heavy bolter can be replaced with 1 twin multi-melta.",
+            "items": [
+                "twin multi-melta"
+            ]
         },
-        {"miniature":"death company dreadnought",
-            "description": "This model’s meltagun can be replaced with 1 heavy flamer.",
-            "items": ["heavy flamer"]
-        },
-        {"miniature":"death company dreadnought",
-            "description": "This model’s Furioso fists can be replaced with 1 blood talons.",
-            "items": ["blood talons"]
-        },
-        {"miniature":"death company dreadnought",
-            "description": "This model can be equipped with 1 magna-grapple.",
-            "items": ["magna-grapple"]
+        {
+            "minuature": "Death Company Dreadnought",
+            "option": "This model’s blood fists and blood fist bolt rifles can be replaced with 1 blood talons.",
+            "items": [
+                "blood talons"
+            ]
         }
     ],
     "meleeWeapons": [
         {
-            "name": "Blood talons",
+            "name": "Blood fists",
             "modifiers": [
                 "twin-linked"
             ],
-            "attacks": 7,
+            "attacks": 4,
             "weapons-skills": 3,
-            "strength": 8,
+            "strength": 12,
             "armor-penetration": 2,
             "damage": 3
         },
         {
-            "name": "Twin Furioso fists",
+            "name": "Blood talons – strike",
             "modifiers": [
                 "twin-linked"
             ],
-            "attacks": 5,
-            "weapons-skills": 3,
+            "attacks": 3,
+            "weapons-skills": 4,
             "strength": 12,
-            "armor-penetration": 3,
-            "damage": 3
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": true
+        },
+        {
+            "name": "Blood talons – sweep",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "attacks": 10,
+            "weapons-skills": 3,
+            "strength": 7,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
         }
     ],
     "unitComposition": [
@@ -136,24 +166,17 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "meltagun; storm bolter",
-                "twin Furioso fists."
+                "Twin Icarus ironhail heavy stubber",
+                "Twin heavy bolter",
+                "Blood fist bolt rifles",
+                "Blood fists"
             ]
         }
     ],
-    "options": [
-        {
-            "count": [
-                1
-            ],
-            "points": 145
-        }
-    ],
-    "additionalParameter": {},
-    "warGearAbilities": [
-        {
-            "wargear": "Magna-grapple",
-            "ability": "The bearer loses the Smoke keyword, but add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a MONSTER or VEHICLE unit."
-        }
-    ]
+    "options": [ {
+        "count": [
+            1
+        ],
+        "points": 120
+    }]
 }

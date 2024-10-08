@@ -1,0 +1,151 @@
+{
+    "parentUnit": "Blood Angels Captain",
+    "factionKeyword": [
+        "adeptus astartes",
+        "blood angels"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Captains of the Blood Angels Chapter are mighty warriors possessed of tactical and strategic genius. In keeping with their Chapter’s culture, they go to war clad in finely wrought artificer armour and wielding an array of deadly relic weapons drawn from the Chapter’s Armoury.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "captain"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objectiveControl": 1,
+            "invulnerableSave": 4
+        }
+    ],
+    "leader": [
+        "Assault Intercessor Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Inferno pistol",
+            "modifiers": [
+                "melta 2",
+                "pistol"
+            ],
+            "range": 6,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 4,
+            "damage": "D3",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Rites of Battle",
+                "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+            },
+            {
+                "name": "Finest Hour",
+                "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {
+            "miniature":"blood angels captain",
+            "description": "This model’s heavy bolt pistol can be replaced with 1 inferno pistol.",
+            "options": [
+                "inferno pistol"
+            ]
+        },
+        {
+            "miniature":"blood angels captain",
+            "description": "This model’s master-crafted chainsword can be replaced with one of the following:",
+          
+            "options": [
+                "relic weapon",
+                "power fist"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Master-crafted chainsword",
+            "modifiers": [],
+            "attacks": 7,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 1,
+            "damage": 2
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Relic weapon",
+            "modifiers": [],
+            "attacks": 6,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Blood Angels Captain",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Heavy bolt pistol",
+                "Master-crafted chainsword"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 75
+        }
+    ],
+    "additionalParameter": {}
+}

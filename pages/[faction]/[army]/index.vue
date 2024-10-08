@@ -3,7 +3,7 @@
     <NavbarComponentsButtonGrid />
 
     <!-- Main army content -->
-     <div class="army_main flex items-center justify-center bg-stone-100"> 
+     <div class="army_main flex items-center justify-center bg-orange-500"> 
     <!-- <div class="army_main flex items-center justify-center bg-orange-500"> -->
 
       <div class="collection-container w-full px-2 pt-2 pb-20 m-2 bg-white border border-black-500">

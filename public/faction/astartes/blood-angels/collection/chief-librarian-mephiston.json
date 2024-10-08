@@ -102,15 +102,11 @@
         "otherAbilities": [
             {
                 "name": "The Quickening (Psychic):",
-                "description": "While this model is leading a unit, models in that unit have the Fights First ability."
-            },
-            {
-                "name": "Psychic Hood:",
-                "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks ."
+                "description": "This model is eligible to declare a charge in a turn in which it Advanced."
             },
             {
                 "name": "Transfixing Gaze (Psychic):",
-                "description": "At the start of the Fight phase , you can select one enemy unit within Engagement Range of this PSYKER ’s unit and roll one D6: on a 1, this PSYKER model suffers D3 mortal wounds ; on a 2-5, until the end of the phase, worsen the Weapon Skill characteristic of melee weapons equipped by models in that enemy unit by 1; on a 6, until the end of the phase, worsen the Weapon Skill and Attacks characteristics of those weapons by 1."
+                "description": "While an enemy unit is within 6'' of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
             }
         ]
     },
@@ -119,7 +115,7 @@
         {
             "name": "Vitarus",
             "modifiers": [
-                "psychic"
+                "psychic","lethal hits"
             ],
             "attacks": 6,
             "weapons-skills": 2,
@@ -145,7 +141,7 @@
             "count": [
                 1
             ],
-            "points": 100
+            "points": 125
         }
     ],
     "additionalParameter": {}

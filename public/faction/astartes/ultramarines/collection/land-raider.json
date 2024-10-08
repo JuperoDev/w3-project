@@ -108,18 +108,27 @@
         ]
     },
     "wargear": [
-        {"miniature":"landraider",
-        "description": "This model can be equipped with 1 hunter-killer missile.",
-        "items": ["hunter-killer missile"]
-    },
-    {"miniature":"landraider",
-        "description": "This model can be equipped with 1 multi-melta.",
-        "items": ["multi-melta"]
-    },
-    {"miniature":"landraider",
-        "description": "This model can be equipped with 1 storm bolter.",
-        "items": ["storm bolter"]
-    }
+        {
+            "miniature": "landraider",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": [
+                "hunter-killer missile"
+            ]
+        },
+        {
+            "miniature": "landraider",
+            "description": "This model can be equipped with 1 multi-melta.",
+            "items": [
+                "multi-melta"
+            ]
+        },
+        {
+            "miniature": "landraider",
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": [
+                "storm bolter"
+            ]
+        }
     ],
     "meleeWeapons": [
         {
@@ -138,7 +147,9 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "twin heavy bolter", "2 godhammer lascannons","armoured tracks"
+                "twin heavy bolter",
+                "2 godhammer lascannons",
+                "armoured tracks"
             ]
         }
     ],
@@ -151,5 +162,5 @@
         }
     ],
     "additionalParameter": {},
-    "transport":"This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+    "transport": "This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
 }

@@ -99,32 +99,29 @@
             "Oath of Moment"
         ],
         "otherAbilities": [
-            {
-                "name": "Lost to Fury",
-                "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
-            },
+           
             {
                 "name": "Black Rage",
                 "description": "Each time this model makes a melee attack, you can re-roll the Hit roll. While this model’s unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
             },
             {
-                "name": "Death Vision of Sanguinius",
-                "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy WARLORD: on a 2-3, that enemy unit suffers D3 mortal wounds, on a 4-5, that enemy unit suffers 3 mortal wounds, on a 6+, that enemy unit suffers D3+3 mortal wounds."
+                "name": "Savage Fury",
+                "description": "You can re-roll Charge rolls made for this unit"
             }
         ]
     },
     "wargear": [
         {
-            "minuature": "Death Company Captain with Jump Pack",
-            "option": "This model’s heavy bolt pistol can be replaced with one of the following:",
+            "miniature": "Death Company Captain with Jump Pack",
+            "description": "This model’s heavy bolt pistol can be replaced with one of the following:",
             "items": [
                 "plasma pistol",
                 "hand flamer"
             ]
         },
         {
-            "minuature": "Death Company Captain with Jump Pack",
-            "option": "This model’s Astartes chainsword can be replaced with one of the following:",
+            "miniature": "Death Company Captain with Jump Pack",
+            "description": "This model’s Astartes chainsword can be replaced with one of the following:",
             "items": [
                 "power fist",
                 "relic weapon"
@@ -163,18 +160,27 @@
     "unitComposition": [
         {
             "unitType": "Death Company Captain with Jump Pack",
-            "minQuantity": 1,
-            "maxQuantity": 1,
+            "minQuantity": 5,
+            "maxQuantity": 10,
             "equipment": [
                 "Heavy bolt pistol",
                 "Astartes chainsword"
             ]
         }
     ],
-    "options": [ {
-        "count": [
-            1
-        ],
-        "points": 120
-    }]
+    "options": [
+        {
+            "count": [
+                5
+            ],
+            "points": 115
+        },
+        {
+            "count": [
+               10
+            ],
+            "points": 230
+        }
+    ],
+    "additionalParameter": {}
 }

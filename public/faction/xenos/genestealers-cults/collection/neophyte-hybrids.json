@@ -27,6 +27,19 @@
     "leader": [],
     "rangedWeapons": [
         {
+            "name": "Anointed pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 3,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
             "name": "Autopistol",
             "modifiers": [
                 "pistol"
@@ -47,20 +60,7 @@
             "range": 24,
             "strength": 3,
             "attacks": 1,
-            "ballistic-skills": 0,
-            "armor-penetration": 0,
-            "damage": 1,
-            "singleChoice": false
-        },
-        {
-            "name": "Leader pistol",
-            "modifiers": [
-                "pistol"
-            ],
-            "range": 12,
-            "strength": 4,
-            "attacks": 1,
-            "ballistic-skills": 0,
+            "ballistic-skills": 4,
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
@@ -113,7 +113,7 @@
             "range": 36,
             "strength": 4,
             "attacks": 1,
-            "ballistic-skills": 0,
+            "ballistic-skills": 4,
             "armor-penetration": 0,
             "damage": 1,
             "singleChoice": false
@@ -236,8 +236,8 @@
         {"miniature":"Neophyte Leader",
             "description": "The Neophyte Leader’s Hybrid firearm and close combat weapon can be replaced with 1 of the following:",
             "items": [
-                "Leader pistol and 1 chainsword",
-                "Leader pistol and 1 power weapon"
+                "Anointed pistol and 1 chainsword",
+                "Anointed pistol and 1 power weapon"
             ]
         }
     ],

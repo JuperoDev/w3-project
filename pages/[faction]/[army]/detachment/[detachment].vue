@@ -7,7 +7,7 @@
       <div class="flex items-center justify-center">
       <h1 class="uppercase font-bebas text-4xl text-zinc-900 px-5 py-3">{{ collectionData.detachmentName }}</h1></div>
     
-    <div v-for="rule in collectionData.detachmentRule" :key="rule.name">
+    <div v-for="rule in collectionData.detachmentRule" :key="rule.name" >
       <div class="detachment-rule--container  bg-zinc-600">
        
         <h3 class="text-slate-200 capitalize py-2 px-3 font-bebas text-2xl"><span class="">{{ rule.name }}</span></h3>
@@ -22,7 +22,7 @@
 
 
     <DetachmentsDesktopStratagems :stratagems="collectionData.stratagems"/> 
-    <DetachmentsDesktopEnhacements :enhacements="collectionData.enhacements"/> 
+    <DetachmentsDesktopEnhacements :enhacements="collectionData.enhacements" class=" mb-20"/> 
     <GeneralPurposeFloatingFooter/>
   </div>
 

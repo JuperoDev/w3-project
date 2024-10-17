@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-orange-500 "> 
+  <div class="bg-stone-100 "> 
     
     <NavbarComponentsButtonGrid />
    

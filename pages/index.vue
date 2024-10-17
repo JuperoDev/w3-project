@@ -2,7 +2,7 @@
   <div class="">
     <NavbarComponentsPrincipalNav />
     <!-- <div class="bg-stone-100 p-2 md:px-2 lg:px-16 h-full relative pb-20">  -->
-      <div class="bg-orange-500 p-2 md:px-10 lg:px-16 h-full relative pb-20"> 
+      <div class="bg-stone-100 p-2 md:px-10 lg:px-16 h-full relative pb-20"> 
 
       <!-- <GeneralPurposeFireSparks /> -->
 

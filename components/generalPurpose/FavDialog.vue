@@ -38,8 +38,13 @@
 
 <script setup>
 import { useUnitStore } from '~/stores/UnitStore'
+import { onMounted } from 'vue'
 
 const unitStore = useUnitStore()
+
+onMounted(() => {
+  unitStore.initializeStore() // Load favorite units from local storage when the component is mounted
+})
 
 const generateLink = (info) => {
   const baseURL = process.env.VUE_APP_BASE_URL || ''; // Get the base URL from environment variables or configuration
@@ -53,9 +58,11 @@ const removeFavoriteUnit = (index) => {
   if (index >= 0 && index < unitStore.elements.length) {
     unitStore.elements.splice(index, 1);
     unitStore.info.splice(index, 1);
+    unitStore.saveData(); // Save the updated data back to local storage
   }
 }
 </script>
+
 <style>
 .fav-dialog__close-icon {
   border: none !important; /* Remove the border */

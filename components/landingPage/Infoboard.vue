@@ -5,8 +5,8 @@
         <div class="mb-8 text-center">
           <h2 class="font-bold text-lg">Latest updates:</h2>
           <ul class="list-none mt-2">
+            <li class="text-gray-400">Munitorum Field Manual 1.13 (10/2024)</li>            <!-- <li class="text-gray-400">Apocrypha  Necromunda: Blood, Ash and Gunshine (02/2024)</li> -->
             <li class="text-gray-400">Blood Angels 10th Edition Codex (10/2024)</li>
-            <!-- <li class="text-gray-400">Apocrypha Necromunda: Blood, Ash and Gunshine (02/2024)</li> -->
           </ul>
         </div>
   

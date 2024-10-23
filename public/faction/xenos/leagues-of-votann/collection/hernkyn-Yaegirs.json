@@ -1,0 +1,174 @@
+{
+    "parentUnit": "Yaegirs",
+    "factionKeyword": [
+        "leagues of votann"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Merciless forward operatives charged with denying crucial assets to the foe, Yaegirs use every weapon and tactic at their disposal to make the Ancestors proud. Particularly deadly is their Adaptive Payload Missile Launcher, or APM, whose warheads can be chemically recalibrated mid-battle for various targets.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "hernkyn yaegirs"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 5,
+            "save": 5,
+            "wounds": 1,
+            "leadership": 7,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "wargear": [
+        {
+            "miniature": "Yaegir Theyn",
+            "description": "All models in this unit can each have their bolt shotgun replaced with 1 bolt revolver and 1 plasma knife.",
+            "items": [
+                "bolt revolver","plasma knife"
+            ],"hideInDatasheet":true
+        },
+        {
+            "miniature": "Hernkyn Yaegirs",
+            "description": "All models in this unit can each have their bolt shotgun replaced with 1 bolt revolver and 1 plasma knife.",
+            "items": [
+                "bolt revolver","plasma knife"
+            ],"hideInDatasheet":false
+        },
+        {
+            "miniature": "Hernkyn Yaegirs",
+            "description": "Hernkyn Yaegir can have its bolt revolver and plasma knife or its bolt shotgun replaced with 1 magna-coil rifle.",
+            "items": [
+                "magna-coil rifle"
+            ]
+        },
+        {
+            "miniature": "Hernkyn Yaegirs",
+            "description": "1 Hernkyn Yaegir can have its bolt revolver and plasma knife or its bolt shotgun replaced with 1 APM launcher",
+            "items": [
+                "APM launcher"
+            ]
+        }
+    ],
+    "rangedWeapons": [
+        {
+            "name": "APM launchwer",
+            "modifiers": [
+                "anti-monster 3+","anti-vehicle 3+"
+            ],
+            "range": 24,
+            "strength": 6,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt revolver",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 9,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt shotgun",
+            "modifiers": [
+                "assault"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Magna-coil rifle",
+            "modifiers": [
+                "ignores cover","precision"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators"
+        ],
+        "faction": [
+            "Eye of the Ancestors"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Pragmatic Hunters",
+                "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9'' of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6."
+            }
+        ]
+    },
+    "additionalParameter": {},
+    "unitComposition": [
+        {
+            "unitType": "Yaegir Theyn",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt shotgun","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Hernkyn Yaegirs",
+            "minQuantity": 1,
+            "maxQuantity": 9,
+            "equipment": [
+                "bolt shotgun","close combat weapon"
+            ]
+        }
+    ],
+    "warGearAbilities": [
+      
+    ],
+    "options": [
+        {
+            "count": [
+                1,9
+            ],
+            "points": 90
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "attacks": 1,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "modifiers": []
+        },
+        {
+            "name": "Plasma knife",
+            "attacks": 2,
+            "weapons-skills": 4,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 1,
+            "modifiers": []
+        }
+    ]
+}

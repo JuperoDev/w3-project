@@ -12,6 +12,7 @@
     
         <div class="sm:ml-2 md:ml-24">
         <GeneralPurposeBreadCrumbs/>
+        <NavbarComponentsDummy/>
     </div>
     <!-- <GeneralPurposePopMenu/> -->
 </div>

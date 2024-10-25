@@ -2,7 +2,7 @@
     <div ref="dropdown" class="relative">
       <!-- Trigger Text -->
       <div @click="toggleDropdown" class="cursor-pointer text-blue-600">
-        Click me to open dropdown
+        {{ triggerText }}
       </div>
   
       <!-- Dropdown Container -->
@@ -45,6 +45,14 @@
   
   <script setup>
   import { ref, onMounted, onBeforeUnmount } from 'vue'
+  
+  const props = defineProps({
+    triggerText: {
+      type: String,
+      required: true,
+      default: 'Click me to open dropdown',
+    },
+  })
   
   const isOpen = ref(false)
   const dropdown = ref(null)

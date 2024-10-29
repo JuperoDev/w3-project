@@ -1,6 +1,6 @@
 <template>
   <div ref="dropdown" class="relative">
-    <!-- Trigger Text with Click and Hover to Toggle Dropdown -->
+    <!-- Trigger Text -->
     <div
       @click="toggleDropdown"
       @mouseenter="showDropdown"
@@ -9,46 +9,97 @@
       {{ triggerText }}
     </div>
 
-    <!-- Dropdown Container -->
+    <!-- Dropdown Container with scrolling and two-column layout -->
     <div
       v-if="isOpen"
-      class="absolute top-10 left-0 w-full bg-white border rounded-lg shadow-lg p-4 grid grid-cols-3 gap-4"
+      class="fixed top-[100px] left-1/2 transform -translate-x-1/2 w-[90vw] max-w-[800px] bg-white border rounded-lg shadow-lg p-4 z-50 max-h-[600px] overflow-y-auto"
     >
-      <!-- Column 1 -->
-      <div>
-        <h3 class="font-bold mb-2">Column 1</h3>
-        <ul>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 1</a></li>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 2</a></li>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 3</a></li>
-        </ul>
-      </div>
+      <!-- Link back to the army page -->
+      <nuxt-link
+        :to="`/${faction}/${army}/`"
+        class="font-bold text-lg text-gray-800 hover:text-gray-900 underline mb-4 block"
+      >
+        {{ formattedArmyName }}
+      </nuxt-link>
 
-      <!-- Column 2 -->
-      <div>
-        <h3 class="font-bold mb-2">Column 2</h3>
-        <ul>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 4</a></li>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 5</a></li>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 6</a></li>
-        </ul>
-      </div>
+      <!-- Two-column layout with Characters, Battleline, and Dedicated Transports in the first column, and Other Units in the second column -->
+      <div class="grid grid-cols-2 gap-x-8 gap-y-4">
+        
+        <!-- First Column -->
+        <div>
+          <!-- Characters Section -->
+          <div v-if="data.characters" class="mb-4">
+            <h3 class="font-bold text-red-600">Characters</h3>
+            <ul class="list-none space-y-1">
+              <li v-for="character in data.characters" :key="character.unitName">
+                <nuxt-link
+                  :to="`/${faction}/${army}/${character.unitName.replace(/ /g, '-')}`"
+                  class="text-gray-800 hover:text-gray-900"
+                >
+                  {{ character.unitName }}
+                </nuxt-link>
+              </li>
+            </ul>
+          </div>
 
-      <!-- Column 3 -->
-      <div>
-        <h3 class="font-bold mb-2">Column 3</h3>
-        <ul>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 7</a></li>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 8</a></li>
-          <li><a href="#" class="text-gray-600 hover:text-gray-900">Dummy Link 9</a></li>
-        </ul>
+          <!-- Battleline Section -->
+          <div v-if="data.battleline" class="mb-4">
+            <h3 class="font-bold text-red-600">Battleline</h3>
+            <ul class="list-none space-y-1">
+              <li v-for="unit in data.battleline" :key="unit.unitName">
+                <nuxt-link
+                  :to="`/${faction}/${army}/${unit.unitName.replace(/ /g, '-')}`"
+                  class="text-gray-800 hover:text-gray-900"
+                >
+                  {{ unit.unitName }}
+                </nuxt-link>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Dedicated Transports Section -->
+          <div v-if="data.dedicatedTransports" class="mb-4">
+            <h3 class="font-bold text-red-600">Dedicated Transports</h3>
+            <ul class="list-none space-y-1">
+              <li v-for="unit in data.dedicatedTransports" :key="unit.unitName">
+                <nuxt-link
+                  :to="`/${faction}/${army}/${unit.unitName.replace(/ /g, '-')}`"
+                  class="text-gray-800 hover:text-gray-900"
+                >
+                  {{ unit.unitName }}
+                </nuxt-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div>
+          <!-- Other Units Section -->
+          <div v-if="data.other" class="mb-4">
+            <h3 class="font-bold text-red-600">Other Units</h3>
+            <ul class="list-none space-y-1">
+              <li v-for="unit in data.other" :key="unit.unitName">
+                <nuxt-link
+                  :to="`/${faction}/${army}/${unit.unitName.replace(/ /g, '-')}`"
+                  class="text-gray-800 hover:text-gray-900"
+                >
+                  {{ unit.unitName }}
+                </nuxt-link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
+
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { useRoute } from 'vue-router'
+import axios from 'axios'
 
 const props = defineProps({
   triggerText: {
@@ -58,26 +109,36 @@ const props = defineProps({
   },
 })
 
+const route = useRoute()
 const isOpen = ref(false)
 const dropdown = ref(null)
+const data = ref({})
+const faction = route.params.faction
+const army = route.params.army
+
+// Computed property to format the army name without hyphens and capitalize words
+const formattedArmyName = computed(() => {
+  return army.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+})
+
+// Fetch data from the collection.json file based on route
+const fetchData = async () => {
+  try {
+    const response = await axios.get(`/faction/${faction}/${army}/collection.json`)
+    data.value = response.data
+  } catch (error) {
+    console.error('Error fetching data:', error)
+  }
+}
 
 // Toggle dropdown on click
 const toggleDropdown = () => {
   isOpen.value = !isOpen.value
 }
 
-// Show dropdown on hover for desktop only
+// Show dropdown on hover
 const showDropdown = () => {
-  if (window.innerWidth >= 1024) { // Desktop breakpoint
-    isOpen.value = true
-  }
-}
-
-// Hide dropdown on mouse leave for desktop only
-const hideDropdown = () => {
-  if (window.innerWidth >= 1024) {
-    isOpen.value = false
-  }
+  isOpen.value = true
 }
 
 // Close dropdown if clicked outside
@@ -87,11 +148,13 @@ const handleClickOutside = (event) => {
   }
 }
 
-// Add event listeners based on screen size
+// Fetch data on mount
 onMounted(() => {
+  fetchData()
   document.addEventListener('click', handleClickOutside)
 })
 
+// Clean up event listener
 onBeforeUnmount(() => {
   document.removeEventListener('click', handleClickOutside)
 })
@@ -100,5 +163,23 @@ onBeforeUnmount(() => {
 <style scoped>
 .text-gray-300 {
   color: #cccccc; /* Whiteish color */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 0.5rem 2rem; /* Horizontal and vertical gaps */
+}
+
+.font-bold.text-red-600 {
+  color: #a00; /* Set to red */
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.space-y-1 > :not(:first-child) {
+  margin-top: 0.25rem; /* Adds spacing between items in lists */
 }
 </style>

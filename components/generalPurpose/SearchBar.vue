@@ -17,7 +17,7 @@
         @click="navigate(option.unit)"
       >
         <div>{{ option.unit }}</div>
-        <small class="text-zinc-500" >{{ option.group }}</small>
+        <small class="text-zinc-500">{{ option.group.replace(/-/g, " ") }}</small>
       </li>
       <li v-if="moreElementsMessage" class="more-elements">
         {{ moreElementsMessage }}

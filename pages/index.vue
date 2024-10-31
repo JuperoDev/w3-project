@@ -28,6 +28,13 @@
   </div>
 </template>
 
+<script setup>
+
+onMounted(()=> document.title="Deep Strike")
+</script>
+
+
+
 <style scoped>
 
 

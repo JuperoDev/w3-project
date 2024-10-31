@@ -95,6 +95,30 @@ const replaceHyphensWithSpaces = (input) => {
   return input.replace(/-/g, " ");
 };
 
+// Function to normalize unit names for comparison (e.g., lowercase and remove spaces)
+const normalizeName = (name) => name.toLowerCase().replace(/\s+/g, '');
+
+// Create a Set of normalized unit names
+const unitsSet = ref(new Set());
+
+// Fetch army data on component mount
+onMounted(async () => {
+  try {
+    const sanitizedFaction = replaceUnwantedCharacters(faction);
+    const sanitizedArmy = replaceUnwantedCharacters(army);
+
+    const res = await fetch(
+      `/faction/${sanitizedFaction}/${sanitizedArmy}/collection.json`
+    );
+    armyData.value = await res.json();
+
+    // Populate unitsSet with normalized unit names from armyData.units
+    unitsSet.value = new Set(armyData.value.units?.map(unit => normalizeName(unit)) || []);
+  } catch (error) {
+    console.error("Fetch Error: ", error);
+  }
+});
+
 // Function to generate sanitized link to army units
 const generateLink = (faction, army, unitName) => {
   const sanitizedUnitName = replaceUnwantedCharacters(unitName);
@@ -109,34 +133,35 @@ const generateDetachment = (faction, army, detachment) => {
   return `/${sanitizedFaction}/${sanitizedArmy}/detachment/${sanitizedDetachment}`;
 };
 
-// Fetch army data on component mount
-onMounted(async () => {
-  try {
-    const sanitizedFaction = replaceUnwantedCharacters(faction);
-    const sanitizedArmy = replaceUnwantedCharacters(army);
-
-    const res = await fetch(
-      `/faction/${sanitizedFaction}/${sanitizedArmy}/collection.json`
-    );
-    armyData.value = await res.json();
-  } catch (error) {
-    console.error("Fetch Error: ", error);
-  }
-});
-
 // Sort detachments alphabetically
 const sortedDetachments = computed(() =>
   armyData.value?.detachments ? [...armyData.value.detachments].sort() : []
 );
 
 // List of unit categories with corresponding display names and access paths
+// List of unit categories with corresponding display names and access paths
 const unitCategories = computed(() => [
-  { name: "characters", displayName: "Characters", units: armyData.value.characters || [] },
-  { name: "battleline", displayName: "Battleline", units: armyData.value.battleline || [] },
-  { name: "dedicatedTransports", displayName: "Dedicated Transports", units: armyData.value.dedicatedTransports || [] },
-  { name: "other", displayName: "Other Units", units: armyData.value.other || [] },
-  { name: "alliedUnits", displayName: "Allied Units", units: armyData.value.alliedUnits?.flatMap(ally => ally.characters || []) || [] }
-]);
+  {
+    name: "characters",
+    displayName: "Characters",
+    units: armyData.value.characters?.filter(character => unitsSet.value.has(normalizeName(character.unitName))) || []
+  },
+  {
+    name: "battleline",
+    displayName: "Battleline",
+    units: armyData.value.battleline?.filter(unit => unitsSet.value.has(normalizeName(unit.unitName))) || []
+  },
+  {
+    name: "dedicatedTransports",
+    displayName: "Dedicated Transports",
+    units: armyData.value.dedicatedTransports?.filter(unit => unitsSet.value.has(normalizeName(unit.unitName))) || []
+  },
+  {
+    name: "other",
+    displayName: "Other Units",
+    units: armyData.value.other?.filter(unit => unitsSet.value.has(normalizeName(unit.unitName))) || []
+  }
+].filter(category => category.units.length > 0)); // Filter out empty categories
 
 // Sort units alphabetically within each category
 const sortedUnits = (units) => (units ? [...units].sort((a, b) => a.unitName.localeCompare(b.unitName)) : []);

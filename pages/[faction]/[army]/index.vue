@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper">
-    <NavbarComponentsButtonGrid />
+    <NavbarComponentsButtonGrid v-if="showNavbar" />
 
     <!-- Main army content -->
-    <div class="army_main flex items-center justify-center bg-stone-100">
+    <div v-if="armyData && Object.keys(armyData).length" class="army_main flex items-center justify-center bg-stone-100">
       <div class="collection-container w-full px-2 pt-2 pb-20 m-2 bg-white border border-black-500">
         <div class="collection-container__left-column">
           <div class="inner-container text-justify rounded-sm bg-white bg-opacity-70">
@@ -74,32 +74,28 @@
         </div>
       </div>
     </div>
-    <GeneralPurposeFloatingFooter />
+
+    <!-- NotFound Component if data is missing -->
+    <NotFound v-else />
+
+    <GeneralPurposeFloatingFooter v-if="showNavbar" />
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, computed } from "vue";
 import { useRoute } from "vue-router";
+import NotFound from "~/components/generalPurpose/NotFound.vue";
 
 const armyData = ref({});
+const showNavbar = ref(true);
 const { faction, army } = useRoute().params;
 
 // Function to replace unwanted characters with hyphens
-const replaceUnwantedCharacters = (input) => {
-  return input.replace(/[^a-zA-Z0-9-]/g, "-");
-};
+const replaceUnwantedCharacters = (input) => input.replace(/[^a-zA-Z0-9-]/g, "-");
 
 // Function to replace hyphens with spaces in the army title
-const replaceHyphensWithSpaces = (input) => {
-  return input.replace(/-/g, " ");
-};
-
-// Function to normalize unit names for comparison (e.g., lowercase and remove spaces)
-const normalizeName = (name) => name.toLowerCase().replace(/\s+/g, '');
-
-// Create a Set of normalized unit names
-const unitsSet = ref(new Set());
+const replaceHyphensWithSpaces = (input) => input.replace(/-/g, " ");
 
 // Fetch army data on component mount
 onMounted(async () => {
@@ -107,15 +103,21 @@ onMounted(async () => {
     const sanitizedFaction = replaceUnwantedCharacters(faction);
     const sanitizedArmy = replaceUnwantedCharacters(army);
 
-    const res = await fetch(
-      `/faction/${sanitizedFaction}/${sanitizedArmy}/collection.json`
-    );
+    const res = await fetch(`/faction/${sanitizedFaction}/${sanitizedArmy}/collection.json`);
+    if (!res.ok) {
+      showNavbar.value = false; // Hide Navbar for 404
+      return;
+    }
+
     armyData.value = await res.json();
 
-    // Populate unitsSet with normalized unit names from armyData.units
-    unitsSet.value = new Set(armyData.value.units?.map(unit => normalizeName(unit)) || []);
+    // If no valid army data, hide navbar and show NotFound
+    if (!armyData.value || Object.keys(armyData.value).length === 0) {
+      showNavbar.value = false;
+    }
   } catch (error) {
     console.error("Fetch Error: ", error);
+    showNavbar.value = false; // Hide Navbar on error
   }
 });
 
@@ -139,28 +141,11 @@ const sortedDetachments = computed(() =>
 );
 
 // List of unit categories with corresponding display names and access paths
-// List of unit categories with corresponding display names and access paths
 const unitCategories = computed(() => [
-  {
-    name: "characters",
-    displayName: "Characters",
-    units: armyData.value.characters?.filter(character => unitsSet.value.has(normalizeName(character.unitName))) || []
-  },
-  {
-    name: "battleline",
-    displayName: "Battleline",
-    units: armyData.value.battleline?.filter(unit => unitsSet.value.has(normalizeName(unit.unitName))) || []
-  },
-  {
-    name: "dedicatedTransports",
-    displayName: "Dedicated Transports",
-    units: armyData.value.dedicatedTransports?.filter(unit => unitsSet.value.has(normalizeName(unit.unitName))) || []
-  },
-  {
-    name: "other",
-    displayName: "Other Units",
-    units: armyData.value.other?.filter(unit => unitsSet.value.has(normalizeName(unit.unitName))) || []
-  }
+  { name: "characters", displayName: "Characters", units: armyData.value.characters || [] },
+  { name: "battleline", displayName: "Battleline", units: armyData.value.battleline || [] },
+  { name: "dedicatedTransports", displayName: "Dedicated Transports", units: armyData.value.dedicatedTransports || [] },
+  { name: "other", displayName: "Other Units", units: armyData.value.other || [] }
 ].filter(category => category.units.length > 0)); // Filter out empty categories
 
 // Sort units alphabetically within each category

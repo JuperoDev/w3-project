@@ -55,8 +55,8 @@
             <h2 class="text-3xl text-zinc-800 font-bebas my-3">Units</h2>
           </div>
 
-          <!-- Display each unit category -->
-          <div v-for="category in unitCategories" :key="category.name" class="unit-category">
+          <!-- Display each filtered unit category -->
+          <div v-for="category in filteredCategories" :key="category.name" class="unit-category">
             <div class="flex items-center justify-center">
               <h3 class="text-2xl text-zinc-700 font-bebas my-2">{{ category.displayName }}</h3>
             </div>
@@ -121,6 +121,22 @@ onMounted(async () => {
   }
 });
 
+// Get the list of unit names from "units"
+const unitNames = computed(() => new Set(armyData.value.units || []));
+
+// Filtered categories based on the presence of unitName in units list
+const filteredCategories = computed(() => {
+  const categories = ["characters", "battleline", "dedicatedTransports", "other"];
+  return categories.map((category) => ({
+    name: category,
+    displayName: category.charAt(0).toUpperCase() + category.slice(1).replace(/([A-Z])/g, " $1"),
+    units: (armyData.value[category] || []).filter(unit => unitNames.value.has(unit.unitName)),
+  })).filter(category => category.units.length > 0);
+});
+
+// Sort units alphabetically within each category
+const sortedUnits = (units) => (units ? [...units].sort((a, b) => a.unitName.localeCompare(b.unitName)) : []);
+
 // Function to generate sanitized link to army units
 const generateLink = (faction, army, unitName) => {
   const sanitizedUnitName = replaceUnwantedCharacters(unitName);
@@ -139,17 +155,6 @@ const generateDetachment = (faction, army, detachment) => {
 const sortedDetachments = computed(() =>
   armyData.value?.detachments ? [...armyData.value.detachments].sort() : []
 );
-
-// List of unit categories with corresponding display names and access paths
-const unitCategories = computed(() => [
-  { name: "characters", displayName: "Characters", units: armyData.value.characters || [] },
-  { name: "battleline", displayName: "Battleline", units: armyData.value.battleline || [] },
-  { name: "dedicatedTransports", displayName: "Dedicated Transports", units: armyData.value.dedicatedTransports || [] },
-  { name: "other", displayName: "Other Units", units: armyData.value.other || [] }
-].filter(category => category.units.length > 0)); // Filter out empty categories
-
-// Sort units alphabetically within each category
-const sortedUnits = (units) => (units ? [...units].sort((a, b) => a.unitName.localeCompare(b.unitName)) : []);
 </script>
 
 <style scoped>

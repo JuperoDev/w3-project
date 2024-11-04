@@ -134,17 +134,24 @@
         ]
     },
     "wargear": [
-        {"miniature":"",
+        {"miniature":"Scout Sergeant",
             "description": "The Scout Sergeant's boltgun can be replaced with 1 Astartes chainsword.",
-            "items": []
+            "items": ["Astartes chainsword"]
         },
-        {"miniature":"",
+        {"miniature":"Scout Sergeant",
             "description": "Any number of models can each have their boltgun replaced with one of the following",
             "items": [
                 "Astartes shotgun",
                 "combat knife"
-            ]
+            ],"hideInDataSheet":true
         },
+        {"miniature":"Scouts",
+        "description": "Any number of models can each have their boltgun replaced with one of the following",
+        "items": [
+            "Astartes shotgun",
+            "combat knife"
+        ]
+    },
         {"miniature":"Scouts",
             "description": "For every 5 models in this unit, 1 Scout’s boltgun can be replaced with 1 Scout sniper rifle.",
             "items": ["Scout sniper rifle"]

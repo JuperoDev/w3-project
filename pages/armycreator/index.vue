@@ -131,6 +131,7 @@
           />
         </div>
       </div>
+      <div class="addSpace"></div>
     </v-main>
     <GeneralPurposeFloatingFooter />
   </v-app>
@@ -349,5 +350,9 @@ h2 {
   color: #191919;
   margin-left: 30px;
   text-transform: uppercase;
+}
+
+.addSpace{
+  margin-bottom: 150px;
 }
 </style>

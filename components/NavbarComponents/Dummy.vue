@@ -28,10 +28,10 @@
         <!-- First Column -->
         <div>
           <!-- Characters Section -->
-          <div v-if="data.characters" class="mb-4">
+          <div v-if="filteredData.characters.length" class="mb-4">
             <h3 class="font-bold text-red-600">Characters</h3>
             <ul class="list-none space-y-1">
-              <li v-for="character in data.characters" :key="character.unitName">
+              <li v-for="character in filteredData.characters" :key="character.unitName">
                 <nuxt-link
                   :to="`/${faction}/${army}/${character.unitName.replace(/ /g, '-')}`"
                   class="text-gray-800 hover:text-gray-900"
@@ -43,10 +43,10 @@
           </div>
 
           <!-- Battleline Section -->
-          <div v-if="data.battleline" class="mb-4">
+          <div v-if="filteredData.battleline.length" class="mb-4">
             <h3 class="font-bold text-red-600">Battleline</h3>
             <ul class="list-none space-y-1">
-              <li v-for="unit in data.battleline" :key="unit.unitName">
+              <li v-for="unit in filteredData.battleline" :key="unit.unitName">
                 <nuxt-link
                   :to="`/${faction}/${army}/${unit.unitName.replace(/ /g, '-')}`"
                   class="text-gray-800 hover:text-gray-900"
@@ -58,10 +58,10 @@
           </div>
 
           <!-- Dedicated Transports Section -->
-          <div v-if="data.dedicatedTransports" class="mb-4">
+          <div v-if="filteredData.dedicatedTransports.length" class="mb-4">
             <h3 class="font-bold text-red-600">Dedicated Transports</h3>
             <ul class="list-none space-y-1">
-              <li v-for="unit in data.dedicatedTransports" :key="unit.unitName">
+              <li v-for="unit in filteredData.dedicatedTransports" :key="unit.unitName">
                 <nuxt-link
                   :to="`/${faction}/${army}/${unit.unitName.replace(/ /g, '-')}`"
                   class="text-gray-800 hover:text-gray-900"
@@ -76,10 +76,10 @@
         <!-- Second Column -->
         <div>
           <!-- Other Units Section -->
-          <div v-if="data.other" class="mb-4">
+          <div v-if="filteredData.other.length" class="mb-4">
             <h3 class="font-bold text-red-600">Other Units</h3>
             <ul class="list-none space-y-1">
-              <li v-for="unit in data.other" :key="unit.unitName">
+              <li v-for="unit in filteredData.other" :key="unit.unitName">
                 <nuxt-link
                   :to="`/${faction}/${army}/${unit.unitName.replace(/ /g, '-')}`"
                   class="text-gray-800 hover:text-gray-900"
@@ -94,7 +94,6 @@
     </div>
   </div>
 </template>
-
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
@@ -125,11 +124,27 @@ const formattedArmyName = computed(() => {
 const fetchData = async () => {
   try {
     const response = await axios.get(`/faction/${faction}/${army}/collection.json`)
-    data.value = response.data
+    const rawData = response.data
+
+    // Get lowercase unit names for case-insensitive matching
+    const unitNames = new Set((rawData.units || []).map(unit => unit.toLowerCase()))
+    const otherUnits = new Set((rawData.other || []).map(unit => unit.unitName.toLowerCase()))
+
+    // Filter data based on presence in units and avoid battleline duplicates from other
+    data.value = {
+      characters: (rawData.characters || []).filter(unit => unitNames.has(unit.unitName.toLowerCase())),
+      battleline: (rawData.battleline || [])
+        .filter(unit => unitNames.has(unit.unitName.toLowerCase()) && !otherUnits.has(unit.unitName.toLowerCase())),
+      dedicatedTransports: (rawData.dedicatedTransports || []).filter(unit => unitNames.has(unit.unitName.toLowerCase())),
+      other: (rawData.other || []).filter(unit => unitNames.has(unit.unitName.toLowerCase())),
+    }
   } catch (error) {
     console.error('Error fetching data:', error)
   }
 }
+
+// Computed property to get filtered data for rendering
+const filteredData = computed(() => data.value)
 
 // Toggle dropdown on click
 const toggleDropdown = () => {

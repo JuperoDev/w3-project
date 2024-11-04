@@ -121,17 +121,34 @@ onMounted(async () => {
   }
 });
 
-// Get the list of unit names from "units"
-const unitNames = computed(() => new Set(armyData.value.units || []));
+// Get the list of unit names from "units" in lowercase for case-insensitive matching
+const unitNames = computed(() => new Set((armyData.value.units || []).map(unit => unit.toLowerCase())));
 
-// Filtered categories based on the presence of unitName in units list
+// Filter out units from battleline if they exist in other units
+const otherUnitNames = computed(() => new Set((armyData.value.other || []).map(unit => unit.unitName.toLowerCase())));
+
+// Filtered categories based on the presence of unitName in units list (case-insensitive)
+// Exclude units in battleline if they are also in other units
 const filteredCategories = computed(() => {
-  const categories = ["characters", "battleline", "dedicatedTransports", "other"];
-  return categories.map((category) => ({
-    name: category,
-    displayName: category.charAt(0).toUpperCase() + category.slice(1).replace(/([A-Z])/g, " $1"),
-    units: (armyData.value[category] || []).filter(unit => unitNames.value.has(unit.unitName)),
-  })).filter(category => category.units.length > 0);
+  const categories = [
+    { name: "characters", displayName: "Characters" },
+    { name: "battleline", displayName: "Battleline" },
+    { name: "dedicatedTransports", displayName: "Dedicated Transports" },
+    { name: "other", displayName: "Other Units" },
+  ];
+
+  return categories.map((category) => {
+    const units = (armyData.value[category.name] || [])
+      .filter((unit) => {
+        const unitNameLower = unit.unitName.toLowerCase();
+        // Show units only if in units list and not in both battleline and other
+        return (
+          unitNames.value.has(unitNameLower) &&
+          !(category.name === "battleline" && otherUnitNames.value.has(unitNameLower))
+        );
+      });
+    return { name: category.name, displayName: category.displayName, units };
+  }).filter(category => category.units.length > 0);
 });
 
 // Sort units alphabetically within each category

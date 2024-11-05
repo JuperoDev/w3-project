@@ -14,3 +14,12 @@
 <script setup>
 
 </script>
+
+<style>
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+  touch-action: none;
+}
+</style>

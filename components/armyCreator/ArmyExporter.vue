@@ -11,10 +11,6 @@
           <v-btn @click="copyToClipboard" class="mb-4">
             Copy to Clipboard
           </v-btn>
-          <!-- Button specifically for exporting the simplified list -->
-          <!-- <v-btn @click="copySimplifiedArmyDetails" class="mb-4">
-            Export Simplified
-          </v-btn> -->
           <!-- Switch to toggle between detailed and simplified views with dynamic label -->
           <v-switch
             v-model="showSimplified"
@@ -139,8 +135,8 @@ const formatSimplifiedArmyDetails = (army) => {
       if (unit.selectedEnhancement) {
         unitText += `\n  Enhancement: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)`;
       }
-      return unitText.trim(); // Trim spaces from each unit entry
-    }).join('\n\n');
+      return unitText.trim();
+    }).join('\n');
     sections.push(characterSection);
   }
 
@@ -149,8 +145,17 @@ const formatSimplifiedArmyDetails = (army) => {
     battlelineSection += army.battlelineUnits.map(unit => {
       const totalMiniatures = unit.composition.reduce((sum, comp) => sum + comp.quantity, 0);
       return `${unit.unitName} ${totalMiniatures > 1 ? `(x${totalMiniatures}, ${unit.basicPoints} Points)` : `(${unit.basicPoints} Points)`}`.trim();
-    }).join('\n\n');
+    }).join('\n');
     sections.push(battlelineSection);
+  }
+
+  if (army.dedicatedTransportUnits.length > 0) {
+    let transportSection = '\n + DEDICATED TRANSPORTS + \n\n';
+    transportSection += army.dedicatedTransportUnits.map(unit => {
+      const totalMiniatures = unit.composition.reduce((sum, comp) => sum + comp.quantity, 0);
+      return `${unit.unitName} ${totalMiniatures > 1 ? `(x${totalMiniatures}, ${unit.basicPoints} Points)` : `(${unit.basicPoints} Points)`}`.trim();
+    }).join('\n');
+    sections.push(transportSection);
   }
 
   if (army.otherUnits.length > 0) {
@@ -158,28 +163,27 @@ const formatSimplifiedArmyDetails = (army) => {
     otherSection += army.otherUnits.map(unit => {
       const totalMiniatures = unit.composition.reduce((sum, comp) => sum + comp.quantity, 0);
       return `${unit.unitName} ${totalMiniatures > 1 ? `(x${totalMiniatures}, ${unit.basicPoints} Points)` : `(${unit.basicPoints} Points)`}`.trim();
-    }).join('\n\n');
+    }).join('\n');
     sections.push(otherSection);
   }
 
   if (army.alliedUnits && army.alliedUnits.length > 0) {
-    let alliedSection = '\n + ALLIES + \n\n'; // Add "ALLIES" header
+    let alliedSection = '\n + ALLIES + \n\n';
     const groupedAlliedUnits = groupAlliedUnitsByArmy(army.alliedUnits);
     for (const [alliedArmy, units] of Object.entries(groupedAlliedUnits)) {
-      alliedSection += `${alliedArmy.toUpperCase()}:\n`; // Allied army name in uppercase
+      alliedSection += `${alliedArmy.toUpperCase()}:\n`;
       alliedSection += units.map(unit => {
         const totalMiniatures = unit.composition.reduce((sum, comp) => sum + comp.quantity, 0);
-        return `  ${unit.unitName} ${totalMiniatures > 1 ? `(x${totalMiniatures}, ${unit.basicPoints} Points)` : `(${unit.basicPoints} Points)`}`;
-      }).join('\n\n');
-      alliedSection += '\n\n'; // Separate each allied army with a new line
+        return `${unit.unitName} ${totalMiniatures > 1 ? `(x${totalMiniatures}, ${unit.basicPoints} Points)` : `(${unit.basicPoints} Points)`}`;
+      }).join('\n');
+      alliedSection += '\n\n';
     }
     sections.push(alliedSection.trim());
   }
 
-  result += sections.map(section => section.trim()).join('\n\n'); // Trim extra spaces in each section
+  result += sections.map(section => section.trim()).join('\n\n');
   return result.trim();
 };
-
 
 // Utility function to group allied units by army
 const groupAlliedUnitsByArmy = (units) => {
@@ -196,7 +200,6 @@ const formatUnitDetails = (unit) => {
   let result = `${unit.unitName} (${unit.basicPoints} Points)\n`;
   if (unit.isWarlord) result += `[Warlord]\n`;
 
-  // Additional logic for unit composition and enhancements
   if (unit.composition && unit.composition.length > 0) {
     unit.composition.forEach(comp => {
       result += `• ${comp.quantity}x ${comp.unitType}\n`;
@@ -233,13 +236,13 @@ const openDialog = () => {
 <style scoped>
 .formatted-army-details {
   background-color: #f8f8f8;
-  padding: 0 !important; /* Force remove any padding */
-  margin: 0 !important; /* Force remove any margin */
+  padding: 0 !important;
+  margin: 0 !important;
   border-radius: 0.5rem;
   white-space: pre-wrap;
   font-family: monospace;
-  line-height: 1.2; /* Adjust line-height for tighter vertical spacing */
-  display: flex; /* Use flex to align items tightly */
-  align-items: flex-start; /* Align content to the top */
+  line-height: 1.2;
+  display: flex;
+  align-items: flex-start;
 }
 </style>

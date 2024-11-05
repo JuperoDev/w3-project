@@ -12,13 +12,17 @@
             Copy to Clipboard
           </v-btn>
           <!-- Button specifically for exporting the simplified list -->
-          <v-btn @click="copySimplifiedArmyDetails" class="mb-4">
+
+
+          <!-- <v-btn @click="copySimplifiedArmyDetails" class="mb-4">
             Export Simplified
-          </v-btn>
-          <!-- Switch to toggle between detailed and simplified views -->
+          </v-btn> -->
+
+
+          <!-- Switch to toggle between detailed and simplified views with dynamic label -->
           <v-switch
             v-model="showSimplified"
-            label="Show Simplified View"
+            :label="switchLabel"
             class="mb-4"
           ></v-switch>
           <!-- Display either the full or simplified army details based on the switch -->
@@ -63,6 +67,9 @@ const showSimplified = ref(false);
 const formattedDetails = ref('');
 const simplifiedDetails = ref('');
 const armyStore = useArmyStorage();
+
+// Computed label for the switch
+const switchLabel = computed(() => (showSimplified.value ? "Simplified List" : "Complete List"));
 
 // Computed army data based on the provided index
 const army = computed(() => armyStore.armies[props.armyIndex]);
@@ -195,7 +202,7 @@ const formatUnitDetails = (unit) => {
 const copyToClipboard = () => {
   const details = showSimplified.value ? simplifiedDetails.value : formattedDetails.value;
   navigator.clipboard.writeText(details).then(() => {
-    alert(`${showSimplified.value ? 'Simplified' : 'Detailed'} list copied to clipboard!`);
+    // alert(`${showSimplified.value ? 'Simplified' : 'Detailed'} list copied to clipboard!`);
   });
 };
 

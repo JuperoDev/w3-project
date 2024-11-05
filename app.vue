@@ -14,14 +14,7 @@
 </script>
 
 <style>
-/* Updated CSS to allow scrolling but disable bounce effect */
-html, body {
-  overscroll-behavior-y: contain; /* Limits bounce effect without disabling scroll */
-  height: 100%;
-}
-
-.app-container {
-  overflow-y: auto; /* Enables vertical scrolling */
-  height: 100vh; /* Takes full viewport height for consistent behavior */
+:root {
+  overscroll-behavior: none;
 }
 </style>

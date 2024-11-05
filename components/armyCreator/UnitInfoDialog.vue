@@ -160,7 +160,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const props = defineProps({
   url: {
@@ -174,6 +174,21 @@ const jsonData = ref(null);
 
 const openDialog = () => {
   dialog.value = true;
+
+  // Push a new state to the history
+  history.pushState(null, '', window.location.href);
+
+  // Listen to the popstate event
+  window.addEventListener('popstate', closeDialogOnBack);
+};
+
+const closeDialogOnBack = () => {
+  if (dialog.value) {
+    dialog.value = false;
+
+    // Prevent going back in history by pushing the state again
+    history.pushState(null, '', window.location.href);
+  }
 };
 
 onMounted(async () => {
@@ -183,6 +198,11 @@ onMounted(async () => {
   } catch (error) {
     console.error('Error fetching data:', error);
   }
+});
+
+onBeforeUnmount(() => {
+  // Remove the popstate event listener to avoid memory leaks
+  window.removeEventListener('popstate', closeDialogOnBack);
 });
 </script>
 

@@ -47,7 +47,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, onBeforeUnmount } from 'vue';
 
 const props = defineProps({
   title: {
@@ -97,11 +97,29 @@ const filteredUnits = computed(() => {
 
 const openDialog = () => {
   dialog.value = true;
+
+  // Push a new state to the history
+  history.pushState(null, '', window.location.href);
+
+  // Listen for the popstate event
+  window.addEventListener('popstate', closeDialogOnBack);
 };
 
 const closeDialog = () => {
   dialog.value = false;
   emit('close');
+
+  // Remove the popstate listener when closing the dialog
+  window.removeEventListener('popstate', closeDialogOnBack);
+};
+
+const closeDialogOnBack = () => {
+  if (dialog.value) {
+    closeDialog();
+
+    // Prevent going back in history by pushing the state again
+    history.pushState(null, '', window.location.href);
+  }
 };
 
 const generateUniqueId = () => {
@@ -116,6 +134,11 @@ const addUnit = (unit) => {
   };
   emit('add-unit', unitWithId);
 };
+
+onBeforeUnmount(() => {
+  // Clean up the popstate listener when the component is unmounted
+  window.removeEventListener('popstate', closeDialogOnBack);
+});
 </script>
 
 <style scoped>

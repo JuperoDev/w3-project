@@ -1,25 +1,27 @@
 <template>
-  <div>
-      <GeneralPurposePasswordProtection>   
+  <div class="app-container">
+    <GeneralPurposePasswordProtection>
       <NuxtLayout>
-
         <NuxtPage />
       </NuxtLayout>
-      
-     </GeneralPurposePasswordProtection>    
+    </GeneralPurposePasswordProtection>
     <GeneralPurposeScrollToTopArrow />
   </div>
 </template>
 
 <script setup>
-
+// No additional script setup needed
 </script>
 
 <style>
-
+/* Updated CSS to allow scrolling but disable bounce effect */
 html, body {
-  overflow: hidden;
+  overscroll-behavior-y: contain; /* Limits bounce effect without disabling scroll */
   height: 100%;
-  touch-action: none;
+}
+
+.app-container {
+  overflow-y: auto; /* Enables vertical scrolling */
+  height: 100vh; /* Takes full viewport height for consistent behavior */
 }
 </style>

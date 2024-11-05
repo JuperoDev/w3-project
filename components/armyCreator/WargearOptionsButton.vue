@@ -1,9 +1,6 @@
 <template>
   <div>
-    <!-- v-if="hasWargear" THIS CAN GO IN SPAN TO HIDE THE WARGEAR OPTIONS -->
     <span 
-    
-      
       class="text-sm text-blue-500 cursor-pointer hover:underline" 
       @click="dialog = true"
     >
@@ -68,7 +65,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from 'vue';
+import { ref, onMounted, watch, computed, onBeforeUnmount } from 'vue';
 
 const props = defineProps({
   url: { type: String, required: true },
@@ -85,6 +82,7 @@ const error = ref(null);
 const equipmentQuantities = ref({});
 const groupedWargear = ref([]);
 
+// Fetch data for wargear
 const fetchWargearData = async () => {
   try {
     const response = await fetch(props.url);
@@ -101,9 +99,9 @@ const fetchWargearData = async () => {
   }
 };
 
+// Initialize wargear quantities
 const initializeQuantities = (unitComposition) => {
   const grouped = {};
-
   unitComposition.forEach(composition => {
     const unitTypeKey = composition.unitType.toLowerCase();
     if (!grouped[unitTypeKey]) {
@@ -132,14 +130,11 @@ const initializeQuantities = (unitComposition) => {
 };
 
 const getUniqueKey = (miniature, item) => `${miniature.toLowerCase()}_${item}`;
-
 const getQuantity = (miniature, item) => equipmentQuantities.value[getUniqueKey(miniature, item)];
-
 const increaseQuantity = (miniature, item) => {
   const key = getUniqueKey(miniature, item);
   equipmentQuantities.value[key] = (equipmentQuantities.value[key] || 0) + 1;
 };
-
 const decreaseQuantity = (miniature, item) => {
   const key = getUniqueKey(miniature, item);
   if (equipmentQuantities.value[key] > 0) {
@@ -152,9 +147,29 @@ const saveWargear = () => {
   dialog.value = false;
 };
 
-onMounted(fetchWargearData);
+// Handle the 'popstate' event to close dialog instead of navigating back
+const handlePopState = () => {
+  if (dialog.value) {
+    dialog.value = false;
+    history.pushState(null, null); // Re-push state to avoid actual back navigation
+  }
+};
 
-watch(() => props.url, fetchWargearData);
+// Watch the dialog state to add or remove the history entry
+watch(dialog, (isOpen) => {
+  if (isOpen) {
+    history.pushState(null, null); // Push a new history entry
+    window.addEventListener('popstate', handlePopState); // Listen for back button
+  } else {
+    window.removeEventListener('popstate', handlePopState); // Remove listener
+  }
+});
+
+// Fetch data on mount and clean up on unmount
+onMounted(fetchWargearData);
+onBeforeUnmount(() => {
+  window.removeEventListener('popstate', handlePopState);
+});
 
 const hasWargear = computed(() => wargearOptions.value.length > 0);
 </script>

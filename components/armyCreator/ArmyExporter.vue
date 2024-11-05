@@ -1,19 +1,30 @@
 <template>
   <div>
+    <!-- Dialog for displaying Army details -->
     <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600" min-width="380px">
       <v-card>
         <v-card-title>
           <span class="headline">Army Details</span>
         </v-card-title>
         <v-card-text>
-          <v-btn @click="copyFormattedArmyDetails" class="mb-4">
+          <!-- Button to copy the currently displayed details (either formatted or simplified) -->
+          <v-btn @click="copyToClipboard" class="mb-4">
             Copy to Clipboard
           </v-btn>
+          <!-- Button specifically for exporting the simplified list -->
           <v-btn @click="copySimplifiedArmyDetails" class="mb-4">
             Export Simplified
           </v-btn>
-          <pre class="formatted-army-details">{{ formattedDetails }}</pre>
-          <pre class="formatted-army-details">{{ simplifiedDetails }}</pre>
+          <!-- Switch to toggle between detailed and simplified views -->
+          <v-switch
+            v-model="showSimplified"
+            label="Show Simplified View"
+            class="mb-4"
+          ></v-switch>
+          <!-- Display either the full or simplified army details based on the switch -->
+          <pre class="formatted-army-details">
+            {{ showSimplified ? simplifiedDetails : formattedDetails }}
+          </pre>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -23,6 +34,7 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
+    <!-- Button to open the export dialog -->
     <v-btn color="grey-darken-3 mt-4" @click="openDialog">
       EXPORT
     </v-btn>
@@ -33,6 +45,7 @@
 import { ref, computed } from 'vue';
 import { useArmyStorage } from '@/stores/armyStorage';
 
+// Props for army details and points
 const props = defineProps({
   armyIndex: {
     type: Number,
@@ -44,16 +57,19 @@ const props = defineProps({
   }
 });
 
+// Component state variables
 const dialog = ref(false);
+const showSimplified = ref(false);
 const formattedDetails = ref('');
 const simplifiedDetails = ref('');
 const armyStore = useArmyStorage();
 
-const army = computed(() => {
-  return armyStore.armies[props.armyIndex];
-});
+// Computed army data based on the provided index
+const army = computed(() => armyStore.armies[props.armyIndex]);
 
+// Functions to format the full and simplified details
 const formatArmyDetails = (army) => {
+  // Full army details format
   let result = `${army.name} (${props.totalPoints} Points)\n`;
   result += `Army: ${army.selectedArmy}\n`;
   result += `Detachment: ${army.selectedDetachment}\n`;
@@ -66,6 +82,7 @@ const formatArmyDetails = (army) => {
     });
   }
 
+  // Additional sections for other unit types (battleline, transports, etc.) follow similar patterns
   if (army.battlelineUnits.length > 0) {
     result += '\n + BATTLELINE + \n\n';
     army.battlelineUnits.forEach(unit => {
@@ -103,6 +120,7 @@ const formatArmyDetails = (army) => {
 };
 
 const formatSimplifiedArmyDetails = (army) => {
+  // Simplified army details format
   let result = `${army.name} (${props.totalPoints} Points)\n`;
   result += `Army: ${army.selectedArmy}\n`;
   result += `Detachment: ${army.selectedDetachment}\n`;
@@ -112,21 +130,15 @@ const formatSimplifiedArmyDetails = (army) => {
     result += '\n + CHARACTERS + \n\n';
     army.characterUnits.forEach(unit => {
       result += `${unit.unitName} (${unit.basicPoints} Points)`;
-      
-      // Indicate Warlord
-      if (unit.isWarlord) {
-        result += ` [Warlord]`;
-      }
-      
+      if (unit.isWarlord) result += ` [Warlord]`;
       result += '\n';
-      
-      // Add Enhancement if available
       if (unit.selectedEnhancement) {
         result += `  Enhancement: ${unit.selectedEnhancement.name} (${unit.selectedEnhancement.points} Points)\n`;
       }
     });
   }
 
+  // Simplified format for battleline and other units
   if (army.battlelineUnits.length > 0) {
     result += '\n + BATTLELINE + \n\n';
     army.battlelineUnits.forEach(unit => {
@@ -146,42 +158,29 @@ const formatSimplifiedArmyDetails = (army) => {
   return result.trim();
 };
 
-
+// Utility function to group allied units by army
 const groupAlliedUnitsByArmy = (units) => {
   return units.reduce((acc, unit) => {
     const army = unit.alliedArmy || 'Other';
-    if (!acc[army]) {
-      acc[army] = [];
-    }
+    if (!acc[army]) acc[army] = [];
     acc[army].push(unit);
     return acc;
   }, {});
 };
 
+// Function to format unit details, used in full army details
 const formatUnitDetails = (unit) => {
   let result = `${unit.unitName} (${unit.basicPoints} Points)\n`;
+  if (unit.isWarlord) result += `[Warlord]\n`;
 
-  if (unit.isWarlord) {
-    result += `[Warlord]\n`;
-  }
-
+  // Additional logic for unit composition and enhancements
   if (unit.composition && unit.composition.length > 0) {
     unit.composition.forEach(comp => {
       result += `• ${comp.quantity}x ${comp.unitType}\n`;
-
       const equipmentForType = Object.entries(unit.equipmentQuantities || {})
-        .filter(([key, quantity]) => {
-          const equipmentUnitType = key.split('_')[0].toLowerCase();
-          return equipmentUnitType === comp.unitType.toLowerCase() && quantity > 0;
-        })
-        .map(([key, quantity]) => {
-          const equipment = key.split('_')[1];
-          return `   ◦ ${quantity}x ${equipment}`;
-        });
-
-      if (equipmentForType.length > 0) {
-        result += equipmentForType.join('\n') + '\n';
-      }
+        .filter(([key, quantity]) => key.startsWith(comp.unitType) && quantity > 0)
+        .map(([key, quantity]) => `   ◦ ${quantity}x ${key.split('_')[1]}`);
+      if (equipmentForType.length > 0) result += equipmentForType.join('\n') + '\n';
     });
   }
 
@@ -192,20 +191,15 @@ const formatUnitDetails = (unit) => {
   return result.trim();
 };
 
-const copyFormattedArmyDetails = () => {
-  formattedDetails.value = formatArmyDetails(army.value);
-  navigator.clipboard.writeText(formattedDetails.value).then(() => {
-    alert('Army details copied to clipboard!');
+// Copy current view (formatted or simplified) to clipboard
+const copyToClipboard = () => {
+  const details = showSimplified.value ? simplifiedDetails.value : formattedDetails.value;
+  navigator.clipboard.writeText(details).then(() => {
+    alert(`${showSimplified.value ? 'Simplified' : 'Detailed'} list copied to clipboard!`);
   });
 };
 
-const copySimplifiedArmyDetails = () => {
-  simplifiedDetails.value = formatSimplifiedArmyDetails(army.value);
-  navigator.clipboard.writeText(simplifiedDetails.value).then(() => {
-    alert('Simplified list copied to clipboard!');
-  });
-};
-
+// Initial setup when dialog opens
 const openDialog = () => {
   formattedDetails.value = formatArmyDetails(army.value);
   simplifiedDetails.value = formatSimplifiedArmyDetails(army.value);

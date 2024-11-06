@@ -1,0 +1,178 @@
+{
+    "parentUnit": "Centurion Devastator Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Centurion Devastator Squads dominate the field of battle, their presence dictating the flow of action. They frequently operate with Stormraven Gunships, which transport the Space Marines inside their bulky warsuits to the next position, where they function as an armoured firebase to clear enemy-held positions of all opposition.",
+    "keywords": [
+        "infantry",
+        "imperium",
+        "centurion",
+        "centurion devastator squad"
+    ],
+    "attributes": [
+        {
+            "movement": 4,
+            "toughness": 7,
+            "save": 2,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 2,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Centurion bolters",
+            "modifiers": [
+                "rapid fire 3",
+                "twin-linked"
+            ],
+            "range": 24,
+            "attacks": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Centurion missile launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 36,
+            "attacks": "D3",
+            "strength": 9,
+            "armor-penetration": 2,
+            "damage": "D3",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Grav-cannon",
+            "modifiers": [
+                "anti-vehicle 2+"
+            ],
+            "range": 24,
+            "attacks": 3,
+            "strength": 6,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin heavy bolter",
+            "modifiers": [
+                "sustained hits 1",
+                "twin-linked"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin lascannon",
+            "modifiers": [
+                "twin-linked"
+            ],
+            "range": 48,
+            "strength": 12,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d6+1",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Decimator Protocols",
+                "description": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead"
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Assault Centurion sergeant",
+            "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion missile launcher.",
+            "items": ["centurion missile launcher"],
+            "hideInDatasheet":true
+        },
+        {"miniature":"Assault Centurion sergeant",
+            "description": "Any number of models can each have their grav-cannon replaced with one of the following",
+            "items": [
+                "twin heavy bolter",
+                "twin lascannon"
+            ],
+            "hideInDatasheet":true
+        },
+        {"miniature":"Assault Centurions",
+            "description": "Any number of models can each have their Centurion bolters replaced with 1 Centurion missile launcher.",
+            "items": ["centurion missile launcher"]
+        },
+        {"miniature":"Assault Centurions",
+            "description": "Any number of models can each have their grav-cannon replaced with one of the following",
+            "items": [
+                "twin heavy bolter",
+                "twin lascannon"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Centurion fists",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Devastator Centurion Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "grav-cannon", "Centurion bolters","Centurion fists"
+            ]
+        },
+        {
+            "unitType": "Devastator Centurions",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "grav-cannon", "Centurion bolters","Centurion fists"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points":185
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 370
+        }
+    ],
+    "additionalParameter": {}
+}

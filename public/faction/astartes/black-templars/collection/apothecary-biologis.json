@@ -1,0 +1,97 @@
+{
+      "parentUnit": "Apothecary biologis",
+    "factionKeyword": [
+        "adeptus astartes"
+    ], "leaderInfo": "You can attach this model to one of the above units even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths",
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Clad in Gravis armour, the Apothecary Biologis can advance through storms of enemy fire, vivispectrum at the ready to take bio-material samples for later analysis, whether that be xenos flesh, viral weapons casings or esoteric gene-tech.",
+    "keywords": [
+        "infantry",
+        "character",
+        "imperium",
+        "gravis",
+        "apothecary",
+        "biologis"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 5,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        " Heavy Intercessor Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Absolvor bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Surgical Precision:",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Vivispectrum:",
+                "description": "If this model’s unit destroys an enemy unit as the result of a melee attack, until the end of the battle, this model has an Objective Control characteristic of 9."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Apothecary Biologis",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "absolvor bolt pistol; close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 70
+        }
+    ],
+    "additionalParameter": {}
+}

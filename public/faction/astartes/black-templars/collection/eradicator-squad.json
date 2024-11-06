@@ -1,0 +1,133 @@
+{
+    "parentUnit": "Eradicator Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Before the molten ire of an Eradicator Squad, heavy armour and defended positions stand little chance. Eradicators wear the heavier Gravis-pattern of Mk X power armour, allowing them to stride unharmed through waves of incoming fire before bringing their own destructive weaponry to bear at close range.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "gravis",
+        "eradicator squad"
+    ],
+    "attributes": [
+        {
+            "movement": 5,
+            "toughness": 6,
+            "save": 3,
+            "wounds": 3,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Melta rifle",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "attacks": 1,
+            "strength": 9,
+            "armor-penetration": 4,
+            "damage": "D6",
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Multi-melta",
+            "modifiers": [
+                "heavy",
+                "melta 2"
+            ],
+            "range": 18,
+            "strength": 9,
+            "attacks": 2,
+            "ballistic-skills": 4,
+            "armor-penetration": 4,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Total Obliteration",
+                "description": "Each time a ranged attack made by a model in this unit targets a MONSTER or VEHICLE model, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Eradicators",
+            "description": "For every 3 models in this unit, 1 Eradicator’s melta rifle can be replaced with 1 multi-melta.",
+            "items": ["multi-melta"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Eradicator Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "melta rifle","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Eradicators",
+            "minQuantity": 2,
+            "maxQuantity": 5,
+            "equipment": [
+                "bolt pistol", "melta rifle","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,3
+            ],
+            "points": 100
+        },
+        {
+            "count": [
+                1,5
+            ],
+            "points": 200
+        }
+    ],
+    "additionalParameter": {}
+}

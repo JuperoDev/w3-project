@@ -1,0 +1,153 @@
+{
+    "parentUnit": "Eliminator Squad",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Eliminator Squads are peerless assassins, deadly marksmen who haunt the shadows of the battlefield unseen by the enemy. For hours they will lie in wait to take the perfect shot, their sophisticated scopes feeding them essential data to ensure they never fail to make the kill.",
+    "keywords": [
+        "infantry",
+        "grenades",
+        "imperium",
+        "phobos",
+        "eliminator squad"
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 2,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Bolt sniper rifle",
+            "modifiers": [
+                "heavy",
+                "precision"
+            ],
+            "range": 36,
+            "attacks": 1,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 3,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Instigator bolt carbine",
+            "modifiers": [
+                "precision"
+            ],
+            "range": 24,
+            "attacks": 1,
+            "strength": 4,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Las fusil",
+            "modifiers": [
+                "heavy"
+            ],
+            "range": 36,
+            "strength": 9,
+            "attacks": 1,
+            "ballistic-skills": 3,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Infiltrators",
+            "Stealth"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Reposition Under Covering Fire:",
+                "description": "In your Shooting phase , after this unit has shot, if it contains an Eliminator Sergeant equipped with an instigator bolt carbine, this unit can make a Normal move . If it does so, until the end of the turn, this unit is not eligible to declare a charge ."
+            },
+            {
+                "name": "Mark the Target:",
+                "description": "Each time this unit Remains Stationary , until the start of your next Movement phase , ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"Eliminator Sergeant",
+            "description": "The Eliminator Sergeant’s bolt sniper rifle can be replaced with one of the following",
+            "items": [
+                "instigator bolt carbine",
+                "las fusil"
+            ]
+        },
+        {"miniature":"Eliminator",
+            "description": "All Eliminators in this unit can each have their bolt sniper rifle replaced with 1 las fusil.",
+            "items": ["las fusil"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Eliminator Sergeant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol", "bolt sniper rifle","close combat weapon"
+            ]
+        },
+        {
+            "unitType": "Eliminators",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "equipment": [
+                "bolt pistol", "bolt sniper rifle","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1,2
+            ],
+            "points": 85
+        }
+    ],
+    "additionalParameter": {}
+}

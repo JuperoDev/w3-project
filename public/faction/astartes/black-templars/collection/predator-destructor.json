@@ -1,0 +1,155 @@
+{
+    "parentUnit": "Predator Destructor",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {
+        "remainingWounds": 4,
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "supremeCommander": false,
+    "lore": "Predator Destructors have served the Emperor for more than ten thousand years with resolute steadfastness, proving themselves by slaughtering hordes of enemy infantry, shattering assaults and laying waste to light vehicles. To the always-outnumbered Space Marines, their firepower has long been vital.",
+    "keywords": [
+        "vehicle",
+        "smoke",
+        "imperium",
+        "predator destructor"
+    ],
+    "attributes": [
+        {
+            "movement": 10,
+            "toughness": 10,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Heavy bolter",
+            "modifiers": [
+                "sustained hits 1"
+            ],
+            "range": 36,
+            "attacks": 3,
+            "strength": 5,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Hunter-killer missile",
+            "modifiers": [
+                "one shot"
+            ],
+            "range": 48,
+            "strength": 14,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 3,
+            "damage": "d6",
+            "singleChoice": false
+        },
+        {
+            "name": "Lascannon",
+            "range": 48,
+            "modifiers": [],
+            "attacks": 1,
+            "strength": 12,
+            "armor-penetration": 3,
+            "damage": "D6+1",
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Predator autocannon",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 48,
+            "attacks": 4,
+            "strength": 9,
+            "armor-penetration": 1,
+            "damage": 3,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Storm bolter",
+            "modifiers": [
+                "rapid fire 2"
+            ],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Destructor",
+                "description": "Each time this model makes a ranged attack that targets an INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"predator destructor",
+            "description": "This model can be equipped with one of the following",
+            "items": [
+                "2 heavy bolters",
+                "2 lascannons"
+            ]
+        },
+        {"miniature":"predator destructor",
+            "description": "This model can be equipped with 1 hunter-killer missile.",
+            "items": ["hunter-killer missile"]
+        },
+        {"miniature":"predator destructor",
+            "description": "This model can be equipped with 1 storm bolter.",
+            "items": ["storm bolter"]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Armoured tracks",
+            "modifiers": [],
+            "attacks": 3,
+            "weapons-skills": 4,
+            "strength": 6,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Predator Destructor",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "Predator autocannon","armoured tracks"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 130
+        }
+    ],
+    "additionalParameter": {}
+}

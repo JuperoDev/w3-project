@@ -1,0 +1,115 @@
+{
+    "parentUnit": "Storm Speeder Hailstrike",
+    "factionKeyword": [
+        "adeptus astartes"
+    ],
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "The Hailstrike is so heavily armed that it can annihilate entire swathes of infantry in fusillades of blistering projectiles. Speeding over the battlefield, its specialised loadout shatters charging formations and shreds barricades and defences.",
+    "keywords": [
+        "vehicle",
+        "fly",
+        "imperium",
+        "storm speeder hailstrike"
+    ],
+    "attributes": [
+        {
+            "movement": 14,
+            "toughness": 9,
+            "save": 3,
+            "wounds": 11,
+            "leadership": 6,
+            "objetiveControl": 3,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [],
+    "rangedWeapons": [
+        {
+            "name": "Fragstorm grenade launcher",
+            "modifiers": [
+                "blast"
+            ],
+            "range": 18,
+            "attacks": "D6",
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Onslaught gatling cannon",
+            "modifiers": [
+                "devastating wounds"
+            ],
+            "range": 24,
+            "attacks": 8,
+            "strength": 5,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false,
+            "ballistic-skills": 3
+        },
+        {
+            "name": "Twin ironhail heavy stubber",
+            "modifiers": [
+                "rapid fire 3",
+                "twin-linked"
+            ],
+            "range": 36,
+            "strength": 4,
+            "attacks": 3,
+            "ballistic-skills": 3,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Deadly Demise D3",
+            "Deep Strike"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Hailstrike:",
+                "description": "Each time this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES ) hit by one or more of those attacks. Until the end of the phase, each time a friendly adeptus astartes unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+            }
+        ]
+    },
+    "wargear": [],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 3,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Storm Speeder Hailstrike",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "2 fragstorm grenade launchers", "onslaught gatling cannon", "twin ironhail heavy stubber","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 115
+        }
+    ],
+    "additionalParameter": {}
+}

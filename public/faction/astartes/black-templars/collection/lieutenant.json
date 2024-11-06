@@ -1,0 +1,215 @@
+{
+      "parentUnit": "Lieutenant",
+    "factionKeyword": [
+        "adeptus astartes"
+    ], "leaderInfo": "You can attach this model to one of the above units even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths",
+    "damaged": {},
+    "supremeCommander": false,
+    "lore": "Lieutenants, in addition to being extremely able tacticians and strategists, are highly skilled warriors. Experts in all the lethal weaponry of the battle-brothers they so often command and fight alongside, they bellow orders and coordinate their brothers’ attacks even as they strike at the foe with their own arsenal of powerful weapons.",
+    "keywords": [
+        "infantry",
+        "character",
+        "grenades",
+        "imperium",
+        "tacticus",
+        "lieutenant"
+    ],
+    "warGearAbilities": [
+        {
+            "wargear": "Storm Shield",
+            "ability": "The bearer has a 4+ invulnerable Save"
+        }
+    ],
+    "attributes": [
+        {
+            "movement": 6,
+            "toughness": 4,
+            "save": 3,
+            "wounds": 4,
+            "leadership": 6,
+            "objetiveControl": 1,
+            "invulnerableSave": 0
+        }
+    ],
+    "leader": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Company Heroes",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+    ],
+    "rangedWeapons": [
+        {
+            "name": "Bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Heavy bolt pistol",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 18,
+            "strength": 4,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 1,
+            "singleChoice": false
+        },
+        {
+            "name": "Master-crafted boltgun",
+            "modifiers": [],
+            "range": 24,
+            "strength": 4,
+            "attacks": 2,
+            "ballistic-skills": 2,
+            "armor-penetration": 1,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Neo-volkite pistol",
+            "modifiers": [
+                "devastating wounds",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 5,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 0,
+            "damage": 2,
+            "singleChoice": false
+        },
+        {
+            "name": "Plasma pistol - standard",
+            "modifiers": [
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 7,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 1,
+            "singleChoice": true
+        },
+        {
+            "name": "Plasma pistol - supercharge",
+            "modifiers": [
+                "hazardous",
+                "pistol"
+            ],
+            "range": 12,
+            "strength": 8,
+            "attacks": 1,
+            "ballistic-skills": 2,
+            "armor-penetration": 2,
+            "damage": 2,
+            "singleChoice": true
+        }
+    ],
+    "abilities": {
+        "core": [
+            "Leader"
+        ],
+        "faction": [
+            "Oath of Moment"
+        ],
+        "otherAbilities": [
+            {
+                "name": "Tactical Precision:",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+            },
+            {
+                "name": "Target Priority:",
+                "description": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back ."
+            }
+        ]
+    },
+    "wargear": [
+        {"miniature":"",
+            "description": "This model’s master-crafted bolter can be replaced with one of the following",
+            "items": [
+                "plasma pistol",
+                "master-crafted power weapon",
+                "power fist"
+            ]
+        },
+        {"miniature":"lieutenant",
+            "description": "This model’s bolt pistol, master-crafted bolter and close combat weapon can be replaced with 1 neo volkite pistol, 1 master-crafted power weapon and 1 storm shield.",
+            "items": ["1 neo volkite pistol", "1 master-crafted power weapon", "storm shield"]
+        },
+        {"miniature":"lieutenant",
+            "description": "This model’s bolt pistol can be replaced with 1 heavy bolt pistol.",
+            "items": ["heavy bolt pistol"]
+        },
+        {"miniature":"lieutenant",
+            "description": "This model’s close combat weapon can be replaced with one of the following",
+            "items": [
+                "master-crafted power weapon",
+                "power fist"
+            ]
+        }
+    ],
+    "meleeWeapons": [
+        {
+            "name": "Close combat weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 4,
+            "armor-penetration": 0,
+            "damage": 1
+        },
+        {
+            "name": "Master-crafted power weapon",
+            "modifiers": [],
+            "attacks": 5,
+            "weapons-skills": 2,
+            "strength": 5,
+            "armor-penetration": 2,
+            "damage": 2
+        },
+        {
+            "name": "Power fist",
+            "modifiers": [],
+            "attacks": 4,
+            "weapons-skills": 2,
+            "strength": 8,
+            "armor-penetration": 2,
+            "damage": 2
+        }
+    ],
+    "unitComposition": [
+        {
+            "unitType": "Lieutenant",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "equipment": [
+                "bolt pistol","master-crafted bolter","close combat weapon"
+            ]
+        }
+    ],
+    "options": [
+        {
+            "count": [
+                1
+            ],
+            "points": 65
+        }
+    ],
+    "additionalParameter": {}
+}

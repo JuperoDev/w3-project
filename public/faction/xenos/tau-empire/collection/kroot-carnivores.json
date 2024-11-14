@@ -28,7 +28,7 @@
         {
             "name": "Tanglebomb launcher",
             "modifiers": [
-               "blast"
+                "blast"
             ],
             "range": 24,
             "strength": 5,
@@ -66,9 +66,7 @@
         },
         {
             "name": "Kroot carbine",
-            "modifiers": [
-               
-            ],
+            "modifiers": [],
             "range": 18,
             "strength": 4,
             "attacks": 1,
@@ -91,7 +89,22 @@
             }
         ]
     },
-    "wargear": [],
+    "wargear": [
+        {
+            "miniature": "Long-quill",
+            "description": "The Long-quill’s Kroot rifle can be replaced with 1 Kroot carbine",
+            "items": [
+                "Kroot carbine"
+            ]
+        },
+        {
+            "miniature": " Kroot Carnivores",
+            "description": "For every 10 models in this unit, one Kroot Carnivore’s Kroot rifle can be replaced with 1 Tanglebomb launcher.",
+            "items": [
+                "Tanglebomb launcher"
+            ]
+        }
+    ],
     "meleeWeapons": [
         {
             "name": "Close combat weapon",
@@ -118,7 +131,9 @@
             "minQuantity": 1,
             "maxQuantity": 1,
             "equipment": [
-                "Kroot pistol","Kroot rifle","close combat weapon."
+                "Kroot pistol",
+                "Kroot rifle",
+                "close combat weapon."
             ]
         },
         {
@@ -126,20 +141,23 @@
             "minQuantity": 9,
             "maxQuantity": 19,
             "equipment": [
-                "Kroot rifle","close combat weapon."
+                "Kroot rifle",
+                "close combat weapon."
             ]
         }
     ],
     "options": [
         {
             "count": [
-                1,9
+                1,
+                9
             ],
             "points": 65
         },
         {
             "count": [
-                1,19
+                1,
+                19
             ],
             "points": 130
         }

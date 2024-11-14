@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-50 m-2 p-2  rounded-lg shadow-md text-zinc-900">
-    <div class="armyType__container  bg-zinc-700 text-white flex justify-between items-center p-2 sticky-container">
+  <div class="bg-gray-50 m-2 p-2 rounded-lg shadow-md text-zinc-900">
+    <div class="armyType__container bg-zinc-700 text-white flex justify-between items-center p-2 sticky-container">
       <div class="armytype-button__container">
         <div class="flex items-center">
           <h2 class="text-lg font-semibold mr-3">Characters</h2>
@@ -28,6 +28,9 @@
               <p v-if="unit.composition">
                 {{ getCompositionString(unit.composition) }}
               </p>
+              <span v-if="unit.cannotBeWarlord" class="text-red-500 text-xs">
+                Cannot be Warlord
+              </span>
             </span>
           </div>
           <div class="flex items-center mt-2 space-x-2">
@@ -42,10 +45,9 @@
               :unitName="unit.unitName"
               @update-wargear-quantities="updateWargearQuantities(unit.id, $event)"
             />
-            <span class="text-sm text-blue-500 cursor-pointer hover:underline" @click="toggleWarlord(unit.id)">
+            <span class="text-sm text-blue-500 cursor-pointer hover:underline" @click="toggleWarlord(unit.id)" v-if="!unit.cannotBeWarlord">
               {{ unit.isWarlord ? '' : 'Set as Warlord' }}
             </span>
-            <!-- Duplicate Unit Button -->
             <DuplicateUnit @duplicate-unit="duplicateUnit(unit)" />
           </div>
           <template v-if="!unit.isEpicHero">
@@ -169,7 +171,8 @@ const addUnitToArmy = async (unit) => {
         return acc;
       }, {}),
       unitTypes: unitData.unitComposition.map(comp => comp.unitType),
-      isWarlord: false
+      isWarlord: false,
+      cannotBeWarlord: unitData.cannotBeWarlord || false // <-- Added here to fetch and include in unit
     };
 
     armyStore.addCharacterUnitToArmy(props.armyIndex, unitWithId);
@@ -258,38 +261,28 @@ const updateWargearQuantities = (unitId, quantities) => {
   }
 };
 
-// Duplicate the unit with a new ID and exclude the enhancement
 const duplicateUnit = (unit) => {
   const uniqueId = Date.now().toString(36) + Math.random().toString(36).substr(2);
-
-  // Create a deep clone of the unit and assign a new ID, but reset `selectedEnhancement`
   const duplicatedUnit = {
     ...unit,
     id: uniqueId,
     equipmentQuantities: { ...unit.equipmentQuantities },
     composition: unit.composition.map((comp) => ({ ...comp })),
-    selectedEnhancement: null // Exclude the enhancement during duplication
+    selectedEnhancement: null
   };
 
-  // Push the duplicated unit into the store
   armyStore.addCharacterUnitToArmy(props.armyIndex, duplicatedUnit);
-
-  // Sync the UI with the updated store
   syncArmyWithStore();
 };
 
 const toggleWarlord = (unitId) => {
   const unitIndex = army.value.findIndex(unit => unit.id === unitId);
   if (unitIndex !== -1) {
-    // Remove warlord status from all units
     army.value.forEach(unit => {
       unit.isWarlord = false;
     });
 
-    // Set the new warlord
     army.value[unitIndex].isWarlord = true;
-
-    // Update all units in the store
     army.value.forEach(unit => {
       armyStore.updateCharacterUnitInArmy(props.armyIndex, unit.id, unit);
     });
@@ -309,9 +302,6 @@ watch(() => props.armyIndex, loadUnits);
 .mb-4 {
   margin-bottom: 1rem;
 }
-</style>
-
-<style scoped>
 .sticky-container {
   position: -webkit-sticky;
   position: sticky;

@@ -20,21 +20,20 @@
         <v-card-text>
           <!-- List of units -->
           <div v-for="unit in filteredUnits" :key="unit.unitName" class="mb-2 grid grid-cols-4  border-b-2 pb-4">
-            <div class="col-left col-span-3 pr-2"><p><strong>{{ unit.unitName }} <br/></strong> {{ unit.basicPoints }} points</p>
-              <p>Count in army: {{ unitCounts[unit.unitName] || 0 }}</p></div>
-
-              
-            <div class="col-right flex flex-row-reverse">
-              
-              <!-- <v-btn small @click="() => addUnit(unit)" class="mb-2 ">Add</v-btn> -->
-            <div class="py-5">
-              <button @click="() => addUnit(unit)" class="unitdialog__add-plus-button border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded   mr-3 text-sm">
-      +
-    </button>
-  </div>
-            
+            <div class="col-left col-span-3 pr-2">
+              <p><strong>{{ unit.unitName }} <br/></strong> {{ unit.basicPoints }} points</p>
+              <p>Count in army: {{ unitCounts[unit.unitName] || 0 }}</p>
+              <p v-if="unit.cannotBeWarlord" class="text-red-500 text-sm">
+                Cannot be Warlord
+              </p>
             </div>
-            
+            <div class="col-right flex flex-row-reverse">
+              <div class="py-5">
+                <button @click="() => addUnit(unit)" class="unitdialog__add-plus-button border-solid border-1 border-white bg-zinc-800 hover:bg-zinc-950 text-white font-bold py-1 px-2 rounded mr-3 text-sm">
+                  +
+                </button>
+              </div>
+            </div>
           </div>
         </v-card-text>
         <v-card-actions>
@@ -130,7 +129,8 @@ const addUnit = (unit) => {
   const unitWithId = {
     ...unit,
     id: generateUniqueId(),
-    type: props.title.replace('Select ', '')
+    type: props.title.replace('Select ', ''),
+    cannotBeWarlord: unit.cannotBeWarlord || false // Add cannotBeWarlord property
   };
   emit('add-unit', unitWithId);
 };

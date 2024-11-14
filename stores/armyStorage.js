@@ -36,6 +36,7 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.characterUnits.push({
           ...unit,
           basicPoints: parseInt(unit.basicPoints) || 0,
+          cannotBeWarlord: unit.cannotBeWarlord || false,
           selectedEnhancement: unit.selectedEnhancement
             ? {
                 ...unit.selectedEnhancement,
@@ -69,6 +70,7 @@ export const useArmyStorage = defineStore('armyStorage', {
           ...army.characterUnits[unitIndex],
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0,
+          cannotBeWarlord: updatedUnit.cannotBeWarlord || false,
           selectedEnhancement: updatedUnit.selectedEnhancement
             ? {
                 ...updatedUnit.selectedEnhancement,
@@ -87,6 +89,7 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.battlelineUnits.push({
           ...unit,
           basicPoints: parseInt(unit.basicPoints) || 0,
+          cannotBeWarlord: unit.cannotBeWarlord || false,
         });
         this.saveArmies();
       }
@@ -114,6 +117,7 @@ export const useArmyStorage = defineStore('armyStorage', {
           ...army.battlelineUnits[unitIndex],
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0,
+          cannotBeWarlord: updatedUnit.cannotBeWarlord || false,
         };
         this.saveArmies();
       }
@@ -126,6 +130,7 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.otherUnits.push({
           ...unit,
           basicPoints: parseInt(unit.basicPoints) || 0,
+          cannotBeWarlord: unit.cannotBeWarlord || false,
           equipmentQuantities: unit.equipmentQuantities || {},
           wargearAbilities: unit.wargearAbilities || {},
         });
@@ -155,6 +160,7 @@ export const useArmyStorage = defineStore('armyStorage', {
           ...army.otherUnits[unitIndex],
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0,
+          cannotBeWarlord: updatedUnit.cannotBeWarlord || false,
           equipmentQuantities: updatedUnit.equipmentQuantities || {},
           wargearAbilities: updatedUnit.wargearAbilities || {},
         };
@@ -169,6 +175,7 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.dedicatedTransportUnits.push({
           ...unit,
           basicPoints: parseInt(unit.basicPoints) || 0,
+          cannotBeWarlord: unit.cannotBeWarlord || false,
         });
         this.saveArmies();
       }
@@ -196,6 +203,7 @@ export const useArmyStorage = defineStore('armyStorage', {
           ...army.dedicatedTransportUnits[unitIndex],
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0,
+          cannotBeWarlord: updatedUnit.cannotBeWarlord || false,
         };
         this.saveArmies();
       }
@@ -208,6 +216,7 @@ export const useArmyStorage = defineStore('armyStorage', {
         army.alliedUnits.push({
           ...unit,
           basicPoints: parseInt(unit.basicPoints) || 0,
+          cannotBeWarlord: unit.cannotBeWarlord || false,
         });
         this.saveArmies();
       }
@@ -235,6 +244,7 @@ export const useArmyStorage = defineStore('armyStorage', {
           ...army.alliedUnits[unitIndex],
           ...updatedUnit,
           basicPoints: parseInt(updatedUnit.basicPoints) || 0,
+          cannotBeWarlord: updatedUnit.cannotBeWarlord || false,
         };
         this.saveArmies();
       }
@@ -280,7 +290,6 @@ export const useArmyStorage = defineStore('armyStorage', {
     // The updated method to replace the army object
     updateArmyDetails(armyIndex, details) {
       const army = this.armies[armyIndex];
-      // Replace the entire army object to ensure reactivity
       this.armies[armyIndex] = { ...army, ...details };
       this.saveArmies();
     },
